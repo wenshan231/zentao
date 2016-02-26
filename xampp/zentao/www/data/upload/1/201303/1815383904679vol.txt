@@ -1,0 +1,413 @@
+--------- beginning of /dev/log/system
+03-18 14:59:30.894 D/NetworkPolicy(  381): setNetworkTemplateEnabled(): match rule = 1
+03-18 14:59:30.894 D/MobileDataStateTracker(  381): default: setPolicyDataEnable(enabled=true)
+--------- beginning of /dev/log/main
+03-18 14:59:31.145 D/MediaControler( 2469): getCurrentPos:960
+03-18 14:59:31.155 D/VideoPlayer( 2469): MSG_GET_PLAY_STATE curPos:960/isSeeking:false
+03-18 14:59:31.155 E/MediaControler( 2469): getDuration:5949000
+03-18 14:59:31.155 I/VideoPlayer( 2469): duration:5949
+03-18 14:59:31.155 D/VideoPlayer( 2469): onProgressChanged progress:0
+03-18 14:59:31.155 D/VideoPlayer( 2469): update time View:5949
+03-18 14:59:31.155 E/MediaControler( 2469): seek:2999000
+03-18 14:59:31.155 D/VideoPlayer( 2469): onProgressChanged progress:2999
+03-18 14:59:31.155 D/VideoPlayer( 2469): update time View:5949
+03-18 14:59:31.155 D/MediaControler( 2469): getCurrentPos:2999000
+03-18 14:59:31.275 V/AudioFlinger(  118): getNextBuffer() no more data for track 4096 on thread 0x41c8d580
+03-18 14:59:31.375 I/LiveSession(  118): seeking to seq no 600
+03-18 14:59:31.375 E/VideoPlayer( 2469): onSeekComplete
+03-18 14:59:31.375 V/ChromiumHTTPDataSource(  118): connect on behalf of uid 10052
+03-18 14:59:31.375 I/ChromiumHTTPDataSource(  118): connect to http://vod.feifeikan.com/vod/coshipottTWSX1230000000000017_800/601.ts @0
+03-18 14:59:31.845 V/AudioFlinger(  118): getNextBuffer() no more data for track 4096 on thread 0x41c8d580
+03-18 14:59:32.146 D/MediaControler( 2469): getCurrentPos:1922
+03-18 14:59:32.146 D/VideoPlayer( 2469): MSG_GET_PLAY_STATE curPos:1922/isSeeking:true
+03-18 14:59:32.366 V/AudioFlinger(  118): BUFFER TIMEOUT: remove(4096) from active list on thread 0x41c8d580
+03-18 14:59:32.456 I/LiveSession(  118): queueing discontinuity (seek=1, explicit=0, bandwidthChanged=1)
+03-18 14:59:32.456 V/ChromiumHTTPDataSource(  118): connect on behalf of uid 10052
+03-18 14:59:32.456 I/ChromiumHTTPDataSource(  118): connect to http://vod.feifeikan.com/vod/coshipottTWSX1230000000000017_800/602.ts @0
+03-18 14:59:32.466 I/NuPlayer(  118): video discontinuity (formatChange=1, time=1)
+03-18 14:59:32.466 D/brcm-vd (  118): [video_decoder__openmax_main]: flushing input(1)/output(1) port for 0x52279e70
+03-18 14:59:32.466 D/brcm-vd (  118): [video_decoder__check_complete]: flush input port completed
+03-18 14:59:32.466 D/brcm-vd (  118): [video_decoder__check_complete]: flush output port completed
+03-18 14:59:32.466 I/NuPlayer(  118): audio discontinuity (formatChange=1, time=1)
+03-18 14:59:32.466 I/BRCM-OMX(  118): [OMX.brcm.audio.aac.decoder]:processFlush: Process Flush in Base Auio Dec triggers reset on the codec API
+03-18 14:59:32.466 I/BRCM-OMX(  118): [OMX.brcm.audio.aac.decoder]:processFlush: Process Flush in Base Auio Dec triggers reset on the codec API
+03-18 14:59:32.466 D/brcm-vd (  118): [video_decoder__check_complete]: state changing completed
+03-18 14:59:32.466 D/brcm-vd (  118): [video_decoder__FreeBuffer]: deallocated 0x43e4e3c0 (5eec5800)
+03-18 14:59:32.466 D/brcm-vd (  118): [video_decoder__FreeBuffer]: deallocated 0x41ca9e40 (5ee5e600)
+03-18 14:59:32.466 D/brcm-vd (  118): [video_decoder__FreeBuffer]: deallocated 0x47444a00 (5edf7400)
+03-18 14:59:32.466 D/brcm-vd (  118): [video_decoder__FreeBuffer]: deallocated 0x4199b250 (5ed90200)
+03-18 14:59:32.466 D/brcm-vd (  118): [video_decoder__FreeBuffer]: deallocated 0x41caaa50 (5ed29000)
+03-18 14:59:32.466 D/brcm-vd (  118): [video_decoder__openmax_main]: OMX_CommandStateSet - loaded, ready to set/get
+03-18 14:59:32.466 D/brcm-vd (  118): [video_decoder__openmax_main]: state changed ( 0, 1 )
+03-18 14:59:32.466 D/brcm-vd (  118): [video_decoder__FreeBuffer]: deallocated 0x47445e60 (8000000f)
+03-18 14:59:32.466 D/brcm-vd (  118): [video_decoder__FreeBuffer]: deallocated 0x419b9f10 (80000010)
+03-18 14:59:32.466 D/brcm-vd (  118): [video_decoder__FreeBuffer]: deallocated 0x5bfa6e60 (80000015)
+03-18 14:59:32.466 D/brcm-vd (  118): [video_decoder__FreeBuffer]: deallocated 0x4199ce10 (8000000d)
+03-18 14:59:32.466 D/brcm-vd (  118): [video_decoder__FreeBuffer]: deallocated 0x4d5a8320 (8000000e)
+03-18 14:59:32.466 V/component_tracker(  118): [unregister_component]: Removing decoder (0x4b80bc60) at slot 0
+03-18 14:59:32.466 V/component_tracker(  118): [unregister_component]: Clearing decoder at slot 0
+03-18 14:59:32.466 D/brcm-vd (  118): [video_decoder__openmax_main]: thread exiting
+03-18 14:59:32.476 I/BRCM-OMX(  118): [OMX.brcm.audio.aac.decoder]:processFlush: Process Flush in Base Auio Dec triggers reset on the codec API
+03-18 14:59:32.476 I/BRCM-OMX(  118): [OMX.brcm.audio.aac.decoder]:processFlush: Process Flush in Base Auio Dec triggers reset on the codec API
+03-18 14:59:32.476 I/BRCM-OMX(  118): [OMX.brcm.audio.aac.decoder]:bufferHandler: PORT-0: BufferHandler thread exiting....
+03-18 14:59:32.476 I/BRCM-OMX(  118): [OMX.brcm.audio.aac.decoder]:bufferHandler: PORT-1: BufferHandler thread exiting....
+03-18 14:59:32.476 W/BRCM-OMXAudioPort(  118): [OMX.brcm.audio.aac.decoder]:isPopulated: PORT-0,  Populated state <0>
+03-18 14:59:32.476 W/BRCM-OMXAudioPort(  118): [OMX.brcm.audio.aac.decoder]:isPopulated: PORT-1,  Populated state <1>
+03-18 14:59:32.476 W/BRCM-OMXAudioPort(  118): [OMX.brcm.audio.aac.decoder]:isPopulated: PORT-1,  Populated state <0>
+03-18 14:59:32.476 I/BRCM-OMX(  118): ([OMX.brcm.audio.aac.decoder]:codecSyncHandler: codecSyncHandler thread exiting....
+03-18 14:59:32.476 I/BRCM-OMX(  118): [OMX.brcm.audio.aac.decoder]:commandHandler: CommandHandler thread exiting....
+03-18 14:59:32.486 I/avc_utils(  118): found AVC codec config (960 x 440, High-profile level 5.0)
+03-18 14:59:32.496 D/stagefright_omx_plugin(  118): makeComponentInstance ( OMX.BRCM.vc4.decoder.avc )
+03-18 14:59:32.496 V/component_tracker(  118): [register_component]: Adding decoder (0x53f92d10) at 0, w:0 h:0
+03-18 14:59:32.496 I/brcm-vd (  118): [video_decoder_create_component_internal]: making a component of type vc.video_decode
+03-18 14:59:32.496 D/brcm-vd (  118): [video_decoder_create_component_internal]: created with event
+03-18 14:59:32.496 D/stagefright_omx_plugin(  118): video_decoder_create_component ( 0 )
+03-18 14:59:32.496 D/brcm-vd (  118): [video_decoder__GetParameter]: format [in] = 7, 0, 0
+03-18 14:59:32.496 D/brcm-vd (  118): [video_decoder__SetParameter]: format [in] = 7, 0, 0, mmal fmt H264
+03-18 14:59:32.496 D/brcm-vd (  118): [video_decoder__GetParameter]: format [out] = 0, 19, 0
+03-18 14:59:32.496 D/brcm-vd (  118): video_decoder__SetParameter:1839: mapped color format 13 to mmal I420
+03-18 14:59:32.496 D/brcm-vd (  118): [video_decoder__SetParameter]: format [out] = 0, 19, 0, mmal fmt I420
+03-18 14:59:32.496 D/brcm-vd (  118): [video_decoder__GetParameter]: port-def [in] = 2048/2048, 5/1, 7, 0, 0x0/0x0
+03-18 14:59:32.496 D/brcm-vd (  118): [video_decoder__SetParameter]: port-def [in] = increasing buffer size 2048 -> 422400, for 5 element(s)
+03-18 14:59:32.496 D/brcm-vd (  118): [video_decoder__SetParameter]: port-def [in] = 422400/2048, 5/1, [7, 0] (H264), 960x440/0x0
+03-18 14:59:32.496 V/component_tracker(  118): [register_component]: Updating decoder (0x53f92d10) at 0, was w:0 h:0 now w:960 h:440
+03-18 14:59:32.496 D/brcm-vd (  118): [video_decoder__GetParameter]: port-def [out] = 645120/645120, 4/1, 0, 19, 960x448/960x448
+03-18 14:59:32.496 D/brcm-vd (  118): video_decoder__SetParameter:1903: mapped color format 13 to mmal I420
+03-18 14:59:32.496 D/brcm-vd (  118): [video_decoder__SetParameter]: port-def [out] = 645120/645120, 4/1, [0, 19] (I420), 960x440/960x448
+03-18 14:59:32.496 V/component_tracker(  118): [register_component]: Updating decoder (0x53f92d10) at 0, was w:960 h:440 now w:960 h:440
+03-18 14:59:32.496 E/brcm-vd (  118): [video_decoder__SetParameter]: updated mmal decoder output format to OPQV
+03-18 14:59:32.496 D/brcm-vd (  118): [video_decoder__SetParameter]: enable-native-window [out] = YES
+03-18 14:59:32.506 D/brcm-vd (  118): [video_decoder__GetParameter]: port-def [in] = 422400/2048, 5/1, 7, 0, 960x448/0x448
+03-18 14:59:32.506 D/brcm-vd (  118): [video_decoder__UseBuffer]: allocated 0x503bfc40, 0x5e45a000(422400) input port
+03-18 14:59:32.506 D/brcm-vd (  118): [video_decoder__UseBuffer]: allocated 0x4d5a8320, 0x5e4c1200(422400) input port
+03-18 14:59:32.506 D/brcm-vd (  118): [video_decoder__UseBuffer]: allocated 0x4199ce10, 0x5e528400(422400) input port
+03-18 14:59:32.506 D/brcm-vd (  118): [video_decoder__UseBuffer]: allocated 0x5bfa6e60, 0x5e58f600(422400) input port
+03-18 14:59:32.506 D/brcm-vd (  118): [video_decoder__UseBuffer]: allocated 0x41caaa50, 0x5e5f6800(422400) input port
+03-18 14:59:32.506 D/brcm-vd (  118): [video_decoder__GetParameter]: port-def [out] = 64/64, 4/3, 0, 258, 960x440/0x0
+03-18 14:59:32.506 D/brcm-vd (  118): [video_decoder__GetParameter]: get-android-native-buf-usage [out] = 0x0
+03-18 14:59:32.516 I/BRCM-OMX(  118): [OMX.brcm.audio.aac.decoder]:OMX_BaseComponentSync: SYNC interface
+03-18 14:59:32.516 I/BRCM-OMX(  118): [OMX.brcm.audio.aac.decoder]:startCommandHandler: Started commandHandler thread...
+03-18 14:59:32.516 I/BRCM-OMX(  118): [OMX.brcm.audio.aac.decoder]:startCodecSyncHandler: Started CodecSyncHandler thread...
+03-18 14:59:32.516 D/brcm-vd (  118): video_decoder__SetParameter:1903: mapped color format 102 to mmal OPQV
+03-18 14:59:32.516 I/BRCM-OMX(  118): [OMX.brcm.audio.aac.decoder]:setVendorExtParamHandler: index <OMX_IndexEnableNativeBuffers>, portIdx <1> enable <0>
+03-18 14:59:32.516 W/BRCM-OMXAudioPort(  118): [OMX.brcm.audio.aac.decoder]:isPopulated: PORT-0,  Populated state <0>
+03-18 14:59:32.516 D/brcm-vd (  118): [video_decoder__SetParameter]: port-def [out] = 64/64, 5/3, [0, 258] (OPQV), 960x440/0x0
+03-18 14:59:32.516 V/component_tracker(  118): [register_component]: Updating decoder (0x53f92d10) at 0, was w:960 h:440 now w:960 h:440
+03-18 14:59:32.516 W/BRCM-OMXAudioPort(  118): [OMX.brcm.audio.aac.decoder]:isPopulated: PORT-0,  Populated state <1>
+03-18 14:59:32.516 W/BRCM-OMXAudioPort(  118): [OMX.brcm.audio.aac.decoder]:isPopulated: PORT-1,  Populated state <0>
+03-18 14:59:32.516 W/BRCM-OMXAudioPort(  118): [OMX.brcm.audio.aac.decoder]:isPopulated: PORT-1,  Populated state <1>
+03-18 14:59:32.516 I/BRCM-OMX(  118): [OMX.brcm.audio.aac.decoder]:startBufferHandler: Started BufferHandler thread-0...
+03-18 14:59:32.516 I/BRCM-OMX(  118): [OMX.brcm.audio.aac.decoder]:startBufferHandler: Started BufferHandler thread-1...
+03-18 14:59:32.516 W/BRCM-OMX(  118): [OMX.brcm.audio.aac.decoder]:processHeader: dec header consumed only 0 bytes, discarding 2 bytes
+03-18 14:59:32.516 I/BRCM-OMX(  118): [OMX.brcm.audio.aac.decoder]:processHeader: sample rate [16000] does not match with codec sample rate [0]
+03-18 14:59:32.516 I/BRCM-OMX(  118): [OMX.brcm.audio.aac.decoder]:processHeader: channels [2] does not match with codec channels [0]
+03-18 14:59:32.516 I/BRCM-OMX(  118): [OMX.brcm.audio.aac.decoder]:processFlush: Process Flush in Base Auio Dec triggers reset on the codec API
+03-18 14:59:32.516 D/brcm-vd (  118): [video_decoder__GetParameter]: port-def [out] = 64/64, 5/3, 0, 258, 960x448/0x448
+03-18 14:59:32.516 D/brcm-vd (  118): [video_decoder__UseBuffer]: locating 0 returns 0x8000000f, output port
+03-18 14:59:32.516 D/brcm-vd (  118): [video_decoder__UseBuffer]: allocated 0x4877dce0, 0x419b9dd8(645120) output port
+03-18 14:59:32.516 D/brcm-vd (  118): [video_decoder__GetParameter]: port-def [out] = 64/64, 5/3, 0, 258, 960x448/0x448
+03-18 14:59:32.516 D/brcm-vd (  118): [video_decoder__UseBuffer]: locating 0 returns 0x80000015, output port
+03-18 14:59:32.516 D/brcm-vd (  118): [video_decoder__UseBuffer]: allocated 0x41ca78e0, 0x419b1348(645120) output port
+03-18 14:59:32.516 D/brcm-vd (  118): [video_decoder__GetParameter]: port-def [out] = 64/64, 5/3, 0, 258, 960x448/0x448
+03-18 14:59:32.516 D/brcm-vd (  118): [video_decoder__UseBuffer]: locating 0 returns 0x8000000d, output port
+03-18 14:59:32.516 D/brcm-vd (  118): [video_decoder__UseBuffer]: allocated 0x4199b250, 0x479aee78(645120) output port
+03-18 14:59:32.516 D/brcm-vd (  118): [video_decoder__GetParameter]: port-def [out] = 64/64, 5/3, 0, 258, 960x448/0x448
+03-18 14:59:32.516 D/brcm-vd (  118): [video_decoder__UseBuffer]: locating 0 returns 0x8000000e, output port
+03-18 14:59:32.516 D/brcm-vd (  118): [video_decoder__UseBuffer]: allocated 0x41ca9e40, 0x474449e8(645120) output port
+03-18 14:59:32.516 D/brcm-vd (  118): [video_decoder__GetParameter]: port-def [out] = 64/64, 5/3, 0, 258, 960x448/0x448
+03-18 14:59:32.516 D/brcm-vd (  118): [video_decoder__UseBuffer]: locating 0 returns 0x8000000b, output port
+03-18 14:59:32.516 D/brcm-vd (  118): [video_decoder__UseBuffer]: allocated 0x455dee70, 0x43e4e3a8(645120) output port
+03-18 14:59:32.516 D/brcm-vd (  118): [video_decoder__enable_ports]: enable MMAL ports
+03-18 14:59:32.516 E/HEAAC_DEC_API(  118): Error in AACDEC_Parser
+03-18 14:59:32.516 V/AudioFlinger(  118): stop(4096), calling pid 118
+03-18 14:59:32.516 V/AudioFlinger(  118): TrackBase::reset
+03-18 14:59:32.516 V/AudioFlinger(  118): not stopping/stopped => stopping/stopped (4096) on thread 0x41c8d580
+03-18 14:59:32.516 V/AudioPolicyManagerBase(  118): stopOutput() output 2, stream 3, session 77
+03-18 14:59:32.516 V/AudioPolicyManagerBase(  118): changeRefCount() stream 3, count 0
+03-18 14:59:32.516 D/AudioPolicyManagerALSA(  118): mFmRadioStatus=0,mFmRadioSinkDev=4,device2=0
+03-18 14:59:32.516 I/AudioPolicyManagerALSA(  118): MUSIC is playing but no on primary device, new device=4
+03-18 14:59:32.516 V/AudioPolicyManagerBase(  118): setOutputDevice() output 2 device 0004 delayMs 86
+03-18 14:59:32.516 V/AudioPolicyManagerBase(  118): setOutputDevice() prevDevice 0004
+03-18 14:59:32.516 D/AudioPolicyManagerALSA(  118): mFmRadioStatus=0,mFmRadioSinkDev=4,device2=0
+03-18 14:59:32.516 D/AudioPolicyManagerALSA(  118): mFmRadioStatus=0,mFmRadioSinkDev=4,device2=0
+03-18 14:59:32.516 D/AudioPolicyManagerALSA(  118): mFmRadioStatus=0,mFmRadioSinkDev=4,device2=0
+03-18 14:59:32.516 D/AudioPolicyManagerALSA(  118): mFmRadioStatus=0,mFmRadioSinkDev=4,device2=0
+03-18 14:59:32.516 D/AudioPolicyManagerALSA(  118): mFmRadioStatus=0,mFmRadioSinkDev=4,device2=0
+03-18 14:59:32.516 V/AudioPolicyManagerBase(  118): setOutputDevice() setting same device 0004 or null device for output 2
+03-18 14:59:32.516 V/AudioPolicyManagerALSA(  118): getDeviceForStrategy() from cache strategy 3, device 4
+03-18 14:59:32.516 D/AudioPolicyManagerALSA(  118): mFmRadioStatus=0,mFmRadioSinkDev=4,device2=0
+03-18 14:59:32.516 D/AudioPolicyManagerALSA(  118): mFmRadioStatus=0,mFmRadioSinkDev=4,device2=0
+03-18 14:59:32.516 D/AudioPolicyManagerALSA(  118): mFmRadioStatus=0,mFmRadioSinkDev=4,device2=0
+03-18 14:59:32.516 D/AudioPolicyManagerALSA(  118): mFmRadioStatus=0,mFmRadioSinkDev=4,device2=0
+03-18 14:59:32.516 D/AudioPolicyManagerALSA(  118): mFmRadioStatus=0,mFmRadioSinkDev=4,device2=0
+03-18 14:59:32.516 D/AudioPolicyManagerALSA(  118): mFmRadioStatus=0,mFmRadioSinkDev=4,device2=0
+03-18 14:59:32.516 V/AudioPolicyManagerBase(  118): releaseOutput() 2
+03-18 14:59:32.516 V/AudioFlinger(  118): remove track (4096) and delete from mixer
+03-18 14:59:32.516 V/AudioFlinger(  118): PlaybackThread::Track destructor
+03-18 14:59:32.516 V/AudioFlinger(  118): removeClient_l() pid 118, tid 3204, calling tid 118
+03-18 14:59:32.516 V/AudioFlinger(  118): releasing 77 from 118
+03-18 14:59:32.516 V/AudioFlinger(  118):  decremented refcount to 0
+03-18 14:59:32.516 V/AudioFlinger(  118): purging stale effects
+03-18 14:59:32.516 D/AudioPolicyManagerALSA(  118): mFmRadioStatus=0,mFmRadioSinkDev=4,device2=0
+03-18 14:59:32.516 V/AudioPolicyManagerBase(  118): getOutput() stream 3, samplingRate 0, format 0, channelMask 3, flags 0
+03-18 14:59:32.516 V/AudioPolicyManagerBase(  118): getOutput() returns output 2
+03-18 14:59:32.516 D/AudioPolicyManagerALSA(  118): mFmRadioStatus=0,mFmRadioSinkDev=4,device2=0
+03-18 14:59:32.516 V/AudioPolicyManagerBase(  118): getOutput() stream 3, samplingRate 0, format 0, channelMask 3, flags 0
+03-18 14:59:32.516 V/AudioPolicyManagerBase(  118): getOutput() returns output 2
+03-18 14:59:32.516 D/AudioPolicyManagerALSA(  118): mFmRadioStatus=0,mFmRadioSinkDev=4,device2=0
+03-18 14:59:32.516 V/AudioPolicyManagerBase(  118): getOutput() stream 3, samplingRate 16000, format 1, channelMask 3, flags 0
+03-18 14:59:32.516 V/AudioPolicyManagerBase(  118): getOutput() returns output 2
+03-18 14:59:32.526 V/AudioFlinger(  118): createTrack() sessionId: 77
+03-18 14:59:32.526 V/AudioFlinger(  118): createTrack() lSessionId: 77
+03-18 14:59:32.526 V/AudioFlinger(  118): Track constructor name 4096, calling pid 118
+03-18 14:59:32.526 V/AudioFlinger(  118): acquiring 77 from 118
+03-18 14:59:32.526 V/AudioFlinger(  118):  added new entry for 77
+03-18 14:59:32.526 D/AudioPolicyManagerALSA(  118): mFmRadioStatus=0,mFmRadioSinkDev=4,device2=0
+03-18 14:59:32.526 V/AudioPolicyManagerBase(  118): getOutput() stream 3, samplingRate 0, format 0, channelMask 3, flags 0
+03-18 14:59:32.526 V/AudioPolicyManagerBase(  118): getOutput() returns output 2
+03-18 14:59:32.526 V/AudioFlinger(  118): start(4096), calling pid 118 session 77
+03-18 14:59:32.526 V/AudioFlinger(  118): ? => ACTIVE (4096) on thread 0x47092c48
+03-18 14:59:32.526 V/AudioPolicyManagerBase(  118): startOutput() output 2, stream 3, session 77
+03-18 14:59:32.526 V/AudioPolicyManagerBase(  118): changeRefCount() stream 3, count 1
+03-18 14:59:32.526 D/AudioPolicyManagerALSA(  118): mFmRadioStatus=0,mFmRadioSinkDev=4,device2=0
+03-18 14:59:32.526 V/AudioPolicyManagerBase(  118): setOutputDevice() output 2 device 0004 delayMs 0
+03-18 14:59:32.526 V/AudioPolicyManagerBase(  118): setOutputDevice() prevDevice 0004
+03-18 14:59:32.526 D/AudioPolicyManagerALSA(  118): mFmRadioStatus=0,mFmRadioSinkDev=4,device2=0
+03-18 14:59:32.526 D/AudioPolicyManagerALSA(  118): mFmRadioStatus=0,mFmRadioSinkDev=4,device2=0
+03-18 14:59:32.526 D/AudioPolicyManagerALSA(  118): mFmRadioStatus=0,mFmRadioSinkDev=4,device2=0
+03-18 14:59:32.526 D/AudioPolicyManagerALSA(  118): mFmRadioStatus=0,mFmRadioSinkDev=4,device2=0
+03-18 14:59:32.526 D/AudioPolicyManagerALSA(  118): mFmRadioStatus=0,mFmRadioSinkDev=4,device2=0
+03-18 14:59:32.526 V/AudioPolicyManagerBase(  118): setOutputDevice() setting same device 0004 or null device for output 2
+03-18 14:59:32.526 V/AudioPolicyManagerALSA(  118): getDeviceForStrategy() from cache strategy 3, device 4
+03-18 14:59:32.526 D/AudioPolicyManagerALSA(  118): mFmRadioStatus=0,mFmRadioSinkDev=4,device2=0
+03-18 14:59:32.526 D/AudioPolicyManagerALSA(  118): mFmRadioStatus=0,mFmRadioSinkDev=4,device2=0
+03-18 14:59:32.526 D/AudioPolicyManagerALSA(  118): mFmRadioStatus=0,mFmRadioSinkDev=4,device2=0
+03-18 14:59:32.526 D/AudioPolicyManagerALSA(  118): mFmRadioStatus=0,mFmRadioSinkDev=4,device2=0
+03-18 14:59:32.526 D/AudioPolicyManagerALSA(  118): mFmRadioStatus=0,mFmRadioSinkDev=4,device2=0
+03-18 14:59:32.526 D/AudioPolicyManagerALSA(  118): mFmRadioStatus=0,mFmRadioSinkDev=4,device2=0
+03-18 14:59:32.526 V/AudioFlinger(  118): mWaitWorkCV.broadcast
+03-18 14:59:32.526 D/brcm-vd (  118): [video_decoder__check_complete]: state changing completed
+03-18 14:59:32.526 D/brcm-vd (  118): [video_decoder__openmax_main]: state changed ( 0, 3 )
+03-18 14:59:32.536 I/brcm-vd (  118): [video_decoder__return_buffer]: received event EFCH on port 3,0
+03-18 14:59:32.536 I/brcm-vd (  118): new aspect ratio 440x441
+03-18 14:59:32.536 D/brcm-vd (  118): [video_decoder__GetParameter]: port-def [out] = 64/64, 5/3, 0, 258, 960x448/0x448
+03-18 14:59:32.536 D/brcm-vd (  118): [video_decoder__GetConfig]: crop [out] = (0, 0) (960x440)
+03-18 14:59:32.536 V/MediaControler( 2469): onVideoSizeChanged called
+03-18 14:59:32.536 E/MediaControler( 2469): video width(960) or height(440)
+03-18 14:59:32.536 I/VideoPlayer( 2469): HWRate1:2.1818182--HWRate2:1.7777778
+03-18 14:59:32.536 I/VideoPlayer( 2469): rate11:2.1818182
+03-18 14:59:32.536 D/VideoPlayer( 2469): screenWidth:1280--screenHeight:720
+03-18 14:59:32.536 D/VideoPlayer( 2469): videoWidth:960--videoHeight:440
+03-18 14:59:32.536 D/VideoPlayer( 2469): surfcaeWidth:1280-surfaceHeight:586
+03-18 14:59:33.146 D/MediaControler( 2469): getCurrentPos:3000400
+03-18 14:59:33.157 D/VideoPlayer( 2469): MSG_GET_PLAY_STATE curPos:3000400/isSeeking:true
+03-18 14:59:33.997 V/contacttt( 2866): [ContactsProvider]>=query(),uri=[content://com.android.contacts/contacts],projection=[[_id]],selection=[null]  args=[null],order=[null]
+03-18 14:59:33.997 D/SmsProvider( 1380): --------query and url=content://sms-------
+03-18 14:59:34.037 W/MountService(  381): getVolumeState(/storage/sdcard0/external_sd): Unknown volume
+03-18 14:59:34.037 W/MountService(  381): getVolumeState(/mnt/sdcard-ext): Unknown volume
+03-18 14:59:34.047 W/MountService(  381): getVolumeState(/mnt/ext_sdcard): Unknown volume
+03-18 14:59:34.047 W/MountService(  381): getVolumeState(/mnt/sdcard2): Unknown volume
+03-18 14:59:34.047 W/MountService(  381): getVolumeState(/mnt/emmc): Unknown volume
+03-18 14:59:34.047 W/MountService(  381): getVolumeState(/mnt/extSdCard): Unknown volume
+03-18 14:59:34.047 W/MountService(  381): getVolumeState(/mnt/sdcard/SD_CARD): Unknown volume
+03-18 14:59:34.047 W/MountService(  381): getVolumeState(/mnt/sdcard/extra_sd): Unknown volume
+03-18 14:59:34.047 W/MountService(  381): getVolumeState(/mnt/extrasd_bind): Unknown volume
+03-18 14:59:34.047 W/MountService(  381): getVolumeState(/mnt/sdcard/ext_sd): Unknown volume
+03-18 14:59:34.047 W/MountService(  381): getVolumeState(/storage/extSdCard): Unknown volume
+03-18 14:59:34.047 W/MountService(  381): getVolumeState(/storage/sdcard1): Unknown volume
+03-18 14:59:34.047 W/MountService(  381): getVolumeState(/mnt/sdcard/external_SD): Unknown volume
+03-18 14:59:34.047 W/MountService(  381): getVolumeState(/mnt/sdcard/external_sd): Unknown volume
+03-18 14:59:34.067 D/SizeAdaptiveLayout(  502): com.android.internal.widget.SizeAdaptiveLayout@422d30c8child view android.widget.FrameLayout@428cc668 measured out of bounds at 130px clamped to 128px
+03-18 14:59:34.077 D/SizeAdaptiveLayout(  502): com.android.internal.widget.SizeAdaptiveLayout@422d30c8child view android.widget.FrameLayout@428cc668 measured out of bounds at 130px clamped to 128px
+03-18 14:59:34.097 W/MountService(  381): getVolumeState(/storage/sdcard0/external_sd): Unknown volume
+03-18 14:59:34.097 W/MountService(  381): getVolumeState(/mnt/sdcard-ext): Unknown volume
+03-18 14:59:34.097 W/MountService(  381): getVolumeState(/mnt/ext_sdcard): Unknown volume
+03-18 14:59:34.097 W/MountService(  381): getVolumeState(/mnt/sdcard2): Unknown volume
+03-18 14:59:34.097 W/MountService(  381): getVolumeState(/mnt/emmc): Unknown volume
+03-18 14:59:34.107 W/MountService(  381): getVolumeState(/mnt/extSdCard): Unknown volume
+03-18 14:59:34.107 W/MountService(  381): getVolumeState(/mnt/sdcard/SD_CARD): Unknown volume
+03-18 14:59:34.107 W/MountService(  381): getVolumeState(/mnt/sdcard/extra_sd): Unknown volume
+03-18 14:59:34.107 W/MountService(  381): getVolumeState(/mnt/extrasd_bind): Unknown volume
+03-18 14:59:34.107 W/MountService(  381): getVolumeState(/mnt/sdcard/ext_sd): Unknown volume
+03-18 14:59:34.107 W/MountService(  381): getVolumeState(/storage/extSdCard): Unknown volume
+03-18 14:59:34.107 W/MountService(  381): getVolumeState(/storage/sdcard1): Unknown volume
+03-18 14:59:34.107 W/MountService(  381): getVolumeState(/mnt/sdcard/external_SD): Unknown volume
+03-18 14:59:34.107 W/MountService(  381): getVolumeState(/mnt/sdcard/external_sd): Unknown volume
+03-18 14:59:34.147 D/MediaControler( 2469): getCurrentPos:3001480
+03-18 14:59:34.147 D/VideoPlayer( 2469): MSG_GET_PLAY_STATE curPos:3001480/isSeeking:true
+03-18 14:59:34.258 V/ChromiumHTTPDataSource(  118): connect on behalf of uid 10052
+03-18 14:59:34.258 I/ChromiumHTTPDataSource(  118): connect to http://vod.feifeikan.com/vod/coshipottTWSX1230000000000017_800/603.ts @0
+03-18 14:59:35.158 D/MediaControler( 2469): getCurrentPos:3002441
+03-18 14:59:35.158 D/VideoPlayer( 2469): MSG_GET_PLAY_STATE curPos:3002441/isSeeking:true
+03-18 14:59:35.919 V/ChromiumHTTPDataSource(  118): connect on behalf of uid 10052
+03-18 14:59:35.919 I/ChromiumHTTPDataSource(  118): connect to http://vod.feifeikan.com/vod/coshipottTWSX1230000000000017_800/604.ts @0
+03-18 14:59:36.159 D/MediaControler( 2469): getCurrentPos:3003392
+03-18 14:59:36.159 D/VideoPlayer( 2469): MSG_GET_PLAY_STATE curPos:3003392/isSeeking:true
+03-18 14:59:36.159 E/VideoPlayer( 2469): hidenController
+03-18 14:59:36.330 E/VideoPlayer( 2469): showController
+03-18 14:59:36.340 D/KeyguardViewMediator(  381): setHidden false
+03-18 14:59:36.460 D/VideoPlayer( 2469): sendToTV:1
+03-18 14:59:36.470 E/apple   ( 2469): connectDevice
+03-18 14:59:36.470 E/apple   ( 2469): connectDevice22:3
+03-18 14:59:36.470 V/Device  ( 2469): 192.168.1.100: state=3,will change to =3
+03-18 14:59:36.470 E/apple   ( 2469): Client current:true
+03-18 14:59:36.470 E/apple   ( 2469): Client current:false
+03-18 14:59:36.470 E/VideoPlayer( 2469): processOnPause 
+03-18 14:59:36.470 E/MediaControler( 2469): reset
+03-18 14:59:36.470 E/VideoPlayer( 2469): showController
+03-18 14:59:36.470 V/AudioFlinger(  118): pause(4096), calling pid 118
+03-18 14:59:36.470 V/AudioFlinger(  118): ACTIVE/RESUMING => PAUSING (4096) on thread 0x41c8d580
+03-18 14:59:36.470 V/AudioPolicyManagerBase(  118): stopOutput() output 2, stream 3, session 77
+03-18 14:59:36.470 V/AudioPolicyManagerBase(  118): changeRefCount() stream 3, count 0
+03-18 14:59:36.480 D/AudioPolicyManagerALSA(  118): mFmRadioStatus=0,mFmRadioSinkDev=4,device2=0
+03-18 14:59:36.480 I/AudioPolicyManagerALSA(  118): MUSIC is playing but no on primary device, new device=4
+03-18 14:59:36.480 V/AudioPolicyManagerBase(  118): setOutputDevice() output 2 device 0004 delayMs 86
+03-18 14:59:36.480 V/AudioPolicyManagerBase(  118): setOutputDevice() prevDevice 0004
+03-18 14:59:36.480 D/AudioPolicyManagerALSA(  118): mFmRadioStatus=0,mFmRadioSinkDev=4,device2=0
+03-18 14:59:36.480 D/AudioPolicyManagerALSA(  118): mFmRadioStatus=0,mFmRadioSinkDev=4,device2=0
+03-18 14:59:36.480 D/AudioPolicyManagerALSA(  118): mFmRadioStatus=0,mFmRadioSinkDev=4,device2=0
+03-18 14:59:36.480 D/AudioPolicyManagerALSA(  118): mFmRadioStatus=0,mFmRadioSinkDev=4,device2=0
+03-18 14:59:36.480 D/AudioPolicyManagerALSA(  118): mFmRadioStatus=0,mFmRadioSinkDev=4,device2=0
+03-18 14:59:36.480 V/AudioPolicyManagerBase(  118): setOutputDevice() setting same device 0004 or null device for output 2
+03-18 14:59:36.480 V/AudioPolicyManagerALSA(  118): getDeviceForStrategy() from cache strategy 3, device 4
+03-18 14:59:36.480 D/AudioPolicyManagerALSA(  118): mFmRadioStatus=0,mFmRadioSinkDev=4,device2=0
+03-18 14:59:36.480 D/AudioPolicyManagerALSA(  118): mFmRadioStatus=0,mFmRadioSinkDev=4,device2=0
+03-18 14:59:36.480 D/AudioPolicyManagerALSA(  118): mFmRadioStatus=0,mFmRadioSinkDev=4,device2=0
+03-18 14:59:36.480 D/AudioPolicyManagerALSA(  118): mFmRadioStatus=0,mFmRadioSinkDev=4,device2=0
+03-18 14:59:36.480 D/AudioPolicyManagerALSA(  118): mFmRadioStatus=0,mFmRadioSinkDev=4,device2=0
+03-18 14:59:36.480 D/AudioPolicyManagerALSA(  118): mFmRadioStatus=0,mFmRadioSinkDev=4,device2=0
+03-18 14:59:36.480 E/LiveSession(  118): failed to fetch .ts segment at url 'http://vod.feifeikan.com/vod/coshipottTWSX1230000000000017_800/604.ts'
+03-18 14:59:36.480 D/brcm-vd (  118): [video_decoder__openmax_main]: flushing input(1)/output(1) port for 0x411f5d50
+03-18 14:59:36.480 I/BRCM-OMX(  118): [OMX.brcm.audio.aac.decoder]:processFlush: Process Flush in Base Auio Dec triggers reset on the codec API
+03-18 14:59:36.480 I/BRCM-OMX(  118): [OMX.brcm.audio.aac.decoder]:portFlushInProgress: Port-0 FLUSH in Progress
+03-18 14:59:36.480 I/BRCM-OMX(  118): [OMX.brcm.audio.aac.decoder]:portFlushInProgress: Port-0 FLUSH in Progress
+03-18 14:59:36.480 I/BRCM-OMX(  118): [OMX.brcm.audio.aac.decoder]:processFlush: Process Flush in Base Auio Dec triggers reset on the codec API
+03-18 14:59:36.480 I/BRCM-OMX(  118): [OMX.brcm.audio.aac.decoder]:processFlush: Process Flush in Base Auio Dec triggers reset on the codec API
+03-18 14:59:36.480 I/BRCM-OMX(  118): [OMX.brcm.audio.aac.decoder]:processFlush: Process Flush in Base Auio Dec triggers reset on the codec API
+03-18 14:59:36.480 I/BRCM-OMX(  118): [OMX.brcm.audio.aac.decoder]:bufferHandler: PORT-0: BufferHandler thread exiting....
+03-18 14:59:36.480 I/BRCM-OMX(  118): [OMX.brcm.audio.aac.decoder]:bufferHandler: PORT-1: BufferHandler thread exiting....
+03-18 14:59:36.480 W/BRCM-OMXAudioPort(  118): [OMX.brcm.audio.aac.decoder]:isPopulated: PORT-0,  Populated state <0>
+03-18 14:59:36.480 W/BRCM-OMXAudioPort(  118): [OMX.brcm.audio.aac.decoder]:isPopulated: PORT-1,  Populated state <0>
+03-18 14:59:36.490 I/BRCM-OMX(  118): ([OMX.brcm.audio.aac.decoder]:codecSyncHandler: codecSyncHandler thread exiting....
+03-18 14:59:36.490 I/BRCM-OMX(  118): [OMX.brcm.audio.aac.decoder]:commandHandler: CommandHandler thread exiting....
+03-18 14:59:36.490 D/brcm-vd (  118): [video_decoder__check_complete]: flush output port completed
+03-18 14:59:36.490 D/brcm-vd (  118): [video_decoder__check_complete]: flush input port completed
+03-18 14:59:36.490 V/OtOPlayRequest( 2469): Play Request: {"ResourceInfo":{"TimeCode":6,"PlayType":1,"ResourceName":"杜拉拉升职记","ProductCode":"","ResourceCode":"10092","Duration":5949},"UserCode":"","SubID":""}
+03-18 14:59:36.490 D/KeyguardViewMediator(  381): setHidden false
+03-18 14:59:36.500 D/brcm-vd (  118): [video_decoder__check_complete]: state changing completed
+03-18 14:59:36.500 V/OtORequestHandler( 2469): receive data from 192.168.1.100
+03-18 14:59:36.500 V/OtORequest( 2469): get command=101
+03-18 14:59:36.500 V/OtORequest( 2469): parse OtORequest: cmd=101 paramLength=194 bufferlen=202
+03-18 14:59:36.500 V/OtORequest( 2469): parse param: param={"ResourceInfo":{"TimeCode":6,"PlayType":1,"ResourceName":"杜拉拉升职记","ProductCode":"","ResourceCode":"10092","Duration":5949},"Status":{"ReturnCode":100,"Description":"start to play"}} play"}}��
+03-18 14:59:36.500 D/brcm-vd (  118): [video_decoder__FreeBuffer]: deallocated 0x41caaa50 (5e5f6800)
+03-18 14:59:36.500 D/brcm-vd (  118): [video_decoder__FreeBuffer]: deallocated 0x5bfa6e60 (5e58f600)
+03-18 14:59:36.500 D/brcm-vd (  118): [video_decoder__FreeBuffer]: deallocated 0x4199ce10 (5e528400)
+03-18 14:59:36.500 D/brcm-vd (  118): [video_decoder__FreeBuffer]: deallocated 0x4d5a8320 (5e4c1200)
+03-18 14:59:36.500 D/brcm-vd (  118): [video_decoder__FreeBuffer]: deallocated 0x503bfc40 (5e45a000)
+03-18 14:59:36.500 D/brcm-vd (  118): [video_decoder__openmax_main]: OMX_CommandStateSet - loaded, ready to set/get
+03-18 14:59:36.500 D/brcm-vd (  118): [video_decoder__FreeBuffer]: deallocated 0x455dee70 (8000000b)
+03-18 14:59:36.500 D/brcm-vd (  118): [video_decoder__FreeBuffer]: deallocated 0x41ca9e40 (8000000e)
+03-18 14:59:36.500 D/brcm-vd (  118): [video_decoder__openmax_main]: state changed ( 0, 1 )
+03-18 14:59:36.500 D/brcm-vd (  118): [video_decoder__FreeBuffer]: deallocated 0x4199b250 (8000000d)
+03-18 14:59:36.500 D/brcm-vd (  118): [video_decoder__FreeBuffer]: deallocated 0x41ca78e0 (80000015)
+03-18 14:59:36.500 D/brcm-vd (  118): [video_decoder__FreeBuffer]: deallocated 0x4877dce0 (8000000f)
+03-18 14:59:36.500 E/VideoPlayer( 2469): remote onPlay called.
+03-18 14:59:36.500 V/VideoPlayer( 2469): server begin play VOD:ResourceName=杜拉拉升职记 ResourceCode=10092 ProductCode= Duration=5949 TimeCode=6
+03-18 14:59:36.500 V/component_tracker(  118): [unregister_component]: Removing decoder (0x53f92d10) at slot 0
+03-18 14:59:36.500 V/component_tracker(  118): [unregister_component]: Clearing decoder at slot 0
+03-18 14:59:36.500 D/brcm-vd (  118): [video_decoder__openmax_main]: thread exiting
+03-18 14:59:36.500 V/AudioFlinger(  118): presentationComplete() reset: mPresentationCompleteFrames 314384 audioHalFrames 2064
+03-18 14:59:36.510 V/AudioFlinger(  118): releasing 77 from 2469
+03-18 14:59:36.510 V/AudioFlinger(  118):  decremented refcount to 0
+03-18 14:59:36.510 V/AudioFlinger(  118): purging stale effects
+03-18 14:59:36.510 V/AudioPolicyManagerBase(  118): releaseOutput() 2
+03-18 14:59:36.510 V/AudioFlinger(  118): releasing 77 from 118
+03-18 14:59:36.510 V/AudioFlinger(  118):  decremented refcount to 0
+03-18 14:59:36.510 V/AudioFlinger(  118): purging stale effects
+03-18 14:59:36.570 V/AudioFlinger(  118): presentationComplete() session 77 complete: framesWritten 315392
+03-18 14:59:36.570 V/AudioFlinger(  118): remove track (4096) and delete from mixer
+03-18 14:59:36.580 V/AudioFlinger(  118): PlaybackThread::Track destructor
+03-18 14:59:36.580 V/AudioFlinger(  118): removeClient_l() pid 118, tid 295, calling tid 118
+03-18 14:59:36.690 V/OtORequestHandler( 2469): receive data from 192.168.1.100
+03-18 14:59:36.690 V/OtORequest( 2469): get command=200
+03-18 14:59:39.493 V/AudioFlinger(  118): Audio hardware entering standby, mixer 0x41c8d580, suspend count 0
+03-18 14:59:39.533 I/AudioHardwareALSA(  118): dump.audio.pcm = OFF
+03-18 14:59:39.533 V/AudioHardwareALSA(  118): Data Dump is disabled
+03-18 14:59:39.533 V/AudioFlinger(  118): releaseWakeLock_l() AudioOut_2
+03-18 14:59:39.533 V/AudioFlinger(  118): thread 0x41c8d580 type 0 TID 295 going to sleep
+03-18 14:59:44.498 I/VideoPlayer( 2469): getStateThread start
+03-18 14:59:44.498 E/apple   ( 2469): connectDevice
+03-18 14:59:44.498 E/apple   ( 2469): connectDevice22:3
+03-18 14:59:44.498 V/Device  ( 2469): 192.168.1.100: state=3,will change to =3
+03-18 14:59:44.498 E/apple   ( 2469): Client current:true
+03-18 14:59:44.498 E/apple   ( 2469): Client current:false
+03-18 14:59:44.528 V/OtORequestHandler( 2469): receive data from 192.168.1.100
+03-18 14:59:44.528 V/OtORequest( 2469): get command=103
+03-18 14:59:44.528 V/OtORequest( 2469): parse OtORequest: cmd=103 paramLength=210 bufferlen=218
+03-18 14:59:44.528 V/OtORequest( 2469): parse param: param={"ResourceInfo":{"TimeCode":6,"PlayType":1,"ResourceName":"杜拉拉升职记","ProductCode":"","ResourceCode":"10092","Duration":5953},"Status":{"ReturnCode":100,"Description":"ok"},"PlayStatus":2,"Volume":94}ume":94}��
+03-18 14:59:44.528 E/apple   ( 2469): OtOStatus request11： 2
+03-18 14:59:44.528 E/VideoPlayer( 2469): sync_ok:
+03-18 14:59:44.528 V/VideoPlayer( 2469): get server play VOD status:ResourceName=杜拉拉升职记 ResourceCode=10092 ProductCode= Duration=5953 TimeCode=6
+03-18 14:59:44.528 D/VideoPlayer( 2469): onProgressChanged progress:6
+03-18 14:59:44.528 D/VideoPlayer( 2469): update time View:5949
+03-18 14:59:44.528 V/VideoPlayer( 2469): get volume:94
+03-18 14:59:44.528 E/MediaControler( 2469): Set volume:15
+03-18 14:59:44.538 V/AudioPolicyManagerALSA(  118): getDeviceForStrategy() from cache strategy 0, device 4
+03-18 14:59:44.538 E/VideoPlayer( 2469): onGetPlayStatus:2
+03-18 14:59:44.548 D/VideoPlayer( 2469): onProgressChanged progress:6
+03-18 14:59:44.548 D/VideoPlayer( 2469): update time View:5953
+03-18 14:59:46.510 I/VideoPlayer( 2469): getStateThread start
+03-18 14:59:46.510 E/apple   ( 2469): connectDevice
+03-18 14:59:46.510 E/apple   ( 2469): connectDevice22:3
+03-18 14:59:46.510 V/Device  ( 2469): 192.168.1.100: state=3,will change to =3
+03-18 14:59:46.510 E/apple   ( 2469): Client current:true
+03-18 14:59:46.510 E/apple   ( 2469): Client current:false
+03-18 14:59:46.530 V/OtORequestHandler( 2469): receive data from 192.168.1.100
+03-18 14:59:46.530 V/OtORequest( 2469): get command=103
+03-18 14:59:46.530 V/OtORequest( 2469): parse OtORequest: cmd=103 paramLength=210 bufferlen=218
+03-18 14:59:46.530 V/OtORequest( 2469): parse param: param={"ResourceInfo":{"TimeCode":6,"PlayType":1,"ResourceName":"杜拉拉升职记","ProductCode":"","ResourceCode":"10092","Duration":5953},"Status":{"ReturnCode":100,"Description":"ok"},"PlayStatus":2,"Volume":94}ume":94}��
+03-18 14:59:46.530 E/apple   ( 2469): OtOStatus request11： 2
+03-18 14:59:46.530 E/VideoPlayer( 2469): sync_ok:
+03-18 14:59:46.530 V/VideoPlayer( 2469): get server play VOD status:ResourceName=杜拉拉升职记 ResourceCode=10092 ProductCode= Duration=5953 TimeCode=6
+03-18 14:59:46.530 V/VideoPlayer( 2469): get volume:94
+03-18 14:59:46.530 E/MediaControler( 2469): Set volume:15
+03-18 14:59:46.530 V/AudioPolicyManagerALSA(  118): getDeviceForStrategy() from cache strategy 0, device 4
+03-18 14:59:46.540 E/VideoPlayer( 2469): onGetPlayStatus:2
+03-18 14:59:48.511 I/VideoPlayer( 2469): getStateThread start
+03-18 14:59:48.511 E/apple   ( 2469): connectDevice
+03-18 14:59:48.511 E/apple   ( 2469): connectDevice22:3
+03-18 14:59:48.511 V/Device  ( 2469): 192.168.1.100: state=3,will change to =3
+03-18 14:59:48.511 E/apple   ( 2469): Client current:true
+03-18 14:59:48.511 E/apple   ( 2469): Client current:false
+03-18 14:59:48.521 V/OtORequestHandler( 2469): receive data from 192.168.1.100
+03-18 14:59:48.521 V/OtORequest( 2469): get command=103
+03-18 14:59:48.521 V/OtORequest( 2469): parse OtORequest: cmd=103 paramLength=211 bufferlen=219
+03-18 14:59:48.521 V/OtORequest( 2469): parse param: param={"ResourceInfo":{"TimeCode":16,"PlayType":1,"ResourceName":"杜拉拉升职记","ProductCode":"","ResourceCode":"10092","Duration":5953},"Status":{"ReturnCode":100,"Description":"ok"},"PlayStatus":2,"Volume":94}ume":94}��
+03-18 14:59:48.521 E/apple   ( 2469): OtOStatus request11： 2
+03-18 14:59:48.521 E/VideoPlayer( 2469): sync_ok:
+03-18 14:59:48.521 V/VideoPlayer( 2469): get server play VOD status:ResourceName=杜拉拉升职记 ResourceCode=10092 ProductCode= Duration=5953 TimeCode=16
+03-18 14:59:48.521 V/VideoPlayer( 2469): get volume:94
+03-18 14:59:48.532 E/MediaControler( 2469): Set volume:15
+03-18 14:59:48.532 D/VideoPlayer( 2469): onProgressChanged progress:16
+03-18 14:59:48.532 V/AudioPolicyManagerALSA(  118): getDeviceForStrategy() from cache strategy 0, device 4
+03-18 14:59:48.532 D/VideoPlayer( 2469): update time View:5953
+03-18 14:59:48.532 E/VideoPlayer( 2469): onGetPlayStatus:2
+03-18 14:59:50.513 I/VideoPlayer( 2469): getStateThread start
+03-18 14:59:50.513 E/apple   ( 2469): connectDevice
+03-18 14:59:50.513 E/apple   ( 2469): connectDevice22:3
+03-18 14:59:50.513 V/Device  ( 2469): 192.168.1.100: state=3,will change to =3
+03-18 14:59:50.513 E/apple   ( 2469): Client current:true
+03-18 14:59:50.513 E/apple   ( 2469): Client current:false
+03-18 14:59:50.543 V/OtORequestHandler( 2469): receive data from 192.168.1.100
+03-18 14:59:50.543 V/OtORequest( 2469): get command=103
+03-18 14:59:50.543 V/OtORequest( 2469): parse OtORequest: cmd=103 paramLength=211 bufferlen=219
+03-18 14:59:50.543 V/OtORequest( 2469): parse param: param={"ResourceInfo":{"TimeCode":18,"PlayType":1,"ResourceName":"杜拉拉升职记","ProductCode":"","ResourceCode":"10092","Duration":5953},"Status":{"ReturnCode":100,"Description":"ok"},"PlayStatus":2,"Volume":94}ume":94}��
+03-18 14:59:50.543 E/apple   ( 2469): OtOStatus request11： 2
+03-18 14:59:50.543 E/VideoPlayer( 2469): sync_ok:
+03-18 14:59:50.543 V/VideoPlayer( 2469): get server play VOD status:ResourceName=杜拉拉升职记 ResourceCode=10092 ProductCode= Duration=5953 TimeCode=18
+03-18 14:59:50.543 D/VideoPlayer( 2469): onProgressChanged progress:18
+03-18 14:59:50.543 D/VideoPlayer( 2469): update time View:5953
+03-18 14:59:50.543 V/VideoPlayer( 2469): get volume:94
+03-18 14:59:50.543 E/MediaControler( 2469): Set volume:15
+03-18 14:59:50.543 V/AudioPolicyManagerALSA(  118): getDeviceForStrategy() from cache strategy 0, device 4
+03-18 14:59:50.553 E/VideoPlayer( 2469): onGetPlayStatus:2

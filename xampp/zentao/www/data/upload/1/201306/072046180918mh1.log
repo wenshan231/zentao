@@ -1,0 +1,1942 @@
+
+shell@android:/ # 
+shell@android:/ # 
+shell@android:/ # 
+shell@android:/ # logcat
+--------- beginning of /dev/log/system
+D/EthernetStateTracker(  935): DhcpHandler: DHCP request started
+I/EthernetStateTracker(  935): trigger dhcp for device eth0
+I/EthernetStateTracker(  935): reset device eth0
+I/EthernetStateTracker(  935): trigger dhcp for device eth0
+E/MobileDataStateTracker(  935): default: Ignoring feature request because could not acquire PhoneService
+E/MobileDataStateTracker(  935): default: Could not enable APN type "default"
+D/NetworkManagementService(  935): Registering observer
+D/NetworkManagementService(  935): Registering observer
+I/WifiService(  935): WifiService starting up with Wi-Fi enabled
+D/WifiP2pService(  935): P2pDisabledState{ what=131203 when=0 }
+I/WifiService(  935): WifiService starting up with Wi-Fi AP enabled
+I/SystemServer(  935): Throttle Service
+D/WifiP2pService(  935): P2pDisabledState{ what=331907 when=-1ms }
+I/SystemServer(  935): Mount Service
+D/MountService(  935): got storage path: /mnt/sdcard description: USB 存储器 primary: true removable: false emulated: false mtpReserve: 0 allowMassStorage: false maxFileSize: 0
+D/MountService(  935): mExternalStoragePath:/mnt/sdcard
+I/SystemServer(  935): Notification Manager
+I/SystemServer(  935): Device Storage Monitor
+I/SystemServer(  935): Location Manager
+I/SystemServer(  935): Country Detector
+I/SystemServer(  935): Search Service
+I/SystemServer(  935): DropBox Service
+I/SystemServer(  935): Wallpaper Service
+D/VoldCmdListener(  738): volume list
+I/SystemServer(  935): Audio Service
+I/SystemServer(  935): Camera Observer
+I/SystemServer(  935): Microphone Observer
+I/SystemServer(  935): Wired Accessory Observer
+I/SystemServer(  935): USB Service
+I/SystemServer(  935): UI Mode Manager Service
+I/SystemServer(  935): Backup Service
+V/BackupManagerService(  935): Initializing package tracking
+V/BackupManagerService(  935): No ancestral data
+V/BackupManagerService(  935): addPackageParticipantsLocked: all
+I/BackupManagerService(  935): New app android never backed up; scheduling
+I/BackupManagerService(  935): New app com.android.browser never backed up; scheduling
+I/BackupManagerService(  935): New app com.android.providers.settings never backed up; scheduling
+I/BackupManagerService(  935): New app com.android.providers.userdictionary never backed up; scheduling
+I/BackupManagerService(  935): New app com.android.sharedstoragebackup never backed up; scheduling
+I/BackupManagerService(  935): New app com.kb.Carrom3DFull never backed up; scheduling
+V/BackupManagerService(  935): Registering transport android/com.android.internal.backup.LocalTransport = com.android.internal.backup.LocalTransport@415d48c0
+V/BackupManagerService(  935): Starting with transport android/com.android.internal.backup.LocalTransport
+V/BackupManagerService(  935): Google transport not present
+I/BackupManagerService(  935): Backup enabled => false
+I/BackupManagerService(  935): Opting out of backup
+I/SystemServer(  935): AppWidget Service
+I/SystemServer(  935): Recognition Service
+I/SystemServer(  935): DiskStats Service
+I/SystemServer(  935): SamplingProfiler Service
+I/SystemServer(  935): NetworkTimeUpdateService
+D/PowerManagerService(  935): system ready!
+I/ActivityManager(  935): System now ready
+I/SystemServer(  935): Making services ready
+I/ActivityManager(  935): Start proc com.mstar.dbprovider for content provider com.mstar.dbprovider/.MstTvUserSettingProvider: pid=1109 uid=10016 gids={}
+D/SystemServer(  935): Starting service: Intent { cmp=com.android.systemui/.SystemUIService }
+I/ActivityManager(  935): Start proc com.android.systemui for service com.android.systemui/.SystemUIService: pid=1127 uid=1000 gids={3003, 1015, 3002, 3001, 3004}
+D/NetworkManagementService(  935): enabling bandwidth control
+D/SystemUIService( 1127): loading: class com.android.systemui.statusbar.tablet.TabletStatusBar
+D/SystemUIService( 1127): running: com.android.systemui.statusbar.tablet.TabletStatusBar@413f9a48
+I/StatusBar.HeightReceiver( 1127): Resizing status bar plugged=false height=48 old=0
+D/NetworkManagementService(  935): rsp <213 00:00:00:00:00:00 0.0.0.0 0 [down]>
+D/NetworkManagementService(  935): flags <[down]>
+D/NetworkManagementService(  935): Registering observer
+D/NetworkManagementService(  935): Registering observer
+I/ActivityManager(  935): Config changed: {1.0 0mcc0mnc zh_CN layoutdir=0 sw720dp w1280dp h720dp xlrg long land -touch -keyb/v/h -nav/h s.3}
+W/RecognitionManagerService(  935): no available voice recognition services found
+W/InputManagerService(  935): Ignoring setImeWindowStatus of uid 1000 token: null
+I/ActivityManager(  935): Start proc com.android.inputmethod.pinyin for service com.android.inputmethod.pinyin/.PinyinIME: pid=1212 uid=10019 gids={3003}
+D/NetworkManagementService(  935): Registering observer
+I/SystemServer(  935): SIP Service
+W/ThrottleService(  935): unable to find stats for iface rmnet0
+I/StatusBarManagerService(  935): registerStatusBar bar=com.android.internal.statusbar.IStatusBar$Stub$Proxy@415f5e68
+I/ActivityManager(  935): Start proc com.fiship.cibn for added application com.fiship.cibn: pid=1234 uid=10000 gids={3003, 1015}
+D/SystemUIService( 1127): loading: class com.android.systemui.power.PowerUI
+I/ActivityManager(  935): Start proc com.coship.stpservice for added application com.coship.stpservice: pid=1247 uid=1000 gids={3003, 1015, 3002, 3001, 3004}
+D/SystemUIService( 1127): running: com.android.systemui.power.PowerUI@41616cb0
+I/ActivityManager(  935): Start proc com.coship.sdp.sce.tvappstore for added application com.coship.sdp.sce.tvappstore: pid=1266 uid=1000 gids={3003, 1015, 3002, 3001, 3004}
+I/ActivityManager(  935): Start proc com.coship.easycontrolime for added application com.coship.easycontrolime: pid=1281 uid=10010 gids={3003}
+I/ActivityManager(  935): Start proc com.coship.netfirmware for added application com.coship.netfirmware: pid=1295 uid=1000 gids={3003, 1015, 3002, 3001, 3004}
+D/ActivityManager(  935): propValue:2
+D/ActivityManager(  935): start launcher......
+I/ActivityManager(  935): START {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000000 cmp=com.fiship.cibn/.MainActivity} from pid 0
+I/SystemServer(  935): Enabled StrictMode for system server main thread.
+I/EthernetStateTracker(  935): received interface reset event
+I/EthernetStateTracker(  935): reset device eth0
+I/StatusBar.HeightReceiver( 1127): Resizing status bar plugged=false height=48 old=48
+I/EthernetStateTracker(  935): trigger dhcp for device eth0
+I/ActivityManager(  935): Start proc com.google.process.gapps for service com.google.android.location/.NetworkLocationService: pid=1323 uid=10011 gids={3003, 1015, 2001, 1007}
+D/WifiService(  935): New client listening to asynchronous messages
+W/MountService(  935): getVolumeState(/mnt/sdcard): Unknown volume
+W/MountService(  935): getVolumeState(/mnt/sdcard): Unknown volume
+I/StatusBar.HeightReceiver( 1127): Resizing status bar plugged=false height=48 old=48
+W/ActivityThread( 1323): ClassLoader.loadClass: The class loader returned by Thread.getContextClassLoader() may fail for processes that host multiple applications. You should explicitly specify a context class loader. For example: Thread.setContextClassLoader(getClass().getClassLoader());
+I/ActivityManager(  935): Start proc com.android.phone for content provider com.android.providers.telephony/.TelephonyProvider: pid=1376 uid=1001 gids={1015}
+D/PowerManagerService(  935): bootCompleted
+V/DevicePolicyManagerService(  935): Sending password expiration notifications for action android.intent.action.BOOT_COMPLETED
+I/ActivityManager(  935): Start proc com.android.contacts for broadcast com.android.contacts/.calllog.CallLogReceiver: pid=1404 uid=10001 gids={3003, 1015}
+V/WiredAccessoryObserver(  935): init()
+W/WiredAccessoryObserver(  935): This kernel does not have wired headset support
+W/WiredAccessoryObserver(  935): This kernel does not have wired headset support
+W/WiredAccessoryObserver(  935): This kernel does not have wired headset support
+I/ActivityManager(  935): Start proc com.coship.HS for broadcast com.coship.HS/.AutoStartReceiver: pid=1445 uid=1000 gids={3003, 1015, 3002, 3001, 3004}
+I/ActivityManager(  935): Start proc android.process.acore for content provider com.android.providers.contacts/.CallLogProvider: pid=1457 uid=10001 gids={3003, 1015}
+I/MicrophoneObserver(  935): Microphone PLUG_IN
+I/ActivityManager(  935): Start proc com.android.providers.calendar for broadcast com.android.providers.calendar/.CalendarReceiver: pid=1510 uid=10005 gids={3003, 1015}
+V/EthernetMonitor(  935): get event eth0:16:
+V/EthernetMonitor(  935): dev: eth0 ev 16
+V/EthernetStateTracker(  935): report interface is up for eth0
+V/EthernetMonitor(  935): go poll events
+I/EthernetStateTracker(  935): received interface up event, kick off connection request
+I/ActivityManager(  935): Start proc android.process.media for content provider com.android.providers.downloads/.DownloadProvider: pid=1536 uid=10009 gids={1015, 1023, 1024, 2001, 3003, 3007}
+I/EthernetStateTracker(  935): IntentBroadcast, event=5
+I/EthernetStateTracker(  935): reset device eth0
+I/EthernetStateTracker(  935): trigger dhcp for device eth0
+E/EthernetStateTracker(  935): DhcpHandler: DHCP request failed: DHCP result was failed
+D/EthernetStateTracker(  935): DhcpHandler: DHCP request started
+I/EthernetStateTracker(  935): configureInterfaceAutoIP : ipaddr 169.254.1.17 gateway 0.0.0.0 netmask 255.255.0.0 dns1 0.0.0.0 dns2 0.0.0.0 DHCP server 0.0.0.0 lease 0 seconds
+V/EthernetMonitor(  935): get event eth0:20:
+V/EthernetMonitor(  935): dev: eth0 ev 20
+I/EthernetStateTracker(  935): report new state CONNECTED on dev eth0
+V/EthernetStateTracker(  935): update network state tracker
+V/EthernetStateTracker(  935): configureInterfaceAutoIP succeeded
+V/EthernetMonitor(  935): go poll events
+I/EthernetStateTracker(  935): received HW connected, stack=false CC=true
+W/MountService(  935): getVolumeState(/mnt/sdcard): Unknown volume
+I/ActivityManager(  935): Start proc com.coship.cw880 for broadcast com.coship.cw880/.BootCw880Recive: pid=1563 uid=1000 gids={3003, 1015, 3002, 3001, 3004}
+I/ActivityManager(  935): START {flg=0x10000000 cmp=com.google.android.gsf/.update.SystemUpdateInstallDialog} from pid 1323
+I/ActivityManager(  935): Start proc com.android.settings for broadcast com.android.settings/.SettingGlobalReceiver: pid=1598 uid=1000 gids={3003, 1015, 3002, 3001, 3004}
+I/ActivityManager(  935): Start proc com.coship.changetheaudiooutput for broadcast com.coship.changetheaudiooutput/.BootCompletedReceiver: pid=1611 uid=10027 gids={3002, 3001, 3004}
+I/ActivityManager(  935): Start proc com.coship.Multimedia for broadcast com.coship.Multimedia/.view.BootCompletedReceiver: pid=1626 uid=1000 gids={3003, 1015, 3002, 3001, 3004}
+W/InputManagerService(  935): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@416b8a08
+I/ActivityManager(  935): Start proc com.android1132k.zhuluo for broadcast com.android1132k.zhuluo/com.game.module.midlet.MYBoot: pid=1642 uid=10036 gids={3003, 1015, 1007}
+W/MountService(  935): getVolumeState(/mnt/sdcard): Unknown volume
+D/WifiP2pService(  935): P2pDisabledState{ what=139265 when=0 }
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+W/MountService(  935): getVolumeState(/mnt/sdcard): Unknown volume
+W/ActivityManager(  935): Permission Denial: receiving Intent { act=android.intent.action.BOOT_COMPLETED } to com.fp.jskbsc3d requires android.permission.RECEIVE_BOOT_COMPLETED due to sender null (uid 1000)
+I/ActivityManager(  935): Start proc com.inter.dahanghaishidai for broadcast com.inter.dahanghaishidai/.YJFReceiver: pid=1666 uid=10041 gids={3003, 1015}
+I/ActivityManager(  935): Start proc com.tagb.sb for broadcast com.tagb.sb/com.tgb.sb.BootReceiver: pid=1680 uid=10042 gids={3003, 1015, 1006}
+W/MountService(  935): getVolumeState(/mnt/sdcard): Unknown volume
+W/MountService(  935): getVolumeState(/mnt/sdcard): Unknown volume
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+I/ActivityManager(  935): Start proc com.biaoqi.stbwidget.host for broadcast com.biaoqi.stbwidget.host/.NetworkStatusChangeReceiver: pid=1705 uid=10026 gids={3003}
+W/MountService(  935): getVolumeState(/mnt/sdcard): Unknown volume
+W/MountService(  935): getVolumeState(/mnt/sdcard): Unknown volume
+W/MountService(  935): getVolumeState(/mnt/sdcard): Unknown volume
+W/MountService(  935): getVolumeState(/mnt/sdcard): Unknown volume
+V/EthernetMonitor(  935): get event eth0:21:
+V/EthernetMonitor(  935): dev: eth0 ev 21
+V/EthernetStateTracker(  935): report address is removed for eth0
+V/EthernetMonitor(  935): go poll events
+I/EthernetStateTracker(  935): received interface address remove event
+V/EthernetMonitor(  935): get event eth0:20:
+V/EthernetMonitor(  935): dev: eth0 ev 20
+I/EthernetStateTracker(  935): report new state CONNECTED on dev eth0
+V/EthernetStateTracker(  935): update network state tracker
+V/EthernetStateTracker(  935): getEthernetIPAddr : 192.168.2.36
+V/EthernetStateTracker(  935): configureInterfaceAutoIP skip!!
+V/EthernetMonitor(  935): go poll events
+I/EthernetStateTracker(  935): received HW connected, stack=true CC=true
+D/EthernetStateTracker(  935): DhcpHandler: DHCP request succeeded: addr: 192.168.2.36/24 mRoutes: 0.0.0.0/0 -> 192.168.2.1 |  dns: 192.168.2.1,192.168.99.5 dhcpServer: 192.168.2.1 leaseDuration: 1800
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+I/EthernetStateTracker(  935): received configured succeeded, stack=true CC=true
+D/ConnectivityService(  935): ConnectivityChange for ETH: CONNECTED/CONNECTED
+I/EthernetStateTracker(  935): IntentBroadcast, event=1
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/NetworkManagementService(  935): rsp <213 00:00:00:00:00:00 0.0.0.0 0 [down]>
+D/NetworkManagementService(  935): flags <[down]>
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+W/MountService(  935): getVolumeState(/mnt/sdcard): Unknown volume
+I/ActivityManager(  935): Start proc com.fp.jskbsc3d for broadcast com.fp.jskbsc3d/.AMyMR: pid=1836 uid=10038 gids={1015, 3003, 3002, 3001, 3004}
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+W/MountService(  935): getVolumeState(/mnt/sdcard): Unknown volume
+I/ActivityManager(  935): Start proc com.chiefsgame.lianliankan for broadcast com.chiefsgame.lianliankan/com.kuguo.banner.BannerReceiver: pid=1851 uid=10048 gids={3003, 1015}
+I/ActivityManager(  935): Start proc com.miniclip.uapacheoverkill1 for broadcast com.miniclip.uapacheoverkill1/boot_receiver.NetWorkChangeReceiver: pid=1864 uid=10054 gids={3003, 1015}
+W/MountService(  935): getVolumeState(/mnt/sdcard): Unknown volume
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+I/ActivityManager(  935): Process com.coship.sdp.sce.tvappstore (pid 1266) has died.
+W/ActivityManager(  935): Scheduling restart of crashed service com.coship.sdp.sce.tvappstore/.app.service.AppStoreCoreService in 1250ms
+I/ActivityManager(  935): Start proc com.coship.sdp.sce.tvappstore for restart com.coship.sdp.sce.tvappstore: pid=1892 uid=1000 gids={3003, 1015, 3002, 3001, 3004}
+W/MountService(  935): getVolumeState(/mnt/sdcard): Unknown volume
+W/MountService(  935): getVolumeState(/mnt/sdcard): Unknown volume
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/ConnectivityService(  935): handleInetConditionHoldEnd: net=9, condition=0, published condition=0
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+W/MountService(  935): getVolumeState(/mnt/sdcard): Unknown volume
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/NetworkManagementService(  935): rsp <213 00:00:00:00:00:00 0.0.0.0 0 [down]>
+D/NetworkManagementService(  935): flags <[down]>
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/NetworkManagementService(  935): rsp <213 00:00:00:00:00:00 0.0.0.0 0 [down]>
+D/NetworkManagementService(  935): flags <[down]>
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+I/ActivityManager(  935): START {cmp=com.fiship.cibn/.activity.AppActivity (has extras)} from pid 1234
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/NetworkManagementService(  935): rsp <213 00:00:00:00:00:00 0.0.0.0 0 [down]>
+D/NetworkManagementService(  935): flags <[down]>
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+W/ThrottleService(  935): unable to find stats for iface rmnet0
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/NetworkManagementService(  935): rsp <213 00:00:00:00:00:00 0.0.0.0 0 [down]>
+D/NetworkManagementService(  935): flags <[down]>
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disable[  542.875933] IR: [03932] scan key value is 0xf10ec936 
+[  542.875938]  d!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disable
+[  542.928436] IR: [03932] scan key value is 0xf10ec936 
+[  542.928441]  d!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+I/ActivityManager(  935): START {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 pkg=com.twopersonstudio.games.bigbigbig2 cmp=com.twopersonstudio.games.bigbigbig2/.Big2GameActivity} from pid 1234
+I/UsageStats(  935): No package stats for pkg:com.fiship.cibn
+I/ActivityManager(  935): Start proc com.twopersonstudio.games.bigbigbig2 for activity com.twopersonstudio.games.bigbigbig2/.Big2GameActivity: pid=2171 uid=10040 gids={3003}
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+V/TabletStatusBar( 1127): setLightsOn(true)
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled
+[  543.237748] IR: [03932] scan key value is 0xf10ec936 
+[  543.237753]  !!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and
+[  543.290254] IR: [03932] scan key value is 0xf10ec936 
+[  543.290260]   softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+I/ActivityManager(  935): START {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 pkg=com.twopersonstudio.games.bigbigbig2 cmp=com.twopersonstudio.games.bigbigbig2/.Big2GameActivity} from pid 1234
+V/TabletStatusBar( 1127): setLightsOn(true)
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disable
+[  543.534893] IR: [03932] scan key value is 0xf10ec936 
+[  543.534898]  d!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+[  543.758999] IR: [03932] scan key value is 0xf10ec936 
+[  543.759004]  
+                D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+[  543.811483] IR: [03932] scan key value is 0xf10ec936 
+[  543.811487]  
+                D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+I/ActivityManager(  935): Start proc com.android.defcontainer for service com.android.defcontainer/.DefaultContainerService: pid=2572 uid=10007 gids={1015, 2001}
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+W/ActivityManager(  935): No content provider found for permission revoke: file:///data/data/com.coship.sdp.sce.tvappstore/app_implict/com.fiship.cibn.apk
+W/ActivityManager(  935): No content provider found for permission revoke: file:///data/data/com.coship.sdp.sce.tvappstore/app_implict/com.fiship.cibn.apk
+W/PackageParser(  935): No actions in intent filter at /data/app/vmdl511486440.tmp Binary XML file line #191
+--------- beginning of /dev/log/main
+D/DownloadTask( 1295): mRecordFile =/data/data/com.coship.netfirmware/temp.dat.cdl.Record
+D/DownloadTask( 1295): mfilePath =/data/data/com.coship.netfirmware/temp.dat.cdl
+I/dalvikvm(  935): Jit: resizing JitTable from 4096 to 8192
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/dalvikvm(  935): GC_CONCURRENT freed 535K, 55% free 4149K/9219K, paused 196ms+6ms
+D/MonitorCw880( 1563): counter=8 && isHeartbeatTimeout=false
+D/dalvikvm( 1626): GC_CONCURRENT freed 695K, 65% free 2458K/6979K, paused 3ms+3ms
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/MediaPlayerService(  744): [4] notify (0x37d48, 4, 0, 0)
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/dalvikvm(  935): GC_CONCURRENT freed 403K, 51% free 4553K/9219K, paused 2ms+5ms
+D/MonitorCw880( 1563): counter=9 && isHeartbeatTimeout=false
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/HomePlayerLib( 1626): hostaddress count is 1
+D/dalvikvm( 1626): GC_CONCURRENT freed 748K, 66% free 2379K/6979K, paused 5ms+2ms
+D/dalvikvm( 1626): GC_CONCURRENT freed 572K, 66% free 2378K/6979K, paused 10ms+3ms
+D/dalvikvm( 1626): GC_CONCURRENT freed 573K, 67% free 2349K/6979K, paused 5ms+4ms
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/dalvikvm(  935): GC_CONCURRENT freed 732K, 49% free 4736K/9219K, paused 355ms+6ms
+D/dalvikvm( 1626): GC_CONCURRENT freed 526K, 65% free 2470K/6979K, paused 4ms+2ms
+D/MonitorCw880( 1563): counter=12 && isHeartbeatTimeout=false
+D/dalvikvm(  935): GC_CONCURRENT freed 962K, 50% free 4762K/9475K, paused 3ms+4ms
+D/dalvikvm(  935): GC_CONCURRENT freed 1019K, 51% free 4768K/9539K, paused 3ms+9ms
+D/dalvikvm(  935): GC_CONCURRENT freed 1012K, 51% free 4789K/9603K, paused 2ms+6ms
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/dalvikvm(  935): GC_CONCURRENT freed 973K, 50% free 4806K/9603K, paused 2ms+5ms
+D/dalvikvm( 1626): GC_CONCURRENT freed 702K, 65% free 2457K/6979K, paused 8ms+3ms
+I/ActivityManager(  935): Force stopping package com.fiship.cibn uid=10000
+W/PackageManager(  935): Trying to update system app code path from /system/app/FlyUI_Portal.apk to /data/app/com.fiship.cibn-1.apk
+I/PackageManager(  935): Running dexopt on: com.fiship.cibn
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/dalvikvm( 1626): GC_CONCURRENT freed 679K, 66% free 2415K/6979K, paused 2ms+3ms
+D/MonitorCw880( 1563): counter=4 && isHeartbeatTimeout=false
+I/bluedroid(  935): bt_enable: ret: -1, errno: 110
+D/dalvikvm( 1626): GC_CONCURRENT freed 634K, 67% free 2359K/6979K, paused 2ms+3ms
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/dalvikvm( 1626): GC_CONCURRENT freed 551K, 66% free 2408K/6979K, paused 6ms+2ms
+D/dalvikvm( 1626): GC_CONCURRENT freed 620K, 66% free 2441K/6979K, paused 4ms+4ms
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/dalvikvm( 1626): GC_CONCURRENT freed 651K, 65% free 2443K/6979K, paused 3ms+2ms
+D/MonitorCw880( 1563): counter=6 && isHeartbeatTimeout=false
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/dalvikvm( 1281): GC_CONCURRENT freed 348K, 85% free 771K/4931K, paused 153ms+1ms
+E/AC3Extractor(  744): Rsyn Fail
+D/MediaPlayerService(  744): countTracks = 1
+D/MediaPlayerService(  744): mime = audio/vorbis
+D/MediaPlayerService(  744): videoCnt = 0, audioCnt = 1
+D/MediaPlayerService(  744): Ogg
+E/AC3Extractor(  744): Rsyn Fail
+D/MediaPlayerService(  744): [5] setVideoSurfaceTexture(0x0)
+D/OMXCodec(  744): Attempting to allocate OMX node 'OMX.google.vorbis.decoder'
+D/OMXCodec(  744): Successfully allocated OMX node 'OMX.google.vorbis.decoder'
+D/MediaPlayerService(  744): [5] notify (0x59268, 5, 0, 0)
+D/MediaPlayerService(  744): [5] notify (0x59268, 1, 0, 0)
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/dalvikvm( 2171): GC_CONCURRENT freed 1883K, 62% free 7923K/20803K, paused 2ms+6ms
+D/MonitorCw880( 1563): counter=8 && isHeartbeatTimeout=false
+D/dalvikvm( 2171): GC_CONCURRENT freed 2208K, 63% free 7762K/20803K, paused 7ms+5ms
+D/dalvikvm( 2171): GC_CONCURRENT freed 2013K, 63% free 7710K/20803K, paused 2ms+4ms
+I/System  ( 1295): Loaded time zone names for  in 11349ms (11330ms in ICU)
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/dalvikvm( 1295): GC_CONCURRENT freed 297K, 82% free 919K/4931K, paused 1ms+1ms
+I/System  ( 1295): Loaded time zone names for en_US in 468ms (463ms in ICU)
+I/System  ( 1295): Loaded time zone names for zh_CN in 659ms (658ms in ICU)
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/dalvikvm( 1295): GC_CONCURRENT freed 341K, 81% free 972K/5059K, paused 3ms+1ms
+D/MoPub   ( 2171): Failed to retrieve location: access appears to be disabled.
+D/MoPub   ( 2171): adWillLoad: http://ads.mopub.com/m/ad?v=4&id=agltb3B1Yi1pbmNyDQsSBFNpdGUYrsuJBww&udid=sha1:56973ac33acee0aeb823744947d74d58a704140&z=+0800&o=l&sc_a=1.0
+D/MonitorCw880( 1563): counter=10 && isHeartbeatTimeout=false
+W/ActivityThread( 1295): ClassLoader.loadClass: The class loader returned by Thread.getContextClassLoader() may fail for processes that host multiple applications. You should explicitly specify a context class loader. For example: Thread.setContextClassLoader(getClass().getClassLoader());
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/dalvikvm( 2595): DexOpt: load 830ms, verify+opt 3125ms
+I/MoPub   ( 2171): Fetching ad network type: mobfox
+D/dalvikvm( 1295): GC_CONCURRENT freed 199K, 77% free 1190K/5123K, paused 2ms+1ms
+I/ActivityManager(  935): Force stopping package com.fiship.cibn uid=10000
+W/PackageManager(  935): Code path for pkg : com.fiship.cibn changing from /system/app/FlyUI_Portal.apk to /data/app/com.fiship.cibn-1.apk
+W/PackageManager(  935): Resource path for pkg : com.fiship.cibn changing from /system/app/FlyUI_Portal.apk to /data/app/com.fiship.cibn-1.apk
+D/dalvikvm( 1295): GC_CONCURRENT freed 285K, 75% free 1366K/5379K, paused 1ms+1ms
+I/DownloadTask( 1295): Server:Apache-Coyote/1.1
+I/DownloadTask( 1295): Accept-Ranges:bytes
+I/DownloadTask( 1295): ETag:W/"33-1370433570000"
+I/DownloadTask( 1295): Last-Modified:Wed, 05 Jun 2013 11:59:30 GMT
+I/DownloadTask( 1295): Content-Length:33
+I/DownloadTask( 1295): Date:Fri, 07 Jun 2013 12:42:55 GMT
+I/DownloadTask( 1295): Powered-By-ChinaCache:MISS from CHN-MZ-2-3V1
+I/DownloadTask( 1295): Connection:close
+D/DownloadTask( 1295): server accept range
+D/DownloadTask( 1295): initTaskRecord currentSize=-1
+D/DownloadTask( 1295): totalSize=-1
+D/DownloadTask( 1295): magicID=abc
+D/DownloadTask( 1295): mCurrentSize=0
+D/DownloadTask( 1295): mTotalSize=33
+D/DownloadTask( 1295): mMagicID=null
+D/DownloadTask( 1295): The record is invalid, need reset record
+D/WriteDataInStorageThread( 1295): write file name = /data/data/com.coship.netfirmware/temp.dat.cdl
+D/dalvikvm( 1295): GC_FOR_ALLOC freed 234K, 74% free 1402K/5379K, paused 13ms
+I/dalvikvm-heap( 1295): Grow heap (frag case) to 5.465MB for 524304-byte allocation
+D/dalvikvm( 1295): GC_FOR_ALLOC freed 26K, 69% free 1887K/5955K, paused 12ms
+D/dalvikvm( 1295): GC_CONCURRENT freed <1K, 68% free 1919K/5955K, paused 1ms+5ms
+V/DownloadTask( 1295): finishedThreadNum--->0
+V/DownloadTask( 1295): mThreadNum--->2
+D/NetFirmwareService( 1295): DownloadConstants.TASK_STATUS_RUNNING
+D/dalvikvm( 1295): GC_FOR_ALLOC freed 32K, 69% free 1897K/5955K, paused 12ms
+I/dalvikvm-heap( 1295): Grow heap (frag case) to 5.950MB for 524304-byte allocation
+D/dalvikvm( 1295): GC_CONCURRENT freed <1K, 64% free 2409K/6531K, paused 1ms+1ms
+D/DownloadThread( 1295): statusCode--->206
+V/DownloadThread( 1295): Accept-Ranges: bytes
+V/DownloadThread( 1295): Content-Disposition: null
+V/DownloadThread( 1295): Content-Length: 16
+V/DownloadThread( 1295): Content-Location: null
+V/DownloadThread( 1295): ETag: W/"33-1370433570000"
+V/DownloadThread( 1295): Transfer-Encoding: null
+V/DownloadThread( 1295): read_front--->
+V/DownloadThread( 1295): read_bytesRead--->16
+V/DownloadThread( 1295): read_front--->
+V/DownloadThread( 1295): read_bytesRead--->-1
+D/DownloadThread( 1295): write the last data in storage.
+D/WriteDataInStorageThread( 1295): sendDataInStack --data length =16 offset =0 file name = filePart0
+D/WriteDataInStorageThread( 1295): write data  Pos=0   Length =16  Thread =filePart0
+D/DownloadThread( 1295): filePart0 final status: 491
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+I/MoPub   ( 2171): Ad successfully loaded.
+D/MoPub   ( 2171): adLoaded
+D/DownloadThread( 1295): statusCode--->206
+V/DownloadThread( 1295): Accept-Ranges: bytes
+V/DownloadThread( 1295): Content-Disposition: null
+V/DownloadThread( 1295): Content-Length: 17
+V/DownloadThread( 1295): Content-Location: null
+V/DownloadThread( 1295): ETag: W/"33-1370433570000"
+V/DownloadThread( 1295): Transfer-Encoding: null
+V/DownloadThread( 1295): read_front--->
+V/DownloadThread( 1295): read_bytesRead--->17
+V/DownloadThread( 1295): read_front--->
+V/DownloadThread( 1295): read_bytesRead--->-1
+D/DownloadThread( 1295): write the last data in storage.
+D/WriteDataInStorageThread( 1295): sendDataInStack --data length =17 offset =16 file name = filePart1
+D/WriteDataInStorageThread( 1295): write data  Pos=16   Length =17  Thread =filePart1
+D/DownloadThread( 1295): filePart1 final status: 491
+D/dalvikvm(  935): GC_CONCURRENT freed 940K, 50% free 4858K/9603K, paused 3ms+14ms
+D/PackageManager(  935): New package installed in /data/app/com.fiship.cibn-1.apk
+V/DownloadTask( 1295): finishedThreadNum--->2
+V/DownloadTask( 1295): mThreadNum--->2
+D/DownloadTask( 1295): src file = /data/data/com.coship.netfirmware/temp.dat.cdl --- des file=/data/data/com.coship.netfirmware/temp.dat
+D/NetFirmwareService( 1295): DownloadConstants.TASK_STATUS_COMPLETED
+D/MonitorCw880( 1563): counter=12 && isHeartbeatTimeout=false
+D/HomePlayerLib( 1626): hostaddress count is 1
+D/dalvikvm( 1626): GC_CONCURRENT freed 670K, 65% free 2446K/6979K, paused 2ms+2ms
+I/ActivityManager(  935): Force stopping package com.fiship.cibn uid=10000
+D/dalvikvm( 1626): GC_CONCURRENT freed 720K, 66% free 2401K/6979K, paused 5ms+6ms
+D/dalvikvm( 1234): GC_EXPLICIT freed 717K, 15% free 35930K/41987K, paused 4ms+14ms
+D/dalvikvm(  935): GC_EXPLICIT freed 1180K, 58% free 4114K/9603K, paused 2ms+5ms
+D/dalvikvm( 1626): GC_CONCURRENT freed 587K, 65% free 2504K/6979K, paused 5ms+3ms
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/dalvikvm( 1626): GC_CONCURRENT freed 739K, 65% free 2455K/6979K, paused 1ms+3ms
+D/dalvikvm( 1457): GC_EXPLICIT freed 284K, 75% free 1360K/5379K, paused 1ms+4ms
+D/PackageManager(  935): generateServicesMap(android.accounts.AccountAuthenticator): 1 services unchanged
+D/dalvikvm( 1626): GC_CONCURRENT freed 680K, 65% free 2468K/6979K, paused 3ms+2ms
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/NetFirmwareService( 1295): MSG_VER_CODE_STATUS_CHANGE
+D/NetFirmwareService( 1295): MSG_VER_CODE_STATUS_CHANGE
+D/NetFirmwareService( 1295): MSG_VER_CODE_STATUS_CHANGE
+D/NetFirmwareService( 1295): MSG_CHECK_VERSION_CODE
+D/NetFirmwareService( 1295): checkVersionCode
+D/NetFirmwareService( 1295): analysisVersionCodeData
+D/NetFirmwareService( 1295): open file error
+I/NetFirmwareService( 1295): mVersionCodeFile--->34
+D/NetFirmwareService( 1295): verCode = 0
+D/NetFirmwareService( 1295): Description URL = null
+D/NetFirmwareService( 1295): MSG_GET_DESCRIPTION
+D/dalvikvm( 1626): GC_CONCURRENT freed 704K, 67% free 2360K/6979K, paused 5ms+2ms
+D/NetFirmwareService( 1295): Download URL = http://update.coship.com/update/system/S1001/002104/description_211335.dat
+D/NetFirmwareService( 1295): Save file in path = /data/data/com.coship.netfirmware/temp.dat
+D/NetFirmwareService( 1295): Set download thread number = 2
+D/DownloadTask( 1295): mDesFilePath =/data/data/com.coship.netfirmware/temp.dat
+D/DownloadTask( 1295): mRecordFile =/data/data/com.coship.netfirmware/temp.dat.cdl.Record
+D/DownloadTask( 1295): mfilePath =/data/data/com.coship.netfirmware/temp.dat.cdl
+D/MonitorCw880( 1563): counter=4 && isHeartbeatTimeout=false
+I/bluedroid(  935): bt_enable: ret: -1, errno: 110
+D/dalvikvm( 1626): GC_CONCURRENT freed 549K, 67% free 2346K/6979K, paused 2ms+2ms
+D/PackageManager(  935): generateServicesMap(android.content.SyncAdapter): 1 services unchanged
+I/AccountTypeManager( 1404): Loaded meta-data for 0 account types, 0 accounts in 728ms(wall) 2ms(cpu)
+I/AccountTypeManager( 1404): Loaded meta-data for 0 account types, 0 accounts in 3ms(wall) 0ms(cpu)
+D/dalvikvm(  935): GC_EXPLICIT freed 71K, 57% free 4156K/9603K, paused 4ms+638ms
+D/ApkDeploy( 1892):  ------:: packageName is com.fiship.cibn
+D/ApkDeploy( 1892):  ------:: returnCode is 1
+D/ApkDeploy( 1892):  ------:: mFailedCode =1
+I/DownloadTask( 1295): Server:Apache-Coyote/1.1
+I/DownloadTask( 1295): Accept-Ranges:bytes
+I/DownloadTask( 1295): ETag:W/"333-1369444162000"
+I/DownloadTask( 1295): Last-Modified:Sat, 25 May 2013 01:09:22 GMT
+I/DownloadTask( 1295): Content-Length:333
+I/DownloadTask( 1295): Date:Fri, 07 Jun 2013 12:42:59 GMT
+I/DownloadTask( 1295): Powered-By-ChinaCache:MISS from CHN-MZ-2-3V1
+I/DownloadTask( 1295): Connection:close
+D/ImplicitAppManagerTimerTask( 1892):  ------:: apkDeploy.intsall resCode= 1
+D/dalvikvm( 1295): GC_CONCURRENT freed 1611K, 79% free 1475K/6787K, paused 2ms+3ms
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/DownloadTask( 1295): server accept range
+D/DownloadTask( 1295): initTaskRecord currentSize=-1
+D/DownloadTask( 1295): totalSize=-1
+D/DownloadTask( 1295): magicID=abc
+D/DownloadTask( 1295): mCurrentSize=0
+D/DownloadTask( 1295): mTotalSize=333
+D/DownloadTask( 1295): mMagicID=null
+D/DownloadTask( 1295): The record is invalid, need reset record
+D/WriteDataInStorageThread( 1295): write file name = /data/data/com.coship.netfirmware/temp.dat.cdl
+D/dalvikvm( 1295): GC_FOR_ALLOC freed 126K, 80% free 1406K/6787K, paused 14ms
+I/dalvikvm-heap( 1295): Grow heap (frag case) to 5.470MB for 524304-byte allocation
+D/dalvikvm( 1295): GC_FOR_ALLOC freed 0K, 72% free 1918K/6787K, paused 18ms
+D/dalvikvm( 1295): GC_CONCURRENT freed 27K, 72% free 1902K/6787K, paused 1ms+2ms
+D/PackageManager(  935): generateServicesMap(android.accounts.AccountAuthenticator): 1 services unchanged
+D/PackageManager(  935): generateServicesMap(android.content.SyncAdapter): 1 services unchanged
+D/BackupManagerService(  935): Received broadcast Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:com.fiship.cibn flg=0x10000000 (has extras) }
+D/dalvikvm( 1295): GC_FOR_ALLOC freed <1K, 72% free 1918K/6787K, paused 34ms
+I/dalvikvm-heap( 1295): Grow heap (frag case) to 5.970MB for 524304-byte allocation
+D/dalvikvm( 1295): GC_FOR_ALLOC freed 0K, 65% free 2430K/6787K, paused 35ms
+V/DownloadTask( 1295): finishedThreadNum--->0
+V/DownloadTask( 1295): mThreadNum--->2
+D/NetFirmwareService( 1295): MSG_DESCRIPT_STATUS_CHANGE
+D/NetFirmwareService( 1295): MSG_DESCRIPT_STATUS_CHANGE
+D/dalvikvm( 1626): GC_CONCURRENT freed 540K, 65% free 2454K/6979K, paused 19ms+3ms
+D/ImplicitAppManagerTimerTask( 1892):  ------:: certificateObj:{"revokes":[],"certificates":["http:\/\/app.longvisionmedia.com:80\/upload\/certificate\/b8922ffb-aa6c-496d-b43a-04bbed5f5018.cer"]} certificates:["http:\/\/app.longvisionmedia.com:80\/upload\/certificate\/b8922ffb-aa6c-496d-b43a-04bbed5f5018.cer"]
+I/ActivityManager(  935): Start proc com.android.keychain for broadcast com.android.keychain/.KeyChainBroadcastReceiver: pid=2614 uid=1000 gids={3003, 1015, 3002, 3001, 3004}
+D/DownloadThread( 1295): statusCode--->206
+V/DownloadThread( 1295): Accept-Ranges: bytes
+V/DownloadThread( 1295): Content-Disposition: null
+V/DownloadThread( 1295): Content-Length: 167
+D/DownloadThread( 1295): statusCode--->206
+V/DownloadThread( 1295): Accept-Ranges: bytes
+V/DownloadThread( 1295): Content-Disposition: null
+V/DownloadThread( 1295): Content-Length: 166
+V/DownloadThread( 1295): Content-Location: null
+V/DownloadThread( 1295): Content-Location: null
+V/DownloadThread( 1295): ETag: W/"333-1369444162000"
+V/DownloadThread( 1295): ETag: W/"333-1369444162000"
+V/DownloadThread( 1295): Transfer-Encoding: null
+V/DownloadThread( 1295): Transfer-Encoding: null
+V/DownloadThread( 1295): read_front--->
+V/DownloadThread( 1295): read_bytesRead--->167
+V/DownloadThread( 1295): read_front--->
+V/DownloadThread( 1295): read_front--->
+V/DownloadThread( 1295): read_bytesRead--->166
+V/DownloadThread( 1295): read_front--->
+V/DownloadThread( 1295): read_bytesRead--->-1
+D/DownloadThread( 1295): write the last data in storage.
+D/WriteDataInStorageThread( 1295): sendDataInStack --data length =167 offset =166 file name = filePart1
+V/DownloadThread( 1295): read_bytesRead--->-1
+D/DownloadThread( 1295): write the last data in storage.
+D/DownloadThread( 1295): filePart1 final status: 491
+D/WriteDataInStorageThread( 1295): sendDataInStack --data length =166 offset =0 file name = filePart0
+D/DownloadThread( 1295): filePart0 final status: 491
+D/WriteDataInStorageThread( 1295): write data  Pos=166   Length =167  Thread =filePart1
+D/BackupManagerService(  935): Received broadcast Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.fiship.cibn flg=0x10000000 (has extras) }
+V/BackupManagerService(  935): updatePackageParticipantsLocked: #1
+D/dalvikvm( 1626): GC_CONCURRENT freed 716K, 66% free 2416K/6979K, paused 4ms+3ms
+V/DownloadTask( 1295): finishedThreadNum--->2
+V/DownloadTask( 1295): mThreadNum--->2
+D/NetFirmwareService( 1295): MSG_DESCRIPT_STATUS_CHANGE
+D/MoPub   ( 2171): Ad Unit (agltb3B1Yi1pbmNyDQsSBFNpdGUYrsuJBww) going invisible: disabling refresh
+D/PackageOperateReceiver( 1892):  ------:: action= android.intent.action.PACKAGE_REMOVED
+W/RecognitionManagerService(  935): no available voice recognition services found
+D/AppManagerService( 1892):  ------:: download length: 671
+D/ImplicitAppManagerTimerTask( 1892):  ------:: downUpgradeClient  downloadUrl= http://app.longvisionmedia.com:80/upload/signedapp/0a211541-50fb-4092-9535-5dc43e9a0951.apk
+I/ActivityManager(  935): Start proc com.svox.pico for broadcast com.svox.pico/.VoiceDataInstallerReceiver: pid=2628 uid=10018 gids={1015}
+W/ActivityManager(  935): Duplicate finish request for ActivityRecord{41600ca0 com.fiship.cibn/.activity.AppActivity}
+I/MainActivity( 1234):  onResume
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/dalvikvm(  742): GC_EXPLICIT freed 453K, 44% free 6607K/11651K, paused 7ms+9ms
+D/dalvikvm(  742): GC_EXPLICIT freed 33K, 44% free 6574K/11651K, paused 2ms+3ms
+D/ImplicitAppManagerTimerTask( 1892):  ------:: Server:Apache-Coyote/1.1
+D/ImplicitAppManagerTimerTask( 1892):  ------:: Accept-Ranges:bytes
+D/ImplicitAppManagerTimerTask( 1892):  ------:: ETag:W/"6761974-1370010409000"
+D/ImplicitAppManagerTimerTask( 1892):  ------:: Last-Modified:Fri, 31 May 2013 14:26:49 GMT
+D/ImplicitAppManagerTimerTask( 1892):  ------:: Content-Type:application/vnd.android.package-archive
+D/ImplicitAppManagerTimerTask( 1892):  ------:: Content-Length:6761974
+D/ImplicitAppManagerTimerTask( 1892):  ------:: mTotalSize:6761974
+D/dalvikvm(  742): GC_EXPLICIT freed <1K, 44% free 6574K/11651K, paused 4ms+3ms
+D/ImplicitAppManagerTimerTask( 1892):  ------:: storage ret:true
+V/DownloadTask( 1295): finishedThreadNum--->2
+V/DownloadTask( 1295): mThreadNum--->2
+D/NetFirmwareService( 1295): MSG_DESCRIPT_STATUS_CHANGE
+D/WriteDataInStorageThread( 1295): write data  Pos=0   Length =166  Thread =filePart0
+D/dalvikvm( 1892): GC_FOR_ALLOC freed 669K, 63% free 2693K/7235K, paused 40ms
+E/StrictMode( 1892): A resource was acquired at attached stack trace but never released. See java.io.Closeable for information on avoiding resource leaks.
+E/StrictMode( 1892): java.lang.Throwable: Explicit termination method 'close' not called
+E/StrictMode( 1892):    at dalvik.system.CloseGuard.open(CloseGuard.java:184)
+E/StrictMode( 1892):    at java.io.FileInputStream.<init>(FileInputStream.java:80)
+E/StrictMode( 1892):    at java.io.FileInputStream.<init>(FileInputStream.java:105)
+E/StrictMode( 1892):    at com.coship.sdp.sce.tvappstore.utils.AppSecurityCheck.checkSign(Unknown Source)
+E/StrictMode( 1892):    at com.coship.sdp.sce.tvappstore.app.task.ImplicitAppManagerTimerTask.installImplicitApp(Unknown Source)
+E/StrictMode( 1892):    at com.coship.sdp.sce.tvappstore.app.task.ImplicitAppManagerTimerTask.run(Unknown Source)
+E/StrictMode( 1892):    at java.util.Timer$TimerImpl.run(Timer.java:284)
+D/dalvikvm( 1626): GC_CONCURRENT freed 634K, 66% free 2441K/6979K, paused 3ms+2ms
+D/MonitorCw880( 1563): counter=6 && isHeartbeatTimeout=false
+D/ImplicitAppManagerTimerTask( 1892):  ------:: download length: 65700
+W/ResourceType(  935): Skipping entry 0x7f040000 in package table 0 because it is not complex!
+W/ResourceType(  935): Skipping entry 0x7f040001 in package table 0 because it is not complex!
+D/OpenGLRenderer( 1234): Flushing caches (mode 0)
+D/ImplicitAppManagerTimerTask( 1892):  ------:: download length: 138700
+V/DownloadTask( 1295): finishedThreadNum--->2
+V/DownloadTask( 1295): mThreadNum--->2
+D/dalvikvm( 1626): GC_CONCURRENT freed 651K, 67% free 2346K/6979K, paused 1ms+2ms
+D/ImplicitAppManagerTimerTask( 1892):  ------:: download length: 232140
+W/DownloadTask( 1295): There has a file named /data/data/com.coship.netfirmware/temp.dat already
+D/DownloadTask( 1295): src file = /data/data/com.coship.netfirmware/temp.dat.cdl --- des file=/data/data/com.coship.netfirmware/temp.dat
+D/NetFirmwareService( 1295): DownloadConstants.TASK_STATUS_COMPLETED
+D/NetFirmwareService( 1295): MSG_DESCRIPT_STATUS_CHANGE
+I/ActivityThread( 2628): Pub com.svox.pico.providers.SettingsProvider: com.svox.pico.providers.SettingsProvider
+D/dalvikvm(  935): GC_CONCURRENT freed 785K, 57% free 4189K/9603K, paused 7ms+9ms
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/PackageOperateReceiver( 1892):  ------:: action= android.intent.action.PACKAGE_ADDED
+D/PackageOperateReceiver( 1892):  ------:: package:com.fiship.cibn
+D/ImplicitAppManagerTimerTask( 1892):  ------:: download length: 325580
+D/dalvikvm( 1626): GC_CONCURRENT freed 535K, 66% free 2398K/6979K, paused 2ms+2ms
+I/ActivityManager(  935): No longer want com.android.contacts (pid 1404): hidden #16
+D/dalvikvm( 1234): GC_EXPLICIT freed 18K, 15% free 35917K/41987K, paused 2ms+10ms
+W/Searchables(  935): No global search activity found
+D/NetFirmwareService( 1295): MSG_CHECK_DESCRIPTION
+W/Searchables(  935): No global search activity found
+D/BackupManagerService(  935): Received broadcast Intent { act=android.intent.action.PACKAGE_REPLACED dat=package:com.fiship.cibn flg=0x10000000 (has extras) }
+V/BackupManagerService(  935): updatePackageParticipantsLocked: #1
+D/NetFirmwareService( 1295): The description info is valid
+D/NetFirmwareService( 1295): The description version code = 0
+D/NetFirmwareService( 1295): The description machine ID = 0
+D/NetFirmwareService( 1295): The description hardware ID = 0
+V/NetFirmwareService( 1295): temp.getName()--->temp.dat
+D/ImplicitAppManagerTimerTask( 1892):  ------:: download length: 419020
+D/AndEngine( 2171): UpdateThread interrupted. Don't worry - this Exception is most likely expected!
+D/AndEngine( 2171): java.lang.InterruptedException
+D/AndEngine( 2171):     at java.lang.Object.wait(Native Method)
+D/AndEngine( 2171):     at java.lang.Object.wait(Object.java:364)
+D/AndEngine( 2171):     at org.anddev.andengine.engine.a.d(Unknown Source)
+D/AndEngine( 2171):     at org.anddev.andengine.engine.Engine.yieldDraw(Unknown Source)
+D/AndEngine( 2171):     at org.anddev.andengine.engine.Engine.onTickUpdate(Unknown Source)
+D/AndEngine( 2171):     at org.anddev.andengine.engine.b.run(Unknown Source)
+D/AndroidRuntime( 1642): Shutting down VM
+W/dalvikvm( 1642): threadid=1: thread exiting with uncaught exception (group=0x40fa81f8)
+E/AndroidRuntime( 1642): FATAL EXCEPTION: main
+E/AndroidRuntime( 1642): java.lang.RuntimeException: Unable to instantiate receiver com.mobile.app.main.GESoftInspector: java.lang.ClassNotFoundException: com.mobile.app.main.GESoftInspector
+E/AndroidRuntime( 1642):        at android.app.ActivityThread.handleReceiver(ActivityThread.java:2100)
+E/AndroidRuntime( 1642):        at android.app.ActivityThread.access$1500(ActivityThread.java:123)
+E/AndroidRuntime( 1642):        at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1197)
+E/AndroidRuntime( 1642):        at android.os.Handler.dispatchMessage(Handler.java:99)
+E/AndroidRuntime( 1642):        at android.os.Looper.loop(Looper.java:137)
+E/AndroidRuntime( 1642):        at android.app.ActivityThread.main(ActivityThread.java:4424)
+E/AndroidRuntime( 1642):        at java.lang.reflect.Method.invokeNative(Native Method)
+E/AndroidRuntime( 1642):        at java.lang.reflect.Method.invoke(Method.java:511)
+E/AndroidRuntime( 1642):        at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:848)
+E/AndroidRuntime( 1642):        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:575)
+E/AndroidRuntime( 1642):        at dalvik.system.NativeStart.main(Native Method)
+E/AndroidRuntime( 1642): Caused by: java.lang.ClassNotFoundException: com.mobile.app.main.GESoftInspector
+E/AndroidRuntime( 1642):        at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:61)
+E/AndroidRuntime( 1642):        at java.lang.ClassLoader.loadClass(ClassLoader.java:501)
+E/AndroidRuntime( 1642):        at java.lang.ClassLoader.loadClass(ClassLoader.java:461)
+E/AndroidRuntime( 1642):        at android.app.ActivityThread.handleReceiver(ActivityThread.java:2095)
+E/AndroidRuntime( 1642):        ... 10 more
+D/dalvikvm( 1626): GC_CONCURRENT freed 594K, 67% free 2346K/6979K, paused 2ms+2ms
+D/ImplicitAppManagerTimerTask( 1892):  ------:: download length: 512460
+D/ImplicitAppManagerTimerTask( 1892):  ------:: download length: 605900
+I/MainActivity( 1234): onClick -> 52054
+D/ImplicitAppManagerTimerTask( 1892):  ------:: download length: 699340
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/ImplicitAppManagerTimerTask( 1892):  ------:: download length: 792780
+D/MonitorCw880( 1563): counter=8 && isHeartbeatTimeout=false
+D/ImplicitAppManagerTimerTask( 1892):  ------:: download length: 886220
+D/dalvikvm( 1626): GC_CONCURRENT freed 546K, 67% free 2316K/6979K, paused 2ms+2ms
+D/ImplicitAppManagerTimerTask( 1892):  ------:: download length: 979660
+D/ImplicitAppManagerTimerTask( 1892):  ------:: download length: 1073100
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/ImplicitAppManagerTimerTask( 1892):  ------:: download length: 1166540
+V/NetFirmwareService( 1295): /update/*.FileNum--->0
+V/NetFirmwareService( 1295): No Higher!
+D/ImplicitAppManagerTimerTask( 1892):  ------:: download length: 1259980
+D/dalvikvm(  935): GC_FOR_ALLOC freed 771K, 58% free 4098K/9603K, paused 49ms
+I/dalvikvm-heap(  935): Grow heap (frag case) to 8.209MB for 635812-byte allocation
+D/dalvikvm(  935): GC_FOR_ALLOC freed 20K, 55% free 4699K/10243K, paused 51ms
+D/dalvikvm(  935): GC_FOR_ALLOC freed 0K, 55% free 4699K/10243K, paused 38ms
+I/dalvikvm-heap(  935): Grow heap (frag case) to 8.458MB for 281896-byte allocation
+D/ImplicitAppManagerTimerTask( 1892):  ------:: download length: 1353420
+D/dalvikvm(  935): GC_FOR_ALLOC freed 0K, 53% free 4975K/10563K, paused 47ms
+I/ActivityManager(  935): START {cmp=com.fiship.cibn/.activity.AppActivity (has extras)} from pid 1234
+D/ImplicitAppManagerTimerTask( 1892):  ------:: download length: 1446860
+E/MainActivity( 1234): start  feifeikan app  erro !
+D/ImplicitAppManagerTimerTask( 1892):  ------:: download length: 1540300
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/ImplicitAppManagerTimerTask( 1892):  ------:: download length: 1633740
+D/ImplicitAppManagerTimerTask( 1892):  ------:: download length: 1727180
+D/MonitorCw880( 1563): counter=10 && isHeartbeatTimeout=false
+D/ImplicitAppManagerTimerTask( 1892):  ------:: download length: 1820620
+D/ImplicitAppManagerTimerTask( 1892):  ------:: download length: 1914060
+D/ImplicitAppManagerTimerTask( 1892):  ------:: download length: 2007500
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/ImplicitAppManagerTimerTask( 1892):  ------:: download length: 2100940
+D/ImplicitAppManagerTimerTask( 1892):  ------:: download length: 2163720
+D/ImplicitAppManagerTimerTask( 1892):  ------:: download length: 2255700
+D/ImplicitAppManagerTimerTask( 1892):  ------:: download length: 2347680
+D/ImplicitAppManagerTimerTask( 1892):  ------:: download length: 2441120
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/ImplicitAppManagerTimerTask( 1892):  ------:: download length: 2534560
+D/PackageOperateReceiver( 1892):  ------:: action= android.intent.action.PACKAGE_REPLACED
+D/PackageOperateReceiver( 1892):  ------:: package:com.fiship.cibn
+D/ImplicitAppManagerTimerTask( 1892):  ------:: download length: 2628000
+D/MonitorCw880( 1563): counter=12 && isHeartbeatTimeout=false
+D/ImplicitAppManagerTimerTask( 1892):  ------:: download length: 2721440
+D/ImplicitAppManagerTimerTask( 1892):  ------:: download length: 2814880
+D/ImplicitAppManagerTimerTask( 1892):  ------:: download length: 2908320
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/HomePlayerLib( 1626): hostaddress count is 1
+D/ImplicitAppManagerTimerTask( 1892):  ------:: download length: 3001760
+D/dalvikvm( 1626): GC_CONCURRENT freed 517K, 67% free 2322K/6979K, paused 4ms+3ms
+D/ImplicitAppManagerTimerTask( 1892):  ------:: download length: 3095200
+D/dalvikvm( 1626): GC_CONCURRENT freed 502K, 66% free 2442K/6979K, paused 2ms+2ms
+D/ImplicitAppManagerTimerTask( 1892):  ------:: download length: 3188640
+D/dalvikvm( 1626): GC_CONCURRENT freed 657K, 65% free 2477K/6979K, paused 3ms+2ms
+D/ImplicitAppManagerTimerTask( 1892):  ------:: download length: 3282080
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/dalvikvm( 1626): GC_CONCURRENT freed 690K, 65% free 2483K/6979K, paused 3ms+4ms
+D/ImplicitAppManagerTimerTask( 1892):  ------:: download length: 3375520
+D/ImplicitAppManagerTimerTask( 1892):  ------:: download length: 3468960
+D/MonitorCw880( 1563): counter=4 && isHeartbeatTimeout=false
+D/ImplicitAppManagerTimerTask( 1892):  ------:: download length: 3562400
+I/bluedroid(  935): bt_enable: ret: -1, errno: 110
+D/ImplicitAppManagerTimerTask( 1892):  ------:: download length: 3655840
+D/ImplicitAppManagerTimerTask( 1892):  ------:: download length: 3749280
+I/Process ( 1642): Sending signal. PID: 1642 SIG: 9
+I/ActivityManager(  935): Process com.android1132k.zhuluo (pid 1642) has died.
+W/ActivityManager(  935): Scheduling restart of crashed service com.android1132k.zhuluo/net.iusys828.AdPushService in 5000ms
+W/ActivityManager(  935): Scheduling restart of crashed service com.android1132k.zhuluo/com.yeahyoo.ps.AlarmService in 15000ms
+W/ActivityManager(  935): Scheduling restart of crashed service com.android1132k.zhuluo/com.baitui.ByPushService in 25000ms
+W/ActivityManager(  935): Scheduling restart of crashed service com.android1132k.zhuluo/com.iadpush.adp.NS in 35000ms
+W/InputManagerService(  935): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@413d4860
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/ImplicitAppManagerTimerTask( 1892):  ------:: download length: 3842720
+D/ImplicitAppManagerTimerTask( 1892):  ------:: download length: 3899660
+D/dalvikvm( 1626): GC_CONCURRENT freed 715K, 65% free 2446K/6979K, paused 1ms+2ms
+D/ImplicitAppManagerTimerTask( 1892):  ------:: download length: 3990180
+D/dalvikvm( 1626): GC_CONCURRENT freed 653K, 65% free 2470K/6979K, paused 2ms+2ms
+D/ImplicitAppManagerTimerTask( 1892):  ------:: download length: 4082160
+D/ImplicitAppManagerTimerTask( 1892):  ------:: download length: 4175600
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/dalvikvm( 1626): GC_CONCURRENT freed 702K, 65% free 2444K/6979K, paused 2ms+2ms
+D/ImplicitAppManagerTimerTask( 1892):  ------:: download length: 4269040
+D/ImplicitAppManagerTimerTask( 1892):  ------:: download length: 4362480
+D/MonitorCw880( 1563): counter=5 && isHeartbeatTimeout=false
+D/ImplicitAppManagerTimerTask( 1892):  ------:: download length: 4455920
+I/MainActivity( 1234): onClick -> 52054
+E/MainActivity( 1234): start  feifeikan app  erro !
+I/ActivityManager(  935): START {cmp=com.fiship.cibn/.activity.AppActivity (has extras)} from pid 1234
+D/ImplicitAppManagerTimerTask( 1892):  ------:: download length: 4549360
+D/ImplicitAppManagerTimerTask( 1892):  ------:: download length: 4642800
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/dalvikvm( 1626): GC_CONCURRENT freed 651K, 65% free 2471K/6979K, paused 2ms+2ms
+D/ImplicitAppManagerTimerTask( 1892):  ------:: download length: 4736240
+D/ImplicitAppManagerTimerTask( 1892):  ------:: download length: 4829680
+D/dalvikvm( 1626): GC_CONCURRENT freed 705K, 65% free 2444K/6979K, paused 2ms+2ms
+D/ImplicitAppManagerTimerTask( 1892):  ------:: download length: 4892460
+D/ImplicitAppManagerTimerTask( 1892):  ------:: download length: 4984440
+D/ImplicitAppManagerTimerTask( 1892):  ------:: download length: 5076420
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/ImplicitAppManagerTimerTask( 1892):  ------:: download length: 5169860
+D/MonitorCw880( 1563): counter=7 && isHeartbeatTimeout=false
+D/ImplicitAppManagerTimerTask( 1892):  ------:: download length: 5263300
+D/ImplicitAppManagerTimerTask( 1892):  ------:: download length: 5356740
+D/ImplicitAppManagerTimerTask( 1892):  ------:: download length: 5450180
+D/ImplicitAppManagerTimerTask( 1892):  ------:: download length: 5543620
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/ImplicitAppManagerTimerTask( 1892):  ------:: download length: 5637060
+I/MainActivity( 1234): onClick -> 52054
+E/MainActivity( 1234): start  feifeikan app  erro !
+I/ActivityManager(  935): START {cmp=com.fiship.cibn/.activity.AppActivity (has extras)} from pid 1234
+D/ImplicitAppManagerTimerTask( 1892):  ------:: download length: 5730500
+D/ImplicitAppManagerTimerTask( 1892):  ------:: download length: 5823940
+D/ImplicitAppManagerTimerTask( 1892):  ------:: download length: 5917380
+I/ActivityManager(  935): Start proc com.android1132k.zhuluo for service com.android1132k.zhuluo/net.iusys828.AdPushService: pid=2666 uid=10036 gids={3003, 1015, 1007}
+I/dalvikvm( 2666): Turning on JNI app bug workarounds for target SDK version 2...
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/ImplicitAppManagerTimerTask( 1892):  ------:: download length: 6010820
+I/MainActivity( 1234): onClick -> 52054
+E/MainActivity( 1234): start  feifeikan app  erro !
+I/ActivityManager(  935): START {cmp=com.fiship.cibn/.activity.AppActivity (has extras)} from pid 1234
+D/ImplicitAppManagerTimerTask( 1892):  ------:: download length: 6104260
+D/MonitorCw880( 1563): counter=9 && isHeartbeatTimeout=false
+D/ImplicitAppManagerTimerTask( 1892):  ------:: download length: 6197700
+D/ImplicitAppManagerTimerTask( 1892):  ------:: download length: 6291140
+I/MainActivity( 1234): onClick -> 52054
+E/MainActivity( 1234): start  feifeikan app  erro !
+I/ActivityManager(  935): START {cmp=com.fiship.cibn/.activity.AppActivity (has extras)} from pid 1234
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+I/MainActivity( 1234): onClick -> 52054
+E/MainActivity( 1234): start  feifeikan app  erro !
+I/ActivityManager(  935): START {cmp=com.fiship.cibn/.activity.AppActivity (has extras)} from pid 1234
+D/ImplicitAppManagerTimerTask( 1892):  ------:: download length: 6353920
+I/MainActivity( 1234): onClick -> 52054
+E/MainActivity( 1234): start  feifeikan app  erro !
+I/ActivityManager(  935): START {cmp=com.fiship.cibn/.activity.AppActivity (has extras)} from pid 1234
+W/MountService(  935): getVolumeState(/mnt/sdcard): Unknown volume
+D/ImplicitAppManagerTimerTask( 1892):  ------:: download length: 6447360
+D/ImplicitAppManagerTimerTask( 1892):  ------:: download length: 6540800
+I/MainActivity( 1234): onClick -> 52054
+E/MainActivity( 1234): start  feifeikan app  erro !
+I/ActivityManager(  935): START {cmp=com.fiship.cibn/.activity.AppActivity (has extras)} from pid 1234
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/ImplicitAppManagerTimerTask( 1892):  ------:: download length: 6634240
+I/MainActivity( 1234): onClick -> 52054
+E/MainActivity( 1234): start  feifeikan app  erro !
+I/ActivityManager(  935): START {cmp=com.fiship.cibn/.activity.AppActivity (has extras)} from pid 1234
+D/ImplicitAppManagerTimerTask( 1892):  ------:: download length: 6727680
+I/MainActivity( 1234): onClick -> 52054
+E/MainActivity( 1234): start  feifeikan app  erro !
+I/ActivityManager(  935): START {cmp=com.fiship.cibn/.activity.AppActivity (has extras)} from pid 1234
+D/MonitorCw880( 1563): counter=11 && isHeartbeatTimeout=false
+D/ImplicitAppManagerTimerTask( 1892):  ------:: download length: 6761974
+I/MainActivity( 1234): onClick -> 52054
+I/ActivityManager(  935): START {cmp=com.fiship.cibn/.activity.AppActivity (has extras)} from pid 1234
+E/MainActivity( 1234): start  feifeikan app  erro !
+I/MainActivity( 1234): onClick -> 52054
+I/ActivityManager(  935): START {cmp=com.fiship.cibn/.activity.AppActivity (has extras)} from pid 1234
+E/MainActivity( 1234): start  feifeikan app  erro !
+I/MainActivity( 1234): onClick -> 52054
+E/MainActivity( 1234): start  feifeikan app  erro !
+I/ActivityManager(  935): START {cmp=com.fiship.cibn/.activity.AppActivity (has extras)} from pid 1234
+D/dalvikvm( 1626): GC_CONCURRENT freed 651K, 67% free 2347K/6979K, paused 3ms+2ms
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+I/MainActivity( 1234): onClick -> 52054
+E/MainActivity( 1234): start  feifeikan app  erro !
+I/ActivityManager(  935): START {cmp=com.fiship.cibn/.activity.AppActivity (has extras)} from pid 1234
+D/dalvikvm( 1626): GC_CONCURRENT freed 536K, 66% free 2387K/6979K, paused 2ms+3ms
+I/MainActivity( 1234): onClick -> 52054
+I/ActivityManager(  935): START {cmp=com.fiship.cibn/.activity.AppActivity (has extras)} from pid 1234
+E/MainActivity( 1234): start  feifeikan app  erro !
+I/MainActivity( 1234): onClick -> 52054
+E/MainActivity( 1234): start  feifeikan app  erro !
+I/ActivityManager(  935): START {cmp=com.fiship.cibn/.activity.AppActivity (has extras)} from pid 1234
+D/dalvikvm( 1626): GC_CONCURRENT freed 592K, 67% free 2329K/6979K, paused 2ms+3ms
+I/MainActivity( 1234): onClick -> 52054
+E/MainActivity( 1234): start  feifeikan app  erro !
+I/ActivityManager(  935): START {cmp=com.fiship.cibn/.activity.AppActivity (has extras)} from pid 1234
+D/dalvikvm( 1626): GC_CONCURRENT freed 522K, 66% free 2400K/6979K, paused 2ms+2ms
+I/MainActivity( 1234): onClick -> 52054
+E/MainActivity( 1234): start  feifeikan app  erro !
+I/ActivityManager(  935): START {cmp=com.fiship.cibn/.activity.AppActivity (has extras)} from pid 1234
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/HomePlayerLib( 1626): hostaddress count is 1
+D/dalvikvm( 1626): GC_CONCURRENT freed 615K, 67% free 2342K/6979K, paused 4ms+2ms
+I/MainActivity( 1234): onClick -> 52054
+E/MainActivity( 1234): start  feifeikan app  erro !
+I/ActivityManager(  935): START {cmp=com.fiship.cibn/.activity.AppActivity (has extras)} from pid 1234
+D/dalvikvm( 1626): GC_CONCURRENT freed 517K, 67% free 2346K/6979K, paused 52ms+2ms
+D/MonitorCw880( 1563): counter=4 && isHeartbeatTimeout=false
+I/MainActivity( 1234): onClick -> 52054
+E/MainActivity( 1234): start  feifeikan app  erro !
+I/ActivityManager(  935): START {cmp=com.fiship.cibn/.activity.AppActivity (has extras)} from pid 1234
+D/dalvikvm( 1626): GC_CONCURRENT freed 533K, 65% free 2465K/6979K, paused 1ms+2ms
+I/bluedroid(  935): bt_enable: ret: -1, errno: 110
+D/dalvikvm( 1626): GC_CONCURRENT freed 690K, 65% free 2459K/6979K, paused 2ms+2ms
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/dalvikvm( 1626): GC_CONCURRENT freed 690K, 67% free 2335K/6979K, paused 1ms+2ms
+D/MainActivity( 1234): position = 0
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/dalvikvm( 1626): GC_CONCURRENT freed 509K, 66% free 2427K/6979K, paused 2ms+2ms
+D/MonitorCw880( 1563): counter=6 && isHeartbeatTimeout=false
+D/dalvikvm( 1626): GC_CONCURRENT freed 634K, 65% free 2452K/6979K, paused 2ms+2ms
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/dalvikvm( 1626): GC_CONCURRENT freed 674K, 65% free 2452K/6979K, paused 2ms+3ms
+D/MainActivity( 1234): position = 3
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/dalvikvm( 1626): GC_CONCURRENT freed 678K, 65% free 2452K/6979K, paused 2ms+3ms
+I/MainActivity( 1234): onClick -> 52054
+E/MainActivity( 1234): start  feifeikan app  erro !
+I/ActivityManager(  935): START {cmp=com.fiship.cibn/.activity.AppActivity (has extras)} from pid 1234
+D/MonitorCw880( 1563): counter=8 && isHeartbeatTimeout=false
+D/dalvikvm( 1626): GC_CONCURRENT freed 679K, 65% free 2452K/6979K, paused 2ms+2ms
+D/ImplicitAppManagerTimerTask( 1892):  ------:: certStrs------->40288a913e11a021013e3aa6a72e0296.cer
+D/GetZipComment( 1892): the input param is OK
+D/GetZipComment( 1892): the input param is OK
+D/GetZipComment( 1892): buffer.length=65535, len=65535
+D/GetZipComment( 1892): ZIP comment found at buffer position 64226 with commentLen=1309, realLen=1309 OK!
+D/GetZipComment( 1892): fileLen=6761974, buffer.length=65535, len=65535
+D/GetZipComment( 1892): retStrComment.length=1309, retStrComment=cerFormat=X509
+D/GetZipComment( 1892): sign=MIIDtgYJKoZIhvcNAQcCoIIDpzCCA6MCAQExCzAJBgUrDgMCGgUAMAsGCSqGSIb3DQEHAaCCAp8w
+D/GetZipComment( 1892): ggKbMIICBKADAgECAgEHMA0GCSqGSIb3DQEBBQUAMHcxCzAJBgNVBAYTAkNOMRIwEAYDVQQIEwlH
+D/GetZipComment( 1892): dWFuZ0RvbmcxDzANBgNVBAoTBkNvc2hpcDEMMAoGA1UECxMDU1RQMRIwEAYDVQQDEwlDb3NoaXBT
+D/GetZipComment( 1892): VFAxITAfBgkqhkiG9w0BCQEWEnNtYXJ0VFZAY29zaGlwLmNvbTAeFw0wMDA0MjMxNjI0MzhaFw0y
+D/GetZipComment( 1892): MTA0MDMxNjI0MzhaMHcxCzAJBgNVBAYTAkNOMRIwEAYDVQQIEwlHdWFuZ0RvbmcxDzANBgNVBAoT
+D/GetZipComment( 1892): BkNvc2hpcDEMMAoGA1UECxMDU1RQMRIwEAYDVQQDEwlDb3NoaXBTVFAxITAfBgkqhkiG9w0BCQEW
+D/GetZipComment( 1892): EnNtYXJ0VFZAY29zaGlwLmNvbTBcMA0GCSqGSIb3DQEBAQUAA0sAMEgCQQCuptLe1j9r4waAOhUM
+D/GetZipComment( 1892): g3QsB5PbzHAN7e34nz3tlMNIhYx5pRkyJDiLRBBEl/zqJkKQWG5WI/FgoMFGumiTfoJhAgMBAAGj
+D/GetZipComment( 1892): ezB5MAkGA1UdEwQCMAAwLAYJYIZIAYb4QgENBB8WHU9wZW5TU0wgR2VuZXJhdGVkIENlcnRpZmlj
+D/GetZipComment( 1892): YXRlMB0GA1UdDgQWBBTzj0c54+6yJULTjnMMSztsexJ6yzAfBgNVHSMEGDAWgBQPP/3AfKBugPzI
+D/GetZipComment( 1892): UeGyiynYxwGt8TANBgkqhkiG9w0BAQUFAAOBgQBKB3nSuGFt2NGyt5xyg6O0bY8mXwY+DHqdn/Rw
+D/GetZipComment( 1892): wjCN4goWBHTpeBLQeChAFVBINWwuIs3ZKhdQaOJ86IkkZZFEvV0ESfzljxEvOUw7s9SxdTPxc1t2
+D/GetZipComment( 1892): ES368/XrIUDyMW+yhTVUzA3Q+zHhNHpjs9HzMPfEdlpih6qyWv0ziUVMQjGB4DCB3QIBATB8MHcx
+D/GetZipComment( 1892): CzAJBgNVBAYTAkNOMRIwEAYDVQQIEwlHdWFuZ0RvbmcxDzANBgNVBAoTBkNvc2hpcDEMMAoGA1UE
+D/GetZipComment( 1892): CxMDU1RQMRIwEAYDVQQDEwlDb3NoaXBTVFAxITAfBgkqhkiG9w0BCQEWEnNtYXJ0VFZAY29zaGlw
+D/GetZipComment( 1892): LmNvbQIBBzAJBgUrDgMCGgUAMA0GCSqGSIb3DQEBAQUABEBc14QqxZe60pHn1sIZ2VDtv/eMhRrq
+D/GetZipComment( 1892): NZhTI080yrSaP7KTsi3A4sW8IVE+JX2hVl4Xh4FVdfDDdVdUnhUYyJjI
+D/GetSignInfo( 1892): fileName=/data/data/com.coship.sdp.sce.tvappstore/app_implict/com.fiship.media.apk, fileComment.length()=1309
+D/GetSignInfo( 1892): commentStringArray.length=2
+D/GetSignInfo( 1892): signCommentArray.length=1288
+D/GetZipComment( 1892): the input param is OK
+D/GetZipComment( 1892): the input param is OK
+D/GetZipComment( 1892): buffer.length=65535, len=65535
+D/GetZipComment( 1892): ZIP comment found at buffer position 64226 with commentLen=1309, realLen=1309 OK!
+D/GetZipComment( 1892): fileLen=6761974, buffer.length=65535, len=65535
+D/GetZipComment( 1892): retStrComment.length=1309, retStrComment=cerFormat=X509
+D/GetZipComment( 1892): sign=MIIDtgYJKoZIhvcNAQcCoIIDpzCCA6MCAQExCzAJBgUrDgMCGgUAMAsGCSqGSIb3DQEHAaCCAp8w
+D/GetZipComment( 1892): ggKbMIICBKADAgECAgEHMA0GCSqGSIb3DQEBBQUAMHcxCzAJBgNVBAYTAkNOMRIwEAYDVQQIEwlH
+D/GetZipComment( 1892): dWFuZ0RvbmcxDzANBgNVBAoTBkNvc2hpcDEMMAoGA1UECxMDU1RQMRIwEAYDVQQDEwlDb3NoaXBT
+D/GetZipComment( 1892): VFAxITAfBgkqhkiG9w0BCQEWEnNtYXJ0VFZAY29zaGlwLmNvbTAeFw0wMDA0MjMxNjI0MzhaFw0y
+D/GetZipComment( 1892): MTA0MDMxNjI0MzhaMHcxCzAJBgNVBAYTAkNOMRIwEAYDVQQIEwlHdWFuZ0RvbmcxDzANBgNVBAoT
+D/GetZipComment( 1892): BkNvc2hpcDEMMAoGA1UECxMDU1RQMRIwEAYDVQQDEwlDb3NoaXBTVFAxITAfBgkqhkiG9w0BCQEW
+D/GetZipComment( 1892): EnNtYXJ0VFZAY29zaGlwLmNvbTBcMA0GCSqGSIb3DQEBAQUAA0sAMEgCQQCuptLe1j9r4waAOhUM
+D/GetZipComment( 1892): g3QsB5PbzHAN7e34nz3tlMNIhYx5pRkyJDiLRBBEl/zqJkKQWG5WI/FgoMFGumiTfoJhAgMBAAGj
+D/GetZipComment( 1892): ezB5MAkGA1UdEwQCMAAwLAYJYIZIAYb4QgENBB8WHU9wZW5TU0wgR2VuZXJhdGVkIENlcnRpZmlj
+D/GetZipComment( 1892): YXRlMB0GA1UdDgQWBBTzj0c54+6yJULTjnMMSztsexJ6yzAfBgNVHSMEGDAWgBQPP/3AfKBugPzI
+D/GetZipComment( 1892): UeGyiynYxwGt8TANBgkqhkiG9w0BAQUFAAOBgQBKB3nSuGFt2NGyt5xyg6O0bY8mXwY+DHqdn/Rw
+D/GetZipComment( 1892): wjCN4goWBHTpeBLQeChAFVBINWwuIs3ZKhdQaOJ86IkkZZFEvV0ESfzljxEvOUw7s9SxdTPxc1t2
+D/GetZipComment( 1892): ES368/XrIUDyMW+yhTVUzA3Q+zHhNHpjs9HzMPfEdlpih6qyWv0ziUVMQjGB4DCB3QIBATB8MHcx
+D/GetZipComment( 1892): CzAJBgNVBAYTAkNOMRIwEAYDVQQIEwlHdWFuZ0RvbmcxDzANBgNVBAoTBkNvc2hpcDEMMAoGA1UE
+D/GetZipComment( 1892): CxMDU1RQMRIwEAYDVQQDEwlDb3NoaXBTVFAxITAfBgkqhkiG9w0BCQEWEnNtYXJ0VFZAY29zaGlw
+D/GetZipComment( 1892): LmNvbQIBBzAJBgUrDgMCGgUAMA0GCSqGSIb3DQEBAQUABEBc14QqxZe60pHn1sIZ2VDtv/eMhRrq
+D/GetZipComment( 1892): NZhTI080yrSaP7KTsi3A4sW8IVE+JX2hVl4Xh4FVdfDDdVdUnhUYyJjI
+D/GetSignInfo( 1892): fileName=/data/data/com.coship.sdp.sce.tvappstore/app_implict/com.fiship.media.apk, fileComment.length()=1309
+D/GetSignInfo( 1892): commentStringArray.length=2
+D/GetSignInfo( 1892): cerformatStringArray.length=2
+E/SecurityCheckManager( 1892): addFactory factoryType X509already added
+E/AppSecurityCheck( 1892):  ------:: Can not add X509 factory
+D/AppSecurityCheck( 1892):  ------:: run the checkCertbySign!
+D/AppSecurityCheck( 1892):  ------:: The apk file is check sign pass by certificate =/data/data/com.coship.sdp.sce.tvappstore/app_certificate/40288a913e11a021013e3aa6a72e0296.cer
+D/GetZipComment( 1892): the input param is OK
+D/GetZipComment( 1892): the input param is OK
+D/GetZipComment( 1892): buffer.length=65535, len=65535
+D/GetZipComment( 1892): ZIP comment found at buffer position 64226 with commentLen=1309, realLen=1309 OK!
+D/GetZipComment( 1892): fileLen=6761974, buffer.length=65535, len=65535
+D/GetZipComment( 1892): retStrComment.length=1309, retStrComment=cerFormat=X509
+D/GetZipComment( 1892): sign=MIIDtgYJKoZIhvcNAQcCoIIDpzCCA6MCAQExCzAJBgUrDgMCGgUAMAsGCSqGSIb3DQEHAaCCAp8w
+D/GetZipComment( 1892): ggKbMIICBKADAgECAgEHMA0GCSqGSIb3DQEBBQUAMHcxCzAJBgNVBAYTAkNOMRIwEAYDVQQIEwlH
+D/GetZipComment( 1892): dWFuZ0RvbmcxDzANBgNVBAoTBkNvc2hpcDEMMAoGA1UECxMDU1RQMRIwEAYDVQQDEwlDb3NoaXBT
+D/GetZipComment( 1892): VFAxITAfBgkqhkiG9w0BCQEWEnNtYXJ0VFZAY29zaGlwLmNvbTAeFw0wMDA0MjMxNjI0MzhaFw0y
+D/GetZipComment( 1892): MTA0MDMxNjI0MzhaMHcxCzAJBgNVBAYTAkNOMRIwEAYDVQQIEwlHdWFuZ0RvbmcxDzANBgNVBAoT
+D/GetZipComment( 1892): BkNvc2hpcDEMMAoGA1UECxMDU1RQMRIwEAYDVQQDEwlDb3NoaXBTVFAxITAfBgkqhkiG9w0BCQEW
+D/GetZipComment( 1892): EnNtYXJ0VFZAY29zaGlwLmNvbTBcMA0GCSqGSIb3DQEBAQUAA0sAMEgCQQCuptLe1j9r4waAOhUM
+D/GetZipComment( 1892): g3QsB5PbzHAN7e34nz3tlMNIhYx5pRkyJDiLRBBEl/zqJkKQWG5WI/FgoMFGumiTfoJhAgMBAAGj
+D/GetZipComment( 1892): ezB5MAkGA1UdEwQCMAAwLAYJYIZIAYb4QgENBB8WHU9wZW5TU0wgR2VuZXJhdGVkIENlcnRpZmlj
+D/GetZipComment( 1892): YXRlMB0GA1UdDgQWBBTzj0c54+6yJULTjnMMSztsexJ6yzAfBgNVHSMEGDAWgBQPP/3AfKBugPzI
+D/GetZipComment( 1892): UeGyiynYxwGt8TANBgkqhkiG9w0BAQUFAAOBgQBKB3nSuGFt2NGyt5xyg6O0bY8mXwY+DHqdn/Rw
+D/GetZipComment( 1892): wjCN4goWBHTpeBLQeChAFVBINWwuIs3ZKhdQaOJ86IkkZZFEvV0ESfzljxEvOUw7s9SxdTPxc1t2
+D/GetZipComment( 1892): ES368/XrIUDyMW+yhTVUzA3Q+zHhNHpjs9HzMPfEdlpih6qyWv0ziUVMQjGB4DCB3QIBATB8MHcx
+D/GetZipComment( 1892): CzAJBgNVBAYTAkNOMRIwEAYDVQQIEwlHdWFuZ0RvbmcxDzANBgNVBAoTBkNvc2hpcDEMMAoGA1UE
+D/GetZipComment( 1892): CxMDU1RQMRIwEAYDVQQDEwlDb3NoaXBTVFAxITAfBgkqhkiG9w0BCQEWEnNtYXJ0VFZAY29zaGlw
+D/GetZipComment( 1892): LmNvbQIBBzAJBgUrDgMCGgUAMA0GCSqGSIb3DQEBAQUABEBc14QqxZe60pHn1sIZ2VDtv/eMhRrq
+D/GetZipComment( 1892): NZhTI080yrSaP7KTsi3A4sW8IVE+JX2hVl4Xh4FVdfDDdVdUnhUYyJjI
+D/GetZipComment( 1892): /data/data/com.coship.sdp.sce.tvappstore/app_implict/com.fiship.media.apk fileComment=cerFormat=X509
+D/GetZipComment( 1892): sign=MIIDtgYJKoZIhvcNAQcCoIIDpzCCA6MCAQExCzAJBgUrDgMCGgUAMAsGCSqGSIb3DQEHAaCCAp8w
+D/GetZipComment( 1892): ggKbMIICBKADAgECAgEHMA0GCSqGSIb3DQEBBQUAMHcxCzAJBgNVBAYTAkNOMRIwEAYDVQQIEwlH
+D/GetZipComment( 1892): dWFuZ0RvbmcxDzANBgNVBAoTBkNvc2hpcDEMMAoGA1UECxMDU1RQMRIwEAYDVQQDEwlDb3NoaXBT
+D/GetZipComment( 1892): VFAxITAfBgkqhkiG9w0BCQEWEnNtYXJ0VFZAY29zaGlwLmNvbTAeFw0wMDA0MjMxNjI0MzhaFw0y
+D/GetZipComment( 1892): MTA0MDMxNjI0MzhaMHcxCzAJBgNVBAYTAkNOMRIwEAYDVQQIEwlHdWFuZ0RvbmcxDzANBgNVBAoT
+D/GetZipComment( 1892): BkNvc2hpcDEMMAoGA1UECxMDU1RQMRIwEAYDVQQDEwlDb3NoaXBTVFAxITAfBgkqhkiG9w0BCQEW
+D/GetZipComment( 1892): EnNtYXJ0VFZAY29zaGlwLmNvbTBcMA0GCSqGSIb3DQEBAQUAA0sAMEgCQQCuptLe1j9r4waAOhUM
+D/GetZipComment( 1892): g3QsB5PbzHAN7e34nz3tlMNIhYx5pRkyJDiLRBBEl/zqJkKQWG5WI/FgoMFGumiTfoJhAgMBAAGj
+D/GetZipComment( 1892): ezB5MAkGA1UdEwQCMAAwLAYJYIZIAYb4QgENBB8WHU9wZW5TU0wgR2VuZXJhdGVkIENlcnRpZmlj
+D/GetZipComment( 1892): YXRlMB0GA1UdDgQWBBTzj0c54+6yJULTjnMMSztsexJ6yzAfBgNVHSMEGDAWgBQPP/3AfKBugPzI
+D/GetZipComment( 1892): UeGyiynYxwGt8TANBgkqhkiG9w0BAQUFAAOBgQBKB3nSuGFt2NGyt5xyg6O0bY8mXwY+DHqdn/Rw
+D/GetZipComment( 1892): wjCN4goWBHTpeBLQeChAFVBINWwuIs3ZKhdQaOJ86IkkZZFEvV0ESfzljxEvOUw7s9SxdTPxc1t2
+D/GetZipComment( 1892): ES368/XrIUDyMW+yhTVUzA3Q+zHhNHpjs9HzMPfEdlpih6qyWv0ziUVMQjGB4DCB3QIBATB8MHcx
+D/GetZipComment( 1892): CzAJBgNVBAYTAkNOMRIwEAYDVQQIEwlHdWFuZ0RvbmcxDzANBgNVBAoTBkNvc2hpcDEMMAoGA1UE
+D/GetZipComment( 1892): CxMDU1RQMRIwEAYDVQQDEwlDb3NoaXBTVFAxITAfBgkqhkiG9w0BCQEWEnNtYXJ0VFZAY29zaGlw
+D/GetZipComment( 1892): LmNvbQIBBzAJBgUrDgMCGgUAMA0GCSqGSIb3DQEBAQUABEBc14QqxZe60pHn1sIZ2VDtv/eMhRrq
+D/GetZipComment( 1892): NZhTI080yrSaP7KTsi3A4sW8IVE+JX2hVl4Xh4FVdfDDdVdUnhUYyJjI
+D/ApkDeploy( 1892):  ------:: install apk
+D/ApkDeploy( 1892):  ------:: uri = /data/data/com.coship.sdp.sce.tvappstore/app_implict/com.fiship.media.apkflags = 1
+D/ApkDeploy( 1892):  ------:: PM.INSTALL_REPLACE_EXISTING2
+I/MainActivity( 1234): onClick -> 52054
+E/MainActivity( 1234): start  feifeikan app  erro !
+I/ActivityManager(  935): START {cmp=com.fiship.cibn/.activity.AppActivity (has extras)} from pid 1234
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+I/MainActivity( 1234): onClick -> 52054
+I/ActivityManager(  935): START {cmp=com.fiship.cibn/.activity.AppActivity (has extras)} from pid 1234
+E/MainActivity( 1234): start  feifeikan app  erro !
+I/MainActivity( 1234): onClick -> 52054
+E/MainActivity( 1234): start  feifeikan app  erro !
+I/ActivityManager(  935): START {cmp=com.fiship.cibn/.activity.AppActivity (has extras)} from pid 1234
+I/MainActivity( 1234): onClick -> 52054
+E/MainActivity( 1234): start  feifeikan app  erro !
+I/ActivityManager(  935): START {cmp=com.fiship.cibn/.activity.AppActivity (has extras)} from pid 1234
+D/dalvikvm( 1626): GC_CONCURRENT freed 663K, 67% free 2343K/6979K, paused 2ms+2ms
+I/MainActivity( 1234): onClick -> 52054
+I/ActivityManager(  935): START {cmp=com.fiship.cibn/.activity.AppActivity (has extras)} from pid 1234
+E/MainActivity( 1234): start  feifeikan app  erro !
+I/MainActivity( 1234): onClick -> 52054
+E/MainActivity( 1234): start  feifeikan app  erro !
+I/ActivityManager(  935): START {cmp=com.fiship.cibn/.activity.AppActivity (has extras)} from pid 1234
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+I/MainActivity( 1234): onClick -> 52054
+E/MainActivity( 1234): start  feifeikan app  erro !
+I/ActivityManager(  935): START {cmp=com.fiship.cibn/.activity.AppActivity (has extras)} from pid 1234
+I/MainActivity( 1234): onClick -> 52054
+E/MainActivity( 1234): start  feifeikan app  erro !
+I/ActivityManager(  935): START {cmp=com.fiship.cibn/.activity.AppActivity (has extras)} from pid 1234
+D/MonitorCw880( 1563): counter=10 && isHeartbeatTimeout=false
+I/MainActivity( 1234): onClick -> 52054
+E/MainActivity( 1234): start  feifeikan app  erro !
+I/ActivityManager(  935): START {cmp=com.fiship.cibn/.activity.AppActivity (has extras)} from pid 1234
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/MainActivity( 1234): position = 2
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+I/CheckinService( 1323): Preparing to send checkin request
+I/EventLogService( 1323): Accumulating logs since 1370608946832
+W/CheckinRequestBuilder( 1323): Unknown phone type: 0 id=null
+D/dalvikvm( 1323): GC_CONCURRENT freed 403K, 71% free 1753K/5955K, paused 3ms+3ms
+I/CheckinTask( 1323): Sending checkin request (1017 bytes)
+D/MonitorCw880( 1563): counter=12 && isHeartbeatTimeout=false
+E/CheckinTask( 1323): Checkin failed: https://android.clients.google.com/checkin (request #0)
+E/CheckinTask( 1323): java.io.IOException: Rejected response from server: HTTP/1.1 400 invalid hardware identifier: "000000000000" is not a valid MAC address (expect 12 hex digits)
+E/CheckinTask( 1323):   at com.google.android.gsf.checkin.CheckinTask.parseResponse(CheckinTask.java:313)
+E/CheckinTask( 1323):   at com.google.android.gsf.checkin.CheckinTask.sendRequest(CheckinTask.java:261)
+E/CheckinTask( 1323):   at com.google.android.gsf.checkin.CheckinTask.doInBackground(CheckinTask.java:150)
+E/CheckinTask( 1323):   at com.google.android.gsf.checkin.CheckinService$1.doInBackground(CheckinService.java:221)
+E/CheckinTask( 1323):   at com.google.android.gsf.checkin.CheckinService$1.doInBackground(CheckinService.java:214)
+E/CheckinTask( 1323):   at android.os.AsyncTask$2.call(AsyncTask.java:264)
+E/CheckinTask( 1323):   at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:305)
+E/CheckinTask( 1323):   at java.util.concurrent.FutureTask.run(FutureTask.java:137)
+E/CheckinTask( 1323):   at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1076)
+E/CheckinTask( 1323):   at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:569)
+E/CheckinTask( 1323):   at java.lang.Thread.run(Thread.java:856)
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/ApkDeploy( 1892):  ------:: mPackageManager invoke..
+W/ActivityManager(  935): No content provider found for permission revoke: file:///data/data/com.coship.sdp.sce.tvappstore/app_implict/com.fiship.media.apk
+W/ActivityManager(  935): No content provider found for permission revoke: file:///data/data/com.coship.sdp.sce.tvappstore/app_implict/com.fiship.media.apk
+D/MonitorCw880( 1563): counter=4 && isHeartbeatTimeout=false
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/dalvikvm(  935): GC_CONCURRENT freed 1224K, 55% free 4765K/10563K, paused 502ms+4ms
+I/bluedroid(  935): bt_enable: ret: -1, errno: 110
+D/dalvikvm(  935): GC_CONCURRENT freed 890K, 55% free 4854K/10563K, paused 2ms+5ms
+D/dalvikvm(  935): GC_CONCURRENT freed 988K, 55% free 4852K/10563K, paused 2ms+5ms
+D/HomePlayerLib( 1626): hostaddress count is 1
+D/dalvikvm( 1626): GC_CONCURRENT freed 542K, 66% free 2409K/6979K, paused 3ms+2ms
+D/dalvikvm(  935): GC_CONCURRENT freed 985K, 55% free 4856K/10563K, paused 2ms+4ms
+D/dalvikvm( 1626): GC_CONCURRENT freed 616K, 67% free 2366K/6979K, paused 10ms+2ms
+I/ActivityManager(  935): Force stopping package com.fiship.media uid=10034
+W/PackageManager(  935): Trying to update system app code path from /system/app/FlyUI_VOD.apk to /data/app/com.fiship.media-1.apk
+D/dalvikvm( 1626): GC_CONCURRENT freed 561K, 67% free 2348K/6979K, paused 2ms+2ms
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/dalvikvm( 1626): GC_CONCURRENT freed 536K, 66% free 2431K/6979K, paused 1ms+2ms
+D/MonitorCw880( 1563): counter=6 && isHeartbeatTimeout=false
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/dalvikvm( 1626): GC_CONCURRENT freed 646K, 67% free 2348K/6979K, paused 1ms+2ms
+D/dalvikvm( 1626): GC_CONCURRENT freed 537K, 67% free 2344K/6979K, paused 2ms+2ms
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/dalvikvm( 1626): GC_CONCURRENT freed 539K, 67% free 2341K/6979K, paused 2ms+2ms
+I/PackageManager(  935): Running dexopt on: com.fiship.media
+D/dalvikvm( 1626): GC_CONCURRENT freed 614K, 67% free 2361K/6979K, paused 2ms+3ms
+D/MonitorCw880( 1563): counter=8 && isHeartbeatTimeout=false
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/dalvikvm( 1626): GC_CONCURRENT freed 555K, 67% free 2332K/6979K, paused 2ms+2ms
+D/dalvikvm( 1626): GC_CONCURRENT freed 508K, 67% free 2343K/6979K, paused 2ms+2ms
+D/dalvikvm( 1626): GC_CONCURRENT freed 534K, 67% free 2344K/6979K, paused 2ms+2ms
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/MonitorCw880( 1563): counter=10 && isHeartbeatTimeout=false
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/dalvikvm( 2709): DexOpt: load 445ms, verify+opt 965ms
+D/MonitorCw880( 1563): counter=12 && isHeartbeatTimeout=false
+W/PackageManager(  935): Code path for pkg : com.fiship.media changing from /system/app/FlyUI_VOD.apk to /data/app/com.fiship.media-1.apk
+W/PackageManager(  935): Resource path for pkg : com.fiship.media changing from /system/app/FlyUI_VOD.apk to /data/app/com.fiship.media-1.apk
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/PackageManager(  935): New package installed in /data/app/com.fiship.media-1.apk
+D/ByPush  ( 2666): ByPushService onCreate
+D/ByPush  ( 2666): startWatchDog, will run in 15 seconds.
+I/ActivityManager(  935): Force stopping package com.fiship.media uid=10034
+I/ActivityManager(  935): Force stopping package com.fiship.media uid=10034
+D/dalvikvm( 1457): GC_EXPLICIT freed 256K, 75% free 1348K/5379K, paused 1ms+2ms
+D/PackageManager(  935): generateServicesMap(android.accounts.AccountAuthenticator): 1 services unchanged
+D/PackageManager(  935): generateServicesMap(android.content.SyncAdapter): 1 services unchanged
+D/BackupManagerService(  935): Received broadcast Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:com.fiship.media flg=0x10000000 (has extras) }
+D/PackageManager(  935): generateServicesMap(android.accounts.AccountAuthenticator): 1 services unchanged
+D/PackageManager(  935): generateServicesMap(android.content.SyncAdapter): 1 services unchanged
+D/PackageOperateReceiver( 1892):  ------:: action= android.intent.action.PACKAGE_REMOVED
+D/BackupManagerService(  935): Received broadcast Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.fiship.media flg=0x10000000 (has extras) }
+V/BackupManagerService(  935): updatePackageParticipantsLocked: #1
+D/PackageOperateReceiver( 1892):  ------:: action= android.intent.action.PACKAGE_ADDED
+D/PackageOperateReceiver( 1892):  ------:: package:com.fiship.media
+D/dalvikvm( 1626): GC_CONCURRENT freed 538K, 66% free 2440K/6979K, paused 2ms+4ms
+W/RecognitionManagerService(  935): no available voice recognition services found
+D/dalvikvm(  935): GC_EXPLICIT freed 826K, 51% free 5178K/10563K, paused 99ms+8ms
+D/ApkDeploy( 1892):  ------:: packageName is com.fiship.media
+D/ApkDeploy( 1892):  ------:: returnCode is 1
+D/ApkDeploy( 1892):  ------:: mFailedCode =1
+D/ImplicitAppManagerTimerTask( 1892):  ------:: apkDeploy.intsall resCode= 1
+W/Searchables(  935): No global search activity found
+W/Searchables(  935): No global search activity found
+D/BackupManagerService(  935): Received broadcast Intent { act=android.intent.action.PACKAGE_REPLACED dat=package:com.fiship.media flg=0x10000000 (has extras) }
+V/BackupManagerService(  935): updatePackageParticipantsLocked: #1
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/AndroidRuntime( 2666): Shutting down VM
+W/dalvikvm( 2666): threadid=1: thread exiting with uncaught exception (group=0x40fa81f8)
+E/AndroidRuntime( 2666): FATAL EXCEPTION: main
+E/AndroidRuntime( 2666): java.lang.RuntimeException: Unable to instantiate receiver com.mobile.app.main.GESoftInspector: java.lang.ClassNotFoundException: com.mobile.app.main.GESoftInspector
+E/AndroidRuntime( 2666):        at android.app.ActivityThread.handleReceiver(ActivityThread.java:2100)
+E/AndroidRuntime( 2666):        at android.app.ActivityThread.access$1500(ActivityThread.java:123)
+E/AndroidRuntime( 2666):        at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1197)
+E/AndroidRuntime( 2666):        at android.os.Handler.dispatchMessage(Handler.java:99)
+E/AndroidRuntime( 2666):        at android.os.Looper.loop(Looper.java:137)
+E/AndroidRuntime( 2666):        at android.app.ActivityThread.main(ActivityThread.java:4424)
+E/AndroidRuntime( 2666):        at java.lang.reflect.Method.invokeNative(Native Method)
+E/AndroidRuntime( 2666):        at java.lang.reflect.Method.invoke(Method.java:511)
+E/AndroidRuntime( 2666):        at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:848)
+E/AndroidRuntime( 2666):        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:575)
+E/AndroidRuntime( 2666):        at dalvik.system.NativeStart.main(Native Method)
+E/AndroidRuntime( 2666): Caused by: java.lang.ClassNotFoundException: com.mobile.app.main.GESoftInspector
+E/AndroidRuntime( 2666):        at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:61)
+E/AndroidRuntime( 2666):        at java.lang.ClassLoader.loadClass(ClassLoader.java:501)
+E/AndroidRuntime( 2666):        at java.lang.ClassLoader.loadClass(ClassLoader.java:461)
+E/AndroidRuntime( 2666):        at android.app.ActivityThread.handleReceiver(ActivityThread.java:2095)
+E/AndroidRuntime( 2666):        ... 10 more
+D/dalvikvm( 1626): GC_CONCURRENT freed 648K, 65% free 2469K/6979K, paused 3ms+3ms
+D/PackageOperateReceiver( 1892):  ------:: action= android.intent.action.PACKAGE_REPLACED
+D/PackageOperateReceiver( 1892):  ------:: package:com.fiship.media
+D/dalvikvm( 1626): GC_CONCURRENT freed 703K, 65% free 2443K/6979K, paused 2ms+3ms
+D/MonitorCw880( 1563): counter=4 && isHeartbeatTimeout=false
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+I/bluedroid(  935): bt_enable: ret: -1, errno: 110
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/dalvikvm( 1626): GC_CONCURRENT freed 662K, 67% free 2357K/6979K, paused 1ms+3ms
+D/HomePlayerLib( 1626): hostaddress count is 1
+D/dalvikvm( 1626): GC_CONCURRENT freed 556K, 67% free 2340K/6979K, paused 2ms+3ms
+D/dalvikvm( 1626): GC_CONCURRENT freed 521K, 65% free 2462K/6979K, paused 2ms+2ms
+D/MonitorCw880( 1563): counter=6 && isHeartbeatTimeout=false
+D/dalvikvm( 1626): GC_CONCURRENT freed 685K, 67% free 2346K/6979K, paused 2ms+3ms
+I/Process ( 2666): Sending signal. PID: 2666 SIG: 9
+I/ActivityManager(  935): Process com.android1132k.zhuluo (pid 2666) has died.
+W/ActivityManager(  935): Service crashed 2 times, stopping: ServiceRecord{4164d428 com.android1132k.zhuluo/com.baitui.ByPushService}
+W/ActivityManager(  935): Service crashed 2 times, stopping: ServiceRecord{41650f40 com.android1132k.zhuluo/com.yeahyoo.ps.AlarmService}
+W/ActivityManager(  935): Service crashed 2 times, stopping: ServiceRecord{41715968 com.android1132k.zhuluo/net.iusys828.AdPushService}
+I/dalvikvm( 1234): Jit: resizing JitTable from 4096 to 8192
+W/InputManagerService(  935): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4183f828
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/dalvikvm( 1626): GC_CONCURRENT freed 539K, 67% free 2343K/6979K, paused 3ms+2ms
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+V/PortalFlySeeAgency( 1234): resourceCode : 13754
+I/ActivityManager(  935): START {act=com.fiship.media.programDetail cmp=com.fiship.media/.ProgramDetailActivity (has extras)} from pid 1234
+I/ActivityManager(  935): Start proc com.fiship.media for activity com.fiship.media/.ProgramDetailActivity: pid=2740 uid=10034 gids={3003, 1015}
+W/MountService(  935): getVolumeState(/mnt/sdcard): Unknown volume
+D/com.fiship.media.FeiApplication$1$run 行:64
+        ( 2740): Remove outdated log file
+D/ProgramDetailActivity( 2740): -- onCreate --
+D/dalvikvm( 2740): GC_FOR_ALLOC freed 202K, 43% free 6720K/11651K, paused 36ms
+I/dalvikvm-heap( 2740): Grow heap (frag case) to 13.678MB for 3686416-byte allocation
+D/dalvikvm( 2740): GC_CONCURRENT freed 1K, 33% free 10318K/15299K, paused 2ms+4ms
+D/dalvikvm( 1626): GC_CONCURRENT freed 532K, 67% free 2346K/6979K, paused 3ms+3ms
+D/dalvikvm( 2740): GC_FOR_ALLOC freed 12K, 32% free 10729K/15683K, paused 25ms
+D/MonitorCw880( 1563): counter=8 && isHeartbeatTimeout=false
+I/dalvikvm-heap( 2740): Grow heap (frag case) to 15.635MB for 1633296-byte allocation
+D/dalvikvm( 2740): GC_FOR_ALLOC freed <1K, 29% free 12323K/17283K, paused 31ms
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+I/Process (  935): Sending signal. PID: 2740 SIG: 3
+I/dalvikvm( 2740): threadid=3: reacting to signal 3
+I/dalvikvm( 2740): Wrote stack traces to '/data/anr/traces.txt'
+D/dalvikvm( 1626): GC_CONCURRENT freed 535K, 66% free 2426K/6979K, paused 3ms+3ms
+D/ProgramDetailActivity( 2740): start load program details.
+D/ProgramDetailActivity( 2740): -- onResume --
+I/Process (  935): Sending signal. PID: 2740 SIG: 3
+I/dalvikvm( 2740): threadid=3: reacting to signal 3
+D/dalvikvm( 1626): GC_CONCURRENT freed 633K, 67% free 2345K/6979K, paused 2ms+2ms
+I/dalvikvm( 2740): Wrote stack traces to '/data/anr/traces.txt'
+D/Test    ( 2740): request Url  :http://cibn-iepg.coship.com:8088/msis/getAssetListByPackageCode?zip=1&version=V001&terminalType=1&resolution=1280*720&resourceCode=13754&userCode=20130528163952246042&authKey=3d381b56cc1179fc057f2ea171b2aa8e
+D/ProgramDetailActivity( 2740): start load program details.
+I/Process (  935): Sending signal. PID: 2740 SIG: 3
+I/dalvikvm( 2740): threadid=3: reacting to signal 3
+D/dalvikvm( 1626): GC_CONCURRENT freed 535K, 66% free 2425K/6979K, paused 3ms+2ms
+I/dalvikvm( 2740): Wrote stack traces to '/data/anr/traces.txt'
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+I/Process (  935): Sending signal. PID: 2740 SIG: 3
+I/dalvikvm( 2740): threadid=3: reacting to signal 3
+I/dalvikvm( 2740): Wrote stack traces to '/data/anr/traces.txt'
+D/libEGL  ( 2740): loaded /system/lib/egl/libGLES_android.so
+D/dalvikvm( 1626): GC_CONCURRENT freed 633K, 65% free 2452K/6979K, paused 61ms+2ms
+D/dalvikvm( 2740): GC_CONCURRENT freed 698K, 25% free 13604K/18051K, paused 2ms+4ms
+E/StrictMode( 2740): A resource was acquired at attached stack trace but never released. See java.io.Closeable for information on avoiding resource leaks.
+E/StrictMode( 2740): java.lang.Throwable: Explicit termination method 'end' not called
+E/StrictMode( 2740):    at dalvik.system.CloseGuard.open(CloseGuard.java:184)
+E/StrictMode( 2740):    at java.util.zip.Inflater.<init>(Inflater.java:82)
+E/StrictMode( 2740):    at java.util.zip.GZIPInputStream.<init>(GZIPInputStream.java:96)
+E/StrictMode( 2740):    at java.util.zip.GZIPInputStream.<init>(GZIPInputStream.java:81)
+E/StrictMode( 2740):    at com.fiship.media.common.JsonCompress.unCompress(JsonCompress.java:62)
+E/StrictMode( 2740):    at com.fiship.ott.transport.action.VodAction.getAssetListByPackageCode(VodAction.java:528)
+E/StrictMode( 2740):    at com.fiship.media.ProgramDetailActivity$9.doInBackground(ProgramDetailActivity.java:1247)
+E/StrictMode( 2740):    at com.fiship.media.ProgramDetailActivity$9.doInBackground(ProgramDetailActivity.java:1242)
+E/StrictMode( 2740):    at android.os.AsyncTask$2.call(AsyncTask.java:264)
+E/StrictMode( 2740):    at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:305)
+E/StrictMode( 2740):    at java.util.concurrent.FutureTask.run(FutureTask.java:137)
+E/StrictMode( 2740):    at android.os.AsyncTask$SerialExecutor$1.run(AsyncTask.java:208)
+E/StrictMode( 2740):    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1076)
+E/StrictMode( 2740):    at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:569)
+E/StrictMode( 2740):    at java.lang.Thread.run(Thread.java:856)
+D/libEGL  ( 2740): loaded /system/lib/egl/libEGL_mali.so
+D/libEGL  ( 2740): loaded /system/lib/egl/libGLESv1_CM_mali.so
+D/libEGL  ( 2740): loaded /system/lib/egl/libGLESv2_mali.so
+D/OpenGLRenderer( 2740): Enabling debug mode 0
+I/ActivityManager(  935): Start proc com.android1132k.zhuluo for service com.android1132k.zhuluo/com.iadpush.adp.NS: pid=2763 uid=10036 gids={3003, 1015, 1007}
+I/Process (  935): Sending signal. PID: 2740 SIG: 3
+I/dalvikvm( 2740): threadid=3: reacting to signal 3
+D/dalvikvm( 1626): GC_CONCURRENT freed 677K, 67% free 2347K/6979K, paused 3ms+3ms
+I/dalvikvm( 2763): Turning on JNI app bug workarounds for target SDK version 2...
+I/dalvikvm( 2740): Wrote stack traces to '/data/anr/traces.txt'
+D/MonitorCw880( 1563): counter=10 && isHeartbeatTimeout=false
+I/System.out( 2740): .................................>>>1774
+D/Test    ( 2740): request Url  :http://cibn-iepg.coship.com:8088/msis/getAssetDetail?version=V001&terminalType=1&resolution=1280*720&resourceCode=13754&userCode=20130528163952246042&authKey=f2362ee5b175b0a705aecd6db1c50c3a
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/dalvikvm( 1626): GC_CONCURRENT freed 538K, 66% free 2386K/6979K, paused 3ms+3ms
+D/Test    ( 2740): request Url  :http://cibn-iepg.coship.com:8088/userCenter/getBookMark?version=V001&terminalType=1&resolution=1280*720&userCode=20130528163952246042&userName=20130528163952246042&ResourceCode=13754&authKey=d2acb8acc03596b10a5e80b4dd035935
+W/InputManagerService(  935): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@41670230 (uid=10000 pid=1234)
+W/ResourceType(  935): Skipping entry 0x7f040002 in package table 0 because it is not complex!
+I/ProgramDetailActivity( 2740): movie count:1
+I/ActivityManager(  935): Displayed com.fiship.media/.ProgramDetailActivity: +3s43ms
+D/Test    ( 2740): request Url  :http://cibn-iepg.coship.com:8088/userCenter/getFavorite?version=V001&terminalType=1&resolution=1280*720&userCode=20130528163952246042&userName=20130528163952246042&authKey=134aa9b3c73afac0afddd7a3355d8551
+E/Test    ( 2740): result:成功
+I/System.out( 2763): CV=C201301181.2.4
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+I/        ( 2740): jpeg hw mutex s_index = 290
+I/        ( 2740): [MSOS_PRINT][003171]     ~!~mappd sharemem    
+I/        ( 2740): [MSOS_PRINT][000605]     pthread_mutex_init
+I/        ( 2740): [MSOS_PRINT][000607]     CHIP_InitISR
+D/        ( 2740): [skia jpeg]: readbuf addr:0x1a1c2000, size: 0x100000
+D/        ( 2740):  write buff addr:0x0,  size: 0x0
+D/        ( 2740):  internal buff addr:0x1a2c2000,   size: 0x100000
+E/        ( 2740): get vaddr failed:pvaddr_read=0x6271f000,pvaddr_internal=0x6281f000,pvaddr_write=0x0
+D/dalvikvm( 2740): GC_FOR_ALLOC freed 1806K, 29% free 13706K/19203K, paused 45ms
+I/dalvikvm-heap( 2740): Grow heap (frag case) to 17.579MB for 623016-byte allocation
+D/dalvikvm( 2740): GC_FOR_ALLOC freed 23K, 28% free 14291K/19843K, paused 34ms
+D/dalvikvm( 2740): GC_FOR_ALLOC freed 241K, 29% free 14243K/19843K, paused 31ms
+I/dalvikvm-heap( 2740): Grow heap (frag case) to 17.805MB for 310816-byte allocation
+D/dalvikvm( 2740): GC_FOR_ALLOC freed 0K, 28% free 14546K/20163K, paused 33ms
+D/dalvikvm( 2740): GC_FOR_ALLOC freed <1K, 28% free 14546K/20163K, paused 32ms
+I/dalvikvm-heap( 2740): Grow heap (frag case) to 18.518MB for 747616-byte allocation
+D/MonitorCw880( 1563): counter=12 && isHeartbeatTimeout=false
+D/dalvikvm( 2740): GC_FOR_ALLOC freed 0K, 28% free 15276K/20931K, paused 33ms
+D/dalvikvm( 2740): GC_FOR_ALLOC freed 304K, 29% free 14973K/20931K, paused 36ms
+I/dalvikvm-heap( 2740): Grow heap (frag case) to 18.777MB for 581008-byte allocation
+D/dalvikvm( 2740): GC_FOR_ALLOC freed <1K, 28% free 15540K/21507K, paused 34ms
+D/Test    ( 2740): request Url  :http://cibn-iepg.coship.com:8088/msis/getRelateAsset?zip=1&version=V001&terminalType=1&resolution=1280*720&userCode=20130528163952246042&resourceCode=13754&authKey=0d7115557f3b1f07bc9912ab438367fb
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/ProgramDetailActivity( 2740): initRelateResource:9
+E/        ( 2740): get vaddr failed:pvaddr_read=0x6271f000,pvaddr_internal=0x6281f000,pvaddr_write=0x0
+E/        ( 2740): get vaddr failed:pvaddr_read=0x6271f000,pvaddr_internal=0x6281f000,pvaddr_write=0x0
+E/        ( 2740): get vaddr failed:pvaddr_read=0x6271f000,pvaddr_internal=0x6281f000,pvaddr_write=0x0
+E/        ( 2740): get vaddr failed:pvaddr_read=0x6271f000,pvaddr_internal=0x6281f000,pvaddr_write=0x0
+D/dalvikvm( 2740): GC_CONCURRENT freed 3059K, 33% free 14478K/21507K, paused 3ms+3ms
+E/        ( 2740): get vaddr failed:pvaddr_read=0x6271f000,pvaddr_internal=0x6281f000,pvaddr_write=0x0
+E/        ( 2740): get vaddr failed:pvaddr_read=0x6271f000,pvaddr_internal=0x6281f000,pvaddr_write=0x0
+E/        ( 2740): get vaddr failed:pvaddr_read=0x6271f000,pvaddr_internal=0x6281f000,pvaddr_write=0x0
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+E/StrictMode( 2740): A resource was acquired at attached stack trace but never released. See java.io.Closeable for information on avoiding resource leaks.
+E/StrictMode( 2740): java.lang.Throwable: Explicit termination method 'end' not called
+E/StrictMode( 2740):    at dalvik.system.CloseGuard.open(CloseGuard.java:184)
+E/StrictMode( 2740):    at java.util.zip.Inflater.<init>(Inflater.java:82)
+E/StrictMode( 2740):    at java.util.zip.GZIPInputStream.<init>(GZIPInputStream.java:96)
+E/StrictMode( 2740):    at java.util.zip.GZIPInputStream.<init>(GZIPInputStream.java:81)
+E/StrictMode( 2740):    at com.fiship.media.common.JsonCompress.unCompress(JsonCompress.java:62)
+E/StrictMode( 2740):    at com.fiship.ott.transport.action.VodAction.getRelateAssetList(VodAction.java:408)
+E/StrictMode( 2740):    at com.fiship.media.ProgramDetailActivity$8.doInBackground(ProgramDetailActivity.java:1189)
+E/StrictMode( 2740):    at com.fiship.media.ProgramDetailActivity$8.doInBackground(ProgramDetailActivity.java:1184)
+E/StrictMode( 2740):    at android.os.AsyncTask$2.call(AsyncTask.java:264)
+E/StrictMode( 2740):    at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:305)
+E/StrictMode( 2740):    at java.util.concurrent.FutureTask.run(FutureTask.java:137)
+E/StrictMode( 2740):    at android.os.AsyncTask$SerialExecutor$1.run(AsyncTask.java:208)
+E/StrictMode( 2740):    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1076)
+E/StrictMode( 2740):    at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:569)
+E/StrictMode( 2740):    at java.lang.Thread.run(Thread.java:856)
+E/        ( 2740): get vaddr failed:pvaddr_read=0x6271f000,pvaddr_internal=0x6281f000,pvaddr_write=0x0
+D/dalvikvm( 2740): GC_FOR_ALLOC freed 1134K, 29% free 15298K/21507K, paused 33ms
+D/dalvikvm( 2740): GC_CONCURRENT freed 1K, 27% free 15818K/21507K, paused 3ms+4ms
+D/dalvikvm( 2740): GC_FOR_ALLOC freed 405K, 29% free 15413K/21507K, paused 32ms
+E/        ( 2740): get vaddr failed:pvaddr_read=0x6271f000,pvaddr_internal=0x6281f000,pvaddr_write=0x0
+E/        ( 2740): get vaddr failed:pvaddr_read=0x6271f000,pvaddr_internal=0x6281f000,pvaddr_write=0x0
+D/dalvikvm( 2740): GC_FOR_ALLOC freed 961K, 30% free 15145K/21507K, paused 38ms
+E/        ( 2740): get vaddr failed:pvaddr_read=0x6271f000,pvaddr_internal=0x6281f000,pvaddr_write=0x0
+E/        ( 2740): get vaddr failed:pvaddr_read=0x6271f000,pvaddr_internal=0x6281f000,pvaddr_write=0x0
+D/MonitorCw880( 1563): counter=4 && isHeartbeatTimeout=false
+E/        ( 2740): get vaddr failed:pvaddr_read=0x6271f000,pvaddr_internal=0x6281f000,pvaddr_write=0x0
+E/        ( 2740): get vaddr failed:pvaddr_read=0x6271f000,pvaddr_internal=0x6281f000,pvaddr_write=0x0
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/dalvikvm( 2740): GC_FOR_ALLOC freed 1057K, 29% free 15358K/21507K, paused 32ms
+D/dalvikvm( 2740): GC_FOR_ALLOC freed 205K, 28% free 15537K/21507K, paused 31ms
+I/dalvikvm-heap( 2740): Grow heap (frag case) to 19.274MB for 524304-byte allocation
+I/bluedroid(  935): bt_enable: ret: -1, errno: 110
+D/dalvikvm( 2740): GC_FOR_ALLOC freed 256K, 29% free 15793K/22083K, paused 42ms
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/MonitorCw880( 1563): counter=6 && isHeartbeatTimeout=false
+D/HomePlayerLib( 1626): hostaddress count is 1
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/dalvikvm( 1626): GC_CONCURRENT freed 587K, 66% free 2387K/6979K, paused 9ms+3ms
+D/dalvikvm( 1626): GC_CONCURRENT freed 589K, 65% free 2460K/6979K, paused 3ms+2ms
+D/dalvikvm( 1626): GC_CONCURRENT freed 684K, 65% free 2459K/6979K, paused 2ms+2ms
+D/dalvikvm( 1626): GC_CONCURRENT freed 682K, 65% free 2457K/6979K, paused 2ms+2ms
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/MonitorCw880( 1563): counter=8 && isHeartbeatTimeout=false
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/dalvikvm( 1626): GC_CONCURRENT freed 687K, 67% free 2345K/6979K, paused 2ms+2ms
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/dalvikvm( 1626): GC_CONCURRENT freed 538K, 66% free 2427K/6979K, paused 1ms+2ms
+D/dalvikvm( 1626): GC_CONCURRENT freed 631K, 67% free 2346K/6979K, paused 1ms+3ms
+D/dalvikvm( 1626): GC_CONCURRENT freed 537K, 66% free 2387K/6979K, paused 2ms+2ms
+D/MonitorCw880( 1563): counter=10 && isHeartbeatTimeout=false
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/dalvikvm( 1626): GC_CONCURRENT freed 592K, 65% free 2451K/6979K, paused 2ms+2ms
+D/dalvikvm( 1626): GC_CONCURRENT freed 679K, 67% free 2346K/6979K, paused 2ms+2ms
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/MonitorCw880( 1563): counter=12 && isHeartbeatTimeout=false
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/dalvikvm( 1626): GC_CONCURRENT freed 534K, 66% free 2387K/6979K, paused 2ms+2ms
+D/dalvikvm( 1626): GC_CONCURRENT freed 593K, 65% free 2451K/6979K, paused 1ms+2ms
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/dalvikvm( 1626): GC_CONCURRENT freed 676K, 65% free 2452K/6979K, paused 2ms+2ms
+D/MonitorCw880( 1563): counter=4 && isHeartbeatTimeout=false
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+I/bluedroid(  935): bt_enable: ret: -1, errno: 110
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/MonitorCw880( 1563): counter=6 && isHeartbeatTimeout=false
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/dalvikvm( 1626): GC_CONCURRENT freed 662K, 66% free 2425K/6979K, paused 1ms+3ms
+D/HomePlayerLib( 1626): hostaddress count is 1
+D/dalvikvm( 1626): GC_CONCURRENT freed 646K, 67% free 2340K/6979K, paused 2ms+2ms
+D/dalvikvm( 1626): GC_CONCURRENT freed 529K, 66% free 2402K/6979K, paused 2ms+2ms
+D/dalvikvm( 1626): GC_CONCURRENT freed 604K, 65% free 2445K/6979K, paused 1ms+3ms
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/dalvikvm( 1626): GC_CONCURRENT freed 650K, 67% free 2348K/6979K, paused 2ms+2ms
+D/MonitorCw880( 1563): counter=8 && isHeartbeatTimeout=false
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/ProgramDetailActivity( 2740): -- onRestart --
+I/MainActivity( 1234):  onResume
+W/ResourceType(  935): Skipping entry 0x7f040011 in package table 0 because it is not complex!
+D/OpenGLRenderer( 2740): Flushing caches (mode 0)
+D/InputEventConsistencyVerifier( 1234): KeyEvent: ACTION_UP but key was not down.
+D/InputEventConsistencyVerifier( 1234):   in Handler (android.view.ViewRootImpl) {41824fb0}
+D/InputEventConsistencyVerifier( 1234):   0: sent at 543096000000, KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=158, metaState=0, flags=0x8, repeatCount=0, eventTime=543096, downTime=542882, deviceId=1, source=0x101 }
+D/InputEventConsistencyVerifier( 1234):   -- recent events --
+D/InputEventConsistencyVerifier( 1234):   1: sent at 521378958000, MotionEvent { action=ACTION_UP, id[0]=0, x[0]=730.4293, y[0]=401.44244, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=521378, downTime=521300, deviceId=4, source=0x1002 }
+D/InputEventConsistencyVerifier( 1234):   2: sent at 521300839000, MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=730.4293, y[0]=401.44244, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=521300, downTime=521300, deviceId=4, source=0x1002 }
+D/InputEventConsistencyVerifier( 1234):   3: sent at 505057917000, MotionEvent { action=ACTION_UP, id[0]=0, x[0]=1090.1483, y[0]=534.258, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=505057, downTime=504388, deviceId=4, source=0x1002 }
+D/InputEventConsistencyVerifier( 1234):   4: sent at 505055701000, MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=1090.1483, y[0]=534.258, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=505055, downTime=504388, deviceId=4, source=0x1002 }
+D/InputEventConsistencyVerifier( 1234):   5: sent at 505045267000, MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=1088.1499, y[0]=537.25385, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=505045, downTime=504388, deviceId=4, source=0x1002 }
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+I/ActivityManager(  935): No longer want com.android.settings (pid 1598): hidden #16
+D/OpenGLRenderer( 2740): Flushing caches (mode 1)
+D/dalvikvm( 1626): GC_CONCURRENT freed 548K, 67% free 2320K/6979K, paused 2ms+2ms
+D/MainActivity( 1234): position = 0
+D/dalvikvm( 1626): GC_CONCURRENT freed 502K, 67% free 2344K/6979K, paused 2ms+2ms
+D/MonitorCw880( 1563): counter=10 && isHeartbeatTimeout=false
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/dalvikvm( 1626): GC_CONCURRENT freed 540K, 67% free 2341K/6979K, paused 2ms+2ms
+D/dalvikvm( 1626): GC_CONCURRENT freed 534K, 67% free 2356K/6979K, paused 2ms+3ms
+D/dalvikvm( 1626): GC_CONCURRENT freed 553K, 67% free 2358K/6979K, paused 1ms+2ms
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/dalvikvm( 1626): GC_CONCURRENT freed 549K, 67% free 2345K/6979K, paused 2ms+2ms
+D/dalvikvm( 1626): GC_CONCURRENT freed 534K, 67% free 2346K/6979K, paused 2ms+2ms
+D/MonitorCw880( 1563): counter=12 && isHeartbeatTimeout=false
+D/MainActivity( 1234): position = 3
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+I/MainActivity( 1234): onClick -> 52054
+E/MainActivity( 1234): start  feifeikan app  erro !
+I/ActivityManager(  935): START {cmp=com.fiship.cibn/.activity.AppActivity (has extras)} from pid 1234
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+I/MainActivity( 1234): onClick -> 52054
+E/MainActivity( 1234): start  feifeikan app  erro !
+I/ActivityManager(  935): START {cmp=com.fiship.cibn/.activity.AppActivity (has extras)} from pid 1234
+D/MonitorCw880( 1563): counter=4 && isHeartbeatTimeout=false
+I/MainActivity( 1234): onClick -> 52054
+E/MainActivity( 1234): start  feifeikan app  erro !
+I/ActivityManager(  935): START {cmp=com.fiship.cibn/.activity.AppActivity (has extras)} from pid 1234
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+I/bluedroid(  935): bt_enable: ret: -1, errno: 110
+I/MainActivity( 1234): onClick -> 52054
+E/MainActivity( 1234): start  feifeikan app  erro !
+I/ActivityManager(  935): START {cmp=com.fiship.cibn/.activity.AppActivity (has extras)} from pid 1234
+I/MainActivity( 1234): onClick -> 52054
+E/MainActivity( 1234): start  feifeikan app  erro !
+I/ActivityManager(  935): START {cmp=com.fiship.cibn/.activity.AppActivity (has extras)} from pid 1234
+I/MainActivity( 1234): onClick -> 52054
+E/MainActivity( 1234): start  feifeikan app  erro !
+I/ActivityManager(  935): START {cmp=com.fiship.cibn/.activity.AppActivity (has extras)} from pid 1234
+I/MainActivity( 1234): onClick -> 52054
+E/MainActivity( 1234): start  feifeikan app  erro !
+I/ActivityManager(  935): START {cmp=com.fiship.cibn/.activity.AppActivity (has extras)} from pid 1234
+I/MainActivity( 1234): onClick -> 52054
+E/MainActivity( 1234): start  feifeikan app  erro !
+I/ActivityManager(  935): START {cmp=com.fiship.cibn/.activity.AppActivity (has extras)} from pid 1234
+I/MainActivity( 1234): onClick -> 52054
+I/ActivityManager(  935): START {cmp=com.fiship.cibn/.activity.AppActivity (has extras)} from pid 1234
+E/MainActivity( 1234): start  feifeikan app  erro !
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+I/MainActivity( 1234): onClick -> 52054
+E/MainActivity( 1234): start  feifeikan app  erro !
+I/ActivityManager(  935): START {cmp=com.fiship.cibn/.activity.AppActivity (has extras)} from pid 1234
+I/MainActivity( 1234): onClick -> 52054
+E/MainActivity( 1234): start  feifeikan app  erro !
+I/ActivityManager(  935): START {cmp=com.fiship.cibn/.activity.AppActivity (has extras)} from pid 1234
+I/MainActivity( 1234): onClick -> 52054
+E/MainActivity( 1234): start  feifeikan app  erro !
+I/ActivityManager(  935): START {cmp=com.fiship.cibn/.activity.AppActivity (has extras)} from pid 1234
+I/MainActivity( 1234): onClick -> 52054
+E/MainActivity( 1234): start  feifeikan app  erro !
+I/ActivityManager(  935): START {cmp=com.fiship.cibn/.activity.AppActivity (has extras)} from pid 1234
+I/MainActivity( 1234): onClick -> 52054
+E/MainActivity( 1234): start  feifeikan app  erro !
+I/ActivityManager(  935): START {cmp=com.fiship.cibn/.activity.AppActivity (has extras)} from pid 1234
+D/MonitorCw880( 1563): counter=6 && isHeartbeatTimeout=false
+I/MainActivity( 1234): onClick -> 52054
+E/MainActivity( 1234): start  feifeikan app  erro !
+I/ActivityManager(  935): START {cmp=com.fiship.cibn/.activity.AppActivity (has extras)} from pid 1234
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+I/MainActivity( 1234): onClick -> 52054
+E/MainActivity( 1234): start  feifeikan app  erro !
+I/ActivityManager(  935): START {cmp=com.fiship.cibn/.activity.AppActivity (has extras)} from pid 1234
+I/MainActivity( 1234): onClick -> 52054
+E/MainActivity( 1234): start  feifeikan app  erro !
+I/ActivityManager(  935): START {cmp=com.fiship.cibn/.activity.AppActivity (has extras)} from pid 1234
+I/MainActivity( 1234): onClick -> 52054
+I/ActivityManager(  935): START {cmp=com.fiship.cibn/.activity.AppActivity (has extras)} from pid 1234
+E/MainActivity( 1234): start  feifeikan app  erro !
+I/MainActivity( 1234): onClick -> 52053
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/HomePlayerLib( 1626): hostaddress count is 1
+D/dalvikvm( 1626): GC_CONCURRENT freed 547K, 67% free 2317K/6979K, paused 2ms+3ms
+D/dalvikvm( 1626): GC_CONCURRENT freed 505K, 67% free 2343K/6979K, paused 2ms+2ms
+D/dalvikvm( 1626): GC_CONCURRENT freed 517K, 66% free 2375K/6979K, paused 2ms+2ms
+D/dalvikvm( 1626): GC_CONCURRENT freed 562K, 66% free 2432K/6979K, paused 3ms+3ms
+D/MainActivity( 1234): position = 2
+D/MonitorCw880( 1563): counter=8 && isHeartbeatTimeout=false
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+V/PortalFlySeeAgency( 1234): resourceCode : 16098
+I/ActivityManager(  935): START {act=com.fiship.media.programDetail cmp=com.fiship.media/.ProgramDetailActivity (has extras)} from pid 1234
+D/ProgramDetailActivity( 2740): -- onCreate --
+D/dalvikvm( 1626): GC_CONCURRENT freed 648K, 65% free 2444K/6979K, paused 8ms+3ms
+D/ProgramDetailActivity( 2740): start load program details.
+D/ProgramDetailActivity( 2740): -- onResume --
+D/Test    ( 2740): request Url  :http://cibn-iepg.coship.com:8088/msis/getAssetListByPackageCode?zip=1&version=V001&terminalType=1&resolution=1280*720&resourceCode=16098&userCode=20130528163952246042&authKey=d5949e941123c172be56a1d84cf4f32b
+D/ProgramDetailActivity( 2740): start load program details.
+W/InputManagerService(  935): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@41670230 (uid=10000 pid=1234)
+I/ActivityManager(  935): Displayed com.fiship.media/.ProgramDetailActivity: +433ms
+D/dalvikvm(  935): GC_CONCURRENT freed 1732K, 58% free 4513K/10563K, paused 29ms+7ms
+D/dalvikvm( 2740): GC_CONCURRENT freed 1884K, 29% free 15833K/22083K, paused 2ms+8ms
+E/StrictMode( 2740): A resource was acquired at attached stack trace but never released. See java.io.Closeable for information on avoiding resource leaks.
+E/StrictMode( 2740): java.lang.Throwable: Explicit termination method 'end' not called
+E/StrictMode( 2740):    at dalvik.system.CloseGuard.open(CloseGuard.java:184)
+E/StrictMode( 2740):    at java.util.zip.Inflater.<init>(Inflater.java:82)
+E/StrictMode( 2740):    at java.util.zip.GZIPInputStream.<init>(GZIPInputStream.java:96)
+E/StrictMode( 2740):    at java.util.zip.GZIPInputStream.<init>(GZIPInputStream.java:81)
+E/StrictMode( 2740):    at com.fiship.media.common.JsonCompress.unCompress(JsonCompress.java:62)
+E/StrictMode( 2740):    at com.fiship.ott.transport.action.VodAction.getAssetListByPackageCode(VodAction.java:528)
+E/StrictMode( 2740):    at com.fiship.media.ProgramDetailActivity$9.doInBackground(ProgramDetailActivity.java:1247)
+E/StrictMode( 2740):    at com.fiship.media.ProgramDetailActivity$9.doInBackground(ProgramDetailActivity.java:1242)
+E/StrictMode( 2740):    at android.os.AsyncTask$2.call(AsyncTask.java:264)
+E/StrictMode( 2740):    at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:305)
+E/StrictMode( 2740):    at java.util.concurrent.FutureTask.run(FutureTask.java:137)
+E/StrictMode( 2740):    at android.os.AsyncTask$SerialExecutor$1.run(AsyncTask.java:208)
+E/StrictMode( 2740):    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1076)
+E/StrictMode( 2740):    at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:569)
+E/StrictMode( 2740):    at java.lang.Thread.run(Thread.java:856)
+I/System.out( 2740): .................................>>>597
+E/ProgramDetailActivity( 2740): assetListInfo:16
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/Test    ( 2740): request Url  :http://cibn-iepg.coship.com:8088/msis/getAssetDetail?version=V001&terminalType=1&resolution=1280*720&resourceCode=16098&userCode=20130528163952246042&authKey=3cab2ea1df0a4ffef0fb1899baa8831d
+D/Test    ( 2740): request Url  :http://cibn-iepg.coship.com:8088/userCenter/getBookMark?version=V001&terminalType=1&resolution=1280*720&userCode=20130528163952246042&userName=20130528163952246042&ResourceCode=16098&authKey=8aedbe845ad7742eb8338e369a868ba6
+I/ProgramDetailActivity( 2740): movie count:16
+D/ProgramDetailActivity( 2740): start load program details.
+E/Test    ( 2740): result:成功
+D/Test    ( 2740): request Url  :http://cibn-iepg.coship.com:8088/userCenter/getFavorite?version=V001&terminalType=1&resolution=1280*720&userCode=20130528163952246042&userName=20130528163952246042&authKey=134aa9b3c73afac0afddd7a3355d8551
+E/        ( 2740): get vaddr failed:pvaddr_read=0x6271f000,pvaddr_internal=0x6281f000,pvaddr_write=0x0
+D/dalvikvm( 2740): GC_CONCURRENT freed 1936K, 28% free 16117K/22083K, paused 2ms+6ms
+D/dalvikvm( 2740): GC_FOR_ALLOC freed 336K, 27% free 16306K/22083K, paused 40ms
+I/dalvikvm-heap( 2740): Grow heap (frag case) to 19.788MB for 276016-byte allocation
+D/MonitorCw880( 1563): counter=10 && isHeartbeatTimeout=false
+D/dalvikvm( 2740): GC_FOR_ALLOC freed <1K, 27% free 16575K/22403K, paused 40ms
+D/Test    ( 2740): request Url  :http://cibn-iepg.coship.com:8088/msis/getAssetListByPackageCode?zip=1&version=V001&terminalType=1&resolution=1280*720&resourceCode=16098&userCode=20130528163952246042&authKey=d5949e941123c172be56a1d84cf4f32b
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/ProgramDetailActivity( 2740): -- onRestart --
+I/MainActivity( 1234):  onResume
+D/OpenGLRenderer( 2740): Flushing caches (mode 0)
+D/InputEventConsistencyVerifier( 1234): KeyEvent: ACTION_UP but key was not down.
+D/InputEventConsistencyVerifier( 1234):   in Handler (android.view.ViewRootImpl) {41824fb0}
+D/InputEventConsistencyVerifier( 1234):   0: sent at 554294000000, KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=4, metaState=0, flags=0x8, repeatCount=0, eventTime=554294, downTime=554294, deviceId=2, source=0x301 }
+D/InputEventConsistencyVerifier( 1234):   -- recent events --
+D/InputEventConsistencyVerifier( 1234):   1: sent at 552400603000, MotionEvent { action=ACTION_UP, id[0]=0, x[0]=1123.1226, y[0]=585.18726, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=552400, downTime=552322, deviceId=4, source=0x1002 }
+D/InputEventConsistencyVerifier( 1234):   2: sent at 552322448000, MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=1123.1226, y[0]=585.18726, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=552322, downTime=552322, deviceId=4, source=0x1002 }
+D/InputEventConsistencyVerifier( 1234):   3: sent at 552213330000, MotionEvent { action=ACTION_UP, id[0]=0, x[0]=1131.1163, y[0]=569.2095, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=552213, downTime=552123, deviceId=4, source=0x1002 }
+D/InputEventConsistencyVerifier( 1234):   4: sent at 552123099000, MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=1131.1163, y[0]=569.2095, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=552123, downTime=552123, deviceId=4, source=0x1002 }
+D/InputEventConsistencyVerifier( 1234):   5: sent at 551991154000, MotionEvent { action=ACTION_UP, id[0]=0, x[0]=1104.1375, y[0]=567.2122, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=551991, downTime=551830, deviceId=4, source=0x1002 }
+I/System.out( 2740): .................................>>>472
+E/ProgramDetailActivity( 2740): assetListInfo:16
+D/Test    ( 2740): request Url  :http://cibn-iepg.coship.com:8088/msis/getRelateAsset?zip=1&version=V001&terminalType=1&resolution=1280*720&userCode=20130528163952246042&resourceCode=16098&authKey=1d065cb24a61e8e7fd420d6c00986e27
+D/dalvikvm( 2740): GC_CONCURRENT freed 2487K, 29% free 16098K/22403K, paused 8ms+8ms
+E/StrictMode( 2740): A resource was acquired at attached stack trace but never released. See java.io.Closeable for information on avoiding resource leaks.
+E/StrictMode( 2740): java.lang.Throwable: Explicit termination method 'end' not called
+E/StrictMode( 2740):    at dalvik.system.CloseGuard.open(CloseGuard.java:184)
+E/StrictMode( 2740):    at java.util.zip.Inflater.<init>(Inflater.java:82)
+E/StrictMode( 2740):    at java.util.zip.GZIPInputStream.<init>(GZIPInputStream.java:96)
+E/StrictMode( 2740):    at java.util.zip.GZIPInputStream.<init>(GZIPInputStream.java:81)
+E/StrictMode( 2740):    at com.fiship.media.common.JsonCompress.unCompress(JsonCompress.java:62)
+E/StrictMode( 2740):    at com.fiship.ott.transport.action.VodAction.getAssetListByPackageCode(VodAction.java:528)
+E/StrictMode( 2740):    at com.fiship.media.ProgramDetailActivity$9.doInBackground(ProgramDetailActivity.java:1247)
+E/StrictMode( 2740):    at com.fiship.media.ProgramDetailActivity$9.doInBackground(ProgramDetailActivity.java:1242)
+E/StrictMode( 2740):    at android.os.AsyncTask$2.call(AsyncTask.java:264)
+E/StrictMode( 2740):    at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:305)
+E/StrictMode( 2740):    at java.util.concurrent.FutureTask.run(FutureTask.java:137)
+E/StrictMode( 2740):    at android.os.AsyncTask$SerialExecutor$1.run(AsyncTask.java:208)
+E/StrictMode( 2740):    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1076)
+E/StrictMode( 2740):    at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:569)
+E/StrictMode( 2740):    at java.lang.Thread.run(Thread.java:856)
+I/Process (  935): Sending signal. PID: 1234 SIG: 3
+I/dalvikvm( 1234): threadid=3: reacting to signal 3
+I/dalvikvm( 1234): Wrote stack traces to '/data/anr/traces.txt'
+D/MainActivity( 1234): position = 0
+D/OpenGLRenderer( 2740): Flushing caches (mode 1)
+D/dalvikvm( 2740): GC_EXPLICIT freed 269K, 28% free 16254K/22403K, paused 3ms+6ms
+E/StrictMode( 2740): class com.fiship.media.ProgramDetailActivity; instances=2; limit=1
+E/StrictMode( 2740): android.os.StrictMode$InstanceCountViolation: class com.fiship.media.ProgramDetailActivity; instances=2; limit=1
+E/StrictMode( 2740):    at android.os.StrictMode.setClassInstanceLimit(StrictMode.java:1)
+D/dalvikvm( 1626): GC_CONCURRENT freed 663K, 65% free 2457K/6979K, paused 1ms+2ms
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/dalvikvm( 1626): GC_CONCURRENT freed 690K, 65% free 2445K/6979K, paused 2ms+2ms
+D/dalvikvm( 1626): GC_CONCURRENT freed 664K, 65% free 2457K/6979K, paused 3ms+2ms
+D/MonitorCw880( 1563): counter=12 && isHeartbeatTimeout=false
+D/MainActivity( 1234): position = 3
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+
+[  556.349951] IR: [03932] scan key value is 0x6699bd02 
+[  556.349956]  
+D/dalvikvm( 1626): GC_CONCURRENT freed 689K, 67% free 2347K/6979K, paused 2ms+3ms
+D/dalvikvm( 1626): GC_CONCURRENT freed 538K, 67% free 2343K/6979K, paused 1ms+2ms
+[  556.793368] IR: [03932] scan key value is 0x6699bd02 
+[  556.793373]  
+I/MainActivity( 1234): onClick -> 52054
+E/MainActivity( 1234): start  feifeikan app  erro !
+I/ActivityManager(  935): START {cmp=com.fiship.cibn/.activity.AppActivity (has extras)} from pid 1234
+I/MainActivity( 1234): onClick -> 52054
+E/MainActivity( 1234): start  feifeikan app  erro !
+I/ActivityManager(  935): START {cmp=com.fiship.cibn/.activity.AppActivity (has extras)} from pid 1234
+D/dalvikvm( 1626): GC_CONCURRENT freed 539K, 65% free 2447K/6979K, paused 3ms+3ms
+[  557.160522] IR: [03932] scan key value is 0x6699bd02 
+[  557.160527]  
+I/MainActivity( 1234): onClick -> 52054
+I/ActivityManager(  935): START {cmp=com.fiship.cibn/.activity.AppActivity (has extras)} from pid 1234
+E/MainActivity( 1234): start  feifeikan app  erro !
+[  557.316232] IR: [03932] scan key value is 0x6699bd02 
+[  557.316237]  D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+I/MainActivity( 1234): onClick -> 52054
+E/MainActivity( 1234): start  feifeikan app  erro !
+I/ActivityManager(  935): START {cmp=com.fiship.cibn/.activity.AppActivity (has extras)} from pid 1234
+
+D/dalvikvm( 1626): GC_CONCURRENT freed 676K, 65% free 2466K/6979K, paused 3ms+2ms
+I/MainActivity( 1234): onClick -> 52054
+E/MainActivity( 1234): start  feifeikan app  erro !
+I/ActivityManager(  935): START {cmp=com.fiship.cibn/.activity.AppActivity (has extras)} from pid 1234
+I/MainActivity( 1234): onClick -> 52054
+E/MainActivity( 1234): start  feifeikan app  erro !
+I/ActivityManager(  935): START {cmp=com.fiship.cibn/.activity.AppActivity (has extras)} from pid 1234
+I/MainActivity( 1234): onClick -> 52054
+I/ActivityManager(  935): START {cmp=com.fiship.cibn/.activity.AppActivity (has extras)} from pid 1234
+E/MainActivity( 1234): start  feifeikan app  erro !
+D/dalvikvm( 1626): GC_CONCURRENT freed 688K, 67% free 2347K/6979K, paused 3ms+2ms
+D/MonitorCw880( [  558.155668] IR: [03932] scan key value is 0x6699bd02 
+[  558.155673]  1563): counter=4
+ && isHeartbeatTimeout=false
+D/dalvikvm( 1626): GC_CONCURRENT freed 537K, 67% free 2344K/6979K, paused 2ms+2ms
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+I/bluedroid(  935): bt_enable: ret: -1, errno: 110
+[  558.700924] IR: [03932] scan key value is 0x6699bd02 
+[  558.700928]  
+[  559.318106] IR: [03932] scan key value is 0x3ec1bd02 
+[  559.318111]  
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+[  559.685230] IR: [03932] scan key value is 0x3ec1bd02 
+[  559.685235]  
+[  559.792390] IR: [03932] scan key value is 0x3ec1bd02 
+[  559.792395]  
+[  559.899562] IR: [03932] scan key value is 0x3ec1bd02 
+[  559.899566]  
+[  560.068550] IR: [03932] scan key value is 0x3ec1bd02 
+[  560.068554]  
+D/MonitorCw880( 1563): counter=6 && isHeartbeatTimeout=false
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+[  560.435734] IR: [03932] scan key value is 0x3ec1bd02 
+[  560.435739]  
+I/MainActivity( 1234): onClick -> 52054
+E/MainActivity( 1234): start  feifeikan app  erro !
+I/ActivityManager(  935): START {cmp=com.fiship.cibn/.activity.AppActivity (has extras)} from pid 1234
+[  560.636198] IR: [03932] scan key value is 0x3ec1bd02 
+[  560.636203]  
+I/MainActivity( 1234): onClick -> 52054
+E/MainActivity( 1234): start  feifeikan app  erro !
+I/ActivityManager(  935): START {cmp=com.fiship.cibn/.activity.AppActivity (has extras)} from pid 1234
+I/MainActivity( 1234): onClick -> 52054
+E/MainActivity( 1234): start  feifeikan app  erro !
+I/ActivityManager(  935): START {cmp=com.fiship.cibn/.activity.AppActivity (has extras)} from pid 1234
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+[  561.375067] IR: [03932] scan key value is 0x3ec1bd02 
+[  561.375072]  
+I/MainActivity( 1234): onClick -> 52054
+E/MainActivity( 1234): start  feifeikan app  erro !
+I/ActivityManager(  935): START {cmp=com.fiship.cibn/.activity.AppActivity (has extras)} from pid 1234
+I/MainActivity( 1234): onClick -> 52054
+E/MainActivity( 1234): start  feifeikan app  erro !
+I/ActivityManager(  935): START {cmp=com.fiship.cibn/.activity.AppActivity (has extras)} from pid 1234
+I/MainActivity( 1234): onClick -> 52054
+I/ActivityManager(  935): START {cmp=com.fiship.cibn/.activity.AppActivity (has extras)} from pid 1234
+E/MainActivity( 1234): start  feifeikan app  erro !
+[  562.139580] IR: [03932] scan key value is 0x6699bd02 
+[  562.139584]  
+D/MonitorCw880( 1563): counter=8 && isHeartbeatTimeout=false
+I/MainActivity( 1234): onClick -> 52054
+I/ActivityManager(  935): START {cmp=com.fiship.cibn/.activity.AppActivity (has extras)} from pid 1234
+E/MainActivity( 1234): start  feifeikan app  erro !
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+D/HomePlayerLib( 1626): hostaddress count is 1
+D/dalvikvm( 1626): GC_CONCURRENT freed 544K, 65% free 2471K/6979K, paused 2ms+2ms
+D/dalvikvm( 1626): GC_CONCURRENT freed 699K, 65% free 2455K/6979K, paused 2ms+3ms
+I/MainActivity( 1234): onClick -> 52054
+E/MainActivity( 1234): start  feifeikan app  erro !
+I/ActivityManager(  935): START {cmp=com.fiship.cibn/.activity.AppActivity (has extras)} from pid 1234
+[  562.643922] IR: [03932] scan key value is 0x6699bd02 
+[  562.643927]  
+D/dalvikvm( 1626): GC_CONCURRENT freed 682K, 65% free 2455K/6979K, paused 2ms+2ms
+I/MainActivity( 1234): onClick -> 52054
+E/MainActivity( 1234): start  feifeikan app  erro !
+I/ActivityManager(  935): START {cmp=com.fiship.cibn/.activity.AppActivity (has extras)} from pid 1234
+I/MainActivity( 1234): onClick -> 52054
+E/MainActivity( 1234): start  feifeikan app  erro !
+I/ActivityManager(  935): START {cmp=com.fiship.cibn/.activity.AppActivity (has extras)} from pid 1234
+D/dalvikvm( 1626): GC_CONCURRENT freed 677K, 67% free 2349K/6979K, paused 2ms+3ms
+I/MainActivity( 1234): onClick -> 52054
+E/MainActivity( 1234): start  feifeikan app  erro !
+I/ActivityManager(  935): START {cmp=com.fiship.cibn/.activity.AppActivity (has extras)} from pid 1234
+[  563.168328] IR: [03932] scan key value is 0x6699bd02 
+[  563.168333]  
+I/MainActivity( 1234): onClick -> 52054
+E/MainActivity( 1234): start  feifeikan app  erro !
+I/ActivityManager(  935): START {cmp=com.fiship.cibn/.activity.AppActivity (has extras)} from pid 1234
+D/dalvikvm( 1626): GC_CONCURRENT freed 536K, 66% free 2401K/6979K, paused 2ms+2ms
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+[  563.749319] IR: [03932] scan key value is 0x6699bd02 
+[  563.749324]  
+[  564.116498] IR: [03932] scan key value is 0x6699bd02 
+[  564.116503]  
+D/MonitorCw880( 1563): counter=10 && isHeartbeatTimeout=false
+D/WifiP2pService(  935): wait for wifi sta and softap disabled!!
+^C
+130|shell@android:/ # [  565.404639] IR: [03932] scan key value is 0x3ec1bd02 
+[  565.404644]  
+[  565.771800] IR: [03932] scan key value is 0x3ec1bd02 
+[  565.771805]  
+[  567.273516] IR: [03932] scan key value is 0x3ec1bd02 
+[  567.273521]  
+[  567.682895] IR: [03932] scan key value is 0x31cebd02 
+[  567.682899]  
+[  572.448856] IR: [03932] scan key value is 0x3ec1bd02 
+[  572.448861]  
+[  573.207505] IR: [03932] scan key value is 0x31cebd02 
+[  573.207510]  

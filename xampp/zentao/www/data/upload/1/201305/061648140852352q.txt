@@ -1,0 +1,357 @@
+--------- beginning of /dev/log/main
+D/dalvikvm( 1667): GC_CONCURRENT freed 786K, 64% free 2715K/7491K, paused 2ms+2ms
+D/dalvikvm( 1667): GC_CONCURRENT freed 676K, 64% free 2697K/7491K, paused 1ms+2ms
+D/dalvikvm( 1667): GC_CONCURRENT freed 651K, 64% free 2708K/7491K, paused 2ms+2ms
+D/dalvikvm( 1667): GC_CONCURRENT freed 665K, 64% free 2708K/7491K, paused 2ms+2ms
+D/dalvikvm( 1667): GC_CONCURRENT freed 676K, 65% free 2696K/7491K, paused 2ms+2ms
+D/dalvikvm( 1667): GC_CONCURRENT freed 649K, 63% free 2806K/7491K, paused 2ms+2ms
+D/HomePlayerLib( 1667): hostaddress count is 1
+D/dalvikvm( 1667): GC_CONCURRENT freed 805K, 65% free 2693K/7491K, paused 2ms+2ms
+D/dalvikvm( 1667): GC_CONCURRENT freed 652K, 64% free 2697K/7491K, paused 2ms+3ms
+
+[  464.502558] IR: [03932] scan key value is 0xea158000 
+[  464.502563]  
+[  464.562747] IR: [03932] scan key value is 0xea158000 
+[  464.562752]  D/dalvikvm( 1667): GC_CONCURRENT freed 656K, 63% free 2795K/7491K, paused 3ms+3ms
+D/InputEventConsistencyVerifier( 1253): KeyEvent: ACTION_UP but key was not down.
+D/InputEventConsistencyVerifier( 1253):   in com.coship.widget.viewflow.ViewFlow@413bdeb8
+D/InputEventConsistencyVerifier( 1253):   0: sent at 464729000000, KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_DOWN, scanCode=108, metaState=0, flags=0x8, repeatCount=0, eventTime=464729, downTime=464508, deviceId=1, source=0x101 }
+D/InputEventConsistencyVerifier( 1253):   -- recent events --
+D/InputEventConsistencyVerifier( 1253):   1: sent at 322792000000, (unhandled) KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=103, metaState=0, flags=0x8, repeatCount=0, eventTime=322792, downTime=322792, deviceId=1, source=0x101 }
+D/InputEventConsistencyVerifier( 1253):   2: sent at 314593000000, (unhandled) KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_LEFT, scanCode=105, metaState=0, flags=0x8, repeatCount=0, eventTime=314593, downTime=314433, deviceId=1, source=0x101 }
+D/InputEventConsistencyVerifier( 1253):   3: sent at 314433000000, (unhandled) KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=105, metaState=0, flags=0x8, repeatCount=0, eventTime=314433, downTime=314433, deviceId=1, source=0x101 }
+D/InputEventConsistencyVerifier( 1253):   4: sent at 314209000000, (unhandled) KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_LEFT, scanCode=105, metaState=0, flags=0x8, repeatCount=0, eventTime=314209, downTime=313990, deviceId=1, source=0x101 }
+D/InputEventConsistencyVerifier( 1253):   5: sent at 313990000000, (unhandled) KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=105, metaState=0, flags=0x8, repeatCount=0, eventTime=313990, downTime=313990, deviceId=1, source=0x101 }
+D/dalvikvm( 1667): GC_CONCURRENT freed 836K, 64% free 2747K/7491K, paused 2ms+2ms
+D/dalvikvm( 1667): GC_CONCURRENT freed 706K, 64% free 2745K/7491K, paused 2ms+2ms
+D/dalvikvm( 1667): GC_CONCURRENT freed 714K, 64% free 2744K/7491K, paused 2ms+2ms
+D/dalvikvm( 1667): GC_CONCURRENT freed 706K, 64% free 2697K/7491K, paused 2ms+2ms
+D/dalvikvm( 1667): GC_CONCURRENT freed 652K, 65% free 2683K/7491K, paused 2ms+4ms
+
+[  466.040999] IR: [03932] scan key value is 0xec138000 
+[  466.041004]  D/RecommondAgency( 1253): 13128
+V/RecommondAgency( 1253): resourceCode : 13128
+--------- beginning of /dev/log/system
+I/ActivityManager(  950): START {act=com.aidufei.programDetail cmp=com.aidufei.movieonline/.ProgramDetailActivity (has extras)} from pid 1253
+D/ProgramDetailActivity( 2306): -- onCreate --
+D/dalvikvm( 2306): GC_FOR_ALLOC freed 1219K, 40% free 15132K/24835K, paused 39ms
+I/dalvikvm-heap( 2306): Grow heap (frag case) to 21.893MB for 3686416-byte allocation
+D/dalvikvm( 2306): GC_CONCURRENT freed 23K, 35% free 18709K/28483K, paused 3ms+14ms
+I/Process (  950): Sending signal. PID: 2306 SIG: 3
+I/dalvikvm( 2306): threadid=3: reacting to signal 3
+I/dalvikvm( 2306): Wrote stack traces to '/data/anr/traces.txt'
+D/dalvikvm( 2306): GC_CONCURRENT freed 8K, 28% free 20642K/28483K, paused 3ms+4ms
+D/ProgramDetailActivity( 2306): start load program details.
+D/Test    ( 2306): request Url  :http://cibn-ido.longvisionmedia.com:8088/msis/getAssetDetail?version=V001&terminalType=1&resolution=1280*720&resourceCode=13128&userCode=20130502211502246018&authKey=86e819a2f7f698d94d4f469eee3c308f
+D/ProgramDetailActivity( 2306): -- onResume --
+I/Process (  950): Sending signal. PID: 2306 SIG: 3
+I/dalvikvm( 2306): threadid=3: reacting to signal 3
+I/dalvikvm( 2306): Wrote stack traces to '/data/anr/traces.txt'
+W/InputManagerService(  950): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@41516978 (uid=10006 pid=1253)
+D/Test    ( 2306): request Url  :http://cibn-ido.longvisionmedia.com:8088/msis/getRelateAsset?version=V001&terminalType=1&resolution=1280*720&userCode=20130502211502246018&resourceCode=13128&authKey=532c75c8af8b3375f2aecf8f0c897800
+I/ActivityManager(  950): Displayed com.aidufei.movieonline/.ProgramDetailActivity: +1s274ms
+I/ProgramDetailActivity( 2306): movie count:1
+D/dalvikvm( 2306): GC_CONCURRENT freed 1358K, 26% free 21208K/28483K, paused 2ms+9ms
+D/ProgramDetailActivity( 2306): initRelateResource:15
+D/Test    ( 2306): request Url  :http://cibn-ido.longvisionmedia.com:8088/userCenter/getFavorite?version=V001&terminalType=1&resolution=1280*720&userCode=20130502211502246018&userName=20130502211502246018&authKey=f1aad0f32a212940d8792b85f396d30a
+E/        ( 2306): get vaddr failed:pvaddr_read=0x61c40000,pvaddr_internal=0x61d40000,pvaddr_write=0x0
+D/dalvikvm( 2306): GC_CONCURRENT freed 4821K, 36% free 18424K/28483K, paused 6ms+4ms
+D/dalvikvm( 2306): GC_FOR_ALLOC freed 775K, 33% free 19182K/28483K, paused 42ms
+I/dalvikvm-heap( 2306): Grow heap (frag case) to 24.333MB for 2097168-byte allocation
+D/dalvikvm( 2306): GC_CONCURRENT freed 0K, 31% free 21230K/30595K, paused 3ms+9ms
+D/dalvikvm( 1667): GC_CONCURRENT freed 635K, 63% free 2802K/7491K, paused 2ms+3ms
+D/Test    ( 2306): request Url  :http://cibn-ido.longvisionmedia.com:8088/userCenter/getBookMark?version=V001&terminalType=1&resolution=1280*720&userCode=20130502211502246018&userName=20130502211502246018&ResourceCode=13128&authKey=438433a82b4fd1849ceac8ec15e5cdf9
+D/dalvikvm( 1667): GC_CONCURRENT freed 784K, 63% free 2779K/7491K, paused 5ms+5ms
+E/ProgramDetailActivity( 2306): rawTimeCode:22
+D/dalvikvm( 1667): GC_CONCURRENT freed 745K, 64% free 2698K/7491K, paused 2ms+3ms
+D/dalvikvm( 1667): GC_CONCURRENT freed 650K, 64% free 2709K/7491K, paused 2ms+5ms
+
+[  469.960039] IR: [03932] scan key value is 0xf10e8000 
+[  469.960044]  D/dalvikvm( 1667): GC_CONCURRENT freed 675K, 63% free 2794K/7491K, paused 2ms+2ms
+D/ProgramDetailActivity( 2306): -- onRestart --
+W/ActivityManager(  950): Duplicate finish request for ActivityRecord{415b0c98 com.aidufei.movieonline/.ProgramDetailActivity}
+D/SlideManagerRootImpl( 1253): stop = 3
+D/OpenGLRenderer( 2306): Flushing caches (mode 0)
+W/InputManagerService(  950): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@4164d190 (uid=10000 pid=2306)
+D/OpenGLRenderer( 2306): Flushing caches (mode 1)
+
+[  471.852977] IR: [03932] scan key value is 0xeb148000 
+[  471.852982]  D/InputEventConsistencyVerifier( 1253): KeyEvent: ACTION_UP but key was not down.
+D/InputEventConsistencyVerifier( 1253):   in com.coship.cibn.view.ScaleViewPanel@418c5f38
+D/InputEventConsistencyVerifier( 1253):   0: sent at 472017000000, KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_RIGHT, scanCode=106, metaState=0, flags=0x8, repeatCount=0, eventTime=472017, downTime=471858, deviceId=1, source=0x101 }
+D/InputEventConsistencyVerifier( 1253):   -- recent events --
+D/InputEventConsistencyVerifier( 1253):   1: sent at 269229000000, (unhandled) KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=105, metaState=0, flags=0x8, repeatCount=0, eventTime=269229, downTime=269229, deviceId=1, source=0x101 }
+D/InputEventConsistencyVerifier( 1253):   2: sent at 268925000000, (unhandled) KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_LEFT, scanCode=105, metaState=0, flags=0x8, repeatCount=0, eventTime=268925, downTime=268765, deviceId=1, source=0x101 }
+D/InputEventConsistencyVerifier( 1253):   3: sent at 248782000000, (unhandled) KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=105, metaState=0, flags=0x8, repeatCount=0, eventTime=248782, downTime=248782, deviceId=1, source=0x101 }
+D/InputEventConsistencyVerifier( 1253):   4: sent at 248697000000, (unhandled) KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_LEFT, scanCode=105, metaState=0, flags=0x8, repeatCount=0, eventTime=248697, downTime=248477, deviceId=1, source=0x101 }
+D/InputEventConsistencyVerifier( 1253):   5: sent at 248477000000, (unhandled) KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=105, metaState=0, flags=0x8, repeatCount=0, eventTime=248477, downTime=248477, deviceId=1, source=0x101 }
+
+[  472.550825] IR: [03932] scan key value is 0xee118000 
+[  472.550830]  D/dalvikvm( 1667): GC_CONCURRENT freed 786K, 64% free 2743K/7491K, paused 1ms+3ms
+D/InputEventConsistencyVerifier( 1253): KeyEvent: ACTION_UP but key was not down.
+D/InputEventConsistencyVerifier( 1253):   in com.coship.cibn.view.ScaleViewPanel@4190c238
+D/InputEventConsistencyVerifier( 1253):   0: sent at 472717000000, KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_UP, scanCode=103, metaState=0, flags=0x8, repeatCount=0, eventTime=472717, downTime=472556, deviceId=1, source=0x101 }
+D/dhcpcd  ( 1460): sending DHCP_DISCOVER with xid 0xd907dcc9, next in 64.58 seconds
+D/dalvikvm( 1667): GC_CONCURRENT freed 706K, 64% free 2697K/7491K, paused 2ms+3ms
+
+[  473.289280] IR: [03932] scan key value is 0xeb148000 
+[  473.289285]  D/dalvikvm( 1667): GC_CONCURRENT freed 649K, 63% free 2796K/7491K, paused 2ms+2ms
+D/InputEventConsistencyVerifier( 1253): KeyEvent: ACTION_UP but key was not down.
+D/InputEventConsistencyVerifier( 1253):   in com.coship.cibn.view.ScaleViewPanel@419518a0
+D/InputEventConsistencyVerifier( 1253):   0: sent at 473457000000, KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_RIGHT, scanCode=106, metaState=0, flags=0x8, repeatCount=0, eventTime=473457, downTime=473294, deviceId=1, source=0x101 }
+D/dalvikvm( 1667): GC_CONCURRENT freed 786K, 64% free 2710K/7491K, paused 2ms+2ms
+D/CheckNetWork( 1653): isOk true
+D/CheckNetWork( 1653): ActInfoNetworkInfo: type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), roaming: false, failover: false, isAvailable: true
+D/CheckNetWork( 1653): infoNetworkInfo: type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), roaming: false, failover: false, isAvailable: true
+D/dalvikvm( 1667): GC_CONCURRENT freed 734K, 65% free 2667K/7491K, paused 1ms+2ms
+
+[  474.696782] IR: [03932] scan key value is 0xec138000 
+[  474.696786]  D/dalvikvm( 1667): GC_CONCURRENT freed 616K, 64% free 2708K/7491K, paused 2ms+3ms
+I/MainActivity( 1253): onClick -> 52043
+I/System.out( 1253): ApplicationInfo-->com.aidufei.movieonline
+E/MainActivity( 1253): start  feifeikan app  erro !
+W/ActivityManager(  950): Permission Denial: killBackgroundProcesses() from pid=1253, uid=10006 requires android.permission.KILL_BACKGROUND_PROCESSES
+D/dalvikvm( 1667): GC_CONCURRENT freed 674K, 65% free 2695K/7491K, paused 2ms+2ms
+E/dhcpcd  ( 1460): timed out
+D/dhcpcd  ( 1460): executing `/system/etc/dhcpcd/dhcpcd-run-hooks', reason FAIL
+D/dhcpcd  ( 1460): broadcasting for a lease
+D/dhcpcd  ( 1460): sending DHCP_DISCOVER with xid 0xa1349579, next in 3.62 seconds
+D/dalvikvm( 1667): GC_CONCURRENT freed 615K, 63% free 2832K/7491K, paused 2ms+3ms
+D/HomePlayerLib( 1667): hostaddress count is 1
+D/dalvikvm( 1667): GC_CONCURRENT freed 824K, 64% free 2728K/7491K, paused 2ms+3ms
+D/dalvikvm( 1667): GC_CONCURRENT freed 675K, 64% free 2745K/7491K, paused 2ms+2ms
+D/dalvikvm( 1667): GC_CONCURRENT freed 700K, 64% free 2745K/7491K, paused 2ms+2ms
+D/dalvikvm( 1667): GC_CONCURRENT freed 703K, 64% free 2746K/7491K, paused 1ms+2ms
+D/dalvikvm( 1667): GC_CONCURRENT freed 715K, 64% free 2699K/7491K, paused 1ms+2ms
+D/dalvikvm( 1667): GC_CONCURRENT freed 654K, 64% free 2708K/7491K, paused 2ms+2ms
+D/dhcpcd  ( 1460): sending DHCP_DISCOVER with xid 0xa1349579, next in 8.84 seconds
+D/dalvikvm( 1667): GC_CONCURRENT freed 664K, 63% free 2807K/7491K, paused 2ms+2ms
+D/dalvikvm( 1667): GC_CONCURRENT freed 800K, 64% free 2743K/7491K, paused 2ms+3ms
+D/dalvikvm( 1667): GC_CONCURRENT freed 703K, 64% free 2742K/7491K, paused 2ms+2ms
+D/dalvikvm( 1667): GC_CONCURRENT freed 705K, 64% free 2742K/7491K, paused 2ms+2ms
+D/dalvikvm( 1667): GC_CONCURRENT freed 706K, 64% free 2742K/7491K, paused 1ms+2ms
+D/dalvikvm( 1667): GC_CONCURRENT freed 706K, 64% free 2742K/7491K, paused 2ms+3ms
+D/dalvikvm( 1667): GC_CONCURRENT freed 714K, 64% free 2708K/7491K, paused 2ms+2ms
+D/HomePlayerLib( 1667): hostaddress count is 1
+D/dalvikvm( 1667): GC_CONCURRENT freed 650K, 63% free 2815K/7491K, paused 2ms+2ms
+D/dalvikvm( 1667): GC_CONCURRENT freed 811K, 63% free 2807K/7491K, paused 2ms+3ms
+D/dalvikvm( 1667): GC_CONCURRENT freed 783K, 64% free 2768K/7491K, paused 2ms+2ms
+D/dalvikvm( 1667): GC_CONCURRENT freed 744K, 63% free 2809K/7491K, paused 2ms+2ms
+D/dalvikvm( 1667): GC_CONCURRENT freed 798K, 64% free 2698K/7491K, paused 2ms+3ms
+D/dalvikvm( 1667): GC_CONCURRENT freed 653K, 63% free 2807K/7491K, paused 2ms+3ms
+D/dalvikvm( 1667): GC_CONCURRENT freed 799K, 64% free 2743K/7491K, paused 2ms+2ms
+D/dhcpcd  ( 1460): sending DHCP_DISCOVER with xid 0xa1349579, next in 16.61 seconds
+D/dalvikvm( 1667): GC_CONCURRENT freed 705K, 64% free 2742K/7491K, paused 2ms+2ms
+D/dalvikvm( 1667): GC_CONCURRENT freed 705K, 64% free 2743K/7491K, paused 2ms+2ms
+D/dalvikvm( 1667): GC_CONCURRENT freed 702K, 64% free 2742K/7491K, paused 2ms+2ms
+D/dalvikvm( 1667): GC_CONCURRENT freed 703K, 64% free 2743K/7491K, paused 2ms+2ms
+D/dalvikvm( 1667): GC_CONCURRENT freed 705K, 64% free 2742K/7491K, paused 2ms+2ms
+D/dalvikvm( 1667): GC_CONCURRENT freed 711K, 65% free 2692K/7491K, paused 2ms+2ms
+D/HomePlayerLib( 1667): hostaddress count is 1
+D/dalvikvm( 1667): GC_CONCURRENT freed 656K, 64% free 2705K/7491K, paused 2ms+2ms
+D/dalvikvm( 1667): GC_CONCURRENT freed 644K, 64% free 2699K/7491K, paused 2ms+3ms
+D/dalvikvm( 1667): GC_CONCURRENT freed 660K, 64% free 2699K/7491K, paused 2ms+2ms
+D/dalvikvm( 1667): GC_CONCURRENT freed 656K, 63% free 2775K/7491K, paused 2ms+3ms
+D/dalvikvm( 1667): GC_CONCURRENT freed 763K, 64% free 2697K/7491K, paused 3ms+3ms
+D/dalvikvm( 1667): GC_CONCURRENT freed 654K, 64% free 2708K/7491K, paused 2ms+3ms
+
+[  498.005824] IR: [03932] scan key value is 0xec138000 
+[  498.005830]  I/MainActivity( 1253): onClick -> 52043
+I/System.out( 1253): ApplicationInfo-->com.aidufei.movieonline
+E/MainActivity( 1253): start  feifeikan app  erro !
+W/ActivityManager(  950): Permission Denial: killBackgroundProcesses() from pid=1253, uid=10006 requires android.permission.KILL_BACKGROUND_PROCESSES
+D/dhcpcd  ( 1460): sending DHCP_DISCOVER with xid 0xa1349579, next in 32.99 seconds
+D/dalvikvm( 1667): GC_CONCURRENT freed 663K, 64% free 2708K/7491K, paused 1ms+2ms
+D/dalvikvm( 1667): GC_CONCURRENT freed 663K, 64% free 2708K/7491K, paused 2ms+2ms
+D/dalvikvm( 1667): GC_CONCURRENT freed 664K, 64% free 2750K/7491K, paused 2ms+2ms
+D/dalvikvm( 1667): GC_FOR_ALLOC freed 849K, 65% free 2674K/7491K, paused 24ms
+D/dalvikvm( 1667): GC_CONCURRENT freed 10K, 64% free 2699K/7491K, paused 2ms+2ms
+D/HomePlayerLib( 1667): hostaddress count is 1
+D/dalvikvm( 1667): GC_CONCURRENT freed 634K, 64% free 2753K/7491K, paused 2ms+2ms
+D/dalvikvm( 1667): GC_CONCURRENT freed 717K, 65% free 2696K/7491K, paused 2ms+2ms
+D/dalvikvm( 1667): GC_CONCURRENT freed 648K, 63% free 2809K/7491K, paused 2ms+2ms
+D/dalvikvm( 1667): GC_CONCURRENT freed 794K, 64% free 2702K/7491K, paused 2ms+2ms
+D/dalvikvm( 1667): GC_CONCURRENT freed 652K, 65% free 2685K/7491K, paused 2ms+2ms
+D/dalvikvm( 1667): GC_CONCURRENT freed 636K, 64% free 2709K/7491K, paused 2ms+3ms
+D/dalvikvm( 1667): GC_CONCURRENT freed 676K, 65% free 2696K/7491K, paused 2ms+3ms
+D/dalvikvm( 1667): GC_CONCURRENT freed 641K, 65% free 2694K/7491K, paused 1ms+2ms
+D/dalvikvm( 1667): GC_CONCURRENT freed 648K, 64% free 2755K/7491K, paused 2ms+2ms
+D/dalvikvm( 1667): GC_CONCURRENT freed 717K, 64% free 2697K/7491K, paused 1ms+2ms
+D/dalvikvm( 1667): GC_CONCURRENT freed 652K, 65% free 2683K/7491K, paused 2ms+2ms
+D/dalvikvm( 1667): GC_CONCURRENT freed 636K, 63% free 2802K/7491K, paused 2ms+2ms
+D/dalvikvm( 1667): GC_CONCURRENT freed 785K, 63% free 2784K/7491K, paused 1ms+2ms
+D/dalvikvm( 1667): GC_CONCURRENT freed 771K, 64% free 2716K/7491K, paused 2ms+2ms
+
+[  511.071179] IR: [03932] scan key value is 0xee118000 
+[  511.071184]  D/dalvikvm( 1667): GC_CONCURRENT freed 679K, 64% free 2742K/7491K, paused 2ms+2ms
+D/InputEventConsistencyVerifier( 1253): KeyEvent: ACTION_UP but key was not down.
+D/InputEventConsistencyVerifier( 1253):   in android.widget.FrameLayout@413a4c28
+D/InputEventConsistencyVerifier( 1253):   0: sent at 511237000000, KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_UP, scanCode=103, metaState=0, flags=0x8, repeatCount=0, eventTime=511237, downTime=511076, deviceId=1, source=0x101 }
+D/InputEventConsistencyVerifier( 1253):   -- recent events --
+D/InputEventConsistencyVerifier( 1253):   1: sent at 464508000000, (unhandled) KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=108, metaState=0, flags=0x8, repeatCount=0, eventTime=464508, downTime=464508, deviceId=1, source=0x101 }
+D/InputEventConsistencyVerifier( 1253):   2: sent at 440489000000, (unhandled) KeyEvent { action=ACTION_UP, keyCode=KEYCODE_ENTER, scanCode=28, metaState=0, flags=0x8, repeatCount=0, eventTime=440489, downTime=440267, deviceId=1, source=0x101 }
+D/InputEventConsistencyVerifier( 1253):   3: sent at 440267000000, KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_ENTER, scanCode=28, metaState=0, flags=0x8, repeatCount=0, eventTime=440267, downTime=440267, deviceId=1, source=0x101 }
+D/InputEventConsistencyVerifier( 1253):   4: sent at 439073000000, (unhandled) KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_RIGHT, scanCode=106, metaState=0, flags=0x8, repeatCount=0, eventTime=439073, downTime=438743, deviceId=1, source=0x101 }
+D/InputEventConsistencyVerifier( 1253):   5: sent at 438743000000, (unhandled) KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=106, metaState=0, flags=0x8, repeatCount=0, eventTime=438743, downTime=438743, deviceId=1, source=0x101 }
+D/dalvikvm( 1667): GC_CONCURRENT freed 703K, 64% free 2698K/7491K, paused 2ms+3ms
+
+[  511.745073] IR: [03932] scan key value is 0xeb148000 
+[  511.745078]  D/SlideManagerRootImpl( 1253): stop = 3
+D/MainActivity( 1253): position = 3
+
+[  513.070289] IR: [03932] scan key value is 0xea158000 
+[  513.070294]  D/InputEventConsistencyVerifier( 1253): KeyEvent: ACTION_UP but key was not down.
+D/InputEventConsistencyVerifier( 1253):   in com.coship.widget.viewflow.ViewFlow@413bdeb8
+D/InputEventConsistencyVerifier( 1253):   0: sent at 513237000000, KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_DOWN, scanCode=108, metaState=0, flags=0x8, repeatCount=0, eventTime=513237, downTime=513075, deviceId=1, source=0x101 }
+D/InputEventConsistencyVerifier( 1253):   -- recent events --
+D/InputEventConsistencyVerifier( 1253):   1: sent at 511076000000, (unhandled) KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=103, metaState=0, flags=0x8, repeatCount=0, eventTime=511076, downTime=511076, deviceId=1, source=0x101 }
+D/InputEventConsistencyVerifier( 1253):   2: sent at 498173000000, KeyEvent { action=ACTION_UP, keyCode=KEYCODE_ENTER, scanCode=28, metaState=0, flags=0x8, repeatCount=0, eventTime=498173, downTime=498011, deviceId=1, source=0x101 }
+D/InputEventConsistencyVerifier( 1253):   3: sent at 498011000000, KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_ENTER, scanCode=28, metaState=0, flags=0x8, repeatCount=0, eventTime=498011, downTime=498011, deviceId=1, source=0x101 }
+D/InputEventConsistencyVerifier( 1253):   4: sent at 474861000000, KeyEvent { action=ACTION_UP, keyCode=KEYCODE_ENTER, scanCode=28, metaState=0, flags=0x8, repeatCount=0, eventTime=474861, downTime=474702, deviceId=1, source=0x101 }
+D/InputEventConsistencyVerifier( 1253):   5: sent at 474702000000, KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_ENTER, scanCode=28, metaState=0, flags=0x8, repeatCount=0, eventTime=474702, downTime=474702, deviceId=1, source=0x101 }
+
+[  513.996910] IR: [03932] scan key value is 0xee118000 
+[  513.996915]  D/dalvikvm( 1667): GC_CONCURRENT freed 647K, 63% free 2781K/7491K, paused 2ms+7ms
+D/InputEventConsistencyVerifier( 1253): KeyEvent: ACTION_UP but key was not down.
+D/InputEventConsistencyVerifier( 1253):   in android.widget.FrameLayout@413a4c28
+D/InputEventConsistencyVerifier( 1253):   0: sent at 514161000000, KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_UP, scanCode=103, metaState=0, flags=0x8, repeatCount=0, eventTime=514161, downTime=514002, deviceId=1, source=0x101 }
+D/InputEventConsistencyVerifier( 1253):   -- recent events --
+D/InputEventConsistencyVerifier( 1253):   1: sent at 513075000000, (unhandled) KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=108, metaState=0, flags=0x8, repeatCount=0, eventTime=513075, downTime=513075, deviceId=1, source=0x101 }
+D/InputEventConsistencyVerifier( 1253):   2: sent at 511909000000, (unhandled) KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_RIGHT, scanCode=106, metaState=0, flags=0x8, repeatCount=0, eventTime=511909, downTime=511750, deviceId=1, source=0x101 }
+D/InputEventConsistencyVerifier( 1253):   3: sent at 511750000000, (unhandled) KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=106, metaState=0, flags=0x8, repeatCount=0, eventTime=511750, downTime=511750, deviceId=1, source=0x101 }
+D/InputEventConsistencyVerifier( 1253):   4: sent at 511237000000, (unhandled) KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_UP, scanCode=103, metaState=0, flags=0x80000008, repeatCount=0, eventTime=511237, downTime=511076, deviceId=1, source=0x101 }
+D/InputEventConsistencyVerifier( 1253):   5: sent at 464508000000, (unhandled) KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=108, metaState=0, flags=0x8, repeatCount=0, eventTime=464508, downTime=464508, deviceId=1, source=0x101 }
+
+[  514.438958] IR: [03932] scan key value is 0xeb148000 
+[  514.438963]  D/SlideManagerRootImpl( 1253): stop = 3
+D/InputEventConsistencyVerifier( 1253): KeyEvent: ACTION_UP but key was not down.
+D/InputEventConsistencyVerifier( 1253):   in android.widget.RadioButton@413bd278
+D/InputEventConsistencyVerifier( 1253):   0: sent at 514605000000, KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_RIGHT, scanCode=106, metaState=0, flags=0x8, repeatCount=0, eventTime=514605, downTime=514444, deviceId=1, source=0x101 }
+D/InputEventConsistencyVerifier( 1253):   -- recent events --
+D/InputEventConsistencyVerifier( 1253):   1: sent at 306439000000, (unhandled) KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=108, metaState=0, flags=0x8, repeatCount=0, eventTime=306439, downTime=306439, deviceId=1, source=0x101 }
+D/InputEventConsistencyVerifier( 1253):   2: sent at 306265000000, (unhandled) KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_RIGHT, scanCode=106, metaState=0, flags=0x8, repeatCount=0, eventTime=306265, downTime=306046, deviceId=1, source=0x101 }
+D/InputEventConsistencyVerifier( 1253):   3: sent at 306046000000, (unhandled) KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=106, metaState=0, flags=0x8, repeatCount=0, eventTime=306046, downTime=306046, deviceId=1, source=0x101 }
+D/InputEventConsistencyVerifier( 1253):   4: sent at 306013000000, (unhandled) KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_RIGHT, scanCode=106, metaState=0, flags=0x80000008, repeatCount=0, eventTime=306013, downTime=305792, deviceId=1, source=0x101 }
+D/InputEventConsistencyVerifier( 1253):   5: sent at 262522000000, (unhandled) KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=108, metaState=0, flags=0x8, repeatCount=0, eventTime=262522, downTime=262522, deviceId=1, source=0x101 }
+D/MainActivity( 1253): position = 4
+
+[  515.196268] IR: [03932] scan key value is 0xea158000 
+[  515.196274]  D/InputEventConsistencyVerifier( 1253): KeyEvent: ACTION_UP but key was not down.
+D/InputEventConsistencyVerifier( 1253):   in com.coship.widget.viewflow.ViewFlow@413bdeb8
+D/InputEventConsistencyVerifier( 1253):   0: sent at 515361000000, KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_DOWN, scanCode=108, metaState=0, flags=0x8, repeatCount=0, eventTime=515361, downTime=515201, deviceId=1, source=0x101 }
+D/InputEventConsistencyVerifier( 1253):   -- recent events --
+D/InputEventConsistencyVerifier( 1253):   1: sent at 514002000000, (unhandled) KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=103, metaState=0, flags=0x8, repeatCount=0, eventTime=514002, downTime=514002, deviceId=1, source=0x101 }
+D/InputEventConsistencyVerifier( 1253):   2: sent at 513237000000, (unhandled) KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_DOWN, scanCode=108, metaState=0, flags=0x80000008, repeatCount=0, eventTime=513237, downTime=513075, deviceId=1, source=0x101 }
+D/InputEventConsistencyVerifier( 1253):   3: sent at 511076000000, (unhandled) KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=103, metaState=0, flags=0x8, repeatCount=0, eventTime=511076, downTime=511076, deviceId=1, source=0x101 }
+D/InputEventConsistencyVerifier( 1253):   4: sent at 498173000000, KeyEvent { action=ACTION_UP, keyCode=KEYCODE_ENTER, scanCode=28, metaState=0, flags=0x8, repeatCount=0, eventTime=498173, downTime=498011, deviceId=1, source=0x101 }
+D/InputEventConsistencyVerifier( 1253):   5: sent at 498011000000, KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_ENTER, scanCode=28, metaState=0, flags=0x8, repeatCount=0, eventTime=498011, downTime=498011, deviceId=1, source=0x101 }
+
+[  516.782972] IR: [03932] scan key value is 0xec138000 
+[  516.782977]  I/MainActivity( 1253): onClick -> 52066
+I/System.out( 1253): ApplicationInfo-->com.aidufei.movieonline
+W/ActivityManager(  950): Permission Denial: killBackgroundProcesses() from pid=1253, uid=10006 requires android.permission.KILL_BACKGROUND_PROCESSES
+E/MainActivity( 1253): start  feifeikan app  erro !
+D/dalvikvm( 1667): GC_CONCURRENT freed 770K, 65% free 2694K/7491K, paused 2ms+2ms
+D/dalvikvm( 1667): GC_CONCURRENT freed 638K, 63% free 2825K/7491K, paused 2ms+3ms
+D/HomePlayerLib( 1667): hostaddress count is 1
+D/dalvikvm( 1667): GC_CONCURRENT freed 828K, 63% free 2795K/7491K, paused 1ms+2ms
+D/dalvikvm( 1667): GC_CONCURRENT freed 767K, 63% free 2822K/7491K, paused 1ms+2ms
+D/dalvikvm( 1667): GC_CONCURRENT freed 822K, 63% free 2788K/7491K, paused 1ms+2ms
+D/dalvikvm( 1667): GC_CONCURRENT freed 773K, 65% free 2688K/7491K, paused 2ms+2ms
+D/dalvikvm( 1667): GC_CONCURRENT freed 647K, 64% free 2697K/7491K, paused 2ms+2ms
+D/dalvikvm( 1667): GC_CONCURRENT freed 654K, 64% free 2708K/7491K, paused 2ms+2ms
+D/dalvikvm( 1667): GC_CONCURRENT freed 674K, 65% free 2696K/7491K, paused 2ms+2ms
+D/dalvikvm( 1667): GC_CONCURRENT freed 652K, 65% free 2683K/7491K, paused 2ms+3ms
+D/dalvikvm( 1667): GC_CONCURRENT freed 637K, 65% free 2695K/7491K, paused 2ms+2ms
+D/dalvikvm( 1667): GC_CONCURRENT freed 641K, 64% free 2699K/7491K, paused 2ms+2ms
+D/dalvikvm( 1667): GC_CONCURRENT freed 663K, 65% free 2679K/7491K, paused 2ms+2ms
+
+[  529.141153] IR: [03932] scan key value is 0xea158000 
+[  529.141159]  D/InputEventConsistencyVerifier( 1253): KeyEvent: ACTION_UP but key was not down.
+D/InputEventConsistencyVerifier( 1253):   in com.coship.cibn.view.ScaleViewPanel@41cd5ad0
+D/InputEventConsistencyVerifier( 1253):   0: sent at 529305000000, KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_DOWN, scanCode=108, metaState=0, flags=0x8, repeatCount=0, eventTime=529305, downTime=529146, deviceId=1, source=0x101 }
+D/InputEventConsistencyVerifier( 1253):   -- recent events --
+D/InputEventConsistencyVerifier( 1253):   1: sent at 310205000000, (unhandled) KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=105, metaState=0, flags=0x8, repeatCount=0, eventTime=310205, downTime=310205, deviceId=1, source=0x101 }
+D/InputEventConsistencyVerifier( 1253):   2: sent at 309673000000, KeyEvent { action=ACTION_UP, keyCode=KEYCODE_ENTER, scanCode=28, metaState=0, flags=0x8, repeatCount=0, eventTime=309673, downTime=309449, deviceId=1, source=0x101 }
+D/InputEventConsistencyVerifier( 1253):   3: sent at 309449000000, KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_ENTER, scanCode=28, metaState=0, flags=0x8, repeatCount=0, eventTime=309449, downTime=309449, deviceId=1, source=0x101 }
+D/InputEventConsistencyVerifier( 1253):   4: sent at 309037000000, (unhandled) KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_DOWN, scanCode=108, metaState=0, flags=0x80000008, repeatCount=0, eventTime=309037, downTime=308817, deviceId=1, source=0x101 }
+D/InputEventConsistencyVerifier( 1253):   5: sent at 232320000000, (unhandled) KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=103, metaState=0, flags=0x8, repeatCount=0, eventTime=232320, downTime=232320, deviceId=1, source=0x101 }
+D/HomePlayerLib( 1667): hostaddress count is 1
+D/dalvikvm( 1667): GC_CONCURRENT freed 630K, 64% free 2757K/7491K, paused 2ms+2ms
+
+[  529.679854] IR: [03932] scan key value is 0xec138000 
+[  529.679859]  D/dalvikvm( 1667): GC_CONCURRENT freed 738K, 65% free 2672K/7491K, paused 2ms+2ms
+D/dalvikvm( 1667): GC_CONCURRENT freed 617K, 64% free 2698K/7491K, paused 2ms+2ms
+I/MainActivity( 1253): onClick -> 52068
+I/System.out( 1253): ApplicationInfo-->com.aidufei.movieonline
+W/ActivityManager(  950): Permission Denial: killBackgroundProcesses() from pid=1253, uid=10006 requires android.permission.KILL_BACKGROUND_PROCESSES
+E/MainActivity( 1253): start  feifeikan app  erro !
+D/dalvikvm( 1667): GC_CONCURRENT freed 648K, 64% free 2722K/7491K, paused 1ms+2ms
+D/dalvikvm( 1667): GC_CONCURRENT freed 688K, 63% free 2803K/7491K, paused 1ms+2ms
+D/dalvikvm( 1667): GC_CONCURRENT freed 786K, 63% free 2803K/7491K, paused 2ms+2ms
+D/dalvikvm( 1667): GC_CONCURRENT freed 786K, 64% free 2698K/7491K, paused 2ms+3ms
+D/dalvikvm( 1667): GC_CONCURRENT freed 653K, 65% free 2692K/7491K, paused 2ms+2ms
+D/dalvikvm( 1667): GC_CONCURRENT freed 637K, 63% free 2802K/7491K, paused 2ms+2ms
+D/dalvikvm( 1667): GC_CONCURRENT freed 784K, 63% free 2784K/7491K, paused 2ms+2ms
+D/dalvikvm( 1667): GC_CONCURRENT freed 773K, 64% free 2716K/7491K, paused 2ms+2ms
+D/dalvikvm( 1667): GC_CONCURRENT freed 676K, 64% free 2697K/7491K, paused 1ms+2ms
+
+[  532.478978] IR: [03932] scan key value is 0xed128000 
+[  532.478982]  D/dalvikvm( 1667): GC_CONCURRENT freed 652K, 65% free 2682K/7491K, paused 2ms+3ms
+D/InputEventConsistencyVerifier( 1253): KeyEvent: ACTION_UP but key was not down.
+D/InputEventConsistencyVerifier( 1253):   in com.coship.cibn.view.ScaleViewPanel@41cd3aa0
+D/InputEventConsistencyVerifier( 1253):   0: sent at 532645000000, KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_LEFT, scanCode=105, metaState=0, flags=0x8, repeatCount=0, eventTime=532645, downTime=532484, deviceId=1, source=0x101 }
+D/InputEventConsistencyVerifier( 1253):   -- recent events --
+D/InputEventConsistencyVerifier( 1253):   1: sent at 312547000000, (unhandled) KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=103, metaState=0, flags=0x8, repeatCount=0, eventTime=312547, downTime=312547, deviceId=1, source=0x101 }
+D/InputEventConsistencyVerifier( 1253):   2: sent at 311301000000, KeyEvent { action=ACTION_UP, keyCode=KEYCODE_ENTER, scanCode=28, metaState=0, flags=0x8, repeatCount=0, eventTime=311301, downTime=311079, deviceId=1, source=0x101 }
+D/InputEventConsistencyVerifier( 1253):   3: sent at 311079000000, KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_ENTER, scanCode=28, metaState=0, flags=0x8, repeatCount=0, eventTime=311079, downTime=311079, deviceId=1, source=0x101 }
+D/InputEventConsistencyVerifier( 1253):   4: sent at 310365000000, (unhandled) KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_LEFT, scanCode=105, metaState=0, flags=0x80000008, repeatCount=0, eventTime=310365, downTime=310205, deviceId=1, source=0x101 }
+D/dalvikvm( 1667): GC_CONCURRENT freed 637K, 63% free 2802K/7491K, paused 1ms+2ms
+
+[  532.887171] IR: [03932] scan key value is 0xec138000 
+[  532.887177]  I/MainActivity( 1253): onClick -> 52067
+I/System.out( 1253): ApplicationInfo-->com.aidufei.movieonline
+W/ActivityManager(  950): Permission Denial: killBackgroundProcesses() from pid=1253, uid=10006 requires android.permission.KILL_BACKGROUND_PROCESSES
+E/MainActivity( 1253): start  feifeikan app  erro !
+D/dalvikvm( 1667): GC_CONCURRENT freed 783K, 63% free 2784K/7491K, paused 2ms+2ms
+D/dalvikvm( 1667): GC_CONCURRENT freed 774K, 64% free 2716K/7491K, paused 1ms+2ms
+D/CheckNetWork( 1653): isOk true
+D/CheckNetWork( 1653): ActInfoNetworkInfo: type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), roaming: false, failover: false, isAvailable: true
+D/CheckNetWork( 1653): infoNetworkInfo: type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), roaming: false, failover: false, isAvailable: true
+
+[  534.412418] IR: [03932] scan key value is 0xee118000 
+[  534.412422]  D/InputEventConsistencyVerifier( 1253): KeyEvent: ACTION_UP but key was not down.
+D/InputEventConsistencyVerifier( 1253):   in com.coship.cibn.view.ScaleViewPanel@4191ee30
+D/InputEventConsistencyVerifier( 1253):   0: sent at 534577000000, KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_UP, scanCode=103, metaState=0, flags=0x8, repeatCount=0, eventTime=534577, downTime=534418, deviceId=1, source=0x101 }
+D/InputEventConsistencyVerifier( 1253):   -- recent events --
+D/InputEventConsistencyVerifier( 1253):   1: sent at 313990000000, (unhandled) KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=105, metaState=0, flags=0x8, repeatCount=0, eventTime=313990, downTime=313990, deviceId=1, source=0x101 }
+D/InputEventConsistencyVerifier( 1253):   2: sent at 313345000000, KeyEvent { action=ACTION_UP, keyCode=KEYCODE_ENTER, scanCode=28, metaState=0, flags=0x8, repeatCount=0, eventTime=313345, downTime=313124, deviceId=1, source=0x101 }
+D/InputEventConsistencyVerifier( 1253):   3: sent at 313124000000, KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_ENTER, scanCode=28, metaState=0, flags=0x8, repeatCount=0, eventTime=313124, downTime=313124, deviceId=1, source=0x101 }
+D/InputEventConsistencyVerifier( 1253):   4: sent at 312709000000, (unhandled) KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_UP, scanCode=103, metaState=0, flags=0x80000008, repeatCount=0, eventTime=312709, downTime=312547, deviceId=1, source=0x101 }
+D/InputEventConsistencyVerifier( 1253):   5: sent at 266837000000, (unhandled) KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=105, metaState=0, flags=0x8, repeatCount=0, eventTime=266837, downTime=266837, deviceId=1, source=0x101 }
+
+[  534.942223] IR: [03932] scan key value is 0xec138000 
+[  534.942228]  I/MainActivity( 1253): onClick -> 52065
+I/System.out( 1253): ApplicationInfo-->com.aidufei.movieonline
+E/MainActivity( 1253): start  feifeikan app  erro !
+W/ActivityManager(  950): Permission Denial: killBackgroundProcesses() from pid=1253, uid=10006 requires android.permission.KILL_BACKGROUND_PROCESSES
+D/dhcpcd  ( 1460): sending DHCP_DISCOVER with xid 0xa1349579, next in 64.99 seconds
+E/dhcpcd  ( 1460): timed out
+D/dhcpcd  ( 1460): executing `/system/etc/dhcpcd/dhcpcd-run-hooks', reason FAIL
+D/dhcpcd  ( 1460): broadcasting for a lease
+D/dhcpcd  ( 1460): sending DHCP_DISCOVER with xid 0xcf265d2c, next in 3.64 seconds
+D/HomePlayerLib( 1667): hostaddress count is 1
+D/dalvikvm( 1667): GC_CONCURRENT freed 685K, 63% free 2796K/7491K, paused 1ms+2ms
+D/dalvikvm( 1667): GC_CONCURRENT freed 787K, 65% free 2696K/7491K, paused 2ms+2ms
+D/dalvikvm( 1667): GC_CONCURRENT freed 646K, 63% free 2811K/7491K, paused 2ms+2ms
+D/dalvikvm( 1667): GC_CONCURRENT freed 796K, 63% free 2774K/7491K, paused 2ms+3ms
+D/dalvikvm( 1667): GC_CONCURRENT freed 745K, 64% free 2740K/7491K, paused 2ms+2ms
+D/dalvikvm( 1667): GC_CONCURRENT freed 717K, 64% free 2699K/7491K, paused 1ms+3ms
+D/dalvikvm( 1667): GC_CONCURRENT freed 653K, 64% free 2707K/7491K, paused 2ms+2ms
+D/dalvikvm( 1667): GC_CONCURRENT freed 675K, 65% free 2696K/7491K, paused 2ms+3ms
+D/dalvikvm( 1667): GC_CONCURRENT freed 651K, 64% free 2707K/7491K, paused 2ms+2ms
+D/dalvikvm( 1667): GC_CONCURRENT freed 653K, 65% free 2695K/7491K, paused 2ms+3ms
+D/dhcpcd  ( 1460): sending DHCP_DISCOVER with xid 0xcf265d2c, next in 7.78 seconds
+D/dalvikvm( 1667): GC_CONCURRENT freed 648K, 64% free 2708K/7491K, paused 2ms+2ms
+D/dalvikvm( 1667): GC_CONCURRENT freed 675K, 64% free 2697K/7491K, paused 3ms+3ms
+^C

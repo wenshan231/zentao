@@ -1,0 +1,912 @@
+shell@android:/ # logcat -v time
+--------- beginning of /dev/log/system
+01-01 20:00:01.728 I/Vold    (  738): Vold 2.1 (the revenge) firing up
+01-01 20:00:01.728 E/Vold    (  738): Error reading configuration (No such file or directory)... continuing anyways
+01-01 20:00:04.568 D/Vold    (  738): can not get the uuid of /dev/block/vold/8:0 when device add
+01-01 20:00:05.568 D/Vold    (  738): can not get the uuid of /dev/block/vold/8:0 when device remove
+01-01 20:00:06.124 I/SystemServer(  950): Entered the Android system server!
+01-01 20:00:06.276 I/SystemServer(  950): Entropy Service
+01-01 20:00:06.328 I/SystemServer(  950): Power Manager
+01-01 20:00:06.468 I/SystemServer(  950): Activity Manager
+01-01 20:00:06.472 I/ActivityManager(  950): Memory class: 64
+01-02 04:04:27.744 I/ActivityManager(  950): Enabled StrictMode logging for AThread's Looper
+01-02 04:04:27.744 I/SystemServer(  950): Telephony Registry
+01-02 04:04:27.760 I/SystemServer(  950): Package Manager
+01-02 04:04:28.124 W/PackageManager(  950): Running ENG build: no pre-dexopt!
+01-02 04:04:28.164 W/PackageManager(  950): Library not found: /system/framework/com.android.future.usb.accessory.jar
+01-02 04:04:28.992 W/PackageParser(  950): No actions in intent filter at /system/app/Bluetooth.apk Binary XML file line #125
+01-02 04:04:29.020 I/PackageParser(  950): com.coship.HS: compat added android.permission.WRITE_EXTERNAL_STORAGE android.permission.READ_PHONE_STATE
+01-02 04:04:29.420 W/PackageParser(  950): No actions in intent filter at /system/app/Contacts.apk Binary XML file line #525
+01-02 04:04:29.672 W/PackageParser(  950): No actions in intent filter at /system/app/FlyUI_HomePlayer.apk Binary XML file line #114
+01-02 04:04:29.676 W/PackageParser(  950): No actions in intent filter at /system/app/FlyUI_HomePlayer.apk Binary XML file line #120
+01-02 04:04:29.676 I/PackageParser(  950): com.coship.Multimedia: compat added android.permission.READ_PHONE_STATE
+01-02 04:04:30.040 W/PackageParser(  950): No actions in intent filter at /system/app/FlyUI_Portal.apk Binary XML file line #196
+01-02 04:04:30.848 W/PackageParser(  950): Problem in package /system/app/STB-Settings.apk:
+01-02 04:04:30.848 W/PackageParser(  950): Unknown element under <activity>: data at /system/app/STB-Settings.apk Binary XML file line #145
+01-02 04:04:30.852 W/PackageParser(  950): Problem in package /system/app/STB-Settings.apk:
+01-02 04:04:30.852 W/PackageParser(  950): Unknown element under <activity>: action at /system/app/STB-Settings.apk Binary XML file line #231
+01-02 04:04:30.852 W/PackageParser(  950): Problem in package /system/app/STB-Settings.apk:
+01-02 04:04:30.852 W/PackageParser(  950): Unknown element under <activity>: action at /system/app/STB-Settings.apk Binary XML file line #232
+01-02 04:04:30.852 W/PackageParser(  950): Problem in package /system/app/STB-Settings.apk:
+01-02 04:04:30.852 W/PackageParser(  950): Unknown element under <activity>: action at /system/app/STB-Settings.apk Binary XML file line #289
+01-02 04:04:30.856 W/PackageParser(  950): Problem in package /system/app/STB-Settings.apk:
+01-02 04:04:30.856 W/PackageParser(  950): Unknown element under <activity>: action at /system/app/STB-Settings.apk Binary XML file line #393
+01-02 04:04:30.856 W/PackageParser(  950): Problem in package /system/app/STB-Settings.apk:
+01-02 04:04:30.856 W/PackageParser(  950): Unknown element under <activity>: action at /system/app/STB-Settings.apk Binary XML file line #394
+01-02 04:04:31.080 W/PackageParser(  950): No actions in intent filter at /system/app/com.coship.NetworkNavigation.apk Binary XML file line #24
+01-02 04:04:31.080 W/PackageParser(  950): No actions in intent filter at /system/app/com.coship.NetworkNavigation.apk Binary XML file line #31
+01-02 04:04:31.080 W/PackageParser(  950): No actions in intent filter at /system/app/com.coship.NetworkNavigation.apk Binary XML file line #38
+01-02 04:04:31.080 W/PackageParser(  950): No actions in intent filter at /system/app/com.coship.NetworkNavigation.apk Binary XML file line #45
+01-02 04:04:31.080 W/PackageParser(  950): No actions in intent filter at /system/app/com.coship.NetworkNavigation.apk Binary XML file line #52
+01-02 04:04:31.128 W/PackageParser(  950): No actions in intent filter at /system/app/com.coship.app.vaf.apk Binary XML file line #58
+01-02 04:04:31.284 I/Installer(  950): connecting...
+01-02 04:04:31.928 W/PackageParser(  950): No actions in intent filter at /data/app/com.luxtone.tuzi-1.apk Binary XML file line #48
+01-02 04:04:32.212 I/PackageManager(  950): Time to scan packages: 4.087 seconds
+01-02 04:04:32.212 W/PackageManager(  950): Unknown permission android.permission.APPWIDGET_LIST in package com.biaoqi.stbwidget.host
+01-02 04:04:32.212 W/PackageManager(  950): Unknown permission android.permission.APPWIDGET_LIST in package com.mstar.appwidget
+01-02 04:04:32.212 W/PackageManager(  950): Unknown permission android.permission.ADD_SYSTEM_SERVICE in package com.coship.sdp.sce.tvappstore
+01-02 04:04:32.216 W/PackageManager(  950): Unknown permission android.permission.READ_EXTERNAL_STORAGE in package com.coship.sdp.sce.tvappstore
+01-02 04:04:32.216 W/PackageManager(  950): Unknown permission com.google.android.gm.permission.WRITE_GMAIL in package com.coship.sdp.sce.tvappstore
+01-02 04:04:32.216 W/PackageManager(  950): Unknown permission com.google.android.gm.permission.READ_GMAIL in package com.coship.sdp.sce.tvappstore
+01-02 04:04:32.216 W/PackageManager(  950): Unknown permission com.luxtone.shareservice.permission in package com.luxtone.tuzi
+01-02 04:04:32.216 W/PackageManager(  950): Not granting permission android.permission.DEVICE_POWER to package com.luxtone.tuzi (protectionLevel=2 flags=0xbe44)
+01-02 04:04:32.216 W/PackageManager(  950): Not granting permission android.permission.INSTALL_PACKAGES to package com.luxtone.tuzi (protectionLevel=3 flags=0xbe44)
+01-02 04:04:32.216 W/PackageManager(  950): Not granting permission android.permission.WRITE_SECURE_SETTINGS to package com.luxtone.tuzi (protectionLevel=3 flags=0xbe44)
+01-02 04:04:32.216 W/PackageManager(  950): Unknown permission com.android.launcher.permission.INSTALL_SHORTCUT in package com.android.browser
+01-02 04:04:32.216 W/PackageManager(  950): Unknown permission com.google.android.gm.permission.WRITE_GMAIL in package com.coship.app.vaf
+01-02 04:04:32.216 W/PackageManager(  950): Unknown permission com.google.android.gm.permission.READ_GMAIL in package com.coship.app.vaf
+01-02 04:04:32.216 W/PackageManager(  950): Unknown permission com.android.launcher.permission.READ_SETTINGS in package com.coship.app.vaf
+01-02 04:04:32.216 W/PackageManager(  950): Unknown permission com.android.launcher.permission.WRITE_SETTINGS in package com.coship.app.vaf
+01-02 04:04:32.216 W/PackageManager(  950): Unknown permission com.google.android.gm.permission.WRITE_GMAIL in package com.coship.TestApp
+01-02 04:04:32.216 W/PackageManager(  950): Unknown permission com.google.android.gm.permission.READ_GMAIL in package com.coship.TestApp
+01-02 04:04:32.220 W/PackageManager(  950): Unknown permission com.android.launcher.permission.READ_SETTINGS in package com.coship.TestApp
+01-02 04:04:32.220 W/PackageManager(  950): Unknown permission com.android.launcher.permission.WRITE_SETTINGS in package com.coship.TestApp
+01-02 04:04:32.220 W/PackageManager(  950): Unknown permission android.permission.WRITE_OWNER_DATA in package com.iflytek.speech
+01-02 04:04:32.220 W/PackageManager(  950): Unknown permission android.permission.BAIDU_LOCATION_SERVICE in package com.iflytek.speech
+01-02 04:04:32.220 W/PackageManager(  950): Not granting permission android.permission.DEVICE_POWER to package com.skyworth.onlinemovie.letv.csapp (protectionLevel=2 flags=0x8be44)
+01-02 04:04:32.220 W/PackageManager(  950): Unknown permission android.permission.SET_PROCESS_FOREGROUND in package com.skyworth.onlinemovie.letv.csapp
+01-02 04:04:32.220 W/PackageManager(  950): Unknown permission android.permission.WRITE_OWNER_DATA in package com.coship.UpdateApp
+01-02 04:04:32.220 W/PackageManager(  950): Unknown permission android.permission.READ_OWNER_DATA in package com.coship.UpdateApp
+01-02 04:04:32.220 W/PackageManager(  950): Unknown permission android.permission.ADD_SYSTEM_SERVICE in package com.coship.netfirmware
+01-02 04:04:32.220 W/PackageManager(  950): Unknown permission android.permission.READ_SETTINGS in package com.android.settings
+01-02 04:04:32.220 W/PackageManager(  950): Unknown permission com.android.launcher.permission.READ_SETTINGS in package com.android.settings
+01-02 04:04:32.220 W/PackageManager(  950): Unknown permission com.android.launcher.permission.WRITE_SETTINGS in package com.android.settings
+01-02 04:04:32.220 W/PackageManager(  950): Unknown permission android.webkit.permission.PLUGIN in package com.adobe.flashplayer
+01-02 04:04:32.220 W/PackageManager(  950): Unknown permission android.permission.READ_OWNER_DATA in package com.adobe.flashplayer
+01-02 04:04:32.220 W/PackageManager(  950): Unknown permission android.permission.WRITE_OWNER_DATA in package com.adobe.flashplayer
+01-02 04:04:32.220 W/PackageManager(  950): Unknown permission android.permission.READ_EXTERNAL_STORAGE in package com.adobe.flashplayer
+01-02 04:04:32.224 W/PackageManager(  950): Unknown permission android.permission.SET_PROCESS_FOREGROUND in package com.qiyi.video
+01-02 04:04:32.224 W/PackageManager(  950): Unknown permission android.permission.WRITE_OWNER_DATA in package com.coship.Multimedia
+01-02 04:04:32.224 W/PackageManager(  950): Unknown permission android.permission.READ_OWNER_DATA in package com.coship.Multimedia
+01-02 04:04:32.224 W/PackageManager(  950): Unknown permission com.android.launcher.permission.READ_SETTINGS in package com.coship.ottsetting
+01-02 04:04:32.224 W/PackageManager(  950): Unknown permission com.android.launcher.permission.WRITE_SETTINGS in package com.coship.ottsetting
+01-02 04:04:32.224 W/PackageManager(  950): Unknown permission android.permission.WRITE_OWNER_DATA in package com.coship.NetworkNavigation
+01-02 04:04:32.224 W/PackageManager(  950): Unknown permission android.permission.READ_OWNER_DATA in package com.coship.NetworkNavigation
+01-02 04:04:32.352 I/SystemServer(  950): Account Manager
+01-02 04:04:32.400 I/SystemServer(  950): Content Manager
+01-02 04:04:32.644 I/SystemServer(  950): System Content Providers
+01-02 04:04:32.772 I/SystemServer(  950): Lights Service
+01-02 04:04:32.772 I/SystemServer(  950): Battery Service
+01-02 04:04:32.780 I/SystemServer(  950): Pppoe Service
+01-02 04:04:32.780 I/SystemServer(  950): Vibrator Service
+01-02 04:04:32.792 I/SystemServer(  950): Alarm Manager
+01-02 04:04:32.796 I/SystemServer(  950): Init Watchdog
+01-02 04:04:32.796 I/SystemServer(  950): Window Manager
+01-02 04:04:32.856 I/InputManager(  950): Initializing input manager
+01-02 04:04:32.872 W/StatusBarManager(  950): warning: no STATUS_BAR_SERVICE
+01-02 04:04:32.952 I/InputManager(  950): Starting input manager
+01-02 04:04:32.952 I/WindowManager(  950): Enabled StrictMode logging for WMThread's Looper
+01-02 04:04:32.952 I/SystemServer(  950): Bluetooth Service
+01-02 04:04:32.964 I/WindowManager(  950): Enabled StrictMode for PolicyThread's Looper
+01-02 04:04:33.024 I/SystemServer(  950): Input Method Service
+01-02 04:04:33.028 W/InputManagerService(  950): Couldn't create dir.: /data/system/inputmethod
+01-02 04:04:33.036 I/SystemServer(  950): Accessibility Manager
+01-02 04:04:33.056 I/ActivityManager(  950): Config changed: {1.0 0mcc0mnc zh_CN layoutdir=0 sw720dp w1280dp h720dp xlrg long land ?uimode ?night -touch -keyb/v/h -nav/h s.2}
+01-02 04:04:33.064 I/SystemServer(  950): TV
+01-02 04:04:33.064 I/SystemServer(  950): Device Policy
+01-02 04:04:33.064 I/SystemServer(  950): Status Bar
+01-02 04:04:33.068 I/SystemServer(  950): Clipboard Service
+01-02 04:04:33.068 I/SystemServer(  950): NetworkManagement Service
+01-02 04:04:33.072 I/SystemServer(  950): Text Service Manager Service
+01-02 04:04:33.072 W/TextServicesManagerService(  950): no available spell checker services found
+01-02 04:04:33.072 I/SystemServer(  950): NetworkStats Service
+01-02 04:04:33.076 I/SystemServer(  950): NetworkPolicy Service
+01-02 04:04:33.076 I/SystemServer(  950): Wi-Fi P2pService
+01-02 04:04:33.088 D/WifiP2pService(  950): P2pDisabledState
+01-02 04:04:33.088 E/WifiP2pService(  950): Failed to reload sta firmware java.lang.NullPointerException
+01-02 04:04:33.092 D/WifiP2pService(  950): mThisDevice.deviceAddress=a6:a8:20:13:03:6e
+01-02 04:04:33.092 I/SystemServer(  950): Wi-Fi Service
+01-02 04:04:33.104 D/WifiP2pService(  950): P2pDisabledState{ what=69633 when=0 }
+01-02 04:04:33.104 D/WifiP2pService(  950): DefaultState{ what=69633 when=0 }
+01-02 04:04:33.104 D/WifiP2pService(  950): P2pDisabledState{ what=69632 when=-1ms obj=com.android.internal.util.AsyncChannel@4156b5b8 }
+01-02 04:04:33.104 D/WifiP2pService(  950): DefaultState{ what=69632 when=-1ms obj=com.android.internal.util.AsyncChannel@4156b5b8 }
+01-02 04:04:33.104 D/WifiP2pService(  950): Full connection with WifiStateMachine established
+01-02 04:04:33.116 D/WifiP2pService(  950): P2pDisabledState{ what=69633 when=-1ms }
+01-02 04:04:33.116 D/WifiP2pService(  950): DefaultState{ what=69633 when=-1ms }
+01-02 04:04:33.116 D/WifiP2pService(  950): P2pDisabledState{ what=69632 when=0 obj=com.android.internal.util.AsyncChannel@4154b298 }
+01-02 04:04:33.116 D/WifiP2pService(  950): DefaultState{ what=69632 when=0 obj=com.android.internal.util.AsyncChannel@4154b298 }
+01-02 04:04:33.116 D/WifiP2pService(  950): Full connection with WifiStateMachine established
+01-02 04:04:33.116 I/SystemServer(  950): Connectivity Service
+01-02 04:04:33.116 D/ConnectivityService(  950): ConnectivityService starting up
+01-02 04:04:33.120 E/ConnectivityService(  950): Error in radioAttributes - ignoring attempt to redefine type 1
+01-02 04:04:33.132 D/ConnectivityService(  950): Starting Pppoe StateTracker
+01-02 04:04:33.132 D/ConnectivityService(  950): Starting Ethernet Service.
+01-02 04:04:33.136 V/EthernetStateTracker(  950): Ethernet State Tracker v1.0.6
+01-02 04:04:33.136 V/EthernetStateTracker(  950): successed to init device!
+01-02 04:04:33.136 I/EthernetService(  950): Ethernet dev enabled 2
+01-02 04:04:33.140 V/EthernetService(  950): device 0 name eth0
+01-02 04:04:33.140 V/EthernetStateTracker(  950): start to monitor the ethernet devices . . .
+01-02 04:04:33.140 I/EthernetManager(  950): Init Ethernet Manager, service: com.android.server.EthernetService@41503a28
+01-02 04:04:33.144 I/EthernetStateTracker(  950): reset device eth0
+01-02 04:04:33.164 V/EthernetMonitor(  950): go poll events
+01-02 04:04:33.212 I/EthernetStateTracker(  950): trigger dhcp for device eth0
+01-02 04:04:33.212 I/EthernetStateTracker(  950): reset device eth0
+01-02 04:04:33.284 I/EthernetStateTracker(  950): trigger dhcp for device eth0
+01-02 04:04:33.288 E/MobileDataStateTracker(  950): default: Ignoring feature request because could not acquire PhoneService
+01-02 04:04:33.288 E/MobileDataStateTracker(  950): default: Could not enable APN type "default"
+01-02 04:04:33.292 D/NetworkManagementService(  950): Registering observer
+01-02 04:04:33.292 D/NetworkManagementService(  950): Registering observer
+01-02 04:04:33.292 I/WifiService(  950): WifiService starting up with Wi-Fi enabled
+01-02 04:04:33.292 D/WifiP2pService(  950): P2pDisabledState{ what=131203 when=0 }
+01-02 04:04:33.296 I/WifiService(  950): WifiService starting up with Wi-Fi AP enabled
+01-02 04:04:33.300 D/WifiP2pService(  950): P2pDisabledState{ what=331907 when=0 }
+01-02 04:04:33.300 I/SystemServer(  950): Throttle Service
+01-02 04:04:33.300 I/SystemServer(  950): Mount Service
+01-02 04:04:33.300 D/MountService(  950): got storage path: /mnt/sdcard description: USB 存储器 primary: true removable: false emulated: false mtpReserve: 0 allowMassStorage: false maxFileSize: 0
+01-02 04:04:33.304 D/MountService(  950): mExternalStoragePath:/mnt/sdcard
+01-02 04:04:33.304 I/SystemServer(  950): Notification Manager
+01-02 04:04:33.308 V/EthernetMonitor(  950): get event 
+01-02 04:04:33.308 V/EthernetMonitor(  950): go poll events
+01-02 04:04:33.312 I/SystemServer(  950): Device Storage Monitor
+01-02 04:04:33.312 D/VoldCmdListener(  738): volume list
+01-02 04:04:33.312 I/SystemServer(  950): Location Manager
+01-02 04:04:33.312 I/SystemServer(  950): Country Detector
+01-02 04:04:33.312 I/SystemServer(  950): Search Service
+01-02 04:04:33.316 I/SystemServer(  950): DropBox Service
+01-02 04:04:33.316 I/SystemServer(  950): Wallpaper Service
+01-02 04:04:33.320 I/SystemServer(  950): Audio Service
+01-02 04:04:33.508 I/SystemServer(  950): Camera Observer
+01-02 04:04:33.508 I/SystemServer(  950): Microphone Observer
+01-02 04:04:33.508 I/SystemServer(  950): Wired Accessory Observer
+01-02 04:04:33.508 I/SystemServer(  950): USB Service
+01-02 04:04:33.508 I/SystemServer(  950): UI Mode Manager Service
+01-02 04:04:33.512 I/SystemServer(  950): Backup Service
+01-02 04:04:33.664 V/BackupManagerService(  950): Initializing package tracking
+01-02 04:04:33.664 V/BackupManagerService(  950): No ancestral data
+01-02 04:04:33.716 V/BackupManagerService(  950): addPackageParticipantsLocked: all
+01-02 04:04:33.716 I/BackupManagerService(  950): New app android never backed up; scheduling
+01-02 04:04:33.716 I/BackupManagerService(  950): New app com.android.browser never backed up; scheduling
+01-02 04:04:33.716 I/BackupManagerService(  950): New app com.android.providers.settings never backed up; scheduling
+01-02 04:04:33.716 I/BackupManagerService(  950): New app com.android.providers.userdictionary never backed up; scheduling
+01-02 04:04:33.716 I/BackupManagerService(  950): New app com.android.sharedstoragebackup never backed up; scheduling
+01-02 04:04:33.716 V/BackupManagerService(  950): Registering transport android/com.android.internal.backup.LocalTransport = com.android.internal.backup.LocalTransport@41622a08
+01-02 04:04:33.716 V/BackupManagerService(  950): Starting with transport android/com.android.internal.backup.LocalTransport
+01-02 04:04:33.716 V/BackupManagerService(  950): Google transport not present
+01-02 04:04:33.720 I/BackupManagerService(  950): Backup enabled => false
+01-02 04:04:33.720 I/BackupManagerService(  950): Opting out of backup
+01-02 04:04:33.720 I/SystemServer(  950): AppWidget Service
+01-02 04:04:33.720 I/SystemServer(  950): Recognition Service
+01-02 04:04:33.720 I/SystemServer(  950): DiskStats Service
+01-02 04:04:33.720 I/SystemServer(  950): SamplingProfiler Service
+01-02 04:04:33.724 I/SystemServer(  950): NetworkTimeUpdateService
+01-02 04:04:33.732 D/PowerManagerService(  950): system ready!
+01-02 04:04:33.736 I/ActivityManager(  950): System now ready
+01-02 04:04:33.740 I/SystemServer(  950): Making services ready
+01-02 04:04:33.864 I/ActivityManager(  950): Start proc com.mstar.dbprovider for content provider com.mstar.dbprovider/.MstTvUserSettingProvider: pid=1129 uid=10018 gids={}
+01-02 04:04:34.172 D/SystemServer(  950): Starting service: Intent { cmp=com.android.systemui/.SystemUIService }
+01-02 04:04:34.192 V/EthernetMonitor(  950): get event 
+01-02 04:04:34.192 V/EthernetMonitor(  950): go poll events
+01-02 04:04:34.204 V/EthernetMonitor(  950): get event 
+01-02 04:04:34.204 V/EthernetMonitor(  950): go poll events
+01-02 04:04:34.208 I/ActivityManager(  950): Start proc com.android.systemui for service com.android.systemui/.SystemUIService: pid=1147 uid=1000 gids={3003, 1015, 3002, 3001, 3004}
+01-02 04:04:34.208 D/NetworkManagementService(  950): enabling bandwidth control
+01-02 04:04:34.228 V/EthernetMonitor(  950): get event 
+01-02 04:04:34.228 V/EthernetMonitor(  950): go poll events
+01-02 04:04:34.332 D/NetworkManagementService(  950): rsp <213 a4:a8:20:13:03:6e 0.0.0.0 0 [down broadcast multicast]>
+01-02 04:04:34.332 D/NetworkManagementService(  950): flags <[down broadcast multicast]>
+01-02 04:04:34.348 I/ActivityManager(  950): Start proc com.coship.Multimedia for broadcast com.coship.Multimedia/.view.BootCompletedReceiver: pid=1160 uid=1000 gids={3003, 1015, 3002, 3001, 3004}
+01-02 04:04:34.388 D/SystemUIService( 1147): loading: class com.android.systemui.statusbar.tablet.TabletStatusBar
+01-02 04:04:34.396 D/SystemUIService( 1147): running: com.android.systemui.statusbar.tablet.TabletStatusBar@413aec70
+01-02 04:04:35.116 I/StatusBar.HeightReceiver( 1147): Resizing status bar plugged=false height=48 old=0
+01-02 04:04:35.168 V/EthernetMonitor(  950): get event 
+01-02 04:04:35.168 V/EthernetMonitor(  950): go poll events
+01-02 04:04:35.332 W/ActivityManager(  950): Permission Denial: broadcasting Intent { act=android.net.conn.TETHER_STATE_CHANGED flg=0x30000000 (has extras) } from null (pid=-1, uid=-1) requires android.permission.CONNECTIVITY_INTERNAL due to registered receiver BroadcastFilter{416469e8 ReceiverList{41646d88 950 system/1000 local:41647048}}
+01-02 04:04:35.332 D/NetworkManagementService(  950): Registering observer
+01-02 04:04:35.368 D/NetworkManagementService(  950): Registering observer
+01-02 04:04:35.384 I/ActivityManager(  950): Config changed: {1.0 0mcc0mnc zh_CN layoutdir=0 sw720dp w1280dp h720dp xlrg long land -touch -keyb/v/h -nav/h s.3}
+01-02 04:04:35.388 W/RecognitionManagerService(  950): no available voice recognition services found
+01-02 04:04:35.492 W/InputManagerService(  950): Ignoring setImeWindowStatus of uid 1000 token: null
+01-02 04:04:35.540 I/ActivityManager(  950): Start proc com.android.inputmethod.pinyin for service com.android.inputmethod.pinyin/.PinyinIME: pid=1218 uid=10021 gids={3003}
+01-02 04:04:35.572 D/NetworkManagementService(  950): Registering observer
+01-02 04:04:35.604 I/SystemServer(  950): SIP Service
+01-02 04:04:35.640 W/ThrottleService(  950): unable to find stats for iface rmnet0
+01-02 04:04:35.676 I/ActivityManager(  950): Start proc com.fiship.cibn for added application com.fiship.cibn: pid=1238 uid=10006 gids={3003, 1015}
+01-02 04:04:35.716 I/ActivityManager(  950): Start proc com.coship.stpservice for added application com.coship.stpservice: pid=1251 uid=1000 gids={3003, 1015, 3002, 3001, 3004}
+01-02 04:04:35.756 I/ActivityManager(  950): Start proc com.coship.sdp.sce.tvappstore for added application com.coship.sdp.sce.tvappstore: pid=1266 uid=1000 gids={3003, 1015, 3002, 3001, 3004}
+01-02 04:04:35.788 I/ActivityManager(  950): Start proc com.coship.easycontrolime for added application com.coship.easycontrolime: pid=1284 uid=10012 gids={3003}
+01-02 04:04:35.816 I/ActivityManager(  950): Start proc com.coship.netfirmware for added application com.coship.netfirmware: pid=1293 uid=1000 gids={3003, 1015, 3002, 3001, 3004}
+01-02 04:04:35.816 D/ActivityManager(  950): propValue:2
+01-02 04:04:35.816 D/ActivityManager(  950): start launcher......
+01-02 04:04:35.816 I/ActivityManager(  950): START {act=android.intent.action.MAIN cat=[android.intent.category.HOME,android.intent.category.DISABLE_THIRD_LAUNCHER] flg=0x10000000 cmp=com.fiship.cibn/.MainActivity} from pid 0
+01-02 04:04:35.832 I/SystemServer(  950): Enabled StrictMode for system server main thread.
+01-02 04:04:35.876 I/EthernetStateTracker(  950): received interface reset event
+01-02 04:04:35.876 I/EthernetStateTracker(  950): reset device eth0
+01-02 04:04:35.984 I/EthernetStateTracker(  950): trigger dhcp for device eth0
+01-02 04:04:35.988 D/NetworkManagementService(  950): rsp <213 a4:a8:20:13:03:6e 0.0.0.0 0 [up broadcast running multicast]>
+01-02 04:04:35.992 D/NetworkManagementService(  950): flags <[up broadcast running multicast]>
+01-02 04:04:35.992 V/EthernetMonitor(  950): get event 
+01-02 04:04:35.992 V/EthernetMonitor(  950): go poll events
+01-02 04:04:36.016 D/ConnectivityService(  950): special network not available
+01-02 04:04:36.468 I/ActivityManager(  950): Start proc com.google.process.gapps for service com.google.android.location/.NetworkLocationService: pid=1322 uid=10013 gids={3003, 1015, 2001, 1007}
+01-02 04:04:36.980 W/MountService(  950): getVolumeState(/mnt/sdcard): Unknown volume
+01-02 04:04:36.988 W/MountService(  950): getVolumeState(/mnt/sdcard): Unknown volume
+01-02 04:04:37.096 W/ActivityThread( 1322): ClassLoader.loadClass: The class loader returned by Thread.getContextClassLoader() may fail for processes that host multiple applications. You should explicitly specify a context class loader. For example: Thread.setContextClassLoader(getClass().getClassLoader());
+01-02 04:04:37.344 I/StatusBarManagerService(  950): registerStatusBar bar=com.android.internal.statusbar.IStatusBar$Stub$Proxy@41644fb0
+01-02 04:04:37.824 D/SystemUIService( 1147): loading: class com.android.systemui.power.PowerUI
+01-02 04:04:37.824 D/SystemUIService( 1147): running: com.android.systemui.power.PowerUI@41469028
+01-02 04:04:37.840 I/StatusBar.HeightReceiver( 1147): Resizing status bar plugged=false height=48 old=48
+01-02 04:04:37.848 I/StatusBar.HeightReceiver( 1147): Resizing status bar plugged=false height=48 old=48
+01-02 04:04:38.228 D/WifiService(  950): New client listening to asynchronous messages
+01-02 04:04:43.680 V/EthernetMonitor(  950): get event 
+01-02 04:04:43.680 V/EthernetMonitor(  950): go poll events
+01-02 04:04:43.684 V/EthernetMonitor(  950): get event 
+01-02 04:04:43.684 V/EthernetMonitor(  950): go poll events
+01-02 04:04:43.848 D/PowerManagerService(  950): bootCompleted
+01-02 04:04:43.848 V/DevicePolicyManagerService(  950): Sending password expiration notifications for action android.intent.action.BOOT_COMPLETED
+01-02 04:04:43.864 I/ActivityManager(  950): Start proc com.android.contacts for broadcast com.android.contacts/.calllog.CallLogReceiver: pid=1371 uid=10001 gids={3003, 1015}
+01-02 04:04:43.872 V/WiredAccessoryObserver(  950): init()
+01-02 04:04:43.876 W/WiredAccessoryObserver(  950): This kernel does not have wired headset support
+01-02 04:04:43.876 W/WiredAccessoryObserver(  950): This kernel does not have wired headset support
+01-02 04:04:43.880 W/WiredAccessoryObserver(  950): This kernel does not have wired headset support
+01-02 04:04:44.684 V/EthernetMonitor(  950): get event 
+01-02 04:04:44.684 V/EthernetMonitor(  950): go poll events
+01-02 04:04:44.832 I/ActivityManager(  950): Start proc com.coship.HS for broadcast com.coship.HS/.AutoStartReceiver: pid=1416 uid=1000 gids={3003, 1015, 3002, 3001, 3004}
+01-02 04:04:44.944 I/ActivityManager(  950): Start proc android.process.acore for content provider com.android.providers.contacts/.CallLogProvider: pid=1431 uid=10001 gids={3003, 1015}
+01-02 04:04:45.368 V/EthernetMonitor(  950): get event 
+01-02 04:04:45.368 V/EthernetMonitor(  950): go poll events
+01-02 04:04:45.528 I/ActivityManager(  950): Start proc android.process.media for content provider com.android.providers.downloads/.DownloadProvider: pid=1451 uid=10011 gids={1015, 1023, 1024, 2001, 3003, 3007}
+01-02 04:04:45.756 I/ActivityManager(  950): Start proc com.android.providers.calendar for broadcast com.android.providers.calendar/.CalendarReceiver: pid=1464 uid=10007 gids={3003, 1015}
+01-02 04:04:46.100 W/MountService(  950): getVolumeState(/mnt/sdcard): Unknown volume
+01-02 04:04:46.832 I/ActivityManager(  950): Start proc com.coship.cw880 for broadcast com.coship.cw880/.BootCw880Recive: pid=1492 uid=1000 gids={3003, 1015, 3002, 3001, 3004}
+01-02 04:04:47.284 I/MicrophoneObserver(  950): Microphone PLUG_IN
+01-02 04:04:59.096 W/ProcessStats(  950): Skipping unknown process pid 1450
+01-02 04:04:59.232 D/ConnectivityService(  950): special network not available
+01-02 04:04:59.240 W/ProcessStats(  950): Skipping unknown process pid 1548
+01-02 04:04:59.240 W/ProcessStats(  950): Skipping unknown process pid 1549
+01-02 04:04:59.244 W/ProcessStats(  950): Skipping unknown process pid 1550
+01-02 04:04:59.244 W/ProcessStats(  950): Skipping unknown process pid 1551
+01-02 04:04:59.252 W/ActivityManager(  950): Timeout of broadcast BroadcastRecord{41694f08 android.intent.action.BOOT_COMPLETED} - receiver=android.os.BinderProxy@41611568, started 11838ms ago
+01-02 04:04:59.252 W/ActivityManager(  950): Receiver during timeout: ResolveInfo{41583d10 com.google.android.gsf.checkin.EventLogService$Receiver p=0 o=0 m=0x108000}
+01-02 04:04:59.592 D/ConnectivityService(  950): ConnectivityChange for WIFI: CONNECTED/CONNECTED
+01-02 04:04:59.716 D/ConnectivityService(  950): ConnectivityChange for WIFI: CONNECTED/CONNECTED
+01-02 04:04:59.764 D/ConnectivityService(  950): handleConnectivityChange: address are the same reset per doReset linkProperty[1]: resetMask=0
+01-02 04:04:59.840 I/ActivityManager(  950): START {flg=0x10000000 cmp=com.google.android.gsf/.update.SystemUpdateInstallDialog} from pid 1322
+01-02 04:05:00.140 I/ActivityManager(  950): Start proc com.android.settings for broadcast com.android.settings/.SettingGlobalReceiver: pid=1575 uid=1000 gids={3003, 1015, 3002, 3001, 3004}
+01-02 04:05:00.152 W/ActivityManager(  950): finishReceiver called but none active
+01-02 04:05:00.296 W/ProcessStats(  950): Skipping unknown process pid 1581
+01-02 04:05:00.864 I/ActivityManager(  950): Start proc com.coship.changetheaudiooutput for broadcast com.coship.changetheaudiooutput/.BootCompletedReceiver: pid=1589 uid=10033 gids={3002, 3001, 3004}
+01-02 04:05:00.928 W/InputManagerService(  950): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@416ac5c8
+01-02 04:05:01.252 W/ActivityManager(  950): Unable to start service Intent { act=coship.update.UpdateService.REMOTE_SERVICE }: not found
+01-02 04:05:01.304 E/ActivityManager(  950): CPU usage from 1125ms to 1668ms later:
+01-02 04:05:01.304 E/ActivityManager(  950):   77% 1160/com.coship.Multimedia: 58% user + 18% kernel / faults: 418 minor
+01-02 04:05:01.304 E/ActivityManager(  950):     50% 1560/Thread-25: 34% user + 15% kernel
+01-02 04:05:01.304 E/ActivityManager(  950):     18% 1165/GC: 18% user + 0% kernel
+01-02 04:05:01.304 E/ActivityManager(  950):     3.4% 1171/Compiler: 1.7% user + 1.7% kernel
+01-02 04:05:01.304 E/ActivityManager(  950):     3.4% 1173/FinalizerDaemon: 3.4% user + 0% kernel
+01-02 04:05:01.304 E/ActivityManager(  950):   45% 1322/com.google.process.gapps: 31% user + 13% kernel / faults: 615 minor 8 major
+01-02 04:05:01.304 E/ActivityManager(  950):     28% 1322/e.process.gapps: 21% user + 6.6% kernel
+01-02 04:05:01.304 E/ActivityManager(  950):     8.3% 1324/GC: 6.6% user + 1.6% kernel
+01-02 04:05:01.304 E/ActivityManager(  950):     5% 1325/Signal Catcher: 3.3% user + 1.6% kernel
+01-02 04:05:01.304 E/ActivityManager(  950):     3.3% 1327/Compiler: 1.6% user + 1.6% kernel
+01-02 04:05:01.304 E/ActivityManager(  950):   43% 742/zygote: 32% user + 10% kernel / faults: 1216 minor 7 major
+01-02 04:05:01.304 E/ActivityManager(  950):     43% 742/zygote: 32% user + 10% kernel
+01-02 04:05:01.304 E/ActivityManager(  950):    +0% 1590/ReferenceQueueD: 0% user + 0% kernel
+01-02 04:05:01.304 E/ActivityManager(  950):    +0% 1594/FinalizerDaemon: 0% user + 0% kernel
+01-02 04:05:01.304 E/ActivityManager(  950):    +0% 1596/FinalizerWatchd: 0% user + 0% kernel
+01-02 04:05:01.304 E/ActivityManager(  950):   42% 950/system_server: 23% user + 19% kernel / faults: 130 minor
+01-02 04:05:01.304 E/ActivityManager(  950):     17% 970/ActivityManager: 3.5% user + 14% kernel
+01-02 04:05:01.304 E/ActivityManager(  950):     5.3% 950/system_server: 5.3% user + 0% kernel
+01-02 04:05:01.304 E/ActivityManager(  950):     3.5% 965/Binder Thread #: 3.5% user + 0% kernel
+01-02 04:05:01.304 E/ActivityManager(  950):     3.5% 969/er.ServerThread: 0% user + 3.5% kernel
+01-02 04:05:01.304 E/ActivityManager(  950):     3.5% 1336/Binder Thread #: 3.5% user + 0% kernel
+01-02 04:05:01.304 E/ActivityManager(  950):     3.5% 1337/Binder Thread #: 1.7% user + 1.7% kernel
+01-02 04:05:01.304 E/ActivityManager(  950):     1.7% 957/Compiler: 1.7% user + 0% kernel
+01-02 04:05:01.304 E/ActivityManager(  950):     1.7% 964/Binder Thread #: 1.7% user + 0% kernel
+01-02 04:05:01.304 E/ActivityManager(  950):   40% 1431/android.process.acore: 31% user + 8.3% kernel / faults: 844 minor 7 major
+01-02 04:05:01.304 E/ActivityManager(  950):     20% 1481/ContactsProvide: 13% user + 6.6% kernel
+01-02 04:05:01.304 E/ActivityManager(  950):     13% 1469/ApplicationsPro: 11% user + 1.6% kernel
+01-02 04:05:01.304 E/ActivityManager(  950):     6.6% 1438/Compiler: 6.6% user + 0% kernel
+01-02 04:05:01.304 E/ActivityManager(  950):   31% 444/mmcqd: 0% user + 31% kernel
+01-02 04:05:01.304 E/ActivityManager(  950):   23% 754/ld-linux.so.3: 5.4% user + 18% kernel
+01-02 04:05:01.304 E/ActivityManager(  950):     20% 1069/CECMonitor: 1.8% user + 18% kernel
+01-02 04:05:01.304 E/ActivityManager(  950):     3.6% 1008/754keypad Input: 3.6% user + 0% kernel
+01-02 04:05:01.304 E/ActivityManager(  950):     1.8% 1010/754Linux hotplu: 1.8% user + 0% kernel
+01-02 04:05:01.304 E/ActivityManager(  950):     1.8% 1016/InitSSoundthrea: 0% user + 1.8% kernel
+01-02 04:05:01.304 E/ActivityManager(  950):     1.8% 1071/DTV Monitor Tas: 1.8% user + 0% kernel
+01-02 04:05:01.304 E/ActivityManager(  950):   18% 1575/com.android.settings: 13% user + 4.9% kernel / faults: 677 minor 8 major
+01-02 04:05:01.304 E/ActivityManager(  950):     16% 1575/re-initialized>: 11% user + 4.9% kernel
+01-02 04:05:01.304 E/ActivityManager(  950):     4.9% 1587/Binder Thread #: 3.2% user + 1.6% kernel
+01-02 04:05:01.304 E/ActivityManager(  950):   11% 1238/com.fiship.cibn: 8.1% user + 3.4% kernel / faults: 114 minor
+01-02 04:05:01.304 E/ActivityManager(  950):     9.3% 1238/com.fiship.cibn: 8.1% user + 1.1% kernel
+01-02 04:05:01.304 E/ActivityManager(  950):     1.1% 1248/Compiler: 0% user + 1.1% kernel
+01-02 04:05:01.304 E/ActivityManager(  950):   4.5% 1147/com.android.systemui: 4.5% user + 0% kernel / faults: 56 minor
+01-02 04:05:01.304 E/ActivityManager(  950):     5.6% 1147/ndroid.systemui: 5.6% user + 0% kernel
+01-02 04:05:01.304 E/ActivityManager(  950):     1.1% 1153/Compiler: 0% user + 1.1% kernel
+01-02 04:05:01.304 E/ActivityManager(  950):   5.4% 744/mediaserver: 1.8% user + 3.6% kernel
+01-02 04:05:01.304 E/ActivityManager(  950):     5.4% 929/AudioOut_1: 0% user + 5.4% kernel
+01-02 04:05:01.304 E/ActivityManager(  950):   5% 1451/android.process.media: 3.3% user + 1.6% kernel / faults: 132 minor 4 major
+01-02 04:05:01.304 E/ActivityManager(  950):     5% 1574/MediaScannerSer: 1.6% user + 3.3% kernel
+01-02 04:05:01.304 E/ActivityManager(  950):   2.1% 1032/surfaceflinger: 0% user + 2.1% kernel
+01-02 04:05:01.304 E/ActivityManager(  950):     1% 1038/SurfaceFlinger: 1% user + 0% kernel
+01-02 04:05:01.304 E/ActivityManager(  950):   2.4% 1293/com.coship.netfirmware: 1.2% user + 1.2% kernel / faults: 678 minor 1 major
+01-02 04:05:01.304 E/ActivityManager(  950):     1.2% 1293/hip.netfirmware: 1.2% user + 0% kernel
+01-02 04:05:01.304 E/ActivityManager(  950):     1.2% 1320/Binder Thread #: 0% user + 1.2% kernel
+01-02 04:05:01.304 E/ActivityManager(  950):   0.9% 785/mali-pmm-wq: 0% user + 0.9% kernel
+01-02 04:05:01.304 E/ActivityManager(  950):  +0% 1589/com.coship.changetheaudiooutput: 0% user + 0% kernel
+01-02 04:05:01.304 E/ActivityManager(  950): 100% TOTAL: 49% user + 30% kernel + 19% iowait
+01-02 04:05:02.104 I/ActivityManager(  950): Start proc com.qiyi.video for broadcast com.qiyi.video/.service.BootCompletedReceiver: pid=1612 uid=10030 gids={3003, 1015}
+01-02 04:05:02.932 I/ActivityManager(  950): Start proc com.android.phone for content provider com.android.providers.telephony/.TelephonyProvider: pid=1631 uid=1001 gids={1015}
+--------- beginning of /dev/log/main
+01-02 04:05:03.404 D/dalvikvm( 1160): GC_CONCURRENT freed 392K, 77% free 1365K/5699K, paused 1ms+1ms
+01-02 04:05:03.512 I/MainActivity( 1238): Connect to PortalMS-Server is OK!  Address: http://cibn-iepg.coship.com:8080
+01-02 04:05:03.516 V/AddressFromService( 1238): start get address from Service!
+01-02 04:05:03.620 D/dalvikvm( 1160): GC_CONCURRENT freed 455K, 77% free 1317K/5699K, paused 1ms+1ms
+01-02 04:05:03.640 I/Zygote  (  742): ...preloaded 130 classes in 822ms.
+01-02 04:05:03.656 D/dalvikvm(  742): GC_EXPLICIT freed 128K, 77% free 1153K/4995K, paused 1ms+1ms
+01-02 04:05:03.672 D/dalvikvm(  742): GC_EXPLICIT freed <1K, 77% free 1153K/4995K, paused 1ms+1ms
+01-02 04:05:03.684 D/dalvikvm(  742): GC_EXPLICIT freed <1K, 77% free 1153K/4995K, paused 1ms+1ms
+01-02 04:05:03.708 I/Zygote  (  742): Preloading classes...
+01-02 04:05:03.712 I/ActivityManager(  950): Start proc com.biaoqi.stbwidget.host for broadcast com.biaoqi.stbwidget.host/.NetworkStatusChangeReceiver: pid=1648 uid=10028 gids={3003}
+01-02 04:05:03.716 D/PortalRefreshService( 1238): onStartCommand
+01-02 04:05:03.716 D/PortalRefreshService( 1238): onStart
+01-02 04:05:03.716 I/PortalRefreshService( 1238):  handle - MSG_PORTAL_REFRESH_ID
+01-02 04:05:03.716 I/PortalRefreshService( 1238): UpdatePortalTimerTask
+01-02 04:05:03.716 I/PortalRefreshService( 1238): Thread: Start to download Portal-Data!
+01-02 04:05:03.720 V/IDataTaskEntity( 1238): http://cibn-iepg.coship.com:8088/iepg/videoInfo!getVideoList.action?queryType=1&start=1&limit=10&orderFlag=1
+01-02 04:05:03.720 V/IDataTaskEntity( 1238): http://cibn-iepg.coship.com:8088/iepg/videoInfo!getVideoList.action?queryType=3&start=1&limit=10&orderFlag=1
+01-02 04:05:03.720 V/IDataTaskEntity( 1238): http://cibn-iepg.coship.com:8088/iepg/videoInfo!getVideoList.action?queryType=4&start=1&limit=10&orderFlag=1
+01-02 04:05:03.720 V/IDataTaskEntity( 1238): http://cibn-iepg.coship.com:8088/iepg/videoInfo!getVideoList.action?queryType=8&start=1&limit=10&orderFlag=1
+01-02 04:05:03.728 I/PortalRefreshService( 1238): PortalService downloading...  CConstants.DOWNLOAD_DATA_INDEX = 0
+01-02 04:05:03.736 D/dalvikvm(  742): GC_EXPLICIT freed 4K, 77% free 1154K/4995K, paused 1ms+2ms
+01-02 04:05:03.844 W/Zygote  (  742): Class not found for preloading: android.text.TextDirectionHeuristics$CharCount
+01-02 04:05:03.872 I/NetworkStatusChangeReceiver( 1648): action::::::::android.net.wifi.STATE_CHANGE
+01-02 04:05:03.872 D/dalvikvm(  742): GC_FOR_ALLOC freed 167K, 72% free 1525K/5379K, paused 19ms
+01-02 04:05:03.872 W/Zygote  (  742): Class not found for preloading: android.text.method.WordIterator$1
+01-02 04:05:03.876 I/System.out( 1648): 网络连接：：：：：：：
+01-02 04:05:03.884 I/VideoDataTask( 1238):  No UpdateData from PortalServer... do not download data... 
+01-02 04:05:03.932 D/MonitorCw880( 1492): Current Remote Host is null, continue, counter=0
+01-02 04:05:03.972 I/BootCompletedReceiver( 1160): [onReceive] Action??????android.net.conn.CONNECTIVITY_CHANGE
+01-02 04:05:03.976 D/BootCompletedReceiver( 1160): [onReceive] renderer was configed as autoboot,start backservice
+01-02 04:05:03.976 D/Multimedia_BackService( 1160): BackService onStart called
+01-02 04:05:03.976 D/Multimedia_BackService( 1160): device Name:tc123
+01-02 04:05:03.976 I/AirplayService( 1160): in setAirplayDevName
+01-02 04:05:03.996 D/dalvikvm( 1160): GC_CONCURRENT freed 402K, 75% free 1458K/5699K, paused 47ms+1ms
+01-02 04:05:04.008 I/Zygote  (  742): ...preloaded 186 classes in 302ms.
+01-02 04:05:04.028 I/VideoDataTask( 1238):  No UpdateData from PortalServer... do not download data... 
+01-02 04:05:04.076 I/Zygote  (  742): Preloading classes...
+01-02 04:05:04.080 I/VideoDataTask( 1238):  No UpdateData from PortalServer... do not download data... 
+01-02 04:05:04.080 I/ActivityManager(  950): Start proc com.luxtone.tuzi for broadcast com.luxtone.tuzi/.tv.mix.util.ConnectionChangeReceiver: pid=1665 uid=10002 gids={3003, 1015, 1007}
+01-02 04:05:04.124 D/dalvikvm(  742): GC_EXPLICIT freed 52K, 72% free 1552K/5379K, paused 4ms+4ms
+01-02 04:05:04.152 I/VideoDataTask( 1238):  No UpdateData from PortalServer... do not download data... 
+01-02 04:05:04.156 I/dalvikvm( 1665): Turning on JNI app bug workarounds for target SDK version 8...
+01-02 04:05:04.220 I/VideoDataTask( 1238):  No UpdateData from PortalServer... do not download data... 
+01-02 04:05:04.264 I/VideoDataTask( 1238):  No UpdateData from PortalServer... do not download data... 
+01-02 04:05:04.352 D/dalvikvm( 1160): GC_CONCURRENT freed 657K, 77% free 1313K/5699K, paused 1ms+2ms
+01-02 04:05:04.376 I/VideoDataTask( 1238):  No UpdateData from PortalServer... do not download data... 
+01-02 04:05:04.380 D/dalvikvm( 1238): GC_CONCURRENT freed 2176K, 19% free 26783K/32899K, paused 2ms+7ms
+01-02 04:05:04.420 I/VideoDataTask( 1238):  No UpdateData from PortalServer... do not download data... 
+01-02 04:05:04.480 I/VideoDataTask( 1238):  No UpdateData from PortalServer... do not download data... 
+01-02 04:05:04.480 D/dalvikvm( 1665): GC_CONCURRENT freed 191K, 70% free 1762K/5699K, paused 2ms+2ms
+01-02 04:05:04.540 I/VideoDataTask( 1238):  No UpdateData from PortalServer... do not download data... 
+01-02 04:05:04.596 I/VideoDataTask( 1238):  No UpdateData from PortalServer... do not download data... 
+01-02 04:05:04.652 I/VideoDataTask( 1238):  No UpdateData from PortalServer... do not download data... 
+01-02 04:05:04.664 D/dalvikvm( 1160): GC_CONCURRENT freed 395K, 77% free 1339K/5699K, paused 2ms+1ms
+01-02 04:05:04.740 D/dalvikvm( 1160): GC_CONCURRENT freed 402K, 77% free 1342K/5699K, paused 1ms+5ms
+01-02 04:05:04.788 I/dalvikvm(  742): threadid=1: recursive native library load attempt (/system/lib/libwebcore.so)
+01-02 04:05:04.788 D/dalvikvm(  742): No JNI_OnLoad found in /system/lib/libchromium_net.so 0x0, skipping init
+01-02 04:05:04.820 I/Zygote  (  742): ...preloaded 122 classes in 744ms.
+01-02 04:05:04.844 I/Zygote  (  742): Preloading classes...
+01-02 04:05:04.852 I/ActivityManager(  950): Start proc net.osaris.myturbofly.cn for broadcast net.osaris.myturbofly.cn/com.kuguo.ad.MainReceiver: pid=1678 uid=10031 gids={3003, 1015}
+01-02 04:05:04.860 I/PortalRefreshService( 1238): PortalService downloading...  CConstants.DOWNLOAD_DATA_INDEX = 0
+01-02 04:05:04.864 I/PortalRefreshService( 1238):      PortalService downlaod Newest data OK...
+01-02 04:05:04.864 I/PortalRefreshService( 1238):  === PortalService send Broadcast OK...
+01-02 04:05:04.864 I/MainActivity( 1238):  === Get Broadcast And Start Update Data...
+01-02 04:05:04.864 I/MainActivity( 1238):  === MainActivity start updateData...
+01-02 04:05:04.864 I/RecommondManagerImpl( 1238): Recommand - Newest - UpdateData
+01-02 04:05:04.908 D/dalvikvm(  742): GC_EXPLICIT freed 178K, 71% free 1606K/5507K, paused 2ms+4ms
+01-02 04:05:04.916 I/dalvikvm( 1678): Turning on JNI app bug workarounds for target SDK version 8...
+01-02 04:05:04.964 D/MonitorCw880( 1492): Current Remote Host is null, continue, counter=0
+01-02 04:05:05.000 W/Zygote  (  742): Class not found for preloading: android.widget.EdgeGlow
+01-02 04:05:05.140 D/dalvikvm( 1160): GC_CONCURRENT freed 409K, 75% free 1444K/5699K, paused 1ms+2ms
+01-02 04:05:05.148 I/Zygote  (  742): ...preloaded 148 classes in 301ms.
+01-02 04:05:05.164 D/dalvikvm(  950): GC_CONCURRENT freed 1311K, 57% free 4031K/9347K, paused 2ms+4ms
+01-02 04:05:05.212 D/dalvikvm( 1160): GC_CONCURRENT freed 532K, 77% free 1336K/5699K, paused 3ms+1ms
+01-02 04:05:05.280 I/System  (  950): Loaded time zone names for  in 1191ms (1184ms in ICU)
+01-02 04:05:05.356 D/dalvikvm( 1678): GC_CONCURRENT freed 260K, 71% free 1699K/5699K, paused 2ms+4ms
+01-02 04:05:05.364 W/HomePlayerLib( 1160): mediaRenderer start success 
+01-02 04:05:05.480 D/dalvikvm( 1160): GC_CONCURRENT freed 428K, 74% free 1537K/5699K, paused 1ms+1ms
+01-02 04:05:05.520 I/BootCompletedReceiver( 1160): [onReceive] Action??????android.net.conn.CONNECTIVITY_CHANGE
+01-02 04:05:05.520 D/BootCompletedReceiver( 1160): [onReceive] renderer was configed as autoboot,start backservice
+01-02 04:05:05.524 D/Multimedia_BackService( 1160): BackService onStart called
+01-02 04:05:05.524 D/Multimedia_BackService( 1160): device Name:tc123
+01-02 04:05:05.524 I/AirplayService( 1160): in setAirplayDevName
+01-02 04:05:05.648 D/dalvikvm( 1160): GC_CONCURRENT freed 657K, 77% free 1363K/5763K, paused 2ms+1ms
+01-02 04:05:05.780 I/System  (  950): Loaded time zone names for en_US in 498ms (495ms in ICU)
+01-02 04:05:05.908 D/dalvikvm( 1451): GC_CONCURRENT freed 226K, 82% free 890K/4867K, paused 1ms+2ms
+01-02 04:05:05.964 D/MonitorCw880( 1492): Current Remote Host is null, continue, counter=0
+01-02 04:05:06.148 I/System  (  950): Loaded time zone names for zh_CN in 368ms (365ms in ICU)
+01-02 04:05:06.216 D/dalvikvm( 1322): GC_CONCURRENT freed 436K, 74% free 1482K/5571K, paused 2ms+1ms
+01-02 04:05:06.396 D/dalvikvm(  950): GC_CONCURRENT freed 815K, 58% free 4006K/9347K, paused 2ms+3ms
+01-02 04:05:06.500 I/System.out( 1648): BabaoWebWidget---network connect---
+01-02 04:05:06.512 I/System.out( 1648): 项目名称：A3STB-WidgetHost，版本号：1.0.11，发布人：朱道专(Jacky.Zhu)
+01-02 04:05:06.516 D/dalvikvm( 1322): GC_CONCURRENT freed 473K, 75% free 1452K/5635K, paused 2ms+1ms
+01-02 04:05:06.520 I/System.out( 1648): WeatherWidgetProvider----network connect----------
+01-02 04:05:06.732 I/PortalRefreshService( 1238): PortalService downloading...  CConstants.DOWNLOAD_DATA_INDEX = 1
+01-02 04:05:06.732 I/PortalRefreshService( 1238):      PortalService downlaod Best data OK...
+01-02 04:05:06.732 I/PortalRefreshService( 1238):  === PortalService send Broadcast OK...
+01-02 04:05:06.732 I/MainActivity( 1238):  === Get Broadcast And Start Update Data...
+01-02 04:05:06.732 I/MainActivity( 1238):  === MainActivity start updateData...
+01-02 04:05:06.732 I/RecommondManagerImpl( 1238): Recommand - Best - UpdateData
+01-02 04:05:06.964 D/MonitorCw880( 1492): Current Remote Host is null, continue, counter=0
+01-02 04:05:07.796 D/StpService( 1251): handleMessage NetworkType is 1
+01-02 04:05:07.872 I/PortalRefreshService( 1238): PortalService downloading...  CConstants.DOWNLOAD_DATA_INDEX = 2
+01-02 04:05:07.872 I/PortalRefreshService( 1238):      PortalService downlaod Recommand data OK...
+01-02 04:05:07.872 I/PortalRefreshService( 1238):  === PortalService send Broadcast OK...
+01-02 04:05:07.876 I/MainActivity( 1238):  === Get Broadcast And Start Update Data...
+01-02 04:05:07.876 I/MainActivity( 1238):  === MainActivity start updateData...
+01-02 04:05:07.876 I/AVZoneManagerImpl( 1238): AVZone - UpdateData
+01-02 04:05:07.952 D/StpService( 1251): handleMessage NetworkType is 1
+01-02 04:05:07.968 D/MonitorCw880( 1492): Current Remote Host is null, continue, counter=0
+01-02 04:05:08.028 D/dalvikvm( 1160): GC_FOR_ALLOC freed 565K, 78% free 1299K/5763K, paused 10ms
+01-02 04:05:08.056 D/HomePlayerLib( 1160): hostaddress count is 2
+01-02 04:05:08.060 D/dalvikvm( 1160): GC_CONCURRENT freed 7K, 74% free 1519K/5763K, paused 0ms+1ms
+01-02 04:05:08.108 D/dalvikvm( 1160): GC_CONCURRENT freed 608K, 76% free 1415K/5763K, paused 1ms+1ms
+01-02 04:05:08.164 D/dalvikvm( 1160): GC_CONCURRENT freed 499K, 76% free 1391K/5763K, paused 1ms+1ms
+01-02 04:05:08.296 D/dalvikvm( 1160): GC_CONCURRENT freed 477K, 76% free 1422K/5763K, paused 1ms+1ms
+01-02 04:05:08.464 D/dalvikvm( 1160): GC_CONCURRENT freed 507K, 74% free 1518K/5763K, paused 1ms+1ms
+01-02 04:05:08.604 D/dalvikvm( 1160): GC_CONCURRENT freed 592K, 73% free 1573K/5763K, paused 1ms+1ms
+01-02 04:05:08.628 D/dalvikvm( 1451): GC_CONCURRENT freed 376K, 82% free 933K/5059K, paused 1ms+2ms
+01-02 04:05:08.744 D/dalvikvm( 1160): GC_CONCURRENT freed 702K, 77% free 1346K/5763K, paused 1ms+2ms
+01-02 04:05:08.832 D/dalvikvm( 1160): GC_CONCURRENT freed 435K, 76% free 1422K/5763K, paused 1ms+1ms
+01-02 04:05:08.884 D/dalvikvm( 1160): GC_CONCURRENT freed 489K, 78% free 1318K/5763K, paused 1ms+1ms
+01-02 04:05:08.928 D/dalvikvm( 1160): GC_CONCURRENT freed 392K, 78% free 1319K/5763K, paused 1ms+1ms
+01-02 04:05:08.968 D/MonitorCw880( 1492): Current Remote Host is null, continue, counter=0
+01-02 04:05:09.112 D/dalvikvm( 1160): GC_CONCURRENT freed 404K, 78% free 1305K/5763K, paused 1ms+1ms
+01-02 04:05:09.152 D/ConnectivityService(  950): handleInetConditionHoldEnd: net=1, condition=0, published condition=0
+01-02 04:05:09.192 D/dalvikvm( 1160): GC_CONCURRENT freed 393K, 76% free 1420K/5763K, paused 0ms+0ms
+01-02 04:05:09.240 D/Tethering(  950): TetherModeAliveState.processMessage what=5
+01-02 04:05:09.240 D/Tethering(  950): chooseUpstreamType(false), preferredApn =5, got type=1
+01-02 04:05:09.240 D/TetherController(  739): setDnsForwarders(0 = '192.168.18.1')
+01-02 04:05:09.240 D/TetherController(  739): Sending update msg to dnsmasq [update_dns:192.168.18.1]
+01-02 04:05:09.240 I/dnsmasq ( 1313): using nameserver 192.168.18.1#53
+01-02 04:05:09.240 D/Tethering(  950): notifying tethered with iface =wlan0
+01-02 04:05:09.240 D/Tethering(  950): TetheredState.processMessage what=12
+01-02 04:05:09.348 D/dalvikvm( 1160): GC_CONCURRENT freed 486K, 75% free 1443K/5763K, paused 1ms+1ms
+01-02 04:05:09.488 D/dalvikvm( 1160): GC_CONCURRENT freed 525K, 77% free 1375K/5763K, paused 1ms+1ms
+01-02 04:05:09.652 D/dalvikvm( 1160): GC_CONCURRENT freed 450K, 76% free 1434K/5763K, paused 1ms+1ms
+01-02 04:05:09.736 I/PortalRefreshService( 1238): PortalService downloading...  CConstants.DOWNLOAD_DATA_INDEX = 3
+01-02 04:05:09.736 I/PortalRefreshService( 1238):      PortalService downlaod Flysee data OK...
+01-02 04:05:09.736 I/PortalRefreshService( 1238):  === PortalService send Broadcast OK...
+01-02 04:05:09.740 I/MainActivity( 1238):  === Get Broadcast And Start Update Data...
+01-02 04:05:09.740 I/MainActivity( 1238):  === MainActivity start updateData...
+01-02 04:05:09.740 I/BrandZoneManagerImpl( 1238): BrandZone - UpdateData
+01-02 04:05:09.808 D/dalvikvm( 1238): GC_CONCURRENT freed 1965K, 19% free 26856K/32899K, paused 1ms+7ms
+01-02 04:05:09.824 D/dalvikvm( 1160): GC_CONCURRENT freed 515K, 77% free 1377K/5763K, paused 1ms+1ms
+01-02 04:05:09.968 D/MonitorCw880( 1492): Current Remote Host is null, continue, counter=0
+01-02 04:05:10.476 I/MediaScannerService( 1451): ===========================================
+01-02 04:05:10.476 I/MediaScannerService( 1451): ====== ACTION_MEDIA_SCANNER_FINISHED ======
+01-02 04:05:10.476 I/MediaScannerService( 1451): ===========================================
+01-02 04:05:10.876 I/PortalRe1318K/5763K, paused 1ms+1ms
+01-02 04:05:43.224 D/dalvikvm( 1160): GC_CONCURRENT freed 403K, 76% free 1431K/5763K, paused 1ms+1ms
+01-02 04:05:43.340 D/dalvikvm( 1160): GC_CONCURRENT freed 517K, 78% free 1315K/5763K, paused 1ms+1ms
+01-02 04:05:43.460 D/dalvikvm( 1160): GC_CONCURRENT freed 401K, 76% free 1425K/5763K, paused 1ms+1ms
+01-02 04:05:43.512 D/dalvikvm( 1160): GC_CONCURRENT freed 514K, 76% free 1401K/5763K, paused 0ms+1ms
+01-02 04:05:43.600 D/dalvikvm( 1160): GC_CONCURRENT freed 476K, 76% free 1436K/5763K, paused 1ms+1ms
+01-02 04:05:43.640 D/dalvikvm( 1160): GC_CONCURRENT freed 515K, 78% free 1324K/5763K, paused 0ms+1ms
+01-02 04:05:43.868 D/dalvikvm( 1160): GC_CONCURRENT freed 402K, 78% free 1307K/5763K, paused 1ms+1ms
+01-02 04:05:43.924 D/dalvikvm( 1160): GC_CONCURRENT freed 395K, 76% free 1418K/5763K, paused 1ms+1ms
+01-02 04:05:43.976 D/MonitorCw880( 1492): Current Remote Host is null, continue, counter=0
+01-02 04:05:44.028 D/dalvikvm( 1160): GC_CONCURRENT freed 486K, 76% free 1417K/5763K, paused 1ms+1ms
+01-02 04:05:44.176 D/dalvikvm( 1160): GC_CONCURRENT freed 505K, 78% free 1305K/5763K, paused 1ms+1ms
+01-02 04:05:44.364 I//lib/ld-linux.so.3(  748): 6666
+01-02 04:05:44.428 D/dalvikvm( 1160): GC_CONCURRENT freed 389K, 77% free 1374K/5763K, paused 1ms+1ms
+01-02 04:05:44.976 D/MonitorCw880( 1492): Current Remote Host is null, continue, counter=0
+01-02 04:05:45.432 D/dalvikvm( 1160): GC_CONCURRENT freed 462K, 78% free 1301K/5763K, paused 1ms+1ms
+01-02 04:05:45.976 D/MonitorCw880( 1492): Current Remote Host is null, continue, counter=0
+01-02 04:05:46.552 I/System.out( 1648): BabaoWebWidget---newsList is null---
+01-02 04:05:46.556 I/System.out( 1648): BabaoWebWidget---network connect---
+01-02 04:05:46.560 I/System.out( 1648): 项目名称：A3STB-WidgetHost，版本号：1.0.11，发布人：朱道专(Jacky.Zhu)
+01-02 04:05:46.564 I/System.out( 1648): WeatherWidgetProvider----network connect----------
+01-02 04:05:46.568 I/System.out( 1648): BabaoWebWidget---newsList is null---
+01-02 04:05:46.576 I/System.out( 1648): 项目名称：A3STB-WidgetHost，版本号：1.0.11，发布人：朱道专(Jacky.Zhu)
+01-02 04:05:46.576 I/System.out( 1648): BabaoWebWidget---network connect---
+01-02 04:05:46.584 I/System.out( 1648): BabaoWebWidget---newsList is null---
+01-02 04:05:46.588 I/System.out( 1648): BabaoWebWidget---network connect---
+01-02 04:05:46.592 I/System.out( 1648): 项目名称：A3STB-WidgetHost，版本号：1.0.11，发布人：朱道专(Jacky.Zhu)
+01-02 04:05:46.592 I/System.out( 1648): WeatherWidgetProvider----network connect----------
+01-02 04:05:46.596 I/System.out( 1648): BabaoWebWidget---newsList is null---
+01-02 04:05:46.612 I/System.out( 1648): BabaoWebWidget---network connect---
+01-02 04:05:46.612 I/System.out( 1648): 项目名称：A3STB-WidgetHost，版本号：1.0.11，发布人：朱道专(Jacky.Zhu)
+01-02 04:05:46.616 I/System.out( 1648): WeatherWidgetProvider----network connect----------
+01-02 04:05:46.624 I/System.out( 1648): WeatherWidgetProvider----network connect----------
+01-02 04:05:46.636 I/System.out( 1648): 项目名称：A3STB-WidgetHost，版本号：1.0.11，发布人：朱道专(Jacky.Zhu)
+01-02 04:05:46.640 I/System.out( 1648): BabaoWebWidget---network connect---
+01-02 04:05:46.652 I/System.out( 1648): WeatherWidgetProvider----network connect----------
+01-02 04:05:46.656 I/System.out( 1648): BabaoWebWidget---newsList is null---
+01-02 04:05:46.660 I/System.out( 1648): 项目名称：A3STB-WidgetHost，版本号：1.0.11，发布人：朱道专(Jacky.Zhu)
+01-02 04:05:46.660 I/System.out( 1648): BabaoWebWidget---newsList is null---
+01-02 04:05:46.664 I/System.out( 1648): BabaoWebWidget---network connect---
+01-02 04:05:46.664 I/System.out( 1648): BabaoWebWidget---newsList is null---
+01-02 04:05:46.672 I/System.out( 1648): WeatherWidgetProvider----network connect----------
+01-02 04:05:46.680 I/System.out( 1648): BabaoWebWidget---network connect---
+01-02 04:05:46.680 I/System.out( 1648): 项目名称：A3STB-WidgetHost，版本号：1.0.11，发布人：朱道专(Jacky.Zhu)
+01-02 04:05:46.692 I/System.out( 1648): BabaoWebWidget---newsList is null---
+01-02 04:05:46.700 I/System.out( 1648): WeatherWidgetProvider----network connect----------
+01-02 04:05:46.708 I/System.out( 1648): 项目名称：A3STB-WidgetHost，版本号：1.0.11，发布人：朱道专(Jacky.Zhu)
+01-02 04:05:46.708 I/System.out( 1648): BabaoWebWidget---network connect---
+01-02 04:05:46.712 I/System.out( 1648): BabaoWebWidget---newsList is null---
+01-02 04:05:46.716 I/System.out( 1648): WeatherWidgetProvider----network connect----------
+01-02 04:05:46.720 I/System.out( 1648): BabaoWebWidget---network connect---
+01-02 04:05:46.724 I/System.out( 1648): 项目名称：A3STB-WidgetHost，版本号：1.0.11，发布人：朱道专(Jacky.Zhu)
+01-02 04:05:46.728 I/System.out( 1648): WeatherWidgetProvider----network connect----------
+01-02 04:05:46.732 I/System.out( 1648): BabaoWebWidget---newsList is null---
+01-02 04:05:46.736 I/System.out( 1648): BabaoWebWidget---network connect---
+01-02 04:05:46.740 I/System.out( 1648): 项目名称：A3STB-WidgetHost，版本号：1.0.11，发布人：朱道专(Jacky.Zhu)
+01-02 04:05:46.744 I/System.out( 1648): BabaoWebWidget---newsList is null---
+01-02 04:05:46.748 I/System.out( 1648): WeatherWidgetProvider----network connect----------
+01-02 04:05:46.752 I/System.out( 1648): 项目名称：A3STB-WidgetHost，版本号：1.0.11，发布人：朱道专(Jacky.Zhu)
+01-02 04:05:46.756 I/System.out( 1648): BabaoWebWidget---network connect---
+01-02 04:05:46.760 I/System.out( 1648): BabaoWebWidget---newsList is null---
+01-02 04:05:46.760 I/System.out( 1648): WeatherWidgetProvider----network connect----------
+01-02 04:05:46.772 I/System.out( 1648): 项目名称：A3STB-WidgetHost，版本号：1.0.11，发布人：朱道专(Jacky.Zhu)
+01-02 04:05:46.772 I/System.out( 1648): BabaoWebWidget---network connect---
+01-02 04:05:46.776 I/System.out( 1648): BabaoWebWidget---newsList is null---
+01-02 04:05:46.784 I/System.out( 1648): 项目名称：A3STB-WidgetHost，版本号：1.0.11，发布人：朱道专(Jacky.Zhu)
+01-02 04:05:46.784 I/System.out( 1648): WeatherWidgetProvider----network connect----------
+01-02 04:05:46.792 I/System.out( 1648): BabaoWebWidget---network connect---
+01-02 04:05:46.796 I/System.out( 1648): BabaoWebWidget---newsList is null---
+01-02 04:05:46.804 I/System.out( 1648): WeatherWidgetProvider----network connect----------
+01-02 04:05:46.808 I/System.out( 1648): 项目名称：A3STB-WidgetHost，版本号：1.0.11，发布人：朱道专(Jacky.Zhu)
+01-02 04:05:46.808 I/System.out( 1648): BabaoWebWidget---network connect---
+01-02 04:05:46.812 I/System.out( 1648): BabaoWebWidget---newsList is null---
+01-02 04:05:46.824 I/System.out( 1648): WeatherWidgetProvider----network connect----------
+01-02 04:05:46.844 D/dalvikvm( 1648): GC_CONCURRENT freed 509K, 77% free 1316K/5571K, paused 2ms+2ms
+01-02 04:05:46.848 I/System.out( 1648): BabaoWebWidget---network connect---
+01-02 04:05:46.848 I/System.out( 1648): 项目名称：A3STB-WidgetHost，版本号：1.0.11，发布人：朱道专(Jacky.Zhu)
+01-02 04:05:46.868 I/System.out( 1648): WeatherWidgetProvider----network connect----------
+01-02 04:05:46.868 I/System.out( 1648): BabaoWebWidget---newsList is null---
+01-02 04:05:46.872 I/System.out( 1648): 项目名称：A3STB-WidgetHost，版本号：1.0.11，发布人：朱道专(Jacky.Zhu)
+01-02 04:05:46.876 I/System.out( 1648): BabaoWebWidget---network connect---
+01-02 04:05:46.880 I/System.out( 1648): BabaoWebWidget---newsList is null---
+01-02 04:05:46.884 I/System.out( 1648): WeatherWidgetProvider----network connect----------
+01-02 04:05:46.884 I/System.out( 1648): BabaoWebWidget---network connect---
+01-02 04:05:46.888 I/System.out( 1648): 项目名称：A3STB-WidgetHost，版本号：1.0.11，发布人：朱道专(Jacky.Zhu)
+01-02 04:05:46.888 I/System.out( 1648): BabaoWebWidget---newsList is null---
+01-02 04:05:46.896 I/System.out( 1648): WeatherWidgetProvider----network connect----------
+01-02 04:05:46.908 I/System.out( 1648): 项目名称：A3STB-WidgetHost，版本号：1.0.11，发布人：朱道专(Jacky.Zhu)
+01-02 04:05:46.912 I/System.out( 1648): BabaoWebWidget---network connect---
+01-02 04:05:46.920 I/System.out( 1648): BabaoWebWidget---newsList is null---
+01-02 04:05:46.920 I/System.out( 1648): WeatherWidgetProvider----network connect----------
+01-02 04:05:46.928 I/System.out( 1648): BabaoWebWidget---network connect---
+01-02 04:05:46.928 I/System.out( 1648): 项目名称：A3STB-WidgetHost，版本号：1.0.11，发布人：朱道专(Jacky.Zhu)
+01-02 04:05:46.932 I/System.out( 1648): BabaoWebWidget---newsList is null---
+01-02 04:05:46.932 I/System.out( 1648): WeatherWidgetProvider----network connect----------
+01-02 04:05:46.940 I/System.out( 1648): BabaoWebWidget---network connect---
+01-02 04:05:46.944 I/System.out( 1648): BabaoWebWidget---newsList is null---
+01-02 04:05:46.944 I/System.out( 1648): 项目名称：A3STB-WidgetHost，版本号：1.0.11，发布人：朱道专(Jacky.Zhu)
+01-02 04:05:46.952 I/System.out( 1648): WeatherWidgetProvider----network connect----------
+01-02 04:05:46.976 D/MonitorCw880( 1492): Current Remote Host is null, continue, counter=0
+01-02 04:05:47.976 D/MonitorCw880( 1492): Current Remote Host is null, continue, counter=0
+01-02 04:05:48.976 D/MonitorCw880( 1492): Current Remote Host is null, continue, counter=0
+01-02 04:05:49.976 D/MonitorCw880( 1492): Current Remote Host is null, continue, counter=0
+01-02 04:05:50.976 D/MonitorCw880( 1492): Current Remote Host is null, continue, counter=0
+01-02 04:05:51.980 D/MonitorCw880( 1492): Current Remote Host is null, continue, counter=0
+01-02 04:05:52.980 D/MonitorCw880( 1492): Current Remote Host is null, continue, counter=0
+01-02 04:05:53.980 D/MonitorCw880( 1492): Current Remote Host is null, continue, counter=0
+01-02 04:05:54.352 D/dalvikvm( 1160): GC_CONCURRENT freed 388K, 78% free 1312K/5763K, paused 0ms+1ms
+01-02 04:05:54.364 D/HomePlayerLib( 1160): hostaddress count is 2
+01-02 04:05:54.404 D/dalvikvm( 1160): GC_CONCURRENT freed 402K, 76% free 1413K/5763K, paused 0ms+1ms
+01-02 04:05:54.456 D/dalvikvm( 1160): GC_CONCURRENT freed 504K, 74% free 1516K/5763K, paused 1ms+1ms
+01-02 04:05:54.504 D/dalvikvm( 1160): GC_CONCURRENT freed 581K, 78% free 1324K/5763K, paused 0ms+1ms
+01-02 04:05:54.724 D/dalvikvm( 1160): GC_CONCURRENT freed 402K, 74% free 1524K/5763K, paused 1ms+1ms
+01-02 04:05:54.772 D/dalvikvm( 1160): GC_CONCURRENT freed 611K, 77% free 1365K/5763K, paused 1ms+1ms
+01-02 04:05:54.848 D/AuthService( 1238): state = 65534
+01-02 04:05:54.856 D/AuthTask( 1238): -------------------------------
+01-02 04:05:54.856 D/AuthTask( 1238): Start to getDeviceId by MAC = 84:62:23:08:00:5a
+01-02 04:05:54.880 D/dalvikvm( 1160): GC_CONCURRENT freed 444K, 76% free 1431K/5763K, paused 1ms+1ms
+01-02 04:05:54.960 D/dalvikvm( 1160): GC_CONCURRENT freed 514K, 78% free 1303K/5763K, paused 1ms+1ms
+01-02 04:05:54.980 D/MonitorCw880( 1492): Current Remote Host is null, continue, counter=0
+01-02 04:05:55.020 D/dalvikvm( 1160): GC_CONCURRENT freed 381K, 76% free 1433K/5763K, paused 1ms+1ms
+01-02 04:05:55.172 D/dalvikvm( 1160): GC_CONCURRENT freed 521K, 76% free 1417K/5763K, paused 1ms+1ms
+01-02 04:05:55.224 D/dalvikvm( 1160): GC_CONCURRENT freed 491K, 75% free 1441K/5763K, paused 1ms+1ms
+01-02 04:05:55.336 D/dalvikvm( 1160): GC_CONCURRENT freed 514K, 76% free 1420K/5763K, paused 1ms+1ms
+01-02 04:05:55.460 D/dalvikvm( 1160): GC_CONCURRENT freed 497K, 78% free 1321K/5763K, paused 1ms+1ms
+01-02 04:05:55.600 D/dalvikvm( 1160): GC_CONCURRENT freed 396K, 78% free 1318K/5763K, paused 1ms+1ms
+01-02 04:05:55.740 D/dalvikvm( 1160): GC_CONCURRENT freed 405K, 78% free 1316K/5763K, paused 1ms+1ms
+01-02 04:05:55.880 D/dalvikvm( 1160): GC_CONCURRENT freed 394K, 78% free 1315K/5763K, paused 1ms+1ms
+01-02 04:05:55.980 D/MonitorCw880( 1492): Current Remote Host is null, continue, counter=0
+01-02 04:05:56.024 D/dalvikvm( 1160): GC_CONCURRENT freed 393K, 77% free 1361K/5763K, paused 2ms+1ms
+01-02 04:05:56.268 D/dalvikvm( 1160): GC_CONCURRENT freed 444K, 78% free 1303K/5763K, paused 1ms+1ms
+01-02 04:05:56.424 D/dalvikvm( 1160): GC_CONCURRENT freed 395K, 76% free 1416K/5763K, paused 1ms+1ms
+01-02 04:05:56.580 D/dalvikvm( 1160): GC_CONCURRENT freed 554K, 77% free 1373K/5763K, paused 1ms+1ms
+01-02 04:05:56.828 D/dalvikvm( 1160): GC_CONCURRENT freed 460K, 78% free 1303K/5763K, paused 1ms+1ms
+01-02 04:05:56.980 D/MonitorCw880( 1492): Current Remote Host is null, continue, counter=0
+01-02 04:05:56.980 D/dalvikvm( 1160): GC_CONCURRENT freed 396K, 76% free 1415K/5763K, paused 1ms+1ms
+01-02 04:05:57.128 D/dalvikvm( 1160): GC_CONCURRENT freed 485K, 78% free 1315K/5763K, paused 0ms+0ms
+01-02 04:05:57.280 D/dalvikvm( 1160): GC_CONCURRENT freed 394K, 76% free 1397K/5763K, paused 0ms+1ms
+01-02 04:05:57.536 D/dalvikvm( 1160): GC_CONCURRENT freed 485K, 76% free 1395K/5763K, paused 0ms+1ms
+01-02 04:05:57.680 D/dalvikvm( 1160): GC_CONCURRENT freed 489K, 78% free 1290K/5763K, paused 1ms+1ms
+01-02 04:05:57.824 D/dalvikvm( 1160): GC_CONCURRENT freed 381K, 78% free 1301K/5763K, paused 0ms+1ms
+01-02 04:05:57.968 D/dalvikvm( 1160): GC_CONCURRENT freed 393K, 78% free 1302K/5763K, paused 1ms+1ms
+01-02 04:05:57.980 D/MonitorCw880( 1492): Current Remote Host is null, continue, counter=0
+01-02 04:05:58.980 D/MonitorCw880( 1492): Current Remote Host is null, continue, counter=0
+01-02 04:05:59.980 D/MonitorCw880( 1492): Current Remote Host is null, continue, counter=0
+01-02 04:06:00.048 D/dalvikvm( 1147): GC_CONCURRENT freed 521K, 59% free 3032K/7299K, paused 1ms+3ms
+01-02 04:06:00.980 D/MonitorCw880( 1492): Current Remote Host is null, continue, counter=0
+01-02 04:06:01.980 D/MonitorCw880( 1492): Current Remote Host is null, continue, counter=0
+01-02 04:06:02.980 D/MonitorCw880( 1492): Current Remote Host is null, continue, counter=0
+01-02 04:06:03.980 D/MonitorCw880( 1492): Current Remote Host is null, continue, counter=0
+01-02 04:06:04.984 D/MonitorCw880( 1492): Current Remote Host is null, continue, counter=0
+01-02 04:06:05.484 D/dalvikvm( 1160): GC_CONCURRENT freed 390K, 78% free 1312K/5763K, paused 1ms+1ms
+01-02 04:06:05.928 D/HomePlayerLib( 1160): hostaddress count is 2
+01-02 04:06:05.956 D/dalvikvm( 1160): GC_CONCURRENT freed 409K, 76% free 1409K/5763K, paused 1ms+1ms
+01-02 04:06:05.984 D/MonitorCw880( 1492): Current Remote Host is null, continue, counter=0
+01-02 04:06:06.000 D/dalvikvm( 1160): GC_CONCURRENT freed 496K, 77% free 1328K/5763K, paused 1ms+1ms
+01-02 04:06:06.048 D/dalvikvm( 1160): GC_CONCURRENT freed 418K, 78% free 1310K/5763K, paused 1ms+1ms
+01-02 04:06:06.088 D/dalvikvm( 1160): GC_CONCURRENT freed 378K, 78% free 1317K/5763K, paused 1ms+1ms
+01-02 04:06:06.184 D/dalvikvm( 1160): GC_CONCURRENT freed 390K, 78% free 1320K/5763K, paused 1ms+1ms
+01-02 04:06:06.312 D/dalvikvm( 1160): GC_CONCURRENT freed 402K, 78% free 1315K/5763K, paused 1ms+2ms
+01-02 04:06:06.468 D/dalvikvm( 1160): GC_CONCURRENT freed 395K, 77% free 1368K/5763K, paused 1ms+1ms
+01-02 04:06:06.500 D/dalvikvm( 1160): GC_CONCURRENT freed 453K, 77% free 1346K/5763K, paused 1ms+1ms
+01-02 04:06:06.644 D/dalvikvm( 1160): GC_CONCURRENT freed 426K, 78% free 1320K/5763K, paused 1ms+1ms
+01-02 04:06:06.724 D/dalvikvm( 1160): GC_CONCURRENT freed 391K, 77% free 1364K/5763K, paused 2ms+1ms
+01-02 04:06:06.780 D/dalvikvm( 1160): GC_CONCURRENT freed 454K, 76% free 1419K/5763K, paused 0ms+1ms
+01-02 04:06:06.884 D/dalvikvm( 1160): GC_CONCURRENT freed 492K, 78% free 1317K/5763K, paused 1ms+1ms
+01-02 04:06:06.936 D/dalvikvm( 1160): GC_CONCURRENT freed 393K, 75% free 1447K/5763K, paused 0ms+1ms
+01-02 04:06:06.984 D/MonitorCw880( 1492): Current Remote Host is null, continue, counter=0
+01-02 04:06:07.128 D/dalvikvm( 1160): GC_CONCURRENT freed 536K, 78% free 1303K/5763K, paused 0ms+1ms
+01-02 04:06:07.188 D/dalvikvm( 1160): GC_CONCURRENT freed 382K, 76% free 1413K/5763K, paused 1ms+1ms
+01-02 04:06:07.340 D/dalvikvm( 1160): GC_CONCURRENT freed 487K, 76% free 1402K/5763K, paused 0ms+1ms
+01-02 04:06:07.484 D/dalvikvm( 1160): GC_CONCURRENT freed 488K, 78% free 1323K/5763K, paused 1ms+1ms
+01-02 04:06:07.728 D/dalvikvm( 1160): GC_CONCURRENT freed 408K, 78% free 1302K/5763K, paused 1ms+1ms
+01-02 04:06:07.984 D/MonitorCw880( 1492): Current Remote Host is null, continue, counter=0
+01-02 04:06:08.984 D/MonitorCw880( 1492): Current Remote Host is null, continue, counter=0
+01-02 04:06:09.984 D/MonitorCw880( 1492): Current Remote Host is null, continue, counter=0
+01-02 04:06:10.984 D/MonitorCw880( 1492): Current Remote Host is null, continue, counter=0
+01-02 04:06:11.984 D/MonitorCw880( 1492): Current Remote Host is null, continue, counter=0
+01-02 04:06:12.984 D/MonitorCw880( 1492): Current Remote Host is null, continue, counter=0
+01-02 04:06:13.752 D/UpdateInstallAppStatusTimerTask( 1266):  ------:: UpdateInstallAppStatusTimerTask execute...
+01-02 04:06:13.868 D/MyAppInfoService( 1266):  ------:: appInfoEntityTemp = AppInfoEntity:[id=1,appId=84e2b37187b244a4949435d745e7bae5,packageName=com.adobe.flashplayer,typeName=工具,appName=FlashPlayer,version=11.1.112.60,size=6204396,price=0.0,language=zh,developer=FlashPlayer,publishTime=null,downloadTimes=2,averageScore=0.0,description=FlashPlayer是一款高性能的、轻量型且极具表现力的客户端运行时播放器，能够在各种主流操作系统、浏览器、移动电话和移动设备上提供功能强大且一致的用户体验。,installStatus=2,updateStatus=1,downloadStatus=5]
+01-02 04:06:13.876 D/MyAppInfoService( 1266):  ------:: appInfoEntityTemp.getCommentSize() = 0
+01-02 04:06:13.940 D/dalvikvm( 1266): GC_CONCURRENT freed 332K, 82% free 928K/4995K, paused 1ms+1ms
+01-02 04:06:13.940 D/MyAppInfoService( 1266):  ------:: appInfoEntityTemp = AppInfoEntity:[id=2,appId=ddcd52ab0a27441d9f08a4c1f8c25784,packageName=com.luxtone.tuzi,typeName=娱乐,appName=兔子视频TV版,version=2.0.0.24-arm-b6528-generic,size=12452249,price=0.0,language=zh,developer=兔子视频,publishTime=null,downloadTimes=2,averageScore=0.0,description=兔子视频是专为高清屏幕打造的内容聚合平台，专注于提升用户的互联网高清内容欣赏体验。
+01-02 04:06:13.940 D/MyAppInfoService( 1266): 在智能网络高清显示、高清网络终端上，用兔子视频即可轻松欣赏清晰流畅的国内外热门高清影视节目。
+01-02 04:06:13.940 D/MyAppInfoService( 1266):  
+01-02 04:06:13.940 D/MyAppInfoService( 1266):  
+01-02 04:06:13.940 D/MyAppInfoService( 1266): ,installStatus=2,updateStatus=1,downloadStatus=5]
+01-02 04:06:13.952 D/MyAppInfoService( 1266):  ------:: appInfoEntityTemp.getCommentSize() = 0
+01-02 04:06:13.984 D/MonitorCw880( 1492): Current Remote Host is null, continue, counter=0
+01-02 04:06:13.984 D/MyAppInfoService( 1266):  ------:: appInfoEntityTemp = AppInfoEntity:[id=4,appId=40288a913e526914013ea0e4d95a0239,packageName=com.qiyi.video,typeName=娱乐,appName=爱奇艺,version=null,size=6585941,price=0.0,language=zh,developer=null,publishTime=null,downloadTimes=2,averageScore=0.0,description=爱奇艺影视视频播放器客户端是爱奇艺旗下一款高清视频客户端，海量正版高清影视资源，可供用户飞速离线观看。
+01-02 04:06:13.984 D/MyAppInfoService( 1266): 多终端播放记录同步功能，畅想随时随地观影。
+01-02 04:06:13.984 D/MyAppInfoService( 1266): 热播大剧、最新剧集，八卦娱乐，奇艺在手，应有尽有！快来下载试用吧！
+01-02 04:06:13.984 D/MyAppInfoService( 1266): ,installStatus=2,updateStatus=1,downloadStatus=5]
+01-02 04:06:13.992 D/MyAppInfoService( 1266):  ------:: appInfoEntityTemp.getCommentSize() = 0
+01-02 04:06:13.992 D/AppInfo ( 1266):  ------:: str = null
+01-02 04:06:13.992 D/AppInfo ( 1266):  ------:: str = null
+01-02 04:06:14.024 D/MyAppInfoService( 1266):  ------:: appInfoEntityTemp = AppInfoEntity:[id=3,appId=40288a913ea1a389013ea2b60b6a00ac,packageName=com.skyworth.onlinemovie.letv.csapp,typeName=娱乐,appName=乐视影视,version=null,size=8216750,price=0.0,language=zh,developer=null,publishTime=null,downloadTimes=2,averageScore=0.0,description=乐视影视是一款免费的高清视频播放器，拥有国内最多的正版高清电影电视剧资源，支持众多热门电视直播，无需注册，可无限量下载，更有追剧，收藏等功能，是您贴心的视频观看软件。 海量影视：拥有最多正版视频内容，涵盖美剧，欧美大片，日韩动漫，综艺娱乐等。 ,installStatus=2,updateStatus=1,downloadStatus=5]
+01-02 04:06:14.032 D/MyAppInfoService( 1266):  ------:: appInfoEntityTemp.getCommentSize() = 0
+01-02 04:06:14.032 D/AppInfo ( 1266):  ------:: str = null
+01-02 04:06:14.032 D/AppInfo ( 1266):  ------:: str = null
+01-02 04:06:14.064 D/MyAppInfoService( 1266):  ------:: appInfoEntityTemp = AppInfoEntity:[id=5,appId=40288a913e526914013e8244f385003c,packageName=net.osaris.myturbofly.cn,typeName=游戏,appName=turboflayHD,version=null,size=8091726,price=0.0,language=zh,developer=turboflayHD,publishTime=null,downloadTimes=2,averageScore=0.0,description=超音速飞行 TurboFly HD是一款Android平台以未来世界为背景的快节奏竞速类游戏。通过比赛的胜利可以解除新的赛道及飞船。游戏中拥有独特的游戏模式，不同的赛道，飞船，武器。生涯模式中拥有22个事件，8种完全不同背景的赛道，5种带有武器及推进器的飞船等等。
+01-02 04:06:14.064 D/MyAppInfoService( 1266): 
+01-02 04:06:14.064 D/MyAppInfoService( 1266): ,installStatus=2,updateStatus=1,downloadStatus=5]
+01-02 04:06:14.068 D/MyAppInfoService( 1266):  ------:: appInfoEntityTemp.getCommentSize() = 0
+01-02 04:06:14.068 D/AppInfo ( 1266):  ------:: str = null
+01-02 04:06:14.116 D/dalvikvm( 1266): GC_CONCURRENT freed 400K, 81% free 978K/5123K, paused 1ms+1ms
+01-02 04:06:14.128 E/Tools   ( 1266):  ------:: getHttpUrlConnData SocketExceptionfailed to connect to app.longvisionmedia.com/172.20.101.13 (port 80) after 10000ms: isConnected failed: ECONNREFUSED (Connection refused)
+01-02 04:06:14.984 D/MonitorCw880( 1492): Current Remote Host is null, continue, counter=0
+01-02 04:06:15.852 D/dalvikvm( 1160): GC_CONCURRENT freed 394K, 78% free 1301K/5763K, paused 1ms+1ms
+01-02 04:06:15.984 D/MonitorCw880( 1492): Current Remote Host is null, continue, counter=0
+01-02 04:06:16.000 D/dalvikvm( 1160): GC_CONCURRENT freed 392K, 78% free 1310K/5763K, paused 1ms+1ms
+01-02 04:06:16.152 D/dalvikvm( 1160): GC_CONCURRENT freed 431K, 76% free 1386K/5763K, paused 1ms+1ms
+01-02 04:06:16.312 D/dalvikvm( 1160): GC_CONCURRENT freed 474K, 77% free 1329K/5763K, paused 1ms+1ms
+01-02 04:06:16.576 D/dalvikvm( 1160): GC_CONCURRENT freed 418K, 78% free 1303K/5763K, paused 1ms+1ms
+01-02 04:06:16.736 D/dalvikvm( 1160): GC_CONCURRENT freed 397K, 77% free 1328K/5763K, paused 1ms+1ms
+01-02 04:06:16.896 D/dalvikvm( 1160): GC_CONCURRENT freed 406K, 76% free 1420K/5763K, paused 1ms+2ms
+01-02 04:06:16.984 D/MonitorCw880( 1492): Current Remote Host is null, continue, counter=0
+01-02 04:06:17.060 D/dalvikvm( 1160): GC_CONCURRENT freed 512K, 77% free 1357K/5763K, paused 1ms+1ms
+01-02 04:06:17.320 D/dalvikvm( 1160): GC_CONCURRENT freed 444K, 78% free 1303K/5763K, paused 1ms+1ms
+01-02 04:06:17.460 D/dalvikvm( 1160): GC_CONCURRENT freed 396K, 78% free 1310K/5763K, paused 1ms+1ms
+01-02 04:06:17.592 D/dalvikvm( 1160): GC_CONCURRENT freed 391K, 76% free 1405K/5763K, paused 1ms+1ms
+01-02 04:06:17.604 D/HomePlayerLib( 1160): hostaddress count is 2
+01-02 04:06:17.632 D/dalvikvm( 1160): GC_CONCURRENT freed 471K, 74% free 1534K/5763K, paused 0ms+1ms
+01-02 04:06:17.676 D/dalvikvm( 1160): GC_CONCURRENT freed 625K, 78% free 1314K/5763K, paused 1ms+0ms
+01-02 04:06:17.720 D/dalvikvm( 1160): GC_CONCURRENT freed 406K, 78% free 1301K/5763K, paused 1ms+1ms
+01-02 04:06:17.772 D/dalvikvm( 1160): GC_CONCURRENT freed 384K, 77% free 1373K/5763K, paused 1ms+1ms
+01-02 04:06:17.924 D/dalvikvm( 1160): GC_CONCURRENT freed 449K, 76% free 1417K/5763K, paused 1ms+1ms
+01-02 04:06:17.984 D/MonitorCw880( 1492): Current Remote Host is null, continue, counter=0
+01-02 04:06:18.072 D/dalvikvm( 1160): GC_CONCURRENT freed 486K, 76% free 1430K/5763K, paused 1ms+1ms
+01-02 04:06:18.116 D/dalvikvm( 1160): GC_CONCURRENT freed 503K, 78% free 1324K/5763K, paused 0ms+0ms
+01-02 04:06:18.264 D/dalvikvm( 1160): GC_CONCURRENT freed 384K, 75% free 1451K/5763K, paused 0ms+1ms
+01-02 04:06:18.416 D/dalvikvm( 1160): GC_CONCURRENT freed 534K, 76% free 1422K/5763K, paused 1ms+1ms
+01-02 04:06:18.468 D/dalvikvm( 1160): GC_CONCURRENT freed 514K, 78% free 1320K/5763K, paused 0ms+1ms
+01-02 04:06:18.564 D/dalvikvm( 1160): GC_CONCURRENT freed 406K, 76% free 1422K/5763K, paused 1ms+1ms
+01-02 04:06:18.616 D/dalvikvm( 1160): GC_CONCURRENT freed 521K, 76% free 1438K/5763K, paused 1ms+1ms
+01-02 04:06:18.800 D/dalvikvm( 1160): GC_CONCURRENT freed 516K, 76% free 1415K/5763K, paused 1ms+1ms
+01-02 04:06:18.876 D/dalvikvm( 1160): GC_CONCURRENT freed 501K, 78% free 1316K/5763K, paused 1ms+1ms
+01-02 04:06:18.984 D/MonitorCw880( 1492): Current Remote Host is null, continue, counter=0
+01-02 04:06:19.028 D/dalvikvm( 1160): GC_CONCURRENT freed 395K, 76% free 1421K/5763K, paused 1ms+1ms
+01-02 04:06:19.276 D/dalvikvm( 1160): GC_CONCURRENT freed 513K, 78% free 1299K/5763K, paused 0ms+1ms
+01-02 04:06:19.428 D/dalvikvm( 1160): GC_CONCURRENT freed 380K, 76% free 1421K/5763K, paused 1ms+1ms
+01-02 04:06:19.580 D/dalvikvm( 1160): GC_CONCURRENT freed 503K, 76% free 1385K/5763K, paused 1ms+1ms
+01-02 04:06:19.724 D/dalvikvm( 1160): GC_CONCURRENT freed 476K, 77% free 1334K/5763K, paused 0ms+2ms
+01-02 04:06:19.976 D/dalvikvm( 1160): GC_CONCURRENT freed 416K, 76% free 1427K/5763K, paused 1ms+1ms
+01-02 04:06:19.988 D/MonitorCw880( 1492): Current Remote Host is null, continue, counter=0
+01-02 04:06:20.124 D/dalvikvm( 1160): GC_CONCURRENT freed 517K, 77% free 1371K/5763K, paused 0ms+1ms
+01-02 04:06:20.272 D/dalvikvm( 1160): GC_CONCURRENT freed 448K, 78% free 1315K/5763K, paused 1ms+1ms
+01-02 04:06:20.420 D/dalvikvm( 1160): GC_CONCURRENT freed 394K, 78% free 1315K/5763K, paused 1ms+1ms
+01-02 04:06:20.988 D/MonitorCw880( 1492): Current Remote Host is null, continue, counter=0
+01-02 04:06:21.988 D/MonitorCw880( 1492): Current Remote Host is null, continue, counter=0
+01-02 04:06:22.988 D/MonitorCw880( 1492): Current Remote Host is null, continue, counter=0
+01-02 04:06:23.988 D/MonitorCw880( 1492): Current Remote Host is null, continue, counter=0
+01-02 04:06:24.988 D/MonitorCw880( 1492): Current Remote Host is null, continue, counter=0
+01-02 04:06:25.504 D/dalvikvm( 1160): GC_CONCURRENT freed 401K, 75% free 1443K/5763K, paused 0ms+0ms
+01-02 04:06:25.988 D/MonitorCw880( 1492): Current Remote Host is null, continue, counter=0
+01-02 04:06:26.988 D/MonitorCw880( 1492): Current Remote Host is null, continue, counter=0
+01-02 04:06:27.988 D/MonitorCw880( 1492): Current Remote Host is null, continue, counter=0
+01-02 04:06:28.988 D/MonitorCw880( 1492): Current Remote Host is null, continue, counter=0
+01-02 04:06:29.040 D/dalvikvm( 1160): GC_CONCURRENT freed 538K, 78% free 1313K/5763K, paused 1ms+1ms
+01-02 04:06:29.052 D/HomePlayerLib( 1160): hostaddress count is 2
+01-02 04:06:29.096 D/dalvikvm( 1160): GC_CONCURRENT freed 404K, 77% free 1326K/5763K, paused 1ms+1ms
+01-02 04:06:29.136 D/dalvikvm( 1160): GC_CONCURRENT freed 422K, 78% free 1288K/5763K, paused 1ms+1ms
+01-02 04:06:29.180 D/dalvikvm( 1160): GC_CONCURRENT freed 381K, 76% free 1397K/5763K, paused 1ms+1ms
+01-02 04:06:29.292 D/dalvikvm( 1160): GC_CONCURRENT freed 470K, 76% free 1426K/5763K, paused 1ms+1ms
+01-02 04:06:29.496 D/dalvikvm( 1160): GC_CONCURRENT freed 522K, 76% free 1401K/5763K, paused 0ms+1ms
+01-02 04:06:29.556 D/dalvikvm( 1160): GC_CONCURRENT freed 479K, 76% free 1434K/5763K, paused 1ms+1ms
+01-02 04:06:29.600 D/dalvikvm( 1160): GC_CONCURRENT freed 515K, 77% free 1337K/5763K, paused 1ms+1ms
+01-02 04:06:29.820 D/dalvikvm( 1160): GC_CONCURRENT freed 418K, 78% free 1316K/5763K, paused 1ms+2ms
+01-02 04:06:29.872 D/dalvikvm( 1160): GC_CONCURRENT freed 373K, 76% free 1387K/5763K, paused 1ms+1ms
+01-02 04:06:29.928 D/dalvikvm( 1160): GC_CONCURRENT freed 467K, 76% free 1429K/5763K, paused 1ms+1ms
+01-02 04:06:29.988 D/MonitorCw880( 1492): Current Remote Host is null, continue, counter=0
+01-02 04:06:30.020 D/dalvikvm( 1160): GC_CONCURRENT freed 476K, 75% free 1460K/5763K, paused 1ms+1ms
+01-02 04:06:30.168 D/dalvikvm( 1160): GC_CONCURRENT freed 548K, 76% free 1417K/5763K, paused 1ms+1ms
+01-02 04:06:30.300 D/dalvikvm( 1160): GC_CONCURRENT freed 503K, 76% free 1394K/5763K, paused 1ms+1ms
+01-02 04:06:30.452 D/dalvikvm( 1160): GC_CONCURRENT freed 469K, 76% free 1410K/5763K, paused 0ms+2ms
+01-02 04:06:30.600 D/dalvikvm( 1160): GC_CONCURRENT freed 478K, 77% free 1331K/5763K, paused 0ms+1ms
+01-02 04:06:30.760 D/dalvikvm( 1160): GC_CONCURRENT freed 407K, 76% free 1400K/5763K, paused 1ms+1ms
+01-02 04:06:30.900 D/dalvikvm( 1160): GC_CONCURRENT freed 477K, 78% free 1321K/5763K, paused 0ms+1ms
+01-02 04:06:30.988 D/MonitorCw880( 1492): Current Remote Host is null, continue, counter=0
+01-02 04:06:31.988 D/MonitorCw880( 1492): Current Remote Host is null, continue, counter=0
+01-02 04:06:32.992 D/MonitorCw880( 1492): Current Remote Host is null, continue, counter=0
+01-02 04:06:33.992 D/MonitorCw880( 1492): Current Remote Host is null, continue, counter=0
+01-02 04:06:34.960 D/NetTransportUtil( 1238): 数据读取失败！url: http://tms.cibntest.ysten.com:8080/yst-tms/deviceInit.action?mac=84:62:23:08:00:5a
+01-02 04:06:34.960 D/AuthTask( 1238): MAC not activated or 授权失败,未连接到CIBN授权服务器!
+01-02 04:06:34.960 D/AuthTask( 1238): 请联系客服热线 400-770-5399
+01-02 04:06:34.992 D/MonitorCw880( 1492): Current Remote Host is null, continue, counter=0
+01-02 04:06:35.992 D/MonitorCw880( 1492): Current Remote Host is null, continue, counter=0
+01-02 04:06:36.992 D/MonitorCw880( 1492): Current Remote Host is null, continue, counter=0
+01-02 04:06:37.008 D/dalvikvm( 1160): GC_CONCURRENT freed 414K, 76% free 1414K/5763K, paused 1ms+1ms
+01-02 04:06:37.160 D/dalvikvm( 1160): GC_CONCURRENT freed 504K, 76% free 1412K/5763K, paused 0ms+1ms
+01-02 04:06:37.304 D/dalvikvm( 1160): GC_CONCURRENT freed 488K, 78% free 1321K/5763K, paused 1ms+1ms
+01-02 04:06:37.548 D/dalvikvm( 1160): GC_CONCURRENT freed 402K, 78% free 1303K/5763K, paused 0ms+1ms
+01-02 04:06:37.700 D/dalvikvm( 1160): GC_CONCURRENT freed 396K, 76% free 1409K/5763K, paused 1ms+1ms
+01-02 04:06:37.852 D/dalvikvm( 1160): GC_CONCURRENT freed 485K, 76% free 1422K/5763K, paused 0ms+1ms
+01-02 04:06:37.992 D/MonitorCw880( 1492): Current Remote Host is null, continue, counter=0
+01-02 04:06:38.096 D/dalvikvm( 1160): GC_CONCURRENT freed 514K, 78% free 1299K/5763K, paused 1ms+1ms
+01-02 04:06:38.248 D/dalvikvm( 1160): GC_CONCURRENT freed 378K, 76% free 1421K/5763K, paused 1ms+1ms
+01-02 04:06:38.396 D/dalvikvm( 1160): GC_CONCURRENT freed 511K, 78% free 1323K/5763K, paused 1ms+1ms
+01-02 04:06:38.532 D/dalvikvm( 1160): GC_CONCURRENT freed 399K, 78% free 1315K/5763K, paused 1ms+1ms
+01-02 04:06:38.992 D/MonitorCw880( 1492): Current Remote Host is null, continue, counter=0
+01-02 04:06:39.992 D/MonitorCw880( 1492): Current Remote Host is null, continue, counter=0
+01-02 04:06:40.792 D/dalvikvm( 1160): GC_CONCURRENT freed 404K, 77% free 1326K/5763K, paused 1ms+1ms
+01-02 04:06:40.792 D/HomePlayerLib( 1160): hostaddress count is 2
+01-02 04:06:40.848 D/dalvikvm( 1160): GC_CONCURRENT freed 422K, 78% free 1299K/5763K, paused 1ms+1ms
+01-02 04:06:40.904 D/dalvikvm( 1160): GC_CONCURRENT freed 389K, 78% free 1313K/5763K, paused 1ms+2ms
+01-02 04:06:40.976 D/dalvikvm( 1160): GC_CONCURRENT freed 445K, 77% free 1375K/5763K, paused 1ms+1ms
+01-02 04:06:40.992 D/MonitorCw880( 1492): Current Remote Host is null, continue, counter=0
+01-02 04:06:41.032 W/ThrottleService(  950): unable to find stats for iface rmnet0
+01-02 04:06:41.088 D/dalvikvm( 1160): GC_CONCURRENT freed 471K, 77% free 1326K/5763K, paused 1ms+1ms
+01-02 04:06:41.104 D/dalvikvm(  950): GC_CONCURRENT freed 947K, 58% free 3974K/9347K, paused 2ms+4ms
+01-02 04:06:41.220 D/dalvikvm( 1160): GC_CONCURRENT freed 416K, 78% free 1319K/5763K, paused 1ms+1ms
+01-02 04:06:41.316 D/dalvikvm( 1160): GC_CONCURRENT freed 396K, 78% free 1317K/5763K, paused 1ms+1ms
+01-02 04:06:41.360 D/dalvikvm( 1160): GC_CONCURRENT freed 392K, 78% free 1319K/5763K, paused 1ms+1ms
+01-02 04:06:41.460 D/dalvikvm( 1160): GC_CONCURRENT freed 390K, 78% free 1314K/5763K, paused 1ms+1ms
+01-02 04:06:41.516 D/dalvikvm( 1160): GC_CONCURRENT freed 385K, 77% free 1332K/5763K, paused 1ms+1ms
+01-02 04:06:41.560 D/dalvikvm( 1160): GC_CONCURRENT freed 426K, 78% free 1319K/5763K, paused 1ms+1ms
+01-02 04:06:41.704 D/dalvikvm( 1160): GC_CONCURRENT freed 408K, 78% free 1307K/5763K, paused 1ms+1ms
+01-02 04:06:41.836 D/dalvikvm( 1160): GC_CONCURRENT freed 375K, 77% free 1328K/5763K, paused 0ms+1ms
+01-02 04:06:41.988 D/dalvikvm( 1160): GC_CONCURRENT freed 407K, 76% free 1401K/5763K, paused 1ms+1ms
+01-02 04:06:41.996 D/MonitorCw880( 1492): Current Remote Host is null, continue, counter=0
+01-02 04:06:42.056 D/dalvikvm( 1160): GC_CONCURRENT freed 475K, 76% free 1424K/5763K, paused 1ms+1ms
+01-02 04:06:42.144 D/dalvikvm( 1160): GC_CONCURRENT freed 512K, 77% free 1326K/5763K, paused 1ms+1ms
+01-02 04:06:42.392 D/dalvikvm( 1160): GC_CONCURRENT freed 418K, 76% free 1420K/5763K, paused 1ms+1ms
+01-02 04:06:42.544 D/dalvikvm( 1160): GC_CONCURRENT freed 492K, 76% free 1439K/5763K, paused 1ms+1ms
+01-02 04:06:42.688 D/dalvikvm( 1160): GC_CONCURRENT freed 516K, 78% free 1321K/5763K, paused 0ms+0ms
+01-02 04:06:42.996 D/MonitorCw880( 1492): Current Remote Host is null, continue, counter=0
+01-02 04:06:43.996 D/MonitorCw880( 1492): Current Remote Host is null, continue, counter=0
+01-02 04:06:44.996 D/MonitorCw880( 1492): Current Remote Host is null, continue, counter=0
+01-02 04:06:45.996 D/MonitorCw880( 1492): Current Remote Host is null, continue, counter=0
+01-02 04:06:46.996 D/MonitorCw880( 1492): Current Remote Host is null, continue, counter=0
+01-02 04:06:47.996 D/MonitorCw880( 1492): Current Remote Host is null, continue, counter=0
+01-02 04:06:48.996 D/MonitorCw880( 1492): Current Remote Host is null, continue, counter=0
+01-02 04:06:49.972 D/AuthService( 1238): state = 65534
+01-02 04:06:49.972 D/AuthTask( 1238): -------------------------------
+01-02 04:06:49.972 D/AuthTask( 1238): Start to getDeviceId by MAC = 84:62:23:08:00:5a
+01-02 04:06:50.000 D/MonitorCw880( 1492): Current Remote Host is null, continue, counter=0
+01-02 04:06:51.000 D/MonitorCw880( 1492): Current Remote Host is null, continue, counter=0
+01-02 04:06:52.000 D/MonitorCw880( 1492): Current Remote Host is null, continue, counter=0
+01-02 04:06:52.436 D/dalvikvm( 1160): GC_CONCURRENT freed 413K, 78% free 1299K/5763K, paused 2ms+1ms
+01-02 04:06:52.456 D/HomePlayerLib( 1160): hostaddress count is 2
+01-02 04:06:52.504 D/dalvikvm( 1160): GC_CONCURRENT freed 414K, 76% free 1391K/5763K, paused 1ms+1ms
+01-02 04:06:52.568 D/dalvikvm( 1160): GC_CONCURRENT freed 469K, 77% free 1363K/5763K, paused 1ms+0ms
+01-02 04:06:52.636 D/dalvikvm( 1160): GC_CONCURRENT freed 455K, 78% free 1299K/5763K, paused 1ms+1ms
+01-02 04:06:52.728 D/dalvikvm( 1160): GC_CONCURRENT freed 378K, 78% free 1305K/5763K, paused 1ms+1ms
+01-02 04:06:52.904 D/dalvikvm( 1160): GC_CONCURRENT freed 382K, 76% free 1402K/5763K, paused 1ms+1ms
+01-02 04:06:52.952 D/dalvikvm( 1160): GC_CONCURRENT freed 478K, 76% free 1394K/5763K, paused 1ms+1ms
+01-02 04:06:53.000 D/MonitorCw880( 1492): Current Remote Host is null, continue, counter=0
+01-02 04:06:53.160 D/dalvikvm( 1160): GC_CONCURRENT freed 485K, 78% free 1304K/5763K, paused 1ms+1ms
+01-02 04:06:53.200 D/dalvikvm( 1160): GC_CONCURRENT freed 384K, 78% free 1318K/5763K, paused 1ms+1ms
+01-02 04:06:53.332 D/dalvikvm( 1160): GC_CONCURRENT freed 392K, 76% free 1438K/5763K, paused 1ms+1ms
+01-02 04:06:53.392 D/dalvikvm( 1160): GC_CONCURRENT freed 506K, 75% free 1443K/5763K, paused 1ms+1ms
+01-02 04:06:53.528 D/dalvikvm( 1160): GC_CONCURRENT freed 525K, 76% free 1417K/5763K, paused 1ms+1ms
+01-02 04:06:53.568 D/dalvikvm( 1160): GC_CONCURRENT freed 496K, 78% free 1316K/5763K, paused 1ms+1ms
+01-02 04:06:53.708 D/dalvikvm( 1160): GC_CONCURRENT freed 395K, 78% free 1306K/5763K, paused 1ms+1ms
+01-02 04:06:53.800 D/dalvikvm( 1160): GC_CONCURRENT freed 393K, 78% free 1314K/5763K, paused 1ms+1ms
+01-02 04:06:53.852 D/dalvikvm( 1160): GC_CONCURRENT freed 403K, 78% free 1320K/5763K, paused 1ms+1ms
+01-02 04:06:54.000 D/MonitorCw880( 1492): Current Remote Host is null, continue, counter=0
+01-02 04:06:54.104 D/dalvikvm( 1160): GC_CONCURRENT freed 410K, 78% free 1295K/5763K, paused 1ms+1ms
+01-02 04:06:54.244 D/dalvikvm( 1160): GC_CONCURRENT freed 377K, 78% free 1314K/5763K, paused 1ms+1ms
+01-02 04:06:54.384 D/dalvikvm( 1160): GC_CONCURRENT freed 394K, 78% free 1314K/5763K, paused 1ms+1ms
+01-02 04:06:55.000 D/MonitorCw880( 1492): Current Remote Host is null, continue, counter=0
+01-02 04:06:56.000 D/MonitorCw880( 1492): Current Remote Host is null, continue, counter=0
+01-02 04:06:57.000 D/MonitorCw880( 1492): Current Remote Host is null, continue, counter=0
+01-02 04:06:57.896 D/dalvikvm( 1160): GC_CONCURRENT freed 391K, 78% free 1314K/5763K, paused 1ms+1ms
+01-02 04:06:58.000 D/MonitorCw880( 1492): Current Remote Host is null, continue, counter=0
+01-02 04:06:58.048 D/dalvikvm( 1160): GC_CONCURRENT freed 392K, 78% free 1314K/5763K, paused 1ms+1ms
+01-02 04:06:58.204 D/dalvikvm( 1160): GC_CONCURRENT freed 393K, 78% free 1314K/5763K, paused 1ms+1ms
+01-02 04:06:58.364 D/dalvikvm( 1160): GC_CONCURRENT freed 393K, 78% free 1315K/5763K, paused 1ms+2ms
+01-02 04:06:58.508 D/dalvikvm( 1160): GC_CONCURRENT freed 392K, 78% free 1316K/5763K, paused 1ms+2ms
+01-02 04:06:58.652 D/dalvikvm( 1160): GC_CONCURRENT freed 392K, 78% free 1316K/5763K, paused 1ms+1ms
+01-02 04:06:58.924 D/dalvikvm( 1160): GC_CONCURRENT freed 402K, 77% free 1329K/5763K, paused 1ms+3ms
+01-02 04:06:59.000 D/MonitorCw880( 1492): Current Remote Host is null, continue, counter=0
+01-02 04:06:59.084 D/dalvikvm( 1160): GC_CONCURRENT freed 409K, 76% free 1420K/5763K, paused 1ms+1ms
+01-02 04:06:59.236 D/dalvikvm( 1160): GC_CONCURRENT freed 509K, 76% free 1403K/5763K, paused 1ms+1ms
+01-02 04:06:59.488 D/dalvikvm( 1160): GC_CONCURRENT freed 489K, 76% free 1414K/5763K, paused 1ms+1ms
+01-02 04:06:59.636 D/dalvikvm( 1160): GC_CONCURRENT freed 490K, 78% free 1315K/5763K, paused 1ms+1ms
+01-02 04:07:00.000 D/MonitorCw880( 1492): Current Remote Host is null, continue, counter=0
+01-02 04:07:01.000 D/MonitorCw880( 1492): Current Remote Host is null, continue, counter=0
+01-02 04:07:02.000 D/MonitorCw880( 1492): Current Remote Host is null, continue, counter=0
+01-02 04:07:03.004 D/MonitorCw880( 1492): Current Remote Host is null, continue, counter=0
+01-02 04:07:04.004 D/MonitorCw880( 1492): Current Remote Host is null, continue, counter=0
+01-02 04:07:04.060 D/HomePlayerLib( 1160): hostaddress count is 2
+01-02 04:07:04.064 D/dalvikvm( 1160): GC_CONCURRENT freed 405K, 76% free 1413K/5763K, paused 1ms+1ms
+01-02 04:07:04.112 D/dalvikvm( 1160): GC_CONCURRENT freed 503K, 78% free 1300K/5763K, paused 1ms+2ms
+01-02 04:07:04.172 D/dalvikvm( 1160): GC_CONCURRENT freed 390K, 77% free 1354K/5763K, paused 1ms+1ms
+01-02 04:07:04.220 D/dalvikvm( 1160): GC_CONCURRENT freed 446K, 78% free 1292K/5763K, paused 1ms+3ms
+01-02 04:07:04.344 D/dalvikvm( 1160): GC_CONCURRENT freed 378K, 76% free 1419K/5763K, paused 1ms+1ms
+01-02 04:07:04.544 D/dalvikvm( 1160): GC_CONCURRENT freed 510K, 78% free 1320K/5763K, paused 1ms+1ms
+01-02 04:07:04.612 D/dalvikvm( 1160): GC_CONCURRENT freed 395K, 78% free 1318K/5763K, paused 1ms+1ms
+01-02 04:07:04.696 D/dalvikvm( 1160): GC_CONCURRENT freed 393K, 78% free 1317K/5763K, paused 1ms+1ms
+01-02 04:07:04.772 D/dalvikvm( 1160): GC_CONCURRENT freed 392K, 77% free 1360K/5763K, paused 1ms+1ms
+01-02 04:07:04.836 D/dalvikvm( 1160): GC_CONCURRENT freed 431K, 76% free 1412K/5763K, paused 0ms+1ms
+01-02 04:07:04.932 D/dalvikvm( 1160): GC_CONCURRENT freed 499K, 78% free 1315K/5763K, paused 1ms+1ms
+01-02 04:07:04.992 D/dalvikvm( 1160): GC_CONCURRENT freed 400K, 78% free 1319K/5763K, paused 1ms+1ms
+01-02 04:07:05.004 D/MonitorCw880( 1492): Current Remote Host is null, continue, counter=0
+01-02 04:07:05.088 D/dalvikvm( 1160): GC_CONCURRENT freed 399K, 78% free 1317K/5763K, paused 0ms+2ms
+01-02 04:07:05.168 D/dalvikvm( 1160): GC_CONCURRENT freed 392K, 78% free 1318K/5763K, paused 1ms+1ms
+01-02 04:07:05.316 D/dalvikvm( 1160): GC_CONCURRENT freed 404K, 78% free 1316K/5763K, paused 1ms+1ms
+01-02 04:07:05.456 D/dalvikvm( 1160): GC_CONCURRENT freed 394K, 78% free 1315K/5763K, paused 1ms+1ms
+01-02 04:07:05.572 D/dalvikvm( 1160): GC_CONCURRENT freed 404K, 78% free 1315K/5763K, paused 1ms+1ms
+01-02 04:07:05.728 D/dalvikvm( 1160): GC_CONCURRENT freed 407K, 78% free 1293K/5763K, paused 1ms+1ms
+01-02 04:07:05.864 D/dalvikvm( 1160): GC_CONCURRENT freed 376K, 78% free 1314K/5763K, paused 1ms+1ms
+01-02 04:07:06.004 D/MonitorCw880( 1492): Current Remote Host is null, continue, counter=0
+01-02 04:07:06.004 D/dalvikvm( 1160): GC_CONCURRENT freed 395K, 78% free 1314K/5763K, paused 1ms+1ms
+01-02 04:07:07.004 D/MonitorCw880( 1492): Current Remote Host is null, continue, counter=0
+01-02 04:07:08.004 D/MonitorCw880( 1492): Current Remote Host is null, continue, counter=0
+01-02 04:07:09.004 D/MonitorCw880( 1492): Current Remote Host is null, continue, counter=0
+01-02 04:07:10.004 D/MonitorCw880( 1492): Current Remote Host is null, continue, counter=0
+01-02 04:07:11.004 D/MonitorCw880( 1492): Current Remote Host is null, continue, counter=0
+01-02 04:07:12.004 D/MonitorCw880( 1492): Current Remote Host is null, continue, counter=0
+01-02 04:07:13.004 D/MonitorCw880( 1492): Current Remote Host is null, continue, counter=0
+01-02 04:07:14.004 D/MonitorCw880( 1492): Current Remote Host is null, continue, counter=0
+^C

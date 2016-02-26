@@ -1,0 +1,740 @@
+D/HomePlayerLib( 1365): hostaddress count is 1
+D/dalvikvm( 1365): GC_CONCURRENT freed 405K, 76% free 1421K/5827K, paused 1ms+1ms
+D/dalvikvm( 1365): GC_CONCURRENT freed 503K, 76% free 1427K/5827K, paused 1ms+1ms
+D/dalvikvm( 1365): GC_CONCURRENT freed 500K, 76% free 1402K/5827K, paused 1ms+1ms
+D/dalvikvm( 1365): GC_CONCURRENT freed 471K, 78% free 1321K/5827K, paused 1ms+1ms
+D/dalvikvm( 1365): GC_CONCURRENT freed 402K, 76% free 1423K/5827K, paused 1ms+1ms
+D/dalvikvm( 1365): GC_CONCURRENT freed 488K, 78% free 1339K/5827K, paused 1ms+1ms
+D/dalvikvm( 1365): GC_CONCURRENT freed 420K, 78% free 1308K/5827K, paused 1ms+1ms
+D/dalvikvm( 1365): GC_CONCURRENT freed 393K, 77% free 1389K/5827K, paused 1ms+1ms
+D/dalvikvm( 1365): GC_CONCURRENT freed 470K, 76% free 1431K/5827K, paused 1ms+1ms
+
+[ 3994.099302] IR: [03932] scan key value is 0xec13c936 
+[ 3994.099307]  I/MainActivity( 1260): CIBN ---> onClick -> 52059
+I/ActivityManager(  967): START {flg=0x10000000 cmp=com.coship.dvbsetting/.main} from pid 1260
+D/dalvikvm(  967): GC_FOR_ALLOC freed 551K, 65% free 4091K/11459K, paused 41ms
+I/dalvikvm-heap(  967): Grow heap (frag case) to 8.596MB for 1048592-byte allocation
+D/dalvikvm(  967): GC_FOR_ALLOC freed 25K, 56% free 5090K/11459K, paused 37ms
+D/dalvikvm(  967): GC_CONCURRENT freed 6K, 56% free 5148K/11459K, paused 2ms+4ms
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+I/ActivityManager(  967): Start proc com.coship.dvbsetting for activity com.coship.dvbsetting/.main: pid=3234 uid=1000 gids={3003, 1015, 3002, 3001, 3004}
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+D/OpenGLRenderer( 1260): Flushing caches (mode 1)
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+D/OpenGLRenderer( 1260): Flushing caches (mode 0)
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+D/dalvikvm( 3234): GC_FOR_ALLOC freed 64K, 43% free 6650K/11651K, paused 28ms
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+I/dalvikvm-heap( 3234): Grow heap (frag case) to 18.005MB for 8294416-byte allocation
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+D/dalvikvm( 3234): GC_CONCURRENT freed 1K, 26% free 14749K/19779K, paused 2ms+2ms
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+I/main_setcenter( 3234): product model ro.product.model = S1001
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+V/TabletStatusBar( 1156): setLightsOn(true)
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+I/Process (  967): Sending signal. PID: 3234 SIG: 3
+I/dalvikvm( 3234): threadid=3: reacting to signal 3
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+I/dalvikvm( 3234): Wrote stack traces to '/data/anr/traces.txt'
+W/InputManagerService(  967): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@415d59c8 (uid=10006 pid=1260)
+I/ActivityManager(  967): Displayed com.coship.dvbsetting/.main: +683ms
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+
+[ 3995.714090] IR: [03932] scan key value is 0xeb14c936 
+[ 3995.714095]  I/main_setcenter( 3234): BackDoorIndex:0
+I/main_setcenter( 3234): BackDoorKey[BackDoorIndex]:21
+I/main_setcenter( 3234): KeyCode:22
+
+[ 3995.765020] IR: [03932] scan key value is 0xeb14c936 
+[ 3995.765025]  E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+
+[ 3996.070994] IR: [03932] scan key value is 0xec13c936 
+[ 3996.070998]  I/main_setcenter( 3234): BackDoorIndex:0
+I/main_setcenter( 3234): BackDoorKey[BackDoorIndex]:21
+I/main_setcenter( 3234): KeyCode:66
+I/ActivityManager(  967): START {cmp=com.coship.dvbsetting/.systemsetting.SyssetAcivity} from pid 3234
+D/dalvikvm( 3234): GC_FOR_ALLOC freed 88K, 25% free 15089K/19971K, paused 25ms
+I/dalvikvm-heap( 3234): Grow heap (frag case) to 26.246MB for 8294416-byte allocation
+D/dalvikvm( 3234): GC_CONCURRENT freed 3K, 18% free 23186K/28099K, paused 2ms+3ms
+I/inputMethod( 3234): ----------mo ren shurufa-------------com.android.inputmethod.pinyin/.PinyinIME
+I/inputMethod( 3234): -----mLastInputMethodId.equals(id)-----id=com.android.inputmethod.pinyin/.PinyinIME
+I/SyssetAcivity( 3234): product model ro.product.model = S1001
+I/Resolution( 3234):  ---------------------- getgetprop persist.sys.resolution---------defvalue=2
+W/ResourceType( 3234): getEntry failing because entryIndex 129 is beyond type entryCount 1
+I/Storage ( 3234): ----------getPath()=/data
+I/Storage ( 3234): ----------totalBlocks=831MB
+I/Storage ( 3234): ----------availableBlocks_sd=731MB
+I/Storage ( 3234): ----------surplusBlocks_sd=99.49MB
+I/Storage ( 3234): ----------getPath()=/mnt/usb/sda1
+I/Storage ( 3234): ----------totalBlocks=298GB
+I/Storage ( 3234): ----------availableBlocks_sd=211GB
+I/Storage ( 3234): ----------surplusBlocks_sd=87.39GB
+I/Storage ( 3234): -----------------------usbpath=/mnt/usb/sda1
+I/Storage ( 3234): &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& storagenumber=2----pagination=1
+I/NetUpdate( 3234): mSwv--->211313
+I/EthernetManager( 3234): Init Ethernet Manager, service: android.net.ethernet.IEthernetManager$Stub$Proxy@4176de00
+I/Process (  967): Sending signal. PID: 3234 SIG: 3
+I/dalvikvm( 3234): threadid=3: reacting to signal 3
+I/dalvikvm( 3234): Wrote stack traces to '/data/anr/traces.txt'
+I/PppoeManager( 3234): create PppoeManager
+D/dalvikvm( 3234): GC_FOR_ALLOC freed 122K, 15% free 24601K/28867K, paused 30ms
+V/TabletStatusBar( 1156): setLightsOn(true)
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+I/ActivityManager(  967): Displayed com.coship.dvbsetting/.systemsetting.SyssetAcivity: +832ms
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+D/dalvikvm( 1365): GC_CONCURRENT freed 516K, 76% free 1421K/5827K, paused 1ms+1ms
+D/HomePlayerLib( 1365): hostaddress count is 1
+D/dalvikvm( 1365): GC_CONCURRENT freed 504K, 77% free 1397K/5827K, paused 1ms+1ms
+D/dalvikvm( 1365): GC_CONCURRENT freed 487K, 76% free 1403K/5827K, paused 1ms+1ms
+D/dalvikvm( 1365): GC_CONCURRENT freed 471K, 77% free 1367K/5827K, paused 1ms+1ms
+D/dalvikvm( 1365): GC_CONCURRENT freed 455K, 78% free 1296K/5827K, paused 1ms+0ms
+D/dalvikvm( 1365): GC_CONCURRENT freed 418K, 77% free 1384K/5827K, paused 1ms+1ms
+D/dalvikvm( 1365): GC_CONCURRENT freed 424K, 75% free 1469K/5827K, paused 1ms+1ms
+D/dalvikvm( 1365): GC_CONCURRENT freed 558K, 78% free 1318K/5827K, paused 1ms+1ms
+D/dalvikvm( 1365): GC_CONCURRENT freed 397K, 78% free 1316K/5827K, paused 1ms+1ms
+D/dalvikvm( 1365): GC_CONCURRENT freed 394K, 78% free 1316K/5827K, paused 1ms+1ms
+D/dalvikvm( 1365): GC_CONCURRENT freed 403K, 78% free 1301K/5827K, paused 1ms+1ms
+D/HomePlayerLib( 1365): hostaddress count is 1
+D/dalvikvm( 1365): GC_CONCURRENT freed 387K, 77% free 1396K/5827K, paused 1ms+1ms
+D/dalvikvm( 1365): GC_CONCURRENT freed 480K, 76% free 1416K/5827K, paused 1ms+1ms
+D/dalvikvm( 1365): GC_CONCURRENT freed 485K, 76% free 1427K/5827K, paused 1ms+1ms
+D/dalvikvm( 1365): GC_CONCURRENT freed 514K, 77% free 1342K/5827K, paused 0ms+1ms
+D/dalvikvm( 1365): GC_CONCURRENT freed 415K, 78% free 1321K/5827K, paused 1ms+1ms
+D/dalvikvm( 1365): GC_CONCURRENT freed 395K, 76% free 1425K/5827K, paused 1ms+0ms
+D/dalvikvm( 1365): GC_CONCURRENT freed 512K, 78% free 1306K/5827K, paused 0ms+1ms
+D/dalvikvm( 1365): GC_CONCURRENT freed 396K, 78% free 1304K/5827K, paused 1ms+1ms
+D/dalvikvm( 1365): GC_CONCURRENT freed 394K, 78% free 1334K/5827K, paused 1ms+1ms
+
+[ 4015.392359] IR: [03932] scan key value is 0xea15c936 
+[ 4015.392364]  
+[ 4015.444172] IR: [03932] scan key value is 0xea15c936 
+[ 4015.444177]  E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+
+[ 4015.763787] IR: [03932] scan key value is 0xea15c936 
+[ 4015.763792]  
+[ 4015.815575] IR: [03932] scan key value is 0xea15c936 
+[ 4015.815580]  I/System.out( 3234): locale ++++++++++++中文 (中国)
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+
+[ 4016.126720] IR: [03932] scan key value is 0xea15c936 
+[ 4016.126725]  
+[ 4016.178525] IR: [03932] scan key value is 0xea15c936 
+[ 4016.178535]  E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+
+[ 4016.352570] IR: [03932] scan key value is 0xea15c936 
+[ 4016.352575]  
+[ 4016.404334] IR: [03932] scan key value is 0xea15c936 
+[ 4016.404339]  E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+
+[ 4016.514518] IR: [03932] scan key value is 0xea15c936 
+[ 4016.514523]  E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+
+[ 4016.624658] IR: [03932] scan key value is 0xea15c936 
+[ 4016.624662]  
+[ 4016.734693] IR: [03932] scan key value is 0xea15c936 
+[ 4016.734698]  
+[ 4016.844845] IR: [03932] scan key value is 0xea15c936 
+[ 4016.844849]  E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+
+[ 4016.954998] IR: [03932] scan key value is 0xea15c936 
+[ 4016.955003]  E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+
+[ 4017.065043] IR: [03932] scan key value is 0xea15c936 
+[ 4017.065048]  I/System.out( 3234): SystemPropertiesClass--->class android.media.AudioManager
+W/System.err( 3234): java.lang.NoSuchMethodException: getBluetoothHeadsetAction []
+W/System.err( 3234):    at java.lang.Class.getConstructorOrMethod(Class.java:460)
+W/System.err( 3234):    at java.lang.Class.getMethod(Class.java:915)
+W/System.err( 3234):    at com.coship.dvbsetting.systemsetting.childview.AudioOutput.getPropertiesAction(AudioOutput.java:225)
+W/System.err( 3234):    at com.coship.dvbsetting.systemsetting.childview.AudioOutput.show(AudioOutput.java:176)
+W/System.err( 3234):    at com.coship.dvbsetting.ExpanItem.clickandselect(ExpanItem.java:199)
+W/System.err( 3234):    at com.coship.dvbsetting.ExpanItem.access$000(ExpanItem.java:33)
+W/System.err( 3234):    at com.coship.dvbsetting.ExpanItem$onitemselect.onItemSelected(ExpanItem.java:151)
+W/System.err( 3234):    at android.widget.AdapterView.fireOnSelected(AdapterView.java:882)
+W/System.err( 3234):    at android.widget.AdapterView.access$200(AdapterView.java:48)
+W/System.err( 3234):    at android.widget.AdapterView$SelectionNotifier.run(AdapterView.java:848)
+W/System.err( 3234):    at android.os.Handler.handleCallback(Handler.java:605)
+W/System.err(
+[ 4017.175195] IR: [03932] scan key value is 0xea15c936 
+[ 4017.175200]   3234):         at android.os.Handler.dispatchMessage(Handler.java:92)
+W/System.err( 3234):    at android.os.Looper.loop(Looper.java:137)
+W/System.err( 3234):    at android.app.ActivityThread.main(ActivityThread.java:4424)
+W/System.err( 3234):    at java.lang.reflect.Method.invokeNative(Native Method)
+W/System.err( 3234):    at java.lang.reflect.Method.invoke(Method.java:511)
+W/System.err( 3234):    at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:848)
+W/System.err( 3234):    at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:575)
+W/System.err( 3234):    at dalvik.system.NativeStart.main(Native Method)
+I/System.out( 3234): could not find class
+I/System.out( 3234): [AudioOutput]:status--->false
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+I/City    ( 3234): -----------------------parser.getName()--------shenzhen
+I/City    ( 3234): -----------------------parser--------深圳
+I/City    ( 3234): -----------------------parser.getName()--------wuhan
+I/City    ( 3234): -----------------------parser--------武汉
+I/City    ( 3234): -----
+[ 4017.285325] IR: [03932] scan key value is 0xea15c936 
+[ 4017.285330]  ------------------parser.getName()--------beijing
+I/City    ( 3234): -----------------------parser--------北京
+I/City    ( 3234): -----------------------parser.getName()--------nanning
+I/City    ( 3234): -----------------------parser--------南宁
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+
+[ 4017.395377] IR: [03932] scan key value is 0xea15c936 
+[ 4017.395382]  E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+
+[ 4017.505521] IR: [03932] scan key value is 0xea15c936 
+[ 4017.505526]  E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+V/NetUpdate( 3234): mBindRemote--->true
+V/NetUpdate( 3234): Remote Invoke Success!
+V/NetFirmwareService( 3218): onBind
+I/NetUpdate( 3234): --------------show()------------------
+
+[ 4017.615611] IR: [03932] scan key value is 0xea15c936 
+[ 4017.615615]  I/NetUpdate( 3234): --------------hide()------------------
+I/UsbUpdate( 3234): --------------show()------------------
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+I/VersionInfo( 3234): ----------------show()-----------------
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+
+[ 4018.090091] IR: [03932] scan key value is 0xee11c936 
+[ 4018.090096]  E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+
+[ 4018.290175] IR: [03932] scan key value is 0xee11c936 
+[ 4018.290180]  
+[ 4018.341619] IR: [03932] scan key value is 0xee11c936 
+[ 4018.341625]  E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+I/UsbUpdate( 3234): --------------show()------------------
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+
+[ 4018.577045] IR: [03932] scan key value is 0xee11c936 
+[ 4018.577050]  E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+
+[ 4018.629168] IR: [03932] scan key value is 0xee11c936 
+[ 4018.629173]  V/NetUpdate( 3234): mBindRemote--->true
+V/NetUpdate( 3234): Remote Invoke Success!
+I/NetUpdate( 3234): --------------show()------------------
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+
+[ 4019.143197] IR: [03932] scan key value is 0xeb14c936 
+[ 4019.143203]  
+[ 4019.194141] IR: [03932] scan key value is 0xeb14c936 
+[ 4019.194146]  E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+D/InputEventConsistencyVerifier( 3234): KeyEvent: ACTION_UP but key was not down.
+D/InputEventConsistencyVerifier( 3234):   in android.widget.LinearLayout@416670d8
+D/InputEventConsistencyVerifier( 3234):   0: sent at 4019364000000, KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_RIGHT, scanCode=106, metaState=0, flags=0x8, repeatCount=0, eventTime=4019364, downTime=4019148, deviceId=1, source=0x101 }
+
+[ 4019.498845] IR: [03932] scan key value is 0xec13c936 
+[ 4019.498850]  V/NetFirmwareService( 3218): onStartCommand
+V/NetFirmwareService( 3218): intent--->Intent { act=com.coship.netfirmware.NetFirmwareService (has extras) }
+V/NetFirmwareService( 3218): Network is connected!
+I/NetFirmwareService( 3218): initPromtDialog_SHOW!
+D/dalvikvm( 3218): GC_FOR_ALLOC freed 536K, 44% free 6604K/11651K, paused 29ms
+I/dalvikvm-heap( 3218): Grow heap (frag case) to 11.437MB for 1455120-byte allocation
+D/dalvikvm( 3218): GC_FOR_ALLOC freed 1K, 39% free 8024K/13123K, paused 26ms
+E/WindowManager(  967): Unknown window type: 2131099651
+V/TabletStatusBar( 1156): setLightsOn(true)
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+W/InputManagerService(  967): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@416702a0 (uid=1000 pid=3234)
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+V/NetFirmwareService( 3218): mServicePath--->http://172.21.11.65/mstar
+I/NetFirmwareService( 3218): mHwvStr--->002104
+I/NetFirmwareService( 3218): mSwv--->211313
+I/FileUtils( 3218): mkFilePath--->/data/data/com.coship.netfirmware/versioncode.dat
+V/HttpDownLoad( 3218): InputStream_input--->libcore.net.http.FixedLengthInputStream@41826188
+I/FileUtils( 3218): mkdirPath--->/data/data/com.coship.netfirmware/
+I/FileUtils( 3218): createNewFilePath--->/data/data/com.coship.netfirmware/versioncode.dat
+I/FileUtils( 3218): file--->versioncode.dat
+I/HttpDownLoad( 3218): resultFile--->/data/data/com.coship.netfirmware/versioncode.dat
+I/NetFirmwareService( 3218): v--->211313
+I/NetFirmwareService( 3218): q--->00001
+I/NetFirmwareService( 3218): c--->00001
+I/FileUtils( 3218): mkFilePath--->/data/data/com.coship.netfirmware/description_211313.dat
+V/HttpDownLoad( 3218): InputStream_input--->libcore.net.http.FixedLengthInputStream@4186c030
+I/FileUtils( 3218): mkdirPath--->/data/data/com.coship.netfirmware/
+I/FileUtils( 3218): createNewFilePath--->/data/data/com.coship.netfirmware/description_211313.dat
+I/FileUtils( 3218): file--->description_211313.dat
+I/HttpDownLoad( 3218): resultFile--->/data/data/com.coship.netfirmware/description_211313.dat
+I/NetFirmwareService( 3218): packageSize--->180759459
+I/NetFirmwareService( 3218): MD5--->E309EF1D1DE278F9EE735D95CFF50E87
+I/NetFirmwareService( 3218): changeHistory--->飞播CIBN新版软件;版本号211313
+V/NetFirmwareService( 3218): MSG_LOAD_DAT_STATUS_mNetUpdate--->true
+D/NetFirmwareService( 3218): Network Connection Success!
+D/NetFirmwareService( 3218): Upgrade File Load Success!
+D/NetFirmwareService( 3218): serverURL = www.stp_firmware.coship.com
+D/NetFirmwareService( 3218): CheckUpgradeTimer mCheckTime = 5
+D/NetFirmwareService( 3218): startTimer
+D/NetFirmwareService( 3218): removeTimer
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+D/dalvikvm( 3234): GC_CONCURRENT freed 549K, 15% free 25984K/30275K, paused 2ms+4ms
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+V/NetUpdate( 3234): [onClick]:mWriteSD--->true
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+D/dalvikvm( 3218): GC_CONCURRENT freed 1861K, 41% free 8103K/13699K, paused 2ms+2ms
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+D/dalvikvm( 1365): GC_CONCURRENT freed 423K, 76% free 1409K/5827K, paused 16ms+12ms
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+D/HomePlayerLib( 1365): hostaddress count is 1
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+D/dalvikvm( 1365): GC_CONCURRENT freed 496K, 76% free 1410K/5827K, paused 4ms+14ms
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+D/dalvikvm( 1365): GC_CONCURRENT freed 494K, 77% free 1398K/5827K, paused 1ms+1ms
+D/dalvikvm( 3234): GC_CONCURRENT freed 1968K, 18% free 25982K/31683K, paused 2ms+4ms
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+D/dalvikvm( 1365): GC_CONCURRENT freed 480K, 76% free 1449K/5827K, paused 1ms+4ms
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+D/dalvikvm( 1365): GC_CONCURRENT freed 509K, 76% free 1451K/5827K, paused 12ms+7ms
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+D/dalvikvm( 1365): GC_CONCURRENT freed 536K, 76% free 1417K/5827K, paused 11ms+8ms
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+D/dalvikvm( 1365): GC_CONCURRENT freed 466K, 75% free 1462K/5827K, paused 1ms+1ms
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+D/NetFirmwareService( 3218): MSG_CREATE_CHECK_THREAD
+D/NetFirmwareService( 3218): MSG_GET_VERSION_CODE
+D/NetFirmwareService( 3218): Download URL = http://172.21.11.65/mstar/002104/versioncode.dat
+D/NetFirmwareService( 3218): Save file in path = /data/data/com.coship.netfirmware/versionCode.dat
+D/NetFirmwareService( 3218): Set download thread number = 2
+D/DownloadTask( 3218): mDesFilePath =/data/data/com.coship.netfirmware/versionCode.dat
+D/DownloadTask( 3218): mRecordFile =/data/data/com.coship.netfirmware/versionCode.dat.cdl.Record
+D/DownloadTask( 3218): mfilePath =/data/data/com.coship.netfirmware/versionCode.dat.cdl
+I/DownloadTask( 3218): Date:Fri, 12 Apr 2013 15:44:14 GMT
+I/DownloadTask( 3218): Server:Apache/2.2.11 (Unix)
+I/DownloadTask( 3218): Last-Modified:Fri, 12 Apr 2013 12:09:41 GMT
+I/DownloadTask( 3218): ETag:"138004-21-4da28c71dab40"
+I/DownloadTask( 3218): Accept-Ranges:bytes
+I/DownloadTask( 3218): Content-Length:33
+I/DownloadTask( 3218): Keep-Alive:timeout=5, max=100
+I/DownloadTask( 3218): Connection:Keep-Alive
+I/DownloadTask( 3218): Content-Type:text/plain
+D/DownloadTask( 3218): server accept range
+D/DownloadTask( 3218): initTaskRecord currentSize=-1
+D/DownloadTask( 3218): totalSize=-1
+D/DownloadTask( 3218): magicID=abc
+D/DownloadTask( 3218): mCurrentSize=0
+D/DownloadTask( 3218): mTotalSize=33
+D/DownloadTask( 3218): mMagicID=null
+D/DownloadTask( 3218): The record is invalid, need reset record
+D/WriteDataInStorageThread( 3218): write file name = /data/data/com.coship.netfirmware/versionCode.dat.cdl
+D/dalvikvm( 1365): GC_CONCURRENT freed 532K, 75% free 1466K/5827K, paused 8ms+1ms
+D/dalvikvm( 3218): GC_FOR_ALLOC freed 1463K, 41% free 8179K/13699K, paused 37ms
+I/dalvikvm-heap( 3218): Grow heap (frag case) to 12.088MB for 524304-byte allocation
+D/dalvikvm( 3218): GC_FOR_ALLOC freed <1K, 40% free 8690K/14275K, paused 25ms
+V/DownloadTask( 3218): finishedThreadNum--->0
+V/DownloadTask( 3218): mThreadNum--->2
+D/NetFirmwareService( 3218): DownloadConstants.TASK_STATUS_RUNNING
+D/NetFirmwareService( 3218): MSG_VER_CODE_STATUS_CHANGE
+D/NetFirmwareService( 3218): MSG_VER_CODE_STATUS_CHANGE
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+D/dalvikvm( 3218): GC_FOR_ALLOC freed 106K, 40% free 8627K/14275K, paused 29ms
+I/dalvikvm-heap( 3218): Grow heap (frag case) to 12.525MB for 524304-byte allocation
+D/dalvikvm( 3218): GC_FOR_ALLOC freed <1K, 39% free 9139K/14851K, paused 27ms
+D/dalvikvm( 1365): GC_CONCURRENT freed 545K, 77% free 1377K/5827K, paused 1ms+1ms
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+V/DownloadThread( 3218): Accept-Ranges: bytes
+V/DownloadThread( 3218): Content-Disposition: null
+V/DownloadThread( 3218): Content-Length: 16
+V/DownloadThread( 3218): Content-Location: null
+V/DownloadThread( 3218): ETag: "138004-21-4da28c71dab40"
+V/DownloadThread( 3218): Transfer-Encoding: null
+D/WriteDataInStorageThread( 3218): sendDataInStack --data length =16 offset =0 file name = filePart0
+D/WriteDataInStorageThread( 3218): write data  Pos=0   Length =16  Thread =filePart0
+D/DownloadThread( 3218): filePart0 final status: 491
+V/DownloadThread( 3218): Accept-Ranges: bytes
+V/DownloadThread( 3218): Content-Disposition: null
+V/DownloadThread( 3218): Content-Length: 17
+V/DownloadThread( 3218): Content-Location: null
+V/DownloadThread( 3218): ETag: "138004-21-4da28c71dab40"
+V/DownloadThread( 3218): Transfer-Encoding: null
+D/WriteDataInStorageThread( 3218): sendDataInStack --data length =17 offset =16 file name = filePart1
+D/WriteDataInStorageThread( 3218): write data  Pos=16   Length =17  Thread =filePart1
+D/DownloadThread( 3218): filePart1 final status: 491
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+V/DownloadTask( 3218): finishedThreadNum--->2
+V/DownloadTask( 3218): mThreadNum--->2
+W/DownloadTask( 3218): There has a file named /data/data/com.coship.netfirmware/versionCode.dat already
+D/DownloadTask( 3218): src file = /data/data/com.coship.netfirmware/versionCode.dat.cdl --- des file=/data/data/com.coship.netfirmware/versionCode.dat
+D/NetFirmwareService( 3218): DownloadConstants.TASK_STATUS_COMPLETED
+D/NetFirmwareService( 3218): MSG_VER_CODE_STATUS_CHANGE
+D/NetFirmwareService( 3218): MSG_CHECK_VERSION_CODE
+D/NetFirmwareService( 3218): checkVersionCode
+D/NetFirmwareService( 3218): analysisVersionCodeData
+I/NetFirmwareService( 3218): mVersionCodeFile--->49
+D/NetFirmwareService( 3218): verCode = 211313
+D/NetFirmwareService( 3218): Description URL = null
+D/NetFirmwareService( 3218): MSG_GET_DESCRIPTION
+D/NetFirmwareService( 3218): Download URL = http://172.21.11.65/mstar/002104/description_211313.dat
+D/NetFirmwareService( 3218): Save file in path = /data/data/com.coship.netfirmware/description.dat
+D/NetFirmwareService( 3218): Set download thread number = 2
+D/DownloadTask( 3218): mDesFilePath =/data/data/com.coship.netfirmware/description.dat
+D/DownloadTask( 3218): mRecordFile =/data/data/com.coship.netfirmware/description.dat.cdl.Record
+D/DownloadTask( 3218): mfilePath =/data/data/com.coship.netfirmware/description.dat.cdl
+I/DownloadTask( 3218): Date:Fri, 12 Apr 2013 15:44:15 GMT
+I/DownloadTask( 3218): Server:Apache/2.2.11 (Unix)
+I/DownloadTask( 3218): Last-Modified:Fri, 12 Apr 2013 13:51:37 GMT
+I/DownloadTask( 3218): ETag:"138005-101-4da2a33a86c40"
+I/DownloadTask( 3218): Accept-Ranges:bytes
+I/DownloadTask( 3218): Content-Length:257
+I/DownloadTask( 3218): Keep-Alive:timeout=5, max=100
+I/DownloadTask( 3218): Connection:Keep-Alive
+I/DownloadTask( 3218): Content-Type:text/plain
+D/DownloadTask( 3218): server accept range
+D/DownloadTask( 3218): initTaskRecord currentSize=-1
+D/DownloadTask( 3218): totalSize=-1
+D/DownloadTask( 3218): magicID=abc
+D/DownloadTask( 3218): mCurrentSize=0
+D/DownloadTask( 3218): mTotalSize=257
+D/DownloadTask( 3218): mMagicID=null
+D/DownloadTask( 3218): The record is invalid, need reset record
+D/WriteDataInStorageThread( 3218): write file name = /data/data/com.coship.netfirmware/description.dat.cdl
+D/dalvikvm( 3218): GC_FOR_ALLOC freed 916K, 38% free 9215K/14851K, paused 30ms
+I/dalvikvm-heap( 3218): Grow heap (frag case) to 13.099MB for 524304-byte allocation
+D/dalvikvm( 3218): GC_FOR_ALLOC freed 3K, 37% free 9724K/15427K, paused 24ms
+D/dalvikvm( 3218): GC_FOR_ALLOC freed 1K, 37% free 9724K/15427K, paused 25ms
+I/dalvikvm-heap( 3218): Grow heap (frag case) to 13.596MB for 524304-byte allocation
+D/dalvikvm( 3218): GC_FOR_ALLOC freed 26K, 37% free 10209K/16003K, paused 25ms
+V/DownloadTask( 3218): finishedThreadNum--->0
+V/DownloadTask( 3218): mThreadNum--->2
+D/NetFirmwareService( 3218): MSG_DESCRIPT_STATUS_CHANGE
+D/NetFirmwareService( 3218): MSG_DESCRIPT_STATUS_CHANGE
+V/DownloadThread( 3218): Accept-Ranges: bytes
+V/DownloadThread( 3218): Content-Disposition: null
+V/DownloadThread( 3218): Content-Length: 128
+V/DownloadThread( 3218): Content-Location: null
+V/DownloadThread( 3218): ETag: "138005-101-4da2a33a86c40"
+V/DownloadThread( 3218): Transfer-Encoding: null
+D/WriteDataInStorageThread( 3218): sendDataInStack --data length =128 offset =0 file name = filePart0
+D/WriteDataInStorageThread( 3218): write data  Pos=0   Length =128  Thread =filePart0
+D/DownloadThread( 3218): filePart0 final status: 491
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+V/DownloadThread( 3218): Accept-Ranges: bytes
+V/DownloadThread( 3218): Content-Disposition: null
+V/DownloadThread( 3218): Content-Length: 129
+V/DownloadThread( 3218): Content-Location: null
+V/DownloadThread( 3218): ETag: "138005-101-4da2a33a86c40"
+V/DownloadThread( 3218): Transfer-Encoding: null
+D/WriteDataInStorageThread( 3218): sendDataInStack --data length =129 offset =128 file name = filePart1
+D/WriteDataInStorageThread( 3218): write data  Pos=128   Length =129  Thread =filePart1
+D/DownloadThread( 3218): filePart1 final status: 491
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+V/DownloadTask( 3218): finishedThreadNum--->2
+V/DownloadTask( 3218): mThreadNum--->2
+W/DownloadTask( 3218): There has a file named /data/data/com.coship.netfirmware/description.dat already
+D/DownloadTask( 3218): src file = /data/data/com.coship.netfirmware/description.dat.cdl --- des file=/data/data/com.coship.netfirmware/description.dat
+D/NetFirmwareService( 3218): DownloadConstants.TASK_STATUS_COMPLETED
+D/NetFirmwareService( 3218): MSG_DESCRIPT_STATUS_CHANGE
+D/NetFirmwareService( 3218): MSG_CHECK_DESCRIPTION
+D/DescriptionInfo( 3218): version=p7373.i13111_2013-03-18
+D/DescriptionInfo( 3218): versionCode=211313
+D/DescriptionInfo( 3218): compatibleDevice=002104
+D/DescriptionInfo( 3218): sn=
+D/DescriptionInfo( 3218): mac=
+D/DescriptionInfo( 3218): updateType=notify
+D/DescriptionInfo( 3218): speed=0
+D/DescriptionInfo( 3218): checkTime=0
+D/DescriptionInfo( 3218): packageSize=180759459 
+D/DescriptionInfo( 3218): md5=E309EF1D1DE278F9EE735D95CFF50E87
+D/DescriptionInfo( 3218): packageUrl=
+D/DescriptionInfo( 3218): changeHistory=飞播CIBN新版软件;版本号211313
+D/DescriptionInfo( 3218): Not define text
+D/DescriptionInfo( 3218): version code = 211313
+D/DescriptionInfo( 3218): machine id = 0
+D/DescriptionInfo( 3218): hardware id = 0
+D/DescriptionInfo( 3218): update package size = 180759459
+D/NetFirmwareService( 3218): The description info is valid
+D/NetFirmwareService( 3218): The description version code = 211313
+D/NetFirmwareService( 3218): The description machine ID = 0
+D/NetFirmwareService( 3218): The description hardware ID = 0
+D/AndroidRuntime( 3218): Shutting down VM
+W/dalvikvm( 3218): threadid=1: thread exiting with uncaught exception (group=0x40fa81f8)
+E/AndroidRuntime( 3218): FATAL EXCEPTION: main
+E/AndroidRuntime( 3218): java.lang.NullPointerException
+E/AndroidRuntime( 3218):        at com.coship.netfirmware.NetFirmwareService.checkDescriptionInfo(NetFirmwareService.java:1889)
+E/AndroidRuntime( 3218):        at com.coship.netfirmware.NetFirmwareService.access$1800(NetFirmwareService.java:69)
+E/AndroidRuntime( 3218):        at com.coship.netfirmware.NetFirmwareService$3.handleMessage(NetFirmwareService.java:665)
+E/AndroidRuntime( 3218):        at android.os.Handler.dispatchMessage(Handler.java:99)
+E/AndroidRuntime( 3218):        at android.os.Looper.loop(Looper.java:137)
+E/AndroidRuntime( 3218):        at android.app.ActivityThread.main(ActivityThread.java:4424)
+E/AndroidRuntime( 3218):        at java.lang.reflect.Method.invokeNative(Native Method)
+E/AndroidRuntime( 3218):        at java.lang.reflect.Method.invoke(Method.java:511)
+E/AndroidRuntime( 3218):        at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:848)
+E/AndroidRuntime( 3218):        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:575)
+E/AndroidRuntime( 3218):        at dalvik.system.NativeStart.main(Native Method)
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+D/dalvikvm( 3234): GC_CONCURRENT freed 1968K, 19% free 25976K/31683K, paused 2ms+4ms
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+
+[ 4029.626758] IR: [03932] scan key value is 0xec13c936 
+[ 4029.626763]  E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+
+[ 4029.678065] IR: [03932] scan key value is 0xec13c936 
+[ 4029.678070]  I/Process ( 3218): Sending signal. PID: 3218 SIG: 9
+V/TabletStatusBar( 1156): setLig
+htsOn(true)
+[ 4029.868582] binder: release proc 3218, transaction 9551389, not freed
+I/WindowManager(  967): WIN DEATH: Window{4154f0a8  paused=false}
+I/ActivityManager(  967): Process com.coship.netfirmware (pid 3218) has died.
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+W/ActivityManager(  967): Scheduling restart of crashed service com.coship.netfirmware/.NetFirmwareService in 1250ms
+V/TabletStatusBar( 1156): setLightsOn(true)
+W/InputManagerService(  967): Got RemoteException sending setActive(false) notification to pid 3218 uid 1000
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+I/ActivityManager(  967): Start proc com.coship.netfirmware for restart com.coship.netfirmware: pid=3286 uid=1000 gids={3003, 1015, 3002, 3001, 3004}
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+D/dalvikvm( 3234): GC_CONCURRENT freed 1968K, 18% free 26045K/31683K, paused 2ms+4ms
+D/NetFirmwareService( 3286): onCreate
+V/NetFirmwareService( 3286): Service is create!
+V/NetFirmwareService( 3286): onBind
+V/NetFirmwareService( 3286): Network is connected!
+D/AndroidRuntime( 3234): Shutting down VM
+W/dalvikvm( 3234): threadid=1: thread exiting with uncaught exception (group=0x40fa81f8)
+E/AndroidRuntime( 3234): FATAL EXCEPTION: main
+E/AndroidRuntime( 3234): java.lang.NullPointerException
+E/AndroidRuntime( 3234):        at com.coship.dvbsetting.systemsetting.childview.NetUpdate$1.handleMessage(NetUpdate.java:110)
+E/AndroidRuntime( 3234):        at android.os.Handler.dispatchMessage(Handler.java:99)
+E/AndroidRuntime( 3234):        at android.os.Looper.loop(Looper.java:137)
+E/AndroidRuntime( 3234):        at android.app.ActivityThread.main(ActivityThread.java:4424)
+E/AndroidRuntime( 3234):        at java.lang.reflect.Method.invokeNative(Native Method)
+E/AndroidRuntime( 3234):        at java.lang.reflect.Method.invoke(Method.java:511)
+E/AndroidRuntime( 3234):        at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:848)
+E/AndroidRuntime( 3234):        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:575)
+E/AndroidRuntime( 3234):        at dalvik.system.NativeStart.main(Native Method)
+W/ActivityManager(  967):   Force finishing activity com.coship.dvbsetting/.systemsetting.SyssetAcivity
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+W/ActivityManager(  967): Activity pause timeout for ActivityRecord{416d4660 com.coship.dvbsetting/.systemsetting.SyssetAcivity}
+I/Process (  967): Sending signal. PID: 3234 SIG: 3
+I/dalvikvm( 3234): threadid=3: reacting to signal 3
+I/dalvikvm( 3234): Wrote stack traces to '/data/anr/traces.txt'
+I/Process (  967): Sending signal. PID: 3234 SIG: 3
+I/dalvikvm( 3234): threadid=3: reacting to signal 3
+I/dalvikvm( 3234): Wrote stack traces to '/data/anr/traces.txt'
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+I/Process (  967): Sending signal. PID: 3234 SIG: 3
+I/dalvikvm( 3234): threadid=3: reacting to signal 3
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+I/dalvikvm( 3234): Wrote stack traces to '/data/anr/traces.txt'
+[ 4034.666513] IR: [03932] scan key value is 0xec13c936 
+[ 4034.666519]  E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+
+[ 4034.717663] IR: [03932] scan key value is 0xec13c936 
+[ 4034.717669]  I/Process ( 3234): Sending signal. PID: 3234 SIG: 9
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+I/ActivityManager(  967): Process com.coship.dvbsetting (pid 3234) has died.
+I/WindowManager(  967): WIN DEATH: Window{41894b98 com.coship.dvbsetting/com.coship.dvbsetting.systemsetting.SyssetAcivity paused=false}
+W/InputDispatcher(  967): channel '416897b8 com.coship.dvbsetting/com.coship.dvbsetting.main (server)' ~ Consumer closed input channel or an error occurred.  events=0x8
+E/InputDispatcher(  967): channel '416897b8 com.coship.dvbsetting/com.coship.dvbsetting.main (server)' ~ Channel is unrecoverably broken and will be disposed!
+W/ActivityManager(  967): Force removing ActivityRecord{41649990 com.coship.dvbsetting/.main}: app died, no saved state
+W/InputDispatcher(  967): Attempted to unregister already unregistered input channel '416897b8 com.coship.dvbsetting/com.coship.dvbsetting.main (server)'
+I/WindowManager(  967): WIN DEATH: Window{416897b8 com.coship.dvbsetting/com.coship.dvbsetting.main paused=false}
+I/WindowManager(  967): WINDOW DIED Window{416897b8 com.coship.dvbsetting/com.coship.dvbsetting.main paused=false}
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+W/InputManagerService(  967): Got RemoteException sending setActive(false) notification to pid 3234 uid 1000
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1045): Attention! GFLIP time out, force update gop ring buffer!
+D/HomePlayerLib( 1365): hostaddress count is 1
+D/dalvikvm( 1365): GC_CONCURRENT freed 466K, 78% free 1310K/5827K, paused 1ms+1ms
+D/dalvikvm( 1365): GC_CONCURRENT freed 389K, 78% free 1314K/5827K, paused 1ms+1ms
+D/dalvikvm( 1365): GC_CONCURRENT freed 405K, 78% free 1318K/5827K, paused 1ms+1ms
+D/dalvikvm( 1365): GC_CONCURRENT freed 390K, 78% free 1320K/5827K, paused 1ms+1ms
+D/dalvikvm( 1365): GC_CONCURRENT freed 459K, 78% free 1309K/5827K, paused 0ms+1ms
+D/dalvikvm( 1365): GC_CONCURRENT freed 399K, 78% free 1308K/5827K, paused 1ms+0ms
+D/dalvikvm( 1365): GC_CONCURRENT freed 381K, 76% free 1427K/5827K, paused 1ms+1ms
+D/dalvikvm( 1365): GC_CONCURRENT freed 503K, 77% free 1345K/5827K, paused 1ms+1ms
+D/dalvikvm( 1365): GC_CONCURRENT freed 419K, 76% free 1405K/5827K, paused 1ms+1ms
+^C

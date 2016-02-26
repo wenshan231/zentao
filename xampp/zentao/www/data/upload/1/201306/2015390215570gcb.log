@@ -1,0 +1,871 @@
+
+shell@android:/ # 
+shell@android:/ # 
+shell@android:/ # 
+shell@android:/ # logcat -c
+shell@android:/ # logcat                                                       
+--------- beginning of /dev/log/main
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1162): GC_CONCURRENT freed 404K, 79% free 1311K/6019K, paused 0ms+1ms
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1162): GC_CONCURRENT freed 387K, 78% free 1324K/6019K, paused 1ms+1ms
+D/HomePlayerLib( 1162): hostaddress count is 2
+D/dalvikvm( 1162): GC_CONCURRENT freed 409K, 79% free 1311K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 389K, 77% free 1389K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 446K, 78% free 1328K/6019K, paused 0ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 390K, 78% free 1330K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 392K, 77% free 1412K/6019K, paused 0ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 484K, 77% free 1433K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 489K, 77% free 1385K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 458K, 79% free 1314K/6019K, paused 1ms+1ms
+[13579.701578] IR: [03932] scan key value is 0xea15c936 
+[13579.701583]  D/dalvikvm( 1162): GC_CONCURRENT freed 506K, 79% free 1320K/6019K, paused 0ms+2ms
+
+[13579.754133] IR: [03932] scan key value is 0xea15c936 
+[13579.754138]  D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1162): GC_CONCURRENT freed 414K, 77% free 1411K/6019K, paused 0ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 568K, 78% free 1354K/6019K, paused 1ms+2ms
+D/dalvikvm( 1162): GC_FOR_ALLOC freed 553K, 79% free 1311K/6019K, paused 10ms
+D/dalvikvm( 1162): GC_CONCURRENT freed <1K, 79% free 1319K/6019K, paused 1ms+1ms
+
+[13580.201629] IR: [03932] scan key value is 0xec13c936 
+[13580.201633]  D/dalvikvm( 1162): GC_CONCURRENT freed 394K, 79% free 1318K/6019K, paused 1ms+1ms
+
+[13580.254174] IR: [03932] scan key value is 0xec13c936 
+[13580.254179]  D/dalvikvm( 1162): GC_CONCURRENT freed 377K, 78% free 1328K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 395K, 78% free 1372K/6019K, paused 1ms+1ms
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1162): GC_CONCURRENT freed 445K, 79% free 1315K/6019K, paused 0ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 397K, 79% free 1312K/6019K, paused 0ms+1ms
+
+[13581.138621] IR: [03932] scan key value is 0xec13c936 
+[13581.138626]  
+[13581.191172] IR: [03932] scan key value is 0xec13c936 
+[13581.191177]  V/proResolution( 4079): --------------- setprop persist.sys.resolution:1
+I/Tools   ( 4079): SystemPropertiesClass:class android.os.SystemProperties
+W/Tools   ( 4079): ~~~~~~~~~~~~~~~~~~~~~~method:public static void android.os.SystemProperties.set(java.lang.String,java.lang.String)
+W/Tools   ( 4079): ~~~~~~~~~~~~~~~~~~~~~~returnvalue:null
+I/ResolutionInvoke( 4079):   [setResolution] resolution: 12, resolutionScreenMethod:public boolean com.fiship.sdk.ScreenControl.setResolution(java.lang.Integer)
+D/ScreenControl( 4079): setResolution:12
+D/setResolution(  953): resolution is12
+I/        (  953): native_setResolution 
+I//lib/ld-linux.so.3(  748): TX Power State D0
+I//lib/ld-linux.so.3(  748): >>IsHDMI_Sink() == TRUE
+I//lib/ld-linux.so.3(  748): TMDS -> Enabled
+I//lib/ld-linux.so.3(  748): >>>>>>>>>>>>m_pPanelName = DACOUT_1080P_50
+I//lib/ld-linux.so.3(  748): [_MDrv_PNL_Init_LPLL][286]pstPanelInitData->u16Width=1920, pstPanelInitData->u16Height=1080
+I//lib/ld-linux.so.3(  748): [_MDrv_PNL_Init_LPLL][288]u16HTotal=2640,u16VTotal=1125,pstPanelInitData->u16HTotal=2640,pstPanelInitData->u16VTotal=1125, u16DefaultVFreq=500
+I//lib/ld-linux.so.3(  748): [_MDrv_PNL_Init_Output_Dclk][345]pstPanelInitData->u16Width=1920, pstPanelInitData->u16Height=1080
+I//lib/ld-linux.so.3(  748): [_MDrv_PNL_Init_Output_Dclk][347]u16HTotal=2640,u16VTotal=1125,pstPanelInitData->u16HTotal=2640,pstPanelInitData->u16VTotal=1125, u16DefaultVFreq=500
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+E/USP     ( 1131): ~~~~~~~~~@@@@ now updating content://mstar.tv.usersetting/videosetting
+E/USP     ( 1131): ~~~~~~~~~@@@@ now updating fOutput_RES=12
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+I/        (  953): setDatabaseDirtyByApplication 
+I//lib/ld-linux.so.3(  748): HPD        -> [COMMUI]disableSystemLock(callingPid 953, clientPid 953)
+I/ResolutionInvoke( 4079):   [setResolution] returnvalue: true
+D/dalvikvm(  953): GC_CONCURRENT freed 1005K, 61% free 3928K/9859K, paused 2ms+4ms
+V/proResolution( 4079): [myAdapter]position:1
+I/Tools   ( 4079): SystemPropertiesClass:class android.os.SystemProperties
+W/Tools   ( 4079): ~~~~~~~~~~~~~~~~~~~~~~method:public static java.lang.String android.os.SystemProperties.get(java.lang.String,java.lang.String)
+W/Tools   ( 4079): ~~~~~~~~~~~~~~~~~~~~~~returnvalue:1
+V/proResolution( 4079): [myAdapter]position:0
+I/Tools   ( 4079): SystemPropertiesClass:class android.os.SystemProperties
+W/Tools   ( 4079): ~~~~~~~~~~~~~~~~~~~~~~method:public static java.lang.String android.os.SystemProperties.get(java.lang.String,java.lang.String)
+W/Tools   ( 4079): ~~~~~~~~~~~~~~~~~~~~~~returnvalue:1
+V/proResolution( 4079): [myAdapter]position:2
+I/Tools   ( 4079): SystemPropertiesClass:class android.os.SystemProperties
+W/Tools   ( 4079): ~~~~~~~~~~~~~~~~~~~~~~method:public static java.lang.String android.os.SystemProperties.get(java.lang.String,java.lang.String)
+W/Tools   ( 4079): ~~~~~~~~~~~~~~~~~~~~~~returnvalue:1
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+
+[13584.896989] IR: [03932] scan key value is 0xee11c936 
+[13584.896994]  
+[13584.949553] IR: [03932] scan key value is 0xee11c936 
+[13584.949557]  
+[13585.520697] IR: [03932] scan key value is 0xec13c936 
+[13585.520702]  
+[13585.573249] IR: [03932] scan key value is 0xec13c936 
+[13585.573254]  D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+
+[13586.445498] IR: [03932] scan key value is 0xec13c936 
+[13586.445503]  
+[13586.498051] IR: [03932] scan key value is 0xec13c936 
+[13586.498056]  V/proResolution( 4079): --------------- setprop persist.sys.resolution:0
+I/Tools   ( 4079): SystemPropertiesClass:class android.os.SystemProperties
+W/Tools   ( 4079): ~~~~~~~~~~~~~~~~~~~~~~method:public static void android.os.SystemProperties.set(java.lang.String,java.lang.String)
+W/Tools   ( 4079): ~~~~~~~~~~~~~~~~~~~~~~returnvalue:null
+I/ResolutionInvoke( 4079):   [setResolution] resolution: 18, resolutionScreenMethod:public boolean com.fiship.sdk.ScreenControl.setResolution(java.lang.Integer)
+D/ScreenControl( 4079): setResolution:18
+D/setResolution(  953): resolution is18
+I/        (  953): native_setResolution 
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+I//lib/ld-linux.so.3(  748): TX Power State D0
+I//lib/ld-linux.so.3(  748): >>IsHDMI_Sink() == TRUE
+I//lib/ld-linux.so.3(  748): TMDS -> Enabled
+I//lib/ld-linux.so.3(  748): >>>>>>>>>>>>m_pPanelName = DACOUT_1080P_60
+I//lib/ld-linux.so.3(  748): [_MDrv_PNL_Init_LPLL][286]pstPanelInitData->u16Width=1920, pstPanelInitData->u16Height=1080
+I//lib/ld-linux.so.3(  748): [_MDrv_PNL_Init_LPLL][288]u16HTotal=2200,u16VTotal=1125,pstPanelInitData->u16HTotal=2200,pstPanelInitData->u16VTotal=1125, u16DefaultVFreq=600
+I//lib/ld-linux.so.3(  748): [_MDrv_PNL_Init_Output_Dclk][345]pstPanelInitData->u16Width=1920, pstPanelInitData->u16Height=1080
+I//lib/ld-linux.so.3(  748): [_MDrv_PNL_Init_Output_Dclk][347]u16HTotal=2200,u16VTotal=1125,pstPanelInitData->u16HTotal=2200,pstPanelInitData->u16VTotal=1125, u16DefaultVFreq=600
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+E/USP     ( 1131): ~~~~~~~~~@@@@ now updating content://mstar.tv.usersetting/videosetting
+E/USP     ( 1131): ~~~~~~~~~@@@@ now updating fOutput_RES=18
+D/dalvikvm( 1131): GC_CONCURRENT freed 456K, 87% free 665K/4867K, paused 1ms+1ms
+I/        (  953): setDatabaseDirtyByApplication 
+I//lib/ld-linux.so.3(  748): HPD        -> [COMMUI]disableSystemLock(callingPid 953, clientPid 953)
+I/ResolutionInvoke( 4079):   [setResolution] returnvalue: true
+V/proResolution( 4079): [myAdapter]position:0
+I/Tools   ( 4079): SystemPropertiesClass:class android.os.SystemProperties
+W/Tools   ( 4079): ~~~~~~~~~~~~~~~~~~~~~~method:public static java.lang.String android.os.SystemProperties.get(java.lang.String,java.lang.String)
+W/Tools   ( 4079): ~~~~~~~~~~~~~~~~~~~~~~returnvalue:0
+V/proResolution( 4079): [myAdapter]position:1
+I/Tools   ( 4079): SystemPropertiesClass:class android.os.SystemProperties
+W/Tools   ( 4079): ~~~~~~~~~~~~~~~~~~~~~~method:public static java.lang.String android.os.SystemProperties.get(java.lang.String,java.lang.String)
+W/Tools   ( 4079): ~~~~~~~~~~~~~~~~~~~~~~returnvalue:0
+V/proResolution( 4079): [myAdapter]position:2
+I/Tools   ( 4079): SystemPropertiesClass:class android.os.SystemProperties
+W/Tools   ( 4079): ~~~~~~~~~~~~~~~~~~~~~~method:public static java.lang.String android.os.SystemProperties.get(java.lang.String,java.lang.String)
+W/Tools   ( 4079): ~~~~~~~~~~~~~~~~~~~~~~returnvalue:0
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1162): GC_CONCURRENT freed 390K, 77% free 1429K/6019K, paused 1ms+1ms
+D/HomePlayerLib( 1162): hostaddress count is 2
+D/dalvikvm( 1162): GC_CONCURRENT freed 496K, 78% free 1325K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 410K, 79% free 1311K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 379K, 77% free 1434K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 488K, 76% free 1457K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 537K, 78% free 1355K/6019K, paused 1ms+1ms
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1162): GC_CONCURRENT freed 416K, 78% free 1331K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 392K, 78% free 1326K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 407K, 78% free 1328K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 392K, 78% free 1330K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 393K, 78% free 1330K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 393K, 78% free 1332K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 392K, 78% free 1331K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 408K, 78% free 1354K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 424K, 78% free 1327K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 409K, 79% free 1316K/6019K, paused 1ms+1ms
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1162): GC_CONCURRENT freed 397K, 79% free 1322K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 393K, 77% free 1427K/6019K, paused 1ms+0ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 499K, 79% free 1315K/6019K, paused 1ms+1ms
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+
+[13596.781046] qtaguid: iface_stat: stat_update() eth0 not found
+[13597.009990] qtaguid: iface_stat: stat_update() eth0 not found
+[13597.241204] qtaguid: iface_stat: stat_update() eth0 not found
+D/dalvikvm( 1162): GC_CONCURRENT freed 393K, 79% free 1323K/6019K, paused 1ms+1ms
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+[13601.531429] qtaguid: iface_stat: stat_update() eth0 not found
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1162): GC_CONCURRENT freed 402K, 79% free 1311K/6019K, paused 0ms+1ms
+D/HomePlayerLib( 1162): hostaddress count is 2
+D/dalvikvm( 1162): GC_CONCURRENT freed 387K, 78% free 1338K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 415K, 77% free 1430K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 495K, 77% free 1435K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 513K, 79% free 1313K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 391K, 79% free 1315K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 390K, 78% free 1351K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 417K, 78% free 1326K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 396K, 79% free 1324K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 397K, 79% free 1315K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 387K, 77% free 1432K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 487K, 78% free 1330K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 393K, 78% free 1336K/6019K, paused 1ms+1ms
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1162): GC_FOR_ALLOC freed 538K, 79% free 1307K/6019K, paused 11ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 0K, 79% free 1315K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 394K, 79% free 1315K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 394K, 79% free 1313K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 393K, 79% free 1305K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 366K, 78% free 1372K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 445K, 79% free 1315K/6019K, paused 1ms+1ms
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1162): GC_CONCURRENT freed 393K, 77% free 1429K/6019K, paused 1ms+1ms
+D/HomePlayerLib( 1162): hostaddress count is 2
+D/dalvikvm( 1162): GC_CONCURRENT freed 495K, 78% free 1324K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 403K, 77% free 1430K/6019K, paused 0ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 509K, 79% free 1312K/6019K, paused 0ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 391K, 77% free 1432K/6019K, paused 0ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 503K, 78% free 1347K/6019K, paused 0ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 414K, 77% free 1442K/6019K, paused 0ms+1ms
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1162): GC_CONCURRENT freed 516K, 79% free 1310K/6019K, paused 1ms+1ms
+[13613.845884] qtaguid: iface_stat: stat_update() eth0 not found
+W/dnsmasq ( 1334): DHCP packet received on eth0 which has no address
+D/dalvikvm( 1162): GC_CONCURRENT freed 392K, 79% free 1314K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 371K, 76% free 1454K/6019K, paused 0ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 508K, 76% free 1456K/6019K, paused 0ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 515K, 78% free 1329K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 393K, 77% free 1418K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 495K, 77% free 1430K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 503K, 77% free 1427K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 501K, 78% free 1334K/6019K, paused 1ms+1ms
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1162): GC_CONCURRENT freed 407K, 79% free 1314K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 397K, 77% free 1427K/6019K, paused 1ms+1ms
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1162): GC_CONCURRENT freed 510K, 77% free 1413K/6019K, paused 1ms+0ms
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+[13623.415780] IR: [03932] scan key value is 0xea15c936 
+[13623.415785]  D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+
+[13623.836396] IR: [03932] scan key value is 0xec13c936 
+[13623.836401]  
+[13623.888945] IR: [03932] scan key value is 0xec13c936 
+[13623.888950]  D/HomePlayerLib( 1162): hostaddress count is 2
+D/dalvikvm( 1162): GC_CONCURRENT freed 491K, 77% free 1426K/6019K, paused 0ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 509K, 79% free 1300K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 377K, 78% free 1373K/6019K, paused 1ms+1ms
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1162): GC_FOR_ALLOC freed 575K, 79% free 1307K/6019K, paused 10ms
+
+[13624.812973] IR: [03932] scan key value is 0xec13c936 
+[13624.812978]  D/dalvikvm( 1162): GC_CONCURRENT freed 2K, 77% free 1426K/6019K, paused 1ms+3ms
+
+[13624.865520] IR: [03932] scan key value is 0xec13c936 
+[13624.865525]  D/dalvikvm( 1162): GC_CONCURRENT freed 487K, 78% free 1330K/6019K, paused 0ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 392K, 78% free 1330K/6019K, paused 0ms+1ms
+V/proResolution( 4079): --------------- setprop persist.sys.resolution:1
+I/Tools   ( 4079): SystemPropertiesClass:class android.os.SystemProperties
+W/Tools   ( 4079): ~~~~~~~~~~~~~~~~~~~~~~method:public static void android.os.SystemProperties.set(java.lang.String,java.lang.String)
+W/Tools   ( 4079): ~~~~~~~~~~~~~~~~~~~~~~returnvalue:null
+I/ResolutionInvoke( 4079):   [setResolution] resolution: 12, resolutionScreenMethod:public boolean com.fiship.sdk.ScreenControl.setResolution(java.lang.Integer)
+D/ScreenControl( 4079): setResolution:12
+D/setResolution(  953): resolution is12
+I/        (  953): native_setResolution 
+D/dalvikvm( 1162): GC_CONCURRENT freed 401K, 77% free 1434K/6019K, paused 1ms+2ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 514K, 76% free 1487K/6019K, paused 0ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 534K, 76% free 1464K/6019K, paused 1ms+1ms
+I//lib/ld-linux.so.3(  748): TX Power State D0
+I//lib/ld-linux.so.3(  748): >>IsHDMI_Sink() == TRUE
+I//lib/ld-linux.so.3(  748): TMDS -> Enabled
+I//lib/ld-linux.so.3(  748): >>>>>>>>>>>>m_pPanelName = DACOUT_1080P_50
+I//lib/ld-linux.so.3(  748): [_MDrv_PNL_Init_LPLL][286]pstPanelInitData->u16Width=1920, pstPanelInitData->u16Height=1080
+I//lib/ld-linux.so.3(  748): [_MDrv_PNL_Init_LPLL][288]u16HTotal=2640,u16VTotal=1125,pstPanelInitData->u16HTotal=2640,pstPanelInitData->u16VTotal=1125, u16DefaultVFreq=500
+I//lib/ld-linux.so.3(  748): [_MDrv_PNL_Init_Output_Dclk][345]pstPanelInitData->u16Width=1920, pstPanelInitData->u16Height=1080
+I//lib/ld-linux.so.3(  748): [_MDrv_PNL_Init_Output_Dclk][347]u16HTotal=2640,u16VTotal=1125,pstPanelInitData->u16HTotal=2640,pstPanelInitData->u16VTotal=1125, u16DefaultVFreq=500
+D/dalvikvm( 1162): GC_CONCURRENT freed 539K, 77% free 1431K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 503K, 77% free 1433K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 493K, 77% free 1410K/6019K, paused 1ms+1ms
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1162): GC_CONCURRENT freed 475K, 77% free 1414K/6019K, paused 1ms+2ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 485K, 77% free 1407K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 478K, 77% free 1405K/6019K, paused 1ms+1ms
+E/USP     ( 1131): ~~~~~~~~~@@@@ now updating content://mstar.tv.usersetting/videosetting
+E/USP     ( 1131): ~~~~~~~~~@@@@ now updating fOutput_RES=12
+I/        (  953): setDatabaseDirtyByApplication 
+I//lib/ld-linux.so.3(  748): HPD        -> [COMMUI]disableSystemLock(callingPid 953, clientPid 953)
+I/ResolutionInvoke( 4079):   [setResolution] returnvalue: true
+V/proResolution( 4079): [myAdapter]position:1
+I/Tools   ( 4079): SystemPropertiesClass:class android.os.SystemProperties
+W/Tools   ( 4079): ~~~~~~~~~~~~~~~~~~~~~~method:public static java.lang.String android.os.SystemProperties.get(java.lang.String,java.lang.String)
+W/Tools   ( 4079): ~~~~~~~~~~~~~~~~~~~~~~returnvalue:1
+V/proResolution( 4079): [myAdapter]position:0
+I/Tools   ( 4079): SystemPropertiesClass:class android.os.SystemProperties
+W/Tools   ( 4079): ~~~~~~~~~~~~~~~~~~~~~~method:public static java.lang.String android.os.SystemProperties.get(java.lang.String,java.lang.String)
+W/Tools   ( 4079): ~~~~~~~~~~~~~~~~~~~~~~returnvalue:1
+V/proResolution( 4079): [myAdapter]position:2
+I/Tools   ( 4079): SystemPropertiesClass:class android.os.SystemProperties
+W/Tools   ( 4079): ~~~~~~~~~~~~~~~~~~~~~~method:public static java.lang.String android.os.SystemProperties.get(java.lang.String,java.lang.String)
+W/Tools   ( 4079): ~~~~~~~~~~~~~~~~~~~~~~returnvalue:1
+D/dalvikvm( 1162): GC_CONCURRENT freed 476K, 77% free 1386K/6019K, paused 1ms+1ms
+D/MonitorCw880( 1312): Current R
+[13626.779602] qtaguid: iface_stat: stat_update() eth0 not found
+emote Host is null, continue, counter=0
+[13627.031055] qtaguid: iface_stat: stat_update() eth0 not found
+[13627.230125] qtaguid: iface_stat: stat_update() eth0 not found
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+[13628.135524] IR: [03932] scan key value is 0xea15c936 
+[13628.135528]  V/proResolution( 4079): [myAdapter]position:3
+I/Tools   ( 4079): SystemPropertiesClass:class android.os.SystemProperties
+W/Tools   ( 4079): ~~~~~~~~~~~~~~~~~~~~~~method:public static java.lang.String android.os.SystemProperties.get(java.lang.String,java.lang.String)
+W/Tools   ( 4079): ~~~~~~~~~~~~~~~~~~~~~~returnvalue:1
+
+[13628.188074] IR: [03932] scan key value is 0xea15c936 
+[13628.188079]  D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+
+[13628.885322] IR: [03932] scan key value is 0xec13c936 
+[13628.885327]  
+[13628.937872] IR: [03932] scan key value is 0xec13c936 
+[13628.937876]  D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+
+[13629.866932] IR: [03932] scan key value is 0xec13c936 
+[13629.866938]  
+[13629.919476] IR: [03932] scan key value is 0xec13c936 
+[13629.919482]  V/proResolution( 4079): --------------- setprop persist.sys.resolution:2
+I/Tools   ( 4079): SystemPropertiesClass:class android.os.SystemProperties
+W/Tools   ( 4079): ~~~~~~~~~~~~~~~~~~~~~~method:public static void android.os.SystemProperties.set(java.lang.String,java.lang.String)
+W/Tools   ( 4079): ~~~~~~~~~~~~~~~~~~~~~~returnvalue:null
+I/ResolutionInvoke( 4079):   [setResolution] resolution: 15, resolutionScreenMethod:public boolean com.fiship.sdk.ScreenControl.setResolution(java.lang.Integer)
+D/ScreenControl( 4079): setResolution:15
+D/setResolution(  953): resolution is15
+I/        (  953): native_setResolution 
+I//lib/ld-linux.so.3(  748): TX Power State D0
+I//lib/ld-linux.so.3(  748): >>IsHDMI_Sink() == TRUE
+I//lib/ld-linux.so.3(  748): TMDS -> Enabled
+I//lib/ld-linux.so.3(  748): >>>>>>>>>>>>m_pPanelName = DACOUT_720P_60
+I//lib/ld-linux.so.3(  748): [_MDrv_PNL_Init_LPLL][286]pstPanelInitData->u16Width=1280, pstPanelInitData->u16Height=720
+I//lib/ld-linux.so.3(  748): [_MDrv_PNL_Init_LPLL][288]u16HTotal=1650,u16VTotal=750,pstPanelInitData->u16HTotal=1650,pstPanelInitData->u16VTotal=750, u16DefaultVFreq=600
+I//lib/ld-linux.so.3(  748): [_MDrv_PNL_Init_Output_Dclk][345]pstPanelInitData->u16Width=1280, pstPanelInitData->u16Height=720
+I//lib/ld-linux.so.3(  748): [_MDrv_PNL_Init_Output_Dclk][347]u16HTotal=1650,u16VTotal=750,pstPanelInitData->u16HTotal=1650,pstPanelInitData->u16VTotal=750, u16DefaultVFreq=600
+I//lib/ld-linux.so.3(  748): ---SetDacOutputVideoResolution:1660 Set ExPanel Info OK
+I//lib/ld-linux.so.3(  748): ---SetDacOutputVideoResolution:1669 Set ExPanel Info OK
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+E/USP     ( 1131): ~~~~~~~~~@@@@ now updating content://mstar.tv.usersetting/videosetting
+E/USP     ( 1131): ~~~~~~~~~@@@@ now updating fOutput_RES=15
+I/        (  953): setDatabaseDirtyByApplication 
+I//lib/ld-linux.so.3(  748): HPD        -> [COMMUI]disableSystemLock(callingPid 953, clientPid 953)
+I/ResolutionInvoke( 4079):   [setResolution] returnvalue: true
+V/proResolution( 4079): [myAdapter]position:2
+I/Tools   ( 4079): SystemPropertiesClass:class android.os.SystemProperties
+W/Tools   ( 4079): ~~~~~~~~~~~~~~~~~~~~~~method:public static java.lang.String android.os.SystemProperties.get(java.lang.String,java.lang.String)
+W/Tools   ( 4079): ~~~~~~~~~~~~~~~~~~~~~~returnvalue:2
+V/proResolution( 4079): [myAdapter]position:1
+I/Tools   ( 4079): SystemPropertiesClass:class android.os.SystemProperties
+W/Tools   ( 4079): ~~~~~~~~~~~~~~~~~~~~~~method:public static java.lang.String android.os.SystemProperties.get(java.lang.String,java.lang.String)
+W/Tools   ( 4079): ~~~~~~~~~~~~~~~~~~~~~~returnvalue:2
+V/proResolution( 4079): [myAdapter]position:0
+I/Tools   ( 4079): SystemPropertiesClass:class android.os.SystemProperties
+W/Tools   ( 4079): ~~~~~~~~~~~~~~~~~~~~~~method:public static java.lang.String android.os.SystemProperties.get(java.lang.String,java.lang.String)
+W/Tools   ( 4079): ~~~~~~~~~~~~~~~~~~~~~~returnvalue:2
+V/proResolution( 4079): [myAdapter]position:3
+I/Tools   ( 4079): SystemPropertiesClass:class android.os.SystemProperties
+W/Tools   ( 4079): ~~~~~~~~~~~~~~~~~~~~~~method:public static java.lang.String android.os.SystemProperties.get(java.lang.String,java.lang.String)
+W/Tools   ( 4079): ~~~~~~~~~~~~~~~~~~~~~~returnvalue:2
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+
+[13633.267148] IR: [03932] scan key value is 0xee11c936 
+[13633.267152]  
+[13633.319696] IR: [03932] scan key value is 0xee11c936 
+[13633.319701]  
+[13633.688385] IR: [03932] scan key value is 0xec13c936 
+[13633.688390]  
+[13633.740930] IR: [03932] scan key value is 0xec13c936 
+[13633.740935]  D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+
+[13634.526482] IR: [03932] scan key value is 0xec13c936 
+[13634.526487]  
+[13634.579029] IR: [03932] scan key value is 0xec13c936 
+[13634.579033]  V/proResolution( 4079): --------------- setprop persist.sys.resolution:1
+I/Tools   ( 4079): SystemPropertiesClass:class android.os.SystemProperties
+W/Tools   ( 4079): ~~~~~~~~~~~~~~~~~~~~~~method:public static void android.os.SystemProperties.set(java.lang.String,java.lang.String)
+W/Tools   ( 4079): ~~~~~~~~~~~~~~~~~~~~~~returnvalue:null
+I/ResolutionInvoke( 4079):   [setResolution] resolution: 12, resolutionScreenMethod:public boolean com.fiship.sdk.ScreenControl.setResolution(java.lang.Integer)
+D/ScreenControl( 4079): setResolution:12
+D/setResolution(  953): resolution is12
+I/        (  953): native_setResolution 
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+I//lib/ld-linux.so.3(  748): TX Power State D0
+I//lib/ld-linux.so.3(  748): >>IsHDMI_Sink() == TRUE
+I//lib/ld-linux.so.3(  748): TMDS -> Enabled
+I//lib/ld-linux.so.3(  748): >>>>>>>>>>>>m_pPanelName = DACOUT_1080P_50
+I//lib/ld-linux.so.3(  748): [_MDrv_PNL_Init_LPLL][286]pstPanelInitData->u16Width=1920, pstPanelInitData->u16Height=1080
+I//lib/ld-linux.so.3(  748): [_MDrv_PNL_Init_LPLL][288]u16HTotal=2640,u16VTotal=1125,pstPanelInitData->u16HTotal=2640,pstPanelInitData->u16VTotal=1125, u16DefaultVFreq=500
+I//lib/ld-linux.so.3(  748): [_MDrv_PNL_Init_Output_Dclk][345]pstPanelInitData->u16Width=1920, pstPanelInitData->u16Height=1080
+I//lib/ld-linux.so.3(  748): [_MDrv_PNL_Init_Output_Dclk][347]u16HTotal=2640,u16VTotal=1125,pstPanelInitData->u16HTotal=2640,pstPanelInitData->u16VTotal=1125, u16DefaultVFreq=500
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1162): GC_CONCURRENT freed 455K, 77% free 1432K/6019K, paused 0ms+1ms
+D/HomePlayerLib( 1162): hostaddress count is 2
+D/dalvikvm( 1162): GC_CONCURRENT freed 498K, 77% free 1408K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 492K, 77% free 1421K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 500K, 77% free 1428K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 463K, 76% free 1470K/6019K, paused 1ms+1ms
+E/USP     ( 1131): ~~~~~~~~~@@@@ now updating content://mstar.tv.usersetting/videosetting
+E/USP     ( 1131): ~~~~~~~~~@@@@ now updating fOutput_RES=12
+I/        (  953): setDatabaseDirtyByApplication 
+I//lib/ld-linux.so.3(  748): HPD        -> [COMMUI]disableSystemLock(callingPid 953, clientPid 953)
+I/ResolutionInvoke( 4079):   [setResolution] returnvalue: true
+V/proResolution( 4079): [myAdapter]position:1
+I/Tools   ( 4079): SystemPropertiesClass:class android.os.SystemProperties
+W/Tools   ( 4079): ~~~~~~~~~~~~~~~~~~~~~~method:public static java.lang.String android.os.SystemProperties.get(java.lang.String,java.lang.String)
+W/Tools   ( 4079): ~~~~~~~~~~~~~~~~~~~~~~returnvalue:1
+V/proResolution( 4079): [myAdapter]position:0
+I/Tools   ( 4079): SystemPropertiesClass:class android.os.SystemProperties
+W/Tools   ( 4079): ~~~~~~~~~~~~~~~~~~~~~~method:public static java.lang.String android.os.SystemProperties.get(java.lang.String,java.lang.String)
+W/Tools   ( 4079): ~~~~~~~~~~~~~~~~~~~~~~returnvalue:1
+V/proResolution( 4079): [myAdapter]position:2
+I/Tools   ( 4079): SystemPropertiesClass:class android.os.SystemProperties
+W/Tools   ( 4079): ~~~~~~~~~~~~~~~~~~~~~~method:public static java.lang.String android.os.SystemProperties.get(java.lang.String,java.lang.String)
+W/Tools   ( 4079): ~~~~~~~~~~~~~~~~~~~~~~returnvalue:1
+V/proResolution( 4079): [myAdapter]position:3
+I/Tools   ( 4079): SystemPropertiesClass:class android.os.SystemProperties
+W/Tools   ( 4079): ~~~~~~~~~~~~~~~~~~~~~~method:public static java.lang.String android.os.SystemProperties.get(java.lang.String,java.lang.String)
+W/Tools   ( 4079): ~~~~~~~~~~~~~~~~~~~~~~returnvalue:1
+D/dalvikvm( 1162): GC_CONCURRENT freed 548K, 77% free 1413K/6019K, paused 7ms+2ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 475K, 78% free 1330K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 393K, 78% free 1330K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 390K, 78% free 1327K/6019K, paused 0ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 410K, 79% free 1301K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 365K, 76% free 1474K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 549K, 77% free 1433K/6019K, paused 1ms+1ms
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1162): GC_CONCURRENT freed 481K, 74% free 1568K/6019K, paused 0ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 641K, 78% free 1376K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 448K, 77% free 1438K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 514K, 78% free 1381K/6019K, paused 0ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 460K, 79% free 1306K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 367K, 78% free 1332K/6019K, paused 1ms+1ms
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+
+[13641.094929] IR: [03932] scan key value is 0xee11c936 
+[13641.094933]  
+[13641.147472] IR: [03932] scan key value is 0xee11c936 
+[13641.147476]  
+[13641.532866] IR: [03932] scan key value is 0xec13c936 
+[13641.532870]  
+[13641.585413] IR: [03932] scan key value is 0xec13c936 
+[13641.585419]  D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+
+[13642.493902] IR: [03932] scan key value is 0xec13c936 
+[13642.493907]  
+[13642.546449] IR: [03932] scan key value is 0xec13c936 
+[13642.546453]  V/proResolution( 4079): --------------- setprop persist.sys.resolution:0
+I/Tools   ( 4079): SystemPropertiesClass:class android.os.SystemProperties
+W/Tools   ( 4079): ~~~~~~~~~~~~~~~~~~~~~~method:public static void android.os.SystemProperties.set(java.lang.String,java.lang.String)
+W/Tools   ( 4079): ~~~~~~~~~~~~~~~~~~~~~~returnvalue:null
+I/ResolutionInvoke( 4079):   [setResolution] resolution: 18, resolutionScreenMethod:public boolean com.fiship.sdk.ScreenControl.setResolution(java.lang.Integer)
+D/ScreenControl( 4079): setResolution:18
+D/setResolution(  953): resolution is18
+I/        (  953): native_setResolution 
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+I//lib/ld-linux.so.3(  748): TX Power State D0
+I//lib/ld-linux.so.3(  748): >>IsHDMI_Sink() == TRUE
+I//lib/ld-linux.so.3(  748): TMDS -> Enabled
+I//lib/ld-linux.so.3(  748): >>>>>>>>>>>>m_pPanelName = DACOUT_1080P_60
+I//lib/ld-linux.so.3(  748): [_MDrv_PNL_Init_LPLL][286]pstPanelInitData->u16Width=1920, pstPanelInitData->u16Height=1080
+I//lib/ld-linux.so.3(  748): [_MDrv_PNL_Init_LPLL][288]u16HTotal=2200,u16VTotal=1125,pstPanelInitData->u16HTotal=2200,pstPanelInitData->u16VTotal=1125, u16DefaultVFreq=600
+I//lib/ld-linux.so.3(  748): [_MDrv_PNL_Init_Output_Dclk][345]pstPanelInitData->u16Width=1920, pstPanelInitData->u16Height=1080
+I//lib/ld-linux.so.3(  748): [_MDrv_PNL_Init_Output_Dclk][347]u16HTotal=2200,u16VTotal=1125,pstPanelInitData->u16HTotal=2200,pstPanelInitData->u16VTotal=1125, u16DefaultVFreq=600
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+E/USP     ( 1131): ~~~~~~~~~@@@@ now updating content://mstar.tv.usersetting/videosetting
+E/USP     ( 1131): ~~~~~~~~~@@@@ now updating fOutput_RES=18
+D/dalvikvm( 1131): GC_CONCURRENT freed 388K, 87% free 662K/4867K, paused 1ms+1ms
+I/        (  953): setDatabaseDirtyByApplication 
+I//lib/ld-linux.so.3(  748): HPD        -> [COMMUI]disableSystemLock(callingPid 953, clientPid 953)
+I/ResolutionInvoke( 4079):   [setResolution] returnvalue: true
+V/proResolution( 4079): [myAdapter]position:0
+I/Tools   ( 4079): SystemPropertiesClass:class android.os.SystemProperties
+W/Tools   ( 4079): ~~~~~~~~~~~~~~~~~~~~~~method:public static java.lang.String android.os.SystemProperties.get(java.lang.String,java.lang.String)
+W/Tools   ( 4079): ~~~~~~~~~~~~~~~~~~~~~~returnvalue:0
+V/proResolution( 4079): [myAdapter]position:1
+I/Tools   ( 4079): SystemPropertiesClass:class android.os.SystemProperties
+W/Tools   ( 4079): ~~~~~~~~~~~~~~~~~~~~~~method:public static java.lang.String android.os.SystemProperties.get(java.lang.String,java.lang.String)
+W/Tools   ( 4079): ~~~~~~~~~~~~~~~~~~~~~~returnvalue:0
+V/proResolution( 4079): [myAdapter]position:2
+I/Tools   ( 4079): SystemPropertiesClass:class android.os.SystemProperties
+W/Tools   ( 4079): ~~~~~~~~~~~~~~~~~~~~~~method:public static java.lang.String android.os.SystemProperties.get(java.lang.String,java.lang.String)
+W/Tools   ( 4079): ~~~~~~~~~~~~~~~~~~~~~~returnvalue:0
+D/dalvikvm(  953): GC_CONCURRENT freed 774K, 61% free 3924K/9859K, paused 1ms+4ms
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1162): GC_CONCURRENT freed 401K, 77% free 1431K/6019K, paused 0ms+1ms
+D/HomePlayerLib( 1162): hostaddress count is 2
+D/dalvikvm( 1162): GC_CONCURRENT freed 498K, 77% free 1407K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 491K, 79% free 1299K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 380K, 77% free 1426K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 499K, 77% free 1433K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 487K, 78% free 1337K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 416K, 78% free 1329K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 468K, 78% free 1361K/6019K, paused 0ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 441K, 77% free 1431K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 506K, 78% free 1376K/6019K, paused 1ms+1ms
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1162): GC_CONCURRENT freed 439K, 77% free 1436K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 491K, 77% free 1415K/6019K, paused 0ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 483K, 78% free 1328K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 392K, 77% free 1435K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 512K, 77% free 1408K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 489K, 79% free 1312K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 381K, 77% free 1433K/6019K, paused 1ms+1ms
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1162): GC_CONCURRENT freed 504K, 77% free 1437K/6019K, paused 1ms+1ms
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+
+[13656.782468] qtaguid: iface_stat: stat_update() eth0 not found
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+[13657.018261] qtaguid: iface_stat: stat_update() eth0 not found
+[13657.221631] qtaguid: iface_stat: stat_update() eth0 not found
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1162): GC_CONCURRENT freed 519K, 77% free 1406K/6019K, paused 1ms+1ms
+D/HomePlayerLib( 1162): hostaddress count is 2
+D/dalvikvm( 1162): GC_CONCURRENT freed 484K, 77% free 1422K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 505K, 77% free 1395K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 460K, 77% free 1435K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 513K, 79% free 1314K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 391K, 78% free 1331K/6019K, paused 1ms+1ms
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1162): GC_CONCURRENT freed 402K, 77% free 1441K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 513K, 79% free 1314K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 386K, 77% free 1440K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 533K, 77% free 1416K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 477K, 76% free 1448K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 515K, 78% free 1335K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 403K, 77% free 1444K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 523K, 77% free 1432K/6019K, paused 1ms+1ms
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1162): GC_CONCURRENT freed 491K, 78% free 1334K/6019K, paused 0ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 407K, 77% free 1439K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 518K, 77% free 1423K/6019K, paused 0ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 489K, 78% free 1327K/6019K, paused 1ms+1ms
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+[13661.517432] qtaguid: iface_stat: stat_update() eth0 not found
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1148): GC_CONCURRENT freed 821K, 60% free 3051K/7619K, paused 1ms+2ms
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+D/HomePlayerLib( 1162): hostaddress count is 2
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1162): GC_CONCURRENT freed 412K, 79% free 1320K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 388K, 79% free 1323K/6019K, paused 1ms+2ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 403K, 79% free 1313K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 378K, 78% free 1328K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 390K, 77% free 1387K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 474K, 79% free 1311K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 376K, 75% free 1535K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 596K, 78% free 1377K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 455K, 77% free 1411K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 483K, 77% free 1400K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 473K, 78% free 1325K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 403K, 77% free 1436K/6019K, paused 1ms+1ms
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1162): GC_CONCURRENT freed 496K, 78% free 1331K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 394K, 78% free 1330K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 405K, 78% free 1327K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 395K, 78% free 1327K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 394K, 78% free 1326K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 394K, 78% free 1327K/6019K, paused 1ms+1ms
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1162): GC_FOR_ALLOC freed 522K, 79% free 1310K/6019K, paused 10ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 6K, 77% free 1444K/6019K, paused 1ms+1ms
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+D/HomePlayerLib( 1162): hostaddress count is 2
+D/dalvikvm( 1162): GC_CONCURRENT freed 527K, 79% free 1311K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 389K, 79% free 1307K/6019K, paused 0ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 376K, 79% free 1323K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 392K, 79% free 1315K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 390K, 77% free 1433K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 487K, 78% free 1352K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 415K, 78% free 1355K/6019K, paused 0ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 422K, 77% free 1441K/6019K, paused 1ms+1ms
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1162): GC_CONCURRENT freed 512K, 79% free 1315K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 381K, 78% free 1374K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 423K, 76% free 1462K/6019K, paused 1ms+2ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 535K, 77% free 1402K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 475K, 78% free 1326K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 407K, 79% free 1304K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 374K, 79% free 1323K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 396K, 79% free 1322K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 394K, 78% free 1338K/6019K, paused 0ms+1ms
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1162): GC_CONCURRENT freed 407K, 78% free 1326K/6019K, paused 1ms+2ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 394K, 78% free 1326K/6019K, paused 1ms+1ms
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+[13686.784046] qtaguid: iface_stat: stat_update() eth0 not found
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+[13687.055656] qtaguid: iface_stat: stat_update() eth0 not found
+[13687.316958] qtaguid: iface_stat: stat_update() eth0 not found
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+D/HomePlayerLib( 1162): hostaddress count is 2
+D/dalvikvm( 1162): GC_CONCURRENT freed 404K, 77% free 1426K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 503K, 77% free 1419K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 499K, 79% free 1322K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 379K, 78% free 1329K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 389K, 78% free 1331K/6019K, paused 1ms+1ms
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1162): GC_CONCURRENT freed 402K, 77% free 1440K/6019K, paused 1ms+1ms
+[13692.869468] IR: [03932] scan key value is 0xea15c936 
+[13692.869472]  D/dalvikvm( 1162): GC_CONCURRENT freed 516K, 78% free 1353K/6019K, paused 1ms+1ms
+
+[13692.922010] IR: [03932] scan key value is 0xea15c936 
+[13692.922015]  D/dalvikvm( 1162): GC_CONCURRENT freed 433K, 78% free 1369K/6019K, paused 0ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 422K, 78% free 1343K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 415K, 78% free 1328K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 417K, 77% free 1418K/6019K, paused 1ms+0ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 488K, 77% free 1419K/6019K, paused 1ms+1ms
+
+[13693.323856] IR: [03932] scan key value is 0xec13c936 
+[13693.323861]  
+[13693.376404] IR: [03932] scan key value is 0xec13c936 
+[13693.376408]  D/dalvikvm( 1162): GC_CONCURRENT freed 485K, 79% free 1319K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 377K, 76% free 1454K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 531K, 77% free 1432K/6019K, paused 0ms+1ms
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1162): GC_CONCURRENT freed 512K, 79% free 1304K/6019K, paused 0ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 372K, 77% free 1431K/6019K, paused 1ms+1ms
+
+[13694.207376] IR: [03932] scan key value is 0xec13c936 
+[13694.207380]  D/dalvikvm( 1162): GC_CONCURRENT freed 502K, 79% free 1314K/6019K, paused 1ms+1ms
+
+[13694.259925] IR: [03932] scan key value is 0xec13c936 
+[13694.259930]  V/proResolution( 4079): --------------- setprop persist.sys.resolution:1
+I/Tools   ( 4079): SystemPropertiesClass:class android.os.SystemProperties
+W/Tools   ( 4079): ~~~~~~~~~~~~~~~~~~~~~~method:public static void android.os.SystemProperties.set(java.lang.String,java.lang.String)
+W/Tools   ( 4079): ~~~~~~~~~~~~~~~~~~~~~~returnvalue:null
+I/ResolutionInvoke( 4079):   [setResolution] resolution: 12, resolutionScreenMethod:public boolean com.fiship.sdk.ScreenControl.setResolution(java.lang.Integer)
+D/ScreenControl( 4079): setResolution:12
+D/setResolution(  953): resolution is12
+I/        (  953): native_setResolution 
+I//lib/ld-linux.so.3(  748): TX Power State D0
+I//lib/ld-linux.so.3(  748): >>IsHDMI_Sink() == TRUE
+I//lib/ld-linux.so.3(  748): TMDS -> Enabled
+I//lib/ld-linux.so.3(  748): >>>>>>>>>>>>m_pPanelName = DACOUT_1080P_50
+I//lib/ld-linux.so.3(  748): [_MDrv_PNL_Init_LPLL][286]pstPanelInitData->u16Width=1920, pstPanelInitData->u16Height=1080
+I//lib/ld-linux.so.3(  748): [_MDrv_PNL_Init_LPLL][288]u16HTotal=2640,u16VTotal=1125,pstPanelInitData->u16HTotal=2640,pstPanelInitData->u16VTotal=1125, u16DefaultVFreq=500
+I//lib/ld-linux.so.3(  748): [_MDrv_PNL_Init_Output_Dclk][345]pstPanelInitData->u16Width=1920, pstPanelInitData->u16Height=1080
+I//lib/ld-linux.so.3(  748): [_MDrv_PNL_Init_Output_Dclk][347]u16HTotal=2640,u16VTotal=1125,pstPanelInitData->u16HTotal=2640,pstPanelInitData->u16VTotal=1125, u16DefaultVFreq=500
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+
+[13694.985709] qtaguid: iface_stat: stat_update() eth0 not found
+W/dnsmasq ( 1334): DHCP packet received on eth0 which has no address
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+E/USP     ( 1131): ~~~~~~~~~@@@@ now updating content://mstar.tv.usersetting/videosetting
+E/USP     ( 1131): ~~~~~~~~~@@@@ now updating fOutput_RES=12
+I/        (  953): setDatabaseDirtyByApplication 
+I//lib/ld-linux.so.3(  748): HPD        -> [COMMUI]disableSystemLock(callingPid 953, clientPid 953)
+I/ResolutionInvoke( 4079):   [setResolution] returnvalue: true
+V/proResolution( 4079): [myAdapter]position:1
+I/Tools   ( 4079): SystemPropertiesClass:class android.os.SystemProperties
+W/Tools   ( 4079): ~~~~~~~~~~~~~~~~~~~~~~method:public static java.lang.String android.os.SystemProperties.get(java.lang.String,java.lang.String)
+W/Tools   ( 4079): ~~~~~~~~~~~~~~~~~~~~~~returnvalue:1
+V/proResolution( 4079): [myAdapter]position:0
+I/Tools   ( 4079): SystemPropertiesClass:class android.os.SystemProperties
+W/Tools   ( 4079): ~~~~~~~~~~~~~~~~~~~~~~method:public static java.lang.String android.os.SystemProperties.get(java.lang.String,java.lang.String)
+W/Tools   ( 4079): ~~~~~~~~~~~~~~~~~~~~~~returnvalue:1
+V/proResolution( 4079): [myAdapter]position:2
+I/Tools   ( 4079): SystemPropertiesClass:class android.os.SystemProperties
+W/Tools   ( 4079): ~~~~~~~~~~~~~~~~~~~~~~method:public static java.lang.String android.os.SystemProperties.get(java.lang.String,java.lang.String)
+W/Tools   ( 4079): ~~~~~~~~~~~~~~~~~~~~~~returnvalue:1
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1162): GC_CONCURRENT freed 390K, 78% free 1324K/6019K, paused 1ms+1ms
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1162): GC_CONCURRENT freed 402K, 79% free 1321K/6019K, paused 1ms+1ms
+D/HomePlayerLib( 1162): hostaddress count is 2
+D/dalvikvm( 1162): GC_CONCURRENT freed 394K, 79% free 1323K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 404K, 79% free 1312K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 459K, 78% free 1329K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 390K, 78% free 1331K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 393K, 78% free 1331K/6019K, paused 1ms+2ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 393K, 78% free 1330K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 402K, 77% free 1427K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 489K, 76% free 1460K/6019K, paused 1ms+1ms
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1162): GC_CONCURRENT freed 528K, 77% free 1443K/6019K, paused 0ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 518K, 77% free 1436K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 494K, 78% free 1376K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 444K, 77% free 1443K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 514K, 77% free 1434K/6019K, paused 0ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 488K, 78% free 1337K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 417K, 77% free 1428K/6019K, paused 0ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 493K, 77% free 1433K/6019K, paused 1ms+1ms
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1162): GC_CONCURRENT freed 503K, 78% free 1346K/6019K, paused 1ms+1ms
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+D/HomePlayerLib( 1162): hostaddress count is 2
+D/dalvikvm( 1162): GC_CONCURRENT freed 426K, 79% free 1311K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 388K, 79% free 1323K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 403K, 77% free 1427K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 499K, 79% free 1313K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 414K, 78% free 1331K/6019K, paused 0ms+2ms
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1162): GC_CONCURRENT freed 389K, 77% free 1412K/6019K, paused 0ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 479K, 77% free 1438K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 524K, 77% free 1412K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 479K, 78% free 1327K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 404K, 78% free 1326K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 407K, 78% free 1329K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 392K, 78% free 1331K/6019K, paused 1ms+2ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 399K, 77% free 1443K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 516K, 77% free 1434K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 489K, 78% free 1376K/6019K, paused 1ms+1ms
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1162): GC_CONCURRENT freed 444K, 77% free 1443K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 503K, 76% free 1452K/6019K, paused 0ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 518K, 78% free 1333K/6019K, paused 0ms+1ms
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1162): GC_FOR_ALLOC freed 533K, 79% free 1304K/6019K, paused 10ms
+D/HomePlayerLib( 1162): hostaddress count is 2
+D/dalvikvm( 1162): GC_CONCURRENT freed 4K, 76% free 1462K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 540K, 77% free 1426K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 498K, 77% free 1435K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 509K, 77% free 1433K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 488K, 76% free 1456K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 515K, 78% free 1335K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 403K, 77% free 1442K/6019K, paused 1ms+1ms
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1162): GC_CONCURRENT freed 513K, 77% free 1441K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 482K, 76% free 1470K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 548K, 79% free 1318K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 362K, 76% free 1503K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 568K, 76% free 1446K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 638K, 79% free 1312K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 380K, 78% free 1333K/6019K, paused 1ms+1ms
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1162): GC_CONCURRENT freed 406K, 79% free 1315K/6019K, paused 0ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 396K, 79% free 1313K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 394K, 79% free 1313K/6019K, paused 1ms+1ms
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+[13732.566687] qtaguid: iface_stat: stat_update() eth0 not found
+[13732.785507] qtaguid: iface_stat: stat_update() eth0 not found
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+[13733.034496] qtaguid: iface_stat: stat_update() eth0 not found
+[13733.167386] IR: [03932] scan key value is 0xee11c936 
+[13733.167390]  
+[13733.219943] IR: [03932] scan key value is 0xee11c936 
+[13733.219947]  
+[13733.746709] IR: [03932] scan key value is 0xec13c936 
+[13733.746715]  
+[13733.799263] IR: [03932] scan key value is 0xec13c936 
+[13733.799268]  D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+
+[13734.696365] IR: [03932] scan key value is 0xec13c936 
+[13734.696370]  
+[13734.748912] IR: [03932] scan key value is 0xec13c936 
+[13734.748917]  D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+V/proResolution( 4079): --------------- setprop persist.sys.resolution:0
+I/Tools   ( 4079): SystemPropertiesClass:class android.os.SystemProperties
+W/Tools   ( 4079): ~~~~~~~~~~~~~~~~~~~~~~method:public static void android.os.SystemProperties.set(java.lang.String,java.lang.String)
+W/Tools   ( 4079): ~~~~~~~~~~~~~~~~~~~~~~returnvalue:null
+I/ResolutionInvoke( 4079):   [setResolution] resolution: 18, resolutionScreenMethod:public boolean com.fiship.sdk.ScreenControl.setResolution(java.lang.Integer)
+D/ScreenControl( 4079): setResolution:18
+D/setResolution(  953): resolution is18
+I/        (  953): native_setResolution 
+I//lib/ld-linux.so.3(  748): TX Power State D0
+I//lib/ld-linux.so.3(  748): >>IsHDMI_Sink() == TRUE
+I//lib/ld-linux.so.3(  748): TMDS -> Enabled
+I//lib/ld-linux.so.3(  748): >>>>>>>>>>>>m_pPanelName = DACOUT_1080P_60
+I//lib/ld-linux.so.3(  748): [_MDrv_PNL_Init_LPLL][286]pstPanelInitData->u16Width=1920, pstPanelInitData->u16Height=1080
+I//lib/ld-linux.so.3(  748): [_MDrv_PNL_Init_LPLL][288]u16HTotal=2200,u16VTotal=1125,pstPanelInitData->u16HTotal=2200,pstPanelInitData->u16VTotal=1125, u16DefaultVFreq=600
+I//lib/ld-linux.so.3(  748): [_MDrv_PNL_Init_Output_Dclk][345]pstPanelInitData->u16Width=1920, pstPanelInitData->u16Height=1080
+I//lib/ld-linux.so.3(  748): [_MDrv_PNL_Init_Output_Dclk][347]u16HTotal=2200,u16VTotal=1125,pstPanelInitData->u16HTotal=2200,pstPanelInitData->u16VTotal=1125, u16DefaultVFreq=600
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+E/USP     ( 1131): ~~~~~~~~~@@@@ now updating content://mstar.tv.usersetting/videosetting
+E/USP     ( 1131): ~~~~~~~~~@@@@ now updating fOutput_RES=18
+I/        (  953): setDatabaseDirtyByApplication 
+I//lib/ld-linux.so.3(  748): HPD        -> [COMMUI]disableSystemLock(callingPid 953, clientPid 953)
+I/ResolutionInvoke( 4079):   [setResolution] returnvalue: true
+V/proResolution( 4079): [myAdapter]position:0
+I/Tools   ( 4079): SystemPropertiesClass:class android.os.SystemProperties
+W/Tools   ( 4079): ~~~~~~~~~~~~~~~~~~~~~~method:public static java.lang.String android.os.SystemProperties.get(java.lang.String,java.lang.String)
+W/Tools   ( 4079): ~~~~~~~~~~~~~~~~~~~~~~returnvalue:0
+V/proResolution( 4079): [myAdapter]position:1
+I/Tools   ( 4079): SystemPropertiesClass:class android.os.SystemProperties
+W/Tools   ( 4079): ~~~~~~~~~~~~~~~~~~~~~~method:public static java.lang.String android.os.SystemProperties.get(java.lang.String,java.lang.String)
+W/Tools   ( 4079): ~~~~~~~~~~~~~~~~~~~~~~returnvalue:0
+V/proResolution( 4079): [myAdapter]position:2
+I/Tools   ( 4079): SystemPropertiesClass:class android.os.SystemProperties
+W/Tools   ( 4079): ~~~~~~~~~~~~~~~~~~~~~~method:public static java.lang.String android.os.SystemProperties.get(java.lang.String,java.lang.String)
+W/Tools   ( 4079): ~~~~~~~~~~~~~~~~~~~~~~returnvalue:0
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1162): GC_CONCURRENT freed 389K, 79% free 1323K/6019K, paused 0ms+1ms
+D/MonitorCw880( 
+[13737.813461] qtaguid: iface_stat: stat_update() eth0 not found
+1312): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1162): GC_CONCURRENT freed 402K, 79% free 1311K/6019K, paused 1ms+0ms
+D/HomePlayerLib( 1162): hostaddress count is 2
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1162): GC_CONCURRENT freed 388K, 79% free 1307K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 374K, 78% free 1374K/6019K, paused 0ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 454K, 77% free 1426K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 499K, 79% free 1318K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 394K, 77% free 1388K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 467K, 77% free 1430K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 504K, 77% free 1434K/6019K, paused 1ms+2ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 489K, 78% free 1331K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 413K, 79% free 1302K/6019K, paused 0ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 370K, 78% free 1364K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 433K, 78% free 1330K/6019K, paused 1ms+2ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 361K, 78% free 1356K/6019K, paused 1ms+1ms
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1162): GC_CONCURRENT freed 423K, 78% free 1330K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 393K, 78% free 1329K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 391K, 78% free 1330K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 406K, 78% free 1328K/6019K, paused 1ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 406K, 79% free 1316K/6019K, paused 0ms+1ms
+D/dalvikvm( 1162): GC_CONCURRENT freed 397K, 79% free 1322K/6019K, paused 1ms+1ms
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1312): Current Remote Host is null, continue, counter=0
+^C

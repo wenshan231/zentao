@@ -1,0 +1,524 @@
+E/ServerHandler( 1642): receiveRequest
+V/OtORequest( 1642): parseCommand
+V/OtORequest( 1642): get command=103
+V/OtORequest( 1642): parse OtORequest: cmd=103 paramLength=0 bufferlen=8
+D/OtOService( 1642): client request get status.playType:2
+D/OtOService( 1642): callback N: 2
+D/OtOService( 1642): send callback: 101
+D/dvb_ServiceAdapter( 2279): dvb_ResultCallBack: what:101   arg1:0
+D/OtOService( 1642): VOB　sync :com.aidufei.otoService.PlayEvent@42054f00
+E/ServerAdapter( 1642): ServerAdapter:0
+E/ServerHandler( 1642): Send:com.aidufei.protocol.oto.OtOStatusRequest@42055220
+D/ServerHandler( 1642): ServerHandler send request:103:{"ResourceInfo":{"ProductCode":"","PlayType":2,"ResourceCode":"","ResourceName":" "},"Status":{"ReturnCode":100,"Description":"ok"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 1642): ServerHandler send DatagramPacket:/192.168.1.105-[B@41b59458
+D/OtOService( 1642): send callback obj: com.aidufei.otoService.IServiceCallBack$Stub$Proxy@41b37180
+D/OtOService( 1642): send callback: 101
+D/dvb_ServiceAdapter( 2279): dvb_ResultCallBack: what:101   arg1:0
+D/OtOService( 1642): VOB　sync :com.aidufei.otoService.PlayEvent@41b59dd0
+E/ServerAdapter( 1642): ServerAdapter:0
+E/ServerHandler( 1642): Send:com.aidufei.protocol.oto.OtOStatusRequest@41b4dc98
+D/ServerHandler( 1642): ServerHandler send request:103:{"ResourceInfo":{"ProductCode":"","PlayType":2,"ResourceCode":"","ResourceName":" "},"Status":{"ReturnCode":100,"Description":"ok"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 1642): ServerHandler send DatagramPacket:/192.168.1.105-[B@41b4f758
+D/OtOService( 1642): send callback obj: com.aidufei.otoService.IServiceCallBack$Stub$Proxy@42d92bc8
+E/ServerAdapter( 1642): ServerAdapter:0
+E/ServerHandler( 1642): Send:com.aidufei.protocol.oto.OtOStatusRequest@4167b820
+D/ServerHandler( 1642): ServerHandler send request:103:{"Status":{"ReturnCode":99,"Description":"status sync processing"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 1642): ServerHandler send DatagramPacket:/192.168.1.105-[B@4167c8e0
+D/MonitorCw880( 2444): currentRemoteHost is null ,continue
+D/HomePlayerLib( 1700): hostaddress count is 1
+D/dalvikvm( 1700): GC_CONCURRENT freed 2042K, 46% free 7341K/13443K, paused 2ms+3ms
+E/ServerHandler( 1642): receiveRequest
+V/OtORequest( 1642): parseCommand
+V/OtORequest( 1642): get command=103
+V/OtORequest( 1642): parse OtORequest: cmd=103 paramLength=0 bufferlen=8
+D/OtOService( 1642): client request get status.playType:2
+D/OtOService( 1642): callback N: 2
+D/OtOService( 1642): send callback: 101
+D/dvb_ServiceAdapter( 2279): dvb_ResultCallBack: what:101   arg1:0
+D/OtOService( 1642): VOB　sync :com.aidufei.otoService.PlayEvent@41b40418
+E/ServerAdapter( 1642): ServerAdapter:0
+E/ServerHandler( 1642): Send:com.aidufei.protocol.oto.OtOStatusRequest@41b40738
+D/ServerHandler( 1642): ServerHandler send request:103:{"ResourceInfo":{"ProductCode":"","PlayType":2,"ResourceCode":"","ResourceName":" "},"Status":{"ReturnCode":100,"Description":"ok"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 1642): ServerHandler send DatagramPacket:/192.168.1.105-[B@4175f5e8
+D/OtOService( 1642): send callback obj: com.aidufei.otoService.IServiceCallBack$Stub$Proxy@41b37180
+D/OtOService( 1642): send callback: 101
+D/dvb_ServiceAdapter( 2279): dvb_ResultCallBack: what:101   arg1:0
+D/OtOService( 1642): VOB　sync :com.aidufei.otoService.PlayEvent@4175ff00
+E/ServerAdapter( 1642): ServerAdapter:0
+E/ServerHandler( 1642): Send:com.aidufei.protocol.oto.OtOStatusRequest@41760220
+D/ServerHandler( 1642): ServerHandler send request:103:{"ResourceInfo":{"ProductCode":"","PlayType":2,"ResourceCode":"","ResourceName":" "},"Status":{"ReturnCode":100,"Description":"ok"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 1642): ServerHandler send DatagramPacket:/192.168.1.105-[B@42034420
+D/OtOService( 1642): send callback obj: com.aidufei.otoService.IServiceCallBack$Stub$Proxy@42d92bc8
+E/ServerAdapter( 1642): ServerAdapter:0
+E/ServerHandler( 1642): Send:com.aidufei.protocol.oto.OtOStatusRequest@42034cd0
+D/ServerHandler( 1642): ServerHandler send request:103:{"Status":{"ReturnCode":99,"Description":"status sync processing"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 1642): ServerHandler send DatagramPacket:/192.168.1.105-[B@42035d90
+D/dalvikvm( 1700): GC_CONCURRENT freed 2052K, 46% free 7331K/13443K, paused 4ms+3ms
+D/CheckNetWork( 1689): isOk true
+D/CheckNetWork( 1689): ActInfoNetworkInfo: type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), roaming: false, failover: false, isAvailable: true
+D/CheckNetWork( 1689): infoNetworkInfo: type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), roaming: false, failover: false, isAvailable: true
+E/ServerHandler( 1642): receiveRequest
+V/OtORequest( 1642): parseCommand
+V/OtORequest( 1642): get command=103
+V/OtORequest( 1642): parse OtORequest: cmd=103 paramLength=0 bufferlen=8
+D/OtOService( 1642): client request get status.playType:2
+D/OtOService( 1642): callback N: 2
+D/OtOService( 1642): send callback: 101
+D/dvb_ServiceAdapter( 2279): dvb_ResultCallBack: what:101   arg1:0
+D/OtOService( 1642): VOB　sync :com.aidufei.otoService.PlayEvent@4186ec10
+E/ServerAdapter( 1642): ServerAdapter:0
+E/ServerHandler( 1642): Send:com.aidufei.protocol.oto.OtOStatusRequest@4186ef30
+D/ServerHandler( 1642): ServerHandler send request:103:{"ResourceInfo":{"ProductCode":"","PlayType":2,"ResourceCode":"","ResourceName":" "},"Status":{"ReturnCode":100,"Description":"ok"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 1642): ServerHandler send DatagramPacket:/192.168.1.105-[B@41b9b0d8
+D/OtOService( 1642): send callback obj: com.aidufei.otoService.IServiceCallBack$Stub$Proxy@41b37180
+D/OtOService( 1642): send callback: 101
+D/dvb_ServiceAdapter( 2279): dvb_ResultCallBack: what:101   arg1:0
+D/OtOService( 1642): VOB　sync :com.aidufei.otoService.PlayEvent@41b9ba50
+E/ServerAdapter( 1642): ServerAdapter:0
+E/ServerHandler( 1642): Send:com.aidufei.protocol.oto.OtOStatusRequest@41b9bd70
+D/ServerHandler( 1642): ServerHandler send request:103:{"ResourceInfo":{"ProductCode":"","PlayType":2,"ResourceCode":"","ResourceName":" "},"Status":{"ReturnCode":100,"Description":"ok"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 1642): ServerHandler send DatagramPacket:/192.168.1.105-[B@421a4010
+D/OtOService( 1642): send callback obj: com.aidufei.otoService.IServiceCallBack$Stub$Proxy@42d92bc8
+E/ServerAdapter( 1642): ServerAdapter:0
+E/ServerHandler( 1642): Send:com.aidufei.protocol.oto.OtOStatusRequest@421a48c0
+D/ServerHandler( 1642): ServerHandler send request:103:{"Status":{"ReturnCode":99,"Description":"status sync processing"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 1642): ServerHandler send DatagramPacket:/192.168.1.105-[B@4162a330
+D/MonitorCw880( 2444): currentRemoteHost is null ,continue
+E/ServerHandler( 1642): receiveRequest
+V/OtORequest( 1642): parseCommand
+V/OtORequest( 1642): get command=103
+V/OtORequest( 1642): parse OtORequest: cmd=103 paramLength=0 bufferlen=8
+D/OtOService( 1642): client request get status.playType:2
+D/OtOService( 1642): callback N: 2
+D/OtOService( 1642): send callback: 101
+D/dvb_ServiceAdapter( 2279): dvb_ResultCallBack: what:101   arg1:0
+D/OtOService( 1642): VOB　sync :com.aidufei.otoService.PlayEvent@4162b600
+E/ServerAdapter( 1642): ServerAdapter:0
+E/ServerHandler( 1642): Send:com.aidufei.protocol.oto.OtOStatusRequest@4162b920
+D/ServerHandler( 1642): ServerHandler send request:103:{"ResourceInfo":{"ProductCode":"","PlayType":2,"ResourceCode":"","ResourceName":" "},"Status":{"ReturnCode":100,"Description":"ok"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 1642): ServerHandler send DatagramPacket:/192.168.1.105-[B@41631828
+D/OtOService( 1642): send callback obj: com.aidufei.otoService.IServiceCallBack$Stub$Proxy@41b37180
+D/OtOService( 1642): send callback: 101
+D/dvb_ServiceAdapter( 2279): dvb_ResultCallBack: what:101   arg1:0
+D/OtOService( 1642): VOB　sync :com.aidufei.otoService.PlayEvent@416321a0
+E/ServerAdapter( 1642): ServerAdapter:0
+E/ServerHandler( 1642): Send:com.aidufei.protocol.oto.OtOStatusRequest@416324c0
+D/ServerHandler( 1642): ServerHandler send request:103:{"ResourceInfo":{"ProductCode":"","PlayType":2,"ResourceCode":"","ResourceName":" "},"Status":{"ReturnCode":100,"Description":"ok"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 1642): ServerHandler send DatagramPacket:/192.168.1.105-[B@416e7050
+D/OtOService( 1642): send callback obj: com.aidufei.otoService.IServiceCallBack$Stub$Proxy@42d92bc8
+E/ServerAdapter( 1642): ServerAdapter:0
+E/ServerHandler( 1642): Send:com.aidufei.protocol.oto.OtOStatusRequest@416e7900
+D/ServerHandler( 1642): ServerHandler send request:103:{"Status":{"ReturnCode":99,"Description":"status sync processing"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 1642): ServerHandler send DatagramPacket:/192.168.1.105-[B@42d88d88
+E/ServerHandler( 1642): receiveRequest
+V/OtORequest( 1642): parseCommand
+V/OtORequest( 1642): get command=103
+V/OtORequest( 1642): parse OtORequest: cmd=103 paramLength=0 bufferlen=8
+D/OtOService( 1642): client request get status.playType:2
+D/OtOService( 1642): callback N: 2
+D/OtOService( 1642): send callback: 101
+D/dvb_ServiceAdapter( 2279): dvb_ResultCallBack: what:101   arg1:0
+D/OtOService( 1642): VOB　sync :com.aidufei.otoService.PlayEvent@42d8a058
+E/ServerAdapter( 1642): ServerAdapter:0
+E/ServerHandler( 1642): Send:com.aidufei.protocol.oto.OtOStatusRequest@42d8a378
+D/ServerHandler( 1642): ServerHandler send request:103:{"ResourceInfo":{"ProductCode":"","PlayType":2,"ResourceCode":"","ResourceName":" "},"Status":{"ReturnCode":100,"Description":"ok"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 1642): ServerHandler send DatagramPacket:/192.168.1.105-[B@41b35a08
+D/OtOService( 1642): send callback obj: com.aidufei.otoService.IServiceCallBack$Stub$Proxy@41b37180
+D/OtOService( 1642): send callback: 101
+D/dvb_ServiceAdapter( 2279): dvb_ResultCallBack: what:101   arg1:0
+D/OtOService( 1642): VOB　sync :com.aidufei.otoService.PlayEvent@41b36380
+E/ServerAdapter( 1642): ServerAdapter:0
+E/ServerHandler( 1642): Send:com.aidufei.protocol.oto.OtOStatusRequest@41b366a0
+D/ServerHandler( 1642): ServerHandler send request:103:{"ResourceInfo":{"ProductCode":"","PlayType":2,"ResourceCode":"","ResourceName":" "},"Status":{"ReturnCode":100,"Description":"ok"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 1642): ServerHandler send DatagramPacket:/192.168.1.105-[B@417b42b0
+D/OtOService( 1642): send callback obj: com.aidufei.otoService.IServiceCallBack$Stub$Proxy@42d92bc8
+E/ServerAdapter( 1642): ServerAdapter:0
+E/ServerHandler( 1642): Send:com.aidufei.protocol.oto.OtOStatusRequest@417b4b60
+D/ServerHandler( 1642): ServerHandler send request:103:{"Status":{"ReturnCode":99,"Description":"status sync processing"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 1642): ServerHandler send DatagramPacket:/192.168.1.105-[B@42d95978
+V/NetFirmwareService( 1294): Network is connected!
+V/NetFirmwareService( 1294): mServicePath--->http://update.feifeikan.com/Fbox
+I/NetFirmwareService( 1294): mHwvStr--->002101
+I/NetFirmwareService( 1294): mSwv--->211311
+I/FileUtils( 1294): mkFilePath--->/data/data/com.coship.netfirmware/versioncode.dat
+D/StrictMode( 1294): StrictMode policy violation: android.os.StrictMode$StrictModeNetworkViolation: policy=23 violation=4
+D/StrictMode( 1294):    at android.os.StrictMode$AndroidBlockGuardPolicy.onNetwork(StrictMode.java:1105)
+D/StrictMode( 1294):    at libcore.io.BlockGuardOs.recvfrom(BlockGuardOs.java:163)
+D/StrictMode( 1294):    at libcore.io.IoBridge.recvfrom(IoBridge.java:503)
+D/StrictMode( 1294):    at java.net.PlainSocketImpl.read(PlainSocketImpl.java:488)
+D/StrictMode( 1294):    at java.net.PlainSocketImpl.access$000(PlainSocketImpl.java:46)
+D/StrictMode( 1294):    at java.net.PlainSocketImpl$PlainSocketInputStream.read(PlainSocketImpl.java:240)
+D/StrictMode( 1294):    at java.io.BufferedInputStream.fillbuf(BufferedInputStream.java:168)
+D/StrictMode( 1294):    at java.io.BufferedInputStream.read(BufferedInputStream.java:227)
+D/StrictMode( 1294):    at libcore.net.http.HttpConnection.isStale(HttpConnection.java:256)
+D/StrictMode( 1294):    at libcore.net.http.HttpConnectionPool.get(HttpConnectionPool.java:71)
+D/StrictMode( 1294):    at libcore.net.http.HttpConnection.connect(HttpConnection.java:128)
+D/StrictMode( 1294):    at libcore.net.http.HttpEngine.openSocketConnection(HttpEngine.java:308)
+D/StrictMode( 1294):    at libcore.net.http.HttpEngine.connect(HttpEngine.java:303)
+D/StrictMode( 1294):    at libcore.net.http.HttpEngine.sendSocketRequest(HttpEngine.java:282)
+D/StrictMode( 1294):    at libcore.net.http.HttpEngine.sendRequest(HttpEngine.java:232)
+D/StrictMode( 1294):    at libcore.net.http.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:273)
+D/StrictMode( 1294):    at libcore.net.http.HttpURLConnectionImpl.getInputStream(HttpURLConnectionImpl.java:168)
+D/StrictMode( 1294):    at com.coship.netfirmware.downloads.HttpDownLoad.getInputStream(HttpDownLoad.java:66)
+D/StrictMode( 1294):    at com.coship.netfirmware.downloads.HttpDownLoad.downfile(HttpDownLoad.java:43)
+D/StrictMode( 1294):    at com.coship.netfirmware.NetFirmwareService.downFileFormService(NetFirmwareService.java:1504)
+D/StrictMode( 1294):    at com.coship.netfirmware.NetFirmwareService.access$4800(NetFirmwareService.java:69)
+D/StrictMode( 1294):    at com.coship.netfirmware.NetFirmwareService$6.run(NetFirmwareService.java:1147)
+D/StrictMode( 1294): StrictMode policy violation: android.os.StrictMode$StrictModeNetworkViolation: policy=23 violation=4
+D/StrictMode( 1294):    at android.os.StrictMode$AndroidBlockGuardPolicy.onNetwork(StrictMode.java:1105)
+D/StrictMode( 1294):    at java.net.InetAddress.lookupHostByName(InetAddress.java:391)
+D/StrictMode( 1294):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+D/StrictMode( 1294):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+D/StrictMode( 1294):    at libcore.net.http.HttpConnection.<init>(HttpConnection.java:71)
+D/StrictMode( 1294):    at libcore.net.http.HttpConnection.<init>(HttpConnection.java:50)
+D/StrictMode( 1294):    at libcore.net.http.HttpConnection$Address.connect(HttpConnection.java:351)
+D/StrictMode( 1294):    at libcore.net.http.HttpConnectionPool.get(HttpConnectionPool.java:86)
+D/StrictMode( 1294):    at libcore.net.http.HttpConnection.connect(HttpConnection.java:128)
+D/StrictMode( 1294):    at libcore.net.http.HttpEngine.openSocketConnection(HttpEngine.java:308)
+D/StrictMode( 1294):    at libcore.net.http.HttpEngine.connect(HttpEngine.java:303)
+D/StrictMode( 1294):    at libcore.net.http.HttpEngine.sendSocketRequest(HttpEngine.java:282)
+D/StrictMode( 1294):    at libcore.net.http.HttpEngine.sendRequest(HttpEngine.java:232)
+D/StrictMode( 1294):    at libcore.net.http.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:273)
+D/StrictMode( 1294):    at libcore.net.http.HttpURLConnectionImpl.getInputStream(HttpURLConnectionImpl.java:168)
+D/StrictMode( 1294):    at com.coship.netfirmware.downloads.HttpDownLoad.getInputStream(HttpDownLoad.java:66)
+D/StrictMode( 1294):    at com.coship.netfirmware.downloads.HttpDownLoad.downfile(HttpDownLoad.java:43)
+D/StrictMode( 1294):    at com.coship.netfirmware.NetFirmwareService.downFileFormService(NetFirmwareService.java:1504)
+D/StrictMode( 1294):    at com.coship.netfirmware.NetFirmwareService.access$4800(NetFirmwareService.java:69)
+D/StrictMode( 1294):    at com.coship.netfirmware.NetFirmwareService$6.run(NetFirmwareService.java:1147)
+D/StrictMode( 1294): StrictMode policy violation: android.os.StrictMode$StrictModeNetworkViolation: policy=23 violation=4
+D/StrictMode( 1294):    at android.os.StrictMode$AndroidBlockGuardPolicy.onNetwork(StrictMode.java:1105)
+D/StrictMode( 1294):    at libcore.io.BlockGuardOs.connect(BlockGuardOs.java:84)
+D/StrictMode( 1294):    at libcore.io.IoBridge.connectErrno(IoBridge.java:127)
+D/StrictMode( 1294):    at libcore.io.IoBridge.connect(IoBridge.java:112)
+D/StrictMode( 1294):    at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:192)
+D/StrictMode( 1294):    at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:459)
+D/StrictMode( 1294):    at java.net.Socket.connect(Socket.java:842)
+D/StrictMode( 1294):    at libcore.net.http.HttpConnection.<init>(HttpConnection.java:77)
+D/StrictMode( 1294):    at libcore.net.http.HttpConnection.<init>(HttpConnection.java:50)
+D/StrictMode( 1294):    at libcore.net.http.HttpConnection$Address.connect(HttpConnection.java:351)
+D/StrictMode( 1294):    at libcore.net.http.HttpConnectionPool.get(HttpConnectionPool.java:86)
+D/StrictMode( 1294):    at libcore.net.http.HttpConnection.connect(HttpConnection.java:128)
+D/StrictMode( 1294):    at libcore.net.http.HttpEngine.openSocketConnection(HttpEngine.java:308)
+D/StrictMode( 1294):    at libcore.net.http.HttpEngine.connect(HttpEngine.java:303)
+D/StrictMode( 1294):    at libcore.net.http.HttpEngine.sendSocketRequest(HttpEngine.java:282)
+D/StrictMode( 1294):    at libcore.net.http.HttpEngine.sendRequest(HttpEngine.java:232)
+D/StrictMode( 1294):    at libcore.net.http.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:273)
+D/StrictMode( 1294):    at libcore.net.http.HttpURLConnectionImpl.getInputStream(HttpURLConnectionImpl.java:168)
+D/StrictMode( 1294):    at com.coship.netfirmware.downloads.HttpDownLoad.getInputStream(HttpDownLoad.java:66)
+D/StrictMode( 1294):    at com.coship.netfirmware.downloads.HttpDownLoad.downfile(HttpDownLoad.java:43)
+D/StrictMode( 1294):    at com.coship.netfirmware.NetFirmwareService.downFileFormService(NetFirmwareService.java:1504)
+D/StrictMode( 1294):    at com.coship.netfirmware.NetFirmwareService.access$4800(NetFirmwareService.java:69)
+D/StrictMode( 1294):    at com.coship.netfirmware.NetFirmwareService$6.run(NetFirmwareService.java:1147)
+D/StrictMode( 1294): StrictMode policy violation: android.os.StrictMode$StrictModeNetworkViolation: policy=23 violation=4
+D/StrictMode( 1294):    at android.os.StrictMode$AndroidBlockGuardPolicy.onNetwork(StrictMode.java:1105)
+D/StrictMode( 1294):    at libcore.io.BlockGuardOs.recvfrom(BlockGuardOs.java:163)
+D/StrictMode( 1294):    at libcore.io.IoBridge.recvfrom(IoBridge.java:503)
+D/StrictMode( 1294):    at java.net.PlainSocketImpl.read(PlainSocketImpl.java:488)
+D/StrictMode( 1294):    at java.net.PlainSocketImpl.access$000(PlainSocketImpl.java:46)
+D/StrictMode( 1294):    at java.net.PlainSocketImpl$PlainSocketInputStream.read(PlainSocketImpl.java:240)
+D/StrictMode( 1294):    at java.io.InputStream.read(InputStream.java:163)
+D/StrictMode( 1294):    at java.io.BufferedInputStream.fillbuf(BufferedInputStream.java:142)
+D/StrictMode( 1294):    at java.io.BufferedInputStream.read(BufferedInputStream.java:227)
+D/StrictMode( 1294):    at libcore.io.Streams.readAsciiLine(Streams.java:201)
+D/StrictMode( 1294):    at libcore.net.http.HttpEngine.readResponseHeaders(HttpEngine.java:544)
+D/StrictMode( 1294):    at libcore.net.http.HttpEngine.readResponse(HttpEngine.java:784)
+D/StrictMode( 1294):    at libcore.net.http.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:274)
+D/StrictMode( 1294):    at libcore.net.http.HttpURLConnectionImpl.getInputStream(HttpURLConnectionImpl.java:168)
+D/StrictMode( 1294):    at com.coship.netfirmware.downloads.HttpDownLoad.getInputStream(HttpDownLoad.java:66)
+D/StrictMode( 1294):    at com.coship.netfirmware.downloads.HttpDownLoad.downfile(HttpDownLoad.java:43)
+D/StrictMode( 1294):    at com.coship.netfirmware.NetFirmwareService.downFileFormService(NetFirmwareService.java:1504)
+D/StrictMode( 1294):    at com.coship.netfirmware.NetFirmwareService.access$4800(NetFirmwareService.java:69)
+D/StrictMode( 1294):    at com.coship.netfirmware.NetFirmwareService$6.run(NetFirmwareService.java:1147)
+D/StrictMode( 1294): StrictMode policy violation: android.os.StrictMode$StrictModeNetworkViolation: policy=23 violation=4
+D/StrictMode( 1294):    at android.os.StrictMode$AndroidBlockGuardPolicy.onNetwork(StrictMode.java:1105)
+D/StrictMode( 1294):    at libcore.io.BlockGuardOs.recvfrom(BlockGuardOs.java:163)
+D/StrictMode( 1294):    at libcore.io.IoBridge.recvfrom(IoBridge.java:503)
+D/StrictMode( 1294):    at java.net.PlainSocketImpl.read(PlainSocketImpl.java:488)
+D/StrictMode( 1294):    at java.net.PlainSocketImpl.access$000(PlainSocketImpl.java:46)
+D/StrictMode( 1294):    at java.net.PlainSocketImpl$PlainSocketInputStream.read(PlainSocketImpl.java:240)
+D/StrictMode( 1294):    at java.io.InputStream.read(InputStream.java:163)
+D/StrictMode( 1294):    at java.io.BufferedInputStream.fillbuf(BufferedInputStream.java:142)
+D/StrictMode( 1294):    at java.io.BufferedInputStream.read(BufferedInputStream.java:227)
+D/StrictMode( 1294):    at libcore.io.Streams.readAsciiLine(Streams.java:201)
+D/StrictMode( 1294):    at libcore.net.http.HttpEngine.readHeaders(HttpEngine.java:587)
+D/StrictMode( 1294):    at libcore.net.http.HttpEngine.readResponseHeaders(HttpEngine.java:545)
+D/StrictMode( 1294):    at libcore.net.http.HttpEngine.readResponse(HttpEngine.java:784)
+D/StrictMode( 1294):    at libcore.net.http.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:274)
+D/StrictMode( 1294):    at libcore.net.http.HttpURLConnectionImpl.getInputStream(HttpURLConnectionImpl.java:168)
+D/StrictMode( 1294):    at com.coship.netfirmware.downloads.HttpDownLoad.getInputStream(HttpDownLoad.java:66)
+D/StrictMode( 1294):    at com.coship.netfirmware.downloads.HttpDownLoad.downfile(HttpDownLoad.java:43)
+D/StrictMode( 1294):    at com.coship.netfirmware.NetFirmwareService.downFileFormService(NetFirmwareService.java:1504)
+D/StrictMode( 1294):    at com.coship.netfirmware.NetFirmwareService.access$4800(NetFirmwareService.java:69)
+D/StrictMode( 1294):    at com.coship.netfirmware.NetFirmwareService$6.run(NetFirmwareService.java:1147)
+I/FileUtils( 1294): mkdirPath--->/data/data/com.coship.netfirmware/
+I/FileUtils( 1294): createNewFilePath--->/data/data/com.coship.netfirmware/versioncode.dat
+I/FileUtils( 1294): file--->versioncode.dat
+D/StrictMode( 1294): StrictMode policy violation: android.os.StrictMode$StrictModeDiskReadViolation: policy=23 violation=2
+D/StrictMode( 1294):    at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1089)
+D/StrictMode( 1294):    at libcore.io.BlockGuardOs.open(BlockGuardOs.java:106)
+D/StrictMode( 1294):    at libcore.io.IoBridge.open(IoBridge.java:390)
+D/StrictMode( 1294):    at java.io.FileOutputStream.<init>(FileOutputStream.java:88)
+D/StrictMode( 1294):    at java.io.FileOutputStream.<init>(FileOutputStream.java:73)
+D/StrictMode( 1294):    at com.coship.netfirmware.downloads.FileUtils.writeToPathFromInput(FileUtils.java:78)
+D/StrictMode( 1294):    at com.coship.netfirmware.downloads.HttpDownLoad.downfile(HttpDownLoad.java:44)
+D/StrictMode( 1294):    at com.coship.netfirmware.NetFirmwareService.downFileFormService(NetFirmwareService.java:1504)
+D/StrictMode( 1294):    at com.coship.netfirmware.NetFirmwareService.access$4800(NetFirmwareService.java:69)
+D/StrictMode( 1294):    at com.coship.netfirmware.NetFirmwareService$6.run(NetFirmwareService.java:1147)
+D/StrictMode( 1294): StrictMode policy violation: android.os.StrictMode$StrictModeDiskWriteViolation: policy=23 violation=1
+D/StrictMode( 1294):    at android.os.StrictMode$AndroidBlockGuardPolicy.onWriteToDisk(StrictMode.java:1063)
+D/StrictMode( 1294):    at libcore.io.BlockGuardOs.write(BlockGuardOs.java:190)
+D/StrictMode( 1294):    at libcore.io.IoBridge.write(IoBridge.java:447)
+D/StrictMode( 1294):    at java.io.FileOutputStream.write(FileOutputStream.java:187)
+D/StrictMode( 1294):    at java.io.OutputStream.write(OutputStream.java:82)
+D/StrictMode( 1294):    at com.coship.netfirmware.downloads.FileUtils.writeToPathFromInput(FileUtils.java:81)
+D/StrictMode( 1294):    at com.coship.netfirmware.downloads.HttpDownLoad.downfile(HttpDownLoad.java:44)
+D/StrictMode( 1294):    at com.coship.netfirmware.NetFirmwareService.downFileFormService(NetFirmwareService.java:1504)
+D/StrictMode( 1294):    at com.coship.netfirmware.NetFirmwareService.access$4800(NetFirmwareService.java:69)
+D/StrictMode( 1294):    at com.coship.netfirmware.NetFirmwareService$6.run(NetFirmwareService.java:1147)
+I/HttpDownLoad( 1294): resultFile--->/data/data/com.coship.netfirmware/versioncode.dat
+D/dalvikvm( 1294): GC_CONCURRENT freed 1847K, 78% free 2054K/8963K, paused 1ms+3ms
+D/StrictMode( 1294): StrictMode policy violation: android.os.StrictMode$StrictModeDiskReadViolation: policy=23 violation=2
+D/StrictMode( 1294):    at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1089)
+D/StrictMode( 1294):    at libcore.io.BlockGuardOs.open(BlockGuardOs.java:106)
+D/StrictMode( 1294):    at libcore.io.IoBridge.open(IoBridge.java:390)
+D/StrictMode( 1294):    at java.io.FileInputStream.<init>(FileInputStream.java:78)
+D/StrictMode( 1294):    at java.io.FileInputStream.<init>(FileInputStream.java:105)
+D/StrictMode( 1294):    at com.coship.netfirmware.NetFirmwareService.getUpdateInfo(NetFirmwareService.java:1527)
+D/StrictMode( 1294):    at com.coship.netfirmware.NetFirmwareService.downFileFormService(NetFirmwareService.java:1506)
+D/StrictMode( 1294):    at com.coship.netfirmware.NetFirmwareService.access$4800(NetFirmwareService.java:69)
+D/StrictMode( 1294):    at com.coship.netfirmware.NetFirmwareService$6.run(NetFirmwareService.java:1147)
+D/StrictMode( 1294): StrictMode policy violation: android.os.StrictMode$StrictModeDiskReadViolation: policy=23 violation=2
+D/StrictMode( 1294):    at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1089)
+D/StrictMode( 1294):    at libcore.io.BlockGuardOs.read(BlockGuardOs.java:148)
+D/StrictMode( 1294):    at libcore.io.IoBridge.read(IoBridge.java:422)
+D/StrictMode( 1294):    at java.io.FileInputStream.read(FileInputStream.java:179)
+D/StrictMode( 1294):    at java.io.InputStreamReader.read(InputStreamReader.java:244)
+D/StrictMode( 1294):    at java.io.BufferedReader.fillBuf(BufferedReader.java:130)
+D/StrictMode( 1294):    at java.io.BufferedReader.readLine(BufferedReader.java:354)
+D/StrictMode( 1294):    at com.coship.netfirmware.NetFirmwareService.getUpdateInfo(NetFirmwareService.java:1531)
+D/StrictMode( 1294):    at com.coship.netfirmware.NetFirmwareService.downFileFormService(NetFirmwareService.java:1506)
+D/StrictMode( 1294):    at com.coship.netfirmware.NetFirmwareService.access$4800(NetFirmwareService.java:69)
+D/StrictMode( 1294):    at com.coship.netfirmware.NetFirmwareService$6.run(NetFirmwareService.java:1147)
+D/StrictMode( 1294): StrictMode policy violation: android.os.StrictMode$StrictModeDiskReadViolation: policy=23 violation=2
+D/StrictMode( 1294):    at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1089)
+D/StrictMode( 1294):    at libcore.io.BlockGuardOs.read(BlockGuardOs.java:148)
+D/StrictMode( 1294):    at libcore.io.IoBridge.read(IoBridge.java:422)
+D/StrictMode( 1294):    at java.io.FileInputStream.read(FileInputStream.java:179)
+D/StrictMode( 1294):    at java.io.InputStreamReader.read(InputStreamReader.java:244)
+D/StrictMode( 1294):    at java.io.BufferedReader.fillBuf(BufferedReader.java:130)
+D/StrictMode( 1294):    at java.io.BufferedReader.readLine(BufferedReader.java:390)
+D/StrictMode( 1294):    at com.coship.netfirmware.NetFirmwareService.getUpdateInfo(NetFirmwareService.java:1551)
+D/StrictMode( 1294):    at com.coship.netfirmware.NetFirmwareService.downFileFormService(NetFirmwareService.java:1506)
+D/StrictMode( 1294):    at com.coship.netfirmware.NetFirmwareService.access$4800(NetFirmwareService.java:69)
+D/StrictMode( 1294):    at com.coship.netfirmware.NetFirmwareService$6.run(NetFirmwareService.java:1147)
+D/StrictMode( 1294): StrictMode policy violation: android.os.StrictMode$StrictModeDiskReadViolation: policy=23 violation=2
+D/StrictMode( 1294):    at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1089)
+D/StrictMode( 1294):    at libcore.io.BlockGuardOs.read(BlockGuardOs.java:148)
+D/StrictMode( 1294):    at libcore.io.IoBridge.read(IoBridge.java:422)
+D/StrictMode( 1294):    at java.io.FileInputStream.read(FileInputStream.java:179)
+D/StrictMode( 1294):    at java.io.InputStreamReader.read(InputStreamReader.java:244)
+D/StrictMode( 1294):    at java.io.BufferedReader.fillBuf(BufferedReader.java:130)
+D/StrictMode( 1294):    at java.io.BufferedReader.readLine(BufferedReader.java:354)
+D/StrictMode( 1294):    at com.coship.netfirmware.NetFirmwareService.getUpdateInfo(NetFirmwareService.java:1551)
+D/StrictMode( 1294):    at com.coship.netfirmware.NetFirmwareService.downFileFormService(NetFirmwareService.java:1506)
+D/StrictMode( 1294):    at com.coship.netfirmware.NetFirmwareService.access$4800(NetFirmwareService.java:69)
+D/StrictMode( 1294):    at com.coship.netfirmware.NetFirmwareService$6.run(NetFirmwareService.java:1147)
+I/NetFirmwareService( 1294): v--->211311
+I/NetFirmwareService( 1294): q--->00001
+I/NetFirmwareService( 1294): c--->00001
+I/FileUtils( 1294): mkFilePath--->/data/data/com.coship.netfirmware/description_211311.dat
+D/StrictMode( 1294): StrictMode policy violation: android.os.StrictMode$StrictModeNetworkViolation: policy=23 violation=4
+D/StrictMode( 1294):    at android.os.StrictMode$AndroidBlockGuardPolicy.onNetwork(StrictMode.java:1105)
+D/StrictMode( 1294):    at libcore.io.BlockGuardOs.recvfrom(BlockGuardOs.java:163)
+D/StrictMode( 1294):    at libcore.io.IoBridge.recvfrom(IoBridge.java:503)
+D/StrictMode( 1294):    at java.net.PlainSocketImpl.read(PlainSocketImpl.java:488)
+D/StrictMode( 1294):    at java.net.PlainSocketImpl.access$000(PlainSocketImpl.java:46)
+D/StrictMode( 1294):    at java.net.PlainSocketImpl$PlainSocketInputStream.read(PlainSocketImpl.java:240)
+D/StrictMode( 1294):    at java.io.BufferedInputStream.fillbuf(BufferedInputStream.java:168)
+D/StrictMode( 1294):    at java.io.BufferedInputStream.read(BufferedInputStream.java:227)
+D/StrictMode( 1294):    at libcore.net.http.HttpConnection.isStale(HttpConnection.java:256)
+D/StrictMode( 1294):    at libcore.net.http.HttpConnectionPool.get(HttpConnectionPool.java:71)
+D/StrictMode( 1294):    at libcore.net.http.HttpConnection.connect(HttpConnection.java:128)
+D/StrictMode( 1294):    at libcore.net.http.HttpEngine.openSocketConnection(HttpEngine.java:308)
+D/StrictMode( 1294):    at libcore.net.http.HttpEngine.connect(HttpEngine.java:303)
+D/StrictMode( 1294):    at libcore.net.http.HttpEngine.sendSocketRequest(HttpEngine.java:282)
+D/StrictMode( 1294):    at libcore.net.http.HttpEngine.sendRequest(HttpEngine.java:232)
+D/StrictMode( 1294):    at libcore.net.http.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:273)
+D/StrictMode( 1294):    at libcore.net.http.HttpURLConnectionImpl.getInputStream(HttpURLConnectionImpl.java:168)
+D/StrictMode( 1294):    at com.coship.netfirmware.downloads.HttpDownLoad.getInputStream(HttpDownLoad.java:66)
+D/StrictMode( 1294):    at com.coship.netfirmware.downloads.HttpDownLoad.downfile(HttpDownLoad.java:43)
+D/StrictMode( 1294):    at com.coship.netfirmware.NetFirmwareService.downFileFormService(NetFirmwareService.java:1511)
+D/StrictMode( 1294):    at com.coship.netfirmware.NetFirmwareService.access$4800(NetFirmwareService.java:69)
+D/StrictMode( 1294):    at com.coship.netfirmware.NetFirmwareService$6.run(NetFirmwareService.java:1147)
+D/StrictMode( 1294): StrictMode policy violation: android.os.StrictMode$StrictModeNetworkViolation: policy=23 violation=4
+D/StrictMode( 1294):    at android.os.StrictMode$AndroidBlockGuardPolicy.onNetwork(StrictMode.java:1105)
+D/StrictMode( 1294):    at libcore.io.BlockGuardOs.recvfrom(BlockGuardOs.java:163)
+D/StrictMode( 1294):    at libcore.io.IoBridge.recvfrom(IoBridge.java:503)
+D/StrictMode( 1294):    at java.net.PlainSocketImpl.read(PlainSocketImpl.java:488)
+D/StrictMode( 1294):    at java.net.PlainSocketImpl.access$000(PlainSocketImpl.java:46)
+D/StrictMode( 1294):    at java.net.PlainSocketImpl$PlainSocketInputStream.read(PlainSocketImpl.java:240)
+D/StrictMode( 1294):    at java.io.BufferedInputStream.fillbuf(BufferedInputStream.java:168)
+D/StrictMode( 1294):    at java.io.BufferedInputStream.read(BufferedInputStream.java:227)
+D/StrictMode( 1294):    at libcore.io.Streams.readAsciiLine(Streams.java:201)
+D/StrictMode( 1294):    at libcore.net.http.HttpEngine.readResponseHeaders(HttpEngine.java:544)
+D/StrictMode( 1294):    at libcore.net.http.HttpEngine.readResponse(HttpEngine.java:784)
+D/StrictMode( 1294):    at libcore.net.http.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:274)
+D/StrictMode( 1294):    at libcore.net.http.HttpURLConnectionImpl.getInputStream(HttpURLConnectionImpl.java:168)
+D/StrictMode( 1294):    at com.coship.netfirmware.downloads.HttpDownLoad.getInputStream(HttpDownLoad.java:66)
+D/StrictMode( 1294):    at com.coship.netfirmware.downloads.HttpDownLoad.downfile(HttpDownLoad.java:43)
+D/StrictMode( 1294):    at com.coship.netfirmware.NetFirmwareService.downFileFormService(NetFirmwareService.java:1511)
+D/StrictMode( 1294):    at com.coship.netfirmware.NetFirmwareService.access$4800(NetFirmwareService.java:69)
+D/StrictMode( 1294):    at com.coship.netfirmware.NetFirmwareService$6.run(NetFirmwareService.java:1147)
+D/StrictMode( 1294): StrictMode policy violation: android.os.StrictMode$StrictModeNetworkViolation: policy=23 violation=4
+D/StrictMode( 1294):    at android.os.StrictMode$AndroidBlockGuardPolicy.onNetwork(StrictMode.java:1105)
+D/StrictMode( 1294):    at libcore.io.BlockGuardOs.recvfrom(BlockGuardOs.java:163)
+D/StrictMode( 1294):    at libcore.io.IoBridge.recvfrom(IoBridge.java:503)
+D/StrictMode( 1294):    at java.net.PlainSocketImpl.read(PlainSocketImpl.java:488)
+D/StrictMode( 1294):    at java.net.PlainSocketImpl.access$000(PlainSocketImpl.java:46)
+D/StrictMode( 1294):    at java.net.PlainSocketImpl$PlainSocketInputStream.read(PlainSocketImpl.java:240)
+D/StrictMode( 1294):    at java.io.InputStream.read(InputStream.java:163)
+D/StrictMode( 1294):    at java.io.BufferedInputStream.fillbuf(BufferedInputStream.java:142)
+D/StrictMode( 1294):    at java.io.BufferedInputStream.read(BufferedInputStream.java:227)
+D/StrictMode( 1294):    at libcore.io.Streams.readAsciiLine(Streams.java:201)
+D/StrictMode( 1294):    at libcore.net.http.HttpEngine.readHeaders(HttpEngine.java:587)
+D/StrictMode( 1294):    at libcore.net.http.HttpEngine.readResponseHeaders(HttpEngine.java:545)
+D/StrictMode( 1294):    at libcore.net.http.HttpEngine.readResponse(HttpEngine.java:784)
+D/StrictMode( 1294):    at libcore.net.http.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:274)
+D/StrictMode( 1294):    at libcore.net.http.HttpURLConnectionImpl.getInputStream(HttpURLConnectionImpl.java:168)
+D/StrictMode( 1294):    at com.coship.netfirmware.downloads.HttpDownLoad.getInputStream(HttpDownLoad.java:66)
+D/StrictMode( 1294):    at com.coship.netfirmware.downloads.HttpDownLoad.downfile(HttpDownLoad.java:43)
+D/StrictMode( 1294):    at com.coship.netfirmware.NetFirmwareService.downFileFormService(NetFirmwareService.java:1511)
+D/StrictMode( 1294):    at com.coship.netfirmware.NetFirmwareService.access$4800(NetFirmwareService.java:69)
+D/StrictMode( 1294):    at com.coship.netfirmware.NetFirmwareService$6.run(NetFirmwareService.java:1147)
+I/FileUtils( 1294): mkdirPath--->/data/data/com.coship.netfirmware/
+I/FileUtils( 1294): createNewFilePath--->/data/data/com.coship.netfirmware/description_211311.dat
+I/FileUtils( 1294): file--->description_211311.dat
+D/StrictMode( 1294): StrictMode policy violation: android.os.StrictMode$StrictModeDiskReadViolation: policy=23 violation=2
+D/StrictMode( 1294):    at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1089)
+D/StrictMode( 1294):    at libcore.io.BlockGuardOs.open(BlockGuardOs.java:106)
+D/StrictMode( 1294):    at libcore.io.IoBridge.open(IoBridge.java:390)
+D/StrictMode( 1294):    at java.io.FileOutputStream.<init>(FileOutputStream.java:88)
+D/StrictMode( 1294):    at java.io.FileOutputStream.<init>(FileOutputStream.java:73)
+D/StrictMode( 1294):    at com.coship.netfirmware.downloads.FileUtils.writeToPathFromInput(FileUtils.java:78)
+D/StrictMode( 1294):    at com.coship.netfirmware.downloads.HttpDownLoad.downfile(HttpDownLoad.java:44)
+D/StrictMode( 1294):    at com.coship.netfirmware.NetFirmwareService.downFileFormService(NetFirmwareService.java:1511)
+D/StrictMode( 1294):    at com.coship.netfirmware.NetFirmwareService.access$4800(NetFirmwareService.java:69)
+D/StrictMode( 1294):    at com.coship.netfirmware.NetFirmwareService$6.run(NetFirmwareService.java:1147)
+D/StrictMode( 1294): StrictMode policy violation: android.os.StrictMode$StrictModeNetworkViolation: policy=23 violation=4
+D/StrictMode( 1294):    at android.os.StrictMode$AndroidBlockGuardPolicy.onNetwork(StrictMode.java:1105)
+D/StrictMode( 1294):    at libcore.io.BlockGuardOs.recvfrom(BlockGuardOs.java:163)
+D/StrictMode( 1294):    at libcore.io.IoBridge.recvfrom(IoBridge.java:503)
+D/StrictMode( 1294):    at java.net.PlainSocketImpl.read(PlainSocketImpl.java:488)
+D/StrictMode( 1294):    at java.net.PlainSocketImpl.access$000(PlainSocketImpl.java:46)
+D/StrictMode( 1294):    at java.net.PlainSocketImpl$PlainSocketInputStream.read(PlainSocketImpl.java:240)
+D/StrictMode( 1294):    at java.io.BufferedInputStream.read(BufferedInputStream.java:304)
+D/StrictMode( 1294):    at libcore.net.http.FixedLengthInputStream.read(FixedLengthInputStream.java:45)
+D/StrictMode( 1294):    at java.io.InputStream.read(InputStream.java:163)
+D/StrictMode( 1294):    at com.coship.netfirmware.downloads.FileUtils.writeToPathFromInput(FileUtils.java:80)
+D/StrictMode( 1294):    at com.coship.netfirmware.downloads.HttpDownLoad.downfile(HttpDownLoad.java:44)
+D/StrictMode( 1294):    at com.coship.netfirmware.NetFirmwareService.downFileFormService(NetFirmwareService.java:1511)
+D/StrictMode( 1294):    at com.coship.netfirmware.NetFirmwareService.access$4800(NetFirmwareService.java:69)
+D/StrictMode( 1294):    at com.coship.netfirmware.NetFirmwareService$6.run(NetFirmwareService.java:1147)
+D/StrictMode( 1294): StrictMode policy violation: android.os.StrictMode$StrictModeDiskWriteViolation: policy=23 violation=1
+D/StrictMode( 1294):    at android.os.StrictMode$AndroidBlockGuardPolicy.onWriteToDisk(StrictMode.java:1063)
+D/StrictMode( 1294):    at libcore.io.BlockGuardOs.write(BlockGuardOs.java:190)
+D/StrictMode( 1294):    at libcore.io.IoBridge.write(IoBridge.java:447)
+D/StrictMode( 1294):    at java.io.FileOutputStream.write(FileOutputStream.java:187)
+D/StrictMode( 1294):    at java.io.OutputStream.write(OutputStream.java:82)
+D/StrictMode( 1294):    at com.coship.netfirmware.downloads.FileUtils.writeToPathFromInput(FileUtils.java:81)
+D/StrictMode( 1294):    at com.coship.netfirmware.downloads.HttpDownLoad.downfile(HttpDownLoad.java:44)
+D/StrictMode( 1294):    at com.coship.netfirmware.NetFirmwareService.downFileFormService(NetFirmwareService.java:1511)
+D/StrictMode( 1294):    at com.coship.netfirmware.NetFirmwareService.access$4800(NetFirmwareService.java:69)
+D/StrictMode( 1294):    at com.coship.netfirmware.NetFirmwareService$6.run(NetFirmwareService.java:1147)
+I/HttpDownLoad( 1294): resultFile--->/data/data/com.coship.netfirmware/description_211311.dat
+D/StrictMode( 1294): StrictMode policy violation: android.os.StrictMode$StrictModeDiskReadViolation: policy=23 violation=2
+D/StrictMode( 1294):    at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1089)
+D/StrictMode( 1294):    at libcore.io.BlockGuardOs.open(BlockGuardOs.java:106)
+D/StrictMode( 1294):    at libcore.io.IoBridge.open(IoBridge.java:390)
+D/StrictMode( 1294):    at java.io.FileInputStream.<init>(FileInputStream.java:78)
+D/StrictMode( 1294):    at java.io.FileInputStream.<init>(FileInputStream.java:105)
+D/StrictMode( 1294):    at com.coship.netfirmware.NetFirmwareService.getUpdateInfo(NetFirmwareService.java:1527)
+D/StrictMode( 1294):    at com.coship.netfirmware.NetFirmwareService.downFileFormService(NetFirmwareService.java:1512)
+D/StrictMode( 1294):    at com.coship.netfirmware.NetFirmwareService.access$4800(NetFirmwareService.java:69)
+D/StrictMode( 1294):    at com.coship.netfirmware.NetFirmwareService$6.run(NetFirmwareService.java:1147)
+D/StrictMode( 1294): StrictMode policy violation: android.os.StrictMode$StrictModeDiskReadViolation: policy=23 violation=2
+D/StrictMode( 1294):    at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1089)
+D/StrictMode( 1294):    at libcore.io.BlockGuardOs.read(BlockGuardOs.java:148)
+D/StrictMode( 1294):    at libcore.io.IoBridge.read(IoBridge.java:422)
+D/StrictMode( 1294):    at java.io.FileInputStream.read(FileInputStream.java:179)
+D/StrictMode( 1294):    at java.io.InputStreamReader.read(InputStreamReader.java:244)
+D/StrictMode( 1294):    at java.io.BufferedReader.fillBuf(BufferedReader.java:130)
+D/StrictMode( 1294):    at java.io.BufferedReader.readLine(BufferedReader.java:354)
+D/StrictMode( 1294):    at com.coship.netfirmware.NetFirmwareService.getUpdateInfo(NetFirmwareService.java:1531)
+D/StrictMode( 1294):    at com.coship.netfirmware.NetFirmwareService.downFileFormService(NetFirmwareService.java:1512)
+D/StrictMode( 1294):    at com.coship.netfirmware.NetFirmwareService.access$4800(NetFirmwareService.java:69)
+D/StrictMode( 1294):    at com.coship.netfirmware.NetFirmwareService$6.run(NetFirmwareService.java:1147)
+D/StrictMode( 1294): StrictMode policy violation: android.os.StrictMode$StrictModeDiskReadViolation: policy=23 violation=2
+D/StrictMode( 1294):    at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1089)
+D/StrictMode( 1294):    at libcore.io.BlockGuardOs.read(BlockGuardOs.java:148)
+D/StrictMode( 1294):    at libcore.io.IoBridge.read(IoBridge.java:422)
+D/StrictMode( 1294):    at java.io.FileInputStream.read(FileInputStream.java:179)
+D/StrictMode( 1294):    at java.io.InputStreamReader.read(InputStreamReader.java:244)
+D/StrictMode( 1294):    at java.io.BufferedReader.fillBuf(BufferedReader.java:130)
+D/StrictMode( 1294):    at java.io.BufferedReader.readLine(BufferedReader.java:390)
+D/StrictMode( 1294):    at com.coship.netfirmware.NetFirmwareService.getUpdateInfo(NetFirmwareService.java:1551)
+D/StrictMode( 1294):    at com.coship.netfirmware.NetFirmwareService.downFileFormService(NetFirmwareService.java:1512)
+D/StrictMode( 1294):    at com.coship.netfirmware.NetFirmwareService.access$4800(NetFirmwareService.java:69)
+D/StrictMode( 1294):    at com.coship.netfirmware.NetFirmwareService$6.run(NetFirmwareService.java:1147)
+D/dalvikvm( 1294): GC_CONCURRENT freed 403K, 77% free 2081K/8963K, paused 2ms+2ms
+D/StrictMode( 1294): StrictMode policy violation: android.os.StrictMode$StrictModeDiskReadViolation: policy=23 violation=2
+D/StrictMode( 1294):    at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1089)
+D/StrictMode( 1294):    at libcore.io.BlockGuardOs.read(BlockGuardOs.java:148)
+D/StrictMode( 1294):    at libcore.io.IoBridge.read(IoBridge.java:422)
+D/StrictMode( 1294):    at java.io.FileInputStream.read(FileInputStream.java:179)
+D/StrictMode( 1294):    at java.io.InputStreamReader.read(InputStreamReader.java:244)
+D/StrictMode( 1294):    at java.io.BufferedReader.fillBuf(BufferedReader.java:130)
+D/StrictMode( 1294):    at java.io.BufferedReader.readLine(BufferedReader.java:354)
+D/StrictMode( 1294):    at com.coship.netfirmware.NetFirmwareService.getUpdateInfo(NetFirmwareService.java:1535)
+D/StrictMode( 1294):    at com.coship.netfirmware.NetFirmwareService.downFileFormService(NetFirmwareService.java:1512)
+D/StrictMode( 1294):    at com.coship.netfirmware.NetFirmwareService.access$4800(NetFirmwareService.java:69)
+D/StrictMode( 1294):    at com.coship.netfirmware.NetFirmwareService$6.run(NetFirmwareService.java:1147)
+I/NetFirmwareService( 1294): packageSize--->203150867
+I/NetFirmwareService( 1294): MD5--->438176851d193bbcdbe46cf48323e048
+V/NetFirmwareService( 1294): MSG_LOAD_DAT_STATUS_mNetUpdate--->true
+D/NetFirmwareService( 1294): Network Connection Success!
+D/NetFirmwareService( 1294): Upgrade File Load Success!
+D/NetFirmwareService( 1294): serverURL = www.stp_firmware.coship.com
+D/NetFirmwareService( 1294): CheckUpgradeTimer mCheckTime = 5
+D/NetFirmwareService( 1294): startTimer
+D/NetFirmwareService( 1294): removeTimer
+E/ServerHandler( 1642): receiveRequest
+V/OtORequest( 1642): parseCommand
+V/OtORequest( 1642): get command=103
+V/OtORequest( 1642): parse OtORequest: cmd=103 paramLength=0 bufferlen=8
+D/OtOService( 1642): client request get status.playType:2
+D/OtOService( 1642): callback N: 2
+D/OtOService( 1642): send callback: 101
+D/dvb_ServiceAdapter( 2279): dvb_ResultCallBack: what:101   arg1:0
+D/OtOService( 1642): VOB　sync :com.aidufei.otoService.PlayEvent@42d96c48
+E/ServerAdapter( 1642): ServerAdapter:0
+E/ServerHandler( 1642): Send:com.aidufei.protocol.oto.OtOStatusRequest@42d96f68
+D/ServerHandler( 1642): ServerHandler send request:103:{"ResourceInfo":{"ProductCode":"","PlayType":2,"ResourceCode":"","ResourceName":" "},"Status":{"ReturnCode":100,"Description":"ok"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 1642): ServerHandler send DatagramPacket:/192.168.1.105-[B@417b12e8
+D/OtOService( 1642): send callback obj: com.aidufei.otoService.IServiceCallBack$Stub$Proxy@41b37180
+D/OtOService( 1642): send callback: 101
+D/dvb_ServiceAdapter( 2279): dvb_ResultCallBack: what:101   arg1:0
+D/OtOService( 1642): VOB　sync :com.aidufei.otoService.PlayEvent@417b1c60
+E/ServerAdapter( 1642): ServerAdapter:0
+E/ServerHandler( 1642): Send:com.aidufei.protocol.oto.OtOStatusRequest@417b1f80
+D/ServerHandler( 1642): ServerHandler send request:103:{"ResourceInfo":{"ProductCode":"","PlayType":2,"ResourceCode":"","ResourceName":" "},"Status":{"ReturnCode":100,"Description":"ok"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 1642): ServerHandler send DatagramPacket:/192.168.1.105-[B@4173f2a0
+D/OtOService( 1642): send callback obj: com.aidufei.otoService.IServiceCallBack$Stub$Proxy@42d92bc8
+E/ServerAdapter( 1642): ServerAdapter:0
+E/ServerHandler( 1642): Send:com.aidufei.protocol.oto.OtOStatusRequest@4173fb50
+D/ServerHandler( 1642): ServerHandler send request:103:{"Status":{"ReturnCode":99,"Description":"status sync processing"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 1642): ServerHandler send DatagramPacket:/192.168.1.105-[B@41740c10
+D/MonitorCw880( 2444): currentRemoteHost is null ,continue
+W/ThrottleService(  984): unable to find stats for iface rmnet0
+D/HomePlayerLib( 1700): hostaddress count is 1
+E/ServerHandler( 1642): receiveRequest
+V/OtORequest( 1642): parseCommand
+V/OtORequest( 1642): get command=103
+V/OtORequest( 1642): parse OtORequest: cmd=103 paramLength=0 bufferlen=8
+D/OtOce( 1642): callback N: 2
+D/OtOService( 1642): send callback: 10^C

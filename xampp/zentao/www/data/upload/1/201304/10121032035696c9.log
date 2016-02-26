@@ -1,0 +1,2157 @@
+shell@android:/ # logcat -c;logcat
+--------- beginning of /dev/log/main
+D/BackService( 1640): [actionControlReceived] Name:GetVolumeDBRange
+D/XXXX    ( 1640): XXXX hp in actionControlReceived acname is : GetVolumeDBRange
+D/BackService( 1640): [actionControlReceived] Name:GetTransportInfo
+D/XXXX    ( 1640): XXXX hp in actionControlReceived acname is : GetTransportInfo
+D/BackService( 1640): [actionControlReceived] Name:GetPositionInfo
+D/XXXX    ( 1640): XXXX hp in actionControlReceived acname is : GetPositionInfo
+D/BackService( 1640): [actionControlReceived] Name:GetVolume
+D/XXXX    ( 1640): XXXX hp in actionControlReceived acname is : GetVolume
+D/XXXX    ( 1640): XXXX hp in actionControlReceived setValue is : 15
+D/BackService( 1640): [actionControlReceived] Name:GetVolumeDBRange
+D/XXXX    ( 1640): XXXX hp in actionControlReceived acname is : GetVolumeDBRange
+D/BackService( 1640): [actionControlReceived] Name:GetTransportInfo
+D/XXXX    ( 1640): XXXX hp in actionControlReceived acname is : GetTransportInfo
+D/BackService( 1640): [actionControlReceived] Name:GetPositionInfo
+D/dalvikvm( 1640): GC_CONCURRENT freed 1697K, 72% free 5919K/20995K, paused 2ms+4ms
+D/XXXX    ( 1640): XXXX hp in actionControlReceived acname is : GetPositionInfo
+D/BackService( 1640): [actionControlReceived] Name:GetVolume
+D/XXXX    ( 1640): XXXX hp in actionControlReceived acname is : GetVolume
+D/XXXX    ( 1640): XXXX hp in actionControlReceived setValue is : 15
+D/BackService( 1640): [actionControlReceived] Name:Play
+V/BackService( 1640): ++++fileType++++1+++++MusicWindow++++false++++uri++++http://192.168.43.186:8088/files-autodir/storage/sdcard0/psy1.mp4
+V/MovieWindow( 1640): ++++come here++++[]
+--------- beginning of /dev/log/system
+I/ActivityManager(  980): START {act=com.coship.Multimedia.moviewindow.launch flg=0x14000000 cmp=com.coship.Multimedia/.MovieWindow.MovieWindow (has extras)} from pid 1640
+D/dalvikvm(  980): GC_FOR_ALLOC freed 770K, 64% free 3861K/10691K, paused 40ms
+I/dalvikvm-heap(  980): Grow heap (frag case) to 8.372MB for 1048592-byte allocation
+D/dalvikvm(  980): GC_FOR_ALLOC freed 2K, 55% free 4882K/10691K, paused 36ms
+D/dalvikvm(  980): GC_CONCURRENT freed 2K, 55% free 4880K/10691K, paused 2ms+4ms
+D/BackService( 1640): need start activity,url is http://192.168.43.186:8088/files-autodir/storage/sdcard0/psy1.mp4
+D/OpenGLRenderer( 1289): Flushing caches (mode 1)
+D/OpenGLRenderer( 1289): Flushing caches (mode 0)
+D/Tethering(  980): TetherModeAliveState.processMessage what=5
+D/Tethering(  980): chooseUpstreamType(false), preferredApn =5, got type=-1
+D/Tethering(  980): notifying tethered with iface =null
+D/Tethering(  980): TetheredState.processMessage what=12
+I/System.out( 1640): progress_Max-->32
+W/MediaPlayer.java( 1640): setScreenOnWhilePlaying(true) is ineffective without a SurfaceHolder
+D/dhcpcd  ( 2964): sending DHCP_DISCOVER with xid 0x1e98ff30, next in 32.83 seconds
+E/        ( 1289): get vaddr failed:pvaddr_read=0x600a7000,pvaddr_internal=0x601a7000,pvaddr_write=0x0
+E/        ( 1289): get vaddr failed:pvaddr_read=0x600a7000,pvaddr_internal=0x601a7000,pvaddr_write=0x0
+D/dalvikvm( 1289): GC_FOR_ALLOC freed 2161K, 27% free 20640K/28099K, paused 31ms
+D/dalvikvm( 1289): GC_FOR_ALLOC freed 321K, 22% free 21975K/28099K, paused 32ms
+I/Process (  980): Sending signal. PID: 1640 SIG: 3
+I/dalvikvm( 1640): threadid=3: reacting to signal 3
+I/dalvikvm( 1640): Wrote stack traces to '/data/anr/traces.txt'
+D/BackService( 1640): [actionControlReceived] Name:GetVolumeDBRange
+D/XXXX    ( 1640): XXXX hp in actionControlReceived acname is : GetVolumeDBRange
+D/BackService( 1640): [actionControlReceived] Name:GetTransportInfo
+D/XXXX    ( 1640): XXXX hp in actionControlReceived acname is : GetTransportInfo
+D/BackService( 1640): [actionControlReceived] Name:GetPositionInfo
+D/XXXX    ( 1640): XXXX hp in actionControlReceived acname is : GetPositionInfo
+D/BackService( 1640): [actionControlReceived] Name:GetVolume
+D/XXXX    ( 1640): XXXX hp in actionControlReceived acname is : GetVolume
+D/XXXX    ( 1640): XXXX hp in actionControlReceived setValue is : 15
+I/Process (  980): Sending signal. PID: 1640 SIG: 3
+I/dalvikvm( 1640): threadid=3: reacting to signal 3
+I/dalvikvm( 1640): Wrote stack traces to '/data/anr/traces.txt'
+V/MovieWindow( 1640): +++++videoUrlList++++[http://192.168.43.186:8088/files-autodir/storage/sdcard0/psy1.mp4]
+V/MovieWindow( 1640): +++++++++playingUrl+++++++++http://192.168.43.186:8088/files-autodir/storage/sdcard0/psy1.mp4
+V/TabletStatusBar( 1175): setLightsOn(true)
+I/MovieWindow( 1640): [handleIntent]  CurrentActionTytpe:100
+D/MediaPlayerService( 2721):  Create MstarPlayer
+D/MstarPlayer( 2721): Create MstarPlayer:0x50c60,Version:Release Mstar player lib Version:0015,Base CL:690305  Date:2012/11/06
+D/MstarPlayer( 2721): TV Local Time :  Wed Apr 10 11:02:52 2013
+D/MstarPlayer( 2721):  
+D/MstarPlayer( 2721): setInstance: 0x50c60
+D/MstarPlayer( 2721): mstar player set listener
+D/MstarPlayer( 2721): MstarPlayer::initCheck
+D/MediaPlayerService( 2721): [9] setVideoSurfaceTexture(0x0)
+D/MstarPlayer( 2721): MstarPlayer::prepareAsync
+D/MstarPlayer( 2721): 
+D/MstarPlayer( 2721):  MstarPlayer::doSetDataSource
+D/MstarPlayer( 2721): MstarPlayer::clearAllSource
+D/MstarPlayer( 2721): 
+D/MstarPlayer( 2721):  MstarPlayer::doSetDataSource: url=http://192.168.43.186:8088/files-autodir/storage/sdcard0/psy1.mp4
+D/StreamDataSource( 2721): host 192.168.43.186,path /files-autodir/storage/sdcard0/psy1.mp4,port 8088 
+D/StreamDataSource( 2721): malloc 524288 buffer
+D/Downloader( 2721): Release Mstar Content Source CL:493363  Date:2013/03/20
+I/receiver( 1640): *******BroadcastReceiver**********android.net.conn.CONNECTIVITY_CHANGE
+W/InputManagerService(  980): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@415bc2a0 (uid=10004 pid=1289)
+D/Downloader( 2721): Curl Version:libcurl/7.21.7 OpenSSL/1.0.0e
+D/Downloader( 2721): [downloadThread]init a multi curl done.curlm:0x47c38 pRingBuffer:0x401a0
+D/HTTPStreamCurl( 2721): HTTPStreamCurl Connecting to :http://192.168.43.186:8088/files-autodir/storage/sdcard0/psy1.mp4
+D/Downloader( 2721): [downloadThread]Downloader::removeTask  
+I/MovieWindow( 1640): [surfaceCreated] ~~~~~~~~~~~~~~~~
+I/MovieWindow( 1640): [surfaceChanged] ~~~~~~~~~~~~~~~~
+D/MediaPlayerService( 2721): [9] setVideoSurfaceTexture(0x42c00)
+D/MstarPlayer( 2721): MstarPlayer::setVideoSurfaceTexture 
+V/MovieWindow( 1640): set background listener in MusicWindow onPause
+D/MovieWindow( 1640): onPause in moviewindow
+I/ActivityManager(  980): Displayed com.coship.Multimedia/.MovieWindow.MovieWindow: +1s402ms
+D/MovieWindow( 1640): onDestroy in moviewindow
+D/Downloader( 2721): Content-Length: 158913590
+D/Downloader( 2721): 
+D/Downloader( 2721): Content-Type: video/mp4
+D/Downloader( 2721): 
+D/dalvikvm( 1640): GC_EXPLICIT freed 1332K, 71% free 6242K/20995K, paused 2ms+5ms
+E/StrictMode( 1640): class com.coship.Multimedia.MovieWindow.MovieWindow; instances=2; limit=1
+E/StrictMode( 1640): android.os.StrictMode$InstanceCountViolation: class com.coship.Multimedia.MovieWindow.MovieWindow; instances=2; limit=1
+E/StrictMode( 1640):    at android.os.StrictMode.setClassInstanceLimit(StrictMode.java:1)
+D/HTTPStreamCurl( 2721): <<<<<<<<stream len: 158913590   m_UrlContentType:video/mp4
+D/HTTPStreamCurl( 2721):   retrycount:98 
+D/HTTPStreamCurl( 2721): HTTPStreamCurl::connectWithRedirectsAndRange, isDlna=0, couldSeek=0
+D/StreamDataSource( 2721):  StreamContentSource::connect OK !! 
+V/MovieWindow( 1640): +++++++surfaceDestroyed+++++++
+E/WindowManager( 1640): Activity com.coship.Multimedia.MovieWindow.MovieWindow has leaked window com.android.internal.policy.impl.PhoneWindow$DecorView@41a8af48 that was originally added here
+E/WindowManager( 1640): android.view.WindowLeaked: Activity com.coship.Multimedia.MovieWindow.MovieWindow has leaked window com.android.internal.policy.impl.PhoneWindow$DecorView@41a8af48 that was originally added here
+E/WindowManager( 1640):         at android.view.ViewRootImpl.<init>(ViewRootImpl.java:344)
+E/WindowManager( 1640):         at android.view.WindowManagerImpl.addView(WindowManagerImpl.java:267)
+E/WindowManager( 1640):         at android.view.WindowManagerImpl.addView(WindowManagerImpl.java:215)
+E/WindowManager( 1640):         at android.view.WindowManagerImpl$CompatModeWrapper.addView(WindowManagerImpl.java:140)
+E/WindowManager( 1640):         at android.view.Window$LocalWindowManager.addView(Window.java:537)
+E/WindowManager( 1640):         at android.app.Dialog.show(Dialog.java:278)
+E/WindowManager( 1640):         at com.coship.Multimedia.MovieWindow.MovieWindow.initVideo(MovieWindow.java:992)
+E/WindowManager( 1640):         at com.coship.Multimedia.MovieWindow.MovieWindow.onCreate(MovieWindow.java:217)
+E/WindowManager( 1640):         at android.app.Activity.performCreate(Activity.java:4465)
+E/WindowManager( 1640):         at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1049)
+E/WindowManager( 1640):         at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:1920)
+E/WindowManager( 1640):         at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:1981)
+E/WindowManager( 1640):         at android.app.ActivityThread.access$600(ActivityThread.java:123)
+E/WindowManager( 1640):         at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1147)
+E/WindowManager( 1640):         at android.os.Handler.dispatchMessage(Handler.java:99)
+E/WindowManager( 1640):         at android.os.Looper.loop(Looper.java:137)
+E/WindowManager( 1640):         at android.app.ActivityThread.main(ActivityThread.java:4424)
+E/WindowManager( 1640):         at java.lang.reflect.Method.invokeNative(Native Method)
+E/WindowManager( 1640):         at java.lang.reflect.Method.invoke(Method.java:511)
+E/WindowManager( 1640):         at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:848)
+E/WindowManager( 1640):         at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:575)
+E/WindowManager( 1640):         at dalvik.system.NativeStart.main(Native Method)
+D/MstarPlayer( 2721): open mHwcFifoFD = 14
+D/MstarPlayer( 2721): ==========MstarPlayer::reset : 0x50c60==========
+D/StreamDataSource( 2721): ForceStopRead !!
+D/MstarPlayer( 2721): request to exit async thread
+D/MstarPlayer( 2721): exit async proc thread
+D/MstarPlayer( 2721): MstarPlayer::clearAllSource
+D/MstarPlayer( 2721): setInstance: 0x0
+D/MstarPlayer( 2721): reset done
+D/StreamDataSource( 2721): ~StreamContentSource 
+I/MovieWindow( 1640): ***********surfaceDestroyed
+D/MstarPlayer( 2721): ==========MstarPlayer::reset : 0x50c60==========
+D/MstarPlayer( 2721): MstarPlayer::clearAllSource
+D/MstarPlayer( 2721): setInstance: 0x0
+D/MstarPlayer( 2721): reset done
+D/MstarPlayer( 2721): 
+D/MstarPlayer( 2721): =======Destroy mstar player  : 0x50c60========
+D/HTTPStreamCurl( 2721): 
+D/HTTPStreamCurl( 2721):  ~HTTPStreamCurl 
+D/Downloader( 2721): Enter Downloader::ForceExit ! 
+D/HTTPStreamCurl( 2721): [HTTPStreamCurl]request to exit download thread 
+D/HTTPStreamCurl( 2721): [HTTPStreamCurl]request to exit download thread  Done !!
+D/Downloader( 2721): Enter Downloader::ForceExit ! 
+D/Downloader( 2721): [downloadThread]Downloader::removeTask  
+D/Downloader( 2721): ~Downloader
+D/HTTPStreamCurl( 2721): ~HTTPStreamCurl done.
+D/BackService( 1640): [actionControlReceived] Name:GetVolumeDBRange
+D/XXXX    ( 1640): XXXX hp in actionControlReceived acname is : GetVolumeDBRange
+D/BackService( 1640): [actionControlReceived] Name:GetTransportInfo
+D/XXXX    ( 1640): XXXX hp in actionControlReceived acname is : GetTransportInfo
+D/BackService( 1640): [actionControlReceived] Name:GetPositionInfo
+D/XXXX    ( 1640): XXXX hp in actionControlReceived acname is : GetPositionInfo
+D/BackService( 1640): [actionControlReceived] Name:GetVolume
+D/XXXX    ( 1640): XXXX hp in actionControlReceived acname is : GetVolume
+D/XXXX    ( 1640): XXXX hp in actionControlReceived setValue is : 15
+D/BackService( 1640): [actionControlReceived] Name:GetVolumeDBRange
+D/XXXX    ( 1640): XXXX hp in actionControlReceived acname is : GetVolumeDBRange
+D/BackService( 1640): [actionControlReceived] Name:GetTransportInfo
+D/XXXX    ( 1640): XXXX hp in actionControlReceived acname is : GetTransportInfo
+D/BackService( 1640): [actionControlReceived] Name:GetPositionInfo
+D/XXXX    ( 1640): XXXX hp in actionControlReceived acname is : GetPositionInfo
+D/BackService( 1640): [actionControlReceived] Name:GetVolume
+D/XXXX    ( 1640): XXXX hp in actionControlReceived acname is : GetVolume
+D/XXXX    ( 1640): XXXX hp in actionControlReceived setValue is : 15
+D/Tethering(  980): TetherModeAliveState.processMessage what=5
+D/Tethering(  980): chooseUpstreamType(true), preferredApn =5, got type=-1
+D/Tethering(  980): notifying tethered with iface =null
+D/Tethering(  980): TetheredState.processMessage what=12
+D/ConnectivityService(  980): special network not available
+E/        ( 1289): get vaddr failed:pvaddr_read=0x600a7000,pvaddr_internal=0x601a7000,pvaddr_write=0x0
+E/        ( 1289): get vaddr failed:pvaddr_read=0x600a7000,pvaddr_internal=0x601a7000,pvaddr_write=0x0
+D/dalvikvm( 1289): GC_FOR_ALLOC freed 2161K, 27% free 20641K/28099K, paused 33ms
+D/dalvikvm( 1289): GC_FOR_ALLOC freed 321K, 22% free 21975K/28099K, paused 32ms
+D/BackService( 1640): [actionControlReceived] Name:GetVolumeDBRange
+D/XXXX    ( 1640): XXXX hp in actionControlReceived acname is : GetVolumeDBRange
+D/BackService( 1640): [actionControlReceived] Name:GetTransportInfo
+D/XXXX    ( 1640): XXXX hp in actionControlReceived acname is : GetTransportInfo
+D/BackService( 1640): [actionControlReceived] Name:GetPositionInfo
+D/XXXX    ( 1640): XXXX hp in actionControlReceived acname is : GetPositionInfo
+D/BackService( 1640): [actionControlReceived] Name:GetVolume
+D/XXXX    ( 1640): XXXX hp in actionControlReceived acname is : GetVolume
+D/XXXX    ( 1640): XXXX hp in actionControlReceived setValue is : 15
+^C
+130|shell@android:/ # 
+130|shell@android:/ # 
+130|shell@android:/ # [ 2460.197977] [irq_proc_open][373] -16
+[ 2466.715286] IR: [03932] scan key value is 0xee11c936 
+[ 2466.715292]  
+[ 2466.766772] IR: [03932] scan key value is 0xee11c936 
+[ 2466.766777]  
+[ 2467.477320] IR: [03932] scan key value is 0xec13c936 
+[ 2467.477325]  
+[ 2467.528506] IR: [03932] scan key value is 0xec13c936 
+[ 2467.528510]  
+[ 2470.987548] IR: [03932] scan key value is 0xec13c936 
+[ 2470.987553]  
+[ 2471.038736] IR: [03932] scan key value is 0xec13c936 
+[ 2471.038741]  
+[ 2472.204276] IR: [03932] scan key value is 0xea15c936 
+[ 2472.204281]  
+[ 2472.256026] IR: [03932] scan key value is 0xea15c936 
+[ 2472.256031]  
+[ 2472.525972] IR: [03932] scan key value is 0xea15c936 
+[ 2472.525977]  
+[ 2472.577731] IR: [03932] scan key value is 0xea15c936 
+[ 2472.577736]  
+[ 2472.814175] IR: [03932] scan key value is 0xea15c936 
+[ 2472.814180]  
+[ 2472.865984] IR: [03932] scan key value is 0xea15c936 
+[ 2472.865988]  
+[ 2473.232073] IR: [03932] scan key value is 0xea15c936 
+[ 2473.232078]  
+[ 2473.283810] IR: [03932] scan key value is 0xea15c936 
+[ 2473.283819]  
+[ 2473.983813] IR: [03932] scan key value is 0xee11c936 
+[ 2473.983818]  
+[ 2474.035278] IR: [03932] scan key value is 0xee11c936 
+[ 2474.035283]  
+[ 2474.697604] IR: [03932] scan key value is 0xea15c936 
+[ 2474.697609]  
+[ 2474.749386] IR: [03932] scan key value is 0xea15c936 
+[ 2474.749394]  
+[ 2475.046223] IR: [03932] scan key value is 0xea15c936 
+[ 2475.046228]  
+[ 2475.098034] IR: [03932] scan key value is 0xea15c936 
+[ 2475.098043]  
+[ 2475.423730] IR: [03932] scan key value is 0xea15c936 
+[ 2475.423735]  
+[ 2475.475501] IR: [03932] scan key value is 0xea15c936 
+[ 2475.475510]  
+[ 2475.685579] IR: [03932] scan key value is 0xea15c936 
+[ 2475.685584]  
+[ 2475.737324] IR: [03932] scan key value is 0xea15c936 
+[ 2475.737329]  
+[ 2476.347941] IR: [03932] scan key value is 0xeb14c936 
+[ 2476.347946]  
+[ 2476.398874] IR: [03932] scan key value is 0xeb14c936 
+[ 2476.398879]  
+[ 2476.853342] IR: [03932] scan key value is 0xed12c936 
+[ 2476.853347]  
+[ 2476.904821] IR: [03932] scan key value is 0xed12c936 
+[ 2476.904826]  
+[ 2477.218338] IR: [03932] scan key value is 0xee11c936 
+[ 2477.218343]  
+[ 2477.269768] IR: [03932] scan key value is 0xee11c936 
+[ 2477.269773]  
+[ 2477.631055] IR: [03932] scan key value is 0xeb14c936 
+[ 2477.631060]  
+[ 2477.681939] IR: [03932] scan key value is 0xeb14c936 
+[ 2477.681944]  
+[ 2478.289310] IR: [03932] scan key value is 0xee11c936 
+[ 2478.289314]  
+[ 2478.340766] IR: [03932] scan key value is 0xee11c936 
+[ 2478.340772]  
+[ 2478.653027] IR: [03932] scan key value is 0xec13c936 
+[ 2478.653032]  
+[ 2478.704211] IR: [03932] scan key value is 0xec13c936 
+[ 2478.704216]  
+[ 2486.388924] IR: [03932] scan key value is 0xed12c936 
+[ 2486.388929]  
+[ 2486.440342] IR: [03932] scan key value is 0xed12c936 
+[ 2486.440346]  
+[ 2486.912524] IR: [03932] scan key value is 0xee11c936 
+[ 2486.912529]  
+[ 2486.963890] IR: [03932] scan key value is 0xee11c936 
+[ 2486.963899]  
+[ 2487.283125] IR: [03932] scan key value is 0xee11c936 
+[ 2487.283130]  
+[ 2487.334601] IR: [03932] scan key value is 0xee11c936 
+[ 2487.334606]  
+[ 2488.414031] IR: [03932] scan key value is 0xea15c936 
+[ 2488.414036]  
+[ 2488.465780] IR: [03932] scan key value is 0xea15c936 
+[ 2488.465785]  
+[ 2488.723807] IR: [03932] scan key value is 0xea15c936 
+[ 2488.723812]  
+130|shell@android:/ # 
+[ 2488.775542] IR: [03932] scan key value is 0xea15c936 
+[ 2488.775547]  
+130|shell@android:/ # 
+130|shell@android:/ # 
+130|shell@android:/ # 
+[ 2489.155086] IR: [03932] scan key value is 0xeb14c936 
+[ 2489.155090]  
+[ 2489.205938] IR: [03932] scan key value is 0xeb14c936 
+[ 2489.205943]  
+[ 2489.719021] IR: [03932] scan key value is 0xee11c936 
+[ 2489.719026]  
+[ 2489.770475] IR: [03932] scan key value is 0xee11c936 
+[ 2489.770484]  ne
+[ 2490.109629] IR: [03932] scan key value is 0xec13c936 
+[ 2490.109634]  
+[ 2490.160777] IR: [03932] scan key value is 0xec13c936 
+[ 2490.160782]  tcfg
+lo       UP                                   127.0.0.1/8   0x00000049 00:00:00:00:00:00
+eth0     UP                                     0.0.0.0/0   0x00001003 a0:a8:2f:ab:05:13
+tunl0    DOWN                                   0.0.0.0/0   0x00000080 00:00:00:00:00:00
+gre0     DOWN                                   0.0.0.0/0   0x00000080 00:00:00:00:00:00
+sit0     DOWN                                   0.0.0.0/0   0x00000080 00:00:00:00:00:00
+wlan0    DOWN                                   0.0.0.0/0   0x00001002 a4:a8:20:13:03:6e
+uap0     UP                                192.168.43.1/24  0x00001043 a4:a8:20:13:03:6e
+wfd0     DOWN                                   0.0.0.0/0   0x00001002 a6:a8:20:13:03:6e
+shell@android:/ # 
+[ 2491.472898] IR: [03932] scan key value is 0xec13c936 
+[ 2491.472903]  
+[ 2491.524019] IR: [03932] scan key value is 0xec13c936 
+[ 2491.524024]  
+[ 2492.267217] IR: [03932] scan key value is 0xec13c936 
+[ 2492.267222]  
+[ 2492.318352] IR: [03932] scan key value is 0xec13c936 
+shell@android:/ # netcfg                                                       
+lo       UP                                   127.0.0.1/8   0x00000049 00:00:00:00:00:00
+eth0     UP                                     0.0.0.0/0   0x00001003 a0:a8:2f:ab:05:13
+tunl0    DOWN                                   0.0.0.0/0   0x00000080 00:00:00:00:00:00
+gre0     DOWN                                   0.0.0.0/0   0x00000080 00:00:00:00:00:00
+sit0     DOWN                                   0.0.0.0/0   0x00000080 00:00:00:00:00:00
+wlan0    DOWN                                   0.0.0.0/0   0x00001002 a4:a8:20:13:03:6e
+uap0     UP                                192.168.43.1/24  0x00001043 a4:a8:20:13:03:6e
+wfd0     DOWN                                   0.0.0.0/0   0x00001002 a6:a8:20:13:03:6e
+shell@android:/ # 
+[ 2493.412704] IR: [03932] scan key value is 0xea15c936 
+[ 2493.412709]  
+[ 2493.464453] IR: [03932] scan key value is 0xea15c936 
+shell@android:/ # netcfg                                                       
+[ 2493.574617] IR: [03932] scan key value is 0xea15c936 
+[ 2493.574622]  
+lo       UP                                   127.0.0.1/8   0x00000049 00:00:00:00:00:00
+eth0     UP                                     0.0.0.0/0   0x00001003 a0:a8:2f:ab:05:13
+tunl0    DOWN                                   0.0.0.0/0   0x00000080 00:00:00:00:00:00
+gre0     DOWN                                   0.0.0.0/0   0x00000080 00:00:00:00:00:00
+sit0     DOWN                                   0.0.0.0/0   0x00000080 00:00:00:00:00:00
+wlan0    DOWN                                   0.0.0.0/0   0x00001002 a4:a8:20:13:03:6e
+uap0     UP                                192.168.43.1/24  0x00001043 a4:a8:20:13:03:6e
+wfd0     DOWN                                   0.0.0.0/0   0x00001002 a6:a8:20:13:03:6e
+shell@android:/ # 
+[ 2493.914935] IR: [03932] scan key value is 0xec13c936 
+[ 2493.914940]  
+[ 2493.966077] IR: [03932] scan key value is 0xec13c936 
+shell@android:/ # netcfg                                                       
+lo       UP                                   127.0.0.1/8   0x00000049 00:00:00:00:00:00
+eth0     UP                                     0.0.0.0/0   0x00001003 a0:a8:2f:ab:05:13
+tunl0    DOWN                                   0.0.0.0/0   0x00000080 00:00:00:00:00:00
+gre0     DOWN                                   0.0.0.0/0   0x00000080 00:00:00:00:00:00
+sit0     DOWN                                   0.0.0.0/0   0x00000080 00:00:00:00:00:00
+wlan0    DOWN                                   0.0.0.0/0   0x00001002 a4:a8:20:13:03:6e
+uap0     UP                                192.168.43.1/24  0x00001043 a4:a8:20:13:03:6e
+wfd0     DOWN                                   0.0.0.0/0   0x00001002 a6:a8:20:13:03:6e
+shell@android:/ # netcfg                                                       
+lo       UP                                   127.0.0.1/8   0x00000049 00:00:00:00:00:00
+eth0     UP                                     0.0.0.0/0   0x00001003 a0:a8:2f:ab:05:13
+tunl0    DOWN                                   0.0.0.0/0   0x00000080 00:00:00:00:00:00
+gre0     DOWN                                   0.0.0.0/0   0x00000080 00:00:00:00:00:00
+sit0     DOWN                                   0.0.0.0/0   0x00000080 00:00:00:00:00:00
+wlan0    DOWN                                   0.0.0.0/0   0x00001002 a4:a8:20:13:03:6e
+uap0     UP                                192.168.43.1/24  0x00001043 a4:a8:20:13:03:6e
+wfd0     DOWN                                   0.0.0.0/0   0x00001002 a6:a8:20:13:03:6e
+shell@android:/ # netcfg                                                       
+lo       UP                                   127.0.0.1/8   0x00000049 00:00:00:00:00:00
+eth0     UP                                     0.0.0.0/0   0x00001003 a0:a8:2f:ab:05:13
+tunl0    DOWN                                   0.0.0.0/0   0x00000080 00:00:00:00:00:00
+gre0     DOWN                                   0.0.0.0/0   0x00000080 00:00:00:00:00:00
+sit0     DOWN                                   0.0.0.0/0   0x00000080 00:00:00:00:00:00
+wlan0    DOWN                                   0.0.0.0/0   0x00001002 a4:a8:20:13:03:6e
+uap0     UP                                192.168.43.1/24  0x00001043 a4:a8:20:13:03:6e
+wfd0     DOWN                                   0.0.0.0/0   0x00001002 a6:a8:20:13:03:6e
+shell@android:/ # netcfg                                                       
+lo       UP                                   127.0.0.1/8   0x00000049 00:00:00:00:00:00
+eth0     UP                                     0.0.0.0/0   0x00001003 a0:a8:2f:ab:05:13
+tunl0    DOWN                                   0.0.0.0/0   0x00000080 00:00:00:00:00:00
+gre0     DOWN                                   0.0.0.0/0   0x00000080 00:00:00:00:00:00
+sit0     DOWN                                   0.0.0.0/0   0x00000080 00:00:00:00:00:00
+wlan0    DOWN                                   0.0.0.0/0   0x00001002 a4:a8:20:13:03:6e
+uap0     UP                                192.168.43.1/24  0x00001043 a4:a8:20:13:03:6e
+wfd0     DOWN                                   0.0.0.0/0   0x00001002 a6:a8:20:13:03:6e
+shell@android:/ # 
+[ 2497.816733] IR: [03932] scan key value is 0xeb14c936 
+[ 2497.816738]  
+[ 2497.867596] IR: [03932] scan key value is 0xeb14c936 
+[ 2497.867601]  
+[ 2497.975648] IR: [03932] scan key value is 0xeb14c936 
+[ 2497.975652]  
+[ 2498.088500] IR: [03932] scan key value is 0xeb14c936 
+[ 2498.088504]  
+[ 2498.196523] IR: [03932] scan key value is 0xeb14c936 
+[ 2498.196528]  
+[ 2498.309399] IR: [03932] scan key value is 0xeb14c936 
+[ 2498.309403]  
+[ 2498.422190] IR: [03932] scan key value is 0xeb14c936 
+[ 2498.422194]  
+[ 2498.530182] IR: [03932] scan key value is 0xeb14c936 
+[ 2498.530187]  
+[ 2498.643013] IR: [03932] scan key value is 0xeb14c936 
+[ 2498.643018]  
+shell@android:/ # 
+[ 2498.751052] IR: [03932] scan key value is 0xeb14c936 
+[ 2498.751057]  
+shell@android:/ # 
+shell@android:/ # 
+shell@android:/ # ifconfig eth0 192.168.11.130
+shell@android:/ # 
+shell@android:/ # 
+shell@android:/ # 
+shell@android:/ # 
+[ 2510.643896] IR: [03932] scan key value is 0xec13c936 
+[ 2510.643900]  
+[ 2510.695049] IR: [03932] scan key value is 0xec13c936 
+[ 2510.695054]  
+[ 2510.803698] IR: [03932] scan key value is 0xec13c936 
+[ 2510.803703]  
+[ 2511.596760] IR: [03932] scan key value is 0xf10ec936 
+[ 2511.596764]  
+[ 2511.647338] IR: [03932] scan key value is 0xf10ec936 
+[ 2511.647343]  
+[ 2513.834424] IR: [03932] scan key value is 0xed12c936 
+[ 2513.834429]  
+[ 2513.885886] IR: [03932] scan key value is 0xed12c936 
+[ 2513.885891]  
+[ 2514.596974] IR: [03932] scan key value is 0xf10ec936 
+[ 2514.596979]  
+[ 2514.647663] IR: [03932] scan key value is 0xf10ec936 
+[ 2514.647669]  
+[ 2515.869833] IR: [03932] scan key value is 0xed12c936 
+[ 2515.869837]  
+[ 2515.921219] IR: [03932] scan key value is 0xed12c936 
+[ 2515.921224]  
+[ 2516.441682] IR: [03932] scan key value is 0xee11c936 
+[ 2516.441687]  
+[ 2516.493073] IR: [03932] scan key value is 0xee11c936 
+[ 2516.493079]  
+[ 2517.623655] IR: [03932] scan key value is 0xea15c936 
+[ 2517.623660]  
+[ 2517.675367] IR: [03932] scan key value is 0xea15c936 
+[ 2517.675372]  
+[ 2521.184185] IR: [03932] scan key value is 0x6a95bd02 
+[ 2521.184189]  
+[ 2521.191102] Coship Smart DVB IR Receiver: unknown key: key=0x6a95bd02 down=1
+[ 2521.236465] IR: [03932] scan key value is 0x6a95bd02 
+[ 2521.236470]  
+[ 2521.404897] Coship Smart DVB IR Receiver: unknown key: key=0x6a95bd02 down=0
+[ 2562.165331] init: untracked pid 2660 exited
+[ 2562.170617] init: untracked pid 2661 exited
+[ 2562.174958] init: untracked pid 2662 exited
+[ 2562.179490] init: untracked pid 2663 exited
+[ 2565.098189] [irq_proc_open][373] -16
+[ 2565.666336] 
+[ 2565.666349] irq_proc_write
+[ 2780.296776] IR: [03932] scan key value is 0xec13c936 
+[ 2780.296781]  
+[ 2780.347978] IR: [03932] scan key value is 0xec13c936 
+[ 2780.347985]  
+[ 2845.422744] [irq_proc_open][373] -16
+[ 2846.465162] 
+[ 2846.465171] irq_proc_write
+[ 3124.434707] [irq_proc_open][373] -16
+[ 3125.052104] 
+[ 3125.052113] irq_proc_write
+[ 3300.323341] usb 3-1.1: USB disconnect, address 3
+[ 3300.380305] FAT: Directory bread(block 33688) failed
+[ 3300.393108] sd 0:0:0:0: [sda] Synchronizing SCSI cache
+[ 3300.398692] sd 0:0:0:0: [sda] Result: hostbyte=0x01 driverbyte=0x00
+[ 3304.560597] EXT3-fs error (device sda1): ext3_find_entry: reading directory #2 offset 0
+[ 3304.571548] EXT3-fs error (device sda1): read_inode_bitmap: Cannot read inode bitmap - block_group = 0, inode_bitmap = 4
+[ 3304.583157] ------------[ cut here ]------------
+[ 3304.587860] WARNING: at fs/buffer.c:1155 mark_buffer_dirty+0xb0/0xc8()
+[ 3304.594694] Modules linked in:
+[ 3304.597809]  cw880_drv cwQ snd_bt_sco vinput_drv smsc9500 smscusbnet usb8xxx mlan(P) cfg80211 compat bcm203x btusb sco bnep rfcomm hidp l2cap bluetooth rfkill ehci_hcd usb_storage ntfs_3g mali ump mdrv_ir mdrv_software_ir rc_coship_dvb
+[ 3304.619251] Stack: 
+[ 3304.621379] c6915ddc c6915dc0 c0058ecc c003b334 00000000 c012c15c 00000000 c0058ecc 
+[ 3304.629299] d2427248 c06d9728 d255c400 d255c800 c9ae8e00 c0058ef8 00000000 c04e34a0 
+[ 3304.637210] 00000000 c012c15c c9ae8000 d2427248 d255c400 c0168e00 c9ae8000 d255c400 
+[ 3304.645141] 00000000 c0169764 00000000 c9ae8000 00000000 c01697f8 00000000 c6915e4c 
+[ 3304.653063] c9ae8000 c015d9c0 c05e44b0 00000000 00000004 00000000 00000000 00000000 
+[ 3304.660969] c9ae8000 cb44f3c8 00000000 c015e018 c0680160 c6915e98 00000000 c9ae8e00 
+[ 3304.668923] 000041c0 d1a80b00 d1a800d8 00004000 d255c400 00000000 00000000 c9bc8c00 
+[ 3304.676902] 00000000 d2427288 c04f287c d2a7a558 cb44f3c8 d1a80b00 c05d692c c04f2e64 
+[ 3304.684828] d2a7a558 00000000 c04f287c c0167324 c6915ee8 c6915f3c 000000a9 000001c0 
+[ 3304.692728] 00000000 d2a7a558 00000000 d2a7a558 00000000 d1a80b00 00000027 c00336e8 
+[ 3304.700610] c6914000 00000000 bee175f4 c010fb60 c6915f3c 00000001 00000000 000001c0 
+[ 3304.708555] c00336e8 000001c0 d2a7a558 d2a064d0 00000027 c0112720 00000004 d261d0c0 
+[ 3304.716477] d2a064d0 8847a1d5 00000007 d285500c 00000000 d2a01800 00000600 00000000 
+[ 3304.724377] 00000000 c0689640 cf0a2000 c009a364 cef69740 00000000 d2ef4620 d2ef02c0 
+[ 3304.732306] ffffff9c c01050a0 00000080 ffffffff 0000f2e0 d2855000 0000f2e0 bee175c4 
+[ 3304.740213] 000001c0 c0033540 0000f2e0 bee175c4 00228770 000001c0 f125957c 00228770 
+[ 3304.748116] 0000f2e0 bee175c4 000001c0 00000027 bee175e0 56ef4b38 579176e1 bee175f4 
+[ 3304.756045] 401f17c0 bee175b8 401d92c5 40010b08 60000010 00228770 6e2f7665 006c6c75 
+[ 3304.763981] 00000009                                                                
+[ 3304.771874] Call Trace:
+[ 3304.774407] [<c003b334>] (unwind_backtrace+0x0/0x114) from [<c0058ecc>] (warn_slowpath_common+0x54/0x64)
+[ 3304.783967] [<c0058ecc>] (warn_slowpath_common+0x54/0x64) from [<c0058ef8>] (warn_slowpath_null+0x1c/0x24)
+[ 3304.793717] [<c0058ef8>] (warn_slowpath_null+0x1c/0x24) from [<c012c15c>] (mark_buffer_dirty+0xb0/0xc8)
+[ 3304.803183] [<c012c15c>] (mark_buffer_dirty+0xb0/0xc8) from [<c0168e00>] (ext3_commit_super.clone.11+0x48/0x68)
+[ 3304.813373] [<c0168e00>] (ext3_commit_super.clone.11+0x48/0x68) from [<c0169764>] (ext3_handle_error+0x7c/0xc4)
+[ 3304.823629] [<c0169764>] (ext3_handle_error+0x7c/0xc4) from [<c01697f8>] (ext3_error+0x4c/0x5c)
+[ 3304.832410] [<c01697f8>] (ext3_error+0x4c/0x5c) from [<c015d9c0>] (read_inode_bitmap+0x74/0x78)
+[ 3304.841188] [<c015d9c0>] (read_inode_bitmap+0x74/0x78) from [<c015e018>] (ext3_new_inode+0x3b0/0xe28)
+[ 3304.850455] [<c015e018>] (ext3_new_inode+0x3b0/0xe28) from [<c0167324>] (ext3_mkdir+0x10c/0x2cc)
+[ 3304.859329] [<c0167324>] (ext3_mkdir+0x10c/0x2cc) from [<c010fb60>] (vfs_mkdir+0x7c/0xcc)
+[ 3304.867563] [<c010fb60>] (vfs_mkdir+0x7c/0xcc) from [<c0112720>] (sys_mkdirat+0xd4/0xe4)
+[ 3304.875740] [<c0112720>] (sys_mkdirat+0xd4/0xe4) from [<c0033540>] (ret_fast_syscall+0x0/0x30)
+[ 3304.884403] ---[ end trace 4e03c98ec6cab1e4 ]---
+[ 3304.891274] EXT3-fs (sda1): error in ext3_new_inode: IO failure
+[ 3304.898547] Aborting journal on device sda1.
+[ 3304.905906] journal commit I/O error
+[ 3304.909563] EXT3-fs (sda1): error in ext3_mkdir: IO failure
+[ 3304.950563] EXT3-fs (sda1): error: ext3_journal_start_sb: Detected aborted journal
+[ 3304.958732] EXT3-fs (sda1): error: remounting filesystem read-only
+[ 3306.165947] EXT3-fs error (device sda1): ext3_find_entry: reading directory #2 offset 0
+[ 3306.207304] EXT3-fs (sda1): error: ext3_put_super: Couldn't clean up the journal
+[ 3352.642450] [irq_proc_open][373] -16
+[ 3353.265442] 
+[ 3353.265451] irq_proc_write
+[ 3396.107178] IR: [03932] scan key value is 0xf10ec936 
+[ 3396.107183]  
+[ 3396.157760] IR: [03932] scan key value is 0xf10ec936 
+[ 3396.157765]  
+[ 3397.797902] IR: [03932] scan key value is 0xeb14c936 
+[ 3397.797906]  
+[ 3397.848852] IR: [03932] scan key value is 0xeb14c936 
+[ 3397.848857]  
+[ 3398.194560] IR: [03932] scan key value is 0xed12c936 
+[ 3398.194565]  
+[ 3398.246128] IR: [03932] scan key value is 0xed12c936 
+[ 3398.246133]  
+[ 3398.602629] IR: [03932] scan key value is 0xec13c936 
+[ 3398.602634]  
+[ 3399.945833] IR: [03932] scan key value is 0xea15c936 
+[ 3399.945837]  
+[ 3400.254653] IR: [03932] scan key value is 0xea15c936 
+[ 3400.254658]  
+[ 3400.306427] IR: [03932] scan key value is 0xea15c936 
+[ 3400.306432]  
+[ 3400.504591] IR: [03932] scan key value is 0xea15c936 
+[ 3400.504596]  
+[ 3400.724863] IR: [03932] scan key value is 0xea15c936 
+[ 3400.724867]  
+[ 3400.928594] IR: [03932] scan key value is 0xea15c936 
+[ 3400.928603]  
+[ 3401.500415] IR: [03932] scan key value is 0xea15c936 
+[ 3401.500420]  
+[ 3401.952152] IR: [03932] scan key value is 0xeb14c936 
+[ 3401.952157]  
+[ 3402.003043] IR: [03932] scan key value is 0xeb14c936 
+[ 3402.003048]  
+[ 3402.913515] IR: [03932] scan key value is 0xec13c936 
+[ 3402.913520]  
+[ 3402.964763] IR: [03932] scan key value is 0xec13c936 
+[ 3402.964768]  
+[ 3404.050461] IR: [03932] scan key value is 0xeb14c936 
+[ 3404.050466]  
+[ 3404.101388] IR: [03932] scan key value is 0xeb14c936 
+[ 3404.101393]  
+[ 3404.293689] IR: [03932] scan key value is 0xeb14c936 
+[ 3404.293694]  
+[ 3404.344615] IR: [03932] scan key value is 0xeb14c936 
+[ 3404.344620]  
+[ 3404.474360] IR: [03932] scan key value is 0xeb14c936 
+[ 3404.474364]  
+[ 3404.525254] IR: [03932] scan key value is 0xeb14c936 
+[ 3404.525258]  
+[ 3404.822277] IR: [03932] scan key value is 0xeb14c936 
+[ 3404.822283]  
+[ 3404.873174] IR: [03932] scan key value is 0xeb14c936 
+[ 3404.873179]  
+[ 3405.708188] IR: [03932] scan key value is 0xec13c936 
+[ 3405.708193]  
+[ 3406.903171] IR: [03932] scan key value is 0xeb14c936 
+[ 3406.903176]  
+[ 3406.954102] IR: [03932] scan key value is 0xeb14c936 
+[ 3406.954107]  
+[ 3407.083735] IR: [03932] scan key value is 0xeb14c936 
+[ 3407.083740]  
+[ 3407.134631] IR: [03932] scan key value is 0xeb14c936 
+[ 3407.134635]  
+[ 3407.264479] IR: [03932] scan key value is 0xeb14c936 
+[ 3407.264483]  
+[ 3407.315412] IR: [03932] scan key value is 0xeb14c936 
+[ 3407.315416]  
+[ 3407.484894] IR: [03932] scan key value is 0xeb14c936 
+[ 3407.484899]  
+[ 3407.535808] IR: [03932] scan key value is 0xeb14c936 
+[ 3407.535813]  
+[ 3408.468077] IR: [03932] scan key value is 0xec13c936 
+[ 3408.468082]  
+[ 3408.699548] IR: [03932] scan key value is 0xec13c936 
+[ 3408.699553]  
+[ 3408.890762] IR: [03932] scan key value is 0xec13c936 
+[ 3408.890767]  
+[ 3409.118296] IR: [03932] scan key value is 0xec13c936 
+[ 3409.118302]  
+[ 3409.800815] IR: [03932] scan key value is 0xec13c936 
+[ 3409.800820]  
+[ 3410.173463] IR: [03932] scan key value is 0xed12c936 
+[ 3410.173468]  
+[ 3410.224882] IR: [03932] scan key value is 0xed12c936 
+[ 3410.224888]  
+[ 3410.772545] IR: [03932] scan key value is 0xec13c936 
+[ 3410.772550]  
+[ 3411.787076] IR: [03932] scan key value is 0xeb14c936 
+[ 3411.787081]  
+[ 3411.837951] IR: [03932] scan key value is 0xeb14c936 
+[ 3411.837956]  
+[ 3412.566237] IR: [03932] scan key value is 0xec13c936 
+[ 3412.566242]  
+[ 3413.080617] IR: [03932] scan key value is 0xed12c936 
+[ 3413.080621]  
+[ 3413.132100] IR: [03932] scan key value is 0xed12c936 
+[ 3413.132106]  
+[ 3413.723556] IR: [03932] scan key value is 0xec13c936 
+[ 3413.723561]  
+[ 3414.271305] IR: [03932] scan key value is 0xee11c936 
+[ 3414.271310]  
+[ 3414.322725] IR: [03932] scan key value is 0xee11c936 
+[ 3414.322730]  
+[ 3414.826777] IR: [03932] scan key value is 0xeb14c936 
+[ 3414.826782]  
+[ 3414.877624] IR: [03932] scan key value is 0xeb14c936 
+[ 3414.877630]  
+[ 3415.645854] IR: [03932] scan key value is 0xee11c936 
+[ 3415.645859]  
+[ 3415.697284] IR: [03932] scan key value is 0xee11c936 
+[ 3415.697289]  
+[ 3416.524054] IR: [03932] scan key value is 0xf10ec936 
+[ 3416.524059]  
+[ 3417.007006] IR: [03932] scan key value is 0xee11c936 
+[ 3417.007011]  
+[ 3417.058424] IR: [03932] scan key value is 0xee11c936 
+[ 3417.058430]  
+[ 3417.745121] IR: [03932] scan key value is 0xeb14c936 
+[ 3417.745126]  
+[ 3417.796058] IR: [03932] scan key value is 0xeb14c936 
+[ 3417.796063]  
+[ 3417.961208] IR: [03932] scan key value is 0xeb14c936 
+[ 3417.961213]  
+[ 3418.012103] IR: [03932] scan key value is 0xeb14c936 
+[ 3418.012109]  
+[ 3418.171613] IR: [03932] scan key value is 0xeb14c936 
+[ 3418.171618]  
+[ 3418.222513] IR: [03932] scan key value is 0xeb14c936 
+[ 3418.222518]  
+[ 3418.371746] IR: [03932] scan key value is 0xeb14c936 
+[ 3418.371750]  
+[ 3418.422660] IR: [03932] scan key value is 0xeb14c936 
+[ 3418.422664]  
+[ 3418.771810] IR: [03932] scan key value is 0xeb14c936 
+[ 3418.771815]  
+[ 3418.822763] IR: [03932] scan key value is 0xeb14c936 
+[ 3418.822768]  
+[ 3419.185744] IR: [03932] scan key value is 0xed12c936 
+[ 3419.185749]  
+[ 3419.237195] IR: [03932] scan key value is 0xed12c936 
+[ 3419.237199]  
+[ 3419.749790] IR: [03932] scan key value is 0xed12c936 
+[ 3419.749795]  
+[ 3420.316121] IR: [03932] scan key value is 0xec13c936 
+[ 3420.316125]  
+[ 3421.523236] IR: [03932] scan key value is 0xec13c936 
+[ 3421.523240]  
+[ 3421.741425] IR: [03932] scan key value is 0xec13c936 
+[ 3421.741432]  
+[ 3421.960994] IR: [03932] scan key value is 0xec13c936 
+[ 3421.960999]  
+[ 3422.159026] IR: [03932] scan key value is 0xec13c936 
+[ 3422.159030]  
+[ 3422.699740] IR: [03932] scan key value is 0xec13c936 
+[ 3422.699745]  
+[ 3423.253414] IR: [03932] scan key value is 0xed12c936 
+[ 3423.253419]  
+[ 3423.304907] IR: [03932] scan key value is 0xed12c936 
+[ 3423.304913]  
+[ 3423.738502] IR: [03932] scan key value is 0xec13c936 
+[ 3423.738507]  
+[ 3424.211404] IR: [03932] scan key value is 0xeb14c936 
+[ 3424.211409]  
+[ 3424.262348] IR: [03932] scan key value is 0xeb14c936 
+[ 3424.262353]  
+[ 3425.003195] IR: [03932] scan key value is 0xee11c936 
+[ 3425.003200]  
+[ 3425.054709] IR: [03932] scan key value is 0xee11c936 
+[ 3425.054714]  
+[ 3425.918080] IR: [03932] scan key value is 0xf10ec936 
+[ 3425.918085]  
+[ 3425.968744] IR: [03932] scan key value is 0xf10ec936 
+[ 3425.968749]  
+[ 3426.571029] IR: [03932] scan key value is 0xee11c936 
+[ 3426.571034]  
+[ 3426.622484] IR: [03932] scan key value is 0xee11c936 
+[ 3426.622489]  
+[ 3427.009457] IR: [03932] scan key value is 0xeb14c936 
+[ 3427.009461]  
+[ 3427.060387] IR: [03932] scan key value is 0xeb14c936 
+[ 3427.060392]  
+[ 3427.224922] IR: [03932] scan key value is 0xeb14c936 
+[ 3427.224926]  
+[ 3427.275858] IR: [03932] scan key value is 0xeb14c936 
+[ 3427.275863]  
+[ 3427.509509] IR: [03932] scan key value is 0xeb14c936 
+[ 3427.509514]  
+[ 3427.560496] IR: [03932] scan key value is 0xeb14c936 
+[ 3427.560501]  
+[ 3428.342566] IR: [03932] scan key value is 0xec13c936 
+[ 3428.342571]  
+[ 3429.386000] IR: [03932] scan key value is 0xec13c936 
+[ 3429.386005]  
+[ 3429.620405] IR: [03932] scan key value is 0xec13c936 
+[ 3429.620410]  
+[ 3430.421969] IR: [03932] scan key value is 0xec13c936 
+[ 3430.421974]  
+[ 3431.218904] IR: [03932] scan key value is 0xed12c936 
+[ 3431.218910]  
+[ 3431.916329] IR: [03932] scan key value is 0xec13c936 
+[ 3431.916333]  
+[ 3431.967517] IR: [03932] scan key value is 0xec13c936 
+[ 3431.967522]  
+[ 3433.262417] IR: [03932] scan key value is 0xeb14c936 
+[ 3433.262423]  
+[ 3433.313351] IR: [03932] scan key value is 0xeb14c936 
+[ 3433.313357]  
+[ 3434.545806] IR: [03932] scan key value is 0xf10ec936 
+[ 3434.545811]  
+[ 3434.596387] IR: [03932] scan key value is 0xf10ec936 
+[ 3434.596392]  
+[ 3435.203076] IR: [03932] scan key value is 0xee11c936 
+[ 3435.203081]  
+[ 3435.254518] IR: [03932] scan key value is 0xee11c936 
+[ 3435.254523]  
+[ 3435.593173] IR: [03932] scan key value is 0xeb14c936 
+[ 3435.593178]  
+[ 3435.644115] IR: [03932] scan key value is 0xeb14c936 
+[ 3435.644120]  
+[ 3435.822363] IR: [03932] scan key value is 0xeb14c936 
+[ 3435.822367]  
+[ 3435.873295] IR: [03932] scan key value is 0xeb14c936 
+[ 3435.873300]  
+[ 3436.034318] IR: [03932] scan key value is 0xeb14c936 
+[ 3436.034322]  
+[ 3436.085185] IR: [03932] scan key value is 0xeb14c936 
+[ 3436.085189]  
+[ 3436.479458] IR: [03932] scan key value is 0xeb14c936 
+[ 3436.479463]  
+[ 3436.530366] IR: [03932] scan key value is 0xeb14c936 
+[ 3436.530371]  
+[ 3436.925718] IR: [03932] scan key value is 0xeb14c936 
+[ 3436.925722]  
+[ 3436.976660] IR: [03932] scan key value is 0xeb14c936 
+[ 3436.976665]  
+[ 3437.529605] IR: [03932] scan key value is 0xec13c936 
+[ 3437.529610]  
+[ 3437.580948] IR: [03932] scan key value is 0xec13c936 
+[ 3437.580954]  
+[ 3438.499531] IR: [03932] scan key value is 0xec13c936 
+[ 3438.499535]  
+[ 3438.550760] IR: [03932] scan key value is 0xec13c936 
+[ 3438.550765]  
+[ 3438.742152] IR: [03932] scan key value is 0xec13c936 
+[ 3438.742159]  
+[ 3438.980156] IR: [03932] scan key value is 0xec13c936 
+[ 3438.980162]  
+[ 3439.488397] IR: [03932] scan key value is 0xec13c936 
+[ 3439.488402]  
+[ 3440.178604] IR: [03932] scan key value is 0xed12c936 
+[ 3440.178609]  
+[ 3440.230080] IR: [03932] scan key value is 0xed12c936 
+[ 3440.230084]  
+[ 3440.687013] IR: [03932] scan key value is 0xec13c936 
+[ 3440.687018]  
+[ 3441.589638] IR: [03932] scan key value is 0xf10ec936 
+[ 3441.589642]  
+[ 3441.640280] IR: [03932] scan key value is 0xf10ec936 
+[ 3441.640286]  
+[ 3442.178754] IR: [03932] scan key value is 0xea15c936 
+[ 3442.178759]  
+[ 3442.230686] IR: [03932] scan key value is 0xea15c936 
+[ 3442.230691]  
+[ 3442.394442] IR: [03932] scan key value is 0xea15c936 
+[ 3442.394447]  
+[ 3442.446282] IR: [03932] scan key value is 0xea15c936 
+[ 3442.446287]  
+[ 3442.647961] IR: [03932] scan key value is 0xea15c936 
+[ 3442.647967]  
+[ 3442.699776] IR: [03932] scan key value is 0xea15c936 
+[ 3442.699785]  
+[ 3442.967976] IR: [03932] scan key value is 0xea15c936 
+[ 3442.967981]  
+[ 3443.019737] IR: [03932] scan key value is 0xea15c936 
+[ 3443.019745]  
+[ 3443.473545] IR: [03932] scan key value is 0xea15c936 
+[ 3443.473550]  
+[ 3443.525325] IR: [03932] scan key value is 0xea15c936 
+[ 3443.525330]  
+[ 3444.012346] IR: [03932] scan key value is 0xec13c936 
+[ 3444.012351]  
+[ 3445.756285] IR: [03932] scan key value is 0xee11c936 
+[ 3445.756291]  
+[ 3445.807796] IR: [03932] scan key value is 0xee11c936 
+[ 3445.807802]  
+[ 3446.051914] IR: [03932] scan key value is 0xee11c936 
+[ 3446.051919]  
+[ 3446.103458] IR: [03932] scan key value is 0xee11c936 
+[ 3446.103463]  
+[ 3446.294637] IR: [03932] scan key value is 0xee11c936 
+[ 3446.294642]  
+[ 3446.346106] IR: [03932] scan key value is 0xee11c936 
+[ 3446.346114]  
+[ 3446.530962] IR: [03932] scan key value is 0xee11c936 
+[ 3446.530967]  
+[ 3446.582364] IR: [03932] scan key value is 0xee11c936 
+[ 3446.582370]  
+[ 3447.209885] IR: [03932] scan key value is 0xed12c936 
+[ 3447.209890]  
+[ 3447.261422] IR: [03932] scan key value is 0xed12c936 
+[ 3447.261427]  
+[ 3447.424222] IR: [03932] scan key value is 0xed12c936 
+[ 3447.424226]  
+[ 3447.475754] IR: [03932] scan key value is 0xed12c936 
+[ 3447.475757]  
+[ 3447.647342] IR: [03932] scan key value is 0xed12c936 
+[ 3447.647347]  
+[ 3447.873522] IR: [03932] scan key value is 0xed12c936 
+[ 3447.873527]  
+[ 3448.054628] IR: [03932] scan key value is 0xed12c936 
+[ 3448.054633]  
+[ 3448.255855] IR: [03932] scan key value is 0xed12c936 
+[ 3448.255860]  
+[ 3448.461910] IR: [03932] scan key value is 0xed12c936 
+[ 3448.461916]  
+[ 3449.274953] IR: [03932] scan key value is 0xed12c936 
+[ 3449.274958]  
+[ 3449.326408] IR: [03932] scan key value is 0xed12c936 
+[ 3449.326413]  
+[ 3450.323883] IR: [03932] scan key value is 0xec13c936 
+[ 3450.323888]  
+[ 3451.307762] IR: [03932] scan key value is 0xed12c936 
+[ 3451.307767]  
+[ 3451.359214] IR: [03932] scan key value is 0xed12c936 
+[ 3451.359219]  
+[ 3451.506853] IR: [03932] scan key value is 0xed12c936 
+[ 3451.506858]  
+[ 3451.558343] IR: [03932] scan key value is 0xed12c936 
+[ 3451.558347]  
+[ 3451.667819] IR: [03932] scan key value is 0xed12c936 
+[ 3451.667823]  
+[ 3451.777290] IR: [03932] scan key value is 0xed12c936 
+[ 3451.777294]  
+[ 3451.886749] IR: [03932] scan key value is 0xed12c936 
+[ 3451.886754]  
+[ 3451.996189] IR: [03932] scan key value is 0xed12c936 
+[ 3451.996197]  
+[ 3452.105673] IR: [03932] scan key value is 0xed12c936 
+[ 3452.105681]  
+[ 3452.215074] IR: [03932] scan key value is 0xed12c936 
+[ 3452.215079]  
+[ 3452.324519] IR: [03932] scan key value is 0xed12c936 
+[ 3452.324524]  
+[ 3452.433958] IR: [03932] scan key value is 0xed12c936 
+[ 3452.433963]  
+[ 3453.220484] IR: [03932] scan key value is 0xec13c936 
+[ 3453.220489]  
+[ 3453.271641] IR: [03932] scan key value is 0xec13c936 
+[ 3453.271646]  
+[ 3455.557558] IR: [03932] scan key value is 0xf10ec936 
+[ 3455.557563]  
+[ 3455.608170] IR: [03932] scan key value is 0xf10ec936 
+[ 3455.608175]  
+[ 3456.165171] IR: [03932] scan key value is 0xea15c936 
+[ 3456.165176]  
+[ 3456.216855] IR: [03932] scan key value is 0xea15c936 
+[ 3456.216859]  
+[ 3456.377602] IR: [03932] scan key value is 0xea15c936 
+[ 3456.377607]  
+[ 3456.429337] IR: [03932] scan key value is 0xea15c936 
+[ 3456.429341]  
+[ 3456.564823] IR: [03932] scan key value is 0xea15c936 
+[ 3456.564828]  
+[ 3456.616604] IR: [03932] scan key value is 0xea15c936 
+[ 3456.616609]  
+[ 3456.779273] IR: [03932] scan key value is 0xea15c936 
+[ 3456.779278]  
+[ 3456.831020] IR: [03932] scan key value is 0xea15c936 
+[ 3456.831026]  
+[ 3457.082020] IR: [03932] scan key value is 0xea15c936 
+[ 3457.082025]  
+[ 3457.133891] IR: [03932] scan key value is 0xea15c936 
+[ 3457.133896]  
+[ 3457.716754] IR: [03932] scan key value is 0xec13c936 
+[ 3457.716759]  
+[ 3457.767929] IR: [03932] scan key value is 0xec13c936 
+[ 3457.767934]  
+[ 3461.022665] IR: [03932] scan key value is 0xed12c936 
+[ 3461.022670]  
+[ 3461.074203] IR: [03932] scan key value is 0xed12c936 
+[ 3461.074209]  
+[ 3462.005608] IR: [03932] scan key value is 0xea15c936 
+[ 3462.005612]  
+[ 3462.057406] IR: [03932] scan key value is 0xea15c936 
+[ 3462.057414]  
+[ 3462.661514] IR: [03932] scan key value is 0xee11c936 
+[ 3462.661519]  
+[ 3462.712970] IR: [03932] scan key value is 0xee11c936 
+[ 3462.712979]  
+[ 3464.219315] IR: [03932] scan key value is 0xee11c936 
+[ 3464.219320]  
+[ 3464.270773] IR: [03932] scan key value is 0xee11c936 
+[ 3464.270778]  
+[ 3464.456112] IR: [03932] scan key value is 0xee11c936 
+[ 3464.456117]  
+[ 3464.507570] IR: [03932] scan key value is 0xee11c936 
+[ 3464.507575]  
+[ 3464.796671] IR: [03932] scan key value is 0xee11c936 
+[ 3464.796675]  
+[ 3464.848078] IR: [03932] scan key value is 0xee11c936 
+[ 3464.848087]  
+[ 3464.957492] IR: [03932] scan key value is 0xee11c936 
+[ 3464.957497]  
+[ 3465.066901] IR: [03932] scan key value is 0xee11c936 
+[ 3465.066908]  
+[ 3465.176285] IR: [03932] scan key value is 0xee11c936 
+[ 3465.176290]  
+[ 3465.285676] IR: [03932] scan key value is 0xee11c936 
+[ 3465.285680]  
+[ 3465.395043] IR: [03932] scan key value is 0xee11c936 
+[ 3465.395048]  
+[ 3465.504408] IR: [03932] scan key value is 0xee11c936 
+[ 3465.504413]  
+[ 3465.613791] IR: [03932] scan key value is 0xee11c936 
+[ 3465.613796]  
+[ 3466.406943] IR: [03932] scan key value is 0xea15c936 
+[ 3466.406949]  
+[ 3466.458728] IR: [03932] scan key value is 0xea15c936 
+[ 3466.458736]  
+[ 3467.409649] IR: [03932] scan key value is 0xee11c936 
+[ 3467.409654]  
+[ 3467.461075] IR: [03932] scan key value is 0xee11c936 
+[ 3467.461084]  
+[ 3468.757634] IR: [03932] scan key value is 0xeb14c936 
+[ 3468.757639]  
+[ 3468.808511] IR: [03932] scan key value is 0xeb14c936 
+[ 3468.808515]  
+[ 3472.031527] IR: [03932] scan key value is 0xea15c936 
+[ 3472.031532]  
+[ 3472.252880] IR: [03932] scan key value is 0xea15c936 
+[ 3472.252885]  
+[ 3472.304686] IR: [03932] scan key value is 0xea15c936 
+[ 3472.304691]  
+[ 3472.514109] IR: [03932] scan key value is 0xea15c936 
+[ 3472.514114]  
+[ 3472.565916] IR: [03932] scan key value is 0xea15c936 
+[ 3472.565921]  
+[ 3472.676003] IR: [03932] scan key value is 0xea15c936 
+[ 3472.676008]  
+[ 3472.786155] IR: [03932] scan key value is 0xea15c936 
+[ 3472.786161]  
+[ 3472.896191] IR: [03932] scan key value is 0xea15c936 
+[ 3472.896196]  
+[ 3473.006294] IR: [03932] scan key value is 0xea15c936 
+[ 3473.006298]  
+[ 3473.452877] IR: [03932] scan key value is 0xee11c936 
+[ 3473.452883]  
+[ 3473.504293] IR: [03932] scan key value is 0xee11c936 
+[ 3473.504298]  
+[ 3473.613673] IR: [03932] scan key value is 0xee11c936 
+[ 3473.613678]  
+[ 3473.723049] IR: [03932] scan key value is 0xee11c936 
+[ 3473.723053]  
+[ 3473.832413] IR: [03932] scan key value is 0xee11c936 
+[ 3473.832418]  
+[ 3473.941771] IR: [03932] scan key value is 0xee11c936 
+[ 3473.941775]  
+[ 3474.051182] IR: [03932] scan key value is 0xee11c936 
+[ 3474.051186]  
+[ 3474.643616] IR: [03932] scan key value is 0xee11c936 
+[ 3474.643622]  
+[ 3474.695126] IR: [03932] scan key value is 0xee11c936 
+[ 3474.695131]  
+[ 3475.409840] IR: [03932] scan key value is 0xea15c936 
+[ 3475.409845]  
+[ 3475.461644] IR: [03932] scan key value is 0xea15c936 
+[ 3475.461649]  
+[ 3476.344011] IR: [03932] scan key value is 0xec13c936 
+[ 3476.344016]  
+[ 3476.395347] IR: [03932] scan key value is 0xec13c936 
+[ 3476.395351]  
+[ 3477.182117] IR: [03932] scan key value is 0xeb14c936 
+[ 3477.182122]  
+[ 3477.233017] IR: [03932] scan key value is 0xeb14c936 
+[ 3477.233022]  
+[ 3477.587685] IR: [03932] scan key value is 0xec13c936 
+[ 3477.587690]  
+[ 3477.638888] IR: [03932] scan key value is 0xec13c936 
+[ 3477.638894]  
+[ 3479.827957] IR: [03932] scan key value is 0xf10ec936 
+[ 3479.827961]  
+[ 3479.878573] IR: [03932] scan key value is 0xf10ec936 
+[ 3479.878579]  
+[ 3480.844632] IR: [03932] scan key value is 0xec13c936 
+[ 3480.844637]  
+[ 3480.895815] IR: [03932] scan key value is 0xec13c936 
+[ 3480.895819]  
+[ 3482.147727] IR: [03932] scan key value is 0xee11c936 
+[ 3482.147732]  
+[ 3483.371871] ADDRCONF(NETDEV_UP): wlan0: link is not ready
+[ 3483.432877] IR: [03932] scan key value is 0xea15c936 
+[ 3483.432882]  
+[ 3483.456334] init: sys_prop: permission denied uid:10037  name:sys.wifi.softap
+[ 3483.484642] IR: [03932] scan key value is 0xea15c936 
+[ 3483.484647]  wlan_get_cfp_by_band_and_channel(): cannot find cfp by band 31 & channel 36
+[ 3483.679278] IR: [03932] scan key value is 0xea15c936 
+[ 3483.679283]  
+[ 3483.731120] IR: [03932] scan key value is 0xea15c936 
+[ 3483.731125]  wlan_get_cfp_by_band_and_channel(): cannot find cfp by band 2 & channel 12
+[ 3484.286437] wlan_get_cfp_by_band_and_channel(): cannot find cfp by band 2 & channel 13
+[ 3484.466881] IR: [03932] scan key value is 0xf10ec936 
+[ 3484.466885]  
+[ 3484.517558] IR: [03932] scan key value is 0xf10ec936 
+[ 3484.517563]  
+[ 3485.599701] IR: [03932] scan key value is 0xec13c936 
+[ 3485.599705]  ASSOC_RESP: Association Failed, status code = 2, error = 0xfffc, a_id = 0xffff
+[ 3488.367298] IR: [03932] scan key value is 0xec13c936 
+[ 3488.367303]  
+[ 3488.418476] IR: [03932] scan key value is 0xec13c936 
+[ 3488.418481]  
+[ 3490.428459] IR: [03932] scan key value is 0xea15c936 
+[ 3490.428464]  
+[ 3490.480206] IR: [03932] scan key value is 0xea15c936 
+[ 3490.480211]  
+[ 3490.645023] IR: [03932] scan key value is 0xea15c936 
+[ 3490.645028]  
+[ 3490.696754] IR: [03932] scan key value is 0xea15c936 
+[ 3490.696759]  
+[ 3490.855306] IR: [03932] scan key value is 0xea15c936 
+[ 3490.855311]  
+[ 3490.906965] IR: [03932] scan key value is 0xea15c936 
+[ 3490.906970]  
+[ 3491.070161] IR: [03932] scan key value is 0xea15c936 
+[ 3491.070166]  
+[ 3491.121835] IR: [03932] scan key value is 0xea15c936 
+[ 3491.121840]  
+[ 3491.308614] IR: [03932] scan key value is 0xea15c936 
+[ 3491.308618]  
+[ 3491.360303] IR: [03932] scan key value is 0xea15c936 
+[ 3491.360307]  
+[ 3491.544650] IR: [03932] scan key value is 0xea15c936 
+[ 3491.544655]  
+[ 3491.596419] IR: [03932] scan key value is 0xea15c936 
+[ 3491.596424]  
+[ 3492.650373] IR: [03932] scan key value is 0xee11c936 
+[ 3492.650378]  
+[ 3492.701837] IR: [03932] scan key value is 0xee11c936 
+[ 3492.701842]  
+[ 3493.894274] IR: [03932] scan key value is 0xeb14c936 
+[ 3493.894278]  
+[ 3493.945220] IR: [03932] scan key value is 0xeb14c936 
+[ 3493.945225]  
+[ 3494.357468] IR: [03932] scan key value is 0xec13c936 
+[ 3494.357472]  
+[ 3495.341123] IR: [03932] scan key value is 0xed12c936 
+[ 3495.341128]  
+[ 3495.392653] IR: [03932] scan key value is 0xed12c936 
+[ 3495.392657]  
+[ 3495.803836] IR: [03932] scan key value is 0xee11c936 
+[ 3495.803840]  
+[ 3495.855321] IR: [03932] scan key value is 0xee11c936 
+[ 3495.855327]  
+[ 3496.028349] IR: [03932] scan key value is 0xee11c936 
+[ 3496.028353]  
+[ 3496.079832] IR: [03932] scan key value is 0xee11c936 
+[ 3496.079836]  
+[ 3496.229334] IR: [03932] scan key value is 0xee11c936 
+[ 3496.229339]  
+[ 3496.280755] IR: [03932] scan key value is 0xee11c936 
+[ 3496.280759]  
+[ 3496.453677] IR: [03932] scan key value is 0xee11c936 
+[ 3496.453683]  
+[ 3496.505123] IR: [03932] scan key value is 0xee11c936 
+[ 3496.505128]  
+[ 3496.614491] IR: [03932] scan key value is 0xee11c936 
+[ 3496.614495]  
+[ 3496.723831] IR: [03932] scan key value is 0xee11c936 
+[ 3496.723835]  
+[ 3496.833269] IR: [03932] scan key value is 0xee11c936 
+[ 3496.833273]  
+[ 3496.942662] IR: [03932] scan key value is 0xee11c936 
+[ 3496.942667]  
+[ 3497.052074] IR: [03932] scan key value is 0xee11c936 
+[ 3497.052079]  
+[ 3497.161468] IR: [03932] scan key value is 0xee11c936 
+[ 3497.161472]  
+[ 3497.842352] IR: [03932] scan key value is 0xec13c936 
+[ 3497.842357]  
+[ 3498.854180] IR: [03932] scan key value is 0xea15c936 
+[ 3498.854185]  
+[ 3498.905988] IR: [03932] scan key value is 0xea15c936 
+[ 3498.905993]  
+[ 3499.055944] IR: [03932] scan key value is 0xea15c936 
+[ 3499.055948]  
+[ 3499.107688] IR: [03932] scan key value is 0xea15c936 
+[ 3499.107693]  
+[ 3499.261497] IR: [03932] scan key value is 0xea15c936 
+[ 3499.261502]  
+[ 3499.313242] IR: [03932] scan key value is 0xea15c936 
+[ 3499.313246]  
+[ 3499.455160] IR: [03932] scan key value is 0xea15c936 
+[ 3499.455165]  
+[ 3499.506936] IR: [03932] scan key value is 0xea15c936 
+[ 3499.506941]  
+[ 3499.660825] IR: [03932] scan key value is 0xea15c936 
+[ 3499.660830]  
+[ 3499.712624] IR: [03932] scan key value is 0xea15c936 
+[ 3499.712630]  
+[ 3500.480910] IR: [03932] scan key value is 0xee11c936 
+[ 3500.480915]  
+[ 3500.532388] IR: [03932] scan key value is 0xee11c936 
+[ 3500.532393]  
+[ 3500.773428] IR: [03932] scan key value is 0xee11c936 
+[ 3500.773433]  
+[ 3500.824874] IR: [03932] scan key value is 0xee11c936 
+[ 3500.824879]  
+[ 3501.025539] IR: [03932] scan key value is 0xee11c936 
+[ 3501.025545]  
+[ 3501.076994] IR: [03932] scan key value is 0xee11c936 
+[ 3501.077000]  
+[ 3502.636108] IR: [03932] scan key value is 0xee11c936 
+[ 3502.636113]  
+[ 3502.687587] IR: [03932] scan key value is 0xee11c936 
+[ 3502.687593]  
+[ 3503.508752] IR: [03932] scan key value is 0xee11c936 
+[ 3503.508757]  
+[ 3503.560176] IR: [03932] scan key value is 0xee11c936 
+[ 3503.560181]  
+[ 3504.769190] IR: [03932] scan key value is 0xee11c936 
+[ 3504.769195]  
+[ 3504.820700] IR: [03932] scan key value is 0xee11c936 
+[ 3504.820705]  
+[ 3730.494860] IR: [03932] scan key value is 0xf10ec936 
+[ 3730.494865]  
+[ 3730.545540] IR: [03932] scan key value is 0xf10ec936 
+[ 3730.545545]  
+[ 3731.537370] IR: [03932] scan key value is 0xf10ec936 
+[ 3731.537375]  
+[ 3731.588010] IR: [03932] scan key value is 0xf10ec936 
+[ 3731.588015]  
+[ 3771.959320] IR: [03932] scan key value is 0xec13c936 
+[ 3771.959325]  
+[ 3772.010571] IR: [03932] scan key value is 0xec13c936 
+[ 3772.010576]  
+[ 3773.466085] IR: [03932] scan key value is 0xe41bc936 
+[ 3773.466089]  
+[ 3773.517634] IR: [03932] scan key value is 0xe41bc936 
+[ 3773.517639]  
+[ 3773.701539] IR: [03932] scan key value is 0xe41bc936 
+[ 3773.701544]  
+[ 3773.921354] IR: [03932] scan key value is 0xe41bc936 
+[ 3773.921359]  
+[ 3774.135575] IR: [03932] scan key value is 0xe41bc936 
+[ 3774.135580]  
+[ 3779.555647] IR: [03932] scan key value is 0xe41bc936 
+[ 3779.555652]  
+[ 3779.607197] IR: [03932] scan key value is 0xe41bc936 
+[ 3779.607203]  
+[ 3779.811402] IR: [03932] scan key value is 0xe41bc936 
+[ 3779.811407]  
+[ 3780.038384] IR: [03932] scan key value is 0xe41bc936 
+[ 3780.038389]  
+[ 3780.245868] IR: [03932] scan key value is 0xe41bc936 
+[ 3780.245874]  
+[ 3781.917373] IR: [03932] scan key value is 0xeb14c936 
+[ 3781.917377]  
+[ 3781.968281] IR: [03932] scan key value is 0xeb14c936 
+[ 3781.968286]  
+[ 3782.286342] IR: [03932] scan key value is 0xec13c936 
+[ 3782.286347]  
+[ 3782.337531] IR: [03932] scan key value is 0xec13c936 
+[ 3782.337536]  
+[ 3783.775332] IR: [03932] scan key value is 0xe41bc936 
+[ 3783.775337]  
+[ 3783.826874] IR: [03932] scan key value is 0xe41bc936 
+[ 3783.826879]  
+[ 3784.025366] IR: [03932] scan key value is 0xe41bc936 
+[ 3784.025371]  
+[ 3784.076865] IR: [03932] scan key value is 0xe41bc936 
+[ 3784.076869]  
+[ 3784.285892] IR: [03932] scan key value is 0xe41bc936 
+[ 3784.285897]  
+[ 3784.510473] IR: [03932] scan key value is 0xe41bc936 
+[ 3784.510477]  
+[ 3788.482686] IR: [03932] scan key value is 0xe41bc936 
+[ 3788.482691]  
+[ 3788.534235] IR: [03932] scan key value is 0xe41bc936 
+[ 3788.534240]  
+[ 3788.725418] IR: [03932] scan key value is 0xe41bc936 
+[ 3788.725423]  
+[ 3788.776942] IR: [03932] scan key value is 0xe41bc936 
+[ 3788.776947]  
+[ 3788.942713] IR: [03932] scan key value is 0xe41bc936 
+[ 3788.942717]  
+[ 3789.131100] IR: [03932] scan key value is 0xe41bc936 
+[ 3789.131105]  
+[ 3789.182582] IR: [03932] scan key value is 0xe41bc936 
+[ 3789.182587]  
+[ 3793.988537] IR: [03932] scan key value is 0xf10ec936 
+[ 3793.988541]  
+[ 3794.039156] IR: [03932] scan key value is 0xf10ec936 
+[ 3794.039161]  
+[ 3797.928630] IR: [03932] scan key value is 0xe41bc936 
+[ 3797.928635]  
+[ 3797.980167] IR: [03932] scan key value is 0xe41bc936 
+[ 3797.980174]  
+[ 3798.195790] IR: [03932] scan key value is 0xe41bc936 
+[ 3798.195795]  
+[ 3798.446785] IR: [03932] scan key value is 0xe41bc936 
+[ 3798.446791]  
+[ 3798.498309] IR: [03932] scan key value is 0xe41bc936 
+[ 3798.498313]  
+[ 3798.713483] IR: [03932] scan key value is 0xe41bc936 
+[ 3798.713488]  
+[ 3800.101070] IR: [03932] scan key value is 0xe41bc936 
+[ 3800.101075]  
+[ 3800.601552] IR: [03932] scan key value is 0xe41bc936 
+[ 3800.601557]  
+[ 3800.653121] IR: [03932] scan key value is 0xe41bc936 
+[ 3800.653125]  
+[ 3801.338329] IR: [03932] scan key value is 0xe41bc936 
+[ 3801.338334]  
+[ 3801.821535] IR: [03932] scan key value is 0xe41bc936 
+[ 3801.821540]  
+[ 3803.264269] IR: [03932] scan key value is 0xf10ec936 
+[ 3803.264274]  
+[ 3803.314910] IR: [03932] scan key value is 0xf10ec936 
+[ 3803.314915]  
+[ 3804.050069] IR: [03932] scan key value is 0xe41bc936 
+[ 3804.050074]  
+[ 3804.595351] IR: [03932] scan key value is 0xe41bc936 
+[ 3804.595356]  
+[ 3804.646877] IR: [03932] scan key value is 0xe41bc936 
+[ 3804.646882]  
+[ 3805.106269] IR: [03932] scan key value is 0xe41bc936 
+[ 3805.106274]  
+[ 3805.612876] IR: [03932] scan key value is 0xe41bc936 
+[ 3805.612881]  
+[ 4559.459809] IR: [03932] scan key value is 0xed12c936 
+[ 4559.459814]  
+[ 4560.465298] IR: [03932] scan key value is 0xf10ec936 
+[ 4560.465303]  
+[ 4560.515909] IR: [03932] scan key value is 0xf10ec936 
+[ 4560.515914]  
+[ 4561.765071] IR: [03932] scan key value is 0xea15c936 
+[ 4561.765076]  
+[ 4562.209966] IR: [03932] scan key value is 0xee11c936 
+[ 4562.209971]  
+[ 4562.261422] IR: [03932] scan key value is 0xee11c936 
+[ 4562.261427]  
+[ 4562.669355] IR: [03932] scan key value is 0xec13c936 
+[ 4562.669360]  
+[ 4564.540548] IR: [03932] scan key value is 0xec13c936 
+[ 4564.540553]  
+[ 4564.591808] IR: [03932] scan key value is 0xec13c936 
+[ 4564.591812]  
+[ 4566.313093] IR: [03932] scan key value is 0xf10ec936 
+[ 4566.313098]  
+[ 4566.363709] IR: [03932] scan key value is 0xf10ec936 
+[ 4566.363714]  
+[ 4566.871988] IR: [03932] scan key value is 0xeb14c936 
+[ 4566.871993]  
+[ 4566.922878] IR: [03932] scan key value is 0xeb14c936 
+[ 4566.922883]  
+[ 4567.270259] IR: [03932] scan key value is 0xec13c936 
+[ 4567.270264]  
+[ 4568.508959] IR: [03932] scan key value is 0xea15c936 
+[ 4568.508964]  
+[ 4568.712418] IR: [03932] scan key value is 0xea15c936 
+[ 4568.712423]  
+[ 4568.913232] IR: [03932] scan key value is 0xea15c936 
+[ 4568.913237]  
+[ 4569.124201] IR: [03932] scan key value is 0xea15c936 
+[ 4569.124206]  
+[ 4569.313817] IR: [03932] scan key value is 0xea15c936 
+[ 4569.313822]  
+[ 4569.499943] IR: [03932] scan key value is 0xea15c936 
+[ 4569.499948]  
+[ 4569.700705] IR: [03932] scan key value is 0xea15c936 
+[ 4569.700710]  
+[ 4569.752490] IR: [03932] scan key value is 0xea15c936 
+[ 4569.752499]  
+[ 4569.915593] IR: [03932] scan key value is 0xea15c936 
+[ 4569.915598]  
+[ 4569.967348] IR: [03932] scan key value is 0xea15c936 
+[ 4569.967353]  
+[ 4570.120133] IR: [03932] scan key value is 0xea15c936 
+[ 4570.120138]  
+[ 4570.171910] IR: [03932] scan key value is 0xea15c936 
+[ 4570.171914]  
+[ 4570.330185] IR: [03932] scan key value is 0xea15c936 
+[ 4570.330190]  
+[ 4570.382013] IR: [03932] scan key value is 0xea15c936 
+[ 4570.382018]  
+[ 4570.546010] IR: [03932] scan key value is 0xea15c936 
+[ 4570.546015]  
+[ 4570.742237] IR: [03932] scan key value is 0xea15c936 
+[ 4570.742243]  
+[ 4570.794106] IR: [03932] scan key value is 0xea15c936 
+[ 4570.794112]  
+[ 4571.439403] IR: [03932] scan key value is 0xee11c936 
+[ 4571.439408]  
+[ 4571.490836] IR: [03932] scan key value is 0xee11c936 
+[ 4571.490840]  
+[ 4571.670478] IR: [03932] scan key value is 0xee11c936 
+[ 4571.670483]  
+[ 4571.721932] IR: [03932] scan key value is 0xee11c936 
+[ 4571.721937]  
+[ 4571.923359] IR: [03932] scan key value is 0xee11c936 
+[ 4571.923364]  
+[ 4571.974817] IR: [03932] scan key value is 0xee11c936 
+[ 4571.974821]  
+[ 4573.021308] IR: [03932] scan key value is 0xeb14c936 
+[ 4573.021313]  
+[ 4573.072222] IR: [03932] scan key value is 0xeb14c936 
+[ 4573.072226]  
+[ 4573.522240] IR: [03932] scan key value is 0xec13c936 
+[ 4573.522245]  
+[ 4616.560130] IR: [03932] scan key value is 0xec13c936 
+[ 4616.560136]  
+[ 4616.611501] IR: [03932] scan key value is 0xec13c936 
+[ 4616.611507]  
+[ 4618.501507] IR: [03932] scan key value is 0xec13c936 
+[ 4618.501512]  
+[ 4618.552687] IR: [03932] scan key value is 0xec13c936 
+[ 4618.552692]  
+[ 4622.204541] IR: [03932] scan key value is 0xec13c936 
+[ 4622.204546]  
+[ 4622.255658] IR: [03932] scan key value is 0xec13c936 
+[ 4622.255663]  
+[ 4640.171633] IR: [03932] scan key value is 0xf10ec936 
+[ 4640.171639]  
+[ 4640.222235] IR: [03932] scan key value is 0xf10ec936 
+[ 4640.222240]  
+[ 4641.123022] IR: [03932] scan key value is 0xf10ec936 
+[ 4641.123027]  
+[ 4641.173648] IR: [03932] scan key value is 0xf10ec936 
+[ 4641.173652]  
+[ 4641.769056] IR: [03932] scan key value is 0xee11c936 
+[ 4641.769061]  
+[ 4641.820317] IR: [03932] scan key value is 0xee11c936 
+[ 4641.820321]  
+[ 4642.187389] IR: [03932] scan key value is 0xed12c936 
+[ 4642.187394]  
+[ 4642.238930] IR: [03932] scan key value is 0xed12c936 
+[ 4642.238934]  
+[ 4642.635289] IR: [03932] scan key value is 0xec13c936 
+[ 4642.635294]  
+[ 4642.686409] IR: [03932] scan key value is 0xec13c936 
+[ 4642.686413]  
+[ 4644.460307] IR: [03932] scan key value is 0xea15c936 
+[ 4644.460311]  
+[ 4644.512103] IR: [03932] scan key value is 0xea15c936 
+[ 4644.512108]  
+[ 4645.361037] IR: [03932] scan key value is 0xea15c936 
+[ 4645.361042]  
+[ 4645.412812] IR: [03932] scan key value is 0xea15c936 
+[ 4645.412820]  
+[ 4645.593769] IR: [03932] scan key value is 0xea15c936 
+[ 4645.593774]  
+[ 4645.801763] IR: [03932] scan key value is 0xea15c936 
+[ 4645.801768]  
+[ 4646.328014] IR: [03932] scan key value is 0xee11c936 
+[ 4646.328019]  
+[ 4647.017284] IR: [03932] scan key value is 0xea15c936 
+[ 4647.017288]  
+[ 4647.069047] IR: [03932] scan key value is 0xea15c936 
+[ 4647.069052]  
+[ 4647.230067] IR: [03932] scan key value is 0xea15c936 
+[ 4647.230072]  
+[ 4647.437555] IR: [03932] scan key value is 0xea15c936 
+[ 4647.437560]  
+[ 4647.489244] IR: [03932] scan key value is 0xea15c936 
+[ 4647.489249]  
+[ 4647.660627] IR: [03932] scan key value is 0xea15c936 
+[ 4647.660632]  
+[ 4647.712338] IR: [03932] scan key value is 0xea15c936 
+[ 4647.712342]  
+[ 4648.735255] IR: [03932] scan key value is 0xea15c936 
+[ 4648.735260]  
+[ 4650.005360] IR: [03932] scan key value is 0xee11c936 
+[ 4650.005365]  
+[ 4650.056820] IR: [03932] scan key value is 0xee11c936 
+[ 4650.056825]  
+[ 4651.522064] IR: [03932] scan key value is 0xee11c936 
+[ 4651.522069]  
+[ 4651.573520] IR: [03932] scan key value is 0xee11c936 
+[ 4651.573525]  
+[ 4651.792460] IR: [03932] scan key value is 0xee11c936 
+[ 4651.792465]  
+[ 4651.990507] IR: [03932] scan key value is 0xee11c936 
+[ 4651.990512]  
+[ 4652.186274] IR: [03932] scan key value is 0xee11c936 
+[ 4652.186278]  
+[ 4652.411562] IR: [03932] scan key value is 0xee11c936 
+[ 4652.411567]  
+[ 4652.993347] IR: [03932] scan key value is 0xeb14c936 
+[ 4652.993353]  
+[ 4653.044310] IR: [03932] scan key value is 0xeb14c936 
+[ 4653.044315]  
+[ 4653.433931] IR: [03932] scan key value is 0xec13c936 
+[ 4653.433936]  
+[ 4661.972461] ADDRCONF(NETDEV_UP): wlan0: link is not ready
+[ 4662.056423] wlan_get_cfp_by_band_and_channel(): cannot find cfp by band 31 & channel 36
+[ 4662.742366] wlan_get_cfp_by_band_and_channel(): cannot find cfp by band 2 & channel 12
+[ 4662.750361] wlan_get_cfp_by_band_and_channel(): cannot find cfp by band 2 & channel 13
+[ 4665.581749] ADDRCONF(NETDEV_CHANGE): wlan0: link becomes ready
+[ 4669.687250] IR: [03932] scan key value is 0xee11c936 
+[ 4669.687255]  
+[ 4669.738671] IR: [03932] scan key value is 0xee11c936 
+[ 4669.738676]  
+[ 4671.393016] IR: [03932] scan key value is 0xea15c936 
+[ 4671.393021]  
+[ 4671.444754] IR: [03932] scan key value is 0xea15c936 
+[ 4671.444759]  
+[ 4672.667129] IR: [03932] scan key value is 0xea15c936 
+[ 4672.667133]  
+[ 4672.874636] IR: [03932] scan key value is 0xea15c936 
+[ 4672.874641]  
+[ 4673.065315] IR: [03932] scan key value is 0xea15c936 
+[ 4673.065320]  
+[ 4673.117119] IR: [03932] scan key value is 0xea15c936 
+[ 4673.117124]  
+[ 4673.281102] IR: [03932] scan key value is 0xea15c936 
+[ 4673.281107]  
+[ 4673.676833] IR: [03932] scan key value is 0xea15c936 
+[ 4673.676838]  
+[ 4673.728578] IR: [03932] scan key value is 0xea15c936 
+[ 4673.728583]  
+[ 4673.993158] IR: [03932] scan key value is 0xea15c936 
+[ 4673.993162]  
+[ 4674.796582] IR: [03932] scan key value is 0xeb14c936 
+[ 4674.796587]  
+[ 4674.847509] IR: [03932] scan key value is 0xeb14c936 
+[ 4674.847514]  
+[ 4675.632472] IR: [03932] scan key value is 0xee11c936 
+[ 4675.632476]  
+[ 4675.684026] IR: [03932] scan key value is 0xee11c936 
+[ 4675.684033]  
+[ 4676.154625] IR: [03932] scan key value is 0xec13c936 
+[ 4676.154631]  
+[ 4676.372878] wlan0: no IPv6 routers present
+[ 4677.093190] IR: [03932] scan key value is 0xea15c936 
+[ 4677.093195]  
+[ 4677.144955] IR: [03932] scan key value is 0xea15c936 
+[ 4677.144960]  
+[ 4677.589824] IR: [03932] scan key value is 0xec13c936 
+[ 4677.589829]  
+[ 4678.681616] IR: [03932] scan key value is 0xed12c936 
+[ 4678.681621]  
+[ 4679.330756] IR: [03932] scan key value is 0xea15c936 
+[ 4679.330761]  
+[ 4680.117128] IR: [03932] scan key value is 0xeb14c936 
+[ 4680.117132]  
+[ 4680.168083] IR: [03932] scan key value is 0xeb14c936 
+[ 4680.168089]  
+[ 4680.857997] IR: [03932] scan key value is 0xec13c936 
+[ 4680.858002]  
+[ 4681.514689] IR: [03932] scan key value is 0xed12c936 
+[ 4681.514693]  
+[ 4681.566188] IR: [03932] scan key value is 0xed12c936 
+[ 4681.566193]  
+[ 4681.941066] IR: [03932] scan key value is 0xee11c936 
+[ 4681.941071]  
+[ 4681.992592] IR: [03932] scan key value is 0xee11c936 
+[ 4681.992601]  
+[ 4682.365908] IR: [03932] scan key value is 0xeb14c936 
+[ 4682.365912]  
+[ 4682.416782] IR: [03932] scan key value is 0xeb14c936 
+[ 4682.416787]  
+[ 4682.769644] cfg80211: Calling CRDA to update world regulatory domain
+[ 4682.838576] IR: [03932] scan key value is 0xec13c936 
+[ 4682.838581]  
+[ 4684.402803] ADDRCONF(NETDEV_UP): eth0: link is not ready
+[ 4684.412566] init: untracked pid 6033 exited
+[ 4684.816556] IR: [03932] scan key value is 0xeb14c936 
+[ 4684.816561]  
+[ 4684.867455] IR: [03932] scan key value is 0xeb14c936 
+[ 4684.867461]  
+[ 4687.988320] IR: [03932] scan key value is 0xec13c936 
+[ 4687.988326]  
+[ 4688.039517] IR: [03932] scan key value is 0xec13c936 
+[ 4688.039523]  
+[ 4689.200530] IR: [03932] scan key value is 0xeb14c936 
+[ 4689.200535]  
+[ 4689.251438] IR: [03932] scan key value is 0xeb14c936 
+[ 4689.251443]  
+[ 4689.359481] IR: [03932] scan key value is 0xeb14c936 
+[ 4689.359487]  
+[ 4689.472278] IR: [03932] scan key value is 0xeb14c936 
+[ 4689.472283]  
+[ 4689.580309] IR: [03932] scan key value is 0xeb14c936 
+[ 4689.580313]  
+[ 4689.693059] IR: [03932] scan key value is 0xeb14c936 
+[ 4689.693063]  
+[ 4689.801041] IR: [03932] scan key value is 0xeb14c936 
+[ 4689.801046]  
+[ 4689.913930] IR: [03932] scan key value is 0xeb14c936 
+[ 4689.913935]  
+[ 4690.021935] IR: [03932] scan key value is 0xeb14c936 
+[ 4690.021940]  
+[ 4690.134813] IR: [03932] scan key value is 0xeb14c936 
+[ 4690.134818]  
+[ 4690.247601] IR: [03932] scan key value is 0xeb14c936 
+[ 4690.247606]  
+[ 4690.355577] IR: [03932] scan key value is 0xeb14c936 
+[ 4690.355582]  
+[ 4690.468427] IR: [03932] scan key value is 0xeb14c936 
+[ 4690.468432]  
+[ 4690.576468] IR: [03932] scan key value is 0xeb14c936 
+[ 4690.576473]  
+[ 4691.016345] IR: [03932] scan key value is 0xed12c936 
+[ 4691.016350]  
+[ 4691.067850] IR: [03932] scan key value is 0xed12c936 
+[ 4691.067854]  
+[ 4691.177245] IR: [03932] scan key value is 0xed12c936 
+[ 4691.177250]  
+[ 4692.206697] init: untracked pid 4937 exited
+[ 4692.212525] init: untracked pid 6042 exited
+[ 4692.237815] init: untracked pid 4938 exited
+[ 4692.242868] init: untracked pid 4939 exited
+[ 4692.247352] init: untracked pid 4940 exited
+[ 4693.171254] IR: [03932] scan key value is 0xea15c936 
+[ 4693.171259]  
+[ 4693.222930] IR: [03932] scan key value is 0xea15c936 
+[ 4693.222935]  
+[ 4693.414440] IR: [03932] scan key value is 0xea15c936 
+[ 4693.414445]  
+[ 4693.842788] IR: [03932] scan key value is 0xea15c936 
+[ 4693.842793]  
+[ 4693.894504] IR: [03932] scan key value is 0xea15c936 
+[ 4693.894509]  
+[ 4694.314812] IR: [03932] scan key value is 0xed12c936 
+[ 4694.314817]  
+[ 4694.530846] IR: [03932] scan key value is 0xed12c936 
+[ 4694.530851]  
+[ 4695.191571] IR: [03932] scan key value is 0xec13c936 
+[ 4695.191576]  
+[ 4695.242863] IR: [03932] scan key value is 0xec13c936 
+[ 4695.242868]  
+[ 4695.806082] IR: [03932] scan key value is 0xed12c936 
+[ 4695.806087]  
+[ 4695.857547] IR: [03932] scan key value is 0xed12c936 
+[ 4695.857552]  
+[ 4696.520771] IR: [03932] scan key value is 0xee11c936 
+[ 4696.520776]  
+[ 4696.572251] IR: [03932] scan key value is 0xee11c936 
+[ 4696.572256]  
+[ 4696.822650] IR: [03932] scan key value is 0xee11c936 
+[ 4696.822655]  
+[ 4696.874094] IR: [03932] scan key value is 0xee11c936 
+[ 4696.874099]  
+[ 4696.983455] IR: [03932] scan key value is 0xee11c936 
+[ 4696.983459]  
+[ 4697.410856] IR: [03932] scan key value is 0xee11c936 
+[ 4697.410861]  
+[ 4697.462285] IR: [03932] scan key value is 0xee11c936 
+[ 4697.462289]  
+[ 4697.845049] IR: [03932] scan key value is 0xed12c936 
+[ 4697.845054]  
+[ 4697.896497] IR: [03932] scan key value is 0xed12c936 
+[ 4697.896502]  
+[ 4698.005909] IR: [03932] scan key value is 0xed12c936 
+[ 4698.005914]  
+[ 4698.115346] IR: [03932] scan key value is 0xed12c936 
+[ 4698.115351]  
+[ 4698.224817] IR: [03932] scan key value is 0xed12c936 
+[ 4698.224822]  
+[ 4698.334259] IR: [03932] scan key value is 0xed12c936 
+[ 4698.334264]  
+[ 4698.443730] IR: [03932] scan key value is 0xed12c936 
+[ 4698.443735]  
+[ 4698.553176] IR: [03932] scan key value is 0xed12c936 
+[ 4698.553180]  
+[ 4698.662630] IR: [03932] scan key value is 0xed12c936 
+[ 4698.662636]  
+[ 4698.772069] IR: [03932] scan key value is 0xed12c936 
+[ 4698.772074]  
+[ 4698.881510] IR: [03932] scan key value is 0xed12c936 
+[ 4698.881515]  
+[ 4699.732380] IR: [03932] scan key value is 0xec13c936 
+[ 4699.732385]  
+[ 4700.636207] IR: [03932] scan key value is 0xf10ec936 
+[ 4700.636213]  
+[ 4700.686852] IR: [03932] scan key value is 0xf10ec936 
+[ 4700.686858]  
+[ 4701.390991] IR: [03932] scan key value is 0xea15c936 
+[ 4701.390996]  
+[ 4701.442759] IR: [03932] scan key value is 0xea15c936 
+[ 4701.442764]  
+[ 4701.721047] IR: [03932] scan key value is 0xea15c936 
+[ 4701.721051]  
+[ 4701.772827] IR: [03932] scan key value is 0xea15c936 
+[ 4701.772835]  
+[ 4702.129334] IR: [03932] scan key value is 0xea15c936 
+[ 4702.129338]  
+[ 4702.482362] IR: [03932] scan key value is 0xea15c936 
+[ 4702.482367]  
+[ 4702.534193] IR: [03932] scan key value is 0xea15c936 
+[ 4702.534198]  
+[ 4703.129171] IR: [03932] scan key value is 0xec13c936 
+[ 4703.129176]  
+[ 4703.180412] IR: [03932] scan key value is 0xec13c936 
+[ 4703.180416]  
+[ 4705.862839] IR: [03932] scan key value is 0xec13c936 
+[ 4705.862844]  
+[ 4705.914021] IR: [03932] scan key value is 0xec13c936 
+[ 4705.914025]  
+[ 4708.829487] IR: [03932] scan key value is 0xed12c936 
+[ 4708.829492]  
+[ 4709.272436] IR: [03932] scan key value is 0xed12c936 
+[ 4709.272440]  
+[ 4709.323881] IR: [03932] scan key value is 0xed12c936 
+[ 4709.323886]  
+[ 4710.170221] IR: [03932] scan key value is 0xee11c936 
+[ 4710.170227]  
+[ 4710.221637] IR: [03932] scan key value is 0xee11c936 
+[ 4710.221642]  
+[ 4710.407052] IR: [03932] scan key value is 0xee11c936 
+[ 4710.407057]  
+[ 4710.458482] IR: [03932] scan key value is 0xee11c936 
+[ 4710.458487]  
+[ 4710.639731] IR: [03932] scan key value is 0xee11c936 
+[ 4710.639735]  
+[ 4710.691178] IR: [03932] scan key value is 0xee11c936 
+[ 4710.691182]  
+[ 4710.800604] IR: [03932] scan key value is 0xee11c936 
+[ 4710.800608]  
+[ 4710.909941] IR: [03932] scan key value is 0xee11c936 
+[ 4710.909946]  
+[ 4711.019346] IR: [03932] scan key value is 0xee11c936 
+[ 4711.019351]  
+[ 4711.128656] IR: [03932] scan key value is 0xee11c936 
+[ 4711.128662]  
+[ 4711.238075] IR: [03932] scan key value is 0xee11c936 
+[ 4711.238080]  
+[ 4711.347498] IR: [03932] scan key value is 0xee11c936 
+[ 4711.347503]  
+[ 4711.616547] init: untracked pid 6053 exited
+[ 4711.621628] init: untracked pid 6054 exited
+[ 4711.626708] init: untracked pid 6055 exited
+[ 4711.631082] init: untracked pid 6056 exited
+[ 4732.123569] IR: [03932] scan key value is 0xf10ec936 
+[ 4732.123574]  
+[ 4732.174265] IR: [03932] scan key value is 0xf10ec936 
+[ 4732.174270]  
+[ 4732.835407] IR: [03932] scan key value is 0xeb14c936 
+[ 4732.835413]  
+[ 4732.886371] IR: [03932] scan key value is 0xeb14c936 
+[ 4732.886376]  
+[ 4733.155224] IR: [03932] scan key value is 0xec13c936 
+[ 4733.155229]  
+[ 4733.206505] IR: [03932] scan key value is 0xec13c936 
+[ 4733.206509]  
+[ 4734.519823] IR: [03932] scan key value is 0xea15c936 
+[ 4734.519828]  
+[ 4734.691526] IR: [03932] scan key value is 0xea15c936 
+[ 4734.691531]  
+[ 4734.743355] IR: [03932] scan key value is 0xea15c936 
+[ 4734.743360]  
+[ 4734.877744] IR: [03932] scan key value is 0xea15c936 
+[ 4734.877749]  
+[ 4734.929511] IR: [03932] scan key value is 0xea15c936 
+[ 4734.929515]  
+[ 4735.039627] IR: [03932] scan key value is 0xea15c936 
+[ 4735.039630]  
+[ 4735.149717] IR: [03932] scan key value is 0xea15c936 
+[ 4735.149721]  
+[ 4735.259834] IR: [03932] scan key value is 0xea15c936 
+[ 4735.259839]  
+[ 4735.369955] IR: [03932] scan key value is 0xea15c936 
+[ 4735.369959]  
+[ 4735.480057] IR: [03932] scan key value is 0xea15c936 
+[ 4735.480062]  
+[ 4735.590193] IR: [03932] scan key value is 0xea15c936 
+[ 4735.590198]  
+[ 4735.700227] IR: [03932] scan key value is 0xea15c936 
+[ 4735.700232]  
+[ 4735.810355] IR: [03932] scan key value is 0xea15c936 
+[ 4735.810360]  
+[ 4735.920519] IR: [03932] scan key value is 0xea15c936 
+[ 4735.920524]  
+[ 4736.030624] IR: [03932] scan key value is 0xea15c936 
+[ 4736.030632]  
+[ 4736.140708] IR: [03932] scan key value is 0xea15c936 
+[ 4736.140713]  
+[ 4736.250807] IR: [03932] scan key value is 0xea15c936 
+[ 4736.250812]  
+[ 4736.835159] IR: [03932] scan key value is 0xee11c936 
+[ 4736.835164]  
+[ 4736.886632] IR: [03932] scan key value is 0xee11c936 
+[ 4736.886637]  
+[ 4737.115416] IR: [03932] scan key value is 0xee11c936 
+[ 4737.115421]  
+[ 4737.314132] IR: [03932] scan key value is 0xee11c936 
+[ 4737.314137]  
+[ 4739.936021] IR: [03932] scan key value is 0xeb14c936 
+[ 4739.936026]  
+[ 4739.986956] IR: [03932] scan key value is 0xeb14c936 
+[ 4739.986962]  
+[ 4740.471292] IR: [03932] scan key value is 0xec13c936 
+[ 4740.471297]  
+[ 4773.989685] IR: [03932] scan key value is 0xec13c936 
+[ 4773.989690]  
+[ 4774.040973] IR: [03932] scan key value is 0xec13c936 
+[ 4774.040977]  
+[ 4776.523855] IR: [03932] scan key value is 0xea15c936 
+[ 4776.523860]  
+[ 4776.575632] IR: [03932] scan key value is 0xea15c936 
+[ 4776.575637]  
+[ 4777.362255] IR: [03932] scan key value is 0xee11c936 
+[ 4777.362260]  
+[ 4777.413709] IR: [03932] scan key value is 0xee11c936 
+[ 4777.413714]  
+[ 4777.859384] IR: [03932] scan key value is 0xea15c936 
+[ 4777.859389]  
+[ 4777.911126] IR: [03932] scan key value is 0xea15c936 
+[ 4777.911131]  
+[ 4778.821107] IR: [03932] scan key value is 0xed12c936 
+[ 4778.821112]  
+[ 4778.872784] IR: [03932] scan key value is 0xed12c936 
+[ 4778.872790]  
+[ 4779.488516] IR: [03932] scan key value is 0xea15c936 
+[ 4779.488521]  
+[ 4779.540208] IR: [03932] scan key value is 0xea15c936 
+[ 4779.540213]  
+[ 4780.652583] IR: [03932] scan key value is 0xee11c936 
+[ 4780.652588]  
+[ 4780.704038] IR: [03932] scan key value is 0xee11c936 
+[ 4780.704042]  
+[ 5341.627113] IR: [03932] scan key value is 0xf10ec936 
+[ 5341.627118]  
+[ 5341.677761] IR: [03932] scan key value is 0xf10ec936 
+[ 5341.677766]  
+[ 5342.497121] IR: [03932] scan key value is 0xf10ec936 
+[ 5342.497126]  
+[ 5342.547761] IR: [03932] scan key value is 0xf10ec936 
+[ 5342.547768]  
+[ 5343.367024] IR: [03932] scan key value is 0xed12c936 
+[ 5343.367029]  
+[ 5343.418495] IR: [03932] scan key value is 0xed12c936 
+[ 5343.418500]  
+[ 5344.219523] IR: [03932] scan key value is 0xeb14c936 
+[ 5344.219528]  
+[ 5344.270462] IR: [03932] scan key value is 0xeb14c936 
+[ 5344.270467]  
+[ 5344.778917] IR: [03932] scan key value is 0xeb14c936 
+[ 5344.778922]  
+[ 5344.829844] IR: [03932] scan key value is 0xeb14c936 
+[ 5344.829850]  
+[ 5346.015932] IR: [03932] scan key value is 0xeb14c936 
+[ 5346.015937]  
+[ 5346.066810] IR: [03932] scan key value is 0xeb14c936 
+[ 5346.066815]  
+[ 5347.127372] IR: [03932] scan key value is 0xea15c936 
+[ 5347.127377]  
+[ 5347.179241] IR: [03932] scan key value is 0xea15c936 
+[ 5347.179246]  
+[ 5348.137925] IR: [03932] scan key value is 0xed12c936 
+[ 5348.137930]  
+[ 5348.189373] IR: [03932] scan key value is 0xed12c936 
+[ 5348.189378]  
+[ 5348.635369] IR: [03932] scan key value is 0xea15c936 
+[ 5348.635374]  
+[ 5349.250091] IR: [03932] scan key value is 0xeb14c936 
+[ 5349.250096]  
+[ 5349.300988] IR: [03932] scan key value is 0xeb14c936 
+[ 5349.300993]  
+[ 5349.858827] IR: [03932] scan key value is 0xee11c936 
+[ 5349.858832]  
+[ 5349.910279] IR: [03932] scan key value is 0xee11c936 
+[ 5349.910284]  
+[ 5350.309255] IR: [03932] scan key value is 0xeb14c936 
+[ 5350.309260]  
+[ 5350.360193] IR: [03932] scan key value is 0xeb14c936 
+[ 5350.360198]  
+[ 5350.472987] IR: [03932] scan key value is 0xeb14c936 
+[ 5350.472992]  
+[ 5351.191416] IR: [03932] scan key value is 0xed12c936 
+[ 5351.191421]  
+[ 5351.242899] IR: [03932] scan key value is 0xed12c936 
+[ 5351.242904]  
+[ 5351.829203] IR: [03932] scan key value is 0xed12c936 
+[ 5351.829207]  
+[ 5351.880738] IR: [03932] scan key value is 0xed12c936 
+[ 5351.880744]  
+[ 5352.910354] IR: [03932] scan key value is 0xeb14c936 
+[ 5352.910359]  
+[ 5352.961260] IR: [03932] scan key value is 0xeb14c936 
+[ 5352.961265]  
+[ 5353.502116] IR: [03932] scan key value is 0xea15c936 
+[ 5353.502121]  
+[ 5353.553900] IR: [03932] scan key value is 0xea15c936 
+[ 5353.553905]  
+[ 5353.980196] IR: [03932] scan key value is 0xed12c936 
+[ 5353.980201]  
+[ 5354.031702] IR: [03932] scan key value is 0xed12c936 
+[ 5354.031707]  
+[ 5402.503109] IR: [03932] scan key value is 0xeb14c936 
+[ 5402.503114]  
+[ 5402.554040] IR: [03932] scan key value is 0xeb14c936 
+[ 5402.554045]  
+[ 5403.660945] IR: [03932] scan key value is 0xee11c936 
+[ 5403.660950]  
+[ 5403.712380] IR: [03932] scan key value is 0xee11c936 
+[ 5403.712385]  
+[ 5404.430000] IR: [03932] scan key value is 0xec13c936 
+[ 5404.430005]  
+[ 5406.169478] IR: [03932] scan key value is 0xeb14c936 
+[ 5406.169483]  
+[ 5406.220412] IR: [03932] scan key value is 0xeb14c936 
+[ 5406.220417]  
+[ 5406.710039] IR: [03932] scan key value is 0xed12c936 
+[ 5406.710044]  
+[ 5406.761517] IR: [03932] scan key value is 0xed12c936 
+[ 5406.761523]  
+[ 5407.757334] IR: [03932] scan key value is 0xec13c936 
+[ 5407.757340]  
+[ 5407.808518] IR: [03932] scan key value is 0xec13c936 
+[ 5407.808523]  
+[ 5409.318567] IR: [03932] scan key value is 0xea15c936 
+[ 5409.318572]  
+[ 5409.618554] IR: [03932] scan key value is 0xea15c936 
+[ 5409.618558]  
+[ 5409.893778] IR: [03932] scan key value is 0xea15c936 
+[ 5409.893784]  
+[ 5410.382956] IR: [03932] scan key value is 0xea15c936 
+[ 5410.382961]  
+[ 5410.687638] IR: [03932] scan key value is 0xea15c936 
+[ 5410.687643]  
+[ 5410.739420] IR: [03932] scan key value is 0xea15c936 
+[ 5410.739425]  
+[ 5411.184035] IR: [03932] scan key value is 0xea15c936 
+[ 5411.184040]  
+[ 5411.235844] IR: [03932] scan key value is 0xea15c936 
+[ 5411.235849]  
+[ 5411.674416] IR: [03932] scan key value is 0xea15c936 
+[ 5411.674420]  
+[ 5411.726208] IR: [03932] scan key value is 0xea15c936 
+[ 5411.726213]  
+[ 5412.180059] IR: [03932] scan key value is 0xee11c936 
+[ 5412.180064]  
+[ 5412.231541] IR: [03932] scan key value is 0xee11c936 
+[ 5412.231549]  
+[ 5412.451767] IR: [03932] scan key value is 0xee11c936 
+[ 5412.451771]  
+[ 5412.503151] IR: [03932] scan key value is 0xee11c936 
+[ 5412.503160]  
+[ 5412.973695] IR: [03932] scan key value is 0xea15c936 
+[ 5412.973700]  
+[ 5413.025550] IR: [03932] scan key value is 0xea15c936 
+[ 5413.025559]  
+[ 5413.208016] IR: [03932] scan key value is 0xea15c936 
+[ 5413.208021]  
+[ 5413.425662] IR: [03932] scan key value is 0xea15c936 
+[ 5413.425668]  
+[ 5414.175452] IR: [03932] scan key value is 0xee11c936 
+[ 5414.175457]  
+[ 5414.226847] IR: [03932] scan key value is 0xee11c936 
+[ 5414.226855]  
+[ 5414.464451] IR: [03932] scan key value is 0xee11c936 
+[ 5414.464456]  
+[ 5414.515927] IR: [03932] scan key value is 0xee11c936 
+[ 5414.515936]  
+[ 5455.738667] IR: [03932] scan key value is 0x6699bd02 
+[ 5455.738672]  
+[ 5455.745388] Coship Smart DVB IR Receiver: unknown key: key=0x6699bd02 down=1
+[ 5455.790924] IR: [03932] scan key value is 0x6699bd02 
+[ 5455.790928]  
+[ 5455.956898] Coship Smart DVB IR Receiver: unknown key: key=0x6699bd02 down=0
+[ 5456.769578] IR: [03932] scan key value is 0x6699bd02 
+[ 5456.769582]  
+[ 5456.776132] Coship Smart DVB IR Receiver: unknown key: key=0x6699bd02 down=1
+[ 5456.821820] IR: [03932] scan key value is 0x6699bd02 
+[ 5456.821823]  
+[ 5456.928996] IR: [03932] scan key value is 0x6699bd02 
+[ 5456.929000]  
+[ 5457.096912] Coship Smart DVB IR Receiver: unknown key: key=0x6699bd02 down=0
+[ 5458.177534] IR: [03932] scan key value is 0x2dd2bd02 
+[ 5458.177539]  
+[ 5458.184094] Coship Smart DVB IR Receiver: unknown key: key=0x2dd2bd02 down=1
+[ 5458.229789] IR: [03932] scan key value is 0x2dd2bd02 
+[ 5458.229793]  
+[ 5458.396966] Coship Smart DVB IR Receiver: unknown key: key=0x2dd2bd02 down=0
+[ 5460.709727] IR: [03932] scan key value is 0x31cebd02 
+[ 5460.709732]  
+[ 5460.716253] Coship Smart DVB IR Receiver: unknown key: key=0x31cebd02 down=1
+[ 5460.880898] Coship Smart DVB IR Receiver: unknown key: key=0x31cebd02 down=0
+[ 5481.523396] IR: [03932] scan key value is 0xf10ec936 
+[ 5481.523401]  
+[ 5481.574030] IR: [03932] scan key value is 0xf10ec936 
+[ 5481.574036]  
+[ 5482.677063] IR: [03932] scan key value is 0xe41bc936 
+[ 5482.677068]  
+[ 5482.728564] IR: [03932] scan key value is 0xe41bc936 
+[ 5482.728570]  
+[ 5482.861342] IR: [03932] scan key value is 0xe41bc936 
+[ 5482.861346]  
+[ 5482.912875] IR: [03932] scan key value is 0xe41bc936 
+[ 5482.912880]  
+[ 5483.055228] IR: [03932] scan key value is 0xe41bc936 
+[ 5483.055232]  
+[ 5483.229901] IR: [03932] scan key value is 0xe41bc936 
+[ 5483.229906]  
+[ 5483.281451] IR: [03932] scan key value is 0xe41bc936 
+[ 5483.281456]  
+[ 5483.837224] IR: [03932] scan key value is 0xe41bc936 
+[ 5483.837229]  
+[ 5483.888790] IR: [03932] scan key value is 0xe41bc936 
+[ 5483.888794]  
+[ 5484.013182] IR: [03932] scan key value is 0xe41bc936 
+[ 5484.013187]  
+[ 5484.064705] IR: [03932] scan key value is 0xe41bc936 
+[ 5484.064709]  
+[ 5484.199876] IR: [03932] scan key value is 0xe41bc936 
+[ 5484.199880]  
+[ 5484.362195] IR: [03932] scan key value is 0xe41bc936 
+[ 5484.362201]  
+[ 5484.413618] IR: [03932] scan key value is 0xe41bc936 
+[ 5484.413622]  
+[ 5485.626321] IR: [03932] scan key value is 0xf10ec936 
+[ 5485.626326]  
+[ 5485.676912] IR: [03932] scan key value is 0xf10ec936 
+[ 5485.676917]  
+[ 5757.440613] IR: [03932] scan key value is 0x2dd2bd02 
+[ 5757.440618]  
+[ 5757.447353] Coship Smart DVB IR Receiver: unknown key: key=0x2dd2bd02 down=1
+[ 5757.492933] IR: [03932] scan key value is 0x2dd2bd02 
+[ 5757.492938]  
+[ 5757.656913] Coship Smart DVB IR Receiver: unknown key: key=0x2dd2bd02 down=0
+[ 5786.207939] IR: [03932] scan key value is 0xec13c936 
+[ 5786.207945]  
+[ 5786.259125] IR: [03932] scan key value is 0xec13c936 
+[ 5786.259130]  
+[ 5787.786958] IR: [03932] scan key value is 0xea15c936 
+[ 5787.786963]  
+[ 5788.031033] IR: [03932] scan key value is 0xea15c936 
+[ 5788.031037]  
+[ 5788.082833] IR: [03932] scan key value is 0xea15c936 
+[ 5788.082838]  
+[ 5788.615199] IR: [03932] scan key value is 0xee11c936 
+[ 5788.615204]  
+[ 5788.666662] IR: [03932] scan key value is 0xee11c936 
+[ 5788.666667]  
+[ 5789.608195] IR: [03932] scan key value is 0xea15c936 
+[ 5789.608200]  
+[ 5789.660030] IR: [03932] scan key value is 0xea15c936 
+[ 5789.660035]  
+[ 5790.542495] IR: [03932] scan key value is 0xee11c936 
+[ 5790.542500]  
+[ 5790.593940] IR: [03932] scan key value is 0xee11c936 
+[ 5790.593946]  
+[ 5791.156279] IR: [03932] scan key value is 0xee11c936 
+[ 5791.156284]  
+[ 5791.207738] IR: [03932] scan key value is 0xee11c936 
+[ 5791.207747]  
+[ 5793.493739] IR: [03932] scan key value is 0xeb14c936 
+[ 5793.493744]  
+[ 5793.544668] IR: [03932] scan key value is 0xeb14c936 
+[ 5793.544672]  
+[ 5794.303449] IR: [03932] scan key value is 0xea15c936 
+[ 5794.303454]  
+[ 5795.055440] IR: [03932] scan key value is 0xee11c936 
+[ 5795.055445]  
+[ 5795.106902] IR: [03932] scan key value is 0xee11c936 
+[ 5795.106908]  
+[ 5797.324889] IR: [03932] scan key value is 0xea15c936 
+[ 5797.324894]  
+[ 5797.376700] IR: [03932] scan key value is 0xea15c936 
+[ 5797.376709]  
+[ 5798.633144] IR: [03932] scan key value is 0xea15c936 
+[ 5798.633150]  
+[ 5798.684942] IR: [03932] scan key value is 0xea15c936 
+[ 5798.684947]  
+[ 5799.297459] IR: [03932] scan key value is 0xee11c936 
+[ 5799.297464]  
+[ 5799.348862] IR: [03932] scan key value is 0xee11c936 
+[ 5799.348871]  
+[ 5800.033577] IR: [03932] scan key value is 0xeb14c936 
+[ 5800.033581]  
+[ 5800.084519] IR: [03932] scan key value is 0xeb14c936 
+[ 5800.084524]  
+[ 5800.464547] IR: [03932] scan key value is 0xea15c936 
+[ 5800.464552]  
+[ 5800.928349] IR: [03932] scan key value is 0xed12c936 
+[ 5800.928354]  
+[ 5800.979840] IR: [03932] scan key value is 0xed12c936 
+[ 5800.979845]  
+[ 5801.628199] IR: [03932] scan key value is 0xea15c936 
+[ 5801.628204]  
+[ 5801.680020] IR: [03932] scan key value is 0xea15c936 
+[ 5801.680028]  
+[ 5801.872456] IR: [03932] scan key value is 0xea15c936 
+[ 5801.872461]  
+[ 5802.128742] IR: [03932] scan key value is 0xea15c936 
+[ 5802.128747]  
+[ 5802.180498] IR: [03932] scan key value is 0xea15c936 
+[ 5802.180503]  
+[ 5802.482411] IR: [03932] scan key value is 0xea15c936 
+[ 5802.482416]  
+[ 5802.534196] IR: [03932] scan key value is 0xea15c936 
+[ 5802.534201]  
+[ 5802.995252] IR: [03932] scan key value is 0xea15c936 
+[ 5802.995257]  
+[ 5803.046999] IR: [03932] scan key value is 0xea15c936 
+[ 5803.047003]  
+[ 5804.973299] IR: [03932] scan key value is 0xeb14c936 
+[ 5804.973305]  
+[ 5805.024243] IR: [03932] scan key value is 0xeb14c936 
+[ 5805.024248]  
+[ 5805.497369] IR: [03932] scan key value is 0xec13c936 
+[ 5805.497374]  
+[ 5811.844021] IR: [03932] scan key value is 0xf10ec936 
+[ 5811.844026]  
+[ 5811.894696] IR: [03932] scan key value is 0xf10ec936 
+[ 5811.894702]  
+[ 5813.688462] IR: [03932] scan key value is 0xee11c936 
+[ 5813.688467]  
+[ 5813.739976] IR: [03932] scan key value is 0xee11c936 
+[ 5813.739984]  
+[ 5814.015815] IR: [03932] scan key value is 0xee11c936 
+[ 5814.015820]  
+[ 5814.067330] IR: [03932] scan key value is 0xee11c936 
+[ 5814.067334]  
+[ 5814.329915] IR: [03932] scan key value is 0xee11c936 
+[ 5814.329920]  
+[ 5814.381332] IR: [03932] scan key value is 0xee11c936 
+[ 5814.381337]  
+[ 5814.615768] IR: [03932] scan key value is 0xee11c936 
+[ 5814.615773]  
+[ 5814.667193] IR: [03932] scan key value is 0xee11c936 
+[ 5814.667198]  
+[ 5814.874265] IR: [03932] scan key value is 0xee11c936 
+[ 5814.874270]  
+[ 5814.925738] IR: [03932] scan key value is 0xee11c936 
+[ 5814.925743]  
+[ 5815.990539] IR: [03932] scan key value is 0xee11c936 
+[ 5815.990544]  
+[ 5816.042021] IR: [03932] scan key value is 0xee11c936 
+[ 5816.042026]  
+[ 5819.949221] IR: [03932] scan key value is 0xea15c936 
+[ 5819.949226]  
+[ 5820.000975] IR: [03932] scan key value is 0xea15c936 
+[ 5820.000979]  
+[ 5820.271090] IR: [03932] scan key value is 0xea15c936 
+[ 5820.271095]  
+[ 5820.476711] IR: [03932] scan key value is 0xea15c936 
+[ 5820.476716]  
+[ 5820.679584] IR: [03932] scan key value is 0xea15c936 
+[ 5820.679588]  
+[ 5820.731409] IR: [03932] scan key value is 0xea15c936 
+[ 5820.731414]  
+[ 5820.891498] IR: [03932] scan key value is 0xea15c936 
+[ 5820.891503]  
+[ 5820.943273] IR: [03932] scan key value is 0xea15c936 
+[ 5820.943278]  
+[ 5821.127499] IR: [03932] scan key value is 0xea15c936 
+[ 5821.127505]  
+[ 5821.179248] IR: [03932] scan key value is 0xea15c936 
+[ 5821.179253]  
+[ 5821.424442] IR: [03932] scan key value is 0xea15c936 
+[ 5821.424448]  
+[ 5821.476297] IR: [03932] scan key value is 0xea15c936 
+[ 5821.476306]  
+[ 5821.755357] IR: [03932] scan key value is 0xea15c936 
+[ 5821.755362]  
+[ 5821.807053] IR: [03932] scan key value is 0xea15c936 
+[ 5821.807058]  
+[ 5822.707793] IR: [03932] scan key value is 0xee11c936 
+[ 5822.707798]  
+[ 5822.759401] IR: [03932] scan key value is 0xee11c936 
+[ 5822.759405]  
+[ 5849.930613] IR: [03932] scan key value is 0xf10ec936 
+[ 5849.930618]  
+[ 5849.981229] IR: [03932] scan key value is 0xf10ec936 
+[ 5849.981235]  
+[ 5850.404742] IR: [03932] scan key value is 0xeb14c936 
+[ 5850.404746]  
+[ 5850.455641] IR: [03932] scan key value is 0xeb14c936 
+[ 5850.455646]  
+[ 5850.824245] IR: [03932] scan key value is 0xec13c936 
+[ 5850.824250]  
+[ 5851.818729] IR: [03932] scan key value is 0xea15c936 
+[ 5851.818734]  
+[ 5851.870454] IR: [03932] scan key value is 0xea15c936 
+[ 5851.870459]  
+[ 5852.038140] IR: [03932] scan key value is 0xea15c936 
+[ 5852.038145]  
+[ 5852.089884] IR: [03932] scan key value is 0xea15c936 
+[ 5852.089888]  
+[ 5852.211278] IR: [03932] scan key value is 0xea15c936 
+[ 5852.211283]  
+[ 5852.263104] IR: [03932] scan key value is 0xea15c936 
+[ 5852.263109]  
+[ 5852.400705] IR: [03932] scan key value is 0xea15c936 
+[ 5852.400710]  
+[ 5852.452476] IR: [03932] scan key value is 0xea15c936 
+[ 5852.452481]  
+[ 5852.562596] IR: [03932] scan key value is 0xea15c936 
+[ 5852.562600]  
+[ 5852.672774] IR: [03932] scan key value is 0xea15c936 
+[ 5852.672781]  
+[ 5852.782879] IR: [03932] scan key value is 0xea15c936 
+[ 5852.782888]  
+[ 5852.892949] IR: [03932] scan key value is 0xea15c936 
+[ 5852.892953]  
+[ 5853.003045] IR: [03932] scan key value is 0xea15c936 
+[ 5853.003050]  
+[ 5853.113160] IR: [03932] scan key value is 0xea15c936 
+[ 5853.113164]  
+[ 5853.223252] IR: [03932] scan key value is 0xea15c936 
+[ 5853.223258]  
+[ 5853.333402] IR: [03932] scan key value is 0xea15c936 
+[ 5853.333408]  
+[ 5853.443447] IR: [03932] scan key value is 0xea15c936 
+[ 5853.443451]  
+[ 5853.553562] IR: [03932] scan key value is 0xea15c936 
+[ 5853.553567]  
+[ 5854.306270] IR: [03932] scan key value is 0xee11c936 
+[ 5854.306276]  
+[ 5854.357781] IR: [03932] scan key value is 0xee11c936 
+[ 5854.357786]  
+[ 5969.070030] IR: [03932] scan key value is 0xf10ec936 
+[ 5969.070035]  
+[ 5969.120650] IR: [03932] scan key value is 0xf10ec936 
+[ 5969.120655]  
+[ 5969.634740] IR: [03932] scan key value is 0xed12c936 
+[ 5969.634744]  
+[ 5969.686221] IR: [03932] scan key value is 0xed12c936 
+[ 5969.686226]  
+[ 5970.198442] IR: [03932] scan key value is 0xec13c936 
+[ 5970.198447]  
+[ 5970.249592] IR: [03932] scan key value is 0xec13c936 
+[ 5970.249598]  
+[ 5971.458792] IR: [03932] scan key value is 0xea15c936 
+[ 5971.458797]  
+[ 5971.510574] IR: [03932] scan key value is 0xea15c936 
+[ 5971.510579]  
+[ 5971.620721] IR: [03932] scan key value is 0xea15c936 
+[ 5971.620726]  
+[ 5971.850149] IR: [03932] scan key value is 0xea15c936 
+[ 5971.850154]  
+[ 5972.041070] IR: [03932] scan key value is 0xea15c936 
+[ 5972.041075]  
+[ 5972.252435] IR: [03932] scan key value is 0xea15c936 
+[ 5972.252440]  
+[ 5972.304325] IR: [03932] scan key value is 0xea15c936 

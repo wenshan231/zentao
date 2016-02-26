@@ -1,0 +1,517 @@
+D/selena.android.view.SelenaView( 1395): onWindowFocusChanged: false
+W/selena.android.view.SelenaView( 1395):     at selena.android.view.SelenaView.onWindowFocusChanged(SelenaView.java:121)
+D/selena.android.gl.GLView( 1395): onWindowFocusChanged: false
+W/selena.android.gl.GLView( 1395):     at selena.android.gl.GLView.onWindowFocusChanged(GLView.java:379)
+D/selena.android.gl.GLView$GLThread( 1395): onWindowFocusChanged - Enter: false, false
+W/selena.android.gl.GLView$GLThread( 1395):     at selena.android.gl.GLView$GLThread.onWindowFocusChanged(GLView.java:822)
+I/dvb_OTTPlayer( 2103): [getInstance] begin..............
+D/selena.android.gl.GLView$GLThread( 1395): onWindowFocusChanged - Leave: false, false
+W/selena.android.gl.GLView$GLThread( 1395):     at selena.android.gl.GLView$GLThread.onWindowFocusChanged(GLView.java:831)
+D/selena.android.view.AndroidAppWindow( 1395): [KBD] inputKey : 66, isDown: false
+W/selena.android.view.AndroidAppWindow( 1395):     at selena.android.view.AndroidAppWindow.inputKey(AndroidAppWindow.java:136)
+E/dvb_OTTPlayer( 2103): [surfaceCreated]  holder:android.view.SurfaceView$4@42a3a628
+E/dvb_OTTPlayer( 2103): [surfaceChanged]  mediaplayer is null
+E/dvb_OTTPlayer( 2103): [surfaceChanged]  holder:android.view.SurfaceView$4@42a3a628  format:4  width:1280 height:720
+E/dvb_OTTPlayer( 2103): [surfaceChanged]  mediaplayer is null
+D/selena.android.app.SelenaActivity( 1395): [KBD] dispatchKeyEvent: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_ENTER, scanCode=28, metaState=0, flags=0x28, repeatCount=0, eventTime=2706429, downTime=2706344, deviceId=6, source=0x101 }
+W/selena.android.app.SelenaActivity( 1395):     at selena.android.app.SelenaActivity.dispatchKeyEvent(SelenaActivity.java:179)
+D/selena.android.app.SelenaActivity( 1395): [KBD] onKeyUp: 66, KeyEvent { action=ACTION_UP, keyCode=KEYCODE_ENTER, scanCode=28, metaState=0, flags=0x28, repeatCount=0, eventTime=2706429, downTime=2706344, deviceId=6, source=0x101 }
+W/selena.android.app.SelenaActivity( 1395):     at selena.android.app.SelenaActivity.onKeyUp(SelenaActivity.java:173)
+V/TabletStatusBar( 1221): setLightsOn(true)
+D/selena.android.view.SelenaView( 1395): onCreateInputConnection
+W/selena.android.view.SelenaView( 1395):     at selena.android.view.SelenaView.onCreateInputConnection(SelenaView.java:396)
+W/IInputConnectionWrapper( 1395): showStatusIcon on inactive InputConnection
+W/InputManagerService(  983): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@4151d3e0 (uid=10035 pid=1395)
+D/InputEventConsistencyVerifier( 2103): KeyEvent: ACTION_UP but key was not down.
+D/InputEventConsistencyVerifier( 2103):   in Handler (android.view.ViewRootImpl) {42e91b50}
+D/InputEventConsistencyVerifier( 2103):   0: sent at 2706768000000, KeyEvent { action=ACTION_UP, keyCode=KEYCODE_ENTER, scanCode=28, metaState=0, flags=0x8, repeatCount=0, eventTime=2706768, downTime=2706344, deviceId=6, source=0x101 }
+D/InputEventConsistencyVerifier( 2103):   -- recent events --
+D/InputEventConsistencyVerifier( 2103):   1: sent at 2588281000000, KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=4, metaState=0, flags=0x8, repeatCount=0, eventTime=2588281, downTime=2588281, deviceId=4, source=0x301 }
+D/InputEventConsistencyVerifier( 2103):   2: sent at 2588281000000, KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BACK, scanCode=4, metaState=0, flags=0x8, repeatCount=0, eventTime=2588281, downTime=2588281, deviceId=4, source=0x301 }
+D/InputEventConsistencyVerifier( 2103):   3: sent at 2573322323000, MotionEvent { action=ACTION_UP, id[0]=0, x[0]=1138.1108, y[0]=343.5229, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=2573322, downTime=2573240, deviceId=2, source=0x1002 }
+D/InputEventConsistencyVerifier( 2103):   4: sent at 2573240698000, MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=1138.1108, y[0]=343.5229, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=2573240, downTime=2573240, deviceId=2, source=0x1002 }
+D/InputEventConsistencyVerifier( 2103):   5: sent at 1717515768000, MotionEvent { action=ACTION_UP, id[0]=0, x[0]=286.77597, y[0]=388.46048, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1717515, downTime=1717352, deviceId=2, source=0x1002 }
+I/DVB_main( 2103): [dispatchKeyEvent]  Action:1  keyCode:23
+I/DVB_main( 2103): [dispatchKeyEvent]  Does not deal with the keyCode
+I/ActivityManager(  983): Start proc com.iflytek.vac for service com.iflytek.vaf/com.iflytek.vocmd.Context: pid=3081 uid=10028 gids={3003, 1015}
+I/dalvikvm( 3081): Turning on JNI app bug workarounds for target SDK version 8...
+D/dalvikvm(  737): GC_EXPLICIT freed 40K, 44% free 6575K/11651K, paused 3ms+4ms
+D/dalvikvm(  737): GC_EXPLICIT freed <1K, 44% free 6575K/11651K, paused 3ms+4ms
+D/dalvikvm(  737): GC_EXPLICIT freed <1K, 44% free 6575K/11651K, paused 2ms+2ms
+D/MonitorCw880( 2795): currentRemoteHost is null ,continue
+D/MonitorCw880( 2795): currentRemoteHost is null ,continue
+D/VAFCheck( 3081): =====>Init Thread 1
+D/VAFSvc  ( 1685): onCreate Thread 1
+D/VAFSvc  ( 1685): onBind Thread 1
+D/VAFCheck( 3081): <=====Init Thread 1
+D/StartService( 3081): =====> onStart
+D/StartService( 3081): <===== onStart
+D/VAFCheck( 3081): =====>onServiceConnected Thread 1
+D/VAFCheck( 3081): <=====onServiceConnected
+D/MonitorCw880( 2795): currentRemoteHost is null ,continue
+D/MonitorCw880( 2795): currentRemoteHost is null ,continue
+D/MonitorCw880( 2795): currentRemoteHost is null ,continue
+D/MonitorCw880( 2795): currentRemoteHost is null ,continue
+D/MonitorCw880( 2795): currentRemoteHost is null ,continue
+D/MonitorCw880( 2795): currentRemoteHost is null ,continue
+D/MonitorCw880( 2795): currentRemoteHost is null ,continue
+V/NetFirmwareService( 1367): Network is connected!
+V/NetFirmwareService( 1367): mServicePath--->http://update.feifeikan.com/Fbox
+I/NetFirmwareService( 1367): mHwvStr--->002101
+I/NetFirmwareService( 1367): mSwv--->211311
+I/FileUtils( 1367): mkFilePath--->/data/data/com.coship.netfirmware/versioncode.dat
+D/StrictMode( 1367): StrictMode policy violation: android.os.StrictMode$StrictModeNetworkViolation: policy=23 violation=4
+D/StrictMode( 1367):    at android.os.StrictMode$AndroidBlockGuardPolicy.onNetwork(StrictMode.java:1105)
+D/StrictMode( 1367):    at libcore.io.BlockGuardOs.recvfrom(BlockGuardOs.java:163)
+D/StrictMode( 1367):    at libcore.io.IoBridge.recvfrom(IoBridge.java:503)
+D/StrictMode( 1367):    at java.net.PlainSocketImpl.read(PlainSocketImpl.java:488)
+D/StrictMode( 1367):    at java.net.PlainSocketImpl.access$000(PlainSocketImpl.java:46)
+D/StrictMode( 1367):    at java.net.PlainSocketImpl$PlainSocketInputStream.read(PlainSocketImpl.java:240)
+D/StrictMode( 1367):    at java.io.BufferedInputStream.fillbuf(BufferedInputStream.java:168)
+D/StrictMode( 1367):    at java.io.BufferedInputStream.read(BufferedInputStream.java:227)
+D/StrictMode( 1367):    at libcore.net.http.HttpConnection.isStale(HttpConnection.java:256)
+D/StrictMode( 1367):    at libcore.net.http.HttpConnectionPool.get(HttpConnectionPool.java:71)
+D/StrictMode( 1367):    at libcore.net.http.HttpConnection.connect(HttpConnection.java:128)
+D/StrictMode( 1367):    at libcore.net.http.HttpEngine.openSocketConnection(HttpEngine.java:308)
+D/StrictMode( 1367):    at libcore.net.http.HttpEngine.connect(HttpEngine.java:303)
+D/StrictMode( 1367):    at libcore.net.http.HttpEngine.sendSocketRequest(HttpEngine.java:282)
+D/StrictMode( 1367):    at libcore.net.http.HttpEngine.sendRequest(HttpEngine.java:232)
+D/StrictMode( 1367):    at libcore.net.http.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:273)
+D/StrictMode( 1367):    at libcore.net.http.HttpURLConnectionImpl.getInputStream(HttpURLConnectionImpl.java:168)
+D/StrictMode( 1367):    at com.coship.netfirmware.downloads.HttpDownLoad.getInputStream(HttpDownLoad.java:66)
+D/StrictMode( 1367):    at com.coship.netfirmware.downloads.HttpDownLoad.downfile(HttpDownLoad.java:43)
+D/StrictMode( 1367):    at com.coship.netfirmware.NetFirmwareService.downFileFormService(NetFirmwareService.java:1504)
+D/StrictMode( 1367):    at com.coship.netfirmware.NetFirmwareService.access$4800(NetFirmwareService.java:69)
+D/StrictMode( 1367):    at com.coship.netfirmware.NetFirmwareService$6.run(NetFirmwareService.java:1147)
+D/StrictMode( 1367): StrictMode policy violation: android.os.StrictMode$StrictModeNetworkViolation: policy=23 violation=4
+D/StrictMode( 1367):    at android.os.StrictMode$AndroidBlockGuardPolicy.onNetwork(StrictMode.java:1105)
+D/StrictMode( 1367):    at java.net.InetAddress.lookupHostByName(InetAddress.java:391)
+D/StrictMode( 1367):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+D/StrictMode( 1367):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+D/StrictMode( 1367):    at libcore.net.http.HttpConnection.<init>(HttpConnection.java:71)
+D/StrictMode( 1367):    at libcore.net.http.HttpConnection.<init>(HttpConnection.java:50)
+D/StrictMode( 1367):    at libcore.net.http.HttpConnection$Address.connect(HttpConnection.java:351)
+D/StrictMode( 1367):    at libcore.net.http.HttpConnectionPool.get(HttpConnectionPool.java:86)
+D/StrictMode( 1367):    at libcore.net.http.HttpConnection.connect(HttpConnection.java:128)
+D/StrictMode( 1367):    at libcore.net.http.HttpEngine.openSocketConnection(HttpEngine.java:308)
+D/StrictMode( 1367):    at libcore.net.http.HttpEngine.connect(HttpEngine.java:303)
+D/StrictMode( 1367):    at libcore.net.http.HttpEngine.sendSocketRequest(HttpEngine.java:282)
+D/StrictMode( 1367):    at libcore.net.http.HttpEngine.sendRequest(HttpEngine.java:232)
+D/StrictMode( 1367):    at libcore.net.http.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:273)
+D/StrictMode( 1367):    at libcore.net.http.HttpURLConnectionImpl.getInputStream(HttpURLConnectionImpl.java:168)
+D/StrictMode( 1367):    at com.coship.netfirmware.downloads.HttpDownLoad.getInputStream(HttpDownLoad.java:66)
+D/StrictMode( 1367):    at com.coship.netfirmware.downloads.HttpDownLoad.downfile(HttpDownLoad.java:43)
+D/StrictMode( 1367):    at com.coship.netfirmware.NetFirmwareService.downFileFormService(NetFirmwareService.java:1504)
+D/StrictMode( 1367):    at com.coship.netfirmware.NetFirmwareService.access$4800(NetFirmwareService.java:69)
+D/StrictMode( 1367):    at com.coship.netfirmware.NetFirmwareService$6.run(NetFirmwareService.java:1147)
+D/StrictMode( 1367): StrictMode policy violation: android.os.StrictMode$StrictModeNetworkViolation: policy=23 violation=4
+D/StrictMode( 1367):    at android.os.StrictMode$AndroidBlockGuardPolicy.onNetwork(StrictMode.java:1105)
+D/StrictMode( 1367):    at libcore.io.BlockGuardOs.connect(BlockGuardOs.java:84)
+D/StrictMode( 1367):    at libcore.io.IoBridge.connectErrno(IoBridge.java:127)
+D/StrictMode( 1367):    at libcore.io.IoBridge.connect(IoBridge.java:112)
+D/StrictMode( 1367):    at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:192)
+D/StrictMode( 1367):    at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:459)
+D/StrictMode( 1367):    at java.net.Socket.connect(Socket.java:842)
+D/StrictMode( 1367):    at libcore.net.http.HttpConnection.<init>(HttpConnection.java:77)
+D/StrictMode( 1367):    at libcore.net.http.HttpConnection.<init>(HttpConnection.java:50)
+D/StrictMode( 1367):    at libcore.net.http.HttpConnection$Address.connect(HttpConnection.java:351)
+D/StrictMode( 1367):    at libcore.net.http.HttpConnectionPool.get(HttpConnectionPool.java:86)
+D/StrictMode( 1367):    at libcore.net.http.HttpConnection.connect(HttpConnection.java:128)
+D/StrictMode( 1367):    at libcore.net.http.HttpEngine.openSocketConnection(HttpEngine.java:308)
+D/StrictMode( 1367):    at libcore.net.http.HttpEngine.connect(HttpEngine.java:303)
+D/StrictMode( 1367):    at libcore.net.http.HttpEngine.sendSocketRequest(HttpEngine.java:282)
+D/StrictMode( 1367):    at libcore.net.http.HttpEngine.sendRequest(HttpEngine.java:232)
+D/StrictMode( 1367):    at libcore.net.http.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:273)
+D/StrictMode( 1367):    at libcore.net.http.HttpURLConnectionImpl.getInputStream(HttpURLConnectionImpl.java:168)
+D/StrictMode( 1367):    at com.coship.netfirmware.downloads.HttpDownLoad.getInputStream(HttpDownLoad.java:66)
+D/StrictMode( 1367):    at com.coship.netfirmware.downloads.HttpDownLoad.downfile(HttpDownLoad.java:43)
+D/StrictMode( 1367):    at com.coship.netfirmware.NetFirmwareService.downFileFormService(NetFirmwareService.java:1504)
+D/StrictMode( 1367):    at com.coship.netfirmware.NetFirmwareService.access$4800(NetFirmwareService.java:69)
+D/StrictMode( 1367):    at com.coship.netfirmware.NetFirmwareService$6.run(NetFirmwareService.java:1147)
+D/StrictMode( 1367): StrictMode policy violation: android.os.StrictMode$StrictModeNetworkViolation: policy=23 violation=4
+D/StrictMode( 1367):    at android.os.StrictMode$AndroidBlockGuardPolicy.onNetwork(StrictMode.java:1105)
+D/StrictMode( 1367):    at libcore.io.BlockGuardOs.recvfrom(BlockGuardOs.java:163)
+D/StrictMode( 1367):    at libcore.io.IoBridge.recvfrom(IoBridge.java:503)
+D/StrictMode( 1367):    at java.net.PlainSocketImpl.read(PlainSocketImpl.java:488)
+D/StrictMode( 1367):    at java.net.PlainSocketImpl.access$000(PlainSocketImpl.java:46)
+D/StrictMode( 1367):    at java.net.PlainSocketImpl$PlainSocketInputStream.read(PlainSocketImpl.java:240)
+D/StrictMode( 1367):    at java.io.InputStream.read(InputStream.java:163)
+D/StrictMode( 1367):    at java.io.BufferedInputStream.fillbuf(BufferedInputStream.java:142)
+D/StrictMode( 1367):    at java.io.BufferedInputStream.read(BufferedInputStream.java:227)
+D/StrictMode( 1367):    at libcore.io.Streams.readAsciiLine(Streams.java:201)
+D/StrictMode( 1367):    at libcore.net.http.HttpEngine.readResponseHeaders(HttpEngine.java:544)
+D/StrictMode( 1367):    at libcore.net.http.HttpEngine.readResponse(HttpEngine.java:784)
+D/StrictMode( 1367):    at libcore.net.http.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:274)
+D/StrictMode( 1367):    at libcore.net.http.HttpURLConnectionImpl.getInputStream(HttpURLConnectionImpl.java:168)
+D/StrictMode( 1367):    at com.coship.netfirmware.downloads.HttpDownLoad.getInputStream(HttpDownLoad.java:66)
+D/StrictMode( 1367):    at com.coship.netfirmware.downloads.HttpDownLoad.downfile(HttpDownLoad.java:43)
+D/StrictMode( 1367):    at com.coship.netfirmware.NetFirmwareService.downFileFormService(NetFirmwareService.java:1504)
+D/StrictMode( 1367):    at com.coship.netfirmware.NetFirmwareService.access$4800(NetFirmwareService.java:69)
+D/StrictMode( 1367):    at com.coship.netfirmware.NetFirmwareService$6.run(NetFirmwareService.java:1147)
+D/StrictMode( 1367): StrictMode policy violation: android.os.StrictMode$StrictModeNetworkViolation: policy=23 violation=4
+D/StrictMode( 1367):    at android.os.StrictMode$AndroidBlockGuardPolicy.onNetwork(StrictMode.java:1105)
+D/StrictMode( 1367):    at libcore.io.BlockGuardOs.recvfrom(BlockGuardOs.java:163)
+D/StrictMode( 1367):    at libcore.io.IoBridge.recvfrom(IoBridge.java:503)
+D/StrictMode( 1367):    at java.net.PlainSocketImpl.read(PlainSocketImpl.java:488)
+D/StrictMode( 1367):    at java.net.PlainSocketImpl.access$000(PlainSocketImpl.java:46)
+D/StrictMode( 1367):    at java.net.PlainSocketImpl$PlainSocketInputStream.read(PlainSocketImpl.java:240)
+D/StrictMode( 1367):    at java.io.InputStream.read(InputStream.java:163)
+D/StrictMode( 1367):    at java.io.BufferedInputStream.fillbuf(BufferedInputStream.java:142)
+D/StrictMode( 1367):    at java.io.BufferedInputStream.read(BufferedInputStream.java:227)
+D/StrictMode( 1367):    at libcore.io.Streams.readAsciiLine(Streams.java:201)
+D/StrictMode( 1367):    at libcore.net.http.HttpEngine.readHeaders(HttpEngine.java:587)
+D/StrictMode( 1367):    at libcore.net.http.HttpEngine.readResponseHeaders(HttpEngine.java:545)
+D/StrictMode( 1367):    at libcore.net.http.HttpEngine.readResponse(HttpEngine.java:784)
+D/StrictMode( 1367):    at libcore.net.http.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:274)
+D/StrictMode( 1367):    at libcore.net.http.HttpURLConnectionImpl.getInputStream(HttpURLConnectionImpl.java:168)
+D/StrictMode( 1367):    at com.coship.netfirmware.downloads.HttpDownLoad.getInputStream(HttpDownLoad.java:66)
+D/StrictMode( 1367):    at com.coship.netfirmware.downloads.HttpDownLoad.downfile(HttpDownLoad.java:43)
+D/StrictMode( 1367):    at com.coship.netfirmware.NetFirmwareService.downFileFormService(NetFirmwareService.java:1504)
+D/StrictMode( 1367):    at com.coship.netfirmware.NetFirmwareService.access$4800(NetFirmwareService.java:69)
+D/StrictMode( 1367):    at com.coship.netfirmware.NetFirmwareService$6.run(NetFirmwareService.java:1147)
+I/FileUtils( 1367): mkdirPath--->/data/data/com.coship.netfirmware/
+I/FileUtils( 1367): createNewFilePath--->/data/data/com.coship.netfirmware/versioncode.dat
+I/FileUtils( 1367): file--->versioncode.dat
+D/StrictMode( 1367): StrictMode policy violation: android.os.StrictMode$StrictModeDiskReadViolation: policy=23 violation=2
+D/StrictMode( 1367):    at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1089)
+D/StrictMode( 1367):    at libcore.io.BlockGuardOs.open(BlockGuardOs.java:106)
+D/StrictMode( 1367):    at libcore.io.IoBridge.open(IoBridge.java:390)
+D/StrictMode( 1367):    at java.io.FileOutputStream.<init>(FileOutputStream.java:88)
+D/StrictMode( 1367):    at java.io.FileOutputStream.<init>(FileOutputStream.java:73)
+D/StrictMode( 1367):    at com.coship.netfirmware.downloads.FileUtils.writeToPathFromInput(FileUtils.java:78)
+D/StrictMode( 1367):    at com.coship.netfirmware.downloads.HttpDownLoad.downfile(HttpDownLoad.java:44)
+D/StrictMode( 1367):    at com.coship.netfirmware.NetFirmwareService.downFileFormService(NetFirmwareService.java:1504)
+D/StrictMode( 1367):    at com.coship.netfirmware.NetFirmwareService.access$4800(NetFirmwareService.java:69)
+D/StrictMode( 1367):    at com.coship.netfirmware.NetFirmwareService$6.run(NetFirmwareService.java:1147)
+D/StrictMode( 1367): StrictMode policy violation: android.os.StrictMode$StrictModeDiskWriteViolation: policy=23 violation=1
+D/StrictMode( 1367):    at android.os.StrictMode$AndroidBlockGuardPolicy.onWriteToDisk(StrictMode.java:1063)
+D/StrictMode( 1367):    at libcore.io.BlockGuardOs.write(BlockGuardOs.java:190)
+D/StrictMode( 1367):    at libcore.io.IoBridge.write(IoBridge.java:447)
+D/StrictMode( 1367):    at java.io.FileOutputStream.write(FileOutputStream.java:187)
+D/StrictMode( 1367):    at java.io.OutputStream.write(OutputStream.java:82)
+D/StrictMode( 1367):    at com.coship.netfirmware.downloads.FileUtils.writeToPathFromInput(FileUtils.java:81)
+D/StrictMode( 1367):    at com.coship.netfirmware.downloads.HttpDownLoad.downfile(HttpDownLoad.java:44)
+D/StrictMode( 1367):    at com.coship.netfirmware.NetFirmwareService.downFileFormService(NetFirmwareService.java:1504)
+D/StrictMode( 1367):    at com.coship.netfirmware.NetFirmwareService.access$4800(NetFirmwareService.java:69)
+D/StrictMode( 1367):    at com.coship.netfirmware.NetFirmwareService$6.run(NetFirmwareService.java:1147)
+I/HttpDownLoad( 1367): resultFile--->/data/data/com.coship.netfirmware/versioncode.dat
+D/StrictMode( 1367): StrictMode policy violation: android.os.StrictMode$StrictModeDiskReadViolation: policy=23 violation=2
+D/StrictMode( 1367):    at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1089)
+D/StrictMode( 1367):    at libcore.io.BlockGuardOs.open(BlockGuardOs.java:106)
+D/StrictMode( 1367):    at libcore.io.IoBridge.open(IoBridge.java:390)
+D/StrictMode( 1367):    at java.io.FileInputStream.<init>(FileInputStream.java:78)
+D/StrictMode( 1367):    at java.io.FileInputStream.<init>(FileInputStream.java:105)
+D/StrictMode( 1367):    at com.coship.netfirmware.NetFirmwareService.getUpdateInfo(NetFirmwareService.java:1527)
+D/StrictMode( 1367):    at com.coship.netfirmware.NetFirmwareService.downFileFormService(NetFirmwareService.java:1506)
+D/StrictMode( 1367):    at com.coship.netfirmware.NetFirmwareService.access$4800(NetFirmwareService.java:69)
+D/StrictMode( 1367):    at com.coship.netfirmware.NetFirmwareService$6.run(NetFirmwareService.java:1147)
+D/StrictMode( 1367): StrictMode policy violation: android.os.StrictMode$StrictModeDiskReadViolation: policy=23 violation=2
+D/StrictMode( 1367):    at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1089)
+D/StrictMode( 1367):    at libcore.io.BlockGuardOs.read(BlockGuardOs.java:148)
+D/StrictMode( 1367):    at libcore.io.IoBridge.read(IoBridge.java:422)
+D/StrictMode( 1367):    at java.io.FileInputStream.read(FileInputStream.java:179)
+D/StrictMode( 1367):    at java.io.InputStreamReader.read(InputStreamReader.java:244)
+D/StrictMode( 1367):    at java.io.BufferedReader.fillBuf(BufferedReader.java:130)
+D/StrictMode( 1367):    at java.io.BufferedReader.readLine(BufferedReader.java:354)
+D/StrictMode( 1367):    at com.coship.netfirmware.NetFirmwareService.getUpdateInfo(NetFirmwareService.java:1531)
+D/StrictMode( 1367):    at com.coship.netfirmware.NetFirmwareService.downFileFormService(NetFirmwareService.java:1506)
+D/StrictMode( 1367):    at com.coship.netfirmware.NetFirmwareService.access$4800(NetFirmwareService.java:69)
+D/StrictMode( 1367):    at com.coship.netfirmware.NetFirmwareService$6.run(NetFirmwareService.java:1147)
+D/StrictMode( 1367): StrictMode policy violation: android.os.StrictMode$StrictModeDiskReadViolation: policy=23 violation=2
+D/StrictMode( 1367):    at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1089)
+D/StrictMode( 1367):    at libcore.io.BlockGuardOs.read(BlockGuardOs.java:148)
+D/StrictMode( 1367):    at libcore.io.IoBridge.read(IoBridge.java:422)
+D/StrictMode( 1367):    at java.io.FileInputStream.read(FileInputStream.java:179)
+D/StrictMode( 1367):    at java.io.InputStreamReader.read(InputStreamReader.java:244)
+D/StrictMode( 1367):    at java.io.BufferedReader.fillBuf(BufferedReader.java:130)
+D/StrictMode( 1367):    at java.io.BufferedReader.readLine(BufferedReader.java:390)
+D/StrictMode( 1367):    at com.coship.netfirmware.NetFirmwareService.getUpdateInfo(NetFirmwareService.java:1551)
+D/StrictMode( 1367):    at com.coship.netfirmware.NetFirmwareService.downFileFormService(NetFirmwareService.java:1506)
+D/StrictMode( 1367):    at com.coship.netfirmware.NetFirmwareService.access$4800(NetFirmwareService.java:69)
+D/StrictMode( 1367):    at com.coship.netfirmware.NetFirmwareService$6.run(NetFirmwareService.java:1147)
+D/StrictMode( 1367): StrictMode policy violation: android.os.StrictMode$StrictModeDiskReadViolation: policy=23 violation=2
+D/StrictMode( 1367):    at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1089)
+D/StrictMode( 1367):    at libcore.io.BlockGuardOs.read(BlockGuardOs.java:148)
+D/StrictMode( 1367):    at libcore.io.IoBridge.read(IoBridge.java:422)
+D/StrictMode( 1367):    at java.io.FileInputStream.read(FileInputStream.java:179)
+D/StrictMode( 1367):    at java.io.InputStreamReader.read(InputStreamReader.java:244)
+D/StrictMode( 1367):    at java.io.BufferedReader.fillBuf(BufferedReader.java:130)
+D/StrictMode( 1367):    at java.io.BufferedReader.readLine(BufferedReader.java:354)
+D/StrictMode( 1367):    at com.coship.netfirmware.NetFirmwareService.getUpdateInfo(NetFirmwareService.java:1551)
+D/StrictMode( 1367):    at com.coship.netfirmware.NetFirmwareService.downFileFormService(NetFirmwareService.java:1506)
+D/StrictMode( 1367):    at com.coship.netfirmware.NetFirmwareService.access$4800(NetFirmwareService.java:69)
+D/StrictMode( 1367):    at com.coship.netfirmware.NetFirmwareService$6.run(NetFirmwareService.java:1147)
+I/NetFirmwareService( 1367): v--->211311
+I/NetFirmwareService( 1367): q--->00001
+I/NetFirmwareService( 1367): c--->00001
+I/FileUtils( 1367): mkFilePath--->/data/data/com.coship.netfirmware/description_211311.dat
+D/StrictMode( 1367): StrictMode policy violation: android.os.StrictMode$StrictModeNetworkViolation: policy=23 violation=4
+D/StrictMode( 1367):    at android.os.StrictMode$AndroidBlockGuardPolicy.onNetwork(StrictMode.java:1105)
+D/StrictMode( 1367):    at libcore.io.BlockGuardOs.recvfrom(BlockGuardOs.java:163)
+D/StrictMode( 1367):    at libcore.io.IoBridge.recvfrom(IoBridge.java:503)
+D/StrictMode( 1367):    at java.net.PlainSocketImpl.read(PlainSocketImpl.java:488)
+D/StrictMode( 1367):    at java.net.PlainSocketImpl.access$000(PlainSocketImpl.java:46)
+D/StrictMode( 1367):    at java.net.PlainSocketImpl$PlainSocketInputStream.read(PlainSocketImpl.java:240)
+D/StrictMode( 1367):    at java.io.BufferedInputStream.fillbuf(BufferedInputStream.java:168)
+D/StrictMode( 1367):    at java.io.BufferedInputStream.read(BufferedInputStream.java:227)
+D/StrictMode( 1367):    at libcore.net.http.HttpConnection.isStale(HttpConnection.java:256)
+D/StrictMode( 1367):    at libcore.net.http.HttpConnectionPool.get(HttpConnectionPool.java:71)
+D/StrictMode( 1367):    at libcore.net.http.HttpConnection.connect(HttpConnection.java:128)
+D/StrictMode( 1367):    at libcore.net.http.HttpEngine.openSocketConnection(HttpEngine.java:308)
+D/StrictMode( 1367):    at libcore.net.http.HttpEngine.connect(HttpEngine.java:303)
+D/StrictMode( 1367):    at libcore.net.http.HttpEngine.sendSocketRequest(HttpEngine.java:282)
+D/StrictMode( 1367):    at libcore.net.http.HttpEngine.sendRequest(HttpEngine.java:232)
+D/StrictMode( 1367):    at libcore.net.http.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:273)
+D/StrictMode( 1367):    at libcore.net.http.HttpURLConnectionImpl.getInputStream(HttpURLConnectionImpl.java:168)
+D/StrictMode( 1367):    at com.coship.netfirmware.downloads.HttpDownLoad.getInputStream(HttpDownLoad.java:66)
+D/StrictMode( 1367):    at com.coship.netfirmware.downloads.HttpDownLoad.downfile(HttpDownLoad.java:43)
+D/StrictMode( 1367):    at com.coship.netfirmware.NetFirmwareService.downFileFormService(NetFirmwareService.java:1511)
+D/StrictMode( 1367):    at com.coship.netfirmware.NetFirmwareService.access$4800(NetFirmwareService.java:69)
+D/StrictMode( 1367):    at com.coship.netfirmware.NetFirmwareService$6.run(NetFirmwareService.java:1147)
+D/StrictMode( 1367): StrictMode policy violation: android.os.StrictMode$StrictModeNetworkViolation: policy=23 violation=4
+D/StrictMode( 1367):    at android.os.StrictMode$AndroidBlockGuardPolicy.onNetwork(StrictMode.java:1105)
+D/StrictMode( 1367):    at libcore.io.BlockGuardOs.recvfrom(BlockGuardOs.java:163)
+D/StrictMode( 1367):    at libcore.io.IoBridge.recvfrom(IoBridge.java:503)
+D/StrictMode( 1367):    at java.net.PlainSocketImpl.read(PlainSocketImpl.java:488)
+D/StrictMode( 1367):    at java.net.PlainSocketImpl.access$000(PlainSocketImpl.java:46)
+D/StrictMode( 1367):    at java.net.PlainSocketImpl$PlainSocketInputStream.read(PlainSocketImpl.java:240)
+D/StrictMode( 1367):    at java.io.BufferedInputStream.fillbuf(BufferedInputStream.java:168)
+D/StrictMode( 1367):    at java.io.BufferedInputStream.read(BufferedInputStream.java:227)
+D/StrictMode( 1367):    at libcore.io.Streams.readAsciiLine(Streams.java:201)
+D/StrictMode( 1367):    at libcore.net.http.HttpEngine.readResponseHeaders(HttpEngine.java:544)
+D/StrictMode( 1367):    at libcore.net.http.HttpEngine.readResponse(HttpEngine.java:784)
+D/StrictMode( 1367):    at libcore.net.http.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:274)
+D/StrictMode( 1367):    at libcore.net.http.HttpURLConnectionImpl.getInputStream(HttpURLConnectionImpl.java:168)
+D/StrictMode( 1367):    at com.coship.netfirmware.downloads.HttpDownLoad.getInputStream(HttpDownLoad.java:66)
+D/StrictMode( 1367):    at com.coship.netfirmware.downloads.HttpDownLoad.downfile(HttpDownLoad.java:43)
+D/StrictMode( 1367):    at com.coship.netfirmware.NetFirmwareService.downFileFormService(NetFirmwareService.java:1511)
+D/StrictMode( 1367):    at com.coship.netfirmware.NetFirmwareService.access$4800(NetFirmwareService.java:69)
+D/StrictMode( 1367):    at com.coship.netfirmware.NetFirmwareService$6.run(NetFirmwareService.java:1147)
+D/StrictMode( 1367): StrictMode policy violation: android.os.StrictMode$StrictModeNetworkViolation: policy=23 violation=4
+D/StrictMode( 1367):    at android.os.StrictMode$AndroidBlockGuardPolicy.onNetwork(StrictMode.java:1105)
+D/StrictMode( 1367):    at libcore.io.BlockGuardOs.recvfrom(BlockGuardOs.java:163)
+D/StrictMode( 1367):    at libcore.io.IoBridge.recvfrom(IoBridge.java:503)
+D/StrictMode( 1367):    at java.net.PlainSocketImpl.read(PlainSocketImpl.java:488)
+D/StrictMode( 1367):    at java.net.PlainSocketImpl.access$000(PlainSocketImpl.java:46)
+D/StrictMode( 1367):    at java.net.PlainSocketImpl$PlainSocketInputStream.read(PlainSocketImpl.java:240)
+D/StrictMode( 1367):    at java.io.InputStream.read(InputStream.java:163)
+D/StrictMode( 1367):    at java.io.BufferedInputStream.fillbuf(BufferedInputStream.java:142)
+D/StrictMode( 1367):    at java.io.BufferedInputStream.read(BufferedInputStream.java:227)
+D/StrictMode( 1367):    at libcore.io.Streams.readAsciiLine(Streams.java:201)
+D/StrictMode( 1367):    at libcore.net.http.HttpEngine.readHeaders(HttpEngine.java:587)
+D/StrictMode( 1367):    at libcore.net.http.HttpEngine.readResponseHeaders(HttpEngine.java:545)
+D/StrictMode( 1367):    at libcore.net.http.HttpEngine.readResponse(HttpEngine.java:784)
+D/StrictMode( 1367):    at libcore.net.http.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:274)
+D/StrictMode( 1367):    at libcore.net.http.HttpURLConnectionImpl.getInputStream(HttpURLConnectionImpl.java:168)
+D/StrictMode( 1367):    at com.coship.netfirmware.downloads.HttpDownLoad.getInputStream(HttpDownLoad.java:66)
+D/StrictMode( 1367):    at com.coship.netfirmware.downloads.HttpDownLoad.downfile(HttpDownLoad.java:43)
+D/StrictMode( 1367):    at com.coship.netfirmware.NetFirmwareService.downFileFormService(NetFirmwareService.java:1511)
+D/StrictMode( 1367):    at com.coship.netfirmware.NetFirmwareService.access$4800(NetFirmwareService.java:69)
+D/StrictMode( 1367):    at com.coship.netfirmware.NetFirmwareService$6.run(NetFirmwareService.java:1147)
+I/FileUtils( 1367): mkdirPath--->/data/data/com.coship.netfirmware/
+I/FileUtils( 1367): createNewFilePath--->/data/data/com.coship.netfirmware/description_211311.dat
+I/FileUtils( 1367): file--->description_211311.dat
+D/StrictMode( 1367): StrictMode policy violation: android.os.StrictMode$StrictModeDiskReadViolation: policy=23 violation=2
+D/StrictMode( 1367):    at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1089)
+D/StrictMode( 1367):    at libcore.io.BlockGuardOs.open(BlockGuardOs.java:106)
+D/StrictMode( 1367):    at libcore.io.IoBridge.open(IoBridge.java:390)
+D/StrictMode( 1367):    at java.io.FileOutputStream.<init>(FileOutputStream.java:88)
+D/StrictMode( 1367):    at java.io.FileOutputStream.<init>(FileOutputStream.java:73)
+D/StrictMode( 1367):    at com.coship.netfirmware.downloads.FileUtils.writeToPathFromInput(FileUtils.java:78)
+D/StrictMode( 1367):    at com.coship.netfirmware.downloads.HttpDownLoad.downfile(HttpDownLoad.java:44)
+D/StrictMode( 1367):    at com.coship.netfirmware.NetFirmwareService.downFileFormService(NetFirmwareService.java:1511)
+D/StrictMode( 1367):    at com.coship.netfirmware.NetFirmwareService.access$4800(NetFirmwareService.java:69)
+D/StrictMode( 1367):    at com.coship.netfirmware.NetFirmwareService$6.run(NetFirmwareService.java:1147)
+D/StrictMode( 1367): StrictMode policy violation: android.os.StrictMode$StrictModeNetworkViolation: policy=23 violation=4
+D/StrictMode( 1367):    at android.os.StrictMode$AndroidBlockGuardPolicy.onNetwork(StrictMode.java:1105)
+D/StrictMode( 1367):    at libcore.io.BlockGuardOs.recvfrom(BlockGuardOs.java:163)
+D/StrictMode( 1367):    at libcore.io.IoBridge.recvfrom(IoBridge.java:503)
+D/StrictMode( 1367):    at java.net.PlainSocketImpl.read(PlainSocketImpl.java:488)
+D/StrictMode( 1367):    at java.net.PlainSocketImpl.access$000(PlainSocketImpl.java:46)
+D/StrictMode( 1367):    at java.net.PlainSocketImpl$PlainSocketInputStream.read(PlainSocketImpl.java:240)
+D/StrictMode( 1367):    at java.io.InputStream.read(InputStream.java:163)
+D/StrictMode( 1367):    at java.io.BufferedInputStream.fillbuf(BufferedInputStream.java:142)
+D/StrictMode( 1367):    at java.io.BufferedInputStream.read(BufferedInputStream.java:309)
+D/StrictMode( 1367):    at libcore.net.http.FixedLengthInputStream.read(FixedLengthInputStream.java:45)
+D/StrictMode( 1367):    at java.io.InputStream.read(InputStream.java:163)
+D/StrictMode( 1367):    at com.coship.netfirmware.downloads.FileUtils.writeToPathFromInput(FileUtils.java:80)
+D/StrictMode( 1367):    at com.coship.netfirmware.downloads.HttpDownLoad.downfile(HttpDownLoad.java:44)
+D/StrictMode( 1367):    at com.coship.netfirmware.NetFirmwareService.downFileFormService(NetFirmwareService.java:1511)
+D/StrictMode( 1367):    at com.coship.netfirmware.NetFirmwareService.access$4800(NetFirmwareService.java:69)
+D/StrictMode( 1367):    at com.coship.netfirmware.NetFirmwareService$6.run(NetFirmwareService.java:1147)
+D/StrictMode( 1367): StrictMode policy violation: android.os.StrictMode$StrictModeDiskWriteViolation: policy=23 violation=1
+D/StrictMode( 1367):    at android.os.StrictMode$AndroidBlockGuardPolicy.onWriteToDisk(StrictMode.java:1063)
+D/StrictMode( 1367):    at libcore.io.BlockGuardOs.write(BlockGuardOs.java:190)
+D/StrictMode( 1367):    at libcore.io.IoBridge.write(IoBridge.java:447)
+D/StrictMode( 1367):    at java.io.FileOutputStream.write(FileOutputStream.java:187)
+D/StrictMode( 1367):    at java.io.OutputStream.write(OutputStream.java:82)
+D/StrictMode( 1367):    at com.coship.netfirmware.downloads.FileUtils.writeToPathFromInput(FileUtils.java:81)
+D/StrictMode( 1367):    at com.coship.netfirmware.downloads.HttpDownLoad.downfile(HttpDownLoad.java:44)
+D/StrictMode( 1367):    at com.coship.netfirmware.NetFirmwareService.downFileFormService(NetFirmwareService.java:1511)
+D/StrictMode( 1367):    at com.coship.netfirmware.NetFirmwareService.access$4800(NetFirmwareService.java:69)
+D/StrictMode( 1367):    at com.coship.netfirmware.NetFirmwareService$6.run(NetFirmwareService.java:1147)
+I/HttpDownLoad( 1367): resultFile--->/data/data/com.coship.netfirmware/description_211311.dat
+D/StrictMode( 1367): StrictMode policy violation: android.os.StrictMode$StrictModeDiskReadViolation: policy=23 violation=2
+D/StrictMode( 1367):    at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1089)
+D/StrictMode( 1367):    at libcore.io.BlockGuardOs.open(BlockGuardOs.java:106)
+D/StrictMode( 1367):    at libcore.io.IoBridge.open(IoBridge.java:390)
+D/StrictMode( 1367):    at java.io.FileInputStream.<init>(FileInputStream.java:78)
+D/StrictMode( 1367):    at java.io.FileInputStream.<init>(FileInputStream.java:105)
+D/StrictMode( 1367):    at com.coship.netfirmware.NetFirmwareService.getUpdateInfo(NetFirmwareService.java:1527)
+D/StrictMode( 1367):    at com.coship.netfirmware.NetFirmwareService.downFileFormService(NetFirmwareService.java:1512)
+D/StrictMode( 1367):    at com.coship.netfirmware.NetFirmwareService.access$4800(NetFirmwareService.java:69)
+D/StrictMode( 1367):    at com.coship.netfirmware.NetFirmwareService$6.run(NetFirmwareService.java:1147)
+D/StrictMode( 1367): StrictMode policy violation: android.os.StrictMode$StrictModeDiskReadViolation: policy=23 violation=2
+D/StrictMode( 1367):    at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1089)
+D/StrictMode( 1367):    at libcore.io.BlockGuardOs.read(BlockGuardOs.java:148)
+D/StrictMode( 1367):    at libcore.io.IoBridge.read(IoBridge.java:422)
+D/StrictMode( 1367):    at java.io.FileInputStream.read(FileInputStream.java:179)
+D/StrictMode( 1367):    at java.io.InputStreamReader.read(InputStreamReader.java:244)
+D/StrictMode( 1367):    at java.io.BufferedReader.fillBuf(BufferedReader.java:130)
+D/StrictMode( 1367):    at java.io.BufferedReader.readLine(BufferedReader.java:354)
+D/StrictMode( 1367):    at com.coship.netfirmware.NetFirmwareService.getUpdateInfo(NetFirmwareService.java:1531)
+D/StrictMode( 1367):    at com.coship.netfirmware.NetFirmwareService.downFileFormService(NetFirmwareService.java:1512)
+D/StrictMode( 1367):    at com.coship.netfirmware.NetFirmwareService.access$4800(NetFirmwareService.java:69)
+D/StrictMode( 1367):    at com.coship.netfirmware.NetFirmwareService$6.run(NetFirmwareService.java:1147)
+D/StrictMode( 1367): StrictMode policy violation: android.os.StrictMode$StrictModeDiskReadViolation: policy=23 violation=2
+D/StrictMode( 1367):    at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1089)
+D/StrictMode( 1367):    at libcore.io.BlockGuardOs.read(BlockGuardOs.java:148)
+D/StrictMode( 1367):    at libcore.io.IoBridge.read(IoBridge.java:422)
+D/StrictMode( 1367):    at java.io.FileInputStream.read(FileInputStream.java:179)
+D/StrictMode( 1367):    at java.io.InputStreamReader.read(InputStreamReader.java:244)
+D/StrictMode( 1367):    at java.io.BufferedReader.fillBuf(BufferedReader.java:130)
+D/StrictMode( 1367):    at java.io.BufferedReader.readLine(BufferedReader.java:390)
+D/StrictMode( 1367):    at com.coship.netfirmware.NetFirmwareService.getUpdateInfo(NetFirmwareService.java:1551)
+D/StrictMode( 1367):    at com.coship.netfirmware.NetFirmwareService.downFileFormService(NetFirmwareService.java:1512)
+D/StrictMode( 1367):    at com.coship.netfirmware.NetFirmwareService.access$4800(NetFirmwareService.java:69)
+D/StrictMode( 1367):    at com.coship.netfirmware.NetFirmwareService$6.run(NetFirmwareService.java:1147)
+D/StrictMode( 1367): StrictMode policy violation: android.os.StrictMode$StrictModeDiskReadViolation: policy=23 violation=2
+D/StrictMode( 1367):    at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1089)
+D/StrictMode( 1367):    at libcore.io.BlockGuardOs.read(BlockGuardOs.java:148)
+D/StrictMode( 1367):    at libcore.io.IoBridge.read(IoBridge.java:422)
+D/StrictMode( 1367):    at java.io.FileInputStream.read(FileInputStream.java:179)
+D/StrictMode( 1367):    at java.io.InputStreamReader.read(InputStreamReader.java:244)
+D/StrictMode( 1367):    at java.io.BufferedReader.fillBuf(BufferedReader.java:130)
+D/StrictMode( 1367):    at java.io.BufferedReader.readLine(BufferedReader.java:354)
+D/StrictMode( 1367):    at com.coship.netfirmware.NetFirmwareService.getUpdateInfo(NetFirmwareService.java:1535)
+D/StrictMode( 1367):    at com.coship.netfirmware.NetFirmwareService.downFileFormService(NetFirmwareService.java:1512)
+D/StrictMode( 1367):    at com.coship.netfirmware.NetFirmwareService.access$4800(NetFirmwareService.java:69)
+D/StrictMode( 1367):    at com.coship.netfirmware.NetFirmwareService$6.run(NetFirmwareService.java:1147)
+I/NetFirmwareService( 1367): packageSize--->203150867
+I/NetFirmwareService( 1367): MD5--->438176851d193bbcdbe46cf48323e048
+V/NetFirmwareService( 1367): MSG_LOAD_DAT_STATUS_mNetUpdate--->true
+D/NetFirmwareService( 1367): Network Connection Success!
+D/NetFirmwareService( 1367): Upgrade File Load Success!
+D/NetFirmwareService( 1367): serverURL = www.stp_firmware.coship.com
+D/dalvikvm( 1367): GC_CONCURRENT freed 1864K, 76% free 2396K/9795K, paused 2ms+2ms
+D/NetFirmwareService( 1367): CheckUpgradeTimer mCheckTime = 5
+D/NetFirmwareService( 1367): startTimer
+D/NetFirmwareService( 1367): removeTimer
+D/MonitorCw880( 2795): currentRemoteHost is null ,continue
+D/NetFirmwareService( 1367): MSG_CREATE_CHECK_THREAD
+D/NetFirmwareService( 1367): MSG_CHECK_UPGRADE
+D/NetFirmwareService( 1367): Download URL = http://update.feifeikan.com/Fbox/002101/versioncode.dat
+D/NetFirmwareService( 1367): Save file in path = /data/data/com.coship.netfirmware/versionCode.dat
+D/NetFirmwareService( 1367): Set download thread number = 2
+D/DownloadTask( 1367): server accept range
+D/dalvikvm( 1367): GC_CONCURRENT freed 607K, 77% free 2346K/9795K, paused 1ms+2ms
+D/NetFirmwareService( 1367): DownloadConstants.TASK_STATUS_RUNNING
+D/dalvikvm( 1367): GC_FOR_ALLOC freed 66K, 72% free 2803K/9795K, paused 23ms
+D/NetFirmwareService( 1367): ret--->true
+D/dalvikvm( 1367): GC_CONCURRENT freed <1K, 66% free 3334K/9795K, paused 3ms+3ms
+D/NetFirmwareService( 1367): MSG_VER_CODE_STATUS_CHANGE
+D/NetFirmwareService( 1367): MSG_VER_CODE_STATUS_CHANGE
+D/DownloadXpress( 1367): filePart1 final status: 491
+D/DownloadXpress( 1367): filePart0 final status: 491
+W/DownloadTask( 1367): There has a file named /data/data/com.coship.netfirmware/versionCode.dat already
+D/NetFirmwareService( 1367): DownloadConstants.TASK_STATUS_COMPLETED
+D/NetFirmwareService( 1367): MSG_VER_CODE_STATUS_CHANGE
+D/NetFirmwareService( 1367): MSG_CHECK_VERSION_CODE
+D/NetFirmwareService( 1367): checkVersionCode
+D/NetFirmwareService( 1367): analysisVersionCodeData
+I/NetFirmwareService( 1367): mVersionCodeFile--->49
+D/NetFirmwareService( 1367): verCode = 211311
+D/NetFirmwareService( 1367): Description URL = null
+D/NetFirmwareService( 1367): MSG_GET_DESCRIPTION
+D/NetFirmwareService( 1367): Download URL = http://update.feifeikan.com/Fbox/002101/description_211311.dat
+D/NetFirmwareService( 1367): Save file in path = /data/data/com.coship.netfirmware/description.dat
+D/NetFirmwareService( 1367): Set download thread number = 2
+D/MonitorCw880( 2795): currentRemoteHost is null ,continue
+D/DownloadTask( 1367): server accept range
+D/dalvikvm( 1367): GC_CONCURRENT freed 1853K, 77% free 2333K/9795K, paused 2ms+2ms
+D/dalvikvm( 1367): GC_CONCURRENT freed 54K, 72% free 2795K/9795K, paused 1ms+2ms
+D/NetFirmwareService( 1367): MSG_DESCRIPT_STATUS_CHANGE
+D/NetFirmwareService( 1367): MSG_DESCRIPT_STATUS_CHANGE
+D/dalvikvm(  983): GC_CONCURRENT freed 729K, 64% free 3931K/10691K, paused 2ms+5ms
+D/dalvikvm( 1367): GC_CONCURRENT freed 172K, 67% free 3295K/9795K, paused 2ms+2ms
+D/DownloadXpress( 1367): filePart1 final status: 491
+D/DownloadXpress( 1367): filePart0 final status: 491
+W/DownloadTask( 1367): There has a file named /data/data/com.coship.netfirmware/description.dat already
+D/NetFirmwareService( 1367): DownloadConstants.TASK_STATUS_COMPLETED
+D/NetFirmwareService( 1367): MSG_DESCRIPT_STATUS_CHANGE
+D/NetFirmwareService( 1367): MSG_CHECK_DESCRIPTION
+D/DescriptionInfo( 1367): version=p7373.i13111_2013-03-18
+D/DescriptionInfo( 1367): versionCode=211311
+D/DescriptionInfo( 1367): compatibleDevice=002101
+D/DescriptionInfo( 1367): sn=
+D/DescriptionInfo( 1367): mac=
+D/DescriptionInfo( 1367): updateType=notify
+D/DescriptionInfo( 1367): speed=0
+D/DescriptionInfo( 1367): checkTime=0
+D/DescriptionInfo( 1367): packageSize=203150867
+D/DescriptionInfo( 1367): md5=438176851d193bbcdbe46cf48323e048
+D/DescriptionInfo( 1367): packageUrl=
+D/DescriptionInfo( 1367): version code = 211311
+D/DescriptionInfo( 1367): machine id = 0
+D/DescriptionInfo( 1367): hardware id = 0
+D/DescriptionInfo( 1367): update package size = 203150867
+D/NetFirmwareService( 1367): The description info is valid
+D/NetFirmwareService( 1367): The description version code = 211311
+D/NetFirmwareService( 1367): The description machine ID = 0
+D/NetFirmwareService( 1367): The description hardware ID = 0
+V/NetFirmwareService( 1367): .datNum != PcNum
+D/MonitorCw880( 2795): currentRemoteHost is null ,continue
+D/MonitorCw880( 2795): currentRemoteHost is null ,continue
+D/MonitorCw880( 2795): currentRemoteHost is null ,continue
+D/MonitorCw880( 2795): currentRemoteHost is null ,continue
+I/DVB_main( 2103): [dispatchKeyEvent]  Action:0  keyCode:23
+I/dvb_control( 2103): [onKeyDown]  keyCode��23  Oklist_view.getVisibility():8 Constant.isHidden:false
+I/dvb_control( 2103): [onKeyDown]  Oklist_view show ..........
+E/dvb_control( 2103): [setVisibility] view visibility is same
+E/dvb_control( 2103): [setVisibility] view visibility is same
+E/dvb_control( 2103): [setVisibility] error: view is null
+I/dvb_Dvblist( 2103): ----------dvb_dvbLINE-------
+E/dvb_OTTService( 2103): [findservice] servicetype:HDTV index:0
+I/dvb_OTTService( 2103): [getDvbLocator]  channel name: CCTV-1(高清) num:1 channelResourceCode:10032
+I/DVB_main( 2103): [dispatchKeyEvent]  Action:1  keyCode:23
+I/DVB_main( 2103): [dispatchKeyEvent]  Does not deal with the keyCode
+D/InputEventConsistencyVerifier( 2103): KeyEvent: ACTION_UP but key was not down.
+D/InputEventConsistencyVerifier( 2103):   in com.android.internal.policy.impl.PhoneWindow$DecorView@41856250
+D/InputEventConsistencyVerifier( 2103):   0: sent at 2779584000000, KeyEvent { action=ACTION_UP, keyCode=KEYCODE_ENTER, scanCode=28, metaState=0, flags=0x8, repeatCount=0, eventTime=2779584, downTime=2779424, deviceId=6, source=0x101 }
+D/InputEventConsistencyVerifier( 2103):   -- recent events --
+D/InputEventConsistencyVerifier( 2103):   1: sent at 2706768000000, (unhandled) KeyEvent { action=ACTION_UP, keyCode=KEYCODE_ENTER, scanCode=28, metaState=0, flags=0x80000008, repeatCount=0, eventTime=2706768, downTime=2706344, deviceId=6, source=0x101 }
+D/InputEventConsistencyVerifier( 2103):   2: sent at 2588281000000, (unhandled) KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=4, metaState=0, flags=0x80000008, repeatCount=0, eventTime=2588281, downTime=2588281, deviceId=4, source=0x301 }
+D/InputEventConsistencyVerifier( 2103):   3: sent at 2573322323000, MotionEvent { action=ACTION_UP, id[0]=0, x[0]=1138.1108, y[0]=343.5229, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=2573322, downTime=2573240, deviceId=2, source=0x1002 }
+D/InputEventConsistencyVerifier( 2103):   4: sent at 2573240698000, MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=1138.1108, y[0]=343.5229, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=2573240, downTime=2573240, deviceId=2, source=0x1002 }
+D/InputEventConsistencyVerifier( 2103):   5: sent at 1717515768000, MotionEvent { action=ACTION_UP, id[0]=0, x[0]=286.77597, y[0]=388.46048, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1717515, downTime=1717352, deviceId=2, source=0x1002 }
+I/DVB_main( 2103): [dispatchKeyEvent]  Action:0  keyCode:4
+I/dvb_control( 2103): [onKeyDown]  keyCode��4  Oklist_view.getVisibility():0 Constant.isHidden:false
+I/dvb_control( 2103): [onKeyDown]  Oklist_view is show,Hide...............
+I/DVB_main( 2103): [dispatchKeyEvent]  Action:1  keyCode:4
+I/DVB_main( 2103): [dispatchKeyEvent]  Does not deal with the keyCode
+D/InputEventConsistencyVerifier( 2103): KeyEvent: ACTION_UP but key was not down.
+D/InputEventConsistencyVerifier( 2103):   in com.android.internal.policy.impl.PhoneWindow$DecorView@41856250
+D/InputEventConsistencyVerifier( 2103):   0: sent at 2782944000000, KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=158, metaState=0, flags=0x8, repeatCount=0, eventTime=2782944, downTime=2782783, deviceId=6, source=0x101 }
+D/InputEventConsistencyVerifier( 2103):   -- recent events --
+D/InputEventConsistencyVerifier( 2103):   1: sent at 2779584000000, (unhandled) KeyEvent { action=ACTION_UP, keyCode=KEYCODE_ENTER, scanCode=28, metaState=0, flags=0x80000008, repeatCount=0, eventTime=2779584, downTime=2779424, deviceId=6, source=0x101 }
+D/InputEventConsistencyVerifier( 2103):   2: sent at 2706768000000, (unhandled) KeyEvent { action=ACTION_UP, keyCode=KEYCODE_ENTER, scanCode=28, metaState=0, flags=0x80000008, repeatCount=0, eventTime=2706768, downTime=2706344, deviceId=6, source=0x101 }
+D/InputEventConsistencyVerifier( 2103):   3: sent at 2588281000000, (unhandled) KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=4, metaState=0, flags=0x80000008, repeatCount=0, eventTime=2588281, downTime=2588281, deviceId=4, source=0x301 }
+D/InputEventConsistencyVerifier( 2103):   4: sent at 2573322323000, MotionEvent { action=ACTION_UP, id[0]=0, x[0]=1138.1108, y[0]=343.5229, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=2573322, downTime=2573240, deviceId=2, source=0x1002 }
+D/InputEventConsistencyVerifier( 2103):   5: sent at 2573240698000, MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=1138.1108, y[0]=343.5229, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=2573240, downTime=2573240, deviceId=2, source=0x1002 }
+D/MonitorCw880( 2795): currentRemoteHost is null ,continue
+D/MonitorCw880( 2795): currentRemoteHost is null ,continue
+D/MonitorCw880( 2795): currentRemoteHost is null ,continue
+D/MonitorCw880( 2795): currentRemoteHost is null ,continue
+D/MonitorCw880( 2795): currentRemoteHost is null ,continue
+^C
+130|shell@android:/ # 

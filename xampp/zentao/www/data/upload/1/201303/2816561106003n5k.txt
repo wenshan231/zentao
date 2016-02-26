@@ -1,0 +1,509 @@
+D/selena.android.view.AndroidAppWindow( 1276): [KBD] inputKey : 4, isDown: false
+W/selena.android.view.AndroidAppWindow( 1276):     at selena.android.view.AndroidAppWindow.inputKey(AndroidAppWindow.java:136)
+I/EasyControlIME( 1242): ----isExtractViewShowm()
+D/selena.android.app.SelenaActivity( 1276): [KBD] dispatchKeyEvent: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=4, metaState=0, flags=0x8, repeatCount=0, eventTime=1106552, downTime=1106552, deviceId=3, source=0x301 }
+W/selena.android.app.SelenaActivity( 1276):     at selena.android.app.SelenaActivity.dispatchKeyEvent(SelenaActivity.java:179)
+D/selena.android.app.SelenaActivity( 1276): [KBD] onKeyUp: 4, KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=4, metaState=0, flags=0x8, repeatCount=0, eventTime=1106552, downTime=1106552, deviceId=3, source=0x301 }
+W/selena.android.app.SelenaActivity( 1276):     at selena.android.app.SelenaActivity.onKeyUp(SelenaActivity.java:173)
+I/MonitorCw880( 1487): easybusReceive success !
+D/MonitorCw880( 1487):  easybusMsg.remoteIp=  192.168.43.152 easybusMsg.remotePort=  39399 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880( 1487): currentRemoteHost=192.168.43.152 easybusMsg.remoteIp=192.168.43.152, counter=3
+D/MonitorCw880( 1487): easybusySend()-> easybusMsg.remoteIp=  192.168.43.152 easybusMsg.remotePort=  39399 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/selena.android.view.AndroidAppWindow( 1276): [KBD] inputKey : 4, isDown: true
+W/selena.android.view.AndroidAppWindow( 1276):     at selena.android.view.AndroidAppWindow.inputKey(AndroidAppWindow.java:136)
+D/selena.android.app.SelenaActivity( 1276): [KBD] dispatchKeyEvent: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BACK, scanCode=4, metaState=0, flags=0x8, repeatCount=0, eventTime=1107470, downTime=1107470, deviceId=3, source=0x301 }
+W/selena.android.app.SelenaActivity( 1276):     at selena.android.app.SelenaActivity.dispatchKeyEvent(SelenaActivity.java:179)
+D/selena.android.view.AndroidAppWindow( 1276): [KBD] inputKey : 4, isDown: false
+W/selena.android.view.AndroidAppWindow( 1276):     at selena.android.view.AndroidAppWindow.inputKey(AndroidAppWindow.java:136)
+I/EasyControlIME( 1242): ----isExtractViewShowm()
+D/selena.android.app.SelenaActivity( 1276): [KBD] dispatchKeyEvent: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=4, metaState=0, flags=0x8, repeatCount=0, eventTime=1107470, downTime=1107470, deviceId=3, source=0x301 }
+W/selena.android.app.SelenaActivity( 1276):     at selena.android.app.SelenaActivity.dispatchKeyEvent(SelenaActivity.java:179)
+D/selena.android.app.SelenaActivity( 1276): [KBD] onKeyUp: 4, KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=4, metaState=0, flags=0x8, repeatCount=0, eventTime=1107470, downTime=1107470, deviceId=3, source=0x301 }
+W/selena.android.app.SelenaActivity( 1276):     at selena.android.app.SelenaActivity.onKeyUp(SelenaActivity.java:173)
+D/dalvikvm( 1605): GC_CONCURRENT freed 2052K, 31% free 12890K/18627K, paused 3ms+5ms
+D/HomePlayerLib( 1605): hostaddress count is 2
+I/ActivityManager(  949): Start proc com.coship.trafficmonitor for service com.coship.trafficmonitor/.service.DownloadDataService: pid=2946 uid=10034 gids={3003}
+D/dalvikvm(  737): GC_EXPLICIT freed 40K, 44% free 6574K/11651K, paused 2ms+5ms
+D/dalvikvm(  737): GC_EXPLICIT freed <1K, 44% free 6574K/11651K, paused 3ms+3ms
+D/dalvikvm(  737): GC_EXPLICIT freed <1K, 44% free 6574K/11651K, paused 2ms+3ms
+D/DownloadDataService( 2946): DownloadDataService:onCreate()
+D/DownloadDataService( 2946): DownloadDataService:onStartCommand()
+D/AndroidRuntime( 2946): Shutting down VM
+W/dalvikvm( 2946): threadid=1: thread exiting with uncaught exception (group=0x40fa81f8)
+E/AndroidRuntime( 2946): FATAL EXCEPTION: main
+E/AndroidRuntime( 2946): java.lang.RuntimeException: Unable to start service com.coship.trafficmonitor.service.DownloadDataService@41590dd0 with null: java.lang.NullPointerException
+E/AndroidRuntime( 2946):        at android.app.ActivityThread.handleServiceArgs(ActivityThread.java:2376)
+E/AndroidRuntime( 2946):        at android.app.ActivityThread.access$1900(ActivityThread.java:123)
+E/AndroidRuntime( 2946):        at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1210)
+E/AndroidRuntime( 2946):        at android.os.Handler.dispatchMessage(Handler.java:99)
+E/AndroidRuntime( 2946):        at android.os.Looper.loop(Looper.java:137)
+E/AndroidRuntime( 2946):        at android.app.ActivityThread.main(ActivityThread.java:4424)
+E/AndroidRuntime( 2946):        at java.lang.reflect.Method.invokeNative(Native Method)
+E/AndroidRuntime( 2946):        at java.lang.reflect.Method.invoke(Method.java:511)
+E/AndroidRuntime( 2946):        at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:848)
+E/AndroidRuntime( 2946):        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:575)
+E/AndroidRuntime( 2946):        at dalvik.system.NativeStart.main(Native Method)
+E/AndroidRuntime( 2946): Caused by: java.lang.NullPointerException
+E/AndroidRuntime( 2946):        at com.coship.trafficmonitor.service.DownloadDataService.onStartCommand(DownloadDataService.java:76)
+E/AndroidRuntime( 2946):        at android.app.ActivityThread.handleServiceArgs(ActivityThread.java:2359)
+E/AndroidRuntime( 2946):        ... 10 more
+D/selena.android.view.SelenaView( 1276): onWindowFocusChanged: false
+W/selena.android.view.SelenaView( 1276):     at selena.android.view.SelenaView.onWindowFocusChanged(SelenaView.java:121)
+D/selena.android.gl.GLView( 1276): onWindowFocusChanged: false
+W/selena.android.gl.GLView( 1276):     at selena.android.gl.GLView.onWindowFocusChanged(GLView.java:379)
+D/selena.android.gl.GLView$GLThread( 1276): onWindowFocusChanged - Enter: false, false
+W/selena.android.gl.GLView$GLThread( 1276):     at selena.android.gl.GLView$GLThread.onWindowFocusChanged(GLView.java:822)
+D/selena.android.gl.GLView$GLThread( 1276): onWindowFocusChanged - Leave: false, false
+W/selena.android.gl.GLView$GLThread( 1276):     at selena.android.gl.GLView$GLThread.onWindowFocusChanged(GLView.java:831)
+D/dalvikvm( 1605): GC_CONCURRENT freed 2064K, 31% free 12897K/18627K, paused 7ms+4ms
+I/EasyControlIMEImpl( 1242): isCount = 4
+I/EasyControlIMEImpl( 1242): CounterThread is start----
+I/MonitorCw880( 1487): easybusReceive success !
+D/MonitorCw880( 1487):  easybusMsg.remoteIp=  192.168.43.3 easybusMsg.remotePort=  51812 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880( 1487):  ip error -> currentRemoteHost=192.168.43.152 easybusMsg.remoteIp=192.168.43.3, counter=4
+I/Process ( 2946): Sending signal. PID: 2946 SIG: 9
+I/ActivityManager(  949): Process com.coship.trafficmonitor (pid 2946) has died.
+W/ActivityManager(  949): Scheduling restart of crashed service com.coship.trafficmonitor/.service.DownloadDataService in 20000ms
+V/TabletStatusBar( 1144): setLightsOn(true)
+D/selena.android.view.SelenaView( 1276): onWindowFocusChanged: true
+W/selena.android.view.SelenaView( 1276):     at selena.android.view.SelenaView.onWindowFocusChanged(SelenaView.java:121)
+D/selena.android.gl.GLView( 1276): onWindowFocusChanged: true
+W/selena.android.gl.GLView( 1276):     at selena.android.gl.GLView.onWindowFocusChanged(GLView.java:379)
+D/selena.android.gl.GLView$GLThread( 1276): onWindowFocusChanged - Enter: false, false
+W/selena.android.gl.GLView$GLThread( 1276):     at selena.android.gl.GLView$GLThread.onWindowFocusChanged(GLView.java:822)
+D/selena.android.gl.GLView$GLThread( 1276): onWindowFocusChanged - Leave: false, false
+W/selena.android.gl.GLView$GLThread( 1276):     at selena.android.gl.GLView$GLThread.onWindowFocusChanged(GLView.java:831)
+W/InputManagerService(  949): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4180d5a8
+D/P2PENGINE_TEST( 1813): <2013-03-28 16:28:05>
+D/P2PENGINE_TEST( 1813): [DEBUG] [Dispatcher] [thread_dispatch] begin, session:0, msg:PC_Timeout, status:empty
+D/P2PENGINE_TEST( 1813): [DEBUG] [Dispatcher] [thread_dispatch] ended, session:0, msg:PC_Timeout, status:empty
+D/CheckNetWork( 1589): isOk true
+D/CheckNetWork( 1589): ActInfoNetworkInfo: type: ETH[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), roaming: false, failover: false, isAvailable: true
+D/CheckNetWork( 1589): infoNetworkInfo: type: ETH[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), roaming: false, failover: false, isAvailable: true
+I/MonitorCw880( 1487): easybusReceive success !
+D/MonitorCw880( 1487):  easybusMsg.remoteIp=  192.168.43.152 easybusMsg.remotePort=  39399 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880( 1487): currentRemoteHost=192.168.43.152 easybusMsg.remoteIp=192.168.43.152, counter=4
+D/MonitorCw880( 1487): easybusySend()-> easybusMsg.remoteIp=  192.168.43.152 easybusMsg.remotePort=  39399 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/App     ( 1276): [196806480.0000:16.0000] [Debug in OnStart]: (scripts/actions/DebugVarAVarB.aq:14)
+D/App     ( 1276): Func_Tpl_app<ItemPicked> [VarA:[Gallery]_Item#1B12] - [VarB:6]
+V/selena.android.view.SelenaView( 1276): **** onPause
+W/selena.android.view.SelenaView( 1276):     at selena.android.view.SelenaView.activityOnPause(SelenaView.java:216)
+I/ActivityManager(  949): START {act=android.intent.action.MAIN flg=0x10200000 cmp=Mag3DLite.SF3D/.GameMain} from pid 1276
+W/ActivityManager(  949): Activity is launching as a new task, so cancelling activity result.
+I/MonitorCw880( 1487): easybusReceive success !
+D/MonitorCw880( 1487):  easybusMsg.remoteIp=  192.168.43.3 easybusMsg.remotePort=  51812 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880( 1487):  ip error -> currentRemoteHost=192.168.43.152 easybusMsg.remoteIp=192.168.43.3, counter=5
+V/selena.android.view.SelenaView( 1276): **** onPause
+W/selena.android.view.SelenaView( 1276):     at selena.android.view.SelenaView.activityOnPause(SelenaView.java:216)
+D/dalvikvm(  949): GC_FOR_ALLOC freed 1587K, 60% free 4797K/11907K, paused 47ms
+D/dalvikvm(  949): GC_CONCURRENT freed 103K, 52% free 5728K/11907K, paused 2ms+5ms
+D/selena.android.view.SelenaView( 1276): onWindowFocusChanged: false
+W/selena.android.view.SelenaView( 1276):     at selena.android.view.SelenaView.onWindowFocusChanged(SelenaView.java:121)
+D/selena.android.gl.GLView( 1276): onWindowFocusChanged: false
+W/selena.android.gl.GLView( 1276):     at selena.android.gl.GLView.onWindowFocusChanged(GLView.java:379)
+D/selena.android.gl.GLView$GLThread( 1276): onWindowFocusChanged - Enter: false, false
+W/selena.android.gl.GLView$GLThread( 1276):     at selena.android.gl.GLView$GLThread.onWindowFocusChanged(GLView.java:822)
+D/selena.android.gl.GLView$GLThread( 1276): onWindowFocusChanged - Leave: false, false
+W/selena.android.gl.GLView$GLThread( 1276):     at selena.android.gl.GLView$GLThread.onWindowFocusChanged(GLView.java:831)
+V/GameApp ( 2882): GameApp::GameApp
+V/TabletStatusBar( 1144): setLightsOn(true)
+I/dalvikvm(  949): Jit: resizing JitTable from 8192 to 16384
+V/Renderer( 2882): onSurfaceCreated
+V/GameApp ( 2882):                            
+V/GameApp ( 2882):                            
+V/GameApp ( 2882):         LoadLevel          
+V/GameApp ( 2882):                            
+I/ActivityManager(  949): Displayed Mag3DLite.SF3D/.GameMain: +334ms
+I/EasyControlIME( 1242): ---------editorInfo.editable = null editorInfo.actionLabel = null 0null  -1  0Mag3DLite.SF3D  0 -1 null
+D/selena.android.view.SelenaView( 1276): onCreateInputConnection
+W/selena.android.view.SelenaView( 1276):     at selena.android.view.SelenaView.onCreateInputConnection(SelenaView.java:396)
+I/GameApp ( 2882): [LoadMeshObject] Load mesh: box01À€
+I/CMagMeshObject( 2882): LoadMesh: box.3dm
+W/InputManagerService(  949): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@415d2ad0 (uid=10035 pid=1276)
+W/IInputConnectionWrapper( 1276): showStatusIcon on inactive InputConnection
+D/dalvikvm( 2882): GC_FOR_ALLOC freed 1878K, 47% free 7040K/13123K, paused 46ms
+D/dalvikvm( 2882): GC_FOR_ALLOC freed 1053K, 49% free 6795K/13123K, paused 29ms
+D/dalvikvm( 1605): GC_CONCURRENT freed 2124K, 31% free 12916K/18691K, paused 2ms+5ms
+D/dalvikvm( 2882): GC_FOR_ALLOC freed 1069K, 48% free 6828K/13123K, paused 28ms
+D/dalvikvm( 2882): GC_FOR_ALLOC freed 1045K, 48% free 6847K/13123K, paused 28ms
+I/GameApp ( 2882): [LoadMeshObject] Load mesh: latacz0201À€
+I/CMagMeshObject( 2882): LoadMesh: latacz02.3dm
+I/GameApp ( 2882): [LoadMeshObject] Load mesh: latacz0301À€
+I/CMagMeshObject( 2882): LoadMesh: latacz03.3dm
+I/GameApp ( 2882): [LoadMeshObject] Load mesh: latacz_menu01À€
+I/CMagMeshObject( 2882): LoadMesh: latacz_menu.3dm
+I/MonitorCw880( 1487): easybusReceive success !
+D/MonitorCw880( 1487):  easybusMsg.remoteIp=  192.168.43.152 easybusMsg.remotePort=  39399 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880( 1487): currentRemoteHost=192.168.43.152 easybusMsg.remoteIp=192.168.43.152, counter=5
+D/MonitorCw880( 1487): easybusySend()-> easybusMsg.remoteIp=  192.168.43.152 easybusMsg.remotePort=  39399 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+W/System.err( 2882): java.io.EOFException
+W/System.err( 2882):    at libcore.io.Streams.readFully(Streams.java:83)
+W/System.err( 2882):    at java.io.DataInputStream.readFully(DataInputStream.java:120)
+W/System.err( 2882):    at Mag3DLite.IO.LEDataInputStream.readShort(LEDataInputStream.java:246)
+D/dalvikvm( 2882): GC_CONCURRENT freed 1171K, 42% free 7645K/13123K, paused 2ms+3ms
+W/System.err( 2882):    at Mag3DLite.GameApp.GameApp.LoadLevel1(GameApp.java:449)
+W/System.err( 2882):    at Mag3DLite.GameApp.GameApp.LoadLoadLevel(GameApp.java:301)
+W/System.err( 2882):    at Mag3DLite.Renderer.Renderer.onDrawFrame(Renderer.java:99)
+W/System.err( 2882):    at android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1462)
+W/System.err( 2882):    at android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1216)
+E/AC3Extractor(  739): Rsyn Fail
+D/MediaPlayerService(  739): countTracks = 1
+D/MediaPlayerService(  739): mime = audio/vorbis
+D/MediaPlayerService(  739): videoCnt = 0, audioCnt = 1
+D/MediaPlayerService(  739): Ogg
+E/AC3Extractor(  739): Rsyn Fail
+D/MediaPlayerService(  739): [9] setVideoSurfaceTexture(0x0)
+D/OMXCodec(  739): Attempting to allocate OMX node 'OMX.google.vorbis.decoder'
+D/OMXCodec(  739): Successfully allocated OMX node 'OMX.google.vorbis.decoder'
+D/MediaPlayerService(  739): [9] notify (0x3a908, 5, 0, 0)
+D/MediaPlayerService(  739): [9] notify (0x3a908, 1, 0, 0)
+E/AC3Extractor(  739): Rsyn Fail
+D/MediaPlayerService(  739): countTracks = 1
+D/MediaPlayerService(  739): mime = audio/vorbis
+D/MediaPlayerService(  739): videoCnt = 0, audioCnt = 1
+D/MediaPlayerService(  739): Ogg
+E/AC3Extractor(  739): Rsyn Fail
+D/MediaPlayerService(  739): [10] setVideoSurfaceTexture(0x0)
+D/OMXCodec(  739): Attempting to allocate OMX node 'OMX.google.vorbis.decoder'
+D/OMXCodec(  739): Successfully allocated OMX node 'OMX.google.vorbis.decoder'
+D/MediaPlayerService(  739): [10] notify (0x488a8, 5, 0, 0)
+D/MediaPlayerService(  739): [10] notify (0x488a8, 1, 0, 0)
+D/dalvikvm( 2882): GC_FOR_ALLOC freed 1227K, 43% free 7501K/13123K, paused 34ms
+D/dalvikvm( 2882): GC_FOR_ALLOC freed 1025K, 43% free 7500K/13123K, paused 33ms
+D/dalvikvm( 2882): GC_FOR_ALLOC freed 1024K, 43% free 7500K/13123K, paused 34ms
+D/dalvikvm( 2882): GC_FOR_ALLOC freed 1155K, 43% free 7501K/13123K, paused 33ms
+D/dalvikvm( 2882): GC_FOR_ALLOC freed 930K, 43% free 7503K/13123K, paused 33ms
+D/dalvikvm( 2882): GC_FOR_ALLOC freed 1032K, 43% free 7502K/13123K, paused 34ms
+I/EasyControlIMEImpl( 1242): isCount = 4
+I/EasyControlIMEImpl( 1242): CounterThread is start----
+D/dalvikvm( 2882): GC_FOR_ALLOC freed 1159K, 43% free 7502K/13123K, paused 32ms
+D/dalvikvm( 2882): GC_FOR_ALLOC freed 1154K, 43% free 7502K/13123K, paused 31ms
+D/dalvikvm( 2882): GC_FOR_ALLOC freed 769K, 43% free 7502K/13123K, paused 34ms
+D/dalvikvm( 2882): GC_FOR_ALLOC freed 1210K, 43% free 7503K/13123K, paused 32ms
+D/PushMsgCenter( 1554): mDownUpRun run while (true)
+D/PushMsgCenter( 1554): down  
+D/PushMsgCenter( 1554): down conn.getResponseCode() status = 404
+D/HomePlayerLib( 1605): hostaddress count is 2
+D/dalvikvm( 1605): GC_CONCURRENT freed 2094K, 31% free 12927K/18691K, paused 2ms+4ms
+D/dalvikvm( 1605): GC_CONCURRENT freed 2088K, 32% free 12883K/18691K, paused 2ms+5ms
+I/MonitorCw880( 1487): easybusReceive success !
+D/MonitorCw880( 1487):  easybusMsg.remoteIp=  192.168.43.3 easybusMsg.remotePort=  51812 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880( 1487):  ip error -> currentRemoteHost=192.168.43.152 easybusMsg.remoteIp=192.168.43.3, counter=6
+D/P2PENGINE_TEST( 1813): <2013-03-28 16:28:15>
+D/P2PENGINE_TEST( 1813): [DEBUG] [Dispatcher] [thread_dispatch] begin, session:0, msg:PC_Timeout, status:empty
+D/P2PENGINE_TEST( 1813): [DEBUG] [Dispatcher] [thread_dispatch] ended, session:0, msg:PC_Timeout, status:empty
+I/MonitorCw880( 1487): easybusReceive success !
+D/MonitorCw880( 1487):  easybusMsg.remoteIp=  192.168.43.152 easybusMsg.remotePort=  39399 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880( 1487): currentRemoteHost=192.168.43.152 easybusMsg.remoteIp=192.168.43.152, counter=6
+D/MonitorCw880( 1487): easybusySend()-> easybusMsg.remoteIp=  192.168.43.152 easybusMsg.remotePort=  39399 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+V/NetFirmwareService( 1254): Network is connected!
+V/NetFirmwareService( 1254): mServicePath--->http://update.feifeikan.com/Fbox:80
+I/NetFirmwareService( 1254): mHwvStr--->002101
+I/NetFirmwareService( 1254): mSwv--->211310
+I/FileUtils( 1254): mkFilePath--->/data/data/com.coship.netfirmware/versioncode.dat
+D/StrictMode( 1254): StrictMode policy violation: android.os.StrictMode$StrictModeNetworkViolation: policy=23 violation=4
+D/StrictMode( 1254):    at android.os.StrictMode$AndroidBlockGuardPolicy.onNetwork(StrictMode.java:1105)
+D/StrictMode( 1254):    at java.net.InetAddress.lookupHostByName(InetAddress.java:391)
+D/StrictMode( 1254):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+D/StrictMode( 1254):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+D/StrictMode( 1254):    at libcore.net.http.HttpConnection.<init>(HttpConnection.java:71)
+D/StrictMode( 1254):    at libcore.net.http.HttpConnection.<init>(HttpConnection.java:50)
+D/StrictMode( 1254):    at libcore.net.http.HttpConnection$Address.connect(HttpConnection.java:351)
+D/StrictMode( 1254):    at libcore.net.http.HttpConnectionPool.get(HttpConnectionPool.java:86)
+D/StrictMode( 1254):    at libcore.net.http.HttpConnection.connect(HttpConnection.java:128)
+D/StrictMode( 1254):    at libcore.net.http.HttpEngine.openSocketConnection(HttpEngine.java:308)
+D/StrictMode( 1254):    at libcore.net.http.HttpEngine.connect(HttpEngine.java:303)
+D/StrictMode( 1254):    at libcore.net.http.HttpEngine.sendSocketRequest(HttpEngine.java:282)
+D/StrictMode( 1254):    at libcore.net.http.HttpEngine.sendRequest(HttpEngine.java:232)
+D/StrictMode( 1254):    at libcore.net.http.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:273)
+D/StrictMode( 1254):    at libcore.net.http.HttpURLConnectionImpl.getInputStream(HttpURLConnectionImpl.java:168)
+D/StrictMode( 1254):    at com.coship.netfirmware.downloads.HttpDownLoad.getInputStream(HttpDownLoad.java:67)
+D/StrictMode( 1254):    at com.coship.netfirmware.downloads.HttpDownLoad.downfile(HttpDownLoad.java:45)
+D/StrictMode( 1254):    at com.coship.netfirmware.NetFirmwareService.downFileFormService(NetFirmwareService.java:1453)
+D/StrictMode( 1254):    at com.coship.netfirmware.NetFirmwareService.access$4400(NetFirmwareService.java:72)
+D/StrictMode( 1254):    at com.coship.netfirmware.NetFirmwareService$6.run(NetFirmwareService.java:1096)
+D/StrictMode( 1254): StrictMode policy violation: android.os.StrictMode$StrictModeNetworkViolation: policy=23 violation=4
+D/StrictMode( 1254):    at android.os.StrictMode$AndroidBlockGuardPolicy.onNetwork(StrictMode.java:1105)
+D/StrictMode( 1254):    at libcore.io.BlockGuardOs.connect(BlockGuardOs.java:84)
+D/StrictMode( 1254):    at libcore.io.IoBridge.connectErrno(IoBridge.java:127)
+D/StrictMode( 1254):    at libcore.io.IoBridge.connect(IoBridge.java:112)
+D/StrictMode( 1254):    at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:192)
+D/StrictMode( 1254):    at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:459)
+D/StrictMode( 1254):    at java.net.Socket.connect(Socket.java:842)
+D/StrictMode( 1254):    at libcore.net.http.HttpConnection.<init>(HttpConnection.java:77)
+D/StrictMode( 1254):    at libcore.net.http.HttpConnection.<init>(HttpConnection.java:50)
+D/StrictMode( 1254):    at libcore.net.http.HttpConnection$Address.connect(HttpConnection.java:351)
+D/StrictMode( 1254):    at libcore.net.http.HttpConnectionPool.get(HttpConnectionPool.java:86)
+D/StrictMode( 1254):    at libcore.net.http.HttpConnection.connect(HttpConnection.java:128)
+D/StrictMode( 1254):    at libcore.net.http.HttpEngine.openSocketConnection(HttpEngine.java:308)
+D/StrictMode( 1254):    at libcore.net.http.HttpEngine.connect(HttpEngine.java:303)
+D/StrictMode( 1254):    at libcore.net.http.HttpEngine.sendSocketRequest(HttpEngine.java:282)
+D/StrictMode( 1254):    at libcore.net.http.HttpEngine.sendRequest(HttpEngine.java:232)
+D/StrictMode( 1254):    at libcore.net.http.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:273)
+D/StrictMode( 1254):    at libcore.net.http.HttpURLConnectionImpl.getInputStream(HttpURLConnectionImpl.java:168)
+D/StrictMode( 1254):    at com.coship.netfirmware.downloads.HttpDownLoad.getInputStream(HttpDownLoad.java:67)
+D/StrictMode( 1254):    at com.coship.netfirmware.downloads.HttpDownLoad.downfile(HttpDownLoad.java:45)
+D/StrictMode( 1254):    at com.coship.netfirmware.NetFirmwareService.downFileFormService(NetFirmwareService.java:1453)
+D/StrictMode( 1254):    at com.coship.netfirmware.NetFirmwareService.access$4400(NetFirmwareService.java:72)
+D/StrictMode( 1254):    at com.coship.netfirmware.NetFirmwareService$6.run(NetFirmwareService.java:1096)
+D/StrictMode( 1254): StrictMode policy violation: android.os.StrictMode$StrictModeNetworkViolation: policy=23 violation=4
+D/StrictMode( 1254):    at android.os.StrictMode$AndroidBlockGuardPolicy.onNetwork(StrictMode.java:1105)
+D/StrictMode( 1254):    at libcore.io.BlockGuardOs.recvfrom(BlockGuardOs.java:163)
+D/StrictMode( 1254):    at libcore.io.IoBridge.recvfrom(IoBridge.java:503)
+D/StrictMode( 1254):    at java.net.PlainSocketImpl.read(PlainSocketImpl.java:488)
+D/StrictMode( 1254):    at java.net.PlainSocketImpl.access$000(PlainSocketImpl.java:46)
+D/StrictMode( 1254):    at java.net.PlainSocketImpl$PlainSocketInputStream.read(PlainSocketImpl.java:240)
+D/StrictMode( 1254):    at java.io.InputStream.read(InputStream.java:163)
+D/StrictMode( 1254):    at java.io.BufferedInputStream.fillbuf(BufferedInputStream.java:142)
+D/StrictMode( 1254):    at java.io.BufferedInputStream.read(BufferedInputStream.java:227)
+D/StrictMode( 1254):    at libcore.io.Streams.readAsciiLine(Streams.java:201)
+D/StrictMode( 1254):    at libcore.net.http.HttpEngine.readResponseHeaders(HttpEngine.java:544)
+D/StrictMode( 1254):    at libcore.net.http.HttpEngine.readResponse(HttpEngine.java:784)
+D/StrictMode( 1254):    at libcore.net.http.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:274)
+D/StrictMode( 1254):    at libcore.net.http.HttpURLConnectionImpl.getInputStream(HttpURLConnectionImpl.java:168)
+D/StrictMode( 1254):    at com.coship.netfirmware.downloads.HttpDownLoad.getInputStream(HttpDownLoad.java:67)
+D/StrictMode( 1254):    at com.coship.netfirmware.downloads.HttpDownLoad.downfile(HttpDownLoad.java:45)
+D/StrictMode( 1254):    at com.coship.netfirmware.NetFirmwareService.downFileFormService(NetFirmwareService.java:1453)
+D/StrictMode( 1254):    at com.coship.netfirmware.NetFirmwareService.access$4400(NetFirmwareService.java:72)
+D/StrictMode( 1254):    at com.coship.netfirmware.NetFirmwareService$6.run(NetFirmwareService.java:1096)
+D/StrictMode( 1254): StrictMode policy violation: android.os.StrictMode$StrictModeNetworkViolation: policy=23 violation=4
+D/StrictMode( 1254):    at android.os.StrictMode$AndroidBlockGuardPolicy.onNetwork(StrictMode.java:1105)
+D/StrictMode( 1254):    at libcore.io.BlockGuardOs.recvfrom(BlockGuardOs.java:163)
+D/StrictMode( 1254):    at libcore.io.IoBridge.recvfrom(IoBridge.java:503)
+D/StrictMode( 1254):    at java.net.PlainSocketImpl.read(PlainSocketImpl.java:488)
+D/StrictMode( 1254):    at java.net.PlainSocketImpl.access$000(PlainSocketImpl.java:46)
+D/StrictMode( 1254):    at java.net.PlainSocketImpl$PlainSocketInputStream.read(PlainSocketImpl.java:240)
+D/StrictMode( 1254):    at java.io.InputStream.read(InputStream.java:163)
+D/StrictMode( 1254):    at java.io.BufferedInputStream.fillbuf(BufferedInputStream.java:142)
+D/StrictMode( 1254):    at java.io.BufferedInputStream.read(BufferedInputStream.java:227)
+D/StrictMode( 1254):    at libcore.io.Streams.readAsciiLine(Streams.java:201)
+D/StrictMode( 1254):    at libcore.net.http.HttpEngine.readHeaders(HttpEngine.java:587)
+D/StrictMode( 1254):    at libcore.net.http.HttpEngine.readResponseHeaders(HttpEngine.java:545)
+D/StrictMode( 1254):    at libcore.net.http.HttpEngine.readResponse(HttpEngine.java:784)
+D/StrictMode( 1254):    at libcore.net.http.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:274)
+D/StrictMode( 1254):    at libcore.net.http.HttpURLConnectionImpl.getInputStream(HttpURLConnectionImpl.java:168)
+D/StrictMode( 1254):    at com.coship.netfirmware.downloads.HttpDownLoad.getInputStream(HttpDownLoad.java:67)
+D/StrictMode( 1254):    at com.coship.netfirmware.downloads.HttpDownLoad.downfile(HttpDownLoad.java:45)
+D/StrictMode( 1254):    at com.coship.netfirmware.NetFirmwareService.downFileFormService(NetFirmwareService.java:1453)
+D/StrictMode( 1254):    at com.coship.netfirmware.NetFirmwareService.access$4400(NetFirmwareService.java:72)
+D/StrictMode( 1254):    at com.coship.netfirmware.NetFirmwareService$6.run(NetFirmwareService.java:1096)
+I/HttpDownLoad( 1254): network is error
+D/StrictMode( 1254): StrictMode policy violation: android.os.StrictMode$StrictModeDiskReadViolation: policy=23 violation=2
+D/StrictMode( 1254):    at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1089)
+D/StrictMode( 1254):    at libcore.io.BlockGuardOs.open(BlockGuardOs.java:106)
+D/StrictMode( 1254):    at libcore.io.IoBridge.open(IoBridge.java:390)
+D/StrictMode( 1254):    at java.io.FileInputStream.<init>(FileInputStream.java:78)
+D/StrictMode( 1254):    at java.io.FileInputStream.<init>(FileInputStream.java:105)
+D/StrictMode( 1254):    at com.coship.netfirmware.NetFirmwareService.getUpdateInfo(NetFirmwareService.java:1483)
+D/StrictMode( 1254):    at com.coship.netfirmware.NetFirmwareService.downFileFormService(NetFirmwareService.java:1455)
+D/StrictMode( 1254):    at com.coship.netfirmware.NetFirmwareService.access$4400(NetFirmwareService.java:72)
+D/StrictMode( 1254):    at com.coship.netfirmware.NetFirmwareService$6.run(NetFirmwareService.java:1096)
+W/System.err( 1254): java.io.FileNotFoundException: /data/data/com.coship.netfirmware/versioncode.dat: open failed: ENOENT (No such file or directory)
+W/System.err( 1254):    at libcore.io.IoBridge.open(IoBridge.java:406)
+W/System.err( 1254):    at java.io.FileInputStream.<init>(FileInputStream.java:78)
+W/System.err( 1254):    at java.io.FileInputStream.<init>(FileInputStream.java:105)
+W/System.err( 1254):    at com.coship.netfirmware.NetFirmwareService.getUpdateInfo(NetFirmwareService.java:1483)
+W/System.err( 1254):    at com.coship.netfirmware.NetFirmwareService.downFileFormService(NetFirmwareService.java:1455)
+W/System.err( 1254):    at com.coship.netfirmware.NetFirmwareService.access$4400(NetFirmwareService.java:72)
+W/System.err( 1254):    at com.coship.netfirmware.NetFirmwareService$6.run(NetFirmwareService.java:1096)
+W/System.err( 1254): Caused by: libcore.io.ErrnoException: open failed: ENOENT (No such file or directory)
+W/System.err( 1254):    at libcore.io.Posix.open(Native Method)
+W/System.err( 1254):    at libcore.io.BlockGuardOs.open(BlockGuardOs.java:110)
+W/System.err( 1254):    at libcore.io.IoBridge.open(IoBridge.java:390)
+W/System.err( 1254):    ... 6 more
+I/NetFirmwareService( 1254): v--->null
+I/NetFirmwareService( 1254): q--->null
+I/NetFirmwareService( 1254): c--->null
+I/NetFirmwareService( 1254): serverdesfile--->http://update.feifeikan.com/Fbox:80/002101/description_null.dat
+I/NetFirmwareService( 1254): savefilename--->description_null.dat
+I/FileUtils( 1254): mkFilePath--->/data/data/com.coship.netfirmware/description_null.dat
+D/StrictMode( 1254): StrictMode policy violation: android.os.StrictMode$StrictModeNetworkViolation: policy=23 violation=4
+D/StrictMode( 1254):    at android.os.StrictMode$AndroidBlockGuardPolicy.onNetwork(StrictMode.java:1105)
+D/StrictMode( 1254):    at java.net.InetAddress.lookupHostByName(InetAddress.java:391)
+D/StrictMode( 1254):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+D/StrictMode( 1254):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+D/StrictMode( 1254):    at libcore.net.http.HttpConnection.<init>(HttpConnection.java:71)
+D/StrictMode( 1254):    at libcore.net.http.HttpConnection.<init>(HttpConnection.java:50)
+D/StrictMode( 1254):    at libcore.net.http.HttpConnection$Address.connect(HttpConnection.java:351)
+D/StrictMode( 1254):    at libcore.net.http.HttpConnectionPool.get(HttpConnectionPool.java:86)
+D/StrictMode( 1254):    at libcore.net.http.HttpConnection.connect(HttpConnection.java:128)
+D/StrictMode( 1254):    at libcore.net.http.HttpEngine.openSocketConnection(HttpEngine.java:308)
+D/StrictMode( 1254):    at libcore.net.http.HttpEngine.connect(HttpEngine.java:303)
+D/StrictMode( 1254):    at libcore.net.http.HttpEngine.sendSocketRequest(HttpEngine.java:282)
+D/StrictMode( 1254):    at libcore.net.http.HttpEngine.sendRequest(HttpEngine.java:232)
+D/StrictMode( 1254):    at libcore.net.http.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:273)
+D/StrictMode( 1254):    at libcore.net.http.HttpURLConnectionImpl.getInputStream(HttpURLConnectionImpl.java:168)
+D/StrictMode( 1254):    at com.coship.netfirmware.downloads.HttpDownLoad.getInputStream(HttpDownLoad.java:67)
+D/StrictMode( 1254):    at com.coship.netfirmware.downloads.HttpDownLoad.downfile(HttpDownLoad.java:45)
+D/StrictMode( 1254):    at com.coship.netfirmware.NetFirmwareService.downFileFormService(NetFirmwareService.java:1464)
+D/StrictMode( 1254):    at com.coship.netfirmware.NetFirmwareService.access$4400(NetFirmwareService.java:72)
+D/StrictMode( 1254):    at com.coship.netfirmware.NetFirmwareService$6.run(NetFirmwareService.java:1096)
+D/StrictMode( 1254): StrictMode policy violation: android.os.StrictMode$StrictModeNetworkViolation: policy=23 violation=4
+D/StrictMode( 1254):    at android.os.StrictMode$AndroidBlockGuardPolicy.onNetwork(StrictMode.java:1105)
+D/StrictMode( 1254):    at libcore.io.BlockGuardOs.connect(BlockGuardOs.java:84)
+D/StrictMode( 1254):    at libcore.io.IoBridge.connectErrno(IoBridge.java:127)
+D/StrictMode( 1254):    at libcore.io.IoBridge.connect(IoBridge.java:112)
+D/StrictMode( 1254):    at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:192)
+D/StrictMode( 1254):    at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:459)
+D/StrictMode( 1254):    at java.net.Socket.connect(Socket.java:842)
+D/StrictMode( 1254):    at libcore.net.http.HttpConnection.<init>(HttpConnection.java:77)
+D/StrictMode( 1254):    at libcore.net.http.HttpConnection.<init>(HttpConnection.java:50)
+D/StrictMode( 1254):    at libcore.net.http.HttpConnection$Address.connect(HttpConnection.java:351)
+D/StrictMode( 1254):    at libcore.net.http.HttpConnectionPool.get(HttpConnectionPool.java:86)
+D/StrictMode( 1254):    at libcore.net.http.HttpConnection.connect(HttpConnection.java:128)
+D/StrictMode( 1254):    at libcore.net.http.HttpEngine.openSocketConnection(HttpEngine.java:308)
+D/StrictMode( 1254):    at libcore.net.http.HttpEngine.connect(HttpEngine.java:303)
+D/StrictMode( 1254):    at libcore.net.http.HttpEngine.sendSocketRequest(HttpEngine.java:282)
+D/StrictMode( 1254):    at libcore.net.http.HttpEngine.sendRequest(HttpEngine.java:232)
+D/StrictMode( 1254):    at libcore.net.http.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:273)
+D/StrictMode( 1254):    at libcore.net.http.HttpURLConnectionImpl.getInputStream(HttpURLConnectionImpl.java:168)
+D/StrictMode( 1254):    at com.coship.netfirmware.downloads.HttpDownLoad.getInputStream(HttpDownLoad.java:67)
+D/StrictMode( 1254):    at com.coship.netfirmware.downloads.HttpDownLoad.downfile(HttpDownLoad.java:45)
+D/StrictMode( 1254):    at com.coship.netfirmware.NetFirmwareService.downFileFormService(NetFirmwareService.java:1464)
+D/StrictMode( 1254):    at com.coship.netfirmware.NetFirmwareService.access$4400(NetFirmwareService.java:72)
+D/StrictMode( 1254):    at com.coship.netfirmware.NetFirmwareService$6.run(NetFirmwareService.java:1096)
+D/StrictMode( 1254): StrictMode policy violation: android.os.StrictMode$StrictModeNetworkViolation: policy=23 violation=4
+D/StrictMode( 1254):    at android.os.StrictMode$AndroidBlockGuardPolicy.onNetwork(StrictMode.java:1105)
+D/StrictMode( 1254):    at libcore.io.BlockGuardOs.recvfrom(BlockGuardOs.java:163)
+D/StrictMode( 1254):    at libcore.io.IoBridge.recvfrom(IoBridge.java:503)
+D/StrictMode( 1254):    at java.net.PlainSocketImpl.read(PlainSocketImpl.java:488)
+D/StrictMode( 1254):    at java.net.PlainSocketImpl.access$000(PlainSocketImpl.java:46)
+D/StrictMode( 1254):    at java.net.PlainSocketImpl$PlainSocketInputStream.read(PlainSocketImpl.java:240)
+D/StrictMode( 1254):    at java.io.InputStream.read(InputStream.java:163)
+D/StrictMode( 1254):    at java.io.BufferedInputStream.fillbuf(BufferedInputStream.java:142)
+D/StrictMode( 1254):    at java.io.BufferedInputStream.read(BufferedInputStream.java:227)
+D/StrictMode( 1254):    at libcore.io.Streams.readAsciiLine(Streams.java:201)
+D/StrictMode( 1254):    at libcore.net.http.HttpEngine.readResponseHeaders(HttpEngine.java:544)
+D/StrictMode( 1254):    at libcore.net.http.HttpEngine.readResponse(HttpEngine.java:784)
+D/StrictMode( 1254):    at libcore.net.http.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:274)
+D/StrictMode( 1254):    at libcore.net.http.HttpURLConnectionImpl.getInputStream(HttpURLConnectionImpl.java:168)
+D/StrictMode( 1254):    at com.coship.netfirmware.downloads.HttpDownLoad.getInputStream(HttpDownLoad.java:67)
+D/StrictMode( 1254):    at com.coship.netfirmware.downloads.HttpDownLoad.downfile(HttpDownLoad.java:45)
+D/StrictMode( 1254):    at com.coship.netfirmware.NetFirmwareService.downFileFormService(NetFirmwareService.java:1464)
+D/StrictMode( 1254):    at com.coship.netfirmware.NetFirmwareService.access$4400(NetFirmwareService.java:72)
+D/StrictMode( 1254):    at com.coship.netfirmware.NetFirmwareService$6.run(NetFirmwareService.java:1096)
+D/StrictMode( 1254): StrictMode policy violation: android.os.StrictMode$StrictModeNetworkViolation: policy=23 violation=4
+D/StrictMode( 1254):    at android.os.StrictMode$AndroidBlockGuardPolicy.onNetwork(StrictMode.java:1105)
+D/StrictMode( 1254):    at libcore.io.BlockGuardOs.recvfrom(BlockGuardOs.java:163)
+D/StrictMode( 1254):    at libcore.io.IoBridge.recvfrom(IoBridge.java:503)
+D/StrictMode( 1254):    at java.net.PlainSocketImpl.read(PlainSocketImpl.java:488)
+D/StrictMode( 1254):    at java.net.PlainSocketImpl.access$000(PlainSocketImpl.java:46)
+D/StrictMode( 1254):    at java.net.PlainSocketImpl$PlainSocketInputStream.read(PlainSocketImpl.java:240)
+D/StrictMode( 1254):    at java.io.InputStream.read(InputStream.java:163)
+D/StrictMode( 1254):    at java.io.BufferedInputStream.fillbuf(BufferedInputStream.java:142)
+D/StrictMode( 1254):    at java.io.BufferedInputStream.read(BufferedInputStream.java:227)
+D/StrictMode( 1254):    at libcore.io.Streams.readAsciiLine(Streams.java:201)
+D/StrictMode( 1254):    at libcore.net.http.HttpEngine.readHeaders(HttpEngine.java:587)
+D/StrictMode( 1254):    at libcore.net.http.HttpEngine.readResponseHeaders(HttpEngine.java:545)
+D/StrictMode( 1254):    at libcore.net.http.HttpEngine.readResponse(HttpEngine.java:784)
+D/StrictMode( 1254):    at libcore.net.http.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:274)
+D/StrictMode( 1254):    at libcore.net.http.HttpURLConnectionImpl.getInputStream(HttpURLConnectionImpl.java:168)
+D/StrictMode( 1254):    at com.coship.netfirmware.downloads.HttpDownLoad.getInputStream(HttpDownLoad.java:67)
+D/StrictMode( 1254):    at com.coship.netfirmware.downloads.HttpDownLoad.downfile(HttpDownLoad.java:45)
+D/StrictMode( 1254):    at com.coship.netfirmware.NetFirmwareService.downFileFormService(NetFirmwareService.java:1464)
+D/StrictMode( 1254):    at com.coship.netfirmware.NetFirmwareService.access$4400(NetFirmwareService.java:72)
+D/StrictMode( 1254):    at com.coship.netfirmware.NetFirmwareService$6.run(NetFirmwareService.java:1096)
+I/HttpDownLoad( 1254): network is error
+I/NetFirmwareService( 1254): Local Des:/data/data/com.coship.netfirmware/description_null.dat
+D/StrictMode( 1254): StrictMode policy violation: android.os.StrictMode$StrictModeDiskReadViolation: policy=23 violation=2
+D/StrictMode( 1254):    at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1089)
+D/StrictMode( 1254):    at libcore.io.BlockGuardOs.open(BlockGuardOs.java:106)
+D/StrictMode( 1254):    at libcore.io.IoBridge.open(IoBridge.java:390)
+D/StrictMode( 1254):    at java.io.FileInputStream.<init>(FileInputStream.java:78)
+D/StrictMode( 1254):    at java.io.FileInputStream.<init>(FileInputStream.java:105)
+D/StrictMode( 1254):    at com.coship.netfirmware.NetFirmwareService.getUpdateInfo(NetFirmwareService.java:1483)
+D/StrictMode( 1254):    at com.coship.netfirmware.NetFirmwareService.downFileFormService(NetFirmwareService.java:1467)
+D/StrictMode( 1254):    at com.coship.netfirmware.NetFirmwareService.access$4400(NetFirmwareService.java:72)
+D/StrictMode( 1254):    at com.coship.netfirmware.NetFirmwareService$6.run(NetFirmwareService.java:1096)
+W/System.err( 1254): java.io.FileNotFoundException: /data/data/com.coship.netfirmware/description_null.dat: open failed: ENOENT (No such file or directory)
+W/System.err( 1254):    at libcore.io.IoBridge.open(IoBridge.java:406)
+W/System.err( 1254):    at java.io.FileInputStream.<init>(FileInputStream.java:78)
+W/System.err( 1254):    at java.io.FileInputStream.<init>(FileInputStream.java:105)
+W/System.err( 1254):    at com.coship.netfirmware.NetFirmwareService.getUpdateInfo(NetFirmwareService.java:1483)
+W/System.err( 1254):    at com.coship.netfirmware.NetFirmwareService.downFileFormService(NetFirmwareService.java:1467)
+W/System.err( 1254):    at com.coship.netfirmware.NetFirmwareService.access$4400(NetFirmwareService.java:72)
+W/System.err( 1254):    at com.coship.netfirmware.NetFirmwareService$6.run(NetFirmwareService.java:1096)
+W/System.err( 1254): Caused by: libcore.io.ErrnoException: open failed: ENOENT (No such file or directory)
+W/System.err( 1254):    at libcore.io.Posix.open(Native Method)
+W/System.err( 1254):    at libcore.io.BlockGuardOs.open(BlockGuardOs.java:110)
+W/System.err( 1254):    at libcore.io.IoBridge.open(IoBridge.java:390)
+W/System.err( 1254):    ... 6 more
+I/NetFirmwareService( 1254): packageSize--->null
+I/NetFirmwareService( 1254): MD5--->null
+V/NetFirmwareService( 1254): MSG_LOAD_DAT_STATUS_mNetUpdate--->false
+D/NetFirmwareService( 1254): Network Connection Success!
+D/NetFirmwareService( 1254): Not Found Upgrade File!
+I/MonitorCw880( 1487): easybusReceive success !
+D/MonitorCw880( 1487):  easybusMsg.remoteIp=  192.168.43.3 easybusMsg.remotePort=  51812 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880( 1487):  ip error -> currentRemoteHost=192.168.43.152 easybusMsg.remoteIp=192.168.43.3, counter=7
+I/EasyControlIMEImpl( 1242): isCount = 4
+I/EasyControlIMEImpl( 1242): CounterThread is start----
+D/MonitorCw880( 1487): Befor,cycleCheckCounter=6 counter=7
+D/dalvikvm( 1605): GC_CONCURRENT freed 2049K, 32% free 12871K/18691K, paused 2ms+5ms
+I/MonitorCw880( 1487): easybusReceive success !
+D/MonitorCw880( 1487):  easybusMsg.remoteIp=  192.168.43.152 easybusMsg.remotePort=  39399 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880( 1487): currentRemoteHost=192.168.43.152 easybusMsg.remoteIp=192.168.43.152, counter=2
+D/MonitorCw880( 1487): easybusySend()-> easybusMsg.remoteIp=  192.168.43.152 easybusMsg.remotePort=  39399 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+I/MonitorCw880( 1487): easybusReceive success !
+D/MonitorCw880( 1487):  easybusMsg.remoteIp=  192.168.43.3 easybusMsg.remotePort=  51812 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880( 1487):  ip error -> currentRemoteHost=192.168.43.152 easybusMsg.remoteIp=192.168.43.3, counter=3
+D/HomePlayerLib( 1605): hostaddress count is 2
+D/dalvikvm( 1605): GC_CONCURRENT freed 2053K, 32% free 12799K/18691K, paused 4ms+4ms
+I/ActivityManager(  949): Start proc com.coship.trafficmonitor for service com.coship.trafficmonitor/.service.DownloadDataService: pid=2979 uid=10034 gids={3003}
+D/dalvikvm( 1605): GC_CONCURRENT freed 1971K, 32% free 12800K/18691K, paused 8ms+5ms
+D/P2PENGINE_TEST( 1813): <2013-03-28 16:28:25>
+D/P2PENGINE_TEST( 1813): [DEBUG] [Dispatcher] [thread_dispatch] begin, session:0, msg:PC_Timeout, status:empty
+D/P2PENGINE_TEST( 1813): [DEBUG] [Dispatcher] [thread_dispatch] ended, session:0, msg:PC_Timeout, status:empty
+D/DownloadDataService( 2979): DownloadDataService:onCreate()
+D/DownloadDataService( 2979): DownloadDataService:onStartCommand()
+D/AndroidRuntime( 2979): Shutting down VM
+W/dalvikvm( 2979): threadid=1: thread exiting with uncaught exception (group=0x40fa81f8)
+E/AndroidRuntime( 2979): FATAL EXCEPTION: main
+E/AndroidRuntime( 2979): java.lang.RuntimeException: Unable to start service com.coship.trafficmonitor.service.DownloadDataService@41520370 with null: java.lang.NullPointerException
+E/AndroidRuntime( 2979):        at android.app.ActivityThread.handleServiceArgs(ActivityThread.java:2376)
+E/AndroidRuntime( 2979):        at android.app.ActivityThread.access$1900(ActivityThread.java:123)
+E/AndroidRuntime( 2979):        at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1210)
+E/AndroidRuntime( 2979):        at android.os.Handler.dispatchMessage(Handler.java:99)
+E/AndroidRuntime( 2979):        at android.os.Looper.loop(Looper.java:137)
+E/AndroidRuntime( 2979):        at android.app.ActivityThread.main(ActivityThread.java:4424)
+E/AndroidRuntime( 2979):        at java.lang.reflect.Method.invokeNative(Native Method)
+E/AndroidRuntime( 2979):        at java.lang.reflect.Method.invoke(Method.java:511)
+E/AndroidRuntime( 2979):        at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:848)
+E/AndroidRuntime( 2979):        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:575)
+E/AndroidRuntime( 2979):        at dalvik.system.NativeStart.main(Native Method)
+E/AndroidRuntime( 2979): Caused by: java.lang.NullPointerException
+E/AndroidRuntime( 2979):        at com.coship.trafficmonitor.service.DownloadDataService.onStartCommand(DownloadDataService.java:76)
+E/AndroidRuntime( 2979):        at android.app.ActivityThread.handleServiceArgs(ActivityThread.java:2359)
+E/AndroidRuntime( 2979):        ... 10 more
+I/MonitorCw880( 1487): easybusReceive success !
+D/MonitorCw880( 1487):  easybusMsg.remoteIp=  192.168.43.152 easybusMsg.remotePort=  39399 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880( 1487): currentRemoteHost=192.168.43.152 easybusMsg.remoteIp=192.168.43.152, counter=3
+D/MonitorCw880( 1487): easybusySend()-> easybusMsg.remoteIp=  192.168.43.152 easybusMsg.remotePort=  39399 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+I/EasyControlIMEImpl( 1242): isCount = 4
+I/EasyControlIMEImpl( 1242): CounterThread is start----
+I/MonitorCw880( 1487): easybusReceive success !
+D/MonitorCw880( 1487):  easybusMsg.remoteIp=  192.168.43.3 easybusMsg.remotePort=  51812 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880( 1487):  ip error -> currentRemoteHost=192.168.43.152 easybusMsg.remoteIp=192.168.43.3, counter=4
+D/dalvikvm( 1605): GC_CONCURRENT freed 1953K, 32% free 12799K/18691K, paused 3ms+5ms
+I/MonitorCw880( 1487): easybusReceive success !
+D/MonitorCw880( 1487):  easybusMsg.remoteIp=  192.168.43.152 easybusMsg.remotePort=  39399 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880( 1487): currentRemoteHost=192.168.43.152 easybusMsg.remoteIp=192.168.43.152, counter=4
+D/MonitorCw880( 1487): easybusySend()-> easybusMsg.remoteIp=  192.168.43.152 easybusMsg.remotePort=  39399 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+I/MonitorCw880( 1487): easybusReceive success !
+D/MonitorCw880( 1487):  easybusMsg.remoteIp=  192.168.43.3 easybusMsg.remotePort=  51812 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880( 1487):  ip error -> currentRemoteHost=192.168.43.152 easybusMsg.remoteIp=192.168.43.3, counter=5
+D/dalvikvm( 1605): GC_CONCURRENT freed 1966K, 32% free 12880K/18691K, paused 2ms+5ms
+D/P2PENGINE_TEST( 1813): <2013-03-28 16:28:35>
+D/P2PENGINE_TEST( 1813): [DEBUG] [Dispatcher] [thread_dispatch] begin, session:0, msg:PC_Timeout, status:empty
+D/P2PENGINE_TEST( 1813): [DEBUG] [Dispatcher] [thread_dispatch] ended, session:0, msg:PC_Timeout, status:empty
+D/HomePlayerLib( 1605): hostaddress count is 2
+D/dalvikvm( 1605): GC_CONCURRENT freed 2061K, 32% free 12758K/18691K, paused 2ms+5ms
+I/EasyControlIMEImpl( 1242): isCount = 4
+I/EasyControlIMEImpl( 1242): CounterThread is start----
+I/MonitorCw880( 1487): easybusReceive success !
+D/MonitorCw880( 1487):  easybusMsg.remoteIp=  192.168.43.152 easybusMsg.remotePort=  39399 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880( 1487): currentRemoteHost=192.168.43.152 easybusMsg.remoteIp=192.168.43.152, counter=5
+D/MonitorCw880( 1487): easybusySend()-> easybusMsg.remoteIp=  192.168.43.152 easybusMsg.remotePort=  39399 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/dalvikvm( 1605): GC_CONCURRENT freed 1931K, 32% free 12765K/18691K, paused 3ms+4ms
+^C
+130|shell@android:/ # 

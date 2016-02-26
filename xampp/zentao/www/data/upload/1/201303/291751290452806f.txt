@@ -1,0 +1,526 @@
+D/StreamDataSource(  739): the path is /lb
+D/ContentSource(  739): sniffMOV
+D/StreamDataSource(  739): getPath, mediaType = 0
+D/StreamDataSource(  739): the path is /lb
+D/ContentSource(  739): sniffTS
+D/StreamDataSource(  739): getPath, mediaType = 0
+D/StreamDataSource(  739): the path is /lb
+D/ContentSource(  739): sniffMPEG
+D/StreamDataSource(  739): getPath, mediaType = 0
+D/StreamDataSource(  739): the path is /lb
+D/ContentSource(  739): sniffRM
+D/StreamDataSource(  739): getPath, mediaType = 0
+D/StreamDataSource(  739): the path is /lb
+D/ContentSource(  739): sniffWMV
+D/StreamDataSource(  739): getPath, mediaType = 0
+D/StreamDataSource(  739): the path is /lb
+D/ContentSource(  739): sniffJpegAndMPO
+D/StreamDataSource(  739): getPath, mediaType = 0
+D/StreamDataSource(  739): the path is /lb
+D/ContentSource(  739): fast_avformat = 0
+I/System.out( 2017): RegisterActivity............onDestroy()......................
+D/dalvikvm( 2017): GC_EXPLICIT freed 91K, 37% free 24473K/38467K, paused 6ms+10ms
+E/StrictMode( 2017): class com.sihuatech.wasutv4ics.ui.RegisterActivity; instances=3; limit=1
+E/StrictMode( 2017): android.os.StrictMode$InstanceCountViolation: class com.sihuatech.wasutv4ics.ui.RegisterActivity; instances=3; limit=1
+E/StrictMode( 2017):    at android.os.StrictMode.setClassInstanceLimit(StrictMode.java:1)
+D/StreamDataSource(  739): 
+D/StreamDataSource(  739):  seekAt : 0   
+D/P2PENGINE_TEST( 2017): <2013-03-29 17:48:50>
+D/P2PENGINE_TEST( 2017): [DEBUG] [Dispatcher] [thread_dispatch] begin, session:0, msg:PC_Timeout, status:empty
+D/P2PENGINE_TEST( 2017): <2013-03-29 17:48:50>
+D/P2PENGINE_TEST( 2017): [DEBUG] [Dispatcher] [thread_dispatch] begin, session:0, msg:PC_Timeout, status:empty
+D/P2PENGINE_TEST( 2017): <2013-03-29 17:48:50>
+D/P2PENGINE_TEST( 2017): [DEBUG] [Dispatcher] [thread_dispatch] begin, session:0, msg:PC_Timeout, status:empty
+D/P2PENGINE_TEST( 2017): <2013-03-29 17:48:50>
+D/P2PENGINE_TEST( 2017): [DEBUG] [Dispatcher] [thread_dispatch] begin, session:0, msg:PC_Timeout, status:empty
+D/P2PENGINE_TEST( 2017): <2013-03-29 17:48:50>
+D/P2PENGINE_TEST( 2017): [DEBUG] [Dispatcher] [thread_dispatch] begin, session:0, msg:PC_Timeout, status:empty
+D/P2PENGINE_TEST( 2017): <2013-03-29 17:48:50>
+D/P2PENGINE_TEST( 2017): [DEBUG] [Dispatcher] [thread_dispatch] begin, session:0, msg:PC_Timeout, status:empty
+D/P2PENGINE_TEST( 2017): <2013-03-29 17:48:50>
+D/P2PENGINE_TEST( 2017): [DEBUG] [Dispatcher] [thread_dispatch] begin, session:0, msg:PC_Timeout, status:empty
+D/P2PENGINE_TEST( 2017): [DEBUG] [Dispatcher] [thread_dispatch] ended, session:0, msg:PC_Timeout, status:empty
+D/P2PENGINE_TEST( 2017): [DEBUG] [Dispatcher] [thread_dispatch] ended, session:0, msg:PC_Timeout, status:empty
+D/P2PENGINE_TEST( 2017): [DEBUG] [Dispatcher] [thread_dispatch] ended, session:0, msg:PC_Timeout, status:empty
+D/P2PENGINE_TEST( 2017): [DEBUG] [Dispatcher] [thread_dispatch] ended, session:0, msg:PC_Timeout, status:empty
+D/P2PENGINE_TEST( 2017): [DEBUG] [Dispatcher] [thread_dispatch] ended, session:0, msg:PC_Timeout, status:empty
+D/P2PENGINE_TEST( 2017): [DEBUG] [Dispatcher] [thread_dispatch] ended, session:0, msg:PC_Timeout, status:empty
+D/P2PENGINE_TEST( 2017): [DEBUG] [Dispatcher] [thread_dispatch] ended, session:0, msg:PC_Timeout, status:empty
+D/NetFirmwareService( 1342): MSG_CREATE_CHECK_THREAD
+D/NetFirmwareService( 1342): MSG_CHECK_UPGRADE
+D/NetFirmwareService( 1342): Download URL = http://update.feifeikan.com/Fbox/002101/versioncode.dat
+D/NetFirmwareService( 1342): Save file in path = /data/data/com.coship.netfirmware/versionCode.dat
+D/NetFirmwareService( 1342): Set download thread number = 2
+D/dalvikvm( 1342): GC_CONCURRENT freed 475K, 81% free 1780K/9027K, paused 2ms+3ms
+D/DownloadTask( 1342): server accept range
+D/dalvikvm( 1342): GC_FOR_ALLOC freed 259K, 80% free 1810K/9027K, paused 20ms
+I/dalvikvm-heap( 1342): Grow heap (frag case) to 5.869MB for 524304-byte allocation
+D/dalvikvm( 1342): GC_FOR_ALLOC freed <1K, 75% free 2322K/9027K, paused 17ms
+D/NetFirmwareService( 1342): ret--->true
+D/NetFirmwareService( 1342): DownloadConstants.TASK_STATUS_RUNNING
+D/dalvikvm( 1342): GC_CONCURRENT freed 26K, 69% free 2841K/9027K, paused 2ms+3ms
+D/NetFirmwareService( 1342): MSG_VER_CODE_STATUS_CHANGE
+D/NetFirmwareService( 1342): MSG_VER_CODE_STATUS_CHANGE
+D/DownloadXpress( 1342): filePart1 final status: 491
+D/DownloadXpress( 1342): filePart0 final status: 491
+D/StreamDataSource(  739): StreamContentSource::sendRangeRequest, offset=0
+D/Downloader(  739): [downloadThread]Downloader::removeTask  
+D/Downloader(  739): Content-Type: application/octet-stream
+D/Downloader(  739): 
+D/HTTPStreamCurl(  739): <<<<<<<<stream len: -1   m_UrlContentType:application/octet-stream
+D/HTTPStreamCurl(  739):   retrycount:99 
+W/DownloadTask( 1342): There has a file named /data/data/com.coship.netfirmware/versionCode.dat already
+D/NetFirmwareService( 1342): DownloadConstants.TASK_STATUS_COMPLETED
+D/NetFirmwareService( 1342): MSG_VER_CODE_STATUS_CHANGE
+D/NetFirmwareService( 1342): MSG_CHECK_VERSION_CODE
+D/NetFirmwareService( 1342): checkVersionCode
+D/NetFirmwareService( 1342): analysisVersionCodeData
+I/NetFirmwareService( 1342): mVersionCodeFile--->49
+D/NetFirmwareService( 1342): verCode = 211311
+D/NetFirmwareService( 1342): Description URL = null
+D/NetFirmwareService( 1342): MSG_GET_DESCRIPTION
+D/NetFirmwareService( 1342): Download URL = http://update.feifeikan.com/Fbox/002101/description_211311.dat
+D/NetFirmwareService( 1342): Save file in path = /data/data/com.coship.netfirmware/description.dat
+D/NetFirmwareService( 1342): Set download thread number = 2
+D/dalvikvm( 1342): GC_CONCURRENT freed 683K, 69% free 2843K/9027K, paused 2ms+2ms
+D/DownloadTask( 1342): server accept range
+D/dalvikvm( 1342): GC_CONCURRENT freed 171K, 63% free 3357K/9027K, paused 2ms+2ms
+D/NetFirmwareService( 1342): MSG_DESCRIPT_STATUS_CHANGE
+D/NetFirmwareService( 1342): MSG_DESCRIPT_STATUS_CHANGE
+D/DownloadXpress( 1342): filePart1 final status: 491
+D/DownloadXpress( 1342): filePart0 final status: 491
+D/NetFirmwareService( 1342): MSG_DESCRIPT_STATUS_CHANGE
+D/StreamDataSource(  739): 
+D/StreamDataSource(  739):  seekAt : 0   
+D/dalvikvm( 1342): GC_CONCURRENT freed 1429K, 70% free 2796K/9027K, paused 1ms+2ms
+W/DownloadTask( 1342): There has a file named /data/data/com.coship.netfirmware/description.dat already
+D/NetFirmwareService( 1342): DownloadConstants.TASK_STATUS_COMPLETED
+D/NetFirmwareService( 1342): MSG_DESCRIPT_STATUS_CHANGE
+D/NetFirmwareService( 1342): MSG_CHECK_DESCRIPTION
+D/DescriptionInfo( 1342): version=p7373.i13111_2013-03-18
+D/DescriptionInfo( 1342): versionCode=211311
+D/DescriptionInfo( 1342): compatibleDevice=002101
+D/DescriptionInfo( 1342): sn=
+D/DescriptionInfo( 1342): mac=
+D/DescriptionInfo( 1342): updateType=notify
+D/DescriptionInfo( 1342): speed=0
+D/DescriptionInfo( 1342): checkTime=0
+D/DescriptionInfo( 1342): packageSize=203150867
+D/DescriptionInfo( 1342): md5=438176851d193bbcdbe46cf48323e048
+D/DescriptionInfo( 1342): packageUrl=
+D/DescriptionInfo( 1342): version code = 211311
+D/DescriptionInfo( 1342): machine id = 0
+D/DescriptionInfo( 1342): hardware id = 0
+D/DescriptionInfo( 1342): update package size = 203150867
+D/NetFirmwareService( 1342): The description info is valid
+D/NetFirmwareService( 1342): The description version code = 211311
+D/NetFirmwareService( 1342): The description machine ID = 0
+D/NetFirmwareService( 1342): The description hardware ID = 0
+V/NetFirmwareService( 1342): .datNum != PcNum
+I/MonitorCw880( 5388): easybusReceive success !
+D/MonitorCw880( 5388):  easybusMsg.remoteIp=  192.168.43.152 easybusMsg.remotePort=  57431 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880( 5388): currentRemoteHost=192.168.43.152 easybusMsg.remoteIp=192.168.43.152, counter=6
+D/MonitorCw880( 5388): easybusySend()-> easybusMsg.remoteIp=  192.168.43.152 easybusMsg.remotePort=  57431 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/InputEventConsistencyVerifier( 2017): KeyEvent: ACTION_UP but key was not down.
+D/InputEventConsistencyVerifier( 2017):   in android.widget.Button@421f3220
+D/InputEventConsistencyVerifier( 2017):   0: sent at 9145049000000, KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_RIGHT, scanCode=106, metaState=0, flags=0x8, repeatCount=0, eventTime=9145049, downTime=9144887, deviceId=2, source=0x101 }
+D/MonitorCw880( 5388): Befor,cycleCheckCounter=6 counter=7
+D/StreamDataSource(  739): StreamContentSource::sendRangeRequest, offset=0
+D/Downloader(  739): [downloadThread]Downloader::removeTask  
+D/Downloader(  739): Content-Type: application/octet-stream
+D/Downloader(  739): 
+D/HTTPStreamCurl(  739): <<<<<<<<stream len: -1   m_UrlContentType:application/octet-stream
+D/HTTPStreamCurl(  739):   retrycount:98 
+D/InputEventConsistencyVerifier( 2017): KeyEvent: ACTION_UP but key was not down.
+D/InputEventConsistencyVerifier( 2017):   in android.widget.Button@423911d0
+D/InputEventConsistencyVerifier( 2017):   0: sent at 9145757000000, KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_LEFT, scanCode=105, metaState=0, flags=0x8, repeatCount=0, eventTime=9145757, downTime=9145597, deviceId=2, source=0x101 }
+D/InputEventConsistencyVerifier( 2017):   -- recent events --
+D/InputEventConsistencyVerifier( 2017):   1: sent at 9144887000000, (unhandled) KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=106, metaState=0, flags=0x8, repeatCount=0, eventTime=9144887, downTime=9144887, deviceId=2, source=0x101 }
+D/StreamDataSource(  739): 
+D/StreamDataSource(  739):  seekAt : 0   
+D/AndroidRuntime( 2017): Shutting down VM
+W/dalvikvm( 2017): threadid=1: thread exiting with uncaught exception (group=0x40fa81f8)
+E/AndroidRuntime( 2017): FATAL EXCEPTION: main
+E/AndroidRuntime( 2017): java.lang.NullPointerException
+E/AndroidRuntime( 2017):        at com.sihuatech.wasutv4ics.ui.DemoHomeActivity$1$2.onClick(DemoHomeActivity.java:507)
+E/AndroidRuntime( 2017):        at android.view.View.performClick(View.java:3511)
+E/AndroidRuntime( 2017):        at android.view.View.onKeyUp(View.java:6073)
+E/AndroidRuntime( 2017):        at android.widget.TextView.onKeyUp(TextView.java:5595)
+E/AndroidRuntime( 2017):        at android.view.KeyEvent.dispatch(KeyEvent.java:3164)
+E/AndroidRuntime( 2017):        at android.view.View.dispatchKeyEvent(View.java:5500)
+E/AndroidRuntime( 2017):        at android.view.ViewGroup.dispatchKeyEvent(ViewGroup.java:1246)
+E/AndroidRuntime( 2017):        at android.view.ViewGroup.dispatchKeyEvent(ViewGroup.java:1246)
+E/AndroidRuntime( 2017):        at android.view.ViewGroup.dispatchKeyEvent(ViewGroup.java:1246)
+E/AndroidRuntime( 2017):        at android.view.ViewGroup.dispatchKeyEvent(ViewGroup.java:1246)
+E/AndroidRuntime( 2017):        at android.view.ViewGroup.dispatchKeyEvent(ViewGroup.java:1246)
+E/AndroidRuntime( 2017):        at android.view.ViewGroup.dispatchKeyEvent(ViewGroup.java:1246)
+E/AndroidRuntime( 2017):        at com.android.internal.policy.impl.PhoneWindow$DecorView.superDispatchKeyEvent(PhoneWindow.java:1879)
+E/AndroidRuntime( 2017):        at com.android.internal.policy.impl.PhoneWindow.superDispatchKeyEvent(PhoneWindow.java:1361)
+E/AndroidRuntime( 2017):        at android.app.Dialog.dispatchKeyEvent(Dialog.java:704)
+E/AndroidRuntime( 2017):        at com.android.internal.policy.impl.PhoneWindow$DecorView.dispatchKeyEvent(PhoneWindow.java:1806)
+E/AndroidRuntime( 2017):        at android.view.ViewRootImpl.deliverKeyEventPostIme(ViewRootImpl.java:3327)
+E/AndroidRuntime( 2017):        at android.view.ViewRootImpl.handleFinishedEvent(ViewRootImpl.java:3300)
+E/AndroidRuntime( 2017):        at android.view.ViewRootImpl.handleMessage(ViewRootImpl.java:2460)
+E/AndroidRuntime( 2017):        at android.os.Handler.dispatchMessage(Handler.java:99)
+E/AndroidRuntime( 2017):        at android.os.Looper.loop(Looper.java:137)
+E/AndroidRuntime( 2017):        at android.app.ActivityThread.main(ActivityThread.java:4424)
+E/AndroidRuntime( 2017):        at java.lang.reflect.Method.invokeNative(Native Method)
+E/AndroidRuntime( 2017):        at java.lang.reflect.Method.invoke(Method.java:511)
+E/AndroidRuntime( 2017):        at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:848)
+E/AndroidRuntime( 2017):        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:575)
+E/AndroidRuntime( 2017):        at dalvik.system.NativeStart.main(Native Method)
+D/dalvikvm(  948): GC_CONCURRENT freed 819K, 61% free 4216K/10691K, paused 3ms+6ms
+W/ActivityManager(  948):   Force finishing activity com.sihuatech.wasutv4ics/.ui.DemoHomeActivity
+D/dalvikvm(  948): GC_FOR_ALLOC freed 140K, 55% free 4869K/10691K, paused 57ms
+I/Process (  948): Sending signal. PID: 2017 SIG: 3
+I/dalvikvm( 2017): threadid=3: reacting to signal 3
+W/ActivityManager(  948): Activity pause timeout for ActivityRecord{41620620 com.sihuatech.wasutv4ics/.ui.DemoHomeActivity}
+I/dalvikvm( 2017): Wrote stack traces to '/data/anr/traces.txt'
+D/StreamDataSource(  739): StreamContentSource::sendRangeRequest, offset=0
+D/Downloader(  739): [downloadThread]Downloader::removeTask  
+D/selena.android.gl.GLView$GLThread( 1370): waitForRenderComplete - Enter: false, false
+W/selena.android.gl.GLView$GLThread( 1370):     at selena.android.gl.GLView$GLThread.waitForRenderComplete(GLView.java:746)
+D/selena.android.view.SelenaView( 1370): Surface Lost
+W/selena.android.view.SelenaView( 1370):     at selena.android.view.SelenaView.onSurfaceLost(SelenaView.java:322)
+V/selena.android.gl.EglHelper( 1370): >>> Looking for EGL Config ES1 R8G8B8A0 D16S0 AA0
+W/selena.android.gl.EglHelper( 1370):     at selena.android.gl.EglHelper.start(EglHelper.java:101)
+V/selena.android.gl.EglHelper( 1370): eglChooseConfig err: 12288
+W/selena.android.gl.EglHelper( 1370):     at selena.android.gl.EglHelper.findAndInitConfig(EglHelper.java:177)
+V/selena.android.gl.EglHelper( 1370): >>> EGL Config [0] ES0 R8G8B8A0 D24S0 AA0 Caveat[12344] - Score: 2048
+W/selena.android.gl.EglHelper( 1370):     at selena.android.gl.EglHelper.findAndInitConfig(EglHelper.java:237)
+V/selena.android.gl.EglHelper( 1370): --> Config chosen: 0
+W/selena.android.gl.EglHelper( 1370):     at selena.android.gl.EglHelper.findAndInitConfig(EglHelper.java:250)
+V/selena.android.gl.EglHelper( 1370): >>> EGL Config [1] ES0 R8G8B8A8 D24S8 AA0 Caveat[12344] - Score: 526344
+W/selena.android.gl.EglHelper( 1370):     at selena.android.gl.EglHelper.findAndInitConfig(EglHelper.java:237)
+V/selena.android.gl.EglHelper( 1370): >>> EGL Config [2] ES0 R8G8B8A8 D24S8 AA0 Caveat[12344] - Score: 526344
+W/selena.android.gl.EglHelper( 1370):     at selena.android.gl.EglHelper.findAndInitConfig(EglHelper.java:237)
+V/selena.android.gl.EglHelper( 1370): >>> EGL Config [3] ES0 R8G8B8A8 D24S8 AA4 Caveat[12344] - Score: 67635208
+W/selena.android.gl.EglHelper( 1370):     at selena.android.gl.EglHelper.findAndInitConfig(EglHelper.java:237)
+D/selena.android.gl.GLView$GLThread( 1370): waitForRenderComplete - LeaveAt: 19242
+W/selena.android.gl.GLView$GLThread( 1370):     at selena.android.gl.GLView$GLThread.waitForRenderComplete(GLView.java:755)
+D/Downloader(  739): Content-Type: application/octet-stream
+D/Downloader(  739): 
+D/dalvikvm( 1370): GC_CONCURRENT freed 1468K, 73% free 5016K/18435K, paused 2ms+8ms
+W/selena.android.view.SelenaView( 1370): DISPATCH_DRAW_WAIT_FOR_NFRAMES_COUNT: 1
+W/selena.android.view.SelenaView( 1370):     at selena.android.view.SelenaView.dispatchDraw(SelenaView.java:99)
+D/selena.android.gl.GLView$GLThread( 1370): waitForRenderComplete - Enter: false, false
+W/selena.android.gl.GLView$GLThread( 1370):     at selena.android.gl.GLView$GLThread.waitForRenderComplete(GLView.java:746)
+D/selena.android.gl.GLView$GLThread( 1370): waitForRenderComplete - LeaveAt: 19242
+W/selena.android.gl.GLView$GLThread( 1370):     at selena.android.gl.GLView$GLThread.waitForRenderComplete(GLView.java:755)
+D/HTTPStreamCurl(  739): <<<<<<<<stream len: -1   m_UrlContentType:application/octet-stream
+D/HTTPStreamCurl(  739):   retrycount:97 
+D/StreamDataSource(  739): 
+D/StreamDataSource(  739):  seekAt : 0   
+I/MonitorCw880( 5388): easybusReceive success !
+D/MonitorCw880( 5388):  easybusMsg.remoteIp=  192.168.43.152 easybusMsg.remotePort=  57431 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880( 5388): currentRemoteHost=192.168.43.152 easybusMsg.remoteIp=192.168.43.152, counter=2
+D/MonitorCw880( 5388): easybusySend()-> easybusMsg.remoteIp=  192.168.43.152 easybusMsg.remotePort=  57431 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/StreamDataSource(  739): StreamContentSource::sendRangeRequest, offset=0
+D/Downloader(  739): [downloadThread]Downloader::removeTask  
+D/Downloader(  739): Content-Type: application/octet-stream
+D/Downloader(  739): 
+D/HTTPStreamCurl(  739): <<<<<<<<stream len: -1   m_UrlContentType:application/octet-stream
+D/HTTPStreamCurl(  739):   retrycount:99 
+D/StreamDataSource(  739): 
+D/StreamDataSource(  739):  seekAt : 0   
+D/P2PENGINE_TEST( 2017): <2013-03-29 17:49:00>
+D/P2PENGINE_TEST( 2017): [DEBUG] [Dispatcher] [thread_dispatch] begin, session:0, msg:PC_Timeout, status:empty
+D/P2PENGINE_TEST( 2017): <2013-03-29 17:49:00>
+D/P2PENGINE_TEST( 2017): [DEBUG] [Dispatcher] [thread_dispatch] begin, session:0, msg:PC_Timeout, status:empty
+D/P2PENGINE_TEST( 2017): <2013-03-29 17:49:00>
+D/P2PENGINE_TEST( 2017): [DEBUG] [Dispatcher] [thread_dispatch] begin, session:0, msg:PC_Timeout, status:empty
+D/P2PENGINE_TEST( 2017): <2013-03-29 17:49:00>
+D/P2PENGINE_TEST( 2017): [DEBUG] [Dispatcher] [thread_dispatch] begin, session:0, msg:PC_Timeout, status:empty
+D/P2PENGINE_TEST( 2017): <2013-03-29 17:49:00>
+D/P2PENGINE_TEST( 2017): [DEBUG] [Dispatcher] [thread_dispatch] begin, session:0, msg:PC_Timeout, status:empty
+D/P2PENGINE_TEST( 2017): <2013-03-29 17:49:00>
+D/P2PENGINE_TEST( 2017): [DEBUG] [Dispatcher] [thread_dispatch] begin, session:0, msg:PC_Timeout, status:empty
+D/P2PENGINE_TEST( 2017): <2013-03-29 17:49:00>
+D/P2PENGINE_TEST( 2017): [DEBUG] [Dispatcher] [thread_dispatch] begin, session:0, msg:PC_Timeout, status:empty
+D/P2PENGINE_TEST( 2017): [DEBUG] [Dispatcher] [thread_dispatch] ended, session:0, msg:PC_Timeout, status:empty
+D/P2PENGINE_TEST( 2017): [DEBUG] [Dispatcher] [thread_dispatch] ended, session:0, msg:PC_Timeout, status:empty
+D/P2PENGINE_TEST( 2017): [DEBUG] [Dispatcher] [thread_dispatch] ended, session:0, msg:PC_Timeout, status:empty
+D/P2PENGINE_TEST( 2017): [DEBUG] [Dispatcher] [thread_dispatch] ended, session:0, msg:PC_Timeout, status:empty
+D/P2PENGINE_TEST( 2017): [DEBUG] [Dispatcher] [thread_dispatch] ended, session:0, msg:PC_Timeout, status:empty
+D/P2PENGINE_TEST( 2017): [DEBUG] [Dispatcher] [thread_dispatch] ended, session:0, msg:PC_Timeout, status:empty
+D/P2PENGINE_TEST( 2017): [DEBUG] [Dispatcher] [thread_dispatch] ended, session:0, msg:PC_Timeout, status:empty
+D/StreamDataSource(  739): StreamContentSource::sendRangeRequest, offset=0
+D/Downloader(  739): [downloadThread]Downloader::removeTask  
+D/Downloader(  739): Content-Type: application/octet-stream
+D/Downloader(  739): 
+D/HTTPStreamCurl(  739): <<<<<<<<stream len: -1   m_UrlContentType:application/octet-stream
+D/HTTPStreamCurl(  739):   retrycount:99 
+D/MstarPlayer(  739): create MSrv_MM_PlayerInterface
+D/MstarPlayer(  739): E_CONTENT_VIDEO_TS
+D/MstarPlayer(  739): ===> GET source FILE Size -1 
+D/MstarPlayer(  739): doPrepare: FileLength=-1
+D/MstarPlayer(  739): doPrepare, use E_MEDIA_FILE_TYPE_NETWORK_STREAM_WITHOUT_SEEK
+D/MstarPlayer(  739): play content is video
+D/MMPlayer(  739): constructor: 0x37268
+D/MMPlayer(  739): 
+D/MMPlayer(  739): connect
+D/MMPlayer(  739): 
+D/MMPlayer(  739): getMMPlayerService
+D/IMMPlayerService(  739): Send CONNECT
+D/IMMPlayer(  739): Send INITIALIZE
+I//lib/ld-linux.so.3(  743): V/MMPlayerService( 758 758): MMPlayerService::connect(callingPid 739, client 0x2a192418)
+I//lib/ld-linux.so.3(  743): V/MMPlayerService( 758 758): MMPlayerService::Client constructor(callingPid 739)
+I//lib/ld-linux.so.3(  743): MMPlayerService::Client::MM_Initialize()
+I//lib/ld-linux.so.3(  743): MSrv_MM_PhotoPlayer::Initialize().
+I//lib/ld-linux.so.3(  743): mapi_cpcodec::Initialize(). eDecoderPath:2
+I//lib/ld-linux.so.3(  743): Thread name: mapi_cpcodec.
+I//lib/ld-linux.so.3(  743): MIU interval 0x60000000.
+I//lib/ld-linux.so.3(  743): E_MMAP_ID_XC_MAIN_FB PA: 0x17bc1000, VA: 0x457ff000, size: 0x1800000, IsMIU0: 1.
+I//lib/ld-linux.so.3(  743): E_MMAP_ID_PHOTO_SHAREMEM PA: 0x167bc000, VA: 0x443fa000, size: 0x400, IsMIU0: 1.
+I//lib/ld-linux.so.3(  743): E_MMAP_ID_JPD_READ PA: 0x167bc400, VA: 0x443fa400, size: 0x50080, IsMIU0: 1.
+I//lib/ld-linux.so.3(  743): E_MMAP_ID_JPD_WRITE PA: 0x1680c480, VA: 0x4444a480, size: 0x3fc000, IsMIU0: 1.
+I//lib/ld-linux.so.3(  743): E_MMAP_ID_PHOTO_DISPLAY PA: 0x163c0000, VA: 0x43ffe000, size: 0x3fc000, IsMIU0: 1.
+I//lib/ld-linux.so.3(  743): E_MMAP_ID_PHOTO_INTER PA: 0x16c08480, VA: 0x44846480, size: 0x630000, IsMIU0: 1.
+I//lib/ld-linux.so.3(  743): E_MMAP_ID_PHOTO_MPO_INTER PA: 0x17238480, VA: 0x44e76480, size: 0x3fc000, IsMIU0: 1.
+I//lib/ld-linux.so.3(  743): E_MMAP_ID_VDPLAYER_DATA PA: 0x163c0000, VA: 0x43ffe000, size: 0x1000, IsMIU0: 1.
+I//lib/ld-linux.so.3(  743): E_MMAP_ID_VDPLAYER_BITSTREAM PA: 0x16d40000, VA: 0x4497e000, size: 0x400000, IsMIU0: 1.
+I//lib/ld-linux.so.3(  743): E_MMAP_ID_VDPLAYER_BITSTREAM_EXT PA: 0x16940000, VA: 0x4457e000, size: 0x400000, IsMIU0: 1.
+I//lib/ld-linux.so.3(  743): E_MMAP_ID_SUBTITLE PA: 0x16740000, VA: 0x4437e000, size: 0x1e0000, IsMIU0: 1.
+I//lib/ld-linux.so.3(  743): E_MMAP_ID_MAD_DEC PA: 0x15c40000, VA: 0x4387e000, size: 0x280000, IsMIU0: 1.
+I//lib/ld-linux.so.3(  743): E_MMAP_ID_VDEC_CPU PA: 0x1b800000, VA: 0x4943e000, size: 0x200000, IsMIU0: 1.
+I//lib/ld-linux.so.3(  743): E_MMAP_ID_VDEC_FRAMEBUFFER PA: 0x1ba00000, VA: 0x4963e000, size: 0x1b00000, IsMIU0: 1.
+I//lib/ld-linux.so.3(  743): E_MMAP_ID_VDEC_FRAMEBUFFERSD PA: 0x1ba00000, VA: 0x4963e000, size: 0x1b00000, IsMIU0: 1.
+I//lib/ld-linux.so.3(  743): E_MMAP_ID_VDEC_BITSTREAM PA: 0x1d500000, VA: 0x4b13e000, size: 0x800000, IsMIU0: 1.
+I//lib/ld-linux.so.3(  743): E_MMAP_ID_VDEC_MVC_FRAMEBUFFER PA: 0x1ba00000, VA: 0x4963e000, size: 0x2b00000, IsMIU0: 1.
+I//lib/ld-linux.so.3(  743): E_MMAP_ID_VDEC_MVC_BITSTREAM PA: 0x1e500000, VA: 0x4c13e000, size: 0x1600000, IsMIU0: 1.
+I//lib/ld-linux.so.3(  743): E_MMAP_ID_DMX_SECBUF PA: 0xd0000, VA: 0x4120e000, size: 0x70000, IsMIU0: 1.
+I//lib/ld-linux.so.3(  743): ???????? Important,The MMAP ID(110) does not existed!, please check it...
+I//lib/ld-linux.so.3(  743): ???????? Please update the right system configure...
+I//lib/ld-linux.so.3(  743): ???????? Important,The MMAP ID(111) does not existed!, please check it...
+I//lib/ld-linux.so.3(  743): ???????? Please update the right system configure...
+I//lib/ld-linux.so.3(  743): Panel width: 1280, heigt: 720.
+I//lib/ld-linux.so.3(  743): MPO SBS width: 1792, heigt: 504.
+I//lib/ld-linux.so.3(  743): Output Buffer start: 0x4444a480, BUS address start: 0x5680c480, size: 0x3fc000.
+I//lib/ld-linux.so.3(  743): Display Buffer start: 0x43ffe000, BUS address start: 0x563c0000, size: 0x3fc000.
+I//lib/ld-linux.so.3(  743): Internal Buffer start: 0x44846480, BUS address start: 0x56c08480, size: 0x630000.
+I//lib/ld-linux.so.3(  743): MPO Internal Buffer start: 0x44e76480, BUS address start: 0x57238480, size: 0x3fc000.
+I//lib/ld-linux.so.3(  743): MSrv_MM_PhotoPlayer::Initialize() Done.
+I//lib/ld-linux.so.3(  743): >>> MSrv_MM_VideoPlayer  Initialize 
+I//lib/ld-linux.so.3(  743): mapi_cpcodec::Initialize(). eDecoderPath:2
+I//lib/ld-linux.so.3(  743): ******Amplifier_TI5707_SWMute(0)
+I//lib/ld-linux.so.3(  743): 5707write fail = 7
+I//lib/ld-linux.so.3(  743): 5707write fail = 7
+I//lib/ld-linux.so.3(  743): 5707write fail = 7
+I//lib/ld-linux.so.3(  743): 5707write fail = 7
+I//lib/ld-linux.so.3(  743): 5707write fail = 6
+D/IMMPlayer(  739): Get ret:0
+D/IMMPlayer(  739): Send PLAYER_COMMAND_ADD_EVENT_RECIPIENT_FPTR
+D/IMMPlayer(  739): Get ret:1
+D/IMMPlayer(  739): Send MM_SetPlayerTimeOutValue
+D/IMMPlayer(  739): pTimeOutInfo->u32FileIOTimeOut:4294967295
+D/IMMPlayer(  739): pTimeOutInfo->u32FileReadTimeOut:4294967295
+D/IMMPlayer(  739): pTimeOutInfo->u32FileSeekTimeOut:4294967295
+D/IMMPlayer(  739): pTimeOutInfo->u32DecodeCtrlTimeOut:4294967295
+D/IMMPlayer(  739): pTimeOutInfo->u32ESBuffCtrlTimeOut:-1
+D/IMMPlayer(  739): Get ret:0
+D/IMMPlayer(  739): Send MM_CreateMediaItem
+D/IMMPlayer(  739): stMedia.u32FileID:4294967295
+D/IMMPlayer(  739): stMedia.u32FileSecondID:0
+D/IMMPlayer(  739): stMedia.u32FileThirdID:0
+D/IMMPlayer(  739): stMedia.u32FileFourthID:0
+D/IMMPlayer(  739): stMedia.u64FileLength:18446744073709551615
+D/IMMPlayer(  739): stMedia.eMediaType:2
+D/IMMPlayer(  739): stMedia.eMediaFileType:2
+D/IMMPlayer(  739): stMedia.eMediaCreateMode:0
+D/IMMPlayer(  739): stMedia.u32CtlFlag:66
+I//lib/ld-linux.so.3(  743): Panel width: 01280, heigt: 720.
+I//lib/ld-linux.so.3(  743): Thread name: MM_Audio.
+I//lib/ld-linux.so.3(  743): Thread name: MM_Audio.
+D/IMMPlayer(  739): Get ret:0
+D/MstarPlayer(  739): media item 0x1
+D/MstarPlayer(  739): MstarPlayer::doPrepare done
+I//lib/ld-linux.so.3(  743): Video Item Info, file ID: 0xffffffff, file length: 0xffffffff 0xffffffff.
+I//lib/ld-linux.so.3(  743): Output Resolution: DISPLAY_DACOUT_576P or DISPLAY_DACOUT_720P_50 or DISPLAY_DACOUT_1080P_50.
+I//lib/ld-linux.so.3(  743): >>>GetDRMSetting From EEPROM
+I//lib/ld-linux.so.3(  743): mapi_cpcodec::CreateMedia(): 9152615.
+I//lib/ld-linux.so.3(  743): 1 File ID: 0xffffffff, 2 File ID: 0x0, 3 File ID: 0x0, 4 File ID: 0x0.
+I//lib/ld-linux.so.3(  743): File size: 0xffffffff ffffffff.
+I//lib/ld-linux.so.3(  743): Media Type: 0, File Type: 2, Create Mode: 0.
+I//lib/ld-linux.so.3(  743): mapi_cpcodec::videoCreateMedia().
+I//lib/ld-linux.so.3(  743): Reconfigure Buffer.
+I//lib/ld-linux.so.3(  743): E_MMAP_ID_VDEC_FRAMEBUFFER PA: 0x1ba00000, VA: 0x4963e000, size: 0x1b00000, IsMIU0: 1.
+I//lib/ld-linux.so.3(  743): E_MMAP_ID_VDEC_FRAMEBUFFERSD PA: 0x1ba00000, VA: 0x4963e000, size: 0x1b00000, IsMIU0: 1.
+I//lib/ld-linux.so.3(  743): E_MMAP_ID_VDEC_BITSTREAM PA: 0x1d500000, VA: 0x4b13e000, size: 0x800000, IsMIU0: 1.
+I//lib/ld-linux.so.3(  743): E_MMAP_ID_VDEC_MVC_FRAMEBUFFER PA: 0x1ba00000, VA: 0x4963e000, size: 0x2b00000, IsMIU0: 1.
+I//lib/ld-linux.so.3(  743): E_MMAP_ID_VDEC_MVC_BITSTREAM PA: 0x1e500000, VA: 0x4c13e000, size: 0x1600000, IsMIU0: 1.
+I//lib/ld-linux.so.3(  743): Copy TSP FW bin 2a0cb008 -> 4120e000; 4400
+I//lib/ld-linux.so.3(  743): drop error frame.
+I//lib/ld-linux.so.3(  743): pCodecMedia eFileType:2,eAppType:0 
+I//lib/ld-linux.so.3(  743): default unseekable Stream mode config: Set preload size 0x4000
+I//lib/ld-linux.so.3(  743): Stream mode. Set read header require size: MIN_REQUIRE_SIZE
+I//lib/ld-linux.so.3(  743): Stream mode. for ts,Set read header probe option: (E_VDP_READ_HEADER_PROBE_AUDIO_DISABLE | E_VDP_READ_HEADER_PROBE_DURATION_DISABLE)
+I//lib/ld-linux.so.3(  743): >>>>  DRM start  DRM MODEL ID  0x3031
+I//lib/ld-linux.so.3(  743): LoadDRMMemory();
+I//lib/ld-linux.so.3(  743): Display Msg: 29.
+I//lib/ld-linux.so.3(  743):  set Frame buffer info  MAX_FRAMENUM 4   MAX_FIELDNUM  16
+I//lib/ld-linux.so.3(  743): Enable TS Subtitle codec state  1
+I//lib/ld-linux.so.3(  743): [CI][HbbTV-VOD]<INFO>:[1364550540.642395] MM init start
+I//lib/ld-linux.so.3(  743): videoCreateMedia Done.
+I//lib/ld-linux.so.3(  743): Create CP Ccodec Video Media Done.
+I//lib/ld-linux.so.3(  743): Device or resource busy
+I//lib/ld-linux.so.3(  743): Cannot open interrupt descriptor for irq=147 Auth OK
+I//lib/ld-linux.so.3(  743): Check S/W IP Statue
+I//lib/ld-linux.so.3(  743): [0]:OFF; [1]:OFF; [2]:OFF; [3]:ON
+I//lib/ld-linux.so.3(  743): [4]:OFF; [5]:OFF; [6]:OFF; [7]:OFF
+I//lib/ld-linux.so.3(  743): [8]:OFF; [9]:OFF; [10]:OFF; [11]:ON
+I//lib/ld-linux.so.3(  743): [12]:ON; [13]:OFF; [14]:OFF; [15]:OFF
+I//lib/ld-linux.so.3(  743): [16]:OFF; [17]:OFF; [18]:OFF; [19]:ON
+I//lib/ld-linux.so.3(  743): [20]:ON; [21]:ON; [22]:ON; [23]:ON
+I//lib/ld-linux.so.3(  743): [24]:OFF; [25]:OFF; [26]:OFF; [27]:ON
+I//lib/ld-linux.so.3(  743): [28]:ON; [29]:ON; [30]:ON; [31]:OFF
+I//lib/ld-linux.so.3(  743): [32]:OFF; [33]:ON; [34]:ON; [35]:OFF
+I//lib/ld-linux.so.3(  743): [36]:OFF; [37]:OFF; [38]:OFF; [39]:ON
+I//lib/ld-linux.so.3(  743): [40]:ON; [41]:OFF; [42]:OFF; [43]:OFF
+I//lib/ld-linux.so.3(  743): [44]:OFF; [45]:OFF; [46]:OFF; [47]:OFF
+I//lib/ld-linux.so.3(  743): [48]:OFF; [49]:OFF; [50]:OFF; [51]:OFF
+I//lib/ld-linux.so.3(  743): [52]:OFF; [53]:OFF; [54]:OFF; [55]:OFF
+I//lib/ld-linux.so.3(  743): [56]:OFF; [57]:OFF; [58]:OFF; [59]:OFF
+I//lib/ld-linux.so.3(  743): [60]:OFF; [61]:OFF; [62]:OFF; [63]:OFF
+I//lib/ld-linux.so.3(  743): Subtitle File Open Fail !!
+I//lib/ld-linux.so.3(  743): Attached File Open Fail !!
+I//lib/ld-linux.so.3(  743): Audio File Fail!!
+I//lib/ld-linux.so.3(  743): Blocking Read: 901, size: 0x1000.
+I//lib/ld-linux.so.3(  743): Blocking Read: 0, size: 0x8000.
+I//lib/ld-linux.so.3(  743): File format : TS
+I//lib/ld-linux.so.3(  743): Blocking Read: 1001, size: 0x20000.
+I//lib/ld-linux.so.3(  743): Bitrate = 262144 Byte/s, Duration = -1 ms
+I//lib/ld-linux.so.3(  743): PackSize = 28200 Byte.
+I//lib/ld-linux.so.3(  743): ==============================================================================================
+I//lib/ld-linux.so.3(  743): Data:MIU0; Bits:MIU0; MAD:MIU0; MVD:MIU0; SVD:MIU0; FB:MIU0; TSP:MIU0; FBL:No
+I//lib/ld-linux.so.3(  743): Bit Buffer:0x4497e000      Size:0x400000
+I//lib/ld-linux.so.3(  743): Subtitle Bit Buffer:0x4437e000     Size:0x1b0000
+I//lib/ld-linux.so.3(  743): MAD Buffer:0x4387e000
+I//lib/ld-linux.so.3(  743): MADExt Buffer:0x4457e000   Size:0x400000
+I//lib/ld-linux.so.3(  743): VDEC FW Buffer:0x4943e000  Size:0x200000
+I//lib/ld-linux.so.3(  743): Frame Buffer:0x4963e000    Size:0x1b00000
+I//lib/ld-linux.so.3(  743): MVD Buffer:0x4b13e000      Size:0x800000
+I//lib/ld-linux.so.3(  743): TSP FW Buffer:0x4120e000   Size:0x70000
+I//lib/ld-linux.so.3(  743): Data Buffer:0x163d1000     Size:0x36f000
+I//lib/ld-linux.so.3(  743): Attached File Buffer Size:0xffffffff
+I//lib/ld-linux.so.3(  743): -> Demuxer:0x164f8000      Size:0x248000
+I//lib/ld-linux.so.3(  743): -> SeqHeader:0x4400f000    Size:0x1000
+I//lib/ld-linux.so.3(  743): -> MOV Table:0x4963e000    Size:0x1b00000
+I//lib/ld-linux.so.3(  743): -> MOV Static:0x44010000   Size:0x100000
+I//lib/ld-linux.so.3(  743): -> DRM Payload:0x44110000  Size:0x4000
+I//lib/ld-linux.so.3(  743): -> DRM Playback Context:0x44114000 Size:0x1000
+I//lib/ld-linux.so.3(  743): -> MADExtend:0x44116000    Size:0x20000
+I//lib/ld-linux.so.3(  743): -> NonCache Area:0x44115000        Size:0x1000
+I//lib/ld-linux.so.3(  743): -> Reserved Size:0x0
+I//lib/ld-linux.so.3(  743): ==============================================================================================
+I//lib/ld-linux.so.3(  743): Initialize TS HW
+I//lib/ld-linux.so.3(  743): =========> vdec_u8Idx=0x0, u32VdecStreamId=01010
+I//lib/ld-linux.so.3(  743): HAL_VPU_EX_SetDbgLevel eLevel=0x1
+I//lib/ld-linux.so.3(  743): Load MPEG Audio Codec.
+I//lib/ld-linux.so.3(  743): ========MPEG Audio Codec========
+I//lib/ld-linux.so.3(  743): ===== Check Audio Decoder Protection from hash-key IP =====
+I//lib/ld-linux.so.3(  743): Hash-key Support DD.
+I//lib/ld-linux.so.3(  743): Hash-key Support DD+.
+I//lib/ld-linux.so.3(  743): Hash-key Support Generic HE-AAC !!
+I//lib/ld-linux.so.3(  743): Hash-key Support WMA.
+I//lib/ld-linux.so.3(  743): Hash-key Support DRA.
+I//lib/ld-linux.so.3(  743): ===== Check Protection IP End                         =====
+I//lib/ld-linux.so.3(  743): ******Amplifier_TI5707_SWMute(0)
+I//lib/ld-linux.so.3(  743): 5707write fail = 7
+I//lib/ld-linux.so.3(  743): 5707write fail = 7
+I//lib/ld-linux.so.3(  743): 5707write fail = 7
+I//lib/ld-linux.so.3(  743): 5707write fail = 7
+I//lib/ld-linux.so.3(  743): 5707write fail = 6
+I//lib/ld-linux.so.3(  743): DS enable = 0
+I//lib/ld-linux.so.3(  743): Blocking Read: 0, size: 0x4000.
+I//lib/ld-linux.so.3(  743): To ask Dynscaling Size from vdec  0x0
+I//lib/ld-linux.so.3(  743): jim:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+I//lib/ld-linux.so.3(  743):  Size(720x576), Disp(11520x8640), Par(16x15), FrameRate:25000, Interlace:0
+I//lib/ld-linux.so.3(  743): 1st sequence header Decode Ready!! **
+I/MonitorCw880( 5388): easybusReceive success !
+D/MonitorCw880( 5388):  easybusMsg.remoteIp=  192.168.43.152 easybusMsg.remotePort=  57431 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880( 5388): currentRemoteHost=192.168.43.152 easybusMsg.remoteIp=192.168.43.152, counter=3
+D/MonitorCw880( 5388): easybusySend()-> easybusMsg.remoteIp=  192.168.43.152 easybusMsg.remotePort=  57431 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MstarPlayer(  739): Get E_EVENT_INIT_OK event.
+D/IMMPlayer(  739): Send MM_EnableSubtitleShow
+D/IMMPlayer(  739): u32Item:1
+D/IMMPlayer(  739): bEnable:1
+D/IMMPlayer(  739): Get ret:1
+D/MstarPlayer(  739): <<<<<set init done flag
+I//lib/ld-linux.so.3(  743): [CI][HbbTV-VOD]<INFO>:[1364550543.626904] MM init done
+I//lib/ld-linux.so.3(  743): E_CPCODEC_MSG_INIT_OK: 9155601.
+D/MstarPlayer(  739): <<<<<<<<<Init done
+D/IMMPlayer(  739): Send MM_GetMetaData
+D/IMMPlayer(  739): u32Item:1
+D/IMMPlayer(  739): eMetadata:11
+D/IMMPlayer(  739): u32BuffSize:4
+D/IMMPlayer(  739): Get ret:0
+D/IMMPlayer(  739): Send MM_GetMetaData
+D/IMMPlayer(  739): u32Item:1
+D/IMMPlayer(  739): eMetadata:12
+D/IMMPlayer(  739): u32BuffSize:4
+D/IMMPlayer(  739): Get ret:0
+D/MediaPlayerService(  739): [107] notify (0x2f928, 5, 720, 576)
+D/MstarPlayer(  739): MstarPlayer::initRender
+D/MstarPlayer(  739): MstarPlayer::initRender Done.
+D/MstarPlayer(  739): prepare done....video size 720,576
+D/MediaPlayerService(  739): [107] notify (0x2f928, 1, 0, 0)
+W/ActivityManager(  948): Activity destroy timeout for ActivityRecord{41620620 com.sihuatech.wasutv4ics/.ui.DemoHomeActivity}
+I/MonitorCw880( 5388): easybusReceive success !
+D/MonitorCw880( 5388):  easybusMsg.remoteIp=  192.168.43.152 easybusMsg.remotePort=  57431 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880( 5388): currentRemoteHost=192.168.43.152 easybusMsg.remoteIp=192.168.43.152, counter=4
+D/MonitorCw880( 5388): easybusySend()-> easybusMsg.remoteIp=  192.168.43.152 easybusMsg.remotePort=  57431 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/P2PENGINE_TEST( 2017): <2013-03-29 17:49:10>
+D/P2PENGINE_TEST( 2017): [DEBUG] [Dispatcher] [thread_dispatch] begin, session:0, msg:PC_Timeout, status:empty
+D/P2PENGINE_TEST( 2017): <2013-03-29 17:49:10>
+D/P2PENGINE_TEST( 2017): [DEBUG] [Dispatcher] [thread_dispatch] begin, session:0, msg:PC_Timeout, status:empty
+D/P2PENGINE_TEST( 2017): <2013-03-29 17:49:10>
+D/P2PENGINE_TEST( 2017): [DEBUG] [Dispatcher] [thread_dispatch] begin, session:0, msg:PC_Timeout, status:empty
+D/P2PENGINE_TEST( 2017): <2013-03-29 17:49:10>
+D/P2PENGINE_TEST( 2017): [DEBUG] [Dispatcher] [thread_dispatch] begin, session:0, msg:PC_Timeout, status:empty
+D/P2PENGINE_TEST( 2017): <2013-03-29 17:49:10>
+D/P2PENGINE_TEST( 2017): [DEBUG] [Dispatcher] [thread_dispatch] begin, session:0, msg:PC_Timeout, status:empty
+D/P2PENGINE_TEST( 2017): <2013-03-29 17:49:10>
+D/P2PENGINE_TEST( 2017): [DEBUG] [Dispatcher] [thread_dispatch] begin, session:0, msg:PC_Timeout, status:empty
+D/P2PENGINE_TEST( 2017): <2013-03-29 17:49:10>
+D/P2PENGINE_TEST( 2017): [DEBUG] [Dispatcher] [thread_dispatch] begin, session:0, msg:PC_Timeout, status:empty
+D/P2PENGINE_TEST( 2017): [DEBUG] [Dispatcher] [thread_dispatch] ended, session:0, msg:PC_Timeout, status:empty
+D/P2PENGINE_TEST( 2017): [DEBUG] [Dispatcher] [thread_dispatch] ended, session:0, msg:PC_Timeout, status:empty
+D/P2PENGINE_TEST( 2017): [DEBUG] [Dispatcher] [thread_dispatch] ended, session:0, msg:PC_Timeout, status:empty
+D/P2PENGINE_TEST( 2017): [DEBUG] [Dispatcher] [thread_dispatch] ended, session:0, msg:PC_Timeout, status:empty
+D/P2PENGINE_TEST( 2017): [DEBUG] [Dispatcher] [thread_dispatch] ended, session:0, msg:PC_Timeout, status:empty
+D/P2PENGINE_TEST( 2017): [DEBUG] [Dispatcher] [thread_dispatch] ended, session:0, msg:PC_Timeout, status:empty
+D/P2PENGINE_TEST( 2017): [DEBUG] [Dispatcher] [thread_dispatch] ended, session:0, msg:PC_Timeout, status:empty
+I/MonitorCw880( 5388): easybusReceive success !
+D/MonitorCw880( 5388):  easybusMsg.remoteIp=  192.168.43.152 easybusMsg.remotePort=  57431 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880( 5388): currentRemoteHost=192.168.43.152 easybusMsg.remoteIp=192.168.43.152, counter=5
+D/MonitorCw880( 5388): easybusySend()-> easybusMsg.remoteIp=  192.168.43.152 easybusMsg.remotePort=  57431 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+I/MonitorCw880( 5388): easybusReceive success !
+D/MonitorCw880( 5388):  easybusMsg.remoteIp=  192.168.43.152 easybusMsg.remotePort=  57431 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880( 5388): currentRemoteHost=192.168.43.152 easybusMsg.remoteIp=192.168.43.152, counter=6
+D/MonitorCw880( 5388): easybusySend()-> easybusMsg.remoteIp=  192.168.43.152 easybusMsg.remotePort=  57431 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880( 5388): Befor,cycleCheckCounter=6 counter=7
+D/P2PENGINE_TEST( 2017): <2013-03-29 17:49:20>
+D/P2PENGINE_TEST( 2017): [DEBUG] [Dispatcher] [thread_dispatch] begin, session:0, msg:PC_Timeout, status:empty
+D/P2PENGINE_TEST( 2017): <2013-03-29 17:49:20>
+D/P2PENGINE_TEST( 2017): [DEBUG] [Dispatcher] [thread_dispatch] begin, session:0, msg:PC_Timeout, status:empty
+D/P2PENGINE_TEST( 2017): <2013-03-29 17:49:20>
+D/P2PENGINE_TEST( 2017): [DEBUG] [Dispatcher] [thread_dispatch] begin, session:0, msg:PC_Timeout, status:empty
+D/P2PENGINE_TEST( 2017): <2013-03-29 17:49:20>
+D/P2PENGINE_TEST( 2017): [DEBUG] [Dispatcher] [thread_dispatch] begin, session:0, msg:PC_Timeout, status:empty
+D/P2PENGINE_TEST( 2017): <2013-03-29 17:49:20>
+D/P2PENGINE_TEST( 2017): [DEBUG] [Dispatcher] [thread_dispatch] begin, session:0, msg:PC_Timeout, status:empty
+D/P2PENGINE_TEST( 2017): <2013-03-29 17:49:20>
+D/P2PENGINE_TEST( 2017): [DEBUG] [Dispatcher] [thread_dispatch] begin, session:0, msg:PC_Timeout, status:empty
+D/P2PENGINE_TEST( 2017): <2013-03-29 17:49:20>
+D/P2PENGINE_TEST( 2017): [DEBUG] [Dispatcher] [thread_dispatch] begin, session:0, msg:PC_Timeout, status:empty
+D/P2PENGINE_TEST( 2017): [DEBUG] [Dispatcher] [thread_dispatch] ended, session:0, msg:PC_Timeout, status:empty
+D/P2PENGINE_TEST( 2017): [DEBUG] [Dispatcher] [thread_dispatch] ended, session:0, msg:PC_Timeout, status:empty
+D/P2PENGINE_TEST( 2017): [DEBUG] [Dispatcher] [thread_dispatch] ended, session:0, msg:PC_Timeout, status:empty
+D/P2PENGINE_TEST( 2017): [DEBUG] [Dispatcher] [thread_dispatch] ended, session:0, msg:PC_Timeout, status:empty
+D/P2PENGINE_TEST( 2017): [DEBUG] [Dispatcher] [thread_dispatch] ended, session:0, msg:PC_Timeout, status:empty
+D/P2PENGINE_TEST( 2017): [DEBUG] [Dispatcher] [thread_dispatch] ended, session:0, msg:PC_Timeout, status:empty
+D/P2PENGINE_TEST( 2017): [DEBUG] [Dispatcher] [thread_dispatch] ended, session:0, msg:PC_Timeout, status:empty
+I/MonitorCw880( 5388): easybusReceive success !
+D/MonitorCw880( 5388):  easybusMsg.remoteIp=  192.168.43.152 easybusMsg.remotePort=  57431 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880( 5388): currentRemoteHost=192.168.43.152 easybusMsg.remoteIp=192.168.43.152, counter=2
+D/MonitorCw880( 5388): easybusySend()-> easybusMsg.remoteIp=  192.168.43.152 easybusMsg.remotePort=  57431 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat

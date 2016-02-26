@@ -1,0 +1,2396 @@
+ice(  980): unable to find stats for iface rmnet0
+
+I/ActivityManager(  980): START {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.ts.gaya.coship/.MainActivity} from pid 980
+
+V/TabletStatusBar( 1139): setLightsOn(true)
+
+W/InputManagerService(  980): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@415277d0 (uid=1000 pid=5486)
+
+I/ActivityManager(  980): START {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 pkg=com.coship.sdp.sce.tvappstore cmp=com.coship.sdp.sce.tvappstore/.MainActivity} from pid 1269
+
+W/InputManagerService(  980): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@415ada70 (uid=10035 pid=1269)
+
+I/ActivityManager(  980): START {cmp=com.coship.sdp.sce.tvappstore/.AppMyAppUIMain} from pid 5486
+
+I/ActivityManager(  980): No longer want com.coship.adjustthevolume (pid 1762): hidden #16
+
+I/ActivityManager(  980): No longer want com.coship.stpservice (pid 3656): hidden #17
+
+I/ActivityManager(  980): START {flg=0x10000000 cmp=com.coship.sdp.sce.tvappstore/.MenuActivity} from pid 5486
+
+W/ActivityManager(  980): Scheduling restart of crashed service com.coship.adjustthevolume/.VolService in 5000ms
+
+W/ActivityManager(  980): Scheduling restart of crashed service com.coship.stpservice/.StpService in 14996ms
+
+I/ActivityManager(  980): START {cmp=com.coship.sdp.sce.tvappstore/.MainActivity} from pid 5486
+
+I/ActivityManager(  980): Start proc com.coship.adjustthevolume for service com.coship.adjustthevolume/.VolService: pid=5604 uid=1000 gids={3003, 1015, 3002, 3001, 3004}
+
+I/ActivityManager(  980): Start proc com.coship.stpservice for service com.coship.stpservice/.StpService: pid=5618 uid=1000 gids={3003, 1015, 3002, 3001, 3004}
+
+V/CheckBackdoors( 5618): add new backdoor. actionName=com.coship.adjustthevolume, backdoor.mBackdoorKey=0x5252525252
+
+V/CheckBackdoors( 5618): add new backdoor. actionName=com.coship.adjustthevolume.Volup, backdoor.mBackdoorKey=0x18
+
+V/CheckBackdoors( 5618): add new backdoor. actionName=com.coship.adjustthevolume.VolDown, backdoor.mBackdoorKey=0x19
+
+V/CheckBackdoors( 5618): there have same backdoor already, so do not add it
+
+V/CheckBackdoors( 5618): actionName=com.coship.adjustthevolume, backdoor.mBackdoorKey=0x5252525252
+
+V/CheckBackdoors( 5618): there have same backdoor already, so do not add it
+
+V/CheckBackdoors( 5618): actionName=com.coship.adjustthevolume.Volup, backdoor.mBackdoorKey=0x18
+
+V/CheckBackdoors( 5618): there have same backdoor already, so do not add it
+
+V/CheckBackdoors( 5618): actionName=com.coship.adjustthevolume.VolDown, backdoor.mBackdoorKey=0x19
+
+I/ActivityManager(  980): START {cmp=com.coship.sdp.sce.tvappstore/.AppDetailActivity (has extras)} from pid 5486
+
+I/ActivityManager(  980): START {flg=0x10000000 cmp=com.coship.sdp.sce.tvappstore/.ExitAppStoreActivity} from pid 5486
+
+W/ThrottleService(  980): unable to find stats for iface rmnet0
+
+I/ActivityManager(  980): No longer want com.iflytek.vac (pid 3946): hidden #16
+
+I/ActivityManager(  980): No longer want com.coship.startwizard (pid 1705): hidden #17
+
+W/ActivityManager(  980): Scheduling restart of crashed service com.iflytek.vaf/com.iflytek.vocmd.StartService in 5000ms
+
+W/ActivityManager(  980): Scheduling restart of crashed service com.iflytek.vaf/com.iflytek.vocmd.Context in 14999ms
+
+I/ActivityManager(  980): Start proc com.iflytek.vac for service com.iflytek.vaf/com.iflytek.vocmd.StartService: pid=5653 uid=10028 gids={3003, 1015}
+
+I/WindowManager(  980): WIN DEATH: Window{4171eff0 com.coship.sdp.sce.tvappstore/com.coship.sdp.sce.tvappstore.MainActivity paused=true}
+
+I/ActivityManager(  980): Process com.coship.sdp.sce.tvappstore (pid 5486) has died.
+
+W/ActivityManager(  980): Scheduling restart of crashed service com.coship.sdp.sce.tvappstore/.app.service.AppStoreCoreService in 1250ms
+
+I/WindowManager(  980): WIN DEATH: Window{416c4560 com.coship.sdp.sce.tvappstore/com.coship.sdp.sce.tvappstore.ExitAppStoreActivity paused=false}
+
+I/ActivityManager(  980): Start proc com.coship.sdp.sce.tvappstore for restart com.coship.sdp.sce.tvappstore: pid=5670 uid=1000 gids={3003, 1015, 3002, 3001, 3004}
+
+W/ActivityManager(  980): Force removing ActivityRecord{415ea260 com.coship.sdp.sce.tvappstore/.ExitAppStoreActivity}: app died, no saved state
+
+V/TabletStatusBar( 1139): setLightsOn(true)
+
+W/InputManagerService(  980): Got RemoteException sending setActive(false) notification to pid 5486 uid 1000
+
+I/ActivityManager(  980): START {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 pkg=com.coship.dvbsetting cmp=com.coship.dvbsetting/.main} from pid 1269
+
+V/TabletStatusBar( 1139): setLightsOn(true)
+
+W/InputManagerService(  980): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@415ada70 (uid=10035 pid=1269)
+
+I/ActivityManager(  980): START {cmp=com.coship.dvbsetting/.netsetting.netSet} from pid 3837
+
+I/EthernetManager( 3837): Init Ethernet Manager, service: android.net.ethernet.IEthernetManager$Stub$Proxy@41557938
+
+V/TabletStatusBar( 1139): setLightsOn(true)
+
+V/TabletStatusBar( 1139): setLightsOn(true)
+
+E/ActivityThread( 3837): Activity com.coship.dvbsetting.netsetting.netSet has leaked ServiceConnection android.bluetooth.BluetoothHeadset$1@43284430 that was originally bound here
+
+E/ActivityThread( 3837): android.app.ServiceConnectionLeaked: Activity com.coship.dvbsetting.netsetting.netSet has leaked ServiceConnection android.bluetooth.BluetoothHeadset$1@43284430 that was originally bound here
+
+E/ActivityThread( 3837):        at android.app.LoadedApk$ServiceDispatcher.<init>(LoadedApk.java:936)
+
+E/ActivityThread( 3837):        at android.app.LoadedApk.getServiceDispatcher(LoadedApk.java:830)
+
+E/ActivityThread( 3837):        at android.app.ContextImpl.bindService(ContextImpl.java:1142)
+
+E/ActivityThread( 3837):        at android.content.ContextWrapper.bindService(ContextWrapper.java:370)
+
+E/ActivityThread( 3837):        at android.bluetooth.BluetoothHeadset.<init>(BluetoothHeadset.java:231)
+
+E/ActivityThread( 3837):        at android.bluetooth.BluetoothAdapter.getProfileProxy(BluetoothAdapter.java:1168)
+
+E/ActivityThread( 3837):        at com.coship.dvbsetting.bluetooth.HeadsetProfile.<init>(HeadsetProfile.java:111)
+
+E/ActivityThread( 3837):        at com.coship.dvbsetting.netsetting.BluetoothSet.init(BluetoothSet.java:153)
+
+E/ActivityThread( 3837):        at com.coship.dvbsetting.netsetting.BluetoothSet.<init>(BluetoothSet.java:124)
+
+E/ActivityThread( 3837):        at com.coship.dvbsetting.netsetting.BluetoothSet.getInstance(BluetoothSet.java:103)
+
+E/ActivityThread( 3837):        at com.coship.dvbsetting.netsetting.netSet.onCreate(netSet.java:81)
+
+E/ActivityThread( 3837):        at android.app.Activity.performCreate(Activity.java:4465)
+
+E/ActivityThread( 3837):        at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1049)
+
+E/ActivityThread( 3837):        at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:1920)
+
+E/ActivityThread( 3837):        at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:1981)
+
+E/ActivityThread( 3837):        at android.app.ActivityThread.access$600(ActivityThread.java:123)
+
+E/ActivityThread( 3837):        at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1147)
+
+E/ActivityThread( 3837):        at android.os.Handler.dispatchMessage(Handler.java:99)
+
+E/ActivityThread( 3837):        at android.os.Looper.loop(Looper.java:137)
+
+E/ActivityThread( 3837):        at android.app.ActivityThread.main(ActivityThread.java:4424)
+
+E/ActivityThread( 3837):        at java.lang.reflect.Method.invokeNative(Native Method)
+
+E/ActivityThread( 3837):        at java.lang.reflect.Method.invoke(Method.java:511)
+
+E/ActivityThread( 3837):        at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:848)
+
+E/ActivityThread( 3837):        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:575)
+
+E/ActivityThread( 3837):        at dalvik.system.NativeStart.main(Native Method)
+
+W/ActivityManager(  980): Unbind failed: could not find connection for android.os.BinderProxy@416adc28
+
+V/TabletStatusBar( 1139): setLightsOn(true)
+
+W/InputManagerService(  980): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@41631268 (uid=1000 pid=3837)
+
+W/ActivityManager(  980): Activity destroy timeout for ActivityRecord{4171b588 com.coship.sdp.sce.tvappstore/.MainActivity}
+
+I/ActivityManager(  980): START {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 pkg=com.coship.sdp.sce.tvappstore cmp=com.coship.sdp.sce.tvappstore/.MainActivity} from pid 1269
+
+W/InputManagerService(  980): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@415ada70 (uid=10035 pid=1269)
+
+I/ActivityManager(  980): START {cmp=com.coship.sdp.sce.tvappstore/.AppSubjectUIMain} from pid 5670
+
+I/ActivityManager(  980): START {cmp=com.coship.sdp.sce.tvappstore/.AppDetailActivity (has extras)} from pid 5670
+
+W/ActivityManager( 980): Duplicate finish request for ActivityRecord{416d3188 com.coship.sdp.sce.tvappstore/.AppDetailActivity}
+
+I/ActivityManager(  980): START {flg=0x10000000 cmp=com.coship.sdp.sce.tvappstore/.MenuActivity} from pid 5670
+
+I/ActivityManager(  980): START {cmp=com.coship.sdp.sce.tvappstore/.AppMyAppUIMain} from pid 5670
+
+I/ActivityManager(  980): START {flg=0x10000000 cmp=com.coship.sdp.sce.tvappstore/.MenuActivity} from pid 5670
+
+I/ActivityManager(  980): START {flg=0x10000000 cmp=com.coship.sdp.sce.tvappstore/.MenuActivity} from pid 5670
+
+I/ActivityManager(  980): START {flg=0x10000000 cmp=com.coship.sdp.sce.tvappstore/.MenuActivity} from pid 5670
+
+I/ActivityManager(  980): START {cmp=com.coship.sdp.sce.tvappstore/.AppFormUIMain} from pid 5670
+
+I/ActivityManager( 980): START {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.ts.gaya.coship/.MainActivity} from pid 980
+
+V/TabletStatusBar( 1139): setLightsOn(true)
+
+W/InputManagerService(  980): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@41644908 (uid=1000 pid=5670)
+
+I/ActivityManager(  980): START {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 pkg=com.coship.dvbsetting cmp=com.coship.dvbsetting/.main} from pid 1269
+
+V/TabletStatusBar( 1139): setLightsOn(true)
+
+W/InputManagerService(  980): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@415ada70 (uid=10035 pid=1269)
+
+I/ActivityManager(  980): START {cmp=com.coship.dvbsetting/.netsetting.netSet} from pid 3837
+
+I/EthernetManager( 3837): Init Ethernet Manager, service: android.net.ethernet.IEthernetManager$Stub$Proxy@416293e0
+
+V/TabletStatusBar( 1139): setLightsOn(true)
+
+V/TabletStatusBar( 1139): setLightsOn(true)
+
+E/ActivityThread( 3837): Activity com.coship.dvbsetting.netsetting.netSet has leaked ServiceConnection android.bluetooth.BluetoothHeadset$1@415644f8 that was originally bound here
+
+E/ActivityThread( 3837): android.app.ServiceConnectionLeaked: Activity com.coship.dvbsetting.netsetting.netSet has leaked ServiceConnection android.bluetooth.BluetoothHeadset$1@415644f8 that was originally bound here
+
+E/ActivityThread( 3837):        at android.app.LoadedApk$ServiceDispatcher.<init>(LoadedApk.java:936)
+
+E/ActivityThread( 3837):        at android.app.LoadedApk.getServiceDispatcher(LoadedApk.java:830)
+
+E/ActivityThread( 3837):        at android.app.ContextImpl.bindService(ContextImpl.java:1142)
+
+E/ActivityThread( 3837):        at android.content.ContextWrapper.bindService(ContextWrapper.java:370)
+
+E/ActivityThread( 3837):        at android.bluetooth.BluetoothHeadset.<init>(BluetoothHeadset.java:231)
+
+E/ActivityThread( 3837):        at android.bluetooth.BluetoothAdapter.getProfileProxy(BluetoothAdapter.java:1168)
+
+E/ActivityThread( 3837):        at com.coship.dvbsetting.bluetooth.HeadsetProfile.<init>(HeadsetProfile.java:111)
+
+E/ActivityThread( 3837):        at com.coship.dvbsetting.netsetting.BluetoothSet.init(BluetoothSet.java:153)
+
+E/ActivityThread( 3837):        at com.coship.dvbsetting.netsetting.BluetoothSet.<init>(BluetoothSet.java:124)
+
+E/ActivityThread( 3837):        at com.coship.dvbsetting.netsetting.BluetoothSet.getInstance(BluetoothSet.java:103)
+
+E/ActivityThread( 3837):        at com.coship.dvbsetting.netsetting.netSet.onCreate(netSet.java:81)
+
+E/ActivityThread( 3837):        at android.app.Activity.performCreate(Activity.java:4465)
+
+E/ActivityThread( 3837):        at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1049)
+
+E/ActivityThread( 3837):        at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:1920)
+
+E/ActivityThread( 3837):        at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:1981)
+
+E/ActivityThread( 3837):        at android.app.ActivityThread.access$600(ActivityThread.java:123)
+
+E/ActivityThread( 3837):        at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1147)
+
+E/ActivityThread( 3837):        at android.os.Handler.dispatchMessage(Handler.java:99)
+
+E/ActivityThread( 3837):        at android.os.Looper.loop(Looper.java:137)
+
+E/ActivityThread( 3837):        at android.app.ActivityThread.main(ActivityThread.java:4424)
+
+E/ActivityThread( 3837):        at java.lang.reflect.Method.invokeNative(Native Method)
+
+E/ActivityThread( 3837):        at java.lang.reflect.Method.invoke(Method.java:511)
+
+E/ActivityThread( 3837):        at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:848)
+
+E/ActivityThread( 3837):        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:575)
+
+E/ActivityThread( 3837):        at dalvik.system.NativeStart.main(Native Method)
+
+W/ActivityManager(  980): Unbind failed: could not find connection for android.os.BinderProxy@416c4168
+
+V/TabletStatusBar( 1139): setLightsOn(true)
+
+W/InputManagerService(  980): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@41631268 (uid=1000 pid=3837)
+
+I/ActivityManager(  980): START {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 pkg=com.coship.dvbsetting cmp=com.coship.dvbsetting/.main} from pid 1269
+
+V/TabletStatusBar( 1139): setLightsOn(true)
+
+W/InputManagerService(  980): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@415ada70 (uid=10035 pid=1269)
+
+V/TabletStatusBar( 1139): setLightsOn(true)
+
+W/InputManagerService(  980): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@41631268 (uid=1000 pid=3837)
+
+I/ActivityManager(  980): START {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 pkg=com.coship.sdp.sce.tvappstore cmp=com.coship.sdp.sce.tvappstore/.MainActivity} from pid 1269
+
+W/InputManagerService(  980): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@415ada70 (uid=10035 pid=1269)
+
+I/ActivityManager(  980): START {cmp=com.coship.sdp.sce.tvappstore/.AppSubjectUIMain} from pid 5670
+
+I/ActivityManager(  980): START {flg=0x10000000 cmp=com.coship.sdp.sce.tvappstore/.MenuActivity} from pid 5670
+
+I/ActivityManager(  980): START {flg=0x10000000 cmp=com.coship.sdp.sce.tvappstore/.MenuActivity} from pid 5670
+
+I/ActivityManager(  980): Process com.coship.sdp.sce.tvappstore (pid 5670) has died.
+
+W/ActivityManager(  980): Scheduling restart of crashed service com.coship.sdp.sce.tvappstore/.app.service.AppStoreCoreService in 1250ms
+
+I/WindowManager(  980): WIN DEATH: Window{41670800 com.coship.sdp.sce.tvappstore/com.coship.sdp.sce.tvappstore.MenuActivity paused=false}
+
+I/WindowManager(  980): WIN DEATH: Window{4192e6b8 com.coship.sdp.sce.tvappstore/com.coship.sdp.sce.tvappstore.AppSubjectUIMain paused=true}
+
+I/ActivityManager(  980): Start proc com.coship.sdp.sce.tvappstore for restart com.coship.sdp.sce.tvappstore: pid=5742 uid=1000 gids={3003, 1015, 3002, 3001, 3004}
+
+W/ActivityManager(  980): Force removing ActivityRecord{4168d938 com.coship.sdp.sce.tvappstore/.MenuActivity}: app died, no saved state
+
+I/WindowManager(  980): WIN DEATH: Window{4171eff0 com.coship.sdp.sce.tvappstore/com.coship.sdp.sce.tvappstore.MainActivity paused=true}
+
+V/TabletStatusBar( 1139): setLightsOn(true)
+
+W/InputManagerService(  980): Got RemoteException sending setActive(false) notification to pid 5670 uid 1000
+
+I/ActivityManager(  980): START {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 pkg=com.coship.dvbsetting cmp=com.coship.dvbsetting/.main} from pid 1269
+
+I/ActivityManager(  980): START {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 pkg=com.coship.dvbsetting cmp=com.coship.dvbsetting/.main} from pid 1269
+
+V/TabletStatusBar( 1139): setLightsOn(true)
+
+W/InputManagerService(  980): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@415ada70 (uid=10035 pid=1269)
+
+I/ActivityManager(  980): START {cmp=com.coship.dvbsetting/.netsetting.netSet} from pid 3837
+
+I/EthernetManager( 3837): Init Ethernet Manager, service: android.net.ethernet.IEthernetManager$Stub$Proxy@415716e8
+
+V/TabletStatusBar( 1139): setLightsOn(true)
+
+W/ActivityManager(  980): Activity destroy timeout for ActivityRecord{415ea260 com.coship.sdp.sce.tvappstore/.MainActivity}
+
+W/ActivityManager(  980): Activity destroy timeout for ActivityRecord{418d46f8 com.coship.sdp.sce.tvappstore/.AppSubjectUIMain}
+
+V/TabletStatusBar( 1139): setLightsOn(true)
+
+E/ActivityThread( 3837): Activity com.coship.dvbsetting.netsetting.netSet has leaked ServiceConnection android.bluetooth.BluetoothHeadset$1@431ed518 that was originally bound here
+
+E/ActivityThread( 3837): android.app.ServiceConnectionLeaked: Activity com.coship.dvbsetting.netsetting.netSet has leaked ServiceConnection android.bluetooth.BluetoothHeadset$1@431ed518 that was originally bound here
+
+E/ActivityThread( 3837):        at android.app.LoadedApk$ServiceDispatcher.<init>(LoadedApk.java:936)
+
+E/ActivityThread( 3837):        at android.app.LoadedApk.getServiceDispatcher(LoadedApk.java:830)
+
+E/ActivityThread( 3837):        at android.app.ContextImpl.bindService(ContextImpl.java:1142)
+
+E/ActivityThread( 3837):        at android.content.ContextWrapper.bindService(ContextWrapper.java:370)
+
+E/ActivityThread( 3837):        at android.bluetooth.BluetoothHeadset.<init>(BluetoothHeadset.java:231)
+
+E/ActivityThread( 3837):        at android.bluetooth.BluetoothAdapter.getProfileProxy(BluetoothAdapter.java:1168)
+
+E/ActivityThread( 3837):        at com.coship.dvbsetting.bluetooth.HeadsetProfile.<init>(HeadsetProfile.java:111)
+
+E/ActivityThread( 3837):        at com.coship.dvbsetting.netsetting.BluetoothSet.init(BluetoothSet.java:153)
+
+E/ActivityThread( 3837):        at com.coship.dvbsetting.netsetting.BluetoothSet.<init>(BluetoothSet.java:124)
+
+E/ActivityThread( 3837):        at com.coship.dvbsetting.netsetting.BluetoothSet.getInstance(BluetoothSet.java:103)
+
+E/ActivityThread( 3837):        at com.coship.dvbsetting.netsetting.netSet.onCreate(netSet.java:81)
+
+E/ActivityThread( 3837):        at android.app.Activity.performCreate(Activity.java:4465)
+
+E/ActivityThread( 3837):        at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1049)
+
+E/ActivityThread( 3837):        at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:1920)
+
+E/ActivityThread( 3837):        at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:1981)
+
+E/ActivityThread( 3837):        at android.app.ActivityThread.access$600(ActivityThread.java:123)
+
+E/ActivityThread( 3837):        at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1147)
+
+E/ActivityThread( 3837):        at android.os.Handler.dispatchMessage(Handler.java:99)
+
+E/ActivityThread( 3837):        at android.os.Looper.loop(Looper.java:137)
+
+E/ActivityThread( 3837):        at android.app.ActivityThread.main(ActivityThread.java:4424)
+
+E/ActivityThread( 3837):        at java.lang.reflect.Method.invokeNative(Native Method)
+
+E/ActivityThread( 3837):        at java.lang.reflect.Method.invoke(Method.java:511)
+
+E/ActivityThread( 3837):        at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:848)
+
+E/ActivityThread( 3837):        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:575)
+
+E/ActivityThread( 3837):        at dalvik.system.NativeStart.main(Native Method)
+
+W/ActivityManager(  980): Unbind failed: could not find connection for android.os.BinderProxy@416ae390
+
+V/TabletStatusBar( 1139): setLightsOn(true)
+
+W/InputManagerService(  980): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@41631268 (uid=1000 pid=3837)
+
+I/ActivityManager(  980): START {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 pkg=com.coship.sdp.sce.tvappstore cmp=com.coship.sdp.sce.tvappstore/.MainActivity} from pid 1269
+
+W/InputManagerService(  980): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@415ada70 (uid=10035 pid=1269)
+
+I/ActivityManager(  980): START {cmp=com.coship.sdp.sce.tvappstore/.AppDetailActivity (has extras)} from pid 5742
+
+I/ActivityManager(  980): START {cmp=com.coship.sdp.sce.tvappstore/.AppSubjectUIMain} from pid 5742
+
+I/ActivityManager(  980): START {cmp=com.coship.sdp.sce.tvappstore/.AppDetailActivity (has extras)} from pid 5742
+
+W/ActivityManager(  980): Duplicate finish request for ActivityRecord{41730df8 com.coship.sdp.sce.tvappstore/.AppDetailActivity}
+
+I/ActivityManager(  980): START {flg=0x10000000 cmp=com.coship.sdp.sce.tvappstore/.MenuActivity} from pid 5742
+
+I/ActivityManager(  980): START {cmp=com.coship.sdp.sce.tvappstore/.AppMyAppUIMain} from pid 5742
+
+W/ThrottleService(  980): unable to find stats for iface rmnet0
+
+I/ActivityManager(  980): START {flg=0x10000000 cmp=com.coship.sdp.sce.tvappstore/.MenuActivity} from pid 5742
+
+I/WindowManager(  980): WIN DEATH: Window{4171eff0 com.coship.sdp.sce.tvappstore/com.coship.sdp.sce.tvappstore.MainActivity paused=true}
+
+I/ActivityManager(  980): Process com.coship.sdp.sce.tvappstore (pid 5742) has died.
+
+W/ActivityManager(  980): Scheduling restart of crashed service com.coship.sdp.sce.tvappstore/.app.service.AppStoreCoreService in 1250ms
+
+I/WindowManager(  980): WIN DEATH: Window{416e7568 com.coship.sdp.sce.tvappstore/com.coship.sdp.sce.tvappstore.AppSubjectUIMain paused=true}
+
+I/WindowManager(  980): WIN DEATH: Window{41947450 com.coship.sdp.sce.tvappstore/com.coship.sdp.sce.tvappstore.AppMyAppUIMain paused=true}
+
+I/WindowManager(  980): WIN DEATH: Window{4162f510 com.coship.sdp.sce.tvappstore/com.coship.sdp.sce.tvappstore.MenuActivity paused=false}
+
+I/ActivityManager(  980): Start proc com.coship.sdp.sce.tvappstore for restart com.coship.sdp.sce.tvappstore: pid=5797 uid=1000 gids={3003, 1015, 3002, 3001, 3004}
+
+W/ActivityManager(  980): Force removing ActivityRecord{41729d98 com.coship.sdp.sce.tvappstore/.MenuActivity}: app died, no saved state
+
+V/TabletStatusBar( 1139): setLightsOn(true)
+
+W/InputManagerService(  980): Got RemoteException sending setActive(false) notification to pid 5742 uid 1000
+
+I/ActivityManager(  980): START {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 pkg=com.coship.dvbsetting cmp=com.coship.dvbsetting/.main} from pid 1269
+
+V/TabletStatusBar( 1139): setLightsOn(true)
+
+W/InputManagerService(  980): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@415ada70 (uid=10035 pid=1269)
+
+I/ActivityManager(  980): START {cmp=com.coship.dvbsetting/.netsetting.netSet} from pid 3837
+
+I/EthernetManager( 3837): Init Ethernet Manager, service: android.net.ethernet.IEthernetManager$Stub$Proxy@430571c0
+
+V/TabletStatusBar( 1139): setLightsOn(true)
+
+W/ActivityManager(  980): Activity destroy timeout for ActivityRecord{416b5a88 com.coship.sdp.sce.tvappstore/.MainActivity}
+
+W/ActivityManager(  980): Activity destroy timeout for ActivityRecord{416d3188 com.coship.sdp.sce.tvappstore/.AppSubjectUIMain}
+
+W/ActivityManager(  980): Activity destroy timeout for ActivityRecord{4193de58 com.coship.sdp.sce.tvappstore/.AppMyAppUIMain}
+
+V/TabletStatusBar( 1139): setLightsOn(true)
+
+E/ActivityThread( 3837): Activity com.coship.dvbsetting.netsetting.netSet has leaked ServiceConnection android.bluetooth.BluetoothHeadset$1@43105158 that was originally bound here
+
+E/ActivityThread( 3837): android.app.ServiceConnectionLeaked: Activity com.coship.dvbsetting.netsetting.netSet has leaked ServiceConnection android.bluetooth.BluetoothHeadset$1@43105158 that was originally bound here
+
+E/ActivityThread( 3837):        at android.app.LoadedApk$ServiceDispatcher.<init>(LoadedApk.java:936)
+
+E/ActivityThread( 3837):        at android.app.LoadedApk.getServiceDispatcher(LoadedApk.java:830)
+
+E/ActivityThread( 3837):        at android.app.ContextImpl.bindService(ContextImpl.java:1142)
+
+E/ActivityThread( 3837):        at android.content.ContextWrapper.bindService(ContextWrapper.java:370)
+
+E/ActivityThread( 3837):        at android.bluetooth.BluetoothHeadset.<init>(BluetoothHeadset.java:231)
+
+E/ActivityThread( 3837):        at android.bluetooth.BluetoothAdapter.getProfileProxy(BluetoothAdapter.java:1168)
+
+E/ActivityThread( 3837):        at com.coship.dvbsetting.bluetooth.HeadsetProfile.<init>(HeadsetProfile.java:111)
+
+E/ActivityThread( 3837):        at com.coship.dvbsetting.netsetting.BluetoothSet.init(BluetoothSet.java:153)
+
+E/ActivityThread( 3837):        at com.coship.dvbsetting.netsetting.BluetoothSet.<init>(BluetoothSet.java:124)
+
+E/ActivityThread( 3837):        at com.coship.dvbsetting.netsetting.BluetoothSet.getInstance(BluetoothSet.java:103)
+
+E/ActivityThread( 3837):        at com.coship.dvbsetting.netsetting.netSet.onCreate(netSet.java:81)
+
+E/ActivityThread( 3837):        at android.app.Activity.performCreate(Activity.java:4465)
+
+E/ActivityThread( 3837):        at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1049)
+
+E/ActivityThread( 3837):        at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:1920)
+
+E/ActivityThread( 3837):        at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:1981)
+
+E/ActivityThread( 3837):        at android.app.ActivityThread.access$600(ActivityThread.java:123)
+
+E/ActivityThread( 3837):        at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1147)
+
+E/ActivityThread( 3837):        at android.os.Handler.dispatchMessage(Handler.java:99)
+
+E/ActivityThread( 3837):        at android.os.Looper.loop(Looper.java:137)
+
+E/ActivityThread( 3837):        at android.app.ActivityThread.main(ActivityThread.java:4424)
+
+E/ActivityThread( 3837):        at java.lang.reflect.Method.invokeNative(Native Method)
+
+E/ActivityThread( 3837):        at java.lang.reflect.Method.invoke(Method.java:511)
+
+E/ActivityThread( 3837):        at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:848)
+
+E/ActivityThread( 3837):        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:575)
+
+E/ActivityThread( 3837):        at dalvik.system.NativeStart.main(Native Method)
+
+W/ActivityManager(  980): Unbind failed: could not find connection for android.os.BinderProxy@416c58f8
+
+I/ActivityManager(  980): START {cmp=com.coship.dvbsetting/.netsetting.netSet} from pid 3837
+
+I/EthernetManager( 3837): Init Ethernet Manager, service: android.net.ethernet.IEthernetManager$Stub$Proxy@4168b8b0
+
+V/TabletStatusBar( 1139): setLightsOn(true)
+
+D/WifiP2pService(  980): P2pDisabledState{ what=131203 when=0 }
+
+D/NetworkManagementService(  980): rsp <213 a4:a8:20:13:03:28 0.0.0.0 0 [down broadcast multicast]>
+
+D/NetworkManagementService(  980): flags <[down broadcast multicast]>
+
+V/EthernetMonitor(  980): get event 
+
+V/EthernetMonitor(  980): go poll events
+
+V/EthernetMonitor(  980): get event 
+
+V/EthernetMonitor(  980): go poll events
+
+V/EthernetMonitor(  980): get event 
+
+V/EthernetMonitor(  980): go poll events
+
+I/ActivityManager(  980): START {cmp=com.coship.dvbsetting/.netsetting.dialog.WifiPWDialog (has extras)} from pid 3837
+
+V/TabletStatusBar( 1139): setLightsOn(true)
+
+V/EthernetMonitor(  980): get event 
+
+V/EthernetMonitor(  980): go poll events
+
+V/EthernetMonitor(  980): get event 
+
+V/EthernetMonitor(  980): go poll events
+
+V/TabletStatusBar( 1139): setLightsOn(true)
+
+V/EthernetMonitor(  980): get event 
+
+V/EthernetMonitor(  980): go poll events
+
+V/EthernetMonitor(  980): get event 
+
+V/EthernetMonitor(  980): go poll events
+
+V/EthernetMonitor(  980): get event 
+
+V/EthernetMonitor(  980): go poll events
+
+V/EthernetMonitor(  980): get event 
+
+V/EthernetMonitor(  980): go poll events
+
+V/EthernetMonitor(  980): get event 
+
+V/EthernetMonitor(  980): go poll events
+
+V/EthernetMonitor(  980): get event 
+
+V/EthernetMonitor(  980): go poll events
+
+V/EthernetMonitor(  980): get event 
+
+V/EthernetMonitor(  980): go poll events
+
+V/EthernetMonitor(  980): get event 
+
+V/EthernetMonitor(  980): go poll events
+
+V/EthernetMonitor(  980): get event 
+
+V/EthernetMonitor(  980): go poll events
+
+D/ConnectivityService(  980): ConnectivityChange for WIFI: CONNECTED/CONNECTED
+
+D/ConnectivityService(  980): Policy requires ETH teardown
+
+I/EthernetStateTracker(  980): stop dhcp and interface
+
+V/EthernetMonitor(  980): get event eth0:17:
+
+V/EthernetMonitor(  980): dev: eth0 ev 17
+
+I/EthernetStateTracker(  980): report new state DISCONNECTED on dev eth0
+
+V/EthernetStateTracker(  980): update network state tracker
+
+V/EthernetMonitor(  980): go poll events
+
+V/EthernetMonitor(  980): get event eth0:21:
+
+V/EthernetMonitor(  980): dev: eth0 ev 21
+
+V/EthernetStateTracker(  980): report address is removed for eth0
+
+V/EthernetMonitor(  980): go poll events
+
+I/EthernetStateTracker(  980): received disconnected events, stack=true CC=true
+
+I/EthernetStateTracker(  980): stop dhcp and interface
+
+D/ConnectivityService(  980): ConnectivityChange for WIFI: CONNECTED/CONNECTED
+
+W/EthernetStateTracker(  980): stopInterface --> clearAddresses ret = true
+
+I/EthernetStateTracker(  980): IntentBroadcast, event=4
+
+I/EthernetStateTracker(  980): received interface address remove event
+
+V/EthernetStateTracker(  980): configureInterfaceAutoIP skip!
+
+I/PppoeStateTracker(  980): receive EthernetStateTracker.EVENT_HW_DISCONNECTED
+
+D/ConnectivityService(  980): handleConnectivityChange: address are the same reset per doReset linkProperty[1]: resetMask=0
+
+D/ConnectivityService(  980): ConnectivityChange for ETH: DISCONNECTED/DISCONNECTED
+
+E/MobileDataStateTracker(  980): default: Ignoring feature request because could not acquire PhoneService
+
+E/MobileDataStateTracker(  980): default: Could not enable APN type "default"
+
+D/ConnectivityService(  980): Attempting to switch to mobile
+
+D/ConnectivityService(  980): Attempting to switch to WIFI
+
+D/ConnectivityService(  980): Attempting to switch to pppoe
+
+V/EthernetMonitor(  980): get event 
+
+V/EthernetMonitor(  980): go poll events
+
+V/EthernetMonitor(  980): get event 
+
+V/EthernetMonitor(  980): go poll events
+
+V/TabletStatusBar( 1139): setLightsOn(true)
+
+E/ActivityThread( 3837): Activity com.coship.dvbsetting.netsetting.netSet has leaked ServiceConnection android.bluetooth.BluetoothHeadset$1@415752c8 that was originally bound here
+
+E/ActivityThread( 3837): android.app.ServiceConnectionLeaked: Activity com.coship.dvbsetting.netsetting.netSet has leaked ServiceConnection android.bluetooth.BluetoothHeadset$1@415752c8 that was originally bound here
+
+E/ActivityThread( 3837):        at android.app.LoadedApk$ServiceDispatcher.<init>(LoadedApk.java:936)
+
+E/ActivityThread( 3837):        at android.app.LoadedApk.getServiceDispatcher(LoadedApk.java:830)
+
+E/ActivityThread( 3837):        at android.app.ContextImpl.bindService(ContextImpl.java:1142)
+
+E/ActivityThread( 3837):        at android.content.ContextWrapper.bindService(ContextWrapper.java:370)
+
+E/ActivityThread( 3837):        at android.bluetooth.BluetoothHeadset.<init>(BluetoothHeadset.java:231)
+
+E/ActivityThread( 3837):        at android.bluetooth.BluetoothAdapter.getProfileProxy(BluetoothAdapter.java:1168)
+
+E/ActivityThread( 3837):        at com.coship.dvbsetting.bluetooth.HeadsetProfile.<init>(HeadsetProfile.java:111)
+
+E/ActivityThread( 3837):        at com.coship.dvbsetting.netsetting.BluetoothSet.init(BluetoothSet.java:153)
+
+E/ActivityThread( 3837):        at com.coship.dvbsetting.netsetting.BluetoothSet.<init>(BluetoothSet.java:124)
+
+E/ActivityThread( 3837):        at com.coship.dvbsetting.netsetting.BluetoothSet.getInstance(BluetoothSet.java:103)
+
+E/ActivityThread( 3837):        at com.coship.dvbsetting.netsetting.netSet.onCreate(netSet.java:81)
+
+E/ActivityThread( 3837):        at android.app.Activity.performCreate(Activity.java:4465)
+
+E/ActivityThread( 3837):        at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1049)
+
+E/ActivityThread( 3837):        at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:1920)
+
+E/ActivityThread( 3837):        at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:1981)
+
+E/ActivityThread( 3837):        at android.app.ActivityThread.access$600(ActivityThread.java:123)
+
+E/ActivityThread( 3837):        at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1147)
+
+E/ActivityThread( 3837):        at android.os.Handler.dispatchMessage(Handler.java:99)
+
+E/ActivityThread( 3837):        at android.os.Looper.loop(Looper.java:137)
+
+E/ActivityThread( 3837):        at android.app.ActivityThread.main(ActivityThread.java:4424)
+
+E/ActivityThread( 3837):        at java.lang.reflect.Method.invokeNative(Native Method)
+
+E/ActivityThread( 3837):        at java.lang.reflect.Method.invoke(Method.java:511)
+
+E/ActivityThread( 3837):        at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:848)
+
+E/ActivityThread( 3837):        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:575)
+
+E/ActivityThread( 3837):        at dalvik.system.NativeStart.main(Native Method)
+
+W/ActivityManager(  980): Unbind failed: could not find connection for android.os.BinderProxy@416c0c78
+
+V/TabletStatusBar( 1139): setLightsOn(true)
+
+W/InputManagerService(  980): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@41631268 (uid=1000 pid=3837)
+
+I/ActivityManager(  980): START {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 pkg=com.coship.dvbsetting cmp=com.coship.dvbsetting/.main} from pid 1269
+
+V/TabletStatusBar( 1139): setLightsOn(true)
+
+W/InputManagerService(  980): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@415ada70 (uid=10035 pid=1269)
+
+V/TabletStatusBar( 1139): setLightsOn(true)
+
+W/InputManagerService(  980): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@41631268 (uid=1000 pid=3837)
+
+I/ActivityManager(  980): START {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 pkg=com.coship.sdp.sce.tvappstore cmp=com.coship.sdp.sce.tvappstore/.MainActivity} from pid 1269
+
+W/InputManagerService(  980): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@415ada70 (uid=10035 pid=1269)
+
+I/ActivityManager(  980): START {cmp=com.coship.sdp.sce.tvappstore/.AppSubjectUIMain} from pid 5797
+
+I/ActivityManager(  980): START {cmp=com.coship.sdp.sce.tvappstore/.AppDetailActivity (has extras)} from pid 5797
+
+W/ActivityManager(  980): Duplicate finish request for ActivityRecord{416a9fc0 com.coship.sdp.sce.tvappstore/.AppDetailActivity}
+
+I/ActivityManager(  980): START {flg=0x10000000 cmp=com.coship.sdp.sce.tvappstore/.MenuActivity} from pid 5797
+
+I/ActivityManager(  980): START {cmp=com.coship.sdp.sce.tvappstore/.AppMyAppUIMain} from pid 5797
+
+I/ActivityManager(  980): START {flg=0x10000000 cmp=com.coship.sdp.sce.tvappstore/.MenuActivity} from pid 5797
+
+I/ActivityManager(  980): START {cmp=com.coship.sdp.sce.tvappstore/.AppRanklistUIMain} from pid 5797
+
+I/ActivityManager(  980): START {flg=0x10000000 cmp=com.coship.sdp.sce.tvappstore/.MenuActivity} from pid 5797
+
+I/ActivityManager(  980): START {cmp=com.coship.sdp.sce.tvappstore/.AppSubjectUIMain} from pid 5797
+
+I/ActivityManager(  980): START {cmp=com.coship.sdp.sce.tvappstore/.AppDetailActivity (has extras)} from pid 5797
+
+W/ActivityManager(  980): Duplicate finish request for ActivityRecord{416a9fc0 com.coship.sdp.sce.tvappstore/.AppDetailActivity}
+
+I/ActivityManager(  980): START {cmp=com.coship.sdp.sce.tvappstore/.AppDetailActivity (has extras)} from pid 5797
+
+W/ActivityManager(  980): Duplicate finish request for ActivityRecord{416b5a88 com.coship.sdp.sce.tvappstore/.AppDetailActivity}
+
+I/ActivityManager(  980): START {cmp=com.coship.sdp.sce.tvappstore/.AppDetailActivity (has extras)} from pid 5797
+
+I/ActivityManager(  980): START {cmp=com.coship.sdp.sce.tvappstore/.AppDetailActivity (has extras)} from pid 5797
+
+W/ActivityManager(  980): Duplicate finish request for ActivityRecord{41459778 com.coship.sdp.sce.tvappstore/.AppDetailActivity}
+
+I/ActivityManager(  980): START {flg=0x10000000 cmp=com.coship.sdp.sce.tvappstore/.MenuActivity} from pid 5797
+
+I/ActivityManager(  980): START {cmp=com.coship.sdp.sce.tvappstore/.AppMyAppUIMain} from pid 5797
+
+I/ActivityManager(  980): START {flg=0x10000000 cmp=com.coship.sdp.sce.tvappstore/.MenuActivity} from pid 5797
+
+I/ActivityManager(  980): Process com.coship.sdp.sce.tvappstore (pid 5797) has died.
+
+W/ActivityManager(  980): Scheduling restart of crashed service com.coship.sdp.sce.tvappstore/.app.service.AppStoreCoreService in 1250ms
+
+I/WindowManager(  980): WIN DEATH: Window{416bf870 com.coship.sdp.sce.tvappstore/com.coship.sdp.sce.tvappstore.MainActivity paused=true}
+
+I/WindowManager(  980): WIN DEATH: Window{416bd848 com.coship.sdp.sce.tvappstore/com.coship.sdp.sce.tvappstore.AppSubjectUIMain paused=true}
+
+I/WindowManager(  980): WIN DEATH: Window{416530c0 com.coship.sdp.sce.tvappstore/com.coship.sdp.sce.tvappstore.AppMyAppUIMain paused=true}
+
+I/WindowManager(  980): WIN DEATH: Window{41654f08 com.coship.sdp.sce.tvappstore/com.coship.sdp.sce.tvappstore.MenuActivity paused=false}
+
+I/ActivityManager(  980): Start proc com.coship.sdp.sce.tvappstore for restart com.coship.sdp.sce.tvappstore: pid=5957 uid=1000 gids={3003, 1015, 3002, 3001, 3004}
+
+W/ActivityManager(  980): Force removing ActivityRecord{416b5a88 com.coship.sdp.sce.tvappstore/.MenuActivity}: app died, no saved state
+
+V/TabletStatusBar( 1139): setLightsOn(true)
+
+W/InputManagerService(  980): Got RemoteException sending setActive(false) notification to pid 5797 uid 1000
+
+I/ActivityManager(  980): START {act=android.intent.action.MAIN flg=0x10200000 cmp=com.coship.NetworkNavigation/.browser.BrowserActivity} from pid 1269
+
+W/ActivityManager(  980): Activity is launching as a new task, so cancelling activity result.
+
+I/ActivityManager(  980): Start proc com.coship.NetworkNavigation for activity com.coship.NetworkNavigation/.browser.BrowserActivity: pid=5976 uid=1000 gids={3003, 1015, 3002, 3001, 3004}
+
+W/ActivityManager(  980): Activity destroy timeout for ActivityRecord{4168d938 com.coship.sdp.sce.tvappstore/.MainActivity}
+
+W/ActivityManager(  980): Activity destroy timeout for ActivityRecord{4169f9e8 com.coship.sdp.sce.tvappstore/.AppSubjectUIMain}
+
+W/ActivityManager(  980): Activity destroy timeout for ActivityRecord{416a9fc0 com.coship.sdp.sce.tvappstore/.AppMyAppUIMain}
+
+W/InputManagerService(  980): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@415ada70 (uid=10035 pid=1269)
+
+I/ActivityManager(  980): START {act=android.intent.action.VIEW_DOWNLOADS cmp=com.android.providers.downloads.ui/.DownloadList} from pid 5976
+
+W/InputManagerService(  980): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@4160e5e8 (uid=1000 pid=5976)
+
+W/InputManagerService(  980): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@41673710 (uid=10009 pid=1471)
+
+W/ThrottleService(  980): unable to find stats for iface rmnet0
+
+V/TabletStatusBar( 1139): setLightsOn(true)
+
+W/InputManagerService(  980): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@4160e5e8 (uid=1000 pid=5976)
+
+W/ActivityManager(  980): Activity destroy timeout for ActivityRecord{417a9a18 com.coship.NetworkNavigation/.browser.BrowserActivity}
+
+I/ActivityManager(  980): START {act=android.intent.action.MAIN flg=0x10200000 cmp=com.coship.NetworkNavigation/.browser.BrowserActivity} from pid 1269
+
+W/ActivityManager(  980): Activity is launching as a new task, so cancelling activity result.
+
+W/ActivityManager(  980): Exception when starting activity com.coship.NetworkNavigation/.browser.BrowserActivity
+
+W/ActivityManager(  980): android.os.TransactionTooLargeException
+
+W/ActivityManager(  980):       at android.os.BinderProxy.transact(Native Method)
+
+W/ActivityManager(  980):       at android.app.ApplicationThreadProxy.scheduleLaunchActivity(ApplicationThreadNative.java:660)
+
+W/ActivityManager(  980):       at com.android.server.am.ActivityStack.realStartActivityLocked(ActivityStack.java:615)
+
+W/ActivityManager(  980):       at com.android.server.am.ActivityStack.startSpecificActivityLocked(ActivityStack.java:724)
+
+W/ActivityManager(  980):       at com.android.server.am.ActivityStack.resumeTopActivityLocked(ActivityStack.java:1614)
+
+W/ActivityManager(  980):       at com.android.server.am.ActivityStack.completePauseLocked(ActivityStack.java:1040)
+
+W/ActivityManager(  980):       at com.android.server.am.ActivityStack.activityPaused(ActivityStack.java:952)
+
+W/ActivityManager(  980):       at com.android.server.am.ActivityManagerService.activityPaused(ActivityManagerService.java:4390)
+
+W/ActivityManager(  980):       at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:371)
+
+W/ActivityManager(  980):       at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:1557)
+
+W/ActivityManager(  980):       at android.os.Binder.execTransact(Binder.java:338)
+
+W/ActivityManager(  980):       at dalvik.system.NativeStart.run(Native Method)
+
+W/ActivityManager(  980): Force removing ActivityRecord{41459c60 com.coship.NetworkNavigation/.browser.BrowserActivity}: app died, no saved state
+
+I/ActivityManager(  980): Start proc com.coship.NetworkNavigation for activity com.coship.NetworkNavigation/.browser.BrowserActivity: pid=6188 uid=1000 gids={3003, 1015, 3002, 3001, 3004}
+
+W/WindowManager(  980): Rebuild removed 4 windows but added 3
+
+W/WindowManager(  980): This window was lost: Window{4177aa60 com.coship.NetworkNavigation/com.coship.NetworkNavigation.browser.BrowserActivity paused=false}
+
+W/WindowManager(  980): mSession=Session{41694490 uid 1000} mClient=android.os.BinderProxy@41601be8
+
+W/WindowManager(  980): mAttrs=WM.LayoutParams{(0,0)(fillxfill) sim=#10 ty=1 fl=#1810500 pfl=0x8 wanim=0x1030001}
+
+W/WindowManager(  980): Requested w=1280 h=720 mLayoutSeq=2195
+
+W/WindowManager(  980): mBaseLayer=21000 mSubLayer=0 mAnimLayer=21020+0=21020 mLastLayer=22015
+
+W/WindowManager(  980): mToken=AppWindowToken{417793c8 token=Token{417a9b50 ActivityRecord{417a9a18 com.coship.NetworkNavigation/.browser.BrowserActivity}}}
+
+W/WindowManager(  980): mRootToken=AppWindowToken{417793c8 token=Token{417a9b50 ActivityRecord{417a9a18 com.coship.NetworkNavigation/.browser.BrowserActivity}}}
+
+W/WindowManager(  980): mAppToken=AppWindowToken{417793c8 token=Token{417a9b50 ActivityRecord{417a9a18 com.coship.NetworkNavigation/.browser.BrowserActivity}}}
+
+W/WindowManager(  980): mViewVisibility=0x8 mLastHidden=true mHaveFrame=true mObscured=false
+
+W/WindowManager(  980): mSeq=0 mSystemUiVisibility=0x0
+
+W/WindowManager(  980): mGivenContentInsets=[0,0][0,0] mGivenVisibleInsets=[0,0][0,0]
+
+W/WindowManager(  980): mConfiguration={1.0 0mcc0mnc zh_CN layoutdir=0 sw720dp w1280dp h720dp xlrg long land -touch -keyb/v/h -nav/h s.3}
+
+W/WindowManager(  980): mShownFrame=[0.0,0.0][1280.0,720.0]
+
+W/WindowManager(  980): mFrame=[0,0][1280,720] last=[0,0][1280,720]
+
+W/WindowManager(  980): mContainingFrame=[0,0][1280,720] mParentFrame=[0,0][1280,720] mDisplayFrame=[0,0][1280,720]
+
+W/WindowManager(  980): mContentFrame=[0,0][1280,720] mVisibleFrame=[0,0][1280,720]
+
+W/WindowManager(  980): mContentInsets=[0,0][0,0] last=[0,0][0,0] mVisibleInsets=[0,0][0,0] last=[0,0][0,0]
+
+W/WindowManager(  980): mShownAlpha=1.0 mAlpha=1.0 mLastAlpha=0.0
+
+W/WindowManager(  980): mDrawPending=false mCommitDrawPending=false mReadyToShow=false mHasDrawn=true
+
+W/WindowManager(  980): Current app token list:
+
+V/WindowManager(  980):   #0: Token{41621480 ActivityRecord{416210f8 com.ts.gaya.coship/.MainActivity}}
+
+W/WindowManager(  980): Final window list:
+
+V/WindowManager(  980):   #9: Window{415f4a60 StatusBar paused=false}
+
+V/WindowManager(  980):   #8: Window{415e6f68 CompatModePanel paused=false}
+
+V/WindowManager(  980):   #7: Window{4164b918 InputMethodsPanel paused=false}
+
+V/WindowManager(  980):   #6: Window{41632098 RecentsPanel paused=false}
+
+V/WindowManager(  980):   #5: Window{41631980 NotificationPanel paused=false}
+
+V/WindowManager(  980):   #4: Window{41644c10 InputMethod paused=false}
+
+V/WindowManager(  980):   #3: Window{41639cb0 com.ts.gaya.coship/com.ts.gaya.coship.MainActivity paused=false}
+
+V/WindowManager(  980):   #2: Window{41632f88 SurfaceView paused=false}
+
+V/WindowManager(  980):   #1: Window{41622fa8 Starting com.coship.NetworkNavigation paused=false}
+
+V/WindowManager(  980):   #0: Window{415ef3d8 com.android.systemui.ImageWallpaper paused=false}
+
+I/WindowManager(  980): Input event dispatching timed out sending to application AppWindowToken{41606cf0 token=Token{41621480 ActivityRecord{416210f8 com.ts.gaya.coship/.MainActivity}}}
+
+W/ActivityManager(  980): Launch timeout has expired, giving up wake lock!
+
+I/WindowManager(  980): Input event dispatching timed out sending to application AppWindowToken{41606cf0 token=Token{41621480 ActivityRecord{416210f8 com.ts.gaya.coship/.MainActivity}}}
+
+E/ActivityManager(  980): ANR in com.ts.gaya.coship (com.ts.gaya.coship/.MainActivity)
+
+E/ActivityManager(  980): Reason: keyDispatchingTimedOut
+
+E/ActivityManager(  980): Load: 2.96 / 3.33 / 3.29
+
+E/ActivityManager(  980): CPU usage from 54192ms to 0ms ago:
+
+E/ActivityManager(  980):   12% 3553/com.coship.Multimedia: 10% user + 2.1% kernel / faults: 7405 minor
+
+E/ActivityManager(  980):   9.9% 758/ld-linux.so.3: 3.1% user + 6.8% kernel
+
+E/ActivityManager(  980):   2.6% 1247/com.coship.netfirmware: 2.2% user + 0.3% kernel / faults: 1358 minor
+
+E/ActivityManager(  980):   1.5% 739/mediaserver: 0.8% user + 0.7% kernel
+
+E/ActivityManager(  980):   0.7% 1644/ksdioirqd/mmc1: 0% user + 0.7% kernel
+
+E/ActivityManager(  980):   0.5% 1139/com.android.systemui: 0.5% user + 0% kernel / faults: 17 minor
+
+E/ActivityManager(  980):   0.4% 980/system_server: 0.3% user + 0.1% kernel / faults: 21 minor
+
+E/ActivityManager(  980):   0.2% 1027/surfaceflinger: 0.2% user + 0% kernel
+
+E/ActivityManager(  980):   0.1% 744/virtualkeypad: 0% user + 0% kernel
+
+E/ActivityManager(  980):   0.1% 904/MOAL_WORK_QUEUE: 0% user + 0.1% kernel
+
+E/ActivityManager(  980):   0% 1194/com.android.inputmethod.pinyin: 0% user + 0% kernel
+
+E/ActivityManager(  980):   0% 418/mmcqd: 0% user + 0% kernel
+
+E/ActivityManager(  980):   0% 8/events/1: 0% user + 0% kernel
+
+E/ActivityManager(  980):   0% 770/mali-pmm-wq: 0% user + 0% kernel
+
+E/ActivityManager(  980):   0% 950/usb-storage: 0% user + 0% kernel
+
+E/ActivityManager(  980):   0% 5791/sh: 0% user + 0% kernel / faults: 56 minor
+
+E/ActivityManager(  980):   0% 5833/mrl_supplicant: 0% user + 0% kernel
+
+E/ActivityManager(  980):   0% 3/ksoftirqd/0: 0% user + 0% kernel
+
+E/ActivityManager(  980):   0% 7/events/0: 0% user + 0% kernel
+
+E/ActivityManager(  980):   0% 716/jbd2/mmcblk5-8: 0% user + 0% kernel
+
+E/ActivityManager(  980):   0% 768/mali/0: 0% user + 0% kernel
+
+E/ActivityManager(  980):   0% 905/MOAL_WORK_QUEUE: 0% user + 0% kernel
+
+E/ActivityManager(  980):   0% 958/scsi-polling th: 0% user + 0% kernel
+
+E/ActivityManager(  980):   0% 1257/com.iflytek.vaf.TouchKey: 0% user + 0% kernel
+
+E/ActivityManager(  980):   0% 3606/com.biaoqi.stbwidget.host: 0% user + 0% kernel / faults: 10 minor
+
+E/ActivityManager(  980):   0% 6188/com.coship.NetworkNavigation: 0% user + 0% kernel
+
+E/ActivityManager(  980): 5.3% TOTAL: 3.4% user + 1.8% kernel + 0% iowait + 0% softirq
+
+E/ActivityManager(  980): CPU usage from 594ms to 1123ms later:
+
+E/ActivityManager(  980):   20% 980/system_server: 9.4% user + 11% kernel / faults: 4 minor
+
+E/ActivityManager(  980):     13% 1086/InputDispatcher: 7.5% user + 5.6% kernel
+
+E/ActivityManager(  980):     1.8% 996/er.ServerThread: 1.8% user + 0% kernel
+
+E/ActivityManager(  980):     1.8% 1075/PowerManagerSer: 0% user + 1.8% kernel
+
+E/ActivityManager(  980):   9.4% 758/ld-linux.so.3: 1.8% user + 7.5% kernel
+
+E/ActivityManager(  980):     7.5% 1064/CECMonitor: 1.8% user + 5.6% kernel
+
+E/ActivityManager(  980):     1.8% 1016/758Linux hotplu: 0% user + 1.8% kernel
+
+E/ActivityManager(  980):   1.1% 739/mediaserver: 1.1% user + 0% kernel
+
+E/ActivityManager(  980):     2.2% 971/AudioOut_1: 1.1% user + 1.1% kernel
+
+E/ActivityManager(  980):   1.1% 1139/com.android.systemui: 1.1% user + 0% kernel / faults: 1 minor
+
+E/ActivityManager(  980):     1.1% 1139/ndroid.systemui: 1.1% user + 0% kernel
+
+E/ActivityManager(  980):   1.8% 1644/ksdioirqd/mmc1: 0% user + 1.8% kernel
+
+E/ActivityManager(  980):   1.6% 5833/mrl_supplicant: 0% user + 1.6% kernel
+
+E/ActivityManager(  980): 4.5% TOTAL: 1.8% user + 2.6% kernel
+
+W/ActivityManager(  980): Killing ProcessRecord{416005c0 1269:com.ts.gaya.coship/10035}: background ANR
+
+I/ActivityManager(  980): Process com.ts.gaya.coship (pid 1269) has died.
+
+W/ActivityManager(  980): Force removing ActivityRecord{416210f8 com.ts.gaya.coship/.MainActivity}: app died, no saved state
+
+I/WindowManager(  980): WIN DEATH: Window{41639cb0 com.ts.gaya.coship/com.ts.gaya.coship.MainActivity paused=false}
+
+W/WindowManager( 980): Force-removing child win Window{41632f88 SurfaceView paused=false} from container Window{41639cb0 com.ts.gaya.coship/com.ts.gaya.coship.MainActivity paused=false}
+
+W/WindowManager(  980): Failed looking up window
+
+W/WindowManager(  980): java.lang.IllegalArgumentException: Requested window android.os.BinderProxy@41633628 does not exist
+
+W/WindowManager(  980):         at com.android.server.wm.WindowManagerService.windowForClientLocked(WindowManagerService.java:7185)
+
+W/WindowManager(  980):         at com.android.server.wm.WindowManagerService.windowForClientLocked(WindowManagerService.java:7176)
+
+W/WindowManager(  980):         at com.android.server.wm.WindowState$DeathRecipient.binderDied(WindowState.java:1545)
+
+W/WindowManager(  980):         at android.os.BinderProxy.sendDeathNotice(Binder.java:417)
+
+W/WindowManager(  980):         at dalvik.system.NativeStart.run(Native Method)
+
+I/WindowManager(  980): WIN DEATH: null
+
+I/WindowManager(  980): WINDOW DIED Window{41639cb0 com.ts.gaya.coship/com.ts.gaya.coship.MainActivity paused=false}
+
+I/ActivityManager(  980): START {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000000 cmp=com.ts.gaya.coship/.MainActivity} from pid 0
+
+I/ActivityManager(  980): Start proc com.ts.gaya.coship for activity com.ts.gaya.coship/.MainActivity: pid=6221 uid=10035 gids={3002, 3001, 3004, 3003, 1015}
+
+V/TabletStatusBar( 1139): setLightsOn(true)
+
+W/InputManagerService(  980): Got RemoteException sending setActive(false) notification to pid 1269 uid 10035
+
+I/ActivityManager(  980): START {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000000 cmp=com.ts.gaya.coship/.MainActivity} from pid 0
+
+V/TabletStatusBar( 1139): setLightsOn(true)
+
+W/InputManagerService(  980): Focus gain on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@416c4498 (uid=10035 pid=6221)
+
+I/ActivityManager(  980): START {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000000 cmp=com.ts.gaya.coship/.MainActivity} from pid 0
+
+V/TabletStatusBar( 1139): setLightsOn(true)
+
+W/InputManagerService(  980): Focus gain on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@416c4498 (uid=10035 pid=6221)
+
+I/ActivityManager(  980): START {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000000 cmp=com.ts.gaya.coship/.MainActivity} from pid 0
+
+V/TabletStatusBar( 1139): setLightsOn(true)
+
+W/InputManagerService(  980): Focus gain on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@416c4498 (uid=10035 pid=6221)
+
+I/ActivityManager(  980): START {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000000 cmp=com.ts.gaya.coship/.MainActivity} from pid 0
+
+V/TabletStatusBar( 1139): setLightsOn(true)
+
+W/InputManagerService(  980): Focus gain on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@416c4498 (uid=10035 pid=6221)
+
+I/ActivityManager(  980): START {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000000 cmp=com.ts.gaya.coship/.MainActivity} from pid 0
+
+V/TabletStatusBar( 1139): setLightsOn(true)
+
+W/InputManagerService(  980): Focus gain on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@416c4498 (uid=10035 pid=6221)
+
+I/ActivityManager(  980): START {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000000 cmp=com.ts.gaya.coship/.MainActivity} from pid 0
+
+V/TabletStatusBar( 1139): setLightsOn(true)
+
+I/ActivityManager(  980): START {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000000 cmp=com.ts.gaya.coship/.MainActivity} from pid 0
+
+V/TabletStatusBar( 1139): setLightsOn(true)
+
+I/ActivityManager(  980): START {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000000 cmp=com.ts.gaya.coship/.MainActivity} from pid 0
+
+V/TabletStatusBar( 1139): setLightsOn(true)
+
+I/ActivityManager(  980): START {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000000 cmp=com.ts.gaya.coship/.MainActivity} from pid 0
+
+V/TabletStatusBar( 1139): setLightsOn(true)
+
+I/ActivityManager(  980): START {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000000 cmp=com.ts.gaya.coship/.MainActivity} from pid 0
+
+V/TabletStatusBar( 1139): setLightsOn(true)
+
+I/ActivityManager(  980): START {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000000 cmp=com.ts.gaya.coship/.MainActivity} from pid 0
+
+V/TabletStatusBar( 1139): setLightsOn(true)
+
+I/ActivityManager(  980): START {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000000 cmp=com.ts.gaya.coship/.MainActivity} from pid 0
+
+V/TabletStatusBar( 1139): setLightsOn(true)
+
+I/ActivityManager(  980): START {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000000 cmp=com.ts.gaya.coship/.MainActivity} from pid 0
+
+V/TabletStatusBar( 1139): setLightsOn(true)
+
+I/ActivityManager(  980): START {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000000 cmp=com.ts.gaya.coship/.MainActivity} from pid 0
+
+V/TabletStatusBar( 1139): setLightsOn(true)
+
+I/ActivityManager(  980): START {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.ts.gaya.coship/.MainActivity} from pid 980
+
+I/ActivityManager(  980): START {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.ts.gaya.coship/.MainActivity} from pid 980
+
+I/ActivityManager(  980): START {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000000 cmp=com.ts.gaya.coship/.MainActivity} from pid 0
+
+V/TabletStatusBar( 1139): setLightsOn(true)
+
+I/ActivityManager(  980): START {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000000 cmp=com.ts.gaya.coship/.MainActivity} from pid 0
+
+V/TabletStatusBar( 1139): setLightsOn(true)
+
+I/ActivityManager(  980): START {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000000 cmp=com.ts.gaya.coship/.MainActivity} from pid 0
+
+V/TabletStatusBar( 1139): setLightsOn(true)
+
+I/ActivityManager(  980): START {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000000 cmp=com.ts.gaya.coship/.MainActivity} from pid 0
+
+V/TabletStatusBar( 1139): setLightsOn(true)
+
+I/ActivityManager(  980): START {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000000 cmp=com.ts.gaya.coship/.MainActivity} from pid 0
+
+V/TabletStatusBar( 1139): setLightsOn(true)
+
+I/ActivityManager(  980): START {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000000 cmp=com.ts.gaya.coship/.MainActivity} from pid 0
+
+V/TabletStatusBar( 1139): setLightsOn(true)
+
+W/InputManagerService(  980): Focus gain on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@416c4498 (uid=10035 pid=6221)
+
+I/ActivityManager(  980): START {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000000 cmp=com.ts.gaya.coship/.MainActivity} from pid 0
+
+V/TabletStatusBar( 1139): setLightsOn(true)
+
+I/ActivityManager(  980): START {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000000 cmp=com.ts.gaya.coship/.MainActivity} from pid 0
+
+V/TabletStatusBar( 1139): setLightsOn(true)
+
+--------- beginning of /dev/log/main
+
+D/selena.android.app.SelenaActivity( 6221): [KBD] dispatchKeyEvent: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=108, metaState=0, flags=0x8, repeatCount=0, eventTime=13229849, downTime=13229849, deviceId=3, source=0x101 }
+
+W/selena.android.app.SelenaActivity( 6221):     at selena.android.app.SelenaActivity.dispatchKeyEvent(SelenaActivity.java:179)
+
+D/selena.android.app.SelenaActivity( 6221): [KBD] onKeyDown: 20, KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=108, metaState=0, flags=0x8, repeatCount=0, eventTime=13229849, downTime=13229849, deviceId=3, source=0x101 }
+
+W/selena.android.app.SelenaActivity( 6221):     at selena.android.app.SelenaActivity.onKeyDown(SelenaActivity.java:167)
+
+E/WindowManager(  980): ##############################dispatchUnhandledKey
+
+D/selena.android.app.SelenaActivity( 6221): [KBD] dispatchKeyEvent: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_DOWN, scanCode=108, metaState=0, flags=0x8, repeatCount=0, eventTime=13230008, downTime=13229849, deviceId=3, source=0x101 }
+
+W/selena.android.app.SelenaActivity( 6221):     at selena.android.app.SelenaActivity.dispatchKeyEvent(SelenaActivity.java:179)
+
+D/selena.android.app.SelenaActivity( 6221): [KBD] onKeyUp: 20, KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_DOWN, scanCode=108, metaState=0, flags=0x8, repeatCount=0, eventTime=13230008, downTime=13229849, deviceId=3, source=0x101 }
+
+W/selena.android.app.SelenaActivity( 6221):     at selena.android.app.SelenaActivity.onKeyUp(SelenaActivity.java:173)
+
+D/selena.android.app.SelenaActivity( 6221): [KBD] dispatchKeyEvent: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=13231578, downTime=13231578, deviceId=1, source=0x2002 }
+
+W/selena.android.app.SelenaActivity( 6221):     at selena.android.app.SelenaActivity.dispatchKeyEvent(SelenaActivity.java:179)
+
+D/selena.android.app.SelenaActivity( 6221): [KBD] onKeyDown: 4, KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=13231578, downTime=13231578, deviceId=1, source=0x2002 }
+
+W/selena.android.app.SelenaActivity( 6221):     at selena.android.app.SelenaActivity.onKeyDown(SelenaActivity.java:167)
+
+D/selena.android.app.SelenaActivity( 6221): [KBD] dispatchKeyEvent: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=13231778, downTime=13231778, deviceId=1, source=0x2002 }
+
+W/selena.android.app.SelenaActivity( 6221):     at selena.android.app.SelenaActivity.dispatchKeyEvent(SelenaActivity.java:179)
+
+D/selena.android.app.SelenaActivity( 6221): [KBD] onKeyUp: 4, KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x200, repeatCount=0, eventTime=13231778, downTime=13231778, deviceId=1, source=0x2002 }
+
+W/selena.android.app.SelenaActivity( 6221):     at selena.android.app.SelenaActivity.onKeyUp(SelenaActivity.java:173)
+
+V/selena.android.view.SelenaView( 6221): **** onPause
+
+W/selena.android.view.SelenaView( 6221):     at selena.android.view.SelenaView.activityOnPause(SelenaView.java:216)
+
+I/ActivityManager(  980): START {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000000 cmp=com.ts.gaya.coship/.MainActivity} from pid 0
+
+D/selena.android.view.SelenaView( 6221): onWindowFocusChanged: false
+
+W/selena.android.view.SelenaView( 6221):     at selena.android.view.SelenaView.onWindowFocusChanged(SelenaView.java:121)
+
+D/selena.android.gl.GLView( 6221): onWindowFocusChanged: false
+
+W/selena.android.gl.GLView( 6221):     at selena.android.gl.GLView.onWindowFocusChanged(GLView.java:379)
+
+D/selena.android.gl.GLView$GLThread( 6221): onWindowFocusChanged - Enter: false, false
+
+W/selena.android.gl.GLView$GLThread( 6221):     at selena.android.gl.GLView$GLThread.onWindowFocusChanged(GLView.java:822)
+
+D/selena.android.gl.GLView$GLThread( 6221): onWindowFocusChanged - Leave: false, false
+
+W/selena.android.gl.GLView$GLThread( 6221):     at selena.android.gl.GLView$GLThread.onWindowFocusChanged(GLView.java:831)
+
+D/selena.android.view.SelenaView( 6221): Startup SelenaView
+
+W/selena.android.view.SelenaView( 6221):     at selena.android.view.SelenaView.startup(SelenaView.java:83)
+
+D/com.ts.gaya.utils.AppManager( 6221): Icon dimension [w:96,wt:96]
+
+W/com.ts.gaya.utils.AppManager( 6221):     at com.ts.gaya.utils.AppManager.initDimensions(AppManager.java:132)
+
+D/com.ts.gaya.utils.AppManager( 6221): listApps
+
+W/com.ts.gaya.utils.AppManager( 6221):     at com.ts.gaya.utils.AppManager.listApps(AppManager.java:324)
+
+D/com.ts.gaya.utils.AppManager( 6221): There are '19' applications installed.
+
+W/com.ts.gaya.utils.AppManager( 6221):     at com.ts.gaya.utils.AppManager.buildAllActionMainLauncherIntents(AppManager.java:152)
+
+I/aglSystem.Resources( 6221): [44.0000:7.7425] [Info in cResources::_DoOpen]: (modules/aglSystem/src/Resources.cpp:733)
+
+I/aglSystem.Resources( 6221): '/system/csc/gaya3d_launcher_cfg.xml' opened from a disk file '/system/csc/gaya3d_launcher_cfg.xml'.
+
+D/com.ts.gaya.utils.AppManager( 6221): Ignored addApp(...) for package cn.tvbox.
+
+W/com.ts.gaya.utils.AppManager( 6221):     at com.ts.gaya.utils.AppManager.addApp(AppManager.java:170)
+
+D/com.ts.gaya.utils.AppManager( 6221): Ignored addApp(...) for package com.adobe.flashplayer.
+
+W/com.ts.gaya.utils.AppManager( 6221):     at com.ts.gaya.utils.AppManager.addApp(AppManager.java:170)
+
+D/com.ts.gaya.utils.AppManager( 6221): Ignored addApp(...) for package com.android.browser.
+
+W/com.ts.gaya.utils.AppManager( 6221):     at com.ts.gaya.utils.AppManager.addApp(AppManager.java:170)
+
+D/com.ts.gaya.utils.AppManager( 6221): Ignored addApp(...) for package com.android.contacts.
+
+W/com.ts.gaya.utils.AppManager( 6221):     at com.ts.gaya.utils.AppManager.addApp(AppManager.java:170)
+
+D/com.ts.gaya.utils.AppManager( 6221): Ignored addApp(...) for package com.android.contacts.
+
+W/com.ts.gaya.utils.AppManager( 6221):     at com.ts.gaya.utils.AppManager.addApp(AppManager.java:170)
+
+D/com.ts.gaya.utils.AppManager( 6221): Ignored addApp(...) for package com.android.development.
+
+W/com.ts.gaya.utils.AppManager( 6221):     at com.ts.gaya.utils.AppManager.addApp(AppManager.java:170)
+
+D/com.ts.gaya.utils.AppManager( 6221): Ignored addApp(...) for package com.android.providers.downloads.ui.
+
+W/com.ts.gaya.utils.AppManager( 6221):     at com.ts.gaya.utils.AppManager.addApp(AppManager.java:170)
+
+D/com.ts.gaya.utils.AppManager( 6221): Ignored addApp(...) for package com.android.settings.
+
+W/com.ts.gaya.utils.AppManager( 6221):     at com.ts.gaya.utils.AppManager.addApp(AppManager.java:170)
+
+D/com.ts.gaya.utils.AppManager( 6221): Ignored addApp(...) for package com.android.speechrecorder.
+
+W/com.ts.gaya.utils.AppManager( 6221):     at com.ts.gaya.utils.AppManager.addApp(AppManager.java:170)
+
+D/com.ts.gaya.utils.AppManager( 6221): Ignored addApp(...) for package com.coship.Multimedia.
+
+W/com.ts.gaya.utils.AppManager( 6221):     at com.ts.gaya.utils.AppManager.addApp(AppManager.java:170)
+
+D/com.ts.gaya.utils.AppManager( 6221): Ignored addApp(...) for package com.coship.dvbsetting.
+
+W/com.ts.gaya.utils.AppManager( 6221):     at com.ts.gaya.utils.AppManager.addApp(AppManager.java:170)
+
+D/com.ts.gaya.utils.AppManager( 6221): Ignored addApp(...) for package com.coship.sdp.sce.tvappstore.
+
+W/com.ts.gaya.utils.AppManager( 6221):     at com.ts.gaya.utils.AppManager.addApp(AppManager.java:170)
+
+D/com.ts.gaya.utils.AppManager( 6221): Ignored addApp(...) for package com.iflytek.vaf.
+
+W/com.ts.gaya.utils.AppManager( 6221):     at com.ts.gaya.utils.AppManager.addApp(AppManager.java:170)
+
+D/com.ts.gaya.utils.AppManager( 6221): Ignored addApp(...) for package com.iflytek.vaf.TouchKey.
+
+W/com.ts.gaya.utils.AppManager( 6221):     at com.ts.gaya.utils.AppManager.addApp(AppManager.java:170)
+
+D/com.ts.gaya.utils.AppManager( 6221): Ignored addApp(...) for package com.sihuatech.wasutv4ics.
+
+W/com.ts.gaya.utils.AppManager( 6221):     at com.ts.gaya.utils.AppManager.addApp(AppManager.java:170)
+
+D/com.ts.gaya.utils.AppManager( 6221): Ignored addApp(...) for package com.ts.gaya.coship.
+
+W/com.ts.gaya.utils.AppManager( 6221):     at com.ts.gaya.utils.AppManager.addApp(AppManager.java:170)
+
+D/com.ts.gaya.storage.StorageFileXML( 6221): Successfully saved DataTable to path '/data/data/com.ts.gaya.coship/app_appdata/preferences/AppTitles.dtz'.
+
+W/com.ts.gaya.storage.StorageFileXML( 6221):     at com.ts.gaya.storage.StorageFileXML.save(StorageFileXML.java:66)
+
+D/com.ts.gaya.coship.MainActivity( 6221): Getting content from server 'http://wasu.feifeikan.com:8080/'.
+
+W/com.ts.gaya.coship.MainActivity( 6221):     at com.ts.gaya.coship.MainActivity.onCreate(MainActivity.java:289)
+
+V/TabletStatusBar( 1139): setLightsOn(true)
+
+D/selena.android.gl.GLView$GLThread( 6221): waitForRenderComplete - Enter: false, false
+
+W/selena.android.gl.GLView$GLThread( 6221):     at selena.android.gl.GLView$GLThread.waitForRenderComplete(GLView.java:746)
+
+V/selena.android.gl.EglHelper( 6221): >>> Looking for EGL Config ES1 R8G8B8A0 D16S0 AA0
+
+W/selena.android.gl.EglHelper( 6221):     at selena.android.gl.EglHelper.start(EglHelper.java:101)
+
+V/selena.android.gl.EglHelper( 6221): eglChooseConfig err: 12288
+
+W/selena.android.gl.EglHelper( 6221):     at selena.android.gl.EglHelper.findAndInitConfig(EglHelper.java:177)
+
+V/selena.android.gl.EglHelper( 6221): >>> EGL Config [0] ES0 R8G8B8A0 D24S0 AA0 Caveat[12344] - Score: 2048
+
+W/selena.android.gl.EglHelper( 6221):     at selena.android.gl.EglHelper.findAndInitConfig(EglHelper.java:237)
+
+V/selena.android.gl.EglHelper( 6221): --> Config chosen: 0
+
+W/selena.android.gl.EglHelper( 6221):     at selena.android.gl.EglHelper.findAndInitConfig(EglHelper.java:250)
+
+V/selena.android.gl.EglHelper( 6221): >>> EGL Config [1] ES0 R8G8B8A8 D24S8 AA0 Caveat[12344] - Score: 526344
+
+W/selena.android.gl.EglHelper( 6221):     at selena.android.gl.EglHelper.findAndInitConfig(EglHelper.java:237)
+
+V/selena.android.gl.EglHelper( 6221): >>> EGL Config [2] ES0 R8G8B8A8 D24S8 AA0 Caveat[12344] - Score: 526344
+
+W/selena.android.gl.EglHelper( 6221):     at selena.android.gl.EglHelper.findAndInitConfig(EglHelper.java:237)
+
+V/selena.android.gl.EglHelper( 6221): >>> EGL Config [3] ES0 R8G8B8A8 D24S8 AA4 Caveat[12344] - Score: 67635208
+
+W/selena.android.gl.EglHelper( 6221):     at selena.android.gl.EglHelper.findAndInitConfig(EglHelper.java:237)
+
+D/selena.android.gl.GLView$GLThread( 6221): waitForRenderComplete - LeaveAt: 0
+
+W/selena.android.gl.GLView$GLThread( 6221):     at selena.android.gl.GLView$GLThread.waitForRenderComplete(GLView.java:755)
+
+W/selena.android.view.SelenaView( 6221): DISPATCH_DRAW_WAIT_FOR_NFRAMES_COUNT: 1
+
+W/selena.android.view.SelenaView( 6221):     at selena.android.view.SelenaView.dispatchDraw(SelenaView.java:99)
+
+D/selena.android.gl.GLView$GLThread( 6221): waitForRenderComplete - Enter: false, false
+
+W/selena.android.gl.GLView$GLThread( 6221):     at selena.android.gl.GLView$GLThread.waitForRenderComplete(GLView.java:746)
+
+D/selena.android.gl.GLView$GLThread( 6221): waitForRenderComplete - LeaveAt: 0
+
+W/selena.android.gl.GLView$GLThread( 6221):     at selena.android.gl.GLView$GLThread.waitForRenderComplete(GLView.java:755)
+
+D/dalvikvm( 3553): GC_CONCURRENT freed 2073K, 46% free 7359K/13443K, paused 6ms+4ms
+
+I/ActivityManager(  980): Displayed com.ts.gaya.coship/.MainActivity: +431ms
+
+D/selena.android.view.SelenaView( 6221): onWindowFocusChanged: true
+
+W/selena.android.view.SelenaView( 6221):     at selena.android.view.SelenaView.onWindowFocusChanged(SelenaView.java:121)
+
+D/selena.android.gl.GLView( 6221): onWindowFocusChanged: true
+
+W/selena.android.gl.GLView( 6221):     at selena.android.gl.GLView.onWindowFocusChanged(GLView.java:379)
+
+D/selena.android.gl.GLView$GLThread( 6221): onWindowFocusChanged - Enter: false, false
+
+W/selena.android.gl.GLView$GLThread( 6221):     at selena.android.gl.GLView$GLThread.onWindowFocusChanged(GLView.java:822)
+
+D/selena.android.gl.GLView$GLThread( 6221): onWindowFocusChanged - Leave: false, false
+
+W/selena.android.gl.GLView$GLThread( 6221):     at selena.android.gl.GLView$GLThread.onWindowFocusChanged(GLView.java:831)
+
+D/selena.android.view.SelenaView( 6221): onCreateInputConnection
+
+W/selena.android.view.SelenaView( 6221):     at selena.android.view.SelenaView.onCreateInputConnection(SelenaView.java:396)
+
+V/selena.android.view.SelenaView( 6221): **** onDestroy - Enter
+
+W/selena.android.view.SelenaView( 6221):     at selena.android.view.SelenaView.activityOnDestroy(SelenaView.java:254)
+
+D/selena.android.gl.GLView( 6221): onDestroy
+
+W/selena.android.gl.GLView( 6221):     at selena.android.gl.GLView.onDestroy(GLView.java:348)
+
+D/selena.android.gl.GLView$GLThread( 6221): requestExitAndWait - Enter: false, false
+
+W/selena.android.gl.GLView$GLThread( 6221):     at selena.android.gl.GLView$GLThread.requestExitAndWait(GLView.java:839)
+
+D/selena.android.view.SelenaView( 6221): onThreadExit tid=285 - Enter
+
+W/selena.android.view.SelenaView( 6221):     at selena.android.view.SelenaView.onThreadExit(SelenaView.java:305)
+
+D/selena.android.view.SelenaView( 6221): shutdown
+
+W/selena.android.view.SelenaView( 6221):     at selena.android.view.SelenaView.onThreadExit(SelenaView.java:306)
+
+D/selena.android.view.SelenaView( 6221): onThreadExit tid=285 - Leave
+
+W/selena.android.view.SelenaView( 6221):     at selena.android.view.SelenaView.onThreadExit(SelenaView.java:311)
+
+D/selena.android.gl.GLView$GLThread( 6221): requestExitAndWait - Leave: true, true
+
+W/selena.android.gl.GLView$GLThread( 6221):     at selena.android.gl.GLView$GLThread.requestExitAndWait(GLView.java:850)
+
+V/selena.android.view.SelenaView( 6221): **** onDestroy - Leave
+
+W/selena.android.view.SelenaView( 6221):     at selena.android.view.SelenaView.activityOnDestroy(SelenaView.java:256)
+
+D/selena.android.view.SelenaView( 6221): Surface Created
+
+W/selena.android.view.SelenaView( 6221):     at selena.android.view.SelenaView.onSurfaceCreated(SelenaView.java:316)
+
+D/dalvikvm( 6221): GC_EXPLICIT freed 1054K, 53% free 8416K/17603K, paused 3ms+3ms
+
+E/selena.app.BaseAppWindow( 6221): Window should have been disposed !
+
+E/selena.app.BaseAppWindow( 6221):     at selena.app.BaseAppWindow.finalize(BaseAppWindow.java:244)
+
+D/selena.app.BaseAppWindow( 6221): Invalidating global instance 'iOSWindow' !
+
+W/selena.app.BaseAppWindow( 6221):     at selena.app.BaseAppWindow.invalidateGlobalInstance(BaseAppWindow.java:267)
+
+W/selena.app.BaseAppWindow( 6221): Can't find global instance 'iOSWindow' !
+
+W/selena.app.BaseAppWindow( 6221):     at selena.app.BaseAppWindow.invalidateGlobalInstance(BaseAppWindow.java:271)
+
+D/selena.app.BaseAppWindow( 6221): Invalidating global instance 'aglSystem.ScriptVM' !
+
+W/selena.app.BaseAppWindow( 6221):     at selena.app.BaseAppWindow.invalidateGlobalInstance(BaseAppWindow.java:267)
+
+W/selena.app.BaseAppWindow( 6221): Can't find global instance 'aglSystem.ScriptVM' !
+
+W/selena.app.BaseAppWindow( 6221):     at selena.app.BaseAppWindow.invalidateGlobalInstance(BaseAppWindow.java:271)
+
+D/selena.app.BaseAppWindow( 6221): Invalidating global instance 'iUIContext' !
+
+W/selena.app.BaseAppWindow( 6221):     at selena.app.BaseAppWindow.invalidateGlobalInstance(BaseAppWindow.java:267)
+
+W/selena.app.BaseAppWindow( 6221): Can't find global instance 'iUIContext' !
+
+W/selena.app.BaseAppWindow( 6221):     at selena.app.BaseAppWindow.invalidateGlobalInstance(BaseAppWindow.java:271)
+
+D/selena.app.BaseAppWindow( 6221): Invalidating global instance 'iGraphicsContext' !
+
+W/selena.app.BaseAppWindow( 6221):     at selena.app.BaseAppWindow.invalidateGlobalInstance(BaseAppWindow.java:267)
+
+W/selena.app.BaseAppWindow( 6221): Can't find global instance 'iGraphicsContext' !
+
+W/selena.app.BaseAppWindow( 6221):     at selena.app.BaseAppWindow.invalidateGlobalInstance(BaseAppWindow.java:271)
+
+E/System  ( 6221): Uncaught exception thrown by finalizer
+
+I/aglSystem.Resources( 6221): [44.0710:0.0710] [Info in cResources::_AddSource]: (modules/aglSystem/src/Resources.cpp:155)
+
+I/aglSystem.Resources( 6221): Added a reference to source 'data/' !
+
+I/aglSystem.Resources( 6221): [44.0713:0.0002] [Info in cResources::_AddSource]: (modules/aglSystem/src/Resources.cpp:155)
+
+I/aglSystem.Resources( 6221): Added a reference to source 'scripts/' !
+
+I/aglSystem.PluginManager( 6221): [44.0744:0.0031] [Info in cPluginManager::LoadDirectory]: (modules/aglSystem/src/PluginManager.cpp:302)
+
+I/aglSystem.PluginManager( 6221): Loading from Directory : /system/lib/
+
+I/aglSystem.PluginManager( 6221): [44.0783:0.0039] [Info in cPluginManager::LoadDirectory]: (modules/aglSystem/src/PluginManager.cpp:314)
+
+I/aglSystem.PluginManager( 6221): Done Loading from Directory : /system/lib/
+
+I/aglSystem.PluginManager( 6221): [44.0789:0.0006] [Info in cPluginManager::LoadModule]: (modules/aglSystem/src/PluginManager.cpp:180)
+
+I/aglSystem.PluginManager( 6221): Plugin 'pxfDXTn.PixelFormat' loaded from 'pxfDXTn' (DXTn Pixel Formats (Build Date: Mar  8 2012)).
+
+I/aglSystem.PluginManager( 6221): [44.0791:0.0002] [Info in cPluginManager::LoadModule]: (modules/aglSystem/src/PluginManager.cpp:180)
+
+I/aglSystem.PluginManager( 6221): Plugin 'pxfStd.PixelFormat' loaded from 'pxfStd' (Standard Pixel Formats (Build Date: Mar  8 2012)).
+
+I/aglSystem.PluginManager( 6221): [44.0809:0.0018] [Info in cPluginManager::LoadDirectory]: (modules/aglSystem/src/PluginManager.cpp:302)
+
+I/aglSystem.PluginManager( 6221): Loading from Directory : /system/lib/
+
+I/aglSystem.ModuleManager( 6221): [44.0827:0.0018] [Info in cSystem::ModuleLoadDLL]: (modules/aglSystem/src/ModuleDLL.cpp:157)
+
+I/aglSystem.ModuleManager( 6221): Loaded Module DLL '/system/lib/libpxfDXTn_armv6_ra.so' (B000F6E0) from (/system/lib/libpxfDXTn_armv6_ra.so, FOUND|LOADED_REGULAR) !
+
+I/aglSystem.ModuleManager( 6221): [44.0831:0.0004] [Info in cModuleManager::GetModule]: (modules/aglSystem/src/ModuleManager.cpp:397)
+
+I/aglSystem.ModuleManager( 6221): Module loading '/system/lib/libpxfDXTn_armv6_ra.so' from '/system/lib/libpxfDXTn_armv6_ra.so'
+
+I/aglSystem.ModuleManager( 6221): [44.0833:0.0002] [Info in cModuleManager::GetModule]: (modules/aglSystem/src/ModuleManager.cpp:415)
+
+I/aglSystem.ModuleManager( 6221): Module 'pxfDXTn' (/system/lib/libpxfDXTn_armv6_ra.so) already loaded !
+
+I/aglSystem.PluginManager( 6221): [44.0835:0.0002] [Info in cPluginManager::Load]: (modules/aglSystem/src/PluginManager.cpp:343)
+
+I/aglSystem.PluginManager( 6221): Plugin Module 'pxfDXTn' already loaded !
+
+I/aglSystem.ModuleManager( 6221): [44.0841:0.0006] [Info in cSystem::ModuleLoadDLL]: (modules/aglSystem/src/ModuleDLL.cpp:157)
+
+I/aglSystem.ModuleManager( 6221): Loaded Module DLL '/system/lib/libpxfStd_armv6_ra.so' (B000F7F8) from (/system/lib/libpxfStd_armv6_ra.so, FOUND|LOADED_REGULAR) !
+
+E/StrictMode( 6221): class com.ts.gaya.coship.MainActivity; instances=3; limit=2
+
+E/StrictMode( 6221): android.os.StrictMode$InstanceCountViolation: class com.ts.gaya.coship.MainActivity; instances=3; limit=2
+
+E/StrictMode( 6221):    at android.os.StrictMode.setClassInstanceLimit(StrictMode.java:1)
+
+E/System  ( 6221): java.lang.IllegalArgumentException: Receiver not registered: com.ts.gaya.coship.AppIntentReceiver@417aa8b0
+
+E/System  ( 6221):      at android.app.LoadedApk.forgetReceiverDispatcher(LoadedApk.java:628)
+
+E/System  ( 6221):      at android.app.ContextImpl.unregisterReceiver(ContextImpl.java:1091)
+
+E/System  ( 6221):      at android.content.ContextWrapper.unregisterReceiver(ContextWrapper.java:354)
+
+E/System  ( 6221):      at com.ts.gaya.coship.MainActivity.unregisterIntentReceivers(MainActivity.java:180)
+
+E/System  ( 6221):      at com.ts.gaya.coship.MainActivity.onShutdown(MainActivity.java:389)
+
+E/System  ( 6221):      at selena.app.BaseAppWindow.dispose(BaseAppWindow.java:314)
+
+E/System  ( 6221):      at selena.android.view.AndroidAppWindow.dispose(AndroidAppWindow.java:108)
+
+E/System  ( 6221):      at selena.app.BaseAppWindow.finalize(BaseAppWindow.java:245)
+
+E/System  ( 6221):      at java.lang.Daemons$FinalizerDaemon.doFinalize(Daemons.java:182)
+
+E/System  ( 6221):      at java.lang.Daemons$FinalizerDaemon.run(Daemons.java:168)
+
+E/System  ( 6221):      at java.lang.Thread.run(Thread.java:856)
+
+I/aglSystem.ScriptVM( 6221): [44.0861:0.0020] [Info]: (:0)
+
+I/aglSystem.ScriptVM( 6221): VM Closed, 0 garbages found.
+
+D/selena.android.view.SelenaView( 6221): onDetachedFromWindow
+
+W/selena.android.view.SelenaView( 6221):     at selena.android.view.SelenaView.onDetachedFromWindow(SelenaView.java:133)
+
+D/selena.android.gl.GLView$GLThread( 6221): requestExitAndWait - Enter: true, true
+
+I/aglSystem.ModuleManager( 6221): [44.0842:-0.0019] [Info in cModuleManager::GetModule]: (modules/aglSystem/src/ModuleManager.cpp:397)
+
+I/aglSystem.ModuleManager( 6221): Module loading '/system/lib/libpxfStd_armv6_ra.so' from '/system/lib/libpxfStd_armv6_ra.so'
+
+W/selena.android.gl.GLView$GLThread( 6221):     at selena.android.gl.GLView$GLThread.requestExitAndWait(GLView.java:839)
+
+I/aglSystem.ModuleManager( 6221): [44.0923:0.0081] [Info in cModuleManager::GetModule]: (modules/aglSystem/src/ModuleManager.cpp:415)
+
+I/aglSystem.ModuleManager( 6221): Module 'pxfStd' (/system/lib/libpxfStd_armv6_ra.so) already loaded !
+
+I/aglSystem.PluginManager( 6221): [44.0925:0.0002] [Info in cPluginManager::Load]: (modules/aglSystem/src/PluginManager.cpp:343)
+
+I/aglSystem.PluginManager( 6221): Plugin Module 'pxfStd' already loaded !
+
+I/aglSystem.PluginManager( 6221): [44.0929:0.0004] [Info in cPluginManager::LoadDirectory]: (modules/aglSystem/src/PluginManager.cpp:314)
+
+I/aglSystem.PluginManager( 6221): Done Loading from Directory : /system/lib/
+
+D/selena.android.gl.GLView$GLThread( 6221): requestExitAndWait - Leave: true, true
+
+W/selena.android.gl.GLView$GLThread( 6221):     at selena.android.gl.GLView$GLThread.requestExitAndWait(GLView.java:850)
+
+V/aglSendDebugString( 6221): GLES1 Context - Resized [00345BE8]: 1280x720 (BB:R5G6B5) (DS:D16), VP: Vec4(0,0,1280,720), SC: Vec4(0,0,1280,720)
+
+I/aglGraphics.GDRV( 6221): [44.0938:0.0009] [Info in cGraphics::CreateContext]: (modules/aglGraphics/src/GDRV_Main.cpp:231)
+
+I/aglGraphics.GDRV( 6221): Context '00345BE8' created : driver 'renGLES1', 1280x720, backbuffer 'R5G6B5', depth stencil 'D16'.
+
+V/aglSendDebugString( 6221): GATHERING FONTS: /system/fonts/*.ttf
+
+V/aglSendDebugString( 6221): GOT FONT: AndroidClock.ttf, AndroidClock
+
+V/aglSendDebugString( 6221): GOT FONT: AndroidClock_Highlight.ttf, AndroidClock_Highlight
+
+V/aglSendDebugString( 6221): GOT FONT: AndroidClock_Solid.ttf, AndroidClock_Solid
+
+V/aglSendDebugString( 6221): GOT FONT: Clockopia.ttf, Clockopia
+
+V/aglSendDebugString( 6221): GOT FONT: DroidNaskh-Regular.ttf, DroidNaskh-Regular
+
+V/aglSendDebugString( 6221): GOT FONT: DroidSans-Bold.ttf, DroidSans-Bold
+
+V/aglSendDebugString( 6221): GOT FONT: DroidSans.ttf, DroidSans
+
+V/aglSendDebugString( 6221): GOT FONT: DroidSansArmenian.ttf, DroidSansArmenian
+
+V/aglSendDebugString( 6221): GOT FONT: DroidSansEthiopic-Regular.ttf, DroidSansEthiopic-Regular
+
+V/aglSendDebugString( 6221): GOT FONT: DroidSansFallback.ttf, DroidSansFallback
+
+V/aglSendDebugString( 6221): GOT FONT: DroidSansGeorgian.ttf, DroidSansGeorgian
+
+V/aglSendDebugString( 6221): GOT FONT: DroidSansHebrew-Bold.ttf, DroidSansHebrew-Bold
+
+V/aglSendDebugString( 6221): GOT FONT: DroidSansHebrew-Regular.ttf, DroidSansHebrew-Regular
+
+V/aglSendDebugString( 6221): GOT FONT: DroidSansMono.ttf, DroidSansMono
+
+V/aglSendDebugString( 6221): GOT FONT: DroidSansThai.ttf, DroidSansThai
+
+V/aglSendDebugString( 6221): GOT FONT: DroidSerif-Bold.ttf, DroidSerif-Bold
+
+V/aglSendDebugString( 6221): GOT FONT: DroidSerif-BoldItalic.ttf, DroidSerif-BoldItalic
+
+V/aglSendDebugString( 6221): GOT FONT: DroidSerif-Italic.ttf, DroidSerif-Italic
+
+V/aglSendDebugString( 6221): GOT FONT: DroidSerif-Regular.ttf, DroidSerif-Regular
+
+V/aglSendDebugString( 6221): GOT FONT: Lohit-Bengali.ttf, Lohit-Bengali
+
+V/aglSendDebugString( 6221): GOT FONT: Lohit-Devanagari.ttf, Lohit-Devanagari
+
+V/aglSendDebugString( 6221): GOT FONT: Lohit-Tamil.ttf, Lohit-Tamil
+
+V/aglSendDebugString( 6221): GOT FONT: Roboto-Bold.ttf, Roboto-Bold
+
+V/aglSendDebugString( 6221): GOT FONT: Roboto-BoldItalic.ttf, Roboto-BoldItalic
+
+V/aglSendDebugString( 6221): GOT FONT: Roboto-Italic.ttf, Roboto-Italic
+
+V/aglSendDebugString( 6221): GOT FONT: Roboto-Regular.ttf, Roboto-Regular
+
+I/aglSystem.Resources( 6221): [44.1055:0.0117] [Info in cResources::_DoOpen]: (modules/aglSystem/src/Resources.cpp:733)
+
+I/aglSystem.Resources( 6221): '/system/fonts/DroidSansMono.ttf' opened from a disk file '/system/fonts/DroidSansMono.ttf'.
+
+I/aglSystem.PluginManager( 6221): [44.1061:0.0005] [Info in cPluginManager::LoadModule]: (modules/aglSystem/src/PluginManager.cpp:180)
+
+I/aglSystem.PluginManager( 6221): Plugin 'bmpBMP.BitmapFileIO' loaded from 'bmpBMP' (BMP format IO (Build Date: Mar  8 2012)).
+
+I/aglSystem.PluginManager( 6221): [44.1063:0.0002] [Info in cPluginManager::LoadModule]: (modules/aglSystem/src/PluginManager.cpp:180)
+
+I/aglSystem.PluginManager( 6221): Plugin 'bmpDDS.BitmapFileIO' loaded from 'bmpDDS' (DDS format IO (Build Date: Mar  8 2012)).
+
+I/aglSystem.PluginManager( 6221): [44.1065:0.0002] [Info in cPluginManager::LoadModule]: (modules/aglSystem/src/PluginManager.cpp:180)
+
+I/aglSystem.PluginManager( 6221): Plugin 'bmpJPEG.BitmapFileIO' loaded from 'bmpJPEG' (JPEG format IO (Build Date: Mar  8 2012)).
+
+I/aglSystem.PluginManager( 6221): [44.1071:0.0006] [Info in cPluginManager::LoadModule]: (modules/aglSystem/src/PluginManager.cpp:180)
+
+I/aglSystem.PluginManager( 6221): Plugin 'bmpPNG.BitmapFileIO' loaded from 'bmpPNG' (PNG format IO (Build Date: Mar  8 2012)).
+
+I/aglSystem.PluginManager( 6221): [44.1073:0.0002] [Info in cPluginManager::LoadModule]: (modules/aglSystem/src/PluginManager.cpp:180)
+
+I/aglSystem.PluginManager( 6221): Plugin 'bmpTGA.BitmapFileIO' loaded from 'bmpTGA' (TGA format IO (Build Date: Mar  8 2012)).
+
+I/aglSystem.PluginManager( 6221): [44.1075:0.0002] [Info in cPluginManager::LoadDirectory]: (modules/aglSystem/src/PluginManager.cpp:302)
+
+I/aglSystem.PluginManager( 6221): Loading from Directory : /system/lib/
+
+I/aglSystem.ModuleManager( 6221): [44.1091:0.0016] [Info in cSystem::ModuleLoadDLL]: (modules/aglSystem/src/ModuleDLL.cpp:157)
+
+I/aglSystem.ModuleManager( 6221): Loaded Module DLL '/system/lib/libbmpBMP_armv6_ra.so' (B000FA28) from (/system/lib/libbmpBMP_armv6_ra.so, FOUND|LOADED_REGULAR) !
+
+I/aglSystem.ModuleManager( 6221): [44.1093:0.0002] [Info in cModuleManager::GetModule]: (modules/aglSystem/src/ModuleManager.cpp:397)
+
+I/aglSystem.ModuleManager( 6221): Module loading '/system/lib/libbmpBMP_armv6_ra.so' from '/system/lib/libbmpBMP_armv6_ra.so'
+
+I/aglSystem.ModuleManager( 6221): [44.1095:0.0002] [Info in cModuleManager::GetModule]: (modules/aglSystem/src/ModuleManager.cpp:415)
+
+I/aglSystem.ModuleManager( 6221): Module 'bmpBMP' (/system/lib/libbmpBMP_armv6_ra.so) already loaded !
+
+I/aglSystem.PluginManager( 6221): [44.1096:0.0001] [Info in cPluginManager::Load]: (modules/aglSystem/src/PluginManager.cpp:343)
+
+I/aglSystem.PluginManager( 6221): Plugin Module 'bmpBMP' already loaded !
+
+I/aglSystem.ModuleManager( 6221): [44.1102:0.0006] [Info in cSystem::ModuleLoadDLL]: (modules/aglSystem/src/ModuleDLL.cpp:157)
+
+I/aglSystem.ModuleManager( 6221): Loaded Module DLL '/system/lib/libbmpDDS_armv6_ra.so' (B000FB40) from (/system/lib/libbmpDDS_armv6_ra.so, FOUND|LOADED_REGULAR) !
+
+I/aglSystem.ModuleManager( 6221): [44.1103:0.0002] [Info in cModuleManager::GetModule]: (modules/aglSystem/src/ModuleManager.cpp:397)
+
+I/aglSystem.ModuleManager( 6221): Module loading '/system/lib/libbmpDDS_armv6_ra.so' from '/system/lib/libbmpDDS_armv6_ra.so'
+
+I/aglSystem.ModuleManager( 6221): [44.1105:0.0001] [Info in cModuleManager::GetModule]: (modules/aglSystem/src/ModuleManager.cpp:415)
+
+I/aglSystem.ModuleManager( 6221): Module 'bmpDDS' (/system/lib/libbmpDDS_armv6_ra.so) already loaded !
+
+I/aglSystem.PluginManager( 6221): [44.1106:0.0001] [Info in cPluginManager::Load]: (modules/aglSystem/src/PluginManager.cpp:343)
+
+I/aglSystem.PluginManager( 6221): Plugin Module 'bmpDDS' already loaded !
+
+I/aglSystem.ModuleManager( 6221): [44.1113:0.0007] [Info in cSystem::ModuleLoadDLL]: (modules/aglSystem/src/ModuleDLL.cpp:157)
+
+I/aglSystem.ModuleManager( 6221): Loaded Module DLL '/system/lib/libbmpJPEG_armv6_ra.so' (B000FC58) from (/system/lib/libbmpJPEG_armv6_ra.so, FOUND|LOADED_REGULAR) !
+
+I/aglSystem.ModuleManager( 6221): [44.1115:0.0002] [Info in cModuleManager::GetModule]: (modules/aglSystem/src/ModuleManager.cpp:397)
+
+I/aglSystem.ModuleManager( 6221): Module loading '/system/lib/libbmpJPEG_armv6_ra.so' from '/system/lib/libbmpJPEG_armv6_ra.so'
+
+I/aglSystem.ModuleManager( 6221): [44.1117:0.0001] [Info in cModuleManager::GetModule]: (modules/aglSystem/src/ModuleManager.cpp:415)
+
+I/aglSystem.ModuleManager( 6221): Module 'bmpJPEG' (/system/lib/libbmpJPEG_armv6_ra.so) already loaded !
+
+I/aglSystem.PluginManager( 6221): [44.1118:0.0001] [Info in cPluginManager::Load]: (modules/aglSystem/src/PluginManager.cpp:343)
+
+I/aglSystem.PluginManager( 6221): Plugin Module 'bmpJPEG' already loaded !
+
+I/aglSystem.ModuleManager( 6221): [44.1124:0.0006] [Info in cSystem::ModuleLoadDLL]: (modules/aglSystem/src/ModuleDLL.cpp:157)
+
+I/aglSystem.ModuleManager( 6221): Loaded Module DLL '/system/lib/libbmpPNG_armv6_ra.so' (B000FE88) from (/system/lib/libbmpPNG_armv6_ra.so, FOUND|LOADED_REGULAR) !
+
+I/aglSystem.ModuleManager( 6221): [44.1125:0.0002] [Info in cModuleManager::GetModule]: (modules/aglSystem/src/ModuleManager.cpp:397)
+
+I/aglSystem.ModuleManager( 6221): Module loading '/system/lib/libbmpPNG_armv6_ra.so' from '/system/lib/libbmpPNG_armv6_ra.so'
+
+I/aglSystem.ModuleManager( 6221): [44.1127:0.0001] [Info in cModuleManager::GetModule]: (modules/aglSystem/src/ModuleManager.cpp:415)
+
+I/aglSystem.ModuleManager( 6221): Module 'bmpPNG' (/system/lib/libbmpPNG_armv6_ra.so) already loaded !
+
+I/aglSystem.PluginManager( 6221): [44.1128:0.0001] [Info in cPluginManager::Load]: (modules/aglSystem/src/PluginManager.cpp:343)
+
+I/aglSystem.PluginManager( 6221): Plugin Module 'bmpPNG' already loaded !
+
+I/aglSystem.ModuleManager( 6221): [44.1134:0.0006] [Info in cSystem::ModuleLoadDLL]: (modules/aglSystem/src/ModuleDLL.cpp:157)
+
+I/aglSystem.ModuleManager( 6221): Loaded Module DLL '/system/lib/libbmpTGA_armv6_ra.so' (B000FFA0) from (/system/lib/libbmpTGA_armv6_ra.so, FOUND|LOADED_REGULAR) !
+
+I/aglSystem.ModuleManager( 6221): [44.1135:0.0002] [Info in cModuleManager::GetModule]: (modules/aglSystem/src/ModuleManager.cpp:397)
+
+I/aglSystem.ModuleManager( 6221): Module loading '/system/lib/libbmpTGA_armv6_ra.so' from '/system/lib/libbmpTGA_armv6_ra.so'
+
+I/aglSystem.ModuleManager( 6221): [44.1137:0.0001] [Info in cModuleManager::GetModule]: (modules/aglSystem/src/ModuleManager.cpp:415)
+
+I/aglSystem.ModuleManager( 6221): Module 'bmpTGA' (/system/lib/libbmpTGA_armv6_ra.so) already loaded !
+
+I/aglSystem.PluginManager( 6221): [44.1138:0.0001] [Info in cPluginManager::Load]: (modules/aglSystem/src/PluginManager.cpp:343)
+
+I/aglSystem.PluginManager( 6221): Plugin Module 'bmpTGA' already loaded !
+
+I/aglSystem.PluginManager( 6221): [44.1145:0.0007] [Info in cPluginManager::LoadDirectory]: (modules/aglSystem/src/PluginManager.cpp:314)
+
+I/aglSystem.PluginManager( 6221): Done Loading from Directory : /system/lib/
+
+I/aglSystem.Resources( 6221): [44.1185:0.0040] [Info in cResources::_DoOpen]: (modules/aglSystem/src/Resources.cpp:733)
+
+I/aglSystem.Resources( 6221): '/system/fonts/Roboto-Regular.ttf' opened from a disk file '/system/fonts/Roboto-Regular.ttf'.
+
+I/aglSystem.Resources( 6221): [44.1210:0.0024] [Info in cResources::_DoOpen]: (modules/aglSystem/src/Resources.cpp:733)
+
+I/aglSystem.Resources( 6221): '/system/fonts/DroidSansFallback.ttf' opened from a disk file '/system/fonts/DroidSansFallback.ttf'.
+
+E/aglSystem.Resources( 6221): [44.1313:0.0103] [Error in cResources::_DoOpen]: (modules/aglSystem/src/Resources.cpp:745)
+
+E/aglSystem.Resources( 6221): Can't open the resource file 'skins/embedded.uiskin.xml' !
+
+E/aglUI   ( 6221): [44.1315:0.0002] [Error in cUIContext::AddSkinFromRes]: (modules/aglUI/src/UIContext_Skin.cpp:76)
+
+E/aglUI   ( 6221): Can't open the skin resource 'skins/embedded.uiskin.xml' !
+
+E/aglUI   ( 6221): [44.1316:0.0001] [Error in cUIContext::cUIContext]: (modules/aglUI/src/UIContext.cpp:320)
+
+E/aglUI   ( 6221): Can't open the embedded skin !
+
+E/aglUI   ( 6221): [44.1317:0.0001] [Error in cUI::CreateUIContext]: (modules/aglUI/src/UI.cpp:160)
+
+E/aglUI   ( 6221): Can't create UI context !
+
+E/selena.android.view.SelenaView( 6221): Exception: null
+
+E/selena.android.view.SelenaView( 6221): java.lang.NullPointerException
+
+E/selena.android.view.SelenaView( 6221):        at selena.app.BaseAppWindow.construct(BaseAppWindow.java:154)
+
+E/selena.android.view.SelenaView( 6221):        at selena.android.view.AndroidAppWindow.<init>(AndroidAppWindow.java:47)
+
+E/selena.android.view.SelenaView( 6221):        at selena.android.view.SelenaView.onDrawFrame(SelenaView.java:338)
+
+E/selena.android.view.SelenaView( 6221):        at selena.android.gl.GLView$GLThread.guardedRun(GLView.java:636)
+
+E/selena.android.view.SelenaView( 6221):        at selena.android.gl.GLView$GLThread.run(GLView.java:432)
+
+E/selena.android.view.SelenaView( 6221):     at selena.android.view.SelenaView.onDrawFrame(SelenaView.java:343)
+
+D/MonitorCw880( 5194): currentRemoteHost is null ,continue
+
+D/selena.android.app.SelenaActivity( 6221): [KBD] dispatchKeyEvent: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=13232946, downTime=13232946, deviceId=1, source=0x2002 }
+
+W/selena.android.app.SelenaActivity( 6221):     at selena.android.app.SelenaActivity.dispatchKeyEvent(SelenaActivity.java:179)
+
+D/selena.android.app.SelenaActivity( 6221): [KBD] onKeyDown: 4, KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=13232946, downTime=13232946, deviceId=1, source=0x2002 }
+
+W/selena.android.app.SelenaActivity( 6221):     at selena.android.app.SelenaActivity.onKeyDown(SelenaActivity.java:167)
+
+D/selena.android.app.SelenaActivity( 6221): [KBD] dispatchKeyEvent: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=13233082, downTime=13233082, deviceId=1, source=0x2002 }
+
+W/selena.android.app.SelenaActivity( 6221):     at selena.android.app.SelenaActivity.dispatchKeyEvent(SelenaActivity.java:179)
+
+D/selena.android.app.SelenaActivity( 6221): [KBD] onKeyUp: 4, KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x200, repeatCount=0, eventTime=13233082, downTime=13233082, deviceId=1, source=0x2002 }
+
+W/selena.android.app.SelenaActivity( 6221):     at selena.android.app.SelenaActivity.onKeyUp(SelenaActivity.java:173)
+
+V/selena.android.view.SelenaView( 6221): **** onPause
+
+W/selena.android.view.SelenaView( 6221):     at selena.android.view.SelenaView.activityOnPause(SelenaView.java:216)
+
+I/ActivityManager(  980): START {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000000 cmp=com.ts.gaya.coship/.MainActivity} from pid 0
+
+D/selena.android.view.SelenaView( 6221): Startup SelenaView
+
+W/selena.android.view.SelenaView( 6221):     at selena.android.view.SelenaView.startup(SelenaView.java:83)
+
+D/com.ts.gaya.utils.AppManager( 6221): Icon dimension [w:96,wt:96]
+
+W/com.ts.gaya.utils.AppManager( 6221):     at com.ts.gaya.utils.AppManager.initDimensions(AppManager.java:132)
+
+D/com.ts.gaya.utils.AppManager( 6221): listApps
+
+W/com.ts.gaya.utils.AppManager( 6221):     at com.ts.gaya.utils.AppManager.listApps(AppManager.java:324)
+
+D/com.ts.gaya.utils.AppManager( 6221): There are '19' applications installed.
+
+W/com.ts.gaya.utils.AppManager( 6221):     at com.ts.gaya.utils.AppManager.buildAllActionMainLauncherIntents(AppManager.java:152)
+
+I/aglSystem.Resources( 6221): [45.0000:0.8683] [Info in cResources::_DoOpen]: (modules/aglSystem/src/Resources.cpp:733)
+
+I/aglSystem.Resources( 6221): '/system/csc/gaya3d_launcher_cfg.xml' opened from a disk file '/system/csc/gaya3d_launcher_cfg.xml'.
+
+D/com.ts.gaya.utils.AppManager( 6221): Ignored addApp(...) for package cn.tvbox.
+
+W/com.ts.gaya.utils.AppManager( 6221):     at com.ts.gaya.utils.AppManager.addApp(AppManager.java:170)
+
+D/com.ts.gaya.utils.AppManager( 6221): Ignored addApp(...) for package com.adobe.flashplayer.
+
+W/com.ts.gaya.utils.AppManager( 6221):     at com.ts.gaya.utils.AppManager.addApp(AppManager.java:170)
+
+D/com.ts.gaya.utils.AppManager( 6221): Ignored addApp(...) for package com.android.browser.
+
+W/com.ts.gaya.utils.AppManager( 6221):     at com.ts.gaya.utils.AppManager.addApp(AppManager.java:170)
+
+D/com.ts.gaya.utils.AppManager( 6221): Ignored addApp(...) for package com.android.contacts.
+
+W/com.ts.gaya.utils.AppManager( 6221):     at com.ts.gaya.utils.AppManager.addApp(AppManager.java:170)
+
+D/com.ts.gaya.utils.AppManager( 6221): Ignored addApp(...) for package com.android.contacts.
+
+W/com.ts.gaya.utils.AppManager( 6221):     at com.ts.gaya.utils.AppManager.addApp(AppManager.java:170)
+
+D/com.ts.gaya.utils.AppManager( 6221): Ignored addApp(...) for package com.android.development.
+
+W/com.ts.gaya.utils.AppManager( 6221):     at com.ts.gaya.utils.AppManager.addApp(AppManager.java:170)
+
+D/com.ts.gaya.utils.AppManager( 6221): Ignored addApp(...) for package com.android.providers.downloads.ui.
+
+W/com.ts.gaya.utils.AppManager( 6221):     at com.ts.gaya.utils.AppManager.addApp(AppManager.java:170)
+
+D/com.ts.gaya.utils.AppManager( 6221): Ignored addApp(...) for package com.android.settings.
+
+W/com.ts.gaya.utils.AppManager( 6221):     at com.ts.gaya.utils.AppManager.addApp(AppManager.java:170)
+
+D/com.ts.gaya.utils.AppManager( 6221): Ignored addApp(...) for package com.android.speechrecorder.
+
+W/com.ts.gaya.utils.AppManager( 6221):     at com.ts.gaya.utils.AppManager.addApp(AppManager.java:170)
+
+D/com.ts.gaya.utils.AppManager( 6221): Ignored addApp(...) for package com.coship.Multimedia.
+
+W/com.ts.gaya.utils.AppManager( 6221):     at com.ts.gaya.utils.AppManager.addApp(AppManager.java:170)
+
+D/com.ts.gaya.utils.AppManager( 6221): Ignored addApp(...) for package com.coship.dvbsetting.
+
+W/com.ts.gaya.utils.AppManager( 6221):     at com.ts.gaya.utils.AppManager.addApp(AppManager.java:170)
+
+D/com.ts.gaya.utils.AppManager( 6221): Ignored addApp(...) for package com.coship.sdp.sce.tvappstore.
+
+W/com.ts.gaya.utils.AppManager( 6221):     at com.ts.gaya.utils.AppManager.addApp(AppManager.java:170)
+
+D/com.ts.gaya.utils.AppManager( 6221): Ignored addApp(...) for package com.iflytek.vaf.
+
+W/com.ts.gaya.utils.AppManager( 6221):     at com.ts.gaya.utils.AppManager.addApp(AppManager.java:170)
+
+D/com.ts.gaya.utils.AppManager( 6221): Ignored addApp(...) for package com.iflytek.vaf.TouchKey.
+
+W/com.ts.gaya.utils.AppManager( 6221):     at com.ts.gaya.utils.AppManager.addApp(AppManager.java:170)
+
+D/com.ts.gaya.utils.AppManager( 6221): Ignored addApp(...) for package com.sihuatech.wasutv4ics.
+
+W/com.ts.gaya.utils.AppManager( 6221):     at com.ts.gaya.utils.AppManager.addApp(AppManager.java:170)
+
+D/com.ts.gaya.utils.AppManager( 6221): Ignored addApp(...) for package com.ts.gaya.coship.
+
+W/com.ts.gaya.utils.AppManager( 6221):     at com.ts.gaya.utils.AppManager.addApp(AppManager.java:170)
+
+D/com.ts.gaya.storage.StorageFileXML( 6221): Successfully saved DataTable to path '/data/data/com.ts.gaya.coship/app_appdata/preferences/AppTitles.dtz'.
+
+W/com.ts.gaya.storage.StorageFileXML( 6221):     at com.ts.gaya.storage.StorageFileXML.save(StorageFileXML.java:66)
+
+D/com.ts.gaya.coship.MainActivity( 6221): Getting content from server 'http://wasu.feifeikan.com:8080/'.
+
+W/com.ts.gaya.coship.MainActivity( 6221):     at com.ts.gaya.coship.MainActivity.onCreate(MainActivity.java:289)
+
+D/selena.android.view.SelenaView( 6221): onWindowFocusChanged: false
+
+W/selena.android.view.SelenaView( 6221):     at selena.android.view.SelenaView.onWindowFocusChanged(SelenaView.java:121)
+
+D/selena.android.gl.GLView( 6221): onWindowFocusChanged: false
+
+W/selena.android.gl.GLView( 6221):     at selena.android.gl.GLView.onWindowFocusChanged(GLView.java:379)
+
+D/selena.android.gl.GLView$GLThread( 6221): onWindowFocusChanged - Enter: false, false
+
+W/selena.android.gl.GLView$GLThread( 6221):     at selena.android.gl.GLView$GLThread.onWindowFocusChanged(GLView.java:822)
+
+D/selena.android.gl.GLView$GLThread( 6221): onWindowFocusChanged - Leave: false, false
+
+W/selena.android.gl.GLView$GLThread( 6221):     at selena.android.gl.GLView$GLThread.onWindowFocusChanged(GLView.java:831)
+
+V/TabletStatusBar( 1139): setLightsOn(true)
+
+D/selena.android.gl.GLView$GLThread( 6221): waitForRenderComplete - Enter: false, false
+
+W/selena.android.gl.GLView$GLThread( 6221):     at selena.android.gl.GLView$GLThread.waitForRenderComplete(GLView.java:746)
+
+V/selena.android.gl.EglHelper( 6221): >>> Looking for EGL Config ES1 R8G8B8A0 D16S0 AA0
+
+W/selena.android.gl.EglHelper( 6221):     at selena.android.gl.EglHelper.start(EglHelper.java:101)
+
+V/selena.android.gl.EglHelper( 6221): eglChooseConfig err: 12288
+
+W/selena.android.gl.EglHelper( 6221):     at selena.android.gl.EglHelper.findAndInitConfig(EglHelper.java:177)
+
+V/selena.android.gl.EglHelper( 6221): >>> EGL Config [0] ES0 R8G8B8A0 D24S0 AA0 Caveat[12344] - Score: 2048
+
+W/selena.android.gl.EglHelper( 6221):     at selena.android.gl.EglHelper.findAndInitConfig(EglHelper.java:237)
+
+V/selena.android.gl.EglHelper( 6221): --> Config chosen: 0
+
+W/selena.android.gl.EglHelper( 6221):     at selena.android.gl.EglHelper.findAndInitConfig(EglHelper.java:250)
+
+V/selena.android.gl.EglHelper( 6221): >>> EGL Config [1] ES0 R8G8B8A8 D24S8 AA0 Caveat[12344] - Score: 526344
+
+W/selena.android.gl.EglHelper( 6221):     at selena.android.gl.EglHelper.findAndInitConfig(EglHelper.java:237)
+
+V/selena.android.gl.EglHelper( 6221): >>> EGL Config [2] ES0 R8G8B8A8 D24S8 AA0 Caveat[12344] - Score: 526344
+
+W/selena.android.gl.EglHelper( 6221):     at selena.android.gl.EglHelper.findAndInitConfig(EglHelper.java:237)
+
+V/selena.android.gl.EglHelper( 6221): >>> EGL Config [3] ES0 R8G8B8A8 D24S8 AA4 Caveat[12344] - Score: 67635208
+
+W/selena.android.gl.EglHelper( 6221):     at selena.android.gl.EglHelper.findAndInitConfig(EglHelper.java:237)
+
+D/selena.android.gl.GLView$GLThread( 6221): waitForRenderComplete - LeaveAt: 0
+
+W/selena.android.gl.GLView$GLThread( 6221):     at selena.android.gl.GLView$GLThread.waitForRenderComplete(GLView.java:755)
+
+W/selena.android.view.SelenaView( 6221): DISPATCH_DRAW_WAIT_FOR_NFRAMES_COUNT: 1
+
+W/selena.android.view.SelenaView( 6221):     at selena.android.view.SelenaView.dispatchDraw(SelenaView.java:99)
+
+D/selena.android.gl.GLView$GLThread( 6221): waitForRenderComplete - Enter: false, false
+
+W/selena.android.gl.GLView$GLThread( 6221):     at selena.android.gl.GLView$GLThread.waitForRenderComplete(GLView.java:746)
+
+D/selena.android.gl.GLView$GLThread( 6221): waitForRenderComplete - LeaveAt: 0
+
+W/selena.android.gl.GLView$GLThread( 6221):     at selena.android.gl.GLView$GLThread.waitForRenderComplete(GLView.java:755)
+
+I/ActivityManager(  980): Displayed com.ts.gaya.coship/.MainActivity: +343ms
+
+D/selena.android.view.SelenaView( 6221): onWindowFocusChanged: true
+
+W/selena.android.view.SelenaView( 6221):     at selena.android.view.SelenaView.onWindowFocusChanged(SelenaView.java:121)
+
+D/selena.android.gl.GLView( 6221): onWindowFocusChanged: true
+
+W/selena.android.gl.GLView( 6221):     at selena.android.gl.GLView.onWindowFocusChanged(GLView.java:379)
+
+D/selena.android.gl.GLView$GLThread( 6221): onWindowFocusChanged - Enter: false, false
+
+W/selena.android.gl.GLView$GLThread( 6221):     at selena.android.gl.GLView$GLThread.onWindowFocusChanged(GLView.java:822)
+
+D/selena.android.gl.GLView$GLThread( 6221): onWindowFocusChanged - Leave: false, false
+
+W/selena.android.gl.GLView$GLThread( 6221):     at selena.android.gl.GLView$GLThread.onWindowFocusChanged(GLView.java:831)
+
+D/selena.android.view.SelenaView( 6221): onCreateInputConnection
+
+W/selena.android.view.SelenaView( 6221):     at selena.android.view.SelenaView.onCreateInputConnection(SelenaView.java:396)
+
+V/selena.android.view.SelenaView( 6221): **** onDestroy - Enter
+
+W/selena.android.view.SelenaView( 6221):     at selena.android.view.SelenaView.activityOnDestroy(SelenaView.java:254)
+
+D/selena.android.gl.GLView( 6221): onDestroy
+
+W/selena.android.gl.GLView( 6221):     at selena.android.gl.GLView.onDestroy(GLView.java:348)
+
+D/selena.android.gl.GLView$GLThread( 6221): requestExitAndWait - Enter: false, false
+
+W/selena.android.gl.GLView$GLThread( 6221):     at selena.android.gl.GLView$GLThread.requestExitAndWait(GLView.java:839)
+
+D/selena.android.view.SelenaView( 6221): onThreadExit tid=287 - Enter
+
+W/selena.android.view.SelenaView( 6221):     at selena.android.view.SelenaView.onThreadExit(SelenaView.java:305)
+
+D/selena.android.view.SelenaView( 6221): shutdown
+
+W/selena.android.view.SelenaView( 6221):     at selena.android.view.SelenaView.onThreadExit(SelenaView.java:306)
+
+D/selena.android.view.SelenaView( 6221): onThreadExit tid=287 - Leave
+
+W/selena.android.view.SelenaView( 6221):     at selena.android.view.SelenaView.onThreadExit(SelenaView.java:311)
+
+D/selena.android.gl.GLView$GLThread( 6221): requestExitAndWait - Leave: true, true
+
+W/selena.android.gl.GLView$GLThread( 6221):     at selena.android.gl.GLView$GLThread.requestExitAndWait(GLView.java:850)
+
+V/selena.android.view.SelenaView( 6221): **** onDestroy - Leave
+
+W/selena.android.view.SelenaView( 6221):     at selena.android.view.SelenaView.activityOnDestroy(SelenaView.java:256)
+
+D/selena.android.view.SelenaView( 6221): Surface Created
+
+W/selena.android.view.SelenaView( 6221):     at selena.android.view.SelenaView.onSurfaceCreated(SelenaView.java:316)
+
+I/aglSystem.Resources( 6221): [46.0000:1.0000] [Info in cResources::_AddSource]: (modules/aglSystem/src/Resources.cpp:155)
+
+I/aglSystem.Resources( 6221): Added a reference to source 'data/' !
+
+I/aglSystem.Resources( 6221): [46.0000:0.0000] [Info in cResources::_AddSource]: (modules/aglSystem/src/Resources.cpp:155)
+
+I/aglSystem.Resources( 6221): Added a reference to source 'scripts/' !
+
+I/aglSystem.PluginManager( 6221): [46.0000:0.0000] [Info in cPluginManager::LoadDirectory]: (modules/aglSystem/src/PluginManager.cpp:302)
+
+I/aglSystem.PluginManager( 6221): Loading from Directory : /system/lib/
+
+I/aglSystem.PluginManager( 6221): [46.0000:0.0000] [Info in cPluginManager::LoadDirectory]: (modules/aglSystem/src/PluginManager.cpp:314)
+
+I/aglSystem.PluginManager( 6221): Done Loading from Directory : /system/lib/
+
+D/dalvikvm( 6221): GC_EXPLICIT freed 651K, 53% free 8416K/17603K, paused 9ms+4ms
+
+I/aglSystem.PluginManager( 6221): [46.0000:0.0000] [Info in cPluginManager::LoadModule]: (modules/aglSystem/src/PluginManager.cpp:180)
+
+I/aglSystem.PluginManager( 6221): Plugin 'pxfDXTn.PixelFormat' loaded from 'pxfDXTn' (DXTn Pixel Formats (Build Date: Mar  8 2012)).
+
+I/aglSystem.PluginManager( 6221): [46.0000:0.0000] [Info in cPluginManager::LoadModule]: (modules/aglSystem/src/PluginManager.cpp:180)
+
+I/aglSystem.PluginManager( 6221): Plugin 'pxfStd.PixelFormat' loaded from 'pxfStd' (Standard Pixel Formats (Build Date: Mar  8 2012)).
+
+I/aglSystem.PluginManager( 6221): [46.0000:0.0000] [Info in cPluginManager::LoadDirectory]: (modules/aglSystem/src/PluginManager.cpp:302)
+
+I/aglSystem.PluginManager( 6221): Loading from Directory : /system/lib/
+
+I/aglSystem.ModuleManager( 6221): [46.0000:0.0000] [Info in cSystem::ModuleLoadDLL]: (modules/aglSystem/src/ModuleDLL.cpp:157)
+
+I/aglSystem.ModuleManager( 6221): Loaded Module DLL '/system/lib/libpxfDXTn_armv6_ra.so' (B000F6E0) from (/system/lib/libpxfDXTn_armv6_ra.so, FOUND|LOADED_REGULAR) !
+
+I/aglSystem.ModuleManager( 6221): [46.0000:0.0000] [Info in cModuleManager::GetModule]: (modules/aglSystem/src/ModuleManager.cpp:397)
+
+I/aglSystem.ModuleManager( 6221): Module loading '/system/lib/libpxfDXTn_armv6_ra.so' from '/system/lib/libpxfDXTn_armv6_ra.so'
+
+I/aglSystem.ModuleManager( 6221): [46.0000:0.0000] [Info in cModuleManager::GetModule]: (modules/aglSystem/src/ModuleManager.cpp:415)
+
+I/aglSystem.ModuleManager( 6221): Module 'pxfDXTn' (/system/lib/libpxfDXTn_armv6_ra.so) already loaded !
+
+I/aglSystem.PluginManager( 6221): [46.0000:0.0000] [Info in cPluginManager::Load]: (modules/aglSystem/src/PluginManager.cpp:343)
+
+I/aglSystem.PluginManager( 6221): Plugin Module 'pxfDXTn' already loaded !
+
+I/aglSystem.ModuleManager( 6221): [46.0000:0.0000] [Info in cSystem::ModuleLoadDLL]: (modules/aglSystem/src/ModuleDLL.cpp:157)
+
+I/aglSystem.ModuleManager( 6221): Loaded Module DLL '/system/lib/libpxfStd_armv6_ra.so' (B000F7F8) from (/system/lib/libpxfStd_armv6_ra.so, FOUND|LOADED_REGULAR) !
+
+I/aglSystem.ModuleManager( 6221): [46.0000:0.0000] [Info in cModuleManager::GetModule]: (modules/aglSystem/src/ModuleManager.cpp:397)
+
+I/aglSystem.ModuleManager( 6221): Module loading '/system/lib/libpxfStd_armv6_ra.so' from '/system/lib/libpxfStd_armv6_ra.so'
+
+I/aglSystem.ModuleManager( 6221): [46.0000:0.0000] [Info in cModuleManager::GetModule]: (modules/aglSystem/src/ModuleManager.cpp:415)
+
+I/aglSystem.ModuleManager( 6221): Module 'pxfStd' (/system/lib/libpxfStd_armv6_ra.so) already loaded !
+
+I/aglSystem.PluginManager( 6221): [46.0000:0.0000] [Info in cPluginManager::Load]: (modules/aglSystem/src/PluginManager.cpp:343)
+
+I/aglSystem.PluginManager( 6221): Plugin Module 'pxfStd' already loaded !
+
+I/aglSystem.PluginManager( 6221): [46.0000:0.0000] [Info in cPluginManager::LoadDirectory]: (modules/aglSystem/src/PluginManager.cpp:314)
+
+I/aglSystem.PluginManager( 6221): Done Loading from Directory : /system/lib/
+
+V/aglSendDebugString( 6221): GLES1 Context - Resized [00521478]: 1280x720 (BB:R5G6B5) (DS:D16), VP: Vec4(0,0,1280,720), SC: Vec4(0,0,1280,720)
+
+I/aglGraphics.GDRV( 6221): [46.0000:0.0000] [Info in cGraphics::CreateContext]: (modules/aglGraphics/src/GDRV_Main.cpp:231)
+
+I/aglGraphics.GDRV( 6221): Context '00521478' created : driver 'renGLES1', 1280x720, backbuffer 'R5G6B5', depth stencil 'D16'.
+
+E/selena.app.BaseAppWindow( 6221): Window should have been disposed !
+
+E/selena.app.BaseAppWindow( 6221):     at selena.app.BaseAppWindow.finalize(BaseAppWindow.java:244)
+
+V/aglSendDebugString( 6221): GATHERING FONTS: /system/fonts/*.ttf
+
+D/selena.app.BaseAppWindow( 6221): Invalidating global instance 'iOSWindow' !
+
+W/selena.app.BaseAppWindow( 6221):     at selena.app.BaseAppWindow.invalidateGlobalInstance(BaseAppWindow.java:267)
+
+V/aglSendDebugString( 6221): GOT FONT: AndroidClock.ttf, AndroidClock
+
+V/aglSendDebugString( 6221): GOT FONT: AndroidClock_Highlight.ttf, AndroidClock_Highlight
+
+V/aglSendDebugString( 6221): GOT FONT: AndroidClock_Solid.ttf, AndroidClock_Solid
+
+W/selena.app.BaseAppWindow( 6221): Can't find global instance 'iOSWindow' !
+
+V/aglSendDebugString( 6221): GOT FONT: Clockopia.ttf, Clockopia
+
+W/selena.app.BaseAppWindow( 6221):     at selena.app.BaseAppWindow.invalidateGlobalInstance(BaseAppWindow.java:271)
+
+V/aglSendDebugString( 6221): GOT FONT: DroidNaskh-Regular.ttf, DroidNaskh-Regular
+
+V/aglSendDebugString( 6221): GOT FONT: DroidSans-Bold.ttf, DroidSans-Bold
+
+V/aglSendDebugString( 6221): GOT FONT: DroidSans.ttf, DroidSans
+
+D/selena.app.BaseAppWindow( 6221): Invalidating global instance 'aglSystem.ScriptVM' !
+
+V/aglSendDebugString( 6221): GOT FONT: DroidSansArmenian.ttf, DroidSansArmenian
+
+W/selena.app.BaseAppWindow( 6221):     at selena.app.BaseAppWindow.invalidateGlobalInstance(BaseAppWindow.java:267)
+
+V/aglSendDebugString( 6221): GOT FONT: DroidSansEthiopic-Regular.ttf, DroidSansEthiopic-Regular
+
+V/aglSendDebugString( 6221): GOT FONT: DroidSansFallback.ttf, DroidSansFallback
+
+V/aglSendDebugString( 6221): GOT FONT: DroidSansGeorgian.ttf, DroidSansGeorgian
+
+V/aglSendDebugString( 6221): GOT FONT: DroidSansHebrew-Bold.ttf, DroidSansHebrew-Bold
+
+V/aglSendDebugString( 6221): GOT FONT: DroidSansHebrew-Regular.ttf, DroidSansHebrew-Regular
+
+V/aglSendDebugString( 6221): GOT FONT: DroidSansMono.ttf, DroidSansMono
+
+V/aglSendDebugString( 6221): GOT FONT: DroidSansThai.ttf, DroidSansThai
+
+W/selena.app.BaseAppWindow( 6221): Can't find global instance 'aglSystem.ScriptVM' !
+
+V/aglSendDebugString( 6221): GOT FONT: DroidSerif-Bold.ttf, DroidSerif-Bold
+
+W/selena.app.BaseAppWindow( 6221):     at selena.app.BaseAppWindow.invalidateGlobalInstance(BaseAppWindow.java:271)
+
+V/aglSendDebugString( 6221): GOT FONT: DroidSerif-BoldItalic.ttf, DroidSerif-BoldItalic
+
+V/aglSendDebugString( 6221): GOT FONT: DroidSerif-Italic.ttf, DroidSerif-Italic
+
+V/aglSendDebugString( 6221): GOT FONT: DroidSerif-Regular.ttf, DroidSerif-Regular
+
+D/selena.app.BaseAppWindow( 6221): Invalidating global instance 'iUIContext' !
+
+W/selena.app.BaseAppWindow( 6221):     at selena.app.BaseAppWindow.invalidateGlobalInstance(BaseAppWindow.java:267)
+
+W/selena.app.BaseAppWindow( 6221): Can't find global instance 'iUIContext' !
+
+W/selena.app.BaseAppWindow( 6221):     at selena.app.BaseAppWindow.invalidateGlobalInstance(BaseAppWindow.java:271)
+
+D/selena.app.BaseAppWindow( 6221): Invalidating global instance 'iGraphicsContext' !
+
+W/selena.app.BaseAppWindow( 6221):     at selena.app.BaseAppWindow.invalidateGlobalInstance(BaseAppWindow.java:267)
+
+V/aglSendDebugString( 6221): GOT FONT: Lohit-Bengali.ttf, Lohit-Bengali
+
+V/aglSendDebugString( 6221): GOT FONT: Lohit-Devanagari.ttf, Lohit-Devanagari
+
+V/aglSendDebugString( 6221): GOT FONT: Lohit-Tamil.ttf, Lohit-Tamil
+
+V/aglSendDebugString( 6221): GOT FONT: Roboto-Bold.ttf, Roboto-Bold
+
+V/aglSendDebugString( 6221): GOT FONT: Roboto-BoldItalic.ttf, Roboto-BoldItalic
+
+W/selena.app.BaseAppWindow( 6221): Can't find global instance 'iGraphicsContext' !
+
+V/aglSendDebugString( 6221): GOT FONT: Roboto-Italic.ttf, Roboto-Italic
+
+V/aglSendDebugString( 6221): GOT FONT: Roboto-Regular.ttf, Roboto-Regular
+
+W/selena.app.BaseAppWindow( 6221):     at selena.app.BaseAppWindow.invalidateGlobalInstance(BaseAppWindow.java:271)
+
+E/System  ( 6221): Uncaught exception thrown by finalizer
+
+E/StrictMode( 6221): class com.ts.gaya.coship.MainActivity; instances=3; limit=2
+
+E/StrictMode( 6221): android.os.StrictMode$InstanceCountViolation: class com.ts.gaya.coship.MainActivity; instances=3; limit=2
+
+E/StrictMode( 6221):    at android.os.StrictMode.setClassInstanceLimit(StrictMode.java:1)
+
+I/aglSystem.Resources( 6221): [46.0000:0.0000] [Info in cResources::_DoOpen]: (modules/aglSystem/src/Resources.cpp:733)
+
+I/aglSystem.Resources( 6221): '/system/fonts/DroidSansMono.ttf' opened from a disk file '/system/fonts/DroidSansMono.ttf'.
+
+I/aglSystem.PluginManager( 6221): [46.0000:0.0000] [Info in cPluginManager::LoadModule]: (modules/aglSystem/src/PluginManager.cpp:180)
+
+I/aglSystem.PluginManager( 6221): Plugin 'bmpBMP.BitmapFileIO' loaded from 'bmpBMP' (BMP format IO (Build Date: Mar  8 2012)).
+
+I/aglSystem.PluginManager( 6221): [46.0000:0.0000] [Info in cPluginManager::LoadModule]: (modules/aglSystem/src/PluginManager.cpp:180)
+
+I/aglSystem.PluginManager( 6221): Plugin 'bmpDDS.BitmapFileIO' loaded from 'bmpDDS' (DDS format IO (Build Date: Mar  8 2012)).
+
+I/aglSystem.PluginManager( 6221): [46.0000:0.0000] [Info in cPluginManager::LoadModule]: (modules/aglSystem/src/PluginManager.cpp:180)
+
+I/aglSystem.PluginManager( 6221): Plugin 'bmpJPEG.BitmapFileIO' loaded from 'bmpJPEG' (JPEG format IO (Build Date: Mar  8 2012)).
+
+I/aglSystem.PluginManager( 6221): [46.0000:0.0000] [Info in cPluginManager::LoadModule]: (modules/aglSystem/src/PluginManager.cpp:180)
+
+I/aglSystem.PluginManager( 6221): Plugin 'bmpPNG.BitmapFileIO' loaded from 'bmpPNG' (PNG format IO (Build Date: Mar  8 2012)).
+
+I/aglSystem.PluginManager( 6221): [46.0000:0.0000] [Info in cPluginManager::LoadModule]: (modules/aglSystem/src/PluginManager.cpp:180)
+
+I/aglSystem.PluginManager( 6221): Plugin 'bmpTGA.BitmapFileIO' loaded from 'bmpTGA' (TGA format IO (Build Date: Mar  8 2012)).
+
+I/aglSystem.PluginManager( 6221): [46.0000:0.0000] [Info in cPluginManager::LoadDirectory]: (modules/aglSystem/src/PluginManager.cpp:302)
+
+I/aglSystem.PluginManager( 6221): Loading from Directory : /system/lib/
+
+E/System  ( 6221): java.lang.IllegalArgumentException: Receiver not registered: com.ts.gaya.coship.AppIntentReceiver@417a4490
+
+E/System  ( 6221):      at android.app.LoadedApk.forgetReceiverDispatcher(LoadedApk.java:628)
+
+E/System  ( 6221):      at android.app.ContextImpl.unregisterReceiver(ContextImpl.java:1091)
+
+E/System  ( 6221):      at android.content.ContextWrapper.unregisterReceiver(ContextWrapper.java:354)
+
+E/System  ( 6221):      at com.ts.gaya.coship.MainActivity.unregisterIntentReceivers(MainActivity.java:180)
+
+E/System  ( 6221):      at com.ts.gaya.coship.MainActivity.onShutdown(MainActivity.java:389)
+
+E/System  ( 6221):      at selena.app.BaseAppWindow.dispose(BaseAppWindow.java:314)
+
+E/System  ( 6221):      at selena.android.view.AndroidAppWindow.dispose(AndroidAppWindow.java:108)
+
+E/System  ( 6221):      at selena.app.BaseAppWindow.finalize(BaseAppWindow.java:245)
+
+E/System  ( 6221):      at java.lang.Daemons$FinalizerDaemon.doFinalize(Daemons.java:182)
+
+E/System  ( 6221):      at java.lang.Daemons$FinalizerDaemon.run(Daemons.java:168)
+
+E/System  ( 6221):      at java.lang.Thread.run(Thread.java:856)
+
+D/selena.android.view.SelenaView( 6221): onDetachedFromWindow
+
+I/aglSystem.ScriptVM( 6221): [46.0000:0.0000] [Info]: (:0)
+
+I/aglSystem.ScriptVM( 6221): VM Closed, 0 garbages found.
+
+W/selena.android.view.SelenaView( 6221):     at selena.android.view.SelenaView.onDetachedFromWindow(SelenaView.java:133)
+
+D/selena.android.gl.GLView$GLThread( 6221): requestExitAndWait - Enter: true, true
+
+W/selena.android.gl.GLView$GLThread( 6221):     at selena.android.gl.GLView$GLThread.requestExitAndWait(GLView.java:839)
+
+D/selena.android.gl.GLView$GLThread( 6221): requestExitAndWait - Leave: true, true
+
+W/selena.android.gl.GLView$GLThread( 6221):     at selena.android.gl.GLView$GLThread.requestExitAndWait(GLView.java:850)
+
+I/aglSystem.ModuleManager( 6221): [46.0000:0.0000] [Info in cSystem::ModuleLoadDLL]: (modules/aglSystem/src/ModuleDLL.cpp:157)
+
+I/aglSystem.ModuleManager( 6221): Loaded Module DLL '/system/lib/libbmpBMP_armv6_ra.so' (B000FA28) from (/system/lib/libbmpBMP_armv6_ra.so, FOUND|LOADED_REGULAR) !
+
+I/aglSystem.ModuleManager( 6221): [46.0000:0.0000] [Info in cModuleManager::GetModule]: (modules/aglSystem/src/ModuleManager.cpp:397)
+
+I/aglSystem.ModuleManager( 6221): Module loading '/system/lib/libbmpBMP_armv6_ra.so' from '/system/lib/libbmpBMP_armv6_ra.so'
+
+I/aglSystem.ModuleManager( 6221): [46.0000:0.0000] [Info in cModuleManager::GetModule]: (modules/aglSystem/src/ModuleManager.cpp:415)
+
+I/aglSystem.ModuleManager( 6221): Module 'bmpBMP' (/system/lib/libbmpBMP_armv6_ra.so) already loaded !
+
+I/aglSystem.PluginManager( 6221): [46.0000:0.0000] [Info in cPluginManager::Load]: (modules/aglSystem/src/PluginManager.cpp:343)
+
+I/aglSystem.PluginManager( 6221): Plugin Module 'bmpBMP' already loaded !
+
+I/aglSystem.ModuleManager( 6221): [46.0000:0.0000] [Info in cSystem::ModuleLoadDLL]: (modules/aglSystem/src/ModuleDLL.cpp:157)
+
+I/aglSystem.ModuleManager( 6221): Loaded Module DLL '/system/lib/libbmpDDS_armv6_ra.so' (B000FB40) from (/system/lib/libbmpDDS_armv6_ra.so, FOUND|LOADED_REGULAR) !
+
+I/aglSystem.ModuleManager( 6221): [46.0000:0.0000] [Info in cModuleManager::GetModule]: (modules/aglSystem/src/ModuleManager.cpp:397)
+
+I/aglSystem.ModuleManager( 6221): Module loading '/system/lib/libbmpDDS_armv6_ra.so' from '/system/lib/libbmpDDS_armv6_ra.so'
+
+I/aglSystem.ModuleManager( 6221): [46.0000:0.0000] [Info in cModuleManager::GetModule]: (modules/aglSystem/src/ModuleManager.cpp:415)
+
+I/aglSystem.ModuleManager( 6221): Module 'bmpDDS' (/system/lib/libbmpDDS_armv6_ra.so) already loaded !
+
+I/aglSystem.PluginManager( 6221): [46.0000:0.0000] [Info in cPluginManager::Load]: (modules/aglSystem/src/PluginManager.cpp:343)
+
+I/aglSystem.PluginManager( 6221): Plugin Module 'bmpDDS' already loaded !
+
+I/aglSystem.ModuleManager( 6221): [46.0000:0.0000] [Info in cSystem::ModuleLoadDLL]: (modules/aglSystem/src/ModuleDLL.cpp:157)
+
+I/aglSystem.ModuleManager( 6221): Loaded Module DLL '/system/lib/libbmpJPEG_armv6_ra.so' (B000FC58) from (/system/lib/libbmpJPEG_armv6_ra.so, FOUND|LOADED_REGULAR) !
+
+I/aglSystem.ModuleManager( 6221): [46.0000:0.0000] [Info in cModuleManager::GetModule]: (modules/aglSystem/src/ModuleManager.cpp:397)
+
+I/aglSystem.ModuleManager( 6221): Module loading '/system/lib/libbmpJPEG_armv6_ra.so' from '/system/lib/libbmpJPEG_armv6_ra.so'
+
+I/aglSystem.ModuleManager( 6221): [46.0000:0.0000] [Info in cModuleManager::GetModule]: (modules/aglSystem/src/ModuleManager.cpp:415)
+
+I/aglSystem.ModuleManager( 6221): Module 'bmpJPEG' (/system/lib/libbmpJPEG_armv6_ra.so) already loaded !
+
+I/aglSystem.PluginManager( 6221): [46.0000:0.0000] [Info in cPluginManager::Load]: (modules/aglSystem/src/PluginManager.cpp:343)
+
+I/aglSystem.PluginManager( 6221): Plugin Module 'bmpJPEG' already loaded !
+
+I/aglSystem.ModuleManager( 6221): [46.0000:0.0000] [Info in cSystem::ModuleLoadDLL]: (modules/aglSystem/src/ModuleDLL.cpp:157)
+
+I/aglSystem.ModuleManager( 6221): Loaded Module DLL '/system/lib/libbmpPNG_armv6_ra.so' (B000FE88) from (/system/lib/libbmpPNG_armv6_ra.so, FOUND|LOADED_REGULAR) !
+
+I/aglSystem.ModuleManager( 6221): [46.0000:0.0000] [Info in cModuleManager::GetModule]: (modules/aglSystem/src/ModuleManager.cpp:397)
+
+I/aglSystem.ModuleManager( 6221): Module loading '/system/lib/libbmpPNG_armv6_ra.so' from '/system/lib/libbmpPNG_armv6_ra.so'
+
+I/aglSystem.ModuleManager( 6221): [46.0000:0.0000] [Info in cModuleManager::GetModule]: (modules/aglSystem/src/ModuleManager.cpp:415)
+
+I/aglSystem.ModuleManager( 6221): Module 'bmpPNG' (/system/lib/libbmpPNG_armv6_ra.so) already loaded !
+
+I/aglSystem.PluginManager( 6221): [46.0000:0.0000] [Info in cPluginManager::Load]: (modules/aglSystem/src/PluginManager.cpp:343)
+
+I/aglSystem.PluginManager( 6221): Plugin Module 'bmpPNG' already loaded !
+
+I/aglSystem.ModuleManager( 6221): [46.0000:0.0000] [Info in cSystem::ModuleLoadDLL]: (modules/aglSystem/src/ModuleDLL.cpp:157)
+
+I/aglSystem.ModuleManager( 6221): Loaded Module DLL '/system/lib/libbmpTGA_armv6_ra.so' (B000FFA0) from (/system/lib/libbmpTGA_armv6_ra.so, FOUND|LOADED_REGULAR) !
+
+I/aglSystem.ModuleManager( 6221): [46.0000:0.0000] [Info in cModuleManager::GetModule]: (modules/aglSystem/src/ModuleManager.cpp:397)
+
+I/aglSystem.ModuleManager( 6221): Module loading '/system/lib/libbmpTGA_armv6_ra.so' from '/system/lib/libbmpTGA_armv6_ra.so'
+
+I/aglSystem.ModuleManager( 6221): [46.0000:0.0000] [Info in cModuleManager::GetModule]: (modules/aglSystem/src/ModuleManager.cpp:415)
+
+I/aglSystem.ModuleManager( 6221): Module 'bmpTGA' (/system/lib/libbmpTGA_armv6_ra.so) already loaded !
+
+I/aglSystem.PluginManager( 6221): [46.0000:0.0000] [Info in cPluginManager::Load]: (modules/aglSystem/src/PluginManager.cpp:343)
+
+I/aglSystem.PluginManager( 6221): Plugin Module 'bmpTGA' already loaded !
+
+I/aglSystem.PluginManager( 6221): [46.0000:0.0000] [Info in cPluginManager::LoadDirectory]: (modules/aglSystem/src/PluginManager.cpp:314)
+
+I/aglSystem.PluginManager( 6221): Done Loading from Directory : /system/lib/
+
+I/aglSystem.Resources( 6221): [46.0000:0.0000] [Info in cResources::_DoOpen]: (modules/aglSystem/src/Resources.cpp:733)
+
+I/aglSystem.Resources( 6221): '/system/fonts/Roboto-Regular.ttf' opened from a disk file '/system/fonts/Roboto-Regular.ttf'.
+
+I/aglSystem.Resources( 6221): [46.0000:0.0000] [Info in cResources::_DoOpen]: (modules/aglSystem/src/Resources.cpp:733)
+
+I/aglSystem.Resources( 6221): '/system/fonts/DroidSansFallback.ttf' opened from a disk file '/system/fonts/DroidSansFallback.ttf'.
+
+E/aglSystem.Resources( 6221): [46.0000:0.0000] [Error in cResources::_DoOpen]: (modules/aglSystem/src/Resources.cpp:745)
+
+E/aglSystem.Resources( 6221): Can't open the resource file 'skins/embedded.uiskin.xml' !
+
+E/aglUI   ( 6221): [46.0000:0.0000] [Error in cUIContext::AddSkinFromRes]: (modules/aglUI/src/UIContext_Skin.cpp:76)
+
+E/aglUI   ( 6221): Can't open the skin resource 'skins/embedded.uiskin.xml' !
+
+E/aglUI   ( 6221): [46.0000:0.0000] [Error in cUIContext::cUIContext]: (modules/aglUI/src/UIContext.cpp:320)
+
+E/aglUI   ( 6221): Can't open the embedded skin !
+
+E/aglUI   ( 6221): [46.0000:0.0000] [Error in cUI::CreateUIContext]: (modules/aglUI/src/UI.cpp:160)
+
+E/aglUI   ( 6221): Can't create UI context !
+
+E/selena.android.view.SelenaView( 6221): Exception: null
+
+E/selena.android.view.SelenaView( 6221): java.lang.NullPointerException
+
+E/selena.android.view.SelenaView( 6221):        at selena.app.BaseAppWindow.construct(BaseAppWindow.java:154)
+
+E/selena.android.view.SelenaView( 6221):        at selena.android.view.AndroidAppWindow.<init>(AndroidAppWindow.java:47)
+
+E/selena.android.view.SelenaView( 6221):        at selena.android.view.SelenaView.onDrawFrame(SelenaView.java:338)
+
+E/selena.android.view.SelenaView( 6221):        at selena.android.gl.GLView$GLThread.guardedRun(GLView.java:636)
+
+E/selena.android.view.SelenaView( 6221):        at selena.android.gl.GLView$GLThread.run(GLView.java:432)
+
+E/selena.android.view.SelenaView( 6221):     at selena.android.view.SelenaView.onDrawFrame(SelenaView.java:343)
+
+D/HomePlayerLib( 3553): hostaddress count is 1
+
+D/dalvikvm( 3553): GC_CONCURRENT freed 2072K, 46% free 7334K/13443K, paused 4ms+3ms
+
+D/dalvikvm( 3553): GC_CONCURRENT freed 2046K, 47% free 7218K/13443K, paused 3ms+3ms
+
+D/MonitorCw880( 5194): currentRemoteHost is null ,continue
+
+D/dalvikvm( 3553): GC_CONCURRENT freed 1898K, 46% free 7280K/13443K, paused 2ms+4ms
+
+D/MonitorCw880( 5194): currentRemoteHost is null ,continue
+
+D/dalvikvm( 3553): GC_CONCURRENT freed 1972K, 46% free 7348K/13443K, paused 2ms+3ms
+
+D/dalvikvm( 3553): GC_CONCURRENT freed 2056K, 47% free 7246K/13443K, paused 2ms+4ms
+
+D/HomePlayerLib( 3553): hostaddress count is 1
+
+D/dalvikvm( 3553): GC_CONCURRENT freed 1963K, 47% free 7211K/13443K, paused 3ms+4ms
+
+D/dalvikvm( 3553): GC_CONCURRENT freed 1917K, 47% free 7248K/13443K, paused 3ms+3ms
+
+D/MonitorCw880( 5194): currentRemoteHost is null ,continue
+
+D/MonitorCw880( 5194): currentRemoteHost is null ,continue
+
+D/dalvikvm( 3553): GC_CONCURRENT freed 1961K, 47% free 7207K/13443K, paused 6ms+3ms
+
+D/HomePlayerLib( 3553): hostaddress count is 1
+
+D/dalvikvm( 3553): GC_CONCURRENT freed 1915K, 46% free 7339K/13443K, paused 3ms+3ms
+
+D/MonitorCw880( 5194): currentRemoteHost is null ,continue
+
+D/dalvikvm( 3553): GC_CONCURRENT freed 2051K, 45% free 7443K/13443K, paused 3ms+3ms
+
+D/MonitorCw880( 5194): currentRemoteHost is null ,continue
+
+^C
+
+130|shell@android:/ #
+

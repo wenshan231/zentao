@@ -1,0 +1,1345 @@
+
+shell@android:/ $ 
+shell@android:/ $ 
+shell@android:/ $ su
+shell@android:/ # 
+shell@android:/ # 
+shell@android:/ # 
+shell@android:/ # logcat
+--------- beginning of /dev/log/system
+I/Vold    (  738): Vold 2.1 (the revenge) firing up
+E/Vold    (  738): Error reading configuration (No such file or directory)... continuing anyways
+D/Vold    (  738): can not get the uuid of /dev/block/vold/8:0 when device add
+D/Vold    (  738): can not get the uuid of /dev/block/vold/8:0 when device remove
+I/SystemServer(  934): Entered the Android system server!
+I/SystemServer(  934): Entropy Service
+I/SystemServer(  934): Power Manager
+I/SystemServer(  934): Activity Manager
+I/ActivityManager(  934): Enabled StrictMode logging for AThread's Looper
+I/SystemServer(  934): Telephony Registry
+I/SystemServer(  934): Package Manager
+W/PackageManager(  934): Running ENG build: no pre-dexopt!
+W/PackageManager(  934): Library not found: /system/framework/com.android.future.usb.accessory.jar
+W/PackageParser(  934): No actions in intent filter at /system/app/Bluetooth.apk Binary XML file line #125
+I/PackageParser(  934): com.coship.HS: compat added android.permission.WRITE_EXTERNAL_STORAGE android.permission.READ_PHONE_STATE
+W/PackageParser(  934): No actions in intent filter at /system/app/Contacts.apk Binary XML file line #525
+W/PackageParser(  934): No actions in intent filter at /system/app/FlyUI_HomePlayer.apk Binary XML file line #114
+W/PackageParser(  934): No actions in intent filter at /system/app/FlyUI_HomePlayer.apk Binary XML file line #120
+I/PackageParser(  934): com.coship.Multimedia: compat added android.permission.READ_PHONE_STATE
+W/PackageParser(  934): No actions in intent filter at /system/app/FlyUI_Portal.apk Binary XML file line #196
+W/PackageParser(  934): Problem in package /system/app/STB-Settings.apk:
+W/PackageParser(  934): Unknown element under <activity>: data at /system/app/STB-Settings.apk Binary XML file line #145
+W/PackageParser(  934): Problem in package /system/app/STB-Settings.apk:
+W/PackageParser(  934): Unknown element under <activity>: action at /system/app/STB-Settings.apk Binary XML file line #231
+W/PackageParser(  934): Problem in package /system/app/STB-Settings.apk:
+W/PackageParser(  934): Unknown element under <activity>: action at /system/app/STB-Settings.apk Binary XML file line #232
+W/PackageParser(  934): Problem in package /system/app/STB-Settings.apk:
+W/PackageParser(  934): Unknown element under <activity>: action at /system/app/STB-Settings.apk Binary XML file line #289
+W/PackageParser(  934): Problem in package /system/app/STB-Settings.apk:
+W/PackageParser(  934): Unknown element under <activity>: action at /system/app/STB-Settings.apk Binary XML file line #393
+W/PackageParser(  934): Problem in package /system/app/STB-Settings.apk:
+W/PackageParser(  934): Unknown element under <activity>: action at /system/app/STB-Settings.apk Binary XML file line #394
+W/PackageParser(  934): No actions in intent filter at /system/app/com.coship.NetworkNavigation.apk Binary XML file line #24
+W/PackageParser(  934): No actions in intent filter at /system/app/com.coship.NetworkNavigation.apk Binary XML file line #31
+W/PackageParser(  934): No actions in intent filter at /system/app/com.coship.NetworkNavigation.apk Binary XML file line #38
+W/PackageParser(  934): No actions in intent filter at /system/app/com.coship.NetworkNavigation.apk Binary XML file line #45
+W/PackageParser(  934): No actions in intent filter at /system/app/com.coship.NetworkNavigation.apk Binary XML file line #52
+W/PackageParser(  934): No actions in intent filter at /system/app/com.coship.app.vaf.apk Binary XML file line #58
+I/Installer(  934): connecting...
+I/PackageManager(  934): Time to scan packages: 2.541 seconds
+W/PackageManager(  934): Unknown permission android.permission.APPWIDGET_LIST in package com.biaoqi.stbwidget.host
+W/PackageManager(  934): Unknown permission android.permission.APPWIDGET_LIST in package com.mstar.appwidget
+W/PackageManager(  934): Unknown permission android.permission.ADD_SYSTEM_SERVICE in package com.coship.sdp.sce.tvappstore
+W/PackageManager(  934): Unknown permission android.permission.READ_EXTERNAL_STORAGE in package com.coship.sdp.sce.tvappstore
+W/PackageManager(  934): Unknown permission com.google.android.gm.permission.WRITE_GMAIL in package com.coship.sdp.sce.tvappstore
+W/PackageManager(  934): Unknown permission com.google.android.gm.permission.READ_GMAIL in package com.coship.sdp.sce.tvappstore
+W/PackageManager(  934): Unknown permission com.android.launcher.permission.READ_SETTINGS in package com.coship.setting
+W/PackageManager(  934): Unknown permission com.android.launcher.permission.WRITE_SETTINGS in package com.coship.setting
+W/PackageManager(  934): Unknown permission com.android.launcher.permission.INSTALL_SHORTCUT in package com.android.browser
+W/PackageManager(  934): Unknown permission com.google.android.gm.permission.WRITE_GMAIL in package com.coship.app.vaf
+W/PackageManager(  934): Unknown permission com.google.android.gm.permission.READ_GMAIL in package com.coship.app.vaf
+W/PackageManager(  934): Unknown permission com.android.launcher.permission.READ_SETTINGS in package com.coship.app.vaf
+W/PackageManager(  934): Unknown permission com.android.launcher.permission.WRITE_SETTINGS in package com.coship.app.vaf
+W/PackageManager(  934): Unknown permission com.google.android.gm.permission.WRITE_GMAIL in package com.coship.TestApp
+W/PackageManager(  934): Unknown permission com.google.android.gm.permission.READ_GMAIL in package com.coship.TestApp
+W/PackageManager(  934): Unknown permission com.android.launcher.permission.READ_SETTINGS in package com.coship.TestApp
+W/PackageManager(  934): Unknown permission com.android.launcher.permission.WRITE_SETTINGS in package com.coship.TestApp
+W/PackageManager(  934): Unknown permission android.permission.WRITE_OWNER_DATA in package com.iflytek.speech
+W/PackageManager(  934): Unknown permission android.permission.BAIDU_LOCATION_SERVICE in package com.iflytek.speech
+W/PackageManager(  934): Unknown permission android.permission.WRITE_OWNER_DATA in package com.coship.UpdateApp
+W/PackageManager(  934): Unknown permission android.permission.READ_OWNER_DATA in package com.coship.UpdateApp
+W/PackageManager(  934): Unknown permission android.permission.ADD_SYSTEM_SERVICE in package com.coship.netfirmware
+W/PackageManager(  934): Unknown permission android.permission.READ_SETTINGS in package com.android.settings
+W/PackageManager(  934): Unknown permission com.android.launcher.permission.READ_SETTINGS in package com.android.settings
+W/PackageManager(  934): Unknown permission com.android.launcher.permission.WRITE_SETTINGS in package com.android.settings
+W/PackageManager(  934): Unknown permission android.webkit.permission.PLUGIN in package com.adobe.flashplayer
+W/PackageManager(  934): Unknown permission android.permission.READ_OWNER_DATA in package com.adobe.flashplayer
+W/PackageManager(  934): Unknown permission android.permission.WRITE_OWNER_DATA in package com.adobe.flashplayer
+W/PackageManager(  934): Unknown permission android.permission.READ_EXTERNAL_STORAGE in package com.adobe.flashplayer
+W/PackageManager(  934): Unknown permission android.permission.WRITE_OWNER_DATA in package com.coship.Multimedia
+W/PackageManager(  934): Unknown permission android.permission.READ_OWNER_DATA in package com.coship.Multimedia
+W/PackageManager(  934): Unknown permission android.permission.WRITE_OWNER_DATA in package com.coship.NetworkNavigation
+W/PackageManager(  934): Unknown permission android.permission.READ_OWNER_DATA in package com.coship.NetworkNavigation
+I/SystemServer(  934): Account Manager
+I/SystemServer(  934): Content Manager
+I/SystemServer(  934): System Content Providers
+I/SystemServer(  934): Lights Service
+I/SystemServer(  934): Battery Service
+I/SystemServer(  934): Pppoe Service
+I/SystemServer(  934): Vibrator Service
+I/SystemServer(  934): Alarm Manager
+I/SystemServer(  934): Init Watchdog
+I/SystemServer(  934): Window Manager
+I/InputManager(  934): Initializing input manager
+W/StatusBarManager(  934): warning: no STATUS_BAR_SERVICE
+I/InputManager(  934): Starting input manager
+I/WindowManager(  934): Enabled StrictMode logging for WMThread's Looper
+I/SystemServer(  934): Bluetooth Service
+I/WindowManager(  934): Enabled StrictMode for PolicyThread's Looper
+I/SystemServer(  934): Input Method Service
+W/InputManagerService(  934): Couldn't create dir.: /data/system/inputmethod
+I/SystemServer(  934): Accessibility Manager
+I/ActivityManager(  934): Config changed: {1.0 0mcc0mnc zh_CN layoutdir=0 sw720dp w1280dp h720dp xlrg long land ?uimode ?night -touch -keyb/v/h -nav/h s.2}
+I/SystemServer(  934): TV
+I/SystemServer(  934): Device Policy
+I/SystemServer(  934): Status Bar
+I/SystemServer(  934): Clipboard Service
+I/SystemServer(  934): NetworkManagement Service
+I/SystemServer(  934): Text Service Manager Service
+W/TextServicesManagerService(  934): no available spell checker services found
+I/SystemServer(  934): NetworkStats Service
+I/SystemServer(  934): NetworkPolicy Service
+I/SystemServer(  934): Wi-Fi P2pService
+D/WifiP2pService(  934): P2pDisabledState
+E/WifiP2pService(  934): Failed to reload sta firmware java.lang.NullPointerException
+D/WifiP2pService(  934): mThisDevice.deviceAddress=5a:87:e2:0b:2a:7e
+I/SystemServer(  934): Wi-Fi Service
+D/WifiP2pService(  934): P2pDisabledState{ what=69633 when=-1ms }
+D/WifiP2pService(  934): DefaultState{ what=69633 when=-1ms }
+D/WifiP2pService(  934): P2pDisabledState{ what=69632 when=0 obj=com.android.internal.util.AsyncChannel@41512200 }
+D/WifiP2pService(  934): DefaultState{ what=69632 when=0 obj=com.android.internal.util.AsyncChannel@41512200 }
+D/WifiP2pService(  934): Full connection with WifiStateMachine established
+D/WifiP2pService(  934): P2pDisabledState{ what=69633 when=0 }
+D/WifiP2pService(  934): DefaultState{ what=69633 when=0 }
+D/WifiP2pService(  934): P2pDisabledState{ what=69632 when=-1ms obj=com.android.internal.util.AsyncChannel@414de030 }
+D/WifiP2pService(  934): DefaultState{ what=69632 when=-1ms obj=com.android.internal.util.AsyncChannel@414de030 }
+D/WifiP2pService(  934): Full connection with WifiStateMachine established
+I/SystemServer(  934): Connectivity Service
+D/ConnectivityService(  934): ConnectivityService starting up
+E/ConnectivityService(  934): Error in radioAttributes - ignoring attempt to redefine type 1
+D/ConnectivityService(  934): Starting Pppoe StateTracker
+D/ConnectivityService(  934): Starting Ethernet Service.
+V/EthernetStateTracker(  934): Ethernet State Tracker v1.0.6
+V/EthernetStateTracker(  934): successed to init device!
+I/EthernetService(  934): Ethernet dev enabled 2
+V/EthernetService(  934): device 0 name eth0
+V/EthernetStateTracker(  934): start to monitor the ethernet devices . . .
+I/EthernetManager(  934): Init Ethernet Manager, service: com.android.server.EthernetService@4156c900
+I/EthernetStateTracker(  934): reset device eth0
+V/EthernetMonitor(  934): go poll events
+I/EthernetStateTracker(  934): trigger dhcp for device eth0
+I/EthernetStateTracker(  934): reset device eth0
+I/EthernetStateTracker(  934): trigger dhcp for device eth0
+E/MobileDataStateTracker(  934): default: Ignoring feature request because could not acquire PhoneService
+E/MobileDataStateTracker(  934): default: Could not enable APN type "default"
+D/NetworkManagementService(  934): Registering observer
+D/NetworkManagementService(  934): Registering observer
+I/WifiService(  934): WifiService starting up with Wi-Fi enabled
+D/WifiP2pService(  934): P2pDisabledState{ what=131203 when=-1ms }
+I/WifiService(  934): WifiService starting up with Wi-Fi AP enabled
+I/SystemServer(  934): Throttle Service
+D/WifiP2pService(  934): P2pDisabledState{ what=331907 when=0 }
+I/SystemServer(  934): Mount Service
+D/MountService(  934): got storage path: /mnt/sdcard description: USB 存储器 primary: true removable: false emulated: false mtpReserve: 0 allowMassStorage: false maxFileSize: 0
+D/MountService(  934): mExternalStoragePath:/mnt/sdcard
+I/SystemServer(  934): Notification Manager
+I/SystemServer(  934): Device Storage Monitor
+I/SystemServer(  934): Location Manager
+V/EthernetMonitor(  934): get event 
+V/EthernetMonitor(  934): go poll events
+I/SystemServer(  934): Country Detector
+I/SystemServer(  934): Search Service
+I/SystemServer(  934): DropBox Service
+I/SystemServer(  934): Wallpaper Service
+D/VoldCmdListener(  738): volume list
+I/SystemServer(  934): Audio Service
+I/SystemServer(  934): Camera Observer
+I/SystemServer(  934): Microphone Observer
+I/SystemServer(  934): Wired Accessory Observer
+I/SystemServer(  934): USB Service
+I/SystemServer(  934): UI Mode Manager Service
+I/SystemServer(  934): Backup Service
+V/BackupManagerService(  934): Initializing package tracking
+V/BackupManagerService(  934): No ancestral data
+V/BackupManagerService(  934): addPackageParticipantsLocked: all
+I/BackupManagerService(  934): New app android never backed up; scheduling
+I/BackupManagerService(  934): New app com.android.browser never backed up; scheduling
+I/BackupManagerService(  934): New app com.android.providers.settings never backed up; scheduling
+I/BackupManagerService(  934): New app com.android.providers.userdictionary never backed up; scheduling
+I/BackupManagerService(  934): New app com.android.sharedstoragebackup never backed up; scheduling
+V/BackupManagerService(  934): Registering transport android/com.android.internal.backup.LocalTransport = com.android.internal.backup.LocalTransport@4161d3e0
+V/BackupManagerService(  934): Starting with transport android/com.android.internal.backup.LocalTransport
+V/BackupManagerService(  934): Google transport not present
+I/BackupManagerService(  934): Backup enabled => false
+I/BackupManagerService(  934): Opting out of backup
+I/SystemServer(  934): AppWidget Service
+I/SystemServer(  934): Recognition Service
+I/SystemServer(  934): DiskStats Service
+I/SystemServer(  934): SamplingProfiler Service
+I/SystemServer(  934): NetworkTimeUpdateService
+D/PowerManagerService(  934): system ready!
+I/ActivityManager(  934): System now ready
+I/SystemServer(  934): Making services ready
+I/ActivityManager(  934): Memory class: 64
+I/ActivityManager(  934): Start proc com.mstar.dbprovider for content provider com.mstar.dbprovider/.MstTvUserSettingProvider: pid=1129 uid=10018 gids={}
+D/SystemServer(  934): Starting service: Intent { cmp=com.android.systemui/.SystemUIService }
+I/ActivityManager(  934): Start proc com.android.systemui for service com.android.systemui/.SystemUIService: pid=1146 uid=1000 gids={3003, 1015, 3002, 3001, 3004}
+D/NetworkManagementService(  934): enabling bandwidth control
+V/EthernetMonitor(  934): get event 
+V/EthernetMonitor(  934): go poll events
+V/EthernetMonitor(  934): get event 
+V/EthernetMonitor(  934): go poll events
+V/EthernetMonitor(  934): get event 
+V/EthernetMonitor(  934): go poll events
+D/SystemUIService( 1146): loading: class com.android.systemui.statusbar.tablet.TabletStatusBar
+D/SystemUIService( 1146): running: com.android.systemui.statusbar.tablet.TabletStatusBar@413aec70
+I/ActivityManager(  934): Start proc com.coship.Multimedia for broadcast com.coship.Multimedia/.view.BootCompletedReceiver: pid=1161 uid=1000 gids={3003, 1015, 3002, 3001, 3004}
+D/NetworkManagementService(  934): rsp <213 58:87:e2:0b:2a:7e 0.0.0.0 0 [down broadcast multicast]>
+D/NetworkManagementService(  934): flags <[down broadcast multicast]>
+D/NetworkManagementService(  934): Registering observer
+W/ActivityManager(  934): Permission Denial: broadcasting Intent { act=android.net.conn.TETHER_STATE_CHANGED flg=0x30000000 (has extras) } from null (pid=-1, uid=-1) requires android.permission.CONNECTIVITY_INTERNAL due to registered receiver BroadcastFilter{4159f4b0 ReceiverList{4159f738 934 system/1000 local:41575198}}
+D/NetworkManagementService(  934): Registering observer
+I/ActivityManager(  934): Config changed: {1.0 0mcc0mnc zh_CN layoutdir=0 sw720dp w1280dp h720dp xlrg long land -touch -keyb/v/h -nav/h s.3}
+W/RecognitionManagerService(  934): no available voice recognition services found
+I/StatusBar.HeightReceiver( 1146): Resizing status bar plugged=false height=48 old=0
+W/InputManagerService(  934): Ignoring setImeWindowStatus of uid 1000 token: null
+I/ActivityManager(  934): Start proc com.android.inputmethod.pinyin for service com.android.inputmethod.pinyin/.PinyinIME: pid=1217 uid=10021 gids={3003}
+D/NetworkManagementService(  934): Registering observer
+I/SystemServer(  934): SIP Service
+W/ThrottleService(  934): unable to find stats for iface rmnet0
+I/ActivityManager(  934): Start proc com.fiship.cibn for added application com.fiship.cibn: pid=1235 uid=10011 gids={3003, 1015}
+I/ActivityManager(  934): Start proc com.coship.stpservice for added application com.coship.stpservice: pid=1244 uid=1000 gids={3003, 1015, 3002, 3001, 3004}
+I/ActivityManager(  934): Start proc com.coship.sdp.sce.tvappstore for added application com.coship.sdp.sce.tvappstore: pid=1263 uid=1000 gids={3003, 1015, 3002, 3001, 3004}
+V/EthernetMonitor(  934): get event 
+V/EthernetMonitor(  934): go poll events
+I/ActivityManager(  934): Start proc com.coship.easycontrolime for added application com.coship.easycontrolime: pid=1280 uid=10009 gids={3003}
+I/ActivityManager(  934): Start proc com.coship.netfirmware for added application com.coship.netfirmware: pid=1292 uid=1000 gids={3003, 1015, 3002, 3001, 3004}
+I/ActivityManager(  934): Start proc com.coship.cw880 for added application com.coship.cw880: pid=1310 uid=1000 gids={3003, 1015, 3002, 3001, 3004}
+D/ActivityManager(  934): propValue:2
+D/ActivityManager(  934): start launcher......
+I/ActivityManager(  934): START {act=android.intent.action.MAIN cat=[android.intent.category.HOME,android.intent.category.DISABLE_THIRD_LAUNCHER] flg=0x10000000 cmp=com.fiship.cibn/.MainActivity} from pid 0
+I/SystemServer(  934): Enabled StrictMode for system server main thread.
+I/EthernetStateTracker(  934): received interface reset event
+I/EthernetStateTracker(  934): reset device eth0
+I/EthernetStateTracker(  934): trigger dhcp for device eth0
+D/NetworkManagementService(  934): rsp <213 58:87:e2:0b:2a:7e 0.0.0.0 0 [up broadcast running multicast]>
+D/NetworkManagementService(  934): flags <[up broadcast running multicast]>
+V/EthernetMonitor(  934): get event 
+V/EthernetMonitor(  934): go poll events
+D/ConnectivityService(  934): special network not available
+I/ActivityManager(  934): Start proc com.google.process.gapps for service com.google.android.location/.NetworkLocationService: pid=1338 uid=10013 gids={3003, 1015, 2001, 1007}
+W/MountService(  934): getVolumeState(/mnt/sdcard): Unknown volume
+W/MountService(  934): getVolumeState(/mnt/sdcard): Unknown volume
+I/StatusBarManagerService(  934): registerStatusBar bar=com.android.internal.statusbar.IStatusBar$Stub$Proxy@4159c710
+W/ActivityThread( 1338): ClassLoader.loadClass: The class loader returned by Thread.getContextClassLoader() may fail for processes that host multiple applications. You should explicitly specify a context class loader. For example: Thread.setContextClassLoader(getClass().getClassLoader());
+D/SystemUIService( 1146): loading: class com.android.systemui.power.PowerUI
+D/SystemUIService( 1146): running: com.android.systemui.power.PowerUI@4163fe80
+I/StatusBar.HeightReceiver( 1146): Resizing status bar plugged=false height=48 old=48
+I/StatusBar.HeightReceiver( 1146): Resizing status bar plugged=false height=48 old=48
+D/WifiService(  934): New client listening to asynchronous messages
+D/PowerManagerService(  934): bootCompleted
+V/DevicePolicyManagerService(  934): Sending password expiration notifications for action android.intent.action.BOOT_COMPLETED
+I/ActivityManager(  934): Start proc com.android.contacts for broadcast com.android.contacts/.calllog.CallLogReceiver: pid=1389 uid=10000 gids={3003, 1015}
+V/WiredAccessoryObserver(  934): init()
+W/WiredAccessoryObserver(  934): This kernel does not have wired headset support
+W/WiredAccessoryObserver(  934): This kernel does not have wired headset support
+W/WiredAccessoryObserver(  934): This kernel does not have wired headset support
+V/EthernetMonitor(  934): get event 
+V/EthernetMonitor(  934): go poll events
+V/EthernetMonitor(  934): get event 
+V/EthernetMonitor(  934): go poll events
+V/EthernetMonitor(  934): get event 
+V/EthernetMonitor(  934): go poll events
+I/ActivityManager(  934): Start proc com.coship.HS for broadcast com.coship.HS/.AutoStartReceiver: pid=1435 uid=1000 gids={3003, 1015, 3002, 3001, 3004}
+I/ActivityManager(  934): Start proc android.process.media for content provider com.android.providers.downloads/.DownloadProvider: pid=1449 uid=10008 gids={1015, 1023, 1024, 2001, 3003, 3007}
+I/ActivityManager(  934): Start proc com.android.providers.calendar for broadcast com.android.providers.calendar/.CalendarReceiver: pid=1467 uid=10004 gids={3003, 1015}
+W/MountService(  934): getVolumeState(/mnt/sdcard): Unknown volume
+I/ActivityManager(  934): Start proc android.process.acore for content provider com.android.providers.contacts/.CallLogProvider: pid=1483 uid=10000 gids={3003, 1015}
+V/EthernetMonitor(  934): get event 
+V/EthernetMonitor(  934): go poll events
+I/MicrophoneObserver(  934): Microphone PLUG_IN
+I/ActivityManager(  934): START {flg=0x10000000 cmp=com.google.android.gsf/.update.SystemUpdateInstallDialog} from pid 1338
+W/ProcessStats(  934): Skipping unknown process pid 1565
+W/ProcessStats(  934): Skipping unknown process pid 1566
+W/ProcessStats(  934): Skipping unknown process pid 1568
+D/ConnectivityService(  934): ConnectivityChange for WIFI: CONNECTED/CONNECTED
+I/ActivityManager(  934): Start proc com.android.settings for broadcast com.android.settings/.SettingGlobalReceiver: pid=1575 uid=1000 gids={3003, 1015, 3002, 3001, 3004}
+W/InputManagerService(  934): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@416752a8
+D/ConnectivityService(  934): ConnectivityChange for WIFI: CONNECTED/CONNECTED
+D/ConnectivityService(  934): handleConnectivityChange: address are the same reset per doReset linkProperty[1]: resetMask=0
+I/ActivityManager(  934): Start proc com.coship.changetheaudiooutput for broadcast com.coship.changetheaudiooutput/.BootCompletedReceiver: pid=1592 uid=10029 gids={3002, 3001, 3004}
+I/ActivityManager(  934): Start proc com.togic.livevideo for broadcast com.togic.livevideo/com.togic.tv.channel.AutoStartReceiver: pid=1609 uid=10036 gids={3003, 1007, 1015}
+W/ActivityManager(  934): Unable to start service Intent { act=coship.update.UpdateService.REMOTE_SERVICE }: not found
+W/MountService(  934): getVolumeState(/mnt/sdcard): Unknown volume
+W/MountService(  934): getVolumeState(/mnt/sdcard): Unknown volume
+W/MountService(  934): getVolumeState(/mnt/sdcard): Unknown volume
+I/ActivityManager(  934): Start proc launcher.backend for service com.togic.livevideo/com.togic.launcher.BackendService: pid=1625 uid=10036 gids={3003, 1007, 1015}
+I/ActivityManager(  934): Start proc com.biaoqi.stbwidget.host for broadcast com.biaoqi.stbwidget.host/.NetworkStatusChangeReceiver: pid=1647 uid=10028 gids={3003}
+I/ActivityManager(  934): Start proc com.android.phone for content provider com.android.providers.telephony/.TelephonyProvider: pid=1675 uid=1001 gids={1015}
+I/ActivityManager(  934): Process com.coship.sdp.sce.tvappstore (pid 1263) has died.
+W/ActivityManager(  934): Scheduling restart of crashed service com.coship.sdp.sce.tvappstore/.app.service.AppStoreCoreService in 1250ms
+I/ActivityManager(  934): Start proc com.coship.sdp.sce.tvappstore for restart com.coship.sdp.sce.tvappstore: pid=1712 uid=1000 gids={3003, 1015, 3002, 3001, 3004}
+W/MountService(  934): getVolumeState(/mnt/sdcard): Unknown volume
+W/MountService(  934): getVolumeState(/mnt/sdcard): Unknown volume
+D/ConnectivityService(  934): handleInetConditionHoldEnd: net=1, condition=0, published condition=0
+W/MountService(  934): getVolumeState(/mnt/sdcard): Unknown volume
+W/MountService(  934): getVolumeState(/mnt/sdcard): Unknown volume
+W/MountService(  934): getVolumeState(/mnt/sdcard): Unknown volume
+W/MountService(  934): getVolumeState(/mnt/sdcard): Unknown volume
+W/MountService(  934): getVolumeState(/mnt/sdcard): Unknown volume
+W/MountService(  934): getVolumeState(/mnt/sdcard): Unknown volume
+W/MountService(  934): getVolumeState(/mnt/sdcard): Unknown volume
+W/MountService(  934): getVolumeState(/mnt/sdcard): Unknown volume
+W/MountService(  934): getVolumeState(/mnt/sdcard): Unknown volume
+W/MountService(  934): getVolumeState(/mnt/sdcard): Unknown volume
+W/MountService(  934): getVolumeState(/mnt/sdcard): Unknown volume
+W/MountService(  934): getVolumeState(/mnt/sdcard): Unknown volume
+W/ActivityThread( 1292): ClassLoader.loadClass: The class loader returned by Thread.getContextClassLoader() may fail for processes that host multiple applications. You should explicitly specify a context class loader. For example: Thread.setContextClassLoader(getClass().getClassLoader());
+W/ThrottleService(  934): unable to find stats for iface rmnet0
+W/ThrottleService(  934): unable to find stats for iface rmnet0
+W/ThrottleService(  934): unable to find stats for iface rmnet0
+I/ActivityManager(  934): START {flg=0x10000000 cmp=com.coship.setting/.main (has extras)} from pid 1235
+I/ActivityManager(  934): Start proc com.coship.setting for activity com.coship.setting/.main: pid=2009 uid=1000 gids={3003, 1015, 3002, 3001, 3004}
+W/InputManagerService(  934): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@416634c0 (uid=10011 pid=1235)
+I/ActivityManager(  934): START {cmp=com.coship.setting/.proresolution.ProResolution} from pid 2009
+W/ThrottleService(  934): unable to find stats for iface rmnet0
+--------- beginning of /dev/log/main
+D/dalvikvm( 1161): GC_CONCURRENT freed 396K, 76% free 1431K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 501K, 77% free 1428K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 500K, 76% free 1440K/5955K, paused 0ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 518K, 77% free 1422K/5955K, paused 0ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 487K, 78% free 1328K/5955K, paused 1ms+1ms
+D/MonitorCw880( 1310): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1161): GC_CONCURRENT freed 403K, 78% free 1323K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 396K, 78% free 1313K/5955K, paused 1ms+0ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 394K, 78% free 1322K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 394K, 78% free 1314K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 394K, 78% free 1313K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 394K, 78% free 1313K/5955K, paused 1ms+1ms
+D/MonitorCw880( 1310): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1161): GC_CONCURRENT freed 394K, 77% free 1385K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 454K, 76% free 1439K/5955K, paused 0ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 499K, 76% free 1452K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 515K, 78% free 1369K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 434K, 78% free 1332K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 405K, 78% free 1339K/5955K, paused 1ms+1ms
+D/MonitorCw880( 1310): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1161): GC_CONCURRENT freed 407K, 78% free 1326K/5955K, paused 1ms+2ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 393K, 78% free 1325K/5955K, paused 0ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 393K, 78% free 1326K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 393K, 78% free 1326K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 392K, 78% free 1326K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 394K, 78% free 1326K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 393K, 78% free 1327K/5955K, paused 1ms+1ms
+D/MonitorCw880( 1310): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1161): GC_CONCURRENT freed 405K, 78% free 1314K/5955K, paused 1ms+1ms
+D/MonitorCw880( 1310): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1161): GC_CONCURRENT freed 388K, 78% free 1332K/5955K, paused 1ms+1ms
+D/MonitorCw880( 1310): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1310): Current Remote Host is null, continue, counter=0
+D/HomePlayerLib( 1161): hostaddress count is 2
+D/dalvikvm( 1161): GC_CONCURRENT freed 389K, 76% free 1471K/5955K, paused 0ms+0ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 536K, 78% free 1334K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 405K, 78% free 1321K/5955K, paused 0ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 378K, 78% free 1343K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 399K, 78% free 1328K/5955K, paused 1ms+1ms
+D/MonitorCw880( 1310): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1161): GC_CONCURRENT freed 407K, 77% free 1428K/5955K, paused 0ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 474K, 78% free 1339K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 394K, 78% free 1339K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 392K, 78% free 1338K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 404K, 78% free 1348K/5955K, paused 0ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 404K, 76% free 1453K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 484K, 74% free 1548K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 632K, 78% free 1322K/5955K, paused 1ms+2ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 381K, 78% free 1364K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 413K, 78% free 1335K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 378K, 78% free 1346K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 431K, 77% free 1401K/5955K, paused 0ms+1ms
+D/MonitorCw880( 1310): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1161): GC_CONCURRENT freed 455K, 76% free 1457K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 510K, 76% free 1455K/5955K, paused 0ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 523K, 78% free 1346K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 394K, 76% free 1463K/5955K, paused 1ms+2ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 523K, 77% free 1428K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 472K, 76% free 1467K/5955K, paused 0ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 565K, 77% free 1412K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 451K, 76% free 1460K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 514K, 78% free 1361K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 421K, 76% free 1446K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 517K, 78% free 1337K/5955K, paused 1ms+1ms
+D/MonitorCw880( 1310): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1161): GC_CONCURRENT freed 405K, 76% free 1432K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 500K, 78% free 1363K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 414K, 78% free 1337K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 395K, 78% free 1335K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 392K, 78% free 1336K/5955K, paused 0ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 393K, 78% free 1336K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 393K, 78% free 1336K/5955K, paused 1ms+1ms
+D/MonitorCw880( 1310): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1161): GC_CONCURRENT freed 405K, 78% free 1349K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 409K, 78% free 1335K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 394K, 78% free 1334K/5955K, paused 1ms+2ms
+D/dalvikvm( 1161): GC_FOR_ALLOC freed 515K, 78% free 1320K/5955K, paused 10ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 7K, 77% free 1376K/5955K, paused 0ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 436K, 76% free 1432K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 490K, 78% free 1336K/5955K, paused 1ms+1ms
+D/MonitorCw880( 1310): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1161): GC_CONCURRENT freed 395K, 78% free 1335K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 392K, 78% free 1336K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 393K, 78% free 1336K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 393K, 78% free 1336K/5955K, paused 1ms+2ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 402K, 78% free 1332K/5955K, paused 1ms+2ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 396K, 78% free 1331K/5955K, paused 1ms+1ms
+D/MonitorCw880( 1310): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1161): GC_CONCURRENT freed 394K, 78% free 1322K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 393K, 78% free 1347K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 406K, 78% free 1335K/5955K, paused 0ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 394K, 78% free 1336K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 394K, 78% free 1336K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 394K, 78% free 1336K/5955K, paused 2ms+1ms
+D/MonitorCw880( 1310): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1161): GC_CONCURRENT freed 405K, 78% free 1332K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 396K, 78% free 1347K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 405K, 78% free 1335K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 402K, 78% free 1326K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 394K, 78% free 1326K/5955K, paused 1ms+2ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 393K, 78% free 1326K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 394K, 78% free 1326K/5955K, paused 1ms+1ms
+D/MonitorCw880( 1310): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1161): GC_CONCURRENT freed 394K, 78% free 1327K/5955K, paused 1ms+1ms
+D/MonitorCw880( 1310): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1310): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1161): GC_CONCURRENT freed 401K, 78% free 1323K/5955K, paused 1ms+1ms
+D/MonitorCw880( 1310): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1161): GC_CONCURRENT freed 396K, 78% free 1321K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 393K, 78% free 1338K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 404K, 78% free 1326K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 392K, 78% free 1326K/5955K, paused 1ms+2ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 393K, 78% free 1327K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 392K, 78% free 1327K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 392K, 78% free 1327K/5955K, paused 1ms+2ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 402K, 78% free 1323K/5955K, paused 0ms+1ms
+D/MonitorCw880( 1310): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1161): GC_CONCURRENT freed 396K, 78% free 1321K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 393K, 78% free 1313K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 392K, 78% free 1338K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 406K, 78% free 1326K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 391K, 78% free 1326K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 394K, 78% free 1327K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 393K, 78% free 1327K/5955K, paused 1ms+1ms
+D/HomePlayerLib( 1161): hostaddress count is 2
+D/dalvikvm( 1161): GC_CONCURRENT freed 411K, 77% free 1425K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 458K, 78% free 1357K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 437K, 76% free 1435K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 546K, 77% free 1401K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 472K, 77% free 1417K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 481K, 76% free 1444K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 497K, 78% free 1356K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 425K, 77% free 1418K/5955K, paused 1ms+1ms
+D/MonitorCw880( 1310): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1161): GC_CONCURRENT freed 484K, 76% free 1443K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 517K, 77% free 1424K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 485K, 76% free 1451K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 503K, 76% free 1459K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 524K, 77% free 1389K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 455K, 78% free 1330K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 395K, 76% free 1435K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 514K, 76% free 1433K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 509K, 75% free 1509K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 587K, 77% free 1388K/5955K, paused 1ms+1ms
+D/MonitorCw880( 1310): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1161): GC_CONCURRENT freed 460K, 76% free 1439K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 517K, 78% free 1314K/5955K, paused 1ms+0ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 393K, 77% free 1427K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 499K, 78% free 1316K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 398K, 78% free 1313K/5955K, paused 1ms+0ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 394K, 78% free 1313K/5955K, paused 1ms+1ms
+D/MonitorCw880( 1310): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1161): GC_CONCURRENT freed 392K, 78% free 1313K/5955K, paused 0ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 392K, 78% free 1313K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 393K, 77% free 1396K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 477K, 79% free 1302K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 376K, 77% free 1424K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 490K, 78% free 1326K/5955K, paused 0ms+1ms
+D/MonitorCw880( 1310): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1161): GC_CONCURRENT freed 393K, 78% free 1326K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 392K, 77% free 1414K/5955K, paused 0ms+0ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 486K, 76% free 1439K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 518K, 79% free 1306K/5955K, paused 0ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 366K, 76% free 1449K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 524K, 76% free 1431K/5955K, paused 1ms+1ms
+D/MonitorCw880( 1310): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1161): GC_CONCURRENT freed 491K, 77% free 1409K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 476K, 78% free 1328K/5955K, paused 0ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 411K, 78% free 1315K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 388K, 78% free 1323K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 396K, 78% free 1322K/5955K, paused 1ms+2ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 394K, 78% free 1322K/5955K, paused 1ms+1ms
+D/MonitorCw880( 1310): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1161): GC_CONCURRENT freed 394K, 78% free 1322K/5955K, paused 1ms+1ms
+D/MonitorCw880( 1310): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1310): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1310): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1310): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1161): GC_CONCURRENT freed 389K, 78% free 1343K/5955K, paused 2ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 410K, 78% free 1318K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 387K, 76% free 1452K/5955K, paused 0ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 535K, 77% free 1424K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 490K, 76% free 1433K/5955K, paused 1ms+1ms
+D/MonitorCw880( 1310): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1161): GC_CONCURRENT freed 502K, 78% free 1358K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 431K, 76% free 1439K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 511K, 76% free 1439K/5955K, paused 0ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 514K, 77% free 1371K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 452K, 78% free 1328K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 407K, 78% free 1323K/5955K, paused 0ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 390K, 76% free 1434K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 504K, 78% free 1314K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 394K, 76% free 1431K/5955K, paused 1ms+1ms
+D/HomePlayerLib( 1161): hostaddress count is 2
+D/dalvikvm( 1161): GC_CONCURRENT freed 506K[ 2328.921655] IR: [03932] scan key value is 0xf10ec936 
+[ 2328.921660]  , 76% free 1437K/5955K, paused 0ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 514K, 76% free 1431K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 496K, 76% free 1441K/5955K, paused 0ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 540K, 77% free 1413K/5955K, paused 1ms+1ms
+D/MonitorCw880( 1310): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1161): GC_CONCURRENT freed 494K, 76% free 1430K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 490K, 78% free 1330K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161
+[ 2328.974200] IR: [03932] scan key value is 0xf10ec936 
+[ 2328.974204]  ): GC_CONCURRENT freed 393K, 76% free 1449K/5955K, paused 0ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 524K, 76% free 1436K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 609K, 78% free 1335K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 409K, 78% free 1334K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 403K, 76% free 1443K/5955K, paused 0ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 510K, 76% free 1438K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 494K, 78% free 1349K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 496K, 78% free 1315K/5955K, paused 1ms+1ms
+D/MonitorCw880( 1310): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1161): GC_CONCURRENT freed 394K, 78% free 1342K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 408K, 78% free 1326K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 393K, 78% free 1326K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 394K, 78% free 1326K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 394K, 78% free 1327K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 405K, 78% free 1342K/5955K, paused 1ms+1ms
+D/MonitorCw880( 1310): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1161): GC_CONCURRENT freed 427K, 78% free 1314K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 381K, 76% free 1434K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 512K, 76% free 1430K/5955K, paused 0ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 490K, 77% free 1414K/5955K, paused 1ms+0ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 486K, 77% free 1384K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 451K, 78% free 1326K/5955K, paused 1ms+1ms
+D/MonitorCw880( 1310): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1161): GC_CONCURRENT freed 392K, 78% free 1326K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 392K, 78% free 1326K/5955K, paused 1ms+2ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 393K, 78% free 1327K/5955K, paused 1ms+2ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 394K, 78% free 1326K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 394K, 78% free 1326K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 403K, 76% free 1438K/5955K, paused 1ms+1ms
+D/MonitorCw880( 1310): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1161): GC_CONCURRENT freed 516K, 78% free 1323K/5955K, paused 1ms+2ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 395K, 78% free 1322K/5955K, paused 1ms+2ms
+D/MonitorCw880( 1310): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1310): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1161): GC_CONCURRENT freed 400K, 78% free 1314K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 393K, 78% free 1313K/5955K, paused 1ms+1ms
+D/MonitorCw880( 1310): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1161): GC_CONCURRENT freed 394K, 77% free 1386K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 456K, 78% free 1315K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 396K, 78% free 1313K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 393K, 78% free 1313K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 392K, 77% free 1428K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 487K, 78% free 1327K/5955K, paused 1ms+1ms
+D/MonitorCw880( 1310): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1161): GC_CONCURRENT freed 394K, 78% free 1326K/5955K, paused 1ms+1ms
+D/MonitorCw880( 1310): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1161): GC_CONCURRENT freed 394K, 76% free 1442K/5955K, paused 0ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 510K, 76% free 1442K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 501K, 78% free 1331K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 403K, 76% free 1438K/5955K, paused 1ms+1ms
+D/MonitorCw880( 1310): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1161): GC_CONCURRENT freed 517K, 77% free 1423K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 489K, 78% free 1334K/5955K, paused 0ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 403K, 77% free 1374K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 445K, 76% free 1439K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 516K, 78% free 1314K/5955K, paused 0ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 392K, 77% free 1421K/5955K, paused 0ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 496K, 76% free 1437K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 518K, 76% free 1429K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 489K, 78% free 1351K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 418K, 78% free 1345K/5955K, paused 1ms+1ms
+D/MonitorCw880( 1310): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1161): GC_CONCURRENT freed 417K, 76% free 1440K/5955K, paused 1ms+1ms
+D/HomePlayerLib( 1161): hostaddress count is 2
+D/dalvikvm( 1161): GC_CONCURRENT freed 518K, 76% free 1429K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 504K, 77% free 1406K/5955K, paused 0ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 485K, 77% free 1386K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 467K, 76% free 1442K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 517K, 78% free 1362K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 432K, 77% free 1391K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 458K, 78% free 1318K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_FOR_ALLOC freed 516K, 78% free 1310K/5955K, paused 10ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 7K, 76% free 1461K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 541K, 77% free 1402K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 479K, 77% free 1385K/5955K, paused 1ms+2ms
+D/MonitorCw880( 1310): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1161): GC_CONCURRENT freed 448K, 78% free 1331K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 394K, 78% free 1332K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 390K, 78% free 1331K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 401K, 78% free 1332K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 395K, 78% free 1330K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 403K, 78% free 1328K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 407K, 78% free 1315K/5955K, paused 1ms+2ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 394K, 78% free 1313K/5955K, paused 1ms+2ms
+D/MonitorCw880( 1310): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1161): GC_CONCURRENT freed 393K, 78% free 1313K/5955K, paused 1ms+2ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 393K, 78% free 1322K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 393K, 78% free 1313K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 394K, 77% free 1385K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 458K, 78% free 1324K/5955K, paused 1ms+1ms
+D/MonitorCw880( 1310): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1161): GC_CONCURRENT freed 397K, 78% free 1312K/5955K, paused 0ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 393K, 79% free 1303K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 375K, 78% free 1325K/5955K, paused 0ms+1ms
+D/MonitorCw880( 1310): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1161): GC_CONCURRENT freed 393K, 77% free 1407K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 474K, 77% free 1410K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 475K, 78% free 1328K/5955K, paused 1ms+1ms
+D/MonitorCw880( 1310): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1161): GC_CONCURRENT freed 405K, 78% free 1314K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 396K, 77% free 1382K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 447K, 78% free 1326K/5955K, paused 1ms+1ms
+D/MonitorCw880( 1310): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1310): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1310): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1161): GC_CONCURRENT freed 404K, 77% free 1425K/5955K, paused 1ms+2ms
+D/MonitorCw880( 1310): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1161): GC_CONCURRENT freed 473K, 76% free 1460K/5955K, paused 1ms+1ms
+W/dnsmasq ( 1327): DHCP packet received on eth0 which has no address
+D/dalvikvm( 1161): GC_CONCURRENT freed 497K, 74% free 1563K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 631K, 78% free 1328K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 396K, 78% free 1326K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 394K, 78% free 1326K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 393K, 78% free 1326K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 393K, 78% free 1327K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 394K, 78% free 1327K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 392K, 78% free 1327K/5955K, paused 1ms+1ms
+D/MonitorCw880( 1310): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1161): GC_CONCURRENT freed 494K, 77% free 1379K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 454K, 76% free 1433K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 512K, 76% free 1431K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 503K, 76% free 1434K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 500K, 78% free 1331K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 403K, 76% free 1439K/5955K, paused 1ms+1ms
+D/MonitorCw880( 1310): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1161): GC_CONCURRENT freed 513K, 76% free 1431K/5955K, paused 0ms+1ms
+D/HomePlayerLib( 1161): hostaddress count is 2
+D/dalvikvm( 1161): GC_CONCURRENT freed 504K, 76% free 1430K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 498K, 76% free 1432K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 487K, 78% free 1335K/5955K, paused 1ms+1ms
+D/MonitorCw880( 1310): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1161): GC_CONCURRENT freed 400K, 77% free 1428K/5955K, paused 0ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 482K, 78% free 1332K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 400K, 78% free 1329K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 392K, 78% free 1331K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 401K, 77% free 1376K/5955K, paused 0ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 443K, 73% free 1640K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 705K, 76% free 1447K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 519K, 78% free 1326K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 393K, 78% free 1326K/5955K, paused 1ms+1ms
+D/MonitorCw880( 1310): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1161): GC_CONCURRENT freed 404K, 78% free 1325K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 403K, 78% free 1315K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 397K, 79% free 1303K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 380K, 78% free 1327K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 396K, 78% free 1325K/5955K, paused 1ms+1ms
+D/MonitorCw880( 1310): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1310): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1310): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1310): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1310): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1310): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1161): GC_CONCURRENT freed 406K, 78% free 1345K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 420K, 78% free 1324K/5955K, paused 1ms+1ms
+D/MonitorCw880( 1310): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1161): GC_CONCURRENT freed 391K, 78% free 1326K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 394K, 78% free 1326K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 393K, 78% free 1345K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 418K, 78% free 1329K/5955K, paused 0ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 389K, 78% free 1327K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 399K, 78% free 1328K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 392K, 78% free 1326K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 472K, 78% free 1359K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 441K, 76% free 1442K/5955K, paused 0ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 519K, 78% free 1323K/5955K, paused 0ms+1ms
+D/MonitorCw880( 1310): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1161): GC_CONCURRENT freed 394K, 78% free 1314K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 394K, 78% free 1341K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 406K, 78% free 1327K/5955K, paused 1ms+1ms
+D/MonitorCw880( 1310): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1310): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1161): GC_CONCURRENT freed 401K, 78% free 1326K/5955K, paused 1ms+2ms
+D/HomePlayerLib( 1161): hostaddress count is 2
+D/dalvikvm( 1161): GC_CONCURRENT freed 404K, 78% free 1311K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 381K, 78% free 1339K/5955K, paused 1ms+1ms
+D/HomePlayerLib( 1161): hostaddress count is 2
+D/dalvikvm( 1161): GC_CONCURRENT freed 410K, 76% free 1460K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 536K, 78% free 1316K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 389K, 78% free 1314K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 392K, 79% free 1306K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 382K, 78% free 1317K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 382K, 77% free 1405K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 481K, 78% free 1310K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 375K, 78% free 1319K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 389K, 78% free 1343K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 412K, 78% free 1321K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 392K, 78% free 1322K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 393K, 78% free 1321K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 389K, 78% free 1321K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 390K, 78% free 1315K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 370K, 75% free 1523K/5955K, paused 1ms+1ms
+D/MonitorCw880( 1310): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1161): GC_CONCURRENT freed 588K, 76% free 1430K/5955K, paused 0ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 486K, 78% free 1336K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 385K, 76% free 1462K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_FOR_ALLOC freed 646K, 78% free 1324K/5955K, paused 11ms
+D/dalvikvm( 1161): GC_CONCURRENT freed <1K, 76% free 1457K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 514K, 78% free 1337K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 402K, 78% free 1334K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 405K, 78% free 1330K/5955K, paused 0ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 394K, 78% free 1330K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 406K, 78% free 1328K/5955K, paused 1ms+2ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 395K, 78% free 1327K/5955K, paused 1ms+1ms
+D/MonitorCw880( 1310): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1161): GC_CONCURRENT freed 402K, 78% free 1323K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 396K, 78% free 1322K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 394K, 78% free 1322K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 405K, 78% free 1326K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 392K, 78% free 1326K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 393K, 78% free 1327K/5955K, paused 1ms+1ms
+D/MonitorCw880( 1310): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1161): GC_CONCURRENT freed 394K, 77% free 1372K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 445K, 78% free 1315K/5955K, paused 0ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 397K, 78% free 1313K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 394K, 78% free 1313K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 393K, 77% free 1428K/5955K, paused 0ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 490K, 77% free 1391K/5955K, paused 1ms+1ms
+D/MonitorCw880( 1310): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1310): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1161): GC_CONCURRENT freed 444K, 76% free 1457K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 516K, 76% free 1448K/5955K, paused 0ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 489K, 78% free 1346K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 401K, 76% free 1450K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 502K, 77% free 1399K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 448K, 78% free 1345K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 392K, 78% free 1345K/5955K, paused 0ms+1ms
+D/MonitorCw880( 1310): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1161): GC_CONCURRENT freed 403K, 78% free 1342K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 396K, 78% free 1340K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 394K, 78% free 1331K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 394K, 78% free 1331K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 392K, 78% free 1340K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 405K, 78% free 1344K/5955K, paused 1ms+1ms
+D/MonitorCw880( 1310): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1161): GC_CONCURRENT freed 395K, 78% free 1354K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 393K, 78% free 1354K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 405K, 78% free 1350K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 405K, 78% free 1333K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 368K, 77% free 1372K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 428K, 78% free 1344K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 383K, 78% free 1366K/5955K, paused 1ms+2ms
+D/MonitorCw880( 1310): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1161): GC_CONCURRENT freed 461K, 76% free 1431K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 504K, 76% free 1442K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 492K, 76% free 1451K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 502K, 77% free 1382K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 430K, 78% free 1348K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 402K, 76% free 1442K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 505K, 76% free 1448K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 516K, 78% free 1329K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 392K, 78% free 1341K/5955K, paused 1ms+1ms
+D/MonitorCw880( 1310): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1161): GC_CONCURRENT freed 407K, 77% free 1379K/5955K, paused 0ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 455K, 77% free 1427K/5955K, paused 0ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 498K, 76% free 1440K/5955K, paused 0ms+1ms
+D/MonitorCw880( 1310): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1310): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1161): GC_CONCURRENT freed 514K, 76% free 1432K/5955K, paused 1ms+1ms
+D/HomePlayerLib( 1161): hostaddress count is 2
+D/dalvikvm( 1161): GC_CONCURRENT freed 504K, 76% free 1430K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 498K, 77% free 1423K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 487K, 78% free 1329K/5955K, paused 1ms+1ms
+D/MonitorCw880( 1310): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1161): GC_CONCURRENT freed 400K, 78% free 1318K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 395K, 76% free 1430K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 486K, 76% free 1460K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 525K, 78% free 1319K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 396K, 76% free 1431K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 479K, 76% free 1464K/595
+[ 2330.861366] IR: [03932] scan key value is 0x8f70c936 
+[ 2330.861370]  5K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 544K, 77% free 1387K/5955K, paused 0ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 450K, 78% free 1330K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 393K, 78% free 1328K/5955K, paused 1ms+1ms
+D/MonitorCw880( 1310): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1161): GC_CONCURRENT freed 381K, 78% free 1340K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 398K, 77% free 1420K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): G
+[ 2330.913904] IR: [03932] scan key value is 0x8f70c936 
+[ 2330.913909]  C_CONCURRENT freed 500K, 77% free 1428K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 493K, 78% free 1326K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 394K, 76% free 1433K/5955K, paused 0ms+1ms
+D/MonitorCw880( 1310): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1161): GC_CONCURRENT freed 509K, 79% free 1309K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 370K, 78% free 1327K/5955K, paused 1ms+1ms
+D/MonitorCw880( 1310): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1310): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1310): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1310): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1161): GC_CONCURRENT freed 399K, 76% free 1440K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 518K, 78% free 1316K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 398K, 79% free 1301K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 372K, 76% free 1439K/5955K, paused 0ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 515K, 76% free 1430K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 489K, 78% free 1327K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 403K, 76% free 1479K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 557K, 78% free 1324K/5955K, paused 0ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 396K, 78% free 1339K/5955K, paused 1ms+1ms
+D/MonitorCw880( 1310): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1161): GC_CONCURRENT freed 406K, 78% free 1327K/5955K, paused 1ms+2ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 403K, 78% free 1341K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 407K, 78% free 1326K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 417K, 77% free 1406K/5955K, paused 0ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 476K, 77% free 1387K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 456K, 78% free 1315K/5955K, paused 1ms+0ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 396K, 77% free 1420K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 487K, 76% free 1433K/5955K, paused 0ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 523K, 76% free 1440K/5955K, paused 0ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 520K, 76% free 1430K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 489K, 78% free 1328K/5955K, paused 1ms+1ms
+D/MonitorCw880( 1310): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1161): GC_CONCURRENT freed 403K, 77% free 1423K/5955K, paused 0ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 490K, 78% free 1327K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 394K, 78% free 1325K/5955K, paused 0ms+2ms
+D/MonitorCw880( 1310): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1310): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1161): GC_CONCURRENT freed 392K, 78% free 1349K/5955K, paused 1ms+1ms
+D/MonitorCw880( 1310): Current Remote Host is null, continue, counter=0
+D/HomePlayerLib( 1161): hostaddress count is 2
+D/dalvikvm( 1161): GC_CONCURRENT freed 420K, 77% free 1429K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 495K, 76% free 1477K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 554K, 76% free 1432K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 478K, 76% free 1466K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 515K, 77% free 1385K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 454K, 78% free 1341K/5955K, paused 0ms+2ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 413K, 78% free 1329K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 378K, 77% free 1427K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 493K, 77% free 1393K/5955K, paused 1ms+1ms
+D/MonitorCw880( 1310): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1161): GC_CONCURRENT freed 460K, 78% free 1337K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 395K, 78% free 1328K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 400K, 78% free 1316K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 381K, 78% free 1339K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 378K, 78% free 1349K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 420K, 78% free 1336K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 395K, 78% free 1335K/5955K, paused 0ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 393K, 78% free 1335K/5955K, paused 1ms+1ms
+D/MonitorCw880( 1310): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1161): GC_CONCURRENT freed 393K, 78% free 1336K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 394K, 78% free 1336K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 392K, 78% free 1336K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 394K, 74% free 1586K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 641K, 78% free 1338K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 407K, 78% free 1315K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 380K, 78% free 1354K/5955K, paused 1ms+1ms
+D/MonitorCw880( 1310): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1161): GC_CONCURRENT freed 416K, 76% free 1447K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 516K, 78% free 1332K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 403K, 78% free 1325K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 377K, 78% free 1336K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 395K, 78% free 1335K/5955K, paused 0ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 394K, 78% free 1335K/5955K, paused 1ms+1ms
+D/MonitorCw880( 1310): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1310): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1310): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1161): GC_CONCURRENT freed 401K, 78% free 1326K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 393K, 78% free 1327K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 392K, 78% free 1326K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 393K, 78% free 1326K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 403K, 78% free 1323K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 395K, 78% free 1321K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 394K, 78% 
+[ 2331.497773] IR: [03932] scan key value is 0xf10ec936 
+[ 2331.497778]  free 1322K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 404K, 78% free 1326K/5955K, paused 0ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 394K, 78% free 1326K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 393K, 78% free 1327K/5955K, paused 0ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 392K, 78% free 1327K/5955K, paused 1ms+1ms
+D/MonitorCw880( 1310): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1161): GC_CONCURRENT freed 393K, 78% free 1327K/5955K, paused 1ms+1ms
+D/dalv
+[ 2331.550313] IR: [03932] scan key value is 0xf10ec936 
+[ 2331.550318]  ikvm( 1161): GC_CONCURRENT freed 402K, 78% free 1323K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 396K, 78% free 1322K/5955K, paused 1ms+2ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 394K, 78% free 1313K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 393K, 78% free 1314K/5955K, paused 1ms+2ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 394K, 78% free 1313K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 392K, 78% free 1313K/5955K, paused 0ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 393K, 78% free 1314K/5955K, paused 1ms+1ms
+D/MonitorCw880( 1310): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1161): GC_CONCURRENT freed 394K, 78% free 1314K/5955K, paused 0ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 399K, 79% free 1299K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 372K, 76% free 1438K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 497K, 76% free 1453K/5955K, paused 0ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 525K, 78% free 1312K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 383K, 78% free 1357K/5955K, paused 1ms+1ms
+D/MonitorCw880( 1310):
+[ 2331.658535] IR: [03932] scan key value is 0xf10ec936 
+[ 2331.658539]   Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1161): GC_CONCURRENT freed 415K, 78% free 1328K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 396K, 78% free 1326K/5955K, paused 1ms+2ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 394K, 78% free 1327K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 392K, 78% free 1327K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 417K, 79% free 1306K/5955K, paused 1ms+1ms
+D/MonitorCw880( 1310): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1161): GC_CONCURRENT freed 379K, 76% free 1439K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 515K, 76% free 1429K/5955K, paused 1ms+2ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 488K, 78% free 1328K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 377K, 76% free 1458K/5955K, paused 1ms+2ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 532K, 76% free 1438K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 514K, 79% free 1309K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 374K, 76% free 1441K/5955K, paused 1ms+1ms
+D/MonitorCw880( 1310): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1161): GC_CONCURRENT freed 512K, 78% free 1358K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 439K, 78% free 1315K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 372K, 78% free 1327K/5955K, paused 1ms+2ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 399K, 78% free 1327K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 399K, 78% free 1328K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 407K, 79% free 1306K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 384K, 78% free 1327K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 445K, 76% free 1486K/5955K, paused 1ms+1ms
+D/HomePlayerLib( 1161): hostaddress count is 2
+D/dalvikvm( 1161): GC_CONCURRENT freed 558K, 76% free 1437K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 561K, 77% free 1387K/5955K, paused 0ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 470K, 77% free 1421K/5955K, paused 1ms+2ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 492K, 76% free 1434K/5955K, paused 1ms+1ms
+D/MonitorCw880( 1310): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1161): GC_CONCURRENT freed 489K, 78% free 1329K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 399K, 78% free 1315K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 397K, 78% free 1313K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 383K, 76% free 1438K/5955K, paused 0ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 514K, 78% free 1310K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 378K, 75% free 1498K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 569K, 76% free 1435K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 544K, 77% free 1402K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 563K, 78% free 1345K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 415K, 78% free 1314K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 394K, 77% free 1427K/5955K, paused 1ms+1ms
+D/MonitorCw880( 1310): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1161): GC_CONCURRENT freed 503K, 79% free 1308K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 382K, 78% free 1336K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 458K, 77% free 1390K/5955K, paused 0ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 442K, 73% free 1618K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 677K, 76% free 1472K/5955K, paused 1ms+2ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 545K, 78% free 1326K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 402K, 78% free 1343K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 417K, 78% free 1328K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 393K, 78% free 1326K/5955K, paused 1ms+1ms
+D/MonitorCw880( 1310): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1161): GC_CONCURRENT freed 392K, 78% free 1327K/5955K, paused 0ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 419K, 78% free 1327K/5955K, paused 1ms+0ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 396K, 76% free 1431K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 501K, 77% free 1428K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 497K, 78% free 1316K/5955K, paused 1ms+1ms
+D/MonitorCw880( 1310): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1161): GC_CONCURRENT freed 397K, 79% free 1304K/5955K, paused 1ms+0ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 371K, 77% free 1409K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 479K, 76% free 1434K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 515K, 79% free 1304K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 384K, 76% free 1431K/5955K, paused 0ms+2ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 498K, 78% free 1327K/5955K, paused 1ms+1ms
+D/MonitorCw880( 1310): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1161): GC_CONCURRENT freed 399K, 78% free 1326K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 399K, 78% free 1327K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 400K, 77% free 1373K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 454K, 76% free 1429K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 498K, 76% free 1434K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 509K, 78% free 1316K/5955K, paused 0ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 374K, 78% free 1333K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 414K, 79% free 1303K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_FOR_ALLOC freed 498K, 78% free 1311K/5955K, paused 10ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 7K, 76% free 1484K/5955K, paused 1ms+2ms
+D/MonitorCw880( 1310): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1161): GC_CONCURRENT freed 560K, 78% free 1310K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 386K, 78% free 1326K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 401K, 79% free 1309K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 393K, 77% free 1423K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 504K, 77% free 1390K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 464K, 76% free 1431K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 491K, 76% free 1451K/5955K, paused 0ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 521K, 78% free 1352K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 419K, 75% free 1524K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 598K, 77% free 1374K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 445K, 78% free 1315K/5955K, paused 1ms+1ms
+D/MonitorCw880( 1310): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1161): GC_CONCURRENT freed 476K, 78% free 1347K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 406K, 78% free 1326K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 392K, 78% free 1325K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 393K, 78% free 1326K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 392K, 78% free 1332K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 404K, 76% free 1449K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 530K, 78% free 1310K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 382K, 78% free 1313K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 394K, 78% free 1314K/5955K, paused 0ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 393K, 78% free 1345K/5955K, paused 0ms+1ms
+D/MonitorCw880( 1310): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1161): GC_CONCURRENT freed 415K, 78% free 1315K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 396K, 76% free 1444K/5955K, paused 1ms+0ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 514K, 78% free 1314K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 395K, 77% free 1386K/5955K, paused 0ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 462K, 78% free 1316K/5955K, paused 1ms+1ms
+D/MonitorCw880( 1310): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1161): GC_CONCURRENT freed 375K, 78% free 1325K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 401K, 76% free 1432K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 508K, 78% free 1315K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 372K, 78% free 1326K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 399K, 77% free 1373K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 454K, 79% free 1303K/5955K, paused 1ms+1ms
+D/MonitorCw880( 1310): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1161): GC_CONCURRENT freed 377K, 76% free 1432K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 508K, 77% free 1424K/5955K, paused 0ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 495K, 78% free 1329K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 407K, 79% free 1306K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 384K, 78% free 1327K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 393K, 78% free 1325K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 391K, 78% free 1326K/5955K, paused 1ms+1ms
+D/MonitorCw880( 1310): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1161): GC_CONCURRENT freed 393K, 78% free 1326K/5955K, paused 0ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 393K, 78% free 1326K/5955K, paused 0ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 393K, 78% free 1327K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 404K, 78% free 1312K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 396K, 79% free 1303K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 381K, 78% free 1328K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 396K, 78% free 1326K/5955K, paused 1ms+1ms
+D/MonitorCw880( 1310): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1161): GC_CONCURRENT freed 394K, 78% free 1326K/5955K, paused 0ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 392K, 78% free 1326K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 404K, 78% free 1311K/5955K, paused 1ms+1ms
+D/HomePlayerLib( 1161): hostaddress count is 2
+D/dalvikvm( 1161): GC_CONCURRENT freed 390K, 76% free 1445K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 512K, 76% free 1436K/5955K, paused 1ms+0ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 504K, 78% free 1326K/5955K, paused 1ms+0ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 406K, 78% free 1334K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 403K, 76% free 1452K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 530K, 78% free 1329K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 394K, 77% free 1418K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 616K, 79% free 1309K/5955K, paused 1ms+1ms
+D/MonitorCw880( 1310): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1161): GC_CONCURRENT freed 381K, 78% free 1313K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 382K, 76% free 1442K/5955K, paused 0ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 521K, 77% free 1428K/5955K, paused 0ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 489K, 76% free 1470K/5955K, paused 1ms+0ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 550K, 78% free 1319K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 382K, 76% free 1454K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 516K, 77% free 1415K/5955K, paused 0ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 474K, 78% free 1337K/5955K, paused 0ms+1ms
+D/MonitorCw880( 1310): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1161): GC_CONCURRENT freed 416K, 76% free 1431K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 492K, 77% free 1409K/5955K, paused 1ms+0ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 476K, 77% free 1373K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 444K, 76% free 1439K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 516K, 78% free 1314K/5955K, paused 1ms+1ms
+[ 2332.752056] IR: [03932] scan key value is 0xec13c936 
+[ 2332.752061]  
+D/dalvikvm( 1161): GC_CONCURRENT freed 395K, 77% free 1427K/5955K, paused 1ms+1ms
+D/MonitorCw880( 1310): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1161): GC_CONCURRENT freed 499K, 76% free 1440K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 518K, 77% free 1396K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 474K, 78% free 1346K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 417K, 76% free 1439K/5955K, paused 1ms+1ms
+D/MonitorCw880( 1310): Current Remote 
+[ 2332.804601] IR: [03932] scan key value is 0xec13c936 
+[ 2332.804606]  Host is null, continue, counter=0
+D/dalvikvm( 1161): GC_CONCURRENT freed 517K, 79% free 1306K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 368K, 76% free 1450K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 523K, 76% free 1431K/5955K, paused 0ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 491K, 76% free 1451K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 516K, 78% free 1328K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 406K, 76% free 1434K/5955K, paused 1ms+1ms
+D/MonitorCw880( 1310): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1161): GC_CONCURRENT freed 508K, 76% free 1437K/5955K, paused 1ms+1ms
+I/Tools   ( 2009): SystemPropertiesClass:class android.os.SystemProperties
+W/Tools   ( 2009): ~~~~~~~~~~~~~~~~~~~~~~method:public static java.lang.String android.os.SystemProperties.get(java.lang.String,java.lang.String)
+W/Tools   ( 2009): ~~~~~~~~~~~~~~~~~~~~~~returnvalue:1
+I/Tools   ( 2009): SystemPropertiesClass:class android.os.SystemProperties
+W/Tools   ( 2009): ~~~~~~~~~~~~~~~~~~~~~~method:public static java.lang.String android.os.SystemProperties.get(java.lang.String,java.lang.String)
+W/Tools   ( 2009): ~~~~~~~~~~~~~~~~~~~~~~returnvalue:客厅里的飞看
+E/StaggeredGridView( 2009): onMeasure: must have an exact height or match_parent! Using fallback spec of EXACTLY 720
+I/dalvikvm(  934): Jit: resizing JitTable from 4096 to 8192
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+D/ScaleViewPanel( 2009): dispatchDraw
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+D/OpenGLRenderer( 2009): Flushing caches (mode 0)
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+D/dalvikvm( 1161): GC_CONCURRENT freed 512K, 76% free 1450K/5955K, paused 2ms+2ms
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+D/dalvikvm( 1161): GC_CONCURRENT freed 523K, 76% free 1434K/5955K, paused 1ms+1ms
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+D/dalvikvm( 1161): GC_CONCURRENT freed 503K, 78% free 1346K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 418K, 76% free 1439K/5955K, paused 0ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 517K, 76% free 1429K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 487K, 78% free 1327K/5955K, paused 0ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 403K, 76% free 1429K/5955K, paused 0ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 490K, 78% free 1342K/5955K, paused 1ms+1ms
+D/MonitorCw880( 1310): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1161): GC_CONCURRENT freed 421K, 78% free 1340K/5955K, paused 0ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 407K, 78% free 1368K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 482K, 77% free 1390K/5955K, paused 0ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 451K, 78% free 1326K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 391K, 76% free 1432K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 513K, 78% free 1312K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 379K, 78% free 1326K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 393K, 78% free 1325K/5955K, paused 1ms+1ms
+W/WindowManager(  934): Unable to find ITelephony interface.
+D/MonitorCw880( 1310): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1161): GC_CONCURRENT freed 393K, 76% free 1431K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 502K, 78% free 1314K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 394K, 78% free 1314K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 398K, 78% free 1315K/5955K, paused 1ms+1ms
+I/MainActivity( 1235):  onResume
+D/dalvikvm( 1161): GC_CONCURRENT freed 383K, 77% free 1409K/5955K, paused 1ms+2ms
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+W/InputManagerService(  934): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@4168df10 (uid=1000 pid=2009)
+D/OpenGLRenderer( 2009): Flushing caches (mode 0)
+D/dalvikvm(  934): GC_CONCURRENT freed 660K, 62% free 3497K/9155K, paused 7ms+4ms
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+D/MonitorCw880( 1310): Current Remote Host is null, continue, counter=0
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+D/dalvikvm( 1161): GC_CONCURRENT freed 476K, 77% free 1409K/5955K, paused 0ms+1ms
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+D/dalvikvm( 1161): GC_CONCURRENT freed 473K, 77% free 1373K/5955K, paused 1ms+1ms
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+D/OpenGLRenderer( 2009): Flushing caches (mode 1)
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+D/dalvikvm( 1161): GC_CONCURRENT freed 444K, 77% free 1425K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 489K, 76% free 1433K/5955K, paused 0ms+0ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 503K, 78% free 1324K/5955K, paused 1ms+1ms
+I/MainActivity( 1235): onClick -> 52060
+I/ActivityManager(  934): START {flg=0x10000000 cmp=com.coship.setting/.main (has extras)} from pid 1235
+D/dalvikvm(  934): GC_FOR_ALLOC freed 54K, 62% free 3490K/9155K, paused 36ms
+I/dalvikvm-heap(  934): Grow heap (frag case) to 8.008MB for 1048592-byte allocation
+D/dalvikvm(  934): GC_FOR_ALLOC freed 5K, 51% free 4508K/9155K, paused 33ms
+D/MonitorCw880( 1310): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1161): GC_CONCURRENT freed 406K, 79% free 1309K/5955K, paused 2ms+1ms
+D/dalvikvm(  934): GC_CONCURRENT freed <1K, 51% free 4572K/9155K, paused 2ms+4ms
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+V/MainActivity( 1235): 启动onlineMovice，用户为  ：null
+V/MainActivity( 1235): userName = null ;passwd = null ; DiviceId = null
+I/Tools   ( 2009): SystemPropertiesClass:class android.os.SystemProperties
+W/Tools   ( 2009): ~~~~~~~~~~~~~~~~~~~~~~method:public static java.lang.String android.os.SystemProperties.get(java.lang.String,java.lang.String)
+W/Tools   ( 2009): ~~~~~~~~~~~~~~~~~~~~~~returnvalue:S1001
+V/ottsetting( 2009): getConnectedType is :1
+D/OpenGLRenderer( 1235): Flushing caches (mode 1)
+E/StaggeredGridView( 2009): onMeasure: must have an exact height or match_parent! Using fallback spec of EXACTLY 720
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+D/OpenGLRenderer( 1235): Flushing caches (mode 0)
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+D/ScaleViewPanel( 2009): ScaleViewPanel constructor
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+D/ScaleViewPanel( 2009): ScaleViewPanel constructor
+D/dalvikvm( 1161): GC_CONCURRENT freed 377K, 77% free 1409K/5955K, paused 1ms+1ms
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+D/ScaleViewPanel( 2009): ScaleViewPanel constructor
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+D/ScaleViewPanel( 2009): ScaleViewPanel constructor
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+D/ScaleViewPanel( 2009): ScaleViewPanel constructor
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+D/ScaleViewPanel( 2009): ScaleViewPanel constructor
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+D/ScaleViewPanel( 2009): ScaleViewPanel constructor
+D/ScaleViewPanel( 2009): ScaleViewPanel constructor
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+D/ScaleViewPanel( 2009): ScaleViewPanel constructor
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+D/ScaleViewPanel( 2009): ScaleViewPanel constructor
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+D/dalvikvm( 2009): GC_CONCURRENT freed 492K, 24% free 14190K/18435K, paused 2ms+4ms
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+D/dalvikvm( 1161): GC_CONCURRENT freed 476K, 77% free 1409K/5955K, paused 2ms+2ms
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+D/ScaleViewPanel( 2009): ScaleViewPanel constructor
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+D/ScaleViewPanel( 2009): ScaleViewPanel constructor
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+I/ScaleViewPanel( 2009): onFocusChange()...........num:0, hasFocus:true
+V/NetSettingAdapter( 2009): [onFocusChange] num:0, hasFocus:true
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+V/ottsetting( 2009): onReceive CONNECTIVITY_CHANGE
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+W/InputManagerService(  934): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@416634c0 (uid=10011 pid=1235)
+E/StaggeredGridView( 2009): onMeasure: must have an exact height or match_parent! Using fallback spec of EXACTLY 720
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+I/Process (  934): Sending signal. PID: 2009 SIG: 3
+I/dalvikvm( 2009): threadid=3: reacting to signal 3
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+I/dalvikvm( 2009): Wrote stack traces to '/data/anr/traces.txt'
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+D/ScaleViewPanel( 2009): dispatchDraw
+D/dalvikvm( 1161): GC_CONCURRENT freed 475K, 77% free 1373K/5955K, paused 1ms+2ms
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+I/ActivityManager(  934): Displayed com.coship.setting/.main: +597ms
+V/ottsetting( 2009): getConnectedType is :1
+I/Tools   ( 2009): SystemPropertiesClass:class android.os.SystemProperties
+W/Tools   ( 2009): ~~~~~~~~~~~~~~~~~~~~~~method:public static java.lang.String android.os.SystemProperties.get(java.lang.String,java.lang.String)
+W/Tools   ( 2009): ~~~~~~~~~~~~~~~~~~~~~~returnvalue:1
+I/Tools   ( 2009): SystemPropertiesClass:class android.os.SystemProperties
+W/Tools   ( 2009): ~~~~~~~~~~~~~~~~~~~~~~method:public static java.lang.String android.os.SystemProperties.get(java.lang.String,java.lang.String)
+W/Tools   ( 2009): ~~~~~~~~~~~~~~~~~~~~~~returnvalue:客厅里的飞看
+E/StaggeredGridView( 2009): onMeasure: must have an exact height or match_parent! Using fallback spec of EXACTLY 720
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+D/ScaleViewPanel( 2009): dispatchDraw
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+D/ScaleViewPanel( 2009): dispatchDraw
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+D/ScaleViewPanel( 2009): dispatchDraw
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+D/dalvikvm( 1161): GC_CONCURRENT freed 446K, 78% free 1324K/5955K, paused 1ms+1ms
+D/MonitorCw880( 1310): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1161): GC_CONCURRENT freed 408K, 77% free 1423K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 500K, 78% free 1314K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 395K, 77% free 1386K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 458K, 77% free 1372K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 445K, 77% free 1423K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 489K, 76% free 1433K/5955K, paused 1ms+1ms
+D/MonitorCw880( 1310): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1161): GC_CONCURRENT freed 514K, 79% free 1303K/5955K, paused 1ms+0ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 388K, 79% free 1299K/5955K, paused 1ms+1ms
+
+[ 2335.337296] IR: [03932] scan key value is 0x8f70c936 
+[ 2335.337301]  
+[ 2335.389832] IR: [03932] scan key value is 0x8f70c936 
+[ 2335.389837]  D/dalvikvm( 1161): GC_CONCURRENT freed 372K, 78% free 1323K/5955K, paused 1ms+1ms
+W/WindowManager(  934): Unable to find ITelephony interface.
+D/dalvikvm( 1161): GC_CONCURRENT freed 432K, 78% free 1324K/5955K, paused 1ms+1ms
+D/MonitorCw880( 1310): Current Remote Host is null, continue, counter=0
+D/HomePlayerLib( 1161): hostaddress count is 2
+D/dalvikvm( 1161): GC_CONCURRENT freed 402K, 77% free 1379K/5955K, paused 1ms+1ms
+
+[ 2336.159144] IR: [03932] scan key value is 0x8f70c936 
+[ 2336.159148]  D/dalvikvm( 1161): GC_CONCURRENT freed 455K, 77% free 1429K/5955K, paused 1ms+1ms
+
+[ 2336.211692] IR: [03932] scan key value is 0x8f70c936 
+[ 2336.211697]  D/dalvikvm( 1161): GC_CONCURRENT freed 508K, 77% free 1427K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 499K, 78% free 1319K/5955K, paused 1ms+1ms
+W/WindowManager(  934): Unable to find ITelephony interface.
+D/dalvikvm( 1161): GC_CONCURRENT freed 394K, 78% free 1348K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 426K, 76% free 1429K/5955K, paused 0ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 570K, 77% free 1371K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 478K, 77% free 1398K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 471K, 76% free 1439K/5955K, paused 1ms+1ms
+
+[ 2336.827136] IR: [03932] scan key value is 0x8f70c936 
+[ 2336.827141]  D/dalvikvm( 1161): GC_CONCURRENT freed 500K, 77% free 1375K/5955K, paused 1ms+1ms
+
+[ 2336.879680] IR: [03932] scan key value is 0x8f70c936 
+[ 2336.879685]  D/dalvikvm( 1161): GC_CONCURRENT freed 425K, 76% free 1460K/5955K, paused 1ms+1ms
+W/WindowManager(  934): Unable to find ITelephony interface.
+D/MonitorCw880( 1310): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1161): GC_CONCURRENT freed 534K, 76% free 1434K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 487K, 78% free 1337K/5955K, paused 1ms+0ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 416K, 77% free 1424K/5955K, paused 1ms+1ms
+
+[ 2337.590258] IR: [03932] scan key value is 0x8f70c936 
+[ 2337.590263]  
+[ 2337.642800] IR: [03932] scan key value is 0x8f70c936 
+[ 2337.642804]  D/dalvikvm( 1161): GC_CONCURRENT freed 492K, 77% free 1425K/5955K, paused 1ms+1ms
+W/WindowManager(  934): Unable to find ITelephony interface.
+D/dalvikvm( 1161): GC_CONCURRENT freed 503K, 78% free 1346K/5955K, paused 1ms+1ms
+D/MonitorCw880( 1310): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1161): GC_CONCURRENT freed 418K, 78% free 1323K/5955K, paused 0ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 395K, 78% free 1321K/5955K, paused 1ms+2ms
+
+[ 2338.284778] IR: [03932] scan key value is 0x8f70c936 
+[ 2338.284783]  
+[ 2338.337315] IR: [03932] scan key value is 0x8f70c936 
+[ 2338.337320]  D/dalvikvm( 1161): GC_CONCURRENT freed 394K, 78% free 1322K/5955K, paused 1ms+1ms
+W/WindowManager(  934): Unable to find ITelephony interface.
+D/dalvikvm( 1161): GC_CONCURRENT freed 393K, 78% free 1322K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 394K, 78% free 1313K/5955K, paused 1ms+1ms
+D/MonitorCw880( 1310): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1161): GC_CONCURRENT freed 380K, 76% free 1439K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 522K, 77% free 1429K/5955K, paused 0ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 504K, 77% free 1423K/5955K, paused 1ms+1ms
+D/MonitorCw880( 1310): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1161): GC_CONCURRENT freed 489K, 78% free 1351K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 417K, 78% free 1327K/5955K, paused 1ms+1ms
+D/dalvikvm( 1161): GC_CONCURRENT freed 387K, 78% free 1328K/5955K, paused 1ms+1ms
+^C

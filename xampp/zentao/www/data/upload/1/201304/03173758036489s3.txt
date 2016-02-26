@@ -1,0 +1,521 @@
+                                                                                                              [ 8315.524313] [ALSA] substream->number = 0
+                     [ 8315.524431] [ALSA] playback_hw_params
+                                                             [ 8315.524599] [AUD][AUD_CODEC][11] Non fixed length mode gets streaming buffer, SA = 0xdfea9f00,Size = 0x18000
+                                        [ 8315.524628] [ALSA] playback_prepare pcm_buffer_size = 65536 bytes pcm_period_size = 4096 bytes
+     [ 8315.524642] [ALSA] playback_prepare dma_area = 0xDFEA9F00 dma_bytes = 0x10000
+                                                                                     [ 8315.524657] [ALSA] playback_prepare rate = 48000 format = 2 (bitwidth = 16) channels = 2
+                                            [ 8315.524670] [ALSA] playback_prepare runtime->delay = 0 frames start_threshold = 1 frames
+   [ 8315.524886] [ALSA] playback_trigger cmd = 1
+                                                 <AND_STUB>ERROR!!,recv AND_STUB_KEY_MSG 
+<AND_STUB>private message id is 0
+<FACTORY>send message failed -1 @L151
+<AND_STUB>ERROR!!,recv AND_STUB_KEY_MSG 
+<AND_STUB>private message id is 0
+<FACTORY>send message failed -1 @L151
+<AND_STUB>ERROR!!,recv AND_STUB_KEY_MSG 
+<AND_STUB>private message id is 0
+<FACTORY>send message failed -1 @L151
+<AND_STUB>ERROR!!,recv AND_STUB_KEY_MSG 
+<AND_STUB>private message id is 0
+<FACTORY>send message failed -1 @L151
+<AND_STUB>ERROR!!,recv AND_STUB_KEY_MSG 
+<AND_STUB>private message id is 0
+<FACTORY>send message failed -1 @L151
+<AND_STUB>ERROR!!,recv AND_STUB_KEY_MSG 
+<AND_STUB>private message id is 0
+<FACTORY>send message failed -1 @L151
+<AND_STUB>ERROR!!,recv AND_STUB_KEY_MSG 
+<AND_STUB>private message id is 0
+<FACTORY>send message failed -1 @L151
+<AND_STUB>ERROR!!,recv AND_STUB_KEY_MSG 
+<AND_STUB>private message id is 0
+<FACTORY>send message failed -1 @L151
+<FACTORY>send message failed -1 @L151
+<AND_STUB>ERROR!!,recv AND_STUB_KEY_MSG 
+<AND_STUB>private message id is 0
+[ 8319.620665] [ALSA] playback_trigger cmd = 0
+                                              [ 8319.620723] [ALSA] playback_hw_free
+                                                                                    [ 8319.620737] [ALSA] operator: close, substream = 0xECA77B00
+             [ 8319.620882] [Drv_FS] DrvFSUnMount: #81: return 0
+                                                                [ 8325.122218] star: port status change
+                                                                                                       [ 8325.122249] star: Link status: Up
+       [ 8325.122259] star: Full Duplex - 100 Mbps mode
+                                                       [ 8325.122270] star: TX flow control:On, RX flow control:On
+                                                                                                                  [ 8325.127010] init: starting 'dhcpcd_eth0'
+                         <COMM_FUNC_NETWORK> DHCP Notify Message come ...Msg:1
+<ni_mon_thread> eth0 is plug!
+<MISC>_misc_dhcp_broadcast_network_msg ..
+<MISC>_misc_dhcp_broadcast_network_msg .app_name=AND_STUB.
+<MISC>c_app_send_msg failed, code = -1
+<MISC>_misc_handle_dhcp_plugin_notify 
+eth0 is plug!
+<COMM_FUNC_NETWORK> Net type:6 ,connect_status 1 
+<c_net_set_hostname>ps_hostname: mtk8530
+<c_net_set_hostname>CMD: echo "mtk8530" > /etc/hostname
+[IPCD]CMD: echo "mtk8530" > /etc/hostname
+client req safe write okclient req safe read ok: 4120eth0 is plug!
+<COMM_FUNC_NETWORK> Net type:6 ,connect_status 1 
+<ETHERNET> c_dhcpc_start Success!
+<MISC> API: misc_handle_dhcp_network_connect_status()
+
+<MISC> API: _misc_view_show_net_plug_in_out()
+
+et_type = 0
+<gn>_b_network_disconnet_in_loading= 0
+[ 8325.385948] star: port status change
+                                       [ 8325.385977] star: Link status: Down
+                                                                             <AND_STUB>ERROR!!,recv AND_STUB_KEY_MSG 
+<AND_STUB>private message id is 0
+<FACTORY>send message failed -1 @L151
+[ 8325.771293] [ALSA] operator: open, substream = 0xECA77B00
+                                                            [ 8325.771341] [ALSA] substream->pcm->device = 0x0
+                                                                                                              [ 8325.771351] [ALSA] substream->number = 0
+                     [ 8325.771443] [ALSA] playback_hw_params
+                                                             [ 8325.771575] [AUD][AUD_CODEC][11] Non fixed length mode gets streaming buffer, SA = 0xdfea9f00,Size = 0x18000
+                                        [ 8325.771597] [ALSA] playback_prepare pcm_buffer_size = 65536 bytes pcm_period_size = 4096 bytes
+     [ 8325.771610] [ALSA] playback_prepare dma_area = 0xDFEA9F00 dma_bytes = 0x10000
+                                                                                     [ 8325.771624] [ALSA] playback_prepare rate = 48000 format = 2 (bitwidth = 16) channels = 2
+                                            [ 8325.771637] [ALSA] playback_prepare runtime->delay = 0 frames start_threshold = 1 frames
+   [ 8325.771797] [ALSA] playback_trigger cmd = 1
+                                                 <AND_STUB>ERROR!!,recv AND_STUB_KEY_MSG 
+<AND_STUB>private message id is 0
+<FACTORY>send message failed -1 @L151
+<AND_STUB>ERROR!!,recv AND_STUB_KEY_MSG 
+<AND_STUB>private message id is 0
+<FACTORY>send message failed -1 @L151
+<AND_STUB>ERROR!!,recv AND_STUB_KEY_MSG 
+<AND_STUB>private message id is 0
+<FACTORY>send message failed -1 @L151
+<AND_STUB>ERROR!!,recv AND_STUB_KEY_MSG 
+<AND_STUB>private message id is 0
+<FACTORY>send message failed -1 @L151
+<AND_STUB>ERROR!!,recv AND_STUB_KEY_MSG 
+<AND_STUB>private message id is 0
+<FACTORY>send message failed -1 @L151
+<AND_STUB>ERROR!!,recv AND_STUB_KEY_MSG 
+<AND_STUB>private message id is 0
+<FACTORY>send message failed -1 @L151
+<AND_STUB>ERROR!!,recv AND_STUB_KEY_MSG 
+<AND_STUB>private message id is 0
+<FACTORY>send message failed -1 @L151
+<AND_STUB>ERROR!!,recv AND_STUB_KEY_MSG 
+<AND_STUB>private message id is 0
+<FACTORY>send message failed -1 @L151
+[ 8326.980952] star: port status change
+                                       [ 8326.980974] star: Link status: Up
+                                                                           [ 8326.980984] star: Full Duplex - 100 Mbps mode
+                                                                                                                           [ 8326.980991] star: TX flow control:On, RX flow control:On
+                                                  <AND_STUB>ERROR!!,recv AND_STUB_KEY_MSG 
+<AND_STUB>private message id is 0
+<FACTORY>send message failed -1 @L151
+<AND_STUB>ERROR!!,recv AND_STUB_KEY_MSG 
+<AND_STUB>private message id is 0
+<FACTORY>send message failed -1 @L151
+[ 8327.212318] star: port status change
+                                       [ 8327.212333] star: Link status: Down
+                                                                             <AND_STUB>ERROR!!,recv AND_STUB_KEY_MSG 
+<AND_STUB>private message id is 0
+<FACTORY>send message failed -1 @L151
+<COMM_FUNC_NETWORK> DHCP Notify Message come ...Msg:2
+<ni_mon_thread> eth0 is unplug!
+<MISC>_misc_dhcp_broadcast_network_msg ..
+<MISC>_misc_dhcp_broadcast_network_msg .app_name=AND_STUB.
+<MISC>c_app_send_msg failed, code = -1
+<ETHERNET> c_dhcpc_stop success!
+<MISC> API: misc_handle_dhcp_network_connect_status()
+
+<MISC> API: _misc_view_show_net_plug_in_out()
+
+et_type = 1
+<gn>_b_network_disconnet_in_loading= 1
+<MISC>misc_stop_gn... 
+<MISC>Send msg to app fail, at L373, error code is -1
+<MISC> misc_stop_gn failed!
+<Playback>network disconnect --> stop pb_gn...
+<AND_STUB>ERROR!!,recv AND_STUB_KEY_MSG 
+<AND_STUB>private message id is 0
+<FACTORY>send message failed -1 @L151
+<AND_STUB>ERROR!!,recv AND_STUB_KEY_MSG 
+<AND_STUB>private message id is 0
+<FACTORY>send message failed -1 @L151
+<AND_STUB>ERROR!!,recv AND_STUB_KEY_MSG 
+<AND_STUB>private message id is 0
+<FACTORY>send message failed -1 @L151
+<AND_STUB>ERROR!!,recv AND_STUB_KEY_MSG 
+<AND_STUB>private message id is 0
+<FACTORY>send message failed -1 @L151
+<AND_STUB>ERROR!!,recv AND_STUB_KEY_MSG 
+<AND_STUB>private message id is 0
+<FACTORY>send message failed -1 @L151
+<AND_STUB>ERROR!!,recv AND_STUB_KEY_MSG 
+<AND_STUB>private message id is 0
+<FACTORY>send message failed -1 @L151
+<AND_STUB>ERROR!!,recv AND_STUB_KEY_MSG 
+<AND_STUB>private message id is 0
+<FACTORY>send message failed -1 @L151
+<AND_STUB>ERROR!!,recv AND_STUB_KEY_MSG 
+<AND_STUB>private message id is 0
+<FACTORY>send message failed -1 @L151
+[ 8329.095925] star: port status change
+                                       [ 8329.095938] star: Link status: Up
+                                                                           [ 8329.095945] star: Full Duplex - 100 Mbps mode
+                                                                                                                           [ 8329.095952] star: TX flow control:On, RX flow control:On
+                                                  <AND_STUB>ERROR!!,recv AND_STUB_KEY_MSG 
+<AND_STUB>private message id is 0
+<FACTORY>send message failed -1 @L151
+<AND_STUB>ERROR!!,recv AND_STUB_KEY_MSG 
+<AND_STUB>private message id is 0
+<FACTORY>send message failed -1 @L151
+<COMM_FUNC_NETWORK> DHCP Notify Message come ...Msg:1
+<ni_mon_thread> eth0 is plug!
+<MISC>_misc_dhcp_broadcast_network_msg ..
+<MISC>_misc_dhcp_broadcast_network_msg .app_name=AND_STUB.
+<MISC>c_app_send_msg failed, code = -1
+<MISC>_misc_handle_dhcp_plugin_notify 
+eth0 is plug!
+<COMM_FUNC_NETWORK> Net type:6 ,connect_status 1 
+<c_net_set_hostname>ps_hostname: mtk8530
+<c_net_set_hostname>CMD: echo "mtk8530" > /etc/hostname
+[IPCD]CMD: echo "mtk8530" > /etc/hostname
+client req safe write okclient req safe read ok: 4120eth0 is plug!
+<COMM_FUNC_NETWORK> Net type:6 ,connect_status 1 
+<ETHERNET> c_dhcpc_start Success!
+<MISC> API: misc_handle_dhcp_network_connect_status()
+
+<MISC> API: _misc_view_show_net_plug_in_out()
+
+et_type = 0
+<gn>_b_network_disconnet_in_loading= 0
+<AND_STUB>ERROR!!,recv AND_STUB_KEY_MSG 
+<AND_STUB>private message id is 0
+<FACTORY>send message failed -1 @L151
+<AND_STUB>ERROR!!,recv AND_STUB_KEY_MSG 
+<FACTORY>send message failed -1 @L151
+<AND_STUB>private message id is 0
+<MISC> API: _misc_mov_ui_timeout_cb()
+[ 8333.280216] [ALSA] playback_trigger cmd = 0
+                                              [ 8333.280284] [ALSA] playback_hw_free
+                                                                                    [ 8333.280294] [ALSA] operator: close, substream = 0xECA77B00
+             [ 8333.280915] [Drv_FS] DrvFSUnMount: #81: return 0
+                                                                [ 8335.942304] star: port status change
+                                                                                                       [ 8335.942336] star: Link status: Down
+         <COMM_FUNC_NETWORK> DHCP Notify Message come ...Msg:2
+<ni_mon_thread> eth0 is unplug!
+<MISC>_misc_dhcp_broadcast_network_msg ..
+<MISC>_misc_dhcp_broadcast_network_msg .app_name=AND_STUB.
+<MISC>c_app_send_msg failed, code = -1
+<ETHERNET> c_dhcpc_stop success!
+<MISC> API: misc_handle_dhcp_network_connect_status()
+
+<MISC> API: _misc_view_show_net_plug_in_out()
+
+et_type = 1
+<gn>_b_network_disconnet_in_loading= 1
+<MISC>misc_stop_gn... 
+<MISC>Send msg to app fail, at L373, error code is -1
+<MISC> misc_stop_gn failed!
+<Playback>network disconnect --> stop pb_gn...
+[ 8337.858018] star: port status change
+                                       [ 8337.858048] star: Link status: Up
+                                                                           [ 8337.858059] star: Full Duplex - 100 Mbps mode
+                                                                                                                           [ 8337.858069] star: TX flow control:On, RX flow control:On
+                                                  <COMM_FUNC_NETWORK> DHCP Notify Message come ...Msg:1
+<ni_mon_thread> eth0 is plug!
+<MISC>_misc_dhcp_broadcast_network_msg ..
+<MISC>_misc_dhcp_broadcast_network_msg .app_name=AND_STUB.
+<MISC>c_app_send_msg failed, code = -1
+<MISC>_misc_handle_dhcp_plugin_notify 
+eth0 is plug!
+<COMM_FUNC_NETWORK> Net type:6 ,connect_status 1 
+<c_net_set_hostname>ps_hostname: mtk8530
+<c_net_set_hostname>CMD: echo "mtk8530" > /etc/hostname
+[IPCD]CMD: echo "mtk8530" > /etc/hostname
+client req safe write okclient req safe read ok: 4120eth0 is plug!
+<COMM_FUNC_NETWORK> Net type:6 ,connect_status 1 
+<ETHERNET> c_dhcpc_start Success!
+<MISC> API: misc_handle_dhcp_network_connect_status()
+
+<MISC> API: _misc_view_show_net_plug_in_out()
+
+et_type = 0
+<gn>_b_network_disconnet_in_loading= 0
+<MISC> API: _misc_mov_ui_timeout_cb()
+<AND_STUB>ERROR!!,recv AND_STUB_KEY_MSG 
+<AND_STUB>private message id is 0
+<FACTORY>send message failed -1 @L151
+[ 8344.308124] [ALSA] operator: open, substream = 0xECA77B00
+                                                            [ 8344.308135] [ALSA] substream->pcm->device = 0x0
+                                                                                                              [ 8344.308142] [ALSA] substream->number = 0
+                     [ 8344.308223] [ALSA] playback_hw_params
+                                                             [ 8344.308331] [AUD][AUD_CODEC][11] Non fixed length mode gets streaming buffer, SA = 0xdfea9f00,Size = 0x18000
+                                        [ 8344.308344] [ALSA] playback_prepare pcm_buffer_size = 65536 bytes pcm_period_size = 4096 bytes
+     [ 8344.308354] [ALSA] playback_prepare dma_area = 0xDFEA9F00 dma_bytes = 0x10000
+                                                                                     [ 8344.308364] [ALSA] playback_prepare rate = 48000 format = 2 (bitwidth = 16) channels = 2
+                                            [ 8344.308374] [ALSA] playback_prepare runtime->delay = 0 frames start_threshold = 1 frames
+   [ 8344.308487] [ALSA] playback_trigger cmd = 1
+                                                 <AND_STUB>ERROR!!,recv AND_STUB_KEY_MSG 
+<AND_STUB>private message id is 0
+<FACTORY>send message failed -1 @L151
+<AND_STUB>ERROR!!,recv AND_STUB_KEY_MSG 
+<AND_STUB>private message id is 0
+<FACTORY>send message failed -1 @L151
+<AND_STUB>ERROR!!,recv AND_STUB_KEY_MSG 
+<AND_STUB>private message id is 0
+<FACTORY>send message failed -1 @L151
+<AND_STUB>ERROR!!,recv AND_STUB_KEY_MSG 
+<AND_STUB>private message id is 0
+<FACTORY>send message failed -1 @L151
+<AND_STUB>ERROR!!,recv AND_STUB_KEY_MSG 
+<AND_STUB>private message id is 0
+<FACTORY>send message failed -1 @L151
+<AND_STUB>ERROR!!,recv AND_STUB_KEY_MSG 
+<AND_STUB>private message id is 0
+<FACTORY>send message failed -1 @L151
+<AND_STUB>ERROR!!,recv AND_STUB_KEY_MSG 
+<AND_STUB>private message id is 0
+<FACTORY>send message failed -1 @L151
+<AND_STUB>ERROR!!,recv AND_STUB_KEY_MSG 
+<AND_STUB>private message id is 0
+<FACTORY>send message failed -1 @L151
+<AND_STUB>ERROR!!,recv AND_STUB_KEY_MSG 
+<AND_STUB>private message id is 0
+<FACTORY>send message failed -1 @L151
+<AND_STUB>ERROR!!,recv AND_STUB_KEY_MSG 
+<AND_STUB>private message id is 0
+<FACTORY>send message failed -1 @L151
+<AND_STUB>ERROR!!,recv AND_STUB_KEY_MSG 
+<AND_STUB>private message id is 0
+<FACTORY>send message failed -1 @L151
+[ 8346.528525] init: service 'dhcpcd_eth0' is being killed
+                                                          [ 8346.529424] init: waitpid returned pid 1411, status = 00000009
+                                                                                                                           [ 8346.529478] init: process 'dhcpcd_eth0', pid 1411 exited
+                                                  [ 8346.776118] init: starting 'dhcpcd_eth0'
+                                                                                             [ 8349.538804] [ALSA] playback_trigger cmd = 0
+       [ 8349.538916] [ALSA] playback_hw_free
+                                             [ 8349.538939] [ALSA] operator: close, substream = 0xECA77B00
+                                                                                                          [ 8349.539576] [Drv_FS] DrvFSUnMount: #81: return 0
+                         OPŠ}MQU        ùERROR!!,recv AND_STUB_KEY_MSG 
+<AND_STUB>private message id is 0
+<FACTORY>send message failed -1 @L151
+[ 8421.470985] [ALSA] operator: open, substream = 0xECA77B00
+                                                            [ 8421.471048] [ALSA] substream->pcm->device = 0x0
+                                                                                                              [ 8421.471061] [ALSA] substream->number = 0
+                     [ 8421.471179] [ALSA] playback_hw_params
+                                                             [ 8421.471326] [AUD][AUD_CODEC][11] Non fixed length mode gets streaming buffer, SA = 0xdfea9f00,Size = 0x18000
+                                        [ 8421.471354] [ALSA] playback_prepare pcm_buffer_size = 65536 bytes pcm_period_size = 4096 bytes
+     [ 8421.471370] [ALSA] playback_prepare dma_area = 0xDFEA9F00 dma_bytes = 0x10000
+                                                                                     [ 8421.471385] [ALSA] playback_prepare rate = 48000 format = 2 (bitwidth = 16) channels = 2
+                                            [ 8421.471399] [ALSA] playback_prepare runtime->delay = 0 frames start_threshold = 1 frames
+   [ 8421.471576] [ALSA] playback_trigger cmd = 1
+                                                 <AND_STUB>ERROR!!,recv AND_STUB_KEY_MSG 
+<AND_STUB>private message id is 0
+<FACTORY>send message failed -1 @L151
+<AND_STUB>ERROR!!,recv AND_STUB_KEY_MSG 
+<AND_STUB>private message id is 0
+<FACTORY>send message failed -1 @L151
+<AND_STUB>ERROR!!,recv AND_STUB_KEY_MSG 
+<AND_STUB>private message id is 0
+<FACTORY>send message failed -1 @L151
+<AND_STUB>ERROR!!,recv AND_STUB_KEY_MSG 
+<AND_STUB>private message id is 0
+<FACTORY>send message failed -1 @L151
+<AND_STUB>ERROR!!,recv AND_STUB_KEY_MSG 
+<AND_STUB>private message id is 0
+<FACTORY>send message failed -1 @L151
+<AND_STUB>ERROR!!,recv AND_STUB_KEY_MSG 
+<AND_STUB>private message id is 0
+<FACTORY>send message failed -1 @L151
+<AND_STUB>ERROR!!,recv AND_STUB_KEY_MSG 
+<AND_STUB>private message id is 0
+<FACTORY>send message failed -1 @L151
+<AND_STUB>ERROR!!,recv AND_STUB_KEY_MSG 
+<AND_STUB>private message id is 0
+<FACTORY>send message failed -1 @L151
+<AND_STUB>ERROR!!,recv AND_STUB_KEY_MSG 
+<AND_STUB>private message id is 0
+<FACTORY>send message failed -1 @L151
+00:00.000 preloader v.9082
+00:00.017 CFG = 0x1 : 0
+00:00.017 [0x00092000] [0x40010000]
+
+
+Fast boot mode
+Mar  6 2013 18:22:56SSC (+-5/1000, 30kHz)
+
+DDR3, data rate: 1242 MHz. \E1 
+DAT:( 8 ~ 10),  3,  9
+Gw0:(19 ~ 131), 113, 75
+Gw1:(15 ~ 127), 113, 71
+Gw2:(21 ~ 135), 115, 78
+Gw3:(17 ~ 127), 111, 72
+
+A GW DQS : 0x484e474b
+B0: (14 ~ 54), 41, 34
+B1: ( 9 ~ 48), 40, 29
+B2: (20 ~ 46), 27, 33
+B3: (15 ~ 41), 27, 28
+
+A RX DQS : 0x1c211d22
+A 512MB, x32 
+DAT:( 8 ~ 10),  3,  9
+Gw0:(27 ~ 135), 109, 81
+Gw1:(21 ~ 129), 109, 75
+Gw2:(27 ~ 139), 113, 83
+Gw3:(21 ~ 135), 115, 78
+
+B GW DQS : 0x4e534b51
+B0: (17 ~ 50), 34, 34
+B1: (11 ~ 45), 35, 28
+B2: (14 ~ 48), 35, 31
+B3: (10 ~ 44), 35, 27
+
+B RX DQS : 0x1b1f1c22
+B 512MB, x32 
+B0: ( 0 ~ 14), 15,  7
+B1: ( 0 ~ 15), 16,  8
+B2: ( 0 ~ 13), 14,  7
+B3: ( 0 ~ 13), 14,  7
+
+A TX DQS : 0x7787
+B0: ( 0 ~ 12), 13,  6
+B1: ( 0 ~ 13), 14,  7
+B2: ( 0 ~ 15), 16,  8
+B3: ( 0 ~ 15), 16,  8
+
+B TX DQS : 0x8876
+
+00:00.232 LD *
+new RSA
+format 2
+u4ADR = 33
+u4SingleCore = 0x80
+L2
+FF1
+00:00.000 preloader v.9082
+00:00.017 CFG = 0x1 : 0
+00:00.017 [0x00092000] [0x40010000]
+
+
+Fast boot mode
+Mar  6 2013 18:22:56SSC (+-5/1000, 30kHz)
+
+DDR3, data rate: 1242 MHz. \E1 
+DAT:( 8 ~ 10),  3,  9
+Gw0:(23 ~ 131), 109, 77
+Gw1:(15 ~ 127), 113, 71
+Gw2:(21 ~ 133), 113, 77
+Gw3:(15 ~ 127), 113, 71
+
+A GW DQS : 0x474d474d
+B0: (13 ~ 54), 42, 34
+B1: ( 9 ~ 48), 40, 29
+B2: (20 ~ 47), 28, 34
+B3: (15 ~ 41), 27, 28
+
+A RX DQS : 0x1c221d22
+A 512MB, x32 
+DAT:( 8 ~ 10),  3,  9
+Gw0:(27 ~ 133), 107, 80
+Gw1:(19 ~ 129), 111, 74
+Gw2:(27 ~ 137), 111, 82
+Gw3:(21 ~ 133), 113, 77
+
+B GW DQS : 0x4d524a50
+B0: (17 ~ 51), 35, 34
+B1: (11 ~ 46), 36, 29
+B2: (14 ~ 48), 35, 31
+B3: (10 ~ 44), 35, 27
+
+B RX DQS : 0x1b1f1d22
+B 512MB, x32 
+B0: ( 0 ~ 14), 15,  7
+B1: ( 0 ~ 15), 16,  8
+B2: ( 0 ~ 13), 14,  7
+B3: ( 0 ~ 13), 14,  7
+
+A TX DQS : 0x7787
+B0: ( 0 ~ 12), 13,  6
+B1: ( 0 ~ 13), 14,  7
+B2: ( 0 ~ 15), 16,  8
+B3: ( 0 ~ 15), 16,  8
+
+B TX DQS : 0x8876
+
+00:00.233 LD *
+new RSA
+format 2
+u4ADR = 33
+u4SingleCore = 0x80
+L2
+FF1
+Gformat 2
+00:01.614 J
+
+U-Boot 2009.08 ( 4æœ?03 2013 - 01:01:19)
+
+NXP B.V. - MT85XX SoC with ARM1176JZF-S
+DRAM:   1 GB
+eMMC:  
+------------------------------------------------------------
+[emmc_initialize] U-Boot MTD eMMC init!
+-------------------------------------------------------------
+[emsdc_initialize] 8580 At 0x7000b000 config 1 pwr 1
+[emmc_init] Found eMMC card ^^
+[emmc_startup] version = 0x4 
+[emmc_startup] mmc->temp_wp = 0x0 
+[emmc_change_freq]BOOT SIZE: ext_csd[226]=0x8 
+[emmc_change_freq]BOOT CFG: ext_csd[179]=0x48 
+[emmc_change_freq]csd_struct: ext_csd[192]=0x5 
+[emmc_change_freq] erase_grp_size = 0x100000 !
+[emmc_change_freq] ext_csd[196]=0x7 
+[emmc_change_freq] ext_csd[185]=0x1 
+emmc getblock size
+u-boot adaptive mtd mechanism applied.
+[_i_find_part_tbl] begin to read!!
+[_i_find_part_tbl]Part tbl info passed from preloader
+[_i_find_part_tbl] version is 1!
+[emmc_startup] done. 
+[print_emmcinfo] Device: EMMC_MSDC
+[print_emmcinfo] Manufacturer ID: 0xfe
+[print_emmcinfo] CARD/BGA ID: 0x1
+[print_emmcinfo] OEM: 0x14e
+[print_emmcinfo] Name: MMC02 
+[print_emmcinfo] product SN: 0x65fd339c
+[print_emmcinfo] Tran Speed: 25000000
+[print_emmcinfo] Rd Block Len: 512
+[print_emmcinfo] MMC version 4.0
+[print_emmcinfo] High Capacity: No
+[print_emmcinfo] Capacity: 1832 MBytes
+[print_emmcinfo] Bus Width: 4-bit
+------------------------------------------------------------
+[emmc_initialize] Init Done!
+------------------------------------------------------------
+[start_armboot] eMMC card initialize success !!! 
+[_i_get_upg_status_in_nand]upg status passed from preloader
+Using default environment
+
+In:    serial
+Out:   serial
+Err:   serial
+r_args_to_uboot:
+        head sig        : 0xa0b0ead1
+        version : 1
+        boot type       : 0
+        dram ch1        : 0x20000000
+        dram ch2        : 0x20000000
+        kern addr       : 0x2e700800
+        initrd addr     : 0x2e98b000
+        initrd size     : 0x00288a26
+enable bim two way write.
+boot type:[0]
+Bootloader version 7433
+[EMMC][mtk_emmc_read] start=0x4800000, len=0xac, buf=0x1f021f0
+MMC:   [msdc_initialize] 8580 At 0x70009000 config 1 pwr 1
+MTK_MSDC: 0
+
+Hit any key to stop autoboot:  0 
+
+Starting kernel ...
+
+02.034 Uncompressing Linux...
+02.247  done, booting the kernel.

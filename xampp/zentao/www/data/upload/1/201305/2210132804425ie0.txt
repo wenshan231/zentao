@@ -1,0 +1,299 @@
+09:53:19.406758 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.406794 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.406825 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.406869 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.406902 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.454692 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.454766 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.454803 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.454838 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.454873 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.454917 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.490665 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.490734 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.490770 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.490802 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.490834 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.490866 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.526827 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.526910 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.526947 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.526983 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.527030 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.527064 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.562918 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.563003 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.563043 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.563089 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.563125 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.563159 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.566767 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.566842 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.566878 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.566912 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.566946 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.566979 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.606705 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.606788 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.606830 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.606864 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.606897 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.606930 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.610699 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.610757 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.610792 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.610822 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.610854 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.610890 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.650730 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.650806 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.650844 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.650877 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.650910 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.650943 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.686699 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.686780 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.686819 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.686851 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.686884 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.686917 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.722716 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.722801 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.722838 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.722872 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.722908 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.722940 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.726700 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.726758 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.726793 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.726826 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.726859 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.726891 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.766677 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.766752 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.766790 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.766826 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.766860 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.766891 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.770684 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.770744 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.770779 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.770812 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.770844 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.770875 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.810712 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.810783 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.810821 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.810856 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.810886 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.810919 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.882859 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.882929 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.882968 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.883004 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.883035 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.883067 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.918676 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.918744 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.918781 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.918815 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.918850 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.918882 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.922708 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.922767 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.922801 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.922833 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.922866 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.922897 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.926654 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.926715 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.926750 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.926782 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.926816 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.926847 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.930659 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.930824 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.930860 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.930892 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.930924 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.930957 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.934674 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.934734 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.934771 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.934806 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.934855 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.934888 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.938732 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.938790 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.938826 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.938858 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.938889 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.938920 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.966657 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.966726 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.966760 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.966793 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.966824 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.966855 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.970696 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.970759 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.970793 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.970826 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.970856 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.970887 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.974652 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.974708 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.974741 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.974771 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.974802 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:19.974834 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:20.050680 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:20.050761 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:20.050799 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:20.050835 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:20.050869 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+09:53:20.050901 IP 192.168.2.2.59877 > 192.168.2.11.1234: UDP, length 1316
+^C
+C:\Documents and Settings\907175>adb shell
+root@android:/ # logcat -s MonitorCw880 &
+logcat -s MonitorCw880 &
+[1] 9167
+root@android:/ # --------- beginning of /dev/log/system
+--------- beginning of /dev/log/main
+D/MonitorCw880( 9126): MonitorCw880 OnCreat
+I/MonitorCw880( 9126): SystemPropertiesClass:class android.os.SystemProperties
+W/MonitorCw880( 9126): ~~~~~~~~~~~~~~~~~~~~~~method:public static java.lang.Stri
+ng android.os.SystemProperties.get(java.lang.String,java.lang.String)
+W/MonitorCw880( 9126): getProperties sys.cw880.ready return value:true
+D/MonitorCw880( 9126): CW880Boot() -> cw880Ready=true
+I/MonitorCw880( 9126): easybusAttach success !
+I/MonitorCw880( 9126): easyscreen -> easybusInterest success !
+D/MonitorCw880( 9126): MonitorCw880 OnStart
+I/MonitorCw880( 9126): easyheartbeat -> easybusInterest success !
+I/MonitorCw880( 9126): SystemPropertiesClass:class android.os.SystemProperties
+W/MonitorCw880( 9126): ~~~~~~~~~~~~~~~~~~~~~~method:public static java.lang.Stri
+ng android.os.SystemProperties.get(java.lang.String,java.lang.String)
+W/MonitorCw880( 9126): getProperties persist.sys.resolution return value:2
+D/MonitorCw880( 9126): getProperties -> persist.sys.resolution=2
+I/MonitorCw880( 9126): ====mDisplaymode = 1
+D/MonitorCw880( 9126): handleHandshake() -> recevice action=handshake
+I/MonitorCw880( 9126): SystemPropertiesClass:class android.os.SystemProperties
+W/MonitorCw880( 9126): ~~~~~~~~~~~~~~~~~~~~~~method:public static java.lang.Stri
+ng android.os.SystemProperties.get(java.lang.String,java.lang.String)
+W/MonitorCw880( 9126): getProperties sys.cw880.ready return value:true
+D/MonitorCw880( 9126): handleHandshake() -> Cw880BootState is cw880_reboot_compl
+eted
+D/MonitorCw880( 9126): cw880 is streaming And cw880 is startuped -> StopCw880()
+return=7
+W/MonitorCw880( 9126): setCw880CommunicateType()=1, return=6
+W/MonitorCw880( 9126): StartCw880() -> result=6
+D/MonitorCw880( 9126): handleHandshake() -> easybusMsgOld is empty,new object.
+D/MonitorCw880( 9126): =========will to handle request=handshake
+D/MonitorCw880( 9126): return action=handshake result= success
+D/MonitorCw880( 9126):  send result -> 192.168.2.5:43934 msgType= easyscreen, ms
+gData=action=handshake&result=success&playurl=mmkhttp://192.168.2.2:1234&video=n
+ull&audio=null&protocol=http&transfermode=unicast&streamformat=ts&resolution=720
+p&videobitrate=1536&version=1
+I/MonitorCw880( 9126): SystemPropertiesClass:class android.os.SystemProperties
+W/MonitorCw880( 9126): ~~~~~~~~~~~~~~~~~~~~~~method:public static java.lang.Stri
+ng android.os.SystemProperties.get(java.lang.String,java.lang.String)
+W/MonitorCw880( 9126): getProperties persist.sys.resolution return value:2
+D/MonitorCw880( 9126): getProperties -> persist.sys.resolution=2
+I/MonitorCw880( 9126): ====mDisplaymode = 1
+D/MonitorCw880( 9126): handleStart() -> recevice action=start
+I/MonitorCw880( 9126): SystemPropertiesClass:class android.os.SystemProperties
+W/MonitorCw880( 9126): ~~~~~~~~~~~~~~~~~~~~~~method:public static java.lang.Stri
+ng android.os.SystemProperties.get(java.lang.String,java.lang.String)
+W/MonitorCw880( 9126): getProperties sys.cw880.ready return value:true
+D/MonitorCw880( 9126): =========will to handle request=start
+D/MonitorCw880( 9126): return action=start result= success
+D/MonitorCw880( 9126):  send result -> 192.168.2.5:43934 msgType= easyscreen, ms
+gData=action=start&result=success
+D/MonitorCw880( 9126): counter=4 && isHeartbeatTimeout=false
+D/MonitorCw880( 9126): counter=6 && isHeartbeatTimeout=false
+D/MonitorCw880( 9126): counter=8 && isHeartbeatTimeout=false
+D/MonitorCw880( 9126): counter=10 && isHeartbeatTimeout=false
+D/MonitorCw880( 9126): counter=12 && isHeartbeatTimeout=false
+D/MonitorCw880( 9126): counter=4 && isHeartbeatTimeout=false
+I/MonitorCw880( 9126): SystemPropertiesClass:class android.os.SystemProperties
+W/MonitorCw880( 9126): ~~~~~~~~~~~~~~~~~~~~~~method:public static java.lang.Stri
+ng android.os.SystemProperties.get(java.lang.String,java.lang.String)
+W/MonitorCw880( 9126): getProperties persist.sys.resolution return value:2
+D/MonitorCw880( 9126): getProperties -> persist.sys.resolution=2
+I/MonitorCw880( 9126): ====mDisplaymode = 1
+D/MonitorCw880( 9126): handleStop() -> recevice action=stop
+W/MonitorCw880( 9126): action=Stop result=7,currentRemoteHost=null mip=192.168.2
+.5
+D/MonitorCw880( 9126): =========will to handle request=stop
+D/MonitorCw880( 9126): return action=stop result= success
+D/MonitorCw880( 9126):  send result -> 192.168.2.5:43934 msgType= easyscreen, ms
+gData=action=stop&result=success
+
+
+root@android:/ #
+
+root@android:/ #
+
+root@android:/ # logcat -s MonitorCw880 &
+logcat -s MonitorCw880 &
+[2] 9222
+root@android:/ # --------- beginning of /dev/log/system
+--------- beginning of /dev/log/main
+I/MonitorCw880( 9126): SystemPropertiesClass:class android.os.SystemProperties
+W/MonitorCw880( 9126): ~~~~~~~~~~~~~~~~~~~~~~method:public static java.lang.Stri
+ng android.os.SystemProperties.get(java.lang.String,java.lang.String)
+W/MonitorCw880( 9126): getProperties persist.sys.resolution return value:2
+D/MonitorCw880( 9126): getProperties -> persist.sys.resolution=2
+I/MonitorCw880( 9126): ====mDisplaymode = 1
+D/MonitorCw880( 9126): handleHandshake() -> recevice action=handshake
+I/MonitorCw880( 9126): SystemPropertiesClass:class android.os.SystemProperties
+W/MonitorCw880( 9126): ~~~~~~~~~~~~~~~~~~~~~~method:public static java.lang.Stri
+ng android.os.SystemProperties.get(java.lang.String,java.lang.String)
+W/MonitorCw880( 9126): getProperties sys.cw880.ready return value:true
+D/MonitorCw880( 9126): handleHandshake() -> Cw880BootState is cw880_reboot_compl
+eted
+D/MonitorCw880( 9126): cw880 is streaming And cw880 is startuped -> StopCw880()
+return=7
+W/MonitorCw880( 9126): setCw880CommunicateType()=1, return=6
+W/MonitorCw880( 9126): StartCw880() -> result=6
+D/MonitorCw880( 9126): handleHandshake() -> easybusMsgOld is empty,new object.
+D/MonitorCw880( 9126): =========will to handle request=handshake
+D/MonitorCw880( 9126): return action=handshake result= success
+D/MonitorCw880( 9126):  send result -> 192.168.2.5:43934 msgType= easyscreen, ms
+gData=action=handshake&result=success&playurl=mmkhttp://192.168.2.2:1234&video=n
+ull&audio=null&protocol=http&transfermode=unicast&streamformat=ts&resolution=720
+p&videobitrate=1536&version=1
+I/MonitorCw880( 9126): SystemPropertiesClass:class android.os.SystemProperties
+W/MonitorCw880( 9126): ~~~~~~~~~~~~~~~~~~~~~~method:public static java.lang.Stri
+ng android.os.SystemProperties.get(java.lang.String,java.lang.String)
+W/MonitorCw880( 9126): getProperties persist.sys.resolution return value:2
+D/MonitorCw880( 9126): getProperties -> persist.sys.resolution=2
+I/MonitorCw880( 9126): ====mDisplaymode = 1
+D/MonitorCw880( 9126): handleStart() -> recevice action=start
+I/MonitorCw880( 9126): SystemPropertiesClass:class android.os.SystemProperties
+W/MonitorCw880( 9126): ~~~~~~~~~~~~~~~~~~~~~~method:public static java.lang.Stri
+ng android.os.SystemProperties.get(java.lang.String,java.lang.String)
+W/MonitorCw880( 9126): getProperties sys.cw880.ready return value:true
+D/MonitorCw880( 9126): =========will to handle request=start
+D/MonitorCw880( 9126): return action=start result= success
+D/MonitorCw880( 9126):  send result -> 192.168.2.5:43934 msgType= easyscreen, ms
+gData=action=start&result=success
+D/MonitorCw880( 9126): counter=4 && isHeartbeatTimeout=false
+D/MonitorCw880( 9126): counter=6 && isHeartbeatTimeout=false
+D/MonitorCw880( 9126): counter=8 && isHeartbeatTimeout=false
+D/MonitorCw880( 9126): counter=10 && isHeartbeatTimeout=false
+D/MonitorCw880( 9126): counter=12 && isHeartbeatTimeout=false
+D/MonitorCw880( 9126): counter=4 && isHeartbeatTimeout=false
+I/MonitorCw880( 9126): SystemPropertiesClass:class android.os.SystemProperties
+W/MonitorCw880( 9126): ~~~~~~~~~~~~~~~~~~~~~~method:public static java.lang.Stri
+ng android.os.SystemProperties.get(java.lang.String,java.lang.String)
+W/MonitorCw880( 9126): getProperties persist.sys.resolution return value:2
+D/MonitorCw880( 9126): getProperties -> persist.sys.resolution=2
+I/MonitorCw880( 9126): ====mDisplaymode = 1
+D/MonitorCw880( 9126): handleStop() -> recevice action=stop
+W/MonitorCw880( 9126): action=Stop result=7,currentRemoteHost=null mip=192.168.2
+.5
+D/MonitorCw880( 9126): =========will to handle request=stop
+D/MonitorCw880( 9126): return action=stop result= success
+D/MonitorCw880( 9126):  send result -> 192.168.2.5:43934 msgType= easyscreen, ms
+gData=action=stop&result=success

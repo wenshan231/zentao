@@ -1,0 +1,230 @@
+<?php
+
+$aa = array();
+
+$bb = 'abc';
+$cc = 'dd';
+
+echo $aa[$bb][$cc]['1233'];
+
+
+
+?>
+
+
+<div id="wrap">
+  <div class="outer" style="min-height: 684px;">
+<form method="post" target="hiddenwin">
+<table class="table-1">
+  <caption class="caption-tl">添加新用例</caption>
+  <tbody><tr class="colhead">
+    <th>用例标题</th>
+    <th>所属模块</th>
+    <th>相关需求</th>
+    <th>优先级</th>
+    <th>用例类型</th>
+    <th>用例状态</th>
+    <th>执行频率</th>
+    <th>适用阶段</th>
+    <th>前置条件</th>
+    <th>用例步骤      <table class="table-1">
+        <tbody><tr>
+          <th>步骤</th>
+          <th>预期</th>
+        </tr>
+      </tbody></table>
+    </th>
+  </tr>
+    <tr valign="top" align="center">
+    <td><input type="text" style="margin-top:2px" class="text-1" value="case2013090411" id="title[2]" name="title[2]">
+</td>
+    <td><select class="select-2" id="module2" name="module[2]">
+<option value="0">/</option>
+<option value="721">/一级菜单</option>
+<option value="724">/一级菜单/院务管理</option>
+<option value="737">/一级菜单/院务管理/办卡</option>
+<option value="740">/一级菜单/院务管理/办卡/办会员卡</option>
+<option value="741">/一级菜单/院务管理/办卡/办次卡</option>
+<option value="742">/一级菜单/院务管理/办卡/特殊问题</option>
+<option value="738">/一级菜单/院务管理/交住院押金</option>
+<option value="739">/一级菜单/院务管理/下定金</option>
+<option value="725">/一级菜单/卡管理</option>
+<option value="726">/一级菜单/基本资料</option>
+<option value="727">/一级菜单/特殊问题</option>
+<option value="728">/一级菜单/营业报表</option>
+<option value="729">/一级菜单/系统设置</option>
+<option value="722">/二级菜单</option>
+<option value="730">/二级菜单/电网咨询</option>
+<option value="731">/二级菜单/前台接待</option>
+<option value="732">/二级菜单/现场咨询</option>
+<option value="733">/二级菜单/收费管理</option>
+<option value="734">/二级菜单/操作科室</option>
+<option value="735">/二级菜单/药房管理</option>
+<option value="736">/二级菜单/高级设置</option>
+<option value="723">/三级菜单</option>
+</select>
+<input type="hidden" value="170" id="product[2]" name="product[2]">
+</td>
+    <td></td>
+    <td><select id="pri2" name="pri[2]">
+<option value="3">3</option>
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="4">4</option>
+</select>
+</td>
+    <td><select id="type2" name="type[2]">
+<option value=""></option>
+<option selected="selected" value="feature">功能测试</option>
+<option value="performance">性能测试</option>
+<option value="config">配置相关</option>
+<option value="install">安装部署</option>
+<option value="security">安全相关</option>
+<option value="interface">接口测试</option>
+<option value="other">其他</option>
+</select>
+</td>
+    <td><select id="status2" name="status[2]">
+<option value=""></option>
+<option selected="selected" value="normal">正常</option>
+<option value="blocked">被阻塞</option>
+<option value="investigate">研究中</option>
+</select>
+</td>
+    <td><input type="text" size="2" value="1" id="frequency[2]" name="frequency[2]">
+</td>
+    <td><select multiple="multiple" id="stage2" name="stage[2][]">
+<option selected="selected" value=""></option>
+<option value="unittest">单元测试阶段</option>
+<option value="feature">功能测试阶段</option>
+<option value="intergrate">集成测试阶段</option>
+<option value="system">系统测试阶段</option>
+<option value="smoke">冒烟测试阶段</option>
+<option value="bvt">版本验证阶段</option>
+</select>
+</td>
+    <td><textarea style="margin-top:2px; height:69px" id="precondition[2]" name="precondition[2]"></textarea>
+</td>
+    <td>
+            <table class="table-1">
+              <tbody><tr>
+          <td><textarea id="desc[2][1]" name="desc[2][1]">aaa</textarea>
+</td>
+          <td><textarea id="expect[2][1]" name="expect[2][1]">111</textarea>
+</td>
+        </tr>
+              <tr>
+          <td><textarea id="desc[2][2]" name="desc[2][2]">bbb</textarea>
+</td>
+          <td><textarea id="expect[2][2]" name="expect[2][2]">222</textarea>
+</td>
+        </tr>
+              <tr>
+          <td><textarea id="desc[2][3]" name="desc[2][3]">ccc</textarea>
+</td>
+          <td><textarea id="expect[2][3]" name="expect[2][3]">333</textarea>
+</td>
+        </tr>
+            </tbody></table>
+          </td>
+  </tr>
+    <tr valign="top" align="center">
+    <td><input type="text" style="margin-top:2px" class="text-1" value="case2013090412" id="title[3]" name="title[3]">
+</td>
+    <td><select class="select-2" id="module3" name="module[3]">
+<option value="0">/</option>
+<option value="721">/一级菜单</option>
+<option value="724">/一级菜单/院务管理</option>
+<option value="737">/一级菜单/院务管理/办卡</option>
+<option value="740">/一级菜单/院务管理/办卡/办会员卡</option>
+<option value="741">/一级菜单/院务管理/办卡/办次卡</option>
+<option value="742">/一级菜单/院务管理/办卡/特殊问题</option>
+<option value="738">/一级菜单/院务管理/交住院押金</option>
+<option value="739">/一级菜单/院务管理/下定金</option>
+<option value="725">/一级菜单/卡管理</option>
+<option value="726">/一级菜单/基本资料</option>
+<option value="727">/一级菜单/特殊问题</option>
+<option value="728">/一级菜单/营业报表</option>
+<option value="729">/一级菜单/系统设置</option>
+<option value="722">/二级菜单</option>
+<option value="730">/二级菜单/电网咨询</option>
+<option value="731">/二级菜单/前台接待</option>
+<option value="732">/二级菜单/现场咨询</option>
+<option value="733">/二级菜单/收费管理</option>
+<option value="734">/二级菜单/操作科室</option>
+<option value="735">/二级菜单/药房管理</option>
+<option value="736">/二级菜单/高级设置</option>
+<option value="723">/三级菜单</option>
+</select>
+<input type="hidden" value="170" id="product[3]" name="product[3]">
+</td>
+    <td></td>
+    <td><select id="pri3" name="pri[3]">
+<option value="3">3</option>
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="4">4</option>
+</select>
+</td>
+    <td><select id="type3" name="type[3]">
+<option value=""></option>
+<option selected="selected" value="feature">功能测试</option>
+<option value="performance">性能测试</option>
+<option value="config">配置相关</option>
+<option value="install">安装部署</option>
+<option value="security">安全相关</option>
+<option value="interface">接口测试</option>
+<option value="other">其他</option>
+</select>
+</td>
+    <td><select id="status3" name="status[3]">
+<option value=""></option>
+<option selected="selected" value="normal">正常</option>
+<option value="blocked">被阻塞</option>
+<option value="investigate">研究中</option>
+</select>
+</td>
+    <td><input type="text" size="2" value="1" id="frequency[3]" name="frequency[3]">
+</td>
+    <td><select multiple="multiple" id="stage3" name="stage[3][]">
+<option selected="selected" value=""></option>
+<option value="unittest">单元测试阶段</option>
+<option value="feature">功能测试阶段</option>
+<option value="intergrate">集成测试阶段</option>
+<option value="system">系统测试阶段</option>
+<option value="smoke">冒烟测试阶段</option>
+<option value="bvt">版本验证阶段</option>
+</select>
+</td>
+    <td><textarea style="margin-top:2px; height:69px" id="precondition[3]" name="precondition[3]"></textarea>
+</td>
+    <td>
+            <table class="table-1">
+              <tbody><tr>
+          <td><textarea id="desc[3][1]" name="desc[3][1]">ooo</textarea>
+</td>
+          <td><textarea id="expect[3][1]" name="expect[3][1]">999</textarea>
+</td>
+        </tr>
+              <tr>
+          <td><textarea id="desc[3][2]" name="desc[3][2]">ppp</textarea>
+</td>
+          <td><textarea id="expect[3][2]" name="expect[3][2]">888</textarea>
+</td>
+        </tr>
+              <tr>
+          <td><textarea id="desc[3][3]" name="desc[3][3]">iii</textarea>
+</td>
+          <td><textarea id="expect[3][3]" name="expect[3][3]">777</textarea>
+</td>
+        </tr>
+            </tbody></table>
+          </td>
+  </tr>
+  </tbody></table>
+<p> <input type="submit" class="button-s" value="保存" id="submit"> <input type="button" class="button-b" value="返回" onclick="javascript:history.go(-1);"></p>
+</form>
+  </div>
+    <iframe scrolling="no" frameborder="0" class="hidden" id="hiddenwin" name="hiddenwin" src="/misc-ping.html"></iframe>
+  <div id="divider"></div>
+</div>

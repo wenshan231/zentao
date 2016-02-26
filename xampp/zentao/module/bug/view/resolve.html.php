@@ -1,0 +1,78 @@
+<?php
+/**
+ * The resolve file of bug module of ZenTaoPMS.
+ *
+ * @copyright   Copyright 2009-2013 青岛易软天创网络科技有限公司 (QingDao Nature Easy Soft Network Technology Co,LTD www.cnezsoft.com)
+ * @license     LGPL (http://www.gnu.org/licenses/lgpl.html)
+ * @author      Chunsheng Wang <chunsheng@cnezsoft.com>
+ * @package     bug
+ * @version     $Id: resolve.html.php 4129 2013-01-18 01:58:14Z wwccss $
+ * @link        http://www.zentao.net
+ */
+?>
+<?php 
+ include '../../common/view/header.html.php';
+ /**
+  * coship start
+  * 2014-02-17 add by shukaiming
+  */
+ include '../../common/view/autocomplete.html.php';
+ js::set('holders', $lang->bug->placeholder);
+ js::set('page', 'assignedto');
+ /* coship end */
+ ?>
+<form method='post' target='hiddenwin'>
+  <table class='table-1'>
+    <caption><?php echo $bug->title;?></caption>
+    <tr>
+      <td class='rowhead'><?php echo $lang->bug->resolution;?></td>
+      <td><?php unset($lang->bug->resolutionList['tostory']); echo html::select('resolution', $lang->bug->resolutionList, '', 'class=select-3 onchange=setDuplicate(this.value)');?></td>
+    </tr>
+    <tr id='duplicateBugBox' style='display:none'>
+      <td class='rowhead'><?php echo $lang->bug->duplicateBug;?></td>
+      <td><?php echo html::input('duplicateBug', '', 'class=text-3');?></td>
+    </tr>
+    <tr>
+      <td class='rowhead'><?php echo $lang->bug->resolvedBuild;?></td>
+        <?php 
+         /**
+		  *coship start
+		  *2014-01-22 add by shukaiming 
+		  */
+      	 $user = $this->app->user->account;
+	      $userGroupID = $this->loadModel('user')->getGroups($user);
+	      $userGroupID = array_values($userGroupID);//处理获得的用户权限组ID
+	      $userGroupStatusID = $userGroupID[0];
+	      $boolResult = ($userGroupStatusID == '200003')&&$boolTag;
+		  /* coship end */
+       ?>
+      <td><?php
+      if($boolResult){
+      	echo html::select('resolvedBuild', $builds=array('trunk'=>'Trunk'), '', 'class=select-3');
+      }else{
+      	echo html::select('resolvedBuild', $builds, '', 'class=select-3');
+      }?></td>
+    </tr>
+    <tr>
+      <td class='rowhead'><?php echo $lang->bug->resolvedDate;?></td>
+      <td><?php echo html::input('resolvedDate', helper::now(), "class='select-3'");?></td>
+    </tr>
+    <tr>
+      <td class='rowhead'><?php echo $lang->bug->assignedTo;?></td>
+      <td><?php echo html::select('assignedTo', $users, $bug->openedBy, 'class=select-3');?></td>
+    </tr>
+    <tr>
+      <td class='rowhead'><?php echo $lang->comment;?></td>
+      <td><?php echo html::textarea('comment', '', "rows='6' class='area-1'");?></td>
+    </tr>
+    <tr>
+      <td colspan='2' class='a-center'>
+        <?php echo html::submitButton();?>
+        <input type='button' value='<?php echo $lang->bug->buttonToList;?>' class='button-s' 
+         onclick='location.href="<?php echo $this->session->bugList;?>"' />
+      </td>
+    </tr>
+  </table>
+  <?php include '../../common/view/action.html.php';?>
+</form>
+<?php include '../../common/view/footer.html.php';?>

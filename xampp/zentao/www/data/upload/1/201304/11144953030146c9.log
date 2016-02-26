@@ -1,0 +1,2876 @@
+[64211.100625] c4
+I//lib/ld-linux.so.3(  748): FrmCnt:11930(31,520,16) Rate:0 Sys:64212235 STC:2415423 VPTS:1112640 APTS:1112832 Delay:-1302743(40) V:0 A:0 VES:0x2f20 AES:0x0 PCM:0x0 AudioErr:0x2
+[64213.170838] Drop 45600.
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744): ================================
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744): Warnig: Reconnect again! mCurDowningIndex:237 
+D/DataSource_M3U8(  744):  Reconnect Url : http://cibn-iss1.longvisionmedia.com:8088/vod/CIBN2013_CIBN2113040100001913_12001300/238.ts 
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744): ================================
+D/Downloader(  744): [downloadThread]Downloader::removeTask  
+I//lib/ld-linux.so.3(  748): FrmCnt:11930(31,520,16) Rate:0 Sys:64213751 STC:2416939 VPTS:1112640 APTS:1112832 Delay:-1304259(40) V:0 A:0 VES:0x2f20 AES:0x0 PCM:0x0 AudioErr:0x2
+[64214.216605] c4
+I//lib/ld-linux.so.3(  748): FrmCnt:11930(31,520,16) Rate:0 Sys:64215267 STC:2418456 VPTS:1112640 APTS:1112832 Delay:-1305776(40) V:0 A:0 VES:0x2f20 AES:0x0 PCM:0x0 AudioErr:0x2
+[64215.666822] Drop 45700.
+D/DataSource_M3U8(  744): ----------UpdatePlaylistThread runing... 
+I//lib/ld-linux.so.3(  748): FrmCnt:11930(31,520,16) Rate:0 Sys:64216784 STC:2419972 VPTS:1112640 APTS:1112832 Delay:-1307292(40) V:0 A:0 VES:0x2f20 AES:0x0 PCM:0x0 AudioErr:0x2
+D/Easybus (  753): [easy_ctrl_udp_receive_thread.89] recvfrom n=69
+D/Easybus (  753): [easy_ctrl_udp_receive_thread.98] recvAddr:192.168.43.186:38683
+D/Easybus (  753): [easy_ctrl_decompose_frame.38] msgLen: 69 
+D/Easybus (  753): the receive frame: 
+D/Easybus (  753): 45 43 45 42 01 01 01 01 00 00 
+D/Easybus (  753): 00 00 00 00 00 00 00 00 00 00 
+D/Easybus (  753): 00 00 00 00 00 00 11 5e 65 61 
+D/Easybus (  753): 73 79 68 65 61 72 74 62 65 61 
+D/Easybus (  753): 74 00 00 00 00 00 00 0d 65 61 
+D/Easybus (  753): 73 79 68 65 61 72 74 62 65 61 
+D/Easybus (  753): 74 
+D/Easybus (  753): 48 
+D/Easybus (  753): bf 
+D/Easybus (  753): 1e 
+D/Easybus (  753): d5 
+D/Easybus (  753): 01 
+D/Easybus (  753): a0 
+D/Easybus (  753): 12 
+D/Easybus (  753): f8 
+D/Easybus (  753): 
+D/Easybus (  753): [easy_ctrl_decompose_frame.74] crcFlag=1
+D/Easybus (  753): [easy_ctrl_decompose_frame.82] encryptFlag=1
+D/Easybus (  753): [easy_ctrl_decompose_frame.96] msgNum=4446
+D/Easybus (  753): [easy_ctrl_decompose_frame.101] msgType=easyheartbeat
+D/Easybus (  753): [easy_ctrl_decompose_frame.107] data.msgDataSize=13
+D/Easybus (  753): [easy_crc32.77] size=61
+D/Easybus (  753): [easy_ctrl_decompose_frame.121] crcRecv:0x48bf1ed5, crcGen:0x48bf1ed5 
+D/Easybus (  753): [easy_ctrl_decompose_frame.143] encryptRecv:0x1a012f8, encryptGen:0x1a012f8 
+D/Easybus (  753): [easy_ctrl_decompose_frame.158] msgData=easyheartbeat
+D/Easybus (  753): [easy_ctrl_msg_dispatch.87] start
+D/Easybus (  753): [easy_ctrl_vinput_msg_cb.399] start
+D/Easybus (  753): [easy_ctrl_vinput_msg_cb.413] data->msgType:easyheartbeat
+D/Easybus (  753): [easy_ctrl_vinput_msg_cb.463] end
+D/Easybus (  753): [easy_ctrl_all_msg_cb.59] start
+D/Easybus (  753): easy_msg buf = addr.ip=192.168.43.186,addr.port=38683,msgType=easyheartb[64217.096569] c4
+eat,msgData=easyheartbeat
+D/Easybus (  753): [easy_ctrl_iface_send.445] priv->sock = 9
+D/Easybus (  753): [easy_ctrl_iface_send.449] msgtype=easyheartbeat bufLen=82, buf=addr.ip=192.168.43.186,addr.port=38683,msgType=easyheartbeat,msgData=easyheartbeat
+D/Easybus (  753): [easy_ctrl_iface_send.457] dst->addr: 127.0.0.1:56078
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[0]: easyscreen
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[1]: easyheartbeat
+D/Easybus (  753): [easy_ctrl_iface_send.464] sendto: 127.0.0.1:56078
+D/Easybus (  753): [easy_ctrl_iface_send.477] sendto success !, res=82
+D/Easybus (  753): [easy_ctrl_iface_send.457] dst->addr: 127.0.0.1:37286
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[0]: easyime
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[1]: easyheartbeat
+D/Easybus (  753): [easy_ctrl_iface_send.464] sendto: 127.0.0.1:37286
+D/Easybus (  753): [easy_ctrl_iface_send.477] sendto success !, res=82
+D/Easybus (  753): [easy_ctrl_iface_send.457] dst->addr: 127.0.0.1:34633
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[0]: easyime
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[1]: easyheartbeat
+D/Easybus (10351): [easybus_receive.208] res: 0, nread: 82
+D/Easybus (  753): [easy_ctrl_iface_send.464] sendto: 127.0.0.1:34633
+D/Easybus (10351): [easybus_receive.223] receive buf: addr.ip=192.168.43.186,addr.port=38683,msgType=easyheartbeat,msgData=easyheartbeat
+D/Easybus (10351): ip = 192.168.43.186
+D/Easybus (10351): str2 - str1 = 5
+D/Easybus (10351): port_str = 38683
+D/Easybus (10351): port = 38683
+D/Easybus (10351): str2 - str1 = 13
+D/Easybus (10351): msgType = easyheartbeat
+D/Easybus (10351): msgDataSize = 13
+D/Easybus (10351): msgData = easyheartbeat
+D/Easybus (10351): [easybus_receive.265] addr:192.168.43.186:38683, msgType=easyheartbeat, msgData=easyheartbeat
+D/Easybus (10351): [easybus_receive.275] end ret=0
+D/Easybus (  753): [easy_ctrl_iface_send.477] sendto success !, res=82
+D/Easybus (10351): [easybus/easybus/easybus_jni.c.easybusReceive.52] receive ret = 0
+D/Easybus (  753): [easy_ctrl_iface_send.457] dst->addr: 127.0.0.1:39462
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[0]: easyime
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[1]: easyheartbeat
+D/Easybus (  753): [easy_ctrl_iface_send.464] sendto: 127.0.0.1:39462
+D/Easybus (  753): [easy_ctrl_iface_send.477] sendto success !, res=82
+D/Easybus (  753): [easy_ctrl_iface_send.457] dst->addr: 127.0.0.1:45302
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[0]: easyscreen
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[1]: easyheartbeat
+D/Easybus (  753): [easy_ctrl_iface_send.464] sendto: 127.0.0.1:45302
+D/Easybus (  753): [easy_ctrl_iface_send.477] sendto success !, res=82
+D/Easybus (  753): [easy_ctrl_iface_send.457] dst->addr: 127.0.0.1:43718
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[0]: easyime
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[1]: easyheartbeat
+D/Easybus (  753): [easy_ctrl_iface_send.464] sendto: 127.0.0.1:43718
+D/Easybus (  753): [easy_ctrl_iface_send.477] sendto success !, res=82
+D/Easybus (  753): [easy_ctrl_iface_send.457] dst->addr: 127.0.0.1:49827
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[0]: easyscreen
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[1]: easyheartbeat
+D/Easybus (  753): [easy_ctrl_iface_send.464] sendto: 127.0.0.1:49827
+D/Easybus (  753): [easy_ctrl_iface_send.477] sendto success !, res=82
+D/Easybus (  753): [easy_ctrl_iface_send.457] dst->addr: 127.0.0.1:35356
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[0]: easyscreen
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[1]: easyheartbeat
+D/Easybus (  753): [easy_ctrl_iface_send.464] sendto: 127.0.0.1:35356
+D/Easybus (  753): [easy_ctrl_iface_send.477] sendto success !, res=82
+D/Easybus (  753): [easy_ctrl_iface_send.457] dst->addr: 127.0.0.1:48541
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[0]: easyime
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[1]: easyheartbeat
+D/Easybus (  753): [easy_ctrl_iface_send.464] sendto: 127.0.0.1:48541
+D/Easybus (  753): [easy_ctrl_iface_send.477] sendto success !, res=82
+D/Easybus (  753): [easy_ctrl_iface_send.457] dst->addr: 127.0.0.1:40945
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[0]: easyscreen
+D/Easybus (10369): [easybus_receive.208] res: 0, nread: 82
+D/Easybus (10369): [easybus_receive.223] receive buf: addr.ip=192.168.43.186,addr.port=38683,msgType=easyheartbeat,msgData=easyheartbeat
+D/Easybus (10369): ip = 192.168.43.186
+D/Easybus (10369): str2 - str1 = 5
+D/Easybus (10369): port_str = 38683
+D/Easybus (10369): port = 38683
+D/Easybus (10369): str2 - str1 = 13
+D/Easybus (10369): msgType = easyheartbeat
+D/Easybus (10369): msgDataSize = 13
+D/Easybus (10369): msgData = easyheartbeat
+D/Easybus (10369): [easybus_receive.265] addr:192.168.43.186:38683, msgType=easyheartbeat, msgData=easyheartbeat
+D/Easybus (10369): [easybus_receive.275] end ret=0
+D/Easybus (10369): [easybus/easybus/easybus_jni.c.easybusReceive.52] receive ret = 0
+D/Easybus (10351): [easybus/easybus/easybus_jni.c.easybusReceive.72] receive success !
+D/Easybus (10351): [easybus/easybus/easybus_jni.c.easybusReceive.73] addr:192.168.43.186:38683, mode:0, msgType:easyheartbeat, msgData:easyheartbeat
+D/Easybus (10351): [easybus/easybus/easybus_jni.c.easybusSend.126] addr:192.168.43.186:38683, mode:0, msgType:easyheartbeat, msgDataSize: 13, msgData:easyheartbeat
+D/Easybus (10351): [easybus_send.295] start
+D/Easybus (10351): [easybus_send.296] monitor_conn=0x1bca40
+D/Easybus (10351): [easybus_send.315] send buf:SEND addr.ip=192.168.43.186,addr.port=38683,msgType=easyheartbeat,msgData=easyheartbeat
+D/Easybus (  753): [easy_ctrl_iface_receive.219] start
+D/Easybus (  753): [easy_ctrl_iface_receive.235] from addr: 127.0.0.1:48108
+D/Easybus (  753): [easy_ctrl_iface_receive.237] receive res:111, buf:COOKIE=340b7d3ef079f24f SEND addr.ip=192.168.43.186,addr.port=38683,msgType=easyheartbeat,msgData=easyheartbeat
+D/Easybus (  753): [easy_ctrl_iface_process.154] buf: SEND addr.ip=192.168.43.186,addr.port=38683,msgType=easyheartbeat,msgData=easyheartbeat
+D/Easybus (  753): ip = 192.168.43.186
+D/Easybus (  753): str2 - str1 = 5
+D/Easybus (  753): port_str = 38683
+D/Easybus (  753): port = 38683
+D/Easybus (  753): str2 - str1 = 13
+D/Easybus (  753): msgType = easyheartbeat
+D/Easybus (  753): msgData = easyheartbeat
+D/Easybus (  753): easy_ctrl_iface_process addr.ip=192.168.43.186,addr.port=38683,msgType=easyheartbeat,msgData=easyheartbeat
+D/Easybus (  753): [easy_ctrl_compose_frame.178] start
+D/Easybus (  753): [easy_ctrl_compose_frame.226] data->msgDataSize:13 
+D/Easybus (  753): [easy_crc32.77] size=61
+D/Easybus (  753): [easy_ctrl_compose_frame.240] crcGen:0x1ea898bc 
+D/Easybus (  753): [easy_ctrl_compose_frame.257] encryptGen:0x9800740 
+D/Easybus (  753): the composed frame: 
+D/Easybus (  753): 45 43 45 42 01 01 01 01 00 00 
+D/Easybus (  753): 00 00 00 00 00 00 00 00 00 00 
+D/Easybus (  753): 00 00 00 00 00 00 00 00 65 61 
+D/Easybus (  753): 73 79 68 65 61 72 74 62 65 61 
+D/Easybus (  753): 74 00 00 00 00 00 00 0d 65 61 
+D/Easybus (  753): 73 79 68 65 61 72 74 62 65 61 
+D/Easybus (  753): 74 
+D/Easybus (  753): 1e 
+D/Easybus (  753): a8 
+D/Easybus (  753): 98 
+D/Easybus (  753): bc 
+D/Easybus (  753): 09 
+D/Easybus (  753): 80 
+D/Easybus (  753): 07 
+D/Easybus (  753): 40 
+D/Easybus (  753): 
+D/Easybus (  753): thr_udp_send start
+D/Easybus (  753): ip:192.168.43.186:38683, cmd_len:69
+D/Easybus (  753): thr_udp_send end
+D/Easybus (  753): [easy_ctrl_iface_process.201] ret: 0
+D/Easybus (  753): [easy_ctrl_iface_receive.316] reply=0x0, reply_len=2
+D/Easybus (  753): [easy_ctrl_iface_receive.334] end
+D/Easybus (10351): [easybus_send.319] res=0, reply=OK
+D/Easybus (10351): 
+D/Easybus (10351): [easybus_send.335] end ret=0
+D/Easybus (10351): [easybus/easybus/easybus_jni.c.easybusSend.131] send ret = 0
+D/Easybus (10351): [easybus_receive.159] start
+D/Easybus (10351): [easybus_receive.160] monitor_conn=0x1cc958
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[1]: easyheartbeat
+D/Easybus (  753): [easy_ctrl_iface_send.464] sendto: 127.0.0.1:40945
+D/Easybus (  753): [easy_ctrl_iface_send.477] sendto success !, res=82
+D/Easybus (  753): [easy_ctrl_all_msg_cb.82] end
+D/Easybus (  753): [easy_ctrl_msg_dispatch.90] end
+D/Easybus (10369): [easybus/easybus/easybus_jni.c.easybusReceive.72] receive success !
+D/Easybus (10369): [easybus/easybus/easybus_jni.c.easybusReceive.73] addr:192.168.43.186:38683, mode:0, msgType:easyheartbeat, msgData:easyheartbeat
+I/MonitorCw880(10369): easybusReceive success !
+D/MonitorCw880(10369):  easybusMsg.remoteIp=  192.168.43.186 easybusMsg.remotePort=  38683 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880(10369): udp -> ip error -> currentRemoteHost=null easybusMsg.remoteIp=192.168.43.186, counter=3
+D/Easybus (10369): [easybus_receive.159] start
+D/Easybus (10369): [easybus_receive.160] monitor_conn=0x1b2378
+D/dalvikvm( 1783): GC_CONCURRENT freed 703K, 63% free 2979K/7939K, paused 2ms+2ms
+D/dalvikvm( 1783): GC_CONCURRENT freed 861K, 64% free 2896K/7939K, paused 2ms+3ms
+D/dalvikvm( 1783): GC_CONCURRENT freed 749K, 64% free 2880K/7939K, paused 2ms+3ms
+[64218.134844] Drop 45800.
+I//lib/ld-linux.so.3(  748): FrmCnt:11930(31,520,16) Rate:0 Sys:64218307 STC:2421495 VPTS:1112640 APTS:1112832 Delay:-1308815(40) V:0 A:0 VES:0x2f20 AES:0x0 PCM:0x0 AudioErr:0x2
+D/HomePlayerLib( 1783): hostaddress count is 2
+D/dalvikvm( 1783): GC_CONCURRENT freed 726K, 64% free 2863K/7939K, paused 3ms+3ms
+D/dalvikvm( 1783): GC_CONCURRENT freed 709K, 64% free 2865K/7939K, paused 2ms+3ms
+[64219.268638] c4
+D/dalvikvm( 1783): GC_CONCURRENT freed 701K, 64% free 2928K/7939K, paused 4ms+2ms
+D/Easybus (  753): [easy_ctrl_udp_receive_thread.89] recvfrom n=69
+D/Easybus (  753): [easy_ctrl_udp_receive_thread.98] recvAddr:192.168.43.186:38683
+D/Easybus (  753): [easy_ctrl_decompose_frame.38] msgLen: 69 
+D/Easybus (  753): the receive frame: 
+D/Easybus (  753): 45 43 45 42 01 01 01 01 00 00 
+D/Easybus (  753): 00 00 00 00 00 00 00 00 00 00 
+D/Easybus (  753): 00 00 00 00 00 00 11 5f 65 61 
+D/Easybus (  753): 73 79 68 65 61 72 74 62 65 61 
+D/Easybus (  753): 74 00 00 00 00 00 00 0d 65 61 
+D/Easybus (  753): 73 79 68 65 61 72 74 62 65 61 
+D/Easybus (  753): 74 
+D/Easybus (  753): d2 
+D/Easybus (  753): 6c 
+D/Easybus (  753): 9d 
+D/Easybus (  753): ba 
+D/Easybus (  753): 09 
+D/Easybus (  753): 40 
+D/Easybus (  753): 34 
+D/Easybus (  753): 60 
+D/Easybus (  753): 
+D/Easybus (  753): [easy_ctrl_decompose_frame.74] crcFlag=1
+D/Easybus (  753): [easy_ctrl_decompose_frame.82] encryptFlag=1
+D/Easybus (  753): [easy_ctrl_decompose_frame.96] msgNum=4447
+D/Easybus (  753): [easy_ctrl_decompose_frame.101] msgType=easyheartbeat
+D/Easybus (  753): [easy_ctrl_decompose_frame.107] data.msgDataSize=13
+D/Easybus (  753): [easy_crc32.77] size=61
+D/Easybus (  753): [easy_ctrl_decompose_frame.121] crcRecv:0xd26c9dba, crcGen:0xd26c9dba 
+D/Easybus (  753): [easy_ctrl_decompose_frame.143] encryptRecv:0x9403460, encryptGen:0x9403460 
+D/Easybus (  753): [easy_ctrl_decompose_frame.158] msgData=easyheartbeat
+D/Easybus (  753): [easy_ctrl_msg_dispatch.87] start
+D/Easybus (  753): [easy_ctrl_vinput_msg_cb.399] start
+D/Easybus (  753): [easy_ctrl_vinput_msg_cb.413] data->msgType:easyheartbeat
+D/Easybus (  753): [easy_ctrl_vinput_msg_cb.463] end
+D/Easybus (  753): [easy_ctrl_all_msg_cb.59] start
+D/Easybus (  753): easy_msg buf = addr.ip=192.168.43.186,addr.port=38683,msgType=easyheartbeat,msgData=easyheartbeat
+D/Easybus (  753): [easy_ctrl_iface_send.445] priv->sock = 9
+D/Easybus (  753): [easy_ctrl_iface_send.449] msgtype=easyheartbeat bufLen=82, buf=addr.ip=192.168.43.186,addr.port=38683,msgType=easyheartbeat,msgData=easyheartbeat
+D/Easybus (  753): [easy_ctrl_iface_send.457] dst->addr: 127.0.0.1:56078
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[0]: easyscreen
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[1]: easyheartbeat
+D/Easybus (  753): [easy_ctrl_iface_send.464] sendto: 127.0.0.1:56078
+D/Easybus (  753): [easy_ctrl_iface_send.477] sendto success !, res=82
+D/Easybus (  753): [easy_ctrl_iface_send.457] dst->addr: 127.0.0.1:37286
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[0]: easyime
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[1]: easyheartbeat
+D/Easybus (  753): [easy_ctrl_iface_send.464] sendto: 127.0.0.1:37286
+D/Easybus (  753): [easy_ctrl_iface_send.477] sendto success !, res=82
+D/Easybus (  753): [easy_ctrl_iface_send.457] dst->addr: 127.0.0.1:34633
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[0]: easyime
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[1]: easyheartbeat
+D/Easybus (  753): [easy_ctrl_iface_send.464] sendto: 127.0.0.1:34633
+D/Easybus (  753): [easy_ctrl_iface_send.477] sendto success !, res=82
+D/Easybus (  753): [easy_ctrl_iface_send.457] dst->addr: 127.0.0.1:39462
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[0]: easyime
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[1]: easyheartbeat
+D/Easybus (  753): [easy_ctrl_iface_send.464] sendto: 127.0.0.1:39462
+D/Easybus (  753): [easy_ctrl_iface_send.477] sendto success !, res=82
+D/Easybus (  753): [easy_ctrl_iface_send.457] dst->addr: 127.0.0.1:45302
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[0]: easyscreen
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[1]: easyheartbeat
+D/Easybus (  753): [easy_ctrl_iface_send.464] sendto: 127.0.0.1:45302
+D/Easybus (  753): [easy_ctrl_iface_send.477] sendto success !, res=82
+D/Easybus (  753): [easy_ctrl_iface_send.457] dst->addr: 127.0.0.1:43718
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[0]: easyime
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[1]: easyheartbeat
+D/Easybus (  753): [easy_ctrl_iface_send.464] sendto: 127.0.0.1:43718
+D/Easybus (  753): [easy_ctrl_iface_send.477] sendto success !, res=82
+D/Easybus (  753): [easy_ctrl_iface_send.457] dst->addr: 127.0.0.1:49827
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[0]: easyscreen
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[1]: easyheartbeat
+D/Easybus (  753): [easy_ctrl_iface_send.464] sendto: 127.0.0.1:49827
+D/Easybus (  753): [easy_ctrl_iface_send.477] sendto success !, res=82
+D/Easybus (  753): [easy_ctrl_iface_send.457] dst->addr: 127.0.0.1:35356
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[0]: easyscreen
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[1]: easyheartbeat
+D/Easybus (  753): [easy_ctrl_iface_send.464] sendto: 127.0.0.1:35356
+D/Easybus (  753): [easy_ctrl_iface_send.477] sendto success !, res=82
+D/Easybus (  753): [easy_ctrl_iface_send.457] dst->addr: 127.0.0.1:48541
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[0]: easyime
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[1]: easyheartbeat
+D/Easybus (  753): [easy_ctrl_iface_send.464] sendto: 127.0.0.1:48541
+D/Easybus (  753): [easy_ctrl_iface_send.477] sendto success !, res=82
+D/Easybus (  753): [easy_ctrl_iface_send.457] dst->addr: 127.0.0.1:40945
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[0]: easyscreen
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[1]: easyheartbeat
+D/Easybus (  753): [easy_ctrl_iface_send.464] sendto: 127.0.0.1:40945
+D/Easybus (  753): [easy_ctrl_iface_send.477] sendto success !, res=82
+D/Easybus (  753): [easy_ctrl_all_msg_cb.82] end
+D/Easybus (  753): [easy_ctrl_msg_dispatch.90] end
+D/Easybus (10351): [easybus_receive.208] res: 0, nread: 82
+D/Easybus (10351): [easybus_receive.223] receive buf: addr.ip=192.168.43.186,addr.port=38683,msgType=easyheartbeat,msgData=easyheartbeat
+D/Easybus (10351): ip = 192.168.43.186
+D/Easybus (10351): str2 - str1 = 5
+D/Easybus (10351): port_str = 38683
+D/Easybus (10351): port = 38683
+D/Easybus (10351): str2 - str1 = 13
+D/Easybus (10351): msgType = easyheartbeat
+D/Easybus (10351): msgDataSize = 13
+D/Easybus (10351): msgData = easyheartbeat
+D/Easybus (10351): [easybus_receive.265] addr:192.168.43.186:38683, msgType=easyheartbeat, msgData=easyheartbeat
+D/Easybus (10351): [easybus_receive.275] end ret=0
+D/Easybus (10351): [easybus/easybus/easybus_jni.c.easybusReceive.52] receive ret = 0
+D/Easybus (10351): [easybus/easybus/easybus_jni.c.easybusReceive.72] receive success !
+D/Easybus (10351): [easybus/easybus/easybus_jni.c.easybusReceive.73] addr:192.168.43.186:38683, mode:0, msgType:easyheartbeat, msgData:easyheartbeat
+D/Easybus (10351): [easybus/easybus/easybus_jni.c.easybusSend.126] addr:192.168.43.186:38683, mode:0, msgType:easyheartbeat, msgDataSize: 13, msgData:easyheartbeat
+D/Easybus (10351): [easybus_send.295] start
+D/Easybus (10351): [easybus_send.296] monitor_conn=0x1bca40
+D/Easybus (10351): [easybus_send.315] send buf:SEND addr.ip=192.168.43.186,addr.port=38683,msgType=easyheartbeat,msgData=easyheartbeat
+D/Easybus (  753): [easy_ctrl_iface_receive.219] start
+D/Easybus (  753): [easy_ctrl_iface_receive.235] from addr: 127.0.0.1:48108
+D/Easybus (  753): [easy_ctrl_iface_receive.237] receive res:111, buf:COOKIE=340b7d3ef079f24f SEND addr.ip=192.168.43.186,addr.port=38683,msgType=easyheartbeat,msgData=easyheartbeat
+D/Easybus (  753): [easy_ctrl_iface_process.154] buf: SEND addr.ip=192.168.43.186,addr.port=38683,msgType=easyheartbeat,msgData=easyheartbeat
+D/Easybus (  753): ip = 192.168.43.186
+D/Easybus (  753): str2 - str1 = 5
+D/Easybus (  753): port_str = 38683
+D/Easybus (  753): port = 38683
+D/Easybus (  753): str2 - str1 = 13
+D/Easybus (  753): msgType = easyheartbeat
+D/Easybus (  753): msgData = easyheartbeat
+D/Easybus (  753): easy_ctrl_iface_process addr.ip=192.168.43.186,addr.port=38683,msgType=easyheartbeat,msgData=easyheartbeat
+D/Easybus (  753): [easy_ctrl_compose_frame.178] start
+D/Easybus (  753): [easy_ctrl_compose_frame.226] data->msgDataSize:13 
+D/Easybus (  753): [easy_crc32.77] size=61
+D/Easybus (  753): [easy_ctrl_compose_frame.240] crcGen:0x1ea898bc 
+D/Easybus (  753): [easy_ctrl_compose_frame.257] encryptGen:0x9800740 
+D/Easybus (  753): the composed frame: 
+D/Easybus (  753): 45 43 45 42 01 01 01 01 00 00 
+D/Easybus (  753): 00 00 00 00 00 00 00 00 00 00 
+D/Easybus (  753): 00 00 00 00 00 00 00 00 65 61 
+D/Easybus (  753): 73 79 68 65 61 72 74 62 65 61 
+D/Easybus (  753): 74 00 00 00 00 00 00 0d 65 61 
+D/Easybus (  753): 73 79 68 65 61 72 74 62 65 61 
+D/Easybus (  753): 74 
+D/Easybus (  753): 1e 
+D/Easybus (  753): a8 
+D/Easybus (  753): 98 
+D/Easybus (  753): bc 
+D/Easybus (  753): 09 
+D/Easybus (  753): 80 
+D/Easybus (  753): 07 
+D/Easybus (  753): 40 
+D/Easybus (  753): 
+D/Easybus (  753): thr_udp_send start
+D/Easybus (  753): ip:192.168.43.186:38683, cmd_len:69
+D/Easybus (  753): thr_udp_send end
+D/Easybus (  753): [easy_ctrl_iface_process.201] ret: 0
+D/Easybus (  753): [easy_ctrl_iface_receive.316] reply=0x0, reply_len=2
+D/Easybus (  753): [easy_ctrl_iface_receive.334] end
+D/Easybus (10351): [[64220.502873] Drop 45900.
+easybus_send.319] res=0, reply=OK
+D/Easybus (10351): 
+D/Easybus (10351): [easybus_send.335] end ret=0
+D/Easybus (10351): [easybus/easybus/easybus_jni.c.easybusSend.131] send ret = 0
+D/Easybus (10351): [easybus_receive.159] start
+D/Easybus (10351): [easybus_receive.160] monitor_conn=0x1cc958
+D/Easybus (10369): [easybus_receive.208] res: 0, nread: 82
+D/Easybus (10369): [easybus_receive.223] receive buf: addr.ip=192.168.43.186,addr.port=38683,msgType=easyheartbeat,msgData=easyheartbeat
+D/Easybus (10369): ip = 192.168.43.186
+D/Easybus (10369): str2 - str1 = 5
+D/Easybus (10369): port_str = 38683
+D/Easybus (10369): port = 38683
+D/Easybus (10369): str2 - str1 = 13
+D/Easybus (10369): msgType = easyheartbeat
+D/Easybus (10369): msgDataSize = 13
+D/Easybus (10369): msgData = easyheartbeat
+D/Easybus (10369): [easybus_receive.265] addr:192.168.43.186:38683, msgType=easyheartbeat, msgData=easyheartbeat
+D/Easybus (10369): [easybus_receive.275] end ret=0
+D/Easybus (10369): [easybus/easybus/easybus_jni.c.easybusReceive.52] receive ret = 0
+D/Easybus (10369): [easybus/easybus/easybus_jni.c.easybusReceive.72] receive success !
+D/Easybus (10369): [easybus/easybus/easybus_jni.c.easybusReceive.73] addr:192.168.43.186:38683, mode:0, msgType:easyheartbeat, msgData:easyheartbeat
+I/MonitorCw880(10369): easybusReceive success !
+D/MonitorCw880(10369):  easybusMsg.remoteIp=  192.168.43.186 easybusMsg.remotePort=  38683 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880(10369): udp -> ip error -> currentRemoteHost=null easybusMsg.remoteIp=192.168.43.186, counter=3
+D/Easybus (10369): [easybus_receive.159] start
+D/Easybus (10369): [easybus_receive.160] monitor_conn=0x1b2378
+D/dalvikvm( 1783): GC_CONCURRENT freed 793K, 64% free 2928K/7939K, paused 2ms+3ms
+I//lib/ld-linux.so.3(  748): FrmCnt:11930(31,520,16) Rate:0 Sys:64219828 STC:2423016 VPTS:1112640 APTS:1112832 Delay:-1310336(40) V:0 A:0 VES:0x2f20 AES:0x0 PCM:0x0 AudioErr:0x2
+D/dalvikvm( 1783): GC_CONCURRENT freed 770K, 63% free 2997K/7939K, paused 3ms+3ms
+D/dalvikvm( 1783): GC_CONCURRENT freed 880K, 63% free 2956K/7939K, paused 3ms+3ms
+D/dalvikvm( 1783): GC_CONCURRENT freed 828K, 63% free 2997K/7939K, paused 2ms+2ms
+D/dalvikvm( 1783): GC_CONCURRENT freed 890K, 64% free 2927K/7939K, paused 2ms+3ms
+D/dalvikvm( 1783): GC_CONCURRENT freed 787K, 64% free 2871K/7939K, paused 3ms+3ms
+D/dalvikvm( 1783): GC_CONCURRENT freed 718K, 64% free 2869K/7939K, paused 2ms+3ms
+D/dalvikvm( 1783): GC_CONCURRENT freed 706K, 64% free 2866K/7939K, paused 3ms+3ms
+I//lib/ld-linux.so.3(  748): FrmCnt:11930(31,520,16) Rate:0 Sys:64221356 STC:2424544 VPTS:1112640 APTS:1112832 Delay:-1311864(40) V:0 A:0 VES:0x2f20 AES:0x0 PCM:0x0 AudioErr:0x2
+D/dalvikvm( 1783): GC_CONCURRENT freed 705K, 64% free 2912K/7939K, paused 4ms+3ms
+D/dalvikvm( 1783): GC_CONCURRENT freed 776K, 65% free 2843K/7939K, paused 3ms+3ms
+[64222.622828] Drop 46000.
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744): ================================
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744): Warnig: Reconnect again! mCurDowningIndex:237 
+D/DataSource_M3U8(  744):  Reconnect Url : http://cibn-iss1.longvisionmedia.com:8088/vod/CIBN2013_CIBN2113040100001913_12001300/238.ts 
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744): ================================
+D/Downloader(  744): [downloadThread]Downloader::removeTask  
+I//lib/ld-linux.so.3(  748): FrmCnt:11930(31,520,16) Rate:0 Sys:64222874 STC:2426063 VPTS:1112640 APTS:1112832 Delay:-1313383(40) V:0 A:0 VES:0x2f20 AES:0x0 PCM:0x0 AudioErr:0x2
+[64223.064589] c4
+D/dalvikvm( 1783): GC_CONCURRENT freed 675K, 64% free 2871K/7939K, paused 2ms+3ms
+D/dalvikvm( 1783): GC_CONCURRENT freed 704K, 64% free 2872K/7939K, paused 2ms+3ms
+D/dalvikvm( 1783): GC_CONCURRENT freed 703K, 64% free 2872K/7939K, paused 3ms+3ms
+I//lib/ld-linux.so.3(  748): FrmCnt:11930(31,520,16) Rate:0 Sys:64224393 STC:2427581 VPTS:1112640 APTS:1112832 Delay:-1314901(40) V:0 A:0 VES:0x2f20 AES:0x0 PCM:0x0 AudioErr:0x2
+D/dalvikvm( 1783): GC_CONCURRENT freed 704K, 64% free 2872K/7939K, paused 2ms+3ms
+D/Easybus (  753): [easy_ctrl_udp_receive_thread.89] recvfrom n=69
+D/Easybus (  753): [easy_ctrl_udp_receive_thread.98] recvAddr:192.168.43.186:38683
+D/Easybus (  753): [easy_ctrl_decompose_frame.38] msgLen: 69 
+D/Easybus (  753): the receive frame: 
+D/Easybus (  753): 45 43 45 42 01 01 01 01 00 00 
+D/Easybus (  753): 00 00 00 00 00 00 00 00 00 00 
+D/Easybus (  753): 00 00 00 00 00 00 11 60 65 61 
+D/Easybus (  753): 73 79 68 65 61 72 74 62 65 61 
+D/Easybus (  753): 74 00 00 00 00 00 00 0d 65 61 
+D/Easybus (  753): 73 79 68 65 61 72 74 62 65 61 
+D/Easybus (  753): 74 
+D/Easybus (  753): 4a 
+D/Easybus (  753): 5e 
+D/Easybus (  753): 08 
+D/Easybus (  753): 7c 
+D/Easybus (  753): 00 
+D/Easybus (  753): 80 
+D/Easybus (  753): 12 
+D/Easybus (  753): f0 
+D/Easybus (  753): 
+D/Easybus (  753): [easy_ctrl_decompose_frame.74] crcFlag=1
+D/Easybus (  753): [easy_ctrl_decompose_frame.82] encryptFlag=1
+D/Easybus (  753): [easy_ctrl_decompose_frame.96] msgNum=4448
+D/Easybus (  753): [easy_ctrl_decompose_frame.101] msgType=easyheartbeat
+D/Easybus (  753): [easy_ctrl_decompose_frame.107] data.msgDataSize=13
+D/Easybus (  753): [easy_crc32.77] size=61
+D/Easybus (  753): [easy_ctrl_decompose_frame.121] crcRecv:0x4a5e087c, crcGen:0x4a5e087c 
+D/Easybus (  753): [easy_ctrl_decompose_frame.143] encryptRecv:0x8012f0, encryptGen:0x8012f0 
+D/Easybus (  753): [easy_ctrl_decompose_frame.158] msgData=easyheartbeat
+D/Easybus (  753): [easy_ctrl_msg_dispatch.87] start
+D/Easybus (  753): [easy_ctrl_vinput_msg_cb.399] start
+D/Easybus (  753): [easy_ctrl_vinput_msg_cb.413] data->msgType:easyheartbeat
+D/Easybus (  753): [easy_ctrl_vinput_msg_cb.463] end
+D/Easybus (  753): [easy_ctrl_all_msg_cb.59] start
+D/Easybus (  753): easy_msg buf = addr.ip=192.168.43.186,addr.port=38683,msgType=easyheartbeat,msgData=easyheartbeat
+D/Easybus (  753): [easy_ctrl_iface_send.445] priv->sock = 9
+D/Easybus (  753): [easy_ctrl_iface_send.449] msgtype=easyheartbeat bufLen=82, buf=addr.ip=192.168.43.186,addr.port=38683,msgType=easyheartbeat,msgData=easyheartbeat
+D/Easybus (  753): [easy_ctrl_iface_send.457] dst->addr: 127.0.0.1:56078
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[0]: easyscreen
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[1]: easyheartbeat
+D/Easybus (  753): [easy_ctrl_iface_send.464] sendto: 127.0.0.1:56078
+D/Easybus (  753): [easy_ctrl_iface_send.477] sendto success !, res=82
+D/Easybus (  753): [easy_ctrl_iface_send.457] dst->addr: 127.0.0.1:37286
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[0]: easyime
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[1]: easyheartbeat
+D/Easybus (  753): [easy_ctrl_iface_send.464] sendto: 127.0.0.1:37286
+D/Easybus (  753): [easy_ctrl_iface_send.477] sendto success !, res=82
+D/Easybus (  753): [easy_ctrl_iface_send.457] dst->addr: 127.0.0.1:34633
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[0]: easyime
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[1]: easyheartbeat
+D/Easybus (  753): [easy_ctrl_iface_send.464] sendto: 127.0.0.1:34633
+D/Easybus (  753): [easy_ctrl_iface_send.477] sendto success !, res=82
+D/Easybus (  753): [easy_ctrl_iface_send.457] dst->addr: 127.0.0.1:39462
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[0]: easyime
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[1]: easyheartbeat
+D/Easybus (  753): [easy_ctrl_iface_send.464] sendto: 127.0.0.1:39462
+D/Easybus (  753): [easy_ctrl_iface_send.477] sendto success !, res=82
+D/Easybus (  753): [easy_ctrl_iface_send.457] dst->addr: 127.0.0.1:45302
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[0]: easyscreen
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[1]: easyheartbeat
+D/Easybus (  753): [easy_ctrl_iface_send.464] sendto: 127.0.0.1:45302
+D/Easybus (  753): [easy_ctrl_iface_send.477] sendto success !, res=82
+D/Easybus (  753): [easy_ctrl_iface_send.457] dst->addr: 127.0.0.1:43718
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[0]: easyime
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[1]: easyheartbeat
+D/Easybus (  753): [easy_ctrl_iface_send.464] sendto: 127.0.0.1:43718
+D/Easybus (  753): [easy_ctrl_iface_send.477] sendto success !, res=82
+D/Easybus (  753): [easy_ctrl_iface_send.457] dst->addr: 127.0.0.1:49827
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[0]: easyscreen
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[1]: easyheartbeat
+D/Easybus (  753): [easy_ctrl_iface_send.464] sendto: 127.0.0.1:49827
+D/Easybus (  753): [easy_ctrl_iface_send.477] sendto success !, res=82
+D/Easybus (  753): [easy_ctrl_iface_send.457] dst->addr: 127.0.0.1:35356
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[0]: easyscreen
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[1]: easyheartbeat
+D/Easybus (  753): [easy_ctrl_iface_send.464] sendto: 127.0.0.1:35356
+D/Easybus (  753): [easy_ctrl_iface_send.477] sendto success !, res=82
+D/Easybus (  753): [easy_ctrl_iface_send.457] dst->addr: 127.0.0.1:48541
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[0]: easyime
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[1]: easyheartbeat
+D/Easybus (  753): [easy_ctrl_iface_send.464] sendto: 127.0.0.1:48541
+D/Easybus (  753): [easy_ctrl_iface_send.477] sendto success !, res=82
+D/Easybus (  753): [easy_ctrl_iface_send.457] dst->addr: 127.0.0.1:40945
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[0]: easyscreen
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[1]: easyheartbeat
+D/Easybus (  753): [easy_ctrl_iface_send.464] sendto: 127.0.0.1:40945
+D/Easybus (  753): [easy_ctrl_iface_send.477] sendto success !, res=82
+D/Easybus (  753): [easy_ctrl_all_msg_cb.82] end
+D/Easybus (  753): [easy_ctrl_msg_dispatch.90] end
+D/Easybus (10351): [easybus_receive.208] res: 0, nread: 82
+D/Easybus (10351): [easybus_receive.223] receive buf: addr.ip=192.168.43.186,addr.port=38683,msgType=easyheartbeat,msgData=easyheartbeat
+D/Easybus (10351): ip = 192.168.43.186
+D/Easybus (10351): str2 - str1 = 5
+D/Easybus (10351): port_str = 38683
+D/Easybus (10351): port = 38683
+D/Easybus (10351): str2 - str1 = 13
+D/Easybus (10351): msgType = easyheartbeat
+D/Easybus (10351): msgDataSize[64225.222838] Drop 46100.
+ = 13
+D/Easybus (10351): msgData = easyheartbeat
+D/Easybus (10351): [easybus_receive.265] addr:192.168.43.186:38683, msgType=easyheartbeat, msgData=easyheartbeat
+D/Easybus (10351): [easybus_receive.275] end ret=0
+D/Easybus (10351): [easybus/easybus/easybus_jni.c.easybusReceive.52] receive ret = 0
+D/Easybus (10351): [easybus/easybus/easybus_jni.c.easybusReceive.72] receive success !
+D/Easybus (10351): [easybus/easybus/easybus_jni.c.easybusReceive.73] addr:192.168.43.186:38683, mode:0, msgType:easyheartbeat, msgData:easyheartbeat
+D/Easybus (10351): [easybus/easybus/easybus_jni.c.easybusSend.126] addr:192.168.43.186:38683, mode:0, msgType:easyheartbeat, msgDataSize: 13, msgData:easyheartbeat
+D/Easybus (10351): [easybus_send.295] start
+D/Easybus (10351): [easybus_send.296] monitor_conn=0x1bca40
+D/Easybus (10351): [easybus_send.315] send buf:SEND addr.ip=192.168.43.186,addr.port=38683,msgType=easyheartbeat,msgData=easyheartbeat
+D/Easybus (  753): [easy_ctrl_iface_receive.219] start
+D/Easybus (  753): [easy_ctrl_iface_receive.235] from addr: 127.0.0.1:48108
+D/Easybus (  753): [easy_ctrl_iface_receive.237] receive res:111, buf:COOKIE=340b7d3ef079f24f SEND addr.ip=192.168.43.186,addr.port=38683,msgType=easyheartbeat,msgData=easyheartbeat
+D/Easybus (  753): [easy_ctrl_iface_process.154] buf: SEND addr.ip=192.168.43.186,addr.port=38683,msgType=easyheartbeat,msgData=easyheartbeat
+D/Easybus (  753): ip = 192.168.43.186
+D/Easybus (  753): str2 - str1 = 5
+D/Easybus (  753): port_str = 38683
+D/Easybus (  753): port = 38683
+D/Easybus (  753): str2 - str1 = 13
+D/Easybus (  753): msgType = easyheartbeat
+D/Easybus (  753): msgData = easyheartbeat
+D/Easybus (  753): easy_ctrl_iface_process addr.ip=192.168.43.186,addr.port=38683,msgType=easyheartbeat,msgData=easyheartbeat
+D/Easybus (  753): [easy_ctrl_compose_frame.178] start
+D/Easybus (  753): [easy_ctrl_compose_frame.226] data->msgDataSize:13 
+D/Easybus (  753): [easy_crc32.77] size=61
+D/Easybus (  753): [easy_ctrl_compose_frame.240] crcGen:0x1ea898bc 
+D/Easybus (  753): [easy_ctrl_compose_frame.257] encryptGen:0x9800740 
+D/Easybus (  753): the composed frame: 
+D/Easybus (  753): 45 43 45 42 01 01 01 01 00 00 
+D/Easybus (  753): 00 00 00 00 00 00 00 00 00 00 
+D/Easybus (  753): 00 00 00 00 00 00 00 00 65 61 
+D/Easybus (  753): 73 79 68 65 61 72 74 62 65 61 
+D/Easybus (  753): 74 00 00 00 00 00 00 0d 65 61 
+D/Easybus (  753): 73 79 68 65 61 72 74 62 65 61 
+D/Easybus (  753): 74 
+D/Easybus (  753): 1e 
+D/Easybus (  753): a8 
+D/Easybus (  753): 98 
+D/Easybus (  753): bc 
+D/Easybus (  753): 09 
+D/Easybus (  753): 80 
+D/Easybus (  753): 07 
+D/Easybus (  753): 40 
+D/Easybus (  753): 
+D/Easybus (  753): thr_udp_send start
+D/Easybus (  753): ip:192.168.43.186:38683, cmd_len:69
+D/Easybus (  753): thr_udp_send end
+D/Easybus (  753): [easy_ctrl_iface_process.201] ret: 0
+D/Easybus (  753): [easy_ctrl_iface_receive.316] reply=0x0, reply_len=2
+D/Easybus (  753): [easy_ctrl_iface_receive.334] end
+D/Easybus (10351): [easybus_send.319] res=0, reply=OK
+D/Easybus (10351): 
+D/Easybus (10351): [easybus_send.335] end ret=0
+D/Easybus (10351): [easybus/easybus/easybus_jni.c.easybusSend.131] send ret = 0
+D/Easybus (10351): [easybus_receive.159] start
+D/Easybus (10351): [easybus_receive.160] monitor_conn=0x1cc958
+D/Easybus (10369): [easybus_receive.208] res: 0, nread: 82
+D/Easybus (10369): [easybus_receive.223] receive buf: addr.ip=192.168.43.186,addr.port=38683,msgType=easyheartbeat,msgData=easyheartbeat
+D/Easybus (10369): ip = 192.168.43.186
+D/Easybus (10369): str2 - str1 = 5
+D/Easybus (10369): port_str = 38683
+D/Easybus (10369): port = 38683
+D/Easybus (10369): str2 - str1 = 13
+D/Easybus (10369): msgType = easyheartbeat
+D/Easybus (10369): msgDataSize = 13
+D/Easybus (10369): msgData = easyheartbeat
+D/Easybus (10369): [easybus_receive.265] addr:192.168.43.186:38683, msgType=easyheartbeat, msgData=easyheartbeat
+D/Easybus (10369): [easybus_receive.275] end ret=0
+D/Easybus (10369): [easybus/easybus/easybus_jni.c.easybusReceive.52] receive ret = 0
+D/Easybus (10369): [easybus/easybus/easybus_jni.c.easybusReceive.72] receive success !
+D/Easybus (10369): [easybus/easybus/easybus_jni.c.easybusReceive.73] addr:192.168.43.186:38683, mode:0, msgType:easyheartbeat, msgData:easyheartbeat
+I/MonitorCw880(10369): easybusReceive success !
+D/MonitorCw880(10369):  easybusMsg.remoteIp=  192.168.43.186 easybusMsg.remotePort=  38683 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880(10369): udp -> ip error -> currentRemoteHost=null easybusMsg.remoteIp=192.168.43.186, counter=3
+D/Easybus (10369): [easybus_receive.159] start
+D/Easybus (10369): [easybus_receive.160] monitor_conn=0x1b2378
+D/dalvikvm( 1783): GC_CONCURRENT freed 704K, 64% free 2872K/7939K, paused 3ms+2ms
+I//lib/ld-linux.so.3(  748): FrmCnt:11930(31,520,16) Rate:0 Sys:64225910 STC:2429099 VPTS:1112640 APTS:1112832 Delay:-1316419(40) V:0 A:0 VES:0x2f20 AES:0x0 PCM:0x0 AudioErr:0x2
+[64226.176652] c4
+D/dalvikvm( 1783): GC_CONCURRENT freed 704K, 64% free 2872K/7939K, paused 3ms+2ms
+I//lib/ld-linux.so.3(  748): FrmCnt:11930(31,520,16) Rate:0 Sys:64227427 STC:2430616 VPTS:1112640 APTS:1112832 Delay:-1317936(40) V:0 A:0 VES:0x2f20 AES:0x0 PCM:0x0 AudioErr:0x2
+D/dalvikvm( 1783): GC_CONCURRENT freed 706K, 64% free 2872K/7939K, paused 2ms+2ms
+[64228.028560] r02
+[64228.030471] U3
+[64228.032021] [SD_CTL_TASK] send msg to IMAN: data_adr=0x1f100,dalen=256
+[64228.144555] r00
+[64228.146329] U2
+[64228.147862] [SD_CTL_TASK] send msg to IMAN: data_adr=0x1f100,dalen=256
+D/dalvikvm( 1783): GC_CONCURRENT freed 703K, 64% free 2872K/7939K, paused 2ms+2ms
+[64228.268544] r00
+[64228.270307] U1
+[64228.271852] [SD_CTL_TASK] send msg to IMAN: data_adr=0x1f100,dalen=256
+[64228.384572] r00
+[64228.386335] U0
+[64228.387870] [SD_CTL_TASK] send msg to IMAN: data_adr=0x1f100,dalen=256
+D/dalvikvm( 1783): GC_CONCURRENT freed 705K, 64% free 2872K/7939K, paused 3ms+3ms
+D/dalvikvm( 1783): GC_CONCURRENT freed 706K, 64% free 2872K/7939K, paused 2ms+3ms
+I//lib/ld-linux.so.3(  748): FrmCnt:11930(31,520,16) Rate:0 Sys:64228950 STC:2432138 VPTS:1112640 APTS:1112832 Delay:-1319458(40) V:0 A:0 VES:0x2f20 AES:0x0 PCM:0x0 AudioErr:0x2
+D/Easybus (  753): [easy_ctrl_udp_receive_thread.89] recvfrom n=69
+D/Easybus (  753): [easy_ctrl_udp_receive_thread.98] recvAddr:192.168.43.186:38683
+D/Easybus (  753): [easy_ctrl_decompose_frame.38] msgLen: 69 
+D/Easybus (  753): the receive frame: 
+D/Easybus (  753): 45 43 45 42 01 01 01 01 00 00 
+D/Easybus (  753): 00 00 00 00 00 00 00 00 00 00 
+D/Easybus (  753): 00 00 00 00 00 00 11 61 65 61 
+D/Easybus (  753): 73 79 68 65 61 72 74 62 65 61 
+D/Easybus (  753): 74 00 00 00 00 00 00 0d 65 61 
+D/Easybus (  753): 73 79 68 65 61 72 74 62 65 61 
+D/Easybus (  753): 74 
+D/Easybus (  753): d0 
+D/Easybus (  753): 8d 
+D/Easybus (  753): 8b 
+D/Easybus (  753): 13 
+D/Easybus (  753): 08 
+D/Easybus (  753): 60 
+D/Easybus (  753): 34 
+D/Easybus (  753): 68 
+D/Easybus (  753): 
+D/Easybus (  753): [easy_ctrl_decompose_frame.74] crcFlag=1
+D/Easybus (  753): [easy_ctrl_decompose_frame.82] encryptFlag=1
+D/Easybus (  753): [easy_ctrl_decompose_frame.96] msgNum=4449
+D/Easybus (  753): [easy_ctrl_decompose_frame.101] msgType=easyheartbeat
+D/Easybus (  753): [easy_ctrl_decompose_frame.107] data.msgDataSize=13
+D/Easybus (  753): [easy_crc32.77] size=61
+D/Easybus (  753): [easy_ctrl_decompose_frame.121] crcRecv:0xd08d8b13, crcGen:0xd08d8b13 
+D/Easybus (  753): [easy_ctrl_decompose_frame.143] encryptRecv:0x8603468, encryptGen:0x8603468 
+D/Easybus (  753): [easy_ctrl_decompose_frame.158] msgData=easyheartbeat
+D/Easybus (  753): [easy_ctrl_msg_dispatch.87] start
+D/Easybus (  753): [easy_ctrl_vinput_msg_cb.399] start
+D/Easybus (  753): [easy_ctrl_vinput_msg_cb.413] data->msgType:easyheartbeat
+D/Easybus (  753): [easy_ctrl_vinput_msg_cb.463] end
+D/Easybus (  753): [easy_ctrl_all_msg_cb.59] start
+D/Easybus (  753): easy_msg buf = addr.ip=192.168.43.186,addr.port=38683,msgType=easyheartbeat,msgData=easyheartbeat
+D/Easybus (  753): [easy_ctrl_iface_send.445] priv->sock = 9
+D/Easybus (  753): [easy_ctrl_iface_send.449] msgtype=easyheartbeat bufLen=82, buf=addr.ip=192.168.43.186,addr.port=38683,msgType=easyheartbeat,msgData=easyheartbeat
+D/Easybus (  753): [easy_ctrl_iface_send.457] dst->addr: 127.0.0.1:56078
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[0]: easyscreen
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[1]: easyheartbeat
+D/Easybus (  753): [easy_ctrl_iface_send.464] sendto: 127.0.0.1:56078
+D/Easybus (  753): [easy_ctrl_iface_send.477] sendto success !, res=82
+D/Easybus (  753): [easy_ctrl_iface_send.457] dst->addr: 127.0.0.1:37286
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[0]: easyime
+D/Easybus (10369): [easybus_receive.208] res: 0, nread: 82
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[1]: easyheartbeat
+D/Easybus (10369): [easybus_receive.223] receive buf: addr.ip=192.168.43.186,addr.port=38683,msgType=easyheartbeat,msgData=easyheartbeat
+D/Easybus (  753): [easy_ctrl_iface_send.464] sendto: 127.0.0.1:37286
+D/Easybus (10369): ip = 192.168.43.186
+D/Easybus (10369): str2 - str1 = 5
+D/Easybus (10369): port_str = 38683
+D/Easybus (10369): port = 38683
+D/Easybus (10369): str2 - str1 = 13
+D/Easybus (  753): [easy_ctrl_iface_send.477] sendto success !, res=82
+D/Easybus (  753): [easy_ctrl_iface_send.457] dst->addr: 127.0.0.1:34633
+D/Easybus (10351): [easybus_receive.208] res: 0, nread: 82
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[0]: easyime
+D/Easybus (10351): [easybus_receive.223] receive buf: addr.ip=192.168.43.186,addr.port=38683,msgType=easyheartbeat,msgData=easyheartbeat
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[1]: easyheartbeat
+D/Easybus (10351): ip = 192.168.43.186
+D/Easybus (  753): [easy_ctrl_iface_send.464] sendto: 127.0.0.1:34633
+D/Easybus (10351): str2 - str1 = 5
+D/Easybus (10351): port_str = 38683
+D/Easybus (10351): port = 38683
+D/Easybus (10351): str2 - str1 = 13
+D/Easybus (10351): msgType = easyheartbeat
+D/Easybus (10351): msgDataSize = 13
+D/Easybus (10351): msgData = easyheartbeat
+D/Easybus (10351): [easybus_receive.265] addr:192.168.43.186:38683, msgType=easyheartbeat, msgData=easyheartbeat
+D/Easybus (10351): [easybus_receive.275] end ret=0
+D/Easybus (10351): [easybus/easybus/easybus_jni.c.easybusReceive.52] receive ret = 0
+D/Easybus (10351): [easybus/easybus/easybus_jni.c.easybusReceive.72] receive success !
+D/Easybus (10351): [easybus/easybus/easybus_jni.c.easybusReceive.73] addr:192.168.43.186:38683, mode:0, msgType:easyheartbeat, msgData:easyheartbeat
+D/Easybus (10351): [easybus/easybus/easybus_jni.c.easybusSend.126] addr:192.168.43.186:38683, mode:0, msgType:easyheartbeat, msgDataSize: 13, msgData:easyheartbeat
+D/Easybus (10351): [easybus_send.295] start
+D/Easybus (10351): [easybus_send.296] monitor_conn=0x1bca40
+D/Easybus (10351): [easybus_send.315] send buf:SEND addr.ip=192.168.43.186,addr.port=38683,msgType=easyheartbeat,msgData=easyheartbeat
+D/Easybus (  753): [easy_ctrl_iface_receive.219] start
+D/Easybus (  753): [easy_ctrl_iface_receive.235] from addr: 127.0.0.1:48108
+D/Easybus (  753): [easy_ctrl_iface_receive.237] receive res:111, buf:COOKIE=340b7d3ef079f24f SEND addr.ip=192.168.43.186,addr.port=38683,msgType=easyheartbeat,msgData=easyheartbeat
+D/Easybus (  753): [easy_ctrl_iface_process.154] buf: SEND addr.ip=192.168.43.186,addr.port=38683,msgType=easyheartbeat,msgData=easyheartbeat
+D/Easybus (  753): ip = 192.168.43.186
+D/Easybus (  753): str2 - str1 = 5
+D/Easybus (  753): port_str = 38683
+D/Easybus (  753): port = 38683
+D/Easybus (  753): str2 - str1 = 13
+D/Easybus (  753): msgType = easyheartbeat
+D/Easybus (  753): msgData = easyheartbeat
+D/Easybus (  753): easy_ctrl_iface_process addr.ip=192.168.43.186,addr.port=38683,msgType=easyheartbeat,msgData=easyheartbeat
+D/Easybus (  753): [easy_ctrl_compose_frame.178] start
+D/Easybus (  753): [easy_ctrl_compose_frame.226] data->msgDataSize:13 
+D/Easybus (  753): [easy_crc32.77] size=61
+D/Easybus (  753): [easy_ctrl_compose_frame.240] crcGen:0x1ea898bc 
+D/Easybus (  753): [easy_ctrl_compose_frame.257] encryptGen:0x9800740 
+D/Easybus (  753): the composed frame: 
+D/Easybus (  753): [easy_ctrl_iface_send.477] sendto success !, res=82
+D/Easybus (  753): 45 43 45 42 01 01 01 01 00 00 
+D/Easybus (  753): 00 00 00 00 00 00 00 00 00 00 
+D/Easybus (  753): [easy_ctrl_iface_send.457] dst->addr: 127.0.0.1:39462
+D/Easybus (  753): 00 00 00 00 00 00 00 00 65 61 
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[0]: easyime
+D/Easybus (  753): 73 79 68 65 61 72 74 62 65 61 
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[1]: easyheartbeat
+D/Easybus (  753): 74 00 00 00 00 00 00 0d 65 61 
+D/Easybus (  753): 73 79 68 65 61 72 74 62 65 61 
+D/Easybus (  753): [easy_ctrl_iface_send.464] sendto: 127.0.0.1:39462
+D/Easybus (  753): 74 
+D/Easybus (  753): 1e 
+D/Easybus (  753): a8 
+D/Easybus (  753): 98 
+D/Easybus (  753): bc 
+D/Easybus (  753): 09 
+D/Easybus (  753): 80 
+D/Easybus (  753): 07 
+D/Easybus (  753): 40 
+D/Easybus (  753): 
+D/Easybus (  753): thr_udp_send start
+D/Easybus (  753): ip:192.168.43.186:38683, cmd_len:69
+D/Easybus (  753): [easy_ctrl_iface_send.477] sendto success !, res=82
+D/Easybus (  753): thr_udp_send end
+D/Easybus (  753): [easy_ctrl_iface_process.201] ret: 0
+D/Easybus (  753): [easy_ctrl_iface_receive.316] reply=0x0, reply_len=2
+D/Easybus (  753): [easy_ctrl_iface_send.457] dst->addr: 127.0.0.1:45302
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[0]: easyscreen
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[1]: easyheartbeat
+D/Easybus (  753): [easy_ctrl_iface_send.464] sendto: 127.0.0.1:45302
+D/Easybus (  753): [easy_ctrl_iface_receive.334] end
+D/Easybus (  753): [easy_ctrl_iface_send.477] sendto success !, res=82
+D/Easybus (  753): [easy_ctrl_iface_send.457] dst->addr: 127.0.0.1:43718
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[0]: easyime
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[1]: easyheartbeat
+D/Easybus (  753): [easy_ctrl_iface_send.464] sendto: 127.0.0.1:43718
+D/Easybus (10351): [easybus_send.319] res=0, reply=OK
+D/Easybus (10351): 
+D/Easybus (  753): [easy_ctrl_iface_send.477] sendto success !, res=82
+D/Easybus (10351): [easybus_send.335] end ret=0
+D/Easybus (  753): [easy_ctrl_iface_send.457] dst->addr: 127.0.0.1:49827
+D/Easybus (10351): [easybus/easybus/easybus_jni.c.easybusSend.131] send ret = 0
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[0]: easyscreen
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[1]: easyheartbeat
+D/Easybus (10351): [easybus_receive.159] start
+D/Easybus (  753): [easy_ctrl_iface_send.464] sendto: 127.0.0.1:49827
+D/Easybus (10369): msgType = easyheartbeat
+D/Easybus (10351): [easybus_receive.160] monitor_conn=0x1cc958
+D/Easybus (  753): [easy_ctrl_iface_send.477] sendto success !, res=82
+D/Easybus (10369): msgDataSize = 13
+D/Easybus (10369): msgData = easyheartbeat
+D/Easybus (  753): [easy_ctrl_iface_send.457] dst->addr: 127.0.0.1:35356
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[0]: easyscreen
+D/Easybus (10369): [easybus_receive.265] addr:192.168.43.186:38683, msgType=easyheartbeat, msgData=easyheartbeat
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[1]: easyheartbeat
+D/Easybus (10369): [easybus_receive.275] end ret=0
+D/Easybus (10369): [easybus/easybus/easybus_jni.c.easybusReceive.52] receive ret = 0
+D/Easybus (  753): [easy_ctrl_iface_send.464] sendto: 127.0.0.1:35356
+D/Easybus (  753): [easy_ctrl_iface_send.477] sendto success !, res=82
+D/Easybus (  753): [easy_ctrl_iface_send.457] dst->addr: 127.0.0.1:48541
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[0]: easyime
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[1]: easyheartbeat
+D/Easybus (  753): [easy_ctrl_iface_send.464] sendto: 127.0.0.1:48541
+D/Easybus (  753): [easy_ctrl_iface_send.477] sendto success !, res=82
+D/Easybus (  753): [easy_ctrl_iface_send.457] dst->addr: 127.0.0.1:40945
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[0]: easyscreen
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[1]: easyheartbeat
+D/Easybus (  753): [easy_ctrl_iface_send.464] sendto: 127.0.0.1:40945
+D/Easybus (  753): [easy_ctrl_iface_send.477] sendto success !, res=82
+D/Easybus (  753): [easy_ctrl_all_msg_cb.82] end
+D/Easybus (  753): [easy_ctrl_msg_dispatch.90] end
+D/Easybus (10369): [easybus/easybus/easybus_jni.c.easybusReceive.72] receive success !
+D/Easybus (10369): [easybus/easybus/easybus_jni.c.easybusReceive.73] addr:192.168.43.186:38683, mode:0, msgType:easyheartbeat, msgData:easyheartbeat
+I/MonitorCw880(10369): easybusReceive success !
+D/MonitorCw880(10369):  easybusMsg.remoteIp=  192.168.43.186 easybusMsg.remotePort=  38683 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880(10369): udp -> ip error -> currentRemoteHost=null easybusMsg.remoteIp=192.168.43.186, counter=3
+D/Easybus (10369): [easybus_receive.159] start
+D/Easybus (10369): [easybus_receive.160] monitor_conn=0x1b2378
+I//lib/ld-linux.so.3(  748): FrmCnt:11930(31,520,16) Rate:0 Sys:64230467 STC:2433655 VPTS:1112640 APTS:1112832 Delay:-1320975(40) V:0 A:0 VES:0x2f20 AE[64234.892687] b1
+[64234.894398] D3
+[64234.895929] [SD_CTL_TASK] send msg to IMAN: data_adr=0x1f100,dalen=256
+D/Easybus (  753): [easy_ctrl_udp_receive_thread.89] recvfrom n=69
+D/Easybus (  753): [easy_ctrl_udp_receive_thread.98] recvAddr:192.168.43.186:38683
+D/Easybus (  753): [easy_ctrl_decompose_frame.38] msgLen: 69 
+D/Easybus (  753): the receive frame: 
+D/Easybus (  753): 45 43 45 42 01 01 01 01 00 00 
+D/Easybus (  753): 00 00 00 00 00 00 00 00 00 00 
+D/Easybus (  753): 00 00 00 00 00 00 11 62 65 61 
+D/Easybus (  753): 73 79 68 65 61 72 74 62 65 61 
+D/Easybus (  753): 74 00 00 00 00 00 00 0d 65 61 
+D/Easybus (  753): 73 79 68 65 61 72 74 62 65 61 
+D/Easybus (  753): 74 
+D/Easybus (  753): 7b 
+D/Easybus (  753): 38 
+D/Easybus (  753): 13 
+D/Easybus (  753): 15 
+D/Easybus (  753): 01 
+D/Easybus (  753): a0 
+D/Easybus (  753): 1e 
+D/Easybus (  753): c0 
+D/Easybus (  753): 
+D/Easybus (  753): [easy_ctrl_decompose_frame.74] crcFlag=1
+D/Easybus (  753): [easy_ctrl_decompose_frame.82] encryptFlag=1
+D/Easybus (  753): [easy_ctrl_decompose_frame.96] msgNum=4450
+D/Easybus (  753): [easy_ctrl_decompose_frame.101] msgType=easyheartbeat
+D/Easybus (  753): [easy_ctrl_decompose_frame.107] data.msgDataSize=13
+D/Easybus (  753): [easy_crc32.77] size=61
+D/Easybus (  753): [easy_ctrl_decompose_frame.121] crcRecv:0x7b381315, crcGen:0x7b381315 
+D/Easybus (  753): [easy_ctrl_decompose_frame.143] encryptRecv:0x1a01ec0, encryptGen:0x1a01ec0 
+D/Easybus (  753): [easy_ctrl_decompose_frame.158] msgData=easyheartbeat
+D/Easybus (  753): [easy_ctrl_msg_dispatch.87] start
+D/Easybus (  753): [easy_ctrl_vinput_msg_cb.399] start
+D/Easybus (  753): [easy_ctrl_vinput_msg_cb.413] data->msgType:easyheartbeat
+D/Easybus (  753): [easy_ctrl_vinput_msg_cb.463] end
+D/Easybus (  753): [easy_ctrl_all_msg_cb.59] start
+D/Easybus (  753): easy_msg buf = addr.ip=192.168.43.186,addr.port=38683,msgType=easyheartbeat,msgData=easyheartbeat
+D/Easybus (  753): [easy_ctrl_iface_send.445] priv->sock = 9
+D/Easybus (  753): [eas[64235.096571] b3
+y_ctrl_iface_sen[64235.099446] D5d.449] msgtype=e
+[64235.102408] [SD_CTL_TASK] send msg to IMAN: data_adr=0x1f100,dalen=256
+asyheartbeat bufLen=82, buf=addr.ip=192.168.43.186,addr.port=38683,msgType=easyheartbeat,msgData=easyheartbeat
+D/Easybus (  753): [easy_ctrl_iface_send.457] dst->addr: 127.0.0.1:56078
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[0]: easyscreen
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[1]: easyheartbeat
+D/Easybus (  753): [easy_ctrl_iface_send.464] sendto: 127.0.0.1:56078
+D/Easybus (  753): [easy_ctrl_iface_send.477] sendto success !, res=82
+D/Easybus (  753): [easy_ctrl_iface_send.457] dst->addr: 127.0.0.1:37286
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[0]: easyime
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[1]: easyheartbeat
+D/Easybus (  753): [easy_ctrl_iface_send.464] sendto: 127.0.0.1:37286
+D/Easybus (  753): [easy_ctrl_iface_send.477] sendto success !, res=82
+D/Easybus (  753): [easy_ctrl_iface_send.457] dst->addr: 127.0.[64235.188545] a4
+0.1:34633
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[0]: easyime
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[1]: easyheartbeat
+D/Easybus (  753): [easy_ctrl_iface_send.464] sendto: 127.0.0.1:34633
+D/Easybus (  753): [easy_ctrl_iface_send.477] sendto success !, res=82
+D/Easybus (  753): [easy_ctrl_iface_send.457] dst->addr: 127.0.0.1:39462
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[0]: easyime
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[1]: easyheartbeat
+D/Easybus (  753): [easy_ctrl_iface_send.464] sendto: 127.0.0.1:39462
+D/Easybus (  753): [easy_ctrl_iface_send.477] sendto success !, res=82
+D/Easybus (  753): [easy_ctrl_iface_send.457] dst->addr: 127.0.0.1:45302
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[0]: easyscreen
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[1]: easyheartbeat
+D/Easybus (  753): [easy_ctrl_iface_send.464] sendto: 127.0.0.1:45302
+D/Easybus (  753): [easy_ctrl_iface_send.477] sendto success !, res=82
+D/Easybus (  753): [easy_ctrl_iface_send.457] dst->addr: 127.0.0.1:43718
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[0]: easyime
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[1]: easyheartbeat
+D/Easybus (  753): [easy_ctrl_iface_send.464] sendto: 127.0.0.1:43718
+D/Easybus (  753): [easy_ctrl_iface_send.477] sendto success !, res=82
+D/Easybus (  753): [easy_ctrl_iface_send.457] dst->addr: 127.0.0.1:49827
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[0]: easyscreen
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[1]: easyheartbea[64235.332550] a4
+t
+D/Easybus (  753): [easy_ctrl_iface_send.464] sendto: 127.0.0.1:49827
+D/Easybus (  753): [easy_ctrl_iface_send.477] sendto success !, res=82
+D/Easybus (  753): [easy_ctrl_iface_send.457] dst->addr: 127.0.0.1:35356
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[0]: easyscreen
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[1]: easyheartbeat
+D/Easybus (  753): [easy_ctrl_iface_send.464] sendto: 127.0.0.1:35356
+D/Easybus (  753): [easy_ctrl_iface_send.477] sendto success !, res=82
+D/Easybus (  753): [easy_ctrl_iface_send.457] dst->addr: 127.0.0.1:48541
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[0]: easyime
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[1]: easyheartbeat
+D/Easybus (  753): [easy_ctrl_iface_send.464] sendto: 127.0.0.1:48541
+D/Easybus (  753): [easy_ctrl_iface_send.477] sendto success !, res=82
+D/Easybus (  753): [easy_ctrl_iface_send.457] dst->addr: 127.0.0.1:40945
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[0]: easyscreen
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[1]: easyheartbeat
+D/Easybus (  753): [easy_ctrl_iface_send.464] sendto: 127.0.0.1:40945
+D/Easybus (  753): [easy_ctrl_iface_send.477] sendto success !, res=82
+D/Easybus (  753): [easy_ctrl_all_msg_cb.82] end
+D/Easybus (  753): [easy_ctrl_msg_dispatch.90] end
+D/Easybus (10369): [easybus_receive.208] res: 0, nread: 82
+D/Easybus (10369): [easybus_receive.223] receive buf: addr.ip=192.168.43.186,addr.port=38683,msgType=easyheartbeat,msgData=easyheartbeat
+D/Easybus (10369): ip = 192.168.43.186
+D/Easybus (10369): str2 - str1 = 5
+D/Easybus (10369): port_str = 38683
+D/Easybus (10369): port = 38683
+D/Easybus (10369): str2 - str1 = 13
+D/Easybus (10369): msgType = easyheartbeat
+D/Easybus (10369): msgDataSize = 13
+D/Easybus (10369): msgData = easyheartbeat
+D/Easybus (10369): [easybus_receive.265] addr:192.168.43.186:38683, msgType=easyheartbeat, msgData=easyheartbeat
+D/Easybus (10369): [easybus_receive.275] end ret=0
+D/Easybus (10369): [easybus/easybus/easybus_jni.c.easybusReceive.52] receive ret = 0
+D/Easybus (10351): [easybus_receive.208] res: 0, nread: 82
+D/Easybus (10351): [easybus_receive.223] receive buf: addr.ip=192.168.43.186,addr.port=38683,msgType=easyheartbeat,msgData=easyheartbeat
+D/Easybus (10351): ip = 192.168.43.186
+D/Easybus (10351): str2 - str1 = 5
+D/Easybus (10351): port_str = 38683
+D/Easybus (10351): port = 38683
+D/Easybus (10351): str2 - str1 = 13
+D/Easybus (10351): msgType = easyheartbeat
+D/Easybus (10351): msgDataSize = 13
+D/Easybus (10351): msgData = easyheartbeat
+D/Easybus (10351): [easybus_receive.265] addr:192.168.43.186:38683, msgType=easyheartbeat, msgData=easyheartbeat
+D/Easybus (10351): [easybus_receive.275] end ret=0
+D/Easybus (10351): [easybus/easybus/easybus_jni.c.easybusReceive.52] receive ret = 0
+D/Easybus[64235.584578] a4
+ (10351): [easyb[64235.586702] d4us/easybus/easybus_jni.c.easybusReceive.72] receive success !
+D/Easybus (10351): [easybus/easybus/easybus_jni.c.easybusReceive.73] addr:192.168.43.186:38683, mode:0, msgType:easyheartbeat, msgData:easyheartbeat
+D/Easybus (10351): [easybus/easybus/easybus_jni.c.easybusSend.126] addr:192.168.43.186:38683, mode:0, msgType:easyheartbeat, msgDataSize: 13, msgData:easyheartbeat
+D/Easybus (10351): [easybus_send.295] start
+D/Easybus (10351): [easybus_send.296] monitor_conn=0x1bca40
+D/Easybus (10351): [easybus_send.315] send buf:SEND addr.ip=192.168.43.186,addr.port=38683,msgType=easyheartbeat,msgData=easyheartbeat
+D/Easybus (  753): [easy_ctrl_iface_receive.219] start
+D/Easybus (  753): [easy_ctrl_iface_receive.235] from addr: 127.0.0.1:48108
+D/Easybus (  753): [easy_ctrl_iface_receive.237] receive res:111, buf:COOKIE=340b7d3ef079f24f SEND addr.ip=192.168.43.186,addr.port=38683,msgType=easyheartbeat,msgData=easyheartbeat
+D/Easybus (  753): [easy_ctrl_iface_process.154] buf: SEND addr.ip=192.168.43.186,addr.port=38683,msgType=easyheartbeat,msgData=easyheartbeat
+D/Easybus (  753): ip = 192.168.43.186
+D/Easybus (  753): str2 - str1 = 5
+D/Easybus (  753): port_str = 38683
+D/Easybus (  753): port = 38683
+D/Easybus (  753): str2 - str1 = 13
+D/Easybus (  753): msgType = easyheartbeat
+D/Easybus (  753): msgData = easyheartbeat
+D/Easybus (  753): easy_ctrl_iface_process addr.ip=192.168.43.186,addr.port=38683,msgType=easyheartbeat,msgData=easyheartbeat
+D/Easybus (  753): [easy_ctrl_compose_frame.178] start
+D/Easybus (  753): [easy_ctrl_compose_frame.226] data->msgDataSize:13 
+D/Easybus (  753): [easy_crc32.77] size=61
+D/Easybus (  753): [easy_ctrl_compose_frame.240] crcGen:0x1ea898bc 
+D/Easybus (  753): [easy_ctrl_compose_frame.257] encryptGen:0x9800740 
+D/Easybus (  753): the composed frame: 
+D/Easybus (  753): 45 43 45 42 01 01 01 01 00 00 
+D/Easybus (  753): 00 00 00 00 00 00 00 00 00 00 
+D/Easybus (  753): 00 00 00 00 00 00 00 00 65 61 
+D/Easybus (  753): 73 79 68 65 61 72 74 62 65 61 
+D/Easybus (  753): 74 00 00 00 00 00 00 0d 65 61 
+D/Easybus (  753): 73 79 68 65 61 72 74 62 65 61 
+D/Easybus (  753): 74 
+D/Easybus (  753): 1e 
+D/Easybus (  753): a8 
+D/Easybus (  753): 98 
+D/Easybus (  753): bc 
+D/Easybus (  753): 09 
+D/Easybus (  753): 80 
+D/Easybus (  753): 07 
+D/Easybus (  753): 40 
+D/Easybus (  753): 
+D/Easybus (  753): thr_udp_send start
+D/Easybus (  753): ip:192.168.43.186:38683, cmd_len:69
+D/Easybus (  753): thr_udp_send end
+D/Easybus (  753): [easy_ctrl_iface_process.201] ret: 0
+D/Easybus (  753): [easy_ctrl_iface_receive.316] reply=0x0, reply_len=2
+D/Easybus (  753): [easy_ctrl_iface_receive.334] end
+D/Easybus (10351): [easybus_send.319] res=0, reply=OK
+D/Easybus (10351): 
+D/Easybus (10351): [easybus_send.335] end ret=0
+D/Easybus (10351): [easybus/easybus/easybus_jni.c.easybusSend.131] send ret = 0
+D/Easybus (10351): [easybus_receive.159] start
+D/Easybus (10351): [easybus_receive.160] monitor_conn=0x1cc958
+D/Easybus (10369): [easybus/easybus/easybus_jni.c.easybusReceive.72] receive success !
+D/Easybus (10369): [easybus/easybus/easybus_jni.c.easybusReceive.73] addr:192.168.43.186:38683, mode:0, msgType:easyheartbeat, msgData:easyheartbeat
+I/MonitorCw880(10369): easybusReceive success !
+D/MonitorCw880(10369):  easybusMsg.remoteIp=  192.168.43.186 easybusMsg.remotePort=  38683 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880(10369): udp -> ip error -> currentRemoteHost=null easybusMsg.remoteIp=192.168.43.186, counter=3
+D/Easybus (10369): [easybus_receive.159] start
+D/Easybus (10369): [easybus_receive.160] monitor_conn=0x1b2378
+I//lib/ld-linux.so.3(  748): FrmCnt:11930(31,520,16) Rate:0 Sys:64235046 STC:2438234 VPTS:1112640 APTS:1112832 Delay:-1325554(40) V:0 A:0 VES:0x2f20 AES:0x0 PCM:0x0 AudioErr:0x2
+
+[64235.984617] a4
+[64235.986501] d4
+[64236.104657] a4
+I//lib/ld-linux.so.3(  748): FrmCnt:11930(31,520,16) Rate:0 Sys:64236563 STC:2439751 VPTS:1112640 APTS:1112832 Delay:-1327071(40) V:0 A:0 VES:0x2f20 AES:0x0 PCM:0x0 AudioErr:0x2
+[64237.624659] b4
+[64237.626346] D4D/dalvikvm( 1783): GC_CONCURRENT freed 724K, 65% free 2842K/7939K, paused 3ms+3ms
+I//lib/ld-linux.so.3(  748): FrmCnt:11930(31,520,16) Rate:0 Sys:64238084 STC:2441272 VPTS:1112640 APTS:1112832 Delay:-1328592(40) V:0 A:0 VES:0x2f20 AES:0x0 PCM:0x0 AudioErr:0x2
+
+[64238.184591] b4
+[64238.186518] D4D/dalvikvm( 1783): GC_CONCURRENT freed 666K, 64% free 2868K/7939K, paused 3ms+3ms
+
+[64238.788652] b4
+[64238.790523] D4D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744): ================================
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744): Warnig: Reconnect again! mCurDowningIndex:238 
+D/DataSource_M3U8(  744):  Reconnect Url : http://cibn-iss1.longvisionmedia.com:8088/vod/CIBN2013_CIBN2113040100001913_12001300/239.ts 
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744): ================================
+D/Downloader(  744): [downloadThread]Downloader::removeTask  
+D/dalvikvm( 1783): GC_CONCURRENT freed 702K, 64% free 2872K/7939K, paused 2ms+4ms
+^C
+130|shell@android:/ # 
+[64239.172596] b4
+[64239.174486] D4
+[64239.460594] b4
+[64239.462467] D4
+[64239.664692] b4
+[64239.666701] D4
+[64239.892549] b4
+[64239.894478] D4
+[64240.004587] b4
+[64240.006446] D4
+[64240.180597] b4
+[64240.182483] D4
+130|shell@android:/ # 
+130|shell@android:/ # 
+130|shell@android:/ # 
+[64241.384562] b4
+[64241.386440] D4
+[64242.056545] c4
+[64242.416585] c4
+[64242.540665] b4
+[64242.542344] D4
+[64243.196612] c4
+[64246.816563] c4
+[64247.454848] Drop 46200.
+[64248.664552] c4
+[64249.496639] c4
+[64250.214863] Drop 46300.
+[64251.100569] c4
+[64251.424654] c4
+[64251.620588] c4
+[64251.748868] c4
+[64251.900546] c4
+[64252.180599] c4
+[64252.660545] c4
+[64253.288547] c4
+[64253.616539] c4
+[64254.052543] c4
+[64254.724564] c4
+[64255.462944] Drop 46400.
+[64257.654842] Drop 46500.
+[64258.264638] c4
+[64260.062843] Drop 46600.
+[64262.218844] Drop 46700.
+[64262.936548] c4
+[64264.570873] Drop 46800.
+[64265.228597] c4
+[64266.902934] Drop 46900.
+[64268.784571] c4
+[64269.430816] Drop 47000.
+[64271.386849] Drop 47100.
+[64271.788551] c4
+[64273.656568] c4
+[64274.266887] Drop 47200.
+[64278.488756] a4
+[64278.490458] d4
+[64279.308572] a4
+[64279.310441] d4
+[64279.692595] b4
+[64279.694456] D4
+[64279.864586] a4
+[64280.104579] a4
+[64280.276572] a4
+[64281.260698] a4
+[64281.262397] d4
+[64282.060562] b4
+[64282.062428] D4
+[64283.660554] c4
+[64285.228558] c4
+[64285.488573] c4
+[64285.704544] c4
+[64286.700555] c4
+[64287.256564] c4
+[64287.940549] c4
+[64288.504580] c4
+[64289.012587] c4
+[64289.574918] Drop 47300.
+[64289.624654] c4
+[64290.532563] c4
+[64291.100578] c4
+[64291.464553] c4
+[64291.580631] c4
+[64291.732552] c4
+[64291.976617] c4
+[64292.380583] c4
+[64293.032553] c4
+[64293.456551] c4
+[64294.624577] c4
+[64294.982908] Drop 47400.
+[64295.660542] c4
+[64296.420545] c4
+[64296.704575] c4
+[64296.896596] c4
+[64297.136552] c4
+[64297.704555] c4
+[64298.376563] c4
+[64299.028592] c4
+[64299.462835] Drop 47500.
+[64300.092568] c4
+[64300.588584] c4
+[64301.820595] c4
+[64302.454848] Drop 47600.
+[64302.772575] c4
+[64303.228540] c4
+[64304.144563] c4
+[64304.733089] Thread-193: unhandled page fault (11) at 0xdeadd00d, code 0x80d
+[64304.943198] Thread-193: unhandled page fault (11) at 0xdeadd00d, code 0x80d
+[64305.306945] Drop 47700.
+[64305.420650] c4
+[64305.664710] c4
+[64305.864766] c4
+[64306.100734] c4
+[64306.424636] c4
+[64306.936686] c4
+[64307.181283] Thread-193: unhandled page fault (11) at 0xdeadd00d, code 0x80d
+[64307.188805] [COREDUMP] SIGNR:11
+[64307.188809] 
+[64307.980551] c4
+[64309.244550] c4
+[64309.782830] Drop 47800.
+[64310.184545] c4
+[64310.736545] c4
+[64311.632572] c4
+[64312.184553] c4
+[64312.688535] c4
+[64313.500553] c4
+[64313.746867] Drop 47900.
+[64313.984561] c4
+[64314.668714] c4
+[64315.340541] c4
+[64316.388597] c4
+[64317.022851] Drop 48000.
+[64317.228633] c4
+[64317.420683] c4
+[64317.696737] c4
+[64317.904608] c4
+[64318.032563] c4
+[64318.220571] c4
+[64318.528618] c4
+[64318.692582] c4
+[64318.988602] c4
+[64319.260578] c4
+[64319.704556] c4
+[64319.980555] c4
+[64320.216799] c4
+[64320.508540] c4
+[64320.644807] c4
+[64320.976583] c4
+[64321.384633] c4
+[64321.820545] c4
+[64322.104591] c4
+[64322.336574] c4
+[64322.900549] c4
+[64323.704589] c4
+[64324.488577] c4
+[64325.934840] Drop 48100.
+[64326.584592] c4
+[64327.224668] c4
+[64327.504669] c4
+[64327.980588] c4
+[64328.180599] c4
+[64328.456617] c4
+[64328.576650] c4
+[64328.852564] c4
+[64329.100568] c4
+[64329.420585] c4
+[64329.728581] c4
+[64330.140557] c4
+[64330.608770] c4
+[64331.340541] c4
+[64331.948569] c4
+[64332.464580] c4
+[64332.794841] Drop 48200.
+[64332.984541] c4
+[64333.624567] c4
+[64334.128631] c4
+[64334.376608] c4
+[64334.708603] c4
+[64334.980788] c4
+[64335.216633] c4
+[64335.384650] c4
+[64335.536560] c4
+[64335.700541] c4
+[64335.896661] c4
+[64336.064615] c4
+[64336.260599] c4
+[64336.452626] c4
+[64336.616556] c4
+[64336.944688] c4
+[64337.172651] c4
+[64337.388646] c4
+[64337.624650] c4
+[64337.820765] c4
+[64338.384624] c4
+[64338.664691] c4
+[64338.888655] c4
+[64339.336547] c4
+[64339.584572] c4
+[64339.744584] c4
+[64340.048562] c4
+[64340.300551] c4
+[64340.452544] c4
+[64340.660636] c4
+[64340.900557] c4
+[64341.020576] c4
+[64341.376568] c4
+[64341.548678] c4
+[64342.064668] c4
+[64342.296555] c4
+[64342.620558] c4
+[64342.748566] c4
+[64342.944580] c4
+[64343.144546] c4
+[64343.652561] c4
+[64344.312645] c4
+[64345.012686] c4
+[64345.620599] c4
+[64346.220575] c4
+[64348.166895] Drop 48300.
+[64348.804588] c4
+[64349.700649] c4
+[64350.132583] c4
+[64350.700573] c4
+[64351.340562] c4
+[64351.894920] Drop 48400.
+[64353.914830] Drop 48500.
+[64354.220646] c4
+[64355.132546] c4
+[64355.584637] c4
+[64355.824630] c4
+[64356.460631] c4
+[64356.988580] c4
+[64357.256572] c4
+[64357.944561] c4
+[64358.394829] Drop 48600.
+[64358.788563] c4
+[64359.220546] c4
+[64361.008649] c4
+[64361.466945] Drop 48700.
+[64362.504561] c4
+[64362.852637] c4
+[64363.016571] c4
+[64363.216555] c4
+[64363.420698] c4
+[64363.624690] c4
+[64363.944626] c4
+[64364.068595] c4
+[64364.416609] c4
+[64364.540610] c4
+[64364.704625] c4
+[64365.144597] c4
+[64365.420558] c4
+[64365.756578] c4
+[64365.944602] c4
+[64366.080599] c4
+[64366.216599] c4
+[64366.824614] c4
+[64367.064697] c4
+[64367.348583] c4
+[64367.816564] c4
+[64368.748563] c4
+[64369.812550] c4
+[64370.129938] IR: [03932] scan key value is 0xec13c936 
+[64370.129942]  
+[64370.181163] IR: [03932] scan key value is 0xec13c936 
+[64370.181168]  
+[64370.368588] c4
+[64370.558845] Drop 48800.
+[64370.936633] c4
+[64372.396711] c4
+[64372.904872] c4
+[64373.212755] c4
+[64373.380544] c4
+[64373.664603] c4
+[64373.768700] c4
+[64374.020556] c4
+[64374.268562] c4
+[64374.372692] c4
+[64374.664555] c4
+[64374.864553] c4
+[64375.104646] c4
+[64375.372540] c4
+[64375.488624] c4
+[64375.732634] c4
+[64375.932602] c4
+[64376.064600] c4
+[64376.332544] c4
+[64376.696553] c4
+[64376.860556] c4
+[64377.096558] c4
+[64377.224632] c4
+[64377.380648] c4
+[64377.592613] c4
+[64379.255706] IR: [03932] scan key value is 0xec13c936 
+[64379.255711]  
+[64379.306932] IR: [03932] scan key value is 0xec13c936 
+[64379.306937]  
+[64379.580606] c4
+[64379.944579] c4
+[64380.576581] c4
+[64380.772587] c4
+[64380.936575] c4
+[64381.136606] c4
+[64381.312555] c4
+[64381.580548] c4
+[64381.872585] c4
+[64382.108734] c4
+[64382.340560] c4
+[64382.504618] c4
+[64382.696616] c4
+[64382.904577] c4
+[64383.616699] c4
+[64384.292543] c4
+[64384.756630] c4
+[64385.186834] Drop 48900.
+[64385.428634] c4
+[64385.868667] c4
+[64386.228575] c4
+[64386.257654] IR: [03932] scan key value is 0xec13c936 
+[64386.257659]  
+[64386.308845] IR: [03932] scan key value is 0xec13c936 
+[64386.308849]  
+[64386.952574] c4
+[64387.536614] c4
+[64387.812720] c4
+[64388.024594] c4
+[64388.260549] c4
+[64388.460569] c4
+[64388.600592] c4
+[64388.744619] c4
+[64388.976671] c4
+[64389.148592] c4
+[64389.296569] c4
+[64389.504640] c4
+[64389.744614] c4
+[64389.900565] c4
+[64390.136641] c4
+[64390.300645] c4
+[64390.536633] c4
+[64390.820580] c4
+[64391.020585] c4
+[64391.176540] c4
+[64391.372575] c4
+[64391.572745] c4
+[64391.748671] c4
+[64391.972699] c4
+[64392.232698] c4
+[64392.464569] c4
+[64392.864659] c4
+[64393.144284] IR: [03932] scan key value is 0xec13c936 
+[64393.144288]  
+[64393.195480] IR: [03932] scan key value is 0xec13c936 
+[64393.195486]  
+[64393.460689] c4
+[64394.268544] c4
+[64394.828691] c4
+[64396.700699] c4
+[64398.692664] r00
+[64398.694505] U3
+[64398.696043] [SD_CTL_TASK] send msg to IMAN: data_adr=0x1f100,dalen=256
+[64399.424651] a3
+[64399.426343] d4
+[64399.427865] [SD_CTL_TASK] send msg to IMAN: data_adr=0x1f100,dalen=256
+[64400.144598] a4
+[64400.146286] d4
+[64400.784571] b4
+[64400.786447] D4
+[64401.256536] b4
+[64401.258409] D4
+[64402.260575] c4
+[64402.980558] c4
+[64403.464569] c4
+[64403.820624] c4
+[64403.984674] c4
+[64404.452633] c4
+[64405.228668] c4
+[64405.896548] c4
+[64406.504659] c4
+[64407.036667] c4
+[64407.580642] c4
+[64408.228652] c4
+[64408.860734] c4
+[64409.180574] c4
+[64409.504554] c4
+[64409.748604] c4
+[64410.024718] c4
+[64410.148616] c4
+[64410.460555] c4
+[64410.700577] c4
+[64410.852602] c4
+[64411.224565] c4
+[64411.384567] c4
+[64411.740578] c4
+[64412.020576] c4
+[64412.296583] c4
+[64412.544539] c4
+[64412.752572] c4
+[64412.904611] c4
+[64413.176566] c4
+[64413.376569] c4
+[64413.580558] c4
+[64413.744549] c4
+[64413.984630] c4
+[64414.268632] c4
+[64415.822821] Drop 49000.
+[64415.940576] c4
+[64417.096563] c4
+[64417.648554] c4
+[64418.740622] c4
+[64419.098825] Drop 49100.
+[64419.176571] c4
+[64419.656635] c4
+[64419.908550] c4
+[64420.004772] c4
+[64420.212567] c4
+[64420.384624] c4
+[64420.580578] c4
+[64420.669153] c4
+[64421.092582] c4
+[64421.660652] c4
+[64421.944709] c4
+[64422.216607] c4
+[64422.448559] c4
+[64422.824594] c4
+[64423.060566] c4
+[64423.296562] c4
+[64423.864579] c4
+[64424.292729] c4
+[64424.856698] c4
+[64425.336677] c4
+[64425.976550] c4
+[64426.376542] c4
+[64426.864632] c4
+[64427.300559] c4
+[64427.900559] c4
+[64428.296557] c4
+[64428.620545] c4
+[64428.812648] c4
+[64429.064578] c4
+[64429.300539] c4
+[64429.420790] c4
+[64429.576574] c4
+[64429.824614] c4
+[64430.032669] c4
+[64430.256673] c4
+[64430.456550] c4
+[64430.780619] c4
+[64430.936686] c4
+[64431.224625] c4
+[64431.436616] c4
+[64431.704555] c4
+[64432.020543] c4
+[64432.184623] c4
+[64432.340579] c4
+[64432.504820] c4
+[64432.784544] c4
+[64432.900580] c4
+[64433.024554] c4
+[64433.260665] c4
+[64433.456599] c4
+[64433.768776] c4
+[64434.264587] c4
+[64434.744588] c4
+[64435.308537] c4
+[64435.844775] c4
+[64436.372563] c4
+[64436.928567] c4
+[64437.700546] c4
+[64438.176572] c4
+[64438.732629] c4
+[64439.012669] c4
+[64439.268581] c4
+[64439.532725] c4
+[64439.856593] c4
+[64440.024589] c4
+[64440.292557] c4
+[64440.456547] c4
+[64440.736607] c4
+[64440.900577] c4
+[64441.136883] c4
+[64441.420713] c4
+[64441.860563] c4
+[64442.104605] c4
+[64442.468553] c4
+[64442.616684] c4
+[64442.984589] c4
+[64443.196727] c4
+[64443.332622] c4
+[64443.584642] c4
+[64443.904602] c4
+[64444.268605] c4
+[64444.504572] c4
+[64444.792625] c4
+[64445.020662] c4
+[64445.212607] c4
+[64445.412563] c4
+[64445.704558] c4
+[64445.992562] c4
+[64446.180583] c4
+[64446.416547] c4
+[64446.692573] c4
+[64446.856560] c4
+[64447.104547] c4
+[64447.500588] c4
+[64448.344635] c4
+[64448.824553] c4
+[64449.732562] c4
+[64450.464550] c4
+[64450.906838] Drop 49200.
+[64451.052603] c4
+[64451.740563] c4
+[64452.304653] c4
+[64452.500620] c4
+[64453.104588] c4
+[64453.540557] c4
+[64453.744562] c4
+[64454.068712] c4
+[64454.464732] c4
+[64454.784616] c4
+[64455.188698] c4
+[64455.456694] c4
+[64455.576646] c4
+[64455.788564] c4
+[64456.024554] c4
+[64456.188573] c4
+[64456.456551] c4
+[64456.816568] c4
+[64457.064569] c4
+[64457.452681] c4
+[64457.572662] c4
+[64457.820559] c4
+[64458.072654] c4
+[64458.664602] c4
+[64459.028598] c4
+[64459.212578] c4
+[64459.424677] c4
+[64459.620573] c4
+[64459.980558] c4
+[64460.300584] c4
+[64460.820636] c4
+[64461.148592] c4
+[64461.336606] c4
+[64461.588551] c4
+[64461.776561] c4
+[64462.060582] c4
+[64462.260551] c4
+[64462.540621] c4
+[64462.692616] c4
+[64462.948652] c4
+[64463.340570] c4
+[64463.508550] c4
+[64463.780569] c4
+[64463.972670] c4
+[64464.184582] c4
+[64464.532632] c4
+[64464.780557] c4
+[64465.016656] c4
+[64465.252683] c4
+[64465.536757] c4
+[64465.820648] c4
+[64466.024569] c4
+[64466.224646] c4
+[64466.452663] c4
+[64466.700575] c4
+[64466.828757] c4
+[64467.016560] c4
+[64467.192574] c4
+[64467.344608] c4
+[64467.580635] c4
+[64468.136594] c4
+[64468.860598] c4
+[64469.220567] c4
+[64469.548565] c4
+[64469.868583] c4
+[64470.700558] c4
+[64470.988562] c4
+[64472.096585] c4
+[64472.420542] c4
+[64472.932543] c4
+[64473.060663] c4
+[64473.504676] c4
+[64473.900541] c4
+[64474.344546] c4
+[64474.874928] Drop 49300.
+[64474.944550] c4
+[64475.620550] c4
+[64475.784592] c4
+[64476.052655] c4
+[64476.424618] c4
+[64476.704679] c4
+[64477.100641] c4
+[64477.616553] c4
+[64477.896543] c4
+[64478.084605] c4
+[64478.624561] c4
+[64479.064572] c4
+[64479.412563] c4
+[64479.975009] c4
+[64480.956814] c4
+[64481.180638] c4
+[64481.714907] c4
+[64481.944680] c4
+[64482.176619] c4
+[64482.562837] Drop 49400.
+[64482.612574] c4
+[64483.104560] c4
+[64483.416660] c4
+[64483.656559] c4
+[64483.944582] c4
+[64484.180595] c4
+[64484.736551] c4
+[64484.944711] c4
+[64485.224548] c4
+[64485.884663] c4
+[64486.016655] c4
+[64486.172561] c4
+[64486.584543] c4
+[64486.780592] c4
+[64487.028561] c4
+[64487.308608] c4
+[64487.908558] c4
+[64488.104541] c4
+[64488.932741] c4
+[64489.420648] c4
+[64489.828569] c4
+[64490.028655] c4
+[64490.424564] c4
+[64490.624749] c4
+[64491.016579] c4
+[64491.180574] c4
+[64491.348567] c4
+[64491.860614] c4
+[64492.092577] c4
+[64492.436596] c4
+[64492.668547] c4
+[64492.820556] c4
+[64493.144558] c4
+[64493.344564] c4
+[64493.620547] c4
+[64493.820565] c4
+[64494.156592] c4
+[64494.424594] c4
+[64494.824556] c4
+[64495.096580] c4
+[64495.388649] c4
+[64495.676683] c4
+[64495.832662] c4
+[64496.072622] c4
+[64496.312589] c4
+[64496.492543] c4
+[64496.696552] c4
+[64496.864609] c4
+[64497.128567] c4
+[64497.416677] c4
+[64497.584547] b4
+[64497.586279] D4
+[64497.864615] b4
+[64497.866490] D4
+[64497.940557] b4
+[64497.942437] D4
+[64498.136699] b4
+[64498.138580] D4
+[64498.548543] b4
+[64498.550422] D4
+[64498.780569] a4
+[64498.864758] a4
+[64501.768665] r00
+[64501.770454] U3
+[64501.772012] [SD_CTL_TASK] send msg to IMAN: data_adr=0x1f100,dalen=256
+[64501.936600] r00
+[64501.938376] U2
+[64501.939902] [SD_CTL_TASK] send msg to IMAN: data_adr=0x1f100,dalen=256
+[64502.104608] r00
+[64502.106384] U1
+[64502.107920] [SD_CTL_TASK] send msg to IMAN: data_adr=0x1f100,dalen=256
+[64502.272573] r00
+[64502.274347] U0
+[64502.275880] [SD_CTL_TASK] send msg to IMAN: data_adr=0x1f100,dalen=256
+
+130|shell@android:/ # 
+130|shell@android:/ # logcat
+--------- beginning of /dev/log/system
+W/ThrottleService( 1063): unable to find stats for iface rmnet0
+W/ThrottleService( 1063): unable to find stats for iface rmnet0
+W/ActivityManager( 1063): Activity pause timeout for ActivityRecord{41492728 com.aidufei.movieonline/.player.VideoPlayer}
+W/InputManagerService( 1063): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@4176b0a0 (uid=10000 pid=7119)
+I/ActivityManager( 1063): START {act=com.aidufei.programDetail cmp=com.aidufei.movieonline/.ProgramDetailActivity (has extras)} from pid 1339
+W/InputManagerService( 1063): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@41557ef0 (uid=10006 pid=1339)
+I/ActivityManager( 1063): START {flg=0x78000000 cmp=com.aidufei.movieonline/.player.VideoPlayer (has extras)} from pid 7119
+W/ThrottleService( 1063): unable to find stats for iface rmnet0
+W/ThrottleService( 1063): unable to find stats for iface rmnet0
+W/ActivityManager( 1063): Activity pause timeout for ActivityRecord{413eacd0 com.aidufei.movieonline/.player.VideoPlayer}
+W/InputManagerService( 1063): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@4176b0a0 (uid=10000 pid=7119)
+I/ActivityManager( 1063): No longer want com.coship.adjustthevolume (pid 4397): hidden #16
+W/ActivityManager( 1063): Scheduling restart of crashed service com.coship.adjustthevolume/.VolService in 5000ms
+W/ActivityManager( 1063): Scheduling restart of crashed service com.coship.adjustthevolume/.VolbarService in 15000ms
+I/ActivityManager( 1063): Start proc com.coship.adjustthevolume for service com.coship.adjustthevolume/.VolService: pid=10546 uid=1000 gids={3003, 1015, 3002, 3001, 3004}
+V/CheckBackdoors( 1898): there have same backdoor already, so do not add it
+V/CheckBackdoors( 1898): actionName=com.coship.adjustthevolume, backdoor.mBackdoorKey=0x5252525252
+V/CheckBackdoors( 1898): there have same backdoor already, so do not add it
+V/CheckBackdoors( 1898): actionName=com.coship.adjustthevolume.Volup, backdoor.mBackdoorKey=0x18
+V/CheckBackdoors( 1898): there have same backdoor already, so do not add it
+V/CheckBackdoors( 1898): actionName=com.coship.adjustthevolume.VolDown, backdoor.mBackdoorKey=0x19
+V/CheckBackdoors( 1898): add new backdoor. actionName=com.coship.adjustthevolume.VolumeKey, backdoor.mBackdoorKey=0x15
+V/CheckBackdoors( 1898): add new backdoor. actionName=com.coship.adjustthevolume.VolumeKey, backdoor.mBackdoorKey=0x16
+V/CheckBackdoors( 1898): add new backdoor. actionName=com.coship.adjustthevolume.VolumeKey, backdoor.mBackdoorKey=0x4
+W/InputManagerService( 1063): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@41557ef0 (uid=10006 pid=1339)
+V/CheckBackdoors( 1898): now remove the backdoor: index =3, actionName=com.coship.adjustthevolume.VolumeKey, backdoor.mBackdoorKey=0x15
+V/CheckBackdoors( 1898): now remove the backdoor: index =3, actionName=com.coship.adjustthevolume.VolumeKey, backdoor.mBackdoorKey=0x16
+V/CheckBackdoors( 1898): now remove the backdoor: index =3, actionName=com.coship.adjustthevolume.VolumeKey, backdoor.mBackdoorKey=0x4
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume)
+V/CheckBackdoors( 1898): add new backdoor. actionName=com.coship.adjustthevolume.VolumeKey, backdoor.mBackdoorKey=0x15
+V/CheckBackdoors( 1898): add new backdoor. actionName=com.coship.adjustthevolume.VolumeKey, backdoor.mBackdoorKey=0x16
+V/CheckBackdoors( 1898): add new backdoor. actionName=com.coship.adjustthevolume.VolumeKey, backdoor.mBackdoorKey=0x4
+W/InputManagerService( 1063): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@41557ef0 (uid=10006 pid=1339)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): this is backdoor.
+V/CheckBackdoors( 1898): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 1898): now remove the backdoor: index =3, actionName=com.coship.adjustthevolume.VolumeKey, backdoor.mBackdoorKey=0x15
+V/CheckBackdoors( 1898): now remove the backdoor: index =3, actionName=com.coship.adjustthevolume.VolumeKey, backdoor.mBackdoorKey=0x16
+V/CheckBackdoors( 1898): now remove the backdoor: index =3, actionName=com.coship.adjustthevolume.VolumeKey, backdoor.mBackdoorKey=0x4
+I/ActivityManager( 1063): START {act=com.aidufei.programDetail cmp=com.aidufei.movieonline/.ProgramDetailActivity (has extras)} from pid 1339
+W/InputManagerService( 1063): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@41557ef0 (uid=10006 pid=1339)
+I/ActivityManager( 1063): START {flg=0x78000000 cmp=com.aidufei.movieonline/.player.VideoPlayer (has extras)} from pid 7119
+I/ActivityManager( 1063): START {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 pkg=com.aidufei.movieonline cmp=com.aidufei.movieonline/.SubCatalogActivity} from pid 1339
+W/InputManagerService( 1063): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@41557ef0 (uid=10006 pid=1339)
+I/ActivityManager( 1063): START {cmp=com.aidufei.movieonline/.ProgramDetailActivity (has extras)} from pid 7119
+I/ActivityManager( 1063): START {flg=0x78000000 cmp=com.aidufei.movieonline/.player.VideoPlayer (has extras)} from pid 7119
+I/ActivityManager( 1063): START {cmp=com.aidufei.movieonline/.ProgramDetailActivity (has extras)} from pid 7119
+I/ActivityManager( 1063): START {flg=0x78000000 cmp=com.aidufei.movieonline/.player.VideoPlayer (has extras)} from pid 7119
+W/ActivityManager( 1063): Activity pause timeout for ActivityRecord{413f00a0 com.aidufei.movieonline/.player.VideoPlayer}
+I/ActivityManager( 1063): START {cmp=com.aidufei.movieonline/.ProgramDetailActivity (has extras)} from pid 7119
+I/ActivityManager( 1063): START {flg=0x78000000 cmp=com.aidufei.movieonline/.player.VideoPlayer (has extras)} from pid 7119
+I/ActivityManager( 1063): START {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.coship.cibn/.MainActivity} from pid 1063
+W/InputManagerService( 1063): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@4176b0a0 (uid=10000 pid=7119)
+I/ActivityManager( 1063): START {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.coship.cibn/.MainActivity} from pid 1063
+I/ActivityManager( 1063): START {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.coship.cibn/.MainActivity} from pid 1063
+I/ActivityManager( 1063): START {cmp=com.coship.cibn/.activity.WatchHistoryActivity (has extras)} from pid 1339
+W/ActivityManager( 1063): Duplicate finish request for ActivityRecord{4150dbd8 com.coship.cibn/.activity.WatchHistoryActivity}
+I/ActivityManager( 1063): START {flg=0x10000000 cmp=com.coship.dvbsetting/.main} from pid 1339
+V/TabletStatusBar( 1229): setLightsOn(true)
+W/InputManagerService( 1063): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@41557ef0 (uid=10006 pid=1339)
+I/ActivityManager( 1063): START {cmp=com.coship.dvbsetting/.netsetting.netSet} from pid 2141
+I/EthernetManager( 2141): Init Ethernet Manager, service: android.net.ethernet.IEthernetManager$Stub$Proxy@41592e90
+V/TabletStatusBar( 1229): setLightsOn(true)
+V/TabletStatusBar( 1229): setLightsOn(true)
+E/ActivityThread( 2141): Activity com.coship.dvbsetting.netsetting.netSet has leaked ServiceConnection android.bluetooth.BluetoothHeadset$1@41775200 that was originally bound here
+E/ActivityThread( 2141): android.app.ServiceConnectionLeaked: Activity com.coship.dvbsetting.netsetting.netSet has leaked ServiceConnection android.bluetooth.BluetoothHeadset$1@41775200 that was originally bound here
+E/ActivityThread( 2141):        at android.app.LoadedApk$ServiceDispatcher.<init>(LoadedApk.java:936)
+E/ActivityThread( 2141):        at android.app.LoadedApk.getServiceDispatcher(LoadedApk.java:830)
+E/ActivityThread( 2141):        at android.app.ContextImpl.bindService(ContextImpl.java:1142)
+E/ActivityThread( 2141):        at android.content.ContextWrapper.bindService(ContextWrapper.java:370)
+E/ActivityThread( 2141):        at android.bluetooth.BluetoothHeadset.<init>(BluetoothHeadset.java:231)
+E/ActivityThread( 2141):        at android.bluetooth.BluetoothAdapter.getProfileProxy(BluetoothAdapter.java:1168)
+E/ActivityThread( 2141):        at com.coship.dvbsetting.bluetooth.HeadsetProfile.<init>(HeadsetProfile.java:111)
+E/ActivityThread( 2141):        at com.coship.dvbsetting.netsetting.BluetoothSet.init(BluetoothSet.java:160)
+E/ActivityThread( 2141):        at com.coship.dvbsetting.netsetting.BluetoothSet.<init>(BluetoothSet.java:131)
+E/ActivityThread( 2141):        at com.coship.dvbsetting.netsetting.BluetoothSet.getInstance(BluetoothSet.java:110)
+E/ActivityThread( 2141):        at com.coship.dvbsetting.netsetting.netSet.onCreate(netSet.java:81)
+E/ActivityThread( 2141):        at android.app.Activity.performCreate(Activity.java:4465)
+E/ActivityThread( 2141):        at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1049)
+E/ActivityThread( 2141):        at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:1920)
+E/ActivityThread( 2141):        at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:1981)
+E/ActivityThread( 2141):        at android.app.ActivityThread.access$600(ActivityThread.java:123)
+E/ActivityThread( 2141):        at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1147)
+E/ActivityThread( 2141):        at android.os.Handler.dispatchMessage(Handler.java:99)
+E/ActivityThread( 2141):        at android.os.Looper.loop(Looper.java:137)
+E/ActivityThread( 2141):        at android.app.ActivityThread.main(ActivityThread.java:4424)
+E/ActivityThread( 2141):        at java.lang.reflect.Method.invokeNative(Native Method)
+E/ActivityThread( 2141):        at java.lang.reflect.Method.invoke(Method.java:511)
+E/ActivityThread( 2141):        at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:848)
+E/ActivityThread( 2141):        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:575)
+E/ActivityThread( 2141):        at dalvik.system.NativeStart.main(Native Method)
+W/ActivityManager( 1063): Unbind failed: could not find connection for android.os.BinderProxy@415ccae8
+W/InputManagerService( 1063): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@415cf590 (uid=1000 pid=2141)
+I/ActivityManager( 1063): START {act=com.aidufei.programDetail cmp=com.aidufei.movieonline/.ProgramDetailActivity (has extras)} from pid 1339
+W/InputManagerService( 1063): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@41557ef0 (uid=10006 pid=1339)
+I/ActivityManager( 1063): START {flg=0x78000000 cmp=com.aidufei.movieonline/.player.VideoPlayer (has extras)} from pid 7119
+W/InputManagerService( 1063): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@4176b0a0 (uid=10000 pid=7119)
+I/ActivityManager( 1063): START {act=com.aidufei.programDetail cmp=com.aidufei.movieonline/.ProgramDetailActivity (has extras)} from pid 1339
+W/InputManagerService( 1063): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@41557ef0 (uid=10006 pid=1339)
+I/ActivityManager( 1063): START {flg=0x78000000 cmp=com.aidufei.movieonline/.player.VideoPlayer (has extras)} from pid 7119
+W/ThrottleService( 1063): unable to find stats for iface rmnet0
+W/ThrottleService( 1063): unable to find stats for iface rmnet0
+W/ThrottleService( 1063): unable to find stats for iface rmnet0
+I/ActivityManager( 1063): Process com.coship.easycontrolime (pid 10351) has died.
+W/ActivityManager( 1063): Scheduling restart of crashed service com.coship.easycontrolime/.EasyControlIME in 1250ms
+W/ActivityManager( 1063): Scheduling restart of crashed service com.coship.easycontrolime/.server.EasyControlIMEImpl in 11250ms
+I/ActivityManager( 1063): Start proc com.coship.easycontrolime for restart com.coship.easycontrolime: pid=11544 uid=10013 gids={3003}
+W/ThrottleService( 1063): unable to find stats for iface rmnet0
+--------- beginning of /dev/log/main
+D/Easybus (10369): [easybus_receive.265] addr:192.168.43.186:38683, msgType=easyheartbeat, msgData=easyheartbeat
+D/Easybus (10369): [easybus_receive.275] end ret=0
+D/Easybus (10369): [easybus/easybus/easybus_jni.c.easybusReceive.52] receive ret = 0
+D/Easybus (  753): [easy_ctrl_iface_send.477] sendto success !, res=82
+D/Easybus (  753): [easy_ctrl_iface_send.457] dst->addr: 127.0.0.1:37286
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[0]: easyime
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[1]: easyheartbeat
+D/Easybus (  753): [easy_ctrl_iface_send.464] sendto: 127.0.0.1:37286
+D/Easybus (  753): [easy_ctrl_iface_send.477] sendto success !, res=82
+D/Easybus (  753): [easy_ctrl_iface_send.457] dst->addr: 127.0.0.1:34633
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[0]: easyime
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[1]: easyheartbeat
+D/Easybus (  753): [easy_ctrl_iface_send.464] sendto: 127.0.0.1:34633
+D/Easybus (  753): [easy_ctrl_iface_send.477] sendto success !, res=82
+D/Easybus (  753): [easy_ctrl_iface_send.457] dst->addr: 127.0.0.1:39462
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[0]: easyime
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[1]: easyheartbeat
+D/Easybus (  753): [easy_ctrl_iface_send.464] sendto: 127.0.0.1:39462
+D/Easybus (  753): [easy_ctrl_iface_send.477] sendto success !, res=82
+D/Easybus (  753): [easy_ctrl_iface_send.457] dst->addr: 127.0.0.1:45302
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[0]: easyscreen
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[1]: easyheartbeat
+D/Easybus (  753): [easy_ctrl_iface_send.464] sendto: 127.0.0.1:45302
+D/Easybus (  753): [easy_ctrl_iface_send.477] sendto success !, res=82
+D/Easybus (  753): [easy_ctrl_iface_send.457] dst->addr: 127.0.0.1:43718
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[0]: easyime
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[1]: easyheartbeat
+D/Easybus (  753): [easy_ctrl_iface_send.464] sendto: 127.0.0.1:43718
+D/Easybus (  753): [easy_ctrl_iface_send.477] sendto success !, res=82
+D/Easybus (  753): [easy_ctrl_iface_send.457] dst->addr: 127.0.0.1:49827
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[0]: easyscreen
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[1]: easyheartbeat
+D/Easybus (  753): [easy_ctrl_iface_send.464] sendto: 127.0.0.1:49827
+D/Easybus (  753): [easy_ctrl_iface_send.477] sendto success !, res=82
+D/Easybus (  753): [easy_ctrl_iface_send.457] dst->addr: 127.0.0.1:35356
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[0]: easyscreen
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[1]: easyheartbeat
+D/Easybus (  753): [easy_ctrl_iface_send.464] sendto: 127.0.0.1:35356
+D/Easybus (  753): [easy_ctrl_iface_send.477] sendto success !, res=82
+D/Easybus (  753): [easy_ctrl_iface_send.457] dst->addr: 127.0.0.1:48541
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[0]: easyime
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[1]: easyheartbeat
+D/Easybus (  753): [easy_ctrl_iface_send.464] sendto: 127.0.0.1:48541
+D/Easybus (  753): [easy_ctrl_iface_send.477] sendto success !, res=82
+D/Easybus (  753): [easy_ctrl_iface_send.457] dst->addr: 127.0.0.1:40945
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[0]: easyscreen
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[1]: easyheartbeat
+D/Easybus (  753): [easy_ctrl_iface_send.464] sendto: 127.0.0.1:40945
+D/Easybus (  753): [easy_ctrl_iface_send.477] sendto success !, res=82
+D/Easybus (  753): [easy_ctrl_all_msg_cb.82] end
+D/Easybus (  753): [easy_ctrl_msg_dispatch.90] end
+D/Easybus (10369): [easybus/easybus/easybus_jni.c.easybusReceive.72] receive success !
+D/Easybus (10369): [easybus/easybus/easybus_jni.c.easybusReceive.73] addr:192.168.43.186:38683, mode:0, msgType:easyheartbeat, msgData:easyheartbeat
+I/MonitorCw880(10369): easybusReceive success !
+D/MonitorCw880(10369):  easybusMsg.remoteIp=  192.168.43.186 easybusMsg.remotePort=  38683 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/Easybus (11544): [easybus/easybus/easybus_jni.c.easybusReceive.72] receive success !
+D/Easybus (11544): [easybus/easybus/easybus_jni.c.easybusReceive.73] addr:192.168.43.186:38683, mode:0, msgType:easyheartbeat, msgData:easyheartbeat
+D/MonitorCw880(10369): udp -> ip error -> currentRemoteHost=null easybusMsg.remoteIp=192.168.43.186, counter=3
+D/Easybus (10369): [easybus_receive.159] start
+D/Easybus (10369): [easybus_receive.160] monitor_conn=0x1b2378
+D/Easybus (11544): [easybus/easybus/easybus_jni.c.easybusSend.126] addr:192.168.43.186:38683, mode:0, msgType:easyheartbeat, msgDataSize: 13, msgData:easyheartbeat
+D/Easybus (11544): [easybus_send.295] start
+D/Easybus (11544): [easybus_send.296] monitor_conn=0x1bca40
+D/Easybus (11544): [easybus_send.315] send buf:SEND addr.ip=192.168.43.186,addr.port=38683,msgType=easyheartbeat,msgData=easyheartbeat
+D/Easybus (  753): [easy_ctrl_iface_receive.219] start
+D/Easybus (  753): [easy_ctrl_iface_receive.235] from addr: 127.0.0.1:47521
+D/Easybus (  753): [easy_ctrl_iface_receive.237] receive res:111, buf:COOKIE=340b7d3ef079f24f SEND addr.ip=192.168.43.186,addr.port=38683,msgType=easyheartbeat,msgData=easyheartbeat
+D/Easybus (  753): [easy_ctrl_iface_process.154] buf: SEND addr.ip=192.168.43.186,addr.port=38683,msgType=easyheartbeat,msgData=easyheartbeat
+D/Easybus (  753): ip = 192.168.43.186
+D/Easybus (  753): str2 - str1 = 5
+D/Easybus (  753): port_str = 38683
+D/Easybus (  753): port = 38683
+D/Easybus (  753): str2 - str1 = 13
+D/Easybus (  753): msgType = easyheartbeat
+D/Easybus (  753): msgData = easyheartbeat
+D/Easybus (  753): easy_ctrl_iface_process addr.ip=192.168.43.186,addr.port=38683,msgType=easyheartbeat,msgData=easyheartbeat
+D/Easybus (  753): [easy_ctrl_compose_frame.178] start
+D/Easybus (  753): [easy_ctrl_compose_frame.226] data->msgDataSize:13 
+D/Easybus (  753): [easy_crc32.77] size=61
+D/Easybus (  753): [easy_ctrl_compose_frame.240] crcGen:0x1ea898bc 
+D/Easybus (  753): [easy_ctrl_compose_frame.257] encryptGen:0x9800740 
+D/Easybus (  753): the composed frame: 
+D/Easybus (  753): 45 43 45 42 01 01 01 01 00 00 
+D/Easybus (  753): 00 00 00 00 00 00 00 00 00 00 
+D/Easybus (  753): 00 00 00 00 00 00 00 00 65 61 
+D/Easybus (  753): 73 79 68 65 61 72 74 62 65 61 
+D/Easybus (  753): 74 00 00 00 00 00 00 0d 65 61 
+D/Easybus (  753): 73 79 68 65 61 72 74 62 65 61 
+D/Easybus (  753): 74 
+D/Easybus (  753): 1e 
+D/Easybus (  753): a8 
+D/Easybus (  753): 98 
+D/Easybus (  753): bc 
+D/Easybus (  753): 09 
+D/Easybus (  753): 80 
+D/Easybus (  753): 07 
+D/Easybus (  753): 40 
+D/Easybus (  753): 
+D/Easybus (  753): thr_udp_send start
+D/Easybus (  753): ip:192.168.43.186:38683, cmd_len:69
+D/Easybus (  753): thr_udp_send end
+D/Easybus (  753): [easy_ctrl_iface_process.201] ret: 0
+D/Easybus (  753): [easy_ctrl_iface_receive.316] reply=0x0, reply_len=2
+D/Easybus (  753): [easy_ctrl_iface_receive.334] end
+D/Easybus (11544): [easybus_send.319] res=0, reply=OK
+D/Easybus (11544): 
+D/Easybus (11544): [easybus_send.335] end ret=0
+D/Easybus (11544): [easybus/easybus/easybus_jni.c.easybusSend.131] send ret = 0
+D/Easybus (11544): [easybus_receive.159] start
+D/Easybus (11544): [easybus_receive.160] monitor_conn=0x1bf730
+D/dalvikvm( 1783): GC_CONCURRENT freed 876K, 65% free 2852K/7939K, paused 2ms+3ms
+D/dalvikvm( 1783): GC_CONCURRENT freed 698K, 65% free 2857K/7939K, paused 3ms+2ms
+D/dalvikvm( 1783): GC_CONCURRENT freed 675K, 64% free 2886K/7939K, paused 2ms+2ms
+D/dalvikvm( 1783): GC_CONCURRENT freed 742K, 63% free 2945K/7939K, paused 2ms+2ms
+D/dalvikvm( 1783): GC_CONCURRENT freed 806K, 64% free 2884K/7939K, paused 3ms+2ms
+D/dalvikvm( 1783): GC_CONCURRENT freed 718K, 64% free 2867K/7939K, paused 2ms+3ms
+D/dalvikvm( 1783): GC_CONCURRENT freed 701K, 64% free 2870K/7939K, paused 2ms+2ms
+D/dalvikvm( 1783): GC_CONCURRENT freed 717K, 63% free 2965K/7939K, paused 2ms+3ms
+D/dalvikvm( 1783): GC_CONCURRENT freed 828K, 63% free 2954K/7939K, paused 2ms+2ms
+D/dalvikvm( 1783): GC_CONCURRENT freed 830K, 65% free 2847K/7939K, paused 3ms+3ms
+D/dalvikvm( 1783): GC_CONCURRENT freed 666K, 64% free 2870K/7939K, paused 2ms+2ms
+D/dalvikvm( 1783): GC_CONCURRENT freed 704K, 64% free 2867K/7939K, paused 2ms+3ms
+D/dalvikvm( 1783): GC_CONCURRENT freed 703K, 64% free 2872K/7939K, paused 2ms+3ms
+D/dalvikvm( 1783): GC_CONCURRENT freed 704K, 64% free 2867K/7939K, paused 2ms+2ms
+D/dalvikvm( 1783): GC_CONCURRENT freed 704K, 64% free 2870K/7939K, paused 3ms+2ms
+D/dalvikvm( 1783): GC_CONCURRENT freed 703K, 64% free 2872K/7939K, paused 2ms+2ms
+D/dalvikvm( 1783): GC_CONCURRENT freed 704K, 64% free 2872K/7939K, paused 4ms+3ms
+D/Easybus (  753): [easy_ctrl_udp_receive_thread.89] recvfrom n=69
+D/Easybus (  753): [easy_ctrl_udp_receive_thread.98] recvAddr:192.168.43.186:38683
+D/Easybus (  753): [easy_ctrl_decompose_frame.38] msgLen: 69 
+D/Easybus (  753): the receive frame: 
+D/Easybus (  753): 45 43 45 42 01 01 01 01 00 00 
+D/Easybus (  753): 00 00 00 00 00 00 00 00 00 00 
+D/Easybus (  753): 00 00 00 00 00 00 11 a8 65 61 
+D/Easybus (  753): 73 79 68 65 61 72 74 62 65 61 
+D/Easybus (  753): 74 00 00 00 00 00 00 0d 65 61 
+D/Easybus (  753): 73 79 68 65 61 72 74 62 65 61 
+D/Easybus (  753): 74 
+D/Easybus (  753): d5 
+D/Easybus (  753): 09 
+D/Easybus (  753): 04 
+D/Easybus (  753): 6e 
+D/Easybus (  753): 00 
+D/Easybus (  753): c0 
+D/Easybus (  753): 35 
+D/Easybus (  753): 48 
+D/Easybus (  753): 
+D/Easybus (  753): [easy_ctrl_decompose_frame.74] crcFlag=1
+D/Easybus (  753): [easy_ctrl_decompose_frame.82] encryptFlag=1
+D/Easybus (  753): [easy_ctrl_decompose_frame.96] msgNum=4520
+D/Easybus (  753): [easy_ctrl_decompose_frame.101] msgType=easyheartbeat
+D/Easybus (  753): [easy_ctrl_decompose_frame.107] data.msgDataSize=13
+D/Easybus (  753): [easy_crc32.77] size=61
+D/Easybus (  753): [easy_ctrl_decompose_frame.121] crcRecv:0xd509046e, crcGen:0xd509046e 
+D/Easybus (  753): [easy_ctrl_decompose_frame.143] encryptRecv:0xc03548, encryptGen:0xc03548 
+D/Easybus (  753): [easy_ctrl_decompose_frame.158] msgData=easyheartbeat
+D/Easybus (  753): [easy_ctrl_msg_dispatch.87] start
+D/Easybus (  753): [easy_ctrl_vinput_msg_cb.399] start
+D/Easybus (  753): [easy_ctrl_vinput_msg_cb.413] data->msgType:easyheartbeat
+D/Easybus (  753): [easy_ctrl_vinput_msg_cb.463] end
+D/Easybus (  753): [easy_ctrl_all_msg_cb.59] start
+D/Easybus (  753): easy_msg buf = addr.ip=192.168.43.186,addr.port=38683,msgType=easyheartbeat,msgData=easyheartbeat
+D/Easybus (  753): [easy_ctrl_iface_send.445] priv->sock = 9
+D/Easybus (  753): [easy_ctrl_iface_send.449] msgtype=easyheartbeat bufLen=82, buf=addr.ip=192.168.43.186,addr.port=38683,msgType=easyheartbeat,msgData=easyheartbeat
+D/Easybus (  753): [easy_ctrl_iface_send.457] dst->addr: 127.0.0.1:37463
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[0]: easyime
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[1]: easyheartbeat
+D/Easybus (  753): [easy_ctrl_iface_send.464] sendto: 127.0.0.1:37463
+D/Easybus (  753): [easy_ctrl_iface_send.477] sendto success !, res=82
+D/Easybus (  753): [easy_ctrl_iface_send.457] dst->addr: 127.0.0.1:56078
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[0]: easyscreen
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[1]: easyheartbeat
+D/Easybus (  753): [easy_ctrl_iface_send.464] sendto: 127.0.0.1:56078
+D/Easybus (11544): [easybus_receive.208] res: 0, nread: 82
+D/Easybus (11544): [easybus_receive.223] receive buf: addr.ip=192.168.43.186,addr.port=38683,msgType=easyheartbeat,msgData=easyheartbeat
+D/Easybus (11544): ip = 192.168.43.186
+D/Easybus (11544): str2 - str1 = 5
+D/Easybus (11544): port_str = 38683
+D/Easybus (11544): port = 38683
+D/Easybus (11544): str2 - str1 = 13
+D/Easybus (11544): msgType = easyheartbeat
+D/Easybus (11544): msgDataSize = 13
+D/Easybus (11544): msgData = easyheartbeat
+D/Easybus (11544): [easybus_receive.265] addr:192.168.43.186:38683, msgType=easyheartbeat, msgData=easyheartbeat
+D/Easybus (11544): [easybus_receive.275] end ret=0
+D/Easybus (11544): [easybus/easybus/easybus_jni.c.easybusReceive.52] receive ret = 0
+D/Easybus (11544): [easybus/easybus/easybus_jni.c.easybusReceive.72] receive success !
+D/Easybus (11544): [easybus/easybus/easybus_jni.c.easybusReceive.73] addr:192.168.43.186:38683, mode:0, msgType:easyheartbeat, msgData:easyheartbeat
+D/Easybus (11544): [easybus/easybus/easybus_jni.c.easybusSend.126] addr:192.168.43.186:38683, mode:0, msgType:easyheartbeat, msgDataSize: 13, msgData:easyheartbeat
+D/Easybus (11544): [easybus_send.295] start
+D/Easybus (11544): [easybus_send.296] monitor_conn=0x1bca40
+D/Easybus (11544): [easybus_send.315] send buf:SEND addr.ip=192.168.43.186,addr.port=38683,msgType=easyheartbeat,msgData=easyheartbeat
+D/Easybus (  753): [easy_ctrl_iface_receive.219] start
+D/Easybus (  753): [easy_ctrl_iface_receive.235] from addr: 127.0.0.1:47521
+D/Easybus (  753): [easy_ctrl_iface_receive.237] receive res:111, buf:COOKIE=340b7d3ef079f24f SEND addr.ip=192.168.43.186,addr.port=38683,msgType=easyheartbeat,msgData=easyheartbeat
+D/Easybus (  753): [easy_ctrl_iface_process.154] buf: SEND addr.ip=192.168.43.186,addr.port=38683,msgType=easyheartbeat,msgData=easyheartbeat
+D/Easybus (  753): ip = 192.168.43.186
+D/Easybus (  753): str2 - str1 = 5
+D/Easybus (  753): port_str = 38683
+D/Easybus (  753): port = 38683
+D/Easybus (  753): str2 - str1 = 13
+D/Easybus (  753): msgType = easyheartbeat
+D/Easybus (  753): msgData = easyheartbeat
+D/Easybus (  753): easy_ctrl_iface_process addr.ip=192.168.43.186,addr.port=38683,msgType=easyheartbeat,msgData=easyheartbeat
+D/Easybus (  753): [easy_ctrl_compose_frame.178] start
+D/Easybus (  753): [easy_ctrl_compose_frame.226] data->msgDataSize:13 
+D/Easybus (  753): [easy_crc32.77] size=61
+D/Easybus (  753): [easy_ctrl_compose_frame.240] crcGen:0x1ea898bc 
+D/Easybus (  753): [easy_ctrl_compose_frame.257] encryptGen:0x9800740 
+D/Easybus (  753): the composed frame: 
+D/Easybus (  753): 45 43 45 42 01 01 01 01 00 00 
+D/Easybus (  753): 00 00 00 00 00 00 00 00 00 00 
+D/Easybus (  753): 00 00 00 00 00 00 00 00 65 61 
+D/Easybus (  753): 73 79 68 65 61 72 74 62 65 61 
+D/Easybus (  753): 74 00 00 00 00 00 00 0d 65 61 
+D/Easybus (  753): 73 79 68 65 61 72 74 62 65 61 
+D/Easybus (  753): 74 
+D/Easybus (  753): 1e 
+D/Easybus (  753): a8 
+D/Easybus (  753): 98 
+D/Easybus (  753): bc 
+D/Easybus (  753): 09 
+D/Easybus (  753): 80 
+D/Easybus (  753): 07 
+D/Easybus (  753): 40 
+D/Easybus (  753): 
+D/Easybus (  753): thr_udp_send start
+D/Easybus (  753): ip:192.168.43.186:38683, cmd_len:69
+D/Easybus (  753): thr_udp_send end
+D/Easybus (  753): [easy_ctrl_iface_process.201] ret: 0
+D/Easybus (  753): [easy_ctrl_iface_receive.316] reply=0x0, reply_len=2
+D/Easybus (  753): [easy_ctrl_iface_receive.334] end
+D/Easybus (  753): [easy_ctrl_iface_send.477] sendto success !, res=82
+D/Easybus (  753): [easy_ctrl_iface_send.457] dst->addr: 127.0.0.1:37286
+D/Easybus (10369): [easybus_receive.208] res: 0, nread: 82
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[0]: easyime
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[1]: easyheartbeat
+D/Easybus (10369): [easybus_receive.223] receive buf: addr.ip=192.168.43.186,addr.port=38683,msgType=easyheartbeat,msgData=easyheartbeat
+D/Easybus (10369): ip = 192.168.43.186
+D/Easybus (  753): [easy_ctrl_iface_send.464] sendto: 127.0.0.1:37286
+D/Easybus (10369): str2 - str1 = 5
+D/Easybus (10369): port_str = 38683
+D/Easybus (10369): port = 38683
+D/Easybus (10369): str2 - str1 = 13
+D/Easybus (10369): msgType = easyheartbeat
+D/Easybus (10369): msgDataSize = 13
+D/Easybus (10369): msgData = easyheartbeat
+D/Easybus (10369): [easybus_receive.265] addr:192.168.43.186:38683, msgType=easyheartbeat, msgData=easyheartbeat
+D/Easybus (  753): [easy_ctrl_iface_send.477] sendto success !, res=82
+D/Easybus (10369): [easybus_receive.275] end ret=0
+D/Easybus (  753): [easy_ctrl_iface_send.457] dst->addr: 127.0.0.1:34633
+D/Easybus (10369): [easybus/easybus/easybus_jni.c.easybusReceive.52] receive ret = 0
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[0]: easyime
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[1]: easyheartbeat
+D/Easybus (  753): [easy_ctrl_iface_send.464] sendto: 127.0.0.1:34633
+D/Easybus (  753): [easy_ctrl_iface_send.477] sendto success !, res=82
+D/Easybus (  753): [easy_ctrl_iface_send.457] dst->addr: 127.0.0.1:39462
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[0]: easyime
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[1]: easyheartbeat
+D/Easybus (  753): [easy_ctrl_iface_send.464] sendto: 127.0.0.1:39462
+D/Easybus (  753): [easy_ctrl_iface_send.477] sendto success !, res=82
+D/Easybus (  753): [easy_ctrl_iface_send.457] dst->addr: 127.0.0.1:45302
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[0]: easyscreen
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[1]: easyheartbeat
+D/Easybus (  753): [easy_ctrl_iface_send.464] sendto: 127.0.0.1:45302
+D/Easybus (  753): [easy_ctrl_iface_send.477] sendto success !, res=82
+D/Easybus (  753): [easy_ctrl_iface_send.457] dst->addr: 127.0.0.1:43718
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[0]: easyime
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[1]: easyheartbeat
+D/Easybus (  753): [easy_ctrl_iface_send.464] sendto: 127.0.0.1:43718
+D/Easybus (  753): [easy_ctrl_iface_send.477] sendto success !, res=82
+D/Easybus (  753): [easy_ctrl_iface_send.457] dst->addr: 127.0.0.1:49827
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[0]: easyscreen
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[1]: easyheartbeat
+D/Easybus (  753): [easy_ctrl_iface_send.464] sendto: 127.0.0.1:49827
+D/Easybus (  753): [easy_ctrl_iface_send.477] sendto success !, res=82
+D/Easybus (  753): [easy_ctrl_iface_send.457] dst->addr: 127.0.0.1:35356
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[0]: easyscreen
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[1]: easyheartbeat
+D/Easybus (  753): [easy_ctrl_iface_send.464] sendto: 127.0.0.1:35356
+D/Easybus (  753): [easy_ctrl_iface_send.477] sendto success !, res=82
+D/Easybus (  753): [easy_ctrl_iface_send.457] dst->addr: 127.0.0.1:48541
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[0]: easyime
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[1]: easyheartbeat
+D/Easybus (  753): [easy_ctrl_iface_send.464] sendto: 127.0.0.1:48541
+D/Easybus (  753): [easy_ctrl_iface_send.477] sendto success !, res=82
+D/Easybus (  753): [easy_ctrl_iface_send.457] dst->addr: 127.0.0.1:40945
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[0]: easyscreen
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[1]: easyheartbeat
+D/Easybus (  753): [easy_ctrl_iface_send.464] sendto: 127.0.0.1:40945
+D/Easybus (  753): [easy_ctrl_iface_send.477] sendto success !, res=82
+D/Easybus (  753): [easy_ctrl_all_msg_cb.82] end
+D/Easybus (  753): [easy_ctrl_msg_dispatch.90] end
+D/Easybus (11544): [easybus_send.319] res=0, reply=OK
+D/Easybus (11544): 
+D/Easybus (11544): [easybus_send.335] end ret=0
+D/Easybus (11544): [easybus/easybus/easybus_jni.c.easybusSend.131] send ret = 0
+D/Easybus (11544): [easybus_receive.159] start
+D/Easybus (11544): [easybus_receive.160] monitor_conn=0x1bf730
+D/Easybus (10369): [easybus/easybus/easybus_jni.c.easybusReceive.72] receive success !
+D/Easybus (10369): [easybus/easybus/easybus_jni.c.easybusReceive.73] addr:192.168.43.186:38683, mode:0, msgType:easyheartbeat, msgData:easyheartbeat
+I/MonitorCw880(10369): easybusReceive success !
+D/MonitorCw880(10369):  easybusMsg.remoteIp=  192.168.43.186 easybusMsg.remotePort=  38683 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880(10369): udp -> ip error -> currentRemoteHost=null easybusMsg.remoteIp=192.168.43.186, counter=3
+D/Easybus (10369): [easybus_receive.159] start
+D/Easybus (10369): [easybus_receive.160] monitor_conn=0x1b2378
+D/dalvikvm( 1783): GC_CONCURRENT freed 704K, 64% free 2867K/7939K, paused 2ms+3ms
+D/dalvikvm( 1783): GC_CONCURRENT freed 704K, 64% free 2867K/7939K, paused 2ms+2ms
+D/dalvikvm( 1783): GC_CONCURRENT freed 705K, 64% free 2870K/7939K, paused 2ms+3ms
+D/dalvikvm( 1783): GC_CONCURRENT freed 706K, 64% free 2869K/7939K, paused 2ms+3ms
+D/Easybus (  753): [easy_ctrl_udp_receive_thread.89] recvfrom n=69
+D/Easybus (  753): [easy_ctrl_udp_receive_thread.98] recvAddr:192.168.43.186:38683
+D/Easybus (  753): [easy_ctrl_decompose_frame.38] msgLen: 69 
+D/Easybus (  753): the receive frame: 
+D/Easybus (  753): 45 43 45 42 01 01 01 01 00 00 
+D/Easybus (  753): 00 00 00 00 00 00 00 00 00 00 
+D/Easybus (  753): 00 00 00 00 00 00 11 a9 65 61 
+D/Easybus (  753): 73 79 68 65 61 72 74 62 65 61 
+D/Easybus (  753): 74 00 00 00 00 00 00 0d 65 61 
+D/Easybus (  753): 73 79 68 65 61 72 74 62 65 61 
+D/Easybus (  753): 74 
+D/Easybus (  753): 4f 
+D/Easybus (  753): da 
+D/Easybus (  753): 87 
+D/Easybus (  753): 01 
+D/Easybus (  753): 08 
+D/Easybus (  753): 20 
+D/Easybus (  753): 13 
+D/Easybus (  753): d0 
+D/Easybus (  753): 
+D/Easybus (  753): [easy_ctrl_decompose_frame.74] crcFlag=1
+D/Easybus (  753): [easy_ctrl_decompose_frame.82] encryptFlag=1
+D/Easybus (  753): [easy_ctrl_decompose_frame.96] msgNum=4521
+D/Easybus (  753): [easy_ctrl_decompose_frame.101] msgType=easyheartbeat
+D/Easybus (  753): [easy_ctrl_decompose_frame.107] data.msgDataSize=13
+D/Easybus (  753): [easy_crc32.77] size=61
+D/Easybus (  753): [easy_ctrl_decompose_frame.121] crcRecv:0x4fda8701, crcGen:0x4fda8701 
+D/Easybus (  753): [easy_ctrl_decompose_frame.143] encryptRecv:0x82013d0, encryptGen:0x82013d0 
+D/Easybus (  753): [easy_ctrl_decompose_frame.158] msgData=easyheartbeat
+D/Easybus (  753): [easy_ctrl_msg_dispatch.87] start
+D/Easybus (  753): [easy_ctrl_vinput_msg_cb.399] start
+D/Easybus (  753): [easy_ctrl_vinput_msg_cb.413] data->msgType:easyheartbeat
+D/Easybus (  753): [easy_ctrl_vinput_msg_cb.463] end
+D/Easybus (  753): [easy_ctrl_all_msg_cb.59] start
+D/Easybus (  753): easy_msg buf = addr.ip=192.168.43.186,addr.port=38683,msgType=easyheartbeat,msgData=easyheartbeat
+D/Easybus (  753): [easy_ctrl_iface_send.445] priv->sock = 9
+D/Easybus (  753): [easy_ctrl_iface_send.449] msgtype=easyheartbeat bufLen=82, buf=addr.ip=192.168.43.186,addr.port=38683,msgType=easyheartbeat,msgData=easyheartbeat
+D/Easybus (  753): [easy_ctrl_iface_send.457] dst->addr: 127.0.0.1:37463
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[0]: easyime
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[1]: easyheartbeat
+D/Easybus (  753): [easy_ctrl_iface_send.464] sendto: 127.0.0.1:37463
+D/Easybus (  753): [easy_ctrl_iface_send.477] sendto success !, res=82
+D/Easybus (  753): [easy_ctrl_iface_send.457] dst->addr: 127.0.0.1:56078
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[0]: easyscreen
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[1]: easyheartbeat
+D/Easybus (  753): [easy_ctrl_iface_send.464] sendto: 127.0.0.1:56078
+D/Easybus (  753): [easy_ctrl_iface_send.477] sendto success !, res=82
+D/Easybus (  753): [easy_ctrl_iface_send.457] dst->addr: 127.0.0.1:37286
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[0]: easyime
+D/Easybus (10369): [easybus_receive.208] res: 0, nread: 82
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[1]: easyheartbeat
+D/Easybus (10369): [easybus_receive.223] receive buf: addr.ip=192.168.43.186,addr.port=38683,msgType=easyheartbeat,msgData=easyheartbeat
+D/Easybus (  753): [easy_ctrl_iface_send.464] sendto: 127.0.0.1:37286
+D/Easybus (10369): ip = 192.168.43.186
+D/Easybus (10369): str2 - str1 = 5
+D/Easybus (10369): port_str = 38683
+D/Easybus (10369): port = 38683
+D/Easybus (10369): str2 - str1 = 13
+D/Easybus (10369): msgType = easyheartbeat
+D/Easybus (10369): msgDataSize = 13
+D/Easybus (10369): msgData = easyheartbeat
+D/Easybus (10369): [easybus_receive.265] addr:192.168.43.186:38683, msgType=easyheartbeat, msgData=easyheartbeat
+D/Easybus (10369): [easybus_receive.275] end ret=0
+D/Easybus (10369): [easybus/easybus/easybus_jni.c.easybusReceive.52] receive ret = 0
+D/Easybus (  753): [easy_ctrl_iface_send.477] sendto success !, res=82
+D/Easybus (  753): [easy_ctrl_iface_send.457] dst->addr: 127.0.0.1:34633
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[0]: easyime
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[1]: easyheartbeat
+D/Easybus (  753): [easy_ctrl_iface_send.464] sendto: 127.0.0.1:34633
+D/Easybus (  753): [easy_ctrl_iface_send.477] sendto success !, res=82
+D/Easybus (  753): [easy_ctrl_iface_send.457] dst->addr: 127.0.0.1:39462
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[0]: easyime
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[1]: easyheartbeat
+D/Easybus (  753): [easy_ctrl_iface_send.464] sendto: 127.0.0.1:39462
+D/Easybus (  753): [easy_ctrl_iface_send.477] sendto success !, res=82
+D/Easybus (  753): [easy_ctrl_iface_send.457] dst->addr: 127.0.0.1:45302
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[0]: easyscreen
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[1]: easyheartbeat
+D/Easybus (  753): [easy_ctrl_iface_send.464] sendto: 127.0.0.1:45302
+D/Easybus (  753): [easy_ctrl_iface_send.477] sendto success !, res=82
+D/Easybus (  753): [easy_ctrl_iface_send.457] dst->addr: 127.0.0.1:43718
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[0]: easyime
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[1]: easyheartbeat
+D/Easybus (  753): [easy_ctrl_iface_send.464] sendto: 127.0.0.1:43718
+D/Easybus (  753): [easy_ctrl_iface_send.477] sendto success !, res=82
+D/Easybus (  753): [easy_ctrl_iface_send.457] dst->addr: 127.0.0.1:49827
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[0]: easyscreen
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[1]: easyheartbeat
+D/Easybus (  753): [easy_ctrl_iface_send.464] sendto: 127.0.0.1:49827
+D/Easybus (  753): [easy_ctrl_iface_send.477] sendto success !, res=82
+D/Easybus (  753): [easy_ctrl_iface_send.457] dst->addr: 127.0.0.1:35356
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[0]: easyscreen
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[1]: easyheartbeat
+D/Easybus (  753): [easy_ctrl_iface_send.464] sendto: 127.0.0.1:35356
+D/Easybus (  753): [easy_ctrl_iface_send.477] sendto success !, res=82
+D/Easybus (  753): [easy_ctrl_iface_send.457] dst->addr: 127.0.0.1:48541
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[0]: easyime
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[1]: easyheartbeat
+D/Easybus (  753): [easy_ctrl_iface_send.464] sendto: 127.0.0.1:48541
+D/Easybus (  753): [easy_ctrl_iface_send.477] sendto success !, res=82
+D/Easybus (  753): [easy_ctrl_iface_send.457] dst->addr: 127.0.0.1:40945
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[0]: easyscreen
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[1]: easyheartbeat
+D/Easybus (  753): [easy_ctrl_iface_send.464] sendto: 127.0.0.1:40945
+D/Easybus (  753): [easy_ctrl_iface_send.477] sendto success !, res=82
+D/Easybus (  753): [easy_ctrl_all_msg_cb.82] end
+D/Easybus (  753): [easy_ctrl_msg_dispatch.90] end
+D/Easybus (11544): [easybus_receive.208] res: 0, nread: 82
+D/Easybus (11544): [easybus_receive.223] receive buf: addr.ip=192.168.43.186,addr.port=38683,msgType=easyheartbeat,msgData=easyheartbeat
+D/Easybus (11544): ip = 192.168.43.186
+D/Easybus (11544): str2 - str1 = 5
+D/Easybus (11544): port_str = 38683
+D/Easybus (11544): port = 38683
+D/Easybus (11544): str2 - str1 = 13
+D/Easybus (11544): msgType = easyheartbeat
+D/Easybus (11544): msgDataSize = 13
+D/Easybus (11544): msgData = easyheartbeat
+D/Easybus (11544): [easybus_receive.265] addr:192.168.43.186:38683, msgType=easyheartbeat, msgData=easyheartbeat
+D/Easybus (11544): [easybus_receive.275] end ret=0
+D/Easybus (11544): [easybus/easybus/easybus_jni.c.easybusReceive.52] receive ret = 0
+D/Easybus (10369): [easybus/easybus/easybus_jni.c.easybusReceive.72] receive success !
+D/Easybus (10369): [easybus/easybus/easybus_jni.c.easybusReceive.73] addr:192.168.43.186:38683, mode:0, msgType:easyheartbeat, msgData:easyheartbeat
+I/MonitorCw880(10369): easybusReceive success !
+D/MonitorCw880(10369):  easybusMsg.remoteIp=  192.168.43.186 easybusMsg.remotePort=  38683 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880(10369): udp -> ip error -> currentRemoteHost=null easybusMsg.remoteIp=192.168.43.186, counter=3
+D/Easybus (10369): [easybus_receive.159] start
+D/Easybus (10369): [easybus_receive.160] monitor_conn=0x1b2378
+D/Easybus (11544): [easybus/easybus/easybus_jni.c.easybusReceive.72] receive success !
+D/Easybus (11544): [easybus/easybus/easybus_jni.c.easybusReceive.73] addr:192.168.43.186:38683, mode:0, msgType:easyheartbeat, msgData:easyheartbeat
+D/Easybus (11544): [easybus/easybus/easybus_jni.c.easybusSend.126] addr:192.168.43.186:38683, mode:0, msgType:easyheartbeat, msgDataSize: 13, msgData:easyheartbeat
+D/Easybus (11544): [easybus_send.295] start
+D/Easybus (11544): [easybus_send.296] monitor_conn=0x1bca40
+D/Easybus (11544): [easybus_send.315] send buf:SEND addr.ip=192.168.43.186,addr.port=38683,msgType=easyheartbeat,msgData=easyheartbeat
+D/Easybus (  753): [easy_ctrl_iface_receive.219] start
+D/Easybus (  753): [easy_ctrl_iface_receive.235] from addr: 127.0.0.1:47521
+D/Easybus (  753): [easy_ctrl_iface_receive.237] receive res:111, buf:COOKIE=340b7d3ef079f24f SEND addr.ip=192.168.43.186,addr.port=38683,msgType=easyheartbeat,msgData=easyheartbeat
+D/Easybus (  753): [easy_ctrl_iface_process.154] buf: SEND addr.ip=192.168.43.186,addr.port=38683,msgType=easyheartbeat,msgData=easyheartbeat
+D/Easybus (  753): ip = 192.168.43.186
+D/Easybus (  753): str2 - str1 = 5
+D/Easybus (  753): port_str = 38683
+D/Easybus (  753): port = 38683
+D/Easybus (  753): str2 - str1 = 13
+D/Easybus (  753): msgType = easyheartbeat
+D/Easybus (  753): msgData = easyheartbeat
+D/Easybus (  753): easy_ctrl_iface_process addr.ip=192.168.43.186,addr.port=38683,msgType=easyheartbeat,msgData=easyheartbeat
+D/Easybus (  753): [easy_ctrl_compose_frame.178] start
+D/Easybus (  753): [easy_ctrl_compose_frame.226] data->msgDataSize:13 
+D/Easybus (  753): [easy_crc32.77] size=61
+D/Easybus (  753): [easy_ctrl_compose_frame.240] crcGen:0x1ea898bc 
+D/Easybus (  753): [easy_ctrl_compose_frame.257] encryptGen:0x9800740 
+D/Easybus (  753): the composed frame: 
+D/Easybus (  753): 45 43 45 42 01 01 01 01 00 00 
+D/Easybus (  753): 00 00 00 00 00 00 00 00 00 00 
+D/Easybus (  753): 00 00 00 00 00 00 00 00 65 61 
+D/Easybus (  753): 73 79 68 65 61 72 74 62 65 61 
+D/Easybus (  753): 74 00 00 00 00 00 00 0d 65 61 
+D/Easybus (  753): 73 79 68 65 61 72 74 62 65 61 
+D/Easybus (  753): 74 
+D/Easybus (  753): 1e 
+D/Easybus (  753): a8 
+D/Easybus (  753): 98 
+D/Easybus (  753): bc 
+D/Easybus (  753): 09 
+D/Easybus (  753): 80 
+D/Easybus (  753): 07 
+D/Easybus (  753): 40 
+D/Easybus (  753): 
+D/Easybus (  753): thr_udp_send start
+D/Easybus (  753): ip:192.168.43.186:38683, cmd_len:69
+D/Easybus (  753): thr_udp_send end
+D/Easybus (  753): [easy_ctrl_iface_process.201] ret: 0
+D/Easybus (  753): [easy_ctrl_iface_receive.316] reply=0x0, reply_len=2
+D/Easybus (  753): [easy_ctrl_iface_receive.334] end
+D/Easybus (11544): [easybus_send.319] res=0, reply=OK
+D/Easybus (11544): 
+D/Easybus (11544): [easybus_send.335] end ret=0
+D/Easybus (11544): [easybus/easybus/easybus_jni.c.easybusSend.131] send ret = 0
+D/Easybus (11544): [easybus_receive.159] start
+D/Easybus (11544): [easybus_receive.160] monitor_conn=0x1bf730
+D/dalvikvm( 1783): GC_CONCURRENT freed 704K, 64% free 2870K/7939K, paused 2ms+3ms
+D/HomePlayerLib( 1783): hostaddress count is 2
+D/dalvikvm( 1783): GC_CONCURRENT freed 719K, 64% free 2863K/7939K, paused 6ms+2ms
+D/dalvikvm( 1783): GC_CONCURRENT freed 713K, 63% free 2984K/7939K, paused 3ms+3ms
+D/dalvikvm( 1783): GC_CONCURRENT freed 852K, 64% free 2872K/7939K, paused 2ms+2ms
+D/dalvikvm( 1783): GC_CONCURRENT freed 705K, 64% free 2869K/7939K, paused 2ms+3ms
+D/dalvikvm( 1783): GC_CONCURRENT freed 703K, 63% free 2968K/7939K, paused 2ms+3ms
+D/dalvikvm( 1783): GC_CONCURRENT freed 824K, 64% free 2874K/7939K, paused 2ms+3ms
+D/dalvikvm( 1783): GC_CONCURRENT freed 720K, 62% free 3030K/7939K, paused 3ms+3ms
+D/dalvikvm( 1783): GC_CONCURRENT freed 917K, 64% free 2886K/7939K, paused 2ms+3ms
+D/dalvikvm( 1783): GC_CONCURRENT freed 719K, 63% free 3006K/7939K, paused 2ms+3ms
+D/dalvikvm( 1783): GC_CONCURRENT freed 898K, 64% free 2871K/7939K, paused 3ms+3ms
+D/dalvikvm( 1783): GC_CONCURRENT freed 712K, 64% free 2866K/7939K, paused 2ms+2ms
+D/dalvikvm( 1783): GC_CONCURRENT freed 703K, 64% free 2866K/7939K, paused 2ms+2ms
+D/dalvikvm( 1783): GC_CONCURRENT freed 705K, 64% free 2866K/7939K, paused 3ms+3ms
+D/dalvikvm( 1783): GC_CONCURRENT freed 706K, 63% free 2951K/7939K, paused 2ms+3ms
+D/Easybus (  753): [easy_ctrl_udp_receive_thread.89] recvfrom n=69
+D/Easybus (  753): [easy_ctrl_udp_receive_thread.98] recvAddr:192.168.43.186:38683
+D/Easybus (  753): [easy_ctrl_decompose_frame.38] msgLen: 69 
+D/Easybus (  753): the receive frame: 
+D/Easybus (  753): 45 43 45 42 01 01 01 01 00 00 
+D/Easybus (  753): 00 00 00 00 00 00 00 00 00 00 
+D/Easybus (  753): 00 00 00 00 00 00 11 aa 65 61 
+D/Easybus (  753): 73 79 68 65 61 72 74 62 65 61 
+D/Easybus (  753): 74 00 00 00 00 00 00 0d 65 61 
+D/Easybus (  753): 73 79 68 65 61 72 74 62 65 61 
+D/Easybus (  753): 74 
+D/Easybus (  753): e4 
+D/Easybus (  753): 6f 
+D/Easybus (  753): 1f 
+D/Easybus (  753): 07 
+D/Easybus (  753): 01 
+D/Easybus (  753): e0 
+D/Easybus (  753): 39 
+D/Easybus (  753): 78 
+D/Easybus (  753): 
+D/Easybus (  753): [easy_ctrl_decompose_frame.74] crcFlag=1
+D/Easybus (  753): [easy_ctrl_decompose_frame.82] encryptFlag=1
+D/Easybus (  753): [easy_ctrl_decompose_frame.96] msgNum=4522
+D/Easybus (  753): [easy_ctrl_decompose_frame.101] msgType=easyheartbeat
+D/Easybus (  753): [easy_ctrl_decompose_frame.107] data.msgDataSize=13
+D/Easybus (  753): [easy_crc32.77] size=61
+D/Easybus (  753): [easy_ctrl_decompose_frame.121] crcRecv:0xe46f1f07, crcGen:0xe46f1f07 
+D/Easybus (  753): [easy_ctrl_decompose_frame.143] encryptRecv:0x1e03978, encryptGen:0x1e03978 
+D/Easybus (  753): [easy_ctrl_decompose_frame.158] msgData=easyheartbeat
+D/Easybus (  753): [easy_ctrl_msg_dispatch.87] start
+D/Easybus (  753): [easy_ctrl_vinput_msg_cb.399] start
+D/Easybus (  753): [easy_ctrl_vinput_msg_cb.413] data->msgType:easyheartbeat
+D/Easybus (  753): [easy_ctrl_vinput_msg_cb.463] end
+D/Easybus (  753): [easy_ctrl_all_msg_cb.59] start
+D/Easybus (  753): easy_msg buf = addr.ip=192.168.43.186,addr.port=38683,msgType=easyheartbeat,msgData=easyheartbeat
+D/Easybus (  753): [easy_ctrl_iface_send.445] priv->sock = 9
+D/Easybus (  753): [easy_ctrl_iface_send.449] msgtype=easyheartbeat bufLen=82, buf=addr.ip=192.168.43.186,addr.port=38683,msgType=easyheartbeat,msgData=easyheartbeat
+D/Easybus (  753): [easy_ctrl_iface_send.457] dst->addr: 127.0.0.1:37463
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[0]: easyime
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[1]: easyheartbeat
+D/Easybus (  753): [easy_ctrl_iface_send.464] sendto: 127.0.0.1:37463
+D/Easybus (  753): [easy_ctrl_iface_send.477] sendto success !, res=82
+D/Easybus (  753): [easy_ctrl_iface_send.457] dst->addr: 127.0.0.1:56078
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[0]: easyscreen
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[1]: easyheartbeat
+D/Easybus (11544): [easybus_receive.208] res: 0, nread: 82
+D/Easybus (  753): [easy_ctrl_iface_send.464] sendto: 127.0.0.1:56078
+D/Easybus (11544): [easybus_receive.223] receive buf: addr.ip=192.168.43.186,addr.port=38683,msgType=easyheartbeat,msgData=easyheartbeat
+D/Easybus (11544): ip = 192.168.43.186
+D/Easybus (11544): str2 - str1 = 5
+D/Easybus (11544): port_str = 38683
+D/Easybus (11544): port = 38683
+D/Easybus (11544): str2 - str1 = 13
+D/Easybus (11544): msgType = easyheartbeat
+D/Easybus (11544): msgDataSize = 13
+D/Easybus (  753): [easy_ctrl_iface_send.477] sendto success !, res=82
+D/Easybus (11544): msgData = easyheartbeat
+D/Easybus (11544): [easybus_receive.265] addr:192.168.43.186:38683, msgType=easyheartbeat, msgData=easyheartbeat
+D/Easybus (  753): [easy_ctrl_iface_send.457] dst->addr: 127.0.0.1:37286
+D/Easybus (11544): [easybus_receive.275] end ret=0
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[0]: easyime
+D/Easybus (11544): [easybus/easybus/easybus_jni.c.easybusReceive.52] receive ret = 0
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[1]: easyheartbeat
+D/Easybus (  753): [easy_ctrl_iface_send.464] sendto: 127.0.0.1:37286
+D/Easybus (  753): [easy_ctrl_iface_send.477] sendto success !, res=82
+D/Easybus (  753): [easy_ctrl_iface_send.457] dst->addr: 127.0.0.1:34633
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[0]: easyime
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[1]: easyheartbeat
+D/Easybus (  753): [easy_ctrl_iface_send.464] sendto: 127.0.0.1:34633
+D/Easybus (  753): [easy_ctrl_iface_send.477] sendto success !, res=82
+D/Easybus (  753): [easy_ctrl_iface_send.457] dst->addr: 127.0.0.1:39462
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[0]: easyime
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[1]: easyheartbeat
+D/Easybus (  753): [easy_ctrl_iface_send.464] sendto: 127.0.0.1:39462
+D/Easybus (  753): [easy_ctrl_iface_send.477] sendto success !, res=82
+D/Easybus (  753): [easy_ctrl_iface_send.457] dst->addr: 127.0.0.1:45302
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[0]: easyscreen
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[1]: easyheartbeat
+D/Easybus (  753): [easy_ctrl_iface_send.464] sendto: 127.0.0.1:45302
+D/Easybus (  753): [easy_ctrl_iface_send.477] sendto success !, res=82
+D/Easybus (  753): [easy_ctrl_iface_send.457] dst->addr: 127.0.0.1:43718
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[0]: easyime
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[1]: easyheartbeat
+D/Easybus (  753): [easy_ctrl_iface_send.464] sendto: 127.0.0.1:43718
+D/Easybus (  753): [easy_ctrl_iface_send.477] sendto success !, res=82
+D/Easybus (  753): [easy_ctrl_iface_send.457] dst->addr: 127.0.0.1:49827
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[0]: easyscreen
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[1]: easyheartbeat
+D/Easybus (  753): [easy_ctrl_iface_send.464] sendto: 127.0.0.1:49827
+D/Easybus (  753): [easy_ctrl_iface_send.477] sendto success !, res=82
+D/Easybus (  753): [easy_ctrl_iface_send.457] dst->addr: 127.0.0.1:35356
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[0]: easyscreen
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[1]: easyheartbeat
+D/Easybus (  753): [easy_ctrl_iface_send.464] sendto: 127.0.0.1:35356
+D/Easybus (  753): [easy_ctrl_iface_send.477] sendto success !, res=82
+D/Easybus (  753): [easy_ctrl_iface_send.457] dst->addr: 127.0.0.1:48541
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[0]: easyime
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[1]: easyheartbeat
+D/Easybus (  753): [easy_ctrl_iface_send.464] sendto: 127.0.0.1:48541
+D/Easybus (10369): [easybus_receive.208] res: 0, nread: 82
+D/Easybus (10369): [easybus_receive.223] receive buf: addr.ip=192.168.43.186,addr.port=38683,msgType=easyheartbeat,msgData=easyheartbeat
+D/Easybus (10369): ip = 192.168.43.186
+D/Easybus (10369): str2 - str1 = 5
+D/Easybus (10369): port_str = 38683
+D/Easybus (10369): port = 38683
+D/Easybus (10369): str2 - str1 = 13
+D/Easybus (10369): msgType = easyheartbeat
+D/Easybus (10369): msgDataSize = 13
+D/Easybus (10369): msgData = easyheartbeat
+D/Easybus (10369): [easybus_receive.265] addr:192.168.43.186:38683, msgType=easyheartbeat, msgData=easyheartbeat
+D/Easybus (10369): [easybus_receive.275] end ret=0
+D/Easybus (10369): [easybus/easybus/easybus_jni.c.easybusReceive.52] receive ret = 0
+D/Easybus (11544): [easybus/easybus/easybus_jni.c.easybusReceive.72] receive success !
+D/Easybus (11544): [easybus/easybus/easybus_jni.c.easybusReceive.73] addr:192.168.43.186:38683, mode:0, msgType:easyheartbeat, msgData:easyheartbeat
+D/Easybus (11544): [easybus/easybus/easybus_jni.c.easybusSend.126] addr:192.168.43.186:38683, mode:0, msgType:easyheartbeat, msgDataSize: 13, msgData:easyheartbeat
+D/Easybus (11544): [easybus_send.295] start
+D/Easybus (11544): [easybus_send.296] monitor_conn=0x1bca40
+D/Easybus (11544): [easybus_send.315] send buf:SEND addr.ip=192.168.43.186,addr.port=38683,msgType=easyheartbeat,msgData=easyheartbeat
+D/Easybus (  753): [easy_ctrl_iface_receive.219] start
+D/Easybus (  753): [easy_ctrl_iface_receive.235] from addr: 127.0.0.1:47521
+D/Easybus (  753): [easy_ctrl_iface_receive.237] receive res:111, buf:COOKIE=340b7d3ef079f24f SEND addr.ip=192.168.43.186,addr.port=38683,msgType=easyheartbeat,msgData=easyheartbeat
+D/Easybus (  753): [easy_ctrl_iface_process.154] buf: SEND addr.ip=192.168.43.186,addr.port=38683,msgType=easyheartbeat,msgData=easyheartbeat
+D/Easybus (  753): ip = 192.168.43.186
+D/Easybus (  753): str2 - str1 = 5
+D/Easybus (  753): port_str = 38683
+D/Easybus (  753): port = 38683
+D/Easybus (  753): str2 - str1 = 13
+D/Easybus (  753): msgType = easyheartbeat
+D/Easybus (  753): msgData = easyheartbeat
+D/Easybus (  753): easy_ctrl_iface_process addr.ip=192.168.43.186,addr.port=38683,msgType=easyheartbeat,msgData=easyheartbeat
+D/Easybus (  753): [easy_ctrl_compose_frame.178] start
+D/Easybus (  753): [easy_ctrl_compose_frame.226] data->msgDataSize:13 
+D/Easybus (  753): [easy_crc32.77] size=61
+D/Easybus (  753): [easy_ctrl_compose_frame.240] crcGen:0x1ea898bc 
+D/Easybus (  753): [easy_ctrl_compose_frame.257] encryptGen:0x9800740 
+D/Easybus (  753): the composed frame: 
+D/Easybus (  753): 45 43 45 42 01 01 01 01 00 00 
+D/Easybus (  753): 00 00 00 00 00 00 00 00 00 00 
+D/Easybus (  753): 00 00 00 00 00 00 00 00 65 61 
+D/Easybus (  753): 73 79 68 65 61 72 74 62 65 61 
+D/Easybus (  753): 74 00 00 00 00 00 00 0d 65 61 
+D/Easybus (  753): 73 79 68 65 61 72 74 62 65 61 
+D/Easybus (  753): 74 
+D/Easybus (  753): 1e 
+D/Easybus (  753): a8 
+D/Easybus (  753): 98 
+D/Easybus (  753): bc 
+D/Easybus (  753): 09 
+D/Easybus (  753): 80 
+D/Easybus (  753): 07 
+D/Easybus (  753): 40 
+D/Easybus (  753): 
+D/Easybus (  753): thr_udp_send start
+D/Easybus (  753): ip:192.168.43.186:38683, cmd_len:69
+D/Easybus (  753): thr_udp_send end
+D/Easybus (  753): [easy_ctrl_iface_process.201] ret: 0
+D/Easybus (  753): [easy_ctrl_iface_receive.316] reply=0x0, reply_len=2
+D/Easybus (  753): [easy_ctrl_iface_receive.334] end
+D/Easybus (11544): [easybus_send.319] res=0, reply=OK
+D/Easybus (11544): 
+D/Easybus (11544): [easybus_send.335] end ret=0
+D/Easybus (11544): [easybus/easybus/easybus_jni.c.easybusSend.131] send ret = 0
+D/Easybus (11544): [easybus_receive.159] start
+D/Easybus (11544): [easybus_receive.160] monitor_conn=0x1bf730
+D/Easybus (10369): [easybus/easybus/easybus_jni.c.easybusReceive.72] receive success !
+D/Easybus (10369): [easybus/easybus/easybus_jni.c.easybusReceive.73] addr:192.168.43.186:38683, mode:0, msgType:easyheartbeat, msgData:easyheartbeat
+I/MonitorCw880(10369): easybusReceive success !
+D/Easybus (  753): [easy_ctrl_iface_send.477] sendto success !, res=82
+D/Easybus (  753): [easy_ctrl_iface_send.457] dst->addr: 127.0.0.1:40945
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[0]: easyscreen
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[1]: easyheartbeat
+D/Easybus (  753): [easy_ctrl_iface_send.464] sendto: 127.0.0.1:40945
+D/Easybus (  753): [easy_ctrl_iface_send.477] sendto success !, res=82
+D/Easybus (  753): [easy_ctrl_all_msg_cb.82] end
+D/Easybus (  753): [easy_ctrl_msg_dispatch.90] end
+D/MonitorCw880(10369):  easybusMsg.remoteIp=  192.168.43.186 easybusMsg.remotePort=  38683 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880(10369): udp -> ip error -> currentRemoteHost=null easybusMsg.remoteIp=192.168.43.186, counter=3
+D/Easybus (10369): [easybus_receive.159] start
+D/Easybus (10369): [easybus_receive.160] monitor_conn=0x1b2378
+D/dalvikvm( 1783): GC_CONCURRENT freed 809K, 63% free 2988K/7939K, paused 2ms+3ms
+D/Easybus (  753): [easy_ctrl_udp_receive_thread.89] recvfrom n=69
+D/Easybus (  753): [easy_ctrl_udp_receive_thread.98] recvAddr:192.168.43.186:38683
+D/Easybus (  753): [easy_ctrl_decompose_frame.38] msgLen: 69 
+D/Easybus (  753): the receive frame: 
+D/Easybus (  753): 45 43 45 42 01 01 01 01 00 00 
+D/Easybus (  753): 00 00 00 00 00 00 00 00 00 00 
+D/Easybus (  753): 00 00 00 00 00 00 11 ab 65 61 
+D/Easybus (  753): 73 79 68 65 61 72 74 62 65 61 
+D/Easybus (  753): 74 00 00 00 00 00 00 0d 65 61 
+D/Easybus (  753): 73 79 68 65 61 72 74 62 65 61 
+D/Easybus (  753): 74 
+D/Easybus (  753): 7e 
+D/Easybus (  753): bc 
+D/Easybus (  753): 9c 
+D/Easybus (  753): 68 
+D/Easybus (  753): 09 
+D/Easybus (  753): 00 
+D/Easybus (  753): 1f 
+D/Easybus (  753): e0 
+D/Easybus (  753): 
+D/Easybus (  753): [easy_ctrl_decompose_frame.74] crcFlag=1
+D/Easybus (  753): [easy_ctrl_decompose_frame.82] encryptFlag=1
+D/Easybus (  753): [easy_ctrl_decompose_frame.96] msgNum=4523
+D/Easybus (  753): [easy_ctrl_decompose_frame.101] msgType=easyheartbeat
+D/Easybus (  753): [easy_ctrl_decompose_frame.107] data.msgDataSize=13
+D/Easybus (  753): [easy_crc32.77] size=61
+D/Easybus (  753): [easy_ctrl_decompose_frame.121] crcRecv:0x7ebc9c68, crcGen:0x7ebc9c68 
+D/Easybus (  753): [easy_ctrl_decompose_frame.143] encryptRecv:0x9001fe0, encryptGen:0x9001fe0 
+D/Easybus (  753): [easy_ctrl_decompose_frame.158] msgData=easyheartbeat
+D/Easybus (  753): [easy_ctrl_msg_dispatch.87] start
+D/Easybus (  753): [easy_ctrl_vinput_msg_cb.399] start
+D/Easybus (  753): [easy_ctrl_vinput_msg_cb.413] data->msgType:easyheartbeat
+D/Easybus (  753): [easy_ctrl_vinput_msg_cb.463] end
+D/Easybus (  753): [easy_ctrl_all_msg_cb.59] start
+D/Easybus (  753): easy_msg buf = addr.ip=192.168.43.186,addr.port=38683,msgType=easyheartbeat,msgData=easyheartbeat
+D/Easybus (  753): [easy_ctrl_iface_send.445] priv->sock = 9
+D/Easybus (  753): [easy_ctrl_iface_send.449] msgtype=easyheartbeat bufLen=82, buf=addr.ip=192.168.43.186,addr.port=38683,msgType=easyheartbeat,msgData=easyheartbeat
+D/Easybus (  753): [easy_ctrl_iface_send.457] dst->addr: 127.0.0.1:37463
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[0]: easyime
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[1]: easyheartbeat
+D/Easybus (  753): [easy_ctrl_iface_send.464] sendto: 127.0.0.1:37463
+D/Easybus (  753): [easy_ctrl_iface_send.477] sendto success !, res=82
+D/Easybus (  753): [easy_ctrl_iface_send.457] dst->addr: 127.0.0.1:56078
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[0]: easyscreen
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[1]: easyheartbeat
+D/Easybus (  753): [easy_ctrl_iface_send.464] sendto: 127.0.0.1:56078
+D/Easybus (  753): [easy_ctrl_iface_send.477] sendto success !, res=82
+D/Easybus (  753): [easy_ctrl_iface_send.457] dst->addr: 127.0.0.1:37286
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[0]: easyime
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[1]: easyheartbeat
+D/Easybus (  753): [easy_ctrl_iface_send.464] sendto: 127.0.0.1:37286
+D/Easybus (  753): [easy_ctrl_iface_send.477] sendto success !, res=82
+D/Easybus (  753): [easy_ctrl_iface_send.457] dst->addr: 127.0.0.1:34633
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[0]: easyime
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[1]: easyheartbeat
+D/Easybus (  753): [easy_ctrl_iface_send.464] sendto: 127.0.0.1:34633
+D/Easybus (  753): [easy_ctrl_iface_send.477] sendto success !, res=82
+D/Easybus (  753): [easy_ctrl_iface_send.457] dst->addr: 127.0.0.1:39462
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[0]: easyime
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[1]: easyheartbeat
+D/Easybus (  753): [easy_ctrl_iface_send.464] sendto: 127.0.0.1:39462
+D/Easybus (  753): [easy_ctrl_iface_send.477] sendto success !, res=82
+D/Easybus (  753): [easy_ctrl_iface_send.457] dst->addr: 127.0.0.1:45302
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[0]: easyscreen
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[1]: easyheartbeat
+D/Easybus (  753): [easy_ctrl_iface_send.464] sendto: 127.0.0.1:45302
+D/Easybus (  753): [easy_ctrl_iface_send.477] sendto success !, res=82
+D/Easybus (  753): [easy_ctrl_iface_send.457] dst->addr: 127.0.0.1:43718
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[0]: easyime
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[1]: easyheartbeat
+D/Easybus (  753): [easy_ctrl_iface_send.464] sendto: 127.0.0.1:43718
+D/Easybus (  753): [easy_ctrl_iface_send.477] sendto success !, res=82
+D/Easybus (  753): [easy_ctrl_iface_send.457] dst->addr: 127.0.0.1:49827
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[0]: easyscreen
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[1]: easyheartbeat
+D/Easybus (  753): [easy_ctrl_iface_send.464] sendto: 127.0.0.1:49827
+D/Easybus (  753): [easy_ctrl_iface_send.477] sendto success !, res=82
+D/Easybus (  753): [easy_ctrl_iface_send.457] dst->addr: 127.0.0.1:35356
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[0]: easyscreen
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[1]: easyheartbeat
+D/Easybus (  753): [easy_ctrl_iface_send.464] sendto: 127.0.0.1:35356
+D/Easybus (  753): [easy_ctrl_iface_send.477] sendto success !, res=82
+D/Easybus (  753): [easy_ctrl_iface_send.457] dst->addr: 127.0.0.1:48541
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[0]: easyime
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[1]: easyheartbeat
+D/Easybus (  753): [easy_ctrl_iface_send.464] sendto: 127.0.0.1:48541
+D/Easybus (  753): [easy_ctrl_iface_send.477] sendto success !, res=82
+D/Easybus (  753): [easy_ctrl_iface_send.457] dst->addr: 127.0.0.1:40945
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[0]: easyscreen
+D/Easybus (  753): [easy_ctrl_iface_send.461] dst->msgtype[1]: easyheartbeat
+D/Easybus (  753): [easy_ctrl_iface_send.464] sendto: 127.0.0.1:40945
+D/Easybus (  753): [easy_ctrl_iface_send.477] sendto success !, res=82
+D/Easybus (  753): [easy_ctrl_all_msg_cb.82] end
+D/Easybus (  753): [easy_ctrl_msg_dispatch.90] end
+D/Easybus (11544): [easybus_receive.208] res: 0, nread: 82
+D/Easybus (11544): [easybus_receive.223] receive buf: addr.ip=192.168.43.186,addr.port=38683,msgType=easyheartbeat,msgData=easyheartbeat
+D/Easybus (11544): ip = 192.168.43.186
+D/Easybus (11544): str2 - str1 = 5
+D/Easybus (11544): port_str = 38683
+D/Easybus (11544): port = 38683
+D/Easybus (11544): str2 - str1 = 13
+D/Easybus (11544): msgType = easyheartbeat
+D/Easybus (11544): msgDataSize = 13
+D/Easybus (11544): msgData = easyheartbeat
+D/Easybus (11544): [easybus_receive.265] addr:192.168.43.186:38683, msgType=easyheartbeat, msgData=easyheartbeat

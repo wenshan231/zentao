@@ -1,0 +1,2307 @@
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  Warnig::  getValidBufferLength()  <  Codec require !!!
+I//lib/ld-linux.so.3(  743): FrmCnt:257(0,0,0) Rate:24 Sys:103322 STC:37501520 VPTS:37501519 APTS:37501518 Delay:39(40) V:0 A:126 VES:0x37a300 AES:0x8020 PCM:0x4b800 AudioErr:0x0
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  connect Server :live.feifeikan.com
+D/DataSource_M3U8(  739): parseM3U8 .......!
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048159   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048160   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048161   
+D/DataSource_M3U8(  739): [M3U8] file: NULL line 
+D/DataSource_M3U8(  739): HLS=====>> Live Stream!!!!
+D/DataSource_M3U8(  739): getHLSPlayListInex  DownloadBandWidth:2094741   uInDex=0
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): ============Begin to get playlist !!=====================
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/HomePlayerLib( 1671): hostaddress count is 1
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  Warnig::  getValidBufferLength()  <  Codec require !!!
+D/dalvikvm( 1671): GC_CONCURRENT freed 2057K, 45% free 7328K/13187K, paused 2ms+4ms
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  connect Server :live.feifeikan.com
+D/DataSource_M3U8(  739): parseM3U8 .......!
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048160   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048161   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  update  playlist[11] ==>> mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048162   
+D/DataSource_M3U8(  739): [M3U8] file: NULL line 
+D/DataSource_M3U8(  739): HLS=====>> Live Stream!!!!
+D/MediaPlayerService(  739): [2] notify (0x43ef0, 3, 100, 0)
+D/MonitorCw880( 1558): currentRemoteHost is null ,continue
+I//lib/ld-linux.so.3(  743): FrmCnt:296(0,0,0) Rate:25 Sys:104855 STC:37503053 VPTS:37503039 APTS:37503046 Delay:26(40) V:0 A:123 VES:0x36cf90 AES:0x8000 PCM:0x4b980 AudioErr:0x0
+D/dalvikvm( 1671): GC_CONCURRENT freed 2039K, 45% free 7269K/13187K, paused 2ms+4ms
+D/DataSource_M3U8(  739): u32HLSSreamNum[0]===>u32BandWidth:800000 
+D/DataSource_M3U8(  739): getHLSPlayListInex  DownloadBandWidth:2094741   uInDex=0
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): ============Begin to get playlist !!=====================
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  connect Server :live.feifeikan.com
+D/DataSource_M3U8(  739): parseM3U8 .......!
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048160   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048161   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048162   
+D/DataSource_M3U8(  739): [M3U8] file: NULL line 
+D/DataSource_M3U8(  739): HLS=====>> Live Stream!!!!
+D/DataSource_M3U8(  739): u32HLSSreamNum[0]===>u32BandWidth:800000 
+D/DataSource_M3U8(  739): getHLSPlayListInex  DownloadBandWidth:2094741   uInDex=0
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): ============Begin to get playlist !!=====================
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  connect Server :live.feifeikan.com
+D/DataSource_M3U8(  739): parseM3U8 .......!
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048160   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048161   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048162   
+D/DataSource_M3U8(  739): [M3U8] file: NULL line 
+D/DataSource_M3U8(  739): HLS=====>> Live Stream!!!!
+D/Downloader(  739): Downloadserver bandWidth:891974
+D/Downloader(  739): Downloadserver bandWidth:891974
+D/Downloader(  739): Downloadserver bandWidth:891974
+D/Downloader(  739): Downloadserver bandWidth:891974
+W/ThrottleService(  948): unable to find stats for iface rmnet0
+D/DataSource_M3U8(  739): u32HLSSreamNum[0]===>u32BandWidth:800000 
+D/DataSource_M3U8(  739): getHLSPlayListInex  DownloadBandWidth:2094741   uInDex=0
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): ============Begin to get playlist !!=====================
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+I//lib/ld-linux.so.3(  743): FrmCnt:334(0,0,0) Rate:24 Sys:106385 STC:37504584 VPTS:37504559 APTS:37504590 Delay:15(40) V:0 A:129 VES:0x385600 AES:0x8020 PCM:0x4bb00 AudioErr:0x0
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  connect Server :live.feifeikan.com
+D/DataSource_M3U8(  739): parseM3U8 .......!
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048160   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048161   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048162   
+D/DataSource_M3U8(  739): [M3U8] file: NULL line 
+D/DataSource_M3U8(  739): HLS=====>> Live Stream!!!!
+D/DataSource_M3U8(  739): [M3U8] checkShouldStartNext :[0](607992/607992)   sequence:0  start next:1  
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): [M3U8]-7----->This :0x23e50 --> post cmd for start next url:http://live.feifeikan.com/live/hls/208?slice=048162, knowedFileSize:0, mCurDowningIndex:0
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/Downloader(  739): [downloadThread]Downloader::removeTask  
+D/Downloader(  739): [downloadThread]task have range string:0- 
+D/MediaPlayerService(  739): [2] notify (0x43ef0, 3, 0, 0)
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  Warnig::  getValidBufferLength()  <  Codec require !!!
+D/DataSource_M3U8(  739): getHLSPlayListInex  DownloadBandWidth:891974   uInDex=0
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): ============Begin to get playlist !!=====================
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  connect Server :live.feifeikan.com
+D/DataSource_M3U8(  739): parseM3U8 .......!
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048160   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048161   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048162   
+D/DataSource_M3U8(  739): [M3U8] file: NULL line 
+D/DataSource_M3U8(  739): HLS=====>> Live Stream!!!!
+I//lib/ld-linux.so.3(  743): FrmCnt:371(0,0,0) Rate:24 Sys:107912 STC:37506111 VPTS:37506079 APTS:37506116 Delay:8(40) V:0 A:129 VES:0x365300 AES:0x8000 PCM:0x4b280 AudioErr:0x0
+D/DataSource_M3U8(  739): getHLSPlayListInex  DownloadBandWidth:891974   uInDex=0
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): ============Begin to get playlist !!=====================
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  connect Server :live.feifeikan.com
+D/DataSource_M3U8(  739): parseM3U8 .......!
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048160   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048161   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048162   
+D/DataSource_M3U8(  739): [M3U8] file: NULL line 
+D/DataSource_M3U8(  739): HLS=====>> Live Stream!!!!
+D/DataSource_M3U8(  739): getHLSPlayListInex  DownloadBandWidth:891974   uInDex=0
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): ============Begin to get playlist !!=====================
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/Downloader(  739): Downloadserver bandWidth:2524321
+D/Downloader(  739): Downloadserver bandWidth:2524321
+D/Downloader(  739): Downloadserver bandWidth:2524321
+D/Downloader(  739): Downloadserver bandWidth:2524321
+I//lib/ld-linux.so.3(  743): FrmCnt:411(0,0,0) Rate:26 Sys:109436 STC:37507635 VPTS:37507639 APTS:37507628 Delay:44(40) V:0 A:130 VES:0x38ac60 AES:0x8020 PCM:0x4b000 AudioErr:0x0
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  connect Server :live.feifeikan.com
+D/DataSource_M3U8(  739): parseM3U8 .......!
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048160   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048161   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048162   
+D/DataSource_M3U8(  739): [M3U8] file: NULL line 
+D/DataSource_M3U8(  739): HLS=====>> Live Stream!!!!
+D/MonitorCw880( 1558): currentRemoteHost is null ,continue
+D/DataSource_M3U8(  739): getHLSPlayListInex  DownloadBandWidth:891974   uInDex=0
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): ============Begin to get playlist !!=====================
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  connect Server :live.feifeikan.com
+D/DataSource_M3U8(  739): parseM3U8 .......!
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048160   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048161   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048162   
+D/DataSource_M3U8(  739): [M3U8] file: NULL line 
+D/DataSource_M3U8(  739): HLS=====>> Live Stream!!!!
+D/DataSource_M3U8(  739): getHLSPlayListInex  DownloadBandWidth:891974   uInDex=0
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): ============Begin to get playlist !!=====================
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+I//lib/ld-linux.so.3(  743): FrmCnt:449(0,0,0) Rate:24 Sys:110973 STC:37509171 VPTS:37509159 APTS:37509164 Delay:28(40) V:0 A:130 VES:0x390b30 AES:0x8000 PCM:0x4bb80 AudioErr:0x0
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  connect Server :live.feifeikan.com
+D/DataSource_M3U8(  739): parseM3U8 .......!
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048161   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048162   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  update  playlist[12] ==>> mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048163   
+D/DataSource_M3U8(  739): [M3U8] file: NULL line 
+D/DataSource_M3U8(  739): HLS=====>> Live Stream!!!!
+D/DataSource_M3U8(  739): [M3U8] checkShouldStartNext :[0](609308/609308)   sequence:0  start next:1  
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): [M3U8]-7----->This :0x23e50 --> post cmd for start next url:http://live.feifeikan.com/live/hls/208?slice=048163, knowedFileSize:0, mCurDowningIndex:0
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/Downloader(  739): [downloadThread]Downloader::removeTask  
+D/Downloader(  739): [downloadThread]task have range string:0- 
+D/DataSource_M3U8(  739): getHLSPlayListInex  DownloadBandWidth:2524321   uInDex=0
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): ============Begin to get playlist !!=====================
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+I//lib/ld-linux.so.3(  743): FrmCnt:487(0,0,0) Rate:25 Sys:112492 STC:37510691 VPTS:37510679 APTS:37510694 Delay:28(40) V:0 A:128 VES:0x384750 AES:0x8000 PCM:0x4b900 AudioErr:0x0
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  connect Server :live.feifeikan.com
+D/DataSource_M3U8(  739): parseM3U8 .......!
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048161   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048162   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048163   
+D/DataSource_M3U8(  739): [M3U8] file: NULL line 
+D/DataSource_M3U8(  739): HLS=====>> Live Stream!!!!
+D/DataSource_M3U8(  739): getHLSPlayListInex  DownloadBandWidth:2524321   uInDex=0
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): ============Begin to get playlist !!=====================
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  connect Server :live.feifeikan.com
+D/DataSource_M3U8(  739): parseM3U8 .......!
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048161   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048162   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048163   
+D/DataSource_M3U8(  739): [M3U8] file: NULL line 
+D/DataSource_M3U8(  739): HLS=====>> Live Stream!!!!
+I//lib/ld-linux.so.3(  743): FrmCnt:525(0,0,0) Rate:24 Sys:114020 STC:37512219 VPTS:37512199 APTS:37512217 Delay:21(40) V:0 A:125 VES:0x375290 AES:0x8020 PCM:0x4b000 AudioErr:0x0
+D/DataSource_M3U8(  739): getHLSPlayListInex  DownloadBandWidth:2524321   uInDex=0
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): ============Begin to get playlist !!=====================
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/MonitorCw880( 1558): currentRemoteHost is null ,continue
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  connect Server :live.feifeikan.com
+D/DataSource_M3U8(  739): parseM3U8 .......!
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048161   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048162   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048163   
+D/DataSource_M3U8(  739): [M3U8] file: NULL line 
+D/DataSource_M3U8(  739): HLS=====>> Live Stream!!!!
+D/DataSource_M3U8(  739): getHLSPlayListInex  DownloadBandWidth:2524321   uInDex=0
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): ============Begin to get playlist !!=====================
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/HomePlayerLib( 1671): hostaddress count is 1
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  connect Server :live.feifeikan.com
+D/DataSource_M3U8(  739): parseM3U8 .......!
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048161   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048162   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048163   
+D/DataSource_M3U8(  739): [M3U8] file: NULL line 
+D/DataSource_M3U8(  739): HLS=====>> Live Stream!!!!
+D/dalvikvm( 1671): GC_CONCURRENT freed 1980K, 45% free 7318K/13187K, paused 3ms+3ms
+D/Downloader(  739): Downloadserver bandWidth:1174078
+D/Downloader(  739): Downloadserver bandWidth:1174078
+D/Downloader(  739): Downloadserver bandWidth:1174078
+D/Downloader(  739): Downloadserver bandWidth:1174078
+I//lib/ld-linux.so.3(  743): FrmCnt:563(0,0,0) Rate:24 Sys:115547 STC:37513746 VPTS:37513719 APTS:37513737 Delay:13(40) V:0 A:130 VES:0x390190 AES:0x8010 PCM:0x4b780 AudioErr:0x0
+D/DataSource_M3U8(  739): getHLSPlayListInex  DownloadBandWidth:2524321   uInDex=0
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): ============Begin to get playlist !!=====================
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  connect Server :live.feifeikan.com
+D/DataSource_M3U8(  739): parseM3U8 .......!
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048161   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048162   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048163   
+D/DataSource_M3U8(  739): [M3U8] file: NULL line 
+D/DataSource_M3U8(  739): HLS=====>> Live Stream!!!!
+D/dalvikvm( 1671): GC_CONCURRENT freed 2026K, 45% free 7286K/13187K, paused 2ms+3ms
+D/DataSource_M3U8(  739): getHLSPlayListInex  DownloadBandWidth:2524321   uInDex=0
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): ============Begin to get playlist !!=====================
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  connect Server :live.feifeikan.com
+D/DataSource_M3U8(  739): parseM3U8 .......!
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048162   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048163   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  update  playlist[13] ==>> mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048164   
+D/DataSource_M3U8(  739): [M3U8] file: NULL line 
+D/DataSource_M3U8(  739): HLS=====>> Live Stream!!!!
+D/DataSource_M3U8(  739): [M3U8] checkShouldStartNext :[0](598780/598780)   sequence:0  start next:1  
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): [M3U8]-7----->This :0x23e50 --> post cmd for start next url:http://live.feifeikan.com/live/hls/208?slice=048164, knowedFileSize:0, mCurDowningIndex:0
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/Downloader(  739): [downloadThread]Downloader::removeTask  
+D/Downloader(  739): [downloadThread]task have range string:0- 
+I//lib/ld-linux.so.3(  743): FrmCnt:601(0,0,0) Rate:24 Sys:117068 STC:37515267 VPTS:37515239 APTS:37515273 Delay:12(40) V:0 A:130 VES:0x38df80 AES:0x7f90 PCM:0x4af00 AudioErr:0x0
+D/DataSource_M3U8(  739): getHLSPlayListInex  DownloadBandWidth:1174078   uInDex=0
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): ============Begin to get playlist !!=====================
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  connect Server :live.feifeikan.com
+D/DataSource_M3U8(  739): parseM3U8 .......!
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048162   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048163   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048164   
+D/DataSource_M3U8(  739): [M3U8] file: NULL line 
+D/DataSource_M3U8(  739): HLS=====>> Live Stream!!!!
+D/DataSource_M3U8(  739): getHLSPlayListInex  DownloadBandWidth:1174078   uInDex=0
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): ============Begin to get playlist !!=====================
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  connect Server :live.feifeikan.com
+D/DataSource_M3U8(  739): parseM3U8 .......!
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048162   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048163   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048164   
+D/DataSource_M3U8(  739): [M3U8] file: NULL line 
+D/DataSource_M3U8(  739): HLS=====>> Live Stream!!!!
+I//lib/ld-linux.so.3(  743): FrmCnt:639(0,0,0) Rate:25 Sys:118588 STC:37516786 VPTS:37516759 APTS:37516790 Delay:13(40) V:0 A:130 VES:0x38e2f0 AES:0x8000 PCM:0x4bc80 AudioErr:0x0
+D/DataSource_M3U8(  739): getHLSPlayListInex  DownloadBandWidth:1174078   uInDex=0
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): ============Begin to get playlist !!=====================
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  connect Server :live.feifeikan.com
+D/DataSource_M3U8(  739): parseM3U8 .......!
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048162   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048163   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048164   
+D/DataSource_M3U8(  739): [M3U8] file: NULL line 
+D/DataSource_M3U8(  739): HLS=====>> Live Stream!!!!
+D/MonitorCw880( 1558): currentRemoteHost is null ,continue
+D/DataSource_M3U8(  739): getHLSPlayListInex  DownloadBandWidth:1174078   uInDex=0
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): ============Begin to get playlist !!=====================
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  connect Server :live.feifeikan.com
+D/DataSource_M3U8(  739): parseM3U8 .......!
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048162   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048163   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048164   
+D/DataSource_M3U8(  739): [M3U8] file: NULL line 
+D/DataSource_M3U8(  739): HLS=====>> Live Stream!!!!
+I//lib/ld-linux.so.3(  743): FrmCnt:677(0,0,0) Rate:25 Sys:120108 STC:37518307 VPTS:37518279 APTS:37518302 Delay:12(40) V:0 A:130 VES:0x388360 AES:0x8000 PCM:0x4ba00 AudioErr:0x0
+D/Downloader(  739): Downloadserver bandWidth:1363867
+D/Downloader(  739): Downloadserver bandWidth:1363867
+D/Downloader(  739): Downloadserver bandWidth:1363867
+D/Downloader(  739): Downloadserver bandWidth:1363867
+D/DataSource_M3U8(  739): getHLSPlayListInex  DownloadBandWidth:1174078   uInDex=0
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): ============Begin to get playlist !!=====================
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  connect Server :live.feifeikan.com
+D/DataSource_M3U8(  739): parseM3U8 .......!
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048162   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048163   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048164   
+D/DataSource_M3U8(  739): [M3U8] file: NULL line 
+D/DataSource_M3U8(  739): HLS=====>> Live Stream!!!!
+D/DataSource_M3U8(  739): ----------UpdatePlaylistThread runing... 
+D/DataSource_M3U8(  739): getHLSPlayListInex  DownloadBandWidth:1174078   uInDex=0
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): ============Begin to get playlist !!=====================
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  connect Server :live.feifeikan.com
+D/DataSource_M3U8(  739): parseM3U8 .......!
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048162   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048163   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048164   
+D/DataSource_M3U8(  739): [M3U8] file: NULL line 
+D/DataSource_M3U8(  739): HLS=====>> Live Stream!!!!
+I//lib/ld-linux.so.3(  743): FrmCnt:715(0,0,0) Rate:25 Sys:121626 STC:37519825 VPTS:37519799 APTS:37519814 Delay:14(40) V:0 A:130 VES:0x38a050 AES:0x8020 PCM:0x4b780 AudioErr:0x0
+D/DataSource_M3U8(  739): getHLSPlayListInex  DownloadBandWidth:1174078   uInDex=0
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): ============Begin to get playlist !!=====================
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  connect Server :live.feifeikan.com
+D/DataSource_M3U8(  739): parseM3U8 .......!
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048162   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048163   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048164   
+D/DataSource_M3U8(  739): [M3U8] file: NULL line 
+D/DataSource_M3U8(  739): HLS=====>> Live Stream!!!!
+D/DataSource_M3U8(  739): getHLSPlayListInex  DownloadBandWidth:1174078   uInDex=0
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): ============Begin to get playlist !!=====================
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  connect Server :live.feifeikan.com
+D/DataSource_M3U8(  739): parseM3U8 .......!
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048163   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048164   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  update  playlist[14] ==>> mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048165   
+D/DataSource_M3U8(  739): [M3U8] file: NULL line 
+D/DataSource_M3U8(  739): HLS=====>> Live Stream!!!!
+D/DataSource_M3U8(  739): [M3U8] checkShouldStartNext :[0](609308/609308)   sequence:0  start next:1  
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): [M3U8]-7----->This :0x23e50 --> post cmd for start next url:http://live.feifeikan.com/live/hls/208?slice=048165, knowedFileSize:0, mCurDowningIndex:0
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/Downloader(  739): [downloadThread]Downloader::removeTask  
+D/Downloader(  739): [downloadThread]task have range string:0- 
+I//lib/ld-linux.so.3(  743): FrmCnt:753(0,0,0) Rate:25 Sys:123143 STC:37521342 VPTS:37521319 APTS:37521345 Delay:17(40) V:0 A:130 VES:0x386cd0 AES:0x8000 PCM:0x4b500 AudioErr:0x0
+D/DataSource_M3U8(  739): getHLSPlayListInex  DownloadBandWidth:1363867   uInDex=0
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): ============Begin to get playlist !!=====================
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  connect Server :live.feifeikan.com
+D/DataSource_M3U8(  739): parseM3U8 .......!
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048163   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048164   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048165   
+D/DataSource_M3U8(  739): [M3U8] file: NULL line 
+D/DataSource_M3U8(  739): HLS=====>> Live Stream!!!!
+D/DataSource_M3U8(  739): getHLSPlayListInex  DownloadBandWidth:1363867   uInDex=0
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): ============Begin to get playlist !!=====================
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  connect Server :live.feifeikan.com
+D/DataSource_M3U8(  739): parseM3U8 .......!
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048163   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048164   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048165   
+D/DataSource_M3U8(  739): [M3U8] file: NULL line 
+D/DataSource_M3U8(  739): HLS=====>> Live Stream!!!!
+D/DataSource_M3U8(  739): getHLSPlayListInex  DownloadBandWidth:1363867   uInDex=0
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): ============Begin to get playlist !!=====================
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/MonitorCw880( 1558): currentRemoteHost is null ,continue
+I//lib/ld-linux.so.3(  743): FrmCnt:791(0,0,0) Rate:24 Sys:124667 STC:37522865 VPTS:37522839 APTS:37522868 Delay:14(40) V:0 A:130 VES:0x38acd0 AES:0x8000 PCM:0x4bc80 AudioErr:0x0
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  connect Server :live.feifeikan.com
+D/DataSource_M3U8(  739): parseM3U8 .......!
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048163   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048164   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048165   
+D/DataSource_M3U8(  739): [M3U8] file: NULL line 
+D/DataSource_M3U8(  739): HLS=====>> Live Stream!!!!
+D/HomePlayerLib( 1671): hostaddress count is 1
+D/DataSource_M3U8(  739): getHLSPlayListInex  DownloadBandWidth:1363867   uInDex=0
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): ============Begin to get playlist !!=====================
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/Downloader(  739): Downloadserver bandWidth:1595990
+D/Downloader(  739): Downloadserver bandWidth:1595466
+D/Downloader(  739): Downloadserver bandWidth:1595466
+D/Downloader(  739): Downloadserver bandWidth:1595466
+D/dalvikvm( 1671): GC_CONCURRENT freed 2002K, 45% free 7367K/13187K, paused 3ms+5ms
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  connect Server :live.feifeikan.com
+D/DataSource_M3U8(  739): parseM3U8 .......!
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048163   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048164   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048165   
+D/DataSource_M3U8(  739): [M3U8] file: NULL line 
+D/DataSource_M3U8(  739): HLS=====>> Live Stream!!!!
+I//lib/ld-linux.so.3(  743): FrmCnt:829(0,0,0) Rate:24 Sys:126189 STC:37524388 VPTS:37524359 APTS:37524380 Delay:11(40) V:0 A:130 VES:0x389090 AES:0x8030 PCM:0x4ba00 AudioErr:0x0
+D/dalvikvm( 1671): GC_CONCURRENT freed 2067K, 44% free 7386K/13187K, paused 2ms+4ms
+D/DataSource_M3U8(  739): getHLSPlayListInex  DownloadBandWidth:1363867   uInDex=0
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): ============Begin to get playlist !!=====================
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  connect Server :live.feifeikan.com
+D/DataSource_M3U8(  739): parseM3U8 .......!
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048163   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048164   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048165   
+D/DataSource_M3U8(  739): [M3U8] file: NULL line 
+D/DataSource_M3U8(  739): HLS=====>> Live Stream!!!!
+D/DataSource_M3U8(  739): getHLSPlayListInex  DownloadBandWidth:1363867   uInDex=0
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): ============Begin to get playlist !!=====================
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+I//lib/ld-linux.so.3(  743): FrmCnt:867(0,0,0) Rate:25 Sys:127708 STC:37525907 VPTS:37525879 APTS:37525907 Delay:12(40) V:0 A:130 VES:0x384de0 AES:0x8020 PCM:0x4b780 AudioErr:0x0
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  connect Server :live.feifeikan.com
+D/DataSource_M3U8(  739): parseM3U8 .......!
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048163   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048164   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048165   
+D/DataSource_M3U8(  739): [M3U8] file: NULL line 
+D/DataSource_M3U8(  739): HLS=====>> Live Stream!!!!
+E/ServerHandler( 1607): receiveRequest
+V/OtORequest( 1607): parseCommand
+V/OtORequest( 1607): get command=101
+V/OtORequest( 1607): parse OtORequest: cmd=101 paramLength=133 bufferlen=141
+V/OtORequest( 1607): parse param: param={"ResourceInfo":{"ProductCode":"","PlayType":2,"ResourceCode":"10045","ResourceName":"大家庭(27)"},"UserCode":"lylyly","SubID":""}bID":""}��
+E/ServerAdapter( 1607): onPlay ---------
+E/ServerAdapter( 1607): onPlay =========
+E/OtOService( 1607): client request play. info=com.aidufei.protocol.oto.ResourceInfo@41bbca98
+D/OtOService( 1607): PLAY_VOB
+V/OtOService( 1607): client request play. info.code()=10045
+I/DVB_main( 1906): onPause
+I/DVB_main( 1906): exit, Send broadcast playtype is 0
+E/ServerAdapter( 1607): play
+I/dvb_OTTPlayer( 1906): [stop] stop
+E/ServerHandler( 1607): Send:com.aidufei.protocol.oto.OtOPlayRequest@41bbd108
+I/ActivityManager(  948): START {flg=0x58000000 cmp=com.coship.dvbplayer/.main (has extras)} from pid 1607
+D/MstarPlayer(  739): MstarPlayer::stop
+D/MstarPlayer(  739): request to exit async thread
+D/OtOService( 1607): TVContentReceiver: ACTION_TV_CONTENT_CHANGED, playType: 0 ,resourceCode: null
+D/ServerAdapter( 1607): Server addr: http://wasu.feifeikan.com:8080/
+E/ServerHandler( 1607): Send:com.aidufei.protocol.oto.OtOContentRequest@41ad49f0
+D/ServerHandler( 1607): ServerHandler send request:200:{"Status":{"ReturnCode":100,"Description":"TVContentChanged"},"ServerAddr":"http:\/\/wasu.feifeikan.com:8080\/","Volume":-1}
+V/OtOPlayRequest( 1607): Play Request: {"ResourceInfo":{"ProductCode":"","PlayType":2,"ResourceCode":"10045","ResourceName":"大家庭(27)"},"Status":{"ReturnCode":100,"Description":"start to play"}}
+V/ServerHandler( 1607): ServerHandler send DatagramPacket:/192.168.1.105-[B@41ad6890
+D/ServerHandler( 1607): ServerHandler send request:101:{"ResourceInfo":{"ProductCode":"","PlayType":2,"ResourceCode":"10045","ResourceName":"大家庭(27)"},"Status":{"ReturnCode":100,"Description":"start to play"}}
+V/OtOPlayRequest( 1607): Play Request: {"ResourceInfo":{"ProductCode":"","PlayType":2,"ResourceCode":"10045","ResourceName":"大家庭(27)"},"Status":{"ReturnCode":100,"Description":"start to play"}}
+V/ServerHandler( 1607): ServerHandler send DatagramPacket:/192.168.1.105-[B@41ad89c8
+D/MstarPlayer(  739): exit async proc thread
+D/IMMPlayer(  739): Send MM_Stop
+D/IMMPlayer(  739): u32Item:1
+I//lib/ld-linux.so.3(  743): MApp_VDPlayer_Stop interrupt
+I//lib/ld-linux.so.3(  743): MApp_VDPlayer_Stop
+I//lib/ld-linux.so.3(  743): E_VDP_DECODE_STATE_STOP --> E_VDP_DECODE_STATE_STANDBY
+I//lib/ld-linux.so.3(  743): E_VDP_PHASE_DECODE --> E_VDP_PHASE_STOP
+I//lib/ld-linux.so.3(  743): Clear ES buffer
+I//lib/ld-linux.so.3(  743): E_VDP_PHASE_STOP --> E_VDP_PHASE_STANDBY
+I//lib/ld-linux.so.3(  743): Error code 0; Stop Pos:0x07d79e8 Time:35053
+I//lib/ld-linux.so.3(  743): Get MB_VDPLAYER_STOP command.
+D/IMMPlayer(  739): Get ret:0
+D/IMMPlayer(  739): Send MM_DeleteMediaItem
+D/IMMPlayer(  739): u32Item:1
+D/IMMPlayer(  739): Get ret:0
+D/IMMPlayer(  739): Send PLAYER_COMMAND_REMOVE_EVENT_RECIPIENT_FPTR
+D/IMMPlayer(  739): Get ret:1
+D/IMMPlayer(  739): Send FINALIZE
+I//lib/ld-linux.so.3(  743): Sbtitle de-init: 0.
+I//lib/ld-linux.so.3(  743): MMPlayerService::Client::MM_Finalize()
+I//lib/ld-linux.so.3(  743): MSrv_MM_PhotoPlayer::Finalize().
+I//lib/ld-linux.so.3(  743): mapi_cpcodec::Finalize().
+I//lib/ld-linux.so.3(  743): mapi_cpcodec::Finalize().
+I//lib/ld-linux.so.3(  743): Do mapi_cpcodec::Finalize().
+D/IMMPlayer(  739): Get ret:0
+D/MMPlayer(  739): disconnect
+D/MMPlayer(  739): 
+D/IMMPlayer(  739): Send DISCONNECT
+D/MstarPlayer(  739): MstarPlayer::clearAllSource
+D/Downloader(  739): Enter Downloader::ForceExit ! 
+D/DataSource_M3U8(  739): [M3U8]request to exit download thread
+D/MMPlayer(  739): destructor: 0x476f0
+D/MMPlayer(  739): 
+D/MMPlayer(  739): disconnect
+D/MMPlayer(  739): 
+I//lib/ld-linux.so.3(  743): MM_Finalize done
+I//lib/ld-linux.so.3(  743): V/MMPlayerService( 758 1043): disconnect(callingPid 739, clientPid 739)
+I//lib/ld-linux.so.3(  743): V/MMPlayerService( 758 1043): Disconnet finalize OK.
+I//lib/ld-linux.so.3(  743): V/MMPlayerService( 758 1043): removeClient(callingPid 739)
+D/DataSource_M3U8(  739): [ContentSource_M3U8] DownloadThread Exit Done..
+D/DataSource_M3U8(  739): [M3U8]request to exit mPlaylistThread thread
+D/Downloader(  739): Enter Downloader::ForceExit ! 
+D/Downloader(  739): [downloadThread]Downloader::removeTask  
+D/Downloader(  739): ~Downloader
+D/DataSource_M3U8(  739): [M3U8]~ContentSource_M3U8 done.
+D/MstarPlayer(  739): setInstance: 0x0
+D/MstarPlayer(  739): ==========MstarPlayer::reset : 0x45a68==========
+D/MstarPlayer(  739): MstarPlayer::clearAllSource
+D/MstarPlayer(  739): setInstance: 0x0
+D/MstarPlayer(  739): reset done
+I/dvb_LoadTips( 1906): [gethandler] objInstance:com.coship.dvbplayer.LoadTips@415bb9b0
+I/dvb_LoadTips( 1906): [gethandler] objInstance  mHandler:Handler (com.coship.dvbplayer.LoadTips$1) {415630c8}
+I/dvb_LoadTips( 1906): [gethandler] objInstance:com.coship.dvbplayer.LoadTips@415bb9b0
+I/dvb_LoadTips( 1906): [gethandler] objInstance  mHandler:Handler (com.coship.dvbplayer.LoadTips$1) {415630c8}
+E/DVB_main( 1906): [onDestroy]   serviceAdapter is null
+I/DVB_main( 1906): [onNewIntent]    ~~~~~~~~~~~~~~~
+I/DVB_main( 1906): [checkbundle] channelResourceCode:10045 playType:0
+I/DVB_main( 1906): [checkbundle]:   get channelResourceCode:10045++++++++++playType+++++++++++0
+I/DVB_main( 1906): [handleIntent] get intent ,playType:0
+I/dvb_OTTPlayer( 1906): [getInstance] begin..............
+I/dvb_OTTPlayer( 1906): [play] mediaplayer is null creat it .....
+D/MstarPlayer(  739): ==========MstarPlayer::reset : 0x45a68==========
+D/MstarPlayer(  739): MstarPlayer::clearAllSource
+D/MstarPlayer(  739): setInstance: 0x0
+D/MstarPlayer(  739): reset done
+D/MstarPlayer(  739): 
+D/MstarPlayer(  739): =======Destroy mstar player  : 0x45a68========
+I//lib/ld-linux.so.3(  743): V/MMPlayerService( 758 1045): MMPlayerService::Client destructor(callingPid 739)
+I/dvb_OTTPlayer( 1906): [initMediaplayer] new MediaPlayer END....  mediaplayer:android.media.MediaPlayer@42a12a80
+D/dvb_OTTPlayer( 1906): Send broadcast: channelCode 10045 type 2
+I/dvb_OTTPlayer( 1906): [play] code :10045 name:
+I/dvb_LoadTips( 1906): [gethandler] objInstance:com.coship.dvbplayer.LoadTips@415bb9b0
+I/dvb_LoadTips( 1906): [gethandler] objInstance  mHandler:Handler (com.coship.dvbplayer.LoadTips$1) {415630c8}
+I/dvb_LoadTips( 1906): [gethandler] objInstance:com.coship.dvbplayer.LoadTips@415bb9b0
+I/dvb_LoadTips( 1906): [gethandler] objInstance  mHandler:Handler (com.coship.dvbplayer.LoadTips$1) {415630c8}
+I/DVB_main( 1906): onResume
+D/OtOService( 1607): TVContentReceiver: ACTION_TV_CONTENT_CHANGED, playType: 2 ,resourceCode: 10045
+D/ServerAdapter( 1607): Server addr: http://wasu.feifeikan.com:8080/
+E/ServerHandler( 1607): Send:com.aidufei.protocol.oto.OtOContentRequest@41ad9fb8
+D/ServerHandler( 1607): ServerHandler send request:200:{"ResourceInfo":{"ProductCode":"","PlayType":2,"ResourceCode":"10045","ResourceName":""},"Status":{"ReturnCode":100,"Description":"TVContentChanged"},"ServerAddr":"http:\/\/wasu.feifeikan.com:8080\/","Volume":-1}
+V/ServerHandler( 1607): ServerHandler send DatagramPacket:/192.168.1.105-[B@41adbbd0
+I/dvb_OTTPlayer( 1906): [GetPlayURLThread] begin code:10045
+I/message ( 1906): requestUrl  :http://wasu.feifeikan.com:8080/msis/getPlayURL?version=V001&terminalType=2&resolution=1280*720&resourceCode=10045&productCode=&userCode=&playType=2&delay=0&shifttime=0&shiftend=0&timecode=0&authKey=de89ef2e0fec1850b3c4537395696785
+I/dvb_OTTPlayer( 1906): [getInstance] begin..............
+I/dvb_LoadTips( 1906): [mHandler] ~~~~~~~~~~~~~~~~~~~~~~~~~mHandler:Handler (com.coship.dvbplayer.LoadTips$1) {415630c8} msg.what:5 msg.obj:null
+I/dvb_LoadTips( 1906): [mHandler] ~~~~~~~~~~~~~~~~~~~~~~~~~mHandler:Handler (com.coship.dvbplayer.LoadTips$1) {415630c8} msg.what:3 msg.obj:
+I/message ( 1906): message  :{"ret":"0","palyURL":"http://live.feifeikan.com/live/coship,YSGQHD.m3u8?fmt=x264_0k_mpegts&sora=1&sk=968FBD525608B0DCAF20D5443FA96BCA&UUID=5943c68c-827b-462c-8020-2e76fed9a857&userCode=default&userName=default&spCode=484581254562&productCode=2&resourceCode=10045&subId=123&resourceName=&authType=2","retInfo":""}
+I/System.out( 1906): message--->{"ret":"0","palyURL":"http://live.feifeikan.com/live/coship,YSGQHD.m3u8?fmt=x264_0k_mpegts&sora=1&sk=968FBD525608B0DCAF20D5443FA96BCA&UUID=5943c68c-827b-462c-8020-2e76fed9a857&userCode=default&userName=default&spCode=484581254562&productCode=2&resourceCode=10045&subId=123&resourceName=&authType=2","retInfo":""}
+E/dvb_OTTPlayer( 1906): [GetPlayURLThread]  url:http://live.feifeikan.com/live/coship,YSGQHD.m3u8?fmt=x264_0k_mpegts&sora=1&sk=968FBD525608B0DCAF20D5443FA96BCA&UUID=5943c68c-827b-462c-8020-2e76fed9a857&userCode=default&userName=default&spCode=484581254562&productCode=2&resourceCode=10045&subId=123&resourceName=&authType=2
+I/dvb_OTTPlayer( 1906): [play] String path:http://live.feifeikan.com/live/coship,YSGQHD.m3u8?fmt=x264_0k_mpegts&sora=1&sk=968FBD525608B0DCAF20D5443FA96BCA&UUID=5943c68c-827b-462c-8020-2e76fed9a857&userCode=default&userName=default&spCode=484581254562&productCode=2&resourceCode=10045&subId=123&resourceName=&authType=2
+D/MediaPlayerService(  739):  Create MstarPlayer
+D/MstarPlayer(  739): Create MstarPlayer:0x45a68,Version:Release Mstar player lib Version:0015,Base CL:690305  Date:2012/11/06
+D/MstarPlayer(  739): TV Local Time :  Wed Mar 27 10:57:42 2013
+D/MstarPlayer(  739):  
+D/MstarPlayer(  739): setInstance: 0x45a68
+D/MstarPlayer(  739): mstar player set listener
+D/MstarPlayer(  739): MstarPlayer::initCheck
+D/MediaPlayerService(  739): [3] setVideoSurfaceTexture(0x45c80)
+D/MstarPlayer(  739): MstarPlayer::setVideoSurfaceTexture 
+D/MstarPlayer(  739): open mHwcFifoFD = 29
+D/MediaPlayerService(  739): [3] setVideoSurfaceTexture(0x50d20)
+D/MstarPlayer(  739): MstarPlayer::prepareAsync
+D/MstarPlayer(  739): 
+D/MstarPlayer(  739):  MstarPlayer::doSetDataSource
+D/MstarPlayer(  739): MstarPlayer::clearAllSource
+D/MstarPlayer(  739): 
+D/MstarPlayer(  739):  MstarPlayer::doSetDataSource: url=http://live.feifeikan.com/live/coship,YSGQHD.m3u8?fmt=x264_0k_mpegts&sora=1&sk=968FBD525608B0DCAF20D5443FA96BCA&UUID=5943c68c-827b-462c-8020-2e76fed9a857&userCode=default&userName=default&spCode=484581254562&productCode=2&resourceCode=10045&subId=123&resourceName=&authType=2
+D/Downloader(  739): Release Mstar Content Source CL:493363  Date:2013/03/20
+D/Downloader(  739): Curl Version:libcurl/7.21.7 OpenSSL/1.0.0e
+D/Downloader(  739): [downloadThread]init a multi curl done.curlm:0x3b560 pRingBuffer:0x50d70
+D/DataSource_M3U8(  739): bg thread ready to run
+D/DataSource_M3U8(  739): [M3U8]ContentSource_M3U8 contruct done
+D/DataSource_M3U8(  739): bg thread ready to run
+D/DataSource_M3U8(  739): bg thread 193952
+D/DataSource_M3U8(  739): [M3U8] try parseURLs=http://live.feifeikan.com/live/coship,YSGQHD.m3u8?fmt=x264_0k_mpegts&sora=1&sk=968FBD525608B0DCAF20D5443FA96BCA&UUID=5943c68c-827b-462c-8020-2e76fed9a857&userCode=default&userName=default&spCode=484581254562&productCode=2&resourceCode=10045&subId=123&resourceName=&authType=2
+D/Downloader(  739): [downloadThread]Downloader::removeTask  
+D/MonitorCw880( 1558): currentRemoteHost is null ,continue
+D/Downloader(  739): Content-Length: 295
+D/Downloader(  739): 
+D/Downloader(  739): Content-Type: text/plain; charset=UTF-8
+D/Downloader(  739): 
+D/Downloader(  739): Downloadserver bandWidth:3959
+D/Downloader(  739): Downloadserver bandWidth:3959
+D/Downloader(  739): Downloadserver bandWidth:3959
+D/Downloader(  739): Downloadserver bandWidth:3959
+D/DataSource_M3U8(  739): parseURLs : waiting 580 ms 
+D/DataSource_M3U8(  739):  mDownloadingTask.fileSize:295 
+D/DataSource_M3U8(  739): [M3U8] file: NULL line 
+D/DataSource_M3U8(  739): HLS=====>> Live Stream!!!!
+D/DataSource_M3U8(  739):  bMultAlterBandwidthStream = 1  urlNum=1 
+D/Downloader(  739): [downloadThread]background worker recv DOWNLOADER_COMMAND_REMOVE_TASK
+D/Downloader(  739): [downloadThread]Downloader::removeTask  
+D/Downloader(  739): [downloadThread]DOWNLOADER_COMMAND_REMOVE_TASK done
+D/DataSource_M3U8(  739): [M3U8] try parseURLs=http://live.feifeikan.com/live/hls/208.m3u8?fmt=x264_0k_mpegts&sora=1&sk=968FBD525608B0DCAF20D5443FA96BCA&UUID=5943c68c-827b-462c-8020-2e76fed9a857&userCode=default&userName=default&spCode=484581254562&productCode=2&resourceCode=10045&subId=123&resourceName=&authType=2
+D/Downloader(  739): [downloadThread]Downloader::removeTask  
+D/Downloader(  739): Content-Length: 144
+D/Downloader(  739): 
+D/Downloader(  739): Content-Type: text/plain; charset=UTF-8
+D/Downloader(  739): 
+D/Downloader(  739): Downloadserver bandWidth:3891
+D/Downloader(  739): Downloadserver bandWidth:3891
+D/Downloader(  739): Downloadserver bandWidth:3891
+D/Downloader(  739): Downloadserver bandWidth:3891
+D/DataSource_M3U8(  739): parseURLs : waiting 300 ms 
+D/DataSource_M3U8(  739):  mDownloadingTask.fileSize:144 
+D/DataSource_M3U8(  739): [M3U8]clear mFragements[0]
+D/DataSource_M3U8(  739): [M3U8] file: NULL line 
+D/DataSource_M3U8(  739): HLS=====>> Live Stream!!!!
+D/DataSource_M3U8(  739): bSupportAutoChangeServer = 1 
+D/DataSource_M3U8(  739): u32HLSSreamNum[0]===>u32BandWidth:800000 
+D/DataSource_M3U8(  739): getHLSPlayListInex  DownloadBandWidth:3891   uInDex=0
+D/DataSource_M3U8(  739): [M3U8]----->post cmd for start first url:http://live.feifeikan.com/live/hls/208?slice=048164, knowedFileSize:0
+D/MstarPlayer(  739): MstarPlayer::doPrepare
+D/ContentSource(  739): sniffMP3
+D/ContentSource(  739): sniffAAC
+D/ContentSource(  739): sniffWMA
+D/ContentSource(  739): sniffOGG
+D/ContentSource(  739): sniffWAV
+D/ContentSource(  739): sniffPCM
+D/ContentSource(  739): sniffMP4
+D/ContentSource(  739): sniffASF
+D/ContentSource(  739): sniffFLV
+D/ContentSource(  739): sniffMKV
+D/ContentSource(  739): sniffAVI
+D/ContentSource(  739): sniffMOV
+D/ContentSource(  739): sniffTS
+D/ContentSource(  739): sniffMPEG
+D/ContentSource(  739): sniffRM
+D/ContentSource(  739): sniffWMV
+D/ContentSource(  739): sniffJpegAndMPO
+D/ContentSource(  739): fast_avformat = 0
+D/Downloader(  739): [downloadThread]background worker recv DOWNLOADER_COMMAND_REMOVE_TASK
+D/Downloader(  739): [downloadThread]Downloader::removeTask  
+D/Downloader(  739): [downloadThread]DOWNLOADER_COMMAND_REMOVE_TASK done
+D/Downloader(  739): [downloadThread]Downloader::removeTask  
+D/DataSource_M3U8(  739): u32HLSSreamNum[0]===>u32BandWidth:800000 
+D/DataSource_M3U8(  739): getHLSPlayListInex  DownloadBandWidth:3891   uInDex=0
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): ============Begin to get playlist !!=====================
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/Downloader(  739): Content-Length: 609308
+D/Downloader(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  connect Server :live.feifeikan.com
+D/DataSource_M3U8(  739): parseM3U8 .......!
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048164   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048165   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048166   
+D/DataSource_M3U8(  739): [M3U8] file: NULL line 
+D/DataSource_M3U8(  739): HLS=====>> Live Stream!!!!
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  seekAt : 0 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  seekAt : 0 
+D/MstarPlayer(  739): create MSrv_MM_PlayerInterface
+D/MstarPlayer(  739): ===> GET source FILE Size -1 
+D/MstarPlayer(  739): play content is video
+D/MMPlayer(  739): constructor: 0x31750
+D/MMPlayer(  739): 
+D/MMPlayer(  739): connect
+D/MMPlayer(  739): 
+D/MMPlayer(  739): getMMPlayerService
+D/IMMPlayerService(  739): Send CONNECT
+D/IMMPlayer(  739): Send INITIALIZE
+I//lib/ld-linux.so.3(  743): V/MMPlayerService( 758 758): MMPlayerService::connect(callingPid 739, client 0x2a0c9a98)
+I//lib/ld-linux.so.3(  743): V/MMPlayerService( 758 758): MMPlayerService::Client constructor(callingPid 739)
+I//lib/ld-linux.so.3(  743): MMPlayerService::Client::MM_Initialize()
+I//lib/ld-linux.so.3(  743): MSrv_MM_PhotoPlayer::Initialize().
+I//lib/ld-linux.so.3(  743): mapi_cpcodec::Initialize(). eDecoderPath:2
+I//lib/ld-linux.so.3(  743): Thread name: mapi_cpcode[  130.580683] [irq_proc_open][373] -16
+c.
+I//lib/ld-linux.so.3(  743): MIU interval 0x60000000.
+I//lib/ld-linux.so.3(  743): E_MMAP_ID_XC_MAIN_FB PA: 0x17bc1000, VA: 0x457ff000, size: 0x1800000, IsMIU0: 1.
+I//lib/ld-linux.so.3(  743): E_MMAP_ID_PHOTO_SHAREMEM PA: 0x167bc000, VA: 0x443fa000, size: 0x400, IsMIU0: 1.
+I//lib/ld-linux.so.3(  743): E_MMAP_ID_JPD_READ PA: 0x167bc400, VA: 0x443fa400, size: 0x50080, IsMIU0: 1.
+I//lib/ld-linux.so.3(  743): E_MMAP_ID_JPD_WRITE PA: 0x1680c480, VA: 0x4444a480, size: 0x3fc000, IsMIU0: 1.
+I//lib/ld-linux.so.3(  743): E_MMAP_ID_PHOTO_DISPLAY PA: 0x163c0000, VA: 0x43ffe000, size: 0x3fc000, IsMIU0: 1.
+I//lib/ld-linux.so.3(  743): E_MMAP_ID_PHOTO_INTER PA: 0x16c08480, VA: 0x44846480, size: 0x630000, IsMIU0: 1.
+I//lib/ld-linux.so.3(  743): E_MMAP_ID_PHOTO_MPO_INTER PA: 0x17238480, VA: 0x44e76480, size: 0x3fc000, IsMIU0: 1.
+I//lib/ld-linux.so.3(  743): E_MMAP_ID_VDPLAYER_DATA PA: 0x163c0000, VA: 0x43ffe000, size: 0x1000, IsMIU0: 1.
+I//lib/ld-linux.so.3(  743): E_MMAP_ID_VDPLAYER_BITSTREAM PA: 0x16d40000, VA: 0x4497e000, size: 0x400000, IsMIU0: 1.
+I//lib/ld-linux.so.3(  743): E_MMAP_ID_VDPLAYER_BITSTREAM_EXT PA: 0x16940000, VA: 0x4457e000, size: 0x400000, IsMIU0: 1.
+I//lib/ld-linux.so.3(  743): E_MMAP_ID_SUBTITLE PA: 0x16740000, VA: 0x4437e000, size: 0x1e0000, IsMIU0: 1.
+I//lib/ld-linux.so.3(  743): E_MMAP_ID_MAD_DEC PA: 0x15c40000, VA: 0x4387e000, size: 0x280000, IsMIU0: 1.
+I//lib/ld-linux.so.3(  743): E_MMAP_ID_VDEC_CPU PA: 0x1b800000, VA: 0x4943e000, size: 0x200000, IsMIU0: 1.
+I//lib/ld-linux.so.3(  743): E_MMAP_ID_VDEC_FRAMEBUFFER PA: 0x1ba00000, VA: 0x4963e000, size: 0x1b00000, IsMIU0: 1.
+I//lib/ld-linux.so.3(  743): E_MMAP_ID_VDEC_FRAMEBUFFERSD PA: 0x1ba00000, VA: 0x4963e000, size: 0x1b00000, IsMIU0: 1.
+I//lib/ld-linux.so.3(  743): E_MMAP_ID_VDEC_BITSTREAM PA: 0x1d500000, VA: 0x4b13e000, size: 0x800000, IsMIU0: 1.
+I//lib/ld-linux.so.3(  743): E_MMAP_ID_VDEC_MVC_FRAMEBUFFER PA: 0x1ba00000, VA: 0x4963e000, size: 0x2b00000, IsMIU0: 1.
+I//lib/ld-linux.so.3(  743): E_MMAP_ID_VDEC_MVC_BITSTREAM PA: 0x1e500000, VA: 0x4c13e000, size: 0x1600000, IsMIU0: 1.
+I//lib/ld-linux.so.3(  743): E_MMAP_ID_DMX_SECBUF PA: 0xd0000, VA: 0x4120e000, size: 0x70000, IsMIU0: 1.
+I//lib/ld-linux.so.3(  743): ???????? Important,The MMAP ID(110) does not existed!, please check it...
+I//lib/ld-linux.so.3(  743): ???????? Please update the right system configure...
+I//lib/ld-linux.so.3(  743): ???????? Important,The MMAP ID(111) does not existed!, please check it...
+I//lib/ld-linux.so.3(  743): ???????? Please update the right system configure...
+I//lib/ld-linux.so.3(  743): Panel width: 1280, heigt: 720.
+I//lib/ld-linux.so.3(  743): MPO SBS width: 1792, heigt: 504.
+I//lib/ld-linux.so.3(  743): Output Buffer start: 0x4444a480, BUS address start: 0x5680c480, size: 0x3fc000.
+I//lib/ld-linux.so.3(  743): Display Buffer start: 0x43ffe000, BUS address start: 0x563c0000, size: 0x3fc000.
+I//lib/ld-linux.so.3(  743): Internal Buffer start: 0x44846480, BUS address start: 0x56c08480, size: 0x630000.
+I//lib/ld-linux.so.3(  743): MPO Internal Buffer start: 0x44e76480, BUS address start: 0x57238480, size: 0x3fc000.
+I//lib/ld-linux.so.3(  743): MSrv_MM_PhotoPlayer::Initialize() Done.
+I//lib/ld-linux.so.3(  743): >>> MSrv_MM_VideoPlayer  Initialize 
+I//lib/ld-linux.so.3(  743): mapi_cpcodec::Initialize(). eDecoderPath:2
+I//lib/ld-linux.so.3(  743): ******Amplifier_TI5707_SWMute(0)
+I//lib/ld-linux.so.3(  743): 5707write fail = 7
+I//lib/ld-linux.so.3(  743): 5707write fail = 7
+I//lib/ld-linux.so.3(  743): 5707write fail = 7
+I//lib/ld-linux.so.3(  743): 5707write fail = 7
+I//lib/ld-linux.so.3(  743): 5707write fail = 6
+D/IMMPlayer(  739): Get ret:0
+D/IMMPlayer(  739): Send PLAYER_COMMAND_ADD_EVENT_RECIPIENT_FPTR
+D/IMMPlayer(  739): Get ret:1
+D/IMMPlayer(  739): Send MM_SetPlayerTimeOutValue
+D/IMMPlayer(  739): pTimeOutInfo->u32FileIOTimeOut:4294967295
+D/IMMPlayer(  739): pTimeOutInfo->u32FileReadTimeOut:4294967295
+D/IMMPlayer(  739): pTimeOutInfo->u32FileSeekTimeOut:4294967295
+D/IMMPlayer(  739): pTimeOutInfo->u32DecodeCtrlTimeOut:4294967295
+D/IMMPlayer(  739): pTimeOutInfo->u32ESBuffCtrlTimeOut:-1
+D/IMMPlayer(  739): Get ret:0
+D/IMMPlayer(  739): Send MM_CreateMediaItem
+D/IMMPlayer(  739): stMedia.u32FileID:243040
+D/IMMPlayer(  739): stMedia.u32FileSecondID:0
+D/IMMPlayer(  739): stMedia.u32FileThirdID:0
+D/IMMPlayer(  739): stMedia.u32FileFourthID:0
+D/IMMPlayer(  739): stMedia.u64FileLength:18446744073709551615
+D/IMMPlayer(  739): stMedia.eMediaType:2
+D/IMMPlayer(  739): stMedia.eMediaFileType:2
+D/IMMPlayer(  739): stMedia.eMediaCreateMode:0
+D/IMMPlayer(  739): stMedia.u32CtlFlag:66
+I//lib/ld-linux.so.3(  743): Panel width: 01280, heigt: 720.
+I//lib/ld-linux.so.3(  743): Thread name: MM_Audio.
+I//lib/ld-linux.so.3(  743): Thread name: MM_Audio.
+D/IMMPlayer(  739): Get ret:0
+D/MstarPlayer(  739): media item 0x1
+D/MstarPlayer(  739): MstarPlayer::doPrepare done
+I//lib/ld-linux.so.3(  743): Video Item Info, file ID: 0x3b560, file length: 0xffffffff 0xffffffff.
+I//lib/ld-linux.so.3(  743): Output Resolution: DISPLAY_DACOUT_576P or DISPLAY_DACOUT_720P_50 or DISPLAY_DACOUT_1080P_50.
+I//lib/ld-linux.so.3(  743): >>>GetDRMSetting From EEPROM
+I//lib/ld-linux.so.3(  743): mapi_cpcodec::CreateMedia(): 130567.
+I//lib/ld-linux.so.3(  743): 1 File ID: 0x3b560, 2 File ID: 0x0, 3 File ID: 0x0, 4 File ID: 0x0.
+I//lib/ld-linux.so.3(  743): File size: 0xffffffff ffffffff.
+I//lib/ld-linux.so.3(  743): Media Type: 0, File Type: 2, Create Mode: 0.
+I//lib/ld-linux.so.3(  743): mapi_cpcodec::videoCreateMedia().
+I//lib/ld-linux.so.3(  743): Reconfigure Buffer.
+I//lib/ld-linux.so.3(  743): E_MMAP_ID_VDEC_FRAMEBUFFER PA: 0x1ba00000, VA: 0x4963e000, size: 0x1b00000, IsMIU0: 1.
+I//lib/ld-linux.so.3(  743): E_MMAP_ID_VDEC_FRAMEBUFFERSD PA: 0x1ba00000, VA: 0x4963e000, size: 0x1b00000, IsMIU0: 1.
+I//lib/ld-linux.so.3(  743): E_MMAP_ID_VDEC_BITSTREAM PA: 0x1d500000, VA: 0x4b13e000, size: 0x800000, IsMIU0: 1.
+I//lib/ld-linux.so.3(  743): E_MMAP_ID_VDEC_MVC_FRAMEBUFFER PA: 0x1ba00000, VA: 0x4963e000, size: 0x2b00000, IsMIU0: 1.
+I//lib/ld-linux.so.3(  743): E_MMAP_ID_VDEC_MVC_BITSTREAM PA: 0x1e500000, VA: 0x4c13e000, size: 0x1600000, IsMIU0: 1.
+I//lib/ld-linux.so.3(  743): Copy TSP FW bin 2a17b290 -> 4120e000; 4400
+I//lib/ld-linux.so.3(  743): drop error frame.
+I//lib/ld-linux.so.3(  743): pCodecMedia eFileType:2,eAppType:0 
+I//lib/ld-linux.so.3(  743): default unseekable Stream mode config: Set preload size 0x4000
+I//lib/ld-linux.so.3(  743): Stream mode. Set read header require size: MIN_REQUIRE_SIZE
+I//lib/ld-linux.so.3(  743): Stream mode. for ts,Set read header probe option: (E_VDP_READ_HEADER_PROBE_AUDIO_DISABLE | E_VDP_READ_HEADER_PROBE_DURATION_DISABLE)
+I//lib/ld-linux.so.3(  743): >>>>  DRM start  DRM MODEL ID  0x3031
+I//lib/ld-linux.so.3(  743): LoadDRMMemory();
+I//lib/ld-linux.so.3(  743): Display Msg: 29.
+I//lib/ld-linux.so.3(  743):  set Frame buffer info  MAX_FRAMENUM 4   MAX_FIELDNUM  16
+I//lib/ld-linux.so.3(  743): Enable TS Subtitle codec state  1
+I//lib/ld-linux.so.3(  743): [CI][HbbTV-VOD]<INFO>:[1364353064.343617] MM init start
+I//lib/ld-linux.so.3(  743): videoCreateMedia Done.
+I//lib/ld-linux.so.3(  743): Create CP Ccodec Video Media Done.
+I//lib/ld-linux.so.3(  743): Device or resource busy
+I//lib/ld-linux.so.3(  743): Cannot open interrupt descriptor for irq=147 Auth OK
+I//lib/ld-linux.so.3(  743): Check S/W IP Statue
+I//lib/ld-linux.so.3(  743): [0]:OFF; [1]:OFF; [2]:OFF; [3]:ON
+I//lib/ld-linux.so.3(  743): [4]:OFF; [5]:OFF; [6]:OFF; [7]:OFF
+I//lib/ld-linux.so.3(  743): [8]:OFF; [9]:OFF; [10]:OFF; [11]:ON
+I//lib/ld-linux.so.3(  743): [12]:ON; [13]:OFF; [14]:OFF; [15]:OFF
+I//lib/ld-linux.so.3(  743): [16]:OFF; [17]:OFF; [18]:OFF; [19]:ON
+I//lib/ld-linux.so.3(  743): [20]:ON; [21]:ON; [22]:ON; [23]:ON
+I//lib/ld-linux.so.3(  743): [24]:OFF; [25]:OFF; [26]:OFF; [27]:ON
+I//lib/ld-linux.so.3(  743): [28]:ON; [29]:ON; [30]:ON; [31]:OFF
+I//lib/ld-linux.so.3(  743): [32]:OFF; [33]:ON; [34]:ON; [35]:OFF
+I//lib/ld-linux.so.3(  743): [36]:OFF; [37]:OFF; [38]:OFF; [39]:ON
+I//lib/ld-linux.so.3(  743): [40]:ON; [41]:OFF; [42]:OFF; [43]:OFF
+I//lib/ld-linux.so.3(  743): [44]:OFF; [45]:OFF; [46]:OFF; [47]:OFF
+I//lib/ld-linux.so.3(  743): [48]:OFF; [49]:OFF; [50]:OFF; [51]:OFF
+I//lib/ld-linux.so.3(  743): [52]:OFF; [53]:OFF; [54]:OFF; [55]:OFF
+I//lib/ld-linux.so.3(  743): [56]:OFF; [57]:OFF; [58]:OFF; [59]:OFF
+I//lib/ld-linux.so.3(  743): [60]:OFF; [61]:OFF; [62]:OFF; [63]:OFF
+I//lib/ld-linux.so.3(  743): Subtitle File Open Fail !!
+I//lib/ld-linux.so.3(  743): Attached File Open Fail !!
+I//lib/ld-linux.so.3(  743): Audio File Fail!!
+I//lib/ld-linux.so.3(  743): Blocking Read: 0, size: 0x1000.
+D/MediaPlayerService(  739): [3] notify (0x43ee0, 3, 51, 0)
+D/DataSource_M3U8(  739): u32HLSSreamNum[0]===>u32BandWidth:800000 
+D/DataSource_M3U8(  739): getHLSPlayListInex  DownloadBandWidth:3891   uInDex=0
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): ============Begin to get playlist !!=====================
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+I//lib/ld-linux.so.3(  743): Blocking Read: 400, size: 0x8000.
+I//lib/ld-linux.so.3(  743): File format : TS
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  connect Server :live.feifeikan.com
+D/DataSource_M3U8(  739): parseM3U8 .......!
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048164   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048165   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048166   
+D/DataSource_M3U8(  739): [M3U8] file: NULL line 
+D/DataSource_M3U8(  739): HLS=====>> Live Stream!!!!
+I//lib/ld-linux.so.3(  743): Blocking Read: 502, size: 0x20000.
+D/DataSource_M3U8(  739): u32HLSSreamNum[0]===>u32BandWidth:800000 
+D/DataSource_M3U8(  739): getHLSPlayListInex  DownloadBandWidth:3891   uInDex=0
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): ============Begin to get playlist !!=====================
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+I//lib/ld-linux.so.3(  743): Blocking Read: 201, size: 0x20000.
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  connect Server :live.feifeikan.com
+D/DataSource_M3U8(  739): parseM3U8 .......!
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048164   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048165   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048166   
+D/DataSource_M3U8(  739): [M3U8] file: NULL line 
+D/DataSource_M3U8(  739): HLS=====>> Live Stream!!!!
+I//lib/ld-linux.so.3(  743): Blocking Read: 401, size: 0x20000.
+I//lib/ld-linux.so.3(  743): Bitrate = 262144 Byte/s, Duration = -1 ms
+I//lib/ld-linux.so.3(  743): PackSize = 28200 Byte.
+I//lib/ld-linux.so.3(  743): ==============================================================================================
+I//lib/ld-linux.so.3(  743): Data:MIU0; Bits:MIU0; MAD:MIU0; MVD:MIU0; SVD:MIU0; FB:MIU0; TSP:MIU0; FBL:No
+I//lib/ld-linux.so.3(  743): Bit Buffer:0x4497e000      Size:0x400000
+I//lib/ld-linux.so.3(  743): Subtitle Bit Buffer:0x4437e000     Size:0x1b0000
+I//lib/ld-linux.so.3(  743): MAD Buffer:0x4387e000
+I//lib/ld-linux.so.3(  743): MADExt Buffer:0x4457e000   Size:0x400000
+I//lib/ld-linux.so.3(  743): VDEC FW Buffer:0x4943e000  Size:0x200000
+I//lib/ld-linux.so.3(  743): Frame Buffer:0x4963e000    Size:0x1b00000
+I//lib/ld-linux.so.3(  743): MVD Buffer:0x4b13e000      Size:0x800000
+I//lib/ld-linux.so.3(  743): TSP FW Buffer:0x4120e000   Size:0x70000
+I//lib/ld-linux.so.3(  743): Data Buffer:0x163d1000     Size:0x36f000
+I//lib/ld-linux.so.3(  743): Attached File Buffer Size:0xffffffff
+I//lib/ld-linux.so.3(  743): -> Demuxer:0x164f8000      Size:0x248000
+I//lib/ld-linux.so.3(  743): -> SeqHeader:0x4400f000    Size:0x1000
+I//lib/ld-linux.so.3(  743): -> MOV Table:0x4963e000    Size:0x1b00000
+I//lib/ld-linux.so.3(  743): -> MOV Static:0x44010000   Size:0x100000
+I//lib/ld-linux.so.3(  743): -> DRM Payload:0x44110000  Size:0x4000
+I//lib/ld-linux.so.3(  743): -> DRM Playback Context:0x44114000 Size:0x1000
+I//lib/ld-linux.so.3(  743): -> MADExtend:0x44116000    Size:0x20000
+I//lib/ld-linux.so.3(  743): -> NonCache Area:0x44115000        Size:0x1000
+I//lib/ld-linux.so.3(  743): -> Reserved Size:0x0
+I//lib/ld-linux.so.3(  743): ==============================================================================================
+I//lib/ld-linux.so.3(  743): Initialize TS HW
+I//lib/ld-linux.so.3(  743): HAL_VPU_EX_SetDbgLevel eLevel=0x1
+I//lib/ld-linux.so.3(  743): Load AAC Audio Codec.
+I//lib/ld-linux.so.3(  743): ========AAC Audio Codec========
+I//lib/ld-linux.so.3(  743): ===== Check Audio Decoder Protection from hash-key IP =====
+I//lib/ld-linux.so.3(  743): Hash-key Support DD.
+I//lib/ld-linux.so.3(  743): Hash-key Support DD+.
+I//lib/ld-linux.so.3(  743): Hash-key Support Generic HE-AAC !!
+I//lib/ld-linux.so.3(  743): Hash-key Support WMA.
+I//lib/ld-linux.so.3(  743): Hash-key Support DRA.
+I//lib/ld-linux.so.3(  743): ===== Check Protection IP End                         =====
+I//lib/ld-linux.so.3(  743): ******Amplifier_TI5707_SWMute(0)
+I//lib/ld-linux.so.3(  743): 5707write fail = 7
+I//lib/ld-linux.so.3(  743): 5707write fail = 7
+I//lib/ld-linux.so.3(  743): 5707write fail = 7
+I//lib/ld-linux.so.3(  743): 5707write fail = 7
+I//lib/ld-linux.so.3(  743): 5707write fail = 6
+I//lib/ld-linux.so.3(  743): DS enable = 1
+I//lib/ld-linux.so.3(  743): Blocking Read: 0, size: 0x4000.
+I//lib/ld-linux.so.3(  743): To ask Dynscaling Size from vdec  0xc00
+I//lib/ld-linux.so.3(  743): jim:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+I//lib/ld-linux.so.3(  743):  To check Dynscaling by vdec
+I//lib/ld-linux.so.3(  743): Size(960x544), Disp(960x544), Par(1x1), FrameRate:25000, Interlace:0
+I//lib/ld-linux.so.3(  743): 1st sequence header Decode Ready!! **
+D/DataSource_M3U8(  739): u32HLSSreamNum[0]===>u32BandWidth:800000 
+D/DataSource_M3U8(  739): getHLSPlayListInex  DownloadBandWidth:3891   uInDex=0
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): ============Begin to get playlist !!=====================
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/Downloader(  739): Downloadserver bandWidth:2147340
+D/Downloader(  739): Downloadserver bandWidth:2147340
+D/Downloader(  739): Downloadserver bandWidth:2147340
+D/Downloader(  739): Downloadserver bandWidth:2147340
+D/MstarPlayer(  739): Get E_EVENT_INIT_OK event.
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  notify : 0 
+D/IMMPlayer(  739): Send MM_EnableSubtitleShow
+D/IMMPlayer(  739): u32Item:1
+D/IMMPlayer(  739): bEnable:1
+D/MstarPlayer(  739): <<<<<<<<<Init done
+D/IMMPlayer(  739): Send MM_GetMetaData
+D/IMMPlayer(  739): u32Item:1
+D/IMMPlayer(  739): eMetadata:11
+D/IMMPlayer(  739): u32BuffSize:4
+D/IMMPlayer(  739): Get ret:0
+D/IMMPlayer(  739): Send MM_GetMetaData
+D/IMMPlayer(  739): u32Item:1
+D/IMMPlayer(  739): eMetadata:12
+D/IMMPlayer(  739): u32BuffSize:4
+D/IMMPlayer(  739): Get ret:0
+D/MediaPlayerService(  739): [3] notify (0x43ee0, 5, 960, 540)
+D/MstarPlayer(  739): MstarPlayer::initRender
+D/IMMPlayer(  739): Get ret:1
+D/MstarPlayer(  739): <<<<<set init done flag
+I//lib/ld-linux.so.3(  743): [CI][HbbTV-VOD]<INFO>:[1364353066.196066] MM init done
+I//lib/ld-linux.so.3(  743): E_CPCODEC_MSG_INIT_OK: 132424.
+D/MstarPlayer(  739): MstarPlayer::initRender Done.
+D/MstarPlayer(  739): prepare done....video size 960,540
+D/MediaPlayerService(  739): [3] notify (0x43ee0, 1, 0, 0)
+I/dvb_OTTPlayer( 1906): [onVideoSizeChanged ] mp:android.media.MediaPlayer@42a12a80  width:960  height:540
+D/MediaPlayerService(  739): [3] setVideoSurfaceTexture(0x311b0)
+I/dvb_OTTPlayer( 1906): [onPrepared ] arg0:android.media.MediaPlayer@42a12a80
+I/dvb_LoadTips( 1906): [gethandler] objInstance:com.coship.dvbplayer.LoadTips@415bb9b0
+I/dvb_LoadTips( 1906): [gethandler] objInstance  mHandler:Handler (com.coship.dvbplayer.LoadTips$1) {415630c8}
+I/dvb_LoadTips( 1906): [gethandler] objInstance:com.coship.dvbplayer.LoadTips@415bb9b0
+I/dvb_LoadTips( 1906): [gethandler] objInstance  mHandler:Handler (com.coship.dvbplayer.LoadTips$1) {415630c8}
+D/MstarPlayer(  739): MstarPlayer::setLooping=0
+D/MstarPlayer(  739): playerType
+D/MstarPlayer(  739): MstarPlayer::setLooping=0
+D/IMMPlayer(  739): Send MM_Play
+D/IMMPlayer(  739): u32Item:1
+D/IMMPlayer(  739): Get ret:0
+I//lib/ld-linux.so.3(  743): mapi_cpcodec::Play(): 132434.
+I//lib/ld-linux.so.3(  743): [CI][HbbTV-VOD]<INFO>:[1364353066.210226] MM play start
+I/dvb_LoadTips( 1906): [mHandler] ~~~~~~~~~~~~~~~~~~~~~~~~~mHandler:Handler (com.coship.dvbplayer.LoadTips$1) {415630c8} msg.what:5 msg.obj:null
+I//lib/ld-linux.so.3(  743): MApp_VDPlayer_Play
+I//lib/ld-linux.so.3(  743): [CI][HbbTV-VOD]<INFO>:[1364353066.224080] MM setup display start
+I//lib/ld-linux.so.3(  743): Display Msg: 33.
+I//lib/ld-linux.so.3(  743): Screen Setting: 1.
+I//lib/ld-linux.so.3(  743): Set Black Screen ON.
+I//lib/ld-linux.so.3(  743): Video set up display.
+I//lib/ld-linux.so.3(  743): Scaler frame buffer mode.
+I//lib/ld-linux.so.3(  743): stDisplayInfo.u32OutputRate: 0.
+I//lib/ld-linux.so.3(  743): Display Msg: 28.
+I//lib/ld-linux.so.3(  743):  DS:IP on 1, OP on 1, depth=16
+I//lib/ld-linux.so.3(  743): Video Width: 960, Height: 544, FrameRate: 25000, Interlace: 0.
+I//lib/ld-linux.so.3(  743): crop: left=0, right=0, top=0, bottom=4
+I//lib/ld-linux.so.3(  743): Video Type: 2.
+I//lib/ld-linux.so.3(  743): Video PAR Width: 960, Height: 544.
+I//lib/ld-linux.so.3(  743): Video Aspect Ratio: 30x17.
+I//lib/ld-linux.so.3(  743): 1. Display Rect: x: 0, y: 0, width: 1280, height: 720.
+I//lib/ld-linux.so.3(  743): 2. Display Rect: x: 4, y: 0, width: 1270, height: 720.
+I//lib/ld-linux.so.3(  743): CropRect u16X=0, u16Y=0, u16Width=960, u16Height=540
+I//lib/ld-linux.so.3(  743): DispRect u16X=4, u16Y=0, u16Width=1270, u16Height=720
+I//lib/ld-linux.so.3(  743): Scaler start: 0x17bc1000, size: 0x1800000.
+I//lib/ld-linux.so.3(  743): MVOP switch to MIU 0.
+I//lib/ld-linux.so.3(  743): ->u16FrameRate = 25000
+I//lib/ld-linux.so.3(  743): ->u8Interlace = 0
+I//lib/ld-linux.so.3(  743): ->u16HorSize = 1920
+I//lib/ld-linux.so.3(  743): ->u16VerSize = 1080
+I//lib/ld-linux.so.3(  743): Crop Win, X: 0, Y: 0, W: 960, H: 540.
+I//lib/ld-linux.so.3(  743): Diso Win, X: 4, Y: 0, W: 1270, H: 720.
+I//lib/ld-linux.so.3(  743): [MApi_Video] CropWin assigned: x,y,w,h=0,0,960,540
+I//lib/ld-linux.so.3(  743): [MApi_Video] DstWin assigned: x,y,w,h=4,0,1270,720
+I//lib/ld-linux.so.3(  743): [MApi_Video] SrcWin1[Win=0]: x,y,w,h=152,18,1920,1076
+I//lib/ld-linux.so.3(  743): [MApi_Video] CropWin1: x,y,w,h=0,0,960,540
+I//lib/ld-linux.so.3(  743): [MApi_Video] DispWin1: x,y,w,h=4,0,1270,720
+I//lib/ld-linux.so.3(  743): === open 3D OverScan ===
+I//lib/ld-linux.so.3(  743): [MApi_Video] SrcWin2: x,y,w,h=152,18,1920,1076
+I//lib/ld-linux.so.3(  743): [MApi_Video] CropWin2: x,y,w,h=0,0,960,540
+I//lib/ld-linux.so.3(  743): [MApi_Video] DispWin2: x,y,w,h=4,0,1270,720
+I//lib/ld-linux.so.3(  743): [MApi_Video] SrcWin3: x,y,w,h=152,18,1920,1076
+I//lib/ld-linux.so.3(  743): [MApi_Video] CropWin3: x,y,w,h=0,0,960,540
+I//lib/ld-linux.so.3(  743): [MApi_Video] DispWin3: x,y,w,h=4,0,1270,720
+I//lib/ld-linux.so.3(  743): [MApi_Video] SrcWin5[Win=0]: x,y,w,h=152,18,1920,1076
+I//lib/ld-linux.so.3(  743): [MApi_Video] CropWin5: x,y,w,h=0,0,960,540
+I//lib/ld-linux.so.3(  743): [MApi_Video] DispWin5: x,y,w,h=4,0,1270,720
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  connect Server :live.feifeikan.com
+D/DataSource_M3U8(  739): parseM3U8 .......!
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048164   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048165   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048166   
+D/DataSource_M3U8(  739): [M3U8] file: NULL line 
+D/DataSource_M3U8(  739): HLS=====>> Live Stream!!!!
+D/DataSource_M3U8(  739): [M3U8] checkShouldStartNext :[0](609308/609308)   sequence:0  start next:1  
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): [M3U8]-7----->This :0x508f8 --> post cmd for start next url:http://live.feifeikan.com/live/hls/208?slice=048165, knowedFileSize:0, mCurDowningIndex:0
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/Downloader(  739): [downloadThread]Downloader::removeTask  
+D/Downloader(  739): [downloadThread]task have range string:0- 
+I//lib/ld-linux.so.3(  743): [MApi_Video] DLC cap Hstart=5, Hend=4fb, Vstart=5a, Vend=276
+D/MediaPlayerService(  739): [3] notify (0x43ee0, 3, 100, 0)
+I//lib/ld-linux.so.3(  743): DS_UpdateXCStatus, eCmd=1
+I//lib/ld-linux.so.3(  743): Read Bandwidthtable.bin
+I//lib/ld-linux.so.3(  743): enPQMNRType is 1
+I//lib/ld-linux.so.3(  743): enPQFLType is 1
+I//lib/ld-linux.so.3(  743):    [Plugins_PatchPQ]Customer Path PQ Add here
+D/MstarPlayer(  739): Get E_EVENT_DECODE_FIRST_FRAME_DONE event.
+I//lib/ld-linux.so.3(  743): 2. Set up display: 132708.
+I//lib/ld-linux.so.3(  743): Display Msg: 46.
+I//lib/ld-linux.so.3(  743): DS_UpdateXCStatus, eCmd=2
+I//lib/ld-linux.so.3(  743): [CI][HbbTV-VOD]<INFO>:[1364353066.483548] MM setup display done
+D/MstarPlayer(  739): Read DisplayRectangle FILE x 0, y 0, w 1280, h 720
+D/MstarPlayer(  739): setDisplayRectangle  x 0, y 0, w 1280, h 720
+D/IMMPlayer(  739): Send MM_SetDisplayRectangle
+D/IMMPlayer(  739): u32Item:1
+D/IMMPlayer(  739): stRect u16X:0
+D/IMMPlayer(  739): stRect u16Y:0
+D/IMMPlayer(  739): stRect u16Height:720
+D/IMMPlayer(  739): stRect u16Width:1280
+D/MstarPlayer(  739): E_EVENT_PLAYING_OK
+I//lib/ld-linux.so.3(  743): Video PAR Width: 960, Height: 544.
+I//lib/ld-linux.so.3(  743): Video Aspect Ratio: 30x17.
+I//lib/ld-linux.so.3(  743): 1. Display Rect: x: 0, y: 0, width: 1280, height: 720.
+I//lib/ld-linux.so.3(  743): 2. Display Rect: x: 4, y: 0, width: 1270, height: 720.
+I//lib/ld-linux.so.3(  743): CropRect u16X=0, u16Y=0, u16Width=960, u16Height=540
+I//lib/ld-linux.so.3(  743): DispRect u16X=4, u16Y=0, u16Width=1270, u16Height=720
+I//lib/ld-linux.so.3(  743): Video is in playing state.
+I//lib/ld-linux.so.3(  743): FrmCnt:7(0,0,0) Rate:854208 Sys:132735 STC:0 VPTS:-1 APTS:0 Delay:39(40) V:1 A:3 VES:0xcc70 AES:0x24f0 PCM:0x7b00 AudioErr:0x0
+I//lib/ld-linux.so.3(  743): Crop Win, X: 0, Y: 0, W: 960, H: 540.
+I//lib/ld-linux.so.3(  743): Diso Win, X: 4, Y: 0, W: 1270, H: 720.
+I//lib/ld-linux.so.3(  743): [MApi_Video] CropWin assigned: x,y,w,h=0,0,960,540
+I//lib/ld-linux.so.3(  743): [MApi_Video] DstWin assigned: x,y,w,h=4,0,1270,720
+I//lib/ld-linux.so.3(  743): [MApi_Video] SrcWin1[Win=0]: x,y,w,h=152,18,1920,1076
+I//lib/ld-linux.so.3(  743): [MApi_Video] CropWin1: x,y,w,h=0,0,960,540
+I//lib/ld-linux.so.3(  743): [MApi_Video] DispWin1: x,y,w,h=4,0,1270,720
+I//lib/ld-linux.so.3(  743): === open 3D OverScan ===
+I//lib/ld-linux.so.3(  743): [MApi_Video] SrcWin2: x,y,w,h=152,18,1920,1076
+I//lib/ld-linux.so.3(  743): [MApi_Video] CropWin2: x,y,w,h=0,0,960,540
+I//lib/ld-linux.so.3(  743): [MApi_Video] DispWin2: x,y,w,h=4,0,1270,720
+I//lib/ld-linux.so.3(  743): [MApi_Video] SrcWin3: x,y,w,h=152,18,1920,1076
+I//lib/ld-linux.so.3(  743): [MApi_Video] CropWin3: x,y,w,h=0,0,960,540
+I//lib/ld-linux.so.3(  743): [MApi_Video] DispWin3: x,y,w,h=4,0,1270,720
+I//lib/ld-linux.so.3(  743): [MApi_Video] SrcWin5[Win=0]: x,y,w,h=152,18,1920,1076
+I//lib/ld-linux.so.3(  743): [MApi_Video] CropWin5: x,y,w,h=0,0,960,540
+I//lib/ld-linux.so.3(  743): [MApi_Video] DispWin5: x,y,w,h=4,0,1270,720
+I//lib/ld-linux.so.3(  743): STC Updated by Video: (307->37563479)
+I//lib/ld-linux.so.3(  743): 1st Decode & Display Ready!!
+I//lib/ld-linux.so.3(  743): Audio Sync STC mode.(TS) 
+I//lib/ld-linux.so.3(  743): [MApi_Video] DLC cap Hstart=5, Hend=4fb, Vstart=5a, Vend=276
+I//lib/ld-linux.so.3(  743): Clr Sync STC
+I//lib/ld-linux.so.3(  743): DS_UpdateXCStatus, eCmd=1
+D/DataSource_M3U8(  739): u32HLSSreamNum[0]===>u32BandWidth:800000 
+D/DataSource_M3U8(  739): getHLSPlayListInex  DownloadBandWidth:2147340   uInDex=0
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): ============Begin to get playlist !!=====================
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/IMMPlayer(  739): Get ret:0
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  connect Server :live.feifeikan.com
+D/DataSource_M3U8(  739): parseM3U8 .......!
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048164   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048165   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048166   
+D/DataSource_M3U8(  739): [M3U8] file: NULL line 
+D/DataSource_M3U8(  739): HLS=====>> Live Stream!!!!
+D/DataSource_M3U8(  739): u32HLSSreamNum[0]===>u32BandWidth:800000 
+D/DataSource_M3U8(  739): getHLSPlayListInex  DownloadBandWidth:2147340   uInDex=0
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): ============Begin to get playlist !!=====================
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  Warnig::  getValidBufferLength()  <  Codec require !!!
+I//lib/ld-linux.so.3(  743): Display Msg: 33.
+I//lib/ld-linux.so.3(  743): Screen Setting: 1.
+I//lib/ld-linux.so.3(  743): 2. Set Black Screen OFF.
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  connect Server :live.feifeikan.com
+D/DataSource_M3U8(  739): parseM3U8 .......!
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048164   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048165   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048166   
+D/DataSource_M3U8(  739): [M3U8] file: NULL line 
+D/DataSource_M3U8(  739): HLS=====>> Live Stream!!!!
+I//lib/ld-linux.so.3(  743): [CI][HbbTV-VOD]<INFO>:[1364353067.782554] MM play done
+I//lib/ld-linux.so.3(  743): FrmCnt:45(0,0,0) Rate:24 Sys:134275 STC:37564977 VPTS:37564999 APTS:37564948 Delay:62(40) V:0 A:0 VES:0x46060 AES:0x2dd0 PCM:0x4b680 AudioErr:0x0
+D/Downloader(  739): Downloadserver bandWidth:2678481
+D/Downloader(  739): Downloadserver bandWidth:2678481
+D/Downloader(  739): Downloadserver bandWidth:2678481
+D/Downloader(  739): Downloadserver bandWidth:2678481
+E/ServerHandler( 1607): receiveRequest
+V/OtORequest( 1607): parseCommand
+V/OtORequest( 1607): get command=103
+V/OtORequest( 1607): parse OtORequest: cmd=103 paramLength=0 bufferlen=8
+D/OtOService( 1607): client request get status.playType:2
+D/OtOService( 1607): 2222
+E/ServerAdapter( 1607): ServerAdapter:0
+E/ServerHandler( 1607): Send:com.aidufei.protocol.oto.OtOStatusRequest@41adc648
+D/ServerHandler( 1607): ServerHandler send request:103:{"Status":{"ReturnCode":101,"Description":"status sync failed"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 1607): ServerHandler send DatagramPacket:/192.168.1.105-[B@41add718
+D/DataSource_M3U8(  739): u32HLSSreamNum[0]===>u32BandWidth:800000 
+D/DataSource_M3U8(  739): getHLSPlayListInex  DownloadBandWidth:2147340   uInDex=0
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): ============Begin to get playlist !!=====================
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  connect Server :live.feifeikan.com
+D/DataSource_M3U8(  739): parseM3U8 .......!
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048164   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048165   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048166   
+D/DataSource_M3U8(  739): [M3U8] file: NULL line 
+D/DataSource_M3U8(  739): HLS=====>> Live Stream!!!!
+D/DataSource_M3U8(  739): [M3U8] checkShouldStartNext :[0](606676/606676)   sequence:0  start next:1  
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): [M3U8]-7----->This :0x508f8 --> post cmd for start next url:http://live.feifeikan.com/live/hls/208?slice=048166, knowedFileSize:0, mCurDowningIndex:0
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/Downloader(  739): [downloadThread]Downloader::removeTask  
+D/Downloader(  739): [downloadThread]task have range string:0- 
+D/MediaPlayerService(  739): [3] notify (0x43ee0, 3, 0, 0)
+D/MonitorCw880( 1558): currentRemoteHost is null ,continue
+D/DataSource_M3U8(  739): getHLSPlayListInex  DownloadBandWidth:2678481   uInDex=0
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): ============Begin to get playlist !!=====================
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  Warnig::  getValidBufferLength()  <  Codec require !!!
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  connect Server :live.feifeikan.com
+D/DataSource_M3U8(  739): parseM3U8 .......!
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048164   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048165   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048166   
+D/DataSource_M3U8(  739): [M3U8] file: NULL line 
+D/DataSource_M3U8(  739): HLS=====>> Live Stream!!!!
+D/DataSource_M3U8(  739): getHLSPlayListInex  DownloadBandWidth:2678481   uInDex=0
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): ============Begin to get playlist !!=====================
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+I//lib/ld-linux.so.3(  743): FrmCnt:83(0,0,0) Rate:24 Sys:135806 STC:37566508 VPTS:37566519 APTS:37566481 Delay:51(40) V:0 A:0 VES:0x6ede0 AES:0x63a0 PCM:0x4b800 AudioErr:0x0
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  Warnig::  getValidBufferLength()  <  Codec require !!!
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  connect Server :live.feifeikan.com
+D/DataSource_M3U8(  739): parseM3U8 .......!
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048165   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048166   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  update  playlist[4] ==>> mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048167   
+D/DataSource_M3U8(  739): [M3U8] file: NULL line 
+D/DataSource_M3U8(  739): HLS=====>> Live Stream!!!!
+D/MediaPlayerService(  739): [3] notify (0x43ee0, 3, 100, 0)
+E/ServerHandler( 1607): receiveRequest
+V/OtORequest( 1607): parseCommand
+V/OtORequest( 1607): get command=103
+V/OtORequest( 1607): parse OtORequest: cmd=103 paramLength=0 bufferlen=8
+D/OtOService( 1607): client request get status.playType:2
+D/OtOService( 1607): 2222
+E/ServerAdapter( 1607): ServerAdapter:0
+E/ServerHandler( 1607): Send:com.aidufei.protocol.oto.OtOStatusRequest@41ade858
+D/ServerHandler( 1607): ServerHandler send request:103:{"Status":{"ReturnCode":101,"Description":"status sync failed"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 1607): ServerHandler send DatagramPacket:/192.168.1.105-[B@41adf928
+D/HomePlayerLib( 1671): hostaddress count is 1
+D/DataSource_M3U8(  739): u32HLSSreamNum[0]===>u32BandWidth:800000 
+D/DataSource_M3U8(  739): getHLSPlayListInex  DownloadBandWidth:2678481   uInDex=0
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): ============Begin to get playlist !!=====================
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/dalvikvm( 1671): GC_CONCURRENT freed 2096K, 46% free 7218K/13187K, paused 3ms+4ms
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  connect Server :live.feifeikan.com
+D/DataSource_M3U8(  739): parseM3U8 .......!
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048165   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048166   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048167   
+D/DataSource_M3U8(  739): [M3U8] file: NULL line 
+D/DataSource_M3U8(  739): HLS=====>> Live Stream!!!!
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  Warnig::  getValidBufferLength()  <  Codec require !!!
+D/Downloader(  739): Downloadserver bandWidth:1851380
+D/Downloader(  739): Downloadserver bandWidth:1851380
+D/Downloader(  739): Downloadserver bandWidth:1851380
+D/Downloader(  739): Downloadserver bandWidth:1851380
+D/dalvikvm( 1671): GC_CONCURRENT freed 1924K, 44% free 7391K/13187K, paused 3ms+4ms
+I//lib/ld-linux.so.3(  743): FrmCnt:121(0,0,0) Rate:24 Sys:137346 STC:37568048 VPTS:37568039 APTS:37568016 Delay:31(40) V:0 A:10 VES:0xbe040 AES:0x8020 PCM:0x4b980 AudioErr:0x0
+D/DataSource_M3U8(  739): u32HLSSreamNum[0]===>u32BandWidth:800000 
+D/DataSource_M3U8(  739): getHLSPlayListInex  DownloadBandWidth:2678481   uInDex=0
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): ============Begin to get playlist !!=====================
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  connect Server :live.feifeikan.com
+D/DataSource_M3U8(  739): parseM3U8 .......!
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048165   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048166   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048167   
+D/DataSource_M3U8(  739): [M3U8] file: NULL line 
+D/DataSource_M3U8(  739): HLS=====>> Live Stream!!!!
+D/DataSource_M3U8(  739): [M3U8] checkShouldStartNext :[0](617204/617204)   sequence:0  start next:1  
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): [M3U8]-7----->This :0x508f8 --> post cmd for start next url:http://live.feifeikan.com/live/hls/208?slice=048167, knowedFileSize:0, mCurDowningIndex:0
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/Downloader(  739): [downloadThread]Downloader::removeTask  
+D/Downloader(  739): [downloadThread]task have range string:0- 
+D/MediaPlayerService(  739): [3] notify (0x43ee0, 3, 0, 0)
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  Warnig::  getValidBufferLength()  <  Codec require !!!
+D/DataSource_M3U8(  739): getHLSPlayListInex  DownloadBandWidth:1851380   uInDex=0
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): ============Begin to get playlist !!=====================
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+E/ServerHandler( 1607): receiveRequest
+V/OtORequest( 1607): parseCommand
+V/OtORequest( 1607): get command=103
+V/OtORequest( 1607): parse OtORequest: cmd=103 paramLength=0 bufferlen=8
+D/OtOService( 1607): client request get status.playType:2
+D/OtOService( 1607): 2222
+E/ServerAdapter( 1607): ServerAdapter:0
+E/ServerHandler( 1607): Send:com.aidufei.protocol.oto.OtOStatusRequest@41ae0a68
+D/ServerHandler( 1607): ServerHandler send request:103:{"Status":{"ReturnCode":101,"Description":"status sync failed"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 1607): ServerHandler send DatagramPacket:/192.168.1.105-[B@41731508
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  connect Server :live.feifeikan.com
+D/DataSource_M3U8(  739): parseM3U8 .......!
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048165   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048166   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048167   
+D/DataSource_M3U8(  739): [M3U8] file: NULL line 
+D/DataSource_M3U8(  739): HLS=====>> Live Stream!!!!
+I//lib/ld-linux.so.3(  743): FrmCnt:160(0,0,0) Rate:25 Sys:138873 STC:37569575 VPTS:37569599 APTS:37569547 Delay:64(40) V:0 A:4 VES:0x9a320 AES:0x8010 PCM:0x4bb00 AudioErr:0x0
+D/DataSource_M3U8(  739): getHLSPlayListInex  DownloadBandWidth:1851380   uInDex=0
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): ============Begin to get playlist !!=====================
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  connect Server :live.feifeikan.com
+D/DataSource_M3U8(  739): parseM3U8 .......!
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048165   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048166   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048167   
+D/DataSource_M3U8(  739): [M3U8] file: NULL line 
+D/DataSource_M3U8(  739): HLS=====>> Live Stream!!!!
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  Warnig::  getValidBufferLength()  <  Codec require !!!
+D/DataSource_M3U8(  739): getHLSPlayListInex  DownloadBandWidth:1851380   uInDex=0
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): ============Begin to get playlist !!=====================
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/MonitorCw880( 1558): currentRemoteHost is null ,continue
+D/Downloader(  739): Downloadserver bandWidth:2585627
+D/Downloader(  739): Downloadserver bandWidth:2585627
+D/Downloader(  739): Downloadserver bandWidth:2585627
+D/Downloader(  739): Downloadserver bandWidth:2585627
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  connect Server :live.feifeikan.com
+D/DataSource_M3U8(  739): parseM3U8 .......!
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048165   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048166   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048167   
+D/DataSource_M3U8(  739): [M3U8] file: NULL line 
+D/DataSource_M3U8(  739): HLS=====>> Live Stream!!!!
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  Warnig::  getValidBufferLength()  <  Codec require !!!
+D/DataSource_M3U8(  739): getHLSPlayListInex  DownloadBandWidth:1851380   uInDex=0
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): ============Begin to get playlist !!=====================
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+I//lib/ld-linux.so.3(  743): FrmCnt:198(0,0,0) Rate:24 Sys:140402 STC:37571104 VPTS:37571119 APTS:37571074 Delay:55(40) V:0 A:20 VES:0xfee90 AES:0x8020 PCM:0x4b200 AudioErr:0x0
+E/ServerHandler( 1607): receiveRequest
+V/OtORequest( 1607): parseCommand
+V/OtORequest( 1607): get command=103
+V/OtORequest( 1607): parse OtORequest: cmd=103 paramLength=0 bufferlen=8
+D/OtOService( 1607): client request get status.playType:2
+D/OtOService( 1607): 2222
+E/ServerAdapter( 1607): ServerAdapter:0
+E/ServerHandler( 1607): Send:com.aidufei.protocol.oto.OtOStatusRequest@41732648
+D/ServerHandler( 1607): ServerHandler send request:103:{"Status":{"ReturnCode":101,"Description":"status sync failed"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 1607): ServerHandler send DatagramPacket:/192.168.1.105-[B@41733718
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  connect Server :live.feifeikan.com
+D/DataSource_M3U8(  739): parseM3U8 .......!
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048165   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048166   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048167   
+D/DataSource_M3U8(  739): [M3U8] file: NULL line 
+D/DataSource_M3U8(  739): HLS=====>> Live Stream!!!!
+D/DataSource_M3U8(  739): getHLSPlayListInex  DownloadBandWidth:1851380   uInDex=0
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): ============Begin to get playlist !!=====================
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  connect Server :live.feifeikan.com
+D/DataSource_M3U8(  739): parseM3U8 .......!
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048166   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048167   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  update  playlist[5] ==>> mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048168   
+D/DataSource_M3U8(  739): [M3U8] file: NULL line 
+D/DataSource_M3U8(  739): HLS=====>> Live Stream!!!!
+D/DataSource_M3U8(  739): [M3U8] checkShouldStartNext :[0](605360/605360)   sequence:0  start next:1  
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): [M3U8]-7----->This :0x508f8 --> post cmd for start next url:http://live.feifeikan.com/live/hls/208?slice=048168, knowedFileSize:0, mCurDowningIndex:0
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/Downloader(  739): [downloadThread]Downloader::removeTask  
+D/Downloader(  739): [downloadThread]task have range string:0- 
+I//lib/ld-linux.so.3(  743): FrmCnt:236(0,0,0) Rate:24 Sys:141929 STC:37572632 VPTS:37572639 APTS:37572603 Delay:48(40) V:0 A:15 VES:0xdb7c0 AES:0x8000 PCM:0x4b980 AudioErr:0x0
+D/DataSource_M3U8(  739): getHLSPlayListInex  DownloadBandWidth:2585627   uInDex=0
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): ============Begin to get playlist !!=====================
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  connect Server :live.feifeikan.com
+D/DataSource_M3U8(  739): parseM3U8 .......!
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048166   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048167   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048168   
+D/DataSource_M3U8(  739): [M3U8] file: NULL line 
+D/DataSource_M3U8(  739): HLS=====>> Live Stream!!!!
+D/DataSource_M3U8(  739): getHLSPlayListInex  DownloadBandWidth:2585627   uInDex=0
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): ============Begin to get playlist !!=====================
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  connect Server :live.feifeikan.com
+D/DataSource_M3U8(  739): parseM3U8 .......!
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048166   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048167   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048168   
+D/DataSource_M3U8(  739): [M3U8] file: NULL line 
+D/DataSource_M3U8(  739): HLS=====>> Live Stream!!!!
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  Warnig::  getValidBufferLength()  <  Codec require !!!
+I//lib/ld-linux.so.3(  743): FrmCnt:274(0,0,0) Rate:24 Sys:143461 STC:37574163 VPTS:37574159 APTS:37574136 Delay:36(40) V:0 A:13 VES:0xcef70 AES:0x8060 PCM:0x4bb00 AudioErr:0x0
+D/DataSource_M3U8(  739): getHLSPlayListInex  DownloadBandWidth:2585627   uInDex=0
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): ============Begin to get playlist !!=====================
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  connect Server :live.feifeikan.com
+D/DataSource_M3U8(  739): parseM3U8 .......!
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048166   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048167   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048168   
+D/DataSource_M3U8(  739): [M3U8] file: NULL line 
+D/DataSource_M3U8(  739): HLS=====>> Live Stream!!!!
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  Warnig::  getValidBufferLength()  <  Codec require !!!
+D/DataSource_M3U8(  739): getHLSPlayListInex  DownloadBandWidth:2585627   uInDex=0
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): ============Begin to get playlist !!=====================
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  connect Server :live.feifeikan.com
+D/DataSource_M3U8(  739): parseM3U8 .......!
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048166   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048167   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048168   
+D/DataSource_M3U8(  739): [M3U8] file: NULL line 
+D/DataSource_M3U8(  739): HLS=====>> Live Stream!!!!
+D/MonitorCw880( 1558): currentRemoteHost is null ,continue
+D/Downloader(  739): Downloadserver bandWidth:1548524
+D/Downloader(  739): Downloadserver bandWidth:1548524
+D/Downloader(  739): Downloadserver bandWidth:1548524
+D/Downloader(  739): Downloadserver bandWidth:1548524
+I//lib/ld-linux.so.3(  743): FrmCnt:313(0,0,0) Rate:25 Sys:144992 STC:37575694 VPTS:37575719 APTS:37575663 Delay:65(40) V:0 A:23 VES:0x106630 AES:0x8000 PCM:0x4b280 AudioErr:0x0
+D/DataSource_M3U8(  739): getHLSPlayListInex  DownloadBandWidth:2585627   uInDex=0
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): ============Begin to get playlist !!=====================
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  Warnig::  getValidBufferLength()  <  Codec require !!!
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  connect Server :live.feifeikan.com
+D/DataSource_M3U8(  739): parseM3U8 .......!
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048166   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048167   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048168   
+D/DataSource_M3U8(  739): [M3U8] file: NULL line 
+D/DataSource_M3U8(  739): HLS=====>> Live Stream!!!!
+D/DataSource_M3U8(  739): getHLSPlayListInex  DownloadBandWidth:2585627   uInDex=0
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): ============Begin to get playlist !!=====================
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/dalvikvm( 1671): GC_CONCURRENT freed 2082K, 46% free 7232K/13187K, paused 3ms+5ms
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  connect Server :live.feifeikan.com
+D/DataSource_M3U8(  739): parseM3U8 .......!
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048166   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048167   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048168   
+D/DataSource_M3U8(  739): [M3U8] file: NULL line 
+D/DataSource_M3U8(  739): HLS=====>> Live Stream!!!!
+I//lib/ld-linux.so.3(  743): FrmCnt:351(0,0,0) Rate:24 Sys:146520 STC:37577222 VPTS:37577239 APTS:37577197 Delay:57(40) V:0 A:20 VES:0xf8970 AES:0x8020 PCM:0x4b400 AudioErr:0x0
+D/DataSource_M3U8(  739): getHLSPlayListInex  DownloadBandWidth:2585627   uInDex=0
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): ============Begin to get playlist !!=====================
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  connect Server :live.feifeikan.com
+D/DataSource_M3U8(  739): parseM3U8 .......!
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048166   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048167   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048168   
+D/DataSource_M3U8(  739): [M3U8] file: NULL line 
+D/DataSource_M3U8(  739): HLS=====>> Live Stream!!!!
+D/DataSource_M3U8(  739): getHLSPlayListInex  DownloadBandWidth:2585627   uInDex=0
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): ============Begin to get playlist !!=====================
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/HomePlayerLib( 1671): hostaddress count is 1
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  connect Server :live.feifeikan.com
+D/DataSource_M3U8(  739): parseM3U8 .......!
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048167   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048168   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  update  playlist[6] ==>> mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048169   
+D/DataSource_M3U8(  739): [M3U8] file: NULL line 
+D/DataSource_M3U8(  739): HLS=====>> Live Stream!!!!
+D/DataSource_M3U8(  739): [M3U8] checkShouldStartNext :[0](621152/621152)   sequence:0  start next:1  
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): [M3U8]-7----->This :0x508f8 --> post cmd for start next url:http://live.feifeikan.com/live/hls/208?slice=048169, knowedFileSize:0, mCurDowningIndex:0
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/Downloader(  739): [downloadThread]Downloader::removeTask  
+D/Downloader(  739): [downloadThread]task have range string:0- 
+D/dalvikvm( 1671): GC_CONCURRENT freed 1936K, 45% free 7270K/13187K, paused 4ms+3ms
+I//lib/ld-linux.so.3(  743): FrmCnt:389(0,0,0) Rate:24 Sys:148051 STC:37578753 VPTS:37578759 APTS:37578723 Delay:46(40) V:0 A:15 VES:0xdd3c0 AES:0x8010 PCM:0x4bb80 AudioErr:0x0
+D/dalvikvm( 1671): GC_CONCURRENT freed 1958K, 45% free 7274K/13187K, paused 3ms+4ms
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  Warnig::  getValidBufferLength()  <  Codec require !!!
+D/DataSource_M3U8(  739): getHLSPlayListInex  DownloadBandWidth:1548524   uInDex=0
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): ============Begin to get playlist !!=====================
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  connect Server :live.feifeikan.com
+D/DataSource_M3U8(  739): parseM3U8 .......!
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048167   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048168   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048169   
+D/DataSource_M3U8(  739): [M3U8] file: NULL line 
+D/DataSource_M3U8(  739): HLS=====>> Live Stream!!!!
+D/DataSource_M3U8(  739): getHLSPlayListInex  DownloadBandWidth:1548524   uInDex=0
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): ============Begin to get playlist !!=====================
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  connect Server :live.feifeikan.com
+D/DataSource_M3U8(  739): parseM3U8 .......!
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048167   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048168   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048169   
+D/DataSource_M3U8(  739): [M3U8] file: NULL line 
+D/DataSource_M3U8(  739): HLS=====>> Live Stream!!!!
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  Warnig::  getValidBufferLength()  <  Codec require !!!
+D/DataSource_M3U8(  739): getHLSPlayListInex  DownloadBandWidth:1548524   uInDex=0
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): ============Begin to get playlist !!=====================
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/Downloader(  739): Downloadserver bandWidth:2567243
+D/Downloader(  739): Downloadserver bandWidth:2567243
+D/Downloader(  739): Downloadserver bandWidth:2567243
+D/Downloader(  739): Downloadserver bandWidth:2567243
+D/MonitorCw880( 1558): currentRemoteHost is null ,continue
+I//lib/ld-linux.so.3(  743): FrmCnt:427(0,0,0) Rate:24 Sys:149589 STC:37580291 VPTS:37580279 APTS:37580260 Delay:28(40) V:0 A:25 VES:0x1172d0 AES:0x8010 PCM:0x4b700 AudioErr:0x0
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  connect Server :live.feifeikan.com
+D/DataSource_M3U8(  739): parseM3U8 .......!
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048167   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048168   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048169   
+D/DataSource_M3U8(  739): [M3U8] file: NULL line 
+D/DataSource_M3U8(  739): HLS=====>> Live Stream!!!!
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  Warnig::  getValidBufferLength()  <  Codec require !!!
+D/DataSource_M3U8(  739): getHLSPlayListInex  DownloadBandWidth:1548524   uInDex=0
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): ============Begin to get playlist !!=====================
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  connect Server :live.feifeikan.com
+D/DataSource_M3U8(  739): parseM3U8 .......!
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048167   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048168   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048169   
+D/DataSource_M3U8(  739): [M3U8] file: NULL line 
+D/DataSource_M3U8(  739): HLS=====>> Live Stream!!!!
+D/DataSource_M3U8(  739): getHLSPlayListInex  DownloadBandWidth:1548524   uInDex=0
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): ============Begin to get playlist !!=====================
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  connect Server :live.feifeikan.com
+D/DataSource_M3U8(  739): parseM3U8 .......!
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048167   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048168   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048169   
+D/DataSource_M3U8(  739): [M3U8] file: NULL line 
+D/DataSource_M3U8(  739): HLS=====>> Live Stream!!!!
+I//lib/ld-linux.so.3(  743): FrmCnt:466(0,0,0) Rate:25 Sys:151116 STC:37581819 VPTS:37581839 APTS:37581787 Delay:60(40) V:0 A:24 VES:0x114730 AES:0x7f80 PCM:0x4ae00 AudioErr:0x0
+D/DataSource_M3U8(  739): getHLSPlayListInex  DownloadBandWidth:1548524   uInDex=0
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): ============Begin to get playlist !!=====================
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  connect Server :live.feifeikan.com
+D/DataSource_M3U8(  739): parseM3U8 .......!
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048167   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048168   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048169   
+D/DataSource_M3U8(  739): [M3U8] file: NULL line 
+D/DataSource_M3U8(  739): HLS=====>> Live Stream!!!!
+D/DataSource_M3U8(  739): getHLSPlayListInex  DownloadBandWidth:1548524   uInDex=0
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): ============Begin to get playlist !!=====================
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  connect Server :live.feifeikan.com
+D/DataSource_M3U8(  739): parseM3U8 .......!
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048167   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048168   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048169   
+D/DataSource_M3U8(  739): [M3U8] file: NULL line 
+D/DataSource_M3U8(  739): HLS=====>> Live Stream!!!!
+I//lib/ld-linux.so.3(  743): FrmCnt:504(0,0,0) Rate:24 Sys:152643 STC:37583345 VPTS:37583359 APTS:37583318 Delay:54(40) V:0 A:18 VES:0xf2d80 AES:0x8010 PCM:0x4b580 AudioErr:0x0
+D/DataSource_M3U8(  739): getHLSPlayListInex  DownloadBandWidth:1548524   uInDex=0
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): ============Begin to get playlist !!=====================
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  connect Server :live.feifeikan.com
+D/DataSource_M3U8(  739): parseM3U8 .......!
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048167   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048168   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048169   
+D/DataSource_M3U8(  739): [M3U8] file: NULL line 
+D/DataSource_M3U8(  739): HLS=====>> Live Stream!!!!
+D/DataSource_M3U8(  739): getHLSPlayListInex  DownloadBandWidth:1548524   uInDex=0
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): ============Begin to get playlist !!=====================
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  connect Server :live.feifeikan.com
+D/DataSource_M3U8(  739): parseM3U8 .......!
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048168   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048169   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  update  playlist[7] ==>> mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048170   
+D/DataSource_M3U8(  739): [M3U8] file: NULL line 
+D/DataSource_M3U8(  739): HLS=====>> Live Stream!!!!
+D/DataSource_M3U8(  739): [M3U8] checkShouldStartNext :[0](586936/586936)   sequence:0  start next:1  
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): [M3U8]-7----->This :0x508f8 --> post cmd for start next url:http://live.feifeikan.com/live/hls/208?slice=048170, knowedFileSize:0, mCurDowningIndex:0
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/Downloader(  739): [downloadThread]Downloader::removeTask  
+D/Downloader(  739): [downloadThread]task have range string:0- 
+I//lib/ld-linux.so.3(  743): FrmCnt:542(0,0,0) Rate:24 Sys:154172 STC:37584874 VPTS:37584879 APTS:37584841 Delay:45(40) V:0 A:12 VES:0xd7ad0 AES:0x8000 PCM:0x4bd00 AudioErr:0x0
+D/MonitorCw880( 1558): currentRemoteHost is null ,continue
+D/DataSource_M3U8(  739): getHLSPlayListInex  DownloadBandWidth:2567243   uInDex=0
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): ============Begin to get playlist !!=====================
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  connect Server :live.feifeikan.com
+D/DataSource_M3U8(  739): parseM3U8 .......!
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048168   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048169   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048170   
+D/DataSource_M3U8(  739): [M3U8] file: NULL line 
+D/DataSource_M3U8(  739): HLS=====>> Live Stream!!!!
+D/DataSource_M3U8(  739): getHLSPlayListInex  DownloadBandWidth:2567243   uInDex=0
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): ============Begin to get playlist !!=====================
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  connect Server :live.feifeikan.com
+D/DataSource_M3U8(  739): parseM3U8 .......!
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048168   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048169   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048170   
+D/DataSource_M3U8(  739): [M3U8] file: NULL line 
+D/DataSource_M3U8(  739): HLS=====>> Live Stream!!!!
+I//lib/ld-linux.so.3(  743): FrmCnt:580(0,0,0) Rate:24 Sys:155706 STC:37586408 VPTS:37586399 APTS:37586376 Delay:31(40) V:0 A:17 VES:0xfa6f0 AES:0x7f90 PCM:0x4ae80 AudioErr:0x0
+D/CheckNetWork( 1653): isOk true
+D/CheckNetWork( 1653): ActInfoNetworkInfo: type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), roaming: false, failover: false, isAvailable: true
+D/CheckNetWork( 1653): infoNetworkInfo: type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), roaming: false, failover: false, isAvailable: true
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  Warnig::  getValidBufferLength()  <  Codec require !!!
+D/DataSource_M3U8(  739): getHLSPlayListInex  DownloadBandWidth:2567243   uInDex=0
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): ============Begin to get playlist !!=====================
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/Downloader(  739): Downloadserver bandWidth:2211271
+D/Downloader(  739): Downloadserver bandWidth:2211271
+D/Downloader(  739): Downloadserver bandWidth:2211271
+D/Downloader(  739): Downloadserver bandWidth:2211271
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  connect Server :live.feifeikan.com
+D/DataSource_M3U8(  739): parseM3U8 .......!
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048168   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048169   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048170   
+D/DataSource_M3U8(  739): [M3U8] file: NULL line 
+D/DataSource_M3U8(  739): HLS=====>> Live Stream!!!!
+D/DataSource_M3U8(  739): getHLSPlayListInex  DownloadBandWidth:2567243   uInDex=0
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): ============Begin to get playlist !!=====================
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  connect Server :live.feifeikan.com
+D/DataSource_M3U8(  739): parseM3U8 .......!
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048168   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048169   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048170   
+D/DataSource_M3U8(  739): [M3U8] file: NULL line 
+D/DataSource_M3U8(  739): HLS=====>> Live Stream!!!!
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  Warnig::  getValidBufferLength()  <  Codec require !!!
+I//lib/ld-linux.so.3(  743): FrmCnt:619(0,0,0) Rate:25 Sys:157234 STC:37587936 VPTS:37587959 APTS:37587903 Delay:63(40) V:0 A:19 VES:0x10f3d0 AES:0x8ce0 PCM:0x4b000 AudioErr:0x0
+D/DataSource_M3U8(  739): getHLSPlayListInex  DownloadBandWidth:2567243   uInDex=0
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): ============Begin to get playlist !!=====================
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  connect Server :live.feifeikan.com
+D/DataSource_M3U8(  739): parseM3U8 .......!
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048168   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048169   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048170   
+D/DataSource_M3U8(  739): [M3U8] file: NULL line 
+D/DataSource_M3U8(  739): HLS=====>> Live Stream!!!!
+D/DataSource_M3U8(  739): getHLSPlayListInex  DownloadBandWidth:2567243   uInDex=0
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): ============Begin to get playlist !!=====================
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/HomePlayerLib( 1671): hostaddress count is 1
+D/dalvikvm( 1671): GC_CONCURRENT freed 1977K, 45% free 7373K/13187K, paused 3ms+3ms
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  connect Server :live.feifeikan.com
+D/DataSource_M3U8(  739): parseM3U8 .......!
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048168   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048169   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048170   
+D/DataSource_M3U8(  739): [M3U8] file: NULL line 
+D/DataSource_M3U8(  739): HLS=====>> Live Stream!!!!
+D/dalvikvm( 1671): GC_CONCURRENT freed 2081K, 45% free 7325K/13187K, paused 3ms+4ms
+I//lib/ld-linux.so.3(  743): FrmCnt:657(0,0,0) Rate:24 Sys:158763 STC:37589465 VPTS:37589479 APTS:37589437 Delay:54(40) V:0 A:16 VES:0xed930 AES:0x8020 PCM:0x4b780 AudioErr:0x0
+D/DataSource_M3U8(  739): getHLSPlayListInex  DownloadBandWidth:2567243   uInDex=0
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): ============Begin to get playlist !!=====================
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  connect Server :live.feifeikan.com
+D/DataSource_M3U8(  739): parseM3U8 .......!
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048168   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048169   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048170   
+D/DataSource_M3U8(  739): [M3U8] file: NULL line 
+D/DataSource_M3U8(  739): HLS=====>> Live Stream!!!!
+D/MonitorCw880( 1558): currentRemoteHost is null ,continue
+D/DataSource_M3U8(  739): ----------UpdatePlaylistThread runing... 
+D/DataSource_M3U8(  739): getHLSPlayListInex  DownloadBandWidth:2567243   uInDex=0
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): ============Begin to get playlist !!=====================
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  connect Server :live.feifeikan.com
+D/DataSource_M3U8(  739): parseM3U8 .......!
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048169   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048170   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  update  playlist[8] ==>> mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048171   
+D/DataSource_M3U8(  739): [M3U8] file: NULL line 
+D/DataSource_M3U8(  739): HLS=====>> Live Stream!!!!
+D/DataSource_M3U8(  739): [M3U8] checkShouldStartNext :[0](594832/594832)   sequence:0  start next:1  
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): [M3U8]-7----->This :0x508f8 --> post cmd for start next url:http://live.feifeikan.com/live/hls/208?slice=048171, knowedFileSize:0, mCurDowningIndex:0
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/Downloader(  739): [downloadThread]Downloader::removeTask  
+D/Downloader(  739): [downloadThread]task have range string:0- 
+I//lib/ld-linux.so.3(  743): FrmCnt:694(0,0,0) Rate:24 Sys:160287 STC:37590989 VPTS:37590999 APTS:37590959 Delay:50(40) V:0 A:10 VES:0xd3ea0 AES:0x7fa0 PCM:0x4af00 AudioErr:0x0
+D/DataSource_M3U8(  739): getHLSPlayListInex  DownloadBandWidth:2211271   uInDex=0
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): ============Begin to get playlist !!=====================
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  connect Server :live.feifeikan.com
+D/DataSource_M3U8(  739): parseM3U8 .......!
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048169   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048170   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048171   
+D/DataSource_M3U8(  739): [M3U8] file: NULL line 
+D/DataSource_M3U8(  739): HLS=====>> Live Stream!!!!
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  Warnig::  getValidBufferLength()  <  Codec require !!!
+D/DataSource_M3U8(  739): getHLSPlayListInex  DownloadBandWidth:2211271   uInDex=0
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): ============Begin to get playlist !!=====================
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  connect Server :live.feifeikan.com
+D/DataSource_M3U8(  739): parseM3U8 .......!
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048169   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048170   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048171   
+D/DataSource_M3U8(  739): [M3U8] file: NULL line 
+D/DataSource_M3U8(  739): HLS=====>> Live Stream!!!!
+I//lib/ld-linux.so.3(  743): FrmCnt:732(0,0,0) Rate:24 Sys:161812 STC:37592514 VPTS:37592519 APTS:37592467 Delay:45(40) V:0 A:8 VES:0xbf7d0 AES:0x8000 PCM:0x4b600 AudioErr:0x0
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  Warnig::  getValidBufferLength()  <  Codec require !!!
+D/DataSource_M3U8(  739): getHLSPlayListInex  DownloadBandWidth:2211271   uInDex=0
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): ============Begin to get playlist !!=====================
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  connect Server :live.feifeikan.com
+D/DataSource_M3U8(  739): parseM3U8 .......!
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048169   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048170   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048171   
+D/DataSource_M3U8(  739): [M3U8] file: NULL line 
+D/DataSource_M3U8(  739): HLS=====>> Live Stream!!!!
+D/Downloader(  739): Downloadserver bandWidth:2297738
+D/Downloader(  739): Downloadserver bandWidth:2297738
+D/Downloader(  739): Downloadserver bandWidth:2297738
+D/Downloader(  739): Downloadserver bandWidth:2297738
+D/DataSource_M3U8(  739): getHLSPlayListInex  DownloadBandWidth:2211271   uInDex=0
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): ============Begin to get playlist !!=====================
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  connect Server :live.feifeikan.com
+D/DataSource_M3U8(  739): parseM3U8 .......!
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048169   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048170   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048171   
+D/DataSource_M3U8(  739): [M3U8] file: NULL line 
+D/DataSource_M3U8(  739): HLS=====>> Live Stream!!!!
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  Warnig::  getValidBufferLength()  <  Codec require !!!
+I//lib/ld-linux.so.3(  743): FrmCnt:771(0,0,0) Rate:25 Sys:163338 STC:37594040 VPTS:37594039 APTS:37594008 Delay:39(40) V:0 A:23 VES:0x1141a0 AES:0x7f70 PCM:0x4b980 AudioErr:0x0
+D/DataSource_M3U8(  739): getHLSPlayListInex  DownloadBandWidth:2211271   uInDex=0
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): ============Begin to get playlist !!=====================
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  connect Server :live.feifeikan.com
+D/DataSource_M3U8(  739): parseM3U8 .......!
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048169   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048170   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048171   
+D/DataSource_M3U8(  739): [M3U8] file: NULL line 
+D/DataSource_M3U8(  739): HLS=====>> Live Stream!!!!
+D/MonitorCw880( 1558): currentRemoteHost is null ,continue
+D/DataSource_M3U8(  739): getHLSPlayListInex  DownloadBandWidth:2211271   uInDex=0
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): ============Begin to get playlist !!=====================
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  connect Server :live.feifeikan.com
+D/DataSource_M3U8(  739): parseM3U8 .......!
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048169   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048170   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048171   
+D/DataSource_M3U8(  739): [M3U8] file: NULL line 
+D/DataSource_M3U8(  739): HLS=====>> Live Stream!!!!
+I//lib/ld-linux.so.3(  743): FrmCnt:808(0,0,0) Rate:24 Sys:164863 STC:37595565 VPTS:37595559 APTS:37595534 Delay:34(40) V:0 A:16 VES:0xf8260 AES:0x8000 PCM:0x4bb00 AudioErr:0x0
+D/DataSource_M3U8(  739): getHLSPlayListInex  DownloadBandWidth:2211271   uInDex=0
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): ============Begin to get playlist !!=====================
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  connect Server :live.feifeikan.com
+D/DataSource_M3U8(  739): parseM3U8 .......!
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048170   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048171   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  update  playlist[9] ==>> mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048172   
+D/DataSource_M3U8(  739): [M3U8] file: NULL line 
+D/DataSource_M3U8(  739): HLS=====>> Live Stream!!!!
+D/DataSource_M3U8(  739): [M3U8] checkShouldStartNext :[0](610624/610624)   sequence:0  start next:1  
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): [M3U8]-7----->This :0x508f8 --> post cmd for start next url:http://live.feifeikan.com/live/hls/208?slice=048172, knowedFileSize:0, mCurDowningIndex:0
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/Downloader(  739): [downloadThread]Downloader::removeTask  
+D/Downloader(  739): [downloadThread]task have range string:0- 
+D/DataSource_M3U8(  739): getHLSPlayListInex  DownloadBandWidth:2297738   uInDex=0
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): ============Begin to get playlist !!=====================
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  connect Server :live.feifeikan.com
+D/DataSource_M3U8(  739): parseM3U8 .......!
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048170   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048171   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048172   
+D/DataSource_M3U8(  739): [M3U8] file: NULL line 
+D/DataSource_M3U8(  739): HLS=====>> Live Stream!!!!
+I//lib/ld-linux.so.3(  743): FrmCnt:847(0,0,0) Rate:25 Sys:166390 STC:37597092 VPTS:37597079 APTS:37597055 Delay:27(40) V:0 A:10 VES:0xda930 AES:0x8020 PCM:0x4b280 AudioErr:0x0
+D/DataSource_M3U8(  739): getHLSPlayListInex  DownloadBandWidth:2297738   uInDex=0
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): ============Begin to get playlist !!=====================
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  connect Server :live.feifeikan.com
+D/DataSource_M3U8(  739): parseM3U8 .......!
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048170   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048171   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=048172   
+D/DataSource_M3U8(  739): [M3U8] file: NULL line 
+D/DataSource_M3U8(  739): HLS=====>> Live Stream!!!!
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  Warnig::  getValidBufferLength()  <  Codec require !!!
+^C

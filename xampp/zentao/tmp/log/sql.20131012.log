@@ -1,0 +1,1014 @@
+20131012 10:23:56: user-login-L3plbnRhby8=
+  SELECT * FROM `zt_company` WHERE `pms` = 'localhost:88' 
+  SELECT * FROM `zt_company` WHERE `pms` = 'localhost' 
+  SELECT * FROM `zt_config` WHERE owner IN ('system','') AND company IN ('1','0') ORDER BY id
+
+20131012 10:23:57: misc-checkupdate
+  SELECT * FROM `zt_config` WHERE owner IN ('system','') AND company IN ('1','0') ORDER BY id
+
+20131012 10:24:00: user-login-L3plbnRhby8=
+  SELECT * FROM `zt_config` WHERE owner IN ('system','') AND company IN ('1','0') ORDER BY id
+  SELECT locked FROM `zt_user` WHERE account  = 'fujia' AND  `zt_user`.company = '1' 
+  SELECT * FROM `zt_user` WHERE account  = 'fujia' AND password  = 'a4385e22e023442f25680a4bd2eb8e22' AND deleted  = '0' AND  `zt_user`.company = '1' 
+  UPDATE `zt_user` SET  visits = visits + 1 , ip = '::1', last = '1381544640' WHERE account  = 'fujia' AND  `zt_user`.company = '1' 
+  UPDATE `zt_user` SET  fails  = '0', locked = '0000-00-00 00:00:00' WHERE account  = 'fujia'
+  SELECT module, method FROM `zt_userGroup` AS t1  LEFT JOIN `zt_groupPriv` AS t2  ON t1.group = t2.group  WHERE t1.account  = 'fujia' AND  t1.company = '1' 
+  SELECT `group` FROM `zt_userGroup` WHERE `account` = 'fujia'  AND  `zt_userGroup`.company = '1' 
+  INSERT INTO `zt_action` SET `objectType` = 'user',`objectID` = '227',`actor` = 'fujia',`action` = 'login',`date` = '2013-10-12 10:24:00',`comment` = '',`extra` = '',`product` = ',0,',`project` = '0',`company` = '1'
+
+20131012 10:24:00: 
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+
+20131012 10:24:03: my
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT *, IF(INSTR(" done", status) < 2, 0, 1) AS isDone FROM `zt_project` WHERE iscat  = '0' AND status  != 'done' AND deleted  = '0'  AND  `zt_project`.company = '1'  ORDER BY isDone, `order`, status
+  SELECT id, project, estimate, consumed, `left`, status, closedReason FROM `zt_task` WHERE project IN ('50','8','9','10','11','13','14','16','17','18','20','22','23','24','25','27','28','29','30','31','32','33','35','36','37','34','38','39','41','42','43','45','51','53','52','54','55','56','15','21','44','46','66','58','59','60','61','62','63','64','65','67','68','69') AND deleted  = '0' AND  `zt_task`.company = '1' 
+  SELECT project, date AS name, `left` AS value FROM `zt_burn` WHERE project IN ('50','8','9','10','11','13','14','16','17','18','20','22','23','24','25','27','28','29','30','31','32','33','35','36','37','34','38','39','41','42','43','45','51','53','52','54','55','56','15','21','44','46','66','58','59','60','61','62','63','64','65','67','68','69')  AND  `zt_burn`.company = '1'  ORDER BY date desc
+  SELECT * FROM `zt_product` WHERE deleted  = '0' AND status  != 'closed'  AND  `zt_product`.company = '1'  ORDER BY `order` asc
+  SELECT product, status, count(status) AS count FROM `zt_story` WHERE deleted  = '0' AND product IN ('35','7','11','12','13','14','15','16','17','18','20','21','27','25','26','28','29','30','31','32','36','37','38','39','40','41','42','43','44','45')  AND  `zt_story`.company = '1'  GROUP BY product, status
+  SELECT product, count(*) AS count FROM `zt_productPlan` WHERE deleted  = '0' AND product IN ('35','7','11','12','13','14','15','16','17','18','20','21','27','25','26','28','29','30','31','32','36','37','38','39','40','41','42','43','44','45') AND end  > '2013-10-12 10:24:01'  AND  `zt_productPlan`.company = '1'  GROUP BY product
+  SELECT product, count(*) AS count FROM `zt_release` WHERE deleted  = '0' AND product IN ('35','7','11','12','13','14','15','16','17','18','20','21','27','25','26','28','29','30','31','32','36','37','38','39','40','41','42','43','44','45')  AND  `zt_release`.company = '1'  GROUP BY product
+  SELECT product,count(*) AS conut FROM `zt_bug` WHERE deleted  = '0' AND product IN ('35','7','11','12','13','14','15','16','17','18','20','21','27','25','26','28','29','30','31','32','36','37','38','39','40','41','42','43','44','45')  AND  `zt_bug`.company = '1'  GROUP BY product
+  SELECT product,count(*) AS count FROM `zt_bug` WHERE status  = 'active' AND deleted  = '0' AND product IN ('35','7','11','12','13','14','15','16','17','18','20','21','27','25','26','28','29','30','31','32','36','37','38','39','40','41','42','43','44','45')  AND  `zt_bug`.company = '1'  GROUP BY product
+  SELECT product,count(*) AS count FROM `zt_bug` WHERE AssignedTo  = '' AND deleted  = '0' AND product IN ('35','7','11','12','13','14','15','16','17','18','20','21','27','25','26','28','29','30','31','32','36','37','38','39','40','41','42','43','44','45')  AND  `zt_bug`.company = '1'  GROUP BY product
+  SELECT * FROM `zt_action` WHERE 1  AND date  > '2013-10-10' AND date  < '2013-10-13'  AND  `zt_action`.company = '1'  ORDER BY date desc  limit 0, 14 
+  SELECT commiter, account, realname FROM `zt_user` WHERE commiter  != '' AND  `zt_user`.company = '1' 
+  SELECT id, account AS name FROM `zt_user` WHERE id IN ('227') AND  `zt_user`.company = '1' 
+  SELECT id, title AS name FROM `zt_case` WHERE id IN ('1494','1495','1496','1497','1490','1491','1492','1493','1486','1487','1488','1489','1482') AND  `zt_case`.company = '1' 
+  SELECT * FROM `zt_todo` WHERE account  = 'fujia' AND date >= '1970-01-01'  AND date <= '2109-01-01'  AND status IN ('wait','doing')  AND  `zt_todo`.company = '1'  ORDER BY date, status, begin LIMIT 10 
+  SELECT * FROM `zt_todo` WHERE account  = 'fujia' AND date >= '1970-01-01'  AND date <= '2109-01-01'  AND status IN ('wait','doing') ORDER BY date, status, begin LIMIT 10 
+  SELECT t1.*, t2.id as projectID, t2.name as projectName, t3.id as storyID, t3.title as storyTitle, t3.status AS storyStatus, t3.version AS latestStoryVersion FROM `zt_task` AS t1  LEFT JOIN `zt_project` AS t2  ON t1.project = t2.id  LEFT JOIN `zt_story` AS t3  ON t1.story = t3.id  WHERE t1.deleted  = '0' AND t1.assignedTo  = 'fujia'  AND  t1.company = '1'  ORDER BY id desc LIMIT 10 
+  SELECT t1.*, t2.id as projectID, t2.name as projectName, t3.id as storyID, t3.title as storyTitle, t3.status AS storyStatus, t3.version AS latestStoryVersion FROM `zt_task` AS t1  LEFT JOIN `zt_project` AS t2  ON t1.project = t2.id  LEFT JOIN `zt_story` AS t3  ON t1.story = t3.id  WHERE t1.deleted  = '0' AND t1.assignedTo  = 'fujia' ORDER BY id desc LIMIT 10 
+  SELECT t1.id, t1.title, t2.name as product FROM `zt_bug` AS t1  LEFT JOIN `zt_product` AS t2  ON t1.product=t2.id  WHERE t1.assignedTo  = 'fujia' AND t1.deleted  = '0'  AND  t1.company = '1'  ORDER BY id desc LIMIT 10 
+  SELECT id, title FROM `zt_story` WHERE deleted  = '0' AND assignedTo  = 'fujia'  AND  `zt_story`.company = '1'  ORDER BY id desc LIMIT 10 
+  SELECT account, realname FROM `zt_user`  WHERE  `zt_user`.company = '1'  ORDER BY account
+
+20131012 10:24:08: qa
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+
+20131012 10:24:09: bug-browse
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT *,  IF(INSTR(" closed", status) < 2, 0, 1) AS isClosed FROM `zt_product` WHERE deleted  = '0'  AND  `zt_product`.company = '1'  ORDER BY isClosed, `order`
+  SELECT id, status, name FROM `zt_product` WHERE id IN ('35','7','11','12','13','14','15','16','17','18','20','21','27','25','26','28','29','30','31','32','36','37','38','39','40','41','42','43','44','45')  AND  `zt_product`.company = '1'  ORDER BY `order`
+  SELECT id, status, name FROM `zt_product` WHERE id IN ('35','7','11','12','13','14','15','16','17','18','20','21','27','25','26','28','29','30','31','32','36','37','38','39','40','41','42','43','44','45')  AND  `zt_product`.company = '1'  ORDER BY `order`
+  SELECT *, IF(INSTR(" done", status) < 2, 0, 1) AS isDone FROM `zt_project` WHERE iscat  = '0' AND deleted  = '0'  AND  `zt_project`.company = '1'  ORDER BY isDone, `order`, status
+  SELECT * FROM `zt_bug` WHERE product  = '35' AND project IN ('50','8','9','10','11','13','14','16','17','18','20','22','23','24','25','27','28','29','30','31','32','33','35','36','37','34','38','39','41','42','43','45','51','53','52','54','55','56','15','21','44','46','66','58','59','60','61','62','63','64','65','67','68','69','5','40','57','0') AND deleted  = '0'  AND  `zt_bug`.company = '1'  ORDER BY id desc
+  SELECT COUNT(*) AS recTotal FROM `zt_bug` WHERE product  = '35' AND project IN ('50','8','9','10','11','13','14','16','17','18','20','22','23','24','25','27','28','29','30','31','32','33','35','36','37','34','38','39','41','42','43','45','51','53','52','54','55','56','15','21','44','46','66','58','59','60','61','62','63','64','65','67','68','69','5','40','57','0') AND deleted  = '0'  AND  `zt_bug`.company = '1'  
+  SELECT * FROM `zt_bug` WHERE product  = '35' AND project IN ('50','8','9','10','11','13','14','16','17','18','20','22','23','24','25','27','28','29','30','31','32','33','35','36','37','34','38','39','41','42','43','45','51','53','52','54','55','56','15','21','44','46','66','58','59','60','61','62','63','64','65','67','68','69','5','40','57','0') AND deleted  = '0'  AND  `zt_bug`.company = '1'  ORDER BY id desc  limit 0, 20 
+  SELECT * FROM `zt_bug` WHERE product  = '35' AND project IN ('50','8','9','10','11','13','14','16','17','18','20','22','23','24','25','27','28','29','30','31','32','33','35','36','37','34','38','39','41','42','43','45','51','53','52','54','55','56','15','21','44','46','66','58','59','60','61','62','63','64','65','67','68','69','5','40','57','0') AND deleted  = '0' ORDER BY id desc  limit 0, 20 
+  SELECT * FROM `zt_module` WHERE root  = '35' AND type  = 'bug'  AND  `zt_module`.company = '1'  ORDER BY grade desc, `order`
+  SELECT t2.id, t2.name, t2.deleted FROM `zt_projectProduct` AS t1  LEFT JOIN `zt_project` AS t2  ON t1.project = t2.id  WHERE t1.product  = '35'  AND  t1.company = '1'  ORDER BY t1.project desc
+  SELECT id,name FROM `zt_build` WHERE product IN ('35') AND deleted  = '0'  AND  `zt_build`.company = '1'  ORDER BY date desc, id desc
+  SELECT id,name FROM `zt_build` WHERE product IN ('35') AND deleted  = '0'  AND  `zt_build`.company = '1'  ORDER BY date desc, id desc
+  SELECT account, realname FROM `zt_user`  WHERE  `zt_user`.company = '1'  ORDER BY account
+  SELECT id,name FROM `zt_build` WHERE product IN ('35') AND deleted  = '0'  AND  `zt_build`.company = '1'  ORDER BY date desc, id desc
+  SELECT * FROM `zt_module` WHERE root  = '35' AND type  = 'bug'  AND  `zt_module`.company = '1'  ORDER BY grade desc, `order`
+
+20131012 10:24:11: testcase-browse-35
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT *,  IF(INSTR(" closed", status) < 2, 0, 1) AS isClosed FROM `zt_product` WHERE deleted  = '0'  AND  `zt_product`.company = '1'  ORDER BY isClosed, `order`
+  SELECT id, status, name FROM `zt_product` WHERE id IN ('35','7','11','12','13','14','15','16','17','18','20','21','27','25','26','28','29','30','31','32','36','37','38','39','40','41','42','43','44','45')  AND  `zt_product`.company = '1'  ORDER BY `order`
+  SELECT id, status, name FROM `zt_product` WHERE id IN ('35','7','11','12','13','14','15','16','17','18','20','21','27','25','26','28','29','30','31','32','36','37','38','39','40','41','42','43','44','45')  AND  `zt_product`.company = '1'  ORDER BY `order`
+  SELECT * FROM `zt_case` WHERE product  = '35' AND deleted  = '0'  AND  `zt_case`.company = '1'  ORDER BY id desc
+  SELECT COUNT(*) AS recTotal FROM `zt_case` WHERE product  = '35' AND deleted  = '0'  AND  `zt_case`.company = '1'  
+  SELECT * FROM `zt_case` WHERE product  = '35' AND deleted  = '0'  AND  `zt_case`.company = '1'  ORDER BY id desc  limit 0, 20 
+  SELECT * FROM `zt_case` WHERE product  = '35' AND deleted  = '0' ORDER BY id desc  limit 0, 20 
+  SELECT * FROM `zt_module` WHERE root  = '35' AND type  = 'case'  AND  `zt_module`.company = '1'  ORDER BY grade desc, `order`
+  SELECT * FROM `zt_module` WHERE root  = '35' AND type  = 'case'  AND  `zt_module`.company = '1'  ORDER BY grade desc, `order`
+  SELECT account, realname FROM `zt_user`  WHERE  `zt_user`.company = '1'  ORDER BY account
+
+20131012 10:24:38: testcase-import-35
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+
+20131012 10:24:50: testcase-import-35
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+
+20131012 10:24:51: testcase-importPreview-35-caseCode,testItem
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT *,  IF(INSTR(" closed", status) < 2, 0, 1) AS isClosed FROM `zt_product` WHERE deleted  = '0'  AND  `zt_product`.company = '1'  ORDER BY isClosed, `order`
+  SELECT id, status, name FROM `zt_product` WHERE id IN ('35','7','11','12','13','14','15','16','17','18','20','21','27','25','26','28','29','30','31','32','36','37','38','39','40','41','42','43','44','45')  AND  `zt_product`.company = '1'  ORDER BY `order`
+  SELECT id, status, name FROM `zt_product` WHERE id IN ('35','7','11','12','13','14','15','16','17','18','20','21','27','25','26','28','29','30','31','32','36','37','38','39','40','41','42','43','44','45')  AND  `zt_product`.company = '1'  ORDER BY `order`
+
+20131012 10:25:29: testcase-importPreview-35-caseCode,testItem
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT *,  IF(INSTR(" closed", status) < 2, 0, 1) AS isClosed FROM `zt_product` WHERE deleted  = '0'  AND  `zt_product`.company = '1'  ORDER BY isClosed, `order`
+  INSERT INTO `zt_case` SET `product` = '35',`type` = 'feature',`title` = '数据同步-同步CIBN',`pri` = '3',`precondition` = '1、ieum系统运行正常\r\n2、登录ieum系统',`openedBy` = 'fujia',`openedDate` = '2013-10-12 10:25:28',`status` = 'normal',`version` = '1',`caseCode` = 'a005_01_001',`testItem` = '数据同步',`company` = '1'
+  INSERT INTO `zt_caseStep` SET `case` = '1498',`version` = '1',`desc` = '1、进入“数据同步-同步CIBN”页面',`expect` = '1、可查看到定时同步表达式（时间可配置），定时同步数据成功',`company` = '1'
+  SELECT product FROM `zt_case` WHERE id  = '1498' AND  `zt_case`.company = '1' 
+  INSERT INTO `zt_action` SET `objectType` = 'case',`objectID` = '1498',`actor` = 'fujia',`action` = 'opened',`date` = '2013-10-12 10:25:28',`comment` = '',`extra` = '',`product` = ',35,',`project` = '0',`company` = '1'
+  INSERT INTO `zt_case` SET `product` = '35',`type` = 'feature',`title` = '数据同步-同步智能推荐',`pri` = '3',`precondition` = '1、ieum系统运行正常\r\n2、登录ieum系统',`openedBy` = 'fujia',`openedDate` = '2013-10-12 10:25:28',`status` = 'normal',`version` = '1',`caseCode` = 'a005_01_002',`testItem` = '数据同步',`company` = '1'
+  INSERT INTO `zt_caseStep` SET `case` = '1499',`version` = '1',`desc` = '1、进入“数据同步-同步智能推荐”页面',`expect` = '1、可查看到定时同步表达式（时间可配置），定时同步数据成功',`company` = '1'
+  INSERT INTO `zt_caseStep` SET `case` = '1499',`version` = '1',`desc` = '2、点击定时表达式，手动同步数据',`expect` = '2、手动同步数据成功',`company` = '1'
+  SELECT product FROM `zt_case` WHERE id  = '1499' AND  `zt_case`.company = '1' 
+  INSERT INTO `zt_action` SET `objectType` = 'case',`objectID` = '1499',`actor` = 'fujia',`action` = 'opened',`date` = '2013-10-12 10:25:28',`comment` = '',`extra` = '',`product` = ',35,',`project` = '0',`company` = '1'
+  INSERT INTO `zt_case` SET `product` = '35',`type` = 'feature',`title` = '数据同步-同步搜索引擎-定时全量同步',`pri` = '3',`precondition` = '1、ieum系统运行正常\r\n2、登录ieum系统',`openedBy` = 'fujia',`openedDate` = '2013-10-12 10:25:28',`status` = 'normal',`version` = '1',`caseCode` = 'a005_01_003',`testItem` = '数据同步',`company` = '1'
+  SELECT product FROM `zt_case` WHERE id  = '1500' AND  `zt_case`.company = '1' 
+  INSERT INTO `zt_action` SET `objectType` = 'case',`objectID` = '1500',`actor` = 'fujia',`action` = 'opened',`date` = '2013-10-12 10:25:28',`comment` = '',`extra` = '',`product` = ',35,',`project` = '0',`company` = '1'
+  INSERT INTO `zt_case` SET `product` = '35',`type` = 'feature',`title` = '数据同步-同步搜索引擎-影片上架，实时增量同步',`pri` = '3',`precondition` = '1、ieum系统运行正常\r\n2、portalms系统运行正常\r\n',`openedBy` = 'fujia',`openedDate` = '2013-10-12 10:25:28',`status` = 'normal',`version` = '1',`caseCode` = 'a005_01_004',`testItem` = '数据同步',`company` = '1'
+  SELECT product FROM `zt_case` WHERE id  = '1501' AND  `zt_case`.company = '1' 
+  INSERT INTO `zt_action` SET `objectType` = 'case',`objectID` = '1501',`actor` = 'fujia',`action` = 'opened',`date` = '2013-10-12 10:25:28',`comment` = '',`extra` = '',`product` = ',35,',`project` = '0',`company` = '1'
+  INSERT INTO `zt_case` SET `product` = '35',`type` = 'feature',`title` = '数据同步-同步搜索引擎-影片下架，实时增量同步',`pri` = '3',`precondition` = '1、ieum系统运行正常\r\n2、portalms系统运行正常\r\n',`openedBy` = 'fujia',`openedDate` = '2013-10-12 10:25:28',`status` = 'normal',`version` = '1',`caseCode` = 'a005_01_005',`testItem` = '数据同步',`company` = '1'
+  SELECT product FROM `zt_case` WHERE id  = '1502' AND  `zt_case`.company = '1' 
+  INSERT INTO `zt_action` SET `objectType` = 'case',`objectID` = '1502',`actor` = 'fujia',`action` = 'opened',`date` = '2013-10-12 10:25:29',`comment` = '',`extra` = '',`product` = ',35,',`project` = '0',`company` = '1'
+  INSERT INTO `zt_case` SET `product` = '35',`type` = 'feature',`title` = '数据同步-同步数据管理-查询',`pri` = '3',`precondition` = '1、ieum系统运行正常\r\n2、登录ieum系统',`openedBy` = 'fujia',`openedDate` = '2013-10-12 10:25:28',`status` = 'normal',`version` = '1',`caseCode` = 'a005_01_006',`testItem` = '数据同步',`company` = '1'
+  SELECT product FROM `zt_case` WHERE id  = '1503' AND  `zt_case`.company = '1' 
+  INSERT INTO `zt_action` SET `objectType` = 'case',`objectID` = '1503',`actor` = 'fujia',`action` = 'opened',`date` = '2013-10-12 10:25:29',`comment` = '',`extra` = '',`product` = ',35,',`project` = '0',`company` = '1'
+  INSERT INTO `zt_case` SET `product` = '35',`type` = 'feature',`title` = '数据同步-同步数据管理-同步',`pri` = '3',`precondition` = '1、ieum系统运行正常\r\n2、登录ieum系统',`openedBy` = 'fujia',`openedDate` = '2013-10-12 10:25:28',`status` = 'normal',`version` = '1',`caseCode` = 'a005_01_007',`testItem` = '数据同步',`company` = '1'
+  SELECT product FROM `zt_case` WHERE id  = '1504' AND  `zt_case`.company = '1' 
+  INSERT INTO `zt_action` SET `objectType` = 'case',`objectID` = '1504',`actor` = 'fujia',`action` = 'opened',`date` = '2013-10-12 10:25:29',`comment` = '',`extra` = '',`product` = ',35,',`project` = '0',`company` = '1'
+  INSERT INTO `zt_case` SET `product` = '35',`type` = 'feature',`title` = '灰度管理-查询用户',`pri` = '3',`precondition` = '1、ieum系统运行正常\r\n2、登录ieum系统',`openedBy` = 'fujia',`openedDate` = '2013-10-12 10:25:28',`status` = 'normal',`version` = '1',`caseCode` = 'a005_02_001',`testItem` = '灰度管理',`company` = '1'
+  SELECT product FROM `zt_case` WHERE id  = '1505' AND  `zt_case`.company = '1' 
+  INSERT INTO `zt_action` SET `objectType` = 'case',`objectID` = '1505',`actor` = 'fujia',`action` = 'opened',`date` = '2013-10-12 10:25:29',`comment` = '',`extra` = '',`product` = ',35,',`project` = '0',`company` = '1'
+  INSERT INTO `zt_case` SET `product` = '35',`type` = 'feature',`title` = '灰度管理-设置正常用户',`pri` = '3',`precondition` = '1、ieum系统运行正常\r\n2、登录ieum系统',`openedBy` = 'fujia',`openedDate` = '2013-10-12 10:25:28',`status` = 'normal',`version` = '1',`caseCode` = 'a005_02_002',`testItem` = '灰度管理',`company` = '1'
+  SELECT product FROM `zt_case` WHERE id  = '1506' AND  `zt_case`.company = '1' 
+  INSERT INTO `zt_action` SET `objectType` = 'case',`objectID` = '1506',`actor` = 'fujia',`action` = 'opened',`date` = '2013-10-12 10:25:29',`comment` = '',`extra` = '',`product` = ',35,',`project` = '0',`company` = '1'
+  INSERT INTO `zt_case` SET `product` = '35',`type` = 'feature',`title` = '灰度管理-设置灰度用户',`pri` = '3',`precondition` = '1、ieum系统运行正常\r\n2、登录ieum系统',`openedBy` = 'fujia',`openedDate` = '2013-10-12 10:25:28',`status` = 'normal',`version` = '1',`caseCode` = 'a005_02_003',`testItem` = '灰度管理',`company` = '1'
+  SELECT product FROM `zt_case` WHERE id  = '1507' AND  `zt_case`.company = '1' 
+  INSERT INTO `zt_action` SET `objectType` = 'case',`objectID` = '1507',`actor` = 'fujia',`action` = 'opened',`date` = '2013-10-12 10:25:29',`comment` = '',`extra` = '',`product` = ',35,',`project` = '0',`company` = '1'
+  INSERT INTO `zt_case` SET `product` = '35',`type` = 'feature',`title` = '灰度管理-删除灰度版本',`pri` = '3',`precondition` = '1、ieum系统运行正常\r\n2、登录ieum系统',`openedBy` = 'fujia',`openedDate` = '2013-10-12 10:25:28',`status` = 'normal',`version` = '1',`caseCode` = 'a005_02_004',`testItem` = '灰度管理',`company` = '1'
+  SELECT product FROM `zt_case` WHERE id  = '1508' AND  `zt_case`.company = '1' 
+  INSERT INTO `zt_action` SET `objectType` = 'case',`objectID` = '1508',`actor` = 'fujia',`action` = 'opened',`date` = '2013-10-12 10:25:29',`comment` = '',`extra` = '',`product` = ',35,',`project` = '0',`company` = '1'
+  INSERT INTO `zt_case` SET `product` = '35',`type` = 'feature',`title` = '灰度管理-修改灰度版本',`pri` = '3',`precondition` = '1、ieum系统运行正常\r\n2、登录ieum系统',`openedBy` = 'fujia',`openedDate` = '2013-10-12 10:25:28',`status` = 'normal',`version` = '1',`caseCode` = 'a005_02_005',`testItem` = '灰度管理',`company` = '1'
+  SELECT product FROM `zt_case` WHERE id  = '1509' AND  `zt_case`.company = '1' 
+  INSERT INTO `zt_action` SET `objectType` = 'case',`objectID` = '1509',`actor` = 'fujia',`action` = 'opened',`date` = '2013-10-12 10:25:29',`comment` = '',`extra` = '',`product` = ',35,',`project` = '0',`company` = '1'
+  INSERT INTO `zt_case` SET `product` = '35',`type` = 'feature',`title` = '灰度管理-增加灰度版本（手机）',`pri` = '3',`precondition` = '1、ieum系统运行正常\r\n2、登录ieum系统',`openedBy` = 'fujia',`openedDate` = '2013-10-12 10:25:28',`status` = 'normal',`version` = '1',`caseCode` = 'a005_02_006',`testItem` = '灰度管理',`company` = '1'
+  SELECT product FROM `zt_case` WHERE id  = '1510' AND  `zt_case`.company = '1' 
+  INSERT INTO `zt_action` SET `objectType` = 'case',`objectID` = '1510',`actor` = 'fujia',`action` = 'opened',`date` = '2013-10-12 10:25:29',`comment` = '',`extra` = '',`product` = ',35,',`project` = '0',`company` = '1'
+  INSERT INTO `zt_case` SET `product` = '35',`type` = 'feature',`title` = '灰度管理-增加灰度版本（机顶盒）',`pri` = '3',`precondition` = '1、ieum系统运行正常\r\n2、登录ieum系统',`openedBy` = 'fujia',`openedDate` = '2013-10-12 10:25:28',`status` = 'normal',`version` = '1',`caseCode` = 'a005_02_007',`testItem` = '灰度管理',`company` = '1'
+  SELECT product FROM `zt_case` WHERE id  = '1511' AND  `zt_case`.company = '1' 
+  INSERT INTO `zt_action` SET `objectType` = 'case',`objectID` = '1511',`actor` = 'fujia',`action` = 'opened',`date` = '2013-10-12 10:25:29',`comment` = '',`extra` = '',`product` = ',35,',`project` = '0',`company` = '1'
+
+20131012 10:25:30: testcase-browse-35
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT *,  IF(INSTR(" closed", status) < 2, 0, 1) AS isClosed FROM `zt_product` WHERE deleted  = '0'  AND  `zt_product`.company = '1'  ORDER BY isClosed, `order`
+  SELECT id, status, name FROM `zt_product` WHERE id IN ('35','7','11','12','13','14','15','16','17','18','20','21','27','25','26','28','29','30','31','32','36','37','38','39','40','41','42','43','44','45')  AND  `zt_product`.company = '1'  ORDER BY `order`
+  SELECT id, status, name FROM `zt_product` WHERE id IN ('35','7','11','12','13','14','15','16','17','18','20','21','27','25','26','28','29','30','31','32','36','37','38','39','40','41','42','43','44','45')  AND  `zt_product`.company = '1'  ORDER BY `order`
+  SELECT * FROM `zt_case` WHERE product  = '35' AND deleted  = '0'  AND  `zt_case`.company = '1'  ORDER BY id desc
+  SELECT COUNT(*) AS recTotal FROM `zt_case` WHERE product  = '35' AND deleted  = '0'  AND  `zt_case`.company = '1'  
+  SELECT * FROM `zt_case` WHERE product  = '35' AND deleted  = '0'  AND  `zt_case`.company = '1'  ORDER BY id desc  limit 0, 20 
+  SELECT * FROM `zt_case` WHERE product  = '35' AND deleted  = '0' ORDER BY id desc  limit 0, 20 
+  SELECT * FROM `zt_module` WHERE root  = '35' AND type  = 'case'  AND  `zt_module`.company = '1'  ORDER BY grade desc, `order`
+  SELECT * FROM `zt_module` WHERE root  = '35' AND type  = 'case'  AND  `zt_module`.company = '1'  ORDER BY grade desc, `order`
+  SELECT account, realname FROM `zt_user`  WHERE  `zt_user`.company = '1'  ORDER BY account
+
+20131012 10:25:35: testcase-view-1511
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT *,  IF(INSTR(" closed", status) < 2, 0, 1) AS isClosed FROM `zt_product` WHERE deleted  = '0'  AND  `zt_product`.company = '1'  ORDER BY isClosed, `order`
+  SELECT * FROM `zt_case` WHERE `id` = '1511'  AND  `zt_case`.company = '1' 
+  SELECT id, title FROM `zt_bug` WHERE `case`  = '1511' AND  `zt_bug`.company = '1' 
+  SELECT * FROM `zt_caseStep` WHERE `case`  = '1511' AND version  = '1'  AND  `zt_caseStep`.company = '1'  ORDER BY id
+  SELECT * FROM `zt_file` WHERE objectType  = 'testcase' AND objectID  = '1511'  AND  `zt_file`.company = '1'  ORDER BY id
+  SELECT id, status, name FROM `zt_product` WHERE id IN ('35','7','11','12','13','14','15','16','17','18','20','21','27','25','26','28','29','30','31','32','36','37','38','39','40','41','42','43','44','45')  AND  `zt_product`.company = '1'  ORDER BY `order`
+  SELECT id, status, name FROM `zt_product` WHERE id IN ('35','7','11','12','13','14','15','16','17','18','20','21','27','25','26','28','29','30','31','32','36','37','38','39','40','41','42','43','44','45')  AND  `zt_product`.company = '1'  ORDER BY `order`
+  SELECT account, realname FROM `zt_user`  WHERE  `zt_user`.company = '1'  ORDER BY account
+  SELECT commiter, account, realname FROM `zt_user` WHERE commiter  != '' AND  `zt_user`.company = '1' 
+  SELECT * FROM `zt_action` WHERE objectType  = 'case' AND objectID  = '1511'  AND  `zt_action`.company = '1'  ORDER BY date, id
+  SELECT * FROM `zt_history` WHERE action IN ('73722')  AND  `zt_history`.company = '1'  ORDER BY id
+  SELECT * FROM `zt_case` WHERE  product  = '35' AND deleted  = '0'    AND  `zt_case`.company = '1'  ORDER BY  id desc  
+
+20131012 10:25:37: testcase-view-1510
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT *,  IF(INSTR(" closed", status) < 2, 0, 1) AS isClosed FROM `zt_product` WHERE deleted  = '0'  AND  `zt_product`.company = '1'  ORDER BY isClosed, `order`
+  SELECT * FROM `zt_case` WHERE `id` = '1510'  AND  `zt_case`.company = '1' 
+  SELECT id, title FROM `zt_bug` WHERE `case`  = '1510' AND  `zt_bug`.company = '1' 
+  SELECT * FROM `zt_caseStep` WHERE `case`  = '1510' AND version  = '1'  AND  `zt_caseStep`.company = '1'  ORDER BY id
+  SELECT * FROM `zt_file` WHERE objectType  = 'testcase' AND objectID  = '1510'  AND  `zt_file`.company = '1'  ORDER BY id
+  SELECT id, status, name FROM `zt_product` WHERE id IN ('35','7','11','12','13','14','15','16','17','18','20','21','27','25','26','28','29','30','31','32','36','37','38','39','40','41','42','43','44','45')  AND  `zt_product`.company = '1'  ORDER BY `order`
+  SELECT id, status, name FROM `zt_product` WHERE id IN ('35','7','11','12','13','14','15','16','17','18','20','21','27','25','26','28','29','30','31','32','36','37','38','39','40','41','42','43','44','45')  AND  `zt_product`.company = '1'  ORDER BY `order`
+  SELECT account, realname FROM `zt_user`  WHERE  `zt_user`.company = '1'  ORDER BY account
+  SELECT commiter, account, realname FROM `zt_user` WHERE commiter  != '' AND  `zt_user`.company = '1' 
+  SELECT * FROM `zt_action` WHERE objectType  = 'case' AND objectID  = '1510'  AND  `zt_action`.company = '1'  ORDER BY date, id
+  SELECT * FROM `zt_history` WHERE action IN ('73721')  AND  `zt_history`.company = '1'  ORDER BY id
+  SELECT * FROM `zt_case` WHERE  product  = '35' AND deleted  = '0'    AND  `zt_case`.company = '1'  ORDER BY  id desc  
+
+20131012 10:25:38: testcase-view-1509
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT *,  IF(INSTR(" closed", status) < 2, 0, 1) AS isClosed FROM `zt_product` WHERE deleted  = '0'  AND  `zt_product`.company = '1'  ORDER BY isClosed, `order`
+  SELECT * FROM `zt_case` WHERE `id` = '1509'  AND  `zt_case`.company = '1' 
+  SELECT id, title FROM `zt_bug` WHERE `case`  = '1509' AND  `zt_bug`.company = '1' 
+  SELECT * FROM `zt_caseStep` WHERE `case`  = '1509' AND version  = '1'  AND  `zt_caseStep`.company = '1'  ORDER BY id
+  SELECT * FROM `zt_file` WHERE objectType  = 'testcase' AND objectID  = '1509'  AND  `zt_file`.company = '1'  ORDER BY id
+  SELECT id, status, name FROM `zt_product` WHERE id IN ('35','7','11','12','13','14','15','16','17','18','20','21','27','25','26','28','29','30','31','32','36','37','38','39','40','41','42','43','44','45')  AND  `zt_product`.company = '1'  ORDER BY `order`
+  SELECT id, status, name FROM `zt_product` WHERE id IN ('35','7','11','12','13','14','15','16','17','18','20','21','27','25','26','28','29','30','31','32','36','37','38','39','40','41','42','43','44','45')  AND  `zt_product`.company = '1'  ORDER BY `order`
+  SELECT account, realname FROM `zt_user`  WHERE  `zt_user`.company = '1'  ORDER BY account
+  SELECT commiter, account, realname FROM `zt_user` WHERE commiter  != '' AND  `zt_user`.company = '1' 
+  SELECT * FROM `zt_action` WHERE objectType  = 'case' AND objectID  = '1509'  AND  `zt_action`.company = '1'  ORDER BY date, id
+  SELECT * FROM `zt_history` WHERE action IN ('73720')  AND  `zt_history`.company = '1'  ORDER BY id
+  SELECT * FROM `zt_case` WHERE  product  = '35' AND deleted  = '0'    AND  `zt_case`.company = '1'  ORDER BY  id desc  
+
+20131012 10:25:39: testcase-view-1508
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT *,  IF(INSTR(" closed", status) < 2, 0, 1) AS isClosed FROM `zt_product` WHERE deleted  = '0'  AND  `zt_product`.company = '1'  ORDER BY isClosed, `order`
+  SELECT * FROM `zt_case` WHERE `id` = '1508'  AND  `zt_case`.company = '1' 
+  SELECT id, title FROM `zt_bug` WHERE `case`  = '1508' AND  `zt_bug`.company = '1' 
+  SELECT * FROM `zt_caseStep` WHERE `case`  = '1508' AND version  = '1'  AND  `zt_caseStep`.company = '1'  ORDER BY id
+  SELECT * FROM `zt_file` WHERE objectType  = 'testcase' AND objectID  = '1508'  AND  `zt_file`.company = '1'  ORDER BY id
+  SELECT id, status, name FROM `zt_product` WHERE id IN ('35','7','11','12','13','14','15','16','17','18','20','21','27','25','26','28','29','30','31','32','36','37','38','39','40','41','42','43','44','45')  AND  `zt_product`.company = '1'  ORDER BY `order`
+  SELECT id, status, name FROM `zt_product` WHERE id IN ('35','7','11','12','13','14','15','16','17','18','20','21','27','25','26','28','29','30','31','32','36','37','38','39','40','41','42','43','44','45')  AND  `zt_product`.company = '1'  ORDER BY `order`
+  SELECT account, realname FROM `zt_user`  WHERE  `zt_user`.company = '1'  ORDER BY account
+  SELECT commiter, account, realname FROM `zt_user` WHERE commiter  != '' AND  `zt_user`.company = '1' 
+  SELECT * FROM `zt_action` WHERE objectType  = 'case' AND objectID  = '1508'  AND  `zt_action`.company = '1'  ORDER BY date, id
+  SELECT * FROM `zt_history` WHERE action IN ('73719')  AND  `zt_history`.company = '1'  ORDER BY id
+  SELECT * FROM `zt_case` WHERE  product  = '35' AND deleted  = '0'    AND  `zt_case`.company = '1'  ORDER BY  id desc  
+
+20131012 10:25:40: testcase-view-1507
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT *,  IF(INSTR(" closed", status) < 2, 0, 1) AS isClosed FROM `zt_product` WHERE deleted  = '0'  AND  `zt_product`.company = '1'  ORDER BY isClosed, `order`
+  SELECT * FROM `zt_case` WHERE `id` = '1507'  AND  `zt_case`.company = '1' 
+  SELECT id, title FROM `zt_bug` WHERE `case`  = '1507' AND  `zt_bug`.company = '1' 
+  SELECT * FROM `zt_caseStep` WHERE `case`  = '1507' AND version  = '1'  AND  `zt_caseStep`.company = '1'  ORDER BY id
+  SELECT * FROM `zt_file` WHERE objectType  = 'testcase' AND objectID  = '1507'  AND  `zt_file`.company = '1'  ORDER BY id
+  SELECT id, status, name FROM `zt_product` WHERE id IN ('35','7','11','12','13','14','15','16','17','18','20','21','27','25','26','28','29','30','31','32','36','37','38','39','40','41','42','43','44','45')  AND  `zt_product`.company = '1'  ORDER BY `order`
+  SELECT id, status, name FROM `zt_product` WHERE id IN ('35','7','11','12','13','14','15','16','17','18','20','21','27','25','26','28','29','30','31','32','36','37','38','39','40','41','42','43','44','45')  AND  `zt_product`.company = '1'  ORDER BY `order`
+  SELECT account, realname FROM `zt_user`  WHERE  `zt_user`.company = '1'  ORDER BY account
+  SELECT commiter, account, realname FROM `zt_user` WHERE commiter  != '' AND  `zt_user`.company = '1' 
+  SELECT * FROM `zt_action` WHERE objectType  = 'case' AND objectID  = '1507'  AND  `zt_action`.company = '1'  ORDER BY date, id
+  SELECT * FROM `zt_history` WHERE action IN ('73718')  AND  `zt_history`.company = '1'  ORDER BY id
+  SELECT * FROM `zt_case` WHERE  product  = '35' AND deleted  = '0'    AND  `zt_case`.company = '1'  ORDER BY  id desc  
+
+20131012 10:25:42: testcase-view-1506
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT *,  IF(INSTR(" closed", status) < 2, 0, 1) AS isClosed FROM `zt_product` WHERE deleted  = '0'  AND  `zt_product`.company = '1'  ORDER BY isClosed, `order`
+  SELECT * FROM `zt_case` WHERE `id` = '1506'  AND  `zt_case`.company = '1' 
+  SELECT id, title FROM `zt_bug` WHERE `case`  = '1506' AND  `zt_bug`.company = '1' 
+  SELECT * FROM `zt_caseStep` WHERE `case`  = '1506' AND version  = '1'  AND  `zt_caseStep`.company = '1'  ORDER BY id
+  SELECT * FROM `zt_file` WHERE objectType  = 'testcase' AND objectID  = '1506'  AND  `zt_file`.company = '1'  ORDER BY id
+  SELECT id, status, name FROM `zt_product` WHERE id IN ('35','7','11','12','13','14','15','16','17','18','20','21','27','25','26','28','29','30','31','32','36','37','38','39','40','41','42','43','44','45')  AND  `zt_product`.company = '1'  ORDER BY `order`
+  SELECT id, status, name FROM `zt_product` WHERE id IN ('35','7','11','12','13','14','15','16','17','18','20','21','27','25','26','28','29','30','31','32','36','37','38','39','40','41','42','43','44','45')  AND  `zt_product`.company = '1'  ORDER BY `order`
+  SELECT account, realname FROM `zt_user`  WHERE  `zt_user`.company = '1'  ORDER BY account
+  SELECT commiter, account, realname FROM `zt_user` WHERE commiter  != '' AND  `zt_user`.company = '1' 
+  SELECT * FROM `zt_action` WHERE objectType  = 'case' AND objectID  = '1506'  AND  `zt_action`.company = '1'  ORDER BY date, id
+  SELECT * FROM `zt_history` WHERE action IN ('73717')  AND  `zt_history`.company = '1'  ORDER BY id
+  SELECT * FROM `zt_case` WHERE  product  = '35' AND deleted  = '0'    AND  `zt_case`.company = '1'  ORDER BY  id desc  
+
+20131012 10:25:43: testcase-view-1505
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT *,  IF(INSTR(" closed", status) < 2, 0, 1) AS isClosed FROM `zt_product` WHERE deleted  = '0'  AND  `zt_product`.company = '1'  ORDER BY isClosed, `order`
+  SELECT * FROM `zt_case` WHERE `id` = '1505'  AND  `zt_case`.company = '1' 
+  SELECT id, title FROM `zt_bug` WHERE `case`  = '1505' AND  `zt_bug`.company = '1' 
+  SELECT * FROM `zt_caseStep` WHERE `case`  = '1505' AND version  = '1'  AND  `zt_caseStep`.company = '1'  ORDER BY id
+  SELECT * FROM `zt_file` WHERE objectType  = 'testcase' AND objectID  = '1505'  AND  `zt_file`.company = '1'  ORDER BY id
+  SELECT id, status, name FROM `zt_product` WHERE id IN ('35','7','11','12','13','14','15','16','17','18','20','21','27','25','26','28','29','30','31','32','36','37','38','39','40','41','42','43','44','45')  AND  `zt_product`.company = '1'  ORDER BY `order`
+  SELECT id, status, name FROM `zt_product` WHERE id IN ('35','7','11','12','13','14','15','16','17','18','20','21','27','25','26','28','29','30','31','32','36','37','38','39','40','41','42','43','44','45')  AND  `zt_product`.company = '1'  ORDER BY `order`
+  SELECT account, realname FROM `zt_user`  WHERE  `zt_user`.company = '1'  ORDER BY account
+  SELECT commiter, account, realname FROM `zt_user` WHERE commiter  != '' AND  `zt_user`.company = '1' 
+  SELECT * FROM `zt_action` WHERE objectType  = 'case' AND objectID  = '1505'  AND  `zt_action`.company = '1'  ORDER BY date, id
+  SELECT * FROM `zt_history` WHERE action IN ('73716')  AND  `zt_history`.company = '1'  ORDER BY id
+  SELECT * FROM `zt_case` WHERE  product  = '35' AND deleted  = '0'    AND  `zt_case`.company = '1'  ORDER BY  id desc  
+
+20131012 10:25:44: testcase-view-1504
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT *,  IF(INSTR(" closed", status) < 2, 0, 1) AS isClosed FROM `zt_product` WHERE deleted  = '0'  AND  `zt_product`.company = '1'  ORDER BY isClosed, `order`
+  SELECT * FROM `zt_case` WHERE `id` = '1504'  AND  `zt_case`.company = '1' 
+  SELECT id, title FROM `zt_bug` WHERE `case`  = '1504' AND  `zt_bug`.company = '1' 
+  SELECT * FROM `zt_caseStep` WHERE `case`  = '1504' AND version  = '1'  AND  `zt_caseStep`.company = '1'  ORDER BY id
+  SELECT * FROM `zt_file` WHERE objectType  = 'testcase' AND objectID  = '1504'  AND  `zt_file`.company = '1'  ORDER BY id
+  SELECT id, status, name FROM `zt_product` WHERE id IN ('35','7','11','12','13','14','15','16','17','18','20','21','27','25','26','28','29','30','31','32','36','37','38','39','40','41','42','43','44','45')  AND  `zt_product`.company = '1'  ORDER BY `order`
+  SELECT id, status, name FROM `zt_product` WHERE id IN ('35','7','11','12','13','14','15','16','17','18','20','21','27','25','26','28','29','30','31','32','36','37','38','39','40','41','42','43','44','45')  AND  `zt_product`.company = '1'  ORDER BY `order`
+  SELECT account, realname FROM `zt_user`  WHERE  `zt_user`.company = '1'  ORDER BY account
+  SELECT commiter, account, realname FROM `zt_user` WHERE commiter  != '' AND  `zt_user`.company = '1' 
+  SELECT * FROM `zt_action` WHERE objectType  = 'case' AND objectID  = '1504'  AND  `zt_action`.company = '1'  ORDER BY date, id
+  SELECT * FROM `zt_history` WHERE action IN ('73715')  AND  `zt_history`.company = '1'  ORDER BY id
+  SELECT * FROM `zt_case` WHERE  product  = '35' AND deleted  = '0'    AND  `zt_case`.company = '1'  ORDER BY  id desc  
+
+20131012 10:25:45: testcase-view-1503
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT *,  IF(INSTR(" closed", status) < 2, 0, 1) AS isClosed FROM `zt_product` WHERE deleted  = '0'  AND  `zt_product`.company = '1'  ORDER BY isClosed, `order`
+  SELECT * FROM `zt_case` WHERE `id` = '1503'  AND  `zt_case`.company = '1' 
+  SELECT id, title FROM `zt_bug` WHERE `case`  = '1503' AND  `zt_bug`.company = '1' 
+  SELECT * FROM `zt_caseStep` WHERE `case`  = '1503' AND version  = '1'  AND  `zt_caseStep`.company = '1'  ORDER BY id
+  SELECT * FROM `zt_file` WHERE objectType  = 'testcase' AND objectID  = '1503'  AND  `zt_file`.company = '1'  ORDER BY id
+  SELECT id, status, name FROM `zt_product` WHERE id IN ('35','7','11','12','13','14','15','16','17','18','20','21','27','25','26','28','29','30','31','32','36','37','38','39','40','41','42','43','44','45')  AND  `zt_product`.company = '1'  ORDER BY `order`
+  SELECT id, status, name FROM `zt_product` WHERE id IN ('35','7','11','12','13','14','15','16','17','18','20','21','27','25','26','28','29','30','31','32','36','37','38','39','40','41','42','43','44','45')  AND  `zt_product`.company = '1'  ORDER BY `order`
+  SELECT account, realname FROM `zt_user`  WHERE  `zt_user`.company = '1'  ORDER BY account
+  SELECT commiter, account, realname FROM `zt_user` WHERE commiter  != '' AND  `zt_user`.company = '1' 
+  SELECT * FROM `zt_action` WHERE objectType  = 'case' AND objectID  = '1503'  AND  `zt_action`.company = '1'  ORDER BY date, id
+  SELECT * FROM `zt_history` WHERE action IN ('73714')  AND  `zt_history`.company = '1'  ORDER BY id
+  SELECT * FROM `zt_case` WHERE  product  = '35' AND deleted  = '0'    AND  `zt_case`.company = '1'  ORDER BY  id desc  
+
+20131012 10:25:45: testcase-view-1502
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT *,  IF(INSTR(" closed", status) < 2, 0, 1) AS isClosed FROM `zt_product` WHERE deleted  = '0'  AND  `zt_product`.company = '1'  ORDER BY isClosed, `order`
+  SELECT * FROM `zt_case` WHERE `id` = '1502'  AND  `zt_case`.company = '1' 
+  SELECT id, title FROM `zt_bug` WHERE `case`  = '1502' AND  `zt_bug`.company = '1' 
+  SELECT * FROM `zt_caseStep` WHERE `case`  = '1502' AND version  = '1'  AND  `zt_caseStep`.company = '1'  ORDER BY id
+  SELECT * FROM `zt_file` WHERE objectType  = 'testcase' AND objectID  = '1502'  AND  `zt_file`.company = '1'  ORDER BY id
+  SELECT id, status, name FROM `zt_product` WHERE id IN ('35','7','11','12','13','14','15','16','17','18','20','21','27','25','26','28','29','30','31','32','36','37','38','39','40','41','42','43','44','45')  AND  `zt_product`.company = '1'  ORDER BY `order`
+  SELECT id, status, name FROM `zt_product` WHERE id IN ('35','7','11','12','13','14','15','16','17','18','20','21','27','25','26','28','29','30','31','32','36','37','38','39','40','41','42','43','44','45')  AND  `zt_product`.company = '1'  ORDER BY `order`
+  SELECT account, realname FROM `zt_user`  WHERE  `zt_user`.company = '1'  ORDER BY account
+  SELECT commiter, account, realname FROM `zt_user` WHERE commiter  != '' AND  `zt_user`.company = '1' 
+  SELECT * FROM `zt_action` WHERE objectType  = 'case' AND objectID  = '1502'  AND  `zt_action`.company = '1'  ORDER BY date, id
+  SELECT * FROM `zt_history` WHERE action IN ('73713')  AND  `zt_history`.company = '1'  ORDER BY id
+  SELECT * FROM `zt_case` WHERE  product  = '35' AND deleted  = '0'    AND  `zt_case`.company = '1'  ORDER BY  id desc  
+
+20131012 10:25:47: testcase-view-1501
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT *,  IF(INSTR(" closed", status) < 2, 0, 1) AS isClosed FROM `zt_product` WHERE deleted  = '0'  AND  `zt_product`.company = '1'  ORDER BY isClosed, `order`
+  SELECT * FROM `zt_case` WHERE `id` = '1501'  AND  `zt_case`.company = '1' 
+  SELECT id, title FROM `zt_bug` WHERE `case`  = '1501' AND  `zt_bug`.company = '1' 
+  SELECT * FROM `zt_caseStep` WHERE `case`  = '1501' AND version  = '1'  AND  `zt_caseStep`.company = '1'  ORDER BY id
+  SELECT * FROM `zt_file` WHERE objectType  = 'testcase' AND objectID  = '1501'  AND  `zt_file`.company = '1'  ORDER BY id
+  SELECT id, status, name FROM `zt_product` WHERE id IN ('35','7','11','12','13','14','15','16','17','18','20','21','27','25','26','28','29','30','31','32','36','37','38','39','40','41','42','43','44','45')  AND  `zt_product`.company = '1'  ORDER BY `order`
+  SELECT id, status, name FROM `zt_product` WHERE id IN ('35','7','11','12','13','14','15','16','17','18','20','21','27','25','26','28','29','30','31','32','36','37','38','39','40','41','42','43','44','45')  AND  `zt_product`.company = '1'  ORDER BY `order`
+  SELECT account, realname FROM `zt_user`  WHERE  `zt_user`.company = '1'  ORDER BY account
+  SELECT commiter, account, realname FROM `zt_user` WHERE commiter  != '' AND  `zt_user`.company = '1' 
+  SELECT * FROM `zt_action` WHERE objectType  = 'case' AND objectID  = '1501'  AND  `zt_action`.company = '1'  ORDER BY date, id
+  SELECT * FROM `zt_history` WHERE action IN ('73712')  AND  `zt_history`.company = '1'  ORDER BY id
+  SELECT * FROM `zt_case` WHERE  product  = '35' AND deleted  = '0'    AND  `zt_case`.company = '1'  ORDER BY  id desc  
+
+20131012 10:25:48: testcase-view-1500
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT *,  IF(INSTR(" closed", status) < 2, 0, 1) AS isClosed FROM `zt_product` WHERE deleted  = '0'  AND  `zt_product`.company = '1'  ORDER BY isClosed, `order`
+  SELECT * FROM `zt_case` WHERE `id` = '1500'  AND  `zt_case`.company = '1' 
+  SELECT id, title FROM `zt_bug` WHERE `case`  = '1500' AND  `zt_bug`.company = '1' 
+  SELECT * FROM `zt_caseStep` WHERE `case`  = '1500' AND version  = '1'  AND  `zt_caseStep`.company = '1'  ORDER BY id
+  SELECT * FROM `zt_file` WHERE objectType  = 'testcase' AND objectID  = '1500'  AND  `zt_file`.company = '1'  ORDER BY id
+  SELECT id, status, name FROM `zt_product` WHERE id IN ('35','7','11','12','13','14','15','16','17','18','20','21','27','25','26','28','29','30','31','32','36','37','38','39','40','41','42','43','44','45')  AND  `zt_product`.company = '1'  ORDER BY `order`
+  SELECT id, status, name FROM `zt_product` WHERE id IN ('35','7','11','12','13','14','15','16','17','18','20','21','27','25','26','28','29','30','31','32','36','37','38','39','40','41','42','43','44','45')  AND  `zt_product`.company = '1'  ORDER BY `order`
+  SELECT account, realname FROM `zt_user`  WHERE  `zt_user`.company = '1'  ORDER BY account
+  SELECT commiter, account, realname FROM `zt_user` WHERE commiter  != '' AND  `zt_user`.company = '1' 
+  SELECT * FROM `zt_action` WHERE objectType  = 'case' AND objectID  = '1500'  AND  `zt_action`.company = '1'  ORDER BY date, id
+  SELECT * FROM `zt_history` WHERE action IN ('73711')  AND  `zt_history`.company = '1'  ORDER BY id
+  SELECT * FROM `zt_case` WHERE  product  = '35' AND deleted  = '0'    AND  `zt_case`.company = '1'  ORDER BY  id desc  
+
+20131012 10:25:49: testcase-view-1499
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT *,  IF(INSTR(" closed", status) < 2, 0, 1) AS isClosed FROM `zt_product` WHERE deleted  = '0'  AND  `zt_product`.company = '1'  ORDER BY isClosed, `order`
+  SELECT * FROM `zt_case` WHERE `id` = '1499'  AND  `zt_case`.company = '1' 
+  SELECT id, title FROM `zt_bug` WHERE `case`  = '1499' AND  `zt_bug`.company = '1' 
+  SELECT * FROM `zt_caseStep` WHERE `case`  = '1499' AND version  = '1'  AND  `zt_caseStep`.company = '1'  ORDER BY id
+  SELECT * FROM `zt_file` WHERE objectType  = 'testcase' AND objectID  = '1499'  AND  `zt_file`.company = '1'  ORDER BY id
+  SELECT id, status, name FROM `zt_product` WHERE id IN ('35','7','11','12','13','14','15','16','17','18','20','21','27','25','26','28','29','30','31','32','36','37','38','39','40','41','42','43','44','45')  AND  `zt_product`.company = '1'  ORDER BY `order`
+  SELECT id, status, name FROM `zt_product` WHERE id IN ('35','7','11','12','13','14','15','16','17','18','20','21','27','25','26','28','29','30','31','32','36','37','38','39','40','41','42','43','44','45')  AND  `zt_product`.company = '1'  ORDER BY `order`
+  SELECT account, realname FROM `zt_user`  WHERE  `zt_user`.company = '1'  ORDER BY account
+  SELECT commiter, account, realname FROM `zt_user` WHERE commiter  != '' AND  `zt_user`.company = '1' 
+  SELECT * FROM `zt_action` WHERE objectType  = 'case' AND objectID  = '1499'  AND  `zt_action`.company = '1'  ORDER BY date, id
+  SELECT * FROM `zt_history` WHERE action IN ('73710')  AND  `zt_history`.company = '1'  ORDER BY id
+  SELECT * FROM `zt_case` WHERE  product  = '35' AND deleted  = '0'    AND  `zt_case`.company = '1'  ORDER BY  id desc  
+
+20131012 10:25:50: testcase-view-1498
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT *,  IF(INSTR(" closed", status) < 2, 0, 1) AS isClosed FROM `zt_product` WHERE deleted  = '0'  AND  `zt_product`.company = '1'  ORDER BY isClosed, `order`
+  SELECT * FROM `zt_case` WHERE `id` = '1498'  AND  `zt_case`.company = '1' 
+  SELECT id, title FROM `zt_bug` WHERE `case`  = '1498' AND  `zt_bug`.company = '1' 
+  SELECT * FROM `zt_caseStep` WHERE `case`  = '1498' AND version  = '1'  AND  `zt_caseStep`.company = '1'  ORDER BY id
+  SELECT * FROM `zt_file` WHERE objectType  = 'testcase' AND objectID  = '1498'  AND  `zt_file`.company = '1'  ORDER BY id
+  SELECT id, status, name FROM `zt_product` WHERE id IN ('35','7','11','12','13','14','15','16','17','18','20','21','27','25','26','28','29','30','31','32','36','37','38','39','40','41','42','43','44','45')  AND  `zt_product`.company = '1'  ORDER BY `order`
+  SELECT id, status, name FROM `zt_product` WHERE id IN ('35','7','11','12','13','14','15','16','17','18','20','21','27','25','26','28','29','30','31','32','36','37','38','39','40','41','42','43','44','45')  AND  `zt_product`.company = '1'  ORDER BY `order`
+  SELECT account, realname FROM `zt_user`  WHERE  `zt_user`.company = '1'  ORDER BY account
+  SELECT commiter, account, realname FROM `zt_user` WHERE commiter  != '' AND  `zt_user`.company = '1' 
+  SELECT * FROM `zt_action` WHERE objectType  = 'case' AND objectID  = '1498'  AND  `zt_action`.company = '1'  ORDER BY date, id
+  SELECT * FROM `zt_history` WHERE action IN ('73709')  AND  `zt_history`.company = '1'  ORDER BY id
+  SELECT * FROM `zt_case` WHERE  product  = '35' AND deleted  = '0'    AND  `zt_case`.company = '1'  ORDER BY  id desc  
+
+20131012 10:25:54: testcase-view-1497
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT *,  IF(INSTR(" closed", status) < 2, 0, 1) AS isClosed FROM `zt_product` WHERE deleted  = '0'  AND  `zt_product`.company = '1'  ORDER BY isClosed, `order`
+  SELECT * FROM `zt_case` WHERE `id` = '1497'  AND  `zt_case`.company = '1' 
+  SELECT id, title FROM `zt_bug` WHERE `case`  = '1497' AND  `zt_bug`.company = '1' 
+  SELECT * FROM `zt_caseStep` WHERE `case`  = '1497' AND version  = '1'  AND  `zt_caseStep`.company = '1'  ORDER BY id
+  SELECT * FROM `zt_file` WHERE objectType  = 'testcase' AND objectID  = '1497'  AND  `zt_file`.company = '1'  ORDER BY id
+  SELECT id, status, name FROM `zt_product` WHERE id IN ('35','7','11','12','13','14','15','16','17','18','20','21','27','25','26','28','29','30','31','32','36','37','38','39','40','41','42','43','44','45')  AND  `zt_product`.company = '1'  ORDER BY `order`
+  SELECT id, status, name FROM `zt_product` WHERE id IN ('35','7','11','12','13','14','15','16','17','18','20','21','27','25','26','28','29','30','31','32','36','37','38','39','40','41','42','43','44','45')  AND  `zt_product`.company = '1'  ORDER BY `order`
+  SELECT account, realname FROM `zt_user`  WHERE  `zt_user`.company = '1'  ORDER BY account
+  SELECT commiter, account, realname FROM `zt_user` WHERE commiter  != '' AND  `zt_user`.company = '1' 
+  SELECT * FROM `zt_action` WHERE objectType  = 'case' AND objectID  = '1497'  AND  `zt_action`.company = '1'  ORDER BY date, id
+  SELECT * FROM `zt_history` WHERE action IN ('73707')  AND  `zt_history`.company = '1'  ORDER BY id
+  SELECT * FROM `zt_case` WHERE  product  = '35' AND deleted  = '0'    AND  `zt_case`.company = '1'  ORDER BY  id desc  
+
+20131012 10:25:57: testcase-view-1496
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT *,  IF(INSTR(" closed", status) < 2, 0, 1) AS isClosed FROM `zt_product` WHERE deleted  = '0'  AND  `zt_product`.company = '1'  ORDER BY isClosed, `order`
+  SELECT * FROM `zt_case` WHERE `id` = '1496'  AND  `zt_case`.company = '1' 
+  SELECT id, title FROM `zt_bug` WHERE `case`  = '1496' AND  `zt_bug`.company = '1' 
+  SELECT * FROM `zt_caseStep` WHERE `case`  = '1496' AND version  = '1'  AND  `zt_caseStep`.company = '1'  ORDER BY id
+  SELECT * FROM `zt_file` WHERE objectType  = 'testcase' AND objectID  = '1496'  AND  `zt_file`.company = '1'  ORDER BY id
+  SELECT id, status, name FROM `zt_product` WHERE id IN ('35','7','11','12','13','14','15','16','17','18','20','21','27','25','26','28','29','30','31','32','36','37','38','39','40','41','42','43','44','45')  AND  `zt_product`.company = '1'  ORDER BY `order`
+  SELECT id, status, name FROM `zt_product` WHERE id IN ('35','7','11','12','13','14','15','16','17','18','20','21','27','25','26','28','29','30','31','32','36','37','38','39','40','41','42','43','44','45')  AND  `zt_product`.company = '1'  ORDER BY `order`
+  SELECT account, realname FROM `zt_user`  WHERE  `zt_user`.company = '1'  ORDER BY account
+  SELECT commiter, account, realname FROM `zt_user` WHERE commiter  != '' AND  `zt_user`.company = '1' 
+  SELECT * FROM `zt_action` WHERE objectType  = 'case' AND objectID  = '1496'  AND  `zt_action`.company = '1'  ORDER BY date, id
+  SELECT * FROM `zt_history` WHERE action IN ('73706')  AND  `zt_history`.company = '1'  ORDER BY id
+  SELECT * FROM `zt_case` WHERE  product  = '35' AND deleted  = '0'    AND  `zt_case`.company = '1'  ORDER BY  id desc  
+
+20131012 10:26:01: testcase-browse-35
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT *,  IF(INSTR(" closed", status) < 2, 0, 1) AS isClosed FROM `zt_product` WHERE deleted  = '0'  AND  `zt_product`.company = '1'  ORDER BY isClosed, `order`
+  SELECT id, status, name FROM `zt_product` WHERE id IN ('35','7','11','12','13','14','15','16','17','18','20','21','27','25','26','28','29','30','31','32','36','37','38','39','40','41','42','43','44','45')  AND  `zt_product`.company = '1'  ORDER BY `order`
+  SELECT id, status, name FROM `zt_product` WHERE id IN ('35','7','11','12','13','14','15','16','17','18','20','21','27','25','26','28','29','30','31','32','36','37','38','39','40','41','42','43','44','45')  AND  `zt_product`.company = '1'  ORDER BY `order`
+  SELECT * FROM `zt_case` WHERE product  = '35' AND deleted  = '0'  AND  `zt_case`.company = '1'  ORDER BY id desc
+  SELECT COUNT(*) AS recTotal FROM `zt_case` WHERE product  = '35' AND deleted  = '0'  AND  `zt_case`.company = '1'  
+  SELECT * FROM `zt_case` WHERE product  = '35' AND deleted  = '0'  AND  `zt_case`.company = '1'  ORDER BY id desc  limit 0, 20 
+  SELECT * FROM `zt_case` WHERE product  = '35' AND deleted  = '0' ORDER BY id desc  limit 0, 20 
+  SELECT * FROM `zt_module` WHERE root  = '35' AND type  = 'case'  AND  `zt_module`.company = '1'  ORDER BY grade desc, `order`
+  SELECT * FROM `zt_module` WHERE root  = '35' AND type  = 'case'  AND  `zt_module`.company = '1'  ORDER BY grade desc, `order`
+  SELECT account, realname FROM `zt_user`  WHERE  `zt_user`.company = '1'  ORDER BY account
+
+20131012 10:26:03: testcase-import-35
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+
+20131012 10:26:12: testcase-import-35
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+
+20131012 10:26:13: testcase-importPreview-35-caseCode,testItem
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT *,  IF(INSTR(" closed", status) < 2, 0, 1) AS isClosed FROM `zt_product` WHERE deleted  = '0'  AND  `zt_product`.company = '1'  ORDER BY isClosed, `order`
+  SELECT id, status, name FROM `zt_product` WHERE id IN ('35','7','11','12','13','14','15','16','17','18','20','21','27','25','26','28','29','30','31','32','36','37','38','39','40','41','42','43','44','45')  AND  `zt_product`.company = '1'  ORDER BY `order`
+  SELECT id, status, name FROM `zt_product` WHERE id IN ('35','7','11','12','13','14','15','16','17','18','20','21','27','25','26','28','29','30','31','32','36','37','38','39','40','41','42','43','44','45')  AND  `zt_product`.company = '1'  ORDER BY `order`
+
+20131012 10:27:13: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+
+20131012 10:30:43: testcase-browse-35
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT *,  IF(INSTR(" closed", status) < 2, 0, 1) AS isClosed FROM `zt_product` WHERE deleted  = '0'  AND  `zt_product`.company = '1'  ORDER BY isClosed, `order`
+  SELECT id, status, name FROM `zt_product` WHERE id IN ('35','7','11','12','13','14','15','16','17','18','20','21','27','25','26','28','29','30','31','32','36','37','38','39','40','41','42','43','44','45')  AND  `zt_product`.company = '1'  ORDER BY `order`
+  SELECT id, status, name FROM `zt_product` WHERE id IN ('35','7','11','12','13','14','15','16','17','18','20','21','27','25','26','28','29','30','31','32','36','37','38','39','40','41','42','43','44','45')  AND  `zt_product`.company = '1'  ORDER BY `order`
+  SELECT * FROM `zt_case` WHERE product  = '35' AND deleted  = '0'  AND  `zt_case`.company = '1'  ORDER BY id desc
+  SELECT COUNT(*) AS recTotal FROM `zt_case` WHERE product  = '35' AND deleted  = '0'  AND  `zt_case`.company = '1'  
+  SELECT * FROM `zt_case` WHERE product  = '35' AND deleted  = '0'  AND  `zt_case`.company = '1'  ORDER BY id desc  limit 0, 20 
+  SELECT * FROM `zt_case` WHERE product  = '35' AND deleted  = '0' ORDER BY id desc  limit 0, 20 
+  SELECT * FROM `zt_module` WHERE root  = '35' AND type  = 'case'  AND  `zt_module`.company = '1'  ORDER BY grade desc, `order`
+  SELECT * FROM `zt_module` WHERE root  = '35' AND type  = 'case'  AND  `zt_module`.company = '1'  ORDER BY grade desc, `order`
+  SELECT account, realname FROM `zt_user`  WHERE  `zt_user`.company = '1'  ORDER BY account
+
+20131012 10:30:44: testcase-import-35
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+
+20131012 10:30:53: testcase-import-35
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+
+20131012 10:30:53: testcase-importPreview-35-caseCode,testItem
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT *,  IF(INSTR(" closed", status) < 2, 0, 1) AS isClosed FROM `zt_product` WHERE deleted  = '0'  AND  `zt_product`.company = '1'  ORDER BY isClosed, `order`
+  SELECT id, status, name FROM `zt_product` WHERE id IN ('35','7','11','12','13','14','15','16','17','18','20','21','27','25','26','28','29','30','31','32','36','37','38','39','40','41','42','43','44','45')  AND  `zt_product`.company = '1'  ORDER BY `order`
+  SELECT id, status, name FROM `zt_product` WHERE id IN ('35','7','11','12','13','14','15','16','17','18','20','21','27','25','26','28','29','30','31','32','36','37','38','39','40','41','42','43','44','45')  AND  `zt_product`.company = '1'  ORDER BY `order`
+
+20131012 10:31:27: testcase-importPreview-35-caseCode,testItem
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT *,  IF(INSTR(" closed", status) < 2, 0, 1) AS isClosed FROM `zt_product` WHERE deleted  = '0'  AND  `zt_product`.company = '1'  ORDER BY isClosed, `order`
+  INSERT INTO `zt_case` SET `product` = '35',`type` = 'feature',`title` = '数据同步-同步CIBN',`pri` = '3',`precondition` = '1、ieum系统运行正常\r\n2、登录ieum系统',`openedBy` = 'fujia',`openedDate` = '2013-10-12 10:31:27',`status` = 'normal',`version` = '1',`caseCode` = '005_01_001',`testItem` = '数据同步',`company` = '1'
+  INSERT INTO `zt_caseStep` SET `case` = '1512',`version` = '1',`desc` = '1、进入“数据同步-同步CIBN”页面',`expect` = '1、可查看到定时同步表达式（时间可配置），定时同步数据成功',`company` = '1'
+  INSERT INTO `zt_caseStep` SET `case` = '1512',`version` = '1',`desc` = '2、点击定时表达式，手动同步数据',`expect` = '2、手动同步数据成功',`company` = '1'
+  SELECT product FROM `zt_case` WHERE id  = '1512' AND  `zt_case`.company = '1' 
+  INSERT INTO `zt_action` SET `objectType` = 'case',`objectID` = '1512',`actor` = 'fujia',`action` = 'opened',`date` = '2013-10-12 10:31:27',`comment` = '',`extra` = '',`product` = ',35,',`project` = '0',`company` = '1'
+  INSERT INTO `zt_case` SET `product` = '35',`type` = 'feature',`title` = '数据同步-同步智能推荐',`pri` = '3',`precondition` = '1、ieum系统运行正常\r\n2、登录ieum系统',`openedBy` = 'fujia',`openedDate` = '2013-10-12 10:31:27',`status` = 'normal',`version` = '1',`caseCode` = '005_01_002',`testItem` = '数据同步',`company` = '1'
+  INSERT INTO `zt_caseStep` SET `case` = '1513',`version` = '1',`desc` = '1、进入“数据同步-同步智能推荐”页面',`expect` = '1、可查看到定时同步表达式（时间可配置），定时同步数据成功',`company` = '1'
+  INSERT INTO `zt_caseStep` SET `case` = '1513',`version` = '1',`desc` = '2、点击定时表达式，手动同步数据',`expect` = '2、手动同步数据成功',`company` = '1'
+  SELECT product FROM `zt_case` WHERE id  = '1513' AND  `zt_case`.company = '1' 
+  INSERT INTO `zt_action` SET `objectType` = 'case',`objectID` = '1513',`actor` = 'fujia',`action` = 'opened',`date` = '2013-10-12 10:31:27',`comment` = '',`extra` = '',`product` = ',35,',`project` = '0',`company` = '1'
+  INSERT INTO `zt_case` SET `product` = '35',`type` = 'feature',`title` = '数据同步-同步搜索引擎-定时全量同步',`pri` = '3',`precondition` = '1、ieum系统运行正常\r\n2、登录ieum系统',`openedBy` = 'fujia',`openedDate` = '2013-10-12 10:31:27',`status` = 'normal',`version` = '1',`caseCode` = '005_01_003',`testItem` = '数据同步',`company` = '1'
+  INSERT INTO `zt_caseStep` SET `case` = '1514',`version` = '1',`desc` = '1、进入“数据同步-同步搜索引擎”页面',`expect` = '1、可查看到定时同步表达式（时间可配置），定时全量同步数据成功',`company` = '1'
+  INSERT INTO `zt_caseStep` SET `case` = '1514',`version` = '1',`desc` = '2、点击定时表达式，手动同步数据',`expect` = '2、手动同步数据成功',`company` = '1'
+  SELECT product FROM `zt_case` WHERE id  = '1514' AND  `zt_case`.company = '1' 
+  INSERT INTO `zt_action` SET `objectType` = 'case',`objectID` = '1514',`actor` = 'fujia',`action` = 'opened',`date` = '2013-10-12 10:31:27',`comment` = '',`extra` = '',`product` = ',35,',`project` = '0',`company` = '1'
+  INSERT INTO `zt_case` SET `product` = '35',`type` = 'feature',`title` = '数据同步-同步搜索引擎-影片上架，实时增量同步',`pri` = '3',`precondition` = '1、ieum系统运行正常\r\n2、portalms系统运行正常\r\n',`openedBy` = 'fujia',`openedDate` = '2013-10-12 10:31:27',`status` = 'normal',`version` = '1',`caseCode` = '005_01_004',`testItem` = '数据同步',`company` = '1'
+  INSERT INTO `zt_caseStep` SET `case` = '1515',`version` = '1',`desc` = '1、登录portalms系统，上架影片',`expect` = '1、数据实时增量同步到搜索引擎成功',`company` = '1'
+  SELECT product FROM `zt_case` WHERE id  = '1515' AND  `zt_case`.company = '1' 
+  INSERT INTO `zt_action` SET `objectType` = 'case',`objectID` = '1515',`actor` = 'fujia',`action` = 'opened',`date` = '2013-10-12 10:31:27',`comment` = '',`extra` = '',`product` = ',35,',`project` = '0',`company` = '1'
+  INSERT INTO `zt_case` SET `product` = '35',`type` = 'feature',`title` = '数据同步-同步搜索引擎-影片下架，实时增量同步',`pri` = '3',`precondition` = '1、ieum系统运行正常\r\n2、portalms系统运行正常\r\n',`openedBy` = 'fujia',`openedDate` = '2013-10-12 10:31:27',`status` = 'normal',`version` = '1',`caseCode` = '005_01_005',`testItem` = '数据同步',`company` = '1'
+  INSERT INTO `zt_caseStep` SET `case` = '1516',`version` = '1',`desc` = '1、登录portalms系统，下架影片',`expect` = '1、数据实时增量同步到搜索引擎成功',`company` = '1'
+  SELECT product FROM `zt_case` WHERE id  = '1516' AND  `zt_case`.company = '1' 
+  INSERT INTO `zt_action` SET `objectType` = 'case',`objectID` = '1516',`actor` = 'fujia',`action` = 'opened',`date` = '2013-10-12 10:31:27',`comment` = '',`extra` = '',`product` = ',35,',`project` = '0',`company` = '1'
+  INSERT INTO `zt_case` SET `product` = '35',`type` = 'feature',`title` = '数据同步-同步数据管理-查询',`pri` = '3',`precondition` = '1、ieum系统运行正常\r\n2、登录ieum系统',`openedBy` = 'fujia',`openedDate` = '2013-10-12 10:31:27',`status` = 'normal',`version` = '1',`caseCode` = '005_01_006',`testItem` = '数据同步',`company` = '1'
+  INSERT INTO `zt_caseStep` SET `case` = '1517',`version` = '1',`desc` = '1、进入“数据同步-同步数据管理”页面，查询数据',`expect` = '1、可根据查询条件查询到同步失败的数据',`company` = '1'
+  SELECT product FROM `zt_case` WHERE id  = '1517' AND  `zt_case`.company = '1' 
+  INSERT INTO `zt_action` SET `objectType` = 'case',`objectID` = '1517',`actor` = 'fujia',`action` = 'opened',`date` = '2013-10-12 10:31:27',`comment` = '',`extra` = '',`product` = ',35,',`project` = '0',`company` = '1'
+  INSERT INTO `zt_case` SET `product` = '35',`type` = 'feature',`title` = '数据同步-同步数据管理-同步',`pri` = '3',`precondition` = '1、ieum系统运行正常\r\n2、登录ieum系统',`openedBy` = 'fujia',`openedDate` = '2013-10-12 10:31:27',`status` = 'normal',`version` = '1',`caseCode` = '005_01_007',`testItem` = '数据同步',`company` = '1'
+  INSERT INTO `zt_caseStep` SET `case` = '1518',`version` = '1',`desc` = '1、进入“数据同步-同步数据管理”页面，同步数据',`expect` = '1、可对同步失败的数据重新进行同步',`company` = '1'
+  SELECT product FROM `zt_case` WHERE id  = '1518' AND  `zt_case`.company = '1' 
+  INSERT INTO `zt_action` SET `objectType` = 'case',`objectID` = '1518',`actor` = 'fujia',`action` = 'opened',`date` = '2013-10-12 10:31:27',`comment` = '',`extra` = '',`product` = ',35,',`project` = '0',`company` = '1'
+  INSERT INTO `zt_case` SET `product` = '35',`type` = 'feature',`title` = '灰度管理-查询用户',`pri` = '3',`precondition` = '1、ieum系统运行正常\r\n2、登录ieum系统',`openedBy` = 'fujia',`openedDate` = '2013-10-12 10:31:27',`status` = 'normal',`version` = '1',`caseCode` = '005_02_001',`testItem` = '灰度管理',`company` = '1'
+  INSERT INTO `zt_caseStep` SET `case` = '1519',`version` = '1',`desc` = '1、进入“灰度管理-用户管理”页面，查询用户',`expect` = '1、可根据查询条件查询用户信息',`company` = '1'
+  SELECT product FROM `zt_case` WHERE id  = '1519' AND  `zt_case`.company = '1' 
+  INSERT INTO `zt_action` SET `objectType` = 'case',`objectID` = '1519',`actor` = 'fujia',`action` = 'opened',`date` = '2013-10-12 10:31:27',`comment` = '',`extra` = '',`product` = ',35,',`project` = '0',`company` = '1'
+  INSERT INTO `zt_case` SET `product` = '35',`type` = 'feature',`title` = '灰度管理-设置正常用户',`pri` = '3',`precondition` = '1、ieum系统运行正常\r\n2、登录ieum系统',`openedBy` = 'fujia',`openedDate` = '2013-10-12 10:31:27',`status` = 'normal',`version` = '1',`caseCode` = '005_02_002',`testItem` = '灰度管理',`company` = '1'
+  INSERT INTO `zt_caseStep` SET `case` = '1520',`version` = '1',`desc` = '1、进入“灰度管理-用户管理”页面，选择灰度用户，点击“设为正常”',`expect` = '1、灰度用户设置为正常用户',`company` = '1'
+  SELECT product FROM `zt_case` WHERE id  = '1520' AND  `zt_case`.company = '1' 
+  INSERT INTO `zt_action` SET `objectType` = 'case',`objectID` = '1520',`actor` = 'fujia',`action` = 'opened',`date` = '2013-10-12 10:31:27',`comment` = '',`extra` = '',`product` = ',35,',`project` = '0',`company` = '1'
+  INSERT INTO `zt_case` SET `product` = '35',`type` = 'feature',`title` = '灰度管理-设置灰度用户',`pri` = '3',`precondition` = '1、ieum系统运行正常\r\n2、登录ieum系统',`openedBy` = 'fujia',`openedDate` = '2013-10-12 10:31:27',`status` = 'normal',`version` = '1',`caseCode` = '005_02_003',`testItem` = '灰度管理',`company` = '1'
+  INSERT INTO `zt_caseStep` SET `case` = '1521',`version` = '1',`desc` = '1、进入“灰度管理-用户管理”页面，选择正常用户，点击“设为灰度”',`expect` = '1、正常用户设置为灰度用户',`company` = '1'
+  SELECT product FROM `zt_case` WHERE id  = '1521' AND  `zt_case`.company = '1' 
+  INSERT INTO `zt_action` SET `objectType` = 'case',`objectID` = '1521',`actor` = 'fujia',`action` = 'opened',`date` = '2013-10-12 10:31:27',`comment` = '',`extra` = '',`product` = ',35,',`project` = '0',`company` = '1'
+  INSERT INTO `zt_case` SET `product` = '35',`type` = 'feature',`title` = '灰度管理-删除灰度版本',`pri` = '3',`precondition` = '1、ieum系统运行正常\r\n2、登录ieum系统',`openedBy` = 'fujia',`openedDate` = '2013-10-12 10:31:27',`status` = 'normal',`version` = '1',`caseCode` = '005_02_004',`testItem` = '灰度管理',`company` = '1'
+  INSERT INTO `zt_caseStep` SET `case` = '1522',`version` = '1',`desc` = '1、进入“灰度管理-版本管理”页面，选择版本，点击删除',`expect` = '1、可成功删除版本',`company` = '1'
+  SELECT product FROM `zt_case` WHERE id  = '1522' AND  `zt_case`.company = '1' 
+  INSERT INTO `zt_action` SET `objectType` = 'case',`objectID` = '1522',`actor` = 'fujia',`action` = 'opened',`date` = '2013-10-12 10:31:27',`comment` = '',`extra` = '',`product` = ',35,',`project` = '0',`company` = '1'
+  INSERT INTO `zt_case` SET `product` = '35',`type` = 'feature',`title` = '灰度管理-修改灰度版本',`pri` = '3',`precondition` = '1、ieum系统运行正常\r\n2、登录ieum系统',`openedBy` = 'fujia',`openedDate` = '2013-10-12 10:31:27',`status` = 'normal',`version` = '1',`caseCode` = '005_02_005',`testItem` = '灰度管理',`company` = '1'
+  INSERT INTO `zt_caseStep` SET `case` = '1523',`version` = '1',`desc` = '1、进入“灰度管理-版本管理”页面，选择版本，点击修改',`expect` = '1、可成功修改版本',`company` = '1'
+  SELECT product FROM `zt_case` WHERE id  = '1523' AND  `zt_case`.company = '1' 
+  INSERT INTO `zt_action` SET `objectType` = 'case',`objectID` = '1523',`actor` = 'fujia',`action` = 'opened',`date` = '2013-10-12 10:31:27',`comment` = '',`extra` = '',`product` = ',35,',`project` = '0',`company` = '1'
+  INSERT INTO `zt_case` SET `product` = '35',`type` = 'feature',`title` = '灰度管理-增加灰度版本（手机）',`pri` = '3',`precondition` = '1、ieum系统运行正常\r\n2、登录ieum系统',`openedBy` = 'fujia',`openedDate` = '2013-10-12 10:31:27',`status` = 'normal',`version` = '1',`caseCode` = '005_02_006',`testItem` = '灰度管理',`company` = '1'
+  INSERT INTO `zt_caseStep` SET `case` = '1524',`version` = '1',`desc` = '1、进入“灰度管理-版本管理”页面，新增手机版本',`expect` = '1、可成功新增手机版本',`company` = '1'
+  SELECT product FROM `zt_case` WHERE id  = '1524' AND  `zt_case`.company = '1' 
+  INSERT INTO `zt_action` SET `objectType` = 'case',`objectID` = '1524',`actor` = 'fujia',`action` = 'opened',`date` = '2013-10-12 10:31:27',`comment` = '',`extra` = '',`product` = ',35,',`project` = '0',`company` = '1'
+  INSERT INTO `zt_case` SET `product` = '35',`type` = 'feature',`title` = '灰度管理-增加灰度版本（机顶盒）',`pri` = '3',`precondition` = '1、ieum系统运行正常\r\n2、登录ieum系统',`openedBy` = 'fujia',`openedDate` = '2013-10-12 10:31:27',`status` = 'normal',`version` = '1',`caseCode` = '005_02_007',`testItem` = '灰度管理',`company` = '1'
+  INSERT INTO `zt_caseStep` SET `case` = '1525',`version` = '1',`desc` = '1、进入“灰度管理-版本管理”页面，新增机顶盒版本',`expect` = '1、可成功新增机顶盒版本',`company` = '1'
+  SELECT product FROM `zt_case` WHERE id  = '1525' AND  `zt_case`.company = '1' 
+  INSERT INTO `zt_action` SET `objectType` = 'case',`objectID` = '1525',`actor` = 'fujia',`action` = 'opened',`date` = '2013-10-12 10:31:27',`comment` = '',`extra` = '',`product` = ',35,',`project` = '0',`company` = '1'
+
+20131012 10:31:28: testcase-browse-35
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT *,  IF(INSTR(" closed", status) < 2, 0, 1) AS isClosed FROM `zt_product` WHERE deleted  = '0'  AND  `zt_product`.company = '1'  ORDER BY isClosed, `order`
+  SELECT id, status, name FROM `zt_product` WHERE id IN ('35','7','11','12','13','14','15','16','17','18','20','21','27','25','26','28','29','30','31','32','36','37','38','39','40','41','42','43','44','45')  AND  `zt_product`.company = '1'  ORDER BY `order`
+  SELECT id, status, name FROM `zt_product` WHERE id IN ('35','7','11','12','13','14','15','16','17','18','20','21','27','25','26','28','29','30','31','32','36','37','38','39','40','41','42','43','44','45')  AND  `zt_product`.company = '1'  ORDER BY `order`
+  SELECT * FROM `zt_case` WHERE product  = '35' AND deleted  = '0'  AND  `zt_case`.company = '1'  ORDER BY id desc
+  SELECT COUNT(*) AS recTotal FROM `zt_case` WHERE product  = '35' AND deleted  = '0'  AND  `zt_case`.company = '1'  
+  SELECT * FROM `zt_case` WHERE product  = '35' AND deleted  = '0'  AND  `zt_case`.company = '1'  ORDER BY id desc  limit 0, 20 
+  SELECT * FROM `zt_case` WHERE product  = '35' AND deleted  = '0' ORDER BY id desc  limit 0, 20 
+  SELECT * FROM `zt_module` WHERE root  = '35' AND type  = 'case'  AND  `zt_module`.company = '1'  ORDER BY grade desc, `order`
+  SELECT * FROM `zt_module` WHERE root  = '35' AND type  = 'case'  AND  `zt_module`.company = '1'  ORDER BY grade desc, `order`
+  SELECT account, realname FROM `zt_user`  WHERE  `zt_user`.company = '1'  ORDER BY account
+
+20131012 10:31:30: testcase-view-1525
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT *,  IF(INSTR(" closed", status) < 2, 0, 1) AS isClosed FROM `zt_product` WHERE deleted  = '0'  AND  `zt_product`.company = '1'  ORDER BY isClosed, `order`
+  SELECT * FROM `zt_case` WHERE `id` = '1525'  AND  `zt_case`.company = '1' 
+  SELECT id, title FROM `zt_bug` WHERE `case`  = '1525' AND  `zt_bug`.company = '1' 
+  SELECT * FROM `zt_caseStep` WHERE `case`  = '1525' AND version  = '1'  AND  `zt_caseStep`.company = '1'  ORDER BY id
+  SELECT * FROM `zt_file` WHERE objectType  = 'testcase' AND objectID  = '1525'  AND  `zt_file`.company = '1'  ORDER BY id
+  SELECT id, status, name FROM `zt_product` WHERE id IN ('35','7','11','12','13','14','15','16','17','18','20','21','27','25','26','28','29','30','31','32','36','37','38','39','40','41','42','43','44','45')  AND  `zt_product`.company = '1'  ORDER BY `order`
+  SELECT id, status, name FROM `zt_product` WHERE id IN ('35','7','11','12','13','14','15','16','17','18','20','21','27','25','26','28','29','30','31','32','36','37','38','39','40','41','42','43','44','45')  AND  `zt_product`.company = '1'  ORDER BY `order`
+  SELECT account, realname FROM `zt_user`  WHERE  `zt_user`.company = '1'  ORDER BY account
+  SELECT commiter, account, realname FROM `zt_user` WHERE commiter  != '' AND  `zt_user`.company = '1' 
+  SELECT * FROM `zt_action` WHERE objectType  = 'case' AND objectID  = '1525'  AND  `zt_action`.company = '1'  ORDER BY date, id
+  SELECT * FROM `zt_history` WHERE action IN ('73736')  AND  `zt_history`.company = '1'  ORDER BY id
+  SELECT * FROM `zt_case` WHERE  product  = '35' AND deleted  = '0'    AND  `zt_case`.company = '1'  ORDER BY  id desc  
+
+20131012 10:31:32: testcase-view-1524
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT *,  IF(INSTR(" closed", status) < 2, 0, 1) AS isClosed FROM `zt_product` WHERE deleted  = '0'  AND  `zt_product`.company = '1'  ORDER BY isClosed, `order`
+  SELECT * FROM `zt_case` WHERE `id` = '1524'  AND  `zt_case`.company = '1' 
+  SELECT id, title FROM `zt_bug` WHERE `case`  = '1524' AND  `zt_bug`.company = '1' 
+  SELECT * FROM `zt_caseStep` WHERE `case`  = '1524' AND version  = '1'  AND  `zt_caseStep`.company = '1'  ORDER BY id
+  SELECT * FROM `zt_file` WHERE objectType  = 'testcase' AND objectID  = '1524'  AND  `zt_file`.company = '1'  ORDER BY id
+  SELECT id, status, name FROM `zt_product` WHERE id IN ('35','7','11','12','13','14','15','16','17','18','20','21','27','25','26','28','29','30','31','32','36','37','38','39','40','41','42','43','44','45')  AND  `zt_product`.company = '1'  ORDER BY `order`
+  SELECT id, status, name FROM `zt_product` WHERE id IN ('35','7','11','12','13','14','15','16','17','18','20','21','27','25','26','28','29','30','31','32','36','37','38','39','40','41','42','43','44','45')  AND  `zt_product`.company = '1'  ORDER BY `order`
+  SELECT account, realname FROM `zt_user`  WHERE  `zt_user`.company = '1'  ORDER BY account
+  SELECT commiter, account, realname FROM `zt_user` WHERE commiter  != '' AND  `zt_user`.company = '1' 
+  SELECT * FROM `zt_action` WHERE objectType  = 'case' AND objectID  = '1524'  AND  `zt_action`.company = '1'  ORDER BY date, id
+  SELECT * FROM `zt_history` WHERE action IN ('73735')  AND  `zt_history`.company = '1'  ORDER BY id
+  SELECT * FROM `zt_case` WHERE  product  = '35' AND deleted  = '0'    AND  `zt_case`.company = '1'  ORDER BY  id desc  
+
+20131012 10:31:33: testcase-view-1523
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT *,  IF(INSTR(" closed", status) < 2, 0, 1) AS isClosed FROM `zt_product` WHERE deleted  = '0'  AND  `zt_product`.company = '1'  ORDER BY isClosed, `order`
+  SELECT * FROM `zt_case` WHERE `id` = '1523'  AND  `zt_case`.company = '1' 
+  SELECT id, title FROM `zt_bug` WHERE `case`  = '1523' AND  `zt_bug`.company = '1' 
+  SELECT * FROM `zt_caseStep` WHERE `case`  = '1523' AND version  = '1'  AND  `zt_caseStep`.company = '1'  ORDER BY id
+  SELECT * FROM `zt_file` WHERE objectType  = 'testcase' AND objectID  = '1523'  AND  `zt_file`.company = '1'  ORDER BY id
+  SELECT id, status, name FROM `zt_product` WHERE id IN ('35','7','11','12','13','14','15','16','17','18','20','21','27','25','26','28','29','30','31','32','36','37','38','39','40','41','42','43','44','45')  AND  `zt_product`.company = '1'  ORDER BY `order`
+  SELECT id, status, name FROM `zt_product` WHERE id IN ('35','7','11','12','13','14','15','16','17','18','20','21','27','25','26','28','29','30','31','32','36','37','38','39','40','41','42','43','44','45')  AND  `zt_product`.company = '1'  ORDER BY `order`
+  SELECT account, realname FROM `zt_user`  WHERE  `zt_user`.company = '1'  ORDER BY account
+  SELECT commiter, account, realname FROM `zt_user` WHERE commiter  != '' AND  `zt_user`.company = '1' 
+  SELECT * FROM `zt_action` WHERE objectType  = 'case' AND objectID  = '1523'  AND  `zt_action`.company = '1'  ORDER BY date, id
+  SELECT * FROM `zt_history` WHERE action IN ('73734')  AND  `zt_history`.company = '1'  ORDER BY id
+  SELECT * FROM `zt_case` WHERE  product  = '35' AND deleted  = '0'    AND  `zt_case`.company = '1'  ORDER BY  id desc  
+
+20131012 10:31:34: testcase-view-1522
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT *,  IF(INSTR(" closed", status) < 2, 0, 1) AS isClosed FROM `zt_product` WHERE deleted  = '0'  AND  `zt_product`.company = '1'  ORDER BY isClosed, `order`
+  SELECT * FROM `zt_case` WHERE `id` = '1522'  AND  `zt_case`.company = '1' 
+  SELECT id, title FROM `zt_bug` WHERE `case`  = '1522' AND  `zt_bug`.company = '1' 
+  SELECT * FROM `zt_caseStep` WHERE `case`  = '1522' AND version  = '1'  AND  `zt_caseStep`.company = '1'  ORDER BY id
+  SELECT * FROM `zt_file` WHERE objectType  = 'testcase' AND objectID  = '1522'  AND  `zt_file`.company = '1'  ORDER BY id
+  SELECT id, status, name FROM `zt_product` WHERE id IN ('35','7','11','12','13','14','15','16','17','18','20','21','27','25','26','28','29','30','31','32','36','37','38','39','40','41','42','43','44','45')  AND  `zt_product`.company = '1'  ORDER BY `order`
+  SELECT id, status, name FROM `zt_product` WHERE id IN ('35','7','11','12','13','14','15','16','17','18','20','21','27','25','26','28','29','30','31','32','36','37','38','39','40','41','42','43','44','45')  AND  `zt_product`.company = '1'  ORDER BY `order`
+  SELECT account, realname FROM `zt_user`  WHERE  `zt_user`.company = '1'  ORDER BY account
+  SELECT commiter, account, realname FROM `zt_user` WHERE commiter  != '' AND  `zt_user`.company = '1' 
+  SELECT * FROM `zt_action` WHERE objectType  = 'case' AND objectID  = '1522'  AND  `zt_action`.company = '1'  ORDER BY date, id
+  SELECT * FROM `zt_history` WHERE action IN ('73733')  AND  `zt_history`.company = '1'  ORDER BY id
+  SELECT * FROM `zt_case` WHERE  product  = '35' AND deleted  = '0'    AND  `zt_case`.company = '1'  ORDER BY  id desc  
+
+20131012 10:31:35: testcase-view-1521
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT *,  IF(INSTR(" closed", status) < 2, 0, 1) AS isClosed FROM `zt_product` WHERE deleted  = '0'  AND  `zt_product`.company = '1'  ORDER BY isClosed, `order`
+  SELECT * FROM `zt_case` WHERE `id` = '1521'  AND  `zt_case`.company = '1' 
+  SELECT id, title FROM `zt_bug` WHERE `case`  = '1521' AND  `zt_bug`.company = '1' 
+  SELECT * FROM `zt_caseStep` WHERE `case`  = '1521' AND version  = '1'  AND  `zt_caseStep`.company = '1'  ORDER BY id
+  SELECT * FROM `zt_file` WHERE objectType  = 'testcase' AND objectID  = '1521'  AND  `zt_file`.company = '1'  ORDER BY id
+  SELECT id, status, name FROM `zt_product` WHERE id IN ('35','7','11','12','13','14','15','16','17','18','20','21','27','25','26','28','29','30','31','32','36','37','38','39','40','41','42','43','44','45')  AND  `zt_product`.company = '1'  ORDER BY `order`
+  SELECT id, status, name FROM `zt_product` WHERE id IN ('35','7','11','12','13','14','15','16','17','18','20','21','27','25','26','28','29','30','31','32','36','37','38','39','40','41','42','43','44','45')  AND  `zt_product`.company = '1'  ORDER BY `order`
+  SELECT account, realname FROM `zt_user`  WHERE  `zt_user`.company = '1'  ORDER BY account
+  SELECT commiter, account, realname FROM `zt_user` WHERE commiter  != '' AND  `zt_user`.company = '1' 
+  SELECT * FROM `zt_action` WHERE objectType  = 'case' AND objectID  = '1521'  AND  `zt_action`.company = '1'  ORDER BY date, id
+  SELECT * FROM `zt_history` WHERE action IN ('73732')  AND  `zt_history`.company = '1'  ORDER BY id
+  SELECT * FROM `zt_case` WHERE  product  = '35' AND deleted  = '0'    AND  `zt_case`.company = '1'  ORDER BY  id desc  
+
+20131012 10:31:35: testcase-view-1520
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT *,  IF(INSTR(" closed", status) < 2, 0, 1) AS isClosed FROM `zt_product` WHERE deleted  = '0'  AND  `zt_product`.company = '1'  ORDER BY isClosed, `order`
+  SELECT * FROM `zt_case` WHERE `id` = '1520'  AND  `zt_case`.company = '1' 
+  SELECT id, title FROM `zt_bug` WHERE `case`  = '1520' AND  `zt_bug`.company = '1' 
+  SELECT * FROM `zt_caseStep` WHERE `case`  = '1520' AND version  = '1'  AND  `zt_caseStep`.company = '1'  ORDER BY id
+  SELECT * FROM `zt_file` WHERE objectType  = 'testcase' AND objectID  = '1520'  AND  `zt_file`.company = '1'  ORDER BY id
+  SELECT id, status, name FROM `zt_product` WHERE id IN ('35','7','11','12','13','14','15','16','17','18','20','21','27','25','26','28','29','30','31','32','36','37','38','39','40','41','42','43','44','45')  AND  `zt_product`.company = '1'  ORDER BY `order`
+  SELECT id, status, name FROM `zt_product` WHERE id IN ('35','7','11','12','13','14','15','16','17','18','20','21','27','25','26','28','29','30','31','32','36','37','38','39','40','41','42','43','44','45')  AND  `zt_product`.company = '1'  ORDER BY `order`
+  SELECT account, realname FROM `zt_user`  WHERE  `zt_user`.company = '1'  ORDER BY account
+  SELECT commiter, account, realname FROM `zt_user` WHERE commiter  != '' AND  `zt_user`.company = '1' 
+  SELECT * FROM `zt_action` WHERE objectType  = 'case' AND objectID  = '1520'  AND  `zt_action`.company = '1'  ORDER BY date, id
+  SELECT * FROM `zt_history` WHERE action IN ('73731')  AND  `zt_history`.company = '1'  ORDER BY id
+  SELECT * FROM `zt_case` WHERE  product  = '35' AND deleted  = '0'    AND  `zt_case`.company = '1'  ORDER BY  id desc  
+
+20131012 10:31:36: testcase-view-1519
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT *,  IF(INSTR(" closed", status) < 2, 0, 1) AS isClosed FROM `zt_product` WHERE deleted  = '0'  AND  `zt_product`.company = '1'  ORDER BY isClosed, `order`
+  SELECT * FROM `zt_case` WHERE `id` = '1519'  AND  `zt_case`.company = '1' 
+  SELECT id, title FROM `zt_bug` WHERE `case`  = '1519' AND  `zt_bug`.company = '1' 
+  SELECT * FROM `zt_caseStep` WHERE `case`  = '1519' AND version  = '1'  AND  `zt_caseStep`.company = '1'  ORDER BY id
+  SELECT * FROM `zt_file` WHERE objectType  = 'testcase' AND objectID  = '1519'  AND  `zt_file`.company = '1'  ORDER BY id
+  SELECT id, status, name FROM `zt_product` WHERE id IN ('35','7','11','12','13','14','15','16','17','18','20','21','27','25','26','28','29','30','31','32','36','37','38','39','40','41','42','43','44','45')  AND  `zt_product`.company = '1'  ORDER BY `order`
+  SELECT id, status, name FROM `zt_product` WHERE id IN ('35','7','11','12','13','14','15','16','17','18','20','21','27','25','26','28','29','30','31','32','36','37','38','39','40','41','42','43','44','45')  AND  `zt_product`.company = '1'  ORDER BY `order`
+  SELECT account, realname FROM `zt_user`  WHERE  `zt_user`.company = '1'  ORDER BY account
+  SELECT commiter, account, realname FROM `zt_user` WHERE commiter  != '' AND  `zt_user`.company = '1' 
+  SELECT * FROM `zt_action` WHERE objectType  = 'case' AND objectID  = '1519'  AND  `zt_action`.company = '1'  ORDER BY date, id
+  SELECT * FROM `zt_history` WHERE action IN ('73730')  AND  `zt_history`.company = '1'  ORDER BY id
+  SELECT * FROM `zt_case` WHERE  product  = '35' AND deleted  = '0'    AND  `zt_case`.company = '1'  ORDER BY  id desc  
+
+20131012 10:31:37: testcase-view-1518
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT *,  IF(INSTR(" closed", status) < 2, 0, 1) AS isClosed FROM `zt_product` WHERE deleted  = '0'  AND  `zt_product`.company = '1'  ORDER BY isClosed, `order`
+  SELECT * FROM `zt_case` WHERE `id` = '1518'  AND  `zt_case`.company = '1' 
+  SELECT id, title FROM `zt_bug` WHERE `case`  = '1518' AND  `zt_bug`.company = '1' 
+  SELECT * FROM `zt_caseStep` WHERE `case`  = '1518' AND version  = '1'  AND  `zt_caseStep`.company = '1'  ORDER BY id
+  SELECT * FROM `zt_file` WHERE objectType  = 'testcase' AND objectID  = '1518'  AND  `zt_file`.company = '1'  ORDER BY id
+  SELECT id, status, name FROM `zt_product` WHERE id IN ('35','7','11','12','13','14','15','16','17','18','20','21','27','25','26','28','29','30','31','32','36','37','38','39','40','41','42','43','44','45')  AND  `zt_product`.company = '1'  ORDER BY `order`
+  SELECT id, status, name FROM `zt_product` WHERE id IN ('35','7','11','12','13','14','15','16','17','18','20','21','27','25','26','28','29','30','31','32','36','37','38','39','40','41','42','43','44','45')  AND  `zt_product`.company = '1'  ORDER BY `order`
+  SELECT account, realname FROM `zt_user`  WHERE  `zt_user`.company = '1'  ORDER BY account
+  SELECT commiter, account, realname FROM `zt_user` WHERE commiter  != '' AND  `zt_user`.company = '1' 
+  SELECT * FROM `zt_action` WHERE objectType  = 'case' AND objectID  = '1518'  AND  `zt_action`.company = '1'  ORDER BY date, id
+  SELECT * FROM `zt_history` WHERE action IN ('73729')  AND  `zt_history`.company = '1'  ORDER BY id
+  SELECT * FROM `zt_case` WHERE  product  = '35' AND deleted  = '0'    AND  `zt_case`.company = '1'  ORDER BY  id desc  
+
+20131012 10:32:37: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+
+20131012 10:37:37: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+
+20131012 10:42:38: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT * FROM `zt_config` WHERE 1 = 1  AND company IN ('1') AND owner IN ('system') AND module IN ('common') AND section IN ('global') AND `key` IN ('sn')
+
+20131012 10:46:49: testcase-browse-35
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT *,  IF(INSTR(" closed", status) < 2, 0, 1) AS isClosed FROM `zt_product` WHERE deleted  = '0'  AND  `zt_product`.company = '1'  ORDER BY isClosed, `order`
+  SELECT id, status, name FROM `zt_product` WHERE id IN ('35','7','11','12','13','14','15','16','17','18','20','21','27','25','26','28','29','30','31','32','36','37','38','39','40','41','42','43','44','45')  AND  `zt_product`.company = '1'  ORDER BY `order`
+  SELECT id, status, name FROM `zt_product` WHERE id IN ('35','7','11','12','13','14','15','16','17','18','20','21','27','25','26','28','29','30','31','32','36','37','38','39','40','41','42','43','44','45')  AND  `zt_product`.company = '1'  ORDER BY `order`
+  SELECT * FROM `zt_case` WHERE product  = '35' AND deleted  = '0'  AND  `zt_case`.company = '1'  ORDER BY id desc
+  SELECT COUNT(*) AS recTotal FROM `zt_case` WHERE product  = '35' AND deleted  = '0'  AND  `zt_case`.company = '1'  
+  SELECT * FROM `zt_case` WHERE product  = '35' AND deleted  = '0'  AND  `zt_case`.company = '1'  ORDER BY id desc  limit 0, 20 
+  SELECT * FROM `zt_case` WHERE product  = '35' AND deleted  = '0' ORDER BY id desc  limit 0, 20 
+  SELECT * FROM `zt_module` WHERE root  = '35' AND type  = 'case'  AND  `zt_module`.company = '1'  ORDER BY grade desc, `order`
+  SELECT * FROM `zt_module` WHERE root  = '35' AND type  = 'case'  AND  `zt_module`.company = '1'  ORDER BY grade desc, `order`
+  SELECT account, realname FROM `zt_user`  WHERE  `zt_user`.company = '1'  ORDER BY account
+
+20131012 10:47:49: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT * FROM `zt_config` WHERE 1 = 1  AND company IN ('1') AND owner IN ('system') AND module IN ('common') AND section IN ('global') AND `key` IN ('sn')
+
+20131012 10:52:49: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+
+20131012 10:57:18: notice
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+
+20131012 10:57:18: notice-browse
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT * FROM `zt_notice` WHERE deleted  = '0'  AND  `zt_notice`.company = '1'  ORDER BY id asc
+  SELECT COUNT(*) AS recTotal FROM `zt_notice` WHERE deleted  = '0'  AND  `zt_notice`.company = '1'  
+  SELECT * FROM `zt_notice` WHERE deleted  = '0'  AND  `zt_notice`.company = '1'  ORDER BY id asc
+  SELECT * FROM `zt_module` WHERE root  = '0' AND type  = 'notice'  AND  `zt_module`.company = '1'  ORDER BY grade desc, `order`
+  SELECT account, realname FROM `zt_user`  WHERE  `zt_user`.company = '1'  ORDER BY account
+
+20131012 10:58:18: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+
+20131012 11:03:19: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+
+20131012 11:08:19: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT * FROM `zt_config` WHERE 1 = 1  AND company IN ('1') AND owner IN ('system') AND module IN ('common') AND section IN ('global') AND `key` IN ('sn')
+
+20131012 11:13:19: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT * FROM `zt_config` WHERE 1 = 1  AND company IN ('1') AND owner IN ('system') AND module IN ('common') AND section IN ('global') AND `key` IN ('sn')
+
+20131012 11:18:19: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+
+20131012 11:23:19: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+
+20131012 11:28:19: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT * FROM `zt_config` WHERE 1 = 1  AND company IN ('1') AND owner IN ('system') AND module IN ('common') AND section IN ('global') AND `key` IN ('sn')
+
+20131012 11:33:20: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+
+20131012 11:38:20: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT * FROM `zt_config` WHERE 1 = 1  AND company IN ('1') AND owner IN ('system') AND module IN ('common') AND section IN ('global') AND `key` IN ('sn')
+
+20131012 11:43:20: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT * FROM `zt_config` WHERE 1 = 1  AND company IN ('1') AND owner IN ('system') AND module IN ('common') AND section IN ('global') AND `key` IN ('sn')
+
+20131012 11:48:20: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT * FROM `zt_config` WHERE 1 = 1  AND company IN ('1') AND owner IN ('system') AND module IN ('common') AND section IN ('global') AND `key` IN ('sn')
+
+20131012 11:53:20: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT * FROM `zt_config` WHERE 1 = 1  AND company IN ('1') AND owner IN ('system') AND module IN ('common') AND section IN ('global') AND `key` IN ('sn')
+
+20131012 11:58:20: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT * FROM `zt_config` WHERE 1 = 1  AND company IN ('1') AND owner IN ('system') AND module IN ('common') AND section IN ('global') AND `key` IN ('sn')
+
+20131012 12:03:20: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT * FROM `zt_config` WHERE 1 = 1  AND company IN ('1') AND owner IN ('system') AND module IN ('common') AND section IN ('global') AND `key` IN ('sn')
+
+20131012 12:08:20: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT * FROM `zt_config` WHERE 1 = 1  AND company IN ('1') AND owner IN ('system') AND module IN ('common') AND section IN ('global') AND `key` IN ('sn')
+
+20131012 12:13:20: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+
+20131012 12:18:20: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT * FROM `zt_config` WHERE 1 = 1  AND company IN ('1') AND owner IN ('system') AND module IN ('common') AND section IN ('global') AND `key` IN ('sn')
+
+20131012 12:23:21: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT * FROM `zt_config` WHERE 1 = 1  AND company IN ('1') AND owner IN ('system') AND module IN ('common') AND section IN ('global') AND `key` IN ('sn')
+
+20131012 12:28:21: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+
+20131012 12:33:21: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+
+20131012 12:38:21: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT * FROM `zt_config` WHERE 1 = 1  AND company IN ('1') AND owner IN ('system') AND module IN ('common') AND section IN ('global') AND `key` IN ('sn')
+
+20131012 12:43:21: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+
+20131012 12:48:21: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT * FROM `zt_config` WHERE 1 = 1  AND company IN ('1') AND owner IN ('system') AND module IN ('common') AND section IN ('global') AND `key` IN ('sn')
+
+20131012 12:53:21: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT * FROM `zt_config` WHERE 1 = 1  AND company IN ('1') AND owner IN ('system') AND module IN ('common') AND section IN ('global') AND `key` IN ('sn')
+
+20131012 12:58:22: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+
+20131012 13:03:22: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT * FROM `zt_config` WHERE 1 = 1  AND company IN ('1') AND owner IN ('system') AND module IN ('common') AND section IN ('global') AND `key` IN ('sn')
+
+20131012 13:08:22: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+
+20131012 13:13:22: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT * FROM `zt_config` WHERE 1 = 1  AND company IN ('1') AND owner IN ('system') AND module IN ('common') AND section IN ('global') AND `key` IN ('sn')
+
+20131012 13:18:22: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT * FROM `zt_config` WHERE 1 = 1  AND company IN ('1') AND owner IN ('system') AND module IN ('common') AND section IN ('global') AND `key` IN ('sn')
+
+20131012 13:23:22: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT * FROM `zt_config` WHERE 1 = 1  AND company IN ('1') AND owner IN ('system') AND module IN ('common') AND section IN ('global') AND `key` IN ('sn')
+
+20131012 13:28:22: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT * FROM `zt_config` WHERE 1 = 1  AND company IN ('1') AND owner IN ('system') AND module IN ('common') AND section IN ('global') AND `key` IN ('sn')
+
+20131012 13:33:22: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT * FROM `zt_config` WHERE 1 = 1  AND company IN ('1') AND owner IN ('system') AND module IN ('common') AND section IN ('global') AND `key` IN ('sn')
+
+20131012 13:38:22: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT * FROM `zt_config` WHERE 1 = 1  AND company IN ('1') AND owner IN ('system') AND module IN ('common') AND section IN ('global') AND `key` IN ('sn')
+
+20131012 13:43:23: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT * FROM `zt_config` WHERE 1 = 1  AND company IN ('1') AND owner IN ('system') AND module IN ('common') AND section IN ('global') AND `key` IN ('sn')
+
+20131012 13:47:03: notice-edit-1
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+
+20131012 13:47:13: notice-view-1
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+
+20131012 13:48:15: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT * FROM `zt_config` WHERE 1 = 1  AND company IN ('1') AND owner IN ('system') AND module IN ('common') AND section IN ('global') AND `key` IN ('sn')
+
+20131012 13:53:15: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+
+20131012 13:58:15: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+
+20131012 14:03:15: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT * FROM `zt_config` WHERE 1 = 1  AND company IN ('1') AND owner IN ('system') AND module IN ('common') AND section IN ('global') AND `key` IN ('sn')
+
+20131012 14:08:15: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+
+20131012 14:13:16: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+
+20131012 14:18:16: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT * FROM `zt_config` WHERE 1 = 1  AND company IN ('1') AND owner IN ('system') AND module IN ('common') AND section IN ('global') AND `key` IN ('sn')
+
+20131012 14:23:16: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+
+20131012 14:28:16: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+
+20131012 14:33:16: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT * FROM `zt_config` WHERE 1 = 1  AND company IN ('1') AND owner IN ('system') AND module IN ('common') AND section IN ('global') AND `key` IN ('sn')
+
+20131012 14:38:16: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+
+20131012 14:43:16: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT * FROM `zt_config` WHERE 1 = 1  AND company IN ('1') AND owner IN ('system') AND module IN ('common') AND section IN ('global') AND `key` IN ('sn')
+
+20131012 14:48:16: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT * FROM `zt_config` WHERE 1 = 1  AND company IN ('1') AND owner IN ('system') AND module IN ('common') AND section IN ('global') AND `key` IN ('sn')
+
+20131012 14:53:16: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+
+20131012 14:58:17: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+
+20131012 15:03:17: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+
+20131012 15:08:17: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+
+20131012 15:13:17: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+
+20131012 15:18:17: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+
+20131012 15:23:17: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+
+20131012 15:28:17: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT * FROM `zt_config` WHERE 1 = 1  AND company IN ('1') AND owner IN ('system') AND module IN ('common') AND section IN ('global') AND `key` IN ('sn')
+
+20131012 15:33:17: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT * FROM `zt_config` WHERE 1 = 1  AND company IN ('1') AND owner IN ('system') AND module IN ('common') AND section IN ('global') AND `key` IN ('sn')
+
+20131012 15:38:17: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT * FROM `zt_config` WHERE 1 = 1  AND company IN ('1') AND owner IN ('system') AND module IN ('common') AND section IN ('global') AND `key` IN ('sn')
+
+20131012 15:43:18: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+
+20131012 15:48:18: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT * FROM `zt_config` WHERE 1 = 1  AND company IN ('1') AND owner IN ('system') AND module IN ('common') AND section IN ('global') AND `key` IN ('sn')
+
+20131012 15:53:18: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+
+20131012 15:58:18: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+
+20131012 16:03:18: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+
+20131012 16:08:18: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT * FROM `zt_config` WHERE 1 = 1  AND company IN ('1') AND owner IN ('system') AND module IN ('common') AND section IN ('global') AND `key` IN ('sn')
+
+20131012 16:15:13: report
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+
+20131012 16:15:13: report-productinfo
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT id, code, name, PO FROM `zt_product` WHERE deleted  = '0' AND  `zt_product`.company = '1' 
+  SELECT * FROM `zt_productPlan` WHERE deleted  = '0' AND product IN ('35','7','11','12','13','14','15','16','17','18','20','21','27','25','26','28','29','30','31','32','36','37','38','39','40','41','42','43','44','45') AND  `zt_productPlan`.company = '1' 
+  SELECT plan, id, status FROM `zt_story` WHERE deleted  = '0' AND plan IN ('1','2','3','4','5','6','7','8','9','11','12','17','19','20','21','22','23','24','25','26','28','29','30','31','32','33','34','35','113','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55','56','57','58','59','60','61','65','66','67','68','69','70','71','72','73','74','75','81','76','77','78','79','80','83','84','85','86','87','88','89','90','91','92','93','94','117','95','96','97','98','99','100','101','102','103','104','105','106','107','108','109','111','112','114','115','116','118','119','120','121','122','141','142','123','124','125','126','127','128','129','130','131','132','133','134','135','136','137','138','139','140','143','144','145','146','147','148','149','150','151','152','153','154','155','156') AND  `zt_story`.company = '1' 
+  SELECT product, id, status FROM `zt_story` WHERE deleted  = '0' AND plan  = '0' AND product IN ('35','7','11','12','13','14','15','16','17','18','20','21','27','25','26','28','29','30','31','32','36','37','38','39','40','41','42','43','44','45') AND  `zt_story`.company = '1' 
+  SELECT account, realname FROM `zt_user`  WHERE  `zt_user`.company = '1'  ORDER BY account
+
+20131012 16:15:16: report-weeklyreport
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT t2.account, t2.realname AS name, count(t2.realname) AS value FROM `zt_bug` AS t1  LEFT JOIN `zt_user` AS t2  ON t1.assignedTo = t2.account  WHERE t1.status  = 'active' AND t1.deleted  = '0' AND t2.deleted  = '0'  AND  t1.company = '1'  GROUP BY name ORDER BY value DESC LIMIT 10 
+  SELECT t2.account, t2.realname AS name, count(t2.realname) AS value FROM `zt_bug` AS t1  LEFT JOIN `zt_user` AS t2  ON t1.openedBy = t2.account  WHERE t1.status  = 'active' AND t1.deleted  = '0' AND t2.deleted  = '0'  AND  t1.company = '1'  GROUP BY name ORDER BY value DESC LIMIT 5 
+
+20131012 16:16:17: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+
+20131012 16:21:17: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT * FROM `zt_config` WHERE 1 = 1  AND company IN ('1') AND owner IN ('system') AND module IN ('common') AND section IN ('global') AND `key` IN ('sn')
+
+20131012 16:26:17: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+
+20131012 16:31:17: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+
+20131012 16:36:17: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT * FROM `zt_config` WHERE 1 = 1  AND company IN ('1') AND owner IN ('system') AND module IN ('common') AND section IN ('global') AND `key` IN ('sn')
+
+20131012 16:41:18: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+
+20131012 16:46:18: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT * FROM `zt_config` WHERE 1 = 1  AND company IN ('1') AND owner IN ('system') AND module IN ('common') AND section IN ('global') AND `key` IN ('sn')
+
+20131012 16:51:18: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT * FROM `zt_config` WHERE 1 = 1  AND company IN ('1') AND owner IN ('system') AND module IN ('common') AND section IN ('global') AND `key` IN ('sn')
+
+20131012 16:56:18: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT * FROM `zt_config` WHERE 1 = 1  AND company IN ('1') AND owner IN ('system') AND module IN ('common') AND section IN ('global') AND `key` IN ('sn')
+
+20131012 17:01:18: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT * FROM `zt_config` WHERE 1 = 1  AND company IN ('1') AND owner IN ('system') AND module IN ('common') AND section IN ('global') AND `key` IN ('sn')
+
+20131012 17:06:18: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+
+20131012 17:11:19: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+
+20131012 17:16:19: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+
+20131012 17:21:19: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+
+20131012 17:26:19: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT * FROM `zt_config` WHERE 1 = 1  AND company IN ('1') AND owner IN ('system') AND module IN ('common') AND section IN ('global') AND `key` IN ('sn')
+
+20131012 17:31:19: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT * FROM `zt_config` WHERE 1 = 1  AND company IN ('1') AND owner IN ('system') AND module IN ('common') AND section IN ('global') AND `key` IN ('sn')
+
+20131012 17:36:19: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+
+20131012 17:41:19: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+
+20131012 17:46:08: notice
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+
+20131012 17:46:08: notice-browse
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT * FROM `zt_notice` WHERE deleted  = '0'  AND  `zt_notice`.company = '1'  ORDER BY id asc
+  SELECT COUNT(*) AS recTotal FROM `zt_notice` WHERE deleted  = '0'  AND  `zt_notice`.company = '1'  
+  SELECT * FROM `zt_notice` WHERE deleted  = '0'  AND  `zt_notice`.company = '1'  ORDER BY id asc
+  SELECT * FROM `zt_module` WHERE root  = '0' AND type  = 'notice'  AND  `zt_module`.company = '1'  ORDER BY grade desc, `order`
+  SELECT account, realname FROM `zt_user`  WHERE  `zt_user`.company = '1'  ORDER BY account
+
+20131012 17:47:09: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+
+20131012 17:52:09: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+
+20131012 17:57:09: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT * FROM `zt_config` WHERE 1 = 1  AND company IN ('1') AND owner IN ('system') AND module IN ('common') AND section IN ('global') AND `key` IN ('sn')
+
+20131012 18:02:09: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+

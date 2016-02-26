@@ -1,0 +1,1824 @@
+130|shell@android:/ $ logcat
+--------- beginning of /dev/log/system
+W/ActivityManager( 1114): Unbind failed: could not find connection for android.os.BinderProxy@415e9fc8
+E/ActivityThread( 4715): Activity com.coship.dvbplayer.main has leaked ServiceConnection com.aidufei.otoService.ServiceAdapter$1@4182e1d0 that was originally bound here
+E/ActivityThread( 4715): android.app.ServiceConnectionLeaked: Activity com.coship.dvbplayer.main has leaked ServiceConnection com.aidufei.otoService.ServiceAdapter$1@4182e1d0 that was originally bound here
+E/ActivityThread( 4715):        at android.app.LoadedApk$ServiceDispatcher.<init>(LoadedApk.java:936)
+E/ActivityThread( 4715):        at android.app.LoadedApk.getServiceDispatcher(LoadedApk.java:830)
+E/ActivityThread( 4715):        at android.app.ContextImpl.bindService(ContextImpl.java:1142)
+E/ActivityThread( 4715):        at android.content.ContextWrapper.bindService(ContextWrapper.java:370)
+E/ActivityThread( 4715):        at com.aidufei.otoService.ServiceAdapter.<init>(ServiceAdapter.java:52)
+E/ActivityThread( 4715):        at com.coship.dvbplayer.main.init(main.java:465)
+E/ActivityThread( 4715):        at com.coship.dvbplayer.main.onResume(main.java:435)
+E/ActivityThread( 4715):        at android.app.Instrumentation.callActivityOnResume(Instrumentation.java:1154)
+E/ActivityThread( 4715):        at android.app.Activity.performResume(Activity.java:4539)
+E/ActivityThread( 4715):        at android.app.ActivityThread.performResumeActivity(ActivityThread.java:2434)
+E/ActivityThread( 4715):        at android.app.ActivityThread.handleResumeActivity(ActivityThread.java:2472)
+E/ActivityThread( 4715):        at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1173)
+E/ActivityThread( 4715):        at android.os.Handler.dispatchMessage(Handler.java:99)
+E/ActivityThread( 4715):        at android.os.Looper.loop(Looper.java:137)
+E/ActivityThread( 4715):        at android.app.ActivityThread.main(ActivityThread.java:4424)
+E/ActivityThread( 4715):        at java.lang.reflect.Method.invokeNative(Native Method)
+E/ActivityThread( 4715):        at java.lang.reflect.Method.invoke(Method.java:511)
+E/ActivityThread( 4715):        at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:848)
+E/ActivityThread( 4715):        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:575)
+E/ActivityThread( 4715):        at dalvik.system.NativeStart.main(Native Method)
+W/ActivityManager( 1114): Unbind failed: could not find connection for android.os.BinderProxy@4152cf08
+E/ActivityThread( 4715): Activity com.coship.dvbplayer.main has leaked ServiceConnection com.aidufei.otoService.ServiceAdapter$1@43586f20 that was originally bound here
+E/ActivityThread( 4715): android.app.ServiceConnectionLeaked: Activity com.coship.dvbplayer.main has leaked ServiceConnection com.aidufei.otoService.ServiceAdapter$1@43586f20 that was originally bound here
+E/ActivityThread( 4715):        at android.app.LoadedApk$ServiceDispatcher.<init>(LoadedApk.java:936)
+E/ActivityThread( 4715):        at android.app.LoadedApk.getServiceDispatcher(LoadedApk.java:830)
+E/ActivityThread( 4715):        at android.app.ContextImpl.bindService(ContextImpl.java:1142)
+E/ActivityThread( 4715):        at android.content.ContextWrapper.bindService(ContextWrapper.java:370)
+E/ActivityThread( 4715):        at com.aidufei.otoService.ServiceAdapter.<init>(ServiceAdapter.java:52)
+E/ActivityThread( 4715):        at com.coship.dvbplayer.main.init(main.java:465)
+E/ActivityThread( 4715):        at com.coship.dvbplayer.main.onResume(main.java:435)
+E/ActivityThread( 4715):        at android.app.Instrumentation.callActivityOnResume(Instrumentation.java:1154)
+E/ActivityThread( 4715):        at android.app.Activity.performResume(Activity.java:4539)
+E/ActivityThread( 4715):        at android.app.ActivityThread.performResumeActivity(ActivityThread.java:2434)
+E/ActivityThread( 4715):        at android.app.ActivityThread.handleResumeActivity(ActivityThread.java:2472)
+E/ActivityThread( 4715):        at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1173)
+E/ActivityThread( 4715):        at android.os.Handler.dispatchMessage(Handler.java:99)
+E/ActivityThread( 4715):        at android.os.Looper.loop(Looper.java:137)
+E/ActivityThread( 4715):        at android.app.ActivityThread.main(ActivityThread.java:4424)
+E/ActivityThread( 4715):        at java.lang.reflect.Method.invokeNative(Native Method)
+E/ActivityThread( 4715):        at java.lang.reflect.Method.invoke(Method.java:511)
+E/ActivityThread( 4715):        at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:848)
+E/ActivityThread( 4715):        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:575)
+E/ActivityThread( 4715):        at dalvik.system.NativeStart.main(Native Method)
+W/ActivityManager( 1114): Unbind failed: could not find connection for android.os.BinderProxy@4158fb50
+E/ActivityThread( 4715): Activity com.coship.dvbplayer.main has leaked ServiceConnection com.aidufei.otoService.ServiceAdapter$1@4375cca0 that was originally bound here
+E/ActivityThread( 4715): android.app.ServiceConnectionLeaked: Activity com.coship.dvbplayer.main has leaked ServiceConnection com.aidufei.otoService.ServiceAdapter$1@4375cca0 that was originally bound here
+E/ActivityThread( 4715):        at android.app.LoadedApk$ServiceDispatcher.<init>(LoadedApk.java:936)
+E/ActivityThread( 4715):        at android.app.LoadedApk.getServiceDispatcher(LoadedApk.java:830)
+E/ActivityThread( 4715):        at android.app.ContextImpl.bindService(ContextImpl.java:1142)
+E/ActivityThread( 4715):        at android.content.ContextWrapper.bindService(ContextWrapper.java:370)
+E/ActivityThread( 4715):        at com.aidufei.otoService.ServiceAdapter.<init>(ServiceAdapter.java:52)
+E/ActivityThread( 4715):        at com.coship.dvbplayer.main.init(main.java:465)
+E/ActivityThread( 4715):        at com.coship.dvbplayer.main.onResume(main.java:435)
+E/ActivityThread( 4715):        at android.app.Instrumentation.callActivityOnResume(Instrumentation.java:1154)
+E/ActivityThread( 4715):        at android.app.Activity.performResume(Activity.java:4539)
+E/ActivityThread( 4715):        at android.app.ActivityThread.performResumeActivity(ActivityThread.java:2434)
+E/ActivityThread( 4715):        at android.app.ActivityThread.handleResumeActivity(ActivityThread.java:2472)
+E/ActivityThread( 4715):        at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1173)
+E/ActivityThread( 4715):        at android.os.Handler.dispatchMessage(Handler.java:99)
+E/ActivityThread( 4715):        at android.os.Looper.loop(Looper.java:137)
+E/ActivityThread( 4715):        at android.app.ActivityThread.main(ActivityThread.java:4424)
+E/ActivityThread( 4715):        at java.lang.reflect.Method.invokeNative(Native Method)
+E/ActivityThread( 4715):        at java.lang.reflect.Method.invoke(Method.java:511)
+E/ActivityThread( 4715):        at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:848)
+E/ActivityThread( 4715):        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:575)
+E/ActivityThread( 4715):        at dalvik.system.NativeStart.main(Native Method)
+W/ActivityManager( 1114): Unbind failed: could not find connection for android.os.BinderProxy@415281d0
+E/ActivityThread( 4715): Activity com.coship.dvbplayer.main has leaked ServiceConnection com.aidufei.otoService.ServiceAdapter$1@42e043a8 that was originally bound here
+E/ActivityThread( 4715): android.app.ServiceConnectionLeaked: Activity com.coship.dvbplayer.main has leaked ServiceConnection com.aidufei.otoService.ServiceAdapter$1@42e043a8 that was originally bound here
+E/ActivityThread( 4715):        at android.app.LoadedApk$ServiceDispatcher.<init>(LoadedApk.java:936)
+E/ActivityThread( 4715):        at android.app.LoadedApk.getServiceDispatcher(LoadedApk.java:830)
+E/ActivityThread( 4715):        at android.app.ContextImpl.bindService(ContextImpl.java:1142)
+E/ActivityThread( 4715):        at android.content.ContextWrapper.bindService(ContextWrapper.java:370)
+E/ActivityThread( 4715):        at com.aidufei.otoService.ServiceAdapter.<init>(ServiceAdapter.java:52)
+E/ActivityThread( 4715):        at com.coship.dvbplayer.main.init(main.java:465)
+E/ActivityThread( 4715):        at com.coship.dvbplayer.main.onResume(main.java:435)
+E/ActivityThread( 4715):        at android.app.Instrumentation.callActivityOnResume(Instrumentation.java:1154)
+E/ActivityThread( 4715):        at android.app.Activity.performResume(Activity.java:4539)
+E/ActivityThread( 4715):        at android.app.ActivityThread.performResumeActivity(ActivityThread.java:2434)
+E/ActivityThread( 4715):        at android.app.ActivityThread.handleResumeActivity(ActivityThread.java:2472)
+E/ActivityThread( 4715):        at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1173)
+E/ActivityThread( 4715):        at android.os.Handler.dispatchMessage(Handler.java:99)
+E/ActivityThread( 4715):        at android.os.Looper.loop(Looper.java:137)
+E/ActivityThread( 4715):        at android.app.ActivityThread.main(ActivityThread.java:4424)
+E/ActivityThread( 4715):        at java.lang.reflect.Method.invokeNative(Native Method)
+E/ActivityThread( 4715):        at java.lang.reflect.Method.invoke(Method.java:511)
+E/ActivityThread( 4715):        at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:848)
+E/ActivityThread( 4715):        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:575)
+E/ActivityThread( 4715):        at dalvik.system.NativeStart.main(Native Method)
+W/ActivityManager( 1114): Unbind failed: could not find connection for android.os.BinderProxy@4153f4a8
+E/ActivityThread( 4715): Activity com.coship.dvbplayer.main has leaked ServiceConnection com.aidufei.otoService.ServiceAdapter$1@42e709e8 that was originally bound here
+E/ActivityThread( 4715): android.app.ServiceConnectionLeaked: Activity com.coship.dvbplayer.main has leaked ServiceConnection com.aidufei.otoService.ServiceAdapter$1@42e709e8 that was originally bound here
+E/ActivityThread( 4715):        at android.app.LoadedApk$ServiceDispatcher.<init>(LoadedApk.java:936)
+E/ActivityThread( 4715):        at android.app.LoadedApk.getServiceDispatcher(LoadedApk.java:830)
+E/ActivityThread( 4715):        at android.app.ContextImpl.bindService(ContextImpl.java:1142)
+E/ActivityThread( 4715):        at android.content.ContextWrapper.bindService(ContextWrapper.java:370)
+E/ActivityThread( 4715):        at com.aidufei.otoService.ServiceAdapter.<init>(ServiceAdapter.java:52)
+E/ActivityThread( 4715):        at com.coship.dvbplayer.main.init(main.java:465)
+E/ActivityThread( 4715):        at com.coship.dvbplayer.main.onResume(main.java:435)
+E/ActivityThread( 4715):        at android.app.Instrumentation.callActivityOnResume(Instrumentation.java:1154)
+E/ActivityThread( 4715):        at android.app.Activity.performResume(Activity.java:4539)
+E/ActivityThread( 4715):        at android.app.ActivityThread.performResumeActivity(ActivityThread.java:2434)
+E/ActivityThread( 4715):        at android.app.ActivityThread.handleResumeActivity(ActivityThread.java:2472)
+E/ActivityThread( 4715):        at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1173)
+E/ActivityThread( 4715):        at android.os.Handler.dispatchMessage(Handler.java:99)
+E/ActivityThread( 4715):        at android.os.Looper.loop(Looper.java:137)
+E/ActivityThread( 4715):        at android.app.ActivityThread.main(ActivityThread.java:4424)
+E/ActivityThread( 4715):        at java.lang.reflect.Method.invokeNative(Native Method)
+E/ActivityThread( 4715):        at java.lang.reflect.Method.invoke(Method.java:511)
+E/ActivityThread( 4715):        at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:848)
+E/ActivityThread( 4715):        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:575)
+E/ActivityThread( 4715):        at dalvik.system.NativeStart.main(Native Method)
+W/ActivityManager( 1114): Unbind failed: could not find connection for android.os.BinderProxy@4152a880
+E/ActivityThread( 4715): Activity com.coship.dvbplayer.main has leaked ServiceConnection com.aidufei.otoService.ServiceAdapter$1@415cca00 that was originally bound here
+E/ActivityThread( 4715): android.app.ServiceConnectionLeaked: Activity com.coship.dvbplayer.main has leaked ServiceConnection com.aidufei.otoService.ServiceAdapter$1@415cca00 that was originally bound here
+E/ActivityThread( 4715):        at android.app.LoadedApk$ServiceDispatcher.<init>(LoadedApk.java:936)
+E/ActivityThread( 4715):        at android.app.LoadedApk.getServiceDispatcher(LoadedApk.java:830)
+E/ActivityThread( 4715):        at android.app.ContextImpl.bindService(ContextImpl.java:1142)
+E/ActivityThread( 4715):        at android.content.ContextWrapper.bindService(ContextWrapper.java:370)
+E/ActivityThread( 4715):        at com.aidufei.otoService.ServiceAdapter.<init>(ServiceAdapter.java:52)
+E/ActivityThread( 4715):        at com.coship.dvbplayer.main.init(main.java:465)
+E/ActivityThread( 4715):        at com.coship.dvbplayer.main.onResume(main.java:435)
+E/ActivityThread( 4715):        at android.app.Instrumentation.callActivityOnResume(Instrumentation.java:1154)
+E/ActivityThread( 4715):        at android.app.Activity.performResume(Activity.java:4539)
+E/ActivityThread( 4715):        at android.app.ActivityThread.performResumeActivity(ActivityThread.java:2434)
+E/ActivityThread( 4715):        at android.app.ActivityThread.handleResumeActivity(ActivityThread.java:2472)
+E/ActivityThread( 4715):        at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1173)
+E/ActivityThread( 4715):        at android.os.Handler.dispatchMessage(Handler.java:99)
+E/ActivityThread( 4715):        at android.os.Looper.loop(Looper.java:137)
+E/ActivityThread( 4715):        at android.app.ActivityThread.main(ActivityThread.java:4424)
+E/ActivityThread( 4715):        at java.lang.reflect.Method.invokeNative(Native Method)
+E/ActivityThread( 4715):        at java.lang.reflect.Method.invoke(Method.java:511)
+E/ActivityThread( 4715):        at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:848)
+E/ActivityThread( 4715):        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:575)
+E/ActivityThread( 4715):        at dalvik.system.NativeStart.main(Native Method)
+W/ActivityManager( 1114): Unbind failed: could not find connection for android.os.BinderProxy@414de1a8
+E/ActivityThread( 4715): Activity com.coship.dvbplayer.main has leaked ServiceConnection com.aidufei.otoService.ServiceAdapter$1@42fb8d60 that was originally bound here
+E/ActivityThread( 4715): android.app.ServiceConnectionLeaked: Activity com.coship.dvbplayer.main has leaked ServiceConnection com.aidufei.otoService.ServiceAdapter$1@42fb8d60 that was originally bound here
+E/ActivityThread( 4715):        at android.app.LoadedApk$ServiceDispatcher.<init>(LoadedApk.java:936)
+E/ActivityThread( 4715):        at android.app.LoadedApk.getServiceDispatcher(LoadedApk.java:830)
+E/ActivityThread( 4715):        at android.app.ContextImpl.bindService(ContextImpl.java:1142)
+E/ActivityThread( 4715):        at android.content.ContextWrapper.bindService(ContextWrapper.java:370)
+E/ActivityThread( 4715):        at com.aidufei.otoService.ServiceAdapter.<init>(ServiceAdapter.java:52)
+E/ActivityThread( 4715):        at com.coship.dvbplayer.main.init(main.java:465)
+E/ActivityThread( 4715):        at com.coship.dvbplayer.main.onResume(main.java:435)
+E/ActivityThread( 4715):        at android.app.Instrumentation.callActivityOnResume(Instrumentation.java:1154)
+E/ActivityThread( 4715):        at android.app.Activity.performResume(Activity.java:4539)
+E/ActivityThread( 4715):        at android.app.ActivityThread.performResumeActivity(ActivityThread.java:2434)
+E/ActivityThread( 4715):        at android.app.ActivityThread.handleResumeActivity(ActivityThread.java:2472)
+E/ActivityThread( 4715):        at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1173)
+E/ActivityThread( 4715):        at android.os.Handler.dispatchMessage(Handler.java:99)
+E/ActivityThread( 4715):        at android.os.Looper.loop(Looper.java:137)
+E/ActivityThread( 4715):        at android.app.ActivityThread.main(ActivityThread.java:4424)
+E/ActivityThread( 4715):        at java.lang.reflect.Method.invokeNative(Native Method)
+E/ActivityThread( 4715):        at java.lang.reflect.Method.invoke(Method.java:511)
+E/ActivityThread( 4715):        at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:848)
+E/ActivityThread( 4715):        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:575)
+E/ActivityThread( 4715):        at dalvik.system.NativeStart.main(Native Method)
+W/ActivityManager( 1114): Unbind failed: could not find connection for android.os.BinderProxy@414d0000
+E/ActivityThread( 4715): Activity com.coship.dvbplayer.main has leaked ServiceConnection com.aidufei.otoService.ServiceAdapter$1@42a36b10 that was originally bound here
+E/ActivityThread( 4715): android.app.ServiceConnectionLeaked: Activity com.coship.dvbplayer.main has leaked ServiceConnection com.aidufei.otoService.ServiceAdapter$1@42a36b10 that was originally bound here
+E/ActivityThread( 4715):        at android.app.LoadedApk$ServiceDispatcher.<init>(LoadedApk.java:936)
+E/ActivityThread( 4715):        at android.app.LoadedApk.getServiceDispatcher(LoadedApk.java:830)
+E/ActivityThread( 4715):        at android.app.ContextImpl.bindService(ContextImpl.java:1142)
+E/ActivityThread( 4715):        at android.content.ContextWrapper.bindService(ContextWrapper.java:370)
+E/ActivityThread( 4715):        at com.aidufei.otoService.ServiceAdapter.<init>(ServiceAdapter.java:52)
+E/ActivityThread( 4715):        at com.coship.dvbplayer.main.init(main.java:465)
+E/ActivityThread( 4715):        at com.coship.dvbplayer.main.onResume(main.java:435)
+E/ActivityThread( 4715):        at android.app.Instrumentation.callActivityOnResume(Instrumentation.java:1154)
+E/ActivityThread( 4715):        at android.app.Activity.performResume(Activity.java:4539)
+E/ActivityThread( 4715):        at android.app.ActivityThread.performResumeActivity(ActivityThread.java:2434)
+E/ActivityThread( 4715):        at android.app.ActivityThread.handleResumeActivity(ActivityThread.java:2472)
+E/ActivityThread( 4715):        at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1173)
+E/ActivityThread( 4715):        at android.os.Handler.dispatchMessage(Handler.java:99)
+E/ActivityThread( 4715):        at android.os.Looper.loop(Looper.java:137)
+E/ActivityThread( 4715):        at android.app.ActivityThread.main(ActivityThread.java:4424)
+E/ActivityThread( 4715):        at java.lang.reflect.Method.invokeNative(Native Method)
+E/ActivityThread( 4715):        at java.lang.reflect.Method.invoke(Method.java:511)
+E/ActivityThread( 4715):        at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:848)
+E/ActivityThread( 4715):        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:575)
+E/ActivityThread( 4715):        at dalvik.system.NativeStart.main(Native Method)
+W/ActivityManager( 1114): Unbind failed: could not find connection for android.os.BinderProxy@414a03c8
+E/ActivityThread( 4715): Activity com.coship.dvbplayer.main has leaked ServiceConnection com.aidufei.otoService.ServiceAdapter$1@4182e588 that was originally bound here
+E/ActivityThread( 4715): android.app.ServiceConnectionLeaked: Activity com.coship.dvbplayer.main has leaked ServiceConnection com.aidufei.otoService.ServiceAdapter$1@4182e588 that was originally bound here
+E/ActivityThread( 4715):        at android.app.LoadedApk$ServiceDispatcher.<init>(LoadedApk.java:936)
+E/ActivityThread( 4715):        at android.app.LoadedApk.getServiceDispatcher(LoadedApk.java:830)
+E/ActivityThread( 4715):        at android.app.ContextImpl.bindService(ContextImpl.java:1142)
+E/ActivityThread( 4715):        at android.content.ContextWrapper.bindService(ContextWrapper.java:370)
+E/ActivityThread( 4715):        at com.aidufei.otoService.ServiceAdapter.<init>(ServiceAdapter.java:52)
+E/ActivityThread( 4715):        at com.coship.dvbplayer.main.init(main.java:465)
+E/ActivityThread( 4715):        at com.coship.dvbplayer.main.onResume(main.java:435)
+E/ActivityThread( 4715):        at android.app.Instrumentation.callActivityOnResume(Instrumentation.java:1154)
+E/ActivityThread( 4715):        at android.app.Activity.performResume(Activity.java:4539)
+E/ActivityThread( 4715):        at android.app.ActivityThread.performResumeActivity(ActivityThread.java:2434)
+E/ActivityThread( 4715):        at android.app.ActivityThread.handleResumeActivity(ActivityThread.java:2472)
+E/ActivityThread( 4715):        at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1173)
+E/ActivityThread( 4715):        at android.os.Handler.dispatchMessage(Handler.java:99)
+E/ActivityThread( 4715):        at android.os.Looper.loop(Looper.java:137)
+E/ActivityThread( 4715):        at android.app.ActivityThread.main(ActivityThread.java:4424)
+E/ActivityThread( 4715):        at java.lang.reflect.Method.invokeNative(Native Method)
+E/ActivityThread( 4715):        at java.lang.reflect.Method.invoke(Method.java:511)
+E/ActivityThread( 4715):        at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:848)
+E/ActivityThread( 4715):        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:575)
+E/ActivityThread( 4715):        at dalvik.system.NativeStart.main(Native Method)
+W/ActivityManager( 1114): Unbind failed: could not find connection for android.os.BinderProxy@414918b8
+E/ActivityThread( 4715): Activity com.coship.dvbplayer.main has leaked ServiceConnection com.aidufei.otoService.ServiceAdapter$1@43585820 that was originally bound here
+E/ActivityThread( 4715): android.app.ServiceConnectionLeaked: Activity com.coship.dvbplayer.main has leaked ServiceConnection com.aidufei.otoService.ServiceAdapter$1@43585820 that was originally bound here
+E/ActivityThread( 4715):        at android.app.LoadedApk$ServiceDispatcher.<init>(LoadedApk.java:936)
+E/ActivityThread( 4715):        at android.app.LoadedApk.getServiceDispatcher(LoadedApk.java:830)
+E/ActivityThread( 4715):        at android.app.ContextImpl.bindService(ContextImpl.java:1142)
+E/ActivityThread( 4715):        at android.content.ContextWrapper.bindService(ContextWrapper.java:370)
+E/ActivityThread( 4715):        at com.aidufei.otoService.ServiceAdapter.<init>(ServiceAdapter.java:52)
+E/ActivityThread( 4715):        at com.coship.dvbplayer.main.init(main.java:465)
+E/ActivityThread( 4715):        at com.coship.dvbplayer.main.onResume(main.java:435)
+E/ActivityThread( 4715):        at android.app.Instrumentation.callActivityOnResume(Instrumentation.java:1154)
+E/ActivityThread( 4715):        at android.app.Activity.performResume(Activity.java:4539)
+E/ActivityThread( 4715):        at android.app.ActivityThread.performResumeActivity(ActivityThread.java:2434)
+E/ActivityThread( 4715):        at android.app.ActivityThread.handleResumeActivity(ActivityThread.java:2472)
+E/ActivityThread( 4715):        at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1173)
+E/ActivityThread( 4715):        at android.os.Handler.dispatchMessage(Handler.java:99)
+E/ActivityThread( 4715):        at android.os.Looper.loop(Looper.java:137)
+E/ActivityThread( 4715):        at android.app.ActivityThread.main(ActivityThread.java:4424)
+E/ActivityThread( 4715):        at java.lang.reflect.Method.invokeNative(Native Method)
+E/ActivityThread( 4715):        at java.lang.reflect.Method.invoke(Method.java:511)
+E/ActivityThread( 4715):        at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:848)
+E/ActivityThread( 4715):        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:575)
+E/ActivityThread( 4715):        at dalvik.system.NativeStart.main(Native Method)
+W/ActivityManager( 1114): Unbind failed: could not find connection for android.os.BinderProxy@4147f948
+E/ActivityThread( 4715): Activity com.coship.dvbplayer.main has leaked ServiceConnection com.aidufei.otoService.ServiceAdapter$1@42e46d48 that was originally bound here
+E/ActivityThread( 4715): android.app.ServiceConnectionLeaked: Activity com.coship.dvbplayer.main has leaked ServiceConnection com.aidufei.otoService.ServiceAdapter$1@42e46d48 that was originally bound here
+E/ActivityThread( 4715):        at android.app.LoadedApk$ServiceDispatcher.<init>(LoadedApk.java:936)
+E/ActivityThread( 4715):        at android.app.LoadedApk.getServiceDispatcher(LoadedApk.java:830)
+E/ActivityThread( 4715):        at android.app.ContextImpl.bindService(ContextImpl.java:1142)
+E/ActivityThread( 4715):        at android.content.ContextWrapper.bindService(ContextWrapper.java:370)
+E/ActivityThread( 4715):        at com.aidufei.otoService.ServiceAdapter.<init>(ServiceAdapter.java:52)
+E/ActivityThread( 4715):        at com.coship.dvbplayer.main.init(main.java:465)
+E/ActivityThread( 4715):        at com.coship.dvbplayer.main.onResume(main.java:435)
+E/ActivityThread( 4715):        at android.app.Instrumentation.callActivityOnResume(Instrumentation.java:1154)
+E/ActivityThread( 4715):        at android.app.Activity.performResume(Activity.java:4539)
+E/ActivityThread( 4715):        at android.app.ActivityThread.performResumeActivity(ActivityThread.java:2434)
+E/ActivityThread( 4715):        at android.app.ActivityThread.handleResumeActivity(ActivityThread.java:2472)
+E/ActivityThread( 4715):        at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1173)
+E/ActivityThread( 4715):        at android.os.Handler.dispatchMessage(Handler.java:99)
+E/ActivityThread( 4715):        at android.os.Looper.loop(Looper.java:137)
+E/ActivityThread( 4715):        at android.app.ActivityThread.main(ActivityThread.java:4424)
+E/ActivityThread( 4715):        at java.lang.reflect.Method.invokeNative(Native Method)
+E/ActivityThread( 4715):        at java.lang.reflect.Method.invoke(Method.java:511)
+E/ActivityThread( 4715):        at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:848)
+E/ActivityThread( 4715):        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:575)
+E/ActivityThread( 4715):        at dalvik.system.NativeStart.main(Native Method)
+W/ActivityManager( 1114): Unbind failed: could not find connection for android.os.BinderProxy@4188ea00
+E/ActivityThread( 4715): Activity com.coship.dvbplayer.main has leaked ServiceConnection com.aidufei.otoService.ServiceAdapter$1@42fa4650 that was originally bound here
+E/ActivityThread( 4715): android.app.ServiceConnectionLeaked: Activity com.coship.dvbplayer.main has leaked ServiceConnection com.aidufei.otoService.ServiceAdapter$1@42fa4650 that was originally bound here
+E/ActivityThread( 4715):        at android.app.LoadedApk$ServiceDispatcher.<init>(LoadedApk.java:936)
+E/ActivityThread( 4715):        at android.app.LoadedApk.getServiceDispatcher(LoadedApk.java:830)
+E/ActivityThread( 4715):        at android.app.ContextImpl.bindService(ContextImpl.java:1142)
+E/ActivityThread( 4715):        at android.content.ContextWrapper.bindService(ContextWrapper.java:370)
+E/ActivityThread( 4715):        at com.aidufei.otoService.ServiceAdapter.<init>(ServiceAdapter.java:52)
+E/ActivityThread( 4715):        at com.coship.dvbplayer.main.init(main.java:465)
+E/ActivityThread( 4715):        at com.coship.dvbplayer.main.onResume(main.java:435)
+E/ActivityThread( 4715):        at android.app.Instrumentation.callActivityOnResume(Instrumentation.java:1154)
+E/ActivityThread( 4715):        at android.app.Activity.performResume(Activity.java:4539)
+E/ActivityThread( 4715):        at android.app.ActivityThread.performResumeActivity(ActivityThread.java:2434)
+E/ActivityThread( 4715):        at android.app.ActivityThread.handleResumeActivity(ActivityThread.java:2472)
+E/ActivityThread( 4715):        at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1173)
+E/ActivityThread( 4715):        at android.os.Handler.dispatchMessage(Handler.java:99)
+E/ActivityThread( 4715):        at android.os.Looper.loop(Looper.java:137)
+E/ActivityThread( 4715):        at android.app.ActivityThread.main(ActivityThread.java:4424)
+E/ActivityThread( 4715):        at java.lang.reflect.Method.invokeNative(Native Method)
+E/ActivityThread( 4715):        at java.lang.reflect.Method.invoke(Method.java:511)
+E/ActivityThread( 4715):        at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:848)
+E/ActivityThread( 4715):        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:575)
+E/ActivityThread( 4715):        at dalvik.system.NativeStart.main(Native Method)
+W/ActivityManager( 1114): Unbind failed: could not find connection for android.os.BinderProxy@4145c9c0
+E/ActivityThread( 4715): Activity com.coship.dvbplayer.main has leaked ServiceConnection com.aidufei.otoService.ServiceAdapter$1@434bda28 that was originally bound here
+E/ActivityThread( 4715): android.app.ServiceConnectionLeaked: Activity com.coship.dvbplayer.main has leaked ServiceConnection com.aidufei.otoService.ServiceAdapter$1@434bda28 that was originally bound here
+E/ActivityThread( 4715):        at android.app.LoadedApk$ServiceDispatcher.<init>(LoadedApk.java:936)
+E/ActivityThread( 4715):        at android.app.LoadedApk.getServiceDispatcher(LoadedApk.java:830)
+E/ActivityThread( 4715):        at android.app.ContextImpl.bindService(ContextImpl.java:1142)
+E/ActivityThread( 4715):        at android.content.ContextWrapper.bindService(ContextWrapper.java:370)
+E/ActivityThread( 4715):        at com.aidufei.otoService.ServiceAdapter.<init>(ServiceAdapter.java:52)
+E/ActivityThread( 4715):        at com.coship.dvbplayer.main.init(main.java:465)
+E/ActivityThread( 4715):        at com.coship.dvbplayer.main.onResume(main.java:435)
+E/ActivityThread( 4715):        at android.app.Instrumentation.callActivityOnResume(Instrumentation.java:1154)
+E/ActivityThread( 4715):        at android.app.Activity.performResume(Activity.java:4539)
+E/ActivityThread( 4715):        at android.app.ActivityThread.performResumeActivity(ActivityThread.java:2434)
+E/ActivityThread( 4715):        at android.app.ActivityThread.handleResumeActivity(ActivityThread.java:2472)
+E/ActivityThread( 4715):        at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1173)
+E/ActivityThread( 4715):        at android.os.Handler.dispatchMessage(Handler.java:99)
+E/ActivityThread( 4715):        at android.os.Looper.loop(Looper.java:137)
+E/ActivityThread( 4715):        at android.app.ActivityThread.main(ActivityThread.java:4424)
+E/ActivityThread( 4715):        at java.lang.reflect.Method.invokeNative(Native Method)
+E/ActivityThread( 4715):        at java.lang.reflect.Method.invoke(Method.java:511)
+E/ActivityThread( 4715):        at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:848)
+E/ActivityThread( 4715):        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:575)
+E/ActivityThread( 4715):        at dalvik.system.NativeStart.main(Native Method)
+W/ActivityManager( 1114): Unbind failed: could not find connection for android.os.BinderProxy@418193d8
+E/ActivityThread( 4715): Activity com.coship.dvbplayer.main has leaked ServiceConnection com.aidufei.otoService.ServiceAdapter$1@42e03c80 that was originally bound here
+E/ActivityThread( 4715): android.app.ServiceConnectionLeaked: Activity com.coship.dvbplayer.main has leaked ServiceConnection com.aidufei.otoService.ServiceAdapter$1@42e03c80 that was originally bound here
+E/ActivityThread( 4715):        at android.app.LoadedApk$ServiceDispatcher.<init>(LoadedApk.java:936)
+E/ActivityThread( 4715):        at android.app.LoadedApk.getServiceDispatcher(LoadedApk.java:830)
+E/ActivityThread( 4715):        at android.app.ContextImpl.bindService(ContextImpl.java:1142)
+E/ActivityThread( 4715):        at android.content.ContextWrapper.bindService(ContextWrapper.java:370)
+E/ActivityThread( 4715):        at com.aidufei.otoService.ServiceAdapter.<init>(ServiceAdapter.java:52)
+E/ActivityThread( 4715):        at com.coship.dvbplayer.main.init(main.java:465)
+E/ActivityThread( 4715):        at com.coship.dvbplayer.main.onResume(main.java:435)
+E/ActivityThread( 4715):        at android.app.Instrumentation.callActivityOnResume(Instrumentation.java:1154)
+E/ActivityThread( 4715):        at android.app.Activity.performResume(Activity.java:4539)
+E/ActivityThread( 4715):        at android.app.ActivityThread.performResumeActivity(ActivityThread.java:2434)
+E/ActivityThread( 4715):        at android.app.ActivityThread.handleResumeActivity(ActivityThread.java:2472)
+E/ActivityThread( 4715):        at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1173)
+E/ActivityThread( 4715):        at android.os.Handler.dispatchMessage(Handler.java:99)
+E/ActivityThread( 4715):        at android.os.Looper.loop(Looper.java:137)
+E/ActivityThread( 4715):        at android.app.ActivityThread.main(ActivityThread.java:4424)
+E/ActivityThread( 4715):        at java.lang.reflect.Method.invokeNative(Native Method)
+E/ActivityThread( 4715):        at java.lang.reflect.Method.invoke(Method.java:511)
+E/ActivityThread( 4715):        at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:848)
+E/ActivityThread( 4715):        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:575)
+E/ActivityThread( 4715):        at dalvik.system.NativeStart.main(Native Method)
+W/ActivityManager( 1114): Unbind failed: could not find connection for android.os.BinderProxy@417f2af0
+E/ActivityThread( 4715): Activity com.coship.dvbplayer.main has leaked ServiceConnection com.aidufei.otoService.ServiceAdapter$1@436ffe70 that was originally bound here
+E/ActivityThread( 4715): android.app.ServiceConnectionLeaked: Activity com.coship.dvbplayer.main has leaked ServiceConnection com.aidufei.otoService.ServiceAdapter$1@436ffe70 that was originally bound here
+E/ActivityThread( 4715):        at android.app.LoadedApk$ServiceDispatcher.<init>(LoadedApk.java:936)
+E/ActivityThread( 4715):        at android.app.LoadedApk.getServiceDispatcher(LoadedApk.java:830)
+E/ActivityThread( 4715):        at android.app.ContextImpl.bindService(ContextImpl.java:1142)
+E/ActivityThread( 4715):        at android.content.ContextWrapper.bindService(ContextWrapper.java:370)
+E/ActivityThread( 4715):        at com.aidufei.otoService.ServiceAdapter.<init>(ServiceAdapter.java:52)
+E/ActivityThread( 4715):        at com.coship.dvbplayer.main.init(main.java:465)
+E/ActivityThread( 4715):        at com.coship.dvbplayer.main.onResume(main.java:435)
+E/ActivityThread( 4715):        at android.app.Instrumentation.callActivityOnResume(Instrumentation.java:1154)
+E/ActivityThread( 4715):        at android.app.Activity.performResume(Activity.java:4539)
+E/ActivityThread( 4715):        at android.app.ActivityThread.performResumeActivity(ActivityThread.java:2434)
+E/ActivityThread( 4715):        at android.app.ActivityThread.handleResumeActivity(ActivityThread.java:2472)
+E/ActivityThread( 4715):        at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1173)
+E/ActivityThread( 4715):        at android.os.Handler.dispatchMessage(Handler.java:99)
+E/ActivityThread( 4715):        at android.os.Looper.loop(Looper.java:137)
+E/ActivityThread( 4715):        at android.app.ActivityThread.main(ActivityThread.java:4424)
+E/ActivityThread( 4715):        at java.lang.reflect.Method.invokeNative(Native Method)
+E/ActivityThread( 4715):        at java.lang.reflect.Method.invoke(Method.java:511)
+E/ActivityThread( 4715):        at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:848)
+E/ActivityThread( 4715):        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:575)
+E/ActivityThread( 4715):        at dalvik.system.NativeStart.main(Native Method)
+W/ActivityManager( 1114): Unbind failed: could not find connection for android.os.BinderProxy@417db520
+E/ActivityThread( 4715): Activity com.coship.dvbplayer.main has leaked ServiceConnection com.aidufei.otoService.ServiceAdapter$1@417b9f98 that was originally bound here
+E/ActivityThread( 4715): android.app.ServiceConnectionLeaked: Activity com.coship.dvbplayer.main has leaked ServiceConnection com.aidufei.otoService.ServiceAdapter$1@417b9f98 that was originally bound here
+E/ActivityThread( 4715):        at android.app.LoadedApk$ServiceDispatcher.<init>(LoadedApk.java:936)
+E/ActivityThread( 4715):        at android.app.LoadedApk.getServiceDispatcher(LoadedApk.java:830)
+E/ActivityThread( 4715):        at android.app.ContextImpl.bindService(ContextImpl.java:1142)
+E/ActivityThread( 4715):        at android.content.ContextWrapper.bindService(ContextWrapper.java:370)
+E/ActivityThread( 4715):        at com.aidufei.otoService.ServiceAdapter.<init>(ServiceAdapter.java:52)
+E/ActivityThread( 4715):        at com.coship.dvbplayer.main.init(main.java:465)
+E/ActivityThread( 4715):        at com.coship.dvbplayer.main.onResume(main.java:435)
+E/ActivityThread( 4715):        at android.app.Instrumentation.callActivityOnResume(Instrumentation.java:1154)
+E/ActivityThread( 4715):        at android.app.Activity.performResume(Activity.java:4539)
+E/ActivityThread( 4715):        at android.app.ActivityThread.performResumeActivity(ActivityThread.java:2434)
+E/ActivityThread( 4715):        at android.app.ActivityThread.handleResumeActivity(ActivityThread.java:2472)
+E/ActivityThread( 4715):        at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1173)
+E/ActivityThread( 4715):        at android.os.Handler.dispatchMessage(Handler.java:99)
+E/ActivityThread( 4715):        at android.os.Looper.loop(Looper.java:137)
+E/ActivityThread( 4715):        at android.app.ActivityThread.main(ActivityThread.java:4424)
+E/ActivityThread( 4715):        at java.lang.reflect.Method.invokeNative(Native Method)
+E/ActivityThread( 4715):        at java.lang.reflect.Method.invoke(Method.java:511)
+E/ActivityThread( 4715):        at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:848)
+E/ActivityThread( 4715):        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:575)
+E/ActivityThread( 4715):        at dalvik.system.NativeStart.main(Native Method)
+W/ActivityManager( 1114): Unbind failed: could not find connection for android.os.BinderProxy@417687a8
+E/ActivityThread( 4715): Activity com.coship.dvbplayer.main has leaked ServiceConnection com.aidufei.otoService.ServiceAdapter$1@43207df0 that was originally bound here
+E/ActivityThread( 4715): android.app.ServiceConnectionLeaked: Activity com.coship.dvbplayer.main has leaked ServiceConnection com.aidufei.otoService.ServiceAdapter$1@43207df0 that was originally bound here
+E/ActivityThread( 4715):        at android.app.LoadedApk$ServiceDispatcher.<init>(LoadedApk.java:936)
+E/ActivityThread( 4715):        at android.app.LoadedApk.getServiceDispatcher(LoadedApk.java:830)
+E/ActivityThread( 4715):        at android.app.ContextImpl.bindService(ContextImpl.java:1142)
+E/ActivityThread( 4715):        at android.content.ContextWrapper.bindService(ContextWrapper.java:370)
+E/ActivityThread( 4715):        at com.aidufei.otoService.ServiceAdapter.<init>(ServiceAdapter.java:52)
+E/ActivityThread( 4715):        at com.coship.dvbplayer.main.init(main.java:465)
+E/ActivityThread( 4715):        at com.coship.dvbplayer.main.onResume(main.java:435)
+E/ActivityThread( 4715):        at android.app.Instrumentation.callActivityOnResume(Instrumentation.java:1154)
+E/ActivityThread( 4715):        at android.app.Activity.performResume(Activity.java:4539)
+E/ActivityThread( 4715):        at android.app.ActivityThread.performResumeActivity(ActivityThread.java:2434)
+E/ActivityThread( 4715):        at android.app.ActivityThread.handleResumeActivity(ActivityThread.java:2472)
+E/ActivityThread( 4715):        at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1173)
+E/ActivityThread( 4715):        at android.os.Handler.dispatchMessage(Handler.java:99)
+E/ActivityThread( 4715):        at android.os.Looper.loop(Looper.java:137)
+E/ActivityThread( 4715):        at android.app.ActivityThread.main(ActivityThread.java:4424)
+E/ActivityThread( 4715):        at java.lang.reflect.Method.invokeNative(Native Method)
+E/ActivityThread( 4715):        at java.lang.reflect.Method.invoke(Method.java:511)
+E/ActivityThread( 4715):        at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:848)
+E/ActivityThread( 4715):        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:575)
+E/ActivityThread( 4715):        at dalvik.system.NativeStart.main(Native Method)
+W/ActivityManager( 1114): Unbind failed: could not find connection for android.os.BinderProxy@41756ee8
+E/ActivityThread( 4715): Activity com.coship.dvbplayer.main has leaked ServiceConnection com.aidufei.otoService.ServiceAdapter$1@434ba9d8 that was originally bound here
+E/ActivityThread( 4715): android.app.ServiceConnectionLeaked: Activity com.coship.dvbplayer.main has leaked ServiceConnection com.aidufei.otoService.ServiceAdapter$1@434ba9d8 that was originally bound here
+E/ActivityThread( 4715):        at android.app.LoadedApk$ServiceDispatcher.<init>(LoadedApk.java:936)
+E/ActivityThread( 4715):        at android.app.LoadedApk.getServiceDispatcher(LoadedApk.java:830)
+E/ActivityThread( 4715):        at android.app.ContextImpl.bindService(ContextImpl.java:1142)
+E/ActivityThread( 4715):        at android.content.ContextWrapper.bindService(ContextWrapper.java:370)
+E/ActivityThread( 4715):        at com.aidufei.otoService.ServiceAdapter.<init>(ServiceAdapter.java:52)
+E/ActivityThread( 4715):        at com.coship.dvbplayer.main.init(main.java:465)
+E/ActivityThread( 4715):        at com.coship.dvbplayer.main.onResume(main.java:435)
+E/ActivityThread( 4715):        at android.app.Instrumentation.callActivityOnResume(Instrumentation.java:1154)
+E/ActivityThread( 4715):        at android.app.Activity.performResume(Activity.java:4539)
+E/ActivityThread( 4715):        at android.app.ActivityThread.performResumeActivity(ActivityThread.java:2434)
+E/ActivityThread( 4715):        at android.app.ActivityThread.handleResumeActivity(ActivityThread.java:2472)
+E/ActivityThread( 4715):        at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1173)
+E/ActivityThread( 4715):        at android.os.Handler.dispatchMessage(Handler.java:99)
+E/ActivityThread( 4715):        at android.os.Looper.loop(Looper.java:137)
+E/ActivityThread( 4715):        at android.app.ActivityThread.main(ActivityThread.java:4424)
+E/ActivityThread( 4715):        at java.lang.reflect.Method.invokeNative(Native Method)
+E/ActivityThread( 4715):        at java.lang.reflect.Method.invoke(Method.java:511)
+E/ActivityThread( 4715):        at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:848)
+E/ActivityThread( 4715):        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:575)
+E/ActivityThread( 4715):        at dalvik.system.NativeStart.main(Native Method)
+W/ActivityManager( 1114): Unbind failed: could not find connection for android.os.BinderProxy@4174ec70
+E/ActivityThread( 4715): Activity com.coship.dvbplayer.main has leaked ServiceConnection com.aidufei.otoService.ServiceAdapter$1@434f4e20 that was originally bound here
+E/ActivityThread( 4715): android.app.ServiceConnectionLeaked: Activity com.coship.dvbplayer.main has leaked ServiceConnection com.aidufei.otoService.ServiceAdapter$1@434f4e20 that was originally bound here
+E/ActivityThread( 4715):        at android.app.LoadedApk$ServiceDispatcher.<init>(LoadedApk.java:936)
+E/ActivityThread( 4715):        at android.app.LoadedApk.getServiceDispatcher(LoadedApk.java:830)
+E/ActivityThread( 4715):        at android.app.ContextImpl.bindService(ContextImpl.java:1142)
+E/ActivityThread( 4715):        at android.content.ContextWrapper.bindService(ContextWrapper.java:370)
+E/ActivityThread( 4715):        at com.aidufei.otoService.ServiceAdapter.<init>(ServiceAdapter.java:52)
+E/ActivityThread( 4715):        at com.coship.dvbplayer.main.init(main.java:465)
+E/ActivityThread( 4715):        at com.coship.dvbplayer.main.onResume(main.java:435)
+E/ActivityThread( 4715):        at android.app.Instrumentation.callActivityOnResume(Instrumentation.java:1154)
+E/ActivityThread( 4715):        at android.app.Activity.performResume(Activity.java:4539)
+E/ActivityThread( 4715):        at android.app.ActivityThread.performResumeActivity(ActivityThread.java:2434)
+E/ActivityThread( 4715):        at android.app.ActivityThread.handleResumeActivity(ActivityThread.java:2472)
+E/ActivityThread( 4715):        at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1173)
+E/ActivityThread( 4715):        at android.os.Handler.dispatchMessage(Handler.java:99)
+E/ActivityThread( 4715):        at android.os.Looper.loop(Looper.java:137)
+E/ActivityThread( 4715):        at android.app.ActivityThread.main(ActivityThread.java:4424)
+E/ActivityThread( 4715):        at java.lang.reflect.Method.invokeNative(Native Method)
+E/ActivityThread( 4715):        at java.lang.reflect.Method.invoke(Method.java:511)
+E/ActivityThread( 4715):        at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:848)
+E/ActivityThread( 4715):        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:575)
+E/ActivityThread( 4715):        at dalvik.system.NativeStart.main(Native Method)
+W/ActivityManager( 1114): Unbind failed: could not find connection for android.os.BinderProxy@416d5d18
+E/ActivityThread( 4715): Activity com.coship.dvbplayer.main has leaked ServiceConnection com.aidufei.otoService.ServiceAdapter$1@42f98d60 that was originally bound here
+E/ActivityThread( 4715): android.app.ServiceConnectionLeaked: Activity com.coship.dvbplayer.main has leaked ServiceConnection com.aidufei.otoService.ServiceAdapter$1@42f98d60 that was originally bound here
+E/ActivityThread( 4715):        at android.app.LoadedApk$ServiceDispatcher.<init>(LoadedApk.java:936)
+E/ActivityThread( 4715):        at android.app.LoadedApk.getServiceDispatcher(LoadedApk.java:830)
+E/ActivityThread( 4715):        at android.app.ContextImpl.bindService(ContextImpl.java:1142)
+E/ActivityThread( 4715):        at android.content.ContextWrapper.bindService(ContextWrapper.java:370)
+E/ActivityThread( 4715):        at com.aidufei.otoService.ServiceAdapter.<init>(ServiceAdapter.java:52)
+E/ActivityThread( 4715):        at com.coship.dvbplayer.main.init(main.java:465)
+E/ActivityThread( 4715):        at com.coship.dvbplayer.main.onResume(main.java:435)
+E/ActivityThread( 4715):        at android.app.Instrumentation.callActivityOnResume(Instrumentation.java:1154)
+E/ActivityThread( 4715):        at android.app.Activity.performResume(Activity.java:4539)
+E/ActivityThread( 4715):        at android.app.ActivityThread.performResumeActivity(ActivityThread.java:2434)
+E/ActivityThread( 4715):        at android.app.ActivityThread.handleResumeActivity(ActivityThread.java:2472)
+E/ActivityThread( 4715):        at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1173)
+E/ActivityThread( 4715):        at android.os.Handler.dispatchMessage(Handler.java:99)
+E/ActivityThread( 4715):        at android.os.Looper.loop(Looper.java:137)
+E/ActivityThread( 4715):        at android.app.ActivityThread.main(ActivityThread.java:4424)
+E/ActivityThread( 4715):        at java.lang.reflect.Method.invokeNative(Native Method)
+E/ActivityThread( 4715):        at java.lang.reflect.Method.invoke(Method.java:511)
+E/ActivityThread( 4715):        at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:848)
+E/ActivityThread( 4715):        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:575)
+E/ActivityThread( 4715):        at dalvik.system.NativeStart.main(Native Method)
+W/ActivityManager( 1114): Unbind failed: could not find connection for android.os.BinderProxy@417c57e0
+E/ActivityThread( 4715): Activity com.coship.dvbplayer.main has leaked ServiceConnection com.aidufei.otoService.ServiceAdapter$1@4349fc00 that was originally bound here
+E/ActivityThread( 4715): android.app.ServiceConnectionLeaked: Activity com.coship.dvbplayer.main has leaked ServiceConnection com.aidufei.otoService.ServiceAdapter$1@4349fc00 that was originally bound here
+E/ActivityThread( 4715):        at android.app.LoadedApk$ServiceDispatcher.<init>(LoadedApk.java:936)
+E/ActivityThread( 4715):        at android.app.LoadedApk.getServiceDispatcher(LoadedApk.java:830)
+E/ActivityThread( 4715):        at android.app.ContextImpl.bindService(ContextImpl.java:1142)
+E/ActivityThread( 4715):        at android.content.ContextWrapper.bindService(ContextWrapper.java:370)
+E/ActivityThread( 4715):        at com.aidufei.otoService.ServiceAdapter.<init>(ServiceAdapter.java:52)
+E/ActivityThread( 4715):        at com.coship.dvbplayer.main.init(main.java:465)
+E/ActivityThread( 4715):        at com.coship.dvbplayer.main.onResume(main.java:435)
+E/ActivityThread( 4715):        at android.app.Instrumentation.callActivityOnResume(Instrumentation.java:1154)
+E/ActivityThread( 4715):        at android.app.Activity.performResume(Activity.java:4539)
+E/ActivityThread( 4715):        at android.app.ActivityThread.performResumeActivity(ActivityThread.java:2434)
+E/ActivityThread( 4715):        at android.app.ActivityThread.handleResumeActivity(ActivityThread.java:2472)
+E/ActivityThread( 4715):        at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1173)
+E/ActivityThread( 4715):        at android.os.Handler.dispatchMessage(Handler.java:99)
+E/ActivityThread( 4715):        at android.os.Looper.loop(Looper.java:137)
+E/ActivityThread( 4715):        at android.app.ActivityThread.main(ActivityThread.java:4424)
+E/ActivityThread( 4715):        at java.lang.reflect.Method.invokeNative(Native Method)
+E/ActivityThread( 4715):        at java.lang.reflect.Method.invoke(Method.java:511)
+E/ActivityThread( 4715):        at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:848)
+E/ActivityThread( 4715):        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:575)
+E/ActivityThread( 4715):        at dalvik.system.NativeStart.main(Native Method)
+W/ActivityManager( 1114): Unbind failed: could not find connection for android.os.BinderProxy@41756d48
+E/ActivityThread( 4715): Activity com.coship.dvbplayer.main has leaked ServiceConnection com.aidufei.otoService.ServiceAdapter$1@42e0a8f0 that was originally bound here
+E/ActivityThread( 4715): android.app.ServiceConnectionLeaked: Activity com.coship.dvbplayer.main has leaked ServiceConnection com.aidufei.otoService.ServiceAdapter$1@42e0a8f0 that was originally bound here
+E/ActivityThread( 4715):        at android.app.LoadedApk$ServiceDispatcher.<init>(LoadedApk.java:936)
+E/ActivityThread( 4715):        at android.app.LoadedApk.getServiceDispatcher(LoadedApk.java:830)
+E/ActivityThread( 4715):        at android.app.ContextImpl.bindService(ContextImpl.java:1142)
+E/ActivityThread( 4715):        at android.content.ContextWrapper.bindService(ContextWrapper.java:370)
+E/ActivityThread( 4715):        at com.aidufei.otoService.ServiceAdapter.<init>(ServiceAdapter.java:52)
+E/ActivityThread( 4715):        at com.coship.dvbplayer.main.init(main.java:465)
+E/ActivityThread( 4715):        at com.coship.dvbplayer.main.onResume(main.java:435)
+E/ActivityThread( 4715):        at android.app.Instrumentation.callActivityOnResume(Instrumentation.java:1154)
+E/ActivityThread( 4715):        at android.app.Activity.performResume(Activity.java:4539)
+E/ActivityThread( 4715):        at android.app.ActivityThread.performResumeActivity(ActivityThread.java:2434)
+E/ActivityThread( 4715):        at android.app.ActivityThread.handleResumeActivity(ActivityThread.java:2472)
+E/ActivityThread( 4715):        at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1173)
+E/ActivityThread( 4715):        at android.os.Handler.dispatchMessage(Handler.java:99)
+E/ActivityThread( 4715):        at android.os.Looper.loop(Looper.java:137)
+E/ActivityThread( 4715):        at android.app.ActivityThread.main(ActivityThread.java:4424)
+E/ActivityThread( 4715):        at java.lang.reflect.Method.invokeNative(Native Method)
+E/ActivityThread( 4715):        at java.lang.reflect.Method.invoke(Method.java:511)
+E/ActivityThread( 4715):        at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:848)
+E/ActivityThread( 4715):        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:575)
+E/ActivityThread( 4715):        at dalvik.system.NativeStart.main(Native Method)
+W/ActivityManager( 1114): Unbind failed: could not find connection for android.os.BinderProxy@415fd330
+E/ActivityThread( 4715): Activity com.coship.dvbplayer.main has leaked ServiceConnection com.aidufei.otoService.ServiceAdapter$1@42a11c88 that was originally bound here
+E/ActivityThread( 4715): android.app.ServiceConnectionLeaked: Activity com.coship.dvbplayer.main has leaked ServiceConnection com.aidufei.otoService.ServiceAdapter$1@42a11c88 that was originally bound here
+E/ActivityThread( 4715):        at android.app.LoadedApk$ServiceDispatcher.<init>(LoadedApk.java:936)
+E/ActivityThread( 4715):        at android.app.LoadedApk.getServiceDispatcher(LoadedApk.java:830)
+E/ActivityThread( 4715):        at android.app.ContextImpl.bindService(ContextImpl.java:1142)
+E/ActivityThread( 4715):        at android.content.ContextWrapper.bindService(ContextWrapper.java:370)
+E/ActivityThread( 4715):        at com.aidufei.otoService.ServiceAdapter.<init>(ServiceAdapter.java:52)
+E/ActivityThread( 4715):        at com.coship.dvbplayer.main.init(main.java:465)
+E/ActivityThread( 4715):        at com.coship.dvbplayer.main.onResume(main.java:435)
+E/ActivityThread( 4715):        at android.app.Instrumentation.callActivityOnResume(Instrumentation.java:1154)
+E/ActivityThread( 4715):        at android.app.Activity.performResume(Activity.java:4539)
+E/ActivityThread( 4715):        at android.app.ActivityThread.performResumeActivity(ActivityThread.java:2434)
+E/ActivityThread( 4715):        at android.app.ActivityThread.handleResumeActivity(ActivityThread.java:2472)
+E/ActivityThread( 4715):        at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1173)
+E/ActivityThread( 4715):        at android.os.Handler.dispatchMessage(Handler.java:99)
+E/ActivityThread( 4715):        at android.os.Looper.loop(Looper.java:137)
+E/ActivityThread( 4715):        at android.app.ActivityThread.main(ActivityThread.java:4424)
+E/ActivityThread( 4715):        at java.lang.reflect.Method.invokeNative(Native Method)
+E/ActivityThread( 4715):        at java.lang.reflect.Method.invoke(Method.java:511)
+E/ActivityThread( 4715):        at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:848)
+E/ActivityThread( 4715):        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:575)
+E/ActivityThread( 4715):        at dalvik.system.NativeStart.main(Native Method)
+W/ActivityManager( 1114): Unbind failed: could not find connection for android.os.BinderProxy@41678158
+E/ActivityThread( 4715): Activity com.coship.dvbplayer.main has leaked ServiceConnection com.aidufei.otoService.ServiceAdapter$1@434971c8 that was originally bound here
+E/ActivityThread( 4715): android.app.ServiceConnectionLeaked: Activity com.coship.dvbplayer.main has leaked ServiceConnection com.aidufei.otoService.ServiceAdapter$1@434971c8 that was originally bound here
+E/ActivityThread( 4715):        at android.app.LoadedApk$ServiceDispatcher.<init>(LoadedApk.java:936)
+E/ActivityThread( 4715):        at android.app.LoadedApk.getServiceDispatcher(LoadedApk.java:830)
+E/ActivityThread( 4715):        at android.app.ContextImpl.bindService(ContextImpl.java:1142)
+E/ActivityThread( 4715):        at android.content.ContextWrapper.bindService(ContextWrapper.java:370)
+E/ActivityThread( 4715):        at com.aidufei.otoService.ServiceAdapter.<init>(ServiceAdapter.java:52)
+E/ActivityThread( 4715):        at com.coship.dvbplayer.main.init(main.java:465)
+E/ActivityThread( 4715):        at com.coship.dvbplayer.main.onResume(main.java:435)
+E/ActivityThread( 4715):        at android.app.Instrumentation.callActivityOnResume(Instrumentation.java:1154)
+E/ActivityThread( 4715):        at android.app.Activity.performResume(Activity.java:4539)
+E/ActivityThread( 4715):        at android.app.ActivityThread.performResumeActivity(ActivityThread.java:2434)
+E/ActivityThread( 4715):        at android.app.ActivityThread.handleResumeActivity(ActivityThread.java:2472)
+E/ActivityThread( 4715):        at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1173)
+E/ActivityThread( 4715):        at android.os.Handler.dispatchMessage(Handler.java:99)
+E/ActivityThread( 4715):        at android.os.Looper.loop(Looper.java:137)
+E/ActivityThread( 4715):        at android.app.ActivityThread.main(ActivityThread.java:4424)
+E/ActivityThread( 4715):        at java.lang.reflect.Method.invokeNative(Native Method)
+E/ActivityThread( 4715):        at java.lang.reflect.Method.invoke(Method.java:511)
+E/ActivityThread( 4715):        at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:848)
+E/ActivityThread( 4715):        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:575)
+E/ActivityThread( 4715):        at dalvik.system.NativeStart.main(Native Method)
+W/ActivityManager( 1114): Unbind failed: could not find connection for android.os.BinderProxy@415848c0
+E/ActivityThread( 4715): Activity com.coship.dvbplayer.main has leaked ServiceConnection com.aidufei.otoService.ServiceAdapter$1@42a238b0 that was originally bound here
+E/ActivityThread( 4715): android.app.ServiceConnectionLeaked: Activity com.coship.dvbplayer.main has leaked ServiceConnection com.aidufei.otoService.ServiceAdapter$1@42a238b0 that was originally bound here
+E/ActivityThread( 4715):        at android.app.LoadedApk$ServiceDispatcher.<init>(LoadedApk.java:936)
+E/ActivityThread( 4715):        at android.app.LoadedApk.getServiceDispatcher(LoadedApk.java:830)
+E/ActivityThread( 4715):        at android.app.ContextImpl.bindService(ContextImpl.java:1142)
+E/ActivityThread( 4715):        at android.content.ContextWrapper.bindService(ContextWrapper.java:370)
+E/ActivityThread( 4715):        at com.aidufei.otoService.ServiceAdapter.<init>(ServiceAdapter.java:52)
+E/ActivityThread( 4715):        at com.coship.dvbplayer.main.init(main.java:465)
+E/ActivityThread( 4715):        at com.coship.dvbplayer.main.dispatchKeyEvent(main.java:236)
+E/ActivityThread( 4715):        at com.android.internal.policy.impl.PhoneWindow$DecorView.dispatchKeyEvent(PhoneWindow.java:1806)
+E/ActivityThread( 4715):        at android.view.ViewRootImpl.deliverKeyEventPostIme(ViewRootImpl.java:3327)
+E/ActivityThread( 4715):        at android.view.ViewRootImpl.handleFinishedEvent(ViewRootImpl.java:3300)
+E/ActivityThread( 4715):        at android.view.ViewRootImpl.handleMessage(ViewRootImpl.java:2460)
+E/ActivityThread( 4715):        at android.os.Handler.dispatchMessage(Handler.java:99)
+E/ActivityThread( 4715):        at android.os.Looper.loop(Looper.java:137)
+E/ActivityThread( 4715):        at android.app.ActivityThread.main(ActivityThread.java:4424)
+E/ActivityThread( 4715):        at java.lang.reflect.Method.invokeNative(Native Method)
+E/ActivityThread( 4715):        at java.lang.reflect.Method.invoke(Method.java:511)
+E/ActivityThread( 4715):        at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:848)
+E/ActivityThread( 4715):        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:575)
+E/ActivityThread( 4715):        at dalvik.system.NativeStart.main(Native Method)
+W/ActivityManager( 1114): Unbind failed: could not find connection for android.os.BinderProxy@415750b0
+W/InputManagerService( 1114): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@41494028 (uid=1000 pid=1693)
+W/ActivityManager( 1114): Unbind failed: could not find connection for android.os.BinderProxy@418a3bd8
+I/ActivityManager( 1114): START {flg=0x10000000 cmp=com.coship.sdp.sce.tvappstore/.MenuActivity} from pid 1965
+I/ActivityManager( 1114): START {flg=0x10000000 cmp=com.coship.sdp.sce.tvappstore/.MenuActivity} from pid 1965
+I/WindowManager( 1114): WIN DEATH: Window{4150b7f0 com.coship.sdp.sce.tvappstore/com.coship.sdp.sce.tvappstore.MainActivity paused=true}
+I/ActivityManager( 1114): Process com.coship.sdp.sce.tvappstore (pid 1965) has died.
+W/ActivityManager( 1114): Scheduling restart of crashed service com.coship.sdp.sce.tvappstore/.app.service.AppStoreCoreService in 1250ms
+I/WindowManager( 1114): WIN DEATH: Window{415eadc8 com.coship.sdp.sce.tvappstore/com.coship.sdp.sce.tvappstore.MenuActivity paused=false}
+I/WindowManager( 1114): WIN DEATH: Window{4187e468 com.coship.sdp.sce.tvappstore/com.coship.sdp.sce.tvappstore.AppMyAppUIMain paused=true}
+I/ActivityManager( 1114): Start proc com.coship.sdp.sce.tvappstore for restart com.coship.sdp.sce.tvappstore: pid=8724 uid=1000 gids={3003, 1015, 3002, 3001, 3004}
+W/ActivityManager( 1114): Force removing ActivityRecord{41458168 com.coship.sdp.sce.tvappstore/.MenuActivity}: app died, no saved state
+W/InputManagerService( 1114): Got RemoteException sending setActive(false) notification to pid 1965 uid 1000
+W/ActivityManager( 1114): Activity destroy timeout for ActivityRecord{414a2bf8 com.coship.sdp.sce.tvappstore/.MainActivity}
+W/ActivityManager( 1114): Activity destroy timeout for ActivityRecord{41480d60 com.coship.sdp.sce.tvappstore/.AppMyAppUIMain}
+I/ActivityManager( 1114): START {flg=0x78000000 cmp=com.coship.dvbplayer/.main (has extras)} from pid 2263
+V/TabletStatusBar( 1222): setLightsOn(true)
+W/InputManagerService( 1114): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@4169c008 (uid=1000 pid=2263)
+I/ActivityManager( 1114): START {act=android.intent.LOOKBACK_PLAYER cmp=com.coship.dvbplayer/.videoplayer.VideoPlayer (has extras)} from pid 4715
+V/TabletStatusBar( 1222): setLightsOn(true)
+I/ActivityManager( 1114): START {flg=0x78000000 cmp=com.coship.dvbplayer/.main (has extras)} from pid 2263
+V/TabletStatusBar( 1222): setLightsOn(true)
+I/ActivityManager( 1114): START {act=android.intent.LOOKBACK_PLAYER cmp=com.coship.dvbplayer/.videoplayer.VideoPlayer (has extras)} from pid 4715
+E/ActivityThread( 4715): Activity com.coship.dvbplayer.main has leaked IntentReceiver com.coship.dvbplayer.epg.Alreceiver@4357fde0 that was originally registered here. Are you missing a call to unregisterReceiver()?
+E/ActivityThread( 4715): android.app.IntentReceiverLeaked: Activity com.coship.dvbplayer.main has leaked IntentReceiver com.coship.dvbplayer.epg.Alreceiver@4357fde0 that was originally registered here. Are you missing a call to unregisterReceiver()?
+E/ActivityThread( 4715):        at android.app.LoadedApk$ReceiverDispatcher.<init>(LoadedApk.java:763)
+E/ActivityThread( 4715):        at android.app.LoadedApk.getReceiverDispatcher(LoadedApk.java:567)
+E/ActivityThread( 4715):        at android.app.ContextImpl.registerReceiverInternal(ContextImpl.java:1068)
+E/ActivityThread( 4715):        at android.app.ContextImpl.registerReceiver(ContextImpl.java:1055)
+E/ActivityThread( 4715):        at android.app.ContextImpl.registerReceiver(ContextImpl.java:1049)
+E/ActivityThread( 4715):        at android.content.ContextWrapper.registerReceiver(ContextWrapper.java:341)
+E/ActivityThread( 4715):        at com.coship.dvbplayer.epg.Reserve.register(Reserve.java:88)
+E/ActivityThread( 4715):        at com.coship.dvbplayer.epg.Reserve.getInstance(Reserve.java:56)
+E/ActivityThread( 4715):        at com.coship.dvbplayer.view.EpgList.getInstance(EpgList.java:134)
+E/ActivityThread( 4715):        at com.coship.dvbplayer.view.OklistView.init(OklistView.java:112)
+E/ActivityThread( 4715):        at com.coship.dvbplayer.view.OklistView.getInstance(OklistView.java:85)
+E/ActivityThread( 4715):        at com.coship.dvbplayer.Control.init(Control.java:108)
+E/ActivityThread( 4715):        at com.coship.dvbplayer.Control.getInstance(Control.java:81)
+E/ActivityThread( 4715):        at com.coship.dvbplayer.main.init(main.java:511)
+E/ActivityThread( 4715):        at com.coship.dvbplayer.main.onResume(main.java:435)
+E/ActivityThread( 4715):        at android.app.Instrumentation.callActivityOnResume(Instrumentation.java:1154)
+E/ActivityThread( 4715):        at android.app.Activity.performResume(Activity.java:4539)
+E/ActivityThread( 4715):        at android.app.ActivityThread.performResumeActivity(ActivityThread.java:2434)
+E/ActivityThread( 4715):        at android.app.ActivityThread.handleResumeActivity(ActivityThread.java:2472)
+E/ActivityThread( 4715):        at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:1986)
+E/ActivityThread( 4715):        at android.app.ActivityThread.access$600(ActivityThread.java:123)
+E/ActivityThread( 4715):        at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1147)
+E/ActivityThread( 4715):        at android.os.Handler.dispatchMessage(Handler.java:99)
+E/ActivityThread( 4715):        at android.os.Looper.loop(Looper.java:137)
+E/ActivityThread( 4715):        at android.app.ActivityThread.main(ActivityThread.java:4424)
+E/ActivityThread( 4715):        at java.lang.reflect.Method.invokeNative(Native Method)
+E/ActivityThread( 4715):        at java.lang.reflect.Method.invoke(Method.java:511)
+E/ActivityThread( 4715):        at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:848)
+E/ActivityThread( 4715):        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:575)
+E/ActivityThread( 4715):        at dalvik.system.NativeStart.main(Native Method)
+V/TabletStatusBar( 1222): setLightsOn(true)
+E/AndroidRuntime( 4715): FATAL EXCEPTION: main
+E/AndroidRuntime( 4715): java.lang.RuntimeException: Unable to destroy activity {com.coship.dvbplayer/com.coship.dvbplayer.main}: java.lang.IllegalArgumentException: Receiver not registered: com.coship.dvbplayer.epg.Alreceiver@437a93c0
+E/AndroidRuntime( 4715):        at android.app.ActivityThread.performDestroyActivity(ActivityThread.java:3112)
+E/AndroidRuntime( 4715):        at android.app.ActivityThread.handleDestroyActivity(ActivityThread.java:3130)
+E/AndroidRuntime( 4715):        at android.app.ActivityThread.access$1200(ActivityThread.java:123)
+E/AndroidRuntime( 4715):        at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1180)
+E/AndroidRuntime( 4715):        at android.os.Handler.dispatchMessage(Handler.java:99)
+E/AndroidRuntime( 4715):        at android.os.Looper.loop(Looper.java:137)
+E/AndroidRuntime( 4715):        at android.app.ActivityThread.main(ActivityThread.java:4424)
+E/AndroidRuntime( 4715):        at java.lang.reflect.Method.invokeNative(Native Method)
+E/AndroidRuntime( 4715):        at java.lang.reflect.Method.invoke(Method.java:511)
+E/AndroidRuntime( 4715):        at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:848)
+E/AndroidRuntime( 4715):        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:575)
+E/AndroidRuntime( 4715):        at dalvik.system.NativeStart.main(Native Method)
+E/AndroidRuntime( 4715): Caused by: java.lang.IllegalArgumentException: Receiver not registered: com.coship.dvbplayer.epg.Alreceiver@437a93c0
+E/AndroidRuntime( 4715):        at android.app.LoadedApk.forgetReceiverDispatcher(LoadedApk.java:628)
+E/AndroidRuntime( 4715):        at android.app.ContextImpl.unregisterReceiver(ContextImpl.java:1091)
+E/AndroidRuntime( 4715):        at android.content.ContextWrapper.unregisterReceiver(ContextWrapper.java:354)
+E/AndroidRuntime( 4715):        at com.coship.dvbplayer.epg.Reserve.unregister(Reserve.java:93)
+E/AndroidRuntime( 4715):        at com.coship.dvbplayer.epg.Reserve.save(Reserve.java:218)
+E/AndroidRuntime( 4715):        at com.coship.dvbplayer.view.EpgList.destroy(EpgList.java:910)
+E/AndroidRuntime( 4715):        at com.coship.dvbplayer.view.OklistView.destroy(OklistView.java:378)
+E/AndroidRuntime( 4715):        at com.coship.dvbplayer.Control.destroy(Control.java:625)
+E/AndroidRuntime( 4715):        at com.coship.dvbplayer.main.onDestroy(main.java:379)
+E/AndroidRuntime( 4715):        at android.app.Activity.performDestroy(Activity.java:4629)
+E/AndroidRuntime( 4715):        at android.app.Instrumentation.callActivityOnDestroy(Instrumentation.java:1079)
+E/AndroidRuntime( 4715):        at android.app.ActivityThread.performDestroyActivity(ActivityThread.java:3099)
+E/AndroidRuntime( 4715):        ... 11 more
+W/ActivityManager( 1114):   Force finishing activity com.coship.dvbplayer/.videoplayer.VideoPlayer
+W/ActivityManager( 1114): Activity pause timeout for ActivityRecord{41458168 com.coship.dvbplayer/.videoplayer.VideoPlayer}
+W/ActivityManager( 1114): Activity destroy timeout for ActivityRecord{417c16b8 com.coship.dvbplayer/.main}
+W/ActivityManager( 1114): Activity destroy timeout for ActivityRecord{41458168 com.coship.dvbplayer/.videoplayer.VideoPlayer}
+W/ThrottleService( 1114): unable to find stats for iface rmnet0
+I/ActivityManager( 1114): Process com.coship.dvbplayer (pid 4715) has died.
+I/WindowManager( 1114): WIN DEATH: Window{4145e588 com.coship.dvbplayer/com.coship.dvbplayer.main paused=false}
+W/WindowManager( 1114): Force-removing child win Window{4174c230 SurfaceView paused=false} from container Window{4145e588 com.coship.dvbplayer/com.coship.dvbplayer.main paused=false}
+I/WindowManager( 1114): WIN DEATH: Window{417f0c98 com.coship.dvbplayer/com.coship.dvbplayer.videoplayer.VideoPlayer paused=false}
+W/WindowManager( 1114): Force-removing child win Window{417be010 SurfaceView paused=false} from container Window{417f0c98 com.coship.dvbplayer/com.coship.dvbplayer.videoplayer.VideoPlayer paused=false}
+W/WindowManager( 1114): Failed looking up window
+W/WindowManager( 1114): java.lang.IllegalArgumentException: Requested window android.os.BinderProxy@4174c068 does not exist
+W/WindowManager( 1114):         at com.android.server.wm.WindowMan[18358.523122] [irq_proc_open][373] -16
+agerService.windowForClientLocked(WindowManagerService.java:7185)
+W/WindowManager( 1114):         at com.android.server.wm.WindowManagerService.windowForClientLocked(WindowManagerService.java:7176)
+W/WindowManager( 1114):         at com.android.server.wm.WindowState$DeathRecipient.binderDied(WindowState.java:1545)
+W/WindowManager( 1114):         at android.os.BinderProxy.sendDeathNotice(Binder.java:417)
+W/WindowManager( 1114):         at dalvik.system.NativeStart.run(Native Method)
+I/WindowManager( 1114): WIN DEATH: null
+I/WindowManager( 1114): WIN DEATH: Window{4160a100 Toast paused=false}
+I/WindowManager( 1114): WIN DEATH: Window{414a1630 com.coship.dvbplayer/com.coship.dvbplayer.videoplayer.VideoPlayer paused=false}
+W/WindowManager( 1114): Failed looking up window
+W/WindowManager( 1114): java.lang.IllegalArgumentException: Requested window android.os.BinderProxy@4167af50 does not exist
+W/WindowManager( 1114):         at com.android.server.wm.WindowManagerService.windowForClientLocked(WindowManagerService.java:7185)
+W/WindowManager( 1114):         at com.android.server.wm.WindowManagerService.windowForClientLocked(WindowManagerService.java:7176)
+W/WindowManager( 1114):         at com.android.server.wm.WindowState$DeathRecipient.binderDied(WindowState.java:1545)
+W/WindowManager( 1114):         at android.os.BinderProxy.sendDeathNotice(Binder.java:417)
+W/WindowManager( 1114):         at dalvik.system.NativeStart.run(Native Method)
+I/WindowManager( 1114): WIN DEATH: null
+I/WindowManager( 1114): WINDOW DIED Window{417f0c98 com.coship.dvbplayer/com.coship.dvbplayer.videoplayer.VideoPlayer paused=false}
+I/ActivityManager( 1114): START {flg=0x78000000 cmp=com.coship.dvbplayer/.main (has extras)} from pid 2263
+I/ActivityManager( 1114): Start proc com.coship.dvbplayer for activity com.coship.dvbplayer/.main: pid=8825 uid=10032 gids={3003, 1015}
+V/TabletStatusBar( 1222): setLightsOn(true)
+W/InputManagerService( 1114): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@4169c008 (uid=1000 pid=2263)
+I/ActivityManager( 1114): START {act=android.intent.LOOKBACK_PLAYER cmp=com.coship.dvbplayer/.videoplayer.VideoPlayer (has extras)} from pid 8825
+V/TabletStatusBar( 1222): setLightsOn(true)
+V/CheckBackdoors( 1795): this is backdoor.
+V/CheckBackdoors( 1795): Intent(com.coship.adjustthevolume.VolDown)
+V/CheckBackdoors( 1795): add new backdoor. actionName=com.coship.adjustthevolume.VolumeKey, backdoor.mBackdoorKey=0x15
+V/CheckBackdoors( 1795): add new backdoor. actionName=com.coship.adjustthevolume.VolumeKey, backdoor.mBackdoorKey=0x16
+V/CheckBackdoors( 1795): add new backdoor. actionName=com.coship.adjustthevolume.VolumeKey, backdoor.mBackdoorKey=0x4
+V/CheckBackdoors( 1795): this is backdoor.
+V/CheckBackdoors( 1795): Intent(com.coship.adjustthevolume.VolDown)
+V/CheckBackdoors( 1795): this is backdoor.
+V/CheckBackdoors( 1795): Intent(com.coship.adjustthevolume.VolDown)
+V/CheckBackdoors( 1795): this is backdoor.
+V/CheckBackdoors( 1795): Intent(com.coship.adjustthevolume.Volup)
+V/CheckBackdoors( 1795): now remove the backdoor: index =3, actionName=com.coship.adjustthevolume.VolumeKey, backdoor.mBackdoorKey=0x15
+V/CheckBackdoors( 1795): now remove the backdoor: index =3, actionName=com.coship.adjustthevolume.VolumeKey, backdoor.mBackdoorKey=0x16
+V/CheckBackdoors( 1795): now remove the backdoor: index =3, actionName=com.coship.adjustthevolume.VolumeKey, backdoor.mBackdoorKey=0x4
+V/TabletStatusBar( 1222): setLightsOn(true)
+W/ActivityManager( 1114): Duplicate finish request for ActivityRecord{416d6728 com.coship.dvbplayer/.videoplayer.VideoPlayer}
+W/ProcessStats( 1114): Skipping unknown process pid 8863
+I/ActivityManager( 1114): START {flg=0x78000000 cmp=com.coship.dvbplayer/.main (has extras)} from pid 2263
+V/TabletStatusBar( 1222): setLightsOn(true)
+W/InputManagerService( 1114): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@4169c008 (uid=1000 pid=2263)
+I/ActivityManager( 1114): START {act=android.intent.LOOKBACK_PLAYER cmp=com.coship.dvbplayer/.videoplayer.VideoPlayer (has extras)} from pid 8825
+V/TabletStatusBar( 1222): setLightsOn(true)
+I/ActivityManager( 1114): START {flg=0x78000000 cmp=com.coship.dvbplayer/.main (has extras)} from pid 2263
+V/TabletStatusBar( 1222): setLightsOn(true)
+E/AndroidRuntime( 8825): FATAL EXCEPTION: Thread-189
+E/AndroidRuntime( 8825): java.lang.NullPointerException
+E/AndroidRuntime( 8825):        at com.coship.dvbplayer.player.OTTPlayer.play(OTTPlayer.java:173)
+E/AndroidRuntime( 8825):        at com.coship.dvbplayer.player.OTTPlayer$GetPlayURLThread.run(OTTPlayer.java:205)
+W/ActivityManager( 1114):   Force finishing activity com.coship.dvbplayer/.main
+E/ActivityThread( 8825): Activity com.coship.dvbplayer.main has leaked IntentReceiver com.coship.dvbplayer.epg.Alreceiver@415b1688 that was originally registered here. Are you missing a call to unregisterReceiver()?
+E/ActivityThread( 8825): android.app.IntentReceiverLeaked: Activity com.coship.dvbplayer.main has leaked IntentReceiver com.coship.dvbplayer.epg.Alreceiver@415b1688 that was originally registered here. Are you missing a call to unregisterReceiver()?
+E/ActivityThread( 8825):        at android.app.LoadedApk$ReceiverDispatcher.<init>(LoadedApk.java:763)
+E/ActivityThread( 8825):        at android.app.LoadedApk.getReceiverDispatcher(LoadedApk.java:567)
+E/ActivityThread( 8825):        at android.app.ContextImpl.registerReceiverInternal(ContextImpl.java:1068)
+E/ActivityThread( 8825):        at android.app.ContextImpl.registerReceiver(ContextImpl.java:1055)
+E/ActivityThread( 8825):        at android.app.ContextImpl.registerReceiver(ContextImpl.java:1049)
+E/ActivityThread( 8825):        at android.content.ContextWrapper.registerReceiver(ContextWrapper.java:341)
+E/ActivityThread( 8825):        at com.coship.dvbplayer.epg.Reserve.register(Reserve.java:88)
+E/ActivityThread( 8825):        at com.coship.dvbplayer.epg.Reserve.getInstance(Reserve.java:56)
+E/ActivityThread( 8825):        at com.coship.dvbplayer.view.EpgList.getInstance(EpgList.java:134)
+E/ActivityThread( 8825):        at com.coship.dvbplayer.view.OklistView.init(OklistView.java:112)
+E/ActivityThread( 8825):        at com.coship.dvbplayer.view.OklistView.getInstance(OklistView.java:85)
+E/ActivityThread( 8825):        at com.coship.dvbplayer.Control.init(Control.java:108)
+E/ActivityThread( 8825):        at com.coship.dvbplayer.Control.getInstance(Control.java:81)
+E/ActivityThread( 8825):        at com.coship.dvbplayer.main.init(main.java:511)
+E/ActivityThread( 8825):        at com.coship.dvbplayer.main.onResume(main.java:435)
+E/ActivityThread( 8825):        at android.app.Instrumentation.callActivityOnResume(Instrumentation.java:1154)
+E/ActivityThread( 8825):        at android.app.Activity.performResume(Activity.java:4539)
+E/ActivityThread( 8825):        at android.app.ActivityThread.performResumeActivity(ActivityThread.java:2434)
+E/ActivityThread( 8825):        at android.app.ActivityThread.handleResumeActivity(ActivityThread.java:2472)
+E/ActivityThread( 8825):        at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:1986)
+E/ActivityThread( 8825):        at android.app.ActivityThread.access$600(ActivityThread.java:123)
+E/ActivityThread( 8825):        at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1147)
+E/ActivityThread( 8825):        at android.os.Handler.dispatchMessage(Handler.java:99)
+E/ActivityThread( 8825):        at android.os.Looper.loop(Looper.java:137)
+E/ActivityThread( 8825):        at android.app.ActivityThread.main(ActivityThread.java:4424)
+E/ActivityThread( 8825):        at java.lang.reflect.Method.invokeNative(Native Method)
+E/ActivityThread( 8825):        at java.lang.reflect.Method.invoke(Method.java:511)
+E/ActivityThread( 8825):        at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:848)
+E/ActivityThread( 8825):        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:575)
+E/ActivityThread( 8825):        at dalvik.system.NativeStart.main(Native Method)
+I/ActivityManager( 1114): START {act=android.intent.LOOKBACK_PLAYER cmp=com.coship.dvbplayer/.videoplayer.VideoPlayer (has extras)} from pid 8825
+I/ActivityManager( 1114): Process com.coship.dvbplayer (pid 8825) has died.
+I/WindowManager( 1114): WIN DEATH: Window{41822150 SurfaceView paused=false}
+I/WindowManager( 1114): WIN DEATH: Window{415e1dc8 com.coship.dvbplayer/com.coship.dvbplayer.videoplayer.VideoPlayer paused=false}
+W/WindowManager( 1114): Force-removing child win Window{41817cf8 SurfaceView paused=false} from container Window{415e1dc8 com.coship.dvbplayer/com.coship.dvbplayer.videoplayer.VideoPlayer paused=false}
+W/ActivityManager( 1114): Force removing ActivityRecord{41869480 com.coship.dvbplayer/.videoplayer.VideoPlayer}: app died, no saved state
+I/WindowManager( 1114): WIN DEATH: Window{41884f78 com.coship.dvbplayer/com.coship.dvbplayer.main paused=false}
+W/WindowManager( 1114): Failed looking up window
+W/WindowManager( 1114): java.lang.IllegalArgumentException: Requested window android.os.BinderProxy@417535b8 does not exist
+W/WindowManager( 1114):         at com.android.server.wm.WindowManagerService.windowForClientLocked(WindowManagerService.java:7185)
+W/WindowManager( 1114):         at com.android.server.wm.WindowManagerService.windowForClientLocked(WindowManagerService.java:7176)
+W/WindowManager( 1114):         at com.android.server.wm.WindowState$DeathRecipient.binderDied(WindowState.java:1545)
+W/WindowManager( 1114):         at android.os.BinderProxy.sendDeathNotice(Binder.java:417)
+W/WindowManager( 1114):         at dalvik.system.NativeStart.run(Native Method)
+I/WindowManager( 1114): WIN DEATH: null
+W/InputManagerService( 1114): Got RemoteException sending setActive(false) notification to pid 8825 uid 10032
+W/ActivityManager( 1114): Activity destroy timeout for ActivityRecord{4148ba00 com.coship.dvbplayer/.main}
+V/CheckBackdoors( 1795): this is backdoor.
+V/CheckBackdoors( 1795): Intent(com.coship.adjustthevolume.VolDown)
+V/CheckBackdoors( 1795): add new backdoor. actionName=com.coship.adjustthevolume.VolumeKey, backdoor.mBackdoorKey=0x15
+V/CheckBackdoors( 1795): add new backdoor. actionName=com.coship.adjustthevolume.VolumeKey, backdoor.mBackdoorKey=0x16
+V/CheckBackdoors( 1795): add new backdoor. actionName=com.coship.adjustthevolume.VolumeKey, backdoor.mBackdoorKey=0x4
+W/InputManagerService( 1114): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@4169c008 (uid=1000 pid=2263)
+V/CheckBackdoors( 1795): this is backdoor.
+V/CheckBackdoors( 1795): Intent(com.coship.adjustthevolume.VolDown)
+V/CheckBackdoors( 1795): this is backdoor.
+V/CheckBackdoors( 1795): Intent(com.coship.adjustthevolume.VolDown)
+V/CheckBackdoors( 1795): now remove the backdoor: index =3, actionName=com.coship.adjustthevolume.VolumeKey, backdoor.mBackdoorKey=0x15
+V/CheckBackdoors( 1795): now remove the backdoor: index =3, actionName=com.coship.adjustthevolume.VolumeKey, backdoor.mBackdoorKey=0x16
+V/CheckBackdoors( 1795): now remove the backdoor: index =3, actionName=com.coship.adjustthevolume.VolumeKey, backdoor.mBackdoorKey=0x4
+W/ThrottleService( 1114): unable to find stats for iface rmnet0
+I/ActivityManager( 1114): START {flg=0x78000000 cmp=com.coship.dvbplayer/.main (has extras)} from pid 2263
+I/ActivityManager( 1114): Start proc com.coship.dvbplayer for activity com.coship.dvbplayer/.main: pid=9005 uid=10032 gids={3003, 1015}
+V/TabletStatusBar( 1222): setLightsOn(true)
+W/InputManagerService( 1114): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@4169c008 (uid=1000 pid=2263)
+--------- beginning of /dev/log/main
+I/System.out( 9005): message--->{"ret":"0","pageSize":10,"pageCount":1,"channelInfo":[{"channelID":"CCTV1HD","assetID":"TWSX0111101111100000","channelCode":null,"channelName":"CCTV-1(高清)","videoType":1,"resourceOrder":1,"channelType":10001,"channelTypes":",1,","cityCode":100000,"gradeCode":"P","providerID":"coship","networkId":null,"description":"","feeType":0,"poster":[{"resolution":"1280*720","terminalType":3,"serverLocalPath":"http://photo.feifeikan.com:80/ott-poster/upload/poster/49d14743-abb2-4e13-9afa-48f9c0ec388e.png","PosterID":null,"OwnerCode":"10032","PosterType":2,"FileName":"CCTV-1.png","UploadTime":"2013-02-04 20:00:38","FileSize":0,"Status":1,"LocalPath":"http://photo.feifeikan.com:80/ott-poster/upload/poster/49d14743-abb2-4e13-9afa-48f9c0ec388e.png","Width":0,"Height":0,"Platform":2}],"channelTypeName":null,"cTypes":null,"brandLastUpdateTime":null,"brandHotPlay":null,"ResourceCode":"10032","TSID":1111,"serviceid":1111},{"channelID":"YSGQHD","assetID":"TWSX0111201112100000","channelCode":null,"channelName":"CCTV-高清综合","videoType":1,"resourceOrder":2,"channelType":10001,"channelTypes":",1,","cityCode":100000,"gradeCode":"P","providerID":"coship","networkId":null,"description":"","feeType":0,"poster":[{"resolution":"1280*720","terminalType":3,"serverLocalPath":"http://photo.feifeikan.com:80/ott-poster/upload/poster/8347e58d-20b7-4709-ad52-2a78ad583052.png","PosterID":null,"OwnerCode":"10045","PosterType":2,"FileName":"CCTV-高清.png","UploadTime":"2013-02-04 20:01:38","FileSize":0,"Status":1,"LocalPath":"http://photo.feifeikan.com:80/ott-poster/upload/poster/8347e58d-20b7-4709-ad52-2a78ad583052.png","Width":0,"Height":0,"Platform":2}],"channelTypeName":null,"cTypes":null,"brandLastUpdateTime":null,"brandHotPlay":null,"ResourceCode":"10045","TSID":1112,"serviceid":1112},{"channelID":"BJWSHD","assetID":"TWSX0111301113100000","channelCode":null,"channelName":"北京卫视(高清)","videoType":1,"resourceOrder":3,"channelType":10001,"channelTypes":",1,","cityCode":100000,"gradeCode":"P","providerID":"coship","networkId":null,"description":"","feeType":0,"poster":[{"resolution":"1280*720","terminalType":3,"serverLocalPath":"http://photo.feifeikan.com:80/ott-poster/upload/poster/fa1dd722-7f38-4f62-a327-f7a793e58d18.png","PosterID":null,"OwnerCode":"10046","PosterType":2,"FileName":"北方卫视.png","UploadTime":"2013-02-04 20:02:52","FileSize":0,"Status":1,"LocalPath":"http://photo.feifeikan.com:80/ott-poster/upload/poster/fa1dd722-7f38-4f62-a327-f7a793e58d18.png","Width":0,"Height":0,"Platform":2}],"channelTypeName":null,"cTypes":null,"brandLastUpdateTime":null,"brandHotPlay":null,"ResourceCode":"10046","TSID":1113,"serviceid":1113},{"channelID":"HNWSHD","assetID":"TWSX0111401114100000","channelCode":null,"channelName":"湖南卫视(高清)","videoType":1,"resourceOrder":4,"channelType":10003,"channelTypes":",1,","cityCode":100000,"gradeCode":"P","providerID":"coship","networkId":null,"description":"","feeType":0,"poster":[{"resolution":"1280*720","terminalType":3,"serverLocalPath":"http://photo.feifeikan.com:80/ott-poster/upload/poster/5e30ea61-cbc4-40f5-8fbb-cf8882e70ff6.png","PosterID":null,"OwnerCode":"10047","PosterType":2,"FileName":"湖南卫视.png","UploadTime":"2013-02-04 20:05:26","FileSize":0,"Status":1,"LocalPath":"http://photo.feifeikan.com:80/ott-poster/upload/poster/5e30ea61-cbc4-40f5-8fbb-cf8882e70ff6.png","Width":0,"Height":0,"Platform":2}],"channelTypeName":null,"cTypes":null,"brandLastUpdateTime":null,"brandHotPlay":null,"ResourceCode":"10047","TSID":1114,"serviceid":1114},{"channelID":"ZJWSHD","assetID":"TWSX0111501115100000","channelCode":null,"channelName":"浙江卫视(高清)","videoType":1,"resourceOrder":5,"channelType":10003,"channelTypes":",1,","cityCode":100000,"gradeCode":"P","providerID":"coship","networkId":null,"description":"","feeType":0,"poster":[{"resolution":"1280*720","terminalType":3,"serverLocalPath":"http://photo.feifeikan.com:80/ott-poster/upload/poster/a375e878-1042-48af-971b-b585c20d3d7f.png","PosterID":null,"OwnerCode":"10048","PosterType":2,
+I/message ( 9005): message  :{"ret":"0","retInfo":"","dateTime":"2013-03-22 14:19:55"}
+I/System.out( 9005): message--->{"ret":"0","retInfo":"","dateTime":"2013-03-22 14:19:55"}
+V/Tools   ( 9005): ++++++++++currentDate+++++++++2013-03-22 14:19:55
+V/TimeShiftPlay( 9005): +++++nownmin+++++1363933140000
+V/TimeShiftPlay( 9005): +++++delay+++++0
+I/ActivityManager( 1114): START {act=android.intent.LOOKBACK_PLAYER cmp=com.coship.dvbplayer/.videoplayer.VideoPlayer (has extras)} from pid 9005
+I/DVB_main( 9005): onPause
+I/DVB_main( 9005): exit, Send broadcast playtype is 0
+I/dvb_OTTPlayer( 9005): [stop] stop
+I/dvb_LoadTips( 9005): [gethandler] objInstance:com.coship.dvbplayer.LoadTips@415c45d0
+I/dvb_LoadTips( 9005): [gethandler] objInstance  mHandler:Handler (com.coship.dvbplayer.LoadTips$1) {414f3200}
+I/dvb_LoadTips( 9005): [gethandler] objInstance:com.coship.dvbplayer.LoadTips@415c45d0
+D/OtOService( 2263): TVContentReceiver: ACTION_TV_CONTENT_CHANGED, playType: 0 ,resourceCode: null
+I/dvb_LoadTips( 9005): [gethandler] objInstance  mHandler:Handler (com.coship.dvbplayer.LoadTips$1) {414f3200}
+D/ServerAdapter( 2263): Server addr: http://wasu.feifeikan.com:8080/
+E/ServerHandler( 2263): Send:com.aidufei.protocol.oto.OtOContentRequest@4215c3f0
+D/ServerHandler( 2263): ServerHandler send request:200:{"Status":{"ReturnCode":100,"Description":"TVContentChanged"},"ServerAddr":"http:\/\/wasu.feifeikan.com:8080\/","Volume":-1}
+V/ServerHandler( 2263): ServerHandler send DatagramPacket:/192.168.1.104-[B@41812de8
+E/dvb_OTTService( 9005): [getchannellist] se.name:CCTV-1(高清) logo path:http://photo.feifeikan.com:80/ott-poster/upload/poster/49d14743-abb2-4e13-9afa-48f9c0ec388e.png
+E/dvb_OTTService( 9005): [getchannellist] se.name:CCTV-高清综合 logo path:http://photo.feifeikan.com:80/ott-poster/upload/poster/8347e58d-20b7-4709-ad52-2a78ad583052.png
+E/dvb_OTTService( 9005): [getchannellist] se.name:北京卫视(高清) logo path:http://photo.feifeikan.com:80/ott-poster/upload/poster/fa1dd722-7f38-4f62-a327-f7a793e58d18.png
+E/dvb_OTTService( 9005): [getchannellist] se.name:湖南卫视(高清) logo path:http://photo.feifeikan.com:80/ott-poster/upload/poster/5e30ea61-cbc4-40f5-8fbb-cf8882e70ff6.png
+E/dvb_OTTService( 9005): [getchannellist] se.name:浙江卫视(高清) logo path:http://photo.feifeikan.com:80/ott-poster/upload/poster/a375e878-1042-48af-971b-b585c20d3d7f.png
+D/dvb_OTTPlayer( 9005): Send broadcast: channelCode 10045 type 2
+D/OtOService( 2263): TVContentReceiver: ACTION_TV_CONTENT_CHANGED, playType: 2 ,resourceCode: 10045
+V/ServerHandler( 2263): ServerHandler send DatagramPacket:/192.168.1.104-[B@41ad5e08
+I/dvb_LoadTips( 9005): [mHandler] ~~~~~~~~~~~~~~~~~~~~~~~~~mHandler:Handler (com.coship.dvbplayer.LoadTips$1) {414f3200} msg.what:5 msg.obj:null
+D/dalvikvm( 9005): GC_CONCURRENT freed 1744K, 18% free 26654K/32195K, paused 2ms+4ms
+D/dalvikvm( 9005): GC_FOR_ALLOC freed 18K, 18% free 26635K/32195K, paused 29ms
+I/dalvikvm-heap( 9005): Grow heap (frag case) to 30.366MB for 791056-byte allocation
+D/dalvikvm( 9005): GC_FOR_ALLOC freed <1K, 18% free 27408K/33027K, paused 30ms
+I/message ( 9005): message  :{"ret":"0","palyURL":"http://live.feifeikan.com/live/coship,YSGQHD.m3u8?fmt=x264_0k_mpegts&sora=1&sk=C74EB362D255AAD222B79080A45CF19D&UUID=b3c1f7a1-7732-46b5-b12e-a6853a84275a&userCode=default&userName=default&spCode=484581254562&productCode=2&resourceCode=10045&subId=123&resourceName=&authType=2","retInfo":""}
+I/System.out( 9005): message--->{"ret":"0","palyURL":"http://live.feifeikan.com/live/coship,YSGQHD.m3u8?fmt=x264_0k_mpegts&sora=1&sk=C74EB362D255AAD222B79080A45CF19D&UUID=b3c1f7a1-7732-46b5-b12e-a6853a84275a&userCode=default&userName=default&spCode=484581254562&productCode=2&resourceCode=10045&subId=123&resourceName=&authType=2","retInfo":""}
+V/TabletStatusBar( 1222): setLightsOn(true)
+D/Downloader(  739): [downloadThread]Downloader::removeTask  
+E/dvb_OTTPlayer( 9005): [surfaceDestroyed]  holder:android.view.SurfaceView$4@41509e00
+D/IMMPlayer(  739): stMedia.u32FileID:152048
+D/IMMPlayer(  739): stMedia.u32FileSecondID:0
+D/IMMPlayer(  739): stMedia.u32FileThirdID:0
+D/IMMPlayer(  739): stMedia.u32FileFourthID:0
+I//lib/ld-linux.so.3(  743): [24]:OFF; [25]:OFF; [26]:OFF; [27]:ON
+I//lib/ld-linux.so.3(  743): [28]:ON; [29]:ON; [30]:ON; [31]:OFF
+I//lib/ld-linux.so.3(  743): [32]:OFF; [33]:ON; [34]:ON; [35]:OFF
+I//lib/ld-linux.so.3(  743): [36]:OFF; [37]:OFF; [38]:OFF; [39]:ON
+I//lib/ld-linux.so.3(  743): [40]:ON; [41]:OFF; [42]:OFF; [43]:OFF
+I//lib/ld-linux.so.3(  743): [44]:OFF; [45]:OFF; [46]:OFF; [47]:OFF
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/208?slice=044658   
+D/DataSource_M3U8(  739): [M3U8] file: NULL line 
+D/DataSource_M3U8(  739): HLS=====>> Live Stream!!!!
+D/MstarPlayer(  739): 
+D/MstarPlayer(  739):  getCurrentPosition is forbidden!!!  
+I/ServiceAdapter( 9005): dvb_ResultCallBack: get stb vol:
+D/OtOService( 2263): VOB　sync :com.aidufei.otoService.PlayEvent@41afba18
+E/ServerAdapter( 2263): ServerAdapter:0
+E/ServerHandler( 2263): Send:com.aidufei.protocol.oto.OtOStatusRequest@41558850
+D/ServerHandler( 2263): ServerHandler send request:103:{"ResourceInfo":{"ProductCode":"","PlayType":2,"ResourceCode":"","ResourceName":" "},"Status":{"ReturnCode":100,"Description":"ok"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 2263): ServerHandler send DatagramPacket:/192.168.1.104-[B@41afe7e0
+D/OtOService( 2263): send callback obj: com.aidufei.otoService.IServiceCallBack$Stub$Proxy@41aee7c0
+E/ServerAdapter( 2263): ServerAdapter:0
+E/ServerHandler( 2263): Send:com.aidufei.protocol.oto.OtOStatusRequest@42025760
+D/ServerHandler( 2263): ServerHandler send request:103:{"Status":{"ReturnCode":99,"Description":"status sync processing"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 2263): ServerHandler send DatagramPacket:/192.168.1.104-[B@41afd738
+D/MstarPlayer(  739): 
+D/MstarPlayer(  739):  getCurrentPosition is forbidden!!!  
+D/MstarPlayer(  739): 
+D/MstarPlayer(  739):  getCurrentPosition is forbidden!!!  
+I/DVB_main( 9005): onDestroy
+I/dvb_OTTPlayer( 9005): [stop] stop
+D/MstarPlayer(  739): ==========MstarPlayer::reset : 0x2068de0==========
+D/MstarPlayer(  739): 
+D/MstarPlayer(  739):  This operation is forbidden!!!  
+I/dvb_LoadTips( 9005): [gethandler] objInstance:com.coship.dvbplayer.LoadTips@415c45d0
+I/dvb_LoadTips( 9005): [gethandler] objInstance  mHandler:Handler (com.coship.dvbplayer.LoadTips$1) {414f3200}
+I/dvb_LoadTips( 9005): [gethandler] objInstance:com.coship.dvbplayer.LoadTips@415c45d0
+I/dvb_LoadTips( 9005): [gethandler] objInstance  mHandler:Handler (com.coship.dvbplayer.LoadTips$1) {414f3200}
+D/MstarPlayer(  739): ==========MstarPlayer::reset : 0x2068de0==========
+D/MstarPlayer(  739): 
+D/MstarPlayer(  739):  This operation is forbidden!!!  
+D/ServiceAdapter( 9005): onDestroy.
+V/OtOService( 2263): unregisterCallback:
+D/MstarPlayer(  739): 
+D/MstarPlayer(  739):  getCurrentPosition is forbidden!!!  
+I/dvb_LoadTips( 9005): [mHandler] ~~~~~~~~~~~~~~~~~~~~~~~~~mHandler:Handler (com.coship.dvbplayer.LoadTips$1) {414f3200} msg.what:5 msg.obj:null
+D/MstarPlayer(  739): 
+D/MstarPlayer(  739):  getCurrentPosition is forbidden!!!  
+D/MstarPlayer(  739): 
+D/MstarPlayer(  739):  getCurrentPosition is forbidden!!!  
+D/MstarPlayer(  739): 
+D/MstarPlayer(  739):  getCurrentPosition is forbidden!!!  
+D/DataSource_M3U8(  739): u32HLSSreamNum[0]===>u32BandWidth:800000 
+D/DataSource_M3U8(  739): getHLSPlayListInex  DownloadBandWidth:4027   uInDex=0
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): ============Begin to get playlist !!=====================
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/MstarPlayer(  739): 
+D/MstarPlayer(  739):  getCurrentPosition is forbidden!!!  
+D/MstarPlayer(  739): 
+D/MstarPlayer(  739):  getCurrentPosition is forbidden!!!  
+I//lib/ld-linux.so.3(  743): Blocking Read: 1202, size: 0x20000.
+D/MstarPlayer(  739): 
+D/MstarPlayer(  739):  getCurrentPosition is forbidden!!!  
+D/MstarPlayer(  739): 
+D/MstarPlayer(  739):  getCurrentPosition is forbidden!!!  
+D/MstarPlayer(  739): 
+D/MstarPlayer(  739):  getCurrentPosition is forbidden!!!  
+D/MstarPlayer(  739): 
+D/MstarPlayer(  739):  getCurrentPosition is forbidden!!!  
+D/MediaControler( 9005): onDestroy
+D/MediaControler( 9005): stop
+E/MediaPlayer( 9005): stop called in state 4
+E/MediaPlayer( 9005): error (-38, 0)
+D/MstarPlayer(  739): ==========MstarPlayer::reset : 0x2bd5610==========
+D/MstarPlayer(  739): request to exit async thread
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): Warning : ForceContentSourceReset
+I//lib/ld-linux.so.3(  743): Blocking Read: 200, size: 0x20000.
+I//lib/ld-linux.so.3(  743): Bitrate = 262144 Byte/s, Duration = -1 ms
+I//lib/ld-linux.so.3(  743): PackSize = 28200 Byte.
+V/OtORequest( 2263): get command=103
+V/OtORequest( 2263): parse OtORequest: cmd=103 paramLength=0 bufferlen=8
+D/OtOService( 2263): client request get status.playType:2
+D/OtOService( 2263): 2222
+E/ServerAdapter( 2263): ServerAdapter:0
+E/ServerHandler( 2263): Send:com.aidufei.protocol.oto.OtOStatusRequest@41664460
+D/ServerHandler( 2263): ServerHandler send request:103:{"Status":{"ReturnCode":101,"Description":"status sync failed"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 2263): ServerHandler send DatagramPacket:/192.168.1.104-[B@41ba0da0
+D/MonitorCw880( 4659): currentRemoteHost is null ,continue
+E/ServerHandler( 2263): receiveRequest
+V/OtORequest( 2263): parseCommand
+V/OtORequest( 2263): get command=103
+V/OtORequest( 2263): parse OtORequest: cmd=103 paramLength=0 bufferlen=8
+D/OtOService( 2263): client request get status.playType:2
+D/OtOService( 2263): 2222
+E/ServerAdapter( 2263): ServerAdapter:0
+E/ServerHandler( 2263): Send:com.aidufei.protocol.oto.OtOStatusRequest@41afb1c8
+D/ServerHandler( 2263): ServerHandler send request:103:{"Status":{"ReturnCode":101,"Description":"status sync failed"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 2263): ServerHandler send DatagramPacket:/192.168.1.104-[B@41607658
+D/dalvikvm( 1693): GC_CONCURRENT freed 2197K, 20% free 25775K/31875K, paused 2ms+5ms
+D/HomePlayerLib( 1693): hostaddress count is 1
+E/ServerHandler( 2263): receiveRequest
+V/OtORequest( 2263): parseCommand
+V/OtORequest( 2263): get command=103
+V/OtORequest( 2263): parse OtORequest: cmd=103 paramLength=0 bufferlen=8
+D/OtOService( 2263): client request get status.playType:2
+D/OtOService( 2263): 2222
+E/ServerAdapter( 2263): ServerAdapter:0
+E/ServerHandler( 2263): Send:com.aidufei.protocol.oto.OtOStatusRequest@41833d58
+D/ServerHandler( 2263): ServerHandler send request:103:{"Status":{"ReturnCode":101,"Description":"status sync failed"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 2263): ServerHandler send DatagramPacket:/192.168.1.104-[B@421f6b70
+D/dalvikvm( 1693): GC_CONCURRENT freed 1949K, 20% free 25765K/31875K, paused 2ms+5ms
+D/dalvikvm( 1693): GC_CONCURRENT freed 1944K, 19% free 25868K/31875K, paused 2ms+5ms
+E/ServerHandler( 2263): receiveRequest
+V/OtORequest( 2263): parseCommand
+V/OtORequest( 2263): get command=103
+V/OtORequest( 2263): parse OtORequest: cmd=103 paramLength=0 bufferlen=8
+D/OtOService( 2263): client request get status.playType:2
+D/OtOService( 2263): 2222
+E/ServerAdapter( 2263): ServerAdapter:0
+E/ServerHandler( 2263): Send:com.aidufei.protocol.oto.OtOStatusRequest@418463e0
+D/ServerHandler( 2263): ServerHandler send request:103:{"Status":{"ReturnCode":101,"Description":"status sync failed"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 2263): ServerHandler send DatagramPacket:/192.168.1.104-[B@41826220
+D/MonitorCw880( 4659): currentRemoteHost is null ,continue
+D/MonitorCw880( 4659): currentRemoteHost is null ,continue
+D/HomePlayerLib( 1693): hostaddress count is 1
+D/dalvikvm( 1693): GC_CONCURRENT freed 2048K, 19% free 26076K/31875K, paused 3ms+5ms
+D/dalvikvm( 1693): GC_CONCURRENT freed 2252K, 19% free 25855K/31875K, paused 2ms+4ms
+D/MonitorCw880( 4659): currentRemoteHost is null ,continue
+D/dhcpcd  ( 4861): sending DHCP_DISCOVER with xid 0xa4a26a6, next in 64.39 seconds
+D/MonitorCw880( 4659): currentRemoteHost is null ,continue
+E/dhcpcd  ( 4861): timed out
+D/dhcpcd  ( 4861): executing `/system/etc/dhcpcd/dhcpcd-run-hooks', reason FAIL
+D/dhcpcd  ( 4861): broadcasting for a lease
+D/dhcpcd  ( 4861): sending DHCP_DISCOVER with xid 0xe6742ae0, next in 4.79 seconds
+D/HomePlayerLib( 1693): hostaddress count is 1
+D/dalvikvm( 1693): GC_CONCURRENT freed 2036K, 19% free 26036K/31875K, paused 3ms+5ms
+D/dalvikvm( 1693): GC_CONCURRENT freed 2221K, 20% free 25803K/31875K, paused 2ms+5ms
+D/MonitorCw880( 4659): currentRemoteHost is null ,continue
+D/dhcpcd  ( 4861): sending DHCP_DISCOVER with xid 0xe6742ae0, next in 8.81 seconds
+D/MonitorCw880( 4659): currentRemoteHost is null ,continue
+D/HomePlayerLib( 1693): hostaddress count is 1
+D/MonitorCw880( 4659): currentRemoteHost is null ,continue
+D/dalvikvm( 1693): GC_CONCURRENT freed 1972K, 19% free 25924K/31875K, paused 2ms+5ms
+D/dalvikvm( 1693): GC_CONCURRENT freed 2088K, 19% free 25883K/31875K, paused 2ms+5ms
+D/dhcpcd  ( 4861): sending DHCP_DISCOVER with xid 0xe6742ae0, next in 15.14 seconds
+D/MonitorCw880( 4659): currentRemoteHost is null ,continue
+D/MonitorCw880( 4659): currentRemoteHost is null ,continue
+D/HomePlayerLib( 1693): hostaddress count is 1
+D/dalvikvm( 1693): GC_CONCURRENT freed 2049K, 19% free 25875K/31875K, paused 3ms+4ms
+D/dalvikvm( 1693): GC_CONCURRENT freed 2054K, 19% free 25866K/31875K, paused 2ms+4ms
+D/dalvikvm( 1693): GC_CONCURRENT freed 2045K, 20% free 25780K/31875K, paused 3ms+5ms
+D/MonitorCw880( 4659): currentRemoteHost is null ,continue
+D/dhcpcd  ( 4861): sending DHCP_DISCOVER with xid 0xe6742ae0, next in 31.58 seconds
+D/MonitorCw880( 4659): currentRemoteHost is null ,continue
+D/HomePlayerLib( 1693): hostaddress count is 1
+D/dalvikvm( 1693): GC_CONCURRENT freed 1955K, 20% free 25757K/31875K, paused 2ms+5ms
+D/dalvikvm( 1693): GC_CONCURRENT freed 1936K, 20% free 25813K/31875K, paused 3ms+5ms
+D/MonitorCw880( 4659): currentRemoteHost is null ,continue
+D/MonitorCw880( 4659): currentRemoteHost is null ,continue
+D/HomePlayerLib( 1693): hostaddress count is 1
+D/dalvikvm( 1693): GC_CONCURRENT freed 1994K, 19% free 25862K/31875K, paused 2ms+4ms
+D/dalvikvm( 1693): GC_CONCURRENT freed 2040K, 20% free 25772K/31875K, paused 2ms+4ms
+D/MonitorCw880( 4659): currentRemoteHost is null ,continue
+D/MonitorCw880( 4659): currentRemoteHost is null ,continue
+D/HomePlayerLib( 1693): hostaddress count is 1
+D/dalvikvm( 1693): GC_CONCURRENT freed 1939K, 19% free 25932K/31875K, paused 2ms+5ms
+D/dalvikvm( 1693): GC_CONCURRENT freed 2118K, 19% free 25862K/31875K, paused 2ms+5ms
+D/MonitorCw880( 4659): currentRemoteHost is null ,continue
+D/dhcpcd  ( 4861): sending DHCP_DISCOVER with xid 0xe6742ae0, next in 64.09 seconds
+D/MonitorCw880( 4659): currentRemoteHost is null ,continue
+E/dhcpcd  ( 4861): timed out
+D/dhcpcd  ( 4861): executing `/system/etc/dhcpcd/dhcpcd-run-hooks', reason FAIL
+D/dhcpcd  ( 4861): broadcasting for a lease
+D/dhcpcd  ( 4861): sending DHCP_DISCOVER with xid 0x89da8660, next in 4.73 seconds
+D/HomePlayerLib( 1693): hostaddress count is 1
+D/dalvikvm( 1693): GC_CONCURRENT freed 2048K, 19% free 25856K/31875K, paused 3ms+5ms
+D/dalvikvm( 1693): GC_CONCURRENT freed 2041K, 20% free 25739K/31875K, paused 2ms+4ms
+D/MonitorCw880( 4659): currentRemoteHost is null ,continue
+D/dhcpcd  ( 4861): sending DHCP_DISCOVER with xid 0x89da8660, next in 8.19 seconds
+D/MonitorCw880( 4659): currentRemoteHost is null ,continue
+E/ServerHandler( 2263): receiveRequest
+V/OtORequest( 2263): parseCommand
+V/OtORequest( 2263): get command=101
+V/OtORequest( 2263): parse OtORequest: cmd=101 paramLength=157 bufferlen=165
+V/OtORequest( 2263): parse param: param={"ResourceInfo":{"ShiftEnd":0,"PlayType":3,"ResourceName":" ","ProductCode":"","ShiftTime":1363921200,"ResourceCode":"10046"},"UserCode":"lylyly","SubID":""}bID":""}��
+E/ServerAdapter( 2263): onPlay ---------
+E/ServerAdapter( 2263): onPlay =========
+E/OtOService( 2263): client request play. info=com.aidufei.protocol.oto.ResourceInfo@41acc288
+D/OtOService( 2263): PLAY_VOB_SHIFT playType：3
+D/OtOService( 2263): PLAY_VOB_SHIFT delay:0
+D/OtOService( 2263): PLAY_VOB_SHIFT shifttime:1363921200
+D/OtOService( 2263): PLAY_VOB_SHIFT shiftend:0
+D/OtOService( 2263): PLAY_VOB_SHIFT timecode:0
+I/ActivityManager( 1114): START {flg=0x78000000 cmp=com.coship.dvbplayer/.main (has extras)} from pid 2263
+I/DVB_main( 9005): [onCreate] begin
+E/ServerAdapter( 2263): play
+D/OpenGLRenderer( 2263): Flushing caches (mode 1)
+I/DVB_main( 9005): onStart
+I/DVB_main( 9005): onResume
+E/ServerHandler( 2263): Send:com.aidufei.protocol.oto.OtOPlayRequest@422fb708
+V/OtOPlayRequest( 2263): Play Request: {"ResourceInfo":{"ShiftEnd":0,"PlayType":3,"ResourceName":" ","ProductCode":"","ShiftTime":1363921200,"ResourceCode":"10046"},"Status":{"ReturnCode":100,"Description":"start to play"}}
+D/ServerHandler( 2263): ServerHandler send request:101:{"ResourceInfo":{"ShiftEnd":0,"PlayType":3,"ResourceName":" ","ProductCode":"","ShiftTime":1363921200,"ResourceCode":"10046"},"Status":{"ReturnCode":100,"Description":"start to play"}}
+V/OtOPlayRequest( 2263): Play Request: {"ResourceInfo":{"ShiftEnd":0,"PlayType":3,"ResourceName":" ","ProductCode":"","ShiftTime":1363921200,"ResourceCode":"10046"},"Status":{"ReturnCode":100,"Description":"start to play"}}
+V/ServerHandler( 2263): ServerHandler send DatagramPacket:/192.168.1.104-[B@41ad4cf8
+D/ServiceAdapter( 9005): start bind service.
+I/dvb_OTTPlayer( 9005): [getInstance] begin..............
+I/dvb_OTTPlayer( 9005): [init]  init begin .........
+D/OpenGLRenderer( 2263): Flushing caches (mode 0)
+D/dalvikvm( 9005): GC_FOR_ALLOC freed 398K, 17% free 27711K/33027K, paused 43ms
+D/dalvikvm( 9005): GC_FOR_ALLOC freed 13K, 16% free 28121K/33411K, paused 36ms
+D/dalvikvm( 9005): GC_FOR_ALLOC freed <1K, 16% free 28371K/33667K, paused 35ms
+I/dvb_OTTService( 9005): [getservicelist] begin: servicetype:HDTV
+E/dvb_OTTService( 9005): [getlist] load service buffer,num:1  name:CCTV-1(高清)
+E/dvb_OTTService( 9005): [getlist] load service buffer,num:2  name:CCTV-高清综合
+E/dvb_OTTService( 9005): [getlist] load service buffer,num:3  name:北京卫视(高清)
+E/dvb_OTTService( 9005): [getlist] load service buffer,num:4  name:湖南卫视(高清)
+E/dvb_OTTService( 9005): [getlist] load service buffer,num:5  name:浙江卫视(高清)
+E/dvb_OTTService( 9005): [getlist] load service buffer,num:6  name:江苏卫视(高清)
+E/dvb_OTTService( 9005): [getlist] load service buffer,num:7  name:深圳卫视(高清)
+E/dvb_OTTService( 9005): [getlist] load service buffer,num:8  name:广东卫视(高清)
+E/dvb_OTTService( 9005): [getlist] load service buffer,num:9  name:东方卫视(高清)
+I/dvb_OTTService( 9005): [play] begin
+I/dvb_OTTPlayer( 9005): [isPlaying ] :false
+I/dvb_OTTPlayer( 9005): [play] mediaplayer is null creat it .....
+I/dvb_OTTPlayer( 9005): [initMediaplayer] new MediaPlayer END....  mediaplayer:android.media.MediaPlayer@4186f658
+D/dvb_OTTPlayer( 9005): Send broadcast: channelCode 10045 type 2
+I/dvb_OTTPlayer( 9005): [play] code :10045 name:CCTV-高清综合
+I/dvb_LoadTips( 9005): [gethandler] objInstance:com.coship.dvbplayer.LoadTips@42de0340
+I/dvb_LoadTips( 9005): [gethandler] objInstance  mHandler:Handler (com.coship.dvbplayer.LoadTips$1) {42e99e10}
+D/OtOService( 2263): TVContentReceiver: ACTION_TV_CONTENT_CHANGED, playType: 2 ,resourceCode: 10045
+I/dvb_LoadTips( 9005): [gethandler] objInstance:com.coship.dvbplayer.LoadTips@42de0340
+I/dvb_LoadTips( 9005): [gethandler] objInstance  mHandler:Handler (com.coship.dvbplayer.LoadTips$1) {42e99e10}
+D/ServerAdapter( 2263): Server addr: http://wasu.feifeikan.com:8080/
+E/ServerHandler( 2263): Send:com.aidufei.protocol.oto.OtOContentRequest@415cfb40
+D/ServerHandler( 2263): ServerHandler send request:200:{"ResourceInfo":{"ProductCode":"","PlayType":2,"ResourceCode":"10045","ResourceName":""},"Status":{"ReturnCode":100,"Description":"TVContentChanged"},"ServerAddr":"http:\/\/wasu.feifeikan.com:8080\/","Volume":-1}
+V/ServerHandler( 2263): ServerHandler send DatagramPacket:/192.168.1.104-[B@4187c690
+I/TAG     ( 9005): ------init---------1
+I/TAG     ( 9005): ------init---------2
+I/TAG     ( 9005): ------init---------3
+I/TAG     ( 9005): ------init---------4
+I/TAG     ( 9005): ------init---------5
+I/TAG     ( 9005): ------init---------6
+I/TAG     ( 9005): ------init---------7
+I/TAG     ( 9005): ------init---------8
+I/TAG     ( 9005): ------init---------9
+I/dvb_Dvblist( 9005): [setVisibility]  dvblist_view show:false
+I/dvb_OTTPlayer( 9005): [GetPlayURLThread] begin code:10045
+I/message ( 9005): requestUrl  :http://wasu.feifeikan.com:8080/msis/getPlayURL?version=V001&terminalType=2&resolution=1280*720&resourceCode=10045&productCode=&userCode=&playType=2&delay=0&shifttime=0&shiftend=0&timecode=0&authKey=de89ef2e0fec1850b3c4537395696785
+I/dvb_Dvblist( 9005): [setVisibility]  dvblist_view show:true
+D/dalvikvm( 9005): GC_FOR_ALLOC freed 1725K, 19% free 27798K/34115K, paused 35ms
+I/DVB_main( 9005): [checkbundle] channelResourceCode:10046 playType:3
+I/DVB_main( 9005): [checkbundle]:   get channelResourceCode:10046++++++++++playType+++++++++++3
+I/DVB_main( 9005): [handleIntent] get intent ,playType:3
+I/message ( 9005): requestUrl  :http://wasu.feifeikan.com:8080/msis/getSystemTime?version=V001&terminalType=2&resolution=1280*720&authKey=9f2aa3c3a05d8276610141ecc406a4a0
+I/Process ( 1114): Sending signal. PID: 9005 SIG: 3
+I/dalvikvm( 9005): threadid=3: reacting to signal 3
+I/dalvikvm( 9005): Wrote stack traces to '/data/anr/traces.txt'
+I/message ( 9005): message  :{"ret":"0","palyURL":"http://live.feifeikan.com/live/coship,YSGQHD.m3u8?fmt=x264_0k_mpegts&sora=1&sk=076A801EF28C27F68A000DED78E58A9D&UUID=b1e59121-ef3a-412f-b708-ac5b37cbe31a&userCode=default&userName=default&spCode=484581254562&productCode=2&resourceCode=10045&subId=123&resourceName=&authType=2","retInfo":""}
+I/System.out( 9005): message--->{"ret":"0","palyURL":"http://live.feifeikan.com/live/coship,YSGQHD.m3u8?fmt=x264_0k_mpegts&sora=1&sk=076A801EF28C27F68A000DED78E58A9D&UUID=b1e59121-ef3a-412f-b708-ac5b37cbe31a&userCode=default&userName=default&spCode=484581254562&productCode=2&resourceCode=10045&subId=123&resourceName=&authType=2","retInfo":""}
+E/dvb_OTTPlayer( 9005): [GetPlayURLThread]  url:http://live.feifeikan.com/live/coship,YSGQHD.m3u8?fmt=x264_0k_mpegts&sora=1&sk=076A801EF28C27F68A000DED78E58A9D&UUID=b1e59121-ef3a-412f-b708-ac5b37cbe31a&userCode=default&userName=default&spCode=484581254562&productCode=2&resourceCode=10045&subId=123&resourceName=&authType=2
+I/dvb_OTTPlayer( 9005): [play] String path:http://live.feifeikan.com/live/coship,YSGQHD.m3u8?fmt=x264_0k_mpegts&sora=1&sk=076A801EF28C27F68A000DED78E58A9D&UUID=b1e59121-ef3a-412f-b708-ac5b37cbe31a&userCode=default&userName=default&spCode=484581254562&productCode=2&resourceCode=10045&subId=123&resourceName=&authType=2
+D/MediaPlayerService(  739):  Create MstarPlayer
+D/MstarPlayer(  739): Create MstarPlayer:0x2068de0,Version:Release Mstar player lib Version:0015,Base CL:690305  Date:2012/11/06
+D/MstarPlayer(  739): TV Local Time :  Fri Mar 22 14:21:38 2013
+D/MstarPlayer(  739):  
+D/MstarPlayer(  739): setInstance: 0x2068de0
+D/MstarPlayer(  739): mstar player set listener
+D/MstarPlayer(  739): MstarPlayer::initCheck
+E/dvb_OTTPlayer( 9005): [GetPlayURLThread]  IllegalArgumentException
+I/dvb_OTTPlayer( 9005): [stop] stop
+D/MstarPlayer(  739): ==========MstarPlayer::reset : 0x2068de0==========
+D/MstarPlayer(  739): MstarPlayer::clearAllSource
+D/MstarPlayer(  739): setInstance: 0x0
+D/MstarPlayer(  739): reset done
+I/dvb_LoadTips( 9005): [gethandler] objInstance:com.coship.dvbplayer.LoadTips@42de0340
+I/dvb_LoadTips( 9005): [gethandler] objInstance  mHandler:Handler (com.coship.dvbplayer.LoadTips$1) {42e99e10}
+I/dvb_LoadTips( 9005): [gethandler] objInstance:com.coship.dvbplayer.LoadTips@42de0340
+I/dvb_LoadTips( 9005): [gethandler] objInstance  mHandler:Handler (com.coship.dvbplayer.LoadTips$1) {42e99e10}
+W/System.err( 9005): java.lang.IllegalArgumentException: The surface has been released
+W/System.err( 9005):    at android.media.MediaPlayer._setVideoSurface(Native Method)
+W/System.err( 9005):    at android.media.MediaPlayer.setDisplay(MediaPlayer.java:632)
+W/System.err( 9005):    at com.coship.dvbplayer.player.OTTPlayer.play(OTTPlayer.java:173)
+W/System.err( 9005):    at com.coship.dvbplayer.player.OTTPlayer$GetPlayURLThread.run(OTTPlayer.java:205)
+D/MstarPlayer(  739): ==========MstarPlayer::reset : 0x2068de0==========
+D/MstarPlayer(  739): MstarPlayer::clearAllSource
+D/MstarPlayer(  739): setInstance: 0x0
+D/MstarPlayer(  739): reset done
+D/MstarPlayer(  739): 
+D/MstarPlayer(  739): =======Destroy mstar player  : 0x2068de0========
+I/message ( 9005): message  :{"ret":"0","retInfo":"","dateTime":"2013-03-22 14:21:41"}
+I/System.out( 9005): message--->{"ret":"0","retInfo":"","dateTime":"2013-03-22 14:21:41"}
+V/Tools   ( 9005): ++++++++++currentDate+++++++++2013-03-22 14:21:41
+V/TimeShiftPlay( 9005): +++++lastdatestring++++++2013-03-22
+E/dvb_EpgInterface( 9005): [getEpgWeek]  data:2013-03-22
+E/dvb_EpgInterface( 9005): [getEpgWeek]  epg list empty,So to obtain data epg list
+I/message ( 9005): requestUrl  :http://wasu.feifeikan.com:8080/msis/getChannelProgram?version=V001&terminalType=2&resolution=1280*720&userCode=&channelResourceCode=10046&pageSize=0&curPage=0&beginTime=2013-03-22%2000:00:00&endTime=2013-03-22%2023:59:59&authKey=7a6ec223cb2705544e157bfe7ca26d65
+D/ServiceAdapter( 9005): serviceConnection:com.aidufei.otoService.IotoService$Stub$Proxy@4153c478
+V/OtOService( 2263): registerCallback:com.aidufei.otoService.IServiceCallBack$Stub$Proxy@417fb4c0
+I/dvb_LoadTips( 9005): [mHandler] ~~~~~~~~~~~~~~~~~~~~~~~~~mHandler:Handler (com.coship.dvbplayer.LoadTips$1) {42e99e10} msg.what:3 msg.obj:CCTV-高清综合
+I/dvb_LoadTips( 9005): [mHandler] ~~~~~~~~~~~~~~~~~~~~~~~~~mHandler:Handler (com.coship.dvbplayer.LoadTips$1) {42e99e10} msg.what:4 msg.obj:null
+V/TabletStatusBar( 1222): setLightsOn(true)
+E/dvb_OTTPlayer( 9005): [surfaceCreated]  holder:android.view.SurfaceView$4@4139eb60
+E/dvb_OTTPlayer( 9005): [surfaceChanged]  mediaplayer is null
+E/dvb_OTTPlayer( 9005): [surfaceChanged]  holder:android.view.SurfaceView$4@4139eb60  format:4  width:1280 height:720
+E/dvb_OTTPlayer( 9005): [surfaceChanged]  mediaplayer is null
+I/ActivityManager( 1114): Displayed com.coship.dvbplayer/.main: +816ms
+W/InputManagerService( 1114): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@4169c008 (uid=1000 pid=2263)
+I/message ( 9005): message  :{"ret":"0","pageSize":0,"retInfo":"","program":[{"programId":67234,"eventDate":"2013-03-22","beginTime":"2013-03-22 00:00:00","endTime":"2013-03-22 00:03:00","eventName":"广宣时段","eventDesc":null,"status":1,"assetID":"TWSX0000067234000000","volumeName":"85864","channelResourceCode":"10046","isBook":0,"videoType":"1","channelID":"BJWSHD","isRecommend":0,"playCount":0,"keyWord":"广宣时段","channelName":null,"poster":[]},{"programId":67235,"eventDate":"2013-03-22","beginTime":"2013-03-22 00:03:00","endTime":"2013-03-22 00:28:00","eventName":"北京新闻","eventDesc":null,"status":1,"assetID":"TWSX0000067235000300","volumeName":"85864","channelResourceCode":"10046","isBook":0,"videoType":"1","channelID":"BJWSHD","isRecommend":0,"playCount":0,"keyWord":"北京新闻","channelName":null,"poster":[]},{"programId":67236,"eventDate":"2013-03-22","beginTime":"2013-03-22 00:28:00","endTime":"2013-03-22 00:30:00","eventName":"晚间气象服务","eventDesc":null,"status":1,"assetID":"TWSX0000067236002800","volumeName":"85864","channelResourceCode":"10046","isBook":0,"videoType":"1","channelID":"BJWSHD","isRecommend":0,"playCount":0,"keyWord":"晚间气象服务","channelName":null,"poster":[]},{"programId":67237,"eventDate":"2013-03-22","beginTime":"2013-03-22 00:30:00","endTime":"2013-03-22 00:33:00","eventName":"广宣时段","eventDesc":null,"status":1,"assetID":"TWSX0000067237003000","volumeName":"85864","channelResourceCode":"10046","isBook":0,"videoType":"1","channelID":"BJWSHD","isRecommend":0,"playCount":0,"keyWord":"广宣时段","channelName":null,"poster":[]},{"programId":67238,"eventDate":"2013-03-22","beginTime":"2013-03-22 00:33:00","endTime":"2013-03-22 01:17:00","eventName":"孤军英雄(1)","eventDesc":null,"status":1,"assetID":"TWSX0000067238003300","volumeName":"85864","channelResourceCode":"10046","isBook":0,"videoType":"1","channelID":"BJWSHD","isRecommend":0,"playCount":0,"keyWord":"孤军英雄(1)","channelName":null,"poster":[]},{"programId":67239,"eventDate":"2013-03-22","beginTime":"2013-03-22 01:17:00","endTime":"2013-03-22 01:18:00","eventName":"广宣时段","eventDesc":null,"status":1,"assetID":"TWSX0000067239011700","volumeName":"85864","channelResourceCode":"10046","isBook":0,"videoType":"1","channelID":"BJWSHD","isRecommend":0,"playCount":0,"keyWord":"广宣时段","channelName":null,"poster":[]},{"programId":67240,"eventDate":"2013-03-22","beginTime":"2013-03-22 01:18:00","endTime":"2013-03-22 02:01:00","eventName":"孤军英雄(2)","eventDesc":null,"status":1,"assetID":"TWSX0000067240011800","volumeName":"85864","channelResourceCode":"10046","isBook":0,"videoType":"1","channelID":"BJWSHD","isRecommend":0,"playCount":0,"keyWord":"孤军英雄(2)","channelName":null,"poster":[]},{"programId":67241,"eventDate":"2013-03-22","beginTime":"2013-03-22 02:01:00","endTime":"2013-03-22 02:02:00","eventName":"广宣时段","eventDesc":null,"status":1,"assetID":"TWSX0000067241020100","volumeName":"85864","channelResourceCode":"10046","isBook":0,"videoType":"1","channelID":"BJWSHD","isRecommend":0,"playCount":0,"keyWord":"广宣时段","channelName":null,"poster":[]},{"programId":67242,"eventDate":"2013-03-22","beginTime":"2013-03-22 02:02:00","endTime":"2013-03-22 02:46:00","eventName":"孤军英雄(3)","eventDesc":null,"status":1,"assetID":"TWSX0000067242020200","volumeName":"85864","channelResourceCode":"10046","isBook":0,"videoType":"1","channelID":"BJWSHD","isRecommend":0,"playCount":0,"keyWord":"孤军英雄(3)","channelName":null,"poster":[]},{"programId":67243,"eventDate":"2013-03-22","beginTime":"2013-03-22 02:46:00","endTime":"2013-03-22 02:47:00","eventName":"广宣时段","eventDesc":null,"status":1,"assetID":"TWSX0000067243024600","volumeName":"85864","channelResourceCode":"10046","isBook":0,"videoType":"1","channelID":"BJWSHD","isRecommend":0,"playCount":0,"keyWord":"广宣时段","channelName":null,"poster":[]},{"programId":67244,"eventDate":"2013-03-22","beginTime":"2013-03-22 02:47:00","endTime":"2013-03-22 03:31:00","eventName":"孤军英雄(4)
+I/System.out( 9005): message--->{"ret":"0","pageSize":0,"retInfo":"","program":[{"programId":67234,"eventDate":"2013-03-22","beginTime":"2013-03-22 00:00:00","endTime":"2013-03-22 00:03:00","eventName":"广宣时段","eventDesc":null,"status":1,"assetID":"TWSX0000067234000000","volumeName":"85864","channelResourceCode":"10046","isBook":0,"videoType":"1","channelID":"BJWSHD","isRecommend":0,"playCount":0,"keyWord":"广宣时段","channelName":null,"poster":[]},{"programId":67235,"eventDate":"2013-03-22","beginTime":"2013-03-22 00:03:00","endTime":"2013-03-22 00:28:00","eventName":"北京新闻","eventDesc":null,"status":1,"assetID":"TWSX0000067235000300","volumeName":"85864","channelResourceCode":"10046","isBook":0,"videoType":"1","channelID":"BJWSHD","isRecommend":0,"playCount":0,"keyWord":"北京新闻","channelName":null,"poster":[]},{"programId":67236,"eventDate":"2013-03-22","beginTime":"2013-03-22 00:28:00","endTime":"2013-03-22 00:30:00","eventName":"晚间气象服务","eventDesc":null,"status":1,"assetID":"TWSX0000067236002800","volumeName":"85864","channelResourceCode":"10046","isBook":0,"videoType":"1","channelID":"BJWSHD","isRecommend":0,"playCount":0,"keyWord":"晚间气象服务","channelName":null,"poster":[]},{"programId":67237,"eventDate":"2013-03-22","beginTime":"2013-03-22 00:30:00","endTime":"2013-03-22 00:33:00","eventName":"广宣时段","eventDesc":null,"status":1,"assetID":"TWSX0000067237003000","volumeName":"85864","channelResourceCode":"10046","isBook":0,"videoType":"1","channelID":"BJWSHD","isRecommend":0,"playCount":0,"keyWord":"广宣时段","channelName":null,"poster":[]},{"programId":67238,"eventDate":"2013-03-22","beginTime":"2013-03-22 00:33:00","endTime":"2013-03-22 01:17:00","eventName":"孤军英雄(1)","eventDesc":null,"status":1,"assetID":"TWSX0000067238003300","volumeName":"85864","channelResourceCode":"10046","isBook":0,"videoType":"1","channelID":"BJWSHD","isRecommend":0,"playCount":0,"keyWord":"孤军英雄(1)","channelName":null,"poster":[]},{"programId":67239,"eventDate":"2013-03-22","beginTime":"2013-03-22 01:17:00","endTime":"2013-03-22 01:18:00","eventName":"广宣时段","eventDesc":null,"status":1,"assetID":"TWSX0000067239011700","volumeName":"85864","channelResourceCode":"10046","isBook":0,"videoType":"1","channelID":"BJWSHD","isRecommend":0,"playCount":0,"keyWord":"广宣时段","channelName":null,"poster":[]},{"programId":67240,"eventDate":"2013-03-22","beginTime":"2013-03-22 01:18:00","endTime":"2013-03-22 02:01:00","eventName":"孤军英雄(2)","eventDesc":null,"status":1,"assetID":"TWSX0000067240011800","volumeName":"85864","channelResourceCode":"10046","isBook":0,"videoType":"1","channelID":"BJWSHD","isRecommend":0,"playCount":0,"keyWord":"孤军英雄(2)","channelName":null,"poster":[]},{"programId":67241,"eventDate":"2013-03-22","beginTime":"2013-03-22 02:01:00","endTime":"2013-03-22 02:02:00","eventName":"广宣时段","eventDesc":null,"status":1,"assetID":"TWSX0000067241020100","volumeName":"85864","channelResourceCode":"10046","isBook":0,"videoType":"1","channelID":"BJWSHD","isRecommend":0,"playCount":0,"keyWord":"广宣时段","channelName":null,"poster":[]},{"programId":67242,"eventDate":"2013-03-22","beginTime":"2013-03-22 02:02:00","endTime":"2013-03-22 02:46:00","eventName":"孤军英雄(3)","eventDesc":null,"status":1,"assetID":"TWSX0000067242020200","volumeName":"85864","channelResourceCode":"10046","isBook":0,"videoType":"1","channelID":"BJWSHD","isRecommend":0,"playCount":0,"keyWord":"孤军英雄(3)","channelName":null,"poster":[]},{"programId":67243,"eventDate":"2013-03-22","beginTime":"2013-03-22 02:46:00","endTime":"2013-03-22 02:47:00","eventName":"广宣时段","eventDesc":null,"status":1,"assetID":"TWSX0000067243024600","volumeName":"85864","channelResourceCode":"10046","isBook":0,"videoType":"1","channelID":"BJWSHD","isRecommend":0,"playCount":0,"keyWord":"广宣时段","channelName":null,"poster":[]},{"programId":67244,"eventDate":"2013-03-22","beginTime":"2013-03-22 02:47:00","endTime":"2013-03-22 03:31:00","eventName":"孤军英�
+      E/dvb_EpgInterface( 9005): [getEpgWeek]  EpgListElement_list.get(0).data:2013-03-22
+V/TimeShiftPlay( 9005): +++++++ list OK +++++++
+E/dvb_EpgInterface( 9005): [getLookBackElement]  data:2013-03-22
+E/dvb_EpgInterface( 9005): [getLookBackElement]  EpgListElement_list.get(0).data:2013-03-22
+V/TimeShiftPlay( 9005): ++++++++++time++++++++1363921200++++++++tmpBackElement.shifttime+++++++1363881600
+E/dvb_EpgInterface( 9005): [getLookBackElement]  data:2013-03-22
+E/dvb_EpgInterface( 9005): [getLookBackElement]  EpgListElement_list.get(0).data:2013-03-22
+V/TimeShiftPlay( 9005): ++++++++++time++++++++1363921200++++++++tmpBackElement.shifttime+++++++1363881780
+E/dvb_EpgInterface( 9005): [getLookBackElement]  data:2013-03-22
+E/dvb_EpgInterface( 9005): [getLookBackElement]  EpgListElement_list.get(0).data:2013-03-22
+V/TimeShiftPlay( 9005): ++++++++++time++++++++1363921200++++++++tmpBackElement.shifttime+++++++1363883280
+E/dvb_EpgInterface( 9005): [getLookBackElement]  data:2013-03-22
+E/dvb_EpgInterface( 9005): [getLookBackElement]  EpgListElement_list.get(0).data:2013-03-22
+V/TimeShiftPlay( 9005): ++++++++++time++++++++1363921200++++++++tmpBackElement.shifttime+++++++1363883400
+E/dvb_EpgInterface( 9005): [getLookBackElement]  data:2013-03-22
+E/dvb_EpgInterface( 9005): [getLookBackElement]  EpgListElement_list.get(0).data:2013-03-22
+V/TimeShiftPlay( 9005): ++++++++++time++++++++1363921200++++++++tmpBackElement.shifttime+++++++1363883580
+E/dvb_EpgInterface( 9005): [getLookBackElement]  data:2013-03-22
+E/dvb_EpgInterface( 9005): [getLookBackElement]  EpgListElement_list.get(0).data:2013-03-22
+V/TimeShiftPlay( 9005): ++++++++++time++++++++1363921200++++++++tmpBackElement.shifttime+++++++1363886220
+E/dvb_EpgInterface( 9005): [getLookBackElement]  data:2013-03-22
+E/dvb_EpgInterface( 9005): [getLookBackElement]  EpgListElement_list.get(0).data:2013-03-22
+V/TimeShiftPlay( 9005): ++++++++++time++++++++1363921200++++++++tmpBackElement.shifttime+++++++1363886280
+E/dvb_EpgInterface( 9005): [getLookBackElement]  data:2013-03-22
+E/dvb_EpgInterface( 9005): [getLookBackElement]  EpgListElement_list.get(0).data:2013-03-22
+V/TimeShiftPlay( 9005): ++++++++++time++++++++1363921200++++++++tmpBackElement.shifttime+++++++1363888860
+E/dvb_EpgInterface( 9005): [getLookBackElement]  data:2013-03-22
+E/dvb_EpgInterface( 9005): [getLookBackElement]  EpgListElement_list.get(0).data:2013-03-22
+V/TimeShiftPlay( 9005): ++++++++++time++++++++1363921200++++++++tmpBackElement.shifttime+++++++1363888920
+E/dvb_EpgInterface( 9005): [getLookBackElement]  data:2013-03-22
+E/dvb_EpgInterface( 9005): [getLookBackElement]  EpgListElement_list.get(0).data:2013-03-22
+V/TimeShiftPlay( 9005): ++++++++++time++++++++1363921200++++++++tmpBackElement.shifttime+++++++1363891560
+E/dvb_EpgInterface( 9005): [getLookBackElement]  data:2013-03-22
+E/dvb_EpgInterface( 9005): [getLookBackElement]  EpgListElement_list.get(0).data:2013-03-22
+V/TimeShiftPlay( 9005): ++++++++++time++++++++1363921200++++++++tmpBackElement.shifttime+++++++1363891620
+E/dvb_EpgInterface( 9005): [getLookBackElement]  data:2013-03-22
+E/dvb_EpgInterface( 9005): [getLookBackElement]  EpgListElement_list.get(0).data:2013-03-22
+V/TimeShiftPlay( 9005): ++++++++++time++++++++1363921200++++++++tmpBackElement.shifttime+++++++1363894260
+E/dvb_EpgInterface( 9005): [getLookBackElement]  data:2013-03-22
+E/dvb_EpgInterface( 9005): [getLookBackElement]  EpgListElement_list.get(0).data:2013-03-22
+V/TimeShiftPlay( 9005): ++++++++++time++++++++1363921200++++++++tmpBackElement.shifttime+++++++1363896840
+E/dvb_EpgInterface( 9005): [getLookBackElement]  data:2013-03-22
+E/dvb_EpgInterface( 9005): [getLookBackElement]  EpgListElement_list.get(0).data:2013-03-22
+V/TimeShiftPlay( 9005): ++++++++++time++++++++1363921200++++++++tmpBackElement.shifttime+++++++1363896960
+E/dvb_EpgInterface( 9005): [getLookBackElement]  data:2013-03-22
+E/dvb_EpgInterface( 9005): [getLookBackElement]  EpgListElement_list.get(0).data:2013-03-22
+V/TimeShiftPlay( 9005): ++++++++++time++++++++1363921200++++++++tmpBackElement.shifttime+++++++1363899960
+E/dvb_EpgInterface( 9005): [getLookBackElement]  data:2013-03-22
+E/dvb_EpgInterface( 9005): [getLookBackElement]  EpgListElement_list.get(0).data:2013-03-22
+V/TimeShiftPlay( 9005): ++++++++++time++++++++1363921200++++++++tmpBackElement.shifttime+++++++1363900020
+E/dvb_EpgInterface( 9005): [getLookBackElement]  data:2013-03-22
+E/dvb_EpgInterface( 9005): [getLookBackElement]  EpgListElement_list.get(0).data:2013-03-22
+V/TimeShiftPlay( 9005): ++++++++++time++++++++1363921200++++++++tmpBackElement.shifttime+++++++1363902120
+E/dvb_EpgInterface( 9005): [getLookBackElement]  data:2013-03-22
+E/dvb_EpgInterface( 9005): [getLookBackElement]  EpgListElement_list.get(0).data:2013-03-22
+V/TimeShiftPlay( 9005): ++++++++++time++++++++1363921200++++++++tmpBackElement.shifttime+++++++1363903260
+E/dvb_EpgInterface( 9005): [getLookBackElement]  data:2013-03-22
+E/dvb_EpgInterface( 9005): [getLookBackElement]  EpgListElement_list.get(0).data:2013-03-22
+V/TimeShiftPlay( 9005): ++++++++++time++++++++1363921200++++++++tmpBackElement.shifttime+++++++1363904340
+E/dvb_EpgInterface( 9005): [getLookBackElement]  data:2013-03-22
+E/dvb_EpgInterface( 9005): [getLookBackElement]  EpgListElement_list.get(0).data:2013-03-22
+V/TimeShiftPlay( 9005): ++++++++++time++++++++1363921200++++++++tmpBackElement.shifttime+++++++1363904400
+E/dvb_EpgInterface( 9005): [getLookBackElement]  data:2013-03-22
+E/dvb_EpgInterface( 9005): [getLookBackElement]  EpgListElement_list.get(0).data:2013-03-22
+V/TimeShiftPlay( 9005): ++++++++++time++++++++1363921200++++++++tmpBackElement.shifttime+++++++1363906500
+E/dvb_EpgInterface( 9005): [getLookBackElement]  data:2013-03-22
+E/dvb_EpgInterface( 9005): [getLookBackElement]  EpgListElement_list.get(0).data:2013-03-22
+V/TimeShiftPlay( 9005): ++++++++++time++++++++1363921200++++++++tmpBackElement.shifttime+++++++1363906620
+E/dvb_EpgInterface( 9005): [getLookBackElement]  data:2013-03-22
+E/dvb_EpgInterface( 9005): [getLookBackElement]  EpgListElement_list.get(0).data:2013-03-22
+V/TimeShiftPlay( 9005): ++++++++++time++++++++1363921200++++++++tmpBackElement.shifttime+++++++1363906800
+E/dvb_EpgInterface( 9005): [getLookBackElement]  data:2013-03-22
+E/dvb_EpgInterface( 9005): [getLookBackElement]  EpgListElement_list.get(0).data:2013-03-22
+V/TimeShiftPlay( 9005): ++++++++++time++++++++1363921200++++++++tmpBackElement.shifttime+++++++1363914000
+E/dvb_EpgInterface( 9005): [getLookBackElement]  data:2013-03-22
+E/dvb_EpgInterface( 9005): [getLookBackElement]  EpgListElement_list.get(0).data:2013-03-22
+V/TimeShiftPlay( 9005): ++++++++++time++++++++1363921200++++++++tmpBackElement.shifttime+++++++1363914300
+E/dvb_EpgInterface( 9005): [getLookBackElement]  data:2013-03-22
+E/dvb_EpgInterface( 9005): [getLookBackElement]  EpgListElement_list.get(0).data:2013-03-22
+V/TimeShiftPlay( 9005): ++++++++++time++++++++1363921200++++++++tmpBackElement.shifttime+++++++1363915380
+E/dvb_EpgInterface( 9005): [getLookBackElement]  data:2013-03-22
+E/dvb_EpgInterface( 9005): [getLookBackElement]  EpgListElement_list.get(0).data:2013-03-22
+V/TimeShiftPlay( 9005): ++++++++++time++++++++1363921200++++++++tmpBackElement.shifttime+++++++1363915680
+E/dvb_EpgInterface( 9005): [getLookBackElement]  data:2013-03-22
+E/dvb_EpgInterface( 9005): [getLookBackElement]  EpgListElement_list.get(0).data:2013-03-22
+V/TimeShiftPlay( 9005): ++++++++++time++++++++1363921200++++++++tmpBackElement.shifttime+++++++1363918260
+E/dvb_EpgInterface( 9005): [getLookBackElement]  data:2013-03-22
+E/dvb_EpgInterface( 9005): [getLookBackElement]  EpgListElement_list.get(0).data:2013-03-22
+V/TimeShiftPlay( 9005): ++++++++++time++++++++1363921200++++++++tmpBackElement.shifttime+++++++1363918560
+E/dvb_EpgInterface( 9005): [getLookBackElement]  data:2013-03-22
+E/dvb_EpgInterface( 9005): [getLookBackElement]  EpgListElement_list.get(0).data:2013-03-22
+V/TimeShiftPlay( 9005): ++++++++++time++++++++1363921200++++++++tmpBackElement.shifttime+++++++1363921200
+E/dvb_EpgInterface( 9005): [getLookBackElement]  data:2013-03-22
+E/dvb_EpgInterface( 9005): [getLookBackElement]  EpgListElement_list.get(0).data:2013-03-22
+V/TimeShiftPlay( 9005): ++++++++++Title++++++11:00  广宣时段++++++++shifttime++++++++1363921200+++++++++++shiftend++++++++++1363921500
+I/message ( 9005): requestUrl  :http://wasu.feifeikan.com:8080/msis/getSystemTime?version=V001&terminalType=2&resolution=1280*720&authKey=9f2aa3c3a05d8276610141ecc406a4a0
+D/dalvikvm( 9005): GC_CONCURRENT freed 1613K, 18% free 28130K/34115K, paused 3ms+4ms
+I/message ( 9005): message  :{"ret":"0","retInfo":"","dateTime":"2013-03-22 14:21:42"}
+I/System.out( 9005): message--->{"ret":"0","retInfo":"","dateTime":"2013-03-22 14:21:42"}
+V/Tools   ( 9005): ++++++++++currentDate+++++++++2013-03-22 14:21:42
+V/TimeShiftPlay( 9005): +++++nownmin+++++1363933260000
+V/TimeShiftPlay( 9005): +++++delay+++++0
+I/ActivityManager( 1114): START {act=android.intent.LOOKBACK_PLAYER cmp=com.coship.dvbplayer/.videoplayer.VideoPlayer (has extras)} from pid 9005
+I/DVB_main( 9005): onPause
+I/DVB_main( 9005): exit, Send broadcast playtype is 0
+D/OtOService( 2263): TVContentReceiver: ACTION_TV_CONTENT_CHANGED, playType: 0 ,resourceCode: null
+I/dvb_OTTPlayer( 9005): [stop] stop
+D/ServerAdapter( 2263): Server addr: http://wasu.feifeikan.com:8080/
+E/ServerHandler( 2263): Send:com.aidufei.protocol.oto.OtOContentRequest@41af0a00
+I/dvb_LoadTips( 9005): [gethandler] objInstance:com.coship.dvbplayer.LoadTips@42de0340
+I/dvb_LoadTips( 9005): [gethandler] objInstance  mHandler:Handler (com.coship.dvbplayer.LoadTips$1) {42e99e10}
+I/dvb_LoadTips( 9005): [gethandler] objInstance:com.coship.dvbplayer.LoadTips@42de0340
+I/dvb_LoadTips( 9005): [gethandler] objInstance  mHandler:Handler (com.coship.dvbplayer.LoadTips$1) {42e99e10}
+D/ServerHandler( 2263): ServerHandler send request:200:{"Status":{"ReturnCode":100,"Description":"TVContentChanged"},"ServerAddr":"http:\/\/wasu.feifeikan.com:8080\/","Volume":-1}
+V/ServerHandler( 2263): ServerHandler send DatagramPacket:/192.168.1.104-[B@41611c68
+I/dvb_LoadTips( 9005): [mHandler] ~~~~~~~~~~~~~~~~~~~~~~~~~mHandler:Handler (com.coship.dvbplayer.LoadTips$1) {42e99e10} msg.what:5 msg.obj:null
+I/VideoPlayer( 9005): playSource:0
+D/VideoPlayer( 9005): start get TV Play URL.
+E/VideoPlayer( 9005): subId:---resourceCode:10046
+I/VideoPlayer( 9005): [getTVPlayURL]  ShiftTime:1363921200
+I/VideoPlayer( 9005): [getTVPlayURL]  timeCode:0
+I/VideoPlayer( 9005): [getTVPlayURL]  Shiftend:1363921500
+I/message ( 9005): requestUrl  :http://wasu.feifeikan.com:8080/msis/getPlayURL?version=V001&terminalType=2&resolution=1280*720&resourceCode=10046&productCode=&userCode=&playType=3&delay=0&shifttime=1363921200&shiftend=1363921500&timecode=0&authKey=95401c3ff2388f4dc4a98b4686021c09
+V/TabletStatusBar( 1222): setLightsOn(true)
+E/MediaControler( 9005): surfaceChanged
+D/dhcpcd  ( 4861): sending DHCP_DISCOVER with xid 0x89da8660, next in 15.01 seconds
+I/ActivityManager( 1114): Displayed com.coship.dvbplayer/.videoplayer.VideoPlayer: +192ms
+E/dvb_OTTPlayer( 9005): [surfaceDestroyed]  holder:android.view.SurfaceView$4@4139eb60
+I/message ( 9005): message  :{"ret":"0","palyURL":"http://live.feifeikan.com/vod/coship,BJWSHD.m3u8?fmt=x264_0k_mpegts&sora=1&shifttime=1363921200&shiftend=1363921500&sk=A5EB6845A001CF801C51391630E3673C&UUID=39022c75-90fb-4fda-881d-fcce4c18752a&userCode=default&userName=default&spCode=484581254562&productCode=3&resourceCode=10046&subId=123&resourceName=&authType=2","retInfo":""}
+I/System.out( 9005): message--->{"ret":"0","palyURL":"http://live.feifeikan.com/vod/coship,BJWSHD.m3u8?fmt=x264_0k_mpegts&sora=1&shifttime=1363921200&shiftend=1363921500&sk=A5EB6845A001CF801C51391630E3673C&UUID=39022c75-90fb-4fda-881d-fcce4c18752a&userCode=default&userName=default&spCode=484581254562&productCode=3&resourceCode=10046&subId=123&resourceName=&authType=2","retInfo":""}
+E/VideoPlayer( 9005): getTVPlayURL result:
+D/VideoPlayer( 9005): play url:http://live.feifeikan.com/vod/coship,BJWSHD.m3u8?fmt=x264_0k_mpegts&sora=1&shifttime=1363921200&shiftend=1363921500&sk=A5EB6845A001CF801C51391630E3673C&UUID=39022c75-90fb-4fda-881d-fcce4c18752a&userCode=default&userName=default&spCode=484581254562&productCode=3&resourceCode=10046&subId=123&resourceName=&authType=2
+I/VideoPlayer( 9005): [onPlayInit] the first play
+E/MediaPlayer( 9005): stop called in state 1
+E/MediaPlayer( 9005): error (-38, 0)
+I/MediaControler( 9005): [paly]  path:http://live.feifeikan.com/vod/coship,BJWSHD.m3u8?fmt=x264_0k_mpegts&sora=1&shifttime=1363921200&shiftend=1363921500&sk=A5EB6845A001CF801C51391630E3673C&UUID=39022c75-90fb-4fda-881d-fcce4c18752a&userCode=default&userName=default&spCode=484581254562&productCode=3&resourceCode=10046&subId=123&resourceName=&authType=2
+D/MediaPlayerService(  739):  Create MstarPlayer
+D/MstarPlayer(  739): Create MstarPlayer:0x2068de0,Version:Release Mstar player lib Version:0015,Base CL:690305  Date:2012/11/06
+D/MstarPlayer(  739): TV Local Time :  Fri Mar 22 14:21:40 2013
+D/MstarPlayer(  739):  
+D/MstarPlayer(  739): setInstance: 0x2068de0
+D/MstarPlayer(  739): mstar player set listener
+D/MstarPlayer(  739): MstarPlayer::initCheck
+D/MediaPlayerService(  739): [63] setVideoSurfaceTexture(0x3cf58)
+D/MstarPlayer(  739): MstarPlayer::setVideoSurfaceTexture 
+D/MstarPlayer(  739): open mHwcFifoFD = 31
+D/MstarPlayer(  739): MstarPlayer::prepareAsync
+D/MstarPlayer(  739): 
+D/MstarPlayer(  739):  MstarPlayer::doSetDataSource
+D/MstarPlayer(  739): MstarPlayer::clearAllSource
+D/MstarPlayer(  739): 
+D/MstarPlayer(  739):  MstarPlayer::doSetDataSource: url=http://live.feifeikan.com/vod/coship,BJWSHD.m3u8?fmt=x264_0k_mpegts&sora=1&shifttime=1363921200&shiftend=1363921500&sk=A5EB6845A001CF801C51391630E3673C&UUID=39022c75-90fb-4fda-881d-fcce4c18752a&userCode=default&userName=default&spCode=484581254562&productCode=3&resourceCode=10046&subId=123&resourceName=&authType=2
+D/Downloader(  739): Release Mstar Content Source CL:493363  Date:2013/03/20
+D/Downloader(  739): Curl Version:libcurl/7.21.7 OpenSSL/1.0.0e
+D/Downloader(  739): [downloadThread]init a multi curl done.curlm:0x251f0 pRingBuffer:0x2b0e0e0
+D/DataSource_M3U8(  739): [M3U8]ContentSource_M3U8 contruct done
+D/DataSource_M3U8(  739): bg thread ready to run
+D/DataSource_M3U8(  739): [M3U8] try parseURLs=http://live.feifeikan.com/vod/coship,BJWSHD.m3u8?fmt=x264_0k_mpegts&sora=1&shifttime=1363921200&shiftend=1363921500&sk=A5EB6845A001CF801C51391630E3673C&UUID=39022c75-90fb-4fda-881d-fcce4c18752a&userCode=default&userName=default&spCode=484581254562&productCode=3&resourceCode=10046&subId=123&resourceName=&authType=2
+D/DataSource_M3U8(  739): bg thread 261768
+D/DataSource_M3U8(  739): bg thread ready to run
+D/Downloader(  739): [downloadThread]Downloader::removeTask  
+D/MonitorCw880( 4659): currentRemoteHost is null ,continue
+D/HomePlayerLib( 1693): hostaddress count is 1
+D/dalvikvm( 1693): GC_CONCURRENT freed 1926K, 19% free 25980K/31875K, paused 3ms+4ms
+D/Downloader(  739): Content-Length: 359
+D/Downloader(  739): 
+D/Downloader(  739): Content-Type: text/plain; charset=UTF-8
+D/Downloader(  739): 
+D/Downloader(  739): Downloadserver bandWidth:5849
+D/Downloader(  739): Downloadserver bandWidth:5849
+D/Downloader(  739): Downloadserver bandWidth:5849
+D/Downloader(  739): Downloadserver bandWidth:5849
+D/DataSource_M3U8(  739): parseURLs : waiting 460 ms 
+D/DataSource_M3U8(  739):  mDownloadingTask.fileSize:359 
+D/DataSource_M3U8(  739): [M3U8] file: NULL line 
+D/DataSource_M3U8(  739): HLS=====>> Live Stream!!!!
+D/DataSource_M3U8(  739):  bMultAlterBandwidthStream = 1  urlNum=1 
+D/Downloader(  739): [downloadThread]background worker recv DOWNLOADER_COMMAND_REMOVE_TASK
+D/Downloader(  739): [downloadThread]Downloader::removeTask  
+D/Downloader(  739): [downloadThread]DOWNLOADER_COMMAND_REMOVE_TASK done
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): ============Begin to get playlist !!=====================
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739): [M3U8] try parseURLs=http://live.feifeikan.com/vod/coship_BJWSHD_800.m3u8?fmt=x264_0k_mpegts&sora=1&shifttime=1363921200&shiftend=1363921500&sk=A5EB6845A001CF801C51391630E3673C&UUID=39022c75-90fb-4fda-881d-fcce4c18752a&userCode=default&userName=default&spCode=484581254562&productCode=3&resourceCode=10046&subId=123&resourceName=&authType=2&unique=4cb7f377
+D/Downloader(  739): [downloadThread]Downloader::removeTask  
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  connect Server :live.feifeikan.com
+D/DataSource_M3U8(  739): parseM3U8 .......!
+D/DataSource_M3U8(  739): [M3U8] file: NULL line 
+D/DataSource_M3U8(  739): HLS=====>> Live Stream!!!!
+D/Downloader(  739): Content-Type: text/plain; charset=UTF-8
+D/Downloader(  739): 
+D/Downloader(  739): Content-Length: 2257
+D/Downloader(  739): 
+D/Downloader(  739): Downloadserver bandWidth:41129
+D/Downloader(  739): Downloadserver bandWidth:41129
+D/Downloader(  739): Downloadserver bandWidth:41129
+D/Downloader(  739): Downloadserver bandWidth:41129
+D/DataSource_M3U8(  739): parseURLs : waiting 440 ms 
+D/DataSource_M3U8(  739):  mDownloadingTask.fileSize:2257 
+D/DataSource_M3U8(  739): [M3U8]clear mFragements[0]
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  update  playlist[2] ==>> mediaSequence : 0   url = http://live.feifeikan.com/vod/hls/coship_BJWSHD_800.tindex?pos=0000&stime=20130322T110000&dur=16&tokenekot=cZurazpSqq4pSpMZ4Qpu   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  update  playlist[3] ==>> mediaSequence : 0   url = http://live.feifeikan.com/vod/hls/coship_BJWSHD_800.tindex?pos=0001&stime=20130322T110000&dur=16&tokenekot=cZurazpSqq4pSpMZ4Qpu   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  update  playlist[4] ==>> mediaSequence : 0   url = http://live.feifeikan.com/vod/hls/coship_BJWSHD_800.tindex?pos=0002&stime=20130322T110000&dur=16&tokenekot=cZurazpSqq4pSpMZ4Qpu   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  update  playlist[5] ==>> mediaSequence : 0   url = http://live.feifeikan.com/vod/hls/coship_BJWSHD_800.tindex?pos=0003&stime=20130322T110000&dur=16&tokenekot=cZurazpSqq4pSpMZ4Qpu   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  update  playlist[6] ==>> mediaSequence : 0   url = http://live.feifeikan.com/vod/hls/coship_BJWSHD_800.tindex?pos=0004&stime=20130322T110000&dur=16&tokenekot=cZurazpSqq4pSpMZ4Qpu   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  update  playlist[7] ==>> mediaSequence : 0   url = http://live.feifeikan.com/vod/hls/coship_BJWSHD_800.tindex?pos=0005&stime=20130322T110000&dur=16&tokenekot=cZurazpSqq4pSpMZ4Qpu   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  update  playlist[8] ==>> mediaSequence : 0   url = http://live.feifeikan.com/vod/hls/coship_BJWSHD_800.tindex?pos=0006&stime=20130322T110000&dur=16&tokenekot=cZurazpSqq4pSpMZ4Qpu   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  update  playlist[9] ==>> mediaSequence : 0   url = http://live.feifeikan.com/vod/hls/coship_BJWSHD_800.tindex?pos=0007&stime=20130322T110000&dur=16&tokenekot=cZurazpSqq4pSpMZ4Qpu   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  update  playlist[10] ==>> mediaSequence : 0   url = http://live.feifeikan.com/vod/hls/coship_BJWSHD_800.tindex?pos=0008&stime=20130322T110000&dur=16&tokenekot=cZurazpSqq4pSpMZ4Qpu   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  update  playlist[11] ==>> mediaSequence : 0   url = http://live.feifeikan.com/vod/hls/coship_BJWSHD_800.tindex?pos=0009&stime=20130322T110000&dur=16&tokenekot=cZurazpSqq4pSpMZ4Qpu   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  update  playlist[12] ==>> mediaSequence : 0   url = http://live.feifeikan.com/vod/hls/coship_BJWSHD_800.tindex?pos=0010&stime=20130322T110000&dur=16&tokenekot=cZurazpSqq4pSpMZ4Qpu   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  update  playlist[13] ==>> mediaSequence : 0   url = http://live.feifeikan.com/vod/hls/coship_BJWSHD_800.tindex?pos=0011&stime=20130322T110000&dur=16&tokenekot=cZurazpSqq4pSpMZ4Qpu   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  update  playlist[14] ==>> mediaSequence : 0   url = http://live.feifeikan.com/vod/hls/coship_BJWSHD_800.tindex?pos=0012&stime=20130322T110000&dur=16&tokenekot=cZurazpSqq4pSpMZ4Qpu   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  update  playlist[15] ==>> mediaSequence : 0   url = http://live.feifeikan.com/vod/hls/coship_BJWSHD_800.tindex?pos=0013&stime=20130322T110000&dur=16&tokenekot=cZurazpSqq4pSpMZ4Qpu   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  update  playlist[16] ==>> mediaSequence : 0   url = http://live.feifeikan.com/vod/hls/coship_BJWSHD_800.tindex?pos=0014&stime=20130322T110000&dur=16&tokenekot=cZurazpSqq4pSpMZ4Qpu   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  update  playlist[17] ==>> mediaSequence : 0   url = http://live.feifeikan.com/vod/hls/coship_BJWSHD_800.tindex?pos=0015&stime=20130322T110000&dur=16&tokenekot=cZurazpSqq4pSpMZ4Qpu   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  update  playlist[18] ==>> mediaSequence : 0   url = http://live.feifeikan.com/vod/hls/coship_BJWSHD_800.tindex?pos=0016&stime=20130322T110000&dur=16&tokenekot=cZurazpSqq4pSpMZ4Qpu   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  update  playlist[19] ==>> mediaSequence : 0   url = http://live.feifeikan.com/vod/hls/coship_BJWSHD_800.tindex?pos=0017&stime=20130322T110000&dur=16&tokenekot=cZurazpSqq4pSpMZ4Qpu   
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  update  playlist[20] ==>> mediaSequence : 0   url = http://live.feifeikan.com/vod/hls/coship_BJWSHD_800.tindex?pos=0018&stime=20130322T110000&dur=16&tokenekot=cZurazpSqq4pSpMZ4Qpu   
+D/DataSource_M3U8(  739): bSupportAutoChangeServer = 1 
+D/DataSource_M3U8(  739): u32HLSSreamNum[0]===>u32BandWidth:800 
+D/DataSource_M3U8(  739): getHLSPlayListInex  DownloadBandWidth:41129   uInDex=0
+D/Downloader(  739): [downloadThread]background worker recv DOWNLOADER_COMMAND_REMOVE_TASK
+D/Downloader(  739): [downloadThread]Downloader::removeTask  
+D/Downloader(  739): [downloadThread]DOWNLOADER_COMMAND_REMOVE_TASK done
+D/DataSource_M3U8(  739): [M3U8]----->post cmd for start first url:http://live.feifeikan.com/vod/hls/coship_BJWSHD_800.tindex?pos=0000&stime=20130322T110000&dur=16&tokenekot=cZurazpSqq4pSpMZ4Qpu, knowedFileSize:0
+D/MstarPlayer(  739): MstarPlayer::doPrepare
+D/ContentSource(  739): sniffMP3
+D/ContentSource(  739): sniffAAC
+D/ContentSource(  739): sniffWMA
+D/ContentSource(  739): sniffOGG
+D/ContentSource(  739): sniffWAV
+D/ContentSource(  739): sniffPCM
+D/ContentSource(  739): sniffMP4
+D/ContentSource(  739): sniffASF
+D/ContentSource(  739): sniffFLV
+D/ContentSource(  739): sniffMKV
+D/ContentSource(  739): sniffAVI
+D/ContentSource(  739): sniffMOV
+D/ContentSource(  739): sniffTS
+D/ContentSource(  739): sniffMPEG
+D/ContentSource(  739): sniffRM
+D/ContentSource(  739): sniffWMV
+D/ContentSource(  739): sniffJpegAndMPO
+D/ContentSource(  739): fast_avformat = 0
+D/Downloader(  739): [downloadThread]Downloader::removeTask  
+D/dalvikvm( 1693): GC_CONCURRENT freed 2157K, 19% free 25996K/31875K, paused 2ms+6ms
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  seekAt : 0 
+D/DataSource_M3U8(  739): [M3U8]------>post cmd for seek to new url:http://live.feifeikan.com/vod/hls/coship_BJWSHD_800.tindex?pos=0000&stime=20130322T110000&dur=16&tokenekot=cZurazpSqq4pSpMZ4Qpu, knowedFileSize:0, range:0, mCurDowningIndex:0
+D/Downloader(  739): [downloadThread]background worker recv DOWNLOADER_COMMAND_REMOVE_TASK
+D/Downloader(  739): [downloadThread]Downloader::removeTask  
+D/Downloader(  739): [downloadThread]DOWNLOADER_COMMAND_REMOVE_TASK done
+D/Downloader(  739): [downloadThread]Downloader::removeTask  
+D/Downloader(  739): [downloadThread]task have range string:0- 
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  seekAt : 0 
+D/Downloader(  739): [downloadThread]background worker recv DOWNLOADER_COMMAND_REMOVE_TASK
+D/Downloader(  739): [downloadThread]Downloader::removeTask  
+D/Downloader(  739): [downloadThread]DOWNLOADER_COMMAND_REMOVE_TASK done
+D/DataSource_M3U8(  739): [M3U8]------>post cmd for seek to new url:http://live.feifeikan.com/vod/hls/coship_BJWSHD_800.tindex?pos=0000&stime=20130322T110000&dur=16&tokenekot=cZurazpSqq4pSpMZ4Qpu, knowedFileSize:0, range:0, mCurDowningIndex:0
+D/Downloader(  739): [downloadThread]Downloader::removeTask  
+D/Downloader(  739): [downloadThread]task have range string:0- 
+D/MstarPlayer(  739): create MSrv_MM_PlayerInterface
+D/MstarPlayer(  739): ===> GET source FILE Size -1 
+D/MstarPlayer(  739): play content is video
+D/MMPlayer(  739): constructor: 0x2f980
+D/MMPlayer(  739): 
+D/MMPlayer(  739): connect
+D/MMPlayer(  739): 
+D/MMPlayer(  739): getMMPlayerService
+D/IMMPlayerService(  739): Send CONNECT
+D/IMMPlayer(  739): Send INITIALIZE
+I//lib/ld-linux.so.3(  743): V/MMPlayerService( 758 758): MMPlayerService::connect(callingPid 739, client 0x6fc08bb8)
+I//lib/ld-linux.so.3(  743): V/MMPlayerService( 758 758): MMPlayerService::Client constructor(callingPid 739)
+I//lib/ld-linux.so.3(  743): MMPlayerService::Client::MM_Initialize()
+I//lib/ld-linux.so.3(  743): MSrv_MM_PhotoPlayer::Initialize().
+I//lib/ld-linux.so.3(  743): mapi_cpcodec::Initialize(). eDecoderPath:2
+I//lib/ld-linux.so.3(  743): Thread name: mapi_cpcodec.
+I//lib/ld-linux.so.3(  743): MIU interval 0x60000000.
+I//lib/ld-linux.so.3(  743): E_MMAP_ID_XC_MAIN_FB PA: 0x17bc1000, VA: 0x45808000, size: 0x1800000, IsMIU0: 1.
+I//lib/ld-linux.so.3(  743): E_MMAP_ID_PHOTO_SHAREMEM PA: 0x167bc000, VA: 0x44403000, size: 0x400, IsMIU0: 1.
+I//lib/ld-linux.so.3(  743): E_MMAP_ID_JPD_READ PA: 0x167bc400, VA: 0x44403400, size: 0x50080, IsMIU0: 1.
+I//lib/ld-linux.so.3(  743): E_MMAP_ID_JPD_WRITE PA: 0x1680c480, VA: 0x44453480, size: 0x3fc000, IsMIU0: 1.
+I//lib/ld-linux.so.3(  743): E_MMAP_ID_PHOTO_DISPLAY PA: 0x163c0000, VA: 0x44007000, size: 0x3fc000, IsMIU0: 1.
+I//lib/ld-linux.so.3(  743): E_MMAP_ID_PHOTO_INTER PA: 0x16c08480, VA: 0x4484f480, size: 0x630000, IsMIU0: 1.
+I//lib/ld-linux.so.3(  743): E_MMAP_ID_PHOTO_MPO_INTER PA: 0x17238480, VA: 0x44e7f480, size: 0x3fc000, IsMIU0: 1.
+I//lib/ld-linux.so.3(  743): E_MMAP_ID_VDPLAYER_DATA PA: 0x163c0000, VA: 0x44007000, size: 0x1000, IsMIU0: 1.
+I//lib/ld-linux.so.3(  743): E_MMAP_ID_VDPLAYER_BITSTREAM PA: 0x16d40000, VA: 0x44987000, size: 0x400000, IsMIU0: 1.
+I//lib/ld-linux.so.3(  743): E_MMAP_ID_VDPLAYER_BITSTREAM_EXT PA: 0x16940000, VA: 0x44587000, size: 0x400000, IsMIU0: 1.
+I//lib/ld-linux.so.3(  743): E_MMAP_ID_SUBTITLE PA: 0x16740000, VA: 0x44387000, size: 0x1e0000, IsMIU0: 1.
+I//lib/ld-linux.so.3(  743): E_MMAP_ID_MAD_DEC PA: 0x15c40000, VA: 0x43887000, size: 0x280000, IsMIU0: 1.
+I//lib/ld-linux.so.3(  743): E_MMAP_ID_VDEC_CPU PA: 0x1b800000, VA: 0x49447000, size: 0x200000, IsMIU0: 1.
+I//lib/ld-linux.so.3(  743): E_MMAP_ID_VDEC_FRAMEBUFFER PA: 0x1ba00000, VA: 0x49647000, size: 0x1b00000, IsMIU0: 1.
+I//lib/ld-linux.so.3(  743): E_MMAP_ID_VDEC_FRAMEBUFFERSD PA: 0x1ba00000, VA: 0x49647000, size: 0x1b00000, IsMIU0: 1.
+I//lib/ld-linux.so.3(  743): E_MMAP_ID_VDEC_BITSTREAM PA: 0x1d500000, VA: 0x4b147000, size: 0x800000, IsMIU0: 1.
+I//lib/ld-linux.so.3(  743): E_MMAP_ID_VDEC_MVC_FRAMEBUFFER PA: 0x1ba00000, VA: 0x49647000, size: 0x2b00000, IsMIU0: 1.
+I//lib/ld-linux.so.3(  743): E_MMAP_ID_VDEC_MVC_BITSTREAM PA: 0x1e500000, VA: 0x4c147000, size: 0x1600000, IsMIU0: 1.
+I//lib/ld-linux.so.3(  743): E_MMAP_ID_DMX_SECBUF PA: 0xd0000, VA: 0x41217000, size: 0x70000, IsMIU0: 1.
+I//lib/ld-linux.so.3(  743): ???????? Important,The MMAP ID(110) does not existed!, please check it...
+I//lib/ld-linux.so.3(  743): ???????? Please update the right system configure...
+I//lib/ld-linux.so.3(  743): ???????? Important,The MMAP ID(111) does not existed!, please check it...
+I//lib/ld-linux.so.3(  743): ???????? Please update the right system configure...
+I//lib/ld-linux.so.3(  743): Panel width: 1280, heigt: 720.
+I//lib/ld-linux.so.3(  743): MPO SBS width: 1792, heigt: 504.
+I//lib/ld-linux.so.3(  743): Output Buffer start: 0x44453480, BUS address start: 0x5680c480, size: 0x3fc000.
+I//lib/ld-linux.so.3(  743): Display Buffer start: 0x44007000, BUS address start: 0x563c0000, size: 0x3fc000.
+I//lib/ld-linux.so.3(  743): Internal Buffer start: 0x4484f480, BUS address start: 0x56c08480, size: 0x630000.
+I//lib/ld-linux.so.3(  743): MPO Internal Buffer start: 0x44e7f480, BUS address start: 0x57238480, size: 0x3fc000.
+I//lib/ld-linux.so.3(  743): MSrv_MM_PhotoPlayer::Initialize() Done.
+I//lib/ld-linux.so.3(  743): >>> MSrv_MM_VideoPlayer  Initialize 
+I//lib/ld-linux.so.3(  743): mapi_cpcodec::Initialize(). eDecoderPath:2
+I//lib/ld-linux.so.3(  743): ******Amplifier_TI5707_SWMute(0)
+I//lib/ld-linux.so.3(  743): 5707write fail = 7
+I//lib/ld-linux.so.3(  743): 5707write fail = 7
+I//lib/ld-linux.so.3(  743): 5707write fail = 7
+I//lib/ld-linux.so.3(  743): 5707write fail = 7
+D/IMMPlayer(  739): Get ret:0
+D/IMMPlayer(  739): Send PLAYER_COMMAND_ADD_EVENT_RECIPIENT_FPTR
+D/IMMPlayer(  739): Get ret:1
+D/IMMPlayer(  739): Send MM_SetPlayerTimeOutValue
+D/IMMPlayer(  739): pTimeOutInfo->u32FileIOTimeOut:4294967295
+D/IMMPlayer(  739): pTimeOutInfo->u32FileReadTimeOut:4294967295
+D/IMMPlayer(  739): pTimeOutInfo->u32FileSeekTimeOut:4294967295
+D/IMMPlayer(  739): pTimeOutInfo->u32DecodeCtrlTimeOut:4294967295
+D/IMMPlayer(  739): pTimeOutInfo->u32ESBuffCtrlTimeOut:-1
+I//lib/ld-linux.so.3(  743): 5707write fail = 6
+I//lib/ld-linux.so.3(  743): Panel width: 01280, heigt: 720.
+I//lib/ld-linux.so.3(  743): Thread name: MM_Audio.
+I//lib/ld-linux.so.3(  743): Thread name: MM_Audio.
+D/IMMPlayer(  739): Get ret:0
+D/IMMPlayer(  739): Send MM_SetStreamTotalTime
+D/IMMPlayer(  739): u32TotalTime:298998
+D/IMMPlayer(  739): Get ret:0
+D/IMMPlayer(  739): Send MM_CreateMediaItem
+D/IMMPlayer(  739): stMedia.u32FileID:152048
+D/IMMPlayer(  739): stMedia.u32FileSecondID:0
+D/IMMPlayer(  739): stMedia.u32FileThirdID:0
+D/IMMPlayer(  739): stMedia.u32FileFourthID:0
+D/IMMPlayer(  739): stMedia.u64FileLength:18446744073709551615
+D/IMMPlayer(  739): stMedia.eMediaType:2
+D/IMMPlayer(  739): stMedia.eMediaFileType:2
+D/IMMPlayer(  739): stMedia.eMediaCreateMode:0
+D/IMMPlayer(  739): stMedia.u32CtlFlag:66
+D/IMMPlayer(  739): Get ret:0
+D/MstarPlayer(  739): media item 0x1
+D/MstarPlayer(  739): MstarPlayer::doPrepare done
+I//lib/ld-linux.so.3(  743): Video Item Info, file ID: 0x251f0, file length: 0xffffffff 0xffffffff.
+I//lib/ld-linux.so.3(  743): Output Resolution: DISPLAY_DACOUT_576P or DISPLAY_DACOUT_720P_50 or DISPLAY_DACOUT_1080P_50.
+I//lib/ld-linux.so.3(  743): >>>GetDRMSetting From EEPROM
+I//lib/ld-linux.so.3(  743): mapi_cpcodec::CreateMedia(): 18358508.
+I//lib/ld-linux.so.3(  743): 1 File ID: 0x251f0, 2 File ID: 0x0, 3 File ID: 0x0, 4 File ID: 0x0.
+I//lib/ld-linux.so.3(  743): File size: 0xffffffff ffffffff.
+I//lib/ld-linux.so.3(  743): Media Type: 0, File Type: 2, Create Mode: 0.
+I//lib/ld-linux.so.3(  743): mapi_cpcodec::videoCreateMedia().
+I//lib/ld-linux.so.3(  743): Reconfigure Buffer.
+I//lib/ld-linux.so.3(  743): E_MMAP_ID_VDEC_FRAMEBUFFER PA: 0x1ba00000, VA: 0x49647000, size: 0x1b00000, IsMIU0: 1.
+I//lib/ld-linux.so.3(  743): E_MMAP_ID_VDEC_FRAMEBUFFERSD PA: 0x1ba00000, VA: 0x49647000, size: 0x1b00000, IsMIU0: 1.
+I//lib/ld-linux.so.3(  743): E_MMAP_ID_VDEC_BITSTREAM PA: 0x1d500000, VA: 0x4b147000, size: 0x800000, IsMIU0: 1.
+I//lib/ld-linux.so.3(  743): E_MMAP_ID_VDEC_MVC_FRAMEBUFFER PA: 0x1ba00000, VA: 0x49647000, size: 0x2b00000, IsMIU0: 1.
+I//lib/ld-linux.so.3(  743): E_MMAP_ID_VDEC_MVC_BITSTREAM PA: 0x1e500000, VA: 0x4c147000, size: 0x1600000, IsMIU0: 1.
+I//lib/ld-linux.so.3(  743): Copy TSP FW bin 6fc0df00 -> 41217000; 4400
+I//lib/ld-linux.so.3(  743): drop error frame.
+I//lib/ld-linux.so.3(  743): default unseekable Stream mode config: Set preload size 0x4000
+I//lib/ld-linux.so.3(  743): Stream mode. Set read header require size: MIN_REQUIRE_SIZE
+I//lib/ld-linux.so.3(  743): Stream mode. for ts,Set read header probe option: (E_VDP_READ_HEADER_PROBE_AUDIO_DISABLE | E_VDP_READ_HEADER_PROBE_DURATION_DISABLE)
+I//lib/ld-linux.so.3(  743): TS total time is 298998
+I//lib/ld-linux.so.3(  743): >>>>  DRM start  DRM MODEL ID  0x3031
+I//lib/ld-linux.so.3(  743): LoadDRMMemory();
+I//lib/ld-linux.so.3(  743): Display Msg: 29.
+I//lib/ld-linux.so.3(  743):  set Frame buffer info  MAX_FRAMENUM 4   MAX_FIELDNUM  16
+I//lib/ld-linux.so.3(  743): Enable TS Subtitle codec state  1
+I//lib/ld-linux.so.3(  743): [CI][HbbTV-VOD]<INFO>:[1363933302.541736] MM init start
+I//lib/ld-linux.so.3(  743): videoCreateMedia Done.
+I//lib/ld-linux.so.3(  743): Create CP Ccodec Video Media Done.
+I//lib/ld-linux.so.3(  743): Device or resource busy
+I//lib/ld-linux.so.3(  743): Cannot open interrupt descriptor for irq=147 Auth OK
+I//lib/ld-linux.so.3(  743): Check S/W IP Statue
+I//lib/ld-linux.so.3(  743): [0]:OFF; [1]:OFF; [2]:OFF; [3]:ON
+I//lib/ld-linux.so.3(  743): [4]:OFF; [5]:OFF; [6]:OFF; [7]:OFF
+I//lib/ld-linux.so.3(  743): [8]:OFF; [9]:OFF; [10]:OFF; [11]:ON
+I//lib/ld-linux.so.3(  743): [12]:ON; [13]:OFF; [14]:OFF; [15]:OFF
+I//lib/ld-linux.so.3(  743): [16]:OFF; [17]:OFF; [18]:OFF; [19]:ON
+I//lib/ld-linux.so.3(  743): [20]:ON; [21]:ON; [22]:ON; [23]:ON
+I//lib/ld-linux.so.3(  743): [24]:OFF; [25]:OFF; [26]:OFF; [27]:ON
+I//lib/ld-linux.so.3(  743): [28]:ON; [29]:ON; [30]:ON; [31]:OFF
+I//lib/ld-linux.so.3(  743): [32]:OFF; [33]:ON; [34]:ON; [35]:OFF
+I//lib/ld-linux.so.3(  743): [36]:OFF; [37]:OFF; [38]:OFF; [39]:ON
+I//lib/ld-linux.so.3(  743): [40]:ON; [41]:OFF; [42]:OFF; [43]:OFF
+I//lib/ld-linux.so.3(  743): [44]:OFF; [45]:OFF; [46]:OFF; [47]:OFF
+I//lib/ld-linux.so.3(  743): [48]:OFF; [49]:OFF; [50]:OFF; [51]:OFF
+I//lib/ld-linux.so.3(  743): [52]:OFF; [53]:OFF; [54]:OFF; [55]:OFF
+I//lib/ld-linux.so.3(  743): [56]:OFF; [57]:OFF; [58]:OFF; [59]:OFF
+I//lib/ld-linux.so.3(  743): [60]:OFF; [61]:OFF; [62]:OFF; [63]:OFF
+I//lib/ld-linux.so.3(  743): Subtitle File Open Fail !!
+I//lib/ld-linux.so.3(  743): Attached File Open Fail !!
+I//lib/ld-linux.so.3(  743): Audio File Fail!!
+D/MediaPlayerService(  739): [63] notify (0x38a80, 3, 6, 0)
+I//lib/ld-linux.so.3(  743): Blocking Read: 1401, size: 0x1000.
+E/ServerHandler( 2263): receiveRequest
+V/OtORequest( 2263): parseCommand
+V/OtORequest( 2263): get command=103
+V/OtORequest( 2263): parse OtORequest: cmd=103 paramLength=0 bufferlen=8
+D/OtOService( 2263): client request get status.playType:0
+D/OtOService( 2263): 2222
+E/ServerAdapter( 2263): ServerAdapter:0
+E/ServerHandler( 2263): Send:com.aidufei.protocol.oto.OtOStatusRequest@4182e020
+D/ServerHandler( 2263): ServerHandler send request:103:{"Status":{"ReturnCode":101,"Description":"status sync failed"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 2263): ServerHandler send DatagramPacket:/192.168.1.104-[B@418001c0
+D/dalvikvm( 1693): GC_CONCURRENT freed 2194K, 19% free 25824K/31875K, paused 3ms+6ms
+I//lib/ld-linux.so.3(  743): Blocking Read: 1201, size: 0x8000.
+I//lib/ld-linux.so.3(  743): File format : TS
+D/MonitorCw880( 4659): currentRemoteHost is null ,continue
+E/ServerHandler( 2263): receiveRequest
+V/OtORequest( 2263): parseCommand
+V/OtORequest( 2263): get command=103
+V/OtORequest( 2263): parse OtORequest: cmd=103 paramLength=0 bufferlen=8
+D/OtOService( 2263): client request get status.playType:0
+D/OtOService( 2263): 2222
+E/ServerAdapter( 2263): ServerAdapter:0
+E/ServerHandler( 2263): Send:com.aidufei.protocol.oto.OtOStatusRequest@41ba1678
+D/ServerHandler( 2263): ServerHandler send request:103:{"Status":{"ReturnCode":101,"Description":"status sync failed"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 2263): ServerHandler send DatagramPacket:/192.168.1.104-[B@421770f8
+I//lib/ld-linux.so.3(  743): Blocking Read: 1302, size: 0x20000.
+I//lib/ld-linux.so.3(  743): Bitrate = 262144 Byte/s, Duration = 298998 ms
+I//lib/ld-linux.so.3(  743): PackSize = 28200 Byte.
+I//lib/ld-linux.so.3(  743): ==============================================================================================
+I//lib/ld-linux.so.3(  743): Data:MIU0; Bits:MIU0; MAD:MIU0; MVD:MIU0; SVD:MIU0; FB:MIU0; TSP:MIU0; FBL:No
+I//lib/ld-linux.so.3(  743): Bit Buffer:0x44987000      Size:0x400000
+I//lib/ld-linux.so.3(  743): Subtitle Bit Buffer:0x44387000     Size:0x1b0000
+I//lib/ld-linux.so.3(  743): MAD Buffer:0x43887000
+I//lib/ld-linux.so.3(  743): MADExt Buffer:0x44587000   Size:0x400000
+I//lib/ld-linux.so.3(  743): VDEC FW Buffer:0x49447000  Size:0x200000
+I//lib/ld-linux.so.3(  743): Frame Buffer:0x49647000    Size:0x1b00000
+I//lib/ld-linux.so.3(  743): MVD Buffer:0x4b147000      Size:0x800000
+I//lib/ld-linux.so.3(  743): TSP FW Buffer:0x41217000   Size:0x70000
+I//lib/ld-linux.so.3(  743): Data Buffer:0x163d1000     Size:0x36f000
+I//lib/ld-linux.so.3(  743): Attached File Buffer Size:0xffffffff
+I//lib/ld-linux.so.3(  743): -> Demuxer:0x164f8000      Size:0x248000
+I//lib/ld-linux.so.3(  743): -> SeqHeader:0x44018000    Size:0x1000
+I//lib/ld-linux.so.3(  743): -> MOV Table:0x49647000    Size:0x1b00000
+I//lib/ld-linux.so.3(  743): -> MOV Static:0x44019000   Size:0x100000
+I//lib/ld-linux.so.3(  743): -> DRM Payload:0x44119000  Size:0x4000
+I//lib/ld-linux.so.3(  743): -> DRM Playback Context:0x4411d000 Size:0x1000
+I//lib/ld-linux.so.3(  743): -> MADExtend:0x4411f000    Size:0x20000
+I//lib/ld-linux.so.3(  743): -> NonCache Area:0x4411e000        Size:0x1000
+I//lib/ld-linux.so.3(  743): -> Reserved Size:0x0
+I//lib/ld-linux.so.3(  743): ==============================================================================================
+I//lib/ld-linux.so.3(  743): Initialize TS HW
+I//lib/ld-linux.so.3(  743): HAL_VPU_EX_SetDbgLevel eLevel=0x1
+I//lib/ld-linux.so.3(  743): Load AAC Audio Codec.
+I//lib/ld-linux.so.3(  743): ========AAC Audio Codec========
+I//lib/ld-linux.so.3(  743): ===== Check Audio Decoder Protection from hash-key IP =====
+I//lib/ld-linux.so.3(  743): Hash-key Support DD.
+I//lib/ld-linux.so.3(  743): Hash-key Support DD+.
+I//lib/ld-linux.so.3(  743): Hash-key Support Generic HE-AAC !!
+I//lib/ld-linux.so.3(  743): Hash-key Support WMA.
+I//lib/ld-linux.so.3(  743): Hash-key Support DRA.
+I//lib/ld-linux.so.3(  743): ===== Check Protection IP End                         =====
+I//lib/ld-linux.so.3(  743): ******Amplifier_TI5707_SWMute(0)
+I//lib/ld-linux.so.3(  743): 5707write fail = 7
+I//lib/ld-linux.so.3(  743): 5707write fail = 7
+I//lib/ld-linux.so.3(  743): 5707write fail = 7
+I//lib/ld-linux.so.3(  743): 5707write fail = 7
+I//lib/ld-linux.so.3(  743): 5707write fail = 6
+I//lib/ld-linux.so.3(  743): DS enable = 0
+I//lib/ld-linux.so.3(  743): Blocking Read: 100, size: 0x4000.
+I//lib/ld-linux.so.3(  743): To ask Dynscaling Size from vdec  0xc00
+I//lib/ld-linux.so.3(  743): jim:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+I//lib/ld-linux.so.3(  743):  Size(960x544), Disp(960x544), Par(1x1), FrameRate:25000, Interlace:0
+I//lib/ld-linux.so.3(  743): 1st sequence header Decode Ready!! **
+E/ServerHandler( 2263): receiveRequest
+V/OtORequest( 2263): parseCommand
+V/OtORequest( 2263): get command=103
+V/OtORequest( 2263): parse OtORequest: cmd=103 paramLength=0 bufferlen=8
+D/OtOService( 2263): client request get status.playType:0
+D/OtOService( 2263): 2222
+E/ServerAdapter( 2263): ServerAdapter:0
+E/ServerHandler( 2263): Send:com.aidufei.protocol.oto.OtOStatusRequest@42172160
+D/ServerHandler( 2263): ServerHandler send request:103:{"Status":{"ReturnCode":101,"Description":"status sync failed"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 2263): ServerHandler send DatagramPacket:/192.168.1.104-[B@41b0f8d0
+D/MstarPlayer(  739): Get E_EVENT_INIT_OK event.
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  notify : 0 
+D/IMMPlayer(  739): Send MM_EnableSubtitleShow
+D/IMMPlayer(  739): u32Item:1
+D/IMMPlayer(  739): bEnable:1
+D/IMMPlayer(  739): Get ret:1
+D/MstarPlayer(  739): <<<<<set init done flag
+I//lib/ld-linux.so.3(  743): [CI][HbbTV-VOD]<INFO>:[1363933308.691071] MM init done
+I//lib/ld-linux.so.3(  743): E_CPCODEC_MSG_INIT_OK: 18364659.
+D/MstarPlayer(  739): <<<<<<<<<Init done
+D/IMMPlayer(  739): Send MM_GetMetaData
+D/IMMPlayer(  739): u32Item:1
+D/IMMPlayer(  739): eMetadata:11
+D/IMMPlayer(  739): u32BuffSize:4
+D/IMMPlayer(  739): Get ret:0
+D/IMMPlayer(  739): Send MM_GetMetaData
+D/IMMPlayer(  739): u32Item:1
+D/IMMPlayer(  739): eMetadata:12
+D/IMMPlayer(  739): u32BuffSize:4
+D/IMMPlayer(  739): Get ret:0
+D/MediaPlayerService(  739): [63] notify (0x38a80, 5, 960, 540)
+D/MstarPlayer(  739): MstarPlayer::initRender
+V/MediaControler( 9005): onVideoSizeChanged called
+D/MstarPlayer(  739): MstarPlayer::initRender Done.
+D/MstarPlayer(  739): prepare done....video size 960,540
+D/MediaPlayerService(  739): [63] notify (0x38a80, 1, 0, 0)
+D/MediaControler( 9005): onPrepared ok
+D/MediaControler( 9005): width:960
+D/MediaControler( 9005): height:540
+D/MediaControler( 9005): start play
+D/MstarPlayer(  739): MstarPlayer::setLooping=0
+D/MstarPlayer(  739): playerType
+D/MstarPlayer(  739): MstarPlayer::setLooping=0
+D/IMMPlayer(  739): Send MM_Play
+D/IMMPlayer(  739): u32Item:1
+D/IMMPlayer(  739): Get ret:0
+E/VideoPlayer( 9005): onPlayStart
+I/MediaControler( 9005): [getDuration] shifttime:1363921200  shifend:1363921500
+I/MediaControler( 9005): [getDuration] time:300000
+E/VideoPlayer( 9005): [onPlayStart] timeCode:0 mediaControler.getCurrentPos():0 duration:300000
+D/VideoPlayer( 9005): start load recommend resources.
+I//lib/ld-linux.so.3(  743): mapi_cpcodec::Play(): 18364678.
+I//lib/ld-linux.so.3(  743): [CI][HbbTV-VOD]<INFO>:[1363933308.710271] MM play start
+I//lib/ld-linux.so.3(  743): MApp_VDPlayer_Play
+I//lib/ld-linux.so.3(  743): [CI][HbbTV-VOD]<INFO>:[1363933308.720670] MM setup display start
+I//lib/ld-linux.so.3(  743): Display Msg: 33.
+I//lib/ld-linux.so.3(  743): Screen Setting: 1.
+I//lib/ld-linux.so.3(  743): Set Black Screen ON.
+E/MediaControler( 9005): surfaceChanged
+D/MediaPlayerService(  739): [63] setVideoSurfaceTexture(0x2bd5758)
+I//lib/ld-linux.so.3(  743): Video set up display.
+I//lib/ld-linux.so.3(  743): Scaler frame buffer mode.
+I//lib/ld-linux.so.3(  743): stDisplayInfo.u32OutputRate: 0.
+I//lib/ld-linux.so.3(  743): Display Msg: 28.
+I//lib/ld-linux.so.3(  743): Video Width: 960, Height: 544, FrameRate: 25000, Interlace: 0.
+I//lib/ld-linux.so.3(  743): crop: left=0, right=0, top=0, bottom=4
+I//lib/ld-linux.so.3(  743): Video Type: 2.
+I//lib/ld-linux.so.3(  743): Video PAR Width: 960, Height: 544.
+I//lib/ld-linux.so.3(  743): Video Aspect Ratio: 30x17.
+I//lib/ld-linux.so.3(  743): 1. Display Rect: x: 0, y: 0, width: 1280, height: 720.
+I//lib/ld-linux.so.3(  743): 2. Display Rect: x: 4, y: 0, width: 1270, height: 720.
+I//lib/ld-linux.so.3(  743): CropRect u16X=0, u16Y=0, u16Width=960, u16Height=540
+I//lib/ld-linux.so.3(  743): DispRect u16X=4, u16Y=0, u16Width=1270, u16Height=720
+I//lib/ld-linux.so.3(  743): Scaler start: 0x17bc1000, size: 0x1800000.
+I//lib/ld-linux.so.3(  743): MVOP switch to MIU 0.
+I//lib/ld-linux.so.3(  743): ->u16FrameRate = 25000
+I//lib/ld-linux.so.3(  743): ->u8Interlace = 0
+I//lib/ld-linux.so.3(  743): ->u16HorSize = 960
+I//lib/ld-linux.so.3(  743): ->u16VerSize = 544
+I//lib/ld-linux.so.3(  743): Crop Win, X: 0, Y: 0, W: 960, H: 540.
+I//lib/ld-linux.so.3(  743): Diso Win, X: 4, Y: 0, W: 1270, H: 720.
+I//lib/ld-linux.so.3(  743): [MApi_Video] CropWin assigned: x,y,w,h=0,0,960,540
+I//lib/ld-linux.so.3(  743): [MApi_Video] DstWin assigned: x,y,w,h=4,0,1270,720
+I//lib/ld-linux.so.3(  743): [MApi_Video] SrcWin1[Win=0]: x,y,w,h=152,18,960,540
+I//lib/ld-linux.so.3(  743): [MApi_Video] CropWin1: x,y,w,h=0,0,960,540
+I//lib/ld-linux.so.3(  743): [MApi_Video] DispWin1: x,y,w,h=4,0,1270,720
+I//lib/ld-linux.so.3(  743): === open 3D OverScan ===
+I//lib/ld-linux.so.3(  743): [MApi_Video] SrcWin2: x,y,w,h=152,18,960,540
+I//lib/ld-linux.so.3(  743): [MApi_Video] CropWin2: x,y,w,h=0,0,960,540
+I//lib/ld-linux.so.3(  743): [MApi_Video] DispWin2: x,y,w,h=4,0,1270,720
+I//lib/ld-linux.so.3(  743): [MApi_Video] SrcWin3: x,y,w,h=152,18,960,540
+I//lib/ld-linux.so.3(  743): [MApi_Video] CropWin3: x,y,w,h=0,0,960,540
+I//lib/ld-linux.so.3(  743): [MApi_Video] DispWin3: x,y,w,h=4,0,1270,720
+I//lib/ld-linux.so.3(  743): [MApi_Video] SrcWin5[Win=0]: x,y,w,h=152,18,960,540
+I//lib/ld-linux.so.3(  743): [MApi_Video] CropWin5: x,y,w,h=0,0,960,540
+I//lib/ld-linux.so.3(  743): [MApi_Video] DispWin5: x,y,w,h=4,0,1270,720
+I//lib/ld-linux.so.3(  743): [MApi_Video] DLC cap Hstart=5, Hend=4fb, Vstart=5a, Vend=276
+I//lib/ld-linux.so.3(  743): Read Bandwidthtable.bin
+D/MstarPlayer(  739): Get E_EVENT_DECODE_FIRST_FRAME_DONE event.
+D/MstarPlayer(  739): E_EVENT_PLAYING_OK
+I//lib/ld-linux.so.3(  743): enPQMNRType is 1
+I//lib/ld-linux.so.3(  743): enPQFLType is 1
+I//lib/ld-linux.so.3(  743):    [Plugins_PatchPQ]Customer Path PQ Add here
+I//lib/ld-linux.so.3(  743): [CI][HbbTV-VOD]<INFO>:[1363933308.962714] MM setup display done
+I//lib/ld-linux.so.3(  743): Video is in playing state.
+D/MstarPlayer(  739): Read DisplayRectangle FIFO x 0, y 0, w 1280, h 720
+D/MstarPlayer(  739): setDisplayRectangle  x 0, y 0, w 1280, h 720
+D/IMMPlayer(  739): Send MM_SetDisplayRectangle
+D/IMMPlayer(  739): u32Item:1
+D/IMMPlayer(  739): stRect u16X:0
+D/IMMPlayer(  739): stRect u16Y:0
+D/IMMPlayer(  739): stRect u16Height:720
+D/IMMPlayer(  739): stRect u16Width:1280
+I//lib/ld-linux.so.3(  743): Video PAR Width: 960, Height: 544.
+I//lib/ld-linux.so.3(  743): Video Aspect Ratio: 30x17.
+I//lib/ld-linux.so.3(  743): 1. Display Rect: x: 0, y: 0, width: 1280, height: 720.
+I//lib/ld-linux.so.3(  743): 2. Display Rect: x: 4, y: 0, width: 1270, height: 720.
+I//lib/ld-linux.so.3(  743): CropRect u16X=0, u16Y=0, u16Width=960, u16Height=540
+I//lib/ld-linux.so.3(  743): DispRect u16X=4, u16Y=0, u16Width=1270, u16Height=720
+I//lib/ld-linux.so.3(  743): Crop Win, X: 0, Y: 0, W: 960, H: 540.
+I//lib/ld-linux.so.3(  743): Diso Win, X: 4, Y: 0, W: 1270, H: 720.
+I//lib/ld-linux.so.3(  743): [MApi_Video] CropWin assigned: x,y,w,h=0,0,960,540
+I//lib/ld-linux.so.3(  743): [MApi_Video] DstWin assigned: x,y,w,h=4,0,1270,720
+I//lib/ld-linux.so.3(  743): [MApi_Video] SrcWin1[Win=0]: x,y,w,h=152,18,960,540
+I//lib/ld-linux.so.3(  743): [MApi_Video] CropWin1: x,y,w,h=0,0,960,540
+I//lib/ld-linux.so.3(  743): [MApi_Video] DispWin1: x,y,w,h=4,0,1270,720
+I//lib/ld-linux.so.3(  743): === open 3D OverScan ===
+I//lib/ld-linux.so.3(  743): [MApi_Video] SrcWin2: x,y,w,h=152,18,960,540
+I//lib/ld-linux.so.3(  743): [MApi_Video] CropWin2: x,y,w,h=0,0,960,540
+I//lib/ld-linux.so.3(  743): [MApi_Video] DispWin2: x,y,w,h=4,0,1270,720
+I//lib/ld-linux.so.3(  743): [MApi_Video] SrcWin3: x,y,w,h=152,18,960,540
+I//lib/ld-linux.so.3(  743): [MApi_Video] CropWin3: x,y,w,h=0,0,960,540
+I//lib/ld-linux.so.3(  743): [MApi_Video] DispWin3: x,y,w,h=4,0,1270,720
+I//lib/ld-linux.so.3(  743): [MApi_Video] SrcWin5[Win=0]: x,y,w,h=152,18,960,540
+I//lib/ld-linux.so.3(  743): [MApi_Video] CropWin5: x,y,w,h=0,0,960,540
+I//lib/ld-linux.so.3(  743): [MApi_Video] DispWin5: x,y,w,h=4,0,1270,720
+I//lib/ld-linux.so.3(  743): [MApi_Video] DLC cap Hstart=5, Hend=4fb, Vstart=5a, Vend=276
+D/IMMPlayer(  739): Get ret:0
+I//lib/ld-linux.so.3(  743): STC Updated by Video: (541518->47252756)
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  Warnig::  getValidBufferLength()  <  Codec require !!!
+I//lib/ld-linux.so.3(  743): Audio Sync STC mode.(TS) 
+I//lib/ld-linux.so.3(  743): FrmCnt:7(0,0,0) Rate:6193 Sys:18365971 STC:47253014 VPTS:47252756 APTS:47253007 Delay:-218(40) V:0 A:13 VES:0x4bb70 AES:0x0 PCM:0x2280 AudioErr:0x0
+I//lib/ld-linux.so.3(  743): 1st Decode & Display Ready!!
+I//lib/ld-linux.so.3(  743): Display Msg: 33.
+I//lib/ld-linux.so.3(  743): Screen Setting: 1.
+I//lib/ld-linux.so.3(  743): 2. Set Black Screen OFF.
+I//lib/ld-linux.so.3(  743): Clr Sync STC
+I//lib/ld-linux.so.3(  743): [CI][HbbTV-VOD]<INFO>:[1363933310.280773] MM play done
+E/ServerHandler( 2263): receiveRequest
+V/OtORequest( 2263): parseCommand
+V/OtORequest( 2263): get command=103
+V/OtORequest( 2263): parse OtORequest: cmd=103 paramLength=0 bufferlen=8
+D/OtOService( 2263): client request get status.playType:0
+D/OtOService( 2263): 2222
+E/ServerAdapter( 2263): ServerAdapter:0
+E/ServerHandler( 2263): Send:com.aidufei.protocol.oto.OtOStatusRequest@415cd068
+D/ServerHandler( 2263): ServerHandler send request:103:{"Status":{"ReturnCode":101,"Description":"status sync failed"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 2263): ServerHandler send DatagramPacket:/192.168.1.104-[B@42110cf0
+D/MonitorCw880( 4659): currentRemoteHost is null ,continue
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  Warnig::  getValidBufferLength()  <  Codec require !!!
+I//lib/ld-linux.so.3(  743): FrmCnt:51(0,2,5) Rate:29 Sys:18367475 STC:47254518 VPTS:47254516 APTS:47254523 Delay:38(40) V:0 A:0 VES:0x80490 AES:0x6e00 PCM:0x4b600 AudioErr:0x0
+D/HomePlayerLib( 1693): hostaddress count is 1
+D/dalvikvm( 1693): GC_CONCURRENT freed 2001K, 19% free 25836K/31875K, paused 2ms+6ms
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  Warnig::  getValidBufferLength()  <  Codec require !!!
+I//lib/ld-linux.so.3(  743): FrmCnt:89(0,2,5) Rate:24 Sys:18369007 STC:47256050 VPTS:47256036 APTS:47256047 Delay:26(40) V:0 A:0 VES:0x67c30 AES:0x4bd0 PCM:0x4bd80 AudioErr:0x0
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  Warnig::  getValidBufferLength()  <  Codec require !!!
+D/dalvikvm( 1693): GC_CONCURRENT freed 2022K, 20% free 25803K/31875K, paused 2ms+6ms
+I//lib/ld-linux.so.3(  743): FrmCnt:127(0,2,5) Rate:24 Sys:18370538 STC:47257581 VPTS:47257556 APTS:47257584 Delay:15(40) V:0 A:0 VES:0x6bfe0 AES:0x4f00 PCM:0x4af00 AudioErr:0x0
+D/dhcpcd  ( 4861): sending DHCP_DISCOVER with xid 0x89da8660, next in 31.56 seconds
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  Warnig::  getValidBufferLength()  <  Codec require !!!
+D/MonitorCw880( 4659): currentRemoteHost is null ,continue
+I//lib/ld-linux.so.3(  743): FrmCnt:166(0,2,5) Rate:25 Sys:18372073 STC:47259116 VPTS:47259076 APTS:47259118 Delay:0(40) V:0 A:0 VES:0x6b9f0 AES:0x59f0 PCM:0x4b080 AudioErr:0x0
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  Warnig::  getValidBufferLength()  <  Codec require !!!
+I//lib/ld-linux.so.3(  743): FrmCnt:204(0,2,5) Rate:24 Sys:18373599 STC:47260642 VPTS:47260636 APTS:47260644 Delay:34(40) V:0 A:0 VES:0x5add0 AES:0x4220 PCM:0x4b800 AudioErr:0x0
+D/DataSource_M3U8(  739): 
+D/DataSource_M3U8(  739):  Warnig::  getValidBufferLength()  <  Codec require !!!
+^C

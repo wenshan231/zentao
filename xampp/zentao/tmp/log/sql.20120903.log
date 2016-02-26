@@ -1,0 +1,21 @@
+20120903 14:48:57: /zentao/install.php
+
+20120903 14:48:59: /zentao/install.php?m=install&f=step1
+
+20120903 14:49:01: /zentao/install.php?m=install&f=step2
+
+20120903 14:49:12: /zentao/install.php?m=install&f=step3
+
+20120903 14:49:13: /zentao/install.php?m=install&f=step4
+
+20120903 14:49:21: /zentao/install.php?m=install&f=step4
+  INSERT INTO `zt_company` SET `name` = '易软天创',`pms` = 'localhost',`admins` = ',admin,'
+  INSERT INTO `zt_user` SET `account` = 'admin',`realname` = 'admin',`password` = 'e10adc3949ba59abbe56e057f20f883e',`company` = '1'
+  UPDATE `zt_group` SET  company  = '1'
+  UPDATE `zt_groupPriv` SET  company  = '1'
+  REPLACE `zt_config` SET `company` = '0',`owner` = 'system',`module` = 'common',`section` = 'global',`key` = 'version',`value` = '3.3'
+  SELECT `value` FROM `zt_config` WHERE company  = '0' AND owner  = 'system' AND module  = 'common' AND section  = 'global' AND `key`  = 'sn'
+  REPLACE `zt_config` SET `company` = '0',`owner` = 'system',`module` = 'common',`section` = 'global',`key` = 'sn',`value` = '0ac3dbda5892888157883a4dee787808'
+
+20120903 14:49:21: /zentao/install.php?m=install&f=step5
+

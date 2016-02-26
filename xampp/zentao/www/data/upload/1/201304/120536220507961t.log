@@ -1,0 +1,1944 @@
+D/dalvikvm( 1503): GC_CONCURRENT freed 427K, 78% free 1294K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 384K, 78% free 1304K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 393K, 78% free 1305K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 393K, 78% free 1305K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 393K, 78% free 1297K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 389K, 78% free 1307K/5827K, paused 1ms+1ms
+D/HomePlayerLib( 1503): hostaddress count is 1
+D/dalvikvm( 1503): GC_CONCURRENT freed 402K, 78% free 1304K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 404K, 78% free 1285K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 371K, 78% free 1313K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 396K, 77% free 1380K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 436K, 77% free 1348K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 425K, 77% free 1345K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 433K, 78% free 1312K/5827K, paused 1ms+1ms
+D/UploadCheckerService( 1412): Can't Connect to CIBN_SERVER_PATH!  Address: http://tms.cibntest.ysten.com:8080/
+D/UploadCheckerService( 1412): Can't Connect to CIBN_SERVER_PATH!  retryTime is : 110
+D/dalvikvm( 1503): GC_CONCURRENT freed 407K, 78% free 1293K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 377K, 77% free 1375K/5827K, paused 1ms+1ms
+W/System.err( 1260): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:400)
+W/System.err( 1260):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1260):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1260):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1260):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.isConnectToServerByHttp(MainActivity.java:803)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.access$1600(MainActivity.java:121)
+W/System.err( 1260):    at com.coship.cibn.MainActivity$3.run(MainActivity.java:768)
+W/System.err( 1260):    at java.lang.Thread.run(Thread.java:856)
+I/MainActivity( 1260): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+W/System.err( 1260): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:400)
+W/System.err( 1260):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1260):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1260):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1260):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.isConnectToServerByHttp(MainActivity.java:803)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.access$1600(MainActivity.java:121)
+W/System.err( 1260):    at com.coship.cibn.MainActivity$3.run(MainActivity.java:768)
+W/System.err( 1260):    at java.lang.Thread.run(Thread.java:856)
+I/MainActivity( 1260): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+D/UploadCheckerService( 1412): Can't Connect to CIBN_SERVER_PATH!  Address: http://tms.cibntest.ysten.com:8080/
+D/UploadCheckerService( 1412): Can't Connect to CIBN_SERVER_PATH!  retryTime is : 111
+D/dalvikvm( 1503): GC_CONCURRENT freed 458K, 78% free 1307K/5827K, paused 0ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 390K, 76% free 1415K/5827K, paused 0ms+0ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 512K, 78% free 1293K/5827K, paused 1ms+1ms
+W/System.err( 1260): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:426)
+W/System.err( 1260):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1260):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1260):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1260):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.isConnectToServerByHttp(MainActivity.java:803)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.access$1600(MainActivity.java:121)
+W/System.err( 1260):    at com.coship.cibn.MainActivity$3.run(MainActivity.java:768)
+W/System.err( 1260):    at java.lang.Thread.run(Thread.java:856)
+W/System.err( 1260): Caused by: libcore.io.GaiException: getaddrinfo failed: EAI_NODATA (No address associated with hostname)
+W/System.err( 1260):    at libcore.io.Posix.getaddrinfo(Native Method)
+W/System.err( 1260):    at libcore.io.ForwardingOs.getaddrinfo(ForwardingOs.java:55)
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:411)
+W/System.err( 1260):    ... 13 more
+I/MainActivity( 1260): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+D/dalvikvm( 1503): GC_CONCURRENT freed 379K, 76% free 1416K/5827K, paused 1ms+0ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 503K, 76% free 1421K/5827K, paused 1ms+1ms
+D/UploadCheckerService( 1412): Can't Connect to CIBN_SERVER_PATH!  Address: http://tms.cibntest.ysten.com:8080/
+D/UploadCheckerService( 1412): Can't Connect to CIBN_SERVER_PATH!  retryTime is : 112
+D/dalvikvm( 1503): GC_CONCURRENT freed 522K, 77% free 1364K/5827K, paused 1ms+1ms
+D/HomePlayerLib( 1503): hostaddress count is 1
+D/dalvikvm( 1503): GC_CONCURRENT freed 459K, 76% free 1402K/5827K, paused 0ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 497K, 78% free 1336K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 428K, 76% free 1425K/5827K, paused 0ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 513K, 78% free 1311K/5827K, paused 0ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 516K, 78% free 1290K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 374K, 77% free 1384K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 566K, 78% free 1329K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 412K, 78% free 1309K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 393K, 78% free 1314K/5827K, paused 1ms+1ms
+W/System.err( 1260): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:400)
+W/System.err( 1260):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1260):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1260):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1260):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.isConnectToServerByHttp(MainActivity.java:803)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.access$1600(MainActivity.java:121)
+W/System.err( 1260):    at com.coship.cibn.MainActivity$3.run(MainActivity.java:768)
+W/System.err( 1260):    at java.lang.Thread.run(Thread.java:856)
+I/MainActivity( 1260): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+
+[  331.455995] IR: [03932] scan key value is 0xec13c936 
+[  331.455999]  V/NetFirmwareService( 1294): onStartCommand
+V/NetFirmwareService( 1294): intent--->Intent { act=com.coship.netfirmware.NetFirmwareService (has extras) }
+V/NetFirmwareService( 1294): Network is connected!
+I/NetFirmwareService( 1294): initPromtDialog_SHOW!
+E/WindowManager(  943): Unknown window type: 2131099651
+V/TabletStatusBar( 1145): setLightsOn(true)
+W/InputManagerService(  943): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@4169c6c8 (uid=1000 pid=1868)
+D/UploadCheckerService( 1412): Can't Connect to CIBN_SERVER_PATH!  Address: http://tms.cibntest.ysten.com:8080/
+D/UploadCheckerService( 1412): Can't Connect to CIBN_SERVER_PATH!  retryTime is : 113
+D/NetFirmwareService( 1294): MSG_CHECK_PACKAGE
+V/TabletStatusBar( 1145): setLightsOn(true)
+W/System.err( 1260): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:400)
+W/System.err( 1260):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1260):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1260):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1260):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.isConnectToServerByHttp(MainActivity.java:803)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.access$1600(MainActivity.java:121)
+W/System.err( 1260):    at com.coship.cibn.MainActivity$3.run(MainActivity.java:768)
+W/System.err( 1260):    at java.lang.Thread.run(Thread.java:856)
+I/MainActivity( 1260): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+V/NetUpdate( 1868): [onClick]:mWriteSD--->true
+V/NetUpdate( 1868): mBindRemote--->true
+V/NetUpdate( 1868): Remote Invoke Success!
+D/dalvikvm( 1503): GC_CONCURRENT freed 413K, 76% free 1410K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 505K, 76% free 1412K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 488K, 78% free 1315K/5827K, paused 1ms+3ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 405K, 76% free 1407K/5827K, paused 1ms+1ms
+D/UploadCheckerService( 1412): Can't Connect to CIBN_SERVER_PATH!  Address: http://tms.cibntest.ysten.com:8080/
+D/UploadCheckerService( 1412): Can't Connect to CIBN_SERVER_PATH!  retryTime is : 114
+W/System.err( 1260): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:426)
+W/System.err( 1260):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1260):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1260):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1260):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.isConnectToServerByHttp(MainActivity.java:803)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.access$1600(MainActivity.java:121)
+W/System.err( 1260):    at com.coship.cibn.MainActivity$3.run(MainActivity.java:768)
+W/System.err( 1260):    at java.lang.Thread.run(Thread.java:856)
+W/System.err( 1260): Caused by: libcore.io.GaiException: getaddrinfo failed: EAI_NODATA (No address associated with hostname)
+W/System.err( 1260):    at libcore.io.Posix.getaddrinfo(Native Method)
+W/System.err( 1260):    at libcore.io.ForwardingOs.getaddrinfo(ForwardingOs.java:55)
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:411)
+W/System.err( 1260):    ... 13 more
+I/MainActivity( 1260): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+D/dalvikvm( 1503): GC_CONCURRENT freed 500K, 77% free 1386K/5827K, paused 1ms+1ms
+D/HomePlayerLib( 1503): hostaddress count is 1
+D/dalvikvm( 1503): GC_CONCURRENT freed 469K, 77% free 1358K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 454K, 77% free 1394K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 471K, 76% free 1411K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 513K, 77% free 1353K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 440K, 76% free 1421K/5827K, paused 3ms+2ms
+V/NetFirmwareService( 1294): getFilePackageSize--->181497081
+V/NetFirmwareService( 1294): descripPackageSize--->181497081
+V/NetFirmwareService( 1294): getFileMD5--->fd58c6884a9166c621b72845ef4ac07b
+V/NetFirmwareService( 1294): descripMD5--->d41d8cd98f00b204e9800998ecf8427e
+V/NetFirmwareService( 1294): MD5 is not equal!!!
+D/dalvikvm( 1503): GC_CONCURRENT freed 493K, 76% free 1434K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 525K, 76% free 1417K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 502K, 78% free 1311K/5827K, paused 0ms+1ms
+W/System.err( 1260): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:400)
+W/System.err( 1260):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1260):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1260):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1260):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.isConnectToServerByHttp(MainActivity.java:803)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.access$1600(MainActivity.java:121)
+W/System.err( 1260):    at com.coship.cibn.MainActivity$3.run(MainActivity.java:768)
+W/System.err( 1260):    at java.lang.Thread.run(Thread.java:856)
+I/MainActivity( 1260): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+D/UploadCheckerService( 1412): Can't Connect to CIBN_SERVER_PATH!  Address: http://tms.cibntest.ysten.com:8080/
+D/UploadCheckerService( 1412): Can't Connect to CIBN_SERVER_PATH!  retryTime is : 115
+D/dalvikvm( 1503): GC_CONCURRENT freed 406K, 78% free 1304K/5827K, paused 1ms+1ms
+W/System.err( 1260): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:400)
+W/System.err( 1260):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1260):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1260):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1260):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.isConnectToServerByHttp(MainActivity.java:803)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.access$1600(MainActivity.java:121)
+W/System.err( 1260):    at com.coship.cibn.MainActivity$3.run(MainActivity.java:768)
+W/System.err( 1260):    at java.lang.Thread.run(Thread.java:856)
+I/MainActivity( 1260): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+D/UploadCheckerService( 1412): Can't Connect to CIBN_SERVER_PATH!  Address: http://tms.cibntest.ysten.com:8080/
+D/UploadCheckerService( 1412): Can't Connect to CIBN_SERVER_PATH!  retryTime is : 116
+D/dalvikvm( 1503): GC_CONCURRENT freed 402K, 78% free 1314K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 402K, 76% free 1423K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 517K, 76% free 1412K/5827K, paused 0ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 488K, 78% free 1315K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 427K, 75% free 1471K/5827K, paused 1ms+1ms
+D/HomePlayerLib( 1503): hostaddress count is 1
+D/dalvikvm( 1503): GC_CONCURRENT freed 553K, 77% free 1363K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 455K, 76% free 1418K/5827K, paused 0ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 512K, 76% free 1412K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 510K, 78% free 1290K/5827K, paused 1ms+1ms
+W/System.err( 1260): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:426)
+W/System.err( 1260):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1260):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1260):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1260):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.isConnectToServerByHttp(MainActivity.java:803)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.access$1600(MainActivity.java:121)
+W/System.err( 1260):    at com.coship.cibn.MainActivity$3.run(MainActivity.java:768)
+W/System.err( 1260):    at java.lang.Thread.run(Thread.java:856)
+W/System.err( 1260): Caused by: libcore.io.GaiException: getaddrinfo failed: EAI_NODATA (No address associated with hostname)
+W/System.err( 1260):    at libcore.io.Posix.getaddrinfo(Native Method)
+W/System.err( 1260):    at libcore.io.ForwardingOs.getaddrinfo(ForwardingOs.java:55)
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:411)
+W/System.err( 1260):    ... 13 more
+I/MainActivity( 1260): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+D/dalvikvm( 1503): GC_CONCURRENT freed 380K, 78% free 1314K/5827K, paused 1ms+1ms
+D/CheckNetWork( 1756): isOk true
+D/CheckNetWork( 1756): ActInfoNetworkInfo: type: ETH[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), roaming: false, failover: false, isAvailable: true
+D/CheckNetWork( 1756): infoNetworkInfo: type: ETH[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), roaming: false, failover: false, isAvailable: true
+D/dalvikvm( 1503): GC_CONCURRENT freed 388K, 77% free 1361K/5827K, paused 2ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 440K, 78% free 1314K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 394K, 78% free 1314K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 406K, 78% free 1311K/5827K, paused 1ms+1ms
+D/UploadCheckerService( 1412): Can't Connect to CIBN_SERVER_PATH!  Address: http://tms.cibntest.ysten.com:8080/
+D/UploadCheckerService( 1412): Can't Connect to CIBN_SERVER_PATH!  retryTime is : 117
+W/System.err( 1260): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:400)
+W/System.err( 1260):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1260):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1260):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1260):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.isConnectToServerByHttp(MainActivity.java:803)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.access$1600(MainActivity.java:121)
+W/System.err( 1260):    at com.coship.cibn.MainActivity$3.run(MainActivity.java:768)
+W/System.err( 1260):    at java.lang.Thread.run(Thread.java:856)
+I/MainActivity( 1260): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+D/UploadCheckerService( 1412): Can't Connect to CIBN_SERVER_PATH!  Address: http://tms.cibntest.ysten.com:8080/
+D/UploadCheckerService( 1412): Can't Connect to CIBN_SERVER_PATH!  retryTime is : 118
+D/dalvikvm( 1503): GC_CONCURRENT freed 395K, 77% free 1355K/5827K, paused 1ms+1ms
+W/System.err( 1260): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:400)
+W/System.err( 1260):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1260):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1260):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1260):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.isConnectToServerByHttp(MainActivity.java:803)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.access$1600(MainActivity.java:121)
+W/System.err( 1260):    at com.coship.cibn.MainActivity$3.run(MainActivity.java:768)
+W/System.err( 1260):    at java.lang.Thread.run(Thread.java:856)
+I/MainActivity( 1260): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+D/dalvikvm( 1503): GC_CONCURRENT freed 442K, 74% free 1573K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 652K, 78% free 1317K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 406K, 76% free 1406K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 500K, 78% free 1295K/5827K, paused 1ms+1ms
+D/HomePlayerLib( 1503): hostaddress count is 1
+D/dalvikvm( 1503): GC_CONCURRENT freed 388K, 77% free 1394K/5827K, paused 0ms+0ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 480K, 77% free 1382K/5827K, paused 0ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 472K, 77% free 1368K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 446K, 76% free 1416K/5827K, paused 0ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 495K, 78% free 1315K/5827K, paused 0ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 396K, 76% free 1428K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 513K, 76% free 1401K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 497K, 77% free 1384K/5827K, paused 1ms+1ms
+W/System.err( 1260): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:426)
+W/System.err( 1260):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1260):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1260):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1260):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.isConnectToServerByHttp(MainActivity.java:803)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.access$1600(MainActivity.java:121)
+W/System.err( 1260):    at com.coship.cibn.MainActivity$3.run(MainActivity.java:768)
+W/System.err( 1260):    at java.lang.Thread.run(Thread.java:856)
+W/System.err( 1260): Caused by: libcore.io.GaiException: getaddrinfo failed: EAI_NODATA (No address associated with hostname)
+W/System.err( 1260):    at libcore.io.Posix.getaddrinfo(Native Method)
+W/System.err( 1260):    at libcore.io.ForwardingOs.getaddrinfo(ForwardingOs.java:55)
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:411)
+W/System.err( 1260):    ... 13 more
+I/MainActivity( 1260): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+D/UploadCheckerService( 1412): Can't Connect to CIBN_SERVER_PATH!  Address: http://tms.cibntest.ysten.com:8080/
+D/UploadCheckerService( 1412): Can't Connect to CIBN_SERVER_PATH!  retryTime is : 119
+D/dalvikvm( 1503): GC_CONCURRENT freed 477K, 78% free 1308K/5827K, paused 1ms+1ms
+W/System.err( 1260): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:400)
+W/System.err( 1260):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1260):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1260):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1260):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.isConnectToServerByHttp(MainActivity.java:803)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.access$1600(MainActivity.java:121)
+W/System.err( 1260):    at com.coship.cibn.MainActivity$3.run(MainActivity.java:768)
+W/System.err( 1260):    at java.lang.Thread.run(Thread.java:856)
+I/MainActivity( 1260): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+D/dalvikvm( 1503): GC_CONCURRENT freed 390K, 76% free 1406K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 505K, 78% free 1300K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 384K, 77% free 1395K/5827K, paused 0ms+0ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 477K, 78% free 1310K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 394K, 78% free 1309K/5827K, paused 1ms+1ms
+W/System.err( 1260): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:400)
+W/System.err( 1260):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1260):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1260):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1260):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.isConnectToServerByHttp(MainActivity.java:803)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.access$1600(MainActivity.java:121)
+W/System.err( 1260):    at com.coship.cibn.MainActivity$3.run(MainActivity.java:768)
+W/System.err( 1260):    at java.lang.Thread.run(Thread.java:856)
+I/MainActivity( 1260): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+D/UploadCheckerService( 1412): Can't Connect to CIBN_SERVER_PATH!  Address: http://tms.cibntest.ysten.com:8080/
+D/UploadCheckerService( 1412): Can't Connect to CIBN_SERVER_PATH!  retryTime is : 120
+D/dalvikvm( 1503): GC_CONCURRENT freed 404K, 78% free 1295K/5827K, paused 1ms+1ms
+D/HomePlayerLib( 1503): hostaddress count is 1
+D/dalvikvm( 1503): GC_CONCURRENT freed 387K, 78% free 1308K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 400K, 78% free 1307K/5827K, paused 0ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 402K, 78% free 1297K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 392K, 78% free 1313K/5827K, paused 1ms+2ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 393K, 78% free 1312K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 392K, 78% free 1314K/5827K, paused 0ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 392K, 78% free 1312K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 391K, 78% free 1314K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 393K, 78% free 1314K/5827K, paused 1ms+1ms
+W/System.err( 1260): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:426)
+W/System.err( 1260):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1260):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1260):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1260):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.isConnectToServerByHttp(MainActivity.java:803)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.access$1600(MainActivity.java:121)
+W/System.err( 1260):    at com.coship.cibn.MainActivity$3.run(MainActivity.java:768)
+W/System.err( 1260):    at java.lang.Thread.run(Thread.java:856)
+W/System.err( 1260): Caused by: libcore.io.GaiException: getaddrinfo failed: EAI_NODATA (No address associated with hostname)
+W/System.err( 1260):    at libcore.io.Posix.getaddrinfo(Native Method)
+W/System.err( 1260):    at libcore.io.ForwardingOs.getaddrinfo(ForwardingOs.java:55)
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:411)
+W/System.err( 1260):    ... 13 more
+I/MainActivity( 1260): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+W/System.err( 1260): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:400)
+W/System.err( 1260):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1260):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1260):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1260):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.isConnectToServerByHttp(MainActivity.java:803)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.access$1600(MainActivity.java:121)
+W/System.err( 1260):    at com.coship.cibn.MainActivity$3.run(MainActivity.java:768)
+W/System.err( 1260):    at java.lang.Thread.run(Thread.java:856)
+I/MainActivity( 1260): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+D/UploadCheckerService( 1412): Can't Connect to CIBN_SERVER_PATH!  Address: http://tms.cibntest.ysten.com:8080/
+D/UploadCheckerService( 1412): Can't Connect to CIBN_SERVER_PATH!  retryTime is : 121
+D/dalvikvm( 1503): GC_CONCURRENT freed 412K, 77% free 1371K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 452K, 78% free 1309K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 394K, 76% free 1415K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 501K, 78% free 1329K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 418K, 78% free 1298K/5827K, paused 1ms+1ms
+W/System.err( 1260): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:400)
+W/System.err( 1260):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1260):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1260):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1260):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.isConnectToServerByHttp(MainActivity.java:803)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.access$1600(MainActivity.java:121)
+W/System.err( 1260):    at com.coship.cibn.MainActivity$3.run(MainActivity.java:768)
+W/System.err( 1260):    at java.lang.Thread.run(Thread.java:856)
+I/MainActivity( 1260): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+D/dalvikvm( 1503): GC_CONCURRENT freed 392K, 78% free 1306K/5827K, paused 1ms+1ms
+D/HomePlayerLib( 1503): hostaddress count is 1
+D/dalvikvm( 1503): GC_CONCURRENT freed 402K, 78% free 1294K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 388K, 78% free 1308K/5827K, paused 0ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 405K, 78% free 1312K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 434K, 78% free 1332K/5827K, paused 0ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 412K, 78% free 1312K/5827K, paused 0ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 391K, 78% free 1313K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 389K, 78% free 1309K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 392K, 78% free 1309K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 393K, 78% free 1309K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 393K, 78% free 1309K/5827K, paused 0ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 393K, 77% free 1355K/5827K, paused 1ms+1ms
+W/System.err( 1260): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:426)
+W/System.err( 1260):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1260):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1260):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1260):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.isConnectToServerByHttp(MainActivity.java:803)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.access$1600(MainActivity.java:121)
+W/System.err( 1260):    at com.coship.cibn.MainActivity$3.run(MainActivity.java:768)
+W/System.err( 1260):    at java.lang.Thread.run(Thread.java:856)
+W/System.err( 1260): Caused by: libcore.io.GaiException: getaddrinfo failed: EAI_NODATA (No address associated with hostname)
+W/System.err( 1260):    at libcore.io.Posix.getaddrinfo(Native Method)
+W/System.err( 1260):    at libcore.io.ForwardingOs.getaddrinfo(ForwardingOs.java:55)
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:411)
+W/System.err( 1260):    ... 13 more
+I/MainActivity( 1260): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+D/UploadCheckerService( 1412): Can't Connect to CIBN_SERVER_PATH!  Address: http://tms.cibntest.ysten.com:8080/
+D/UploadCheckerService( 1412): Can't Connect to CIBN_SERVER_PATH!  retryTime is : 122
+W/System.err( 1260): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:400)
+W/System.err( 1260):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1260):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1260):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1260):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.isConnectToServerByHttp(MainActivity.java:803)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.access$1600(MainActivity.java:121)
+W/System.err( 1260):    at com.coship.cibn.MainActivity$3.run(MainActivity.java:768)
+W/System.err( 1260):    at java.lang.Thread.run(Thread.java:856)
+I/MainActivity( 1260): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+D/dalvikvm( 1503): GC_CONCURRENT freed 453K, 78% free 1312K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 397K, 76% free 1415K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 501K, 76% free 1410K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 498K, 78% free 1298K/5827K, paused 0ms+0ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 393K, 76% free 1403K/5827K, paused 1ms+0ms
+D/HomePlayerLib( 1503): hostaddress count is 1
+D/dalvikvm( 1503): GC_CONCURRENT freed 495K, 74% free 1521K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 616K, 76% free 1420K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 491K, 77% free 1354K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 438K, 78% free 1313K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 361K, 75% free 1491K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 585K, 78% free 1300K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 396K, 78% free 1328K/5827K, paused 0ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 417K, 78% free 1298K/5827K, paused 0ms+1ms
+W/System.err( 1260): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:400)
+W/System.err( 1260):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1260):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1260):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1260):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.isConnectToServerByHttp(MainActivity.java:803)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.access$1600(MainActivity.java:121)
+W/System.err( 1260):    at com.coship.cibn.MainActivity$3.run(MainActivity.java:768)
+W/System.err( 1260):    at java.lang.Thread.run(Thread.java:856)
+I/MainActivity( 1260): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+D/UploadCheckerService( 1412): Can't Connect to CIBN_SERVER_PATH!  Address: http://tms.cibntest.ysten.com:8080/
+D/UploadCheckerService( 1412): Can't Connect to CIBN_SERVER_PATH!  retryTime is : 123
+W/System.err( 1260): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:426)
+W/System.err( 1260):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1260):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1260):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1260):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.isConnectToServerByHttp(MainActivity.java:803)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.access$1600(MainActivity.java:121)
+W/System.err( 1260):    at com.coship.cibn.MainActivity$3.run(MainActivity.java:768)
+W/System.err( 1260):    at java.lang.Thread.run(Thread.java:856)
+W/System.err( 1260): Caused by: libcore.io.GaiException: getaddrinfo failed: EAI_NODATA (No address associated with hostname)
+W/System.err( 1260):    at libcore.io.Posix.getaddrinfo(Native Method)
+W/System.err( 1260):    at libcore.io.ForwardingOs.getaddrinfo(ForwardingOs.java:55)
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:411)
+W/System.err( 1260):    ... 13 more
+I/MainActivity( 1260): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+D/dalvikvm( 1503): GC_CONCURRENT freed 449K, 78% free 1309K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 392K, 78% free 1309K/5827K, paused 0ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 393K, 78% free 1309K/5827K, paused 0ms+0ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 393K, 78% free 1309K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 393K, 77% free 1355K/5827K, paused 1ms+1ms
+W/System.err( 1260): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:400)
+W/System.err( 1260):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1260):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1260):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1260):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.isConnectToServerByHttp(MainActivity.java:803)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.access$1600(MainActivity.java:121)
+W/System.err( 1260):    at com.coship.cibn.MainActivity$3.run(MainActivity.java:768)
+W/System.err( 1260):    at java.lang.Thread.run(Thread.java:856)
+I/MainActivity( 1260): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+D/UploadCheckerService( 1412): Can't Connect to CIBN_SERVER_PATH!  Address: http://tms.cibntest.ysten.com:8080/
+D/UploadCheckerService( 1412): Can't Connect to CIBN_SERVER_PATH!  retryTime is : 124
+D/dalvikvm( 1503): GC_CONCURRENT freed 440K, 77% free 1351K/5827K, paused 1ms+1ms
+E/Tools   ( 1244):  ------:: getHttpUrlConnData IOExceptionUnable to resolve host "app.longvisionmedia.com": No address associated with hostname
+D/dalvikvm( 1503): GC_CONCURRENT freed 445K, 78% free 1294K/5827K, paused 1ms+1ms
+D/HomePlayerLib( 1503): hostaddress count is 1
+D/dalvikvm( 1503): GC_CONCURRENT freed 388K, 78% free 1307K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 402K, 77% free 1376K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 467K, 76% free 1417K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 488K, 76% free 1439K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 514K, 78% free 1318K/5827K, paused 0ms+0ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 403K, 78% free 1320K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 391K, 76% free 1411K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 490K, 76% free 1408K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 487K, 78% free 1312K/5827K, paused 1ms+1ms
+W/System.err( 1260): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:400)
+W/System.err( 1260):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1260):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1260):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1260):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.isConnectToServerByHttp(MainActivity.java:803)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.access$1600(MainActivity.java:121)
+W/System.err( 1260):    at com.coship.cibn.MainActivity$3.run(MainActivity.java:768)
+W/System.err( 1260):    at java.lang.Thread.run(Thread.java:856)
+I/MainActivity( 1260): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+D/PushMsgCenter( 1723): mDownUpRun run while (true)
+D/PushMsgCenter( 1723): down  
+W/System.err( 1723): java.net.UnknownHostException: Unable to resolve host "vitv.voicecloud.cn": No address associated with hostname
+W/System.err( 1723):    at java.net.InetAddress.lookupHostByName(InetAddress.java:426)
+W/System.err( 1723):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1723):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1723):    at libcore.net.http.HttpConnection.<init>(HttpConnection.java:71)
+W/System.err( 1723):    at libcore.net.http.HttpConnection.<init>(HttpConnection.java:50)
+W/System.err( 1723):    at libcore.net.http.HttpConnection$Address.connect(HttpConnection.java:351)
+W/System.err( 1723):    at libcore.net.http.HttpConnectionPool.get(HttpConnectionPool.java:86)
+W/System.err( 1723):    at libcore.net.http.HttpConnection.connect(HttpConnection.java:128)
+W/System.err( 1723):    at libcore.net.http.HttpEngine.openSocketConnection(HttpEngine.java:308)
+W/System.err( 1723):    at libcore.net.http.HttpEngine.connect(HttpEngine.java:303)
+W/System.err( 1723):    at libcore.net.http.HttpEngine.sendSocketRequest(HttpEngine.java:282)
+W/System.err( 1723):    at libcore.net.http.HttpEngine.sendRequest(HttpEngine.java:232)
+W/System.err( 1723):    at libcore.net.http.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:273)
+W/System.err( 1723):    at libcore.net.http.HttpURLConnectionImpl.getResponseCode(HttpURLConnectionImpl.java:479)
+W/System.err( 1723):    at com.iflytek.push.PushMsgCenter.down(PushMsgCenter.java:270)
+W/System.err( 1723):    at com.iflytek.push.PushMsgCenter.access$500(PushMsgCenter.java:37)
+W/System.err( 1723):    at com.iflytek.push.PushMsgCenter$2.run(PushMsgCenter.java:175)
+W/System.err( 1723):    at java.lang.Thread.run(Thread.java:856)
+W/System.err( 1723): Caused by: libcore.io.GaiException: getaddrinfo failed: EAI_NODATA (No address associated with hostname)
+W/System.err( 1723):    at libcore.io.Posix.getaddrinfo(Native Method)
+W/System.err( 1723):    at libcore.io.ForwardingOs.getaddrinfo(ForwardingOs.java:55)
+W/System.err( 1723):    at java.net.InetAddress.lookupHostByName(InetAddress.java:411)
+W/System.err( 1723):    ... 17 more
+W/System.err( 1260): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:426)
+W/System.err( 1260):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1260):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1260):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1260):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.isConnectToServerByHttp(MainActivity.java:803)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.access$1600(MainActivity.java:121)
+W/System.err( 1260):    at com.coship.cibn.MainActivity$3.run(MainActivity.java:768)
+W/System.err( 1260):    at java.lang.Thread.run(Thread.java:856)
+W/System.err( 1260): Caused by: libcore.io.GaiException: getaddrinfo failed: EAI_NODATA (No address associated with hostname)
+W/System.err( 1260):    at libcore.io.Posix.getaddrinfo(Native Method)
+W/System.err( 1260):    at libcore.io.ForwardingOs.getaddrinfo(ForwardingOs.java:55)
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:411)
+W/System.err( 1260):    ... 13 more
+I/MainActivity( 1260): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+D/CheckNetWork( 1756): isOk true
+D/CheckNetWork( 1756): ActInfoNetworkInfo: type: ETH[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), roaming: false, failover: false, isAvailable: true
+D/CheckNetWork( 1756): infoNetworkInfo: type: ETH[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), roaming: false, failover: false, isAvailable: true
+D/UploadCheckerService( 1412): Can't Connect to CIBN_SERVER_PATH!  Address: http://tms.cibntest.ysten.com:8080/
+D/UploadCheckerService( 1412): Can't Connect to CIBN_SERVER_PATH!  retryTime is : 125
+D/dalvikvm( 1503): GC_CONCURRENT freed 403K, 76% free 1413K/5827K, paused 1ms+0ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 490K, 76% free 1439K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 515K, 78% free 1316K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 405K, 76% free 1407K/5827K, paused 1ms+1ms
+W/System.err( 1260): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:400)
+W/System.err( 1260):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1260):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1260):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1260):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.isConnectToServerByHttp(MainActivity.java:803)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.access$1600(MainActivity.java:121)
+W/System.err( 1260):    at com.coship.cibn.MainActivity$3.run(MainActivity.java:768)
+W/System.err( 1260):    at java.lang.Thread.run(Thread.java:856)
+I/MainActivity( 1260): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+D/dalvikvm( 1503): GC_CONCURRENT freed 501K, 78% free 1305K/5827K, paused 1ms+2ms
+D/HomePlayerLib( 1503): hostaddress count is 1
+D/dalvikvm( 1503): GC_CONCURRENT freed 388K, 78% free 1307K/5827K, paused 1ms+2ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 403K, 78% free 1305K/5827K, paused 1ms+2ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 378K, 78% free 1312K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 398K, 78% free 1311K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 408K, 77% free 1373K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 460K, 78% free 1301K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 392K, 78% free 1310K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 489K, 78% free 1287K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 377K, 76% free 1407K/5827K, paused 0ms+1ms
+W/System.err( 1260): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:400)
+W/System.err( 1260):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1260):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1260):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1260):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.isConnectToServerByHttp(MainActivity.java:803)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.access$1600(MainActivity.java:121)
+W/System.err( 1260):    at com.coship.cibn.MainActivity$3.run(MainActivity.java:768)
+W/System.err( 1260):    at java.lang.Thread.run(Thread.java:856)
+I/MainActivity( 1260): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+D/UploadCheckerService( 1412): Can't Connect to CIBN_SERVER_PATH!  Address: http://tms.cibntest.ysten.com:8080/
+D/UploadCheckerService( 1412): Can't Connect to CIBN_SERVER_PATH!  retryTime is : 126
+
+[  419.221088] IR: [03932] scan key value is 0xec13c936 
+[  419.221093]  
+[  419.272237] IR: [03932] scan key value is 0xec13c936 
+[  419.272242]  V/NetFirmwareService( 1294): onStartCommand
+V/NetFirmwareService( 1294): intent--->Intent { act=com.coship.netfirmware.NetFirmwareService (has extras) }
+V/NetFirmwareService( 1294): Network is connected!
+I/NetFirmwareService( 1294): initPromtDialog_SHOW!
+E/WindowManager(  943): Unknown window type: 2131099651
+V/TabletStatusBar( 1145): setLightsOn(true)
+W/InputManagerService(  943): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@4169c6c8 (uid=1000 pid=1868)
+D/NetFirmwareService( 1294): MSG_CHECK_PACKAGE
+V/TabletStatusBar( 1145): setLightsOn(true)
+W/System.err( 1260): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:426)
+W/System.err( 1260):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1260):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1260):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1260):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.isConnectToServerByHttp(MainActivity.java:803)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.access$1600(MainActivity.java:121)
+W/System.err( 1260):    at com.coship.cibn.MainActivity$3.run(MainActivity.java:768)
+W/System.err( 1260):    at java.lang.Thread.run(Thread.java:856)
+W/System.err( 1260): Caused by: libcore.io.GaiException: getaddrinfo failed: EAI_NODATA (No address associated with hostname)
+W/System.err( 1260):    at libcore.io.Posix.getaddrinfo(Native Method)
+W/System.err( 1260):    at libcore.io.ForwardingOs.getaddrinfo(ForwardingOs.java:55)
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:411)
+W/System.err( 1260):    ... 13 more
+I/MainActivity( 1260): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+D/dalvikvm( 1503): GC_CONCURRENT freed 488K, 77% free 1391K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 473K, 77% free 1356K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 445K, 76% free 1423K/5827K, paused 0ms+1ms
+V/NetUpdate( 1868): [onClick]:mWriteSD--->true
+V/NetUpdate( 1868): mBindRemote--->true
+V/NetUpdate( 1868): Remote Invoke Success!
+D/dalvikvm( 1503): GC_CONCURRENT freed 514K, 76% free 1415K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 512K, 78% free 1294K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 390K, 76% free 1410K/5827K, paused 1ms+1ms
+D/HomePlayerLib( 1503): hostaddress count is 1
+D/dalvikvm( 1503): GC_CONCURRENT freed 510K, 77% free 1390K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 481K, 77% free 1382K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 460K, 76% free 1429K/5827K, paused 1ms+2ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 525K, 78% free 1332K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 415K, 76% free 1411K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 489K, 77% free 1396K/5827K, paused 1ms+2ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 473K, 77% free 1360K/5827K, paused 1ms+1ms
+W/System.err( 1260): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:400)
+W/System.err( 1260):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1260):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1260):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1260):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.isConnectToServerByHttp(MainActivity.java:803)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.access$1600(MainActivity.java:121)
+W/System.err( 1260):    at com.coship.cibn.MainActivity$3.run(MainActivity.java:768)
+W/System.err( 1260):    at java.lang.Thread.run(Thread.java:856)
+I/MainActivity( 1260): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+D/dalvikvm( 1503): GC_CONCURRENT freed 457K, 76% free 1409K/5827K, paused 1ms+2ms
+D/UploadCheckerService( 1412): Can't Connect to CIBN_SERVER_PATH!  Address: http://tms.cibntest.ysten.com:8080/
+D/UploadCheckerService( 1412): Can't Connect to CIBN_SERVER_PATH!  retryTime is : 127
+V/NetFirmwareService( 1294): getFilePackageSize--->181497081
+V/NetFirmwareService( 1294): descripPackageSize--->181497081
+V/NetFirmwareService( 1294): getFileMD5--->fd58c6884a9166c621b72845ef4ac07b
+V/NetFirmwareService( 1294): descripMD5--->d41d8cd98f00b204e9800998ecf8427e
+V/NetFirmwareService( 1294): MD5 is not equal!!!
+W/System.err( 1260): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:400)
+W/System.err( 1260):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1260):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1260):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1260):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.isConnectToServerByHttp(MainActivity.java:803)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.access$1600(MainActivity.java:121)
+W/System.err( 1260):    at com.coship.cibn.MainActivity$3.run(MainActivity.java:768)
+W/System.err( 1260):    at java.lang.Thread.run(Thread.java:856)
+I/MainActivity( 1260): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+D/dalvikvm( 1503): GC_CONCURRENT freed 492K, 78% free 1310K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 393K, 78% free 1309K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 393K, 78% free 1309K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 393K, 78% free 1309K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 393K, 78% free 1315K/5827K, paused 1ms+1ms
+W/System.err( 1260): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:426)
+W/System.err( 1260):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1260):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1260):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1260):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.isConnectToServerByHttp(MainActivity.java:803)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.access$1600(MainActivity.java:121)
+W/System.err( 1260):    at com.coship.cibn.MainActivity$3.run(MainActivity.java:768)
+W/System.err( 1260):    at java.lang.Thread.run(Thread.java:856)
+W/System.err( 1260): Caused by: libcore.io.GaiException: getaddrinfo failed: EAI_NODATA (No address associated with hostname)
+W/System.err( 1260):    at libcore.io.Posix.getaddrinfo(Native Method)
+W/System.err( 1260):    at libcore.io.ForwardingOs.getaddrinfo(ForwardingOs.java:55)
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:411)
+W/System.err( 1260):    ... 13 more
+I/MainActivity( 1260): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+D/UploadCheckerService( 1412): Can't Connect to CIBN_SERVER_PATH!  Address: http://tms.cibntest.ysten.com:8080/
+D/UploadCheckerService( 1412): Can't Connect to CIBN_SERVER_PATH!  retryTime is : 128
+D/dalvikvm( 1503): GC_CONCURRENT freed 507K, 78% free 1309K/5827K, paused 0ms+0ms
+D/HomePlayerLib( 1503): hostaddress count is 1
+D/dalvikvm( 1503): GC_CONCURRENT freed 393K, 76% free 1413K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 512K, 78% free 1286K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 372K, 78% free 1312K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 393K, 76% free 1411K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 499K, 78% free 1311K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 406K, 77% free 1353K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 442K, 76% free 1418K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 503K, 76% free 1418K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 504K, 78% free 1329K/5827K, paused 1ms+1ms
+W/System.err( 1260): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:400)
+W/System.err( 1260):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1260):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1260):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1260):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.isConnectToServerByHttp(MainActivity.java:803)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.access$1600(MainActivity.java:121)
+W/System.err( 1260):    at com.coship.cibn.MainActivity$3.run(MainActivity.java:768)
+W/System.err( 1260):    at java.lang.Thread.run(Thread.java:856)
+I/MainActivity( 1260): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+W/System.err( 1260): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:400)
+W/System.err( 1260):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1260):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1260):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1260):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.isConnectToServerByHttp(MainActivity.java:803)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.access$1600(MainActivity.java:121)
+W/System.err( 1260):    at com.coship.cibn.MainActivity$3.run(MainActivity.java:768)
+W/System.err( 1260):    at java.lang.Thread.run(Thread.java:856)
+I/MainActivity( 1260): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+D/UploadCheckerService( 1412): Can't Connect to CIBN_SERVER_PATH!  Address: http://tms.cibntest.ysten.com:8080/
+D/UploadCheckerService( 1412): Can't Connect to CIBN_SERVER_PATH!  retryTime is : 129
+D/dalvikvm( 1503): GC_CONCURRENT freed 412K, 78% free 1309K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 392K, 78% free 1308K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 393K, 78% free 1308K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 393K, 78% free 1309K/5827K, paused 0ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 393K, 76% free 1415K/5827K, paused 1ms+0ms
+W/System.err( 1260): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:426)
+W/System.err( 1260):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1260):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1260):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1260):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.isConnectToServerByHttp(MainActivity.java:803)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.access$1600(MainActivity.java:121)
+W/System.err( 1260):    at com.coship.cibn.MainActivity$3.run(MainActivity.java:768)
+W/System.err( 1260):    at java.lang.Thread.run(Thread.java:856)
+W/System.err( 1260): Caused by: libcore.io.GaiException: getaddrinfo failed: EAI_NODATA (No address associated with hostname)
+W/System.err( 1260):    at libcore.io.Posix.getaddrinfo(Native Method)
+W/System.err( 1260):    at libcore.io.ForwardingOs.getaddrinfo(ForwardingOs.java:55)
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:411)
+W/System.err( 1260):    ... 13 more
+I/MainActivity( 1260): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+D/dalvikvm( 1503): GC_CONCURRENT freed 508K, 76% free 1405K/5827K, paused 1ms+1ms
+D/HomePlayerLib( 1503): hostaddress count is 1
+D/dalvikvm( 1503): GC_CONCURRENT freed 499K, 77% free 1362K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 457K, 78% free 1305K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 378K, 78% free 1312K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 399K, 78% free 1325K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 401K, 78% free 1328K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 425K, 78% free 1327K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 405K, 76% free 1420K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 518K, 78% free 1285K/5827K, paused 0ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 375K, 76% free 1421K/5827K, paused 0ms+1ms
+W/System.err( 1260): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:400)
+W/System.err( 1260):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1260):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1260):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1260):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.isConnectToServerByHttp(MainActivity.java:803)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.access$1600(MainActivity.java:121)
+W/System.err( 1260):    at com.coship.cibn.MainActivity$3.run(MainActivity.java:768)
+W/System.err( 1260):    at java.lang.Thread.run(Thread.java:856)
+I/MainActivity( 1260): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+D/UploadCheckerService( 1412): Can't Connect to CIBN_SERVER_PATH!  Address: http://tms.cibntest.ysten.com:8080/
+D/UploadCheckerService( 1412): Can't Connect to CIBN_SERVER_PATH!  retryTime is : 130
+W/System.err( 1260): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:400)
+W/System.err( 1260):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1260):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1260):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1260):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.isConnectToServerByHttp(MainActivity.java:803)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.access$1600(MainActivity.java:121)
+W/System.err( 1260):    at com.coship.cibn.MainActivity$3.run(MainActivity.java:768)
+W/System.err( 1260):    at java.lang.Thread.run(Thread.java:856)
+I/MainActivity( 1260): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+D/dalvikvm( 1503): GC_CONCURRENT freed 516K, 78% free 1307K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 406K, 78% free 1310K/5827K, paused 0ms+3ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 394K, 78% free 1310K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 393K, 78% free 1314K/5827K, paused 0ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 404K, 78% free 1297K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 472K, 78% free 1333K/5827K, paused 1ms+1ms
+D/HomePlayerLib( 1503): hostaddress count is 1
+D/dalvikvm( 1503): GC_CONCURRENT freed 416K, 78% free 1307K/5827K, paused 0ms+0ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 403K, 77% free 1353K/5827K, paused 1ms+1ms
+W/System.err( 1260): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:426)
+W/System.err( 1260):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1260):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1260):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1260):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.isConnectToServerByHttp(MainActivity.java:803)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.access$1600(MainActivity.java:121)
+W/System.err( 1260):    at com.coship.cibn.MainActivity$3.run(MainActivity.java:768)
+W/System.err( 1260):    at java.lang.Thread.run(Thread.java:856)
+W/System.err( 1260): Caused by: libcore.io.GaiException: getaddrinfo failed: EAI_NODATA (No address associated with hostname)
+W/System.err( 1260):    at libcore.io.Posix.getaddrinfo(Native Method)
+W/System.err( 1260):    at libcore.io.ForwardingOs.getaddrinfo(ForwardingOs.java:55)
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:411)
+W/System.err( 1260):    ... 13 more
+I/MainActivity( 1260): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+D/dalvikvm( 1503): GC_CONCURRENT freed 439K, 78% free 1314K/5827K, paused 0ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 394K, 78% free 1314K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 359K, 77% free 1341K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 424K, 78% free 1312K/5827K, paused 1ms+1ms
+D/UploadCheckerService( 1412): Can't Connect to CIBN_SERVER_PATH!  Address: http://tms.cibntest.ysten.com:8080/
+D/UploadCheckerService( 1412): Can't Connect to CIBN_SERVER_PATH!  retryTime is : 131
+D/dalvikvm( 1503): GC_CONCURRENT freed 404K, 76% free 1417K/5827K, paused 2ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 514K, 78% free 1288K/5827K, paused 1ms+2ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 380K, 78% free 1310K/5827K, paused 1ms+1ms
+W/System.err( 1260): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:400)
+W/System.err( 1260):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1260):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1260):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1260):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.isConnectToServerByHttp(MainActivity.java:803)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.access$1600(MainActivity.java:121)
+W/System.err( 1260):    at com.coship.cibn.MainActivity$3.run(MainActivity.java:768)
+W/System.err( 1260):    at java.lang.Thread.run(Thread.java:856)
+I/MainActivity( 1260): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+D/dalvikvm( 1503): GC_CONCURRENT freed 444K, 77% free 1370K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 444K, 77% free 1397K/5827K, paused 0ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 483K, 78% free 1325K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 410K, 76% free 1415K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 502K, 76% free 1410K/5827K, paused 1ms+1ms
+W/System.err( 1260): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:400)
+W/System.err( 1260):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1260):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1260):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1260):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.isConnectToServerByHttp(MainActivity.java:803)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.access$1600(MainActivity.java:121)
+W/System.err( 1260):    at com.coship.cibn.MainActivity$3.run(MainActivity.java:768)
+W/System.err( 1260):    at java.lang.Thread.run(Thread.java:856)
+I/MainActivity( 1260): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+D/UploadCheckerService( 1412): Can't Connect to CIBN_SERVER_PATH!  Address: http://tms.cibntest.ysten.com:8080/
+D/UploadCheckerService( 1412): Can't Connect to CIBN_SERVER_PATH!  retryTime is : 132
+D/dalvikvm( 1503): GC_CONCURRENT freed 495K, 78% free 1309K/5827K, paused 1ms+1ms
+D/HomePlayerLib( 1503): hostaddress count is 1
+D/dalvikvm( 1503): GC_CONCURRENT freed 405K, 76% free 1408K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 496K, 78% free 1297K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 379K, 78% free 1312K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 389K, 78% free 1329K/5827K, paused 1ms+2ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 439K, 78% free 1340K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 405K, 77% free 1354K/5827K, paused 0ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 438K, 77% free 1355K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 446K, 78% free 1312K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 396K, 78% free 1315K/5827K, paused 1ms+1ms
+W/System.err( 1260): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:426)
+W/System.err( 1260):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1260):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1260):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1260):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.isConnectToServerByHttp(MainActivity.java:803)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.access$1600(MainActivity.java:121)
+W/System.err( 1260):    at com.coship.cibn.MainActivity$3.run(MainActivity.java:768)
+W/System.err( 1260):    at java.lang.Thread.run(Thread.java:856)
+W/System.err( 1260): Caused by: libcore.io.GaiException: getaddrinfo failed: EAI_NODATA (No address associated with hostname)
+W/System.err( 1260):    at libcore.io.Posix.getaddrinfo(Native Method)
+W/System.err( 1260):    at libcore.io.ForwardingOs.getaddrinfo(ForwardingOs.java:55)
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:411)
+W/System.err( 1260):    ... 13 more
+I/MainActivity( 1260): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+D/CheckNetWork( 1756): isOk true
+D/CheckNetWork( 1756): ActInfoNetworkInfo: type: ETH[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), roaming: false, failover: false, isAvailable: true
+D/CheckNetWork( 1756): infoNetworkInfo: type: ETH[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), roaming: false, failover: false, isAvailable: true
+W/System.err( 1260): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:400)
+W/System.err( 1260):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1260):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1260):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1260):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.isConnectToServerByHttp(MainActivity.java:803)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.access$1600(MainActivity.java:121)
+W/System.err( 1260):    at com.coship.cibn.MainActivity$3.run(MainActivity.java:768)
+W/System.err( 1260):    at java.lang.Thread.run(Thread.java:856)
+I/MainActivity( 1260): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+D/UploadCheckerService( 1412): Can't Connect to CIBN_SERVER_PATH!  Address: http://tms.cibntest.ysten.com:8080/
+D/UploadCheckerService( 1412): Can't Connect to CIBN_SERVER_PATH!  retryTime is : 133
+
+[  475.315632] IR: [03932] scan key value is 0xec13c936 
+[  475.315636]  
+[  475.366785] IR: [03932] scan key value is 0xec13c936 
+[  475.366789]  V/NetFirmwareService( 1294): onStartCommand
+V/NetFirmwareService( 1294): intent--->Intent { act=com.coship.netfirmware.NetFirmwareService (has extras) }
+V/NetFirmwareService( 1294): Network is connected!
+I/NetFirmwareService( 1294): initPromtDialog_SHOW!
+E/WindowManager(  943): Unknown window type: 2131099651
+V/TabletStatusBar( 1145): setLightsOn(true)
+W/InputManagerService(  943): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@4169c6c8 (uid=1000 pid=1868)
+D/dalvikvm( 1503): GC_CONCURRENT freed 402K, 78% free 1306K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 407K, 78% free 1293K/5827K, paused 0ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 381K, 78% free 1296K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 393K, 76% free 1404K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 487K, 77% free 1356K/5827K, paused 1ms+1ms
+D/NetFirmwareService( 1294): MSG_CHECK_PACKAGE
+V/TabletStatusBar( 1145): setLightsOn(true)
+W/System.err( 1260): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:400)
+W/System.err( 1260):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1260):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1260):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1260):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.isConnectToServerByHttp(MainActivity.java:803)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.access$1600(MainActivity.java:121)
+W/System.err( 1260):    at com.coship.cibn.MainActivity$3.run(MainActivity.java:768)
+W/System.err( 1260):    at java.lang.Thread.run(Thread.java:856)
+I/MainActivity( 1260): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+V/NetUpdate( 1868): [onClick]:mWriteSD--->true
+V/NetUpdate( 1868): mBindRemote--->true
+V/NetUpdate( 1868): Remote Invoke Success!
+D/dalvikvm( 1503): GC_CONCURRENT freed 441K, 76% free 1398K/5827K, paused 1ms+1ms
+D/HomePlayerLib( 1503): hostaddress count is 1
+D/dalvikvm( 1503): GC_CONCURRENT freed 499K, 77% free 1390K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 490K, 78% free 1312K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 394K, 76% free 1437K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 514K, 76% free 1445K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 537K, 76% free 1414K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 498K, 76% free 1429K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 526K, 78% free 1295K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 383K, 77% free 1392K/5827K, paused 1ms+1ms
+V/NetFirmwareService( 1294): getFilePackageSize--->181497081
+V/NetFirmwareService( 1294): descripPackageSize--->181497081
+V/NetFirmwareService( 1294): getFileMD5--->fd58c6884a9166c621b72845ef4ac07b
+V/NetFirmwareService( 1294): descripMD5--->d41d8cd98f00b204e9800998ecf8427e
+V/NetFirmwareService( 1294): MD5 is not equal!!!
+W/System.err( 1260): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:426)
+W/System.err( 1260):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1260):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1260):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1260):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.isConnectToServerByHttp(MainActivity.java:803)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.access$1600(MainActivity.java:121)
+W/System.err( 1260):    at com.coship.cibn.MainActivity$3.run(MainActivity.java:768)
+W/System.err( 1260):    at java.lang.Thread.run(Thread.java:856)
+W/System.err( 1260): Caused by: libcore.io.GaiException: getaddrinfo failed: EAI_NODATA (No address associated with hostname)
+W/System.err( 1260):    at libcore.io.Posix.getaddrinfo(Native Method)
+W/System.err( 1260):    at libcore.io.ForwardingOs.getaddrinfo(ForwardingOs.java:55)
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:411)
+W/System.err( 1260):    ... 13 more
+I/MainActivity( 1260): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+D/UploadCheckerService( 1412): Can't Connect to CIBN_SERVER_PATH!  Address: http://tms.cibntest.ysten.com:8080/
+D/UploadCheckerService( 1412): Can't Connect to CIBN_SERVER_PATH!  retryTime is : 134
+D/dalvikvm(  943): GC_CONCURRENT freed 642K, 63% free 3681K/9731K, paused 15ms+8ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 475K, 78% free 1307K/5827K, paused 1ms+1ms
+W/System.err( 1260): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:400)
+W/System.err( 1260):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1260):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1260):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1260):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.isConnectToServerByHttp(MainActivity.java:803)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.access$1600(MainActivity.java:121)
+W/System.err( 1260):    at com.coship.cibn.MainActivity$3.run(MainActivity.java:768)
+W/System.err( 1260):    at java.lang.Thread.run(Thread.java:856)
+I/MainActivity( 1260): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+D/dalvikvm( 1503): GC_CONCURRENT freed 390K, 78% free 1309K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 392K, 78% free 1310K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 393K, 78% free 1310K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 393K, 78% free 1309K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 404K, 76% free 1413K/5827K, paused 1ms+1ms
+W/System.err( 1260): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:400)
+W/System.err( 1260):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1260):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1260):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1260):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.isConnectToServerByHttp(MainActivity.java:803)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.access$1600(MainActivity.java:121)
+W/System.err( 1260):    at com.coship.cibn.MainActivity$3.run(MainActivity.java:768)
+W/System.err( 1260):    at java.lang.Thread.run(Thread.java:856)
+I/MainActivity( 1260): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+D/dalvikvm( 1503): GC_CONCURRENT freed 513K, 78% free 1292K/5827K, paused 1ms+1ms
+D/HomePlayerLib( 1503): hostaddress count is 1
+D/dalvikvm( 1503): GC_CONCURRENT freed 375K, 76% free 1420K/5827K, paused 1ms+1ms
+D/UploadCheckerService( 1412): Can't Connect to CIBN_SERVER_PATH!  Address: http://tms.cibntest.ysten.com:8080/
+D/UploadCheckerService( 1412): Can't Connect to CIBN_SERVER_PATH!  retryTime is : 135
+D/dalvikvm( 1503): GC_CONCURRENT freed 493K, 78% free 1312K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 391K, 76% free 1438K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 514K, 78% free 1313K/5827K, paused 0ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 392K, 78% free 1313K/5827K, paused 1ms+0ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 393K, 78% free 1319K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 414K, 76% free 1414K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 491K, 77% free 1392K/5827K, paused 0ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 475K, 78% free 1310K/5827K, paused 1ms+1ms
+W/System.err( 1260): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:426)
+W/System.err( 1260):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1260):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1260):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1260):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.isConnectToServerByHttp(MainActivity.java:803)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.access$1600(MainActivity.java:121)
+W/System.err( 1260):    at com.coship.cibn.MainActivity$3.run(MainActivity.java:768)
+W/System.err( 1260):    at java.lang.Thread.run(Thread.java:856)
+W/System.err( 1260): Caused by: libcore.io.GaiException: getaddrinfo failed: EAI_NODATA (No address associated with hostname)
+W/System.err( 1260):    at libcore.io.Posix.getaddrinfo(Native Method)
+W/System.err( 1260):    at libcore.io.ForwardingOs.getaddrinfo(ForwardingOs.java:55)
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:411)
+W/System.err( 1260):    ... 13 more
+I/MainActivity( 1260): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+D/dalvikvm( 1503): GC_CONCURRENT freed 392K, 78% free 1310K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 402K, 78% free 1298K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 396K, 78% free 1296K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 393K, 76% free 1411K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 487K, 78% free 1310K/5827K, paused 0ms+0ms
+W/System.err( 1260): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:400)
+W/System.err( 1260):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1260):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1260):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1260):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.isConnectToServerByHttp(MainActivity.java:803)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.access$1600(MainActivity.java:121)
+W/System.err( 1260):    at com.coship.cibn.MainActivity$3.run(MainActivity.java:768)
+W/System.err( 1260):    at java.lang.Thread.run(Thread.java:856)
+I/MainActivity( 1260): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+D/UploadCheckerService( 1412): Can't Connect to CIBN_SERVER_PATH!  Address: http://tms.cibntest.ysten.com:8080/
+D/UploadCheckerService( 1412): Can't Connect to CIBN_SERVER_PATH!  retryTime is : 136
+D/HomePlayerLib( 1503): hostaddress count is 1
+D/dalvikvm( 1503): GC_CONCURRENT freed 404K, 77% free 1368K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 543K, 78% free 1331K/5827K, paused 203ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 421K, 78% free 1312K/5827K, paused 1ms+2ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 390K, 78% free 1314K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 392K, 78% free 1314K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 402K, 75% free 1492K/5827K, paused 0ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 569K, 76% free 1400K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 496K, 78% free 1288K/5827K, paused 1ms+1ms
+W/System.err( 1260): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:400)
+W/System.err( 1260):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1260):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1260):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1260):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.isConnectToServerByHttp(MainActivity.java:803)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.access$1600(MainActivity.java:121)
+W/System.err( 1260):    at com.coship.cibn.MainActivity$3.run(MainActivity.java:768)
+W/System.err( 1260):    at java.lang.Thread.run(Thread.java:856)
+I/MainActivity( 1260): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+D/dalvikvm( 1503): GC_CONCURRENT freed 372K, 78% free 1309K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 417K, 77% free 1349K/5827K, paused 1ms+1ms
+W/System.err( 1260): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:426)
+W/System.err( 1260):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1260):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1260):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1260):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.isConnectToServerByHttp(MainActivity.java:803)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.access$1600(MainActivity.java:121)
+W/System.err( 1260):    at com.coship.cibn.MainActivity$3.run(MainActivity.java:768)
+W/System.err( 1260):    at java.lang.Thread.run(Thread.java:856)
+W/System.err( 1260): Caused by: libcore.io.GaiException: getaddrinfo failed: EAI_NODATA (No address associated with hostname)
+W/System.err( 1260):    at libcore.io.Posix.getaddrinfo(Native Method)
+W/System.err( 1260):    at libcore.io.ForwardingOs.getaddrinfo(ForwardingOs.java:55)
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:411)
+W/System.err( 1260):    ... 13 more
+I/MainActivity( 1260): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+D/UploadCheckerService( 1412): Can't Connect to CIBN_SERVER_PATH!  Address: http://tms.cibntest.ysten.com:8080/
+D/UploadCheckerService( 1412): Can't Connect to CIBN_SERVER_PATH!  retryTime is : 137
+D/dalvikvm( 1503): GC_CONCURRENT freed 430K, 76% free 1416K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 512K, 78% free 1288K/5827K, paused 0ms+0ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 379K, 78% free 1309K/5827K, paused 0ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 395K, 78% free 1308K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 394K, 76% free 1415K/5827K, paused 1ms+1ms
+W/System.err( 1260): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:400)
+W/System.err( 1260):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1260):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1260):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1260):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.isConnectToServerByHttp(MainActivity.java:803)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.access$1600(MainActivity.java:121)
+W/System.err( 1260):    at com.coship.cibn.MainActivity$3.run(MainActivity.java:768)
+W/System.err( 1260):    at java.lang.Thread.run(Thread.java:856)
+I/MainActivity( 1260): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+D/HomePlayerLib( 1503): hostaddress count is 1
+D/dalvikvm( 1503): GC_CONCURRENT freed 497K, 76% free 1420K/5827K, paused 0ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 505K, 76% free 1415K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 487K, 76% free 1399K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 494K, 76% free 1438K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 516K, 78% free 1315K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 435K, 77% free 1360K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 443K, 78% free 1301K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 380K, 78% free 1310K/5827K, paused 0ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 396K, 78% free 1308K/5827K, paused 1ms+1ms
+W/System.err( 1260): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:400)
+W/System.err( 1260):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1260):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1260):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1260):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.isConnectToServerByHttp(MainActivity.java:803)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.access$1600(MainActivity.java:121)
+W/System.err( 1260):    at com.coship.cibn.MainActivity$3.run(MainActivity.java:768)
+W/System.err( 1260):    at java.lang.Thread.run(Thread.java:856)
+I/MainActivity( 1260): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+D/UploadCheckerService( 1412): Can't Connect to CIBN_SERVER_PATH!  Address: http://tms.cibntest.ysten.com:8080/
+D/UploadCheckerService( 1412): Can't Connect to CIBN_SERVER_PATH!  retryTime is : 138
+W/System.err( 1260): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:426)
+W/System.err( 1260):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1260):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1260):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1260):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.isConnectToServerByHttp(MainActivity.java:803)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.access$1600(MainActivity.java:121)
+W/System.err( 1260):    at com.coship.cibn.MainActivity$3.run(MainActivity.java:768)
+W/System.err( 1260):    at java.lang.Thread.run(Thread.java:856)
+W/System.err( 1260): Caused by: libcore.io.GaiException: getaddrinfo failed: EAI_NODATA (No address associated with hostname)
+W/System.err( 1260):    at libcore.io.Posix.getaddrinfo(Native Method)
+W/System.err( 1260):    at libcore.io.ForwardingOs.getaddrinfo(ForwardingOs.java:55)
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:411)
+W/System.err( 1260):    ... 13 more
+I/MainActivity( 1260): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+D/dalvikvm( 1503): GC_CONCURRENT freed 392K, 78% free 1308K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 392K, 77% free 1391K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 474K, 78% free 1310K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 394K, 78% free 1309K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 404K, 77% free 1369K/5827K, paused 1ms+1ms
+W/System.err( 1260): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:400)
+W/System.err( 1260):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1260):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1260):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1260):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.isConnectToServerByHttp(MainActivity.java:803)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.access$1600(MainActivity.java:121)
+W/System.err( 1260):    at com.coship.cibn.MainActivity$3.run(MainActivity.java:768)
+W/System.err( 1260):    at java.lang.Thread.run(Thread.java:856)
+I/MainActivity( 1260): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+D/UploadCheckerService( 1412): Can't Connect to CIBN_SERVER_PATH!  Address: http://tms.cibntest.ysten.com:8080/
+D/UploadCheckerService( 1412): Can't Connect to CIBN_SERVER_PATH!  retryTime is : 139
+D/dalvikvm( 1503): GC_CONCURRENT freed 460K, 78% free 1304K/5827K, paused 1ms+1ms
+D/HomePlayerLib( 1503): hostaddress count is 1
+D/dalvikvm( 1503): GC_CONCURRENT freed 388K, 78% free 1307K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 403K, 78% free 1296K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 352K, 76% free 1451K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 570K, 77% free 1386K/5827K, paused 0ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 475K, 78% free 1302K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 393K, 78% free 1299K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 397K, 78% free 1287K/5827K, paused 1ms+3ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 371K, 77% free 1369K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 448K, 76% free 1420K/5827K, paused 3ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 514K, 77% free 1371K/5827K, paused 1ms+1ms
+W/System.err( 1260): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:400)
+W/System.err( 1260):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1260):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1260):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1260):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.isConnectToServerByHttp(MainActivity.java:803)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.access$1600(MainActivity.java:121)
+W/System.err( 1260):    at com.coship.cibn.MainActivity$3.run(MainActivity.java:768)
+W/System.err( 1260):    at java.lang.Thread.run(Thread.java:856)
+I/MainActivity( 1260): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+D/dalvikvm( 1503): GC_CONCURRENT freed 458K, 78% free 1298K/5827K, paused 0ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 396K, 78% free 1296K/5827K, paused 0ms+0ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 393K, 76% free 1411K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 487K, 78% free 1310K/5827K, paused 1ms+3ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 394K, 78% free 1310K/5827K, paused 1ms+1ms
+W/System.err( 1260): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:426)
+W/System.err( 1260):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1260):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1260):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+D/CheckNetWork( 1756): isOk true
+W/System.err( 1260):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+D/CheckNetWork( 1756): ActInfoNetworkInfo: type: ETH[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), roaming: false, failover: false, isAvailable: true
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.isConnectToServerByHttp(MainActivity.java:803)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.access$1600(MainActivity.java:121)
+W/System.err( 1260):    at com.coship.cibn.MainActivity$3.run(MainActivity.java:768)
+W/System.err( 1260):    at java.lang.Thread.run(Thread.java:856)
+D/CheckNetWork( 1756): infoNetworkInfo: type: ETH[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), roaming: false, failover: false, isAvailable: true
+W/System.err( 1260): Caused by: libcore.io.GaiException: getaddrinfo failed: EAI_NODATA (No address associated with hostname)
+W/System.err( 1260):    at libcore.io.Posix.getaddrinfo(Native Method)
+W/System.err( 1260):    at libcore.io.ForwardingOs.getaddrinfo(ForwardingOs.java:55)
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:411)
+W/System.err( 1260):    ... 13 more
+I/MainActivity( 1260): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+D/UploadCheckerService( 1412): Can't Connect to CIBN_SERVER_PATH!  Address: http://tms.cibntest.ysten.com:8080/
+D/UploadCheckerService( 1412): Can't Connect to CIBN_SERVER_PATH!  retryTime is : 140
+D/HomePlayerLib( 1503): hostaddress count is 1
+D/dalvikvm( 1503): GC_CONCURRENT freed 410K, 78% free 1294K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 389K, 78% free 1308K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 405K, 78% free 1311K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 391K, 78% free 1312K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 390K, 78% free 1314K/5827K, paused 1ms+1ms
+W/System.err( 1260): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:400)
+W/System.err( 1260):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1260):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1260):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1260):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.isConnectToServerByHttp(MainActivity.java:803)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.access$1600(MainActivity.java:121)
+W/System.err( 1260):    at com.coship.cibn.MainActivity$3.run(MainActivity.java:768)
+W/System.err( 1260):    at java.lang.Thread.run(Thread.java:856)
+I/MainActivity( 1260): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+D/dalvikvm( 1503): GC_CONCURRENT freed 392K, 78% free 1314K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 393K, 78% free 1312K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 391K, 78% free 1314K/5827K, paused 0ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 409K, 78% free 1289K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 377K, 78% free 1311K/5827K, paused 1ms+1ms
+W/System.err( 1260): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:400)
+W/System.err( 1260):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1260):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1260):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1260):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.isConnectToServerByHttp(MainActivity.java:803)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.access$1600(MainActivity.java:121)
+W/System.err( 1260):    at com.coship.cibn.MainActivity$3.run(MainActivity.java:768)
+W/System.err( 1260):    at java.lang.Thread.run(Thread.java:856)
+I/MainActivity( 1260): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+D/dalvikvm( 1503): GC_CONCURRENT freed 392K, 77% free 1391K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 473K, 76% free 1416K/5827K, paused 1ms+3ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 513K, 78% free 1294K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 380K, 78% free 1309K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 395K, 75% free 1513K/5827K, paused 1ms+1ms
+W/System.err( 1260): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:426)
+W/System.err( 1260):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1260):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1260):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1260):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.isConnectToServerByHttp(MainActivity.java:803)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.access$1600(MainActivity.java:121)
+W/System.err( 1260):    at com.coship.cibn.MainActivity$3.run(MainActivity.java:768)
+W/System.err( 1260):    at java.lang.Thread.run(Thread.java:856)
+W/System.err( 1260): Caused by: libcore.io.GaiException: getaddrinfo failed: EAI_NODATA (No address associated with hostname)
+W/System.err( 1260):    at libcore.io.Posix.getaddrinfo(Native Method)
+W/System.err( 1260):    at libcore.io.ForwardingOs.getaddrinfo(ForwardingOs.java:55)
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:411)
+W/System.err( 1260):    ... 13 more
+I/MainActivity( 1260): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+D/UploadCheckerService( 1412): Can't Connect to CIBN_SERVER_PATH!  Address: http://tms.cibntest.ysten.com:8080/
+D/UploadCheckerService( 1412): Can't Connect to CIBN_SERVER_PATH!  retryTime is : 141
+D/dalvikvm( 1503): GC_CONCURRENT freed 612K, 78% free 1304K/5827K, paused 0ms+1ms
+D/HomePlayerLib( 1503): hostaddress count is 1
+D/dalvikvm( 1503): GC_CONCURRENT freed 390K, 78% free 1307K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 403K, 78% free 1322K/5827K, paused 0ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 418K, 78% free 1311K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 390K, 78% free 1314K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 382K, 76% free 1442K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 535K, 78% free 1302K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 394K, 76% free 1408K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 485K, 77% free 1360K/5827K, paused 1ms+2ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 457K, 76% free 1412K/5827K, paused 1ms+0ms
+W/System.err( 1260): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:400)
+W/System.err( 1260):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1260):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1260):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1260):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.isConnectToServerByHttp(MainActivity.java:803)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.access$1600(MainActivity.java:121)
+W/System.err( 1260):    at com.coship.cibn.MainActivity$3.run(MainActivity.java:768)
+W/System.err( 1260):    at java.lang.Thread.run(Thread.java:856)
+I/MainActivity( 1260): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+W/System.err( 1260): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:400)
+W/System.err( 1260):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1260):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1260):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1260):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.isConnectToServerByHttp(MainActivity.java:803)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.access$1600(MainActivity.java:121)
+W/System.err( 1260):    at com.coship.cibn.MainActivity$3.run(MainActivity.java:768)
+W/System.err( 1260):    at java.lang.Thread.run(Thread.java:856)
+I/MainActivity( 1260): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+D/dalvikvm( 1260): GC_CONCURRENT freed 1991K, 32% free 12707K/18435K, paused 1ms+2ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 492K, 76% free 1432K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 514K, 78% free 1316K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 404K, 76% free 1406K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 490K, 78% free 1310K/5827K, paused 0ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 394K, 78% free 1310K/5827K, paused 1ms+1ms
+W/System.err( 1260): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:426)
+W/System.err( 1260):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1260):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1260):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1260):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.isConnectToServerByHttp(MainActivity.java:803)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.access$1600(MainActivity.java:121)
+W/System.err( 1260):    at com.coship.cibn.MainActivity$3.run(MainActivity.java:768)
+W/System.err( 1260):    at java.lang.Thread.run(Thread.java:856)
+W/System.err( 1260): Caused by: libcore.io.GaiException: getaddrinfo failed: EAI_NODATA (No address associated with hostname)
+W/System.err( 1260):    at libcore.io.Posix.getaddrinfo(Native Method)
+W/System.err( 1260):    at libcore.io.ForwardingOs.getaddrinfo(ForwardingOs.java:55)
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:411)
+W/System.err( 1260):    ... 13 more
+I/MainActivity( 1260): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+D/UploadCheckerService( 1412): Can't Connect to CIBN_SERVER_PATH!  Address: http://tms.cibntest.ysten.com:8080/
+D/UploadCheckerService( 1412): Can't Connect to CIBN_SERVER_PATH!  retryTime is : 142
+D/dalvikvm( 1503): GC_CONCURRENT freed 404K, 78% free 1304K/5827K, paused 1ms+1ms
+D/HomePlayerLib( 1503): hostaddress count is 1
+D/dalvikvm( 1503): GC_CONCURRENT freed 387K, 78% free 1308K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 400K, 78% free 1307K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 403K, 76% free 1411K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 500K, 78% free 1303K/5827K, paused 1ms+2ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 393K, 78% free 1308K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 391K, 78% free 1310K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 382K, 78% free 1330K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 413K, 78% free 1311K/5827K, paused 1ms+2ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 396K, 78% free 1309K/5827K, paused 1ms+1ms
+W/System.err( 1260): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:400)
+W/System.err( 1260):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1260):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1260):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1260):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.isConnectToServerByHttp(MainActivity.java:803)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.access$1600(MainActivity.java:121)
+W/System.err( 1260):    at com.coship.cibn.MainActivity$3.run(MainActivity.java:768)
+W/System.err( 1260):    at java.lang.Thread.run(Thread.java:856)
+I/MainActivity( 1260): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+D/dalvikvm( 1503): GC_CONCURRENT freed 392K, 78% free 1324K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 419K, 78% free 1297K/5827K, paused 0ms+0ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 393K, 78% free 1289K/5827K, paused 0ms+0ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 366K, 78% free 1309K/5827K, paused 0ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 393K, 78% free 1310K/5827K, paused 0ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 393K, 78% free 1310K/5827K, paused 1ms+1ms
+W/System.err( 1260): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:400)
+W/System.err( 1260):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1260):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1260):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1260):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.isConnectToServerByHttp(MainActivity.java:803)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.access$1600(MainActivity.java:121)
+W/System.err( 1260):    at com.coship.cibn.MainActivity$3.run(MainActivity.java:768)
+W/System.err( 1260):    at java.lang.Thread.run(Thread.java:856)
+I/MainActivity( 1260): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+W/System.err( 1260): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:426)
+W/System.err( 1260):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1260):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1260):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1260):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.isConnectToServerByHttp(MainActivity.java:803)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.access$1600(MainActivity.java:121)
+W/System.err( 1260):    at com.coship.cibn.MainActivity$3.run(MainActivity.java:768)
+W/System.err( 1260):    at java.lang.Thread.run(Thread.java:856)
+W/System.err( 1260): Caused by: libcore.io.GaiException: getaddrinfo failed: EAI_NODATA (No address associated with hostname)
+W/System.err( 1260):    at libcore.io.Posix.getaddrinfo(Native Method)
+W/System.err( 1260):    at libcore.io.ForwardingOs.getaddrinfo(ForwardingOs.java:55)
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:411)
+W/System.err( 1260):    ... 13 more
+I/MainActivity( 1260): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+D/UploadCheckerService( 1412): Can't Connect to CIBN_SERVER_PATH!  Address: http://tms.cibntest.ysten.com:8080/
+D/UploadCheckerService( 1412): Can't Connect to CIBN_SERVER_PATH!  retryTime is : 143
+D/dalvikvm( 1503): GC_CONCURRENT freed 410K, 78% free 1320K/5827K, paused 1ms+1ms
+D/HomePlayerLib( 1503): hostaddress count is 1
+D/dalvikvm( 1503): GC_CONCURRENT freed 415K, 78% free 1303K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 388K, 78% free 1308K/5827K, paused 0ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 405K, 78% free 1312K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 390K, 78% free 1314K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 393K, 78% free 1313K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 401K, 78% free 1311K/5827K, paused 1ms+2ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 408K, 78% free 1312K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 392K, 78% free 1314K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 393K, 78% free 1314K/5827K, paused 1ms+2ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 406K, 78% free 1311K/5827K, paused 1ms+2ms
+W/System.err( 1260): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:400)
+W/System.err( 1260):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1260):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1260):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1260):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.isConnectToServerByHttp(MainActivity.java:803)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.access$1600(MainActivity.java:121)
+W/System.err( 1260):    at com.coship.cibn.MainActivity$3.run(MainActivity.java:768)
+W/System.err( 1260):    at java.lang.Thread.run(Thread.java:856)
+I/MainActivity( 1260): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+D/dalvikvm( 1503): GC_CONCURRENT freed 394K, 78% free 1309K/5827K, paused 0ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 392K, 77% free 1355K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 443K, 78% free 1298K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 396K, 78% free 1296K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 394K, 78% free 1296K/5827K, paused 1ms+1ms
+W/System.err( 1260): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:400)
+W/System.err( 1260):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1260):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1260):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1260):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.isConnectToServerByHttp(MainActivity.java:803)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.access$1600(MainActivity.java:121)
+W/System.err( 1260):    at com.coship.cibn.MainActivity$3.run(MainActivity.java:768)
+W/System.err( 1260):    at java.lang.Thread.run(Thread.java:856)
+I/MainActivity( 1260): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+D/dalvikvm( 1503): GC_CONCURRENT freed 389K, 78% free 1306K/5827K, paused 1ms+1ms
+D/HomePlayerLib( 1503): hostaddress count is 1
+D/dalvikvm( 1503): GC_CONCURRENT freed 401K, 76% free 1402K/5827K, paused 1ms+1ms
+D/UploadCheckerService( 1412): Can't Connect to CIBN_SERVER_PATH!  Address: http://tms.cibntest.ysten.com:8080/
+D/UploadCheckerService( 1412): Can't Connect to CIBN_SERVER_PATH!  retryTime is : 144
+D/dalvikvm( 1503): GC_CONCURRENT freed 494K, 76% free 1414K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 485K, 77% free 1396K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 546K, 78% free 1288K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 371K, 78% free 1309K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 394K, 78% free 1300K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 387K, 78% free 1324K/5827K, paused 1ms+1ms
+W/System.err( 1260): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:426)
+W/System.err( 1260):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1260):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1260):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1260):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.isConnectToServerByHttp(MainActivity.java:803)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.access$1600(MainActivity.java:121)
+W/System.err( 1260):    at com.coship.cibn.MainActivity$3.run(MainActivity.java:768)
+W/System.err( 1260):    at java.lang.Thread.run(Thread.java:856)
+W/System.err( 1260): Caused by: libcore.io.GaiException: getaddrinfo failed: EAI_NODATA (No address associated with hostname)
+W/System.err( 1260):    at libcore.io.Posix.getaddrinfo(Native Method)
+W/System.err( 1260):    at libcore.io.ForwardingOs.getaddrinfo(ForwardingOs.java:55)
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:411)
+W/System.err( 1260):    ... 13 more
+I/MainActivity( 1260): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+D/dalvikvm( 1503): GC_CONCURRENT freed 411K, 78% free 1314K/5827K, paused 0ms+2ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 406K, 78% free 1311K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 394K, 78% free 1309K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 392K, 78% free 1310K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 393K, 78% free 1310K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 403K, 78% free 1307K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 396K, 78% free 1305K/5827K, paused 0ms+1ms
+W/System.err( 1260): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:400)
+W/System.err( 1260):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1260):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1260):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1260):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.isConnectToServerByHttp(MainActivity.java:803)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.access$1600(MainActivity.java:121)
+W/System.err( 1260):    at com.coship.cibn.MainActivity$3.run(MainActivity.java:768)
+W/System.err( 1260):    at java.lang.Thread.run(Thread.java:856)
+I/MainActivity( 1260): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+D/dalvikvm( 1503): GC_CONCURRENT freed 404K, 77% free 1391K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 473K, 77% free 1397K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 485K, 76% free 1408K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 501K, 78% free 1295K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 392K, 78% free 1288K/5827K, paused 2ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 366K, 78% free 1309K/5827K, paused 0ms+1ms
+W/System.err( 1260): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:400)
+W/System.err( 1260):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1260):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1260):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1260):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.isConnectToServerByHttp(MainActivity.java:803)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.access$1600(MainActivity.java:121)
+W/System.err( 1260):    at com.coship.cibn.MainActivity$3.run(MainActivity.java:768)
+W/System.err( 1260):    at java.lang.Thread.run(Thread.java:856)
+I/MainActivity( 1260): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+D/PushMsgCenter( 1723): mDownUpRun run while (true)
+D/PushMsgCenter( 1723): down  
+W/System.err( 1723): java.net.UnknownHostException: Unable to resolve host "vitv.voicecloud.cn": No address associated with hostname
+W/System.err( 1723):    at java.net.InetAddress.lookupHostByName(InetAddress.java:426)
+W/System.err( 1723):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1723):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1723):    at libcore.net.http.HttpConnection.<init>(HttpConnection.java:71)
+W/System.err( 1723):    at libcore.net.http.HttpConnection.<init>(HttpConnection.java:50)
+W/System.err( 1723):    at libcore.net.http.HttpConnection$Address.connect(HttpConnection.java:351)
+W/System.err( 1723):    at libcore.net.http.HttpConnectionPool.get(HttpConnectionPool.java:86)
+W/System.err( 1723):    at libcore.net.http.HttpConnection.connect(HttpConnection.java:128)
+W/System.err( 1723):    at libcore.net.http.HttpEngine.openSocketConnection(HttpEngine.java:308)
+W/System.err( 1723):    at libcore.net.http.HttpEngine.connect(HttpEngine.java:303)
+W/System.err( 1723):    at libcore.net.http.HttpEngine.sendSocketRequest(HttpEngine.java:282)
+W/System.err( 1723):    at libcore.net.http.HttpEngine.sendRequest(HttpEngine.java:232)
+W/System.err( 1723):    at libcore.net.http.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:273)
+W/System.err( 1723):    at libcore.net.http.HttpURLConnectionImpl.getResponseCode(HttpURLConnectionImpl.java:479)
+W/System.err( 1723):    at com.iflytek.push.PushMsgCenter.down(PushMsgCenter.java:270)
+W/System.err( 1723):    at com.iflytek.push.PushMsgCenter.access$500(PushMsgCenter.java:37)
+W/System.err( 1723):    at com.iflytek.push.PushMsgCenter$2.run(PushMsgCenter.java:175)
+W/System.err( 1723):    at java.lang.Thread.run(Thread.java:856)
+W/System.err( 1723): Caused by: libcore.io.GaiException: getaddrinfo failed: EAI_NODATA (No address associated with hostname)
+W/System.err( 1723):    at libcore.io.Posix.getaddrinfo(Native Method)
+W/System.err( 1723):    at libcore.io.ForwardingOs.getaddrinfo(ForwardingOs.java:55)
+W/System.err( 1723):    at java.net.InetAddress.lookupHostByName(InetAddress.java:411)
+W/System.err( 1723):    ... 17 more
+D/dalvikvm( 1503): GC_CONCURRENT freed 403K, 78% free 1295K/5827K, paused 1ms+1ms
+D/HomePlayerLib( 1503): hostaddress count is 1
+D/dalvikvm( 1503): GC_CONCURRENT freed 395K, 78% free 1290K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 364K, 76% free 1437K/5827K, paused 1ms+1ms
+D/UploadCheckerService( 1412): Can't Connect to CIBN_SERVER_PATH!  Address: http://tms.cibntest.ysten.com:8080/
+D/UploadCheckerService( 1412): Can't Connect to CIBN_SERVER_PATH!  retryTime is : 145
+D/dalvikvm( 1503): GC_CONCURRENT freed 511K, 76% free 1437K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 523K, 78% free 1302K/5827K, paused 0ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 395K, 76% free 1414K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 486K, 78% free 1315K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 406K, 78% free 1311K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 395K, 78% free 1310K/5827K, paused 1ms+2ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 393K, 78% free 1310K/5827K, paused 1ms+1ms
+D/CheckNetWork( 1756): isOk true
+D/CheckNetWork( 1756): ActInfoNetworkInfo: type: ETH[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), roaming: false, failover: false, isAvailable: true
+D/CheckNetWork( 1756): infoNetworkInfo: type: ETH[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), roaming: false, failover: false, isAvailable: true
+W/System.err( 1260): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:426)
+W/System.err( 1260):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1260):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1260):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1260):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.isConnectToServerByHttp(MainActivity.java:803)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.access$1600(MainActivity.java:121)
+W/System.err( 1260):    at com.coship.cibn.MainActivity$3.run(MainActivity.java:768)
+W/System.err( 1260):    at java.lang.Thread.run(Thread.java:856)
+W/System.err( 1260): Caused by: libcore.io.GaiException: getaddrinfo failed: EAI_NODATA (No address associated with hostname)
+W/System.err( 1260):    at libcore.io.Posix.getaddrinfo(Native Method)
+W/System.err( 1260):    at libcore.io.ForwardingOs.getaddrinfo(ForwardingOs.java:55)
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:411)
+W/System.err( 1260):    ... 13 more
+I/MainActivity( 1260): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+D/dalvikvm( 1503): GC_CONCURRENT freed 400K, 78% free 1323K/5827K, paused 1ms+2ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 409K, 78% free 1310K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 394K, 77% free 1395K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 484K, 78% free 1296K/5827K, paused 1ms+1ms
+D/HomePlayerLib( 1503): hostaddress count is 1
+D/dalvikvm( 1503): GC_CONCURRENT freed 388K, 77% free 1358K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 454K, 76% free 1416K/5827K, paused 0ms+1ms
+W/System.err( 1260): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:400)
+W/System.err( 1260):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1260):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1260):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1260):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.isConnectToServerByHttp(MainActivity.java:803)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.access$1600(MainActivity.java:121)
+W/System.err( 1260):    at com.coship.cibn.MainActivity$3.run(MainActivity.java:768)
+W/System.err( 1260):    at java.lang.Thread.run(Thread.java:856)
+I/MainActivity( 1260): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+D/dalvikvm( 1503): GC_CONCURRENT freed 584K, 78% free 1327K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 414K, 76% free 1414K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 489K, 78% free 1313K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 392K, 77% free 1396K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 474K, 78% free 1320K/5827K, paused 1ms+3ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 403K, 76% free 1426K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 501K, 77% free 1395K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 477K, 77% free 1356K/5827K, paused 0ms+1ms
+W/System.err( 1260): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:400)
+W/System.err( 1260):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1260):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1260):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1260):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.isConnectToServerByHttp(MainActivity.java:803)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.access$1600(MainActivity.java:121)
+W/System.err( 1260):    at com.coship.cibn.MainActivity$3.run(MainActivity.java:768)
+W/System.err( 1260):    at java.lang.Thread.run(Thread.java:856)
+I/MainActivity( 1260): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+D/HomePlayerLib( 1503): hostaddress count is 1
+D/dalvikvm( 1503): GC_CONCURRENT freed 452K, 78% free 1303K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 389K, 78% free 1308K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 405K, 78% free 1312K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 390K, 78% free 1314K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 408K, 78% free 1316K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 404K, 78% free 1299K/5827K, paused 1ms+1ms
+D/UploadCheckerService( 1412): Can't Connect to CIBN_SERVER_PATH!  Address: http://tms.cibntest.ysten.com:8080/
+D/UploadCheckerService( 1412): Can't Connect to CIBN_SERVER_PATH!  retryTime is : 146
+D/dalvikvm( 1503): GC_CONCURRENT freed 396K, 77% free 1345K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 423K, 78% free 1315K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 395K, 78% free 1314K/5827K, paused 0ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 406K, 78% free 1311K/5827K, paused 2ms+1ms
+W/System.err( 1260): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:426)
+W/System.err( 1260):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1260):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1260):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1260):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.isConnectToServerByHttp(MainActivity.java:803)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.access$1600(MainActivity.java:121)
+W/System.err( 1260):    at com.coship.cibn.MainActivity$3.run(MainActivity.java:768)
+W/System.err( 1260):    at java.lang.Thread.run(Thread.java:856)
+W/System.err( 1260): Caused by: libcore.io.GaiException: getaddrinfo failed: EAI_NODATA (No address associated with hostname)
+W/System.err( 1260):    at libcore.io.Posix.getaddrinfo(Native Method)
+W/System.err( 1260):    at libcore.io.ForwardingOs.getaddrinfo(ForwardingOs.java:55)
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:411)
+W/System.err( 1260):    ... 13 more
+I/MainActivity( 1260): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+D/dalvikvm( 1503): GC_CONCURRENT freed 405K, 76% free 1407K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 505K, 76% free 1411K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 506K, 76% free 1412K/5827K, paused 0ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 488K, 78% free 1311K/5827K, paused 1ms+1ms
+D/dalvikvm( 1503): GC_CONCURRENT freed 405K, 78% free 1298K/5827K, paused 0ms+1ms
+W/System.err( 1260): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:400)
+W/System.err( 1260):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1260):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1260):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1260):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.isConnectToServerByHttp(MainActivity.java:803)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.access$1600(MainActivity.java:121)
+W/System.err( 1260):    at com.coship.cibn.MainActivity$3.run(MainActivity.java:768)
+W/System.err( 1260):    at java.lang.Thread.run(Thread.java:856)
+I/MainActivity( 1260): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881

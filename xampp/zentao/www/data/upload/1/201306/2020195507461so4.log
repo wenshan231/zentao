@@ -1,0 +1,1296 @@
+
+shell@android:/ # logcat
+--------- beginning of /dev/log/system
+I/Vold    (  738): Vold 2.1 (the revenge) firing up
+E/Vold    (  738): Error reading configuration (No such file or directory)... continuing anyways
+D/Vold    (  738): can not get the uuid of /dev/block/vold/8:0 when device add
+D/Vold    (  738): can not get the uuid of /dev/block/vold/8:0 when device remove
+I/SystemServer(  972): Entered the Android system server!
+I/SystemServer(  972): Entropy Service
+I/SystemServer(  972): Power Manager
+I/SystemServer(  972): Activity Manager
+I/ActivityManager(  972): Memory class: 64
+I/ActivityManager(  972): Enabled StrictMode logging for AThread's Looper
+I/SystemServer(  972): Telephony Registry
+I/SystemServer(  972): Package Manager
+W/PackageManager(  972): Running ENG build: no pre-dexopt!
+W/PackageManager(  972): Library not found: /system/framework/com.android.future.usb.accessory.jar
+W/PackageParser(  972): No actions in intent filter at /system/app/Bluetooth.apk Binary XML file line #125
+I/PackageParser(  972): com.coship.HS: compat added android.permission.WRITE_EXTERNAL_STORAGE android.permission.READ_PHONE_STATE
+W/PackageParser(  972): No actions in intent filter at /system/app/Contacts.apk Binary XML file line #525
+W/PackageParser(  972): No actions in intent filter at /system/app/FlyUI_HomePlayer.apk Binary XML file line #114
+W/PackageParser(  972): No actions in intent filter at /system/app/FlyUI_HomePlayer.apk Binary XML file line #120
+I/PackageParser(  972): com.coship.Multimedia: compat added android.permission.READ_PHONE_STATE
+W/PackageParser(  972): No actions in intent filter at /system/app/FlyUI_Portal.apk Binary XML file line #196
+W/PackageParser(  972): Problem in package /system/app/STB-Settings.apk:
+W/PackageParser(  972): Unknown element under <activity>: data at /system/app/STB-Settings.apk Binary XML file line #145
+W/PackageParser(  972): Problem in package /system/app/STB-Settings.apk:
+W/PackageParser(  972): Unknown element under <activity>: action at /system/app/STB-Settings.apk Binary XML file line #231
+W/PackageParser(  972): Problem in package /system/app/STB-Settings.apk:
+W/PackageParser(  972): Unknown element under <activity>: action at /system/app/STB-Settings.apk Binary XML file line #232
+W/PackageParser(  972): Problem in package /system/app/STB-Settings.apk:
+W/PackageParser(  972): Unknown element under <activity>: action at /system/app/STB-Settings.apk Binary XML file line #289
+W/PackageParser(  972): Problem in package /system/app/STB-Settings.apk:
+W/PackageParser(  972): Unknown element under <activity>: action at /system/app/STB-Settings.apk Binary XML file line #393
+W/PackageParser(  972): Problem in package /system/app/STB-Settings.apk:
+W/PackageParser(  972): Unknown element under <activity>: action at /system/app/STB-Settings.apk Binary XML file line #394
+W/PackageParser(  972): No actions in intent filter at /system/app/com.coship.NetworkNavigation.apk Binary XML file line #24
+W/PackageParser(  972): No actions in intent filter at /system/app/com.coship.NetworkNavigation.apk Binary XML file line #31
+W/PackageParser(  972): No actions in intent filter at /system/app/com.coship.NetworkNavigation.apk Binary XML file line #38
+W/PackageParser(  972): No actions in intent filter at /system/app/com.coship.NetworkNavigation.apk Binary XML file line #45
+W/PackageParser(  972): No actions in intent filter at /system/app/com.coship.NetworkNavigation.apk Binary XML file line #52
+W/PackageParser(  972): No actions in intent filter at /system/app/com.coship.app.vaf.apk Binary XML file line #58
+I/Installer(  972): connecting...
+I/PackageManager(  972): Time to scan packages: 1.655 seconds
+W/PackageManager(  972): Unknown permission android.permission.APPWIDGET_LIST in package com.biaoqi.stbwidget.host
+W/PackageManager(  972): Unknown permission android.permission.APPWIDGET_LIST in package com.mstar.appwidget
+W/PackageManager(  972): Unknown permission android.permission.ADD_SYSTEM_SERVICE in package com.coship.sdp.sce.tvappstore
+W/PackageManager(  972): Unknown permission android.permission.READ_EXTERNAL_STORAGE in package com.coship.sdp.sce.tvappstore
+W/PackageManager(  972): Unknown permission com.google.android.gm.permission.WRITE_GMAIL in package com.coship.sdp.sce.tvappstore
+W/PackageManager(  972): Unknown permission com.google.android.gm.permission.READ_GMAIL in package com.coship.sdp.sce.tvappstore
+W/PackageManager(  972): Unknown permission com.android.launcher.permission.READ_SETTINGS in package com.coship.setting
+W/PackageManager(  972): Unknown permission com.android.launcher.permission.WRITE_SETTINGS in package com.coship.setting
+W/PackageManager(  972): Unknown permission com.android.launcher.permission.INSTALL_SHORTCUT in package com.android.browser
+W/PackageManager(  972): Unknown permission com.google.android.gm.permission.WRITE_GMAIL in package com.coship.app.vaf
+W/PackageManager(  972): Unknown permission com.google.android.gm.permission.READ_GMAIL in package com.coship.app.vaf
+W/PackageManager(  972): Unknown permission com.android.launcher.permission.READ_SETTINGS in package com.coship.app.vaf
+W/PackageManager(  972): Unknown permission com.android.launcher.permission.WRITE_SETTINGS in package com.coship.app.vaf
+W/PackageManager(  972): Unknown permission com.google.android.gm.permission.WRITE_GMAIL in package com.coship.TestApp
+W/PackageManager(  972): Unknown permission com.google.android.gm.permission.READ_GMAIL in package com.coship.TestApp
+W/PackageManager(  972): Unknown permission com.android.launcher.permission.READ_SETTINGS in package com.coship.TestApp
+W/PackageManager(  972): Unknown permission com.android.launcher.permission.WRITE_SETTINGS in package com.coship.TestApp
+W/PackageManager(  972): Unknown permission android.permission.WRITE_OWNER_DATA in package com.iflytek.speech
+W/PackageManager(  972): Unknown permission android.permission.BAIDU_LOCATION_SERVICE in package com.iflytek.speech
+W/PackageManager(  972): Unknown permission android.permission.WRITE_OWNER_DATA in package com.coship.UpdateApp
+W/PackageManager(  972): Unknown permission android.permission.READ_OWNER_DATA in package com.coship.UpdateApp
+W/PackageManager(  972): Unknown permission android.permission.ADD_SYSTEM_SERVICE in package com.coship.netfirmware
+W/PackageManager(  972): Unknown permission android.permission.READ_SETTINGS in package com.android.settings
+W/PackageManager(  972): Unknown permission com.android.launcher.permission.READ_SETTINGS in package com.android.settings
+W/PackageManager(  972): Unknown permission com.android.launcher.permission.WRITE_SETTINGS in package com.android.settings
+W/PackageManager(  972): Unknown permission android.permission.WRITE_OWNER_DATA in package com.coship.Multimedia
+W/PackageManager(  972): Unknown permission android.permission.READ_OWNER_DATA in package com.coship.Multimedia
+W/PackageManager(  972): Unknown permission android.permission.WRITE_OWNER_DATA in package com.coship.NetworkNavigation
+W/PackageManager(  972): Unknown permission android.permission.READ_OWNER_DATA in package com.coship.NetworkNavigation
+I/SystemServer(  972): Account Manager
+I/SystemServer(  972): Content Manager
+I/SystemServer(  972): System Content Providers
+I/SystemServer(  972): Lights Service
+I/SystemServer(  972): Battery Service
+I/SystemServer(  972): Pppoe Service
+I/SystemServer(  972): Vibrator Service
+I/SystemServer(  972): Alarm Manager
+I/SystemServer(  972): Init Watchdog
+I/SystemServer(  972): Window Manager
+I/InputManager(  972): Initializing input manager
+W/StatusBarManager(  972): warning: no STATUS_BAR_SERVICE
+I/InputManager(  972): Starting input manager
+I/WindowManager(  972): Enabled StrictMode logging for WMThread's Looper
+I/WindowManager(  972): Enabled StrictMode for PolicyThread's Looper
+I/SystemServer(  972): Bluetooth Service
+I/SystemServer(  972): Input Method Service
+W/InputManagerService(  972): Couldn't create dir.: /data/system/inputmethod
+I/SystemServer(  972): Accessibility Manager
+I/ActivityManager(  972): Config changed: {1.0 0mcc0mnc zh_CN layoutdir=0 sw720dp w1280dp h720dp xlrg long land ?uimode ?night -touch -keyb/v/h -nav/h s.2}
+I/SystemServer(  972): TV
+I/SystemServer(  972): Device Policy
+I/SystemServer(  972): Status Bar
+I/SystemServer(  972): Clipboard Service
+I/SystemServer(  972): NetworkManagement Service
+I/SystemServer(  972): Text Service Manager Service
+W/TextServicesManagerService(  972): no available spell checker services found
+I/SystemServer(  972): NetworkStats Service
+I/SystemServer(  972): NetworkPolicy Service
+I/SystemServer(  972): Wi-Fi P2pService
+D/WifiP2pService(  972): P2pDisabledState
+E/WifiP2pService(  972): Failed to reload sta firmware java.lang.NullPointerException
+D/WifiP2pService(  972): mThisDevice.deviceAddress=null
+I/SystemServer(  972): Wi-Fi Service
+D/WifiP2pService(  972): P2pDisabledState{ what=69633 when=0 }
+D/WifiP2pService(  972): DefaultState{ what=69633 when=-1ms }
+D/WifiP2pService(  972): P2pDisabledState{ what=69632 when=0 obj=com.android.internal.util.AsyncChannel@4146bf40 }
+D/WifiP2pService(  972): DefaultState{ what=69632 when=0 obj=com.android.internal.util.AsyncChannel@4146bf40 }
+D/WifiP2pService(  972): Full connection with WifiStateMachine established
+D/WifiP2pService(  972): P2pDisabledState{ what=69633 when=0 }
+D/WifiP2pService(  972): DefaultState{ what=69633 when=0 }
+D/WifiP2pService(  972): P2pDisabledState{ what=69632 when=0 obj=com.android.internal.util.AsyncChannel@414bdb10 }
+D/WifiP2pService(  972): DefaultState{ what=69632 when=0 obj=com.android.internal.util.AsyncChannel@414bdb10 }
+D/WifiP2pService(  972): Full connection with WifiStateMachine established
+I/SystemServer(  972): Connectivity Service
+D/ConnectivityService(  972): ConnectivityService starting up
+E/ConnectivityService(  972): Error in radioAttributes - ignoring attempt to redefine type 1
+D/ConnectivityService(  972): Starting Pppoe StateTracker
+D/ConnectivityService(  972): Starting Ethernet Service.
+V/EthernetStateTracker(  972): Ethernet State Tracker v1.0.6
+V/EthernetStateTracker(  972): successed to init device!
+I/EthernetService(  972): Ethernet dev enabled 2
+V/EthernetService(  972): device 0 name eth0
+V/EthernetMonitor(  972): go poll events
+V/EthernetStateTracker(  972): start to monitor the ethernet devices . . .
+I/EthernetManager(  972): Init Ethernet Manager, service: com.android.server.EthernetService@4155bc10
+I/EthernetStateTracker(  972): reset device eth0
+I/EthernetStateTracker(  972): trigger dhcp for device eth0
+I/EthernetStateTracker(  972): reset device eth0
+I/EthernetStateTracker(  972): trigger dhcp for device eth0
+E/MobileDataStateTracker(  972): default: Ignoring feature request because could not acquire PhoneService
+E/MobileDataStateTracker(  972): default: Could not enable APN type "default"
+D/NetworkManagementService(  972): Registering observer
+D/NetworkManagementService(  972): Registering observer
+I/WifiService(  972): WifiService starting up with Wi-Fi enabled
+D/WifiP2pService(  972): P2pDisabledState{ what=131203 when=0 }
+I/WifiService(  972): WifiService starting up with Wi-Fi AP enabled
+D/WifiP2pService(  972): P2pDisabledState{ what=331907 when=0 }
+I/SystemServer(  972): Throttle Service
+I/SystemServer(  972): Mount Service
+D/MountService(  972): got storage path: /mnt/sdcard description: USB ´æ´¢Æ÷ primary: true removable: false emulated: false mtpReserve: 0 allowMassStorage: false maxFileSize: 0
+D/MountService(  972): mExternalStoragePath:/mnt/sdcard
+I/SystemServer(  972): Notification Manager
+I/SystemServer(  972): Device Storage Monitor
+I/SystemServer(  972): Location Manager
+I/SystemServer(  972): Country Detector
+I/SystemServer(  972): Search Service
+D/VoldCmdListener(  738): volume list
+I/SystemServer(  972): DropBox Service
+I/SystemServer(  972): Wallpaper Service
+I/SystemServer(  972): Audio Service
+V/EthernetMonitor(  972): get event 
+V/EthernetMonitor(  972): go poll events
+I/SystemServer(  972): Camera Observer
+I/SystemServer(  972): Microphone Observer
+I/SystemServer(  972): Wired Accessory Observer
+I/SystemServer(  972): USB Service
+I/SystemServer(  972): UI Mode Manager Service
+I/SystemServer(  972): Backup Service
+V/BackupManagerService(  972): Initializing package tracking
+V/BackupManagerService(  972): No ancestral data
+V/BackupManagerService(  972): addPackageParticipantsLocked: all
+I/BackupManagerService(  972): New app android never backed up; scheduling
+I/BackupManagerService(  972): New app com.android.browser never backed up; scheduling
+I/BackupManagerService(  972): New app com.android.providers.settings never backed up; scheduling
+I/BackupManagerService(  972): New app com.android.providers.userdictionary never backed up; scheduling
+I/BackupManagerService(  972): New app com.android.sharedstoragebackup never backed up; scheduling
+V/BackupManagerService(  972): Registering transport android/com.android.internal.backup.LocalTransport = com.android.internal.backup.LocalTransport@416042a0
+V/BackupManagerService(  972): Starting with transport android/com.android.internal.backup.LocalTransport
+V/BackupManagerService(  972): Google transport not present
+I/BackupManagerService(  972): Backup enabled => false
+I/BackupManagerService(  972): Opting out of backup
+I/SystemServer(  972): AppWidget Service
+I/SystemServer(  972): Recognition Service
+I/SystemServer(  972): DiskStats Service
+I/SystemServer(  972): SamplingProfiler Service
+I/SystemServer(  972): NetworkTimeUpdateService
+D/PowerManagerService(  972): system ready!
+I/ActivityManager(  972): System now ready
+I/SystemServer(  972): Making services ready
+I/ActivityManager(  972): Start proc com.mstar.dbprovider for content provider com.mstar.dbprovider/.MstTvUserSettingProvider: pid=1117 uid=10018 gids={}
+D/SystemServer(  972): Starting service: Intent { cmp=com.android.systemui/.SystemUIService }
+I/ActivityManager(  972): Start proc com.android.systemui for service com.android.systemui/.SystemUIService: pid=1134 uid=1000 gids={3003, 1015, 3002, 3001, 3004}
+D/NetworkManagementService(  972): enabling bandwidth control
+D/SystemUIService( 1134): loading: class com.android.systemui.statusbar.tablet.TabletStatusBar
+D/SystemUIService( 1134): running: com.android.systemui.statusbar.tablet.TabletStatusBar@413aec70
+V/EthernetMonitor(  972): get event 
+V/EthernetMonitor(  972): go poll events
+V/EthernetMonitor(  972): get event 
+V/EthernetMonitor(  972): go poll events
+D/NetworkManagementService(  972): rsp <213 58:87:e2:0b:2a:7e 0.0.0.0 0 [down broadcast multicast]>
+D/NetworkManagementService(  972): flags <[down broadcast multicast]>
+I/ActivityManager(  972): Start proc com.coship.Multimedia for broadcast com.coship.Multimedia/.view.BootCompletedReceiver: pid=1148 uid=1000 gids={3003, 1015, 3002, 3001, 3004}
+I/StatusBar.HeightReceiver( 1134): Resizing status bar plugged=false height=48 old=0
+D/NetworkManagementService(  972): Registering observer
+D/NetworkManagementService(  972): Registering observer
+I/ActivityManager(  972): Config changed: {1.0 0mcc0mnc zh_CN layoutdir=0 sw720dp w1280dp h720dp xlrg long land -touch -keyb/v/h -nav/h s.3}
+V/EthernetMonitor(  972): get event 
+V/EthernetMonitor(  972): go poll events
+W/RecognitionManagerService(  972): no available voice recognition services found
+W/InputManagerService(  972): Ignoring setImeWindowStatus of uid 1000 token: null
+I/ActivityManager(  972): Start proc com.android.inputmethod.pinyin for service com.android.inputmethod.pinyin/.PinyinIME: pid=1205 uid=10021 gids={3003}
+D/NetworkManagementService(  972): Registering observer
+I/SystemServer(  972): SIP Service
+W/ThrottleService(  972): unable to find stats for iface rmnet0
+I/ActivityManager(  972): Start proc com.fiship.cibn for added application com.fiship.cibn: pid=1223 uid=10011 gids={3003, 1015}
+I/ActivityManager(  972): Start proc com.coship.stpservice for added application com.coship.stpservice: pid=1237 uid=1000 gids={3003, 1015, 3002, 3001, 3004}
+I/ActivityManager(  972): Start proc com.coship.sdp.sce.tvappstore for added application com.coship.sdp.sce.tvappstore: pid=1252 uid=1000 gids={3003, 1015, 3002, 3001, 3004}
+I/ActivityManager(  972): Start proc com.coship.easycontrolime for added application com.coship.easycontrolime: pid=1264 uid=10009 gids={3003}
+I/ActivityManager(  972): Start proc com.coship.netfirmware for added application com.coship.netfirmware: pid=1271 uid=1000 gids={3003, 1015, 3002, 3001, 3004}
+I/ActivityManager(  972): Start proc com.coship.cw880 for added application com.coship.cw880: pid=1287 uid=1000 gids={3003, 1015, 3002, 3001, 3004}
+D/ActivityManager(  972): propValue:2
+D/ActivityManager(  972): start launcher......
+I/ActivityManager(  972): START {act=android.intent.action.MAIN cat=[android.intent.category.HOME,android.intent.category.DISABLE_THIRD_LAUNCHER] flg=0x10000000 cmp=com.fiship.cibn/.MainActivity} from pid 0
+I/SystemServer(  972): Enabled StrictMode for system server main thread.
+I/EthernetStateTracker(  972): received interface reset event
+I/EthernetStateTracker(  972): reset device eth0
+I/ActivityManager(  972): Start proc com.google.process.gapps for service com.google.android.location/.NetworkLocationService: pid=1309 uid=10013 gids={3003, 1015, 2001, 1007}
+W/MountService(  972): getVolumeState(/mnt/sdcard): Unknown volume
+W/MountService(  972): getVolumeState(/mnt/sdcard): Unknown volume
+W/ActivityThread( 1309): ClassLoader.loadClass: The class loader returned by Thread.getContextClassLoader() may fail for processes that host multiple applications. You should explicitly specify a context class loader. For example: Thread.setContextClassLoader(getClass().getClassLoader());
+I/StatusBarManagerService(  972): registerStatusBar bar=com.android.internal.statusbar.IStatusBar$Stub$Proxy@415b4548
+D/SystemUIService( 1134): loading: class com.android.systemui.power.PowerUI
+D/SystemUIService( 1134): running: com.android.systemui.power.PowerUI@41431238
+I/StatusBar.HeightReceiver( 1134): Resizing status bar plugged=false height=48 old=48
+I/StatusBar.HeightReceiver( 1134): Resizing status bar plugged=false height=48 old=48
+D/WifiService(  972): New client listening to asynchronous messages
+I/ActivityManager(  972): Start proc com.android.phone for content provider com.android.providers.telephony/.TelephonyProvider: pid=1350 uid=1001 gids={1015}
+W/ActivityManager(  972): Timeout of broadcast BroadcastRecord{415f38b8 android.net.wifi.WIFI_AP_STATE_CHANGED} - receiver=android.os.BinderProxy@415f9340, started 10001ms ago
+W/ActivityManager(  972): Receiver during timeout: ResolveInfo{415f3730 com.coship.Multimedia.view.BootCompletedReceiver p=0 o=0 m=0x108000}
+I/ActivityManager(  972): Start proc com.android.contacts for broadcast com.android.contacts/.calllog.CallLogReceiver: pid=1374 uid=10000 gids={3003, 1015}
+I/ActivityManager(  972): Start proc android.process.acore for content provider com.android.providers.contacts/.CallLogProvider: pid=1391 uid=10000 gids={3003, 1015}
+E/ActivityManager(  972): Start proc android.process.acore for content provider com.android.providers.contacts/.CallLogProvider: pid=1391 uid=10000 gids={3003, 1015}Load: 2.54 / 0.57 / 0.19
+E/ActivityManager(  972): CPU usage from 6255ms to 0ms ago:
+E/ActivityManager(  972):   153% 1037/bootanimation: 105% user + 48% kernel / faults: 35885 minor 2 major
+E/ActivityManager(  972):   135% 1223/com.fiship.cibn: 120% user + 15% kernel / faults: 17751 minor 2 major
+E/ActivityManager(  972):   20% 754/ld-linux.so.3: 11% user + 8.9% kernel
+E/ActivityManager(  972):   7.4% 972/system_server: 5.2% user + 2.2% kernel / faults: 590 minor
+E/ActivityManager(  972):   2.8% 444/mmcqd: 0% user + 2.8% kernel
+E/ActivityManager(  972):   2.7% 744/mediaserver: 0.6% user + 2% kernel
+E/ActivityManager(  972):   2.5% 1020/surfaceflinger: 0.7% user + 1.7% kernel
+E/ActivityManager(  972):   0.9% 777/mali-pmm-wq: 0% user + 0.9% kernel
+E/ActivityManager(  972):   0.7% 742/zygote: 0% user + 0.7% kernel / faults: 79 minor
+E/ActivityManager(  972):   0.3% 775/mali/0: 0% user + 0.3% kernel
+E/ActivityManager(  972):   0.3% 1252/com.coship.sdp.sce.tvappstore: 0.3% user + 0% kernel / faults: 74 minor
+E/ActivityManager(  972):   0% 721/jbd2/mmcblk5-8: 0% user + 0% kernel
+E/ActivityManager(  972):   0.1% 739/netd: 0% user + 0.1% kernel / faults: 21 minor
+E/ActivityManager(  972):   0% 932/adbd: 0% user + 0% kernel
+E/ActivityManager(  972):   0% 944/usb-storage: 0% user + 0% kernel
+E/ActivityManager(  972):   0.1% 1287/com.coship.cw880: 0.1% user + 0% kernel / faults: 26 minor
+E/ActivityManager(  972):  +0% 1350/com.android.phone: 0% user + 0% kernel
+E/ActivityManager(  972): 66% TOTAL: 49% user + 16% kernel + 0.7% iowait + 0% softirq
+E/ActivityManager(  972): CPU usage from 962ms to 1555ms later:
+E/ActivityManager(  972):   164% 1391/android.process.acore: 154% user + 9.4% kernel / faults: 917 minor 1 major
+E/ActivityManager(  972):     60% 1391/d.process.acore: 60% user + 0% kernel
+E/ActivityManager(  972):     33% 1403/Binder Thread #: 24% user + 9.4% kernel
+E/ActivityManager(  972):     15% 1393/GC: 15% user + 0% kernel
+E/ActivityManager(  972):     1.8% 1402/Binder Thread #: 1.8% user + 0% kernel
+E/ActivityManager(  972):    +0% 1406/ContactsProvide: 0% user + 0% kernel
+E/ActivityManager(  972):   98% 1037/bootanimation: 64% user + 33% kernel / faults: 1967 minor
+E/ActivityManager(  972):     96% 1040/BootAnimation: 64% user + 31% kernel
+E/ActivityManager(  972):     1.8% 1042/BootAnimation: 1.8% user + 0% kernel
+E/ActivityManager(  972):   31% 972/system_server: 24% user + 6.8% kernel / faults: 88 minor
+E/ActivityManager(  972):     15% 991/ActivityManager: 10% user + 5.1% kernel
+E/ActivityManager(  972):     1.7% 972/system_server: 1.7% user + 0% kernel
+E/ActivityManager(  972):     1.7% 979/Compiler: 0% user + 1.7% kernel
+E/ActivityManager(  972):     1.7% 984/Binder Thread #: 0% user + 1.7% kernel
+E/ActivityManager(  972):     1.7% 985/Binder Thread #: 0% user + 1.7% kernel
+E/ActivityManager(  972):     1.7% 1249/Binder Thread #: 1.7% user + 0% kernel
+E/ActivityManager(  972):     1.7% 1250/Binder Thread #: 1.7% user + 0% kernel
+E/ActivityManager(  972):     1.7% 1294/Binder Thread #: 1.7% user + 0% kernel
+E/ActivityManager(  972):    +0% 1407/Error dump: sys: 0% user + 0% kernel
+E/ActivityManager(  972):   22% 754/ld-linux.so.3: 13% user + 8.6% kernel
+E/ActivityManager(  972):     18% 1057/CECMonitor: 10% user + 8.6% kernel
+E/ActivityManager(  972):     1.7% 967/IRQThread_213: 1.7% user + 0% kernel
+E/ActivityManager(  972):     1.7% 996/754keypad Input: 1.7% user + 0% kernel
+E/ActivityManager(  972):     1.7% 998/754Linux hotplu: 1.7% user + 0% kernel
+E/ActivityManager(  972):   4.1% 1374/com.android.contacts: 4.1% user + 0% kernel / faults: 68 minor
+E/ActivityManager(  972):   3.3% 444/mmcqd: 0% user + 3.3% kernel
+E/ActivityManager(  972):   3.4% 744/mediaserver: 0% user + 3.4% kernel
+E/ActivityManager(  972):     3.4% 965/AudioOut_1: 0% user + 3.4% kernel
+E/ActivityManager(  972):   3.6% 1020/surfaceflinger: 1.8% user + 1.8% kernel
+E/ActivityManager(  972):     1.8% 1035/SurfaceFlinger: 1.8% user + 0% kernel
+E/ActivityManager(  972):   0.8% 721/jbd2/mmcblk5-8: 0% user + 0.8% kernel
+E/ActivityManager(  972):   0.9% 777/mali-pmm-wq: 0% user + 0.9% kernel
+E/ActivityManager(  972): 72% TOTAL: 51% user + 17% kernel + 4.3% iowait
+W/ActivityManager(  972): Killing ProcessRecord{415f3f98 1148:com.coship.Multimedia/1000}: background ANR
+W/ActivityManager(  972): Timeout of broadcast BroadcastRecord{415f9978 android.intent.action.BOOT_COMPLETED} - receiver=android.app.ActivityThread$ApplicationThread@41412620, started 10000ms ago
+W/ActivityManager(  972): Receiver during timeout: ResolveInfo{415a7528 com.android.server.BootReceiver p=0 o=0 m=0x108000}
+I/ActivityManager(  972): Start proc com.coship.HS for broadcast com.coship.HS/.AutoStartReceiver: pid=1415 uid=1000 gids={3003, 1015, 3002, 3001, 3004}
+I/ActivityManager(  972): Start proc com.android.providers.calendar for broadcast com.android.providers.calendar/.CalendarReceiver: pid=1428 uid=10004 gids={3003, 1015}
+I/ActivityManager(  972): Start proc android.process.media for broadcast com.android.providers.downloads/.DownloadReceiver: pid=1446 uid=10008 gids={1015, 1023, 1024, 2001, 3003, 3007}
+W/MountService(  972): getVolumeState(/mnt/sdcard): Unknown volume
+E/ActivityManager(  972): Load: 3.15 / 0.77 / 0.25
+E/ActivityManager(  972): CPU usage from 10429ms to 0ms ago:
+E/ActivityManager(  972):   21% 1037/bootanimation: 13% user + 7.3% kernel / faults: 7077 minor
+E/ActivityManager(  972):   19% 972/system_server: 15% user + 4.7% kernel / faults: 1676 minor
+E/ActivityManager(  972):   11% 754/ld-linux.so.3: 4% user + 7.8% kernel
+E/ActivityManager(  972):   11% 1223/com.fiship.cibn: 8.9% user + 2.3% kernel / faults: 942 minor
+E/ActivityManager(  972):   5.1% 1020/surfaceflinger: 2.3% user + 2.7% kernel / faults: 1 minor
+E/ActivityManager(  972):   1.8% 744/mediaserver: 0.8% user + 0.9% kernel
+E/ActivityManager(  972):   1.2% 444/mmcqd: 0% user + 1.2% kernel
+E/ActivityManager(  972):   1% 775/mali/0: 0% user + 1% kernel
+E/ActivityManager(  972):   0.4% 742/zygote: 0% user + 0.3% kernel / faults: 110 minor
+E/ActivityManager(  972):   0.4% 777/mali-pmm-wq: 0% user + 0.4% kernel
+E/ActivityManager(  972):   0.1% 1237/com.coship.stpservice: 0.1% user + 0% kernel / faults: 56 minor
+E/ActivityManager(  972):   0.1% 1271/com.coship.netfirmware: 0% user + 0.1% kernel / faults: 61 minor
+E/ActivityManager(  972):   0% 7/events/0: 0% user + 0% kernel
+E/ActivityManager(  972):   0% 8/events/1: 0% user + 0% kernel
+E/ActivityManager(  972):   0% 721/jbd2/mmcblk5-8: 0% user + 0% kernel
+E/ActivityManager(  972):   0% 739/netd: 0% user + 0% kernel / faults: 20 minor
+E/ActivityManager(  972):   0% 1134/com.android.systemui: 0% user + 0% kernel
+E/ActivityManager(  972):   0% 1148/com.coship.Multimedia: 0% user + 0% kernel / faults: 28 minor
+E/ActivityManager(  972):   0% 1252/com.coship.sdp.sce.tvappstore: 0% user + 0% kernel / faults: 36 minor
+E/ActivityManager(  972):   0% 1264/com.coship.easycontrolime: 0% user + 0% kernel / faults: 57 minor
+E/ActivityManager(  972):   0% 1287/com.coship.cw880: 0% user + 0% kernel / faults: 35 minor
+E/ActivityManager(  972):  +0% 1374/com.android.contacts: 0% user + 0% kernel
+E/ActivityManager(  972):  +0% 1391/android.process.acore: 0% user + 0% kernel
+E/ActivityManager(  972):  +0% 1415/com.coship.HS: 0% user + 0% kernel
+E/ActivityManager(  972): 20% TOTAL: 12% user + 6.6% kernel + 1.5% iowait + 0% softirq
+E/ActivityManager(  972): CPU usage from 529ms to 1070ms later:
+E/ActivityManager(  972):   62% 972/system_server: 37% user + 25% kernel / faults: 852 minor
+E/ActivityManager(  972):     14% 991/ActivityManager: 5.5% user + 9.2% kernel
+E/ActivityManager(  972):     9.2% 972/system_server: 1.8% user + 7.4% kernel
+E/ActivityManager(  972):     9.2% 1294/Binder Thread #: 9.2% user + 0% kernel
+E/ActivityManager(  972):     7.4% 984/Binder Thread #: 3.7% user + 3.7% kernel
+E/ActivityManager(  972):     5.5% 979/Compiler: 3.7% user + 1.8% kernel
+E/ActivityManager(  972):     5.5% 1249/Binder Thread #: 3.7% user + 1.8% kernel
+E/ActivityManager(  972):     5.5% 1250/Binder Thread #: 3.7% user + 1.8% kernel
+E/ActivityManager(  972):     3.7% 985/Binder Thread #: 1.8% user + 1.8% kernel
+E/ActivityManager(  972):     1.8% 1292/Binder Thread #: 1.8% user + 0% kernel
+E/ActivityManager(  972):    +0% 1445/Error dump: sys: 0% user + 0% kernel
+E/ActivityManager(  972):   25% 1264/com.coship.easycontrolime: 17% user + 8.5% kernel / faults: 855 minor 1 major
+E/ActivityManager(  972):     12% 1264/.easycontrolime: 11% user + 1.4% kernel
+E/ActivityManager(  972):     5.7% 1274/Compiler: 2.8% user + 2.8% kernel
+E/ActivityManager(  972):     2.8% 1268/GC: 1.4% user + 1.4% kernel
+E/ActivityManager(  972):     1.4% 1305/Binder Thread #: 0% user + 1.4% kernel
+E/ActivityManager(  972):   33% 1428/com.android.providers.calendar: 27% user + 5.5% kernel / faults: 323 minor
+E/ActivityManager(  972):     7.4% 1428/viders.calendar: 3.7% user + 3.7% kernel
+E/ActivityManager(  972):     3.7% 1434/Compiler: 1.8% user + 1.8% kernel
+E/ActivityManager(  972):     1.8% 1440/Binder Thread #: 1.8% user + 0% kernel
+E/ActivityManager(  972):   20% 754/ld-linux.so.3: 11% user + 9.2% kernel / faults: 50 minor
+E/ActivityManager(  972):     16% 1057/CECMonitor: 7.4% user + 9.2% kernel
+E/ActivityManager(  972):   11% 1287/com.coship.cw880: 4.3% user + 7.2% kernel / faults: 422 minor 2 major
+E/ActivityManager(  972):     7.2% 1287/om.coship.cw880: 2.8% user + 4.3% kernel
+E/ActivityManager(  972):     1.4% 1307/Binder Thread #: 1.4% user + 0% kernel
+E/ActivityManager(  972):    +0% 1454/Thread-45: 0% user + 0% kernel
+E/ActivityManager(  972):    +0% 1455/Thread-46: 0% user + 0% kernel
+E/ActivityManager(  972):    +0% 1456/Thread-47: 0% user + 0% kernel
+E/ActivityManager(  972):   5.5% 444/mmcqd: 0% user + 5.5% kernel
+E/ActivityManager(  972):   3.4% 742/zygote: 0% user + 3.4% kernel / faults: 165 minor
+E/ActivityManager(  972):     3.4% 742/zygote: 0% user + 3.4% kernel
+E/ActivityManager(  972):    +0% 1447/ReferenceQueueD: 0% user + 0% kernel
+E/ActivityManager(  972):    +0% 1448/FinalizerDaemon: 0% user + 0% kernel
+E/ActivityManager(  972):    +0% 1449/FinalizerWatchd: 0% user + 0% kernel
+E/ActivityManager(  972):   5.5% 1020/surfaceflinger: 1.8% user + 3.7% kernel / faults: 119 minor
+E/ActivityManager(  972):     1.8% 1020/surfaceflinger: 1.8% user + 0% kernel
+E/ActivityManager(  972):     1.8% 1025/SurfaceFlinger: 1.8% user + 0% kernel
+E/ActivityManager(  972):     1.8% 1034/SurfaceFlinger: 1.8% user + 0% kernel
+E/ActivityManager(  972):     1.8% 1035/SurfaceFlinger: 0% user + 1.8% kernel
+E/ActivityManager(  972):     1.8% 1036/Binder Thread #: 0% user + 1.8% kernel
+E/ActivityManager(  972):   3.7% 744/mediaserver: 1.8% user + 1.8% kernel / faults: 5 minor
+E/ActivityManager(  972):     1.8% 965/AudioOut_1: 0% user + 1.8% kernel
+E/ActivityManager(  972):   3.7% 1037/bootanimation: 1.8% user + 1.8% kernel / faults: 78 minor
+E/ActivityManager(  972):     1.8% 1040/BootAnimation: 0% user + 1.8% kernel
+E/ActivityManager(  972):     1.8% 1042/BootAnimation: 1.8% user + 0% kernel
+E/ActivityManager(  972):   1.2% 775/mali/0: 0% user + 1.2% kernel
+E/ActivityManager(  972):   1.4% 1271/c
+W/ActivityManager(  972): Timeout of broadcast BroadcastRecord{415f9978 android.intent.action.BOOT_COMPLETED} - receiver=android.os.BinderProxy@415f9340, started 10000ms ago
+W/ActivityManager(  972): Receiver during timeout: ResolveInfo{4160e0a8 com.coship.Multimedia.view.BootCompletedReceiver p=0 o=0 m=0x108000}
+I/ActivityManager(  972): Skipping duplicate ANR: ProcessRecord{415f3f98 1148:com.coship.Multimedia/1000} Broadcast of Intent { act=android.intent.action.BOOT_COMPLETED cmp=com.coship.Multimedia/.view.BootCompletedReceiver }
+I/ActivityManager(  972): START {flg=0x10000000 cmp=com.google.android.gsf/.update.SystemUpdateInstallDialog} from pid 1309
+I/ActivityManager(  972): Start proc com.android.settings for broadcast com.android.settings/.SettingGlobalReceiver: pid=1481 uid=1000 gids={3003, 1015, 3002, 3001, 3004}
+I/ActivityManager(  972): Start proc com.coship.changetheaudiooutput for broadcast com.coship.changetheaudiooutput/.BootCompletedReceiver: pid=1495 uid=10029 gids={3002, 3001, 3004}
+W/ActivityManager(  972): Unable to start service Intent { act=coship.update.UpdateService.REMOTE_SERVICE }: not found
+D/WifiP2pService(  972): P2pDisabledState{ what=139265 when=0 }
+D/WifiP2pService(  972): wifi sta and softap disable!!
+D/WifiP2pService(  972): WaitForWifiDisableState
+D/WifiP2pService(  972): WaitForWifiDisableState{ what=139268 when=0 }
+W/WindowManager(  972): ***** BOOT TIMEOUT: forcing display enabled
+I/MicrophoneObserver(  972): Microphone PLUG_IN
+W/ActivityManager(  972): Timeout executing service: ServiceRecord{41650168 com.coship.easycontrolime/.EasyControlIME}
+E/ActivityManager(  972): ANR in com.coship.easycontrolime
+E/ActivityManager(  972): Reason: Executing service com.coship.easycontrolime/.EasyControlIME
+E/ActivityManager(  972): Load: 5.24 / 1.44 / 0.49
+E/ActivityManager(  972): CPU usage from 4980ms to -1017ms ago:
+E/ActivityManager(  972):   26% 754/ld-linux.so.3: 13% user + 13% kernel / faults: 40 minor 6 major
+E/ActivityManager(  972):   22% 972/system_server: 16% user + 5.8% kernel / faults: 852 minor 9 major
+E/ActivityManager(  972):   6.8% 1223/com.fiship.cibn: 5.6% user + 1.1% kernel / faults: 265 minor 6 major
+E/ActivityManager(  972):   3.5% 1020/surfaceflinger: 0.6% user + 2.8% kernel / faults: 6 minor
+E/ActivityManager(  972):   3.3% 444/mmcqd: 0% user + 3.3% kernel
+E/ActivityManager(  972):   0.3% 752/easycontrol: 0% user + 0.3% kernel / faults: 20 minor
+E/ActivityManager(  972):   0.6% 8/events/1: 0.6% user + 0% kernel
+E/ActivityManager(  972):   2.1% 744/mediaserver: 1.1% user + 1% kernel / faults: 134 minor
+E/ActivityManager(  972):   2.1% 1446/android.process.media: 1.6% user + 0.5% kernel / faults: 44 minor
+E/ActivityManager(  972):   0.3% 1//init: 0% user + 0.3% kernel / faults: 313 minor
+E/ActivityManager(  972):   0.1% 4/migration/0: 0.1% user + 0% kernel
+E/ActivityManager(  972):   0.1% 289/kswapd0: 0% user + 0.1% kernel
+E/ActivityManager(  972):   0.6% 775/mali/0: 0% user + 0.6% kernel
+E/ActivityManager(  972):   0.1% 1374/com.android.contacts: 0% user + 0% kernel / faults: 15 minor
+E/ActivityManager(  972):   0.3% 721/jbd2/mmcblk5-8: 0% user + 0.3% kernel
+E/ActivityManager(  972):   0.1% 739/netd: 0% user + 0.1% kernel / faults: 36 minor
+E/ActivityManager(  972):   0.3% 777/mali-pmm-wq: 0% user + 0.3% kernel
+E/ActivityManager(  972):   0.1% 1287/com.coship.cw880: 0% user + 0% kernel / faults: 147 minor
+E/ActivityManager(  972):   0% 10/khelper: 0% user + 0% kernel
+E/ActivityManager(  972):   0% 486/ueventd: 0% user + 0% kernel / faults: 8 minor
+E/ActivityManager(  972):   0% 952/scsi-polling th: 0% user + 0% kernel
+E/ActivityManager(  972):   0.1% 1237/com.coship.stpservice: 0.1% user + 0% kernel / faults: 23 minor
+E/ActivityManager(  972):   0.1% 1252/com.coship.sdp.sce.tvappstore: 0% user + 0.1% kernel / faults: 65 minor
+E/ActivityManager(  972):   0% 1264/com.coship.easycontrolime: 0% user + 0% kernel / faults: 118 minor
+E/ActivityManager(  972):  +0% 1531/snd-bt-scod: 0% user + 0% kernel
+E/ActivityManager(  972):  +0% 1532/snd-bt-msbc-dec: 0% user + 0% kernel
+E/ActivityManager(  972):  +0% 1545/cw880_msg_tx: 0% user + 0% kernel
+E/ActivityManager(  972):  +0% 1546/cw880_msg_rx: 0% user + 0% kernel
+E/ActivityManager(  972):  +0% 1547/cw880_msg_sdio_: 0% user + 0% kernel
+E/ActivityManager(  972):  +0% 1548/cw880_threadfn: 0% user + 0% kernel
+E/ActivityManager(  972):  +0% 1549/cw880_http_thre: 0% user + 0% kernel
+E/ActivityManager(  972):  +0% 1552/sh: 0% user + 0% kernel
+E/ActivityManager(  972):  +0% 1553/uaputl: 0% user + 0% kernel
+E/ActivityManager(  972): 37% TOTAL: 5.9% user + 24% kernel + 6.3% iowait + 0% softirq
+E/ActivityManager(  972): CPU usage from 460ms to 986ms later:
+E/ActivityManager(  972):   36% 1223/com.fiship.cibn: 30% user + 5.5% kernel / faults: 79 minor 1 major
+E/ActivityManager(  972):     31% 1223/com.fiship.cibn: 27% user + 4.1% kernel
+E/ActivityManager(  972):     2.7% 1347/com.fiship.cibn: 0% user + 2.7% kernel
+E/ActivityManager(  972):     1.3% 1343/Thread-36: 1.3% user + 0% kernel
+E/ActivityManager(  972):     1.3% 1346/com.fiship.cibn: 1.3% user + 0% kernel
+E/ActivityManager(  972):   14% 1020/surfaceflinger: 5.4% user + 9.4% kernel
+E/ActivityManager(  972):     8.1% 1025/SurfaceFlinger: 4% user + 4% kernel
+E/ActivityManager(  972):     2.7% 1020/surfaceflinger: 1.3% user + 1.3% kernel
+E/ActivityManager(  972):     2.7% 1035/SurfaceFlinger: 2.7% user + 0% kernel
+E/ActivityManager(  972):     1.3% 1036/Binder Thread #: 0% user + 1.3% kernel
+E/ActivityManager(  972):     1.3% 1044/Binder Thread #: 1.3% user + 0% kernel
+E/ActivityManager(  972):   15% 754/ld-linux.so.3: 5.6% user + 9.4% kernel
+E/ActivityManager(  972):     11% 1057/CECMonitor: 0% user + 11% kernel
+E/ActivityManager(  972):     1.8% 987/ld-linux.so.3: 1.8% user + 0% kernel
+E/ActivityManager(  972):   9.4% 972/system_server: 1.8% user + 7.5% kernel
+E/ActivityManager(  972):     11% 991/ActivityManager: 1.8% user + 9.4% kernel
+E/ActivityManager(  972):   3.8% 775/mali/0: 0% user + 3.8% kernel
+E/ActivityManager(  972):   1.2% 444/mmcqd: 0% user + 1.2% kernel
+E/ActivityManager(  972):   1.8% 744/mediaserver: 0% user + 1.8% kernel
+E/ActivityManager(  972):     1.8% 965/AudioOut_1: 0% user + 1.8% kernel
+E/ActivityManager(  972):   1.2% 777/mali-pmm-wq: 0% user + 1.2% kernel
+E/ActivityManager(  972): 20% TOTAL: 13% user + 6.4% kernel + 0.3% iowait
+W/ActivityManager(  972): Killing ProcessRecord{41614318 1264:com.coship.easycontrolime/10009}: background ANR
+W/ActivityManager(  972): Timeout of broadcast BroadcastRecord{41634ef0 android.intent.action.TIME_TICK} - receiver=android.app.LoadedApk$ReceiverDispatcher$InnerReceiver@4152d9e8, started 10176ms ago
+W/ActivityManager(  972): Receiver during timeout: BroadcastFilter{4152dbf0 ReceiverList{4152db78 972 system/1000 local:4152d9e8}}
+W/ActivityThread( 1271): ClassLoader.loadClass: The class loader returned by Thread.getContextClassLoader() may fail for processes that host multiple applications. You should explicitly specify a context class loader. For example: Thread.setContextClassLoader(getClass().getClassLoader());
+W/ActivityManager(  972): Timeout of broadcast BroadcastRecord{41634ef0 android.intent.action.TIME_TICK} - receiver=android.app.LoadedApk$ReceiverDispatcher$InnerReceiver@4153dbf8, started 10008ms ago
+W/ActivityManager(  972): Receiver during timeout: BroadcastFilter{4153de70 ReceiverList{4153ddf8 972 system/1000 local:4153dbf8}}
+W/ActivityManager(  972): Timeout of broadcast BroadcastRecord{415fdb28 android.net.wifi.WIFI_AP_STATE_CHANGED} - receiver=android.os.BinderProxy@415f9340, started 10001ms ago
+W/ActivityManager(  972): Receiver during timeout: ResolveInfo{415fd908 com.coship.Multimedia.view.BootCompletedReceiver p=0 o=0 m=0x108000}
+I/ActivityManager(  972): Skipping duplicate ANR: ProcessRecord{415f3f98 1148:com.coship.Multimedia/1000} Broadcast of Intent { act=android.net.wifi.WIFI_AP_STATE_CHANGED flg=0x10000000 cmp=com.coship.Multimedia/.view.BootCompletedReceiver (has extras) }
+W/Watchdog(  972): *** WATCHDOG KILLING SYSTEM PROCESS: null
+--------- beginning of /dev/log/main
+W/System.err( 1223):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1223):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1223):    at com.fiship.cibn.common.NetworkUtil.isConnectToServerByHttp(NetworkUtil.java:39)
+W/System.err( 1223):    at com.fiship.cibn.MainActivity$5.run(MainActivity.java:583)
+W/System.err( 1223):    at java.lang.Thread.run(Thread.java:856)
+W/System.err( 1223): Caused by: libcore.io.GaiException: getaddrinfo failed: EAI_NODATA (No address associated with hostname)
+W/System.err( 1223):    at libcore.io.Posix.getaddrinfo(Native Method)
+W/System.err( 1223):    at libcore.io.ForwardingOs.getaddrinfo(ForwardingOs.java:55)
+W/System.err( 1223):    at java.net.InetAddress.lookupHostByName(InetAddress.java:411)
+W/System.err( 1223):    ... 12 more
+I/MainActivity( 1223): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.coship.com:8080
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+I/MainActivity( 1223): Connect to PortalMS-Server  Address: http://cibn-iepg.coship.com:8080
+W/System.err( 1223): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.coship.com": No address associated with hostname
+W/System.err( 1223):    at java.net.InetAddress.lookupHostByName(InetAddress.java:400)
+W/System.err( 1223):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1223):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1223):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1223):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1223):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1223):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1223):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1223):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1223):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1223):    at com.fiship.cibn.common.NetworkUtil.isConnectToServerByHttp(NetworkUtil.java:39)
+W/System.err( 1223):    at com.fiship.cibn.MainActivity$5.run(MainActivity.java:583)
+W/System.err( 1223):    at java.lang.Thread.run(Thread.java:856)
+I/MainActivity( 1223): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.coship.com:8080
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+I/MainActivity( 1223): Connect to PortalMS-Server  Address: http://cibn-iepg.coship.com:8080
+W/System.err( 1223): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.coship.com": No address associated with hostname
+W/System.err( 1223):    at java.net.InetAddress.lookupHostByName(InetAddress.java:400)
+W/System.err( 1223):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1223):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1223):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1223):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1223):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1223):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1223):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1223):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1223):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1223):    at com.fiship.cibn.common.NetworkUtil.isConnectToServerByHttp(NetworkUtil.java:39)
+W/System.err( 1223):    at com.fiship.cibn.MainActivity$5.run(MainActivity.java:583)
+W/System.err( 1223):    at java.lang.Thread.run(Thread.java:856)
+I/MainActivity( 1223): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.coship.com:8080
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+I/MainActivity( 1223): Connect to PortalMS-Server  Address: http://cibn-iepg.coship.com:8080
+W/System.err( 1223): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.coship.com": No address associated with hostname
+W/System.err( 1223):    at java.net.InetAddress.lookupHostByName(InetAddress.java:426)
+W/System.err( 1223):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1223):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1223):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1223):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1223):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1223):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1223):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1223):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1223):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1223):    at com.fiship.cibn.common.NetworkUtil.isConnectToServerByHttp(NetworkUtil.java:39)
+W/System.err( 1223):    at com.fiship.cibn.MainActivity$5.run(MainActivity.java:583)
+W/System.err( 1223):    at java.lang.Thread.run(Thread.java:856)
+W/System.err( 1223): Caused by: libcore.io.GaiException: getaddrinfo failed: EAI_NODATA (No address associated with hostname)
+W/System.err( 1223):    at libcore.io.Posix.getaddrinfo(Native Method)
+W/System.err( 1223):    at libcore.io.ForwardingOs.getaddrinfo(ForwardingOs.java:55)
+W/System.err( 1223):    at java.net.InetAddress.lookupHostByName(InetAddress.java:411)
+W/System.err( 1223):    ... 12 more
+I/MainActivity( 1223): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.coship.com:8080
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+I/MainActivity( 1223): Connect to PortalMS-Server  Address: http://cibn-iepg.coship.com:8080
+W/System.err( 1223): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.coship.com": No address associated with hostname
+W/System.err( 1223):    at java.net.InetAddress.lookupHostByName(InetAddress.java:400)
+W/System.err( 1223):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1223):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1223):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1223):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1223):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1223):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1223):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1223):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1223):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1223):    at com.fiship.cibn.common.NetworkUtil.isConnectToServerByHttp(NetworkUtil.java:39)
+W/System.err( 1223):    at com.fiship.cibn.MainActivity$5.run(MainActivity.java:583)
+W/System.err( 1223):    at java.lang.Thread.run(Thread.java:856)
+I/MainActivity( 1223): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.coship.com:8080
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+I/MainActivity( 1223): Connect to PortalMS-Server  Address: http://cibn-iepg.coship.com:8080
+W/System.err( 1223): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.coship.com": No address associated with hostname
+W/System.err( 1223):    at java.net.InetAddress.lookupHostByName(InetAddress.java:400)
+W/System.err( 1223):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1223):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1223):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1223):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1223):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1223):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1223):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1223):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1223):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1223):    at com.fiship.cibn.common.NetworkUtil.isConnectToServerByHttp(NetworkUtil.java:39)
+W/System.err( 1223):    at com.fiship.cibn.MainActivity$5.run(MainActivity.java:583)
+W/System.err( 1223):    at java.lang.Thread.run(Thread.java:856)
+I/MainActivity( 1223): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.coship.com:8080
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+I/MainActivity( 1223): Connect to PortalMS-Server  Address: http://cibn-iepg.coship.com:8080
+W/System.err( 1223): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.coship.com": No address associated with hostname
+W/System.err( 1223):    at java.net.InetAddress.lookupHostByName(InetAddress.java:426)
+W/System.err( 1223):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1223):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1223):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1223):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1223):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1223):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1223):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1223):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1223):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1223):    at com.fiship.cibn.common.NetworkUtil.isConnectToServerByHttp(NetworkUtil.java:39)
+W/System.err( 1223):    at com.fiship.cibn.MainActivity$5.run(MainActivity.java:583)
+W/System.err( 1223):    at java.lang.Thread.run(Thread.java:856)
+W/System.err( 1223): Caused by: libcore.io.GaiException: getaddrinfo failed: EAI_NODATA (No address associated with hostname)
+W/System.err( 1223):    at libcore.io.Posix.getaddrinfo(Native Method)
+W/System.err( 1223):    at libcore.io.ForwardingOs.getaddrinfo(ForwardingOs.java:55)
+W/System.err( 1223):    at java.net.InetAddress.lookupHostByName(InetAddress.java:411)
+W/System.err( 1223):    ... 12 more
+I/MainActivity( 1223): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.coship.com:8080
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+I/MainActivity( 1223): Connect to PortalMS-Server  Address: http://cibn-iepg.coship.com:8080
+W/System.err( 1223): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.coship.com": No address associated with hostname
+W/System.err( 1223):    at java.net.InetAddress.lookupHostByName(InetAddress.java:400)
+W/System.err( 1223):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1223):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1223):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1223):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1223):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1223):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1223):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1223):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1223):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1223):    at com.fiship.cibn.common.NetworkUtil.isConnectToServerByHttp(NetworkUtil.java:39)
+W/System.err( 1223):    at com.fiship.cibn.MainActivity$5.run(MainActivity.java:583)
+W/System.err( 1223):    at java.lang.Thread.run(Thread.java:856)
+I/MainActivity( 1223): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.coship.com:8080
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+I/MainActivity( 1223): Connect to PortalMS-Server  Address: http://cibn-iepg.coship.com:8080
+W/System.err( 1223): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.coship.com": No address associated with hostname
+W/System.err( 1223):    at java.net.InetAddress.lookupHostByName(InetAddress.java:400)
+W/System.err( 1223):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1223):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1223):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1223):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1223):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1223):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1223):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1223):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1223):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1223):    at com.fiship.cibn.common.NetworkUtil.isConnectToServerByHttp(NetworkUtil.java:39)
+W/System.err( 1223):    at com.fiship.cibn.MainActivity$5.run(MainActivity.java:583)
+W/System.err( 1223):    at java.lang.Thread.run(Thread.java:856)
+I/MainActivity( 1223): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.coship.com:8080
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+I/MainActivity( 1223): Connect to PortalMS-Server  Address: http://cibn-iepg.coship.com:8080
+W/System.err( 1223): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.coship.com": No address associated with hostname
+W/System.err( 1223):    at java.net.InetAddress.lookupHostByName(InetAddress.java:426)
+W/System.err( 1223):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1223):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1223):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1223):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1223):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1223):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1223):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1223):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1223):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1223):    at com.fiship.cibn.common.NetworkUtil.isConnectToServerByHttp(NetworkUtil.java:39)
+W/System.err( 1223):    at com.fiship.cibn.MainActivity$5.run(MainActivity.java:583)
+W/System.err( 1223):    at java.lang.Thread.run(Thread.java:856)
+W/System.err( 1223): Caused by: libcore.io.GaiException: getaddrinfo failed: EAI_NODATA (No address associated with hostname)
+W/System.err( 1223):    at libcore.io.Posix.getaddrinfo(Native Method)
+W/System.err( 1223):    at libcore.io.ForwardingOs.getaddrinfo(ForwardingOs.java:55)
+W/System.err( 1223):    at java.net.InetAddress.lookupHostByName(InetAddress.java:411)
+W/System.err( 1223):    ... 12 more
+I/MainActivity( 1223): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.coship.com:8080
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+I/MainActivity( 1223): Connect to PortalMS-Server  Address: http://cibn-iepg.coship.com:8080
+W/System.err( 1223): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.coship.com": No address associated with hostname
+W/System.err( 1223):    at java.net.InetAddress.lookupHostByName(InetAddress.java:400)
+W/System.err( 1223):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1223):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1223):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1223):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1223):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1223):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1223):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1223):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1223):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1223):    at com.fiship.cibn.common.NetworkUtil.isConnectToServerByHttp(NetworkUtil.java:39)
+W/System.err( 1223):    at com.fiship.cibn.MainActivity$5.run(MainActivity.java:583)
+W/System.err( 1223):    at java.lang.Thread.run(Thread.java:856)
+I/MainActivity( 1223): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.coship.com:8080
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+I/MainActivity( 1223): Connect to PortalMS-Server  Address: http://cibn-iepg.coship.com:8080
+W/System.err( 1223): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.coship.com": No address associated with hostname
+W/System.err( 1223):    at java.net.InetAddress.lookupHostByName(InetAddress.java:400)
+W/System.err( 1223):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1223):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1223):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1223):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1223):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1223):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1223):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1223):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1223):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1223):    at com.fiship.cibn.common.NetworkUtil.isConnectToServerByHttp(NetworkUtil.java:39)
+W/System.err( 1223):    at com.fiship.cibn.MainActivity$5.run(MainActivity.java:583)
+W/System.err( 1223):    at java.lang.Thread.run(Thread.java:856)
+I/MainActivity( 1223): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.coship.com:8080
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+I/MainActivity( 1223): Connect to PortalMS-Server  Address: http://cibn-iepg.coship.com:8080
+W/System.err( 1223): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.coship.com": No address associated with hostname
+W/System.err( 1223):    at java.net.InetAddress.lookupHostByName(InetAddress.java:426)
+W/System.err( 1223):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1223):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1223):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1223):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1223):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1223):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1223):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1223):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1223):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1223):    at com.fiship.cibn.common.NetworkUtil.isConnectToServerByHttp(NetworkUtil.java:39)
+W/System.err( 1223):    at com.fiship.cibn.MainActivity$5.run(MainActivity.java:583)
+W/System.err( 1223):    at java.lang.Thread.run(Thread.java:856)
+W/System.err( 1223): Caused by: libcore.io.GaiException: getaddrinfo failed: EAI_NODATA (No address associated with hostname)
+W/System.err( 1223):    at libcore.io.Posix.getaddrinfo(Native Method)
+W/System.err( 1223):    at libcore.io.ForwardingOs.getaddrinfo(ForwardingOs.java:55)
+W/System.err( 1223):    at java.net.InetAddress.lookupHostByName(InetAddress.java:411)
+W/System.err( 1223):    ... 12 more
+I/MainActivity( 1223): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.coship.com:8080
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+I/MainActivity( 1223): Connect to PortalMS-Server  Address: http://cibn-iepg.coship.com:8080
+W/System.err( 1223): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.coship.com": No address associated with hostname
+W/System.err( 1223):    at java.net.InetAddress.lookupHostByName(InetAddress.java:400)
+W/System.err( 1223):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1223):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1223):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1223):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1223):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1223):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1223):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1223):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1223):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1223):    at com.fiship.cibn.common.NetworkUtil.isConnectToServerByHttp(NetworkUtil.java:39)
+W/System.err( 1223):    at com.fiship.cibn.MainActivity$5.run(MainActivity.java:583)
+W/System.err( 1223):    at java.lang.Thread.run(Thread.java:856)
+I/MainActivity( 1223): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.coship.com:8080
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+I/MainActivity( 1223): Connect to PortalMS-Server  Address: http://cibn-iepg.coship.com:8080
+W/System.err( 1223): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.coship.com": No address associated with hostname
+W/System.err( 1223):    at java.net.InetAddress.lookupHostByName(InetAddress.java:400)
+W/System.err( 1223):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1223):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1223):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1223):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1223):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1223):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1223):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1223):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1223):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1223):    at com.fiship.cibn.common.NetworkUtil.isConnectToServerByHttp(NetworkUtil.java:39)
+W/System.err( 1223):    at com.fiship.cibn.MainActivity$5.run(MainActivity.java:583)
+W/System.err( 1223):    at java.lang.Thread.run(Thread.java:856)
+I/MainActivity( 1223): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.coship.com:8080
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+I/MainActivity( 1223): Connect to PortalMS-Server  Address: http://cibn-iepg.coship.com:8080
+W/System.err( 1223): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.coship.com": No address associated with hostname
+W/System.err( 1223):    at java.net.InetAddress.lookupHostByName(InetAddress.java:426)
+W/System.err( 1223):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1223):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1223):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1223):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1223):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1223):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1223):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1223):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1223):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1223):    at com.fiship.cibn.common.NetworkUtil.isConnectToServerByHttp(NetworkUtil.java:39)
+W/System.err( 1223):    at com.fiship.cibn.MainActivity$5.run(MainActivity.java:583)
+W/System.err( 1223):    at java.lang.Thread.run(Thread.java:856)
+W/System.err( 1223): Caused by: libcore.io.GaiException: getaddrinfo failed: EAI_NODATA (No address associated with hostname)
+W/System.err( 1223):    at libcore.io.Posix.getaddrinfo(Native Method)
+W/System.err( 1223):    at libcore.io.ForwardingOs.getaddrinfo(ForwardingOs.java:55)
+W/System.err( 1223):    at java.net.InetAddress.lookupHostByName(InetAddress.java:411)
+W/System.err( 1223):    ... 12 more
+I/MainActivity( 1223): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.coship.com:8080
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+I/MainActivity( 1223): Connect to PortalMS-Server  Address: http://cibn-iepg.coship.com:8080
+W/System.err( 1223): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.coship.com": No address associated with hostname
+W/System.err( 1223):    at java.net.InetAddress.lookupHostByName(InetAddress.java:400)
+W/System.err( 1223):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1223):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1223):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1223):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1223):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1223):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1223):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1223):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1223):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1223):    at com.fiship.cibn.common.NetworkUtil.isConnectToServerByHttp(NetworkUtil.java:39)
+W/System.err( 1223):    at com.fiship.cibn.MainActivity$5.run(MainActivity.java:583)
+W/System.err( 1223):    at java.lang.Thread.run(Thread.java:856)
+I/MainActivity( 1223): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.coship.com:8080
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+I/MainActivity( 1223): Connect to PortalMS-Server  Address: http://cibn-iepg.coship.com:8080
+W/System.err( 1223): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.coship.com": No address associated with hostname
+W/System.err( 1223):    at java.net.InetAddress.lookupHostByName(InetAddress.java:400)
+W/System.err( 1223):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1223):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1223):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1223):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1223):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1223):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1223):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1223):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1223):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1223):    at com.fiship.cibn.common.NetworkUtil.isConnectToServerByHttp(NetworkUtil.java:39)
+W/System.err( 1223):    at com.fiship.cibn.MainActivity$5.run(MainActivity.java:583)
+W/System.err( 1223):    at java.lang.Thread.run(Thread.java:856)
+I/MainActivity( 1223): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.coship.com:8080
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+I/MainActivity( 1223): Connect to PortalMS-Server  Address: http://cibn-iepg.coship.com:8080
+W/System.err( 1223): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.coship.com": No address associated with hostname
+W/System.err( 1223):    at java.net.InetAddress.lookupHostByName(InetAddress.java:426)
+W/System.err( 1223):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1223):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+D/dalvikvm( 1223): GC_CONCURRENT freed 1948K, 18% free 26636K/32323K, paused 1ms+6ms
+W/System.err( 1223):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1223):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1223):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1223):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1223):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1223):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1223):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1223):    at com.fiship.cibn.common.NetworkUtil.isConnectToServerByHttp(NetworkUtil.java:39)
+W/System.err( 1223):    at com.fiship.cibn.MainActivity$5.run(MainActivity.java:583)
+W/System.err( 1223):    at java.lang.Thread.run(Thread.java:856)
+W/System.err( 1223): Caused by: libcore.io.GaiException: getaddrinfo failed: EAI_NODATA (No address associated with hostname)
+W/System.err( 1223):    at libcore.io.Posix.getaddrinfo(Native Method)
+W/System.err( 1223):    at libcore.io.ForwardingOs.getaddrinfo(ForwardingOs.java:55)
+W/System.err( 1223):    at java.net.InetAddress.lookupHostByName(InetAddress.java:411)
+W/System.err( 1223):    ... 12 more
+I/MainActivity( 1223): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.coship.com:8080
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+I/MainActivity( 1223): Connect to PortalMS-Server  Address: http://cibn-iepg.coship.com:8080
+W/System.err( 1223): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.coship.com": No address associated with hostname
+W/System.err( 1223):    at java.net.InetAddress.lookupHostByName(InetAddress.java:400)
+W/System.err( 1223):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1223):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1223):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1223):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1223):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1223):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1223):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1223):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1223):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1223):    at com.fiship.cibn.common.NetworkUtil.isConnectToServerByHttp(NetworkUtil.java:39)
+W/System.err( 1223):    at com.fiship.cibn.MainActivity$5.run(MainActivity.java:583)
+W/System.err( 1223):    at java.lang.Thread.run(Thread.java:856)
+I/MainActivity( 1223): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.coship.com:8080
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+I/MainActivity( 1223): Connect to PortalMS-Server  Address: http://cibn-iepg.coship.com:8080
+W/System.err( 1223): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.coship.com": No address associated with hostname
+W/System.err( 1223):    at java.net.InetAddress.lookupHostByName(InetAddress.java:400)
+W/System.err( 1223):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1223):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1223):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1223):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1223):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1223):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1223):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1223):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1223):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1223):    at com.fiship.cibn.common.NetworkUtil.isConnectToServerByHttp(NetworkUtil.java:39)
+W/System.err( 1223):    at com.fiship.cibn.MainActivity$5.run(MainActivity.java:583)
+W/System.err( 1223):    at java.lang.Thread.run(Thread.java:856)
+I/MainActivity( 1223): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.coship.com:8080
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+I/MainActivity( 1223): Connect to PortalMS-Server  Address: http://cibn-iepg.coship.com:8080
+W/System.err( 1223): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.coship.com": No address associated with hostname
+W/System.err( 1223):    at java.net.InetAddress.lookupHostByName(InetAddress.java:426)
+W/System.err( 1223):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1223):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1223):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1223):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1223):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1223):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1223):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1223):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1223):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1223):    at com.fiship.cibn.common.NetworkUtil.isConnectToServerByHttp(NetworkUtil.java:39)
+W/System.err( 1223):    at com.fiship.cibn.MainActivity$5.run(MainActivity.java:583)
+W/System.err( 1223):    at java.lang.Thread.run(Thread.java:856)
+W/System.err( 1223): Caused by: libcore.io.GaiException: getaddrinfo failed: EAI_NODATA (No address associated with hostname)
+W/System.err( 1223):    at libcore.io.Posix.getaddrinfo(Native Method)
+W/System.err( 1223):    at libcore.io.ForwardingOs.getaddrinfo(ForwardingOs.java:55)
+W/System.err( 1223):    at java.net.InetAddress.lookupHostByName(InetAddress.java:411)
+W/System.err( 1223):    ... 12 more
+I/MainActivity( 1223): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.coship.com:8080
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+I/MainActivity( 1223): Connect to PortalMS-Server  Address: http://cibn-iepg.coship.com:8080
+W/System.err( 1223): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.coship.com": No address associated with hostname
+W/System.err( 1223):    at java.net.InetAddress.lookupHostByName(InetAddress.java:400)
+W/System.err( 1223):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1223):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1223):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1223):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1223):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1223):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1223):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1223):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1223):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1223):    at com.fiship.cibn.common.NetworkUtil.isConnectToServerByHttp(NetworkUtil.java:39)
+W/System.err( 1223):    at com.fiship.cibn.MainActivity$5.run(MainActivity.java:583)
+W/System.err( 1223):    at java.lang.Thread.run(Thread.java:856)
+I/MainActivity( 1223): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.coship.com:8080
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+I/MainActivity( 1223): Connect to PortalMS-Server  Address: http://cibn-iepg.coship.com:8080
+W/System.err( 1223): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.coship.com": No address associated with hostname
+W/System.err( 1223):    at java.net.InetAddress.lookupHostByName(InetAddress.java:400)
+W/System.err( 1223):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1223):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1223):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1223):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1223):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1223):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1223):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1223):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1223):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1223):    at com.fiship.cibn.common.NetworkUtil.isConnectToServerByHttp(NetworkUtil.java:39)
+W/System.err( 1223):    at com.fiship.cibn.MainActivity$5.run(MainActivity.java:583)
+W/System.err( 1223):    at java.lang.Thread.run(Thread.java:856)
+I/MainActivity( 1223): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.coship.com:8080
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+I/MainActivity( 1223): Connect to PortalMS-Server  Address: http://cibn-iepg.coship.com:8080
+W/System.err( 1223): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.coship.com": No address associated with hostname
+W/System.err( 1223):    at java.net.InetAddress.lookupHostByName(InetAddress.java:426)
+W/System.err( 1223):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1223):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1223):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1223):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1223):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1223):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1223):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1223):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1223):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1223):    at com.fiship.cibn.common.NetworkUtil.isConnectToServerByHttp(NetworkUtil.java:39)
+W/System.err( 1223):    at com.fiship.cibn.MainActivity$5.run(MainActivity.java:583)
+W/System.err( 1223):    at java.lang.Thread.run(Thread.java:856)
+W/System.err( 1223): Caused by: libcore.io.GaiException: getaddrinfo failed: EAI_NODATA (No address associated with hostname)
+W/System.err( 1223):    at libcore.io.Posix.getaddrinfo(Native Method)
+W/System.err( 1223):    at libcore.io.ForwardingOs.getaddrinfo(ForwardingOs.java:55)
+W/System.err( 1223):    at java.net.InetAddress.lookupHostByName(InetAddress.java:411)
+W/System.err( 1223):    ... 12 more
+I/MainActivity( 1223): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.coship.com:8080
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+I/MainActivity( 1223): Connect to PortalMS-Server  Address: http://cibn-iepg.coship.com:8080
+W/System.err( 1223): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.coship.com": No address associated with hostname
+W/System.err( 1223):    at java.net.InetAddress.lookupHostByName(InetAddress.java:400)
+W/System.err( 1223):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1223):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1223):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1223):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1223):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1223):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1223):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1223):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1223):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1223):    at com.fiship.cibn.common.NetworkUtil.isConnectToServerByHttp(NetworkUtil.java:39)
+W/System.err( 1223):    at com.fiship.cibn.MainActivity$5.run(MainActivity.java:583)
+W/System.err( 1223):    at java.lang.Thread.run(Thread.java:856)
+I/MainActivity( 1223): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.coship.com:8080
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+I/MainActivity( 1223): Connect to PortalMS-Server  Address: http://cibn-iepg.coship.com:8080
+W/System.err( 1223): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.coship.com": No address associated with hostname
+W/System.err( 1223):    at java.net.InetAddress.lookupHostByName(InetAddress.java:400)
+W/System.err( 1223):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1223):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1223):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1223):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1223):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1223):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1223):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1223):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1223):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1223):    at com.fiship.cibn.common.NetworkUtil.isConnectToServerByHttp(NetworkUtil.java:39)
+W/System.err( 1223):    at com.fiship.cibn.MainActivity$5.run(MainActivity.java:583)
+W/System.err( 1223):    at java.lang.Thread.run(Thread.java:856)
+I/MainActivity( 1223): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.coship.com:8080
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+I/MainActivity( 1223): Connect to PortalMS-Server  Address: http://cibn-iepg.coship.com:8080
+W/System.err( 1223): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.coship.com": No address associated with hostname
+W/System.err( 1223):    at java.net.InetAddress.lookupHostByName(InetAddress.java:426)
+W/System.err( 1223):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1223):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1223):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1223):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1223):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1223):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1223):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1223):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1223):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1223):    at com.fiship.cibn.common.NetworkUtil.isConnectToServerByHttp(NetworkUtil.java:39)
+W/System.err( 1223):    at com.fiship.cibn.MainActivity$5.run(MainActivity.java:583)
+W/System.err( 1223):    at java.lang.Thread.run(Thread.java:856)
+W/System.err( 1223): Caused by: libcore.io.GaiException: getaddrinfo failed: EAI_NODATA (No address associated with hostname)
+W/System.err( 1223):    at libcore.io.Posix.getaddrinfo(Native Method)
+W/System.err( 1223):    at libcore.io.ForwardingOs.getaddrinfo(ForwardingOs.java:55)
+W/System.err( 1223):    at java.net.InetAddress.lookupHostByName(InetAddress.java:411)
+W/System.err( 1223):    ... 12 more
+I/MainActivity( 1223): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.coship.com:8080
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+I/MainActivity( 1223): Connect to PortalMS-Server  Address: http://cibn-iepg.coship.com:8080
+W/System.err( 1223): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.coship.com": No address associated with hostname
+W/System.err( 1223):    at java.net.InetAddress.lookupHostByName(InetAddress.java:400)
+W/System.err( 1223):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1223):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1223):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1223):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1223):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1223):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1223):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1223):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1223):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1223):    at com.fiship.cibn.common.NetworkUtil.isConnectToServerByHttp(NetworkUtil.java:39)
+W/System.err( 1223):    at com.fiship.cibn.MainActivity$5.run(MainActivity.java:583)
+W/System.err( 1223):    at java.lang.Thread.run(Thread.java:856)
+I/MainActivity( 1223): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.coship.com:8080
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+I/MainActivity( 1223): Connect to PortalMS-Server  Address: http://cibn-iepg.coship.com:8080
+W/System.err( 1223): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.coship.com": No address associated with hostname
+W/System.err( 1223):    at java.net.InetAddress.lookupHostByName(InetAddress.java:400)
+W/System.err( 1223):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1223):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1223):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1223):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1223):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1223):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1223):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1223):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1223):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1223):    at com.fiship.cibn.common.NetworkUtil.isConnectToServerByHttp(NetworkUtil.java:39)
+W/System.err( 1223):    at com.fiship.cibn.MainActivity$5.run(MainActivity.java:583)
+W/System.err( 1223):    at java.lang.Thread.run(Thread.java:856)
+I/MainActivity( 1223): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.coship.com:8080
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+I/MainActivity( 1223): Connect to PortalMS-Server  Address: http://cibn-iepg.coship.com:8080
+W/System.err( 1223): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.coship.com": No address associated with hostname
+W/System.err( 1223):    at java.net.InetAddress.lookupHostByName(InetAddress.java:426)
+W/System.err( 1223):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1223):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1223):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1223):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1223):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1223):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1223):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1223):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1223):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1223):    at com.fiship.cibn.common.NetworkUtil.isConnectToServerByHttp(NetworkUtil.java:39)
+W/System.err( 1223):    at com.fiship.cibn.MainActivity$5.run(MainActivity.java:583)
+W/System.err( 1223):    at java.lang.Thread.run(Thread.java:856)
+W/System.err( 1223): Caused by: libcore.io.GaiException: getaddrinfo failed: EAI_NODATA (No address associated with hostname)
+W/System.err( 1223):    at libcore.io.Posix.getaddrinfo(Native Method)
+W/System.err( 1223):    at libcore.io.ForwardingOs.getaddrinfo(ForwardingOs.java:55)
+W/System.err( 1223):    at java.net.InetAddress.lookupHostByName(InetAddress.java:411)
+W/System.err( 1223):    ... 12 more
+I/MainActivity( 1223): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.coship.com:8080
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+I/MainActivity( 1223): Connect to PortalMS-Server  Address: http://cibn-iepg.coship.com:8080
+W/System.err( 1223): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.coship.com": No address associated with hostname
+W/System.err( 1223):    at java.net.InetAddress.lookupHostByName(InetAddress.java:400)
+W/System.err( 1223):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1223):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1223):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1223):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1223):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1223):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1223):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1223):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1223):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1223):    at com.fiship.cibn.common.NetworkUtil.isConnectToServerByHttp(NetworkUtil.java:39)
+W/System.err( 1223):    at com.fiship.cibn.MainActivity$5.run(MainActivity.java:583)
+W/System.err( 1223):    at java.lang.Thread.run(Thread.java:856)
+I/MainActivity( 1223): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.coship.com:8080
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+I/MainActivity( 1223): Connect to PortalMS-Server  Address: http://cibn-iepg.coship.com:8080
+W/System.err( 1223): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.coship.com": No address associated with hostname
+W/System.err( 1223):    at java.net.InetAddress.lookupHostByName(InetAddress.java:400)
+W/System.err( 1223):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1223):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1223):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1223):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1223):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1223):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1223):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1223):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1223):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1223):    at com.fiship.cibn.common.NetworkUtil.isConnectToServerByHttp(NetworkUtil.java:39)
+W/System.err( 1223):    at com.fiship.cibn.MainActivity$5.run(MainActivity.java:583)
+W/System.err( 1223):    at java.lang.Thread.run(Thread.java:856)
+I/MainActivity( 1223): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.coship.com:8080
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+I/MainActivity( 1223): Connect to PortalMS-Server  Address: http://cibn-iepg.coship.com:8080
+W/System.err( 1223): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.coship.com": No address associated with hostname
+W/System.err( 1223):    at java.net.InetAddress.lookupHostByName(InetAddress.java:426)
+W/System.err( 1223):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1223):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1223):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1223):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1223):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1223):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1223):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1223):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1223):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1223):    at com.fiship.cibn.common.NetworkUtil.isConnectToServerByHttp(NetworkUtil.java:39)
+W/System.err( 1223):    at com.fiship.cibn.MainActivity$5.run(MainActivity.java:583)
+W/System.err( 1223):    at java.lang.Thread.run(Thread.java:856)
+W/System.err( 1223): Caused by: libcore.io.GaiException: getaddrinfo failed: EAI_NODATA (No address associated with hostname)
+W/System.err( 1223):    at libcore.io.Posix.getaddrinfo(Native Method)
+W/System.err( 1223):    at libcore.io.ForwardingOs.getaddrinfo(ForwardingOs.java:55)
+W/System.err( 1223):    at java.net.InetAddress.lookupHostByName(InetAddress.java:411)
+W/System.err( 1223):    ... 12 more
+I/MainActivity( 1223): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.coship.com:8080
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+I/MainActivity( 1223): Connect to PortalMS-Server  Address: http://cibn-iepg.coship.com:8080
+W/System.err( 1223): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.coship.com": No address associated with hostname
+W/System.err( 1223):    at java.net.InetAddress.lookupHostByName(InetAddress.java:400)
+W/System.err( 1223):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1223):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1223):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1223):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1223):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1223):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1223):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1223):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1223):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1223):    at com.fiship.cibn.common.NetworkUtil.isConnectToServerByHttp(NetworkUtil.java:39)
+W/System.err( 1223):    at com.fiship.cibn.MainActivity$5.run(MainActivity.java:583)
+W/System.err( 1223):    at java.lang.Thread.run(Thread.java:856)
+I/MainActivity( 1223): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.coship.com:8080
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+I/MainActivity( 1223): Connect to PortalMS-Server  Address: http://cibn-iepg.coship.com:8080
+W/System.err( 1223): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.coship.com": No address associated with hostname
+W/System.err( 1223):    at java.net.InetAddress.lookupHostByName(InetAddress.java:400)
+W/System.err( 1223):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1223):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1223):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1223):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1223):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1223):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1223):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1223):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1223):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1223):    at com.fiship.cibn.common.NetworkUtil.isConnectToServerByHttp(NetworkUtil.java:39)
+W/System.err( 1223):    at com.fiship.cibn.MainActivity$5.run(MainActivity.java:583)
+W/System.err( 1223):    at java.lang.Thread.run(Thread.java:856)
+I/MainActivity( 1223): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.coship.com:8080
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+I/MainActivity( 1223): Connect to PortalMS-Server  Address: http://cibn-iepg.coship.com:8080
+W/System.err( 1223): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.coship.com": No address associated with hostname
+W/System.err( 1223):    at java.net.InetAddress.lookupHostByName(InetAddress.java:426)
+W/System.err( 1223):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1223):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1223):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1223):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1223):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1223):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1223):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1223):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1223):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1223):    at com.fiship.cibn.common.NetworkUtil.isConnectToServerByHttp(NetworkUtil.java:39)
+W/System.err( 1223):    at com.fiship.cibn.MainActivity$5.run(MainActivity.java:583)
+W/System.err( 1223):    at java.lang.Thread.run(Thread.java:856)
+W/System.err( 1223): Caused by: libcore.io.GaiException: getaddrinfo failed: EAI_NODATA (No address associated with hostname)
+W/System.err( 1223):    at libcore.io.Posix.getaddrinfo(Native Method)
+W/System.err( 1223):    at libcore.io.ForwardingOs.getaddrinfo(ForwardingOs.java:55)
+W/System.err( 1223):    at java.net.InetAddress.lookupHostByName(InetAddress.java:411)
+W/System.err( 1223):    ... 12 more
+I/MainActivity( 1223): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.coship.com:8080
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+
+[ 7722.591817] IR: [03932] scan key value is 0xeb148000 
+[ 7722.591822]  
+[ 7722.651720] IR: [03932] scan key value is 0xeb148000 
+[ 7722.651725]  D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+
+[ 7722.924524] IR: [03932] scan key value is 0xeb148000 
+[ 7722.924529]  
+[ 7722.984397] IR: [03932] scan key value is 0xeb148000 
+[ 7722.984402]  
+[ 7723.257253] IR: [03932] scan key value is 0xeb148000 
+[ 7723.257257]  
+[ 7723.317124] IR: [03932] scan key value is 0xeb148000 
+[ 7723.317128]  
+[ 7723.565344] IR: [03932] scan key value is 0xeb148000 
+[ 7723.565349]  
+[ 7723.625216] IR: [03932] scan key value is 0xeb148000 
+[ 7723.625220]  D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+
+[ 7724.213665] IR: [03932] scan key value is 0xed128000 
+[ 7724.213670]  
+[ 7724.273490] IR: [03932] scan key value is 0xed128000 
+[ 7724.273494]  
+[ 7724.666005] IR: [03932] scan key value is 0xed128000 
+[ 7724.666010]  
+[ 7724.725834] IR: [03932] scan key value is 0xed128000 
+[ 7724.725838]  D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+I/MainActivity( 1223): Connect to PortalMS-Server  Address: http://cibn-iepg.coship.com:8080
+W/System.err( 1223): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.coship.com": No address associated with hostname
+W/System.err( 1223):    at java.net.InetAddress.lookupHostByName(InetAddress.java:400)
+W/System.err( 1223):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1223):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1223):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1223):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1223):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1223):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1223):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1223):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1223):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1223):    at com.fiship.cibn.common.NetworkUtil.isConnectToServerByHttp(NetworkUtil.java:39)
+W/System.err( 1223):    at com.fiship.cibn.MainActivity$5.run(MainActivity.java:583)
+W/System.err( 1223):    at java.lang.Thread.run(Thread.java:856)
+I/MainActivity( 1223): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.coship.com:8080
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1287): Current Remote Host is null, continue, counter=0
+^C

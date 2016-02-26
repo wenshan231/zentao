@@ -1,0 +1,1626 @@
+shell@android:/ # logcat
+--------- beginning of /dev/log/system
+I/Vold    (  738): Vold 2.1 (the revenge) firing up
+E/Vold    (  738): Error reading configuration (No such file or directory)... continuing anyways
+D/Vold    (  738): can not get the uuid of /dev/block/vold/8:0 when device add
+D/Vold    (  738): can not get the uuid of /dev/block/vold/8:0 when device remove
+I/SystemServer( 1067): Entered the Android system server!
+I/SystemServer( 1067): Entropy Service
+W/EntropyService( 1067): unable to load initial entropy (first boot?)
+W/EntropyService( 1067): java.io.FileNotFoundException: /data/system/entropy.dat: open failed: ENOENT (No such file or directory)
+W/EntropyService( 1067):        at libcore.io.IoBridge.open(IoBridge.java:406)
+W/EntropyService( 1067):        at java.io.FileInputStream.<init>(FileInputStream.java:78)
+W/EntropyService( 1067):        at java.io.FileInputStream.<init>(FileInputStream.java:105)
+W/EntropyService( 1067):        at com.android.server.RandomBlock.fromFile(RandomBlock.java:45)
+W/EntropyService( 1067):        at com.android.server.EntropyService.loadInitialEntropy(EntropyService.java:99)
+W/EntropyService( 1067):        at com.android.server.EntropyService.<init>(EntropyService.java:86)
+W/EntropyService( 1067):        at com.android.server.EntropyService.<init>(EntropyService.java:76)
+W/EntropyService( 1067):        at com.android.server.ServerThread.run(SystemServer.java:141)
+W/EntropyService( 1067): Caused by: libcore.io.ErrnoException: open failed: ENOENT (No such file or directory)
+W/EntropyService( 1067):        at libcore.io.Posix.open(Native Method)
+W/EntropyService( 1067):        at libcore.io.BlockGuardOs.open(BlockGuardOs.java:110)
+W/EntropyService( 1067):        at libcore.io.IoBridge.open(IoBridge.java:390)
+W/EntropyService( 1067):        ... 7 more
+I/SystemServer( 1067): Power Manager
+I/SystemServer( 1067): Activity Manager
+I/ActivityManager( 1067): Memory class: 64
+I/SystemServer( 1067): Telephony Registry
+I/ActivityManager( 1067): Enabled StrictMode logging for AThread's Looper
+I/SystemServer( 1067): Package Manager
+I/PackageManager( 1067): No settings file; creating initial state
+W/PackageManager( 1067): Running ENG build: no pre-dexopt!
+I/Installer( 1067): connecting...
+W/PackageManager( 1067): Library not found: /system/framework/com.android.future.usb.accessory.jar
+W/PackageParser( 1067): No actions in intent filter at /system/app/Bluetooth.apk Binary XML file line #125
+I/PackageParser( 1067): com.coship.HS: compat added android.permission.WRITE_EXTERNAL_STORAGE android.permission.READ_PHONE_STATE
+W/PackageParser( 1067): No actions in intent filter at /system/app/Contacts.apk Binary XML file line #525
+I/PackageParser( 1067): com.coship.cw880: compat added android.permission.WRITE_EXTERNAL_STORAGE android.permission.READ_PHONE_STATE
+W/PackageParser( 1067): Problem in package /system/app/STB-Settings.apk:
+W/PackageParser( 1067): Unknown element under <activity>: data at /system/app/STB-Settings.apk Binary XML file line #145
+W/PackageParser( 1067): Problem in package /system/app/STB-Settings.apk:
+W/PackageParser( 1067): Unknown element under <activity>: action at /system/app/STB-Settings.apk Binary XML file line #231
+W/PackageParser( 1067): Problem in package /system/app/STB-Settings.apk:
+W/PackageParser( 1067): Unknown element under <activity>: action at /system/app/STB-Settings.apk Binary XML file line #232
+W/PackageParser( 1067): Problem in package /system/app/STB-Settings.apk:
+W/PackageParser( 1067): Unknown element under <activity>: action at /system/app/STB-Settings.apk Binary XML file line #289
+W/PackageParser( 1067): Problem in package /system/app/STB-Settings.apk:
+W/PackageParser( 1067): Unknown element under <activity>: action at /system/app/STB-Settings.apk Binary XML file line #393
+W/PackageParser( 1067): Problem in package /system/app/STB-Settings.apk:
+W/PackageParser( 1067): Unknown element under <activity>: action at /system/app/STB-Settings.apk Binary XML file line #394
+I/PackageParser( 1067): com.iflytek.vaf.TouchKey: compat added android.permission.WRITE_EXTERNAL_STORAGE android.permission.READ_PHONE_STATE
+W/PackageParser( 1067): No actions in intent filter at /system/app/com.coship.Multimedia.apk Binary XML file line #97
+W/PackageParser( 1067): No actions in intent filter at /system/app/com.coship.Multimedia.apk Binary XML file line #104
+I/PackageParser( 1067): com.coship.Multimedia: compat added android.permission.READ_PHONE_STATE
+W/PackageParser( 1067): No actions in intent filter at /system/app/com.coship.NetworkNavigation.apk Binary XML file line #24
+W/PackageParser( 1067): No actions in intent filter at /system/app/com.coship.NetworkNavigation.apk Binary XML file line #31
+W/PackageParser( 1067): No actions in intent filter at /system/app/com.coship.NetworkNavigation.apk Binary XML file line #38
+W/PackageParser( 1067): No actions in intent filter at /system/app/com.coship.NetworkNavigation.apk Binary XML file line #45
+W/PackageParser( 1067): No actions in intent filter at /system/app/com.coship.NetworkNavigation.apk Binary XML file line #52
+W/PackageParser( 1067): No actions in intent filter at /system/app/com.coship.app.vaf.apk Binary XML file line #58
+I/PackageParser( 1067): com.coship.dvbplayer: compat added android.permission.READ_PHONE_STATE
+W/PackageParser( 1067): No actions in intent filter at /system/app/com.coship.dvbsetting.apk Binary XML file line #103
+W/PackageParser( 1067): No actions in intent filter at /system/app/com.coship.dvbsetting.apk Binary XML file line #111
+W/PackageParser( 1067): No actions in intent filter at /system/app/com.coship.dvbsetting.apk Binary XML file line #119
+W/PackageParser( 1067): No actions in intent filter at /system/app/com.coship.dvbsetting.apk Binary XML file line #127
+W/PackageParser( 1067): No actions in intent filter at /system/app/com.coship.dvbsetting.apk Binary XML file line #135
+W/PackageParser( 1067): No actions in intent filter at /system/app/com.coship.dvbsetting.apk Binary XML file line #141
+W/PackageParser( 1067): No actions in intent filter at /system/app/com.coship.dvbsetting.apk Binary XML file line #155
+W/PackageParser( 1067): No actions in intent filter at /system/app/com.coship.dvbsetting.apk Binary XML file line #163
+W/PackageParser( 1067): No actions in intent filter at /system/app/com.coship.dvbsetting.apk Binary XML file line #172
+W/PackageParser( 1067): No actions in intent filter at /system/app/com.coship.dvbsetting.apk Binary XML file line #180
+W/PackageParser( 1067): No actions in intent filter at /system/app/com.coship.dvbsetting.apk Binary XML file line #187
+W/PackageParser( 1067): No actions in intent filter at /system/app/com.coship.dvbsetting.apk Binary XML file line #195
+W/PackageParser( 1067): No actions in intent filter at /system/app/com.coship.dvbsetting.apk Binary XML file line #202
+W/PackageParser( 1067): No actions in intent filter at /system/app/com.coship.dvbsetting.apk Binary XML file line #210
+W/PackageParser( 1067): No actions in intent filter at /system/app/com.coship.dvbsetting.apk Binary XML file line #217
+W/PackageParser( 1067): No actions in intent filter at /system/app/com.coship.dvbsetting.apk Binary XML file line #223
+W/PackageParser( 1067): No actions in intent filter at /system/app/com.coship.dvbsetting.apk Binary XML file line #230
+W/PackageParser( 1067): No actions in intent filter at /system/app/com.coship.dvbsetting.apk Binary XML file line #236
+I/PackageParser( 1067): com.coship.dvbsetting: compat added android.permission.READ_PHONE_STATE
+W/PackageManager( 1067): Unable to update from com.android.settings to com.coship.dvbsetting: old package still exists
+I/PackageManager( 1067): Time to scan packages: 7.708 seconds
+I/PackageManager( 1067): Platform changed from 0 to 15; regranting permissions for internal storage
+W/PackageManager( 1067): Unknown permission android.permission.APPWIDGET_LIST in package com.iflytek.vaf
+W/PackageManager( 1067): Unknown permission android.permission.APPWIDGET_LIST in package com.biaoqi.stbwidget.host
+W/PackageManager( 1067): Unknown permission com.android.launcher.permission.READ_SETTINGS in package com.coship.dvbsetting
+W/PackageManager( 1067): Unknown permission com.android.launcher.permission.WRITE_SETTINGS in package com.coship.dvbsetting
+W/PackageManager( 1067): Unknown permission android.permission.APPWIDGET_LIST in package com.mstar.appwidget
+W/PackageManager( 1067): Unknown permission android.permission.ADD_SYSTEM_SERVICE in package com.coship.sdp.sce.tvappstore
+W/PackageManager( 1067): Unknown permission android.permission.READ_EXTERNAL_STORAGE in package com.coship.sdp.sce.tvappstore
+W/PackageManager( 1067): Unknown permission com.google.android.gm.permission.WRITE_GMAIL in package com.coship.sdp.sce.tvappstore
+W/PackageManager( 1067): Unknown permission com.google.android.gm.permission.READ_GMAIL in package com.coship.sdp.sce.tvappstore
+W/PackageManager( 1067): Unknown permission com.android.launcher.permission.INSTALL_SHORTCUT in package com.android.browser
+W/PackageManager( 1067): Unknown permission com.google.android.gm.permission.WRITE_GMAIL in package com.coship.app.vaf
+W/PackageManager( 1067): Unknown permission com.google.android.gm.permission.READ_GMAIL in package com.coship.app.vaf
+W/PackageManager( 1067): Unknown permission com.android.launcher.permission.READ_SETTINGS in package com.coship.app.vaf
+W/PackageManager( 1067): Unknown permission com.android.launcher.permission.WRITE_SETTINGS in package com.coship.app.vaf
+W/PackageManager( 1067): Unknown permission com.google.android.gm.permission.WRITE_GMAIL in package com.coship.TestApp
+W/PackageManager( 1067): Unknown permission com.google.android.gm.permission.READ_GMAIL in package com.coship.TestApp
+W/PackageManager( 1067): Unknown permission com.android.launcher.permission.READ_SETTINGS in package com.coship.TestApp
+W/PackageManager( 1067): Unknown permission com.android.launcher.permission.WRITE_SETTINGS in package com.coship.TestApp
+W/PackageManager( 1067): Unknown permission android.permission.WRITE_OWNER_DATA in package com.iflytek.speech
+W/PackageManager( 1067): Unknown permission android.permission.BAIDU_LOCATION_SERVICE in package com.iflytek.speech
+W/PackageManager( 1067): Unknown permission android.permission.WRITE_OWNER_DATA in package com.coship.UpdateApp
+W/PackageManager( 1067): Unknown permission android.permission.READ_OWNER_DATA in package com.coship.UpdateApp
+W/PackageManager( 1067): Unknown permission android.permission.APPWIDGET_LIST in package com.iflytek.xiri.recorder.svc
+W/PackageManager( 1067): Unknown permission android.permission.ADD_SYSTEM_SERVICE in package com.coship.netfirmware
+W/PackageManager( 1067): Unknown permission android.permission.READ_SETTINGS in package com.android.settings
+W/PackageManager( 1067): Unknown permission com.android.launcher.permission.READ_SETTINGS in package com.android.settings
+W/PackageManager( 1067): Unknown permission com.android.launcher.permission.WRITE_SETTINGS in package com.android.settings
+W/PackageManager( 1067): Unknown permission android.permission.WRITE_OWNER_DATA in package com.coship.Multimedia
+W/PackageManager( 1067): Unknown permission android.permission.READ_OWNER_DATA in package com.coship.Multimedia
+W/PackageManager( 1067): Unknown permission android.permission.WRITE_OWNER_DATA in package com.coship.NetworkNavigation
+W/PackageManager( 1067): Unknown permission android.permission.READ_OWNER_DATA in package com.coship.NetworkNavigation
+I/SystemServer( 1067): Account Manager
+I/SystemServer( 1067): Content Manager
+I/SystemServer( 1067): System Content Providers
+I/SystemServer( 1067): Lights Service
+I/SystemServer( 1067): Battery Service
+I/SystemServer( 1067): Pppoe Service
+I/SystemServer( 1067): Vibrator Service
+I/SystemServer( 1067): Alarm Manager
+I/SystemServer( 1067): Init Watchdog
+I/SystemServer( 1067): Window Manager
+I/InputManager( 1067): Initializing input manager
+W/StatusBarManager( 1067): warning: no STATUS_BAR_SERVICE
+I/InputManager( 1067): Starting input manager
+I/WindowManager( 1067): Enabled StrictMode for PolicyThread's Looper
+I/WindowManager( 1067): Enabled StrictMode logging for WMThread's Looper
+I/SystemServer( 1067): Bluetooth Service
+I/SystemServer( 1067): Input Method Service
+I/InputManagerService( 1067): Selected default: com.coship.easycontrolime/.EasyControlIME
+I/SystemServer( 1067): Accessibility Manager
+I/ActivityManager( 1067): Config changed: {1.0 0mcc0mnc zh_CN layoutdir=0 sw720dp w1280dp h720dp xlrg long land ?uimode ?night -touch -keyb/v/h -nav/h s.2}
+I/SystemServer( 1067): TV
+I/SystemServer( 1067): Device Policy
+I/SystemServer( 1067): Status Bar
+I/SystemServer( 1067): Clipboard Service
+I/SystemServer( 1067): NetworkManagement Service
+I/SystemServer( 1067): Text Service Manager Service
+W/TextServicesManagerService( 1067): no available spell checker services found
+I/SystemServer( 1067): NetworkStats Service
+I/SystemServer( 1067): NetworkPolicy Service
+I/SystemServer( 1067): Wi-Fi P2pService
+D/WifiP2pService( 1067): P2pDisabledState
+E/WifiP2pService( 1067): Failed to reload sta firmware java.lang.NullPointerException
+I/SystemServer( 1067): Wi-Fi Service
+D/WifiP2pService( 1067): P2pDisabledState{ what=69633 when=0 }
+D/WifiP2pService( 1067): DefaultState{ what=69633 when=-1ms }
+D/WifiP2pService( 1067): P2pDisabledState{ what=69632 when=0 obj=com.android.internal.util.AsyncChannel@41703118 }
+D/WifiP2pService( 1067): DefaultState{ what=69632 when=0 obj=com.android.internal.util.AsyncChannel@41703118 }
+D/WifiP2pService( 1067): Full connection with WifiStateMachine established
+D/WifiP2pService( 1067): P2pDisabledState{ what=69633 when=0 }
+D/WifiP2pService( 1067): DefaultState{ what=69633 when=0 }
+D/WifiP2pService( 1067): P2pDisabledState{ what=69632 when=0 obj=com.android.internal.util.AsyncChannel@41547cd0 }
+D/WifiP2pService( 1067): DefaultState{ what=69632 when=0 obj=com.android.internal.util.AsyncChannel@41547cd0 }
+D/WifiP2pService( 1067): Full connection with WifiStateMachine established
+I/SystemServer( 1067): Connectivity Service
+D/ConnectivityService( 1067): ConnectivityService starting up
+E/ConnectivityService( 1067): Error in radioAttributes - ignoring attempt to redefine type 1
+D/ConnectivityService( 1067): Starting Pppoe StateTracker
+D/ConnectivityService( 1067): Starting Ethernet Service.
+V/EthernetStateTracker( 1067): Ethernet State Tracker v1.0.6
+V/EthernetStateTracker( 1067): successed to init device!
+I/EthernetService( 1067): Ethernet dev enabled 0
+V/EthernetService( 1067): device 0 name eth0
+V/EthernetMonitor( 1067): go poll events
+V/EthernetStateTracker( 1067): start to monitor the ethernet devices . . .
+I/EthernetManager( 1067): Init Ethernet Manager, service: com.android.server.EthernetService@416136b0
+V/EthernetService( 1067): device 0 name eth0
+I/EthernetStateTracker( 1067): reset device eth0
+I/EthernetStateTracker( 1067): trigger dhcp for device eth0
+D/EthernetStateTracker( 1067): DhcpHandler: DHCP request started
+E/MobileDataStateTracker( 1067): default: Ignoring feature request because could not acquire PhoneService
+E/MobileDataStateTracker( 1067): default: Could not enable APN type "default"
+D/NetworkManagementService( 1067): Registering observer
+D/NetworkManagementService( 1067): Registering observer
+I/WifiService( 1067): WifiService starting up with Wi-Fi disabled
+I/WifiService( 1067): WifiService starting up with Wi-Fi AP disabled
+I/SystemServer( 1067): Throttle Service
+I/SystemServer( 1067): Mount Service
+D/MountService( 1067): got storage path: /mnt/sdcard description: USB 存储器 primary: true removable: false emulated: false mtpReserve: 0 allowMassStorage: false maxFileSize: 0
+D/MountService( 1067): mExternalStoragePath:/mnt/sdcard
+I/SystemServer( 1067): Notification Manager
+D/VoldCmdListener(  738): volume list
+I/SystemServer( 1067): Device Storage Monitor
+I/SystemServer( 1067): Location Manager
+I/SystemServer( 1067): Country Detector
+I/SystemServer( 1067): Search Service
+I/SystemServer( 1067): DropBox Service
+I/SystemServer( 1067): Wallpaper Service
+W/WallpaperService( 1067): failed parsing /data/system/wallpaper_info.xml java.io.FileNotFoundException: /data/system/wallpaper_info.xml: open failed: ENOENT (No such file or directory)
+I/SystemServer( 1067): Audio Service
+I/SystemServer( 1067): Camera Observer
+I/SystemServer( 1067): Microphone Observer
+I/SystemServer( 1067): Wired Accessory Observer
+I/SystemServer( 1067): USB Service
+I/SystemServer( 1067): UI Mode Manager Service
+I/SystemServer( 1067): Backup Service
+V/BackupManagerService( 1067): Initializing package tracking
+V/BackupManagerService( 1067): No ancestral data
+V/BackupManagerService( 1067): addPackageParticipantsLocked: all
+I/BackupManagerService( 1067): New app android never backed up; scheduling
+I/BackupManagerService( 1067): New app com.android.browser never backed up; scheduling
+I/BackupManagerService( 1067): New app com.android.providers.settings never backed up; scheduling
+I/BackupManagerService( 1067): New app com.android.providers.userdictionary never backed up; scheduling
+I/BackupManagerService( 1067): New app com.android.sharedstoragebackup never backed up; scheduling
+V/BackupManagerService( 1067): Registering transport android/com.android.internal.backup.LocalTransport = com.android.internal.backup.LocalTransport@41772bc8
+V/BackupManagerService( 1067): Starting with transport android/com.android.internal.backup.LocalTransport
+V/BackupManagerService( 1067): Google transport not present
+I/BackupManagerService( 1067): Backup enabled => false
+I/BackupManagerService( 1067): Opting out of backup
+I/SystemServer( 1067): AppWidget Service
+I/SystemServer( 1067): Recognition Service
+I/SystemServer( 1067): DiskStats Service
+I/SystemServer( 1067): SamplingProfiler Service
+I/SystemServer( 1067): NetworkTimeUpdateService
+D/PowerManagerService( 1067): system ready!
+I/ActivityManager( 1067): Sending system update to: ComponentInfo{com.android.providers.calendar/com.android.providers.calendar.CalendarUpgradeReceiver}
+I/ActivityManager( 1067): Sending system update to: ComponentInfo{com.android.providers.contacts/com.android.providers.contacts.ContactsUpgradeReceiver}
+I/ActivityManager( 1067): Sending system update to: ComponentInfo{com.google.android.gsf/com.google.android.gsf.loginservice.MigrateToAccountManagerBroadcastReceiver}
+I/ActivityManager( 1067): Sending system update to: ComponentInfo{com.android.providers.media/com.android.providers.media.MediaUpgradeReceiver}
+I/SystemServer( 1067): Enabled StrictMode for system server main thread.
+I/EthernetStateTracker( 1067): received interface reset event
+I/EthernetStateTracker( 1067): reset device eth0
+I/ActivityManager( 1067): Start proc com.android.providers.calendar for broadcast com.android.providers.calendar/.CalendarUpgradeReceiver: pid=1153 uid=10007 gids={3003, 1015}
+I/ActivityManager( 1067): Launching preboot mode app: ProcessRecord{41605158 1153:com.android.providers.calendar/10007}
+I/EthernetStateTracker( 1067): trigger dhcp for device eth0
+I/ActivityManager( 1067): Start proc android.process.acore for broadcast com.android.providers.contacts/.ContactsUpgradeReceiver: pid=1168 uid=10001 gids={3003, 1015}
+I/ActivityManager( 1067): Launching preboot mode app: ProcessRecord{415a7600 1168:android.process.acore/10001}
+I/ActivityManager( 1067): Start proc com.google.process.gapps for broadcast com.google.android.gsf/.loginservice.MigrateToAccountManagerBroadcastReceiver: pid=1184 uid=10013 gids={3003, 1015, 2001, 1007}
+I/ActivityManager( 1067): Launching preboot mode app: ProcessRecord{41780428 1184:com.google.process.gapps/10013}
+I/ActivityManager( 1067): Start proc android.process.media for broadcast com.android.providers.media/.MediaUpgradeReceiver: pid=1198 uid=10011 gids={1015, 1023, 1024, 2001, 3003, 3007}
+I/ActivityManager( 1067): Launching preboot mode app: ProcessRecord{41780940 1198:android.process.media/10011}
+I/ActivityManager( 1067): Writing new set of last done pre-boot receivers...
+I/ActivityManager( 1067): Removing system update proc: ProcessRecord{41605158 1153:com.android.providers.calendar/10007}
+I/ActivityManager( 1067): Killing proc 1153:com.android.providers.calendar/10007: system update done
+I/ActivityManager( 1067): Removing system update proc: ProcessRecord{415a7600 1168:android.process.acore/10001}
+I/ActivityManager( 1067): Killing proc 1168:android.process.acore/10001: system update done
+I/ActivityManager( 1067): Removing system update proc: ProcessRecord{41780428 1184:com.google.process.gapps/10013}
+I/ActivityManager( 1067): Killing proc 1184:com.google.process.gapps/10013: system update done
+I/ActivityManager( 1067): Removing system update proc: ProcessRecord{41780940 1198:android.process.media/10011}
+I/ActivityManager( 1067): Killing proc 1198:android.process.media/10011: system update done
+I/ActivityManager( 1067): System now ready
+I/SystemServer( 1067): Making services ready
+I/ActivityManager( 1067): Start proc com.mstar.dbprovider for content provider com.mstar.dbprovider/.MstTvUserSettingProvider: pid=1215 uid=10018 gids={}
+D/SystemServer( 1067): Starting service: Intent { cmp=com.android.systemui/.SystemUIService }
+I/ActivityManager( 1067): Start proc com.android.systemui for service com.android.systemui/.SystemUIService: pid=1233 uid=1000 gids={3003, 1015, 3002, 3001, 3004}
+D/NetworkManagementService( 1067): enabling bandwidth control
+D/NetworkManagementService( 1067): Registering observer
+D/NetworkManagementService( 1067): Registering observer
+I/ActivityManager( 1067): Config changed: {1.0 0mcc0mnc zh_CN layoutdir=0 sw720dp w1280dp h720dp xlrg long land -touch -keyb/v/h -nav/h s.3}
+W/RecognitionManagerService( 1067): no available voice recognition services found
+W/AppWidgetService( 1067): Failed to read state: java.io.FileNotFoundException: /data/system/appwidgets.xml: open failed: ENOENT (No such file or directory)
+W/InputManagerService( 1067): Ignoring setImeWindowStatus of uid 1000 token: null
+I/ActivityManager( 1067): Start proc com.coship.easycontrolime for service com.coship.easycontrolime/.EasyControlIME: pid=1288 uid=10012 gids={3003}
+D/NetworkManagementService( 1067): Registering observer
+E/ThrottleService( 1067): Error reading data file
+I/SystemServer( 1067): SIP Service
+D/SystemUIService( 1233): loading: class com.android.systemui.statusbar.tablet.TabletStatusBar
+D/SystemUIService( 1233): running: com.android.systemui.statusbar.tablet.TabletStatusBar@413b0880
+W/ThrottleService( 1067): unable to find stats for iface rmnet0
+I/ActivityManager( 1067): Start proc com.fiship.cibn for added application com.fiship.cibn: pid=1324 uid=10006 gids={3003, 1015}
+I/ActivityManager( 1067): Start proc com.coship.sdp.sce.tvappstore for added application com.coship.sdp.sce.tvappstore: pid=1335 uid=1000 gids={3003, 1015, 3002, 3001, 3004}
+I/ActivityManager( 1067): Start proc com.coship.netfirmware for added application com.coship.netfirmware: pid=1346 uid=1000 gids={3003, 1015, 3002, 3001, 3004}
+I/ActivityManager( 1067): Start proc com.iflytek.vaf.TouchKey for added application com.iflytek.vaf.TouchKey: pid=1359 uid=10031 gids={1015}
+D/ActivityManager( 1067): propValue:1
+D/ActivityManager( 1067): start startWizard......
+I/ActivityManager( 1067): START {act=android.intent.action.startwizard cat=[android.intent.category.DEFAULT] flg=0x10000000 cmp=com.coship.BootWizard/.main} from pid 0
+I/ActivityManager( 1067): Start proc com.coship.BootWizard for activity com.coship.BootWizard/.main: pid=1368 uid=1000 gids={3003, 1015, 3002, 3001, 3004}
+W/ThrottleService( 1067): unable to find stats for iface rmnet0
+W/MountService( 1067): getVolumeState(/mnt/sdcard): Unknown volume
+W/MountService( 1067): getVolumeState(/mnt/sdcard): Unknown volume
+I/StatusBar.HeightReceiver( 1233): Resizing status bar plugged=false height=48 old=0
+I/ActivityManager( 1067): Start proc com.google.process.gapps for service com.google.android.location/.NetworkLocationService: pid=1419 uid=10013 gids={3003, 1015, 2001, 1007}
+W/ActivityThread( 1419): ClassLoader.loadClass: The class loader returned by Thread.getContextClassLoader() may fail for processes that host multiple applications. You should explicitly specify a context class loader. For example: Thread.setContextClassLoader(getClass().getClassLoader());
+I/StatusBarManagerService( 1067): registerStatusBar bar=com.android.internal.statusbar.IStatusBar$Stub$Proxy@4158ae08
+D/SystemUIService( 1233): loading: class com.android.systemui.power.PowerUI
+D/SystemUIService( 1233): running: com.android.systemui.power.PowerUI@41634ef8
+I/StatusBar.HeightReceiver( 1233): Resizing status bar plugged=false height=48 old=48
+I/StatusBar.HeightReceiver( 1233): Resizing status bar plugged=false height=48 old=48
+D/WifiService( 1067): New client listening to asynchronous messages
+I/ActivityManager( 1067): Start proc com.android.inputmethod.pinyin for service com.android.inputmethod.pinyin/.PinyinIME: pid=1451 uid=10021 gids={3003}
+D/PowerManagerService( 1067): bootCompleted
+V/DevicePolicyManagerService( 1067): Sending password expiration notifications for action android.intent.action.BOOT_COMPLETED
+I/ActivityManager( 1067): Start proc com.android.contacts for broadcast com.android.contacts/.calllog.CallLogReceiver: pid=1466 uid=10001 gids={3003, 1015}
+V/WiredAccessoryObserver( 1067): init()
+W/WiredAccessoryObserver( 1067): This kernel does not have wired headset support
+W/WiredAccessoryObserver( 1067): This kernel does not have wired headset support
+W/WiredAccessoryObserver( 1067): This kernel does not have wired headset support
+V/EthernetMonitor( 1067): get event eth0:16:
+V/EthernetMonitor( 1067): dev: eth0 ev 16
+V/EthernetStateTracker( 1067): report interface is up for eth0
+V/EthernetMonitor( 1067): go poll events
+I/MicrophoneObserver( 1067): Microphone PLUG_IN
+I/EthernetStateTracker( 1067): received interface up event, kick off connection request
+I/EthernetStateTracker( 1067): IntentBroadcast, event=5
+I/EthernetStateTracker( 1067): reset device eth0
+I/EthernetStateTracker( 1067): trigger dhcp for device eth0
+I/ActivityManager( 1067): Start proc com.fiship.media for broadcast com.fiship.media/com.fiship.otoService.BootReceiver: pid=1564 uid=10000 gids={3003, 1015}
+E/EthernetStateTracker( 1067): DhcpHandler: DHCP request failed: DHCP result was failed
+D/EthernetStateTracker( 1067): DhcpHandler: DHCP request started
+I/EthernetStateTracker( 1067): configureInterfaceAutoIP : ipaddr 169.254.1.7 gateway 0.0.0.0 netmask 255.255.0.0 dns1 0.0.0.0 dns2 0.0.0.0 DHCP server 0.0.0.0 lease 0 seconds
+V/EthernetMonitor( 1067): get event eth0:20:
+V/EthernetMonitor( 1067): dev: eth0 ev 20
+I/EthernetStateTracker( 1067): report new state CONNECTED on dev eth0
+V/EthernetStateTracker( 1067): update network state tracker
+V/EthernetStateTracker( 1067): configureInterfaceAutoIP succeeded
+V/EthernetMonitor( 1067): go poll events
+I/EthernetStateTracker( 1067): received HW connected, stack=false CC=true
+I/ActivityManager( 1067): Start proc android.process.media for content provider com.android.providers.downloads/.DownloadProvider: pid=1590 uid=10011 gids={1015, 1023, 1024, 2001, 3003, 3007}
+I/ActivityManager( 1067): Start proc android.process.acore for content provider com.android.providers.contacts/.CallLogProvider: pid=1607 uid=10001 gids={3003, 1015}
+W/MountService( 1067): getVolumeState(/mnt/sdcard): Unknown volume
+I/EthernetManager( 1368): Init Ethernet Manager, service: android.net.ethernet.IEthernetManager$Stub$Proxy@42479010
+W/MountService( 1067): getVolumeState(/mnt/sdcard): Unknown volume
+I/EthernetStateTracker( 1067): received interface reset event
+I/EthernetStateTracker( 1067): reset device eth0
+I/EthernetStateTracker( 1067): trigger dhcp for device eth0
+I/EthernetStateTracker( 1067): received interface reset event
+I/EthernetStateTracker( 1067): reset device eth0
+I/ActivityManager( 1067): Start proc com.aidufei.cibn.uploadchecker for broadcast com.aidufei.cibn.uploadchecker/.receiver.BootedReceiver: pid=1654 uid=10002 gids={3003}
+I/EthernetStateTracker( 1067): trigger dhcp for device eth0
+E/EthernetStateTracker( 1067): DhcpHandler: DHCP request failed: DHCP result was failed
+D/EthernetStateTracker( 1067): DhcpHandler: DHCP request started
+V/EthernetStateTracker( 1067): getEthernetIPAddr : 169.254.1.7
+V/EthernetStateTracker( 1067): configureInterfaceAutoIP skip!!
+I/ActivityManager( 1067): Start proc com.coship.HS for broadcast com.coship.HS/.AutoStartReceiver: pid=1683 uid=1000 gids={3003, 1015, 3002, 3001, 3004}
+E/ActivityThread( 1654): Failed to find provider info for com.coship.cibn.auth
+I/ActivityManager( 1067): Start proc com.android.providers.calendar for broadcast com.android.providers.calendar/.CalendarReceiver: pid=1698 uid=10007 gids={3003, 1015}
+I/ActivityManager( 1067): Start proc com.coship.cw880 for broadcast com.coship.cw880/.BootCw880Recive: pid=1726 uid=1000 gids={3003, 1015, 3002, 3001, 3004}
+I/ActivityManager( 1067): START {flg=0x10000000 cmp=com.google.android.gsf/.update.SystemUpdateInstallDialog} from pid 1419
+I/ActivityManager( 1067): Start proc com.android.settings for broadcast com.android.settings/.SettingGlobalReceiver: pid=1759 uid=1000 gids={3003, 1015, 3002, 3001, 3004}
+W/InputManagerService( 1067): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4155b350
+I/ActivityManager( 1067): Start proc com.iflytek.vac for broadcast com.iflytek.vaf/com.iflytek.vocmd.Loader: pid=1774 uid=10029 gids={3003, 1015}
+V/EthernetMonitor( 1067): get event eth0:21:
+V/EthernetMonitor( 1067): dev: eth0 ev 21
+V/EthernetStateTracker( 1067): report address is removed for eth0
+V/EthernetMonitor( 1067): go poll events
+V/EthernetMonitor( 1067): get event eth0:20:
+V/EthernetMonitor( 1067): dev: eth0 ev 20
+I/EthernetStateTracker( 1067): report new state CONNECTED on dev eth0
+V/EthernetStateTracker( 1067): update network state tracker
+V/EthernetMonitor( 1067): go poll events
+I/EthernetStateTracker( 1067): received interface address remove event
+V/EthernetStateTracker( 1067): getEthernetIPAddr : 192.168.2.4
+V/EthernetStateTracker( 1067): configureInterfaceAutoIP skip!!
+I/EthernetStateTracker( 1067): received HW connected, stack=false CC=true
+D/EthernetStateTracker( 1067): DhcpHandler: DHCP request succeeded: addr: 192.168.2.4/24 mRoutes: 0.0.0.0/0 -> 192.168.2.1 |  dns: 192.168.2.1,192.168.99.5 dhcpServer: 192.168.2.1 leaseDuration: 3600
+I/EthernetStateTracker( 1067): received configured succeeded, stack=true CC=true
+D/ConnectivityService( 1067): ConnectivityChange for ETH: CONNECTED/CONNECTED
+I/EthernetStateTracker( 1067): IntentBroadcast, event=1
+I/ActivityManager( 1067): Start proc com.coship.changetheaudiooutput for broadcast com.coship.changetheaudiooutput/.BootCompletedReceiver: pid=1812 uid=10033 gids={3002, 3001, 3004}
+I/ActivityManager( 1067): Start proc com.iflytek.vaf.svc.rec for service com.iflytek.vaf/.svc.VAFSvc: pid=1827 uid=10029 gids={3003, 1015}
+D/WifiP2pService( 1067): P2pDisabledState{ what=331907 when=0 }
+V/EthernetMonitor( 1067): get event 
+V/EthernetMonitor( 1067): go poll events
+I/NetworkPolicy( 1067): no policy for active mobile network; generating default policy
+V/EthernetMonitor( 1067): get event 
+V/EthernetMonitor( 1067): go poll events
+V/EthernetMonitor( 1067): get event 
+V/EthernetMonitor( 1067): go poll events
+V/EthernetMonitor( 1067): get event 
+V/EthernetMonitor( 1067): go poll events
+I/ActivityManager( 1067): Start proc com.coship.Multimedia for broadcast com.coship.Multimedia/.view.BootCompletedReceiver: pid=1859 uid=1000 gids={3003, 1015, 3002, 3001, 3004}
+D/NetworkManagementService( 1067): rsp <213 a4:a8:20:13:03:6e 0.0.0.0 0 [up broadcast running multicast]>
+D/NetworkManagementService( 1067): flags <[up broadcast running multicast]>
+V/EthernetMonitor( 1067): get event 
+V/EthernetMonitor( 1067): go poll events
+I/ActivityManager( 1067): Start proc com.iflytek.xiri.recorder.svc for service com.iflytek.xiri.recorder.svc/.PCMRecorderSvc: pid=1874 uid=10030 gids={3003, 1015}
+W/BackupManagerService( 1067): dataChanged but no participant pkg='com.android.providers.settings' uid=10011
+I/ActivityManager( 1067): Start proc com.android.phone for content provider com.android.providers.telephony/.TelephonyProvider: pid=1897 uid=1001 gids={1015}
+I/ActivityManager( 1067): Start proc com.iflytek.speech for service com.iflytek.speech/.SpeechService: pid=1909 uid=10026 gids={1015, 3003, 1007}
+I/ActivityManager( 1067): Start proc com.coship.TestApp for broadcast com.coship.TestApp/.BootCompletedReceiver: pid=1937 uid=1000 gids={3003, 1015, 3002, 3001, 3004}
+I/ActivityManager( 1067): Start proc com.coship.stpservice for broadcast com.coship.stpservice/.StpReceiver: pid=1962 uid=1000 gids={3003, 1015, 3002, 3001, 3004}
+--------- beginning of /dev/log/main
+D/MMCP    ( 1962): <udi2_flash> Partition[2] from 0x280000 to 0xc80000, length 0xa00000.
+D/MMCP    ( 1962): <udi2_flash> Partition[3] from 0xc80000 to 0x1080000, length 0x400000.
+D/MMCP    ( 1962): <udi2_flash> Partition[4] from 0x1080000 to 0x17480000, length 0x16400000.
+D/MMCP    ( 1962): <udi2_flash> Partition[5] from 0x17480000 to 0x4c080000, length 0x34c00000.
+D/MMCP    ( 1962): <udi2_flash> Partition[6] from 0x4c080000 to 0x5ec80000, length 0x12c00000.
+D/MMCP    ( 1962): <udi2_flash> Partition[7] from 0x5ec80000 to 0x62880000, length 0x3c00000.
+D/MMCP    ( 1962): <udi2_flash> Partition[8] from 0x62880000 to 0x63880000, length 0x1000000.
+D/MMCP    ( 1962): <udi2_flash> Partition[9] from 0x63880000 to 0x64080000, length 0x800000.
+D/MMCP    ( 1962): <udi2_flash> Partition[10] from 0x64080000 to 0x74080000, length 0x10000000.
+D/MMCP    ( 1962): <udi2_flash> Partition[11] from 0x74080000 to 0x740a0000, length 0x20000.
+D/MMCP    ( 1962): <udi2_flash> Partition[12] from 0x740a0000 to 0x740c0000, length 0x20000.
+D/MMCP    ( 1962): <udi2_flash> Partition[13] from 0x740c0000 to 0x740e0000, length 0x20000.
+D/MMCP    ( 1962): <udi2_flash> Partition[14] from 0x740e0000 to 0x74100000, length 0x20000.
+D/MMCP    ( 1962): <udi2_flash> Partition[15] from 0x74100000 to 0x74120000, length 0x20000.
+D/MMCP    ( 1962): <udi2_flash> Partition[16] from 0x74120000 to 0x74140000, length 0x20000.
+D/MMCP    ( 1962): <udi2_flash> Partition[17] from 0x74140000 to 0x74160000, length 0x20000.
+D/MMCP    ( 1962): <udi2_flash> Partition[18] from 0x74160000 to 0x74180000, length 0x20000.
+D/MMCP    ( 1962): <udi2_flash> Partition[19] from 0x74180000 to 0x741a0000, length 0x20000.
+D/MMCP    ( 1962): <udi2_flash> Partition[20] from 0x741a0000 to 0x74320000, length 0x180000.
+D/MMCP    ( 1962): <udi2_flash> Partition[21] from 0x74320000 to 0x74d20000, length 0xa00000.
+D/MMCP    ( 1962): <udi2_flash> Partition[22] from 0x74d20000 to 0x74f20000, length 0x200000.
+D/MMCP    ( 1962): <udi2_flash> Partition[23] from 0x74f20000 to 0x750a0000, length 0x180000.
+D/MMCP    ( 1962): <udi2_flash> Partition[24] from 0x750a0000 to 0x950a0000, length 0x20000000.
+D/MMCP    ( 1962): <udi2_flash> Partition[25] from 0x950a0000 to 0xe6000000, length 0x50f60000.
+D/MMCP    ( 1962): <udi2_flash> 
+D/MMCP    ( 1962):  FlashSize = 0xcbc00000, FlashPartitionCount = 26, FlashStartaddres = 0x200000.
+D/MMCP    ( 1962): <udi2_flash> Partition[0] from 0x200000 to 0x200000, length 0x0.
+D/MMCP    ( 1962): <udi2_flash> Partition[1] from 0x200000 to 0x280000, length 0x80000.
+D/MMCP    ( 1962): <udi2_flash> Partition[2] from 0x280000 to 0xc80000, length 0xa00000.
+D/MMCP    ( 1962): <udi2_flash> Partition[3] from 0xc80000 to 0x1080000, length 0x400000.
+D/MMCP    ( 1962): <udi2_flash> Partition[4] from 0x1080000 to 0x17480000, length 0x16400000.
+D/MMCP    ( 1962): <udi2_flash> Partition[5] from 0x17480000 to 0x4c080000, length 0x34c00000.
+D/MMCP    ( 1962): <udi2_flash> Partition[6] from 0x4c080000 to 0x5ec80000, length 0x12c00000.
+D/MMCP    ( 1962): <udi2_flash> Partition[7] from 0x5ec80000 to 0x62880000, length 0x3c00000.
+D/MMCP    ( 1962): <udi2_flash> Partition[8] from 0x62880000 to 0x63880000, length 0x1000000.
+D/MMCP    ( 1962): <udi2_flash> Partition[9] from 0x63880000 to 0x64080000, length 0x800000.
+D/MMCP    ( 1962): <udi2_flash> Partition[10] from 0x64080000 to 0x74080000, length 0x10000000.
+D/MMCP    ( 1962): <udi2_flash> Partition[11] from 0x74080000 to 0x740a0000, length 0x20000.
+D/MMCP    ( 1962): <udi2_flash> Partition[12] from 0x740a0000 to 0x740c0000, length 0x20000.
+D/MMCP    ( 1962): <udi2_flash> Partition[13] from 0x740c0000 to 0x740e0000, length 0x20000.
+D/MMCP    ( 1962): <udi2_flash> Partition[14] from 0x740e0000 to 0x74100000, length 0x20000.
+D/MMCP    ( 1962): <udi2_flash> Partition[15] from 0x74100000 to 0x74120000, length 0x20000.
+D/MMCP    ( 1962): <udi2_flash> Partition[16] from 0x74120000 to 0x74140000, length 0x20000.
+D/MMCP    ( 1962): <udi2_flash> Partition[17] from 0x74140000 to 0x74160000, length 0x20000.
+D/MMCP    ( 1962): <udi2_flash> Partition[18] from 0x74160000 to 0x74180000, length 0x20000.
+D/MMCP    ( 1962): <udi2_flash> Partition[19] from 0x74180000 to 0x741a0000, length 0x20000.
+D/MMCP    ( 1962): <udi2_flash> Partition[20] from 0x741a0000 to 0x74320000, length 0x180000.
+D/MMCP    ( 1962): <udi2_flash> Partition[21] from 0x74320000 to 0x74d20000, length 0xa00000.
+D/MMCP    ( 1962): <udi2_flash> Partition[22] from 0x74d20000 to 0x74f20000, length 0x200000.
+D/MMCP    ( 1962): <udi2_flash> Partition[23] from 0x74f20000 to 0x750a0000, length 0x180000.
+D/MMCP    ( 1962): <udi2_flash> Partition[24] from 0x750a0000 to 0x950a0000, length 0x20000000.
+D/MMCP    ( 1962): <udi2_flash> Partition[25] from 0x950a0000 to 0xe6000000, length 0x50f60000.
+I//lib/ld-linux.so.3(  748): MDrv_SERFLASH_GetInfo()
+I//lib/ld-linux.so.3(  748):    u32AccessWidth = 1
+I//lib/ld-linux.so.3(  748):    u32TotalSize   = 2097152
+I//lib/ld-linux.so.3(  748):    u32SecNum      = 32
+I//lib/ld-linux.so.3(  748):    u32SecSize     = 65536
+D/MMCP    ( 1962): <udi2_flash> psFlashSuit->m_uSize = 0xcbe00000, psFlashSuit->m_uBlockCount = 0xffffcbe0.
+I/appdemo ( 1962): [UDIOpEmmc]:500 ----->pucBuf = 0x5bd2fd84, s_bPartitionInit = 1 
+I/appdemo ( 1962): [UDIOpEmmc]:505 ----->
+I/appdemo ( 1962): [UDIOpEmmc]:513 ----->
+I/appdemo ( 1962): [UDIOpEmmc]:557 ----->dwStartAddress+dwRWOverTotellen = 0x74080000
+I/appdemo ( 1962): [UDIOpEmmc]:559 ----->dwStartAddress = 0x74080000 ,dwParNum = 11,dwParOffset = 0x0
+I/appdemo ( 1962): EMMC VOLUME(11) LEB SIZE=256
+I/appdemo ( 1962): 
+I/appdemo ( 1962): emmc_infor.section_num : 256
+I/appdemo ( 1962): emmc_infor.section_size : 512
+I/appdemo ( 1962): total size : 131072
+I/appdemo ( 1962): MMCP[EmmcOpBlock]:400 Open dev(11)!!
+E/AC3Extractor(  744): Rsyn Fail
+I/appdemo ( 1962): MMCP[EmmcOpBlock]:440 nRet = 0 !!
+I/appdemo ( 1962): [UDIOpEmmc]:600 ----->nRet = 0 
+D/MMCP    ( 1962): <BootLoader> [SysInfo]bl_loaderpt_pos.dwAddr = 0x74100000 
+I/appdemo ( 1962): [UDIOpEmmc]:500 ----->pucBuf = 0x5bd2fd84, s_bPartitionInit = 1 
+I/appdemo ( 1962): [UDIOpEmmc]:505 ----->
+I/appdemo ( 1962): [UDIOpEmmc]:513 ----->
+I/appdemo ( 1962): [UDIOpEmmc]:557 ----->dwStartAddress+dwRWOverTotellen = 0x740e0000
+I/appdemo ( 1962): [UDIOpEmmc]:559 ----->dwStartAddress = 0x740e0000 ,dwParNum = 14,dwParOffset = 0x0
+I/appdemo ( 1962): EMMC VOLUME(14) LEB SIZE=256
+I/appdemo ( 1962): 
+I/appdemo ( 1962): emmc_infor.section_num : 256
+I/appdemo ( 1962): emmc_infor.section_size : 512
+I/appdemo ( 1962): total size : 131072
+I/appdemo ( 1962): MMCP[EmmcOpBlock]:400 Open dev(14)!!
+I/appdemo ( 1962): MMCP[EmmcOpBlock]:440 nRet = 0 !!
+I/appdemo ( 1962): [UDIOpEmmc]:600 ----->nRet = 0 
+I/appdemo ( 1962): [UDIOpEmmc]:500 ----->pucBuf = 0xbea654bc, s_bPartitionInit = 1 
+I/appdemo ( 1962): [UDIOpEmmc]:505 ----->
+I/appdemo ( 1962): [UDIOpEmmc]:513 ----->
+I/appdemo ( 1962): [UDIOpEmmc]:600 ----->nRet = 0 
+E/StpNative( 1962): android_stp_StpNative_stpInit: CSBLGetCoshipDataInfo: 0!
+I/StpService( 1962): hwv:00210400001
+I/StpService( 1962): swv:21133100001
+I/StpService( 1962): HardwareVersion:002104
+I/StpService( 1962): SoftwareVersion:211331
+I/StpService( 1962): ScreenSize:00001
+I/StpService( 1962): RegionCode:00001
+I/StpService( 1962): SerialNum:ERROR SN
+I/StpService( 1962): Mac:null
+I/InputManager-JNI( 1067): Setting show touches feature to enabled.
+I/StpService( 1962): onBind
+I/InputReader( 1067): Reconfiguring input devices.  changes=0x00000008
+I/InputReader( 1067): Device reconfigured: id=5, name='Stp touch', surface size is now 1280x720, mode is 1
+I/InputReader( 1067): Device reconfigured: id=6, name='Stp MT-touch', surface size is now 1280x720, mode is 1
+I/StpReceiver( 1962): onReceive
+I/StpReceiver( 1962): Intent is ACTION_BOOT_COMPLETED
+D/StpService( 1962): receive Broadcast Info NetworkInfo: type: ETH[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), roaming: false, failover: false, isAvailable: true
+I/StpService( 1962): Network Type Changed to 9
+I/StpService( 1962): onStart = 1
+D/AppStoreCoreService( 1335):  ------:: AppStoreCoreService onCreate ......
+D/AppStoreCoreService( 1335):  ------:: AppStoreCoreService startScheduleTask..........
+D/AppStoreDataBaseHelper( 1335):  ------:: ======================= dbname:Coship_AppStoreDB
+D/AppStoreDataBaseHelper( 1335):  ------:: ======================= dbname:Coship_AppStoreDB
+D/SettingGlobalReceiver==>( 1759): android.net.ethernet.ETHERNET_STATE_CHANGED
+D/MiracastControl( 1962): onCreate
+D/MiracastControl( 1962): mac:00:00:00:00:00:00
+I/ActivityManager( 1067): Start proc com.biaoqi.stbwidget.host for broadcast com.biaoqi.stbwidget.host/.NetworkStatusChangeReceiver: pid=1985 uid=10028 gids={3003}
+I/PackageManager( 1067): Running dexopt on: com.biaoqi.stbwidget.host
+E/AC3Extractor(  744): Rsyn Fail
+D/dalvikvm( 1859): GC_CONCURRENT freed 2088K, 45% free 7274K/13123K, paused 3ms+4ms
+E/AC3Extractor(  744): Rsyn Fail
+D/dalvikvm( 1998): DexOpt: load 48ms, verify+opt 115ms
+I/NetworkStatusChangeReceiver( 1985): action::::::::android.net.ethernet.ETHERNET_STATE_CHANGED
+I/System.out( 1985): 网络断开：：：：：：：
+D/SettingGlobalReceiver==>( 1759): android.net.ethernet.ETHERNET_STATE_CHANGED
+I/NetworkStatusChangeReceiver( 1985): action::::::::android.net.ethernet.ETHERNET_STATE_CHANGED
+I/System.out( 1985): 网络连接：：：：：：：
+D/StartService( 1774): mReceiverCheck onReceive
+I/BootCompletedReceiver( 1859): [onReceive] Action??android.net.wifi.WIFI_AP_STATE_CHANGED
+V/BootCompletedReceiver( 1859): ++++mWifiApState++++12
+E/AC3Extractor(  744): Rsyn Fail
+I/Utils   ( 1564): SystemPropertiesClass:class android.os.SystemProperties
+W/Utils   ( 1564): ~~~~~~~~~~~~~~~~~~~~~~method:public static void android.os.SystemProperties.set(java.lang.String,java.lang.String)
+W/Utils   ( 1564): ~~~~~~~~~~~~~~~~~~~~~~returnvalue:null
+E/BootReceiver( 1564): WIFI_AP_STATE_CHANGED open
+D/BootReceiver( 1564): startOtOService
+E/OtOService( 1564): onStart
+I/FeiApplication( 1564): SystemPropertiesClass:class android.os.SystemProperties
+W/FeiApplication( 1564): ~~~~~~~~~~~~~~~~~~~~~~method:public static java.lang.String android.os.SystemProperties.get(java.lang.String,java.lang.String)
+W/FeiApplication( 1564): ~~~~~~~~~~~~~~~~~~~~~~returnvalue:客厅里的飞看
+I/BootCompletedReceiver( 1859): [onReceive] Action??android.net.wifi.WIFI_AP_STATE_CHANGED
+V/BootCompletedReceiver( 1859): ++++mWifiApState++++13
+D/dalvikvm( 1564): GC_CONCURRENT freed 368K, 78% free 1209K/5315K, paused 1ms+7ms
+D/DeviceAnnounce( 1564): resetSocket
+D/ServerAdapter( 1564): resetDeviceAnnounce
+D/dalvikvm( 1859): GC_CONCURRENT freed 1937K, 44% free 7459K/13123K, paused 3ms+3ms
+D/HomePlayerLib( 1859): MediaRenderer will start with ip addrss 192.168.2.4
+D/HomePlayerLib( 1859): hostaddress count is 2
+D/dalvikvm( 1067): GC_CONCURRENT freed 485K, 64% free 3400K/9283K, paused 2ms+12ms
+D/dalvikvm( 1859): GC_FOR_ALLOC freed 2150K, 46% free 7250K/13251K, paused 35ms
+E/AC3Extractor(  744): Rsyn Fail
+W/HomePlayerLib( 1859): mediaRenderer start success 
+I/System  ( 1067): Loaded time zone names for  in 1103ms (1094ms in ICU)
+D/dalvikvm( 1859): GC_CONCURRENT freed 1914K, 45% free 7383K/13251K, paused 2ms+3ms
+E/AC3Extractor(  744): Rsyn Fail
+E/AC3Extractor(  744): Rsyn Fail
+E/AC3Extractor(  744): Rsyn Fail
+D/dalvikvm( 1590): GC_CONCURRENT freed 443K, 76% free 1378K/5571K, paused 1ms+2ms
+E/AC3Extractor(  744): Rsyn Fail
+E/AC3Extractor(  744): Rsyn Fail
+D/dalvikvm( 1859): GC_CONCURRENT freed 2088K, 45% free 7342K/13251K, paused 4ms+4ms
+E/AC3Extractor(  744): Rsyn Fail
+I/System  ( 1067): Loaded time zone names for en_US in 597ms (593ms in ICU)
+E/AC3Extractor(  744): Rsyn Fail
+E/AC3Extractor(  744): Rsyn Fail
+E/AC3Extractor(  744): Rsyn Fail
+V/main    ( 1368): ++++keyCode+++21
+D/dalvikvm( 1859): GC_CONCURRENT freed 2051K, 46% free 7254K/13251K, paused 3ms+3ms
+E/AC3Extractor(  744): Rsyn Fail
+D/HomePlayerLib( 1859): hostaddress count is 2
+E/AC3Extractor(  744): Rsyn Fail
+D/InputEventConsistencyVerifier( 1368): KeyEvent: ACTION_UP but key was not down.
+D/InputEventConsistencyVerifier( 1368):   in android.widget.ImageButton@41afa310
+D/InputEventConsistencyVerifier( 1368):   0: sent at 73828000000, KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_LEFT, scanCode=105, metaState=0, flags=0x8, repeatCount=0, eventTime=73828, downTime=73605, deviceId=2, source=0x101 }
+D/InputEventConsistencyVerifier( 1368):   -- recent events --
+D/InputEventConsistencyVerifier( 1368):   1: sent at 68415000000, (unhandled) KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=106, metaState=0, flags=0x8, repeatCount=0, eventTime=68415, downTime=68415, deviceId=2, source=0x101 }
+D/InputEventConsistencyVerifier( 1368):   2: sent at 66980000000, (unhandled) KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_RIGHT, scanCode=106, metaState=0, flags=0x80000008, repeatCount=0, eventTime=66980, downTime=66761, deviceId=2, source=0x101 }
+D/HomePlayerLib( 1859): hostaddress count is 2
+D/dalvikvm( 1859): GC_CONCURRENT freed 1969K, 45% free 7332K/13251K, paused 3ms+3ms
+D/HomePlayerLib( 1859): hostaddress count is 2
+E/AC3Extractor(  744): Rsyn Fail
+D/dalvikvm( 1859): GC_CONCURRENT freed 2100K, 46% free 7279K/13251K, paused 2ms+3ms
+I/System  ( 1067): Loaded time zone names for zh_CN in 899ms (896ms in ICU)
+D/dalvikvm( 1859): GC_CONCURRENT freed 1969K, 45% free 7381K/13251K, paused 2ms+4ms
+D/HomePlayerLib( 1859): hostaddress count is 2
+D/dalvikvm( 1067): GC_CONCURRENT freed 487K, 62% free 3534K/9283K, paused 2ms+13ms
+D/GpsLocationProvider( 1067): NTP server returned: 1368452573115 (Mon May 13 21:42:53 格林尼治标准时间+0800 2013) reference: 71680 certainty: 379 system time offset: -1
+E/AC3Extractor(  744): Rsyn Fail
+D/dalvikvm( 1859): GC_CONCURRENT freed 2043K, 45% free 7289K/13251K, paused 2ms+3ms
+E/AC3Extractor(  744): Rsyn Fail
+E/AC3Extractor(  744): Rsyn Fail
+E/AC3Extractor(  744): Rsyn Fail
+E/AC3Extractor(  744): Rsyn Fail
+E/AC3Extractor(  744): Rsyn Fail
+D/dalvikvm( 1859): GC_CONCURRENT freed 1951K, 44% free 7433K/13251K, paused 2ms+3ms
+E/AC3Extractor(  744): Rsyn Fail
+E/AC3Extractor(  744): Rsyn Fail
+E/AC3Extractor(  744): Rsyn Fail
+D/dalvikvm( 1859): GC_CONCURRENT freed 2084K, 45% free 7419K/13251K, paused 2ms+4ms
+E/AC3Extractor(  744): Rsyn Fail
+D/ImplicitAppManagerTimerTask( 1335):  ------:: ImplicitAppManagerTimerTask execute...1368452576574
+E/AC3Extractor(  744): Rsyn Fail
+D/dalvikvm( 1335): GC_CONCURRENT freed 273K, 83% free 847K/4867K, paused 1ms+3ms
+E/AC3Extractor(  744): Rsyn Fail
+E/AC3Extractor(  744): Rsyn Fail
+E/AC3Extractor(  744): Rsyn Fail
+E/AC3Extractor(  744): Rsyn Fail
+D/dalvikvm( 1859): GC_CONCURRENT freed 2079K, 45% free 7306K/13251K, paused 4ms+3ms
+E/AC3Extractor(  744): Rsyn Fail
+E/AC3Extractor(  744): Rsyn Fail
+E/AC3Extractor(  744): Rsyn Fail
+E/AC3Extractor(  744): Rsyn Fail
+E/AC3Extractor(  744): Rsyn Fail
+D/dalvikvm( 1859): GC_CONCURRENT freed 2080K, 46% free 7273K/13251K, paused 2ms+3ms
+D/dalvikvm( 1590): GC_CONCURRENT freed 430K, 76% free 1391K/5571K, paused 2ms+4ms
+E/AC3Extractor(  744): Rsyn Fail
+E/AC3Extractor(  744): Rsyn Fail
+E/AC3Extractor(  744): Rsyn Fail
+E/AC3Extractor(  744): Rsyn Fail
+W/HomePlayerLib( 1859): mediaRenderer start success 
+D/BootReceiver( 1564): startOtOService
+D/dalvikvm( 1233): GC_CONCURRENT freed 442K, 58% free 3046K/7235K, paused 1ms+4ms
+E/OtOService( 1564): onStart
+I/FeiApplication( 1564): SystemPropertiesClass:class android.os.SystemProperties
+W/FeiApplication( 1564): ~~~~~~~~~~~~~~~~~~~~~~method:public static java.lang.String android.os.SystemProperties.get(java.lang.String,java.lang.String)
+W/FeiApplication( 1564): ~~~~~~~~~~~~~~~~~~~~~~returnvalue:客厅里的飞看
+W/BackupManagerService( 1067): dataChanged but no participant pkg='com.android.providers.settings' uid=10011
+D/dalvikvm( 1564): GC_CONCURRENT freed 568K, 79% free 1174K/5443K, paused 0ms+16ms
+D/dalvikvm( 1419): GC_CONCURRENT freed 393K, 75% free 1428K/5507K, paused 1ms+2ms
+I/BootCompletedReceiver( 1859): [onReceive] Action??android.net.conn.CONNECTIVITY_CHANGE
+D/BootCompletedReceiver( 1859): [onReceive] renderer was configed as autoboot,start backservice
+D/Multimedia_BackService( 1859): BackService onStart called
+D/Multimedia_BackService( 1859): device Name:客厅里的飞看
+I/AirplayService( 1859): in setAirplayDevName
+D/DeviceAnnounce( 1564): resetSocket
+E/AC3Extractor(  744): Rsyn Fail
+D/dalvikvm( 1564): GC_CONCURRENT freed 478K, 79% free 1167K/5443K, paused 1ms+13ms
+D/ServerAdapter( 1564): resetDeviceAnnounce
+I/CheckinService( 1419): Preparing to send checkin request
+I/EventLogService( 1419): Accumulating logs since 1167701993462
+W/CheckinRequestBuilder( 1419): Unknown phone type: 0 id=null
+V/CheckinRequestBuilder( 1419): pre-froyo android id is 0
+E/AC3Extractor(  744): Rsyn Fail
+D/ImplicitAppManagerTimerTask( 1335):  ------:: retObj = {"resultObject":{"pageSize":10,"resultList":[{"packageName":"com.coship.cibn","executeAction":2,"versionCode":31,"downloadUrl":"http:\/\/app.longvisionmedia.com:80\/upload\/signedapp\/6e91fe89-a22a-40b2-9eba-3b3886b19c29.apk"},{"packageName":"com.aidufei.movieonline","executeAction":2,"versionCode":45,"downloadUrl":"http:\/\/app.longvisionmedia.com:80\/upload\/signedapp\/8ee1d716-0f45-4aa4-83ca-639839913b51.apk"},{"packageName":"com.fiship.cibn","executeAction":2,"versionCode":33,"downloadUrl":"http:\/\/app.longvisionmedia.com:80\/upload\/signedapp\/b87505c1-a36f-4b31-8194-40f57fa0ba4f.apk"},{"packageName":"com.fiship.media","executeAction":2,"versionCode":47,"downloadUrl":"http:\/\/app.longvisionmedia.com:80\/upload\/signedapp\/65388c8e-2c5a-4996-9a6b-dcf0b7a90d1a.apk"},{"packageName":"com.aidufei.cibn.uploadchecker","executeAction":2,"versionCode":7,"downloadUrl":"http:\/\/app.longvisionmedia.com:80\/upload\/signedapp\/afdc12fa-9cea-4766-8cec-fea0d3fd3673.apk"}],"hasNextPage":false,"currentPage":1,"totalPage":0,"totalCount":5,"hasPrePage":false},"respseStatus":"0","respseDesc":"Success"}
+D/dalvikvm( 1067): GC_EXPLICIT freed 423K, 63% free 3486K/9283K, paused 2ms+4ms
+D/dalvikvm( 1419): GC_CONCURRENT freed 415K, 75% free 1442K/5571K, paused 1ms+2ms
+E/AC3Extractor(  744): Rsyn Fail
+D/StpService( 1962): handleMessage NetworkType is 9
+D/AlarmManagerService( 1067): Kernel timezone updated to -480 minutes west of GMT
+D/dalvikvm( 1419): GC_CONCURRENT freed 306K, 72% free 1601K/5699K, paused 2ms+2ms
+D/dalvikvm( 1067): GREF has increased to 501
+I/EventLogService( 1419): Aggregate from 1368452577858 (log), 1167701993462 (data)
+D/dalvikvm( 1859): GC_CONCURRENT freed 2014K, 45% free 7381K/13251K, paused 24ms+6ms
+E/AC3Extractor(  744): Rsyn Fail
+I/CheckinTask( 1419): Sending checkin request (3475 bytes)
+D/ImplicitAppManagerTimerTask( 1335):  ------:: downUpgradeClient  downloadUrl= http://app.longvisionmedia.com:80/upload/signedapp/65388c8e-2c5a-4996-9a6b-dcf0b7a90d1a.apk
+D/dalvikvm( 1419): GC_CONCURRENT freed 464K, 73% free 1589K/5763K, paused 1ms+2ms
+E/AC3Extractor(  744): Rsyn Fail
+I/ActivityManager( 1067): Process com.coship.sdp.sce.tvappstore (pid 1335) has died.
+W/ActivityManager( 1067): Scheduling restart of crashed service com.coship.sdp.sce.tvappstore/.app.service.AppStoreCoreService in 1250ms
+I/ActivityManager( 1067): Start proc com.coship.sdp.sce.tvappstore for restart com.coship.sdp.sce.tvappstore: pid=2027 uid=1000 gids={3003, 1015, 3002, 3001, 3004}
+I/ActivityManager( 1067): Start proc com.coship.adjustthevolume for broadcast com.coship.adjustthevolume/.BootCompletedReceiver: pid=2039 uid=1000 gids={3003, 1015, 3002, 3001, 3004}
+I/PackageManager( 1067): Running dexopt on: com.coship.adjustthevolume
+D/AppStoreDataBaseHelper( 2027):  ------:: ======================= dbname:Coship_AppStoreDB
+D/AppStoreDataBaseHelper( 2027):  ------:: ======================= dbname:Coship_AppStoreDB
+D/AppManagerService( 2027):  ------:: myAppInfoService.recoverAppStatus.....
+D/dalvikvm( 1067): GC_CONCURRENT freed 513K, 62% free 3618K/9283K, paused 2ms+3ms
+E/AC3Extractor(  744): Rsyn Fail
+D/MediaPlayerService(  744): countTracks = 1
+D/MediaPlayerService(  744): mime = audio/vorbis
+D/MediaPlayerService(  744): videoCnt = 0, audioCnt = 1
+D/MediaPlayerService(  744): Ogg
+E/AC3Extractor(  744): Rsyn Fail
+D/FileService( 2027):  ------:: localConfig.getReleaseValue() = V100R001B033
+D/FileService( 2027):  ------:: sourceConfig.getReleaseValue() = V100R001B033
+D/Tools   ( 2027):  ------:: ~~~~~~~~~~~~~~~~~~~~~~method:public static java.lang.String android.os.SystemProperties.get(java.lang.String,java.lang.String)
+D/Tools   ( 2027):  ------:: ~~~~~~~~~~~~~~~~~~~~~~return value:app.longvisionmedia.com:80
+E/MetadataRetrieverClient(  744): failed to extract an album art
+D/dalvikvm( 2053): DexOpt: load 30ms, verify+opt 35ms
+D/Tools   ( 2027):  ------:: ~~~~~~~~~~~~~~~~~~~~~~method:public static void android.os.SystemProperties.set(java.lang.String,java.lang.String)
+D/AppServer( 2027):  ------:: AppServer.ip=app.longvisionmedia.com AppServer.port=80 AppServer.SubDir=null
+W/MountService( 1067): getVolumeState(/mnt/sdcard): Unknown volume
+W/MountService( 1067): getVolumeState(/mnt/sdcard): Unknown volume
+D/ImageCache( 2027):  ------:: Memory cache created (size = 10066330)
+D/BootCompletedReceiver( 2039): [onReceive] adjustthevolume registerReceiver Action: com.coship.StpService.Start
+I/VolService( 2039): [onCreate] begin
+I/System.out( 1985): BabaoWebWidget---network connect---
+I/VolService( 2039): [registerReceiver] begin
+D/ImageCache( 2027):  ------:: Disk cache initialized
+I/VolService( 2039): [registerReceiver] Thread start
+I/System.out( 1985): 项目名称：A3STB-WidgetHost，版本号：1.0.11，发布人：朱道专(Jacky.Zhu)
+V/CheckBackdoors( 1962): add new backdoor. actionName=com.coship.adjustthevolume, backdoor.mBackdoorKey=0x5252525252
+I/VolService( 2039): [registerReceiver] registerReceiver addBackdoorKeylist:com.coship.adjustthevolume  is succ,ret 0
+I/System.out( 1985): WeatherWidgetProvider----network connect----------
+I/System.out( 1985): BabaoWebWidget---network connect---
+I/System.out( 1985): 项目名称：A3STB-WidgetHost，版本号：1.0.11，发布人：朱道专(Jacky.Zhu)
+I/VolService( 2039): [registerReceiver] registerReceiver addBackdoorKeylist :com.coship.adjustthevolume.Volup  is succ,ret 0
+V/CheckBackdoors( 1962): add new backdoor. actionName=com.coship.adjustthevolume.Volup, backdoor.mBackdoorKey=0x18
+I/VolService( 2039): [registerReceiver] registerReceiver addBackdoorKeylist :com.coship.adjustthevolume.VolDown  is succ,ret 0
+I/VolService( 2039): [registerReceiver] use coship vol Control,don't use mstar vol Control
+I/VolService( 2039): [registerReceiver] end
+V/CheckBackdoors( 1962): add new backdoor. actionName=com.coship.adjustthevolume.VolDown, backdoor.mBackdoorKey=0x19
+D/ImageFetcher( 2027):  ------:: HTTP cache initialized
+I/System.out( 1985): WeatherWidgetProvider----network connect----------
+D/StartService( 1774): ==========> startVocmdActivity
+D/VAFSvcCheck( 1827): ========> setFlg
+D/VAFSvcCheck( 1827): <======== setFlg
+D/VAFSvcCheck( 1827): ========> setRemoteID
+D/VAFSvcCheck( 1827): <======== setRemoteID
+D/VAFSvcCheck( 1827): ========> setTalkID
+D/VAFSvcCheck( 1827): <======== setTalkID
+D/StartService( 1774): setFlg()
+D/StartService( 1774): Method startWindow
+D/StartService( 1774): intent ready
+D/StartService( 1774): intent: #Intent;component=com.iflytek.vac/com.iflytek.vocmd;i.revision=-1;S.tvcontrol=true;B.Boot=true;B.Transparent=true;S.__TypeName=Default;end
+D/Window  ( 1774): startWindow com.iflytek.vocmd
+D/VAC     ( 1774): onCreate intent: #Intent;component=com.iflytek.vac/com.iflytek.vocmd;i.revision=-1;S.tvcontrol=true;B.Boot=true;B.Transparent=true;S.__TypeName=Default;end
+D/VAF     ( 1774): =====>Init Thread 1
+D/VAFSvc  ( 1827): onBind Thread 1
+D/VAF     ( 1774): <=====Init Thread 1
+D/Default ( 1774): onCreate #Intent;component=com.iflytek.vac/com.iflytek.vocmd;i.revision=-1;S.tvcontrol=true;B.Boot=true;B.Transparent=true;S.__TypeName=Default;end
+D/PushMsgCenter( 1774): init()android.app.Application@415097e8
+D/PushMsgCenter( 1774): mLoadPushablePkg run
+D/PushMsgCenter( 1774): mLoadPushablePkg run2
+W/System.err( 1774): java.io.FileNotFoundException: white.pp
+W/System.err( 1774):    at android.content.res.AssetManager.openAsset(Native Method)
+W/System.err( 1774):    at android.content.res.AssetManager.open(AssetManager.java:315)
+W/System.err( 1774):    at android.content.res.AssetManager.open(AssetManager.java:289)
+W/System.err( 1774):    at com.iflytek.push.PushMsgCenter$1.run(PushMsgCenter.java:105)
+W/System.err( 1774):    at com.iflytek.push.PushMsgCenter.init(PushMsgCenter.java:481)
+W/System.err( 1774):    at com.iflytek.vocmd.impl.AbsDefault.onCreate(AbsDefault.java:213)
+W/System.err( 1774):    at com.iflytek.vac.VAC.onCreate(VAC.java:331)
+W/System.err( 1774):    at com.iflytek.vac.Window.<init>(Window.java:36)
+W/System.err( 1774):    at com.iflytek.vac.Window.startWindow(Window.java:69)
+W/System.err( 1774):    at com.iflytek.vocmd.StartService.startVocmdActivity(StartService.java:141)
+W/System.err( 1774):    at com.iflytek.vocmd.StartService.access$400(StartService.java:27)
+W/System.err( 1774):    at com.iflytek.vocmd.StartService$3.onReceive(StartService.java:153)
+W/System.err( 1774):    at android.app.LoadedApk$ReceiverDispatcher$Args.run(LoadedApk.java:728)
+W/System.err( 1774):    at android.os.Handler.handleCallback(Handler.java:605)
+W/System.err( 1774):    at android.os.Handler.dispatchMessage(Handler.java:92)
+W/System.err( 1774):    at android.os.Looper.loop(Looper.java:137)
+W/System.err( 1774):    at android.app.ActivityThread.main(ActivityThread.java:4424)
+W/System.err( 1774):    at java.lang.reflect.Method.invokeNative(Native Method)
+W/System.err( 1774):    at java.lang.reflect.Method.invoke(Method.java:511)
+W/System.err( 1774):    at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:848)
+W/System.err( 1774):    at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:575)
+W/System.err( 1774):    at dalvik.system.NativeStart.main(Native Method)
+D/PushMsgCenter( 1774): mDownUpRun run
+D/PushMsgCenter( 1774): mDownUpRun run while (true)
+D/PushMsgCenter( 1774): down  
+D/PushMsgCenter( 1774):  mContxt = context
+D/HelpTipGetter( 1774): init()android.app.Application@415097e8
+D/HelpTipGetter( 1774): mDownUpRun run
+D/HelpTipGetter( 1774): tip get error exception:Protocol not found: ?version=10014
+I/ActivityManager( 1067): Start proc com.iflytek.xiri.remotecmd for service com.iflytek.xiri.remotecmd/com.iflytek.xiri.vocmd.MyService: pid=2065 uid=10032 gids={}
+D/PushMsgCenter( 1774): down conn.getResponseCode() status = 404
+I/PackageManager( 1067): Running dexopt on: com.iflytek.xiri.remotecmd
+W/System.err( 1985): org.json.JSONException: Value <?xml of type java.lang.String cannot be converted to JSONObject
+W/System.err( 1985):    at org.json.JSON.typeMismatch(JSON.java:111)
+W/System.err( 1985):    at org.json.JSONObject.<init>(JSONObject.java:158)
+W/System.err( 1985):    at org.json.JSONObject.<init>(JSONObject.java:171)
+W/System.err( 1985):    at com.biaoqi.stbwidget.host.BabaoWebHelper.getSinaWebNews(BabaoWebHelper.java:55)
+W/System.err( 1985):    at com.biaoqi.stbwidget.host.BabaoWebWidget$1.run(BabaoWebWidget.java:46)
+W/System.err( 1985):    at java.lang.Thread.run(Thread.java:856)
+W/System.err( 1985): org.json.JSONException: Value <?xml of type java.lang.String cannot be converted to JSONObject
+W/System.err( 1985):    at org.json.JSON.typeMismatch(JSON.java:111)
+W/System.err( 1985):    at org.json.JSONObject.<init>(JSONObject.java:158)
+W/System.err( 1985):    at org.json.JSONObject.<init>(JSONObject.java:171)
+W/System.err( 1985):    at com.biaoqi.stbwidget.host.BabaoWebHelper.getSinaWebNews(BabaoWebHelper.java:55)
+W/System.err( 1985):    at com.biaoqi.stbwidget.host.BabaoWebWidget$1.run(BabaoWebWidget.java:46)
+W/System.err( 1985):    at java.lang.Thread.run(Thread.java:856)
+D/dalvikvm( 2080): DexOpt: load 63ms, verify+opt 84ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 2086K, 45% free 7317K/13251K, paused 3ms+5ms
+D/Window  ( 1774): onHide com.iflytek.vocmd
+D/StartService( 1774): <========== startVocmdActivity
+D/VAF     ( 1774): =====>onServiceConnected Thread 1
+D/VAF     ( 1774): <=====onServiceConnected
+D/Talker  ( 1774): onServiceConnected vac.Manager
+D/CheckNetWork( 1827): isOk true
+D/CheckNetWork( 1827): ActInfoNetworkInfo: type: ETH[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), roaming: false, failover: false, isAvailable: true
+D/CheckNetWork( 1827): infoNetworkInfo: type: ETH[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), roaming: false, failover: false, isAvailable: true
+E/AC3Extractor(  744): Rsyn Fail
+D/AudioPlay3( 2065): AudioPlay3()1
+D/MyViewHandler( 2065): new
+D/MainView( 2065): MainView()
+V/audio_hw_primary(  744): out_get_latency ret 10ms
+V/audio_hw_primary(  744): out_get_latency ret 10ms
+V/audio_hw_primary(  744): out_get_latency ret 10ms
+D/AppStoreCoreService( 2027):  ------:: AppStoreCoreService onCreate ......
+V/audio_hw_primary(  744): out_get_latency ret 10ms
+D/AppStoreCoreService( 2027):  ------:: AppStoreCoreService startScheduleTask..........
+D/AppStoreDataBaseHelper( 2027):  ------:: ======================= dbname:Coship_AppStoreDB
+D/AppStoreDataBaseHelper( 2027):  ------:: ======================= dbname:Coship_AppStoreDB
+D/dalvikvm( 2065): GC_FOR_ALLOC freed 70K, 44% free 6612K/11651K, paused 36ms
+I/dalvikvm-heap( 2065): Grow heap (frag case) to 10.861MB for 842416-byte allocation
+D/dalvikvm( 2065): GC_FOR_ALLOC freed 1K, 41% free 7433K/12483K, paused 38ms
+D/dalvikvm( 1985): GC_CONCURRENT freed 1823K, 45% free 6844K/12355K, paused 4ms+4ms
+D/DialogueView( 2065): DialogueView(Context context, VAC vac)com.iflytek.xiri.vocmd.DialogContainer@415adf30
+D/UserItem( 2065): UserItem()
+D/RemoteView( 1774): onServiceConnected: ComponentInfo{com.iflytek.xiri.remotecmd/com.iflytek.xiri.vocmd.MyService} com.iflytek.xiri.view.remote.IRemoteView
+D/dalvikvm( 1419): GC_CONCURRENT freed 345K, 72% free 1667K/5763K, paused 35ms+7ms
+D/dalvikvm( 1985): GREF has increased to 201
+E/StrictMode( 1985): A resource was acquired at attached stack trace but never released. See java.io.Closeable for information on avoiding resource leaks.
+E/StrictMode( 1985): java.lang.Throwable: Explicit termination method 'end' not called
+E/StrictMode( 1985):    at dalvik.system.CloseGuard.open(CloseGuard.java:184)
+E/StrictMode( 1985):    at java.util.zip.Inflater.<init>(Inflater.java:82)
+E/StrictMode( 1985):    at java.util.zip.GZIPInputStream.<init>(GZIPInputStream.java:96)
+E/StrictMode( 1985):    at java.util.zip.GZIPInputStream.<init>(GZIPInputStream.java:81)
+E/StrictMode( 1985):    at libcore.net.http.HttpEngine.initContentStream(HttpEngine.java:512)
+E/StrictMode( 1985):    at libcore.net.http.HttpEngine.readResponse(HttpEngine.java:805)
+E/StrictMode( 1985):    at libcore.net.http.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:274)
+E/StrictMode( 1985):    at libcore.net.http.HttpURLConnectionImpl.getInputStream(HttpURLConnectionImpl.java:168)
+E/StrictMode( 1985):    at com.biaoqi.stbwidget.host.BabaoWebHelper.getSinaWebNews(BabaoWebHelper.java:42)
+E/StrictMode( 1985):    at com.biaoqi.stbwidget.host.BabaoWebWidget$1.run(BabaoWebWidget.java:46)
+E/StrictMode( 1985):    at java.lang.Thread.run(Thread.java:856)
+E/AC3Extractor(  744): Rsyn Fail
+E/StrictMode( 1985): A resource was acquired at attached stack trace but never released. See java.io.Closeable for information on avoiding resource leaks.
+E/StrictMode( 1985): java.lang.Throwable: Explicit termination method 'end' not called
+E/StrictMode( 1985):    at dalvik.system.CloseGuard.open(CloseGuard.java:184)
+E/StrictMode( 1985):    at java.util.zip.Inflater.<init>(Inflater.java:82)
+E/StrictMode( 1985):    at java.util.zip.GZIPInputStream.<init>(GZIPInputStream.java:96)
+E/StrictMode( 1985):    at java.util.zip.GZIPInputStream.<init>(GZIPInputStream.java:81)
+E/StrictMode( 1985):    at libcore.net.http.HttpEngine.initContentStream(HttpEngine.java:512)
+E/StrictMode( 1985):    at libcore.net.http.HttpEngine.readResponse(HttpEngine.java:805)
+E/StrictMode( 1985):    at libcore.net.http.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:274)
+E/StrictMode( 1985):    at libcore.net.http.HttpURLConnectionImpl.getInputStream(HttpURLConnectionImpl.java:168)
+E/StrictMode( 1985):    at com.biaoqi.stbwidget.host.WeatherWidgetHelper.getWeatherContent(WeatherWidgetHelper.java:57)
+E/StrictMode( 1985):    at com.biaoqi.stbwidget.host.WeatherWidgetHelper.getCurrentCityWeather(WeatherWidgetHelper.java:86)
+E/StrictMode( 1985):    at com.biaoqi.stbwidget.host.WeatherWidgetProvider$1.run(WeatherWidgetProvider.java:62)
+E/StrictMode( 1985):    at java.lang.Thread.run(Thread.java:856)
+D/MediaPlayerService(  744): countTracks = 1
+D/MediaPlayerService(  744): mime = audio/vorbis
+D/MediaPlayerService(  744): videoCnt = 0, audioCnt = 1
+D/MediaPlayerService(  744): Ogg
+E/StrictMode( 1985): A resource was acquired at attached stack trace but never released. See java.io.Closeable for information on avoiding resource leaks.
+E/StrictMode( 1985): java.lang.Throwable: Explicit termination method 'end' not called
+E/StrictMode( 1985):    at dalvik.system.CloseGuard.open(CloseGuard.java:184)
+E/StrictMode( 1985):    at java.util.zip.Inflater.<init>(Inflater.java:82)
+E/StrictMode( 1985):    at java.util.zip.GZIPInputStream.<init>(GZIPInputStream.java:96)
+E/StrictMode( 1985):    at java.util.zip.GZIPInputStream.<init>(GZIPInputStream.java:81)
+E/StrictMode( 1985):    at libcore.net.http.HttpEngine.initContentStream(HttpEngine.java:512)
+E/StrictMode( 1985):    at libcore.net.http.HttpEngine.readResponse(HttpEngine.java:805)
+E/StrictMode( 1985):    at libcore.net.http.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:274)
+E/StrictMode( 1985):    at libcore.net.http.HttpURLConnectionImpl.getInputStream(HttpURLConnectionImpl.java:168)
+E/StrictMode( 1985):    at com.biaoqi.stbwidget.host.WeatherWidgetHelper.getWeatherContent(WeatherWidgetHelper.java:57)
+E/StrictMode( 1985):    at com.biaoqi.stbwidget.host.WeatherWidgetHelper.getCurrentCityWeather(WeatherWidgetHelper.java:87)
+E/StrictMode( 1985):    at com.biaoqi.stbwidget.host.WeatherWidgetProvider$1.run(WeatherWidgetProvider.java:62)
+E/StrictMode( 1985):    at java.lang.Thread.run(Thread.java:856)
+E/AC3Extractor(  744): Rsyn Fail
+E/MetadataRetrieverClient(  744): failed to extract an album art
+E/AC3Extractor(  744): Rsyn Fail
+D/HomePlayerLib( 1859): hostaddress count is 2
+D/dalvikvm( 1859): GC_CONCURRENT freed 2019K, 44% free 7444K/13251K, paused 2ms+4ms
+D/dalvikvm( 1985): GREF has increased to 301
+E/AC3Extractor(  744): Rsyn Fail
+D/dalvikvm( 1985): GC_CONCURRENT freed 1978K, 46% free 6821K/12547K, paused 2ms+3ms
+E/StrictMode( 1985): A resource was acquired at attached stack trace but never released. See java.io.Closeable for information on avoiding resource leaks.
+E/StrictMode( 1985): java.lang.Throwable: Explicit termination method 'end' not called
+E/StrictMode( 1985):    at dalvik.system.CloseGuard.open(CloseGuard.java:184)
+E/StrictMode( 1985):    at java.util.zip.Inflater.<init>(Inflater.java:82)
+E/StrictMode( 1985):    at java.util.zip.GZIPInputStream.<init>(GZIPInputStream.java:96)
+E/StrictMode( 1985):    at java.util.zip.GZIPInputStream.<init>(GZIPInputStream.java:81)
+E/StrictMode( 1985):    at libcore.net.http.HttpEngine.initContentStream(HttpEngine.java:512)
+E/StrictMode( 1985):    at libcore.net.http.HttpEngine.readResponse(HttpEngine.java:805)
+E/StrictMode( 1985):    at libcore.net.http.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:274)
+E/StrictMode( 1985):    at libcore.net.http.HttpURLConnectionImpl.getInputStream(HttpURLConnectionImpl.java:168)
+E/StrictMode( 1985):    at com.biaoqi.stbwidget.host.WeatherWidgetHelper.getWeatherContent(WeatherWidgetHelper.java:57)
+E/StrictMode( 1985):    at com.biaoqi.stbwidget.host.WeatherWidgetHelper.getCurrentCityWeather(WeatherWidgetHelper.java:86)
+E/StrictMode( 1985):    at com.biaoqi.stbwidget.host.WeatherWidgetProvider$1.run(WeatherWidgetProvider.java:63)
+E/StrictMode( 1985):    at java.lang.Thread.run(Thread.java:856)
+E/StrictMode( 1985): A resource was acquired at attached stack trace but never released. See java.io.Closeable for information on avoiding resource leaks.
+E/StrictMode( 1985): java.lang.Throwable: Explicit termination method 'end' not called
+E/StrictMode( 1985):    at dalvik.system.CloseGuard.open(CloseGuard.java:184)
+E/StrictMode( 1985):    at java.util.zip.Inflater.<init>(Inflater.java:82)
+E/StrictMode( 1985):    at java.util.zip.GZIPInputStream.<init>(GZIPInputStream.java:96)
+E/StrictMode( 1985):    at java.util.zip.GZIPInputStream.<init>(GZIPInputStream.java:81)
+E/StrictMode( 1985):    at libcore.net.http.HttpEngine.initContentStream(HttpEngine.java:512)
+E/StrictMode( 1985):    at libcore.net.http.HttpEngine.readResponse(HttpEngine.java:805)
+E/StrictMode( 1985):    at libcore.net.http.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:274)
+E/StrictMode( 1985):    at libcore.net.http.HttpURLConnectionImpl.getInputStream(HttpURLConnectionImpl.java:168)
+E/StrictMode( 1985):    at com.biaoqi.stbwidget.host.WeatherWidgetHelper.getWeatherContent(WeatherWidgetHelper.java:57)
+E/StrictMode( 1985):    at com.biaoqi.stbwidget.host.WeatherWidgetHelper.getCurrentCityWeather(WeatherWidgetHelper.java:87)
+E/StrictMode( 1985):    at com.biaoqi.stbwidget.host.WeatherWidgetProvider$1.run(WeatherWidgetProvider.java:63)
+E/StrictMode( 1985):    at java.lang.Thread.run(Thread.java:856)
+E/StrictMode( 1985): A resource was acquired at attached stack trace but never released. See java.io.Closeable for information on avoiding resource leaks.
+E/StrictMode( 1985): java.lang.Throwable: Explicit termination method 'end' not called
+E/StrictMode( 1985):    at dalvik.system.CloseGuard.open(CloseGuard.java:184)
+E/StrictMode( 1985):    at java.util.zip.Inflater.<init>(Inflater.java:82)
+E/StrictMode( 1985):    at java.util.zip.GZIPInputStream.<init>(GZIPInputStream.java:96)
+E/StrictMode( 1985):    at java.util.zip.GZIPInputStream.<init>(GZIPInputStream.java:81)
+E/StrictMode( 1985):    at libcore.net.http.HttpEngine.initContentStream(HttpEngine.java:512)
+E/StrictMode( 1985):    at libcore.net.http.HttpEngine.readResponse(HttpEngine.java:805)
+E/StrictMode( 1985):    at libcore.net.http.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:274)
+E/StrictMode( 1985):    at libcore.net.http.HttpURLConnectionImpl.getInputStream(HttpURLConnectionImpl.java:168)
+E/StrictMode( 1985):    at com.biaoqi.stbwidget.host.WeatherWidgetHelper.getWeatherContent(WeatherWidgetHelper.java:57)
+E/StrictMode( 1985):    at com.biaoqi.stbwidget.host.WeatherWidgetHelper.getCurrentCityWeather(WeatherWidgetHelper.java:86)
+E/StrictMode( 1985):    at com.biaoqi.stbwidget.host.WeatherWidgetProvider$1.run(WeatherWidgetProvider.java:64)
+E/StrictMode( 1985):    at java.lang.Thread.run(Thread.java:856)
+E/StrictMode( 1985): A resource was acquired at attached stack trace but never released. See java.io.Closeable for information on avoiding resource leaks.
+E/StrictMode( 1985): java.lang.Throwable: Explicit termination method 'end' not called
+E/StrictMode( 1985):    at dalvik.system.CloseGuard.open(CloseGuard.java:184)
+E/StrictMode( 1985):    at java.util.zip.Inflater.<init>(Inflater.java:82)
+E/StrictMode( 1985):    at java.util.zip.GZIPInputStream.<init>(GZIPInputStream.java:96)
+E/StrictMode( 1985):    at java.util.zip.GZIPInputStream.<init>(GZIPInputStream.java:81)
+E/StrictMode( 1985):    at libcore.net.http.HttpEngine.initContentStream(HttpEngine.java:512)
+E/StrictMode( 1985):    at libcore.net.http.HttpEngine.readResponse(HttpEngine.java:805)
+E/StrictMode( 1985):    at libcore.net.http.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:274)
+E/StrictMode( 1985):    at libcore.net.http.HttpURLConnectionImpl.getInputStream(HttpURLConnectionImpl.java:168)
+E/StrictMode( 1985):    at com.biaoqi.stbwidget.host.WeatherWidgetHelper.getWeatherContent(WeatherWidgetHelper.java:57)
+E/StrictMode( 1985):    at com.biaoqi.stbwidget.host.WeatherWidgetHelper.getCurrentCityWeather(WeatherWidgetHelper.java:87)
+E/StrictMode( 1985):    at com.biaoqi.stbwidget.host.WeatherWidgetProvider$1.run(WeatherWidgetProvider.java:64)
+E/StrictMode( 1985):    at java.lang.Thread.run(Thread.java:856)
+D/dalvikvm( 1985): GREF has decreased to 116
+E/CheckinTask( 1419): Checkin failed: https://android.clients.google.com/checkin (request #0)
+E/CheckinTask( 1419): java.io.IOException: Rejected response from server: HTTP/1.1 400 invalid hardware identifier: "000000000000" is not a valid MAC address (expect 12 hex digits)
+E/CheckinTask( 1419):   at com.google.android.gsf.checkin.CheckinTask.parseResponse(CheckinTask.java:313)
+E/CheckinTask( 1419):   at com.google.android.gsf.checkin.CheckinTask.sendRequest(CheckinTask.java:261)
+E/CheckinTask( 1419):   at com.google.android.gsf.checkin.CheckinTask.doInBackground(CheckinTask.java:150)
+E/CheckinTask( 1419):   at com.google.android.gsf.checkin.CheckinService$1.doInBackground(CheckinService.java:221)
+E/CheckinTask( 1419):   at com.google.android.gsf.checkin.CheckinService$1.doInBackground(CheckinService.java:214)
+E/CheckinTask( 1419):   at android.os.AsyncTask$2.call(AsyncTask.java:264)
+E/CheckinTask( 1419):   at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:305)
+E/CheckinTask( 1419):   at java.util.concurrent.FutureTask.run(FutureTask.java:137)
+E/CheckinTask( 1419):   at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1076)
+E/CheckinTask( 1419):   at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:569)
+E/CheckinTask( 1419):   at java.lang.Thread.run(Thread.java:856)
+E/AC3Extractor(  744): Rsyn Fail
+D/NetTransportUtil( 1654): 数据读取失败！url: http://172.20.27.17:90/userCenter/queryUserInfo?userName=20130502211502246018&version=V001&authKey=66cd6fcb65111ec87f9ec946f9cc94f4
+D/CheckLoginTask( 1654): Query user info failed !
+E/AC3Extractor(  744): Rsyn Fail
+E/AC3Extractor(  744): Rsyn Fail
+D/ConnectivityService( 1067): handleInetConditionHoldEnd: net=9, condition=0, published condition=0
+D/dalvikvm( 1859): GC_CONCURRENT freed 2145K, 43% free 7569K/13251K, paused 3ms+3ms
+E/AC3Extractor(  744): Rsyn Fail
+E/AC3Extractor(  744): Rsyn Fail
+E/AC3Extractor(  744): Rsyn Fail
+D/dalvikvm( 1859): GC_CONCURRENT freed 2287K, 45% free 7341K/13315K, paused 2ms+4ms
+E/AC3Extractor(  744): Rsyn Fail
+E/AC3Extractor(  744): Rsyn Fail
+E/AC3Extractor(  744): Rsyn Fail
+E/AC3Extractor(  744): Rsyn Fail
+E/AC3Extractor(  744): Rsyn Fail
+E/AC3Extractor(  744): Rsyn Fail
+E/AC3Extractor(  744): Rsyn Fail
+D/dalvikvm( 1859): GC_CONCURRENT freed 2107K, 46% free 7277K/13315K, paused 3ms+3ms
+D/dalvikvm( 1590): GC_CONCURRENT freed 424K, 75% free 1396K/5571K, paused 2ms+2ms
+E/AC3Extractor(  744): Rsyn Fail
+E/AC3Extractor(  744): Rsyn Fail
+E/AC3Extractor(  744): Rsyn Fail
+E/AC3Extractor(  744): Rsyn Fail
+E/AC3Extractor(  744): Rsyn Fail
+E/AC3Extractor(  744): Rsyn Fail
+E/AC3Extractor(  744): Rsyn Fail
+E/AC3Extractor(  744): Rsyn Fail
+E/AC3Extractor(  744): Rsyn Fail
+E/AC3Extractor(  744): Rsyn Fail
+D/dalvikvm( 1859): GC_CONCURRENT freed 1976K, 45% free 7347K/13315K, paused 4ms+4ms
+E/AC3Extractor(  744): Rsyn Fail
+E/AC3Extractor(  744): Rsyn Fail
+E/AC3Extractor(  744): Rsyn Fail
+E/AC3Extractor(  744): Rsyn Fail
+E/AC3Extractor(  744): Rsyn Fail
+E/AC3Extractor(  744): Rsyn Fail
+E/AC3Extractor(  744): Rsyn Fail
+E/AC3Extractor(  744): Rsyn Fail
+D/dalvikvm( 1859): GC_CONCURRENT freed 2072K, 46% free 7320K/13315K, paused 2ms+3ms
+E/AC3Extractor(  744): Rsyn Fail
+E/AC3Extractor(  744): Rsyn Fail
+E/AC3Extractor(  744): Rsyn Fail
+E/AC3Extractor(  744): Rsyn Fail
+E/AC3Extractor(  744): Rsyn Fail
+E/AC3Extractor(  744): Rsyn Fail
+E/AC3Extractor(  744): Rsyn Fail
+E/AC3Extractor(  744): Rsyn Fail
+E/AC3Extractor(  744): Rsyn Fail
+D/dalvikvm( 1859): GC_CONCURRENT freed 2047K, 46% free 7265K/13315K, paused 2ms+4ms
+E/AC3Extractor(  744): Rsyn Fail
+E/AC3Extractor(  744): Rsyn Fail
+E/AC3Extractor(  744): Rsyn Fail
+E/AC3Extractor(  744): Rsyn Fail
+E/AC3Extractor(  744): Rsyn Fail
+D/dalvikvm( 1590): GC_CONCURRENT freed 434K, 76% free 1387K/5571K, paused 1ms+1ms
+E/AC3Extractor(  744): Rsyn Fail
+E/AC3Extractor(  744): Rsyn Fail
+E/AC3Extractor(  744): Rsyn Fail
+E/AC3Extractor(  744): Rsyn Fail
+E/AC3Extractor(  744): Rsyn Fail
+E/AC3Extractor(  744): Rsyn Fail
+D/dalvikvm( 1859): GC_CONCURRENT freed 1966K, 45% free 7345K/13315K, paused 3ms+4ms
+E/AC3Extractor(  744): Rsyn Fail
+E/AC3Extractor(  744): Rsyn Fail
+E/AC3Extractor(  744): Rsyn Fail
+E/AC3Extractor(  744): Rsyn Fail
+E/AC3Extractor(  744): Rsyn Fail
+D/MediaPlayerService(  744): countTracks = 1
+D/MediaPlayerService(  744): mime = audio/vorbis
+D/MediaPlayerService(  744): videoCnt = 0, audioCnt = 1
+D/MediaPlayerService(  744): Ogg
+E/AC3Extractor(  744): Rsyn Fail
+E/MetadataRetrieverClient(  744): failed to extract an album art
+E/AC3Extractor(  744): Rsyn Fail
+E/AC3Extractor(  744): Rsyn Fail
+E/AC3Extractor(  744): Rsyn Fail
+E/AC3Extractor(  744): Rsyn Fail
+E/AC3Extractor(  744): Rsyn Fail
+I/CheckinService( 1419): Preparing to send checkin request
+I/EventLogService( 1419): Accumulating logs since 1368452578278
+E/AC3Extractor(  744): Rsyn Fail
+D/dalvikvm( 1419): GC_CONCURRENT freed 430K, 72% free 1649K/5827K, paused 2ms+2ms
+W/CheckinRequestBuilder( 1419): Unknown phone type: 0 id=null
+V/CheckinRequestBuilder( 1419): pre-froyo android id is 0
+E/AC3Extractor(  744): Rsyn Fail
+D/dalvikvm( 1859): GC_CONCURRENT freed 2144K, 46% free 7243K/13315K, paused 4ms+4ms
+D/dalvikvm( 1419): GC_FOR_ALLOC freed 74K, 72% free 1665K/5827K, paused 18ms
+I/dalvikvm-heap( 1419): Grow heap (frag case) to 5.293MB for 69852-byte allocation
+E/AC3Extractor(  744): Rsyn Fail
+D/dalvikvm( 1419): GC_FOR_ALLOC freed 32K, 72% free 1701K/5955K, paused 18ms
+I/CheckinTask( 1419): Sending checkin request (6939 bytes)
+E/AC3Extractor(  744): Rsyn Fail
+E/AC3Extractor(  744): Rsyn Fail
+W/BackupManagerService( 1067): dataChanged but no participant pkg='com.android.providers.settings' uid=10011
+E/AC3Extractor(  744): Rsyn Fail
+E/AC3Extractor(  744): Rsyn Fail
+E/AC3Extractor(  744): Rsyn Fail
+E/AC3Extractor(  744): Rsyn Fail
+E/CheckinTask( 1419): Checkin failed: https://android.clients.google.com/checkin (request #0)
+E/CheckinTask( 1419): java.io.IOException: Rejected response from server: HTTP/1.1 400 invalid hardware identifier: "000000000000" is not a valid MAC address (expect 12 hex digits)
+E/CheckinTask( 1419):   at com.google.android.gsf.checkin.CheckinTask.parseResponse(CheckinTask.java:313)
+E/CheckinTask( 1419):   at com.google.android.gsf.checkin.CheckinTask.sendRequest(CheckinTask.java:261)
+E/CheckinTask( 1419):   at com.google.android.gsf.checkin.CheckinTask.doInBackground(CheckinTask.java:150)
+E/CheckinTask( 1419):   at com.google.android.gsf.checkin.CheckinService$1.doInBackground(CheckinService.java:221)
+E/CheckinTask( 1419):   at com.google.android.gsf.checkin.CheckinService$1.doInBackground(CheckinService.java:214)
+E/CheckinTask( 1419):   at android.os.AsyncTask$2.call(AsyncTask.java:264)
+E/CheckinTask( 1419):   at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:305)
+E/CheckinTask( 1419):   at java.util.concurrent.FutureTask.run(FutureTask.java:137)
+E/CheckinTask( 1419):   at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1076)
+E/CheckinTask( 1419):   at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:569)
+E/CheckinTask( 1419):   at java.lang.Thread.run(Thread.java:856)
+D/dalvikvm( 1419): GC_CONCURRENT freed 437K, 72% free 1670K/5955K, paused 1ms+2ms
+E/AC3Extractor(  744): Rsyn Fail
+E/AC3Extractor(  744): Rsyn Fail
+D/dalvikvm( 1859): GC_CONCURRENT freed 1960K, 46% free 7318K/13315K, paused 14ms+3ms
+E/AC3Extractor(  744): Rsyn Fail
+E/AC3Extractor(  744): Rsyn Fail
+E/AC3Extractor(  744): Rsyn Fail
+E/AC3Extractor(  744): Rsyn Fail
+D/dalvikvm( 1590): GC_CONCURRENT freed 422K, 75% free 1398K/5571K, paused 2ms+2ms
+E/AC3Extractor(  744): Rsyn Fail
+E/AC3Extractor(  744): Rsyn Fail
+E/AC3Extractor(  744): Rsyn Fail
+E/AC3Extractor(  744): Rsyn Fail
+E/AC3Extractor(  744): Rsyn Fail
+E/AC3Extractor(  744): Rsyn Fail
+E/AC3Extractor(  744): Rsyn Fail
+E/AC3Extractor(  744): Rsyn Fail
+E/AC3Extractor(  744): Rsyn Fail
+E/AC3Extractor(  744): Rsyn Fail
+E/AC3Extractor(  744): Rsyn Fail
+E/AC3Extractor(  744): Rsyn Fail
+E/AC3Extractor(  744): Rsyn Fail
+E/AC3Extractor(  744): Rsyn Fail
+E/AC3Extractor(  744): Rsyn Fail
+D/MediaPlayerService(  744): countTracks = 1
+D/MediaPlayerService(  744): mime = audio/vorbis
+D/MediaPlayerService(  744): videoCnt = 0, audioCnt = 1
+D/MediaPlayerService(  744): Ogg
+E/AC3Extractor(  744): Rsyn Fail
+E/MetadataRetrieverClient(  744): failed to extract an album art
+E/AC3Extractor(  744): Rsyn Fail
+E/AC3Extractor(  744): Rsyn Fail
+E/AC3Extractor(  744): Rsyn Fail
+E/AC3Extractor(  744): Rsyn Fail
+E/AC3Extractor(  744): Rsyn Fail
+E/AC3Extractor(  744): Rsyn Fail
+E/AC3Extractor(  744): Rsyn Fail
+E/AC3Extractor(  744): Rsyn Fail
+E/AC3Extractor(  744): Rsyn Fail
+E/AC3Extractor(  744): Rsyn Fail
+E/AC3Extractor(  744): Rsyn Fail
+D/dalvikvm( 1859): GC_CONCURRENT freed 2093K, 46% free 7217K/13315K, paused 2ms+3ms
+E/AC3Extractor(  744): Rsyn Fail
+I/MediaScannerService( 1590): ===========================================
+I/MediaScannerService( 1590): ====== ACTION_MEDIA_SCANNER_FINISHED ======
+I/MediaScannerService( 1590): ===========================================
+I//lib/ld-linux.so.3(  748): 6666
+V/main    ( 1368): ++++keyCode+++22
+D/dalvikvm( 1368): GC_FOR_ALLOC freed 1086K, 22% free 17524K/22339K, paused 13ms
+I/dalvikvm-heap( 1368): Grow heap (frag case) to 22.310MB for 1674688-byte allocation
+D/dalvikvm( 1368): GC_FOR_ALLOC freed 7K, 21% free 19152K/24003K, paused 20ms
+V/main    ( 1368): ++++keyCode+++22
+D/dalvikvm( 1368): GC_FOR_ALLOC freed 1640K, 28% free 17514K/24003K, paused 11ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 1919K, 45% free 7345K/13315K, paused 6ms+3ms
+D/HomePlayerLib( 1859): hostaddress count is 2
+D/dalvikvm( 1859): GC_CONCURRENT freed 2057K, 44% free 7577K/13315K, paused 2ms+4ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 2284K, 46% free 7271K/13315K, paused 2ms+4ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 1962K, 45% free 7357K/13315K, paused 2ms+4ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 2047K, 45% free 7351K/13315K, paused 2ms+3ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 2060K, 46% free 7213K/13315K, paused 2ms+4ms
+I/CheckinService( 1419): Preparing to send checkin request
+I/EventLogService( 1419): Accumulating logs since 1368452585626
+W/CheckinRequestBuilder( 1419): Unknown phone type: 0 id=null
+V/CheckinRequestBuilder( 1419): pre-froyo android id is 0
+D/dalvikvm( 1419): GC_CONCURRENT freed 234K, 70% free 1831K/5955K, paused 1ms+2ms
+I/CheckinTask( 1419): Sending checkin request (6939 bytes)
+E/CheckinTask( 1419): Checkin failed: https://android.clients.google.com/checkin (request #0)
+E/CheckinTask( 1419): java.io.IOException: Rejected response from server: HTTP/1.1 400 invalid hardware identifier: "000000000000" is not a valid MAC address (expect 12 hex digits)
+E/CheckinTask( 1419):   at com.google.android.gsf.checkin.CheckinTask.parseResponse(CheckinTask.java:313)
+E/CheckinTask( 1419):   at com.google.android.gsf.checkin.CheckinTask.sendRequest(CheckinTask.java:261)
+E/CheckinTask( 1419):   at com.google.android.gsf.checkin.CheckinTask.doInBackground(CheckinTask.java:150)
+E/CheckinTask( 1419):   at com.google.android.gsf.checkin.CheckinService$1.doInBackground(CheckinService.java:221)
+E/CheckinTask( 1419):   at com.google.android.gsf.checkin.CheckinService$1.doInBackground(CheckinService.java:214)
+E/CheckinTask( 1419):   at android.os.AsyncTask$2.call(AsyncTask.java:264)
+E/CheckinTask( 1419):   at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:305)
+E/CheckinTask( 1419):   at java.util.concurrent.FutureTask.run(FutureTask.java:137)
+E/CheckinTask( 1419):   at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1076)
+E/CheckinTask( 1419):   at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:569)
+E/CheckinTask( 1419):   at java.lang.Thread.run(Thread.java:856)
+D/dalvikvm( 1859): GC_CONCURRENT freed 1927K, 45% free 7330K/13315K, paused 2ms+3ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 2033K, 45% free 7344K/13315K, paused 3ms+3ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 2049K, 46% free 7259K/13315K, paused 2ms+4ms
+V/main    ( 1368): ++++keyCode+++22
+D/dalvikvm( 1368): GC_FOR_ALLOC freed 1639K, 28% free 17518K/24003K, paused 11ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 1971K, 46% free 7248K/13315K, paused 2ms+4ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 1952K, 46% free 7234K/13315K, paused 2ms+4ms
+V/main    ( 1368): ++++keyCode+++22
+D/dalvikvm( 1368): GC_FOR_ALLOC freed 1641K, 28% free 17517K/24003K, paused 10ms
+D/HomePlayerLib( 1859): hostaddress count is 2
+D/dalvikvm( 1859): GC_CONCURRENT freed 1940K, 45% free 7372K/13315K, paused 4ms+4ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 2061K, 46% free 7266K/13315K, paused 2ms+3ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 1964K, 46% free 7230K/13315K, paused 2ms+3ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 1915K, 44% free 7487K/13315K, paused 2ms+3ms
+V/main    ( 1368): ++++keyCode+++21
+D/dalvikvm( 1859): GC_CONCURRENT freed 2178K, 45% free 7377K/13315K, paused 2ms+4ms
+V/main    ( 1368): ++++keyCode+++22
+D/dalvikvm( 1859): GC_CONCURRENT freed 2066K, 46% free 7286K/13315K, paused 3ms+4ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 1992K, 46% free 7213K/13315K, paused 3ms+4ms
+D/dalvikvm( 1067): GC_CONCURRENT freed 789K, 63% free 3505K/9283K, paused 2ms+3ms
+I/CheckinService( 1419): Preparing to send checkin request
+I/EventLogService( 1419): Accumulating logs since 1368452596375
+D/dalvikvm( 1419): GC_CONCURRENT freed 621K, 73% free 1649K/6019K, paused 1ms+2ms
+W/CheckinRequestBuilder( 1419): Unknown phone type: 0 id=null
+V/CheckinRequestBuilder( 1419): pre-froyo android id is 0
+D/dalvikvm( 1419): GC_FOR_ALLOC freed 108K, 72% free 1736K/6019K, paused 14ms
+I/dalvikvm-heap( 1419): Grow heap (frag case) to 5.358MB for 65674-byte allocation
+D/dalvikvm( 1419): GC_FOR_ALLOC freed 1K, 71% free 1798K/6147K, paused 14ms
+I/CheckinTask( 1419): Sending checkin request (6939 bytes)
+D/dalvikvm( 1859): GC_CONCURRENT freed 1916K, 45% free 7401K/13315K, paused 2ms+3ms
+E/CheckinTask( 1419): Checkin failed: https://android.clients.google.com/checkin (request #0)
+E/CheckinTask( 1419): java.io.IOException: Rejected response from server: HTTP/1.1 400 invalid hardware identifier: "000000000000" is not a valid MAC address (expect 12 hex digits)
+E/CheckinTask( 1419):   at com.google.android.gsf.checkin.CheckinTask.parseResponse(CheckinTask.java:313)
+E/CheckinTask( 1419):   at com.google.android.gsf.checkin.CheckinTask.sendRequest(CheckinTask.java:261)
+E/CheckinTask( 1419):   at com.google.android.gsf.checkin.CheckinTask.doInBackground(CheckinTask.java:150)
+E/CheckinTask( 1419):   at com.google.android.gsf.checkin.CheckinService$1.doInBackground(CheckinService.java:221)
+E/CheckinTask( 1419):   at com.google.android.gsf.checkin.CheckinService$1.doInBackground(CheckinService.java:214)
+E/CheckinTask( 1419):   at android.os.AsyncTask$2.call(AsyncTask.java:264)
+E/CheckinTask( 1419):   at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:305)
+E/CheckinTask( 1419):   at java.util.concurrent.FutureTask.run(FutureTask.java:137)
+E/CheckinTask( 1419):   at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1076)
+E/CheckinTask( 1419):   at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:569)
+E/CheckinTask( 1419):   at java.lang.Thread.run(Thread.java:856)
+D/dalvikvm( 1859): GC_CONCURRENT freed 2102K, 46% free 7295K/13315K, paused 2ms+3ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 1993K, 46% free 7279K/13315K, paused 3ms+4ms
+D/HomePlayerLib( 1859): hostaddress count is 2
+D/dalvikvm( 1859): GC_CONCURRENT freed 1989K, 46% free 7219K/13315K, paused 2ms+3ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 1909K, 44% free 7486K/13315K, paused 2ms+3ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 2168K, 46% free 7322K/13315K, paused 2ms+4ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 2005K, 45% free 7365K/13315K, paused 2ms+3ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 2055K, 46% free 7239K/13315K, paused 2ms+3ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 1941K, 45% free 7333K/13315K, paused 2ms+3ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 2031K, 46% free 7268K/13315K, paused 2ms+3ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 1971K, 46% free 7296K/13315K, paused 2ms+3ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 1993K, 46% free 7268K/13315K, paused 2ms+3ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 1982K, 46% free 7221K/13315K, paused 3ms+4ms
+D/HomePlayerLib( 1859): hostaddress count is 2
+D/dalvikvm( 1859): GC_CONCURRENT freed 1934K, 46% free 7247K/13315K, paused 2ms+3ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 1941K, 44% free 7471K/13315K, paused 2ms+3ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 2167K, 45% free 7351K/13315K, paused 2ms+3ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 2045K, 45% free 7352K/13315K, paused 2ms+4ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 2054K, 46% free 7226K/13315K, paused 2ms+3ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 1926K, 46% free 7321K/13315K, paused 2ms+4ms
+W/ThrottleService( 1067): unable to find stats for iface rmnet0
+D/dalvikvm( 1419): GC_CONCURRENT freed 525K, 73% free 1662K/6147K, paused 1ms+2ms
+I/CheckinService( 1419): Preparing to send checkin request
+I/EventLogService( 1419): Accumulating logs since 1368452612000
+W/CheckinRequestBuilder( 1419): Unknown phone type: 0 id=null
+V/CheckinRequestBuilder( 1419): pre-froyo android id is 0
+I/CheckinTask( 1419): Sending checkin request (6939 bytes)
+D/dalvikvm( 1419): GC_CONCURRENT freed 278K, 72% free 1767K/6147K, paused 1ms+2ms
+E/CheckinTask( 1419): Checkin failed: https://android.clients.google.com/checkin (request #0)
+E/CheckinTask( 1419): java.io.IOException: Rejected response from server: HTTP/1.1 400 invalid hardware identifier: "000000000000" is not a valid MAC address (expect 12 hex digits)
+E/CheckinTask( 1419):   at com.google.android.gsf.checkin.CheckinTask.parseResponse(CheckinTask.java:313)
+E/CheckinTask( 1419):   at com.google.android.gsf.checkin.CheckinTask.sendRequest(CheckinTask.java:261)
+E/CheckinTask( 1419):   at com.google.android.gsf.checkin.CheckinTask.doInBackground(CheckinTask.java:150)
+E/CheckinTask( 1419):   at com.google.android.gsf.checkin.CheckinService$1.doInBackground(CheckinService.java:221)
+E/CheckinTask( 1419):   at com.google.android.gsf.checkin.CheckinService$1.doInBackground(CheckinService.java:214)
+E/CheckinTask( 1419):   at android.os.AsyncTask$2.call(AsyncTask.java:264)
+E/CheckinTask( 1419):   at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:305)
+E/CheckinTask( 1419):   at java.util.concurrent.FutureTask.run(FutureTask.java:137)
+E/CheckinTask( 1419):   at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1076)
+E/CheckinTask( 1419):   at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:569)
+E/CheckinTask( 1419):   at java.lang.Thread.run(Thread.java:856)
+D/dalvikvm( 1859): GC_CONCURRENT freed 2017K, 46% free 7252K/13315K, paused 3ms+4ms
+D/HomePlayerLib( 1859): hostaddress count is 2
+D/dalvikvm( 1859): GC_CONCURRENT freed 1963K, 46% free 7280K/13315K, paused 2ms+4ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 1983K, 46% free 7251K/13315K, paused 2ms+3ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 1938K, 46% free 7244K/13315K, paused 2ms+3ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 1948K, 46% free 7296K/13315K, paused 2ms+4ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 1991K, 45% free 7352K/13315K, paused 2ms+3ms
+D/CheckNetWork( 1827): isOk true
+D/CheckNetWork( 1827): ActInfoNetworkInfo: type: ETH[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), roaming: false, failover: false, isAvailable: true
+D/CheckNetWork( 1827): infoNetworkInfo: type: ETH[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), roaming: false, failover: false, isAvailable: true
+D/MiracastControl( 1962): receive addr: 192.168.2.17:57561 msgType: easysetting msgData: action=getnetwork&type=p2p
+W/dalvikvm( 1962): threadid=12: thread exiting with uncaught exception (group=0x40fa81f8)
+E/AndroidRuntime( 1962): FATAL EXCEPTION: Thread-112
+E/AndroidRuntime( 1962): java.lang.NullPointerException
+E/AndroidRuntime( 1962):        at com.coship.stpservice.MiracastControlService.processGetNetworkCommand(MiracastControlService.java:389)
+E/AndroidRuntime( 1962):        at com.coship.stpservice.MiracastControlService.processMiracastControlMessage(MiracastControlService.java:430)
+E/AndroidRuntime( 1962):        at com.coship.stpservice.MiracastControlService$3.run(MiracastControlService.java:149)
+D/TextLayoutCache( 1067): Using debug level: 0 - Debug Enabled: 0
+D/dalvikvm( 1067): GC_FOR_ALLOC freed 234K, 62% free 3557K/9283K, paused 172ms
+I/dalvikvm-heap( 1067): Grow heap (frag case) to 7.680MB for 635812-byte allocation
+D/dalvikvm( 1067): GC_FOR_ALLOC freed 6K, 58% free 4171K/9923K, paused 36ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 2055K, 46% free 7256K/13315K, paused 4ms+5ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 1951K, 46% free 7267K/13315K, paused 2ms+4ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 1976K, 46% free 7218K/13315K, paused 3ms+4ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 1919K, 46% free 7280K/13315K, paused 3ms+4ms
+D/HomePlayerLib( 1859): hostaddress count is 2
+D/dalvikvm( 1859): GC_CONCURRENT freed 1987K, 45% free 7411K/13315K, paused 2ms+4ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 2107K, 45% free 7425K/13315K, paused 2ms+3ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 2113K, 46% free 7255K/13315K, paused 2ms+5ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 1951K, 45% free 7347K/13315K, paused 3ms+4ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 2032K, 46% free 7278K/13315K, paused 3ms+4ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 1974K, 46% free 7262K/13315K, paused 2ms+3ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 1959K, 46% free 7237K/13315K, paused 2ms+3ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 1930K, 46% free 7282K/13315K, paused 2ms+3ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 1979K, 46% free 7307K/13315K, paused 3ms+4ms
+I/CheckinService( 1419): Preparing to send checkin request
+I/EventLogService( 1419): Accumulating logs since 1368452632647
+W/CheckinRequestBuilder( 1419): Unknown phone type: 0 id=null
+V/CheckinRequestBuilder( 1419): pre-froyo android id is 0
+D/dalvikvm( 1419): GC_CONCURRENT freed 496K, 74% free 1655K/6147K, paused 1ms+2ms
+I/CheckinTask( 1419): Sending checkin request (7059 bytes)
+D/dalvikvm( 1419): GC_CONCURRENT freed 253K, 71% free 1785K/6147K, paused 1ms+2ms
+E/CheckinTask( 1419): Checkin failed: https://android.clients.google.com/checkin (request #0)
+E/CheckinTask( 1419): java.io.IOException: Rejected response from server: HTTP/1.1 400 invalid hardware identifier: "000000000000" is not a valid MAC address (expect 12 hex digits)
+E/CheckinTask( 1419):   at com.google.android.gsf.checkin.CheckinTask.parseResponse(CheckinTask.java:313)
+E/CheckinTask( 1419):   at com.google.android.gsf.checkin.CheckinTask.sendRequest(CheckinTask.java:261)
+E/CheckinTask( 1419):   at com.google.android.gsf.checkin.CheckinTask.doInBackground(CheckinTask.java:150)
+E/CheckinTask( 1419):   at com.google.android.gsf.checkin.CheckinService$1.doInBackground(CheckinService.java:221)
+E/CheckinTask( 1419):   at com.google.android.gsf.checkin.CheckinService$1.doInBackground(CheckinService.java:214)
+E/CheckinTask( 1419):   at android.os.AsyncTask$2.call(AsyncTask.java:264)
+E/CheckinTask( 1419):   at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:305)
+E/CheckinTask( 1419):   at java.util.concurrent.FutureTask.run(FutureTask.java:137)
+E/CheckinTask( 1419):   at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1076)
+E/CheckinTask( 1419):   at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:569)
+E/CheckinTask( 1419):   at java.lang.Thread.run(Thread.java:856)
+D/HomePlayerLib( 1859): hostaddress count is 2
+D/dalvikvm( 1859): GC_CONCURRENT freed 1998K, 46% free 7248K/13315K, paused 3ms+4ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 1957K, 46% free 7307K/13315K, paused 2ms+3ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 2003K, 45% free 7346K/13315K, paused 2ms+3ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 2044K, 45% free 7346K/13315K, paused 2ms+3ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 2052K, 46% free 7221K/13315K, paused 3ms+3ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 1914K, 45% free 7343K/13315K, paused 2ms+4ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 2032K, 45% free 7346K/13315K, paused 3ms+4ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 2052K, 46% free 7221K/13315K, paused 3ms+3ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 1916K, 45% free 7344K/13315K, paused 2ms+3ms
+D/HomePlayerLib( 1859): hostaddress count is 2
+D/dalvikvm( 1859): GC_CONCURRENT freed 2051K, 45% free 7334K/13315K, paused 2ms+3ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 2041K, 45% free 7378K/13315K, paused 2ms+4ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 2083K, 45% free 7359K/13315K, paused 2ms+3ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 2051K, 46% free 7246K/13315K, paused 2ms+3ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 1952K, 46% free 7254K/13315K, paused 2ms+4ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 1964K, 46% free 7221K/13315K, paused 2ms+3ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 1914K, 45% free 7344K/13315K, paused 2ms+3ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 2052K, 45% free 7335K/13315K, paused 2ms+3ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 2019K, 46% free 7253K/13315K, paused 3ms+4ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 1950K, 46% free 7315K/13315K, paused 2ms+3ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 2014K, 45% free 7349K/13315K, paused 2ms+4ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 2046K, 46% free 7280K/13315K, paused 3ms+3ms
+D/HomePlayerLib( 1859): hostaddress count is 2
+D/dalvikvm( 1859): GC_CONCURRENT freed 1984K, 46% free 7254K/13315K, paused 2ms+4ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 1958K, 46% free 7289K/13315K, paused 2ms+4ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 1986K, 45% free 7350K/13315K, paused 2ms+3ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 2034K, 46% free 7243K/13315K, paused 2ms+3ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 1949K, 45% free 7341K/13315K, paused 2ms+3ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 2037K, 46% free 7227K/13315K, paused 3ms+4ms
+I/CheckinService( 1419): Preparing to send checkin request
+I/EventLogService( 1419): Accumulating logs since 1368452658207
+W/CheckinRequestBuilder( 1419): Unknown phone type: 0 id=null
+V/CheckinRequestBuilder( 1419): pre-froyo android id is 0
+D/dalvikvm( 1419): GC_CONCURRENT freed 478K, 71% free 1800K/6147K, paused 2ms+2ms
+I/CheckinTask( 1419): Sending checkin request (7059 bytes)
+D/dalvikvm( 1859): GC_CONCURRENT freed 1929K, 45% free 7337K/13315K, paused 2ms+3ms
+E/CheckinTask( 1419): Checkin failed: https://android.clients.google.com/checkin (request #0)
+E/CheckinTask( 1419): java.io.IOException: Rejected response from server: HTTP/1.1 400 invalid hardware identifier: "000000000000" is not a valid MAC address (expect 12 hex digits)
+E/CheckinTask( 1419):   at com.google.android.gsf.checkin.CheckinTask.parseResponse(CheckinTask.java:313)
+E/CheckinTask( 1419):   at com.google.android.gsf.checkin.CheckinTask.sendRequest(CheckinTask.java:261)
+E/CheckinTask( 1419):   at com.google.android.gsf.checkin.CheckinTask.doInBackground(CheckinTask.java:150)
+E/CheckinTask( 1419):   at com.google.android.gsf.checkin.CheckinService$1.doInBackground(CheckinService.java:221)
+E/CheckinTask( 1419):   at com.google.android.gsf.checkin.CheckinService$1.doInBackground(CheckinService.java:214)
+E/CheckinTask( 1419):   at android.os.AsyncTask$2.call(AsyncTask.java:264)
+E/CheckinTask( 1419):   at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:305)
+E/CheckinTask( 1419):   at java.util.concurrent.FutureTask.run(FutureTask.java:137)
+E/CheckinTask( 1419):   at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1076)
+E/CheckinTask( 1419):   at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:569)
+E/CheckinTask( 1419):   at java.lang.Thread.run(Thread.java:856)
+D/dalvikvm( 1859): GC_CONCURRENT freed 2036K, 45% free 7377K/13315K, paused 2ms+4ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 2077K, 45% free 7376K/13315K, paused 2ms+3ms
+D/HomePlayerLib( 1859): hostaddress count is 2
+D/dalvikvm( 1859): GC_CONCURRENT freed 2079K, 45% free 7341K/13315K, paused 2ms+3ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 2096K, 46% free 7288K/13315K, paused 2ms+3ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 1987K, 46% free 7278K/13315K, paused 3ms+4ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 1982K, 45% free 7340K/13315K, paused 2ms+4ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 2035K, 46% free 7254K/13315K, paused 2ms+4ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 1944K, 46% free 7283K/13315K, paused 2ms+3ms
+D/CheckNetWork( 1827): isOk true
+D/CheckNetWork( 1827): ActInfoNetworkInfo: type: ETH[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), roaming: false, failover: false, isAvailable: true
+D/CheckNetWork( 1827): infoNetworkInfo: type: ETH[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), roaming: false, failover: false, isAvailable: true
+D/dalvikvm( 1859): GC_CONCURRENT freed 1980K, 45% free 7350K/13315K, paused 2ms+3ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 2048K, 45% free 7364K/13315K, paused 2ms+3ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 2060K, 46% free 7268K/13315K, paused 2ms+4ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 1972K, 46% free 7250K/13315K, paused 2ms+3ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 1952K, 45% free 7340K/13315K, paused 2ms+4ms
+D/HomePlayerLib( 1859): hostaddress count is 2
+D/dalvikvm( 1859): GC_CONCURRENT freed 2053K, 46% free 7247K/13315K, paused 2ms+3ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 1949K, 46% free 7279K/13315K, paused 2ms+3ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 1986K, 45% free 7337K/13315K, paused 2ms+4ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 2043K, 45% free 7339K/13315K, paused 2ms+4ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 2030K, 46% free 7278K/13315K, paused 2ms+3ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 1978K, 46% free 7267K/13315K, paused 2ms+4ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 1974K, 46% free 7214K/13315K, paused 2ms+3ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 1913K, 46% free 7266K/13315K, paused 2ms+3ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 1958K, 46% free 7312K/13315K, paused 3ms+4ms
+D/HomePlayerLib( 1859): hostaddress count is 2
+D/dalvikvm( 1859): GC_CONCURRENT freed 2011K, 46% free 7248K/13315K, paused 2ms+3ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 1956K, 44% free 7467K/13315K, paused 3ms+4ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 2134K, 45% free 7448K/13315K, paused 2ms+3ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 2139K, 46% free 7262K/13315K, paused 3ms+4ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 1958K, 46% free 7305K/13315K, paused 2ms+3ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 1993K, 45% free 7359K/13315K, paused 2ms+4ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 2048K, 45% free 7387K/13315K, paused 3ms+3ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 2072K, 46% free 7264K/13315K, paused 3ms+3ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 1960K, 45% free 7347K/13315K, paused 2ms+3ms
+D/dalvikvm( 1419): GC_CONCURRENT freed 542K, 73% free 1715K/6147K, paused 1ms+2ms
+I/CheckinService( 1419): Preparing to send checkin request
+I/EventLogService( 1419): Accumulating logs since 1368452688808
+W/CheckinRequestBuilder( 1419): Unknown phone type: 0 id=null
+V/CheckinRequestBuilder( 1419): pre-froyo android id is 0
+D/dalvikvm( 1859): GC_CONCURRENT freed 2165K, 46% free 7229K/13315K, paused 2ms+4ms
+I/CheckinTask( 1419): Sending checkin request (7059 bytes)
+D/dalvikvm( 1419): GC_CONCURRENT freed 330K, 72% free 1768K/6147K, paused 1ms+1ms
+E/CheckinTask( 1419): Checkin failed: https://android.clients.google.com/checkin (request #0)
+E/CheckinTask( 1419): java.io.IOException: Rejected response from server: HTTP/1.1 400 invalid hardware identifier: "000000000000" is not a valid MAC address (expect 12 hex digits)
+E/CheckinTask( 1419):   at com.google.android.gsf.checkin.CheckinTask.parseResponse(CheckinTask.java:313)
+E/CheckinTask( 1419):   at com.google.android.gsf.checkin.CheckinTask.sendRequest(CheckinTask.java:261)
+E/CheckinTask( 1419):   at com.google.android.gsf.checkin.CheckinTask.doInBackground(CheckinTask.java:150)
+E/CheckinTask( 1419):   at com.google.android.gsf.checkin.CheckinService$1.doInBackground(CheckinService.java:221)
+E/CheckinTask( 1419):   at com.google.android.gsf.checkin.CheckinService$1.doInBackground(CheckinService.java:214)
+E/CheckinTask( 1419):   at android.os.AsyncTask$2.call(AsyncTask.java:264)
+E/CheckinTask( 1419):   at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:305)
+E/CheckinTask( 1419):   at java.util.concurrent.FutureTask.run(FutureTask.java:137)
+E/CheckinTask( 1419):   at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1076)
+E/CheckinTask( 1419):   at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:569)
+E/CheckinTask( 1419):   at java.lang.Thread.run(Thread.java:856)
+D/dalvikvm( 1859): GC_CONCURRENT freed 1928K, 46% free 7237K/13315K, paused 2ms+3ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 1931K, 46% free 7277K/13315K, paused 2ms+3ms
+D/HomePlayerLib( 1859): hostaddress count is 2
+D/dalvikvm( 1859): GC_CONCURRENT freed 1984K, 45% free 7380K/13315K, paused 3ms+4ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 2058K, 45% free 7354K/13315K, paused 2ms+3ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 2052K, 45% free 7347K/13315K, paused 2ms+3ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 2050K, 46% free 7246K/13315K, paused 2ms+3ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 1951K, 46% free 7255K/13315K, paused 3ms+3ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 1946K, 46% free 7242K/13315K, paused 2ms+3ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 1937K, 45% free 7359K/13315K, paused 2ms+4ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 2059K, 45% free 7341K/13315K, paused 2ms+3ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 2037K, 45% free 7334K/13315K, paused 2ms+3ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 2027K, 46% free 7284K/13315K, paused 3ms+4ms
+D/HomePlayerLib( 1859): hostaddress count is 2
+D/dalvikvm( 1859): GC_CONCURRENT freed 1984K, 45% free 7339K/13315K, paused 2ms+3ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 2046K, 46% free 7225K/13315K, paused 2ms+3ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 1915K, 46% free 7284K/13315K, paused 2ms+3ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 1985K, 45% free 7341K/13315K, paused 2ms+3ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 2036K, 45% free 7350K/13315K, paused 2ms+3ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 2058K, 46% free 7271K/13315K, paused 2ms+3ms
+
+[  243.434334] IR: [03932] scan key value is 0x3ec1bd02 
+[  243.434339]  
+[  243.487244] IR: [03932] scan key value is 0x3ec1bd02 
+[  243.487248]  
+[  243.818875] IR: [03932] scan key value is 0x3ec1bd02 
+[  243.818879]  
+[  243.871807] IR: [03932] scan key value is 0x3ec1bd02 
+[  243.871812]  D/dalvikvm( 1859): GC_CONCURRENT freed 1962K, 46% free 7240K/13315K, paused 2ms+3ms
+
+[  244.243264] IR: [03932] scan key value is 0x3ec1bd02 
+[  244.243269]  
+D/dalvikvm( 1859): GC_CONCURRENT freed 1941K, 46% free 7295K/13315K, paused 2ms+4ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 1984K, 45% free 7324K/13315K, paused 3ms+4ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 2022K, 45% free 7349K/13315K, paused 2ms+3ms
+D/UpdateInstallAppStatusTimerTask( 2027):  ------:: UpdateInstallAppStatusTimerTask execute...
+D/dalvikvm( 1859): GC_CONCURRENT freed 2048K, 45% free 7346K/13315K, paused 3ms+4ms
+D/HomePlayerLib( 1859): hostaddress count is 2
+D/dalvikvm( 1859): GC_CONCURRENT freed 2054K, 45% free 7362K/13315K, paused 2ms+3ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 2067K, 46% free 7221K/13315K, paused 2ms+4ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 1910K, 45% free 7344K/13315K, paused 3ms+4ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 2050K, 46% free 7294K/13315K, paused 2ms+4ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 1988K, 46% free 7242K/13315K, paused 2ms+3ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 1940K, 45% free 7349K/13315K, paused 2ms+4ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 2048K, 45% free 7346K/13315K, paused 2ms+4ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 2052K, 46% free 7222K/13315K, paused 2ms+3ms
+D/PushMsgCenter( 1774): mDownUpRun run while (true)
+D/PushMsgCenter( 1774): down  
+D/PushMsgCenter( 1774): down conn.getResponseCode() status = 404
+D/CheckNetWork( 1827): isOk true
+D/CheckNetWork( 1827): ActInfoNetworkInfo: type: ETH[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), roaming: false, failover: false, isAvailable: true
+D/CheckNetWork( 1827): infoNetworkInfo: type: ETH[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), roaming: false, failover: false, isAvailable: true
+D/dalvikvm( 1859): GC_CONCURRENT freed 1916K, 45% free 7404K/13315K, paused 2ms+3ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 2097K, 46% free 7294K/13315K, paused 2ms+4ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 1996K, 45% free 7334K/13315K, paused 2ms+4ms
+D/HomePlayerLib( 1859): hostaddress count is 2
+D/dalvikvm( 1859): GC_CONCURRENT freed 2049K, 46% free 7307K/13315K, paused 2ms+3ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 1991K, 45% free 7342K/13315K, paused 2ms+3ms
+I/CheckinService( 1419): Preparing to send checkin request
+I/EventLogService( 1419): Accumulating logs since 1368452724415
+W/CheckinRequestBuilder( 1419): Unknown phone type: 0 id=null
+V/CheckinRequestBuilder( 1419): pre-froyo android id is 0
+D/dalvikvm( 1419): GC_CONCURRENT freed 498K, 74% free 1659K/6147K, paused 2ms+2ms
+I/CheckinTask( 1419): Sending checkin request (7059 bytes)
+D/dalvikvm( 1859): GC_CONCURRENT freed 2019K, 43% free 7653K/13315K, paused 3ms+4ms
+D/dalvikvm( 1419): GC_CONCURRENT freed 254K, 71% free 1788K/6147K, paused 2ms+2ms
+E/CheckinTask( 1419): Checkin failed: https://android.clients.google.com/checkin (request #0)
+E/CheckinTask( 1419): java.io.IOException: Rejected response from server: HTTP/1.1 400 invalid hardware identifier: "000000000000" is not a valid MAC address (expect 12 hex digits)
+E/CheckinTask( 1419):   at com.google.android.gsf.checkin.CheckinTask.parseResponse(CheckinTask.java:313)
+E/CheckinTask( 1419):   at com.google.android.gsf.checkin.CheckinTask.sendRequest(CheckinTask.java:261)
+E/CheckinTask( 1419):   at com.google.android.gsf.checkin.CheckinTask.doInBackground(CheckinTask.java:150)
+E/CheckinTask( 1419):   at com.google.android.gsf.checkin.CheckinService$1.doInBackground(CheckinService.java:221)
+E/CheckinTask( 1419):   at com.google.android.gsf.checkin.CheckinService$1.doInBackground(CheckinService.java:214)
+E/CheckinTask( 1419):   at android.os.AsyncTask$2.call(AsyncTask.java:264)
+E/CheckinTask( 1419):   at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:305)
+E/CheckinTask( 1419):   at java.util.concurrent.FutureTask.run(FutureTask.java:137)
+E/CheckinTask( 1419):   at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1076)
+E/CheckinTask( 1419):   at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:569)
+E/CheckinTask( 1419):   at java.lang.Thread.run(Thread.java:856)
+D/dalvikvm( 1859): GC_CONCURRENT freed 2405K, 46% free 7363K/13443K, paused 2ms+3ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 2068K, 45% free 7431K/13443K, paused 2ms+3ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 2129K, 47% free 7254K/13443K, paused 2ms+4ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 1947K, 46% free 7364K/13443K, paused 2ms+4ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 2061K, 46% free 7351K/13443K, paused 2ms+4ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 2052K, 47% free 7239K/13443K, paused 2ms+3ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 1943K, 47% free 7248K/13443K, paused 2ms+4ms
+D/HomePlayerLib( 1859): hostaddress count is 2
+D/dalvikvm( 1859): GC_CONCURRENT freed 1955K, 46% free 7291K/13443K, paused 2ms+3ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 1979K, 47% free 7252K/13443K, paused 2ms+4ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 1945K, 46% free 7278K/13443K, paused 2ms+4ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 1961K, 46% free 7365K/13443K, paused 3ms+3ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 2056K, 47% free 7244K/13443K, paused 3ms+3ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 1941K, 47% free 7252K/13443K, paused 2ms+4ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 1944K, 47% free 7242K/13443K, paused 3ms+4ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 1939K, 47% free 7226K/13443K, paused 2ms+3ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 1927K, 47% free 7255K/13443K, paused 2ms+3ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 1950K, 47% free 7253K/13443K, paused 2ms+4ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 1945K, 47% free 7237K/13443K, paused 2ms+3ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 1937K, 46% free 7342K/13443K, paused 2ms+3ms
+D/HomePlayerLib( 1859): hostaddress count is 2
+D/dalvikvm( 1859): GC_CONCURRENT freed 2039K, 45% free 7430K/13443K, paused 2ms+3ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 2132K, 46% free 7360K/13443K, paused 2ms+3ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 2050K, 47% free 7239K/13443K, paused 2ms+3ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 1922K, 46% free 7370K/13443K, paused 2ms+4ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 2062K, 46% free 7346K/13443K, paused 2ms+3ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 2028K, 47% free 7252K/13443K, paused 3ms+4ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 1941K, 46% free 7262K/13443K, paused 2ms+4ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 1972K, 47% free 7215K/13443K, paused 2ms+3ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 1914K, 46% free 7262K/13443K, paused 3ms+4ms
+D/HomePlayerLib( 1859): hostaddress count is 2
+D/dalvikvm( 1859): GC_CONCURRENT freed 1972K, 47% free 7246K/13443K, paused 2ms+3ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 1943K, 46% free 7349K/13443K, paused 2ms+4ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 2044K, 46% free 7348K/13443K, paused 2ms+4ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 2022K, 47% free 7252K/13443K, paused 2ms+5ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 1942K, 46% free 7358K/13443K, paused 2ms+3ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 2048K, 46% free 7355K/13443K, paused 2ms+3ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 2052K, 47% free 7232K/13443K, paused 2ms+3ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 1915K, 46% free 7290K/13443K, paused 3ms+4ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 1978K, 46% free 7263K/13443K, paused 2ms+3ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 1953K, 46% free 7278K/13443K, paused 3ms+4ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 1980K, 46% free 7268K/13443K, paused 2ms+3ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 1972K, 47% free 7252K/13443K, paused 2ms+3ms
+D/HomePlayerLib( 1859): hostaddress count is 2
+D/dalvikvm( 1859): GC_CONCURRENT freed 1952K, 46% free 7304K/13443K, paused 2ms+4ms
+I/CheckinService( 1419): Preparing to send checkin request
+I/EventLogService( 1419): Accumulating logs since 1368452765060
+W/CheckinRequestBuilder( 1419): Unknown phone type: 0 id=null
+V/CheckinRequestBuilder( 1419): pre-froyo android id is 0
+D/dalvikvm( 1419): GC_CONCURRENT freed 478K, 73% free 1698K/6147K, paused 2ms+2ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 2066K, 46% free 7305K/13443K, paused 4ms+7ms
+I/CheckinTask( 1419): Sending checkin request (7059 bytes)
+D/dalvikvm( 1419): GC_CONCURRENT freed 305K, 72% free 1776K/6147K, paused 2ms+2ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 1998K, 46% free 7289K/13443K, paused 3ms+4ms
+E/CheckinTask( 1419): Checkin failed: https://android.clients.google.com/checkin (request #0)
+E/CheckinTask( 1419): java.io.IOException: Rejected response from server: HTTP/1.1 400 invalid hardware identifier: "000000000000" is not a valid MAC address (expect 12 hex digits)
+E/CheckinTask( 1419):   at com.google.android.gsf.checkin.CheckinTask.parseResponse(CheckinTask.java:313)
+E/CheckinTask( 1419):   at com.google.android.gsf.checkin.CheckinTask.sendRequest(CheckinTask.java:261)
+E/CheckinTask( 1419):   at com.google.android.gsf.checkin.CheckinTask.doInBackground(CheckinTask.java:150)
+E/CheckinTask( 1419):   at com.google.android.gsf.checkin.CheckinService$1.doInBackground(CheckinService.java:221)
+E/CheckinTask( 1419):   at com.google.android.gsf.checkin.CheckinService$1.doInBackground(CheckinService.java:214)
+E/CheckinTask( 1419):   at android.os.AsyncTask$2.call(AsyncTask.java:264)
+E/CheckinTask( 1419):   at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:305)
+E/CheckinTask( 1419):   at java.util.concurrent.FutureTask.run(FutureTask.java:137)
+E/CheckinTask( 1419):   at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1076)
+E/CheckinTask( 1419):   at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:569)
+E/CheckinTask( 1419):   at java.lang.Thread.run(Thread.java:856)
+D/dalvikvm( 1859): GC_CONCURRENT freed 1963K, 46% free 7261K/13443K, paused 2ms+4ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 1957K, 46% free 7305K/13443K, paused 2ms+3ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 1993K, 46% free 7261K/13443K, paused 2ms+3ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 1947K, 47% free 7252K/13443K, paused 2ms+4ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 1947K, 46% free 7360K/13443K, paused 2ms+3ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 2062K, 46% free 7350K/13443K, paused 2ms+3ms
+D/CheckNetWork( 1827): isOk true
+D/CheckNetWork( 1827): ActInfoNetworkInfo: type: ETH[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), roaming: false, failover: false, isAvailable: true
+D/CheckNetWork( 1827): infoNetworkInfo: type: ETH[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), roaming: false, failover: false, isAvailable: true
+D/dalvikvm( 1859): GC_CONCURRENT freed 2049K, 47% free 7254K/13443K, paused 2ms+3ms
+D/HomePlayerLib( 1859): hostaddress count is 2
+D/dalvikvm( 1859): GC_CONCURRENT freed 1963K, 46% free 7296K/13443K, paused 3ms+3ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 1984K, 46% free 7321K/13443K, paused 2ms+3ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 2025K, 46% free 7339K/13443K, paused 2ms+3ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 2031K, 47% free 7240K/13443K, paused 2ms+3ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 1940K, 46% free 7340K/13443K, paused 2ms+3ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 2038K, 46% free 7375K/13443K, paused 2ms+4ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 2076K, 46% free 7267K/13443K, paused 2ms+4ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 1972K, 46% free 7292K/13443K, paused 2ms+6ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 1993K, 46% free 7375K/13443K, paused 2ms+3ms
+D/dalvikvm( 1859): GC_CONCURRENT freed 2185K, 47% free 7235K/13443K, paused 2ms+4ms
+D/ImplicitAppManagerTimerTask( 2027):  ------:: ImplicitAppManagerTimerTask execute...1368452832607
+D/HomePlayerLib( 1859): hostaddress count is 2
+D/ImplicitAppManagerTimerTask( 2027):  ------:: retObj = {"resultObject":{"pageSize":10,"resultList":[{"packageName":"com.coship.cibn","executeAction":2,"versionCode":31,"downloadUrl":"http:\/\/app.longvisionmedia.com:80\/upload\/signedapp\/6e91fe89-a22a-40b2-9eba-3b3886b19c29.apk"},{"packageName":"com.aidufei.movieonline","executeAction":2,"versionCode":45,"downloadUrl":"http:\/\/app.longvisionmedia.com:80\/upload\/signedapp\/8ee1d716-0f45-4aa4-83ca-639839913b51.apk"},{"packageName":"com.fiship.cibn","executeAction":2,"versionCode":33,"downloadUrl":"http:\/\/app.longvisionmedia.com:80\/upload\/signedapp\/b87505c1-a36f-4b31-8194-40f57fa0ba4f.apk"},{"packageName":"com.fiship.media","executeAction":2,"versionCode":47,"downloadUrl":"http:\/\/app.longvisionmedia.com:80\/upload\/signedapp\/65388c8e-2c5a-4996-9a6b-dcf0b7a90d1a.apk"},{"packageName":"com.aidufei.cibn.uploadchecker","executeAction":2,"versionCode":7,"downloadUrl":"http:\/\/app.longvisionmedia.com:80\/upload\/signedapp\/afdc12fa-9cea-4766-8cec-fea0d3fd3673.apk"}],"hasNextPage":false,"currentPage":1,"totalPage":0,"totalCount":5,"hasPrePage":false},"respseStatus":"0","respseDesc":"Success"}
+D/dalvikvm( 1859): GC_CONCURRENT freed 1988K, 46% free 7310K/13443K, paused 4ms+4ms
+D/dalvikvm( 1067): GC_CONCURRENT freed 1059K, 61% free 3925K/9923K, paused 2ms+5ms
+D/ImplicitAppManagerTimerTask( 2027):  ------:: downUpgradeClient  downloadUrl= http://app.longvisionmedia.com:80/upload/signedapp/65388c8e-2c5a-4996-9a6b-dcf0b7a90d1a.apk
+D/ImplicitAppManagerTimerTask( 2027):  ------:: Server:Apache-Coyote/1.1
+D/ImplicitAppManagerTimerTask( 2027):  ------:: Accept-Ranges:bytes
+D/ImplicitAppManagerTimerTask( 2027):  ------:: ETag:W/"6669385-1368427841000"
+D/ImplicitAppManagerTimerTask( 2027):  ------:: Last-Modified:Mon, 13 May 2013 06:50:41 GMT
+D/ImplicitAppManagerTimerTask( 2027):  ------:: Content-Type:application/vnd.android.package-archive
+D/ImplicitAppManagerTimerTask( 2027):  ------:: Content-Length:6669385
+D/ImplicitAppManagerTimerTask( 2027):  ------:: mTotalSize:6669385
+D/ImplicitAppManagerTimerTask( 2027):  ------:: storage ret:true
+D/dalvikvm( 1859): GC_CONCURRENT freed 2014K, 47% free 7217K/13443K, paused 2ms+4ms
+D/ImplicitAppManagerTimerTask( 2027):  ------:: download length: 5459
+D/ImplicitAppManagerTimerTask( 2027):  ------:: download length: 79119
+D/dalvikvm( 1859): GC_CONCURRENT freed 1921K, 45% free 7439K/13443K, paused 2ms+3ms
+D/ImplicitAppManagerTimerTask( 2027):  ------:: download length: 151763
+D/ImplicitAppManagerTimerTask( 2027):  ------:: download length: 245131
+D/dalvikvm( 1859): GC_CONCURRENT freed 2127K, 46% free 7286K/13443K, paused 2ms+4ms
+D/ImplicitAppManagerTimerTask( 2027):  ------:: download length: 338203
+D/ImplicitAppManagerTimerTask( 2027):  ------:: download length: 431447
+D/ImplicitAppManagerTimerTask( 2027):  ------:: download length: 479011
+D/ImplicitAppManagerTimerTask( 2027):  ------:: download length: 556391
+D/dalvikvm( 1859): GC_CONCURRENT freed 1989K, 47% free 7254K/13443K, paused 3ms+4ms
+D/ImplicitAppManagerTimerTask( 2027):  ------:: download length: 607491
+D/ImplicitAppManagerTimerTask( 2027):  ------:: download length: 677571
+D/ImplicitAppManagerTimerTask( 2027):  ------:: download length: 727211
+D/ImplicitAppManagerTimerTask( 2027):  ------:: download length: 778311
+D/ImplicitAppManagerTimerTask( 2027):  ------:: download length: 829411
+D/ImplicitAppManagerTimerTask( 2027):  ------:: download length: 884891
+D/ImplicitAppManagerTimerTask( 2027):  ------:: download length: 943291
+D/ImplicitAppManagerTimerTask( 2027):  ------:: download length: 1001691
+D/ImplicitAppManagerTimerTask( 2027):  ------:: download length: 1092211
+D/ImplicitAppManagerTimerTask( 2027):  ------:: download length: 1121411
+D/ImplicitAppManagerTimerTask( 2027):  ------:: download length: 1188571
+D/ImplicitAppManagerTimerTask( 2027):  ------:: download length: 1261571
+D/dalvikvm( 1859): GC_CONCURRENT freed 1959K, 46% free 7265K/13443K, paused 2ms+3ms
+D/ImplicitAppManagerTimerTask( 2027):  ------:: download length: 1312671
+D/ImplicitAppManagerTimerTask( 2027):  ------:: download length: 1371071
+D/ImplicitAppManagerTimerTask( 2027):  ------:: download length: 1429471
+D/ImplicitAppManagerTimerTask( 2027):  ------:: download length: 1487871
+D/ImplicitAppManagerTimerTask( 2027):  ------:: download length: 1546271
+D/ImplicitAppManagerTimerTask( 2027):  ------:: download length: 1607591
+D/ImplicitAppManagerTimerTask( 2027):  ------:: download length: 1701159
+D/ImplicitAppManagerTimerTask( 2027):  ------:: download length: 1763811
+D/ImplicitAppManagerTimerTask( 2027):  ------:: download length: 1851411
+D/ImplicitAppManagerTimerTask( 2027):  ------:: download length: 1915651
+D/ImplicitAppManagerTimerTask( 2027):  ------:: download length: 1981351
+D/ImplicitAppManagerTimerTask( 2027):  ------:: download length: 2047051
+D/ImplicitAppManagerTimerTask( 2027):  ------:: download length: 2112751
+D/ImplicitAppManagerTimerTask( 2027):  ------:: download length: 2203271
+D/ImplicitAppManagerTimerTask( 2027):  ------:: download length: 2257291
+D/ImplicitAppManagerTimerTask( 2027):  ------:: download length: 2336131
+D/ImplicitAppManagerTimerTask( 2027):  ------:: download length: 2387231
+D/ImplicitAppManagerTimerTask( 2027):  ------:: download length: 2438331
+D/ImplicitAppManagerTimerTask( 2027):  ------:: download length: 2514251
+D/ImplicitAppManagerTimerTask( 2027):  ------:: download length: 2550751
+D/ImplicitAppManagerTimerTask( 2027):  ------:: download length: 2601851
+D/ImplicitAppManagerTimerTask( 2027):  ------:: download length: 2652951
+D/ImplicitAppManagerTimerTask( 2027):  ------:: download length: 2704051
+D/ImplicitAppManagerTimerTask( 2027):  ------:: download length: 2766831
+D/dalvikvm( 1859): GC_CONCURRENT freed 1964K, 46% free 7362K/13443K, paused 3ms+4ms
+D/ImplicitAppManagerTimerTask( 2027):  ------:: download length: 2797491
+D/ImplicitAppManagerTimerTask( 2027):  ------:: download length: 2861731
+D/ImplicitAppManagerTimerTask( 2027):  ------:: download length: 2892391
+D/ImplicitAppManagerTimerTask( 2027):  ------:: download length: 2943491
+D/dalvikvm( 1859): GC_CONCURRENT freed 2060K, 46% free 7342K/13443K, paused 3ms+4ms
+D/ImplicitAppManagerTimerTask( 2027):  ------:: download length: 2997511
+D/ImplicitAppManagerTimerTask( 2027):  ------:: download length: 3034011
+D/ImplicitAppManagerTimerTask( 2027):  ------:: download length: 3083651
+D/dalvikvm( 1859): GC_CONCURRENT freed 2025K, 46% free 7284K/13443K, paused 2ms+3ms
+D/ImplicitAppManagerTimerTask( 2027):  ------:: download length: 3168331
+D/ImplicitAppManagerTimerTask( 2027):  ------:: download length: 3222351
+D/ImplicitAppManagerTimerTask( 2027):  ------:: download length: 3280751
+D/ImplicitAppManagerTimerTask( 2027):  ------:: download length: 3339151
+D/dalvikvm( 1859): GC_CONCURRENT freed 1981K, 46% free 7390K/13443K, paused 2ms+4ms
+D/ImplicitAppManagerTimerTask( 2027):  ------:: download length: 3397551
+D/HomePlayerLib( 1859): hostaddress count is 2
+D/dalvikvm( 1859): GC_CONCURRENT freed 2081K, 46% free 7275K/13443K, paused 2ms+3ms
+D/ImplicitAppManagerTimerTask( 2027):  ------:: download length: 3455951
+D/ImplicitAppManagerTimerTask( 2027):  ------:: download length: 3527491
+D/dalvikvm( 1859): GC_CONCURRENT freed 2089K, 47% free 7231K/13443K, paused 3ms+3ms
+D/ImplicitAppManagerTimerTask( 2027):  ------:: download length: 3596111
+D/ImplicitAppManagerTimerTask( 2027):  ------:: download length: 3674951
+D/dalvikvm( 1859): GC_CONCURRENT freed 1918K, 46% free 7284K/13443K, paused 2ms+3ms
+D/ImplicitAppManagerTimerTask( 2027):  ------:: download length: 3731891
+D/ImplicitAppManagerTimerTask( 2027):  ------:: download length: 3813651
+D/ImplicitAppManagerTimerTask( 2027):  ------:: download length: 3864751
+D/dalvikvm( 1859): GC_CONCURRENT freed 1988K, 46% free 7341K/13443K, paused 2ms+4ms
+D/ImplicitAppManagerTimerTask( 2027):  ------:: download length: 3915851
+D/ImplicitAppManagerTimerTask( 2027):  ------:: download length: 3971331
+D/ImplicitAppManagerTimerTask( 2027):  ------:: download length: 4042871
+D/ImplicitAppManagerTimerTask( 2027):  ------:: download length: 4121711
+D/ImplicitAppManagerTimerTask( 2027):  ------:: download length: 4200551
+D/ImplicitAppManagerTimerTask( 2027):  ------:: download length: 4251651
+D/ImplicitAppManagerTimerTask( 2027):  ------:: download length: 4302751
+D/ImplicitAppManagerTimerTask( 2027):  ------:: download length: 4356771
+D/ImplicitAppManagerTimerTask( 2027):  ------:: download length: 4403491
+D/ImplicitAppManagerTimerTask( 2027):  ------:: download length: 4454591
+D/ImplicitAppManagerTimerTask( 2027):  ------:: download length: 4505691
+D/ImplicitAppManagerTimerTask( 2027):  ------:: download length: 4568471
+D/dalvikvm( 1859): GC_CONCURRENT freed 2038K, 47% free 7236K/13443K, paused 3ms+4ms
+D/ImplicitAppManagerTimerTask( 2027):  ------:: download length: 4599131
+D/ImplicitAppManagerTimerTask( 2027):  ------:: download length: 4650231
+D/ImplicitAppManagerTimerTask( 2027):  ------:: download length: 4727611
+D/ImplicitAppManagerTimerTask( 2027):  ------:: download length: 4769951
+D/ImplicitAppManagerTimerTask( 2027):  ------:: download length: 4821051
+D/ImplicitAppManagerTimerTask( 2027):  ------:: download length: 4889671
+D/ImplicitAppManagerTimerTask( 2027):  ------:: download length: 4981651
+D/ImplicitAppManagerTimerTask( 2027):  ------:: download length: 5023991
+D/ImplicitAppManagerTimerTask( 2027):  ------:: download length: 5075091
+D/ImplicitAppManagerTimerTask( 2027):  ------:: download length: 5126191
+D/ImplicitAppManagerTimerTask( 2027):  ------:: download length: 5199191
+D/ImplicitAppManagerTimerTask( 2027):  ------:: download length: 5235691
+^C
+130|shell@android:/ # [  460.513850] init: untracked pid 2099 exited
+[  460.518541] init: untracked pid 2100 exited
+[  460.522835] init: untracked pid 2101 exited
+[  460.529457] init: untracked pid 2102 exited

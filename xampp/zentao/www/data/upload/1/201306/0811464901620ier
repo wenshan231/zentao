@@ -1,0 +1,88 @@
+#! /bin/sh
+echo "=rc5 Start="
+export PATH="$PATH:/usr/local/bin"
+export LD_LIBRARY_PATH="/usr/local/lib"
+export QT_QWS_FONTDIR=/lib/fonts
+
+/sbin/netinfd &
+/sbin/ipcd &
+
+#
+# Kernel modules
+#
+ 
+    MODULE_DIR=/lib/modules/`uname -r`/BDP
+    MODULE_KOS="nls_base.ko nls_cp437.ko nls_ascii.ko nls_iso8859-1.ko nls_utf8.ko nls_cp936.ko fat.ko vfat.ko exfat.ko msdos.ko isofs.ko udf.ko tntfs.ko usbcore.ko usb-storage.ko mtk_hcd.ko hid.ko usbhid.ko cdrom.ko sr_mod.ko af_packet.ko"
+    for MODULE_KO in $MODULE_KOS; do
+        insmod ${MODULE_DIR}/${MODULE_KO}
+        if [ $? -ne 0 ]; then
+            echo "insert module ${MODULE_DIR}/${MODULE_KO} FAIL..."
+        else
+            echo "insert module ${MODULE_DIR}/${MODULE_KO} SUCCESS..."
+        fi
+    done
+ 
+
+if [  ]; then
+    MODULE_DIR=/lib/modules/`uname -r`/BDP
+    MODULE_KOS="cdrom.ko libata.ko sata_mt85xx_mod.ko sr_mod.ko"
+    for MODULE_KO in $MODULE_KOS; do
+        echo "insert module ${MODULE_DIR}/${MODULE_KO}"
+        insmod ${MODULE_DIR}/${MODULE_KO}
+        if [ $? -ne 0 ]; then
+            echo "insert module ${MODULE_DIR}/${MODULE_KO} FAIL..."
+        else    
+            echo "insert module ${MODULE_DIR}/${MODULE_KO} SUCCESS..."
+        fi
+    done
+fi
+
+
+
+
+
+
+
+
+#drop_cache &
+
+
+
+        bdpprog & 
+RES=$?
+echo "bdpprog result:$RES" | tee /$RES
+if [ $RES -eq 2 ]; then
+  poweroff
+elif [ $RES -eq 3 ]; then
+  reboot
+elif [ $RES -eq 4 ]; then
+  sh /etc/init.d/upg_1.sh
+elif [ $RES -eq 5 ]; then
+  poweroff
+elif [ $RES -eq 6 ]; then
+  reboot
+fi
+
+if [ -e /etc/init.d/rcS.custom ]; then
+  sh /etc/init.d/rcS.custom || exit $?
+fi
+
+echo 2 > /proc/sys/net/ipv4/conf/default/force_igmp_version
+echo 2 > /proc/sys/net/ipv4/conf/all/force_igmp_version
+echo 2 > /proc/sys/net/ipv4/conf/eth0/force_igmp_version
+
+
+
+insmod /lib/modules/2.6.27/BDP/rtutil5370sta.ko
+insmod /lib/modules/2.6.27/BDP/rt5370sta.ko
+insmod /lib/modules/2.6.27/BDP/rtnet5370sta.ko
+
+#ldd test
+if [ -e /mnt/ubi_boot/cust_part_1/rc.user ]; then
+  sh /mnt/ubi_boot/cust_part_1/rc.user
+elif [ -e /usr/local/bin/rc.user ]; then
+	sh /usr/local/bin/rc.user
+fi
+#ldd test end
+echo "=rc5 End="
+exit 0

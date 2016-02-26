@@ -1,0 +1,1514 @@
+
+shell@android:/ # 
+shell@android:/ # 
+shell@android:/ # logcat
+--------- beginning of /dev/log/system
+V/TabletStatusBar( 1160): setLightsOn(true)
+I/ActivityManager(  965): START {cmp=cn.tvbox/.activity.LoginActivity (has extras)} from pid 1801
+V/TabletStatusBar( 1160): setLightsOn(true)
+I/ActivityManager(  965): START {cmp=cn.tvbox/.activity.BaseActivityGroup} from pid 1801
+V/TabletStatusBar( 1160): setLightsOn(true)
+I/ActivityManager(  965): START {cmp=cn.tvbox/.activity.GameDetailActivity (has extras)} from pid 1801
+V/TabletStatusBar( 1160): setLightsOn(true)
+I/ActivityManager(  965): START {act=android.intent.action.VIEW dat=file:///data/data/cn.tvbox/files/233347.apk typ=application/vnd.android.package-archive cmp=com.android.packageinstaller/.PackageInstallerActivity} from pid 1801
+I/ActivityManager(  965): Start proc com.android.packageinstaller for activity com.android.packageinstaller/.PackageInstallerActivity: pid=2227 uid=10017 gids={}
+I/ActivityManager(  965): START {act=android.settings.SECURITY_SETTINGS flg=0x10000000 cmp=com.android.settings/.ApplicationSettings} from pid 2227
+E/AndroidRuntime( 1551): FATAL EXCEPTION: main
+E/AndroidRuntime( 1551): java.lang.RuntimeException: Unable to start activity ComponentInfo{com.android.settings/com.android.settings.ApplicationSettings}: java.lang.IllegalArgumentException
+E/AndroidRuntime( 1551):        at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:1956)
+E/AndroidRuntime( 1551):        at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:1981)
+E/AndroidRuntime( 1551):        at android.app.ActivityThread.access$600(ActivityThread.java:123)
+E/AndroidRuntime( 1551):        at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1147)
+E/AndroidRuntime( 1551):        at android.os.Handler.dispatchMessage(Handler.java:99)
+E/AndroidRuntime( 1551):        at android.os.Looper.loop(Looper.java:137)
+E/AndroidRuntime( 1551):        at android.app.ActivityThread.main(ActivityThread.java:4424)
+E/AndroidRuntime( 1551):        at java.lang.reflect.Method.invokeNative(Native Method)
+E/AndroidRuntime( 1551):        at java.lang.reflect.Method.invoke(Method.java:511)
+E/AndroidRuntime( 1551):        at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:848)
+E/AndroidRuntime( 1551):        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:575)
+E/AndroidRuntime( 1551):        at dalvik.system.NativeStart.main(Native Method)
+E/AndroidRuntime( 1551): Caused by: java.lang.IllegalArgumentException
+E/AndroidRuntime( 1551):        at android.os.StatFs.native_setup(Native Method)
+E/AndroidRuntime( 1551):        at android.os.StatFs.<init>(StatFs.java:32)
+E/AndroidRuntime( 1551):        at com.android.settings.ApplicationSettings.findViews(ApplicationSettings.java:306)
+E/AndroidRuntime( 1551):        at com.android.settings.ApplicationSettings.onCreate(ApplicationSettings.java:194)
+E/AndroidRuntime( 1551):        at android.app.Activity.performCreate(Activity.java:4465)
+E/AndroidRuntime( 1551):        at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1049)
+E/AndroidRuntime( 1551):        at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:1920)
+E/AndroidRuntime( 1551):        ... 11 more
+W/ActivityManager(  965):   Force finishing activity com.android.settings/.ApplicationSettings
+W/ActivityManager(  965): Activity pause timeout for ActivityRecord{4165d158 com.android.settings/.ApplicationSettings}
+I/ActivityManager(  965): No longer want android.process.acore (pid 1472): hidden #16
+V/TabletStatusBar( 1160): setLightsOn(true)
+W/InputManagerService(  965): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@41592918
+I/ActivityManager(  965): Process com.android.settings (pid 1551) has died.
+I/ActivityManager(  965): START {act=android.intent.action.VIEW dat=file:///data/data/cn.tvbox/files/233347.apk typ=application/vnd.android.package-archive cmp=com.android.packageinstaller/.PackageInstallerActivity} from pid 1801
+W/ActivityManager(  965): Activity destroy timeout for ActivityRecord{4165d158 com.android.settings/.ApplicationSettings}
+I/ActivityManager(  965): START {act=android.settings.SECURITY_SETTINGS flg=0x10000000 cmp=com.android.settings/.ApplicationSettings} from pid 2227
+I/ActivityManager(  965): Start proc com.android.settings for activity com.android.settings/.ApplicationSettings: pid=2250 uid=1000 gids={3003, 1015, 3002, 3001, 3004}
+E/AndroidRuntime( 2250): FATAL EXCEPTION: main
+E/AndroidRuntime( 2250): java.lang.RuntimeException: Unable to start activity ComponentInfo{com.android.settings/com.android.settings.ApplicationSettings}: java.lang.IllegalArgumentException
+E/AndroidRuntime( 2250):        at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:1956)
+E/AndroidRuntime( 2250):        at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:1981)
+E/AndroidRuntime( 2250):        at android.app.ActivityThread.access$600(ActivityThread.java:123)
+E/AndroidRuntime( 2250):        at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1147)
+E/AndroidRuntime( 2250):        at android.os.Handler.dispatchMessage(Handler.java:99)
+E/AndroidRuntime( 2250):        at android.os.Looper.loop(Looper.java:137)
+E/AndroidRuntime( 2250):        at android.app.ActivityThread.main(ActivityThread.java:4424)
+E/AndroidRuntime( 2250):        at java.lang.reflect.Method.invokeNative(Native Method)
+E/AndroidRuntime( 2250):        at java.lang.reflect.Method.invoke(Method.java:511)
+E/AndroidRuntime( 2250):        at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:848)
+E/AndroidRuntime( 2250):        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:575)
+E/AndroidRuntime( 2250):        at dalvik.system.NativeStart.main(Native Method)
+E/AndroidRuntime( 2250): Caused by: java.lang.IllegalArgumentException
+E/AndroidRuntime( 2250):        at android.os.StatFs.native_setup(Native Method)
+E/AndroidRuntime( 2250):        at android.os.StatFs.<init>(StatFs.java:32)
+E/AndroidRuntime( 2250):        at com.android.settings.ApplicationSettings.findViews(ApplicationSettings.java:306)
+E/AndroidRuntime( 2250):        at com.android.settings.ApplicationSettings.onCreate(ApplicationSettings.java:194)
+E/AndroidRuntime( 2250):        at android.app.Activity.performCreate(Activity.java:4465)
+E/AndroidRuntime( 2250):        at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1049)
+E/AndroidRuntime( 2250):        at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:1920)
+E/AndroidRuntime( 2250):        ... 11 more
+W/ActivityManager(  965):   Force finishing activity com.android.settings/.ApplicationSettings
+W/ActivityManager(  965): Activity pause timeout for ActivityRecord{416801a8 com.android.settings/.ApplicationSettings}
+I/ActivityManager(  965): Process com.android.settings (pid 2250) has died.
+V/TabletStatusBar( 1160): setLightsOn(true)
+W/InputManagerService(  965): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@416fb818
+I/ActivityManager(  965): START {act=android.intent.action.VIEW dat=file:///data/data/cn.tvbox/files/233347.apk typ=application/vnd.android.package-archive cmp=com.android.packageinstaller/.PackageInstallerActivity} from pid 1801
+I/ActivityManager(  965): START {act=android.settings.SECURITY_SETTINGS flg=0x10000000 cmp=com.android.settings/.ApplicationSettings} from pid 2227
+I/ActivityManager(  965): Start proc com.android.settings for activity com.android.settings/.ApplicationSettings: pid=2269 uid=1000 gids={3003, 1015, 3002, 3001, 3004}
+E/AndroidRuntime( 2269): FATAL EXCEPTION: main
+E/AndroidRuntime( 2269): java.lang.RuntimeException: Unable to start activity ComponentInfo{com.android.settings/com.android.settings.ApplicationSettings}: java.lang.IllegalArgumentException
+E/AndroidRuntime( 2269):        at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:1956)
+E/AndroidRuntime( 2269):        at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:1981)
+E/AndroidRuntime( 2269):        at android.app.ActivityThread.access$600(ActivityThread.java:123)
+E/AndroidRuntime( 2269):        at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1147)
+E/AndroidRuntime( 2269):        at android.os.Handler.dispatchMessage(Handler.java:99)
+E/AndroidRuntime( 2269):        at android.os.Looper.loop(Looper.java:137)
+E/AndroidRuntime( 2269):        at android.app.ActivityThread.main(ActivityThread.java:4424)
+E/AndroidRuntime( 2269):        at java.lang.reflect.Method.invokeNative(Native Method)
+E/AndroidRuntime( 2269):        at java.lang.reflect.Method.invoke(Method.java:511)
+E/AndroidRuntime( 2269):        at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:848)
+E/AndroidRuntime( 2269):        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:575)
+E/AndroidRuntime( 2269):        at dalvik.system.NativeStart.main(Native Method)
+E/AndroidRuntime( 2269): Caused by: java.lang.IllegalArgumentException
+E/AndroidRuntime( 2269):        at android.os.StatFs.native_setup(Native Method)
+E/AndroidRuntime( 2269):        at android.os.StatFs.<init>(StatFs.java:32)
+E/AndroidRuntime( 2269):        at com.android.settings.ApplicationSettings.findViews(ApplicationSettings.java:306)
+E/AndroidRuntime( 2269):        at com.android.settings.ApplicationSettings.onCreate(ApplicationSettings.java:194)
+E/AndroidRuntime( 2269):        at android.app.Activity.performCreate(Activity.java:4465)
+E/AndroidRuntime( 2269):        at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1049)
+E/AndroidRuntime( 2269):        at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:1920)
+E/AndroidRuntime( 2269):        ... 11 more
+W/ActivityManager(  965):   Force finishing activity com.android.settings/.ApplicationSettings
+W/ActivityManager(  965): Activity pause timeout for ActivityRecord{418e5ad0 com.android.settings/.ApplicationSettings}
+I/ActivityManager(  965): Process com.android.settings (pid 2269) has died.
+V/TabletStatusBar( 1160): setLightsOn(true)
+W/InputManagerService(  965): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4161a770
+I/ActivityManager(  965): START {act=android.intent.action.VIEW dat=file:///data/data/cn.tvbox/files/233347.apk typ=application/vnd.android.package-archive cmp=com.android.packageinstaller/.PackageInstallerActivity} from pid 1801
+W/ActivityManager(  965): Activity destroy timeout for ActivityRecord{416801a8 com.android.settings/.ApplicationSettings}
+I/ActivityManager(  965): START {act=android.settings.SECURITY_SETTINGS flg=0x10000000 cmp=com.android.settings/.ApplicationSettings} from pid 2227
+I/ActivityManager(  965): Start proc com.android.settings for activity com.android.settings/.ApplicationSettings: pid=2287 uid=1000 gids={3003, 1015, 3002, 3001, 3004}
+E/AndroidRuntime( 2287): FATAL EXCEPTION: main
+E/AndroidRuntime( 2287): java.lang.RuntimeException: Unable to start activity ComponentInfo{com.android.settings/com.android.settings.ApplicationSettings}: java.lang.IllegalArgumentException
+E/AndroidRuntime( 2287):        at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:1956)
+E/AndroidRuntime( 2287):        at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:1981)
+E/AndroidRuntime( 2287):        at android.app.ActivityThread.access$600(ActivityThread.java:123)
+E/AndroidRuntime( 2287):        at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1147)
+E/AndroidRuntime( 2287):        at android.os.Handler.dispatchMessage(Handler.java:99)
+E/AndroidRuntime( 2287):        at android.os.Looper.loop(Looper.java:137)
+E/AndroidRuntime( 2287):        at android.app.ActivityThread.main(ActivityThread.java:4424)
+E/AndroidRuntime( 2287):        at java.lang.reflect.Method.invokeNative(Native Method)
+E/AndroidRuntime( 2287):        at java.lang.reflect.Method.invoke(Method.java:511)
+E/AndroidRuntime( 2287):        at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:848)
+E/AndroidRuntime( 2287):        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:575)
+E/AndroidRuntime( 2287):        at dalvik.system.NativeStart.main(Native Method)
+E/AndroidRuntime( 2287): Caused by: java.lang.IllegalArgumentException
+E/AndroidRuntime( 2287):        at android.os.StatFs.native_setup(Native Method)
+E/AndroidRuntime( 2287):        at android.os.StatFs.<init>(StatFs.java:32)
+E/AndroidRuntime( 2287):        at com.android.settings.ApplicationSettings.findViews(ApplicationSettings.java:306)
+E/AndroidRuntime( 2287):        at com.android.settings.ApplicationSettings.onCreate(ApplicationSettings.java:194)
+E/AndroidRuntime( 2287):        at android.app.Activity.performCreate(Activity.java:4465)
+E/AndroidRuntime( 2287):        at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1049)
+E/AndroidRuntime( 2287):        at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:1920)
+E/AndroidRuntime( 2287):        ... 11 more
+W/ActivityManager(  965):   Force finishing activity com.android.settings/.ApplicationSettings
+W/ActivityManager(  965): Activity pause timeout for ActivityRecord{416d40a8 com.android.settings/.ApplicationSettings}
+I/ActivityManager(  965): Process com.android.settings (pid 2287) has died.
+V/TabletStatusBar( 1160): setLightsOn(true)
+W/InputManagerService(  965): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@416799b0
+V/TabletStatusBar( 1160): setLightsOn(true)
+W/ActivityManager(  965): Activity destroy timeout for ActivityRecord{418e5ad0 com.android.settings/.ApplicationSettings}
+I/ActivityManager(  965): START {cmp=cn.tvbox/.activity.GameDetailActivity (has extras)} from pid 1801
+V/TabletStatusBar( 1160): setLightsOn(true)
+W/ActivityManager(  965): Activity destroy timeout for ActivityRecord{416d40a8 com.android.settings/.ApplicationSettings}
+V/TabletStatusBar( 1160): setLightsOn(true)
+I/ActivityManager(  965): Process cn.tvbox (pid 1801) has died.
+I/WindowManager(  965): WIN DEATH: Window{416cae28 cn.tvbox/cn.tvbox.activity.BaseActivityGroup paused=false}
+W/ActivityManager(  965): Scheduling restart of crashed service cn.tvbox/.service.GGGService in 5000ms
+W/ActivityManager(  965): Force removing ActivityRecord{416c4550 cn.tvbox/.activity.BaseActivityGroup}: app died, no saved state
+I/WindowManager(  965): WIN DEATH: Window{415ec4a0 cn.tvbox/cn.tvbox.activity.BaseActivityGroup paused=false}
+I/WindowManager(  965): WINDOW DIED Window{415ec4a0 cn.tvbox/cn.tvbox.activity.BaseActivityGroup paused=false}
+V/TabletStatusBar( 1160): setLightsOn(true)
+I/ActivityManager(  965): Start proc cn.tvbox for service cn.tvbox/.service.GGGService: pid=2324 uid=10036 gids={1015, 3003}
+I/ActivityManager(  965): Start proc com.sihuatech.wasutv4ics for broadcast com.sihuatech.wasutv4ics/.broadcast.RecommendBroadcast: pid=2354 uid=10025 gids={3003, 1006, 1015}
+I/ActivityManager(  965): START {flg=0x30080000 cmp=com.sihuatech.wasutv4ics/.ui.RegisterActivity (has extras)} from pid 2354
+V/TabletStatusBar( 1160): setLightsOn(true)
+W/InputManagerService(  965): Got RemoteException sending setActive(false) notification to pid 1801 uid 10036
+I/ActivityManager(  965): START {flg=0x10000 cmp=com.sihuatech.wasutv4ics/.ui.DemoHomeActivity (has extras)} from pid 2354
+I/ActivityManager(  965): START {cmp=com.sihuatech.wasutv4ics/com.sihuatech.search.search.NewPlay (has extras)} from pid 2354
+V/TabletStatusBar( 1160): setLightsOn(true)
+V/TabletStatusBar( 1160): setLightsOn(true)
+I/ActivityManager(  965): START {cmp=com.sihuatech.wasutv4ics/.play.VideoPlayerActivity (has extras)} from pid 2354
+V/TabletStatusBar( 1160): setLightsOn(true)
+I/ActivityManager(  965): START {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.ts.gaya.coship/.MainActivity} from pid 965
+V/TabletStatusBar( 1160): setLightsOn(true)
+I/ActivityManager(  965): START {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.ts.gaya.coship/.MainActivity} from pid 965
+I/ActivityManager(  965): START {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 pkg=com.coship.dvbsetting cmp=com.coship.dvbsetting/.main} from pid 1292
+V/TabletStatusBar( 1160): setLightsOn(true)
+W/InputManagerService(  965): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@415b69d0 (uid=10025 pid=2354)
+I/ActivityManager(  965): START {cmp=com.coship.dvbsetting/.systemsetting.SyssetAcivity} from pid 1967
+I/EthernetManager( 1967): Init Ethernet Manager, service: android.net.ethernet.IEthernetManager$Stub$Proxy@432b4890
+V/TabletStatusBar( 1160): setLightsOn(true)
+V/TabletStatusBar( 1160): setLightsOn(true)
+V/TabletStatusBar( 1160): setLightsOn(true)
+I/ActivityManager(  965): START {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 pkg=com.coship.dvbsetting cmp=com.coship.dvbsetting/.main} from pid 1292
+V/TabletStatusBar( 1160): setLightsOn(true)
+V/TabletStatusBar( 1160): setLightsOn(true)
+I/ActivityManager(  965): START {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 pkg=com.coship.sdp.sce.tvappstore cmp=com.coship.sdp.sce.tvappstore/.MainActivity} from pid 1292
+I/ActivityManager(  965): START {cmp=com.coship.sdp.sce.tvappstore/.AppFormUIMain} from pid 2053
+I/ActivityManager(  965): START {cmp=com.coship.sdp.sce.tvappstore/.AppDetailActivity (has extras)} from pid 2053
+W/ActivityManager(  965): Duplicate finish request for ActivityRecord{4171a910 com.coship.sdp.sce.tvappstore/.AppDetailActivity}
+I/ActivityManager(  965): START {flg=0x10000000 cmp=com.coship.sdp.sce.tvappstore/.MenuActivity} from pid 2053
+I/ActivityManager(  965): START {cmp=com.coship.sdp.sce.tvappstore/.AppMyAppUIMain} from pid 2053
+I/ActivityManager(  965): Start proc com.android.defcontainer for service com.android.defcontainer/.DefaultContainerService: pid=2506 uid=10007 gids={1015, 2001}
+W/ActivityManager(  965): No content provider found for permission revoke: file:///data/data/com.coship.sdp.sce.tvappstore/app_files/com.tencent.qqmusicpadhd.apk
+W/ActivityManager(  965): No content provider found for permission revoke: file:///data/data/com.coship.sdp.sce.tvappstore/app_files/com.tencent.qqmusicpadhd.apk
+I/ActivityManager(  965): Force stopping package com.tencent.qqmusicpadhd uid=10039
+I/ActivityManager(  965): Start proc android.process.acore for broadcast com.android.providers.contacts/.PackageIntentReceiver: pid=2522 uid=10000 gids={3003, 1015}
+D/BackupManagerService(  965): Received broadcast Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.tencent.qqmusicpadhd flg=0x10000000 (has extras) }
+V/BackupManagerService(  965): addPackageParticipantsLocked: #1
+W/RecognitionManagerService(  965): no available voice recognition services found
+I/ActivityManager(  965): Start proc com.svox.pico for broadcast com.svox.pico/.VoiceDataInstallerReceiver: pid=2537 uid=10018 gids={1015}
+I/ActivityManager(  965): No longer want com.coship.TestApp (pid 1723): hidden #16
+I/ActivityManager(  965): No longer want com.coship.startwizard (pid 1746): hidden #16
+I/ActivityManager(  965): START {cmp=com.coship.sdp.sce.tvappstore/.AppDetailActivity (has extras)} from pid 2053
+I/ActivityManager(  965): START {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 pkg=com.tencent.qqmusicpadhd cmp=com.tencent.qqmusicpadhd/.HomeActivityGroup} from pid 2053
+I/ActivityManager(  965): Start proc com.tencent.qqmusicpadhd for activity com.tencent.qqmusicpadhd/.HomeActivityGroup: pid=2555 uid=10039 gids={3003, 1015, 1007}
+V/TabletStatusBar( 1160): setLightsOn(true)
+W/InputManagerService(  965): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@416e9ea0 (uid=1000 pid=2053)
+W/InputManagerService(  965): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@41729090
+I/ActivityManager(  965): START {cmp=com.tencent.qqmusicpadhd/com.tencent.qqmusicpad.music.MusicPlayerActivity} from pid 2555
+E/AndroidRuntime( 2555): FATAL EXCEPTION: Thread-173
+E/AndroidRuntime( 2555): java.lang.NullPointerException
+E/AndroidRuntime( 2555):        at com.tencent.a.d.a(Unknown Source)
+E/AndroidRuntime( 2555):        at com.tencent.component.i.run(Unknown Source)
+W/ActivityManager(  965):   Force finishing activity com.tencent.qqmusicpadhd/com.tencent.qqmusicpad.music.MusicPlayerActivity
+W/ActivityManager(  965):   Force finishing activity com.tencent.qqmusicpadhd/.HomeActivityGroup
+I/ActivityManager(  965): No longer want com.iflytek.vaf.svc.rec (pid 1643): hidden #16
+W/ActivityManager(  965): Scheduling restart of crashed service com.iflytek.vaf/.svc.VAFSvc in 5000ms
+I/ActivityManager(  965): Start proc com.iflytek.vaf.svc.rec for service com.iflytek.vaf/.svc.VAFSvc: pid=2606 uid=10028 gids={3003, 1015}
+I/ActivityManager(  965): Process com.tencent.qqmusicpadhd (pid 2555) has died.
+I/ActivityManager(  965): START {cmp=com.coship.sdp.sce.tvappstore/.AppDetailActivity (has extras)} from pid 2053
+I/ActivityManager(  965): START {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 pkg=com.tencent.qqmusicpadhd cmp=com.tencent.qqmusicpadhd/.HomeActivityGroup} from pid 2053
+I/ActivityManager(  965): Start proc com.tencent.qqmusicpadhd for activity com.tencent.qqmusicpadhd/.HomeActivityGroup: pid=2629 uid=10039 gids={3003, 1015, 1007}
+V/TabletStatusBar( 1160): setLightsOn(true)
+W/InputManagerService(  965): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@416e9ea0 (uid=1000 pid=2053)
+W/InputManagerService(  965): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4179e310
+I/ActivityManager(  965): START {cmp=com.tencent.qqmusicpadhd/com.tencent.qqmusicpad.music.MusicPlayerActivity} from pid 2629
+E/AndroidRuntime( 2629): FATAL EXCEPTION: Thread-175
+E/AndroidRuntime( 2629): java.lang.NullPointerException
+E/AndroidRuntime( 2629):        at com.tencent.a.d.a(Unknown Source)
+E/AndroidRuntime( 2629):        at com.tencent.component.i.run(Unknown Source)
+W/ActivityManager(  965):   Force finishing activity com.tencent.qqmusicpadhd/com.tencent.qqmusicpad.music.MusicPlayerActivity
+W/ActivityManager(  965):   Force finishing activity com.tencent.qqmusicpadhd/.HomeActivityGroup
+W/ThrottleService(  965): unable to find stats for iface rmnet0
+I/ActivityManager(  965): Process com.tencent.qqmusicpadhd (pid 2629) has died.
+I/ActivityManager(  965): START {cmp=com.coship.sdp.sce.tvappstore/.AppDetailActivity (has extras)} from pid 2053
+I/ActivityManager(  965): START {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 pkg=com.tencent.qqmusicpadhd cmp=com.tencent.qqmusicpadhd/.HomeActivityGroup} from pid 2053
+I/ActivityManager(  965): Start proc com.tencent.qqmusicpadhd for activity com.tencent.qqmusicpadhd/.HomeActivityGroup: pid=2672 uid=10039 gids={3003, 1015, 1007}
+V/TabletStatusBar( 1160): setLightsOn(true)
+W/InputManagerService(  965): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@416e9ea0 (uid=1000 pid=2053)
+W/InputManagerService(  965): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@41661918
+I/ActivityManager(  965): START {cmp=com.tencent.qqmusicpadhd/com.tencent.qqmusicpad.music.MusicPlayerActivity} from pid 2672
+E/AndroidRuntime( 2672): FATAL EXCEPTION: Thread-186
+E/AndroidRuntime( 2672): java.lang.NullPointerException
+E/AndroidRuntime( 2672):        at com.tencent.a.d.a(Unknown Source)
+E/AndroidRuntime( 2672):        at com.tencent.component.i.run(Unknown Source)
+W/ActivityManager(  965):   Force finishing activity com.tencent.qqmusicpadhd/com.tencent.qqmusicpad.music.MusicPlayerActivity
+W/ActivityManager(  965):   Force finishing activity com.tencent.qqmusicpadhd/.HomeActivityGroup
+I/ActivityManager(  965): Process com.tencent.qqmusicpadhd (pid 2672) has died.
+I/ActivityManager(  965): START {cmp=com.coship.sdp.sce.tvappstore/.AppDetailActivity (has extras)} from pid 2053
+I/ActivityManager(  965): START {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 pkg=com.tencent.qqmusicpadhd cmp=com.tencent.qqmusicpadhd/.HomeActivityGroup} from pid 2053
+I/ActivityManager(  965): Start proc com.tencent.qqmusicpadhd for activity com.tencent.qqmusicpadhd/.HomeActivityGroup: pid=2725 uid=10039 gids={3003, 1015, 1007}
+V/TabletStatusBar( 1160): setLightsOn(true)
+W/InputManagerService(  965): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@416e9ea0 (uid=1000 pid=2053)
+W/InputManagerService(  965): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@418f8240
+I/ActivityManager(  965): START {cmp=com.tencent.qqmusicpadhd/com.tencent.qqmusicpad.music.MusicPlayerActivity} from pid 2725
+E/AndroidRuntime( 2725): FATAL EXCEPTION: Thread-180
+E/AndroidRuntime( 2725): java.lang.NullPointerException
+E/AndroidRuntime( 2725):        at com.tencent.a.d.a(Unknown Source)
+E/AndroidRuntime( 2725):        at com.tencent.component.i.run(Unknown Source)
+V/TabletStatusBar( 1160): setLightsOn(true)
+W/ActivityManager(  965):   Force finishing activity com.tencent.qqmusicpadhd/com.tencent.qqmusicpad.music.MusicPlayerActivity
+W/ActivityManager(  965):   Force finishing activity com.tencent.qqmusicpadhd/.HomeActivityGroup
+W/InputManagerService(  965): Focus gain on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@41774ef8 (uid=10039 pid=2725)
+I/ActivityManager(  965): Process com.tencent.qqmusicpadhd (pid 2725) has died.
+I/ActivityManager(  965): No longer want com.iflytek.xiri.remotecmd (pid 1853): hidden #16
+I/ActivityManager(  965): No longer want com.coship.adjustthevolume (pid 1833): hidden #17
+I/ActivityManager(  965): No longer want com.iflytek.vac (pid 1583): hidden #18
+I/ActivityManager(  965): No longer want com.coship.stpservice (pid 1766): hidden #19
+I/ActivityManager(  965): No longer want com.coship.changetheaudiooutput (pid 1607): hidden #20
+I/ActivityManager(  965): No longer want com.coship.cw880 (pid 1518): hidden #21
+W/ActivityManager(  965): Scheduling restart of crashed service com.coship.stpservice/.StpService in 5000ms
+W/ActivityManager(  965): Scheduling restart of crashed service com.coship.adjustthevolume/.VolService in 14999ms
+W/ActivityManager(  965): Scheduling restart of crashed service com.iflytek.xiri.remotecmd/com.iflytek.xiri.vocmd.MyService in 24998ms
+W/ActivityManager(  965): Scheduling restart of crashed service com.iflytek.vaf/com.iflytek.vocmd.Context in 24993ms
+W/ActivityManager(  965): Scheduling restart of crashed service com.iflytek.vaf/com.iflytek.vocmd.StartService in 34993ms
+W/ActivityManager(  965): Scheduling restart of crashed service com.iflytek.vaf/com.iflytek.vac.Manager in 44992ms
+W/ActivityManager(  965): Scheduling restart of crashed service com.coship.cw880/.MonitorCw880 in 54991ms
+W/ActivityManager(  965): Scheduling restart of crashed service com.coship.changetheaudiooutput/.AudioOutputServer in 64978ms
+E/ActivityThread( 2606): Service com.iflytek.vaf.svc.VAFSvc has leaked IntentReceiver com.iflytek.vaf.svc.RemoteClientMonitor$5@416d4c78 that was originally registered here. Are you missing a call to unregisterReceiver()?
+E/ActivityThread( 2606): android.app.IntentReceiverLeaked: Service com.iflytek.vaf.svc.VAFSvc has leaked IntentReceiver com.iflytek.vaf.svc.RemoteClientMonitor$5@416d4c78 that was originally registered here. Are you missing a call to unregisterReceiver()?
+E/ActivityThread( 2606):        at android.app.LoadedApk$ReceiverDispatcher.<init>(LoadedApk.java:763)
+E/ActivityThread( 2606):        at android.app.LoadedApk.getReceiverDispatcher(LoadedApk.java:567)
+E/ActivityThread( 2606):        at android.app.ContextImpl.registerReceiverInternal(ContextImpl.java:1068)
+E/ActivityThread( 2606):        at android.app.ContextImpl.registerReceiver(ContextImpl.java:1055)
+E/ActivityThread( 2606):        at android.app.ContextImpl.registerReceiver(ContextImpl.java:1049)
+E/ActivityThread( 2606):        at android.content.ContextWrapper.registerReceiver(ContextWrapper.java:341)
+E/ActivityThread( 2606):        at com.iflytek.vaf.svc.RemoteClientMonitor.<init>(RemoteClientMonitor.java:270)
+E/ActivityThread( 2606):        at com.iflytek.vaf.svc.VAFSvc$VafSvcImp.<init>(VAFSvc.java:268)
+E/ActivityThread( 2606):        at com.iflytek.vaf.svc.VAFSvc.onCreate(VAFSvc.java:795)
+E/ActivityThread( 2606):        at android.app.ActivityThread.handleCreateService(ActivityThread.java:2253)
+E/ActivityThread( 2606):        at android.app.ActivityThread.access$1600(ActivityThread.java:123)
+E/ActivityThread( 2606):        at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1201)
+E/ActivityThread( 2606):        at android.os.Handler.dispatchMessage(Handler.java:99)
+E/ActivityThread( 2606):        at android.os.Looper.loop(Looper.java:137)
+E/ActivityThread( 2606):        at android.app.ActivityThread.main(ActivityThread.java:4424)
+E/ActivityThread( 2606):        at java.lang.reflect.Method.invokeNative(Native Method)
+E/ActivityThread( 2606):        at java.lang.reflect.Method.invoke(Method.java:511)
+E/ActivityThread( 2606):        at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:848)
+E/ActivityThread( 2606):        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:575)
+E/ActivityThread( 2606):        at dalvik.system.NativeStart.main(Native Method)
+E/ActivityThread( 2606): Service com.iflytek.vaf.svc.VAFSvc has leaked IntentReceiver com.iflytek.vaf.svc.CheckNetWork$1@415b7dc0 that was originally registered here. Are you missing a call to unregisterReceiver()?
+E/ActivityThread( 2606): android.app.IntentReceiverLeaked: Service com.iflytek.vaf.svc.VAFSvc has leaked IntentReceiver com.iflytek.vaf.svc.CheckNetWork$1@415b7dc0 that was originally registered here. Are you missing a call to unregisterReceiver()?
+E/ActivityThread( 2606):        at android.app.LoadedApk$ReceiverDispatcher.<init>(LoadedApk.java:763)
+E/ActivityThread( 2606):        at android.app.LoadedApk.getReceiverDispatcher(LoadedApk.java:567)
+E/ActivityThread( 2606):        at android.app.ContextImpl.registerReceiverInternal(ContextImpl.java:1068)
+E/ActivityThread( 2606):        at android.app.ContextImpl.registerReceiver(ContextImpl.java:1055)
+E/ActivityThread( 2606):        at android.app.ContextImpl.registerReceiver(ContextImpl.java:1049)
+E/ActivityThread( 2606):        at android.content.ContextWrapper.registerReceiver(ContextWrapper.java:341)
+E/ActivityThread( 2606):        at com.iflytek.vaf.svc.CheckNetWork.init(CheckNetWork.java:130)
+E/ActivityThread( 2606):        at com.iflytek.vaf.svc.Talker.<init>(Talker.java:319)
+E/ActivityThread( 2606):        at com.iflytek.vaf.svc.VAFSvc$VafSvcImp.<init>(VAFSvc.java:267)
+E/ActivityThread( 2606):        at com.iflytek.vaf.svc.VAFSvc.onCreate(VAFSvc.java:795)
+E/ActivityThread( 2606):        at android.app.ActivityThread.handleCreateService(ActivityThread.java:2253)
+E/ActivityThread( 2606):        at android.app.ActivityThread.access$1600(ActivityThread.java:123)
+E/ActivityThread( 2606):        at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1201)
+E/ActivityThread( 2606):        at android.os.Handler.dispatchMessage(Handler.java:99)
+E/ActivityThread( 2606):        at android.os.Looper.loop(Looper.java:137)
+E/ActivityThread( 2606):        at android.app.ActivityThread.main(ActivityThread.java:4424)
+E/ActivityThread( 2606):        at java.lang.reflect.Method.invokeNative(Native Method)
+E/ActivityThread( 2606):        at java.lang.reflect.Method.invoke(Method.java:511)
+E/ActivityThread( 2606):        at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:848)
+E/ActivityThread( 2606):        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:575)
+E/ActivityThread( 2606):        at dalvik.system.NativeStart.main(Native Method)
+E/ActivityThread( 2606): Service com.iflytek.vaf.svc.VAFSvc has leaked ServiceConnection com.iflytek.business.speech.SpeechServiceUtil$2@41405b78 that was originally bound here
+E/ActivityThread( 2606): android.app.ServiceConnectionLeaked: Service com.iflytek.vaf.svc.VAFSvc has leaked ServiceConnection com.iflytek.business.speech.SpeechServiceUtil$2@41405b78 that was originally bound here
+E/ActivityThread( 2606):        at android.app.LoadedApk$ServiceDispatcher.<init>(LoadedApk.java:936)
+E/ActivityThread( 2606):        at android.app.LoadedApk.getServiceDispatcher(LoadedApk.java:830)
+E/ActivityThread( 2606):        at android.app.ContextImpl.bindService(ContextImpl.java:1142)
+E/ActivityThread( 2606):        at android.content.ContextWrapper.bindService(ContextWrapper.java:370)
+E/ActivityThread( 2606):        at com.iflytek.business.speech.SpeechServiceUtil.startSpeechService(SpeechServiceUtil.java:316)
+E/ActivityThread( 2606):        at com.iflytek.business.speech.SpeechServiceUtil.<init>(SpeechServiceUtil.java:77)
+E/ActivityThread( 2606):        at com.iflytek.tts.TextToSpeech.<init>(TextToSpeech.java:183)
+E/ActivityThread( 2606):        at com.iflytek.vaf.svc.Speaker.<init>(Speaker.java:326)
+E/ActivityThread( 2606):        at com.iflytek.vaf.svc.Speaker.getSpeaker(Speaker.java:313)
+E/ActivityThread( 2606):        at com.iflytek.vaf.svc.Talker.<init>(Talker.java:349)
+E/ActivityThread( 2606):        at com.iflytek.vaf.svc.VAFSvc$VafSvcImp.<init>(VAFSvc.java:267)
+E/ActivityThread( 2606):        at com.iflytek.vaf.svc.VAFSvc.onCreate(VAFSvc.java:795)
+E/ActivityThread( 2606):        at android.app.ActivityThread.handleCreateService(ActivityThread.java:2253)
+E/ActivityThread( 2606):        at android.app.ActivityThread.access$1600(ActivityThread.java:123)
+E/ActivityThread( 2606):        at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1201)
+E/ActivityThread( 2606):        at android.os.Handler.dispatchMessage(Handler.java:99)
+E/ActivityThread( 2606):        at android.os.Looper.loop(Looper.java:137)
+E/ActivityThread( 2606):        at android.app.ActivityThread.main(ActivityThread.java:4424)
+E/ActivityThread( 2606):        at java.lang.reflect.Method.invokeNative(Native Method)
+E/ActivityThread( 2606):        at java.lang.reflect.Method.invoke(Method.java:511)
+E/ActivityThread( 2606):        at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:848)
+E/ActivityThread( 2606):        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:575)
+E/ActivityThread( 2606):        at dalvik.system.NativeStart.main(Native Method)
+E/ActivityThread( 2606): Service com.iflytek.vaf.svc.VAFSvc has leaked ServiceConnection com.iflytek.vaf.svc.Talker$3@417ce220 that was originally bound here
+E/ActivityThread( 2606): android.app.ServiceConnectionLeaked: Service com.iflytek.vaf.svc.VAFSvc has leaked ServiceConnection com.iflytek.vaf.svc.Talker$3@417ce220 that was originally bound here
+E/ActivityThread( 2606):        at android.app.LoadedApk$ServiceDispatcher.<init>(LoadedApk.java:936)
+E/ActivityThread( 2606):        at android.app.LoadedApk.getServiceDispatcher(LoadedApk.java:830)
+E/ActivityThread( 2606):        at android.app.ContextImpl.bindService(ContextImpl.java:1142)
+E/ActivityThread( 2606):        at android.content.ContextWrapper.bindService(ContextWrapper.java:370)
+E/ActivityThread( 2606):        at com.iflytek.vaf.svc.Talker.<init>(Talker.java:320)
+E/ActivityThread( 2606):        at com.iflytek.vaf.svc.VAFSvc$VafSvcImp.<init>(VAFSvc.java:267)
+E/ActivityThread( 2606):        at com.iflytek.vaf.svc.VAFSvc.onCreate(VAFSvc.java:795)
+E/ActivityThread( 2606):        at android.app.ActivityThread.handleCreateService(ActivityThread.java:2253)
+E/ActivityThread( 2606):        at android.app.ActivityThread.access$1600(ActivityThread.java:123)
+E/ActivityThread( 2606):        at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1201)
+E/ActivityThread( 2606):        at android.os.Handler.dispatchMessage(Handler.java:99)
+E/ActivityThread( 2606):        at android.os.Looper.loop(Looper.java:137)
+E/ActivityThread( 2606):        at android.app.ActivityThread.main(ActivityThread.java:4424)
+E/ActivityThread( 2606):        at java.lang.reflect.Method.invokeNative(Native Method)
+E/ActivityThread( 2606):        at java.lang.reflect.Method.invoke(Method.java:511)
+E/ActivityThread( 2606):        at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:848)
+E/ActivityThread( 2606):        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:575)
+E/ActivityThread( 2606):        at dalvik.system.NativeStart.main(Native Method)
+E/ActivityThread( 2606): Service com.iflytek.vaf.svc.VAFSvc has leaked ServiceConnection com.iflytek.xiri.recorder.impl.RemotePcmRecorder$2$1@418861a8 that was originally bound here
+E/ActivityThread( 2606): android.app.ServiceConnectionLeaked: Service com.iflytek.vaf.svc.VAFSvc has leaked ServiceConnection com.iflytek.xiri.recorder.impl.RemotePcmRecorder$2$1@418861a8 that was originally bound here
+E/ActivityThread( 2606):        at android.app.LoadedApk$ServiceDispatcher.<init>(LoadedApk.java:936)
+E/ActivityThread( 2606):        at android.app.LoadedApk.getServiceDispatcher(LoadedApk.java:830)
+E/ActivityThread( 2606):        at android.app.ContextImpl.bindService(ContextImpl.java:1142)
+E/ActivityThread( 2606):        at android.content.ContextWrapper.bindService(ContextWrapper.java:370)
+E/ActivityThread( 2606):        at com.iflytek.xiri.recorder.impl.RemotePcmRecorder$2.run(RemotePcmRecorder.java:206)
+E/ActivityThread( 2606):        at com.iflytek.xiri.recorder.impl.RemotePcmRecorder.<init>(RemotePcmRecorder.java:213)
+E/ActivityThread( 2606):        at com.iflytek.xiri.recorder.impl.RemotePcmRecorder.getPcmRecorder(RemotePcmRecorder.java:139)
+E/ActivityThread( 2606):        at com.iflytek.vaf.svc.Talker.<init>(Talker.java:327)
+E/ActivityThread( 2606):        at com.iflytek.vaf.svc.VAFSvc$VafSvcImp.<init>(VAFSvc.java:267)
+E/ActivityThread( 2606):        at com.iflytek.vaf.svc.VAFSvc.onCreate(VAFSvc.java:795)
+E/ActivityThread( 2606):        at android.app.ActivityThread.handleCreateService(ActivityThread.java:2253)
+E/ActivityThread( 2606):        at android.app.ActivityThread.access$1600(ActivityThread.java:123)
+E/ActivityThread( 2606):        at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1201)
+E/ActivityThread( 2606):        at android.os.Handler.dispatchMessage(Handler.java:99)
+E/ActivityThread( 2606):        at android.os.Looper.loop(Looper.java:137)
+E/ActivityThread( 2606):        at android.app.ActivityThread.main(ActivityThread.java:4424)
+E/ActivityThread( 2606):        at java.lang.reflect.Method.invokeNative(Native Method)
+E/ActivityThread( 2606):        at java.lang.reflect.Method.invoke(Method.java:511)
+E/ActivityThread( 2606):        at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:848)
+E/ActivityThread( 2606):        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:575)
+E/ActivityThread( 2606):        at dalvik.system.NativeStart.main(Native Method)
+I/ActivityManager(  965): Start proc com.coship.stpservice for service com.coship.stpservice/.StpService: pid=2772 uid=1000 gids={3003, 1015, 3002, 3001, 3004}
+I/ActivityManager(  965): Start proc com.coship.adjustthevolume for broadcast com.coship.adjustthevolume/.BootCompletedReceiver: pid=2786 uid=1000 gids={3003, 1015, 3002, 3001, 3004}
+V/CheckBackdoors( 2772): add new backdoor. actionName=com.coship.adjustthevolume, backdoor.mBackdoorKey=0x5252525252
+V/CheckBackdoors( 2772): add new backdoor. actionName=com.coship.adjustthevolume.Volup, backdoor.mBackdoorKey=0x18
+V/CheckBackdoors( 2772): add new backdoor. actionName=com.coship.adjustthevolume.VolDown, backdoor.mBackdoorKey=0x19
+W/ThrottleService(  965): unable to find stats for iface rmnet0
+I/ActivityManager(  965): Start proc com.iflytek.vac for service com.iflytek.vaf/com.iflytek.vocmd.Context: pid=2815 uid=10028 gids={3003, 1015}
+I/ActivityManager(  965): Start proc com.coship.cw880 for service com.coship.cw880/.MonitorCw880: pid=2830 uid=1000 gids={3003, 1015, 3002, 3001, 3004}
+I/ActivityManager(  965): Start proc com.coship.changetheaudiooutput for service com.coship.changetheaudiooutput/.AudioOutputServer: pid=2845 uid=10032 gids={3002, 3001, 3004}
+W/ThrottleService(  965): unable to find stats for iface rmnet0
+I/ActivityManager(  965): START {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.ts.gaya.coship/.MainActivity} from pid 965
+I/ActivityManager(  965): START {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.ts.gaya.coship/.MainActivity} from pid 965
+V/TabletStatusBar( 1160): setLightsOn(true)
+I/ActivityManager(  965): No longer want com.biaoqi.stbwidget.host (pid 1783): hidden #16
+V/EthernetMonitor(  965): get event 
+V/EthernetMonitor(  965): go poll events
+W/ThrottleService(  965): unable to find stats for iface rmnet0
+I/ActivityManager(  965): No longer want android.process.media (pid 1485): hidden #16
+I/ActivityManager(  965): No longer want com.android.providers.calendar (pid 1500): hidden #17
+W/ThrottleService(  965): unable to find stats for iface rmnet0
+I/ActivityManager(  965): No longer want com.coship.Multimedia (pid 1659): hidden #16
+I/ActivityManager(  965): No longer want com.aidufei.movieonline (pid 1567): hidden #17
+W/ActivityManager(  965): Scheduling restart of crashed service com.aidufei.movieonline/com.aidufei.otoService.OtOService in 5000ms
+I/ActivityManager(  965): No longer want com.mstar.dbprovider (pid 1143): hidden #16
+I/WindowManager(  965): WIN DEATH: Window{415d29d8 com.coship.Multimedia/com.coship.Multimedia.main paused=false}
+W/ActivityManager(  965): Scheduling restart of crashed service com.coship.Multimedia/.view.BackService in 14812ms
+I/ActivityManager(  965): Start proc com.aidufei.movieonline for service com.aidufei.movieonline/com.aidufei.otoService.OtOService: pid=2877 uid=1000 gids={3003, 1015, 3002, 3001, 3004}
+I/ActivityManager(  965): Start proc com.coship.Multimedia for service com.coship.Multimedia/.view.BackService: pid=2896 uid=1000 gids={3003, 1015, 3002, 3001, 3004}
+I/ActivityManager(  965): No longer want com.android.packageinstaller (pid 2227): hidden #16
+I/ActivityManager(  965): No longer want com.sihuatech.wasutv4ics (pid 2354): hidden #16
+I/WindowManager(  965): WIN DEATH: Window{418f2c10 SurfaceView paused=false}
+W/ActivityManager(  965): Scheduling restart of crashed service com.sihuatech.wasutv4ics/.service.DownloadServiceApp in 5000ms
+W/ActivityManager(  965): Scheduling restart of crashed service com.sihuatech.wasutv4ics/.ui.UpdateService in 15000ms
+W/ActivityManager(  965): Scheduling restart of crashed service com.sihuatech.wasutv4ics/.service.ImageLoadService in 25000ms
+I/WindowManager(  965): WIN DEATH: Window{415f5d30 com.sihuatech.wasutv4ics/com.sihuatech.wasutv4ics.ui.DemoHomeActivity paused=false}
+W/WindowManager(  965): Force-removing child win Window{41826778 SurfaceView paused=false} from container Window{415f5d30 com.sihuatech.wasutv4ics/com.sihuatech.wasutv4ics.ui.DemoHomeActivity paused=false}
+W/WindowManager(  965): Failed looking up window
+W/WindowManager(  965): java.lang.IllegalArgumentException: Requested window android.os.BinderProxy@4187e878 does not exist
+W/WindowManager(  965):         at com.android.server.wm.WindowManagerService.windowForClientLocked(WindowManagerService.java:7185)
+W/WindowManager(  965):         at com.android.server.wm.WindowManagerService.windowForClientLocked(WindowManagerService.java:7176)
+W/WindowManager(  965):         at com.android.server.wm.WindowState$DeathRecipient.binderDied(WindowState.java:1545)
+W/WindowManager(  965):         at android.os.BinderProxy.sendDeathNotice(Binder.java:417)
+W/WindowManager(  965):         at dalvik.system.NativeStart.run(Native Method)
+I/WindowManager(  965): WIN DEATH: null
+I/WindowManager(  965): WIN DEATH: Window{418205c0 com.sihuatech.wasutv4ics/com.sihuatech.wasutv4ics.play.VideoPlayerActivity paused=false}
+I/WindowManager(  965): WINDOW DIED Window{415f5d30 com.sihuatech.wasutv4ics/com.sihuatech.wasutv4ics.ui.DemoHomeActivity paused=false}
+I/ActivityManager(  965): Start proc com.sihuatech.wasutv4ics for service com.sihuatech.wasutv4ics/.service.DownloadServiceApp: pid=2909 uid=10025 gids={3003, 1006, 1015}
+V/EthernetMonitor(  965): get event 
+V/EthernetMonitor(  965): go poll events
+I/ActivityManager(  965): START {flg=0x30080000 cmp=com.sihuatech.wasutv4ics/.ui.RegisterActivity (has extras)} from pid 2909
+V/TabletStatusBar( 1160): setLightsOn(true)
+W/InputManagerService(  965): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@416e9ea0 (uid=1000 pid=2053)
+I/ActivityManager(  965): START {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.ts.gaya.coship/.MainActivity} from pid 965
+V/TabletStatusBar( 1160): setLightsOn(true)
+I/ActivityManager(  965): START {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.ts.gaya.coship/.MainActivity} from pid 965
+I/ActivityManager(  965): START {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 pkg=com.coship.dvbsetting cmp=com.coship.dvbsetting/.main} from pid 1292
+V/TabletStatusBar( 1160): setLightsOn(true)
+I/ActivityManager(  965): START {cmp=com.coship.dvbsetting/.systemsetting.SyssetAcivity} from pid 1967
+I/EthernetManager( 1967): Init Ethernet Manager, service: android.net.ethernet.IEthernetManager$Stub$Proxy@43347fa8
+V/TabletStatusBar( 1160): setLightsOn(true)
+V/TabletStatusBar( 1160): setLightsOn(true)
+V/EthernetMonitor(  965): get event 
+V/EthernetMonitor(  965): go poll events
+W/ThrottleService(  965): unable to find stats for iface rmnet0
+I/ActivityManager(  965): START {cmp=com.coship.dvbsetting/.systemsetting.SyssetAcivity} from pid 1967
+I/EthernetManager( 1967): Init Ethernet Manager, service: android.net.ethernet.IEthernetManager$Stub$Proxy@41687098
+V/TabletStatusBar( 1160): setLightsOn(true)
+D/Vold    (  733): receive a disk change event
+D/Vold    (  733): get the uuid FCDF-2A83 of /dev/block/vold/8:16 when device add
+D/Vold    (  733): device name mismatch : (FCDF-2A83, 524A-F5B5 0)
+D/Vold    (  733): No volumes handled block event for '/devices/platform/Mstar-ehci-3.2/usb3/3-1/3-1.4/3-1.4:1.0/host1/target1:0:0/1:0:0:0/block/sdb'
+D/Vold    (  733): Allocate mount point '/mnt/usb/sdb1' for '/dev/block/vold/8:16'
+D/Vold    (  733): Volume FCDF-2A83 state changing -1 (Initializing) -> 0 (No-Media)
+W/MountService(  965): getVolumeState(/mnt/usb/sdb1): Unknown volume
+D/Vold    (  733): Volume FCDF-2A83 state changing 0 (No-Media) -> 1 (Idle-Unmounted)
+W/MountService(  965): getVolumeState(/mnt/usb/sdb1): Unknown volume
+D/MountService(  965): volume state changed for /mnt/usb/sdb1 (removed -> unmounted)
+D/MountService(  965): key:/mnt/usb/sdb1   val:unmounted
+D/MountService(  965): key:/mnt/usb/sda1   val:removed
+D/MountService(  965): sendStorageIntent Intent { act=android.intent.action.MEDIA_UNMOUNTED dat=file:///mnt/usb/sdb1 (has extras) }
+D/VoldCmdListener(  733): volume mount /mnt/usb/sdb1
+I/Vold    (  733): /dev/block/vold/8:16 being considered for volume FCDF-2A83
+D/Vold    (  733): Volume FCDF-2A83 state changing 1 (Idle-Unmounted) -> 3 (Checking)
+D/MountService(  965): volume state changed for /mnt/usb/sdb1 (unmounted -> checking)
+D/MountService(  965): key:/mnt/usb/sdb1   val:checking
+D/MountService(  965): key:/mnt/usb/sda1   val:removed
+D/MountService(  965): sendStorageIntent Intent { act=android.intent.action.MEDIA_CHECKING dat=file:///mnt/usb/sdb1 (has extras) }
+I/Vold    (  733): Device /dev/block/vold/8:16, target /mnt/usb/sdb1 mounted @ /mnt/secure/staging
+D/Vold    (  733): Volume FCDF-2A83 state changing 3 (Checking) -> 4 (Mounted)
+I/ActivityManager(  965): Start proc android.process.media for broadcast com.android.providers.media/.MediaScannerReceiver: pid=2956 uid=10009 gids={1015, 1023, 1024, 2001, 3003, 3007}
+D/MountService(  965): volume state changed for /mnt/usb/sdb1 (checking -> mounted)
+D/MountService(  965): key:/mnt/usb/sdb1   val:mounted
+D/MountService(  965): sendStorageIntent Intent { act=android.intent.action.MEDIA_MOUNTED dat=file:///mnt/usb/sdb1 (has extras) }
+I/ActivityManager(  965): No longer want android.process.acore (pid 2522): hidden #16
+V/TabletStatusBar( 1160): setLightsOn(true)
+W/InputManagerService(  965): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@41684e30 (uid=1000 pid=1967)
+V/TabletStatusBar( 1160): setLightsOn(true)
+I/ActivityManager(  965): START {cmp=com.coship.dvbsetting/.systemsetting.update.SystemLocalUpdateActivity} from pid 1967
+D/VoldCmdListener(  733): volume label /mnt/sdcard
+E/MountService(  965): Error when get volume label!
+D/VoldCmdListener(  733): volume label /mnt/usb/sdb1
+E/MountService(  965): Error when get volume label!
+V/TabletStatusBar( 1160): setLightsOn(true)
+V/TabletStatusBar( 1160): setLightsOn(true)
+W/ActivityManager(  965): Duplicate finish request for ActivityRecord{4181d318 com.coship.dvbsetting/.systemsetting.update.SystemLocalUpdateActivity}
+I/ActivityManager(  965): START {cmp=com.coship.dvbsetting/.systemsetting.update.SystemLocalUpdateActivity} from pid 1967
+D/VoldCmdListener(  733): volume label /mnt/sdcard
+E/MountService(  965): Error when get volume label!
+D/VoldCmdListener(  733): volume label /mnt/usb/sdb1
+E/MountService(  965): Error when get volume label!
+V/TabletStatusBar( 1160): setLightsOn(true)
+V/TabletStatusBar( 1160): setLightsOn(true)
+W/ActivityManager(  965): Duplicate finish request for ActivityRecord{416b9aa8 com.coship.dvbsetting/.systemsetting.update.SystemLocalUpdateActivity}
+V/TabletStatusBar( 1160): setLightsOn(true)
+W/InputManagerService(  965): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@41684e30 (uid=1000 pid=1967)
+V/EthernetMonitor(  965): get event 
+V/EthernetMonitor(  965): go poll events
+V/EthernetMonitor(  965): get event 
+V/EthernetMonitor(  965): go poll events
+W/ThrottleService(  965): unable to find stats for iface rmnet0
+D/Vold    (  733): get the uuid 524A-F5B5 of /dev/block/vold/8:1 when device add
+D/Vold    (  733): Volume 524A-F5B5 state changing 0 (No-Media) -> 1 (Idle-Unmounted)
+D/Vold    (  733): Device '/devices/platform/Mstar-ehci-3.2/usb3/3-1/3-1.1/3-1.1:1.0/host2/target2:0:0/2:0:0:0/block/sda/sda1' event handled by volume 524A-F5B5
+D/MountService(  965): volume state changed for /mnt/usb/sda1 (removed -> unmounted)
+D/MountService(  965): sendStorageIntent Intent { act=android.intent.action.MEDIA_UNMOUNTED dat=file:///mnt/usb/sda1 (has extras) }
+D/VoldCmdListener(  733): volume mount /mnt/usb/sda1
+I/Vold    (  733): /dev/block/vold/8:1 being considered for volume 524A-F5B5
+D/Vold    (  733): Volume 524A-F5B5 state changing 1 (Idle-Unmounted) -> 3 (Checking)
+D/MountService(  965): volume state changed for /mnt/usb/sda1 (unmounted -> checking)
+D/MountService(  965): sendStorageIntent Intent { act=android.intent.action.MEDIA_CHECKING dat=file:///mnt/usb/sda1 (has extras) }
+I/Vold    (  733): Device /dev/block/vold/8:1, target /mnt/usb/sda1 mounted @ /mnt/secure/staging
+D/Vold    (  733): Volume 524A-F5B5 state changing 3 (Checking) -> 4 (Mounted)
+D/MountService(  965): volume state changed for /mnt/usb/sda1 (checking -> mounted)
+D/MountService(  965): sendStorageIntent Intent { act=android.intent.action.MEDIA_MOUNTED dat=file:///mnt/usb/sda1 (has extras) }
+V/TabletStatusBar( 1160): setLightsOn(true)
+V/TabletStatusBar( 1160): setLightsOn(true)
+W/InputManagerService(  965): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@41684e30 (uid=1000 pid=1967)
+V/EthernetMonitor(  965): get event 
+V/EthernetMonitor(  965): go poll events
+V/EthernetMonitor(  965): get event 
+V/EthernetMonitor(  965): go poll events
+W/ThrottleService(  965): unable to find stats for iface rmnet0
+I/ActivityManager(  965): No longer want com.svox.pico (pid 2537): hidden #16
+D/Vold    (  733): get the uuid 524A-F5B5 of /dev/block/vold/8:1 when device remove
+D/DirectVolume(  733): Volume 524A-F5B5 /mnt/usb/sda1 partition 8:1 removed
+D/Vold    (  733): Volume 524A-F5B5 state changing 4 (Mounted) -> 5 (Unmounting)
+D/Vold    (  733): Volume 524A-F5B5 state changing 5 (Unmounting) -> 1 (Idle-Unmounted)
+D/MountService(  965): sendStorageIntent Intent { act=android.intent.action.MEDIA_EJECT dat=file:///mnt/usb/sda1 (has extras) }
+D/MountService(  965): volume state changed for /mnt/usb/sda1 (mounted -> unmounted)
+D/MountService(  965): sendStorageIntent Intent { act=android.intent.action.MEDIA_UNMOUNTED dat=file:///mnt/usb/sda1 (has extras) }
+I/Vold    (  733): /mnt/secure/staging sucessfully unmounted
+I/Vold    (  733): /mnt/usb/sda1 unmounted sucessfully
+D/DirectVolume(  733): Crisis averted
+D/Vold    (  733): Volume 524A-F5B5 state changing 1 (Idle-Unmounted) -> 0 (No-Media)
+D/Vold    (  733): Device '/devices/platform/Mstar-ehci-3.2/usb3/3-1/3-1.1/3-1.1:1.0/host2/target2:0:0/2:0:0:0/block/sda/sda1' event handled by volume 524A-F5B5
+D/Vold    (  733): can not get the uuid of /dev/block/vold/8:0 when device remove
+D/MountService(  965): volume state changed for /mnt/usb/sda1 (unmounted -> removed)
+D/MountService(  965): sendStorageIntent Intent { act=android.intent.action.MEDIA_REMOVED dat=file:///mnt/usb/sda1 (has extras) }
+V/EthernetMonitor(  965): get event 
+V/EthernetMonitor(  965): go poll events
+V/EthernetMonitor(  965): get event 
+V/EthernetMonitor(  965): go poll events
+V/EthernetMonitor(  965): get event 
+V/EthernetMonitor(  965): go poll events
+V/EthernetMonitor(  965): get event 
+V/EthernetMonitor(  965): go poll events
+V/TabletStatusBar( 1160): setLightsOn(true)
+V/TabletStatusBar( 1160): setLightsOn(true)
+W/InputManagerService(  965): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@41684e30 (uid=1000 pid=1967)
+D/Vold    (  733): get the uuid FCDF-2A83 of /dev/block/vold/8:16 when device remove
+D/Vold    (  733): device name mismatch : (FCDF-2A83, 524A-F5B5 0)
+D/DirectVolume(  733): Volume FCDF-2A83 /mnt/usb/sdb1 disk 8:16 removed
+D/DirectVolume(  733): Volume FCDF-2A83 /mnt/usb/sdb1 partition 8:16 removed
+D/Vold    (  733): Volume FCDF-2A83 state changing 4 (Mounted) -> 5 (Unmounting)
+D/Vold    (  733): Volume FCDF-2A83 state changing 5 (Unmounting) -> 1 (Idle-Unmounted)
+D/MountService(  965): sendStorageIntent Intent { act=android.intent.action.MEDIA_EJECT dat=file:///mnt/usb/sdb1 (has extras) }
+D/MountService(  965): volume state changed for /mnt/usb/sdb1 (mounted -> unmounted)
+D/MountService(  965): key:/mnt/usb/sdb1   val:unmounted
+D/MountService(  965): key:/mnt/usb/sda1   val:removed
+D/MountService(  965): sendStorageIntent Intent { act=android.intent.action.MEDIA_UNMOUNTED dat=file:///mnt/usb/sdb1 (has extras) }
+I/Vold    (  733): /mnt/secure/staging sucessfully unmounted
+I/Vold    (  733): /mnt/usb/sdb1 unmounted sucessfully
+D/DirectVolume(  733): Crisis averted
+D/Vold    (  733): Volume FCDF-2A83 state changing 1 (Idle-Unmounted) -> 0 (No-Media)
+D/MountService(  965): volume state changed for /mnt/usb/sdb1 (unmounted -> removed)
+D/MountService(  965): key:/mnt/usb/sdb1   val:removed
+D/MountService(  965): key:/mnt/usb/sda1   val:removed
+D/Vold    (  733): Device '/devices/platform/Mstar-ehci-3.2/usb3/3-1/3-1.4/3-1.4:1.0/host1/target1:0:0/1:0:0:0/block/sdb' event handled by volume FCDF-2A83
+D/MountService(  965): sendStorageIntent Intent { act=android.intent.action.MEDIA_REMOVED dat=file:///mnt/usb/sdb1 (has extras) }
+D/Vold    (  733): receive a disk change event
+D/Vold    (  733): get the uuid FCDF-2A83 of /dev/block/vold/8:16 when device add
+D/Vold    (  733): device name mismatch : (FCDF-2A83, 524A-F5B5 0)
+D/Vold    (  733): Volume FCDF-2A83 state changing 0 (No-Media) -> 1 (Idle-Unmounted)
+D/Vold    (  733): Device '/devices/platform/Mstar-ehci-3.2/usb3/3-1/3-1.4/3-1.4:1.0/host1/target1:0:0/1:0:0:0/block/sdb' event handled by volume FCDF-2A83
+D/MountService(  965): volume state changed for /mnt/usb/sdb1 (removed -> unmounted)
+D/MountService(  965): key:/mnt/usb/sdb1   val:unmounted
+D/MountService(  965): key:/mnt/usb/sda1   val:removed
+D/MountService(  965): sendStorageIntent Intent { act=android.intent.action.MEDIA_UNMOUNTED dat=file:///mnt/usb/sdb1 (has extras) }
+D/VoldCmdListener(  733): volume mount /mnt/usb/sdb1
+I/Vold    (  733): /dev/block/vold/8:16 being considered for volume FCDF-2A83
+D/Vold    (  733): Volume FCDF-2A83 state changing 1 (Idle-Unmounted) -> 3 (Checking)
+D/MountService(  965): volume state changed for /mnt/usb/sdb1 (unmounted -> checking)
+D/MountService(  965): key:/mnt/usb/sdb1   val:checking
+D/MountService(  965): key:/mnt/usb/sda1   val:removed
+D/MountService(  965): sendStorageIntent Intent { act=android.intent.action.MEDIA_CHECKING dat=file:///mnt/usb/sdb1 (has extras) }
+I/Vold    (  733): Device /dev/block/vold/8:16, target /mnt/usb/sdb1 mounted @ /mnt/secure/staging
+D/Vold    (  733): Volume FCDF-2A83 state changing 3 (Checking) -> 4 (Mounted)
+D/MountService(  965): volume state changed for /mnt/usb/sdb1 (checking -> mounted)
+D/MountService(  965): sendStorageIntent Intent { act=android.intent.action.MEDIA_MOUNTED dat=file:///mnt/usb/sdb1 (has extras) }
+V/TabletStatusBar( 1160): setLightsOn(true)
+V/TabletStatusBar( 1160): setLightsOn(true)
+W/InputManagerService(  965): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@41684e30 (uid=1000 pid=1967)
+V/TabletStatusBar( 1160): setLightsOn(true)
+I/ActivityManager(  965): Start proc com.mstar.dbprovider for content provider com.mstar.dbprovider/.MstTvUserSettingProvider: pid=3085 uid=10016 gids={}
+I/ActivityManager(  965): No longer want cn.tvbox (pid 2324): hidden #16
+W/ActivityManager(  965): Scheduling restart of crashed service cn.tvbox/.service.GGGService in 5000ms
+I/ActivityManager(  965): Start proc cn.tvbox for service cn.tvbox/.service.GGGService: pid=3101 uid=10036 gids={1015, 3003}
+V/TabletStatusBar( 1160): setLightsOn(true)
+E/ActivityThread( 1967): Activity com.coship.dvbsetting.systemsetting.SyssetAcivity has leaked ServiceConnection com.coship.dvbsetting.systemsetting.childview.NetUpdate$2@43085da8 that was originally bound here
+E/ActivityThread( 1967): android.app.ServiceConnectionLeaked: Activity com.coship.dvbsetting.systemsetting.SyssetAcivity has leaked ServiceConnection com.coship.dvbsetting.systemsetting.childview.NetUpdate$2@43085da8 that was originally bound here
+E/ActivityThread( 1967):        at android.app.LoadedApk$ServiceDispatcher.<init>(LoadedApk.java:936)
+E/ActivityThread( 1967):        at android.app.LoadedApk.getServiceDispatcher(LoadedApk.java:830)
+E/ActivityThread( 1967):        at android.app.ContextImpl.bindService(ContextImpl.java:1142)
+E/ActivityThread( 1967):        at android.content.ContextWrapper.bindService(ContextWrapper.java:370)
+E/ActivityThread( 1967):        at com.coship.dvbsetting.systemsetting.childview.NetUpdate.remoteAIDL(NetUpdate.java:339)
+E/ActivityThread( 1967):        at com.coship.dvbsetting.systemsetting.childview.NetUpdate.show(NetUpdate.java:490)
+E/ActivityThread( 1967):        at com.coship.dvbsetting.ExpanItem.clickandselect(ExpanItem.java:199)
+E/ActivityThread( 1967):        at com.coship.dvbsetting.ExpanItem.access$000(ExpanItem.java:33)
+E/ActivityThread( 1967):        at com.coship.dvbsetting.ExpanItem$onitemselect.onItemSelected(ExpanItem.java:151)
+E/ActivityThread( 1967):        at android.widget.AdapterView.fireOnSelected(AdapterView.java:882)
+E/ActivityThread( 1967):        at android.widget.AdapterView.access$200(AdapterView.java:48)
+E/ActivityThread( 1967):        at android.widget.AdapterView$SelectionNotifier.run(AdapterView.java:848)
+E/ActivityThread( 1967):        at android.os.Handler.handleCallback(Handler.java:605)
+E/ActivityThread( 1967):        at android.os.Handler.dispatchMessage(Handler.java:92)
+E/ActivityThread( 1967):        at android.os.Looper.loop(Looper.java:137)
+E/ActivityThread( 1967):        at android.app.ActivityThread.main(ActivityThread.java:4424)
+E/ActivityThread( 1967):        at java.lang.reflect.Method.invokeNative(Native Method)
+E/ActivityThread( 1967):        at java.lang.reflect.Method.invoke(Method.java:511)
+E/ActivityThread( 1967):        at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:848)
+E/ActivityThread( 1967):        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:575)
+E/ActivityThread( 1967):        at dalvik.system.NativeStart.main(Native Method)
+W/ActivityManager(  965): Unbind failed: could not find connection for android.os.BinderProxy@418524d0
+I/ActivityManager(  965): START {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.ts.gaya.coship/.MainActivity} from pid 965
+V/TabletStatusBar( 1160): setLightsOn(true)
+W/ThrottleService(  965): unable to find stats for iface rmnet0
+I/ActivityManager(  965): START {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 pkg=com.coship.dvbsetting cmp=com.coship.dvbsetting/.main} from pid 1292
+V/TabletStatusBar( 1160): setLightsOn(true)
+I/ActivityManager(  965): START {cmp=com.coship.dvbsetting/.systemsetting.SyssetAcivity} from pid 1967
+I/EthernetManager( 1967): Init Ethernet Manager, service: android.net.ethernet.IEthernetManager$Stub$Proxy@43278608
+V/TabletStatusBar( 1160): setLightsOn(true)
+V/EthernetMonitor(  965): get event 
+V/EthernetMonitor(  965): go poll events
+V/EthernetMonitor(  965): get event 
+V/EthernetMonitor(  965): go poll events
+V/EthernetMonitor(  965): get event 
+V/EthernetMonitor(  965): go poll events
+V/TabletStatusBar( 1160): setLightsOn(true)
+V/TabletStatusBar( 1160): setLightsOn(true)
+I/ActivityManager(  965): No longer want com.iflytek.xiri.recorder.svc (pid 1672): hidden #16
+I/ActivityManager(  965): No longer want com.android.defcontainer (pid 2506): hidden #17
+D/Vold    (  733): get the uuid FCDF-2A83 of /dev/block/vold/8:16 when device remove
+D/Vold    (  733): device name mismatch : (FCDF-2A83, 524A-F5B5 0)
+D/DirectVolume(  733): Volume FCDF-2A83 /mnt/usb/sdb1 disk 8:16 removed
+D/DirectVolume(  733): Volume FCDF-2A83 /mnt/usb/sdb1 partition 8:16 removed
+D/Vold    (  733): Volume FCDF-2A83 state changing 4 (Mounted) -> 5 (Unmounting)
+D/Vold    (  733): Volume FCDF-2A83 state changing 5 (Unmounting) -> 1 (Idle-Unmounted)
+D/MountService(  965): sendStorageIntent Intent { act=android.intent.action.MEDIA_EJECT dat=file:///mnt/usb/sdb1 (has extras) }
+D/MountService(  965): volume state changed for /mnt/usb/sdb1 (mounted -> unmounted)
+D/MountService(  965): key:/mnt/usb/sdb1   val:unmounted
+D/MountService(  965): key:/mnt/usb/sda1   val:removed
+D/MountService(  965): sendStorageIntent Intent { act=android.intent.action.MEDIA_UNMOUNTED dat=file:///mnt/usb/sdb1 (has extras) }
+I/Vold    (  733): /mnt/secure/staging sucessfully unmounted
+I/Vold    (  733): /mnt/usb/sdb1 unmounted sucessfully
+D/DirectVolume(  733): Crisis averted
+D/Vold    (  733): Volume FCDF-2A83 state changing 1 (Idle-Unmounted) -> 0 (No-Media)
+D/Vold    (  733): Device '/devices/platform/Mstar-ehci-3.2/usb3/3-1/3-1.4/3-1.4:1.0/host1/target1:0:0/1:0:0:0/block/sdb' event handled by volume FCDF-2A83
+D/MountService(  965): volume state changed for /mnt/usb/sdb1 (unmounted -> removed)
+D/MountService(  965): key:/mnt/usb/sdb1   val:removed
+D/MountService(  965): key:/mnt/usb/sda1   val:removed
+D/MountService(  965): sendStorageIntent Intent { act=android.intent.action.MEDIA_REMOVED dat=file:///mnt/usb/sdb1 (has extras) }
+W/ActivityManager(  965): Excessive CPU in com.coship.dvbsetting (pid 1967): used 2796490 during 900025
+I/ActivityManager(  965): Process com.coship.dvbsetting (pid 1967) has died.
+I/ActivityManager(  965): START {act=android.intent.action.MAIN flg=0x10200000 cmp=com.tencent.qqmusicpadhd/.HomeActivityGroup} from pid 1292
+W/ActivityManager(  965): Activity is launching as a new task, so cancelling activity result.
+I/ActivityManager(  965): Start proc com.tencent.qqmusicpadhd for activity com.tencent.qqmusicpadhd/.HomeActivityGroup: pid=3141 uid=10039 gids={3003, 1015, 1007}
+V/TabletStatusBar( 1160): setLightsOn(true)
+W/InputManagerService(  965): Got RemoteException sending setActive(false) notification to pid 1967 uid 1000
+--------- beginning of /dev/log/main
+D/MonitorCw880( 2830): currentRemoteHost=192.168.43.18 easybusMsg.remoteIp=192.168.43.18, counter=6
+D/MonitorCw880( 2830): easybusySend()-> easybusMsg.remoteIp=  192.168.43.18 easybusMsg.remotePort=  46391 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+I/MonitorCw880( 2830): easybusReceive success !
+D/MonitorCw880( 2830):  easybusMsg.remoteIp=  192.168.43.18 easybusMsg.remotePort=  43636 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880( 2830): currentRemoteHost=192.168.43.18 easybusMsg.remoteIp=192.168.43.18, counter=7
+D/MonitorCw880( 2830): easybusySend()-> easybusMsg.remoteIp=  192.168.43.18 easybusMsg.remotePort=  43636 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+W/InputManagerService(  965): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@416c8178
+D/InputEventConsistencyVerifier( 3141): KeyEvent: ACTION_UP but key was not down.
+D/InputEventConsistencyVerifier( 3141):   in android.widget.FrameLayout@416c12a8
+D/InputEventConsistencyVerifier( 3141):   0: sent at 6345004000000, KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_DOWN, scanCode=108, metaState=0, flags=0x8, repeatCount=0, eventTime=6345004, downTime=6344842, deviceId=2, source=0x101 }
+I/MonitorCw880( 2830): easybusReceive success !
+D/MonitorCw880( 2830):  easybusMsg.remoteIp=  192.168.43.18 easybusMsg.remotePort=  46391 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880( 2830): currentRemoteHost=192.168.43.18 easybusMsg.remoteIp=192.168.43.18, counter=8
+D/MonitorCw880( 2830): easybusySend()-> easybusMsg.remoteIp=  192.168.43.18 easybusMsg.remotePort=  46391 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/InputEventConsistencyVerifier( 3141): KeyEvent: ACTION_UP but key was not down.
+D/InputEventConsistencyVerifier( 3141):   in android.widget.Button@4166a1d8
+D/InputEventConsistencyVerifier( 3141):   0: sent at 6346464000000, KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_RIGHT, scanCode=106, metaState=0, flags=0x8, repeatCount=0, eventTime=6346464, downTime=6346143, deviceId=2, source=0x101 }
+D/InputEventConsistencyVerifier( 3141): KeyEvent: ACTION_UP but key was not down.
+D/InputEventConsistencyVerifier( 3141):   in android.widget.Button@4166aa88
+D/InputEventConsistencyVerifier( 3141):   0: sent at 6347276000000, KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_RIGHT, scanCode=106, metaState=0, flags=0x8, repeatCount=0, eventTime=6347276, downTime=6347117, deviceId=2, source=0x101 }
+D/InputEventConsistencyVerifier( 3141): KeyEvent: ACTION_UP but key was not down.
+D/InputEventConsistencyVerifier( 3141):   in android.widget.LinearLayout@4179eda0
+D/InputEventConsistencyVerifier( 3141):   0: sent at 6347740000000, KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_DOWN, scanCode=108, metaState=0, flags=0x8, repeatCount=0, eventTime=6347740, downTime=6347580, deviceId=2, source=0x101 }
+W/WindowManager(  965): Unable to find ITelephony interface.
+I/ActivityManager(  965): START {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.ts.gaya.coship/.MainActivity} from pid 965
+I/MonitorCw880( 2830): easybusReceive success !
+D/MonitorCw880( 2830):  easybusMsg.remoteIp=  192.168.43.18 easybusMsg.remotePort=  43636 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880( 2830): currentRemoteHost=192.168.43.18 easybusMsg.remoteIp=192.168.43.18, counter=9
+D/MonitorCw880( 2830): easybusySend()-> easybusMsg.remoteIp=  192.168.43.18 easybusMsg.remotePort=  43636 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/selena.android.view.SelenaView( 1292): Surface Lost
+W/selena.android.view.SelenaView( 1292):     at selena.android.view.SelenaView.onSurfaceLost(SelenaView.java:322)
+V/selena.android.gl.EglHelper( 1292): >>> Looking for EGL Config ES1 R8G8B8A0 D16S0 AA0
+W/selena.android.gl.EglHelper( 1292):     at selena.android.gl.EglHelper.start(EglHelper.java:101)
+V/selena.android.gl.EglHelper( 1292): eglChooseConfig err: 12288
+W/selena.android.gl.EglHelper( 1292):     at selena.android.gl.EglHelper.findAndInitConfig(EglHelper.java:177)
+V/selena.android.gl.EglHelper( 1292): >>> EGL Config [0] ES0 R8G8B8A0 D24S0 AA0 Caveat[12344] - Score: 2048
+W/selena.android.gl.EglHelper( 1292):     at selena.android.gl.EglHelper.findAndInitConfig(EglHelper.java:237)
+V/selena.android.gl.EglHelper( 1292): --> Config chosen: 0
+W/selena.android.gl.EglHelper( 1292):     at selena.android.gl.EglHelper.findAndInitConfig(EglHelper.java:250)
+V/selena.android.gl.EglHelper( 1292): >>> EGL Config [1] ES0 R8G8B8A8 D24S8 AA0 Caveat[12344] - Score: 526344
+W/selena.android.gl.EglHelper( 1292):     at selena.android.gl.EglHelper.findAndInitConfig(EglHelper.java:237)
+V/selena.android.gl.EglHelper( 1292): >>> EGL Config [2] ES0 R8G8B8A8 D24S8 AA0 Caveat[12344] - Score: 526344
+W/selena.android.gl.EglHelper( 1292):     at selena.android.gl.EglHelper.findAndInitConfig(EglHelper.java:237)
+V/selena.android.gl.EglHelper( 1292): >>> EGL Config [3] ES0 R8G8B8A8 D24S8 AA4 Caveat[12344] - Score: 67635208
+W/selena.android.gl.EglHelper( 1292):     at selena.android.gl.EglHelper.findAndInitConfig(EglHelper.java:237)
+D/selena.android.gl.GLView$GLThread( 1292): waitForRenderComplete - Enter: false, false
+W/selena.android.gl.GLView$GLThread( 1292):     at selena.android.gl.GLView$GLThread.waitForRenderComplete(GLView.java:746)
+D/selena.android.gl.GLView$GLThread( 1292): waitForRenderComplete - LeaveAt: 7158
+W/selena.android.gl.GLView$GLThread( 1292):     at selena.android.gl.GLView$GLThread.waitForRenderComplete(GLView.java:755)
+W/selena.android.view.SelenaView( 1292): DISPATCH_DRAW_WAIT_FOR_NFRAMES_COUNT: 1
+W/selena.android.view.SelenaView( 1292):     at selena.android.view.SelenaView.dispatchDraw(SelenaView.java:99)
+D/selena.android.gl.GLView$GLThread( 1292): waitForRenderComplete - Enter: false, false
+W/selena.android.gl.GLView$GLThread( 1292):     at selena.android.gl.GLView$GLThread.waitForRenderComplete(GLView.java:746)
+D/selena.android.gl.GLView$GLThread( 1292): waitForRenderComplete - LeaveAt: 7158
+W/selena.android.gl.GLView$GLThread( 1292):     at selena.android.gl.GLView$GLThread.waitForRenderComplete(GLView.java:755)
+V/TabletStatusBar( 1160): setLightsOn(true)
+D/selena.android.view.SelenaView( 1292): onWindowFocusChanged: true
+W/selena.android.view.SelenaView( 1292):     at selena.android.view.SelenaView.onWindowFocusChanged(SelenaView.java:121)
+D/selena.android.gl.GLView( 1292): onWindowFocusChanged: true
+W/selena.android.gl.GLView( 1292):     at selena.android.gl.GLView.onWindowFocusChanged(GLView.java:379)
+D/selena.android.gl.GLView$GLThread( 1292): onWindowFocusChanged - Enter: false, false
+W/selena.android.gl.GLView$GLThread( 1292):     at selena.android.gl.GLView$GLThread.onWindowFocusChanged(GLView.java:822)
+D/selena.android.gl.GLView$GLThread( 1292): onWindowFocusChanged - Leave: false, false
+W/selena.android.gl.GLView$GLThread( 1292):     at selena.android.gl.GLView$GLThread.onWindowFocusChanged(GLView.java:831)
+D/selena.android.view.SelenaView( 1292): Surface Created
+W/selena.android.view.SelenaView( 1292):     at selena.android.view.SelenaView.onSurfaceCreated(SelenaView.java:316)
+V/aglSendDebugString( 1292): GLES1 Context - Resized [00181D38]: 1280x720 (BB:R5G6B5) (DS:D16), VP: Vec4(0,0,1280,720), SC: Vec4(0,0,1280,720)
+V/aglSendDebugString( 1292): >>> Restoring VertexArray: FVF:Position|Normal|ColorA|Tex1(2)|Tangent|BiNormal, NumVertex: 8, Stride: 60, Size: 480b (0.000457764MB) !
+V/aglSendDebugString( 1292): >>> Restoring IndexArray VBO: PT: TriangleList, MaxVertexIndex:8, NumIndices: 12, Stride: 2, Size: 24b (2.28882e-05MB) !
+V/aglSendDebugString( 1292): >>> Restoring VertexArray: FVF:Position|Normal|ColorA|Tex1(2)|Tangent|BiNormal, NumVertex: 8, Stride: 60, Size: 480b (0.000457764MB) !
+V/aglSendDebugString( 1292): >>> Restoring IndexArray VBO: PT: TriangleList, MaxVertexIndex:8, NumIndices: 12, Stride: 2, Size: 24b (2.28882e-05MB) !
+V/aglSendDebugString( 1292): >>> Restoring VertexArray: FVF:Position|Normal|ColorA|Tex1(2)|Tangent|BiNormal, NumVertex: 8, Stride: 60, Size: 480b (0.000457764MB) !
+V/aglSendDebugString( 1292): >>> Restoring IndexArray VBO: PT: TriangleList, MaxVertexIndex:8, NumIndices: 12, Stride: 2, Size: 24b (2.28882e-05MB) !
+V/aglSendDebugString( 1292): >>> Restoring VertexArray: FVF:Position|Normal|ColorA|Tex1(2), NumVertex: 4, Stride: 36, Size: 144b (0.000137329MB) !
+V/aglSendDebugString( 1292): >>> Restoring IndexArray VBO: PT: TriangleList, MaxVertexIndex:4, NumIndices: 6, Stride: 2, Size: 12b (1.14441e-05MB) !
+V/aglSendDebugString( 1292): >>> Restoring VertexArray: FVF:Position|Normal|ColorA|Tex1(2)|Tangent|BiNormal, NumVertex: 176, Stride: 60, Size: 10560b (0.0100708MB) !
+V/aglSendDebugString( 1292): >>> Restoring IndexArray VBO: PT: TriangleList, MaxVertexIndex:176, NumIndices: 264, Stride: 2, Size: 528b (0.00050354MB) !
+W/WindowManager(  965): Unable to find ITelephony interface.
+I/ActivityManager(  965): START {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.ts.gaya.coship/.MainActivity} from pid 965
+V/selena.android.view.SelenaView( 1292): **** onPause
+W/selena.android.view.SelenaView( 1292):     at selena.android.view.SelenaView.activityOnPause(SelenaView.java:216)
+D/selena.android.view.AndroidAppWindow( 1292): [KBD] inputKey : 254, isDown: false
+W/selena.android.view.AndroidAppWindow( 1292):     at selena.android.view.AndroidAppWindow.inputKey(AndroidAppWindow.java:136)
+W/WindowManager(  965): Unable to find ITelephony interface.
+V/selena.android.view.SelenaView( 1292): **** onPause
+I/ActivityManager(  965): START {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.ts.gaya.coship/.MainActivity} from pid 965
+W/selena.android.view.SelenaView( 1292):     at selena.android.view.SelenaView.activityOnPause(SelenaView.java:216)
+D/selena.android.view.AndroidAppWindow( 1292): [KBD] inputKey : 254, isDown: false
+W/selena.android.view.AndroidAppWindow( 1292):     at selena.android.view.AndroidAppWindow.inputKey(AndroidAppWindow.java:136)
+W/WindowManager(  965): Unable to find ITelephony interface.
+V/selena.android.view.SelenaView( 1292): **** onPause
+W/selena.android.view.SelenaView( 1292):     at selena.android.view.SelenaView.activityOnPause(SelenaView.java:216)
+I/ActivityManager(  965): START {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.ts.gaya.coship/.MainActivity} from pid 965
+D/selena.android.view.AndroidAppWindow( 1292): [KBD] inputKey : 254, isDown: false
+W/selena.android.view.AndroidAppWindow( 1292):     at selena.android.view.AndroidAppWindow.inputKey(AndroidAppWindow.java:136)
+D/dalvikvm( 1292): GC_CONCURRENT freed 1205K, 74% free 4291K/16451K, paused 1ms+6ms
+W/WindowManager(  965): Unable to find ITelephony interface.
+I/ActivityManager(  965): START {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.ts.gaya.coship/.MainActivity} from pid 965
+V/selena.android.view.SelenaView( 1292): **** onPause
+W/selena.android.view.SelenaView( 1292):     at selena.android.view.SelenaView.activityOnPause(SelenaView.java:216)
+D/selena.android.view.AndroidAppWindow( 1292): [KBD] inputKey : 254, isDown: false
+W/selena.android.view.AndroidAppWindow( 1292):     at selena.android.view.AndroidAppWindow.inputKey(AndroidAppWindow.java:136)
+W/WindowManager(  965): Unable to find ITelephony interface.
+I/ActivityManager(  965): START {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.ts.gaya.coship/.MainActivity} from pid 965
+V/selena.android.view.SelenaView( 1292): **** onPause
+W/selena.android.view.SelenaView( 1292):     at selena.android.view.SelenaView.activityOnPause(SelenaView.java:216)
+D/selena.android.view.AndroidAppWindow( 1292): [KBD] inputKey : 254, isDown: false
+W/selena.android.view.AndroidAppWindow( 1292):     at selena.android.view.AndroidAppWindow.inputKey(AndroidAppWindow.java:136)
+I/MonitorCw880( 2830): easybusReceive success !
+D/MonitorCw880( 2830):  easybusMsg.remoteIp=  192.168.43.18 easybusMsg.remotePort=  46391 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880( 2830): currentRemoteHost=192.168.43.18 easybusMsg.remoteIp=192.168.43.18, counter=10
+D/MonitorCw880( 2830): easybusySend()-> easybusMsg.remoteIp=  192.168.43.18 easybusMsg.remotePort=  46391 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+V/aglSendDebugString( 1292): >>> Restoring VertexArray: FVF:Position|Normal|ColorA|Tex1(2), NumVertex: 4, Stride: 36, Size: 144b (0.000137329MB) !
+V/aglSendDebugString( 1292): >>> Restoring IndexArray VBO: PT: TriangleList, MaxVertexIndex:4, NumIndices: 6, Stride: 2, Size: 12b (1.14441e-05MB) !
+V/aglSendDebugString( 1292): >>> Restoring VertexArray: FVF:Position|Normal|ColorA|Tex1(2), NumVertex: 4, Stride: 36, Size: 144b (0.000137329MB) !
+V/aglSendDebugString( 1292): >>> Restoring IndexArray VBO: PT: TriangleList, MaxVertexIndex:4, NumIndices: 6, Stride: 2, Size: 12b (1.14441e-05MB) !
+V/aglSendDebugString( 1292): >>> Restoring VertexArray: FVF:Position|Normal|ColorA|Tex1(2), NumVertex: 4, Stride: 36, Size: 144b (0.000137329MB) !
+V/aglSendDebugString( 1292): >>> Restoring IndexArray VBO: PT: TriangleList, MaxVertexIndex:4, NumIndices: 6, Stride: 2, Size: 12b (1.14441e-05MB) !
+V/aglSendDebugString( 1292): >>> Restoring VertexArray: FVF:Position|Normal|ColorA|Tex1(2), NumVertex: 4, Stride: 36, Size: 144b (0.000137329MB) !
+V/aglSendDebugString( 1292): >>> Restoring IndexArray VBO: PT: TriangleList, MaxVertexIndex:4, NumIndices: 6, Stride: 2, Size: 12b (1.14441e-05MB) !
+V/aglSendDebugString( 1292): >>> Restoring VertexArray: FVF:Position|Normal|ColorA|Tex1(2), NumVertex: 4, Stride: 36, Size: 144b (0.000137329MB) !
+V/aglSendDebugString( 1292): >>> Restoring IndexArray VBO: PT: TriangleList, MaxVertexIndex:4, NumIndices: 6, Stride: 2, Size: 12b (1.14441e-05MB) !
+V/aglSendDebugString( 1292): >>> Restoring VertexArray: FVF:Position|Normal|ColorA|Tex1(2), NumVertex: 4, Stride: 36, Size: 144b (0.000137329MB) !
+V/aglSendDebugString( 1292): >>> Restoring IndexArray VBO: PT: TriangleList, MaxVertexIndex:4, NumIndices: 6, Stride: 2, Size: 12b (1.14441e-05MB) !
+I/MonitorCw880( 2830): easybusReceive success !
+D/MonitorCw880( 2830):  easybusMsg.remoteIp=  192.168.43.18 easybusMsg.remotePort=  60530 easybusMsg.msgType=  easyscreen easybusMsg.msgData=  action=stop&playurl=udp://:::1234
+I/MonitorCw880( 2830): SystemPropertiesClass:class android.os.SystemProperties
+W/MonitorCw880( 2830): ~~~~~~~~~~~~~~~~~~~~~~method:public static java.lang.String android.os.SystemProperties.get(java.lang.String,java.lang.String)
+W/MonitorCw880( 2830): return value:3
+D/MonitorCw880( 2830): ====VAULE=3
+I/MonitorCw880( 2830): ====mDisplaymode = 1
+D/MonitorCw880( 2830): ====yes I recevice cmd -> stop
+W/WimoApp ( 2830): Q to be created is for module index:23,pid=2830
+W/WimoApp ( 2830): Q_Addr is:0x1001701
+W/WimoApp ( 2830): 
+W/WimoApp ( 2830):  [U_MSGQ]create msgq for module(id=23) succeed!
+W/WimoApp ( 2830): 
+W/WimoApp ( 2830):  [WIM_M]send AP_MODULE_EXIT toMODULE(21) succeed!
+W/WimoApp ( 2830): 
+W/WimoApp ( 2830):  [APK]Received IMAN_STREAM_STOPED msg!
+V/Cw880jni( 2830): [186]===cw_api_stream_stop back = 0 
+W/MonitorCw880( 2830): Stop return=7,currentRemoteHost=null mip=192.168.43.18
+D/MonitorCw880( 2830): =========will to handle request=stop
+D/MonitorCw880( 2830): ===mSendString = success action = stop
+D/MonitorCw880( 2830):  easybusMsg.remoteIp=  192.168.43.18 easybusMsg.remotePort=  60530 easybusMsg.msgType=  easyscreen easybusMsg.msgData=  action=stop&result=success
+D/MonitorCw880( 2830): send action -> stop success
+I/MonitorCw880( 2830): easybusReceive success !
+D/MonitorCw880( 2830):  easybusMsg.remoteIp=  192.168.43.18 easybusMsg.remotePort=  43636 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880( 2830):  ip error -> currentRemoteHost=null easybusMsg.remoteIp=192.168.43.18, counter=11
+V/EthernetMonitor(  965): get event 
+V/EthernetMonitor(  965): go poll events
+D/MonitorCw880( 2830): currentRemoteHost is null ,continue
+I/MonitorCw880( 2830): easybusReceive success !
+D/MonitorCw880( 2830):  easybusMsg.remoteIp=  192.168.43.18 easybusMsg.remotePort=  46391 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880( 2830):  ip error -> currentRemoteHost=null easybusMsg.remoteIp=192.168.43.18, counter=11
+D/MonitorCw880( 2830): currentRemoteHost is null ,continue
+I/MonitorCw880( 2830): easybusReceive success !
+D/MonitorCw880( 2830):  easybusMsg.remoteIp=  192.168.43.18 easybusMsg.remotePort=  60530 easybusMsg.msgType=  easyscreen easybusMsg.msgData=  action=handshake&port=1234&protocol=udp&transfermode=unicast&streamformat=ts&resolution=720p&videobitrate=1536&version=1
+I/MonitorCw880( 2830): SystemPropertiesClass:class android.os.SystemProperties
+W/MonitorCw880( 2830): ~~~~~~~~~~~~~~~~~~~~~~method:public static java.lang.String android.os.SystemProperties.get(java.lang.String,java.lang.String)
+W/MonitorCw880( 2830): return value:3
+D/MonitorCw880( 2830): ====VAULE=3
+I/MonitorCw880( 2830): ====mDisplaymode = 1
+D/MonitorCw880( 2830): ====yes I recevice cmd -> handshake
+V/Cw880jni( 2830): =native ip = 192.168.43.18
+V/Cw880jni( 2830): [53]====currentip = c0000000
+V/Cw880jni( 2830): [57]====currentip = c0a80000
+V/Cw880jni( 2830): [61]====currentip = c0a82b00
+V/Cw880jni( 2830): [70]==tempip=18==retIP=c0a82b12
+V/Cw880jni( 2830): [80]===socketip=c0a82b12
+W/WimoApp ( 2830): Q to be created is for module index:23,pid=2830
+W/WimoApp ( 2830): Q_Addr is:0x1001701
+W/WimoApp ( 2830): 
+W/WimoApp ( 2830):  [U_MSGQ]create msgq for module(id=23) succeed!
+W/WimoApp ( 2830): 
+W/WimoApp ( 2830):  [WIM_M]send TS_INFOR_MSG toMODULE(18) succeed!
+W/WimoApp ( 2830): 
+W/WimoApp ( 2830):  [APK]Received WIMO_AP_TS_DEST_INFOR_REPLY msg!
+V/Cw880jni( 2830): [97]===cw_api_set_tsinfo back = 0
+V/Cw880jni( 2830): ==========mode = 1
+V/Cw880jni( 2830): ==========bandwidth = 4
+V/Cw880jni( 2830): [113]===set 720p displaymode 
+W/WimoApp ( 2830): Q to be created is for module index:23,pid=2830
+W/WimoApp ( 2830): Q_Addr is:0x1001701
+W/WimoApp ( 2830): 
+W/WimoApp ( 2830):  [U_MSGQ]create msgq for module(id=23) succeed!
+W/WimoApp ( 2830): 
+W/WimoApp ( 2830):  [WIMO_T]Input Resolution:Rel.width=1280, Rel.height=720
+W/WimoApp ( 2830): 
+W/WimoApp ( 2830):  [WIMO_T]Resolution Change Request as:Rel.width=1280, Rel.height=720,Actual.fps=30
+V/OtORequest( 2877): get command=200
+V/OtORequest( 2877): parse OtORequest: cmd=200 paramLength=0 bufferlen=8
+W/WimoApp ( 2830): 
+W/WimoApp ( 2830):  [WIM_M]send WIMO_AP_RESOL_CHNG_REQ toMODULE(21) succeed!
+D/OtOService( 2877): tmp:0.8////volume:80
+D/ServerAdapter( 2877): Server addr: http://wasu.feifeikan.com:8080/
+E/ServerHandler( 2877): Send:com.aidufei.protocol.oto.OtOContentRequest@41b399a0
+D/ServerHandler( 2877): ServerHandler send request:200:{"Status":{"ReturnCode":100,"Description":"Normal state"},"ServerAddr":"http:\/\/wasu.feifeikan.com:8080\/","Volume":80}
+V/ServerHandler( 2877): ServerHandler send DatagramPacket:/192.168.43.18-[B@41b3ae38
+E/ServerHandler( 2877): receiveRequest
+V/OtORequest( 2877): parseCommand
+W/WimoApp ( 2830): 
+W/WimoApp ( 2830):  [APK]Received WIMO_AP_RESOL_CHNG_REPLY msg!
+V/Cw880jni( 2830): [116]===cw_api_set_resolution back = 0
+W/WimoApp ( 2830): 
+W/WimoApp ( 2830):  ERROR_DEBUG : file_apps/cw880_api/project/jni/andrapi.c, func_cw_api_set_ts_bandwidth, line_857, [APK]bandwidth required is 4M
+W/WimoApp ( 2830): Q to be created is for module index:23,pid=2830
+W/WimoApp ( 2830): Q_Addr is:0x1001701
+W/WimoApp ( 2830): 
+W/WimoApp ( 2830):  [U_MSGQ]create msgq for module(id=23) succeed!
+W/WimoApp ( 2830): 
+W/WimoApp ( 2830):  [WIM_M]send IMAN_QP_BAND_ADJUST toMODULE(21) succeed!
+V/Cw880jni( 2830): [118]====cw_api_set_ts_bandwidth back = 0
+W/WimoApp ( 2830): Q to be created is for module index:23,pid=2830
+W/WimoApp ( 2830): Q_Addr is:0x1001701
+W/WimoApp ( 2830): 
+W/WimoApp ( 2830):  [U_MSGQ]create msgq for module(id=23) succeed!
+W/WimoApp ( 2830): 
+W/WimoApp ( 2830):  [WIM_M]send IMAN_STREAM_OUTPUT_START toMODULE(21) succeed!
+W/WimoApp ( 2830): 
+W/WimoApp ( 2830):  [APK]Received IMAN_STREAM_OUTPUT_START msg!
+V/Cw880jni( 2830): [120]===cw_api_stream_start back =0
+V/Cw880jni( 2830): [126]====yes cw880 set success 
+D/MonitorCw880( 2830): =========will to handle request=handshake
+D/MonitorCw880( 2830): ===mSendString = success action = handshake
+D/MonitorCw880( 2830):  easybusMsg.remoteIp=  192.168.43.18 easybusMsg.remotePort=  60530 easybusMsg.msgType=  easyscreen easybusMsg.msgData=  action=handshake&result=success&playurl=udp://192.168.43.18:1234&video=h.264&audio=none&protocol=udp&transfermode=unicast&streamformat=ts&resolution=720p&videobitrate=1536&version=1
+D/MonitorCw880( 2830): send action -> handshake success
+I/MonitorCw880( 2830): easybusReceive success !
+D/MonitorCw880( 2830):  easybusMsg.remoteIp=  192.168.43.18 easybusMsg.remotePort=  60530 easybusMsg.msgType=  easyscreen easybusMsg.msgData=  action=start&playurl=udp://:::1234&video=h.264&audio=aac&resolution=720p&videobitrate=1536
+I/MonitorCw880( 2830): SystemPropertiesClass:class android.os.SystemProperties
+W/MonitorCw880( 2830): ~~~~~~~~~~~~~~~~~~~~~~method:public static java.lang.String android.os.SystemProperties.get(java.lang.String,java.lang.String)
+W/MonitorCw880( 2830): return value:3
+D/MonitorCw880( 2830): ====VAULE=3
+I/MonitorCw880( 2830): ====mDisplaymode = 1
+D/MonitorCw880( 2830): ====yes I recevice cmd -> start
+V/Cw880jni( 2830): =native ip = 192.168.43.18
+V/Cw880jni( 2830): [53]====currentip = c0000000
+V/Cw880jni( 2830): [57]====currentip = c0a80000
+V/Cw880jni( 2830): [61]====currentip = c0a82b00
+V/Cw880jni( 2830): [70]==tempip=18==retIP=c0a82b12
+V/Cw880jni( 2830): [80]===socketip=c0a82b12
+W/WimoApp ( 2830): Q to be created is for module index:23,pid=2830
+W/WimoApp ( 2830): Q_Addr is:0x1001701
+W/WimoApp ( 2830): 
+W/WimoApp ( 2830):  [U_MSGQ]create msgq for module(id=23) succeed!
+W/WimoApp ( 2830): 
+W/WimoApp ( 2830):  [WIM_M]send TS_INFOR_MSG toMODULE(18) succeed!
+W/WimoApp ( 2830): 
+W/WimoApp ( 2830):  [APK]Received WIMO_AP_TS_DEST_INFOR_REPLY msg!
+V/Cw880jni( 2830): [97]===cw_api_set_tsinfo back = 0
+V/Cw880jni( 2830): ==========mode = 1
+V/Cw880jni( 2830): ==========bandwidth = 4
+V/Cw880jni( 2830): [113]===set 720p displaymode 
+W/WimoApp ( 2830): Q to be created is for module index:23,pid=2830
+W/WimoApp ( 2830): Q_Addr is:0x1001701
+W/WimoApp ( 2830): 
+W/WimoApp ( 2830):  [U_MSGQ]create msgq for module(id=23) succeed!
+W/WimoApp ( 2830): 
+W/WimoApp ( 2830):  [WIMO_T]Input Resolution:Rel.width=1280, Rel.height=720
+W/WimoApp ( 2830): 
+W/WimoApp ( 2830):  [WIMO_T]Resolution Change Request as:Rel.width=1280, Rel.height=720,Actual.fps=30
+W/WimoApp ( 2830): 
+W/WimoApp ( 2830):  [WIM_M]send WIMO_AP_RESOL_CHNG_REQ toMODULE(21) succeed!
+W/WimoApp ( 2830): 
+W/WimoApp ( 2830):  [APK]Received WIMO_AP_RESOL_CHNG_REPLY msg!
+V/Cw880jni( 2830): [116]===cw_api_set_resolution back = 0
+W/WimoApp ( 2830): 
+W/WimoApp ( 2830):  ERROR_DEBUG : file_apps/cw880_api/project/jni/andrapi.c, func_cw_api_set_ts_bandwidth, line_857, [APK]bandwidth required is 4M
+W/WimoApp ( 2830): Q to be created is for module index:23,pid=2830
+W/WimoApp ( 2830): Q_Addr is:0x1001701
+W/WimoApp ( 2830): 
+W/WimoApp ( 2830):  [U_MSGQ]create msgq for module(id=23) succeed!
+W/WimoApp ( 2830): 
+W/WimoApp ( 2830):  [WIM_M]send IMAN_QP_BAND_ADJUST toMODULE(21) succeed!
+V/Cw880jni( 2830): [118]====cw_api_set_ts_bandwidth back = 0
+W/WimoApp ( 2830): Q to be created is for module index:23,pid=2830
+W/WimoApp ( 2830): Q_Addr is:0x1001701
+W/WimoApp ( 2830): 
+W/WimoApp ( 2830):  [U_MSGQ]create msgq for module(id=23) succeed!
+W/WimoApp ( 2830): 
+W/WimoApp ( 2830):  [WIM_M]send IMAN_STREAM_OUTPUT_START toMODULE(21) succeed!
+W/WimoApp ( 2830): 
+W/WimoApp ( 2830):  [APK]Received IMAN_STREAM_OUTPUT_START msg!
+V/Cw880jni( 2830): [120]===cw_api_stream_start back =0
+V/Cw880jni( 2830): [126]====yes cw880 set success 
+D/MonitorCw880( 2830): =========will to handle request=start
+D/MonitorCw880( 2830): ===mSendString = success action = start
+D/MonitorCw880( 2830):  easybusMsg.remoteIp=  192.168.43.18 easybusMsg.remotePort=  60530 easybusMsg.msgType=  easyscreen easybusMsg.msgData=  action=start&result=success
+D/MonitorCw880( 2830): send action -> start success
+D/App     ( 1292): [196980512.0000:256.0000] [Debug in OnStart]: (scripts/actions/DebugVarAVarB.aq:14)
+D/App     ( 1292): Func_Tpl_app<ItemPicked> [VarA:[Gallery]_Item#1855] - [VarB:4]
+I/ActivityManager(  965): START {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 pkg=com.coship.dvbsetting cmp=com.coship.dvbsetting/.main} from pid 1292
+D/dalvikvm(  965): GC_FOR_ALLOC freed 1332K, 63% free 4242K/11395K, paused 51ms
+I/dalvikvm-heap(  965): Grow heap (frag case) to 8.744MB for 1048592-byte allocation
+D/dalvikvm(  965): GC_FOR_ALLOC freed 37K, 55% free 5229K/11395K, paused 43ms
+D/dalvikvm(  965): GC_CONCURRENT freed 8K, 54% free 5276K/11395K, paused 2ms+4ms
+V/selena.android.view.SelenaView( 1292): **** onPause
+W/selena.android.view.SelenaView( 1292):     at selena.android.view.SelenaView.activityOnPause(SelenaView.java:216)
+I/ActivityManager(  965): Start proc com.coship.dvbsetting for activity com.coship.dvbsetting/.main: pid=3175 uid=1000 gids={3003, 1015, 3002, 3001, 3004}
+D/selena.android.view.SelenaView( 1292): onWindowFocusChanged: false
+W/selena.android.view.SelenaView( 1292):     at selena.android.view.SelenaView.onWindowFocusChanged(SelenaView.java:121)
+D/selena.android.gl.GLView( 1292): onWindowFocusChanged: false
+W/selena.android.gl.GLView( 1292):     at selena.android.gl.GLView.onWindowFocusChanged(GLView.java:379)
+D/selena.android.gl.GLView$GLThread( 1292): onWindowFocusChanged - Enter: false, false
+W/selena.android.gl.GLView$GLThread( 1292):     at selena.android.gl.GLView$GLThread.onWindowFocusChanged(GLView.java:822)
+D/selena.android.gl.GLView$GLThread( 1292): onWindowFocusChanged - Leave: false, false
+W/selena.android.gl.GLView$GLThread( 1292):     at selena.android.gl.GLView$GLThread.onWindowFocusChanged(GLView.java:831)
+D/dalvikvm( 3175): GC_FOR_ALLOC freed 87K, 43% free 6649K/11651K, paused 33ms
+I/dalvikvm-heap( 3175): Grow heap (frag case) to 18.003MB for 8294416-byte allocation
+D/dalvikvm( 3175): GC_CONCURRENT freed 1K, 26% free 14748K/19779K, paused 2ms+3ms
+I/Process (  965): Sending signal. PID: 3175 SIG: 3
+I/dalvikvm( 3175): threadid=3: reacting to signal 3
+I/dalvikvm( 3175): Wrote stack traces to '/data/anr/traces.txt'
+V/TabletStatusBar( 1160): setLightsOn(true)
+W/InputManagerService(  965): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@4164b5e8 (uid=10039 pid=3141)
+I/ActivityManager(  965): Displayed com.coship.dvbsetting/.main: +772ms
+D/MonitorCw880( 2830): Befor,cycleCheckCounter=8 counter=11
+I/MonitorCw880( 2830): easybusReceive success !
+D/MonitorCw880( 2830):  easybusMsg.remoteIp=  192.168.43.18 easybusMsg.remotePort=  35651 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880( 2830): currentRemoteHost=192.168.43.18 easybusMsg.remoteIp=192.168.43.18, counter=2
+D/MonitorCw880( 2830): easybusySend()-> easybusMsg.remoteIp=  192.168.43.18 easybusMsg.remotePort=  35651 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+W/WindowManager(  965): Unable to find ITelephony interface.
+I/ActivityManager(  965): START {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.ts.gaya.coship/.MainActivity} from pid 965
+D/selena.android.view.SelenaView( 1292): Surface Lost
+W/selena.android.view.SelenaView( 1292):     at selena.android.view.SelenaView.onSurfaceLost(SelenaView.java:322)
+V/selena.android.gl.EglHelper( 1292): >>> Looking for EGL Config ES1 R8G8B8A0 D16S0 AA0
+W/selena.android.gl.EglHelper( 1292):     at selena.android.gl.EglHelper.start(EglHelper.java:101)
+V/selena.android.gl.EglHelper( 1292): eglChooseConfig err: 12288
+W/selena.android.gl.EglHelper( 1292):     at selena.android.gl.EglHelper.findAndInitConfig(EglHelper.java:177)
+V/selena.android.gl.EglHelper( 1292): >>> EGL Config [0] ES0 R8G8B8A0 D24S0 AA0 Caveat[12344] - Score: 2048
+W/selena.android.gl.EglHelper( 1292):     at selena.android.gl.EglHelper.findAndInitConfig(EglHelper.java:237)
+V/selena.android.gl.EglHelper( 1292): --> Config chosen: 0
+W/selena.android.gl.EglHelper( 1292):     at selena.android.gl.EglHelper.findAndInitConfig(EglHelper.java:250)
+V/selena.android.gl.EglHelper( 1292): >>> EGL Config [1] ES0 R8G8B8A8 D24S8 AA0 Caveat[12344] - Score: 526344
+W/selena.android.gl.EglHelper( 1292):     at selena.android.gl.EglHelper.findAndInitConfig(EglHelper.java:237)
+V/selena.android.gl.EglHelper( 1292): >>> EGL Config [2] ES0 R8G8B8A8 D24S8 AA0 Caveat[12344] - Score: 526344
+W/selena.android.gl.EglHelper( 1292):     at selena.android.gl.EglHelper.findAndInitConfig(EglHelper.java:237)
+V/selena.android.gl.EglHelper( 1292): >>> EGL Config [3] ES0 R8G8B8A8 D24S8 AA4 Caveat[12344] - Score: 67635208
+W/selena.android.gl.EglHelper( 1292):     at selena.android.gl.EglHelper.findAndInitConfig(EglHelper.java:237)
+D/selena.android.gl.GLView$GLThread( 1292): waitForRenderComplete - Enter: false, false
+W/selena.android.gl.GLView$GLThread( 1292):     at selena.android.gl.GLView$GLThread.waitForRenderComplete(GLView.java:746)
+D/selena.android.gl.GLView$GLThread( 1292): waitForRenderComplete - LeaveAt: 7592
+W/selena.android.gl.GLView$GLThread( 1292):     at selena.android.gl.GLView$GLThread.waitForRenderComplete(GLView.java:755)
+W/selena.android.view.SelenaView( 1292): DISPATCH_DRAW_WAIT_FOR_NFRAMES_COUNT: 1
+W/selena.android.view.SelenaView( 1292):     at selena.android.view.SelenaView.dispatchDraw(SelenaView.java:99)
+D/selena.android.gl.GLView$GLThread( 1292): waitForRenderComplete - Enter: false, false
+W/selena.android.gl.GLView$GLThread( 1292):     at selena.android.gl.GLView$GLThread.waitForRenderComplete(GLView.java:746)
+D/selena.android.gl.GLView$GLThread( 1292): waitForRenderComplete - LeaveAt: 7592
+W/selena.android.gl.GLView$GLThread( 1292):     at selena.android.gl.GLView$GLThread.waitForRenderComplete(GLView.java:755)
+V/TabletStatusBar( 1160): setLightsOn(true)
+D/selena.android.view.SelenaView( 1292): onWindowFocusChanged: true
+W/selena.android.view.SelenaView( 1292):     at selena.android.view.SelenaView.onWindowFocusChanged(SelenaView.java:121)
+D/selena.android.gl.GLView( 1292): onWindowFocusChanged: true
+W/selena.android.gl.GLView( 1292):     at selena.android.gl.GLView.onWindowFocusChanged(GLView.java:379)
+D/selena.android.gl.GLView$GLThread( 1292): onWindowFocusChanged - Enter: false, false
+W/selena.android.gl.GLView$GLThread( 1292):     at selena.android.gl.GLView$GLThread.onWindowFocusChanged(GLView.java:822)
+D/selena.android.gl.GLView$GLThread( 1292): onWindowFocusChanged - Leave: false, false
+W/selena.android.gl.GLView$GLThread( 1292):     at selena.android.gl.GLView$GLThread.onWindowFocusChanged(GLView.java:831)
+D/selena.android.view.SelenaView( 1292): Surface Created
+W/selena.android.view.SelenaView( 1292):     at selena.android.view.SelenaView.onSurfaceCreated(SelenaView.java:316)
+V/aglSendDebugString( 1292): GLES1 Context - Resized [00181D38]: 1280x720 (BB:R5G6B5) (DS:D16), VP: Vec4(0,0,1280,720), SC: Vec4(0,0,1280,720)
+V/aglSendDebugString( 1292): >>> Restoring VertexArray: FVF:Position|Normal|ColorA|Tex1(2)|Tangent|BiNormal, NumVertex: 8, Stride: 60, Size: 480b (0.000457764MB) !
+V/aglSendDebugString( 1292): >>> Restoring IndexArray VBO: PT: TriangleList, MaxVertexIndex:8, NumIndices: 12, Stride: 2, Size: 24b (2.28882e-05MB) !
+V/aglSendDebugString( 1292): >>> Restoring VertexArray: FVF:Position|Normal|ColorA|Tex1(2), NumVertex: 4, Stride: 36, Size: 144b (0.000137329MB) !
+V/aglSendDebugString( 1292): >>> Restoring IndexArray VBO: PT: TriangleList, MaxVertexIndex:4, NumIndices: 6, Stride: 2, Size: 12b (1.14441e-05MB) !
+V/aglSendDebugString( 1292): >>> Restoring VertexArray: FVF:Position|Normal|ColorA|Tex1(2), NumVertex: 4, Stride: 36, Size: 144b (0.000137329MB) !
+V/aglSendDebugString( 1292): >>> Restoring IndexArray VBO: PT: TriangleList, MaxVertexIndex:4, NumIndices: 6, Stride: 2, Size: 12b (1.14441e-05MB) !
+V/aglSendDebugString( 1292): >>> Restoring VertexArray: FVF:Position|Normal|ColorA|Tex1(2), NumVertex: 4, Stride: 36, Size: 144b (0.000137329MB) !
+V/aglSendDebugString( 1292): >>> Restoring IndexArray VBO: PT: TriangleList, MaxVertexIndex:4, NumIndices: 6, Stride: 2, Size: 12b (1.14441e-05MB) !
+V/aglSendDebugString( 1292): >>> Restoring VertexArray: FVF:Position|Normal|ColorA|Tex1(2), NumVertex: 4, Stride: 36, Size: 144b (0.000137329MB) !
+V/aglSendDebugString( 1292): >>> Restoring IndexArray VBO: PT: TriangleList, MaxVertexIndex:4, NumIndices: 6, Stride: 2, Size: 12b (1.14441e-05MB) !
+V/aglSendDebugString( 1292): >>> Restoring VertexArray: FVF:Position|Normal|ColorA|Tex1(2), NumVertex: 4, Stride: 36, Size: 144b (0.000137329MB) !
+V/aglSendDebugString( 1292): >>> Restoring IndexArray VBO: PT: TriangleList, MaxVertexIndex:4, NumIndices: 6, Stride: 2, Size: 12b (1.14441e-05MB) !
+V/aglSendDebugString( 1292): >>> Restoring VertexArray: FVF:Position|Normal|ColorA|Tex1(2)|Tangent|BiNormal, NumVertex: 8, Stride: 60, Size: 480b (0.000457764MB) !
+V/aglSendDebugString( 1292): >>> Restoring IndexArray VBO: PT: TriangleList, MaxVertexIndex:8, NumIndices: 12, Stride: 2, Size: 24b (2.28882e-05MB) !
+V/aglSendDebugString( 1292): >>> Restoring VertexArray: FVF:Position|Normal|ColorA|Tex1(2), NumVertex: 4, Stride: 36, Size: 144b (0.000137329MB) !
+V/aglSendDebugString( 1292): >>> Restoring IndexArray VBO: PT: TriangleList, MaxVertexIndex:4, NumIndices: 6, Stride: 2, Size: 12b (1.14441e-05MB) !
+V/aglSendDebugString( 1292): >>> Restoring VertexArray: FVF:Position|Normal|ColorA|Tex1(2), NumVertex: 4, Stride: 36, Size: 144b (0.000137329MB) !
+V/aglSendDebugString( 1292): >>> Restoring IndexArray VBO: PT: TriangleList, MaxVertexIndex:4, NumIndices: 6, Stride: 2, Size: 12b (1.14441e-05MB) !
+V/aglSendDebugString( 1292): >>> Restoring VertexArray: FVF:Position|Normal|ColorA|Tex1(2)|Tangent|BiNormal, NumVertex: 176, Stride: 60, Size: 10560b (0.0100708MB) !
+V/aglSendDebugString( 1292): >>> Restoring IndexArray VBO: PT: TriangleList, MaxVertexIndex:176, NumIndices: 264, Stride: 2, Size: 528b (0.00050354MB) !
+V/aglSendDebugString( 1292): >>> Restoring VertexArray: FVF:Position|Normal|ColorA|Tex1(2)|Tangent|BiNormal, NumVertex: 8, Stride: 60, Size: 480b (0.000457764MB) !
+V/aglSendDebugString( 1292): >>> Restoring IndexArray VBO: PT: TriangleList, MaxVertexIndex:8, NumIndices: 12, Stride: 2, Size: 24b (2.28882e-05MB) !
+D/App     ( 1292): [196980512.0000:0.0000] [Debug in OnStart]: (scripts/actions/DebugVarAVarB.aq:14)
+D/App     ( 1292): Func_Tpl_app<ItemPicked> [VarA:[Gallery]_Item#1F95] - [VarB:9]
+V/selena.android.view.SelenaView( 1292): **** onPause
+W/selena.android.view.SelenaView( 1292):     at selena.android.view.SelenaView.activityOnPause(SelenaView.java:216)
+I/ActivityManager(  965): START {act=android.intent.action.MAIN flg=0x10200000 cmp=com.tencent.qqmusicpadhd/.HomeActivityGroup} from pid 1292
+W/ActivityManager(  965): Activity is launching as a new task, so cancelling activity result.
+V/selena.android.view.SelenaView( 1292): **** onPause
+W/selena.android.view.SelenaView( 1292):     at selena.android.view.SelenaView.activityOnPause(SelenaView.java:216)
+D/selena.android.view.SelenaView( 1292): onWindowFocusChanged: false
+W/selena.android.view.SelenaView( 1292):     at selena.android.view.SelenaView.onWindowFocusChanged(SelenaView.java:121)
+D/selena.android.gl.GLView( 1292): onWindowFocusChanged: false
+W/selena.android.gl.GLView( 1292):     at selena.android.gl.GLView.onWindowFocusChanged(GLView.java:379)
+D/selena.android.gl.GLView$GLThread( 1292): onWindowFocusChanged - Enter: false, false
+W/selena.android.gl.GLView$GLThread( 1292):     at selena.android.gl.GLView$GLThread.onWindowFocusChanged(GLView.java:822)
+D/selena.android.gl.GLView$GLThread( 1292): onWindowFocusChanged - Leave: false, false
+W/selena.android.gl.GLView$GLThread( 1292):     at selena.android.gl.GLView$GLThread.onWindowFocusChanged(GLView.java:831)
+V/TabletStatusBar( 1160): setLightsOn(true)
+W/InputManagerService(  965): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@416c6398 (uid=1000 pid=3175)
+I/MonitorCw880( 2830): easybusReceive success !
+D/MonitorCw880( 2830):  easybusMsg.remoteIp=  192.168.43.18 easybusMsg.remotePort=  35651 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880( 2830): currentRemoteHost=192.168.43.18 easybusMsg.remoteIp=192.168.43.18, counter=3
+D/MonitorCw880( 2830): easybusySend()-> easybusMsg.remoteIp=  192.168.43.18 easybusMsg.remotePort=  35651 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+E/uid     ( 3141): UID2364248146
+W/Settings( 3141): Setting android_id has moved from android.provider.Settings.System to android.provider.Settings.Secure, returning read-only value.
+W/Settings( 3141): Setting android_id has moved from android.provider.Settings.System to android.provider.Settings.Secure, returning read-only value.
+E/        ( 3141): get vaddr failed:pvaddr_read=0x61be3000,pvaddr_internal=0x61ce3000,pvaddr_write=0x0
+E/        ( 3141): get vaddr failed:pvaddr_read=0x61be3000,pvaddr_internal=0x61ce3000,pvaddr_write=0x0
+E/        ( 3141): get vaddr failed:pvaddr_read=0x61be3000,pvaddr_internal=0x61ce3000,pvaddr_write=0x0
+E/        ( 3141): get vaddr failed:pvaddr_read=0x61be3000,pvaddr_internal=0x61ce3000,pvaddr_write=0x0
+E/        ( 3141): get vaddr failed:pvaddr_read=0x61be3000,pvaddr_internal=0x61ce3000,pvaddr_write=0x0
+E/        ( 3141): get vaddr failed:pvaddr_read=0x61be3000,pvaddr_internal=0x61ce3000,pvaddr_write=0x0
+E/        ( 3141): get vaddr failed:pvaddr_read=0x61be3000,pvaddr_internal=0x61ce3000,pvaddr_write=0x0
+W/Settings( 3141): Setting android_id has moved from android.provider.Settings.System to android.provider.Settings.Secure, returning read-only value.
+D/dalvikvm( 3141): GC_CONCURRENT freed 1484K, 23% free 17272K/22339K, paused 3ms+5ms
+E/        ( 3141): get vaddr failed:pvaddr_read=0x61be3000,pvaddr_internal=0x61ce3000,pvaddr_write=0x0
+E/        ( 3141): get vaddr failed:pvaddr_read=0x61be3000,pvaddr_internal=0x61ce3000,pvaddr_write=0x0
+I/MonitorCw880( 2830): easybusReceive success !
+D/MonitorCw880( 2830):  easybusMsg.remoteIp=  192.168.43.18 easybusMsg.remotePort=  35651 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880( 2830): currentRemoteHost=192.168.43.18 easybusMsg.remoteIp=192.168.43.18, counter=4
+D/MonitorCw880( 2830): easybusySend()-> easybusMsg.remoteIp=  192.168.43.18 easybusMsg.remotePort=  35651 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+E/        ( 3141): get vaddr failed:pvaddr_read=0x61be3000,pvaddr_internal=0x61ce3000,pvaddr_write=0x0
+I/ActivityManager(  965): START {cmp=com.tencent.qqmusicpadhd/com.tencent.qqmusicpad.music.MusicPlayerActivity} from pid 3141
+W/Settings( 3141): Setting android_id has moved from android.provider.Settings.System to android.provider.Settings.Secure, returning read-only value.
+E/        ( 3141): get vaddr failed:pvaddr_read=0x61be3000,pvaddr_internal=0x61ce3000,pvaddr_write=0x0
+D/dalvikvm( 3141): GC_FOR_ALLOC freed 1332K, 23% free 17712K/22787K, paused 42ms
+D/dalvikvm( 3141): GC_FOR_ALLOC freed 127K, 23% free 18118K/23235K, paused 34ms
+D/dalvikvm( 3141): GC_FOR_ALLOC freed 111K, 22% free 18627K/23683K, paused 34ms
+E/        ( 3141): get vaddr failed:pvaddr_read=0x61be3000,pvaddr_internal=0x61ce3000,pvaddr_write=0x0
+D/dalvikvm( 3141): GC_FOR_ALLOC freed 178K, 21% free 19309K/24323K, paused 36ms
+I/Process (  965): Sending signal. PID: 3141 SIG: 3
+I/dalvikvm( 3141): threadid=3: reacting to signal 3
+I/dalvikvm( 3141): Wrote stack traces to '/data/anr/traces.txt'
+W/dalvikvm( 3141): threadid=20: thread exiting with uncaught exception (group=0x40fa81f8)
+E/AndroidRuntime( 3141): FATAL EXCEPTION: Thread-218
+E/AndroidRuntime( 3141): java.lang.NullPointerException
+E/AndroidRuntime( 3141):        at com.tencent.a.d.a(Unknown Source)
+E/AndroidRuntime( 3141):        at com.tencent.component.i.run(Unknown Source)
+W/ActivityManager(  965):   Force finishing activity com.tencent.qqmusicpadhd/com.tencent.qqmusicpad.music.MusicPlayerActivity
+W/ActivityManager(  965):   Force finishing activity com.tencent.qqmusicpadhd/.HomeActivityGroup
+D/dalvikvm(  965): GC_CONCURRENT freed 1515K, 57% free 4906K/11395K, paused 5ms+6ms
+D/selena.android.view.SelenaView( 1292): Surface Lost
+W/selena.android.view.SelenaView( 1292):     at selena.android.view.SelenaView.onSurfaceLost(SelenaView.java:322)
+V/selena.android.gl.EglHelper( 1292): >>> Looking for EGL Config ES1 R8G8B8A0 D16S0 AA0
+W/selena.android.gl.EglHelper( 1292):     at selena.android.gl.EglHelper.start(EglHelper.java:101)
+V/selena.android.gl.EglHelper( 1292): eglChooseConfig err: 12288
+W/selena.android.gl.EglHelper( 1292):     at selena.android.gl.EglHelper.findAndInitConfig(EglHelper.java:177)
+V/selena.android.gl.EglHelper( 1292): >>> EGL Config [0] ES0 R8G8B8A0 D24S0 AA0 Caveat[12344] - Score: 2048
+W/selena.android.gl.EglHelper( 1292):     at selena.android.gl.EglHelper.findAndInitConfig(EglHelper.java:237)
+V/selena.android.gl.EglHelper( 1292): --> Config chosen: 0
+W/selena.android.gl.EglHelper( 1292):     at selena.android.gl.EglHelper.findAndInitConfig(EglHelper.java:250)
+V/selena.android.gl.EglHelper( 1292): >>> EGL Config [1] ES0 R8G8B8A8 D24S8 AA0 Caveat[12344] - Score: 526344
+W/selena.android.gl.EglHelper( 1292):     at selena.android.gl.EglHelper.findAndInitConfig(EglHelper.java:237)
+V/selena.android.gl.EglHelper( 1292): >>> EGL Config [2] ES0 R8G8B8A8 D24S8 AA0 Caveat[12344] - Score: 526344
+W/selena.android.gl.EglHelper( 1292):     at selena.android.gl.EglHelper.findAndInitConfig(EglHelper.java:237)
+V/selena.android.gl.EglHelper( 1292): >>> EGL Config [3] ES0 R8G8B8A8 D24S8 AA4 Caveat[12344] - Score: 67635208
+W/selena.android.gl.EglHelper( 1292):     at selena.android.gl.EglHelper.findAndInitConfig(EglHelper.java:237)
+D/selena.android.gl.GLView$GLThread( 1292): waitForRenderComplete - Enter: false, false
+W/selena.android.gl.GLView$GLThread( 1292):     at selena.android.gl.GLView$GLThread.waitForRenderComplete(GLView.java:746)
+D/selena.android.gl.GLView$GLThread( 1292): waitForRenderComplete - LeaveAt: 7685
+W/selena.android.gl.GLView$GLThread( 1292):     at selena.android.gl.GLView$GLThread.waitForRenderComplete(GLView.java:755)
+I/ActivityManager(  965): Displayed com.tencent.qqmusicpadhd/com.tencent.qqmusicpad.music.MusicPlayerActivity: +926ms
+W/selena.android.view.SelenaView( 1292): DISPATCH_DRAW_WAIT_FOR_NFRAMES_COUNT: 1
+W/selena.android.view.SelenaView( 1292):     at selena.android.view.SelenaView.dispatchDraw(SelenaView.java:99)
+D/selena.android.gl.GLView$GLThread( 1292): waitForRenderComplete - Enter: false, false
+W/selena.android.gl.GLView$GLThread( 1292):     at selena.android.gl.GLView$GLThread.waitForRenderComplete(GLView.java:746)
+D/selena.android.gl.GLView$GLThread( 1292): waitForRenderComplete - LeaveAt: 7685
+W/selena.android.gl.GLView$GLThread( 1292):     at selena.android.gl.GLView$GLThread.waitForRenderComplete(GLView.java:755)
+E/ExMusicPlayer( 3141): stop timer
+V/DownloadService( 3141): deleteItem
+W/        ( 3141): Upgrading database from version 2 to 2, which will destroy all old data
+V/DownloadService( 3141): threadList.size():0
+I/MonitorCw880( 2830): easybusReceive success !
+D/MonitorCw880( 2830):  easybusMsg.remoteIp=  192.168.43.18 easybusMsg.remotePort=  35651 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880( 2830): currentRemoteHost=192.168.43.18 easybusMsg.remoteIp=192.168.43.18, counter=5
+D/MonitorCw880( 2830): easybusySend()-> easybusMsg.remoteIp=  192.168.43.18 easybusMsg.remotePort=  35651 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+I/MonitorCw880( 2830): easybusReceive success !
+D/MonitorCw880( 2830):  easybusMsg.remoteIp=  192.168.43.18 easybusMsg.remotePort=  35651 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880( 2830): currentRemoteHost=192.168.43.18 easybusMsg.remoteIp=192.168.43.18, counter=6
+D/MonitorCw880( 2830): easybusySend()-> easybusMsg.remoteIp=  192.168.43.18 easybusMsg.remotePort=  35651 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880( 2830): Befor,cycleCheckCounter=6 counter=7
+I/MonitorCw880( 2830): easybusReceive success !
+D/MonitorCw880( 2830):  easybusMsg.remoteIp=  192.168.43.18 easybusMsg.remotePort=  35651 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880( 2830): currentRemoteHost=192.168.43.18 easybusMsg.remoteIp=192.168.43.18, counter=2
+D/MonitorCw880( 2830): easybusySend()-> easybusMsg.remoteIp=  192.168.43.18 easybusMsg.remotePort=  35651 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+I/MonitorCw880( 2830): easybusReceive success !
+D/MonitorCw880( 2830):  easybusMsg.remoteIp=  192.168.43.18 easybusMsg.remotePort=  35651 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880( 2830): currentRemoteHost=192.168.43.18 easybusMsg.remoteIp=192.168.43.18, counter=3
+D/MonitorCw880( 2830): easybusySend()-> easybusMsg.remoteIp=  192.168.43.18 easybusMsg.remotePort=  35651 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+V/POST    ( 3141): POSTS
+V/POST    ( 3141): POSTS
+W/Settings( 3141): Setting android_id has moved from android.provider.Settings.System to android.provider.Settings.Secure, returning read-only value.
+I/MonitorCw880( 2830): easybusReceive success !
+D/MonitorCw880( 2830):  easybusMsg.remoteIp=  192.168.43.18 easybusMsg.remotePort=  35651 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880( 2830): currentRemoteHost=192.168.43.18 easybusMsg.remoteIp=192.168.43.18, counter=4
+D/MonitorCw880( 2830): easybusySend()-> easybusMsg.remoteIp=  192.168.43.18 easybusMsg.remotePort=  35651 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+I/MonitorCw880( 2830): easybusReceive success !
+D/MonitorCw880( 2830):  easybusMsg.remoteIp=  192.168.43.18 easybusMsg.remotePort=  35651 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880( 2830): currentRemoteHost=192.168.43.18 easybusMsg.remoteIp=192.168.43.18, counter=5
+D/MonitorCw880( 2830): easybusySend()-> easybusMsg.remoteIp=  192.168.43.18 easybusMsg.remotePort=  35651 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+I/MonitorCw880( 2830): easybusReceive success !
+D/MonitorCw880( 2830):  easybusMsg.remoteIp=  192.168.43.18 easybusMsg.remotePort=  35651 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880( 2830): currentRemoteHost=192.168.43.18 easybusMsg.remoteIp=192.168.43.18, counter=6
+D/MonitorCw880( 2830): easybusySend()-> easybusMsg.remoteIp=  192.168.43.18 easybusMsg.remotePort=  35651 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880( 2830): Befor,cycleCheckCounter=6 counter=7
+I/MonitorCw880( 2830): easybusReceive success !
+D/MonitorCw880( 2830):  easybusMsg.remoteIp=  192.168.43.18 easybusMsg.remotePort=  35651 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880( 2830): currentRemoteHost=192.168.43.18 easybusMsg.remoteIp=192.168.43.18, counter=2
+D/MonitorCw880( 2830): easybusySend()-> easybusMsg.remoteIp=  192.168.43.18 easybusMsg.remotePort=  35651 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+I/MonitorCw880( 2830): easybusReceive success !
+D/MonitorCw880( 2830):  easybusMsg.remoteIp=  192.168.43.18 easybusMsg.remotePort=  35651 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880( 2830): currentRemoteHost=192.168.43.18 easybusMsg.remoteIp=192.168.43.18, counter=3
+D/MonitorCw880( 2830): easybusySend()-> easybusMsg.remoteIp=  192.168.43.18 easybusMsg.remotePort=  35651 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+I/MonitorCw880( 2830): easybusReceive success !
+D/MonitorCw880( 2830):  easybusMsg.remoteIp=  192.168.43.18 easybusMsg.remotePort=  35651 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880( 2830): currentRemoteHost=192.168.43.18 easybusMsg.remoteIp=192.168.43.18, counter=4
+D/MonitorCw880( 2830): easybusySend()-> easybusMsg.remoteIp=  192.168.43.18 easybusMsg.remotePort=  35651 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+I/MonitorCw880( 2830): easybusReceive success !
+D/MonitorCw880( 2830):  easybusMsg.remoteIp=  192.168.43.18 easybusMsg.remotePort=  35651 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880( 2830): currentRemoteHost=192.168.43.18 easybusMsg.remoteIp=192.168.43.18, counter=5
+D/MonitorCw880( 2830): easybusySend()-> easybusMsg.remoteIp=  192.168.43.18 easybusMsg.remotePort=  35651 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+I/MonitorCw880( 2830): easybusReceive success !
+D/MonitorCw880( 2830):  easybusMsg.remoteIp=  192.168.43.18 easybusMsg.remotePort=  35651 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880( 2830): currentRemoteHost=192.168.43.18 easybusMsg.remoteIp=192.168.43.18, counter=6
+D/MonitorCw880( 2830): easybusySend()-> easybusMsg.remoteIp=  192.168.43.18 easybusMsg.remotePort=  35651 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880( 2830): Befor,cycleCheckCounter=6 counter=7
+I/MonitorCw880( 2830): easybusReceive success !
+D/MonitorCw880( 2830):  easybusMsg.remoteIp=  192.168.43.18 easybusMsg.remotePort=  35651 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880( 2830): currentRemoteHost=192.168.43.18 easybusMsg.remoteIp=192.168.43.18, counter=2
+D/MonitorCw880( 2830): easybusySend()-> easybusMsg.remoteIp=  192.168.43.18 easybusMsg.remotePort=  35651 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+I/MonitorCw880( 2830): easybusReceive success !
+D/MonitorCw880( 2830):  easybusMsg.remoteIp=  192.168.43.18 easybusMsg.remotePort=  35651 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880( 2830): currentRemoteHost=192.168.43.18 easybusMsg.remoteIp=192.168.43.18, counter=3
+D/MonitorCw880( 2830): easybusySend()-> easybusMsg.remoteIp=  192.168.43.18 easybusMsg.remotePort=  35651 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+I/MonitorCw880( 2830): easybusReceive success !
+D/MonitorCw880( 2830):  easybusMsg.remoteIp=  192.168.43.18 easybusMsg.remotePort=  35651 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880( 2830): currentRemoteHost=192.168.43.18 easybusMsg.remoteIp=192.168.43.18, counter=4
+D/MonitorCw880( 2830): easybusySend()-> easybusMsg.remoteIp=  192.168.43.18 easybusMsg.remotePort=  35651 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+I/MonitorCw880( 2830): easybusReceive success !
+D/MonitorCw880( 2830):  easybusMsg.remoteIp=  192.168.43.18 easybusMsg.remotePort=  35651 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880( 2830): currentRemoteHost=192.168.43.18 easybusMsg.remoteIp=192.168.43.18, counter=5
+D/MonitorCw880( 2830): easybusySend()-> easybusMsg.remoteIp=  192.168.43.18 easybusMsg.remotePort=  35651 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+I/CheckinService( 1319): Preparing to send checkin request
+I/EventLogService( 1319): Accumulating logs since 1364633084886
+W/CheckinRequestBuilder( 1319): Unknown phone type: 0 id=null
+V/CheckinRequestBuilder( 1319): pre-froyo android id is 0
+D/dalvikvm( 1319): GC_CONCURRENT freed 508K, 72% free 1782K/6147K, paused 2ms+1ms
+I/CheckinTask( 1319): Sending checkin request (7966 bytes)
+D/dalvikvm( 1319): GC_CONCURRENT freed 341K, 71% free 1828K/6147K, paused 2ms+1ms
+E/CheckinTask( 1319): Checkin failed: https://android.clients.google.com/checkin (request #0)
+E/CheckinTask( 1319): java.io.IOException: Rejected response from server: HTTP/1.1 400 invalid hardware identifier: "000000000000" is not a valid MAC address (expect 12 hex digits)
+E/CheckinTask( 1319):   at com.google.android.gsf.checkin.CheckinTask.parseResponse(CheckinTask.java:313)
+E/CheckinTask( 1319):   at com.google.android.gsf.checkin.CheckinTask.sendRequest(CheckinTask.java:261)
+E/CheckinTask( 1319):   at com.google.android.gsf.checkin.CheckinTask.doInBackground(CheckinTask.java:150)
+E/CheckinTask( 1319):   at com.google.android.gsf.checkin.CheckinService$1.doInBackground(CheckinService.java:221)
+E/CheckinTask( 1319):   at com.google.android.gsf.checkin.CheckinService$1.doInBackground(CheckinService.java:214)
+E/CheckinTask( 1319):   at android.os.AsyncTask$2.call(AsyncTask.java:264)
+E/CheckinTask( 1319):   at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:305)
+E/CheckinTask( 1319):   at java.util.concurrent.FutureTask.run(FutureTask.java:137)
+E/CheckinTask( 1319):   at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1076)
+E/CheckinTask( 1319):   at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:569)
+E/CheckinTask( 1319):   at java.lang.Thread.run(Thread.java:856)
+V/POST    ( 3141): POSTS
+V/POST    ( 3141): POSTS
+W/Settings( 3141): Setting android_id has moved from android.provider.Settings.System to android.provider.Settings.Secure, returning read-only value.
+I/MonitorCw880( 2830): easybusReceive success !
+D/MonitorCw880( 2830):  easybusMsg.remoteIp=  192.168.43.18 easybusMsg.remotePort=  35651 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880( 2830): currentRemoteHost=192.168.43.18 easybusMsg.remoteIp=192.168.43.18, counter=6
+D/MonitorCw880( 2830): easybusySend()-> easybusMsg.remoteIp=  192.168.43.18 easybusMsg.remotePort=  35651 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880( 2830): Befor,cycleCheckCounter=6 counter=7
+I/MonitorCw880( 2830): easybusReceive success !
+D/MonitorCw880( 2830):  easybusMsg.remoteIp=  192.168.43.18 easybusMsg.remotePort=  35651 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880( 2830): currentRemoteHost=192.168.43.18 easybusMsg.remoteIp=192.168.43.18, counter=2
+D/MonitorCw880( 2830): easybusySend()-> easybusMsg.remoteIp=  192.168.43.18 easybusMsg.remotePort=  35651 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+I/MonitorCw880( 2830): easybusReceive success !
+D/MonitorCw880( 2830):  easybusMsg.remoteIp=  192.168.43.18 easybusMsg.remotePort=  35651 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880( 2830): currentRemoteHost=192.168.43.18 easybusMsg.remoteIp=192.168.43.18, counter=3
+D/MonitorCw880( 2830): easybusySend()-> easybusMsg.remoteIp=  192.168.43.18 easybusMsg.remotePort=  35651 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+I/MonitorCw880( 2830): easybusReceive success !
+D/MonitorCw880( 2830):  easybusMsg.remoteIp=  192.168.43.18 easybusMsg.remotePort=  35651 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880( 2830): currentRemoteHost=192.168.43.18 easybusMsg.remoteIp=192.168.43.18, counter=4
+D/MonitorCw880( 2830): easybusySend()-> easybusMsg.remoteIp=  192.168.43.18 easybusMsg.remotePort=  35651 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+I/MonitorCw880( 2830): easybusReceive success !
+D/MonitorCw880( 2830):  easybusMsg.remoteIp=  192.168.43.18 easybusMsg.remotePort=  35651 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880( 2830): currentRemoteHost=192.168.43.18 easybusMsg.remoteIp=192.168.43.18, counter=5
+D/MonitorCw880( 2830): easybusySend()-> easybusMsg.remoteIp=  192.168.43.18 easybusMsg.remotePort=  35651 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+I/MonitorCw880( 2830): easybusReceive success !
+D/MonitorCw880( 2830):  easybusMsg.remoteIp=  192.168.43.18 easybusMsg.remotePort=  35651 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880( 2830): currentRemoteHost=192.168.43.18 easybusMsg.remoteIp=192.168.43.18, counter=6
+D/MonitorCw880( 2830): easybusySend()-> easybusMsg.remoteIp=  192.168.43.18 easybusMsg.remotePort=  35651 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880( 2830): Befor,cycleCheckCounter=6 counter=7
+I/MonitorCw880( 2830): easybusReceive success !
+D/MonitorCw880( 2830):  easybusMsg.remoteIp=  192.168.43.18 easybusMsg.remotePort=  35651 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880( 2830): currentRemoteHost=192.168.43.18 easybusMsg.remoteIp=192.168.43.18, counter=2
+D/MonitorCw880( 2830): easybusySend()-> easybusMsg.remoteIp=  192.168.43.18 easybusMsg.remotePort=  35651 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+I/MonitorCw880( 2830): easybusReceive success !
+D/MonitorCw880( 2830):  easybusMsg.remoteIp=  192.168.43.18 easybusMsg.remotePort=  35651 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880( 2830): currentRemoteHost=192.168.43.18 easybusMsg.remoteIp=192.168.43.18, counter=3
+D/MonitorCw880( 2830): easybusySend()-> easybusMsg.remoteIp=  192.168.43.18 easybusMsg.remotePort=  35651 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+I/MonitorCw880( 2830): easybusReceive success !
+D/MonitorCw880( 2830):  easybusMsg.remoteIp=  192.168.43.18 easybusMsg.remotePort=  35651 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880( 2830): currentRemoteHost=192.168.43.18 easybusMsg.remoteIp=192.168.43.18, counter=4
+D/MonitorCw880( 2830): easybusySend()-> easybusMsg.remoteIp=  192.168.43.18 easybusMsg.remotePort=  35651 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+I/MonitorCw880( 2830): easybusReceive success !
+D/MonitorCw880( 2830):  easybusMsg.remoteIp=  192.168.43.18 easybusMsg.remotePort=  35651 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880( 2830): currentRemoteHost=192.168.43.18 easybusMsg.remoteIp=192.168.43.18, counter=5
+D/MonitorCw880( 2830): easybusySend()-> easybusMsg.remoteIp=  192.168.43.18 easybusMsg.remotePort=  35651 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+I/MonitorCw880( 2830): easybusReceive success !
+D/MonitorCw880( 2830):  easybusMsg.remoteIp=  192.168.43.18 easybusMsg.remotePort=  35651 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880( 2830): currentRemoteHost=192.168.43.18 easybusMsg.remoteIp=192.168.43.18, counter=6
+D/MonitorCw880( 2830): easybusySend()-> easybusMsg.remoteIp=  192.168.43.18 easybusMsg.remotePort=  35651 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880( 2830): Befor,cycleCheckCounter=6 counter=7
+I/MonitorCw880( 2830): easybusReceive success !
+D/MonitorCw880( 2830):  easybusMsg.remoteIp=  192.168.43.18 easybusMsg.remotePort=  35651 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880( 2830): currentRemoteHost=192.168.43.18 easybusMsg.remoteIp=192.168.43.18, counter=2
+D/MonitorCw880( 2830): easybusySend()-> easybusMsg.remoteIp=  192.168.43.18 easybusMsg.remotePort=  35651 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+V/POST    ( 3141): POSTS
+V/POST    ( 3141): POSTS
+W/Settings( 3141): Setting android_id has moved from android.provider.Settings.System to android.provider.Settings.Secure, returning read-only value.
+I/MonitorCw880( 2830): easybusReceive success !
+D/MonitorCw880( 2830):  easybusMsg.remoteIp=  192.168.43.18 easybusMsg.remotePort=  35651 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880( 2830): currentRemoteHost=192.168.43.18 easybusMsg.remoteIp=192.168.43.18, counter=3
+D/MonitorCw880( 2830): easybusySend()-> easybusMsg.remoteIp=  192.168.43.18 easybusMsg.remotePort=  35651 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+I/MonitorCw880( 2830): easybusReceive success !
+D/MonitorCw880( 2830):  easybusMsg.remoteIp=  192.168.43.18 easybusMsg.remotePort=  35651 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880( 2830): currentRemoteHost=192.168.43.18 easybusMsg.remoteIp=192.168.43.18, counter=4
+D/MonitorCw880( 2830): easybusySend()-> easybusMsg.remoteIp=  192.168.43.18 easybusMsg.remotePort=  35651 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+I/MonitorCw880( 2830): easybusReceive success !
+D/MonitorCw880( 2830):  easybusMsg.remoteIp=  192.168.43.18 easybusMsg.remotePort=  35651 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880( 2830): currentRemoteHost=192.168.43.18 easybusMsg.remoteIp=192.168.43.18, counter=5
+D/MonitorCw880( 2830): easybusySend()-> easybusMsg.remoteIp=  192.168.43.18 easybusMsg.remotePort=  35651 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+I/MonitorCw880( 2830): easybusReceive success !
+D/MonitorCw880( 2830):  easybusMsg.remoteIp=  192.168.43.18 easybusMsg.remotePort=  35651 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880( 2830): currentRemoteHost=192.168.43.18 easybusMsg.remoteIp=192.168.43.18, counter=6
+D/MonitorCw880( 2830): easybusySend()-> easybusMsg.remoteIp=  192.168.43.18 easybusMsg.remotePort=  35651 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880( 2830): Befor,cycleCheckCounter=6 counter=7
+I/MonitorCw880( 2830): easybusReceive success !
+D/MonitorCw880( 2830):  easybusMsg.remoteIp=  192.168.43.18 easybusMsg.remotePort=  35651 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880( 2830): currentRemoteHost=192.168.43.18 easybusMsg.remoteIp=192.168.43.18, counter=2
+D/MonitorCw880( 2830): easybusySend()-> easybusMsg.remoteIp=  192.168.43.18 easybusMsg.remotePort=  35651 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+I/MonitorCw880( 2830): easybusReceive success !
+D/MonitorCw880( 2830):  easybusMsg.remoteIp=  192.168.43.18 easybusMsg.remotePort=  35651 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880( 2830): currentRemoteHost=192.168.43.18 easybusMsg.remoteIp=192.168.43.18, counter=3
+D/MonitorCw880( 2830): easybusySend()-> easybusMsg.remoteIp=  192.168.43.18 easybusMsg.remotePort=  35651 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+I/MonitorCw880( 2830): easybusReceive success !
+D/MonitorCw880( 2830):  easybusMsg.remoteIp=  192.168.43.18 easybusMsg.remotePort=  35651 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880( 2830): currentRemoteHost=192.168.43.18 easybusMsg.remoteIp=192.168.43.18, counter=4
+D/MonitorCw880( 2830): easybusySend()-> easybusMsg.remoteIp=  192.168.43.18 easybusMsg.remotePort=  35651 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+I/MonitorCw880( 2830): easybusReceive success !
+D/MonitorCw880( 2830):  easybusMsg.remoteIp=  192.168.43.18 easybusMsg.remotePort=  35651 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880( 2830): currentRemoteHost=192.168.43.18 easybusMsg.remoteIp=192.168.43.18, counter=5
+D/MonitorCw880( 2830): easybusySend()-> easybusMsg.remoteIp=  192.168.43.18 easybusMsg.remotePort=  35651 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/InputEventConsistencyVerifier(  965): KeyEvent: ACTION_UP but key was not down.
+D/InputEventConsistencyVerifier(  965):   in com.android.internal.policy.impl.PhoneWindow$DecorView@4171aa88
+D/InputEventConsistencyVerifier(  965):   0: sent at 6554656000000, KeyEvent { action=ACTION_UP, keyCode=KEYCODE_ENTER, scanCode=28, metaState=0, flags=0x8, repeatCount=0, eventTime=6554656, downTime=6554492, deviceId=2, source=0x101 }
+D/InputEventConsistencyVerifier(  965):   -- recent events --
+D/InputEventConsistencyVerifier(  965):   1: sent at 6375425305000, (unhandled) MotionEvent { action=ACTION_UP, id[0]=0, x[0]=723.06006, y[0]=99.43967, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=6375425, downTime=6375424, deviceId=5, source=0x1002 }
+D/InputEventConsistencyVerifier(  965):   2: sent at 6375424753000, (unhandled) MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=723.06006, y[0]=99.43967, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=6375424, downTime=6375424, deviceId=5, source=0x1002 }
+I/Process ( 3141): Sending signal. PID: 3141 SIG: 9
+V/TabletStatusBar( 1160): setLightsOn(true)
+D/selena.android.view.SelenaView( 1292): onWindowFocusChanged: true
+W/selena.android.view.SelenaView( 1292):     at selena.android.view.SelenaView.onWindowFocusChanged(SelenaView.java:121)
+D/selena.android.gl.GLView( 1292): onWindowFocusChanged: true
+W/selena.android.gl.GLView( 1292):     at selena.android.gl.GLView.onWindowFocusChanged(GLView.java:379)
+D/selena.android.gl.GLView$GLThread( 1292): onWindowFocusChanged - Enter: false, false
+W/selena.android.gl.GLView$GLThread( 1292):     at selena.android.gl.GLView$GLThread.onWindowFocusChanged(GLView.java:822)
+D/selena.android.gl.GLView$GLThread( 1292): onWindowFocusChanged - Leave: false, false
+W/selena.android.gl.GLView$GLThread( 1292):     at selena.android.gl.GLView$GLThread.onWindowFocusChanged(GLView.java:831)
+I/ActivityManager(  965): Process com.tencent.qqmusicpadhd (pid 3141) has died.
+D/selena.android.view.SelenaView( 1292): Surface Created
+W/selena.android.view.SelenaView( 1292):     at selena.android.view.SelenaView.onSurfaceCreated(SelenaView.java:316)
+V/aglSendDebugString( 1292): GLES1 Context - Resized [00181D38]: 1280x720 (BB:R5G6B5) (DS:D16), VP: Vec4(0,0,1280,720), SC: Vec4(0,0,1280,720)
+V/aglSendDebugString( 1292): >>> Restoring VertexArray: FVF:Position|Normal|ColorA|Tex1(2)|Tangent|BiNormal, NumVertex: 8, Stride: 60, Size: 480b (0.000457764MB) !
+V/aglSendDebugString( 1292): >>> Restoring IndexArray VBO: PT: TriangleList, MaxVertexIndex:8, NumIndices: 12, Stride: 2, Size: 24b (2.28882e-05MB) !
+V/aglSendDebugString( 1292): >>> Restoring VertexArray: FVF:Position|Normal|ColorA|Tex1(2)|Tangent|BiNormal, NumVertex: 8, Stride: 60, Size: 480b (0.000457764MB) !
+V/aglSendDebugString( 1292): >>> Restoring IndexArray VBO: PT: TriangleList, MaxVertexIndex:8, NumIndices: 12, Stride: 2, Size: 24b (2.28882e-05MB) !
+V/aglSendDebugString( 1292): >>> Restoring VertexArray: FVF:Position|Normal|ColorA|Tex1(2)|Tangent|BiNormal, NumVertex: 8, Stride: 60, Size: 480b (0.000457764MB) !
+V/aglSendDebugString( 1292): >>> Restoring IndexArray VBO: PT: TriangleList, MaxVertexIndex:8, NumIndices: 12, Stride: 2, Size: 24b (2.28882e-05MB) !
+V/aglSendDebugString( 1292): >>> Restoring VertexArray: FVF:Position|Normal|ColorA|Tex1(2), NumVertex: 4, Stride: 36, Size: 144b (0.000137329MB) !
+V/aglSendDebugString( 1292): >>> Restoring IndexArray VBO: PT: TriangleList, MaxVertexIndex:4, NumIndices: 6, Stride: 2, Size: 12b (1.14441e-05MB) !
+V/aglSendDebugString( 1292): >>> Restoring VertexArray: FVF:Position|Normal|ColorA|Tex1(2)|Tangent|BiNormal, NumVertex: 176, Stride: 60, Size: 10560b (0.0100708MB) !
+V/aglSendDebugString( 1292): >>> Restoring IndexArray VBO: PT: TriangleList, MaxVertexIndex:176, NumIndices: 264, Stride: 2, Size: 528b (0.00050354MB) !
+D/selena.android.view.AndroidAppWindow( 1292): [KBD] inputKey : 66, isDown: true
+W/selena.android.view.AndroidAppWindow( 1292):     at selena.android.view.AndroidAppWindow.inputKey(AndroidAppWindow.java:136)
+D/selena.android.app.SelenaActivity( 1292): [KBD] dispatchKeyEvent: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_ENTER, scanCode=28, metaState=0, flags=0x8, repeatCount=0, eventTime=6556969, downTime=6556969, deviceId=2, source=0x101 }
+W/selena.android.app.SelenaActivity( 1292):     at selena.android.app.SelenaActivity.dispatchKeyEvent(SelenaActivity.java:179)
+D/selena.android.app.SelenaActivity( 1292): [KBD] onKeyDown: 66, KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_ENTER, scanCode=28, metaState=0, flags=0x8, repeatCount=0, eventTime=6556969, downTime=6556969, deviceId=2, source=0x101 }
+W/selena.android.app.SelenaActivity( 1292):     at selena.android.app.SelenaActivity.onKeyDown(SelenaActivity.java:167)
+E/WindowManager(  965): ##############################dispatchUnhandledKey
+I/ActivityManager(  965): START {act=android.intent.action.MAIN flg=0x10200000 cmp=com.tencent.qqmusicpadhd/.HomeActivityGroup} from pid 1292
+W/ActivityManager(  965): Activity is launching as a new task, so cancelling activity result.
+V/selena.android.view.SelenaView( 1292): **** onPause
+W/selena.android.view.SelenaView( 1292):     at selena.android.view.SelenaView.activityOnPause(SelenaView.java:216)
+D/dalvikvm(  965): GC_FOR_ALLOC freed 928K, 61% free 4531K/11395K, paused 45ms
+D/dalvikvm(  965): GC_CONCURRENT freed 36K, 52% free 5527K/11395K, paused 3ms+4ms
+V/selena.android.view.SelenaView( 1292): **** onPause
+W/selena.android.view.SelenaView( 1292):     at selena.android.view.SelenaView.activityOnPause(SelenaView.java:216)
+I/ActivityManager(  965): Start proc com.tencent.qqmusicpadhd for activity com.tencent.qqmusicpadhd/.HomeActivityGroup: pid=3212 uid=10039 gids={3003, 1015, 1007}
+D/selena.android.view.AndroidAppWindow( 1292): [KBD] inputKey : 66, isDown: false
+W/selena.android.view.AndroidAppWindow( 1292):     at selena.android.view.AndroidAppWindow.inputKey(AndroidAppWindow.java:136)
+I/dalvikvm( 3212): Turning on JNI app bug workarounds for target SDK version 8...
+D/selena.android.app.SelenaActivity( 1292): [KBD] dispatchKeyEvent: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_ENTER, scanCode=28, metaState=0, flags=0x8, repeatCount=0, eventTime=6557136, downTime=6556969, deviceId=2, source=0x101 }
+W/selena.android.app.SelenaActivity( 1292):     at selena.android.app.SelenaActivity.dispatchKeyEvent(SelenaActivity.java:179)
+D/selena.android.app.SelenaActivity( 1292): [KBD] onKeyUp: 66, KeyEvent { action=ACTION_UP, keyCode=KEYCODE_ENTER, scanCode=28, metaState=0, flags=0x8, repeatCount=0, eventTime=6557136, downTime=6556969, deviceId=2, source=0x101 }
+W/selena.android.app.SelenaActivity( 1292):     at selena.android.app.SelenaActivity.onKeyUp(SelenaActivity.java:173)
+D/selena.android.view.SelenaView( 1292): onWindowFocusChanged: false
+W/selena.android.view.SelenaView( 1292):     at selena.android.view.SelenaView.onWindowFocusChanged(SelenaView.java:121)
+D/selena.android.gl.GLView( 1292): onWindowFocusChanged: false
+W/selena.android.gl.GLView( 1292):     at selena.android.gl.GLView.onWindowFocusChanged(GLView.java:379)
+D/selena.android.gl.GLView$GLThread( 1292): onWindowFocusChanged - Enter: false, false
+W/selena.android.gl.GLView$GLThread( 1292):     at selena.android.gl.GLView$GLThread.onWindowFocusChanged(GLView.java:822)
+D/selena.android.gl.GLView$GLThread( 1292): onWindowFocusChanged - Leave: false, false
+W/selena.android.gl.GLView$GLThread( 1292):     at selena.android.gl.GLView$GLThread.onWindowFocusChanged(GLView.java:831)
+D/dalvikvm( 3212): GC_FOR_ALLOC freed 95K, 43% free 6661K/11651K, paused 34ms
+I/dalvikvm-heap( 3212): Grow heap (frag case) to 14.011MB for 4096016-byte allocation
+D/dalvikvm( 3212): GC_CONCURRENT freed 1K, 33% free 10660K/15683K, paused 2ms+2ms
+D/dalvikvm( 3212): GC_FOR_ALLOC freed 115K, 30% free 11239K/16003K, paused 31ms
+I/Process (  965): Sending signal. PID: 3212 SIG: 3
+I/dalvikvm( 3212): threadid=3: reacting to signal 3
+I/dalvikvm( 3212): Wrote stack traces to '/data/anr/traces.txt'
+D/dalvikvm(  965): GC_EXPLICIT freed 45K, 51% free 5596K/11395K, paused 2ms+5ms
+I/System.out( 3212): Service onCreate()
+V/DownloadService( 3212): Service onStart()
+V/TabletStatusBar( 1160): setLightsOn(true)
+D/dalvikvm( 3212): GC_FOR_ALLOC freed 69K, 29% free 11903K/16643K, paused 25ms
+I/dalvikvm-heap( 3212): Grow heap (frag case) to 18.740MB for 3686416-byte allocation
+D/dalvikvm( 3212): GC_CONCURRENT freed 2K, 24% free 15501K/20291K, paused 2ms+10ms
+W/InputManagerService(  965): Got RemoteException sending setActive(false) notification to pid 3141 uid 10039
+I/ActivityManager(  965): Displayed com.tencent.qqmusicpadhd/.HomeActivityGroup: +1s47ms
+I/MonitorCw880( 2830): easybusReceive success !
+D/MonitorCw880( 2830):  easybusMsg.remoteIp=  192.168.43.18 easybusMsg.remotePort=  35651 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880( 2830): currentRemoteHost=192.168.43.18 easybusMsg.remoteIp=192.168.43.18, counter=6
+D/MonitorCw880( 2830): easybusySend()-> easybusMsg.remoteIp=  192.168.43.18 easybusMsg.remotePort=  35651 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/dalvikvm( 3212): GC_CONCURRENT freed 900K, 22% free 16551K/21187K, paused 3ms+4ms
+I/        ( 3212): jpeg hw mutex s_index = 290
+I/        ( 3212): [MSOS_PRINT][003171]     ~!~mappd sharemem    
+I/        ( 3212): [MSOS_PRINT][000605]     pthread_mutex_init
+I/        ( 3212): [MSOS_PRINT][000607]     CHIP_InitISR
+D/        ( 3212): [skia jpeg]: readbuf addr:0x1a1c2000, size: 0x100000
+D/        ( 3212):  write buff addr:0x0,  size: 0x0
+D/        ( 3212):  internal buff addr:0x1a2c2000,   size: 0x100000
+E/        ( 3212): get vaddr failed:pvaddr_read=0x61c18000,pvaddr_internal=0x61d18000,pvaddr_write=0x0
+E/        ( 3212): get vaddr failed:pvaddr_read=0x61c18000,pvaddr_internal=0x61d18000,pvaddr_write=0x0
+E/        ( 3212): get vaddr failed:pvaddr_read=0x61c18000,pvaddr_internal=0x61d18000,pvaddr_write=0x0
+E/        ( 3212): get vaddr failed:pvaddr_read=0x61c18000,pvaddr_internal=0x61d18000,pvaddr_write=0x0
+E/        ( 3212): get vaddr failed:pvaddr_read=0x61c18000,pvaddr_internal=0x61d18000,pvaddr_write=0x0
+E/        ( 3212): get vaddr failed:pvaddr_read=0x61c18000,pvaddr_internal=0x61d18000,pvaddr_write=0x0
+D/InputEventConsistencyVerifier( 3212): KeyEvent: ACTION_UP but key was not down.
+D/InputEventConsistencyVerifier( 3212):   in com.android.internal.policy.impl.PhoneWindow$DecorView@41754ec0
+D/InputEventConsistencyVerifier( 3212):   0: sent at 6563172000000, KeyEvent { action=ACTION_UP, keyCode=KEYCODE_ENTER, scanCode=28, metaState=0, flags=0x8, repeatCount=0, eventTime=6563172, downTime=6563011, deviceId=2, source=0x101 }
+D/InputEventConsistencyVerifier( 3212):   -- recent events --
+D/InputEventConsistencyVerifier( 3212):   1: sent at 6561547208000, (unhandled) MotionEvent { action=ACTION_UP, id[0]=0, x[0]=291.4403, y[0]=123.46326, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=6561547, downTime=6561476, deviceId=5, source=0x1002 }
+D/InputEventConsistencyVerifier( 3212):   2: sent at 6561476671000, (unhandled) MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=291.4403, y[0]=123.46326, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=6561476, downTime=6561476, deviceId=5, source=0x1002 }
+W/InputManagerService(  965): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@41638e30
+D/MonitorCw880( 2830): Befor,cycleCheckCounter=6 counter=7
+I/MonitorCw880( 2830): easybusReceive success !
+D/MonitorCw880( 2830):  easybusMsg.remoteIp=  192.168.43.18 easybusMsg.remotePort=  35651 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880( 2830): currentRemoteHost=192.168.43.18 easybusMsg.remoteIp=192.168.43.18, counter=2
+D/MonitorCw880( 2830): easybusySend()-> easybusMsg.remoteIp=  192.168.43.18 easybusMsg.remotePort=  35651 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/InputEventConsistencyVerifier( 3212): KeyEvent: ACTION_UP but key was not down.
+D/InputEventConsistencyVerifier( 3212):   in android.widget.FrameLayout@4154c530
+D/InputEventConsistencyVerifier( 3212):   0: sent at 6565992000000, KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_DOWN, scanCode=108, metaState=0, flags=0x8, repeatCount=0, eventTime=6565992, downTime=6565831, deviceId=2, source=0x101 }
+D/InputEventConsistencyVerifier( 3212): KeyEvent: ACTION_UP but key was not down.
+D/InputEventConsistencyVerifier( 3212):   in android.widget.LinearLayout@4179ec30
+D/InputEventConsistencyVerifier( 3212):   0: sent at 6566668000000, KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_DOWN, scanCode=108, metaState=0, flags=0x8, repeatCount=0, eventTime=6566668, downTime=6566509, deviceId=2, source=0x101 }
+E/uid     ( 3212): UID2364248146
+W/Settings( 3212): Setting android_id has moved from android.provider.Settings.System to android.provider.Settings.Secure, returning read-only value.
+W/Settings( 3212): Setting android_id has moved from android.provider.Settings.System to android.provider.Settings.Secure, returning read-only value.
+E/        ( 3212): get vaddr failed:pvaddr_read=0x61c18000,pvaddr_internal=0x61d18000,pvaddr_write=0x0
+E/        ( 3212): get vaddr failed:pvaddr_read=0x61c18000,pvaddr_internal=0x61d18000,pvaddr_write=0x0
+E/        ( 3212): get vaddr failed:pvaddr_read=0x61c18000,pvaddr_internal=0x61d18000,pvaddr_write=0x0
+E/        ( 3212): get vaddr failed:pvaddr_read=0x61c18000,pvaddr_internal=0x61d18000,pvaddr_write=0x0
+E/        ( 3212): get vaddr failed:pvaddr_read=0x61c18000,pvaddr_internal=0x61d18000,pvaddr_write=0x0
+E/        ( 3212): get vaddr failed:pvaddr_read=0x61c18000,pvaddr_internal=0x61d18000,pvaddr_write=0x0
+I/MonitorCw880( 2830): easybusReceive success !
+D/MonitorCw880( 2830):  easybusMsg.remoteIp=  192.168.43.18 easybusMsg.remotePort=  35651 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880( 2830): currentRemoteHost=192.168.43.18 easybusMsg.remoteIp=192.168.43.18, counter=3
+D/MonitorCw880( 2830): easybusySend()-> easybusMsg.remoteIp=  192.168.43.18 easybusMsg.remotePort=  35651 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+E/        ( 3212): get vaddr failed:pvaddr_read=0x61c18000,pvaddr_internal=0x61d18000,pvaddr_write=0x0
+E/        ( 3212): get vaddr failed:pvaddr_read=0x61c18000,pvaddr_internal=0x61d18000,pvaddr_write=0x0
+E/        ( 3212): get vaddr failed:pvaddr_read=0x61c18000,pvaddr_internal=0x61d18000,pvaddr_write=0x0
+E/        ( 3212): get vaddr failed:pvaddr_read=0x61c18000,pvaddr_internal=0x61d18000,pvaddr_write=0x0
+W/Settings( 3212): Setting android_id has moved from android.provider.Settings.System to android.provider.Settings.Secure, returning read-only value.
+D/dalvikvm( 3212): GC_CONCURRENT freed 1439K, 23% free 17179K/22275K, paused 2ms+5ms
+I/ActivityManager(  965): START {cmp=com.tencent.qqmusicpadhd/com.tencent.qqmusicpad.music.MusicPlayerActivity} from pid 3212
+W/Settings( 3212): Setting android_id has moved from android.provider.Settings.System to android.provider.Settings.Secure, returning read-only value.
+E/        ( 3212): get vaddr failed:pvaddr_read=0x61c18000,pvaddr_internal=0x61d18000,pvaddr_write=0x0
+D/dalvikvm( 3212): GC_FOR_ALLOC freed 1418K, 23% free 17651K/22787K, paused 45ms
+D/dalvikvm( 3212): GC_FOR_ALLOC freed 49K, 23% free 18046K/23235K, paused 35ms
+D/dalvikvm( 3212): GC_FOR_ALLOC freed 140K, 22% free 18570K/23683K, paused 37ms
+D/dalvikvm( 3212): GC_FOR_ALLOC freed 180K, 22% free 19073K/24259K, paused 36ms
+E/        ( 3212): get vaddr failed:pvaddr_read=0x61c18000,pvaddr_internal=0x61d18000,pvaddr_write=0x0
+I/Process (  965): Sending signal. PID: 3212 SIG: 3
+I/dalvikvm( 3212): threadid=3: reacting to signal 3
+I/dalvikvm( 3212): Wrote stack traces to '/data/anr/traces.txt'
+W/dalvikvm( 3212): threadid=21: thread exiting with uncaught exception (group=0x40fa81f8)
+E/AndroidRuntime( 3212): FATAL EXCEPTION: Thread-224
+E/AndroidRuntime( 3212): java.lang.NullPointerException
+E/AndroidRuntime( 3212):        at com.tencent.a.d.a(Unknown Source)
+E/AndroidRuntime( 3212):        at com.tencent.component.i.run(Unknown Source)
+W/ActivityManager(  965):   Force finishing activity com.tencent.qqmusicpadhd/com.tencent.qqmusicpad.music.MusicPlayerActivity
+W/ActivityManager(  965):   Force finishing activity com.tencent.qqmusicpadhd/.HomeActivityGroup
+D/selena.android.view.SelenaView( 1292): Surface Lost
+W/selena.android.view.SelenaView( 1292):     at selena.android.view.SelenaView.onSurfaceLost(SelenaView.java:322)
+V/selena.android.gl.EglHelper( 1292): >>> Looking for EGL Config ES1 R8G8B8A0 D16S0 AA0
+W/selena.android.gl.EglHelper( 1292):     at selena.android.gl.EglHelper.start(EglHelper.java:101)
+V/selena.android.gl.EglHelper( 1292): eglChooseConfig err: 12288
+W/selena.android.gl.EglHelper( 1292):     at selena.android.gl.EglHelper.findAndInitConfig(EglHelper.java:177)
+V/selena.android.gl.EglHelper( 1292): >>> EGL Config [0] ES0 R8G8B8A0 D24S0 AA0 Caveat[12344] - Score: 2048
+W/selena.android.gl.EglHelper( 1292):     at selena.android.gl.EglHelper.findAndInitConfig(EglHelper.java:237)
+V/selena.android.gl.EglHelper( 1292): --> Config chosen: 0
+W/selena.android.gl.EglHelper( 1292):     at selena.android.gl.EglHelper.findAndInitConfig(EglHelper.java:250)
+V/selena.android.gl.EglHelper( 1292): >>> EGL Config [1] ES0 R8G8B8A8 D24S8 AA0 Caveat[12344] - Score: 526344
+W/selena.android.gl.EglHelper( 1292):     at selena.android.gl.EglHelper.findAndInitConfig(EglHelper.java:237)
+V/selena.android.gl.EglHelper( 1292): >>> EGL Config [2] ES0 R8G8B8A8 D24S8 AA0 Caveat[12344] - Score: 526344
+W/selena.android.gl.EglHelper( 1292):     at selena.android.gl.EglHelper.findAndInitConfig(EglHelper.java:237)
+V/selena.android.gl.EglHelper( 1292): >>> EGL Config [3] ES0 R8G8B8A8 D24S8 AA4 Caveat[12344] - Score: 67635208
+W/selena.android.gl.EglHelper( 1292):     at selena.android.gl.EglHelper.findAndInitConfig(EglHelper.java:237)
+D/selena.android.gl.GLView$GLThread( 1292): waitForRenderComplete - Enter: false, false
+W/selena.android.gl.GLView$GLThread( 1292):     at selena.android.gl.GLView$GLThread.waitForRenderComplete(GLView.java:746)
+D/selena.android.gl.GLView$GLThread( 1292): waitForRenderComplete - LeaveAt: 7756
+W/selena.android.gl.GLView$GLThread( 1292):     at selena.android.gl.GLView$GLThread.waitForRenderComplete(GLView.java:755)
+W/selena.android.view.SelenaView( 1292): DISPATCH_DRAW_WAIT_FOR_NFRAMES_COUNT: 1
+W/selena.android.view.SelenaView( 1292):     at selena.android.view.SelenaView.dispatchDraw(SelenaView.java:99)
+D/selena.android.gl.GLView$GLThread( 1292): waitForRenderComplete - Enter: false, false
+W/selena.android.gl.GLView$GLThread( 1292):     at selena.android.gl.GLView$GLThread.waitForRenderComplete(GLView.java:746)
+D/selena.android.gl.GLView$GLThread( 1292): waitForRenderComplete - LeaveAt: 7756
+W/selena.android.gl.GLView$GLThread( 1292):     at selena.android.gl.GLView$GLThread.waitForRenderComplete(GLView.java:755)
+E/ExMusicPlayer( 3212): stop timer
+V/DownloadService( 3212): deleteItem
+W/        ( 3212): Upgrading database from version 2 to 2, which will destroy all old data
+V/DownloadService( 3212): threadList.size():0
+I/MonitorCw880( 2830): easybusReceive success !
+D/MonitorCw880( 2830):  easybusMsg.remoteIp=  192.168.43.18 easybusMsg.remotePort=  35651 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880( 2830): currentRemoteHost=192.168.43.18 easybusMsg.remoteIp=192.168.43.18, counter=4
+D/MonitorCw880( 2830): easybusySend()-> easybusMsg.remoteIp=  192.168.43.18 easybusMsg.remotePort=  35651 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+I/MonitorCw880( 2830): easybusReceive success !
+D/MonitorCw880( 2830):  easybusMsg.remoteIp=  192.168.43.18 easybusMsg.remotePort=  35651 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880( 2830): currentRemoteHost=192.168.43.18 easybusMsg.remoteIp=192.168.43.18, counter=5
+D/MonitorCw880( 2830): easybusySend()-> easybusMsg.remoteIp=  192.168.43.18 easybusMsg.remotePort=  35651 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+^C

@@ -1,0 +1,31 @@
+# 基本信息。
+name:禅道TODO日历视图  # 插件的名称
+code:TODO Calendar Plugin    # 插件的英文代号，英文或者字母，必须保持唯一。
+type:extension       # 插件的类型，可以选择extension, patch, theme三种的一种。
+copyright:hping。
+site:http://hping_sina.weibo.com                 # 官网网站。
+author:flahu@163.com             # 作者，多个可以用逗号隔开。
+abstract:实现TODO按日历显示        # 简介。一句话介绍。
+
+# 描述和安装文档，可以多行，支持a, p, div, h3-h6, strong, img, table, tr, td, ol, ul, li, span标签。
+desc:|
+  这个插件是用来实现TODO按日历显示。
+install:| 
+  1. 通过禅道的插件管理来进行安装。 
+    1.1 使用管理员身份登录禅道，访问插件管理。
+    1.2 打开获得插件页面，搜索找到本插件。
+    1.3 选择自动安装，按照页面提示即可。
+  2. 手工安装，将代码解压缩，然后将目录拷贝到禅道对应的目录，比如module拷贝到zentao的module。
+
+# 版本信息。
+releases:               # 版本列表。
+  1.0:                  # 版本号。
+    zentaoversion:all   # 适用的禅道的版本号。可以用all来代替所有，也可以是禅道的版本列表，用逗号链接。
+    charge:free         # 是否收费，可以选择free(免费软件）, share(共享软件), opensource(开源软件), business(商业软件)
+    date:2012-3-19     # 发布日期。
+    # 版权信息和修改记录，可以多行，开源协议可以选择gpl, lgpl, apache, mit, bsd
+    license:|
+      LGPL
+    changelog:|
+      1.首次发布
+  

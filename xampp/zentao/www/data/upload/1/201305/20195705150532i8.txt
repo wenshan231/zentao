@@ -1,0 +1,1035 @@
+I/MainActivity( 2152): Connect to PortalMS-Server  Address: http://cibn-iepg.longvisionmedia.com:8881
+W/System.err( 2152): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 2152):    at java.net.InetAddress.lookupHostByName(InetAddress.java:426)
+W/System.err( 2152):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 2152):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 2152):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 2152):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 2152):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 2152):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 2152):    at com.fiship.cibn.common.NetworkUtil.isConnectToServerByHttp(NetworkUtil.java:31)
+W/System.err( 2152):    at com.fiship.cibn.MainActivity$3.run(MainActivity.java:1048)
+W/System.err( 2152):    at java.lang.Thread.run(Thread.java:856)
+W/System.err( 2152): Caused by: libcore.io.GaiException: getaddrinfo failed: EAI_NODATA (No address associated with hostname)
+W/System.err( 2152):    at libcore.io.Posix.getaddrinfo(Native Method)
+W/System.err( 2152):    at libcore.io.ForwardingOs.getaddrinfo(ForwardingOs.java:55)
+W/System.err( 2152):    at java.net.InetAddress.lookupHostByName(InetAddress.java:411)
+W/System.err( 2152):    ... 12 more
+I/MainActivity( 2152): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+I/MainActivity( 2152): Connect to PortalMS-Server  Address: http://cibn-iepg.longvisionmedia.com:8881
+W/System.err( 2152): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 2152):    at java.net.InetAddress.lookupHostByName(InetAddress.java:400)
+W/System.err( 2152):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 2152):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 2152):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 2152):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 2152):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 2152):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 2152):    at com.fiship.cibn.common.NetworkUtil.isConnectToServerByHttp(NetworkUtil.java:31)
+W/System.err( 2152):    at com.fiship.cibn.MainActivity$3.run(MainActivity.java:1048)
+W/System.err( 2152):    at java.lang.Thread.run(Thread.java:856)
+I/MainActivity( 2152): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+I/MainActivity( 2152): Connect to PortalMS-Server  Address: http://cibn-iepg.longvisionmedia.com:8881
+W/System.err( 2152): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 2152):    at java.net.InetAddress.lookupHostByName(InetAddress.java:400)
+W/System.err( 2152):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 2152):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 2152):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 2152):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 2152):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 2152):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 2152):    at com.fiship.cibn.common.NetworkUtil.isConnectToServerByHttp(NetworkUtil.java:31)
+W/System.err( 2152):    at com.fiship.cibn.MainActivity$3.run(MainActivity.java:1048)
+W/System.err( 2152):    at java.lang.Thread.run(Thread.java:856)
+I/MainActivity( 2152): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+W/System.err( 2152): java.net.UnknownHostException: Unable to resolve host "php.weather.sina.com.cn": No address associated with hostname
+W/System.err( 2152):    at java.net.InetAddress.lookupHostByName(InetAddress.java:426)
+W/System.err( 2152):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 2152):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 2152):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 2152):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 2152):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 2152):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 2152):    at com.fiship.cibn.common.NetworkUtil.isConnectToServerByHttp(NetworkUtil.java:31)
+W/System.err( 2152):    at com.fiship.cibn.weather.WeatherTask.run(WeatherTask.java:85)
+W/System.err( 2152):    at com.fiship.cibn.controller.PortalRefreshService$SerialExecutor$1.run(PortalRefreshService.java:326)
+W/System.err( 2152):    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1076)
+W/System.err( 2152):    at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:569)
+W/System.err( 2152):    at java.lang.Thread.run(Thread.java:856)
+W/System.err( 2152): Caused by: libcore.io.GaiException: getaddrinfo failed: EAI_NODATA (No address associated with hostname)
+W/System.err( 2152):    at libcore.io.Posix.getaddrinfo(Native Method)
+W/System.err( 2152):    at libcore.io.ForwardingOs.getaddrinfo(ForwardingOs.java:55)
+W/System.err( 2152):    at java.net.InetAddress.lookupHostByName(InetAddress.java:411)
+W/System.err( 2152):    ... 15 more
+E/WeatherTask( 2152): can't connect the url : http://php.weather.sina.com.cn/iframe/index/w_cl.php?day=1
+I/MainActivity( 2152): Connect to PortalMS-Server  Address: http://cibn-iepg.longvisionmedia.com:8881
+W/System.err( 2152): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 2152):    at java.net.InetAddress.lookupHostByName(InetAddress.java:426)
+W/System.err( 2152):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 2152):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 2152):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 2152):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 2152):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 2152):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 2152):    at com.fiship.cibn.common.NetworkUtil.isConnectToServerByHttp(NetworkUtil.java:31)
+W/System.err( 2152):    at com.fiship.cibn.MainActivity$3.run(MainActivity.java:1048)
+W/System.err( 2152):    at java.lang.Thread.run(Thread.java:856)
+W/System.err( 2152): Caused by: libcore.io.GaiException: getaddrinfo failed: EAI_NODATA (No address associated with hostname)
+W/System.err( 2152):    at libcore.io.Posix.getaddrinfo(Native Method)
+W/System.err( 2152):    at libcore.io.ForwardingOs.getaddrinfo(ForwardingOs.java:55)
+W/System.err( 2152):    at java.net.InetAddress.lookupHostByName(InetAddress.java:411)
+W/System.err( 2152):    ... 12 more
+I/MainActivity( 2152): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+I/MainActivity( 2152): Connect to PortalMS-Server  Address: http://cibn-iepg.longvisionmedia.com:8881
+W/System.err( 2152): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 2152):    at java.net.InetAddress.lookupHostByName(InetAddress.java:400)
+W/System.err( 2152):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 2152):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 2152):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 2152):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 2152):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 2152):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 2152):    at com.fiship.cibn.common.NetworkUtil.isConnectToServerByHttp(NetworkUtil.java:31)
+W/System.err( 2152):    at com.fiship.cibn.MainActivity$3.run(MainActivity.java:1048)
+W/System.err( 2152):    at java.lang.Thread.run(Thread.java:856)
+I/MainActivity( 2152): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+I/MainActivity( 2152): Connect to PortalMS-Server  Address: http://cibn-iepg.longvisionmedia.com:8881
+W/System.err( 2152): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 2152):    at java.net.InetAddress.lookupHostByName(InetAddress.java:400)
+W/System.err( 2152):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 2152):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 2152):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 2152):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 2152):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 2152):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 2152):    at com.fiship.cibn.common.NetworkUtil.isConnectToServerByHttp(NetworkUtil.java:31)
+W/System.err( 2152):    at com.fiship.cibn.MainActivity$3.run(MainActivity.java:1048)
+W/System.err( 2152):    at java.lang.Thread.run(Thread.java:856)
+I/MainActivity( 2152): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+I/MainActivity( 2152): Connect to PortalMS-Server  Address: http://cibn-iepg.longvisionmedia.com:8881
+W/System.err( 2152): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 2152):    at java.net.InetAddress.lookupHostByName(InetAddress.java:426)
+W/System.err( 2152):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 2152):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 2152):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 2152):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 2152):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 2152):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 2152):    at com.fiship.cibn.common.NetworkUtil.isConnectToServerByHttp(NetworkUtil.java:31)
+W/System.err( 2152):    at com.fiship.cibn.MainActivity$3.run(MainActivity.java:1048)
+W/System.err( 2152):    at java.lang.Thread.run(Thread.java:856)
+W/System.err( 2152): Caused by: libcore.io.GaiException: getaddrinfo failed: EAI_NODATA (No address associated with hostname)
+W/System.err( 2152):    at libcore.io.Posix.getaddrinfo(Native Method)
+W/System.err( 2152):    at libcore.io.ForwardingOs.getaddrinfo(ForwardingOs.java:55)
+W/System.err( 2152):    at java.net.InetAddress.lookupHostByName(InetAddress.java:411)
+W/System.err( 2152):    ... 12 more
+I/MainActivity( 2152): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+W/System.err( 2152): java.net.UnknownHostException: Unable to resolve host "php.weather.sina.com.cn": No address associated with hostname
+W/System.err( 2152):    at java.net.InetAddress.lookupHostByName(InetAddress.java:426)
+W/System.err( 2152):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 2152):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 2152):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 2152):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 2152):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 2152):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 2152):    at com.fiship.cibn.common.NetworkUtil.isConnectToServerByHttp(NetworkUtil.java:31)
+W/System.err( 2152):    at com.fiship.cibn.weather.WeatherTask.run(WeatherTask.java:85)
+W/System.err( 2152):    at com.fiship.cibn.controller.PortalRefreshService$SerialExecutor$1.run(PortalRefreshService.java:326)
+W/System.err( 2152):    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1076)
+W/System.err( 2152):    at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:569)
+W/System.err( 2152):    at java.lang.Thread.run(Thread.java:856)
+W/System.err( 2152): Caused by: libcore.io.GaiException: getaddrinfo failed: EAI_NODATA (No address associated with hostname)
+W/System.err( 2152):    at libcore.io.Posix.getaddrinfo(Native Method)
+W/System.err( 2152):    at libcore.io.ForwardingOs.getaddrinfo(ForwardingOs.java:55)
+W/System.err( 2152):    at java.net.InetAddress.lookupHostByName(InetAddress.java:411)
+W/System.err( 2152):    ... 15 more
+E/WeatherTask( 2152): can't connect the url : http://php.weather.sina.com.cn/iframe/index/w_cl.php?day=1
+I/MainActivity( 2152): Connect to PortalMS-Server  Address: http://cibn-iepg.longvisionmedia.com:8881
+W/System.err( 2152): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 2152):    at java.net.InetAddress.lookupHostByName(InetAddress.java:400)
+W/System.err( 2152):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 2152):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 2152):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 2152):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 2152):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 2152):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 2152):    at com.fiship.cibn.common.NetworkUtil.isConnectToServerByHttp(NetworkUtil.java:31)
+W/System.err( 2152):    at com.fiship.cibn.MainActivity$3.run(MainActivity.java:1048)
+W/System.err( 2152):    at java.lang.Thread.run(Thread.java:856)
+I/MainActivity( 2152): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+I/MainActivity( 2152): Connect to PortalMS-Server  Address: http://cibn-iepg.longvisionmedia.com:8881
+W/System.err( 2152): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 2152):    at java.net.InetAddress.lookupHostByName(InetAddress.java:400)
+W/System.err( 2152):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 2152):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 2152):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 2152):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 2152):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 2152):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 2152):    at com.fiship.cibn.common.NetworkUtil.isConnectToServerByHttp(NetworkUtil.java:31)
+W/System.err( 2152):    at com.fiship.cibn.MainActivity$3.run(MainActivity.java:1048)
+W/System.err( 2152):    at java.lang.Thread.run(Thread.java:856)
+I/MainActivity( 2152): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+I/MainActivity( 2152): Connect to PortalMS-Server  Address: http://cibn-iepg.longvisionmedia.com:8881
+W/System.err( 2152): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 2152):    at java.net.InetAddress.lookupHostByName(InetAddress.java:426)
+W/System.err( 2152):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 2152):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 2152):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 2152):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 2152):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 2152):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 2152):    at com.fiship.cibn.common.NetworkUtil.isConnectToServerByHttp(NetworkUtil.java:31)
+W/System.err( 2152):    at com.fiship.cibn.MainActivity$3.run(MainActivity.java:1048)
+W/System.err( 2152):    at java.lang.Thread.run(Thread.java:856)
+W/System.err( 2152): Caused by: libcore.io.GaiException: getaddrinfo failed: EAI_NODATA (No address associated with hostname)
+W/System.err( 2152):    at libcore.io.Posix.getaddrinfo(Native Method)
+W/System.err( 2152):    at libcore.io.ForwardingOs.getaddrinfo(ForwardingOs.java:55)
+W/System.err( 2152):    at java.net.InetAddress.lookupHostByName(InetAddress.java:411)
+W/System.err( 2152):    ... 12 more
+I/MainActivity( 2152): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+I/MainActivity( 2152): Connect to PortalMS-Server  Address: http://cibn-iepg.longvisionmedia.com:8881
+W/System.err( 2152): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 2152):    at java.net.InetAddress.lookupHostByName(InetAddress.java:400)
+W/System.err( 2152):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 2152):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 2152):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 2152):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 2152):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 2152):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 2152):    at com.fiship.cibn.common.NetworkUtil.isConnectToServerByHttp(NetworkUtil.java:31)
+W/System.err( 2152):    at com.fiship.cibn.MainActivity$3.run(MainActivity.java:1048)
+W/System.err( 2152):    at java.lang.Thread.run(Thread.java:856)
+I/MainActivity( 2152): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+W/System.err( 2152): java.net.UnknownHostException: Unable to resolve host "php.weather.sina.com.cn": No address associated with hostname
+W/System.err( 2152):    at java.net.InetAddress.lookupHostByName(InetAddress.java:426)
+W/System.err( 2152):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 2152):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 2152):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 2152):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 2152):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 2152):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 2152):    at com.fiship.cibn.common.NetworkUtil.isConnectToServerByHttp(NetworkUtil.java:31)
+W/System.err( 2152):    at com.fiship.cibn.weather.WeatherTask.run(WeatherTask.java:85)
+W/System.err( 2152):    at com.fiship.cibn.controller.PortalRefreshService$SerialExecutor$1.run(PortalRefreshService.java:326)
+W/System.err( 2152):    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1076)
+W/System.err( 2152):    at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:569)
+W/System.err( 2152):    at java.lang.Thread.run(Thread.java:856)
+W/System.err( 2152): Caused by: libcore.io.GaiException: getaddrinfo failed: EAI_NODATA (No address associated with hostname)
+W/System.err( 2152):    at libcore.io.Posix.getaddrinfo(Native Method)
+W/System.err( 2152):    at libcore.io.ForwardingOs.getaddrinfo(ForwardingOs.java:55)
+W/System.err( 2152):    at java.net.InetAddress.lookupHostByName(InetAddress.java:411)
+W/System.err( 2152):    ... 15 more
+E/WeatherTask( 2152): can't connect the url : http://php.weather.sina.com.cn/iframe/index/w_cl.php?day=1
+I/MainActivity( 2152): Connect to PortalMS-Server  Address: http://cibn-iepg.longvisionmedia.com:8881
+W/System.err( 2152): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 2152):    at java.net.InetAddress.lookupHostByName(InetAddress.java:400)
+W/System.err( 2152):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 2152):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 2152):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 2152):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 2152):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 2152):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 2152):    at com.fiship.cibn.common.NetworkUtil.isConnectToServerByHttp(NetworkUtil.java:31)
+W/System.err( 2152):    at com.fiship.cibn.MainActivity$3.run(MainActivity.java:1048)
+W/System.err( 2152):    at java.lang.Thread.run(Thread.java:856)
+I/MainActivity( 2152): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+I/MainActivity( 2152): Connect to PortalMS-Server  Address: http://cibn-iepg.longvisionmedia.com:8881
+W/System.err( 2152): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 2152):    at java.net.InetAddress.lookupHostByName(InetAddress.java:426)
+W/System.err( 2152):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 2152):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 2152):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 2152):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 2152):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 2152):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 2152):    at com.fiship.cibn.common.NetworkUtil.isConnectToServerByHttp(NetworkUtil.java:31)
+W/System.err( 2152):    at com.fiship.cibn.MainActivity$3.run(MainActivity.java:1048)
+W/System.err( 2152):    at java.lang.Thread.run(Thread.java:856)
+W/System.err( 2152): Caused by: libcore.io.GaiException: getaddrinfo failed: EAI_NODATA (No address associated with hostname)
+W/System.err( 2152):    at libcore.io.Posix.getaddrinfo(Native Method)
+W/System.err( 2152):    at libcore.io.ForwardingOs.getaddrinfo(ForwardingOs.java:55)
+W/System.err( 2152):    at java.net.InetAddress.lookupHostByName(InetAddress.java:411)
+W/System.err( 2152):    ... 12 more
+I/MainActivity( 2152): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+I/MainActivity( 2152): Connect to PortalMS-Server  Address: http://cibn-iepg.longvisionmedia.com:8881
+W/System.err( 2152): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 2152):    at java.net.InetAddress.lookupHostByName(InetAddress.java:400)
+W/System.err( 2152):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 2152):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 2152):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 2152):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 2152):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 2152):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 2152):    at com.fiship.cibn.common.NetworkUtil.isConnectToServerByHttp(NetworkUtil.java:31)
+W/System.err( 2152):    at com.fiship.cibn.MainActivity$3.run(MainActivity.java:1048)
+W/System.err( 2152):    at java.lang.Thread.run(Thread.java:856)
+I/MainActivity( 2152): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+I/MainActivity( 2152): Connect to PortalMS-Server  Address: http://cibn-iepg.longvisionmedia.com:8881
+W/System.err( 2152): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 2152):    at java.net.InetAddress.lookupHostByName(InetAddress.java:400)
+W/System.err( 2152):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 2152):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 2152):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 2152):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 2152):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 2152):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 2152):    at com.fiship.cibn.common.NetworkUtil.isConnectToServerByHttp(NetworkUtil.java:31)
+W/System.err( 2152):    at com.fiship.cibn.MainActivity$3.run(MainActivity.java:1048)
+W/System.err( 2152):    at java.lang.Thread.run(Thread.java:856)
+I/MainActivity( 2152): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+W/System.err( 2152): java.net.UnknownHostException: Unable to resolve host "php.weather.sina.com.cn": No address associated with hostname
+W/System.err( 2152):    at java.net.InetAddress.lookupHostByName(InetAddress.java:426)
+W/System.err( 2152):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 2152):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 2152):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 2152):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 2152):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 2152):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 2152):    at com.fiship.cibn.common.NetworkUtil.isConnectToServerByHttp(NetworkUtil.java:31)
+W/System.err( 2152):    at com.fiship.cibn.weather.WeatherTask.run(WeatherTask.java:85)
+W/System.err( 2152):    at com.fiship.cibn.controller.PortalRefreshService$SerialExecutor$1.run(PortalRefreshService.java:326)
+W/System.err( 2152):    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1076)
+W/System.err( 2152):    at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:569)
+W/System.err( 2152):    at java.lang.Thread.run(Thread.java:856)
+W/System.err( 2152): Caused by: libcore.io.GaiException: getaddrinfo failed: EAI_NODATA (No address associated with hostname)
+W/System.err( 2152):    at libcore.io.Posix.getaddrinfo(Native Method)
+W/System.err( 2152):    at libcore.io.ForwardingOs.getaddrinfo(ForwardingOs.java:55)
+W/System.err( 2152):    at java.net.InetAddress.lookupHostByName(InetAddress.java:411)
+W/System.err( 2152):    ... 15 more
+E/WeatherTask( 2152): can't connect the url : http://php.weather.sina.com.cn/iframe/index/w_cl.php?day=1
+I/MainActivity( 2152): Connect to PortalMS-Server  Address: http://cibn-iepg.longvisionmedia.com:8881
+W/System.err( 2152): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 2152):    at java.net.InetAddress.lookupHostByName(InetAddress.java:426)
+W/System.err( 2152):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 2152):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 2152):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 2152):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 2152):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 2152):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 2152):    at com.fiship.cibn.common.NetworkUtil.isConnectToServerByHttp(NetworkUtil.java:31)
+W/System.err( 2152):    at com.fiship.cibn.MainActivity$3.run(MainActivity.java:1048)
+W/System.err( 2152):    at java.lang.Thread.run(Thread.java:856)
+W/System.err( 2152): Caused by: libcore.io.GaiException: getaddrinfo failed: EAI_NODATA (No address associated with hostname)
+W/System.err( 2152):    at libcore.io.Posix.getaddrinfo(Native Method)
+W/System.err( 2152):    at libcore.io.ForwardingOs.getaddrinfo(ForwardingOs.java:55)
+W/System.err( 2152):    at java.net.InetAddress.lookupHostByName(InetAddress.java:411)
+W/System.err( 2152):    ... 12 more
+I/MainActivity( 2152): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+I/MainActivity( 2152): Connect to PortalMS-Server  Address: http://cibn-iepg.longvisionmedia.com:8881
+W/System.err( 2152): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 2152):    at java.net.InetAddress.lookupHostByName(InetAddress.java:400)
+W/System.err( 2152):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 2152):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 2152):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 2152):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 2152):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 2152):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 2152):    at com.fiship.cibn.common.NetworkUtil.isConnectToServerByHttp(NetworkUtil.java:31)
+W/System.err( 2152):    at com.fiship.cibn.MainActivity$3.run(MainActivity.java:1048)
+W/System.err( 2152):    at java.lang.Thread.run(Thread.java:856)
+I/MainActivity( 2152): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+I/MainActivity( 2152): Connect to PortalMS-Server  Address: http://cibn-iepg.longvisionmedia.com:8881
+W/System.err( 2152): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 2152):    at java.net.InetAddress.lookupHostByName(InetAddress.java:400)
+W/System.err( 2152):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 2152):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 2152):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 2152):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 2152):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 2152):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 2152):    at com.fiship.cibn.common.NetworkUtil.isConnectToServerByHttp(NetworkUtil.java:31)
+W/System.err( 2152):    at com.fiship.cibn.MainActivity$3.run(MainActivity.java:1048)
+W/System.err( 2152):    at java.lang.Thread.run(Thread.java:856)
+I/MainActivity( 2152): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+W/System.err( 2152): java.net.UnknownHostException: Unable to resolve host "php.weather.sina.com.cn": No address associated with hostname
+W/System.err( 2152):    at java.net.InetAddress.lookupHostByName(InetAddress.java:426)
+W/System.err( 2152):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 2152):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 2152):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 2152):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 2152):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 2152):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 2152):    at com.fiship.cibn.common.NetworkUtil.isConnectToServerByHttp(NetworkUtil.java:31)
+W/System.err( 2152):    at com.fiship.cibn.weather.WeatherTask.run(WeatherTask.java:85)
+W/System.err( 2152):    at com.fiship.cibn.controller.PortalRefreshService$SerialExecutor$1.run(PortalRefreshService.java:326)
+W/System.err( 2152):    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1076)
+W/System.err( 2152):    at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:569)
+W/System.err( 2152):    at java.lang.Thread.run(Thread.java:856)
+W/System.err( 2152): Caused by: libcore.io.GaiException: getaddrinfo failed: EAI_NODATA (No address associated with hostname)
+W/System.err( 2152):    at libcore.io.Posix.getaddrinfo(Native Method)
+W/System.err( 2152):    at libcore.io.ForwardingOs.getaddrinfo(ForwardingOs.java:55)
+W/System.err( 2152):    at java.net.InetAddress.lookupHostByName(InetAddress.java:411)
+W/System.err( 2152):    ... 15 more
+E/WeatherTask( 2152): can't connect the url : http://php.weather.sina.com.cn/iframe/index/w_cl.php?day=1
+I/MainActivity( 2152): Connect to PortalMS-Server  Address: http://cibn-iepg.longvisionmedia.com:8881
+W/System.err( 2152): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 2152):    at java.net.InetAddress.lookupHostByName(InetAddress.java:426)
+W/System.err( 2152):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 2152):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 2152):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 2152):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 2152):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 2152):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 2152):    at com.fiship.cibn.common.NetworkUtil.isConnectToServerByHttp(NetworkUtil.java:31)
+W/System.err( 2152):    at com.fiship.cibn.MainActivity$3.run(MainActivity.java:1048)
+W/System.err( 2152):    at java.lang.Thread.run(Thread.java:856)
+W/System.err( 2152): Caused by: libcore.io.GaiException: getaddrinfo failed: EAI_NODATA (No address associated with hostname)
+W/System.err( 2152):    at libcore.io.Posix.getaddrinfo(Native Method)
+W/System.err( 2152):    at libcore.io.ForwardingOs.getaddrinfo(ForwardingOs.java:55)
+W/System.err( 2152):    at java.net.InetAddress.lookupHostByName(InetAddress.java:411)
+W/System.err( 2152):    ... 12 more
+I/MainActivity( 2152): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+I/MainActivity( 2152): Connect to PortalMS-Server  Address: http://cibn-iepg.longvisionmedia.com:8881
+W/System.err( 2152): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 2152):    at java.net.InetAddress.lookupHostByName(InetAddress.java:400)
+W/System.err( 2152):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 2152):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 2152):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 2152):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 2152):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 2152):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 2152):    at com.fiship.cibn.common.NetworkUtil.isConnectToServerByHttp(NetworkUtil.java:31)
+W/System.err( 2152):    at com.fiship.cibn.MainActivity$3.run(MainActivity.java:1048)
+W/System.err( 2152):    at java.lang.Thread.run(Thread.java:856)
+I/MainActivity( 2152): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+I/MainActivity( 2152): Connect to PortalMS-Server  Address: http://cibn-iepg.longvisionmedia.com:8881
+W/System.err( 2152): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 2152):    at java.net.InetAddress.lookupHostByName(InetAddress.java:400)
+W/System.err( 2152):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 2152):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 2152):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 2152):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 2152):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 2152):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 2152):    at com.fiship.cibn.common.NetworkUtil.isConnectToServerByHttp(NetworkUtil.java:31)
+W/System.err( 2152):    at com.fiship.cibn.MainActivity$3.run(MainActivity.java:1048)
+W/System.err( 2152):    at java.lang.Thread.run(Thread.java:856)
+I/MainActivity( 2152): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+I/MainActivity( 2152): Connect to PortalMS-Server  Address: http://cibn-iepg.longvisionmedia.com:8881
+W/System.err( 2152): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 2152):    at java.net.InetAddress.lookupHostByName(InetAddress.java:426)
+W/System.err( 2152):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 2152):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 2152):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 2152):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 2152):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 2152):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 2152):    at com.fiship.cibn.common.NetworkUtil.isConnectToServerByHttp(NetworkUtil.java:31)
+W/System.err( 2152):    at com.fiship.cibn.MainActivity$3.run(MainActivity.java:1048)
+W/System.err( 2152):    at java.lang.Thread.run(Thread.java:856)
+W/System.err( 2152): Caused by: libcore.io.GaiException: getaddrinfo failed: EAI_NODATA (No address associated with hostname)
+W/System.err( 2152):    at libcore.io.Posix.getaddrinfo(Native Method)
+W/System.err( 2152):    at libcore.io.ForwardingOs.getaddrinfo(ForwardingOs.java:55)
+W/System.err( 2152):    at java.net.InetAddress.lookupHostByName(InetAddress.java:411)
+W/System.err( 2152):    ... 12 more
+I/MainActivity( 2152): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+D/dalvikvm( 2152): GC_CONCURRENT freed 3500K, 23% free 24650K/31875K, paused 1ms+3ms
+W/System.err( 2152): java.net.UnknownHostException: Unable to resolve host "php.weather.sina.com.cn": No address associated with hostname
+W/System.err( 2152):    at java.net.InetAddress.lookupHostByName(InetAddress.java:426)
+W/System.err( 2152):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 2152):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 2152):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 2152):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 2152):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 2152):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 2152):    at com.fiship.cibn.common.NetworkUtil.isConnectToServerByHttp(NetworkUtil.java:31)
+W/System.err( 2152):    at com.fiship.cibn.weather.WeatherTask.run(WeatherTask.java:85)
+W/System.err( 2152):    at com.fiship.cibn.controller.PortalRefreshService$SerialExecutor$1.run(PortalRefreshService.java:326)
+W/System.err( 2152):    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1076)
+W/System.err( 2152):    at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:569)
+W/System.err( 2152):    at java.lang.Thread.run(Thread.java:856)
+W/System.err( 2152): Caused by: libcore.io.GaiException: getaddrinfo failed: EAI_NODATA (No address associated with hostname)
+W/System.err( 2152):    at libcore.io.Posix.getaddrinfo(Native Method)
+W/System.err( 2152):    at libcore.io.ForwardingOs.getaddrinfo(ForwardingOs.java:55)
+W/System.err( 2152):    at java.net.InetAddress.lookupHostByName(InetAddress.java:411)
+W/System.err( 2152):    ... 15 more
+E/WeatherTask( 2152): can't connect the url : http://php.weather.sina.com.cn/iframe/index/w_cl.php?day=1
+I/MainActivity( 2152): Connect to PortalMS-Server  Address: http://cibn-iepg.longvisionmedia.com:8881
+W/System.err( 2152): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 2152):    at java.net.InetAddress.lookupHostByName(InetAddress.java:400)
+W/System.err( 2152):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 2152):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 2152):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 2152):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 2152):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 2152):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 2152):    at com.fiship.cibn.common.NetworkUtil.isConnectToServerByHttp(NetworkUtil.java:31)
+W/System.err( 2152):    at com.fiship.cibn.MainActivity$3.run(MainActivity.java:1048)
+W/System.err( 2152):    at java.lang.Thread.run(Thread.java:856)
+I/MainActivity( 2152): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+I/MainActivity( 2152): Connect to PortalMS-Server  Address: http://cibn-iepg.longvisionmedia.com:8881
+W/System.err( 2152): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 2152):    at java.net.InetAddress.lookupHostByName(InetAddress.java:400)
+W/System.err( 2152):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 2152):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 2152):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 2152):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 2152):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 2152):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 2152):    at com.fiship.cibn.common.NetworkUtil.isConnectToServerByHttp(NetworkUtil.java:31)
+W/System.err( 2152):    at com.fiship.cibn.MainActivity$3.run(MainActivity.java:1048)
+W/System.err( 2152):    at java.lang.Thread.run(Thread.java:856)
+I/MainActivity( 2152): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+I/MainActivity( 2152): Connect to PortalMS-Server  Address: http://cibn-iepg.longvisionmedia.com:8881
+W/System.err( 2152): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 2152):    at java.net.InetAddress.lookupHostByName(InetAddress.java:426)
+W/System.err( 2152):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 2152):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 2152):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 2152):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 2152):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 2152):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 2152):    at com.fiship.cibn.common.NetworkUtil.isConnectToServerByHttp(NetworkUtil.java:31)
+W/System.err( 2152):    at com.fiship.cibn.MainActivity$3.run(MainActivity.java:1048)
+W/System.err( 2152):    at java.lang.Thread.run(Thread.java:856)
+W/System.err( 2152): Caused by: libcore.io.GaiException: getaddrinfo failed: EAI_NODATA (No address associated with hostname)
+W/System.err( 2152):    at libcore.io.Posix.getaddrinfo(Native Method)
+W/System.err( 2152):    at libcore.io.ForwardingOs.getaddrinfo(ForwardingOs.java:55)
+W/System.err( 2152):    at java.net.InetAddress.lookupHostByName(InetAddress.java:411)
+W/System.err( 2152):    ... 12 more
+I/MainActivity( 2152): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+I/MainActivity( 2152): Connect to PortalMS-Server  Address: http://cibn-iepg.longvisionmedia.com:8881
+W/System.err( 2152): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 2152):    at java.net.InetAddress.lookupHostByName(InetAddress.java:400)
+W/System.err( 2152):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 2152):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 2152):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 2152):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 2152):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 2152):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 2152):    at com.fiship.cibn.common.NetworkUtil.isConnectToServerByHttp(NetworkUtil.java:31)
+W/System.err( 2152):    at com.fiship.cibn.MainActivity$3.run(MainActivity.java:1048)
+W/System.err( 2152):    at java.lang.Thread.run(Thread.java:856)
+I/MainActivity( 2152): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+W/System.err( 2152): java.net.UnknownHostException: Unable to resolve host "php.weather.sina.com.cn": No address associated with hostname
+W/System.err( 2152):    at java.net.InetAddress.lookupHostByName(InetAddress.java:426)
+W/System.err( 2152):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 2152):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 2152):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 2152):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 2152):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 2152):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 2152):    at com.fiship.cibn.common.NetworkUtil.isConnectToServerByHttp(NetworkUtil.java:31)
+W/System.err( 2152):    at com.fiship.cibn.weather.WeatherTask.run(WeatherTask.java:85)
+W/System.err( 2152):    at com.fiship.cibn.controller.PortalRefreshService$SerialExecutor$1.run(PortalRefreshService.java:326)
+W/System.err( 2152):    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1076)
+W/System.err( 2152):    at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:569)
+W/System.err( 2152):    at java.lang.Thread.run(Thread.java:856)
+W/System.err( 2152): Caused by: libcore.io.GaiException: getaddrinfo failed: EAI_NODATA (No address associated with hostname)
+W/System.err( 2152):    at libcore.io.Posix.getaddrinfo(Native Method)
+W/System.err( 2152):    at libcore.io.ForwardingOs.getaddrinfo(ForwardingOs.java:55)
+W/System.err( 2152):    at java.net.InetAddress.lookupHostByName(InetAddress.java:411)
+W/System.err( 2152):    ... 15 more
+E/WeatherTask( 2152): can't connect the url : http://php.weather.sina.com.cn/iframe/index/w_cl.php?day=1
+I/MainActivity( 2152): Connect to PortalMS-Server  Address: http://cibn-iepg.longvisionmedia.com:8881
+W/System.err( 2152): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 2152):    at java.net.InetAddress.lookupHostByName(InetAddress.java:400)
+W/System.err( 2152):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 2152):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 2152):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 2152):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 2152):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 2152):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 2152):    at com.fiship.cibn.common.NetworkUtil.isConnectToServerByHttp(NetworkUtil.java:31)
+W/System.err( 2152):    at com.fiship.cibn.MainActivity$3.run(MainActivity.java:1048)
+W/System.err( 2152):    at java.lang.Thread.run(Thread.java:856)
+I/MainActivity( 2152): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+I/MainActivity( 2152): Connect to PortalMS-Server  Address: http://cibn-iepg.longvisionmedia.com:8881
+W/System.err( 2152): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 2152):    at java.net.InetAddress.lookupHostByName(InetAddress.java:426)
+W/System.err( 2152):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 2152):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 2152):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 2152):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 2152):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 2152):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 2152):    at com.fiship.cibn.common.NetworkUtil.isConnectToServerByHttp(NetworkUtil.java:31)
+W/System.err( 2152):    at com.fiship.cibn.MainActivity$3.run(MainActivity.java:1048)
+W/System.err( 2152):    at java.lang.Thread.run(Thread.java:856)
+W/System.err( 2152): Caused by: libcore.io.GaiException: getaddrinfo failed: EAI_NODATA (No address associated with hostname)
+W/System.err( 2152):    at libcore.io.Posix.getaddrinfo(Native Method)
+W/System.err( 2152):    at libcore.io.ForwardingOs.getaddrinfo(ForwardingOs.java:55)
+W/System.err( 2152):    at java.net.InetAddress.lookupHostByName(InetAddress.java:411)
+W/System.err( 2152):    ... 12 more
+I/MainActivity( 2152): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+I/MainActivity( 2152): Connect to PortalMS-Server  Address: http://cibn-iepg.longvisionmedia.com:8881
+W/System.err( 2152): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 2152):    at java.net.InetAddress.lookupHostByName(InetAddress.java:400)
+W/System.err( 2152):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 2152):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 2152):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 2152):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 2152):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 2152):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 2152):    at com.fiship.cibn.common.NetworkUtil.isConnectToServerByHttp(NetworkUtil.java:31)
+W/System.err( 2152):    at com.fiship.cibn.MainActivity$3.run(MainActivity.java:1048)
+W/System.err( 2152):    at java.lang.Thread.run(Thread.java:856)
+I/MainActivity( 2152): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+I/MainActivity( 2152): Connect to PortalMS-Server  Address: http://cibn-iepg.longvisionmedia.com:8881
+W/System.err( 2152): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 2152):    at java.net.InetAddress.lookupHostByName(InetAddress.java:400)
+W/System.err( 2152):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 2152):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 2152):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 2152):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 2152):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 2152):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 2152):    at com.fiship.cibn.common.NetworkUtil.isConnectToServerByHttp(NetworkUtil.java:31)
+W/System.err( 2152):    at com.fiship.cibn.MainActivity$3.run(MainActivity.java:1048)
+W/System.err( 2152):    at java.lang.Thread.run(Thread.java:856)
+I/MainActivity( 2152): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+W/System.err( 2152): java.net.UnknownHostException: Unable to resolve host "php.weather.sina.com.cn": No address associated with hostname
+W/System.err( 2152):    at java.net.InetAddress.lookupHostByName(InetAddress.java:426)
+W/System.err( 2152):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 2152):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 2152):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 2152):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 2152):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 2152):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 2152):    at com.fiship.cibn.common.NetworkUtil.isConnectToServerByHttp(NetworkUtil.java:31)
+W/System.err( 2152):    at com.fiship.cibn.weather.WeatherTask.run(WeatherTask.java:85)
+W/System.err( 2152):    at com.fiship.cibn.controller.PortalRefreshService$SerialExecutor$1.run(PortalRefreshService.java:326)
+W/System.err( 2152):    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1076)
+W/System.err( 2152):    at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:569)
+W/System.err( 2152):    at java.lang.Thread.run(Thread.java:856)
+W/System.err( 2152): Caused by: libcore.io.GaiException: getaddrinfo failed: EAI_NODATA (No address associated with hostname)
+W/System.err( 2152):    at libcore.io.Posix.getaddrinfo(Native Method)
+W/System.err( 2152):    at libcore.io.ForwardingOs.getaddrinfo(ForwardingOs.java:55)
+W/System.err( 2152):    at java.net.InetAddress.lookupHostByName(InetAddress.java:411)
+W/System.err( 2152):    ... 15 more
+E/WeatherTask( 2152): can't connect the url : http://php.weather.sina.com.cn/iframe/index/w_cl.php?day=1
+I/MainActivity( 2152): Connect to PortalMS-Server  Address: http://cibn-iepg.longvisionmedia.com:8881
+W/System.err( 2152): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 2152):    at java.net.InetAddress.lookupHostByName(InetAddress.java:426)
+W/System.err( 2152):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 2152):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 2152):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 2152):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 2152):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 2152):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 2152):    at com.fiship.cibn.common.NetworkUtil.isConnectToServerByHttp(NetworkUtil.java:31)
+W/System.err( 2152):    at com.fiship.cibn.MainActivity$3.run(MainActivity.java:1048)
+W/System.err( 2152):    at java.lang.Thread.run(Thread.java:856)
+W/System.err( 2152): Caused by: libcore.io.GaiException: getaddrinfo failed: EAI_NODATA (No address associated with hostname)
+W/System.err( 2152):    at libcore.io.Posix.getaddrinfo(Native Method)
+W/System.err( 2152):    at libcore.io.ForwardingOs.getaddrinfo(ForwardingOs.java:55)
+W/System.err( 2152):    at java.net.InetAddress.lookupHostByName(InetAddress.java:411)
+W/System.err( 2152):    ... 12 more
+I/MainActivity( 2152): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+I/MainActivity( 2152): Connect to PortalMS-Server  Address: http://cibn-iepg.longvisionmedia.com:8881
+W/System.err( 2152): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 2152):    at java.net.InetAddress.lookupHostByName(InetAddress.java:400)
+W/System.err( 2152):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 2152):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 2152):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 2152):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 2152):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 2152):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 2152):    at com.fiship.cibn.common.NetworkUtil.isConnectToServerByHttp(NetworkUtil.java:31)
+W/System.err( 2152):    at com.fiship.cibn.MainActivity$3.run(MainActivity.java:1048)
+W/System.err( 2152):    at java.lang.Thread.run(Thread.java:856)
+I/MainActivity( 2152): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+I/MainActivity( 2152): Connect to PortalMS-Server  Address: http://cibn-iepg.longvisionmedia.com:8881
+W/System.err( 2152): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 2152):    at java.net.InetAddress.lookupHostByName(InetAddress.java:400)
+W/System.err( 2152):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 2152):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 2152):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 2152):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 2152):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 2152):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 2152):    at com.fiship.cibn.common.NetworkUtil.isConnectToServerByHttp(NetworkUtil.java:31)
+W/System.err( 2152):    at com.fiship.cibn.MainActivity$3.run(MainActivity.java:1048)
+W/System.err( 2152):    at java.lang.Thread.run(Thread.java:856)
+I/MainActivity( 2152): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+W/System.err( 2152): java.net.UnknownHostException: Unable to resolve host "php.weather.sina.com.cn": No address associated with hostname
+W/System.err( 2152):    at java.net.InetAddress.lookupHostByName(InetAddress.java:426)
+W/System.err( 2152):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 2152):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 2152):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 2152):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 2152):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 2152):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 2152):    at com.fiship.cibn.common.NetworkUtil.isConnectToServerByHttp(NetworkUtil.java:31)
+W/System.err( 2152):    at com.fiship.cibn.weather.WeatherTask.run(WeatherTask.java:85)
+W/System.err( 2152):    at com.fiship.cibn.controller.PortalRefreshService$SerialExecutor$1.run(PortalRefreshService.java:326)
+W/System.err( 2152):    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1076)
+W/System.err( 2152):    at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:569)
+W/System.err( 2152):    at java.lang.Thread.run(Thread.java:856)
+W/System.err( 2152): Caused by: libcore.io.GaiException: getaddrinfo failed: EAI_NODATA (No address associated with hostname)
+W/System.err( 2152):    at libcore.io.Posix.getaddrinfo(Native Method)
+W/System.err( 2152):    at libcore.io.ForwardingOs.getaddrinfo(ForwardingOs.java:55)
+W/System.err( 2152):    at java.net.InetAddress.lookupHostByName(InetAddress.java:411)
+W/System.err( 2152):    ... 15 more
+E/WeatherTask( 2152): can't connect the url : http://php.weather.sina.com.cn/iframe/index/w_cl.php?day=1
+I/MainActivity( 2152): Connect to PortalMS-Server  Address: http://cibn-iepg.longvisionmedia.com:8881
+W/System.err( 2152): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 2152):    at java.net.InetAddress.lookupHostByName(InetAddress.java:426)
+W/System.err( 2152):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 2152):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 2152):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 2152):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 2152):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 2152):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 2152):    at com.fiship.cibn.common.NetworkUtil.isConnectToServerByHttp(NetworkUtil.java:31)
+W/System.err( 2152):    at com.fiship.cibn.MainActivity$3.run(MainActivity.java:1048)
+W/System.err( 2152):    at java.lang.Thread.run(Thread.java:856)
+W/System.err( 2152): Caused by: libcore.io.GaiException: getaddrinfo failed: EAI_NODATA (No address associated with hostname)
+W/System.err( 2152):    at libcore.io.Posix.getaddrinfo(Native Method)
+W/System.err( 2152):    at libcore.io.ForwardingOs.getaddrinfo(ForwardingOs.java:55)
+W/System.err( 2152):    at java.net.InetAddress.lookupHostByName(InetAddress.java:411)
+W/System.err( 2152):    ... 12 more
+I/MainActivity( 2152): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+I/MainActivity( 2152): Connect to PortalMS-Server  Address: http://cibn-iepg.longvisionmedia.com:8881
+W/System.err( 2152): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 2152):    at java.net.InetAddress.lookupHostByName(InetAddress.java:400)
+W/System.err( 2152):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 2152):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 2152):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 2152):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 2152):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 2152):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 2152):    at com.fiship.cibn.common.NetworkUtil.isConnectToServerByHttp(NetworkUtil.java:31)
+W/System.err( 2152):    at com.fiship.cibn.MainActivity$3.run(MainActivity.java:1048)
+W/System.err( 2152):    at java.lang.Thread.run(Thread.java:856)
+I/MainActivity( 2152): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+I/MainActivity( 2152): Connect to PortalMS-Server  Address: http://cibn-iepg.longvisionmedia.com:8881
+W/System.err( 2152): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 2152):    at java.net.InetAddress.lookupHostByName(InetAddress.java:400)
+W/System.err( 2152):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 2152):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 2152):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 2152):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 2152):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 2152):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 2152):    at com.fiship.cibn.common.NetworkUtil.isConnectToServerByHttp(NetworkUtil.java:31)
+W/System.err( 2152):    at com.fiship.cibn.MainActivity$3.run(MainActivity.java:1048)
+W/System.err( 2152):    at java.lang.Thread.run(Thread.java:856)
+I/MainActivity( 2152): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+I/MainActivity( 2152): Connect to PortalMS-Server  Address: http://cibn-iepg.longvisionmedia.com:8881
+W/System.err( 2152): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 2152):    at java.net.InetAddress.lookupHostByName(InetAddress.java:426)
+W/System.err( 2152):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 2152):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 2152):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 2152):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 2152):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 2152):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 2152):    at com.fiship.cibn.common.NetworkUtil.isConnectToServerByHttp(NetworkUtil.java:31)
+W/System.err( 2152):    at com.fiship.cibn.MainActivity$3.run(MainActivity.java:1048)
+W/System.err( 2152):    at java.lang.Thread.run(Thread.java:856)
+W/System.err( 2152): Caused by: libcore.io.GaiException: getaddrinfo failed: EAI_NODATA (No address associated with hostname)
+W/System.err( 2152):    at libcore.io.Posix.getaddrinfo(Native Method)
+W/System.err( 2152):    at libcore.io.ForwardingOs.getaddrinfo(ForwardingOs.java:55)
+W/System.err( 2152):    at java.net.InetAddress.lookupHostByName(InetAddress.java:411)
+W/System.err( 2152):    ... 12 more
+I/MainActivity( 2152): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+W/System.err( 2152): java.net.UnknownHostException: Unable to resolve host "php.weather.sina.com.cn": No address associated with hostname
+W/System.err( 2152):    at java.net.InetAddress.lookupHostByName(InetAddress.java:426)
+W/System.err( 2152):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 2152):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 2152):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 2152):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 2152):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 2152):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 2152):    at com.fiship.cibn.common.NetworkUtil.isConnectToServerByHttp(NetworkUtil.java:31)
+W/System.err( 2152):    at com.fiship.cibn.weather.WeatherTask.run(WeatherTask.java:85)
+W/System.err( 2152):    at com.fiship.cibn.controller.PortalRefreshService$SerialExecutor$1.run(PortalRefreshService.java:326)
+W/System.err( 2152):    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1076)
+W/System.err( 2152):    at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:569)
+W/System.err( 2152):    at java.lang.Thread.run(Thread.java:856)
+W/System.err( 2152): Caused by: libcore.io.GaiException: getaddrinfo failed: EAI_NODATA (No address associated with hostname)
+W/System.err( 2152):    at libcore.io.Posix.getaddrinfo(Native Method)
+W/System.err( 2152):    at libcore.io.ForwardingOs.getaddrinfo(ForwardingOs.java:55)
+W/System.err( 2152):    at java.net.InetAddress.lookupHostByName(InetAddress.java:411)
+W/System.err( 2152):    ... 15 more
+E/WeatherTask( 2152): can't connect the url : http://php.weather.sina.com.cn/iframe/index/w_cl.php?day=1
+I/MainActivity( 2152): Connect to PortalMS-Server  Address: http://cibn-iepg.longvisionmedia.com:8881
+W/System.err( 2152): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 2152):    at java.net.InetAddress.lookupHostByName(InetAddress.java:400)
+W/System.err( 2152):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 2152):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 2152):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 2152):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 2152):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 2152):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 2152):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 2152):    at com.fiship.cibn.common.NetworkUtil.isConnectToServerByHttp(NetworkUtil.java:31)
+W/System.err( 2152):    at com.fiship.cibn.MainActivity$3.run(MainActivity.java:1048)
+W/System.err( 2152):    at java.lang.Thread.run(Thread.java:856)
+I/MainActivity( 2152): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+
+
+
+
+^C
+130|shell@android:/ $ 
+130|shell@android:/ $ 
+130|shell@android:/ $ su
+shell@android:/ # 
+shell@android:/ # bugreport > /data/log.txt
+
+[  525.315506] IR: [03932] scan key value is 0xf10ec936 
+[  525.315511]  
+[  525.368069] IR: [03932] scan key value is 0xf10ec936 
+[  525.368073]  
+[  525.612152] IR: [03932] scan key value is 0xf10ec936 
+[  525.612157]  
+[  525.664684] IR: [03932] scan key value is 0xf10ec936 
+[  525.664688]  
+[  525.888639] IR: [03932] scan key value is 0xf10ec936 
+[  525.888643]  
+[  525.941172] IR: [03932] scan key value is 0xf10ec936 
+[  525.941176]  
+[  526.832198] IR: [03932] scan key value is 0xea15c936 
+[  526.832203]  
+[  526.884730] IR: [03932] scan key value is 0xea15c936 
+[  526.884734]  
+[  527.279216] IR: [03932] scan key value is 0xee11c936 
+[  527.279221]  
+[  527.331742] IR: [03932] scan key value is 0xee11c936 
+[  527.331747]  
+[  527.701492] IR: [03932] scan key value is 0xeb14c936 
+[  527.701496]  
+[  527.754025] IR: [03932] scan key value is 0xeb14c936 
+[  527.754029]  
+[  528.028443] IR: [03932] scan key value is 0xec13c936 
+[  528.028447]  
+[  528.080977] IR: [03932] scan key value is 0xec13c936 
+[  528.080981]  
+[  528.351880] IR: [03932] scan key value is 0xed12c936 
+[  528.351884]  
+[  528.404416] IR: [03932] scan key value is 0xed12c936 
+[  528.404421]  
+[  528.745063] IR: [03932] scan key value is 0xeb14c936 
+[  528.745067]  
+[  528.797592] IR: [03932] scan key value is 0xeb14c936 
+[  528.797596]  
+[  529.105044] IR: [03932] scan key value is 0xec13c936 
+[  529.105049]  
+[  529.157573] IR: [03932] scan key value is 0xec13c936 
+[  529.157578]  
+[  529.883355] IR: [03932] scan key value is 0xe41bc936 
+[  529.883360]  
+[  529.935886] IR: [03932] scan key value is 0xe41bc936 
+[  529.935890]  
+[  530.203487] IR: [03932] scan key value is 0xe41bc936 
+[  530.203491]  
+[  530.256018] IR: [03932] scan key value is 0xe41bc936 
+[  530.256022]  
+[  530.580432] IR: [03932] scan key value is 0x8f70c936 
+[  530.580436]  
+[  530.632949] IR: [03932] scan key value is 0x8f70c936 
+[  530.632954]  
+[  530.847181] IR: [03932] scan key value is 0x8f70c936 
+[  530.847185]  
+[  530.899706] IR: [03932] scan key value is 0x8f70c936 
+[  530.899709]  
+[  531.120471] IR: [03932] scan key value is 0x8f70c936 
+[  531.120475]  
+[  531.172995] IR: [03932] scan key value is 0x8f70c936 
+[  531.172999]  
+[  531.357481] IR: [03932] scan key value is 0x8f70c936 
+[  531.357485]  
+[  531.410007] IR: [03932] scan key value is 0x8f70c936 
+[  531.410012]  
+[  532.193449] IR: [03932] scan key value is 0xe01fc936 
+[  532.193454]  
+[  532.245974] IR: [03932] scan key value is 0xe01fc936 
+[  532.245978]  
+[  532.567391] IR: [03932] scan key value is 0xbf40c936 
+[  532.567395]  
+[  532.619922] IR: [03932] scan key value is 0xbf40c936 
+[  532.619925]  
+[  532.979667] IR: [03932] scan key value is 0xbf40c936 
+[  532.979671]  
+[  533.901508] IR: [03932] scan key value is 0xfd02c936 
+[  533.901512]  
+[  533.954035] IR: [03932] scan key value is 0xfd02c936 
+[  533.954039]  
+[  534.062289] IR: [03932] scan key value is 0xfd02c936 
+[  534.062294]  
+[  535.590224] IR: [03932] scan key value is 0xfd02c936 
+[  535.590229]  
+[  535.642753] IR: [03932] scan key value is 0xfd02c936 
+[  535.642757]  
+[  535.751040] IR: [03932] scan key value is 0xfd02c936 
+[  535.751044]  
+[  536.248255] IR: [03932] scan key value is 0xfd02c936 
+[  536.248259]  
+[  536.300810] IR: [03932] scan key value is 0xfd02c936 
+[  536.300813]  ^C
+130|shell@android:/ # cd /data
+shell@android:/data # ls
+anr
+app
+app-private
+backup
+dalvik-cache
+data
+dontpanic
+drm
+local
+log.txt
+lost+found
+misc
+mmcp
+property
+resource-cache
+system
+user
+shell@android:/data # adb pull log.txt f:\
+> 
+130|shell@android:/data # netcfg
+^C^C
+
+
+
+^C
+
+
+

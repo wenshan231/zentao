@@ -1,0 +1,23 @@
+最终版
+
+-------------------------------------------------------------
+存入系统配置数据库中:
+system表
+name:
+DHCPPlusUser:网络帐号
+DHCPPlusPwd:密码
+
+参考方法：
+ContentResolver cr = context.getContentResolver();
+Settings.System.putString(cr, "DHCPPlusUser", "123424");
+Settings.System.putString(cr, "DHCPPlusPwd", "123424");
+
+-------------------------------------------------------------
+
+使用原有的方法启动dhcp服务，dhcp服务的跟径需要改一下，不要用 /system/bin/dhcp了，用 /data/data/com.android.smart.terminal.iptv/bin/dhcpplus
+
+比如原有的服务为:
+service dhcpcd_eth0 /system/bin/dhcpcd -ABKL
+需要改成:
+service dhcpcd_eth0 /data/data/com.android.smart.terminal.iptv/bin/dhcpplus -ABKL
+

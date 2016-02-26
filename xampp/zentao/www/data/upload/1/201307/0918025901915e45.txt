@@ -1,0 +1,6 @@
+#MTKAT 0.xx script
+
+CLI(CLI_drv.osd.p.en 1 0)
+CLI(CLI_drv.osd.p.en 2 0)
+CLI(CLI_drv.osd.p.en 3 0)
+CLI(CLI_drv.osd.p.en 4 0)

@@ -1,0 +1,72 @@
+<AND_STUB>ERROR!!,recv AND_STUB_KEY_MSG 
+<AND_STUB>private message id is 0
+<FACTORY>send message failed -1 @L151
+E/EventHub(  169): send pin = 24,value = 0
+V/PinyinIME(  769): onKeyDown:22
+I/PinyinIME(  769): onKeyDown:System handler the keyevent
+D/Seth Log( 3260): Launcher dispatchKeyEvent event = 22
+D/aaa     ( 3260): currentTime = 1370761134726,previousTime = 1370761052909
+D/aaa     ( 3260): currentTime - previousTime)>=150
+I/Gefo Activity( 3260): 0onKeyDown:22
+I/GefoWebView( 3260): 0 sendKeyEvent:22
+[ 4895.879466] [ALSA] operator: open, substream = 0xED089400
+[ 4895.879556] [ALSA] substream->pcm->device = 0x0
+[ 4895.879569] [ALSA] substream->number = 0
+[ 4895.879684] [ALSA] playback_hw_params
+[ 4895.879890] [AUD][AUD_CODEC][11] Non fixed length mode gets streaming buffer, SA = 0xdfea9f00,Size = 0x18000
+[ 4895.879921] [ALSA] playback_prepare pcm_buffer_size = 65536 bytes pcm_period_size = 4096 bytes
+[ 4895.879937] [ALSA] playback_prepare dma_area = 0xDFEA9F00 dma_bytes = 0x10000
+[ 4895.879956] [ALSA] playback_prepare rate = 48000 format = 2 (bitwidth = 16) channels = 2
+[ 4895.879970] [ALSA] playback_prepare runtime->delay = 0 frames start_threshold = 1 frames
+[ 4895.880258] [ALSA] playback_trigger cmd = 1
+D/audio_hw_primary(   92): select_output_device 0x40002
+<AND_STUB>ERROR!!,recv AND_STUB_KEY_MSG 
+<AND_STUB>private message id is 0
+<FACTORY>send message failed -1 @L151
+E/EventHub(  169): send pin = 24,value = 0
+I/PinyinIME(  769): onKeyUp:22
+I/PinyinIME(  769): onKeyUp:System handler the keyevent
+D/Seth Log( 3260): Launcher dispatchKeyEvent event = 22
+D/aaa     ( 3260): currentTime = 1370761134794,previousTime = 1370761134726
+D/aaa     ( 3260): currentTime - previousTime)<150
+<AND_STUB>ERROR!!,recv AND_STUB_KEY_MSG 
+<AND_STUB>private message id is 0
+<FACTORY>send message failed -1 @L151
+E/EventHub(  169): send pin = 24,value = 0
+V/PinyinIME(  769): onKeyDown:23
+I/PinyinIME(  769): onKeyDown:System handler the keyevent
+D/Seth Log( 3260): Launcher dispatchKeyEvent event = 23
+D/aaa     ( 3260): currentTime = 1370761135753,previousTime = 1370761134726
+D/aaa     ( 3260): currentTime - previousTime)>=150
+I/Gefo Activity( 3260): 0onKeyDown:23
+I/GefoWebView( 3260): 0 sendKeyEvent:23
+I/gefo-plugin( 3260): NPP_New:0x1634090
+I/gefo-plugin( 3260): NPP_GetValue ScriptableObject:0x1634090
+I/gefo-plugin( 3260): hasProperty:launchApp
+I/gefo-plugin( 3260): hasMethod:launchApp
+I/gefo-plugin( 3260): hasMethod:1
+I/gefo-plugin( 3260): hasMethod:launchApp
+I/gefo-plugin( 3260): hasMethod:1
+I/gefo-plugin( 3260): invoke:launchApp
+I/gefo-plugin( 3260): invokeJavaFunLaunchApp:Hosted,ffile:///data/data/tv.icntv.ott/res/is/panel/cibn/index.html?&PageIndex=0
+I/gefo-plugin( 3260): invokeJavaFunLaunchApp:0x5ba82eec,0x56e67a08
+I/GefoWebView( 3260): launchApp:Hosted,id:ffile:///data/data/tv.icntv.ott/res/is/panel/cibn/index.html?&PageIndex=0
+V/Gefo Activity( 3260): [SPLASH] cibn.showSplash(), true
+I/GefoBrowserView( 3260): [SPLASH] GefoBrowserView.showSplash(), true
+I/gefo-browser( 3260): ***gefo config history capacity***capacity:5
+<AND_STUB>ERROR!!,recv AND_STUB_KEY_MSG 
+<AND_STUB>private message id is 0
+<FACTORY>send message failed -1 @L151
+E/EventHub(  169): send pin = 24,value = 0
+I/gefo-browser( 3260): ***gefo config curl retry times***times:5
+I/PinyinIME(  769): onKeyUp:23
+I/PinyinIME(  769): onKeyUp:System handler the keyevent
+D/Seth Log( 3260): Launcher dispatchKeyEvent event = 23
+D/aaa     ( 3260): currentTime = 1370761135979,previousTime = 1370761135753
+D/aaa     ( 3260): currentTime - previousTime)>=150
+I/gefo-browser( 3260): url:HTTP://ffile:///data/data/tv.icntv.ott/res/is/panel/cibn/index.html?&PageIndex=0 error:6
+I/gefo-browser( 3260): domain: des:Couldn't resolve host name
+[ 4900.094053] [ALSA] playback_trigger cmd = 0
+[ 4900.094081] [ALSA] playback_hw_free
+[ 4900.094090] [ALSA] operator: close, substream = 0xED089400
+[ 4900.095066] [Drv_FS] DrvFSUnMount: #81: return 0

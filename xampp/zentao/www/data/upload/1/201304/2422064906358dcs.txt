@@ -1,0 +1,595 @@
+/NetUpdate( 2247): --------------show()------------------
+D/NetUpdate( 2247): progressValue--->0
+D/NetUpdate( 2247): mWriteSD--->true
+D/NetUpdate( 2247): mBootCheckZipExist--->false
+D/dalvikvm( 1657): GC_CONCURRENT freed 714K, 64% free 2916K/7939K, paused 3ms+3ms
+D/dalvikvm( 1657): GC_CONCURRENT freed 786K, 63% free 2965K/7939K, paused 2ms+2ms
+D/dalvikvm( 1657): GC_CONCURRENT freed 852K, 65% free 2848K/7939K, paused 2ms+2ms
+D/dalvikvm( 1657): GC_CONCURRENT freed 691K, 63% free 2946K/7939K, paused 2ms+2ms
+D/NetUpdate( 2247): progressValue--->0
+D/NetUpdate( 2247): mWriteSD--->true
+D/NetUpdate( 2247): mBootCheckZipExist--->false
+
+[  765.618370] IR: [03932] scan key value is 0xea158000 
+[  765.618375]  
+[  765.679420] IR: [03932] scan key value is 0xea158000 
+[  765.679425]  E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+D/NetUpdate( 2247): progressValue--->0
+D/NetUpdate( 2247): mWriteSD--->true
+D/NetUpdate( 2247): mBootCheckZipExist--->false
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+D/InputEventConsistencyVerifier( 1217): KeyEvent: ACTION_UP but key was not down.
+D/InputEventConsistencyVerifier( 1217):   in com.coship.cibn.view.ScaleViewPanel@42761c48
+D/InputEventConsistencyVerifier( 1217):   0: sent at 765844000000, KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_DOWN, scanCode=108, metaState=0, flags=0x8, repeatCount=0, eventTime=765844, downTime=765623, deviceId=1, source=0x101 }
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+
+[  766.145307] IR: [03932] scan key value is 0xee118000 
+[  766.145312]  
+[  766.206849] IR: [03932] scan key value is 0xee118000 
+[  766.206854]  E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+D/InputEventConsistencyVerifier( 1217): KeyEvent: ACTION_UP but key was not down.
+D/InputEventConsistencyVerifier( 1217):   in com.coship.cibn.view.ScaleViewPanel@42a4f698
+D/InputEventConsistencyVerifier( 1217):   0: sent at 766376000000, KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_UP, scanCode=103, metaState=0, flags=0x8, repeatCount=0, eventTime=766376, downTime=766150, deviceId=1, source=0x101 }
+D/InputEventConsistencyVerifier( 1217):   -- recent events --
+D/InputEventConsistencyVerifier( 1217):   1: sent at 765623000000, (unhandled) KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=108, metaState=0, flags=0x8, repeatCount=0, eventTime=765623, downTime=765623, deviceId=1, source=0x101 }
+D/InputEventConsistencyVerifier( 1217):   2: sent at 761076000000, (unhandled) KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=158, metaState=0, flags=0x80000008, repeatCount=0, eventTime=761076, downTime=760854, deviceId=1, source=0x101 }
+D/InputEventConsistencyVerifier( 1217):   3: sent at 66340000000, KeyEvent { action=ACTION_UP, keyCode=KEYCODE_ENTER, scanCode=28, metaState=0, flags=0x8, repeatCount=0, eventTime=66340, downTime=66126, deviceId=1, source=0x101 }
+D/InputEventConsistencyVerifier( 1217):   4: sent at 66126000000, KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_ENTER, scanCode=28, metaState=0, flags=0x8, repeatCount=0, eventTime=66126, downTime=66126, deviceId=1, source=0x101 }
+D/InputEventConsistencyVerifier( 1217):   5: sent at 64396000000, (unhandled) KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_RIGHT, scanCode=106, metaState=0, flags=0x80000008, repeatCount=0, eventTime=64396, downTime=64185, deviceId=1, source=0x101 }
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+D/NetUpdate( 2247): progressValue--->0
+D/NetUpdate( 2247): mWriteSD--->true
+D/NetUpdate( 2247): mBootCheckZipExist--->false
+D/NetUpdate( 2247): progressValue--->0
+D/NetUpdate( 2247): mWriteSD--->true
+D/NetUpdate( 2247): mBootCheckZipExist--->false
+D/NetUpdate( 2247): progressValue--->0
+D/NetUpdate( 2247): mWriteSD--->true
+D/NetUpdate( 2247): mBootCheckZipExist--->false
+I/ActivityManager(  937): No longer want com.coship.TestApp (pid 1733): hidden #16
+
+[  768.936396] IR: [03932] scan key value is 0xec138000 
+[  768.936401]  
+[  768.997214] IR: [03932] scan key value is 0xec138000 
+[  768.997219]  I/MainActivity( 1217): CIBN ---> onClick -> 52066
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+D/NetUpdate( 2247): progressValue--->0
+D/NetUpdate( 2247): mWriteSD--->true
+D/NetUpdate( 2247): mBootCheckZipExist--->false
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+D/dalvikvm( 1657): GC_CONCURRENT freed 829K, 65% free 2841K/7939K, paused 2ms+2ms
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+
+[  770.750284] IR: [03932] scan key value is 0xeb148000 
+[  770.750289]  E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+D/NetUpdate( 2247): progressValue--->0
+D/NetUpd
+[  770.811232] IR: [03932] scan key value is 0xeb148000 
+[  770.811238]  ate( 2247): mWriteSD--->true
+D/NetUpdate( 2247): mBootCheckZipExist--->false
+D/dalvikvm( 1657): GC_CONCURRENT freed 667K, 64% free 2861K/7939K, paused 2ms+2ms
+D/InputEventConsistencyVerifier( 1217): KeyEvent: ACTION_UP but key was not down.
+D/InputEventConsistencyVerifier( 1217):   in android.widget.Button@427098a8
+D/InputEventConsistencyVerifier( 1217):   0: sent at 770980000000, KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_RIGHT, scanCode=106, metaState=0, flags=0x8, repeatCount=0, eventTime=770980, downTime=770755, deviceId=1, source=0x101 }
+
+[  771.122421] IR: [03932] scan key value is 0xec138000 
+[  771.122426]  E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+I/ActivityManager(  937): START {flg=0x10000000 cmp=com.coship.dvbsetting/.main (has extras)} from pid 1217
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+D/dalvikvm(  937): GC_FOR_ALLOC freed 757K, 59% free 4028K/9795K, paused 46ms
+I/dalvikvm-heap(  937): Grow heap (frag case) to 8.535MB for 1048592-byte allocation
+D/dalvikvm(  937): GC_FOR_ALLOC freed 4K, 54% free 5047K/10883K, paused 39ms
+D/dalvikvm(  937): GC_CONCURRENT freed 2K, 54% free 5109K/10883K, paused 4ms+4ms
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+V/AuthorizationDialog( 1217): 设备未授权，默认用户为  ：80007
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+I/main_setcenter( 2247): product model ro.product.model = S1001
+D/OpenGLRenderer( 1217): Flushing caches (mode 1)
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+V/TabletStatusBar( 1140): setLightsOn(true)
+D/OpenGLRenderer( 1217): Flushing caches (mode 0)
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+W/InputManagerService(  937): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@416c4318 (uid=10006 pid=1217)
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+I/ActivityManager(  937): Displayed com.coship.dvbsetting/.main: +267ms
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+D/NetUpdate( 2247): progressValue--->0
+D/NetUpdate( 2247): mWriteSD--->true
+D/NetUpdate( 2247): mBootCheckZipExist--->false
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+
+[  772.495384] IR: [03932] scan key value is 0xec138000 
+[  772.495389]  I/main_setcenter( 2247): BackDoorIndex:0
+I/main_setcenter( 2247): BackDoorKey[BackDoorIndex]:21
+I/main_setcenter( 2247): KeyCode:66
+
+[  772.556904] IR: [03932] scan key value is 0xec138000 
+[  772.556909]  I/ActivityManager(  937): START {cmp=com.coship.dvbsetting/.netsetting.netSet} from pid 2247
+I/EthernetManager( 2247): Init Ethernet Manager, service: android.net.ethernet.IEthernetManager$Stub$Proxy@42d626b8
+I/WifiP2PsetDialog( 2247): SystemPropertiesClass:class android.net.wifi.p2p.WifiP2pManager
+W/WifiP2PsetDialog( 2247): ~~~~~~~~~~~~~~~~~~~~~~method:public java.lang.String android.net.wifi.p2p.WifiP2pManager.getWifip2pConfig(int)
+W/WifiP2PsetDialog( 2247): ~~~~~~~~~~~~~~~~~~~~~~returnvalue:SmartBox
+I/netset  ( 2247): product model ro.product.model = S1001
+D/dalvikvm( 2247): GC_CONCURRENT freed 956K, 15% free 27027K/31683K, paused 4ms+6ms
+D/dalvikvm( 2247): GC_FOR_ALLOC freed 1K, 15% free 27026K/31683K, paused 33ms
+I/dalvikvm-heap( 2247): Grow heap (frag case) to 31.746MB for 1838524-byte allocation
+I/Process (  937): Sending signal. PID: 2247 SIG: 3
+I/dalvikvm( 2247): threadid=3: reacting to signal 3
+D/dalvikvm( 2247): GC_FOR_ALLOC freed 46K, 15% free 28775K/33539K, paused 33ms
+I/dalvikvm( 2247): Wrote stack traces to '/data/anr/traces.txt'
+I/HighSet_CableNetwork( 2247): mEthernetManager:android.net.ethernet.EthernetManager@42d626c8
+D/dalvikvm( 2247): GC_FOR_ALLOC freed 4K, 15% free 28795K/33539K, paused 38ms
+I/dalvikvm-heap( 2247): Grow heap (frag case) to 33.474MB for 1838524-byte allocation
+D/dalvikvm( 1657): GC_CONCURRENT freed 735K, 63% free 2939K/7939K, paused 3ms+2ms
+D/HomePlayerLib( 1657): hostaddress count is 1
+D/dalvikvm( 2247): GC_FOR_ALLOC freed 1K, 14% free 30589K/35395K, paused 42ms
+D/dalvikvm( 1657): GC_CONCURRENT freed 820K, 63% free 2957K/7939K, paused 2ms+2ms
+I/PppoeManager( 2247): create PppoeManager
+I/NetworkConnect( 2247): //////@Override//////@Override//////@Override//////@Override//////@Override//////@Override//////@Override//////@Override
+D/WifiDirectSetting( 2247): --------------WIFI_P2P_THIS_DEVICE_CHANGED_ACTION
+I/NetworkConnect( 2247): Execute command :ping -c 1 -w 100 www.baidu.com
+D/WifiDirectSetting( 2247): ------------mThisDevice.String()Device: SmartBox
+D/WifiDirectSetting( 2247):  deviceAddress: a6:a8:20:13:03:6e
+D/WifiDirectSetting( 2247):  primary type: 10-0050F204-5
+D/WifiDirectSetting( 2247):  secondary type: null
+D/WifiDirectSetting( 2247):  wps: 0
+D/WifiDirectSetting( 2247):  grpcapab: 0
+D/WifiDirectSetting( 2247):  devcapab: 0
+D/WifiDirectSetting( 2247):  status: 4
+D/WifiDirectSetting( 2247):  wfdInfo: null
+V/TabletStatusBar( 1140): setLightsOn(true)
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+I/NetworkConnect( 2247): //////@Override//////@Override//////@Override//////@Override//////@Override//////@Override//////@Override//////@Override0
+I/System  ( 2247): Failed to destroy process 2401
+I/System  ( 2247): libcore.io.ErrnoException: kill failed: ESRCH (No such process)
+I/System  ( 2247):      at libcore.io.Posix.kill(Native Method)
+I/System  ( 2247):      at libcore.io.ForwardingOs.kill(ForwardingOs.java:77)
+I/System  ( 2247):      at java.lang.ProcessManager$ProcessImpl.destroy(ProcessManager.java:257)
+I/System  ( 2247):      at com.coship.dvbsetting.netsetting.quicksetservice.NetworkConnect.execueteCommand(NetworkConnect.java:167)
+I/System  ( 2247):      at com.coship.dvbsetting.netsetting.quicksetservice.NetworkConnect.CheckNet(NetworkConnect.java:70)
+I/System  ( 2247):      at com.coship.dvbsetting.netsetting.StateSet$1$1.run(StateSet.java:212)
+I/System  ( 2247):      at java.lang.Thread.run(Thread.java:856)
+I/NetworkConnect( 2247): //////@Override//////@Override//////@Override//////@Override//////@Override//////@Override//////@Override//////@Override
+I/NetworkConnect( 2247): Execute command :ping -c 1 -w 100 www.baidu.com
+I/Process (  937): Sending signal. PID: 2247 SIG: 3
+I/dalvikvm( 2247): threadid=3: reacting to signal 3
+I/dalvikvm( 2247): Wrote stack traces to '/data/anr/traces.txt'
+I/NetworkConnect( 2247): //////@Override//////@Override//////@Override//////@Override//////@Override//////@Override//////@Override//////@Override0
+I/System  ( 2247): Failed to destroy process 2403
+I/System  ( 2247): libcore.io.ErrnoException: kill failed: ESRCH (No such process)
+I/System  ( 2247):      at libcore.io.Posix.kill(Native Method)
+I/System  ( 2247):      at libcore.io.ForwardingOs.kill(ForwardingOs.java:77)
+I/System  ( 2247):      at java.lang.ProcessManager$ProcessImpl.destroy(ProcessManager.java:257)
+I/System  ( 2247):      at com.coship.dvbsetting.netsetting.quicksetservice.NetworkConnect.execueteCommand(NetworkConnect.java:167)
+I/System  ( 2247):      at com.coship.dvbsetting.netsetting.quicksetservice.NetworkConnect.CheckNet(NetworkConnect.java:70)
+I/System  ( 2247):      at com.coship.dvbsetting.netsetting.StateSet$2.run(StateSet.java:458)
+I/System  ( 2247):      at java.lang.Thread.run(Thread.java:856)
+D/dalvikvm( 1657): GC_CONCURRENT freed 836K, 64% free 2892K/7939K, paused 4ms+10ms
+I/ActivityManager(  937): Displayed com.coship.dvbsetting/.netsetting.netSet: +1s73ms
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+I/StateSet( 2247): -----wifi------dhcpinfo.toString()=ipaddr 192.168.2.102 gateway 192.168.2.1 netmask 255.255.255.0 dns1 192.168.99.5 dns2 192.168.99.4 DHCP server 192.168.2.1 lease 7200 seconds
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+I/StateSet( 2247): -----wifi------dhcpinfo.toString()=ipaddr 192.168.2.102 gateway 192.168.2.1 netmask 255.255.255.0 dns1 192.168.99.5 dns2 192.168.99.4 DHCP server 192.168.2.1 lease 7200 seconds
+D/NetUpdate( 2247): progressValue--->0
+D/NetUpdate( 2247): mWriteSD--->true
+D/NetUpdate( 2247): mBootCheckZipExist--->false
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+D/dalvikvm( 1657): GC_CONCURRENT freed 754K, 65% free 2847K/7939K, paused 4ms+3ms
+D/dalvikvm( 1657): GC_CONCURRENT freed 696K, 65% free 2837K/7939K, paused 2ms+2ms
+D/dalvikvm( 1657): GC_CONCURRENT freed 685K, 64% free 2867K/7939K, paused 2ms+3ms
+D/dalvikvm( 1657): GC_CONCURRENT freed 709K, 64% free 2864K/7939K, paused 1ms+3ms
+D/dalvikvm( 1657): GC_CONCURRENT freed 705K, 65% free 2858K/7939K, paused 1ms+3ms
+D/dalvikvm( 1657): GC_CONCURRENT freed 704K, 65% free 2857K/7939K, paused 2ms+3ms
+D/dalvikvm( 1657): GC_CONCURRENT freed 706K, 65% free 2858K/7939K, paused 2ms+2ms
+D/dalvikvm( 1657): GC_CONCURRENT freed 707K, 64% free 2863K/7939K, paused 2ms+2ms
+D/NetUpdate( 2247): progressValue--->0
+D/NetUpdate( 2247): mWriteSD--->true
+D/NetUpdate( 2247): mBootCheckZipExist--->false
+
+[  776.304815] IR: [03932] scan key value is 0xea158000 
+[  776.304820]  
+[  776.365858] IR: [03932] scan key value is 0xea158000 
+[  776.365863]  E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+D/NetUpdate( 2247): progressValue--->0
+D/NetUpdate( 2247): mWriteSD--->true
+D/NetUpdate( 2247): mBootCheckZipExist--->false
+
+[  776.973349] IR: [03932] scan key value is 0xea158000 
+[  776.973354]  
+[  777.034357] IR: [03932] scan key value is 0xea158000 
+[  777.034362]  I/BluetoothSet( 2247): ---------show-------RegisterBluetoothReceiver()
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+
+[  777.383677] IR: [03932] scan key value is 0xea158000 
+[  777.383682]  
+[  777.444687] IR: [03932] scan key value is 0xea158000 
+[  777.444692]  E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+D/PushMsgCenter( 1613): mDownUpRun run while (true)
+D/PushMsgCenter( 1613): down  
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+
+[  777.633740] IR: [03932] scan key value is 0xea158000 
+[  777.633745]  D/PushMsgCenter( 1613): down conn.getResponseCode() status = 404
+
+[  777.694503] IR: [03932] scan key value is 0xea158000 
+[  777.694510]  E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+D/CheckNetWork( 1644): isOk true
+D/CheckNetWork( 1644): ActInfo
+[  777.889321] IR: [03932] scan key value is 0xea158000 
+[  777.889326]  NetworkInfo: type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), roaming: false, failover: false, isAvailable: true
+D/CheckNetWork( 1644): infoNetworkInfo: type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), roaming: false, failover: false, isAvailable: true
+
+[  777.950637] IR: [03932] scan key value is 0xea158000 
+[  777.950642]  E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+
+[  778.486058] IR: [03932] scan key value is 0xea158000 
+[  778.486063]  
+[  778.546758] IR: [03932] scan key value is 0xea158000 
+[  778.546763]  E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+I/HighSet_CableNetwork( 2247): [SelectConnectMode] ~~~~~~~~~~~~~~~~~~~~~~~~~ConnectMode:dhcp
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+D/NetUpdate( 2247): progressValu
+[  778.833325] IR: [03932] scan key value is 0xea158000 
+[  778.833330]  e--->0
+D/NetUpdate( 2247): mWriteSD--->true
+D/NetUpdate( 2247): mBootCheckZipExist--->false
+
+[  778.894034] IR: [03932] scan key value is 0xea158000 
+[  778.894040]  I/HighSet_WirlessNetwork( 2247): ------------BroadcastReceiverRegistered---------
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+I/HighSet_WirlessNetwork( 2247): -------------------------SSID= testAP ----------Adress= 5c:63:bf:f8:5d:de
+I/HighSet_WirlessNetwork( 2247): -------------------------SSID= TP_LINK_TEST_5GHz_D8070A ----------Adress= 8c:21:0a:d8:07:0a
+V/HighSet_WirlessNetwork( 2247): !!!!!!!! remove ssid:123
+I/HighSet_WirlessNetwork( 2247): -----------------------wifi????-------------------
+V/HighSet_WirlessNetwork( 2247): !!!!!<BroadcastReceiver>====wifi opened==
+I/HighSet_WirlessNetwork( 2247): -----------------------wifi????-------------------
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+I/HighSet_WirlessNetwork( 2247): -------------------------SSID= testAP ----------Adress= 5c:63:bf:f8:5d:de
+I/HighSet_WirlessNetwork( 2247): -------------------------SSID= TP_LINK_TEST_5GHz_D8070A ----------Adress= 8c:21:0a:d8:07:0a
+V/HighSet_WirlessNetwork( 2247): !!!!!!!! remove ssid:123
+I/HighSet_WirlessNetwork( 2247): -------------------------SSID= testAP ----------Adress= 5c:63:bf:f8:5d:de
+I/HighSet_WirlessNetwork( 2247): -------------------------SSID= TP_LINK_TEST_5GHz_D8070A ----------Adress= 8c:21:0a:d8:07:0a
+V/HighSet_WirlessNetwork( 2247): !!!!!!!! remove ssid:123
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+
+[  779.411186] IR: [03932] scan key value is 0xeb148000 
+[  779.411191]  
+[  779.472071] IR: [03932] scan key value is 0xeb148000 
+[  779.472076]  E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+D/InputEventConsistencyVerifier( 2247): KeyEvent: ACTION_UP but key was not down.
+D/InputEventConsistencyVerifier( 2247):   in com.android.internal.policy.impl.PhoneWindow$DecorView@42d4da18
+D/InputEventConsistencyVerifier( 2247):   0: sent at 779636000000, KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_RIGHT, scanCode=106, metaState=0, flags=0x8, repeatCount=0, eventTime=779636, downTime=779416, deviceId=1, source=0x101 }
+D/InputEventConsistencyVerifier( 2247):   -- recent events --
+D/InputEventConsistencyVerifier( 2247):   1: sent at 779060000000, (unhandled) KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_DOWN, scanCode=108, metaState=0, flags=0x8, repeatCount=0, eventTime=779060, downTime=778839, deviceId=1, source=0x101 }
+D/InputEventConsistencyVerifier( 2247):   2: sent at 778839000000, KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=108, metaState=0, flags=0x8, repeatCount=0, eventTime=778839, downTime=778839, deviceId=1, source=0x101 }
+D/InputEventConsistencyVerifier( 2247):   3: sent at 778716000000, (unhandled) KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_DOWN, scanCode=108, metaState=0, flags=0x8, repeatCount=0, eventTime=778716, downTime=778491, deviceId=1, source=0x101 }
+D/InputEventConsistencyVerifier( 2247):   4: sent at 778491000000, KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=108, metaState=0, flags=0x8, repeatCount=0, eventTime=778491, downTime=778491, deviceId=1, source=0x101 }
+D/InputEventConsistencyVerifier( 2247):   5: sent at 778124000000, (unhandled) KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_DOWN, scanCode=108, metaState=0, flags=0x8, repeatCount=0, eventTime=778124, downTime=777900, deviceId=1, source=0x101 }
+D/NetUpdate( 2247): progressValue--->0
+D/NetUpdate( 2247): mWriteSD--->true
+D/NetUpdate( 2247): mBootCheckZipExist--->false
+
+[  780.036796] IR: [03932] scan key value is 0xea158000 
+[  780.036801]  
+[  780.097802] IR: [03932] scan key value is 0xea158000 
+[  780.097807]  E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+D/InputEventConsistencyVerifier( 2247): KeyEvent: ACTION_UP but key was not down.
+D/InputEventConsistencyVerifier( 2247):   in android.widget.Button@41847378
+D/InputEventConsistencyVerifier( 2247):   0: sent at 780264000000, KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_DOWN, scanCode=108, metaState=0, flags=0x8, repeatCount=0, eventTime=780264, downTime=780042, deviceId=1, source=0x101 }
+
+[  780.663469] IR: [03932] scan key value is 0xea158000 
+[  780.663473]  
+[  780.724525] IR: [03932] scan key value is 0xea158000 
+[  780.724530]  E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+D/InputEventConsistencyVerifier( 2247): KeyEvent: ACTION_UP but key was not down.
+D/InputEventConsistencyVerifier( 2247):   in android.widget.ListView@41842518
+D/InputEventConsistencyVerifier( 2247):   0: sent at 780888000000, KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_DOWN, scanCode=108, metaState=0, flags=0x8, repeatCount=0, eventTime=780888, downTime=780669, deviceId=1, source=0x101 }
+
+[  780.946503] IR: [03932] scan key value is 0xea158000 
+[  780.946508]  
+[  781.007941] IR: [03932] scan key value is 0xea158000 
+[  781.007946]  E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+D/NetUpdate( 2247): progressValue--->0
+D/NetUpdate( 2247): mWriteSD--->true
+D/NetUpdate( 2247): mBootCheckZipExist--->false
+V/EthernetMonitor(  937): get event 
+V/EthernetMonitor(  937): go poll events
+V/EthernetMonitor(  937): get event 
+V/EthernetMonitor(  937): go poll events
+I/HighSet_WirlessNetwork( 2247): -------------------------SSID= testAP ----------Adress= 5c:63:bf:f8:5d:de
+V/HighSet_WirlessNetwork( 2247): !!!!!!!! remove ssid:123
+V/HighSet_WirlessNetwork( 2247): !!!!!!!! remove ssid:TP_LINK_TEST_5GHz_D8070A
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+D/dalvikvm( 1657): GC_CONCURRENT freed 705K, 64% free 2861K/7939K, paused 2ms+3ms
+D/NetUpdate( 2247): progressValue--->0
+D/NetUpdate( 2247): mWriteSD--->true
+D/NetUpdate( 2247): mBootCheckZipExist--->false
+D/dalvikvm( 1657): GC_CONCURRENT freed 706K, 64% free 2863K/7939K, paused 4ms+2ms
+D/NetUpdate( 2247): progressValue--->0
+D/NetUpdate( 2247): mWriteSD--->true
+D/NetUpdate( 2247): mBootCheckZipExist--->false
+D/HomePlayerLib( 1657): hostaddress count is 1
+D/dalvikvm( 1657): GC_CONCURRENT freed 723K, 65% free 2841K/7939K, paused 2ms+2ms
+D/dalvikvm( 1657): GC_CONCURRENT freed 696K, 63% free 2942K/7939K, paused 2ms+3ms
+D/NetUpdate( 2247): progressValue--->0
+D/NetUpdate( 2247): mWriteSD--->true
+D/NetUpdate( 2247): mBootCheckZipExist--->false
+D/dalvikvm( 1657): GC_CONCURRENT freed 801K, 63% free 2959K/7939K, paused 2ms+3ms
+D/dalvikvm( 1657): GC_CONCURRENT freed 827K, 63% free 2949K/7939K, paused 2ms+2ms
+D/dalvikvm( 1657): GC_CONCURRENT freed 829K, 65% free 2843K/7939K, paused 2ms+2ms
+D/dalvikvm( 1657): GC_CONCURRENT freed 678K, 64% free 2859K/7939K, paused 2ms+3ms
+D/NetUpdate( 2247): progressValue--->0
+D/NetUpdate( 2247): mWriteSD--->true
+D/NetUpdate( 2247): mBootCheckZipExist--->false
+D/NetUpdate( 2247): progressValue--->0
+D/NetUpdate( 2247): mWriteSD--->true
+D/NetUpdate( 2247): mBootCheckZipExist--->false
+D/NetUpdate( 2247): progressValue--->0
+D/NetUpdate( 2247): mWriteSD--->true
+D/NetUpdate( 2247): mBootCheckZipExist--->false
+E/CACHE   ( 1872): cleared
+I/zomut.watchdog.monitor( 1872): initgather
+D/dalvikvm( 1872): GC_CONCURRENT freed 1967K, 46% free 6844K/12547K, paused 2ms+4ms
+I/zomut.watchdog.monitor( 1872): endgather
+I/zomut.watchdog.monitor( 1872): init
+I/zomut.watchdog.monitor( 1872): end
+D/NetUpdate( 2247): progressValue--->0
+D/NetUpdate( 2247): mWriteSD--->true
+D/NetUpdate( 2247): mBootCheckZipExist--->false
+I/HighSet_WirlessNetwork( 2247): -----------------------wifi????-------------------
+I/HighSet_WirlessNetwork( 2247): -------------------------SSID= testAP ----------Adress= 5c:63:bf:f8:5d:de
+V/HighSet_WirlessNetwork( 2247): !!!!!!!! remove ssid:123
+V/HighSet_WirlessNetwork( 2247): !!!!!!!! remove ssid:TP_LINK_TEST_5GHz_D8070A
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+I/HighSet_WirlessNetwork( 2247): -----------------------wifi????-------------------
+I/HighSet_WirlessNetwork( 2247): -------------------------SSID= testAP ----------Adress= 5c:63:bf:f8:5d:de
+V/HighSet_WirlessNetwork( 2247): !!!!!!!! remove ssid:123
+V/HighSet_WirlessNetwork( 2247): !!!!!!!! remove ssid:TP_LINK_TEST_5GHz_D8070A
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+D/NetUpdate( 2247): progressValue--->0
+D/NetUpdate( 2247): mWriteSD--->true
+D/NetUpdate( 2247): mBootCheckZipExist--->false
+D/NetUpdate( 2247): progressValue--->0
+D/NetUpdate( 2247): mWriteSD--->true
+D/NetUpdate( 2247): mBootCheckZipExist--->false
+D/dalvikvm( 1657): GC_CONCURRENT freed 717K, 65% free 2831K/7939K, paused 2ms+3ms
+D/NetUpdate( 2247): progressValue--->0
+D/NetUpdate( 2247): mWriteSD--->true
+D/NetUpdate( 2247): mBootCheckZipExist--->false
+D/dalvikvm( 1657): GC_CONCURRENT freed 674K, 64% free 2863K/7939K, paused 2ms+2ms
+D/NetUpdate( 2247): progressValue--->0
+D/NetUpdate( 2247): mWriteSD--->true
+D/NetUpdate( 2247): mBootCheckZipExist--->false
+D/NetUpdate( 2247): progressValue--->0
+D/NetUpdate( 2247): mWriteSD--->true
+D/NetUpdate( 2247): mBootCheckZipExist--->false
+V/EthernetMonitor(  937): get event 
+V/EthernetMonitor(  937): go poll events
+V/EthernetMonitor(  937): get event 
+V/EthernetMonitor(  937): go poll events
+I/HighSet_WirlessNetwork( 2247): -------------------------SSID= testAP ----------Adress= 5c:63:bf:f8:5d:de
+I/HighSet_WirlessNetwork( 2247): -------------------------SSID= TP_LINK_TEST_5GHz_D8070A ----------Adress= 8c:21:0a:d8:07:0a
+V/HighSet_WirlessNetwork( 2247): !!!!!!!! remove ssid:123
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+D/dalvikvm( 1657): GC_CONCURRENT freed 706K, 65% free 2857K/7939K, paused 2ms+3ms
+D/dalvikvm( 1657): GC_CONCURRENT freed 715K, 65% free 2834K/7939K, paused 2ms+2ms
+D/HomePlayerLib( 1657): hostaddress count is 1
+D/dalvikvm( 1657): GC_CONCURRENT freed 684K, 63% free 2943K/7939K, paused 2ms+2ms
+D/dalvikvm( 1657): GC_CONCURRENT freed 821K, 63% free 2965K/7939K, paused 2ms+3ms
+D/NetUpdate( 2247): progressValue--->0
+D/NetUpdate( 2247): mWriteSD--->true
+D/NetUpdate( 2247): mBootCheckZipExist--->false
+D/dalvikvm( 1657): GC_CONCURRENT freed 852K, 64% free 2922K/7939K, paused 2ms+2ms
+D/dalvikvm( 1657): GC_CONCURRENT freed 796K, 65% free 2847K/7939K, paused 2ms+2ms
+D/dalvikvm( 1657): GC_CONCURRENT freed 681K, 64% free 2864K/7939K, paused 2ms+3ms
+D/dalvikvm( 1657): GC_CONCURRENT freed 706K, 64% free 2863K/7939K, paused 2ms+2ms
+D/NetUpdate( 2247): progressValue--->0
+D/NetUpdate( 2247): mWriteSD--->true
+D/NetUpdate( 2247): mBootCheckZipExist--->false
+D/dalvikvm( 1657): GC_CONCURRENT freed 705K, 64% free 2863K/7939K, paused 2ms+2ms
+D/dalvikvm( 1657): GC_CONCURRENT freed 705K, 64% free 2863K/7939K, paused 2ms+2ms
+D/dalvikvm( 1657): GC_CONCURRENT freed 707K, 64% free 2863K/7939K, paused 2ms+2ms
+D/NetUpdate( 2247): progressValue--->0
+D/NetUpdate( 2247): mWriteSD--->true
+D/NetUpdate( 2247): mBootCheckZipExist--->false
+D/NetUpdate( 2247): progressValue--->0
+D/NetUpdate( 2247): mWriteSD--->true
+D/NetUpdate( 2247): mBootCheckZipExist--->false
+I/HighSet_WirlessNetwork( 2247): -----------------------wifi????-------------------
+I/HighSet_WirlessNetwork( 2247): -------------------------SSID= testAP ----------Adress= 5c:63:bf:f8:5d:de
+I/HighSet_WirlessNetwork( 2247): -------------------------SSID= TP_LINK_TEST_5GHz_D8070A ----------Adress= 8c:21:0a:d8:07:0a
+V/HighSet_WirlessNetwork( 2247): !!!!!!!! remove ssid:123
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+I/HighSet_WirlessNetwork( 2247): -----------------------wifi????-------------------
+I/HighSet_WirlessNetwork( 2247): -------------------------SSID= testAP ----------Adress= 5c:63:bf:f8:5d:de
+I/HighSet_WirlessNetwork( 2247): -------------------------SSID= TP_LINK_TEST_5GHz_D8070A ----------Adress= 8c:21:0a:d8:07:0a
+V/HighSet_WirlessNetwork( 2247): !!!!!!!! remove ssid:123
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+D/NetUpdate( 2247): progressValue--->0
+D/NetUpdate( 2247): mWriteSD--->true
+D/NetUpdate( 2247): mBootCheckZipExist--->false
+D/NetUpdate( 2247): progressValue--->0
+D/NetUpdate( 2247): mWriteSD--->true
+D/NetUpdate( 2247): mBootCheckZipExist--->false
+D/NetUpdate( 2247): progressValue--->0
+D/NetUpdate( 2247): mWriteSD--->true
+D/NetUpdate( 2247): mBootCheckZipExist--->false
+V/EthernetMonitor(  937): get event 
+V/EthernetMonitor(  937): go poll events
+V/EthernetMonitor(  937): get event 
+V/EthernetMonitor(  937): go poll events
+D/dalvikvm( 1657): GC_CONCURRENT freed 705K, 64% free 2863K/7939K, paused 2ms+3ms
+D/dalvikvm( 1657): GC_CONCURRENT freed 705K, 65% free 2857K/7939K, paused 2ms+3ms
+D/NetUpdate( 2247): progressValue--->0
+D/NetUpdate( 2247): mWriteSD--->true
+D/NetUpdate( 2247): mBootCheckZipExist--->false
+D/dalvikvm( 1657): GC_CONCURRENT freed 706K, 65% free 2858K/7939K, paused 2ms+2ms
+D/NetUpdate( 2247): progressValue--->0
+D/NetUpdate( 2247): mWriteSD--->true
+D/NetUpdate( 2247): mBootCheckZipExist--->false
+D/NetUpdate( 2247): progressValue--->0
+D/NetUpdate( 2247): mWriteSD--->true
+D/NetUpdate( 2247): mBootCheckZipExist--->false
+D/NetUpdate( 2247): progressValue--->0
+D/NetUpdate( 2247): mWriteSD--->true
+D/NetUpdate( 2247): mBootCheckZipExist--->false
+D/HomePlayerLib( 1657): hostaddress count is 1
+D/dalvikvm( 1657): GC_CONCURRENT freed 708K, 65% free 2840K/7939K, paused 2ms+3ms
+D/dalvikvm( 1657): GC_CONCURRENT freed 665K, 65% free 2857K/7939K, paused 2ms+3ms
+D/NetUpdate( 2247): progressValue--->0
+D/NetUpdate( 2247): mWriteSD--->true
+D/NetUpdate( 2247): mBootCheckZipExist--->false
+D/dalvikvm( 1657): GC_CONCURRENT freed 699K, 64% free 2862K/7939K, paused 2ms+3ms
+D/dalvikvm( 1657): GC_CONCURRENT freed 709K, 64% free 2862K/7939K, paused 3ms+2ms
+D/dalvikvm( 1657): GC_CONCURRENT freed 712K, 64% free 2864K/7939K, paused 2ms+3ms
+D/dalvikvm( 1657): GC_CONCURRENT freed 709K, 64% free 2863K/7939K, paused 2ms+2ms
+D/NetUpdate( 2247): progressValue--->0
+D/NetUpdate( 2247): mWriteSD--->true
+D/NetUpdate( 2247): mBootCheckZipExist--->false
+D/NetUpdate( 2247): progressValue--->0
+D/NetUpdate( 2247): mWriteSD--->true
+D/NetUpdate( 2247): mBootCheckZipExist--->false
+I/HighSet_WirlessNetwork( 2247): -----------------------wifi????-------------------
+I/HighSet_WirlessNetwork( 2247): -------------------------SSID= testAP ----------Adress= 5c:63:bf:f8:5d:de
+I/HighSet_WirlessNetwork( 2247): -------------------------SSID= TP_LINK_TEST_5GHz_D8070A ----------Adress= 8c:21:0a:d8:07:0a
+V/HighSet_WirlessNetwork( 2247): !!!!!!!! remove ssid:123
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+I/HighSet_WirlessNetwork( 2247): -----------------------wifi????-------------------
+I/HighSet_WirlessNetwork( 2247): -------------------------SSID= testAP ----------Adress= 5c:63:bf:f8:5d:de
+I/HighSet_WirlessNetwork( 2247): -------------------------SSID= TP_LINK_TEST_5GHz_D8070A ----------Adress= 8c:21:0a:d8:07:0a
+V/HighSet_WirlessNetwork( 2247): !!!!!!!! remove ssid:123
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+D/NetUpdate( 2247): progressValue--->0
+D/NetUpdate( 2247): mWriteSD--->true
+D/NetUpdate( 2247): mBootCheckZipExist--->false
+D/NetUpdate( 2247): progressValue--->0
+D/NetUpdate( 2247): mWriteSD--->true
+D/NetUpdate( 2247): mBootCheckZipExist--->false
+D/NetUpdate( 2247): progressValue--->0
+D/NetUpdate( 2247): mWriteSD--->true
+D/NetUpdate( 2247): mBootCheckZipExist--->false
+D/NetUpdate( 2247): progressValue--->0
+D/NetUpdate( 2247): mWriteSD--->true
+D/NetUpdate( 2247): mBootCheckZipExist--->false
+D/NetUpdate( 2247): progressValue--->0
+D/NetUpdate( 2247): mWriteSD--->true
+D/NetUpdate( 2247): mBootCheckZipExist--->false
+V/EthernetMonitor(  937): get event 
+V/EthernetMonitor(  937): go poll events
+V/EthernetMonitor(  937): get event 
+V/EthernetMonitor(  937): go poll events
+I/HighSet_WirlessNetwork( 2247): -------------------------SSID= testAP ----------Adress= 5c:63:bf:f8:5d:de
+I/HighSet_WirlessNetwork( 2247): -------------------------SSID= TP_LINK_TEST_5GHz_D8070A ----------Adress= 8c:21:0a:d8:07:0a
+V/HighSet_WirlessNetwork( 2247): !!!!!!!! remove ssid:123
+E/fbdev   ( 1021): Attention! GFLIP time out, force update gop ring buffer!
+D/dalvikvm( 1657): GC_CONCURRENT freed 723K, 65% free 2832K/7939K, paused 2ms+3ms
+D/dalvikvm( 1657): GC_CONCURRENT freed 669K, 65% free 2857K/7939K, paused 2ms+2ms
+D/dalvikvm( 1657): GC_CONCURRENT freed 706K, 65% free 2857K/7939K, paused 2ms+3ms
+D/NetUpdate( 2247): progressValue--->0
+D/NetUpdate( 2247): mWriteSD--->true
+D/NetUpdate( 2247): mBootCheckZipExist--->false
+D/dalvikvm( 1657): GC_CONCURRENT freed 703K, 64% free 2860K/7939K, paused 2ms+3ms
+D/dalvikvm( 1657): GC_CONCURRENT freed 706K, 64% free 2861K/7939K, paused 2ms+3ms
+D/dalvikvm( 1657): GC_CONCURRENT freed 703K, 64% free 2859K/7939K, paused 3ms+2ms
+^C
+130|shell@android:/ $ 

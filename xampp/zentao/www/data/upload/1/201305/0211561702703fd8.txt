@@ -1,0 +1,1212 @@
+130|shell@android:/ # logcat -c;logcat
+--------- beginning of /dev/log/main
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744):  Warnig::  getValidBufferLength()  <  Codec require !!!
+I//lib/ld-linux.so.3(  748): Old STC: 0x000c4333, PTS: 0x000c3fe2, Diff: 0x00000351
+D/NetUpdate( 2235): progressValue--->0
+D/NetUpdate( 2235): mWriteSD--->true
+D/NetUpdate( 2235): mBootCheckZipExist--->false
+I//lib/ld-linux.so.3(  748): FrmCnt:5075(0,76,332) Rate:5 Sys:2382812 STC:803321 VPTS:802680 APTS:803022 Delay:-601(40) V:0 A:0 VES:0x470 AES:0x0 PCM:0x0 AudioErr:0x0
+D/dalvikvm( 1378): GC_CONCURRENT freed 401K, 78% free 1320K/5827K, paused 1ms+1ms
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744):  Warnig::  getValidBufferLength()  <  Codec require !!!
+I//lib/ld-linux.so.3(  748): Old STC: 0x000c43e8, PTS: 0x000c4148, Diff: 0x000002a0
+D/NetUpdate( 2235): progressValue--->0
+D/NetUpdate( 2235): mWriteSD--->true
+D/NetUpdate( 2235): mBootCheckZipExist--->false
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744):  Warnig::  getValidBufferLength()  <  Codec require !!!
+I//lib/ld-linux.so.3(  748): Old STC: 0x000c4522, PTS: 0x000c426a, Diff: 0x000002b8
+I//lib/ld-linux.so.3(  748): FrmCnt:5089(0,76,341) Rate:9 Sys:2384335 STC:803475 VPTS:803240 APTS:803473 Delay:-195(40) V:0 A:0 VES:0x1c60 AES:0x0 PCM:0x5c80 AudioErr:0x0
+D/NetUpdate( 2235): progressValue--->0
+D/NetUpdate( 2235): mWriteSD--->true
+D/NetUpdate( 2235): mBootCheckZipExist--->false
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744):  Warnig::  getValidBufferLength()  <  Codec require !!!
+I//lib/ld-linux.so.3(  748): Old STC: 0x000c466f, PTS: 0x000c4379, Diff: 0x000002f6
+D/NetUpdate( 2235): progressValue--->0
+D/NetUpdate( 2235): mWriteSD--->true
+D/NetUpdate( 2235): mBootCheckZipExist--->false
+D/DataSource_M3U8(  744): ----------UpdatePlaylistThread runing... 
+D/dalvikvm( 1378): GC_CONCURRENT freed 392K, 78% free 1320K/5827K, paused 1ms+1ms
+D/dalvikvm( 1378): GC_CONCURRENT freed 392K, 78% free 1320K/5827K, paused 1ms+1ms
+D/dalvikvm( 1378): GC_CONCURRENT freed 393K, 76% free 1402K/5827K, paused 1ms+1ms
+I//lib/ld-linux.so.3(  748): FrmCnt:5092(0,76,343) Rate:1 Sys:2385861 STC:804243 VPTS:803360 APTS:803705 Delay:-843(40) V:0 A:0 VES:0x1f10 AES:0x0 PCM:0x0 AudioErr:0x0
+D/dalvikvm( 1378): GC_CONCURRENT freed 474K, 78% free 1322K/5827K, paused 1ms+1ms
+D/dalvikvm( 1378): GC_CONCURRENT freed 394K, 78% free 1326K/5827K, paused 1ms+1ms
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744):  Warnig::  getValidBufferLength()  <  Codec require !!!
+I//lib/ld-linux.so.3(  748): Old STC: 0x000c4759, PTS: 0x000c43ed, Diff: 0x0000036c
+D/NetUpdate( 2235): progressValue--->0
+D/NetUpdate( 2235): mWriteSD--->true
+D/NetUpdate( 2235): mBootCheckZipExist--->false
+D/dalvikvm( 1378): GC_CONCURRENT freed 400K, 77% free 1360K/5827K, paused 1ms+1ms
+D/HomePlayerLib( 1378): hostaddress count is 2
+D/dalvikvm( 1378): GC_CONCURRENT freed 445K, 76% free 1420K/5827K, paused 1ms+1ms
+D/dalvikvm( 1378): GC_CONCURRENT freed 508K, 77% free 1369K/5827K, paused 1ms+1ms
+D/dalvikvm( 1378): GC_CONCURRENT freed 456K, 76% free 1420K/5827K, paused 2ms+1ms
+D/dalvikvm( 1378): GC_CONCURRENT freed 499K, 76% free 1425K/5827K, paused 1ms+1ms
+D/dalvikvm( 1378): GC_CONCURRENT freed 477K, 76% free 1441K/5827K, paused 1ms+1ms
+D/dalvikvm( 1378): GC_CONCURRENT freed 509K, 76% free 1410K/5827K, paused 1ms+1ms
+D/dalvikvm( 1378): GC_CONCURRENT freed 483K, 77% free 1376K/5827K, paused 1ms+1ms
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744):  Warnig::  getValidBufferLength()  <  Codec require !!!
+I//lib/ld-linux.so.3(  748): Old STC: 0x000c47cd, PTS: 0x000c44d1, Diff: 0x000002fc
+D/dalvikvm( 1378): GC_CONCURRENT freed 449K, 76% free 1431K/5827K, paused 1ms+2ms
+D/NetUpdate( 2235): progressValue--->0
+D/NetUpdate( 2235): mWriteSD--->true
+D/NetUpdate( 2235): mBootCheckZipExist--->false
+I//lib/ld-linux.so.3(  748): FrmCnt:5103(0,77,349) Rate:7 Sys:2387392 STC:804132 VPTS:803760 APTS:804129 Delay:-332(40) V:0 A:0 VES:0xee0 AES:0x0 PCM:0x1080 AudioErr:0x0
+D/dalvikvm( 1378): GC_CONCURRENT freed 504K, 76% free 1438K/5827K, paused 1ms+1ms
+D/dalvikvm( 1378): GC_CONCURRENT freed 517K, 76% free 1414K/5827K, paused 1ms+1ms
+D/dalvikvm( 1378): GC_CONCURRENT freed 481K, 77% free 1371K/5827K, paused 1ms+2ms
+D/dalvikvm( 1378): GC_CONCURRENT freed 456K, 77% free 1368K/5827K, paused 1ms+1ms
+D/dalvikvm( 1378): GC_CONCURRENT freed 435K, 78% free 1325K/5827K, paused 2ms+1ms
+D/dalvikvm( 1378): GC_CONCURRENT freed 394K, 78% free 1324K/5827K, paused 2ms+1ms
+D/dalvikvm( 1378): GC_CONCURRENT freed 393K, 76% free 1420K/5827K, paused 1ms+1ms
+D/dalvikvm( 1378): GC_CONCURRENT freed 485K, 78% free 1323K/5827K, paused 1ms+2ms
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744):  Warnig::  getValidBufferLength()  <  Codec require !!!
+I//lib/ld-linux.so.3(  748): Old STC: 0x000c48db, PTS: 0x000c45b2, Diff: 0x00000329
+D/NetUpdate( 2235): progressValue--->0
+D/NetUpdate( 2235): mWriteSD--->true
+D/NetUpdate( 2235): mBootCheckZipExist--->false
+D/dalvikvm( 1378): GC_CONCURRENT freed 407K, 76% free 1401K/5827K, paused 0ms+2ms
+I//lib/ld-linux.so.3(  748): FrmCnt:5108(0,79,350) Rate:3 Sys:2388921 STC:804851 VPTS:803880 APTS:804345 Delay:-931(40) V:0 A:0 VES:0x850 AES:0x0 PCM:0x0 AudioErr:0x0
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744):  Warnig::  getValidBufferLength()  <  Codec require !!!
+I//lib/ld-linux.so.3(  748): Old STC: 0x000c498f, PTS: 0x000c466f, Diff: 0x00000320
+D/NetUpdate( 2235): progressValue--->0
+D/NetUpdate( 2235): mWriteSD--->true
+D/NetUpdate( 2235): mBootCheckZipExist--->false
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744):  Warnig::  getValidBufferLength()  <  Codec require !!!
+I//lib/ld-linux.so.3(  748): Old STC: 0x000c4a74, PTS: 0x000c4743, Diff: 0x00000331
+D/NetUpdate( 2235): progressValue--->0
+D/NetUpdate( 2235): mWriteSD--->true
+D/NetUpdate( 2235): mBootCheckZipExist--->false
+I//lib/ld-linux.so.3(  748): FrmCnt:5118(0,82,353) Rate:6 Sys:2390446 STC:804757 VPTS:804280 APTS:804750 Delay:-437(40) V:0 A:0 VES:0x5c0 AES:0x0 PCM:0x0 AudioErr:0x0
+D/dalvikvm( 1378): GC_CONCURRENT freed 488K, 76% free 1403K/5827K, paused 1ms+2ms
+D/Downloader(  744): Downloadserver bandWidth:428084
+D/Downloader(  744): Downloadserver bandWidth:428084
+D/Downloader(  744): Downloadserver bandWidth:428084
+D/Downloader(  744): Downloadserver bandWidth:428084
+D/dalvikvm( 1378): GC_CONCURRENT freed 474K, 77% free 1367K/5827K, paused 1ms+1ms
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744):  Warnig::  getValidBufferLength()  <  Codec require !!!
+D/dalvikvm( 1378): GC_CONCURRENT freed 445K, 76% free 1419K/5827K, paused 1ms+1ms
+I//lib/ld-linux.so.3(  748): Old STC: 0x000c4b21, PTS: 0x000c4801, Diff: 0x00000320
+D/NetUpdate( 2235): progressValue--->0
+D/NetUpdate( 2235): mWriteSD--->true
+D/NetUpdate( 2235): mBootCheckZipExist--->false
+D/DataSource_M3U8(  744): u32HLSSreamNum[0]===>u32BandWidth:1433000 
+D/DataSource_M3U8(  744): getHLSPlayListInex  DownloadBandWidth:428084   uInDex=0
+D/DataSource_M3U8(  744): [M3U8] checkShouldStartNext :[27](1587284/1587284)   sequence:0  start next:28  
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744): [M3U8]-7----->This :0x52338 --> post cmd for start next url:http://cibn-iss1.longvisionmedia.com:8088/vod/CIBN2013_CIBN2313040700764590_1433/35.ts, knowedFileSize:0, mCurDowningIndex:27
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744): 
+D/Downloader(  744): [downloadThread]Downloader::removeTask  
+D/Downloader(  744): [downloadThread]task have range string:0- 
+D/dalvikvm( 1378): GC_CONCURRENT freed 491K, 76% free 1403K/5827K, paused 1ms+1ms
+D/dalvikvm( 1378): GC_CONCURRENT freed 475K, 77% free 1367K/5827K, paused 1ms+1ms
+I//lib/ld-linux.so.3(  748): FrmCnt:5121(0,84,353) Rate:1 Sys:2391973 STC:805484 VPTS:804320 APTS:804879 Delay:-1124(40) V:0 A:0 VES:0x1140 AES:0x0 PCM:0x0 AudioErr:0x0
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744):  Warnig::  getValidBufferLength()  <  Codec require !!!
+I//lib/ld-linux.so.3(  748): Old STC: 0x000c4be0, PTS: 0x000c4866, Diff: 0x0000037a
+D/NetUpdate( 2235): progressValue--->0
+D/NetUpdate( 2235): mWriteSD--->true
+D/NetUpdate( 2235): mBootCheckZipExist--->false
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744):  Warnig::  getValidBufferLength()  <  Codec require !!!
+I//lib/ld-linux.so.3(  748): Old STC: 0x000c4c6a, PTS: 0x000c48ef, Diff: 0x0000037b
+D/NetUpdate( 2235): progressValue--->0
+D/NetUpdate( 2235): mWriteSD--->true
+D/NetUpdate( 2235): mBootCheckZipExist--->false
+I//lib/ld-linux.so.3(  748): FrmCnt:5130(0,86,360) Rate:5 Sys:2393498 STC:805227 VPTS:804920 APTS:805222 Delay:-267(40) V:0 A:0 VES:0x3870 AES:0x0 PCM:0x680 AudioErr:0x0
+D/dalvikvm( 1378): GC_CONCURRENT freed 454K, 76% free 1408K/5827K, paused 1ms+1ms
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744):  Warnig::  getValidBufferLength()  <  Codec require !!!
+I//lib/ld-linux.so.3(  748): Old STC: 0x000c4ccd, PTS: 0x000c49ce, Diff: 0x000002ff
+D/dalvikvm( 1378): GC_CONCURRENT freed 478K, 76% free 1426K/5827K, paused 1ms+1ms
+D/NetUpdate( 2235): progressValue--->0
+D/NetUpdate( 2235): mWriteSD--->true
+D/NetUpdate( 2235): mBootCheckZipExist--->false
+D/dalvikvm( 1378): GC_CONCURRENT freed 501K, 77% free 1340K/5827K, paused 1ms+1ms
+D/dalvikvm( 1378): GC_CONCURRENT freed 428K, 76% free 1406K/5827K, paused 1ms+1ms
+D/dalvikvm( 1378): GC_CONCURRENT freed 478K, 76% free 1404K/5827K, paused 1ms+1ms
+I//lib/ld-linux.so.3(  748): FrmCnt:5140(0,87,366) Rate:6 Sys:2395027 STC:805988 VPTS:805320 APTS:805624 Delay:-628(40) V:0 A:0 VES:0xde0 AES:0x0 PCM:0x0 AudioErr:0x0
+D/dalvikvm( 1378): GC_CONCURRENT freed 473K, 78% free 1322K/5827K, paused 0ms+1ms
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744):  Warnig::  getValidBufferLength()  <  Codec require !!!
+D/dalvikvm( 1378): GC_CONCURRENT freed 394K, 78% free 1326K/5827K, paused 2ms+1ms
+I//lib/ld-linux.so.3(  748): Old STC: 0x000c4dda, PTS: 0x000c4b6e, Diff: 0x0000026c
+D/NetUpdate( 2235): progressValue--->0
+D/NetUpdate( 2235): mWriteSD--->true
+D/NetUpdate( 2235): mBootCheckZipExist--->false
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744):  Warnig::  getValidBufferLength()  <  Codec require !!!
+D/dalvikvm( 1378): GC_CONCURRENT freed 402K, 78% free 1309K/5827K, paused 1ms+1ms
+I//lib/ld-linux.so.3(  748): Old STC: 0x000c4f4d, PTS: 0x000c4cb2, Diff: 0x0000029b
+D/NetUpdate( 2235): progressValue--->0
+D/NetUpdate( 2235): mWriteSD--->true
+D/NetUpdate( 2235): mBootCheckZipExist--->false
+D/dalvikvm( 1378): GC_CONCURRENT freed 395K, 78% free 1307K/5827K, paused 1ms+1ms
+I//lib/ld-linux.so.3(  748): FrmCnt:5157(0,89,373) Rate:11 Sys:2396558 STC:806232 VPTS:805960 APTS:806225 Delay:-232(40) V:0 A:0 VES:0x840 AES:0x0 PCM:0x3c00 AudioErr:0x0
+D/dalvikvm( 1378): GC_CONCURRENT freed 393K, 78% free 1333K/5827K, paused 1ms+1ms
+D/dalvikvm( 1378): GC_CONCURRENT freed 406K, 76% free 1442K/5827K, paused 1ms+2ms
+D/dalvikvm( 1378): GC_CONCURRENT freed 514K, 78% free 1327K/5827K, paused 0ms+1ms
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744):  Warnig::  getValidBufferLength()  <  Codec require !!!
+I//lib/ld-linux.so.3(  748): Old STC: 0x000c5093, PTS: 0x000c4e18, Diff: 0x0000027b
+D/NetUpdate( 2235): progressValue--->0
+D/NetUpdate( 2235): mWriteSD--->true
+D/NetUpdate( 2235): mBootCheckZipExist--->false
+I//lib/ld-linux.so.3(  748): FrmCnt:5162(0,90,377) Rate:3 Sys:2398085 STC:807124 VPTS:806200 APTS:806542 Delay:-884(40) V:0 A:0 VES:0x4010 AES:0x0 PCM:0x0 AudioErr:0x0
+D/dalvikvm( 1378): GC_CONCURRENT freed 402K, 75% free 1486K/5827K, paused 0ms+1ms
+D/HomePlayerLib( 1378): hostaddress count is 2
+D/dalvikvm( 1378): GC_CONCURRENT freed 566K, 75% free 1464K/5827K, paused 1ms+1ms
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744):  Warnig::  getValidBufferLength()  <  Codec require !!!
+D/dalvikvm( 1378): GC_CONCURRENT freed 546K, 76% free 1422K/5827K, paused 1ms+1ms
+D/dalvikvm( 1378): GC_CONCURRENT freed 501K, 77% free 1370K/5827K, paused 2ms+2ms
+D/NetUpdate( 2235): progressValue--->0
+D/NetUpdate( 2235): mWriteSD--->true
+D/NetUpdate( 2235): mBootCheckZipExist--->false
+I//lib/ld-linux.so.3(  748): Old STC: 0x000c5221, PTS: 0x000c4f05, Diff: 0x0000031c
+D/dalvikvm( 1378): GC_CONCURRENT freed 444K, 78% free 1313K/5827K, paused 1ms+2ms
+D/dalvikvm( 1378): GC_CONCURRENT freed 353K, 75% free 1476K/5827K, paused 2ms+1ms
+D/dalvikvm( 1378): GC_CONCURRENT freed 549K, 78% free 1324K/5827K, paused 1ms+1ms
+D/dalvikvm( 1378): GC_CONCURRENT freed 395K, 78% free 1324K/5827K, paused 1ms+1ms
+D/dalvikvm( 1378): GC_CONCURRENT freed 393K, 78% free 1323K/5827K, paused 1ms+2ms
+D/dalvikvm( 1378): GC_CONCURRENT freed 392K, 78% free 1325K/5827K, paused 1ms+2ms
+D/dalvikvm( 1378): GC_CONCURRENT freed 390K, 78% free 1321K/5827K, paused 1ms+1ms
+D/dalvikvm( 1378): GC_CONCURRENT freed 407K, 78% free 1306K/5827K, paused 1ms+1ms
+D/dalvikvm( 1378): GC_CONCURRENT freed 379K, 77% free 1383K/5827K, paused 1ms+1ms
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744):  Warnig::  getValidBufferLength()  <  Codec require !!!
+D/dalvikvm( 1378): GC_CONCURRENT freed 436K, 75% free 1463K/5827K, paused 1ms+2ms
+I//lib/ld-linux.so.3(  748): Old STC: 0x000c52e7, PTS: 0x000c5025, Diff: 0x000002c2
+D/NetUpdate( 2235): progressValue--->0
+D/NetUpdate( 2235): mWriteSD--->true
+D/NetUpdate( 2235): mBootCheckZipExist--->false
+D/dalvikvm( 1378): GC_CONCURRENT freed 547K, 76% free 1409K/5827K, paused 1ms+1ms
+D/dalvikvm( 1378): GC_CONCURRENT freed 472K, 78% free 1326K/5827K, paused 1ms+1ms
+I//lib/ld-linux.so.3(  748): FrmCnt:5173(0,93,381) Rate:7 Sys:2399619 STC:807155 VPTS:806560 APTS:806948 Delay:-555(40) V:0 A:0 VES:0x990 AES:0x0 PCM:0x0 AudioErr:0x0
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 32773, 0)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 701, 0)
+D/MstarPlayer(  744): MstarPlayer::send MEDIA_INFO_BUFFERING_START  
+D/IMMPlayer(  744): Send MM_SetTrickMode
+D/IMMPlayer(  744): u32Item:1
+D/IMMPlayer(  744): stTrickInfo->eMode:1
+D/IMMPlayer(  744): stTrickInfo->eSpeed:1
+W/MediaPlayer( 2263): info/warning (32773, 0)
+W/MediaPlayer( 2263): info/warning (701, 0)
+I/MediaPlayer.java( 2263): Info (32773,0)
+I/VideoPlayer( 2263): 鏁版嵁鍔犺浇涓€傘€傘€傘€
+D/IMMPlayer(  744): Get ret:0
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 0)
+D/MstarPlayer(  744): percent: 0
+W/MediaPlayer( 2263): info/warning (704, 0)
+I//lib/ld-linux.so.3(  748): 1. Mode: 1, Speed: 1.
+I//lib/ld-linux.so.3(  748): SetTrickMode, Mode: 1, Speed: 1.
+I//lib/ld-linux.so.3(  748): Send to Co-processor: eMode: 0, eSpeed: 0.
+D/seekOnLoading( 2263): seekOnLoading timer is start!
+I/MediaPlayer.java( 2263): Info (701,0)
+I/MediaPlayer.java( 2263): Info (704,0)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 0)
+D/MstarPlayer(  744): percent: 0
+W/MediaPlayer( 2263): info/warning (704, 0)
+I/MediaPlayer.java( 2263): Info (704,0)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 0)
+D/MstarPlayer(  744): percent: 0
+W/MediaPlayer( 2263): info/warning (704, 0)
+I/MediaPlayer.java( 2263): Info (704,0)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 0)
+D/MstarPlayer(  744): percent: 0
+W/MediaPlayer( 2263): info/warning (704, 0)
+I/MediaPlayer.java( 2263): Info (704,0)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 0)
+D/MstarPlayer(  744): percent: 0
+W/MediaPlayer( 2263): info/warning (704, 0)
+I/MediaPlayer.java( 2263): Info (704,0)
+D/dalvikvm( 1378): GC_CONCURRENT freed 410K, 78% free 1301K/5827K, paused 1ms+1ms
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 0)
+D/MstarPlayer(  744): percent: 0
+W/MediaPlayer( 2263): info/warning (704, 0)
+I/MediaPlayer.java( 2263): Info (704,0)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 0)
+D/MstarPlayer(  744): percent: 0
+W/MediaPlayer( 2263): info/warning (704, 0)
+I/MediaPlayer.java( 2263): Info (704,0)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 0)
+D/MstarPlayer(  744): percent: 0
+W/MediaPlayer( 2263): info/warning (704, 0)
+I/MediaPlayer.java( 2263): Info (704,0)
+D/dalvikvm( 1378): GC_CONCURRENT freed 377K, 76% free 1403K/5827K, paused 1ms+1ms
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 0)
+D/MstarPlayer(  744): percent: 0
+W/MediaPlayer( 2263): info/warning (704, 0)
+I/MediaPlayer.java( 2263): Info (704,0)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 0)
+D/MstarPlayer(  744): percent: 0
+W/MediaPlayer( 2263): info/warning (704, 0)
+I/MediaPlayer.java( 2263): Info (704,0)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 0)
+D/MstarPlayer(  744): percent: 0
+W/MediaPlayer( 2263): info/warning (704, 0)
+I/MediaPlayer.java( 2263): Info (704,0)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 0)
+D/MstarPlayer(  744): percent: 0
+W/MediaPlayer( 2263): info/warning (704, 0)
+I/MediaPlayer.java( 2263): Info (704,0)
+D/dalvikvm( 1378): GC_CONCURRENT freed 475K, 76% free 1427K/5827K, paused 1ms+1ms
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 0)
+D/MstarPlayer(  744): percent: 0
+W/MediaPlayer( 2263): info/warning (704, 0)
+I/MediaPlayer.java( 2263): Info (704,0)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 0)
+D/MstarPlayer(  744): percent: 0
+W/MediaPlayer( 2263): info/warning (704, 0)
+I/MediaPlayer.java( 2263): Info (704,0)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 0)
+D/MstarPlayer(  744): percent: 0
+W/MediaPlayer( 2263): info/warning (704, 0)
+I/MediaPlayer.java( 2263): Info (704,0)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 0)
+D/MstarPlayer(  744): percent: 0
+W/MediaPlayer( 2263): info/warning (704, 0)
+I/MediaPlayer.java( 2263): Info (704,0)
+D/NetUpdate( 2235): progressValue--->0
+D/NetUpdate( 2235): mWriteSD--->true
+D/NetUpdate( 2235): mBootCheckZipExist--->false
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 0)
+D/MstarPlayer(  744): percent: 0
+W/MediaPlayer( 2263): info/warning (704, 0)
+I/MediaPlayer.java( 2263): Info (704,0)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 0)
+D/MstarPlayer(  744): percent: 0
+W/MediaPlayer( 2263): info/warning (704, 0)
+I/MediaPlayer.java( 2263): Info (704,0)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 0)
+D/MstarPlayer(  744): percent: 0
+W/MediaPlayer( 2263): info/warning (704, 0)
+I/MediaPlayer.java( 2263): Info (704,0)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 0)
+D/MstarPlayer(  744): percent: 0
+W/MediaPlayer( 2263): info/warning (704, 0)
+I/MediaPlayer.java( 2263): Info (704,0)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 0)
+D/MstarPlayer(  744): percent: 0
+W/MediaPlayer( 2263): info/warning (704, 0)
+I/MediaPlayer.java( 2263): Info (704,0)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 0)
+D/MstarPlayer(  744): percent: 0
+W/MediaPlayer( 2263): info/warning (704, 0)
+I/MediaPlayer.java( 2263): Info (704,0)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 0)
+D/MstarPlayer(  744): percent: 0
+W/MediaPlayer( 2263): info/warning (704, 0)
+I/MediaPlayer.java( 2263): Info (704,0)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 0)
+D/MstarPlayer(  744): percent: 0
+W/MediaPlayer( 2263): info/warning (704, 0)
+I/MediaPlayer.java( 2263): Info (704,0)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 0)
+D/MstarPlayer(  744): percent: 0
+W/MediaPlayer( 2263): info/warning (704, 0)
+I/MediaPlayer.java( 2263): Info (704,0)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 0)
+D/MstarPlayer(  744): percent: 0
+W/MediaPlayer( 2263): info/warning (704, 0)
+I/MediaPlayer.java( 2263): Info (704,0)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 0)
+D/MstarPlayer(  744): percent: 0
+W/MediaPlayer( 2263): info/warning (704, 0)
+I/MediaPlayer.java( 2263): Info (704,0)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 0)
+D/MstarPlayer(  744): percent: 0
+W/MediaPlayer( 2263): info/warning (704, 0)
+I/MediaPlayer.java( 2263): Info (704,0)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 0)
+D/MstarPlayer(  744): percent: 0
+W/MediaPlayer( 2263): info/warning (704, 0)
+I/MediaPlayer.java( 2263): Info (704,0)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 0)
+D/MstarPlayer(  744): percent: 0
+W/MediaPlayer( 2263): info/warning (704, 0)
+I/MediaPlayer.java( 2263): Info (704,0)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 0)
+D/MstarPlayer(  744): percent: 0
+W/MediaPlayer( 2263): info/warning (704, 0)
+I/MediaPlayer.java( 2263): Info (704,0)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 0)
+D/MstarPlayer(  744): percent: 0
+W/MediaPlayer( 2263): info/warning (704, 0)
+I/MediaPlayer.java( 2263): Info (704,0)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 0)
+W/MediaPlayer( 2263): info/warning (704, 0)
+D/MstarPlayer(  744): percent: 0
+I/MediaPlayer.java( 2263): Info (704,0)
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744):  Warnig::  getValidBufferLength()  <  Codec require !!!
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 0)
+D/MstarPlayer(  744): percent: 0
+W/MediaPlayer( 2263): info/warning (704, 0)
+I/MediaPlayer.java( 2263): Info (704,0)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 0)
+D/MstarPlayer(  744): percent: 0
+W/MediaPlayer( 2263): info/warning (704, 0)
+I/MediaPlayer.java( 2263): Info (704,0)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 0)
+D/MstarPlayer(  744): percent: 0
+W/MediaPlayer( 2263): info/warning (704, 0)
+I/MediaPlayer.java( 2263): Info (704,0)
+D/NetUpdate( 2235): progressValue--->0
+D/NetUpdate( 2235): mWriteSD--->true
+D/NetUpdate( 2235): mBootCheckZipExist--->false
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 0)
+D/MstarPlayer(  744): percent: 0
+W/MediaPlayer( 2263): info/warning (704, 0)
+I/MediaPlayer.java( 2263): Info (704,0)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 0)
+D/MstarPlayer(  744): percent: 0
+W/MediaPlayer( 2263): info/warning (704, 0)
+I/MediaPlayer.java( 2263): Info (704,0)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 0)
+D/MstarPlayer(  744): percent: 0
+W/MediaPlayer( 2263): info/warning (704, 0)
+I/MediaPlayer.java( 2263): Info (704,0)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 0)
+D/MstarPlayer(  744): percent: 0
+W/MediaPlayer( 2263): info/warning (704, 0)
+I/MediaPlayer.java( 2263): Info (704,0)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 0)
+D/MstarPlayer(  744): percent: 0
+W/MediaPlayer( 2263): info/warning (704, 0)
+I/MediaPlayer.java( 2263): Info (704,0)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 0)
+D/MstarPlayer(  744): percent: 0
+W/MediaPlayer( 2263): info/warning (704, 0)
+I/MediaPlayer.java( 2263): Info (704,0)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 0)
+D/MstarPlayer(  744): percent: 0
+W/MediaPlayer( 2263): info/warning (704, 0)
+I/MediaPlayer.java( 2263): Info (704,0)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 0)
+D/MstarPlayer(  744): percent: 0
+W/MediaPlayer( 2263): info/warning (704, 0)
+I/MediaPlayer.java( 2263): Info (704,0)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 0)
+D/MstarPlayer(  744): percent: 0
+W/MediaPlayer( 2263): info/warning (704, 0)
+I/MediaPlayer.java( 2263): Info (704,0)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 0)
+D/MstarPlayer(  744): percent: 0
+W/MediaPlayer( 2263): info/warning (704, 0)
+I/MediaPlayer.java( 2263): Info (704,0)
+D/dalvikvm( 1378): GC_CONCURRENT freed 498K, 78% free 1325K/5827K, paused 0ms+2ms
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 0)
+D/MstarPlayer(  744): percent: 0
+W/MediaPlayer( 2263): info/warning (704, 0)
+I/MediaPlayer.java( 2263): Info (704,0)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 0)
+D/MstarPlayer(  744): percent: 0
+W/MediaPlayer( 2263): info/warning (704, 0)
+I/MediaPlayer.java( 2263): Info (704,0)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 0)
+D/MstarPlayer(  744): percent: 0
+W/MediaPlayer( 2263): info/warning (704, 0)
+I/MediaPlayer.java( 2263): Info (704,0)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 0)
+D/MstarPlayer(  744): percent: 0
+W/MediaPlayer( 2263): info/warning (704, 0)
+I/MediaPlayer.java( 2263): Info (704,0)
+D/dalvikvm( 1378): GC_CONCURRENT freed 400K, 76% free 1420K/5827K, paused 1ms+1ms
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 0)
+D/MstarPlayer(  744): percent: 0
+W/MediaPlayer( 2263): info/warning (704, 0)
+I/MediaPlayer.java( 2263): Info (704,0)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 0)
+D/MstarPlayer(  744): percent: 0
+W/MediaPlayer( 2263): info/warning (704, 0)
+I/MediaPlayer.java( 2263): Info (704,0)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 0)
+D/MstarPlayer(  744): percent: 0
+W/MediaPlayer( 2263): info/warning (704, 0)
+I/MediaPlayer.java( 2263): Info (704,0)
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744):  Warnig::  getValidBufferLength()  <  Codec require !!!
+D/dalvikvm( 1378): GC_CONCURRENT freed 490K, 76% free 1418K/5827K, paused 1ms+1ms
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 0)
+D/MstarPlayer(  744): percent: 0
+W/MediaPlayer( 2263): info/warning (704, 0)
+I/MediaPlayer.java( 2263): Info (704,0)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 0)
+D/MstarPlayer(  744): percent: 0
+W/MediaPlayer( 2263): info/warning (704, 0)
+I/MediaPlayer.java( 2263): Info (704,0)
+D/NetUpdate( 2235): progressValue--->0
+D/NetUpdate( 2235): mWriteSD--->true
+D/NetUpdate( 2235): mBootCheckZipExist--->false
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 0)
+D/MstarPlayer(  744): percent: 0
+W/MediaPlayer( 2263): info/warning (704, 0)
+I/MediaPlayer.java( 2263): Info (704,0)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 0)
+D/MstarPlayer(  744): percent: 0
+W/MediaPlayer( 2263): info/warning (704, 0)
+I/MediaPlayer.java( 2263): Info (704,0)
+D/dalvikvm( 1378): GC_CONCURRENT freed 502K, 77% free 1340K/5827K, paused 2ms+1ms
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 0)
+D/MstarPlayer(  744): percent: 0
+W/MediaPlayer( 2263): info/warning (704, 0)
+I/MediaPlayer.java( 2263): Info (704,0)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 0)
+D/MstarPlayer(  744): percent: 0
+W/MediaPlayer( 2263): info/warning (704, 0)
+I/MediaPlayer.java( 2263): Info (704,0)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 0)
+D/MstarPlayer(  744): percent: 0
+W/MediaPlayer( 2263): info/warning (704, 0)
+I/MediaPlayer.java( 2263): Info (704,0)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 0)
+D/MstarPlayer(  744): percent: 0
+W/MediaPlayer( 2263): info/warning (704, 0)
+I/MediaPlayer.java( 2263): Info (704,0)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 0)
+D/MstarPlayer(  744): percent: 0
+W/MediaPlayer( 2263): info/warning (704, 0)
+I/MediaPlayer.java( 2263): Info (704,0)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 0)
+D/MstarPlayer(  744): percent: 0
+W/MediaPlayer( 2263): info/warning (704, 0)
+I/MediaPlayer.java( 2263): Info (704,0)
+D/dalvikvm( 1378): GC_CONCURRENT freed 419K, 77% free 1392K/5827K, paused 1ms+1ms
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 0)
+D/MstarPlayer(  744): percent: 0
+W/MediaPlayer( 2263): info/warning (704, 0)
+I/MediaPlayer.java( 2263): Info (704,0)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 0)
+D/MstarPlayer(  744): percent: 0
+W/MediaPlayer( 2263): info/warning (704, 0)
+I/MediaPlayer.java( 2263): Info (704,0)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 0)
+D/MstarPlayer(  744): percent: 0
+W/MediaPlayer( 2263): info/warning (704, 0)
+I/MediaPlayer.java( 2263): Info (704,0)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 0)
+D/MstarPlayer(  744): percent: 0
+W/MediaPlayer( 2263): info/warning (704, 0)
+I/MediaPlayer.java( 2263): Info (704,0)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 0)
+D/MstarPlayer(  744): percent: 0
+W/MediaPlayer( 2263): info/warning (704, 0)
+I/MediaPlayer.java( 2263): Info (704,0)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 0)
+D/MstarPlayer(  744): percent: 0
+W/MediaPlayer( 2263): info/warning (704, 0)
+I/MediaPlayer.java( 2263): Info (704,0)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 0)
+D/MstarPlayer(  744): percent: 0
+W/MediaPlayer( 2263): info/warning (704, 0)
+I/MediaPlayer.java( 2263): Info (704,0)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 0)
+D/MstarPlayer(  744): percent: 0
+W/MediaPlayer( 2263): info/warning (704, 0)
+I/MediaPlayer.java( 2263): Info (704,0)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 0)
+D/MstarPlayer(  744): percent: 0
+W/MediaPlayer( 2263): info/warning (704, 0)
+I/MediaPlayer.java( 2263): Info (704,0)
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744):  Warnig::  getValidBufferLength()  <  Codec require !!!
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 0)
+D/MstarPlayer(  744): percent: 0
+W/MediaPlayer( 2263): info/warning (704, 0)
+I/MediaPlayer.java( 2263): Info (704,0)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 0)
+D/MstarPlayer(  744): percent: 0
+W/MediaPlayer( 2263): info/warning (704, 0)
+I/MediaPlayer.java( 2263): Info (704,0)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 0)
+D/MstarPlayer(  744): percent: 0
+W/MediaPlayer( 2263): info/warning (704, 0)
+I/MediaPlayer.java( 2263): Info (704,0)
+D/NetUpdate( 2235): progressValue--->0
+D/NetUpdate( 2235): mWriteSD--->true
+D/NetUpdate( 2235): mBootCheckZipExist--->false
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 0)
+D/MstarPlayer(  744): percent: 0
+W/MediaPlayer( 2263): info/warning (704, 0)
+I/MediaPlayer.java( 2263): Info (704,0)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 0)
+D/MstarPlayer(  744): percent: 0
+W/MediaPlayer( 2263): info/warning (704, 0)
+I/MediaPlayer.java( 2263): Info (704,0)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 0)
+D/MstarPlayer(  744): percent: 0
+W/MediaPlayer( 2263): info/warning (704, 0)
+I/MediaPlayer.java( 2263): Info (704,0)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 0)
+D/MstarPlayer(  744): percent: 0
+W/MediaPlayer( 2263): info/warning (704, 0)
+I/MediaPlayer.java( 2263): Info (704,0)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 0)
+D/MstarPlayer(  744): percent: 0
+W/MediaPlayer( 2263): info/warning (704, 0)
+I/MediaPlayer.java( 2263): Info (704,0)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 0)
+D/MstarPlayer(  744): percent: 0
+W/MediaPlayer( 2263): info/warning (704, 0)
+I/MediaPlayer.java( 2263): Info (704,0)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 0)
+D/MstarPlayer(  744): percent: 0
+W/MediaPlayer( 2263): info/warning (704, 0)
+I/MediaPlayer.java( 2263): Info (704,0)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 0)
+D/MstarPlayer(  744): percent: 0
+W/MediaPlayer( 2263): info/warning (704, 0)
+I/MediaPlayer.java( 2263): Info (704,0)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 0)
+D/MstarPlayer(  744): percent: 0
+W/MediaPlayer( 2263): info/warning (704, 0)
+I/MediaPlayer.java( 2263): Info (704,0)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 0)
+D/MstarPlayer(  744): percent: 0
+W/MediaPlayer( 2263): info/warning (704, 0)
+I/MediaPlayer.java( 2263): Info (704,0)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 0)
+D/MstarPlayer(  744): percent: 0
+W/MediaPlayer( 2263): info/warning (704, 0)
+I/MediaPlayer.java( 2263): Info (704,0)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 0)
+D/MstarPlayer(  744): percent: 0
+W/MediaPlayer( 2263): info/warning (704, 0)
+I/MediaPlayer.java( 2263): Info (704,0)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 0)
+D/MstarPlayer(  744): percent: 0
+W/MediaPlayer( 2263): info/warning (704, 0)
+I/MediaPlayer.java( 2263): Info (704,0)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 0)
+D/MstarPlayer(  744): percent: 0
+W/MediaPlayer( 2263): info/warning (704, 0)
+I/MediaPlayer.java( 2263): Info (704,0)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 0)
+D/MstarPlayer(  744): percent: 0
+W/MediaPlayer( 2263): info/warning (704, 0)
+I/MediaPlayer.java( 2263): Info (704,0)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 0)
+D/MstarPlayer(  744): percent: 0
+W/MediaPlayer( 2263): info/warning (704, 0)
+I/MediaPlayer.java( 2263): Info (704,0)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 0)
+D/MstarPlayer(  744): percent: 0
+W/MediaPlayer( 2263): info/warning (704, 0)
+I/MediaPlayer.java( 2263): Info (704,0)
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744):  Warnig::  getValidBufferLength()  <  Codec require !!!
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 0)
+D/MstarPlayer(  744): percent: 0
+W/MediaPlayer( 2263): info/warning (704, 0)
+I/MediaPlayer.java( 2263): Info (704,0)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 0)
+D/MstarPlayer(  744): percent: 0
+W/MediaPlayer( 2263): info/warning (704, 0)
+I/MediaPlayer.java( 2263): Info (704,0)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 0)
+D/MstarPlayer(  744): percent: 0
+W/MediaPlayer( 2263): info/warning (704, 0)
+I/MediaPlayer.java( 2263): Info (704,0)
+D/NetUpdate( 2235): progressValue--->0
+D/NetUpdate( 2235): mWriteSD--->true
+D/NetUpdate( 2235): mBootCheckZipExist--->false
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 0)
+D/MstarPlayer(  744): percent: 0
+W/MediaPlayer( 2263): info/warning (704, 0)
+I/MediaPlayer.java( 2263): Info (704,0)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 0)
+D/MstarPlayer(  744): percent: 0
+W/MediaPlayer( 2263): info/warning (704, 0)
+I/MediaPlayer.java( 2263): Info (704,0)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 0)
+D/MstarPlayer(  744): percent: 0
+W/MediaPlayer( 2263): info/warning (704, 0)
+I/MediaPlayer.java( 2263): Info (704,0)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 0)
+D/MstarPlayer(  744): percent: 0
+W/MediaPlayer( 2263): info/warning (704, 0)
+I/MediaPlayer.java( 2263): Info (704,0)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 0)
+D/MstarPlayer(  744): percent: 0
+W/MediaPlayer( 2263): info/warning (704, 0)
+I/MediaPlayer.java( 2263): Info (704,0)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 0)
+D/MstarPlayer(  744): percent: 0
+W/MediaPlayer( 2263): info/warning (704, 0)
+I/MediaPlayer.java( 2263): Info (704,0)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 0)
+D/MstarPlayer(  744): percent: 0
+W/MediaPlayer( 2263): info/warning (704, 0)
+I/MediaPlayer.java( 2263): Info (704,0)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 0)
+D/MstarPlayer(  744): percent: 0
+W/MediaPlayer( 2263): info/warning (704, 0)
+I/MediaPlayer.java( 2263): Info (704,0)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 0)
+D/MstarPlayer(  744): percent: 0
+W/MediaPlayer( 2263): info/warning (704, 0)
+I/MediaPlayer.java( 2263): Info (704,0)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 0)
+D/MstarPlayer(  744): percent: 0
+W/MediaPlayer( 2263): info/warning (704, 0)
+I/MediaPlayer.java( 2263): Info (704,0)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 1)
+D/MstarPlayer(  744): percent: 1
+W/MediaPlayer( 2263): info/warning (704, 1)
+I/MediaPlayer.java( 2263): Info (704,1)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 3)
+D/MstarPlayer(  744): percent: 3
+W/MediaPlayer( 2263): info/warning (704, 3)
+I/MediaPlayer.java( 2263): Info (704,3)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 3)
+D/MstarPlayer(  744): percent: 3
+W/MediaPlayer( 2263): info/warning (704, 3)
+I/MediaPlayer.java( 2263): Info (704,3)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 4)
+D/MstarPlayer(  744): percent: 4
+W/MediaPlayer( 2263): info/warning (704, 4)
+I/MediaPlayer.java( 2263): Info (704,4)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 5)
+D/MstarPlayer(  744): percent: 5
+W/MediaPlayer( 2263): info/warning (704, 5)
+I/MediaPlayer.java( 2263): Info (704,5)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 6)
+D/MstarPlayer(  744): percent: 6
+W/MediaPlayer( 2263): info/warning (704, 6)
+I/MediaPlayer.java( 2263): Info (704,6)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 7)
+D/MstarPlayer(  744): percent: 7
+W/MediaPlayer( 2263): info/warning (704, 7)
+I/MediaPlayer.java( 2263): Info (704,7)
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744):  Warnig::  getValidBufferLength()  <  Codec require !!!
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 7)
+D/MstarPlayer(  744): percent: 7
+W/MediaPlayer( 2263): info/warning (704, 7)
+I/MediaPlayer.java( 2263): Info (704,7)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 8)
+D/MstarPlayer(  744): percent: 8
+W/MediaPlayer( 2263): info/warning (704, 8)
+I/MediaPlayer.java( 2263): Info (704,8)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 9)
+D/MstarPlayer(  744): percent: 9
+W/MediaPlayer( 2263): info/warning (704, 9)
+I/MediaPlayer.java( 2263): Info (704,9)
+D/NetUpdate( 2235): progressValue--->0
+D/NetUpdate( 2235): mWriteSD--->true
+D/NetUpdate( 2235): mBootCheckZipExist--->false
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 10)
+D/MstarPlayer(  744): percent: 10
+W/MediaPlayer( 2263): info/warning (704, 10)
+I/MediaPlayer.java( 2263): Info (704,10)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 11)
+D/MstarPlayer(  744): percent: 11
+W/MediaPlayer( 2263): info/warning (704, 11)
+I/MediaPlayer.java( 2263): Info (704,11)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 12)
+D/MstarPlayer(  744): percent: 12
+W/MediaPlayer( 2263): info/warning (704, 12)
+I/MediaPlayer.java( 2263): Info (704,12)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 12)
+D/MstarPlayer(  744): percent: 12
+W/MediaPlayer( 2263): info/warning (704, 12)
+I/MediaPlayer.java( 2263): Info (704,12)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 13)
+D/MstarPlayer(  744): percent: 13
+W/MediaPlayer( 2263): info/warning (704, 13)
+I/MediaPlayer.java( 2263): Info (704,13)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 14)
+D/MstarPlayer(  744): percent: 14
+W/MediaPlayer( 2263): info/warning (704, 14)
+I/MediaPlayer.java( 2263): Info (704,14)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 15)
+D/MstarPlayer(  744): percent: 15
+W/MediaPlayer( 2263): info/warning (704, 15)
+I/MediaPlayer.java( 2263): Info (704,15)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 16)
+D/MstarPlayer(  744): percent: 16
+W/MediaPlayer( 2263): info/warning (704, 16)
+I/MediaPlayer.java( 2263): Info (704,16)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 17)
+D/MstarPlayer(  744): percent: 17
+W/MediaPlayer( 2263): info/warning (704, 17)
+I/MediaPlayer.java( 2263): Info (704,17)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 18)
+D/MstarPlayer(  744): percent: 18
+W/MediaPlayer( 2263): info/warning (704, 18)
+I/MediaPlayer.java( 2263): Info (704,18)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 19)
+D/MstarPlayer(  744): percent: 19
+W/MediaPlayer( 2263): info/warning (704, 19)
+I/MediaPlayer.java( 2263): Info (704,19)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 20)
+D/MstarPlayer(  744): percent: 20
+W/MediaPlayer( 2263): info/warning (704, 20)
+I/MediaPlayer.java( 2263): Info (704,20)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 21)
+D/MstarPlayer(  744): percent: 21
+W/MediaPlayer( 2263): info/warning (704, 21)
+I/MediaPlayer.java( 2263): Info (704,21)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 22)
+D/MstarPlayer(  744): percent: 22
+W/MediaPlayer( 2263): info/warning (704, 22)
+I/MediaPlayer.java( 2263): Info (704,22)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 22)
+D/MstarPlayer(  744): percent: 22
+W/MediaPlayer( 2263): info/warning (704, 22)
+I/MediaPlayer.java( 2263): Info (704,22)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 23)
+D/MstarPlayer(  744): percent: 23
+W/MediaPlayer( 2263): info/warning (704, 23)
+I/MediaPlayer.java( 2263): Info (704,23)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 24)
+D/MstarPlayer(  744): percent: 24
+W/MediaPlayer( 2263): info/warning (704, 24)
+I/MediaPlayer.java( 2263): Info (704,24)
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744):  Warnig::  getValidBufferLength()  <  Codec require !!!
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 24)
+D/MstarPlayer(  744): percent: 24
+W/MediaPlayer( 2263): info/warning (704, 24)
+I/MediaPlayer.java( 2263): Info (704,24)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 26)
+D/MstarPlayer(  744): percent: 26
+W/MediaPlayer( 2263): info/warning (704, 26)
+I/MediaPlayer.java( 2263): Info (704,26)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 27)
+D/MstarPlayer(  744): percent: 27
+W/MediaPlayer( 2263): info/warning (704, 27)
+I/MediaPlayer.java( 2263): Info (704,27)
+D/NetUpdate( 2235): progressValue--->0
+D/NetUpdate( 2235): mWriteSD--->true
+D/NetUpdate( 2235): mBootCheckZipExist--->false
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 27)
+D/MstarPlayer(  744): percent: 27
+W/MediaPlayer( 2263): info/warning (704, 27)
+I/MediaPlayer.java( 2263): Info (704,27)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 28)
+D/MstarPlayer(  744): percent: 28
+W/MediaPlayer( 2263): info/warning (704, 28)
+I/MediaPlayer.java( 2263): Info (704,28)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 29)
+D/MstarPlayer(  744): percent: 29
+W/MediaPlayer( 2263): info/warning (704, 29)
+I/MediaPlayer.java( 2263): Info (704,29)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 30)
+D/MstarPlayer(  744): percent: 30
+W/MediaPlayer( 2263): info/warning (704, 30)
+I/MediaPlayer.java( 2263): Info (704,30)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 31)
+D/MstarPlayer(  744): percent: 31
+W/MediaPlayer( 2263): info/warning (704, 31)
+I/MediaPlayer.java( 2263): Info (704,31)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 32)
+D/MstarPlayer(  744): percent: 32
+W/MediaPlayer( 2263): info/warning (704, 32)
+I/MediaPlayer.java( 2263): Info (704,32)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 32)
+D/MstarPlayer(  744): percent: 32
+W/MediaPlayer( 2263): info/warning (704, 32)
+I/MediaPlayer.java( 2263): Info (704,32)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 33)
+D/MstarPlayer(  744): percent: 33
+W/MediaPlayer( 2263): info/warning (704, 33)
+I/MediaPlayer.java( 2263): Info (704,33)
+D/dalvikvm( 1378): GC_CONCURRENT freed 476K, 76% free 1423K/5827K, paused 2ms+2ms
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 34)
+D/MstarPlayer(  744): percent: 34
+W/MediaPlayer( 2263): info/warning (704, 34)
+I/MediaPlayer.java( 2263): Info (704,34)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 36)
+D/MstarPlayer(  744): percent: 36
+W/MediaPlayer( 2263): info/warning (704, 36)
+I/MediaPlayer.java( 2263): Info (704,36)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 37)
+D/MstarPlayer(  744): percent: 37
+W/MediaPlayer( 2263): info/warning (704, 37)
+I/MediaPlayer.java( 2263): Info (704,37)
+D/dalvikvm( 1378): GC_CONCURRENT freed 486K, 77% free 1367K/5827K, paused 1ms+2ms
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 37)
+D/MstarPlayer(  744): percent: 37
+W/MediaPlayer( 2263): info/warning (704, 37)
+I/MediaPlayer.java( 2263): Info (704,37)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 38)
+D/MstarPlayer(  744): percent: 38
+W/MediaPlayer( 2263): info/warning (704, 38)
+I/MediaPlayer.java( 2263): Info (704,38)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 39)
+D/MstarPlayer(  744): percent: 39
+W/MediaPlayer( 2263): info/warning (704, 39)
+I/MediaPlayer.java( 2263): Info (704,39)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 40)
+D/MstarPlayer(  744): percent: 40
+W/MediaPlayer( 2263): info/warning (704, 40)
+I/MediaPlayer.java( 2263): Info (704,40)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 41)
+D/MstarPlayer(  744): percent: 41
+W/MediaPlayer( 2263): info/warning (704, 41)
+I/MediaPlayer.java( 2263): Info (704,41)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 41)
+D/MstarPlayer(  744): percent: 41
+W/MediaPlayer( 2263): info/warning (704, 41)
+I/MediaPlayer.java( 2263): Info (704,41)
+D/dalvikvm( 1378): GC_CONCURRENT freed 445K, 78% free 1334K/5827K, paused 1ms+1ms
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744):  Warnig::  getValidBufferLength()  <  Codec require !!!
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 41)
+D/MstarPlayer(  744): percent: 41
+W/MediaPlayer( 2263): info/warning (704, 41)
+I/MediaPlayer.java( 2263): Info (704,41)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 43)
+D/MstarPlayer(  744): percent: 43
+W/MediaPlayer( 2263): info/warning (704, 43)
+I/MediaPlayer.java( 2263): Info (704,43)
+D/NetUpdate( 2235): progressValue--->0
+D/NetUpdate( 2235): mWriteSD--->true
+D/NetUpdate( 2235): mBootCheckZipExist--->false
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 44)
+D/MstarPlayer(  744): percent: 44
+W/MediaPlayer( 2263): info/warning (704, 44)
+I/MediaPlayer.java( 2263): Info (704,44)
+D/dalvikvm( 1378): GC_CONCURRENT freed 409K, 76% free 1426K/5827K, paused 0ms+1ms
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 45)
+D/MstarPlayer(  744): percent: 45
+W/MediaPlayer( 2263): info/warning (704, 45)
+I/MediaPlayer.java( 2263): Info (704,45)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 46)
+D/MstarPlayer(  744): percent: 46
+W/MediaPlayer( 2263): info/warning (704, 46)
+I/MediaPlayer.java( 2263): Info (704,46)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 47)
+D/MstarPlayer(  744): percent: 47
+W/MediaPlayer( 2263): info/warning (704, 47)
+I/MediaPlayer.java( 2263): Info (704,47)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 47)
+D/MstarPlayer(  744): percent: 47
+W/MediaPlayer( 2263): info/warning (704, 47)
+I/MediaPlayer.java( 2263): Info (704,47)
+D/dalvikvm( 1378): GC_CONCURRENT freed 502K, 78% free 1336K/5827K, paused 1ms+2ms
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 48)
+D/MstarPlayer(  744): percent: 48
+W/MediaPlayer( 2263): info/warning (704, 48)
+I/MediaPlayer.java( 2263): Info (704,48)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 49)
+D/MstarPlayer(  744): percent: 49
+W/MediaPlayer( 2263): info/warning (704, 49)
+I/MediaPlayer.java( 2263): Info (704,49)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 50)
+D/MstarPlayer(  744): percent: 50
+W/MediaPlayer( 2263): info/warning (704, 50)
+I/MediaPlayer.java( 2263): Info (704,50)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 51)
+D/MstarPlayer(  744): percent: 51
+W/MediaPlayer( 2263): info/warning (704, 51)
+I/MediaPlayer.java( 2263): Info (704,51)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 52)
+D/MstarPlayer(  744): percent: 52
+W/MediaPlayer( 2263): info/warning (704, 52)
+I/MediaPlayer.java( 2263): Info (704,52)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 53)
+D/MstarPlayer(  744): percent: 53
+W/MediaPlayer( 2263): info/warning (704, 53)
+I/MediaPlayer.java( 2263): Info (704,53)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 54)
+D/MstarPlayer(  744): percent: 54
+W/MediaPlayer( 2263): info/warning (704, 54)
+I/MediaPlayer.java( 2263): Info (704,54)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 55)
+D/MstarPlayer(  744): percent: 55
+W/MediaPlayer( 2263): info/warning (704, 55)
+I/MediaPlayer.java( 2263): Info (704,55)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 56)
+D/MstarPlayer(  744): percent: 56
+W/MediaPlayer( 2263): info/warning (704, 56)
+I/MediaPlayer.java( 2263): Info (704,56)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 57)
+W/MediaPlayer( 2263): info/warning (704, 57)
+I/MediaPlayer.java( 2263): Info (704,57)
+D/MstarPlayer(  744): percent: 57
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 57)
+D/MstarPlayer(  744): percent: 57
+W/MediaPlayer( 2263): info/warning (704, 57)
+I/MediaPlayer.java( 2263): Info (704,57)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 58)
+D/MstarPlayer(  744): percent: 58
+W/MediaPlayer( 2263): info/warning (704, 58)
+I/MediaPlayer.java( 2263): Info (704,58)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 59)
+D/MstarPlayer(  744): percent: 59
+W/MediaPlayer( 2263): info/warning (704, 59)
+I/MediaPlayer.java( 2263): Info (704,59)
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744):  Warnig::  getValidBufferLength()  <  Codec require !!!
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 60)
+D/MstarPlayer(  744): percent: 60
+W/MediaPlayer( 2263): info/warning (704, 60)
+I/MediaPlayer.java( 2263): Info (704,60)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 61)
+D/MstarPlayer(  744): percent: 61
+W/MediaPlayer( 2263): info/warning (704, 61)
+I/MediaPlayer.java( 2263): Info (704,61)
+D/NetUpdate( 2235): progressValue--->0
+D/NetUpdate( 2235): mWriteSD--->true
+D/NetUpdate( 2235): mBootCheckZipExist--->false
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 62)
+D/MstarPlayer(  744): percent: 62
+W/MediaPlayer( 2263): info/warning (704, 62)
+I/MediaPlayer.java( 2263): Info (704,62)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 63)
+D/MstarPlayer(  744): percent: 63
+W/MediaPlayer( 2263): info/warning (704, 63)
+I/MediaPlayer.java( 2263): Info (704,63)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 63)
+D/MstarPlayer(  744): percent: 63
+W/MediaPlayer( 2263): info/warning (704, 63)
+I/MediaPlayer.java( 2263): Info (704,63)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 64)
+D/MstarPlayer(  744): percent: 64
+W/MediaPlayer( 2263): info/warning (704, 64)
+I/MediaPlayer.java( 2263): Info (704,64)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 65)
+D/MstarPlayer(  744): percent: 65
+W/MediaPlayer( 2263): info/warning (704, 65)
+I/MediaPlayer.java( 2263): Info (704,65)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 66)
+D/MstarPlayer(  744): percent: 66
+W/MediaPlayer( 2263): info/warning (704, 66)
+I/MediaPlayer.java( 2263): Info (704,66)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 67)
+D/MstarPlayer(  744): percent: 67
+W/MediaPlayer( 2263): info/warning (704, 67)
+I/MediaPlayer.java( 2263): Info (704,67)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 68)
+D/MstarPlayer(  744): percent: 68
+W/MediaPlayer( 2263): info/warning (704, 68)
+I/MediaPlayer.java( 2263): Info (704,68)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 69)
+D/MstarPlayer(  744): percent: 69
+W/MediaPlayer( 2263): info/warning (704, 69)
+I/MediaPlayer.java( 2263): Info (704,69)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 70)
+D/MstarPlayer(  744): percent: 70
+W/MediaPlayer( 2263): info/warning (704, 70)
+I/MediaPlayer.java( 2263): Info (704,70)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 70)
+D/MstarPlayer(  744): percent: 70
+W/MediaPlayer( 2263): info/warning (704, 70)
+I/MediaPlayer.java( 2263): Info (704,70)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 71)
+D/MstarPlayer(  744): percent: 71
+W/MediaPlayer( 2263): info/warning (704, 71)
+I/MediaPlayer.java( 2263): Info (704,71)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 72)
+D/MstarPlayer(  744): percent: 72
+W/MediaPlayer( 2263): info/warning (704, 72)
+I/MediaPlayer.java( 2263): Info (704,72)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 73)
+D/MstarPlayer(  744): percent: 73
+W/MediaPlayer( 2263): info/warning (704, 73)
+I/MediaPlayer.java( 2263): Info (704,73)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 74)
+D/MstarPlayer(  744): percent: 74
+W/MediaPlayer( 2263): info/warning (704, 74)
+I/MediaPlayer.java( 2263): Info (704,74)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 75)
+D/MstarPlayer(  744): percent: 75
+W/MediaPlayer( 2263): info/warning (704, 75)
+I/MediaPlayer.java( 2263): Info (704,75)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 76)
+D/MstarPlayer(  744): percent: 76
+W/MediaPlayer( 2263): info/warning (704, 76)
+I/MediaPlayer.java( 2263): Info (704,76)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 77)
+D/MstarPlayer(  744): percent: 77
+W/MediaPlayer( 2263): info/warning (704, 77)
+I/MediaPlayer.java( 2263): Info (704,77)
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744):  Warnig::  getValidBufferLength()  <  Codec require !!!
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 78)
+D/MstarPlayer(  744): percent: 78
+W/MediaPlayer( 2263): info/warning (704, 78)
+I/MediaPlayer.java( 2263): Info (704,78)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 78)
+D/MstarPlayer(  744): percent: 78
+W/MediaPlayer( 2263): info/warning (704, 78)
+I/MediaPlayer.java( 2263): Info (704,78)
+D/NetUpdate( 2235): progressValue--->0
+D/NetUpdate( 2235): mWriteSD--->true
+D/NetUpdate( 2235): mBootCheckZipExist--->false
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 79)
+D/MstarPlayer(  744): percent: 79
+W/MediaPlayer( 2263): info/warning (704, 79)
+I/MediaPlayer.java( 2263): Info (704,79)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 80)
+D/MstarPlayer(  744): percent: 80
+W/MediaPlayer( 2263): info/warning (704, 80)
+I/MediaPlayer.java( 2263): Info (704,80)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 81)
+D/MstarPlayer(  744): percent: 81
+W/MediaPlayer( 2263): info/warning (704, 81)
+I/MediaPlayer.java( 2263): Info (704,81)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 82)
+D/MstarPlayer(  744): percent: 82
+W/MediaPlayer( 2263): info/warning (704, 82)
+I/MediaPlayer.java( 2263): Info (704,82)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 83)
+D/MstarPlayer(  744): percent: 83
+W/MediaPlayer( 2263): info/warning (704, 83)
+I/MediaPlayer.java( 2263): Info (704,83)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 83)
+D/MstarPlayer(  744): percent: 83
+W/MediaPlayer( 2263): info/warning (704, 83)
+I/MediaPlayer.java( 2263): Info (704,83)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 84)
+D/MstarPlayer(  744): percent: 84
+W/MediaPlayer( 2263): info/warning (704, 84)
+I/MediaPlayer.java( 2263): Info (704,84)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 85)
+D/MstarPlayer(  744): percent: 85
+W/MediaPlayer( 2263): info/warning (704, 85)
+I/MediaPlayer.java( 2263): Info (704,85)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 86)
+D/MstarPlayer(  744): percent: 86
+W/MediaPlayer( 2263): info/warning (704, 86)
+I/MediaPlayer.java( 2263): Info (704,86)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 87)
+D/MstarPlayer(  744): percent: 87
+W/MediaPlayer( 2263): info/warning (704, 87)
+I/MediaPlayer.java( 2263): Info (704,87)
+D/dalvikvm( 1378): GC_CONCURRENT freed 418K, 78% free 1307K/5827K, paused 1ms+1ms
+D/HomePlayerLib( 1378): hostaddress count is 2
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 88)
+D/MstarPlayer(  744): percent: 88
+W/MediaPlayer( 2263): info/warning (704, 88)
+I/MediaPlayer.java( 2263): Info (704,88)
+D/dalvikvm( 1378): GC_CONCURRENT freed 394K, 78% free 1317K/5827K, paused 1ms+1ms
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 89)
+D/MstarPlayer(  744): percent: 89
+W/MediaPlayer( 2263): info/warning (704, 89)
+I/MediaPlayer.java( 2263): Info (704,89)
+D/dalvikvm( 1378): GC_CONCURRENT freed 403K, 78% free 1306K/5827K, paused 1ms+1ms
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 90)
+D/MstarPlayer(  744): percent: 90
+W/MediaPlayer( 2263): info/warning (704, 90)
+I/MediaPlayer.java( 2263): Info (704,90)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 91)
+D/MstarPlayer(  744): percent: 91
+W/MediaPlayer( 2263): info/warning (704, 91)
+I/MediaPlayer.java( 2263): Info (704,91)
+D/dalvikvm( 1378): GC_CONCURRENT freed 378K, 78% free 1323K/5827K, paused 8ms+1ms
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 92)
+D/MstarPlayer(  744): percent: 92
+W/MediaPlayer( 2263): info/warning (704, 92)
+I/MediaPlayer.java( 2263): Info (704,92)
+D/dalvikvm( 1378): GC_CONCURRENT freed 390K, 78% free 1326K/5827K, paused 1ms+1ms
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 93)
+D/MstarPlayer(  744): percent: 93
+W/MediaPlayer( 2263): info/warning (704, 93)
+I/MediaPlayer.java( 2263): Info (704,93)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 93)
+D/MstarPlayer(  744): percent: 93
+W/MediaPlayer( 2263): info/warning (704, 93)
+I/MediaPlayer.java( 2263): Info (704,93)
+D/dalvikvm( 1378): GC_CONCURRENT freed 390K, 78% free 1325K/5827K, paused 2ms+1ms
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 94)
+D/MstarPlayer(  744): percent: 94
+W/MediaPlayer( 2263): info/warning (704, 94)
+I/MediaPlayer.java( 2263): Info (704,94)
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744):  Warnig::  getValidBufferLength()  <  Codec require !!!
+D/dalvikvm( 1378): GC_CONCURRENT freed 393K, 78% free 1323K/5827K, paused 1ms+1ms
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 94)
+D/MstarPlayer(  744): percent: 94
+W/MediaPlayer( 2263): info/warning (704, 94)
+I/MediaPlayer.java( 2263): Info (704,94)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 96)
+D/MstarPlayer(  744): percent: 96
+W/MediaPlayer( 2263): info/warning (704, 96)
+I/MediaPlayer.java( 2263): Info (704,96)
+D/NetUpdate( 2235): progressValue--->0
+D/NetUpdate( 2235): mWriteSD--->true
+D/NetUpdate( 2235): mBootCheckZipExist--->false
+D/dalvikvm( 1378): GC_CONCURRENT freed 390K, 77% free 1371K/5827K, paused 1ms+1ms
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 97)
+D/MstarPlayer(  744): percent: 97
+W/MediaPlayer( 2263): info/warning (704, 97)
+I/MediaPlayer.java( 2263): Info (704,97)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 98)
+D/MstarPlayer(  744): percent: 98
+W/MediaPlayer( 2263): info/warning (704, 98)
+I/MediaPlayer.java( 2263): Info (704,98)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 99)
+D/MstarPlayer(  744): percent: 99
+W/MediaPlayer( 2263): info/warning (704, 99)
+I/MediaPlayer.java( 2263): Info (704,99)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 704, 99)
+D/MstarPlayer(  744): percent: 99
+W/MediaPlayer( 2263): info/warning (704, 99)
+I/MediaPlayer.java( 2263): Info (704,99)
+D/dalvikvm( 1378): GC_CONCURRENT freed 454K, 78% free 1323K/5827K, paused 1ms+2ms
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 32774, 0)
+D/MediaPlayerService(  744): [8] notify (0x30d88, 200, 702, 0)
+D/MstarPlayer(  744): MstarPlayer:: send MEDIA_INFO_BUFFERING_END 
+D/MstarPlayer(  744): 
+D/IMMPlayer(  744): Send MM_SetTrickMode
+D/IMMPlayer(  744): u32Item:1
+D/IMMPlayer(  744): stTrickInfo->eMode:0
+D/IMMPlayer(  744): stTrickInfo->eSpeed:1
+W/MediaPlayer( 2263): info/warning (32774, 0)
+W/MediaPlayer( 2263): info/warning (702, 0)
+I/MediaPlayer.java( 2263): Info (32774,0)
+I/VideoPlayer( 2263): 鏁版嵁瀹屾垚銆傘€傘€傘€
+D/seekOnLoading( 2263): seekOnLoading timer is cancle!
+D/IMMPlayer(  744): Get ret:0
+I/MediaPlayer.java( 2263): Info (702,0)
+I//lib/ld-linux.so.3(  748): 1. Mode: 0, Speed: 1.
+I//lib/ld-linux.so.3(  748): SetTrickMode, Mode: 0, Speed: 1.
+I//lib/ld-linux.so.3(  748): Send to Co-processor: eMode: 0, eSpeed: 1.
+D/dalvikvm( 1378): GC_CONCURRENT freed 365K, 75% free 1469K/5827K, paused 1ms+1ms
+D/dalvikvm( 1378): GC_CONCURRENT freed 547K, 76% free 1424K/5827K, paused 1ms+1ms
+D/dalvikvm( 1378): GC_CONCURRENT freed 496K, 76% free 1439K/5827K, paused 1ms+1ms
+D/dalvikvm( 1378): GC_CONCURRENT freed 517K, 76% free 1422K/5827K, paused 1ms+1ms
+D/dalvikvm( 1378): GC_CONCURRENT freed 487K, 78% free 1329K/5827K, paused 1ms+1ms
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744):  Warnig::  getValidBufferLength()  <  Codec require !!!
+D/dalvikvm( 1378): GC_CONCURRENT freed 413K, 76% free 1420K/5827K, paused 1ms+1ms
+D/MstarPlayer(  744): Get Others event : 22
+I//lib/ld-linux.so.3(  748): FrmCnt:5173(0,93,381) Rate:0 Sys:2411414 STC:807218 VPTS:806560 APTS:806948 Delay:-618(40) V:24 A:24 VES:0x990 AES:0x0 PCM:0x0 AudioErr:0x0
+D/NetUpdate( 2235): progressValue--->0
+D/NetUpdate( 2235): mWriteSD--->true
+D/NetUpdate( 2235): mBootCheckZipExist--->false
+D/dalvikvm( 1378): GC_CONCURRENT freed 492K, 77% free 1364K/5827K, paused 2ms+2ms
+I//lib/ld-linux.so.3(  748): Old STC: 0x000c51b1, PTS: 0x000c50a0, Diff: 0x00000111
+D/dalvikvm( 1378): GC_CONCURRENT freed 434K, 76% free 1407K/5827K, paused 1ms+1ms
+D/dalvikvm( 1378): GC_CONCURRENT freed 486K, 76% free 1420K/5827K, paused 1ms+1ms
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744):  Warnig::  getValidBufferLength()  <  Codec require !!!
+D/NetUpdate( 2235): progressValue--->0
+D/NetUpdate( 2235): mWriteSD--->true
+D/NetUpdate( 2235): mBootCheckZipExist--->false
+I//lib/ld-linux.so.3(  748): FrmCnt:5222(0,96,390) Rate:31 Sys:2412949 STC:808479 VPTS:808480 APTS:808477 Delay:41(40) V:0 A:0 VES:0x46430 AES:0xa70 PCM:0x4b400 AudioErr:0x0
+D/dalvikvm( 1378): GC_CONCURRENT freed 489K, 76% free 1418K/5827K, paused 1ms+1ms
+D/dalvikvm( 1378): GC_CONCURRENT freed 501K, 77% free 1340K/5827K, paused 2ms+1ms
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744):  Warnig::  getValidBufferLength()  <  Codec require !!!
+D/dalvikvm( 1378): GC_CONCURRENT freed 418K, 77% free 1379K/5827K, paused 1ms+2ms
+D/NetUpdate( 2235): progressValue--->0
+D/NetUpdate( 2235): mWriteSD--->true
+D/NetUpdate( 2235): mBootCheckZipExist--->false
+^C

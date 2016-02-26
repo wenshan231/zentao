@@ -1,0 +1,1099 @@
+
+130|shell@android:/ # 
+130|shell@android:/ # su
+shell@android:/ # 
+shell@android:/ # logcat
+--------- beginning of /dev/log/system
+W/PackageParser(  954): No actions in intent filter at /system/app/com.coship.startwizard.apk Binary XML file line #91
+W/PackageParser(  954): No actions in intent filter at /system/app/com.coship.startwizard.apk Binary XML file line #98
+W/PackageParser(  954): No actions in intent filter at /system/app/com.coship.startwizard.apk Binary XML file line #106
+W/PackageParser(  954): No actions in intent filter at /system/app/com.coship.startwizard.apk Binary XML file line #113
+I/Installer(  954): connecting...
+I/PackageManager(  954): Time to scan packages: 2.624 seconds
+W/PackageManager(  954): Unknown permission android.permission.APPWIDGET_LIST in package com.iflytek.vaf
+W/PackageManager(  954): Unknown permission android.permission.APPWIDGET_LIST in package com.biaoqi.stbwidget.host
+W/PackageManager(  954): Unknown permission android.permission.APPWIDGET_LIST in package com.mstar.appwidget
+W/PackageManager(  954): Unknown permission android.permission.ADD_SYSTEM_SERVICE in package com.coship.sdp.sce.tvappstore
+W/PackageManager(  954): Unknown permission android.permission.READ_EXTERNAL_STORAGE in package com.coship.sdp.sce.tvappstore
+W/PackageManager(  954): Unknown permission com.google.android.gm.permission.WRITE_GMAIL in package com.coship.sdp.sce.tvappstore
+W/PackageManager(  954): Unknown permission com.google.android.gm.permission.READ_GMAIL in package com.coship.sdp.sce.tvappstore
+W/PackageManager(  954): Unknown permission com.google.android.gm.permission.WRITE_GMAIL in package com.coship.app.vaf
+W/PackageManager(  954): Unknown permission com.google.android.gm.permission.READ_GMAIL in package com.coship.app.vaf
+W/PackageManager(  954): Unknown permission com.google.android.gm.permission.WRITE_GMAIL in package com.coship.TestApp
+W/PackageManager(  954): Unknown permission com.google.android.gm.permission.READ_GMAIL in package com.coship.TestApp
+W/PackageManager(  954): Unknown permission android.permission.WRITE_OWNER_DATA in package com.iflytek.speech
+W/PackageManager(  954): Unknown permission android.permission.BAIDU_LOCATION_SERVICE in package com.iflytek.speech
+W/PackageManager(  954): Unknown permission com.google.android.gm.permission.WRITE_GMAIL in package com.ts.gaya.coship
+W/PackageManager(  954): Unknown permission com.google.android.gm.permission.READ_GMAIL in package com.ts.gaya.coship
+W/PackageManager(  954): Unknown permission android.permission.APPWIDGET_LIST in package com.iflytek.xiri.recorder.svc
+W/PackageManager(  954): Unknown permission android.permission.ADD_SYSTEM_SERVICE in package com.coship.netfirmware
+W/PackageManager(  954): Unknown permission android.permission.READ_SETTINGS in package com.android.settings
+W/PackageManager(  954): Unknown permission com.android.permission.READ_LOGS in package cn.tvbox
+W/PackageManager(  954): Not granting permission android.permission.DEVICE_POWER to package cn.tvbox (protectionLevel=2 flags=0xbe45)
+W/PackageManager(  954): Unknown permission android.webkit.permission.PLUGIN in package com.adobe.flashplayer
+W/PackageManager(  954): Unknown permission android.permission.READ_OWNER_DATA in package com.adobe.flashplayer
+W/PackageManager(  954): Unknown permission android.permission.WRITE_OWNER_DATA in package com.adobe.flashplayer
+W/PackageManager(  954): Unknown permission android.permission.READ_EXTERNAL_STORAGE in package com.adobe.flashplayer
+W/PackageManager(  954): Not granting permission android.permission.DIAGNOSTIC to package com.sihuatech.wasutv4ics (protectionLevel=2 flags=0xbe45)
+W/PackageManager(  954): Unknown permission android.permission.ACCESS_COARSE_UPDATES in package com.sihuatech.wasutv4ics
+W/PackageManager(  954): Unknown permission android.permission.READ_OWNER_DATA in package com.sihuatech.wasutv4ics
+W/PackageManager(  954): Unknown permission android.permission.WRITE_OWNER_DATA in package com.sihuatech.wasutv4ics
+W/PackageManager(  954): Not granting permission android.permission.CLEAR_APP_USER_DATA to package com.sihuatech.wasutv4ics (protectionLevel=2 flags=0xbe45)
+W/PackageManager(  954): Not granting permission android.permission.INJECT_EVENTS to package com.sihuatech.wasutv4ics (protectionLevel=2 flags=0xbe45)
+W/PackageManager(  954): Not granting permission android.permission.DEVICE_POWER to package com.sihuatech.wasutv4ics (protectionLevel=2 flags=0xbe45)
+W/PackageManager(  954): Unknown permission android.permission.WRITE_OWNER_DATA in package com.coship.Multimedia
+W/PackageManager(  954): Unknown permission android.permission.READ_OWNER_DATA in package com.coship.Multimedia
+W/PackageManager(  954): Unknown permission android.permission.WRITE_OWNER_DATA in package com.coship.NetworkNavigation
+W/PackageManager(  954): Unknown permission android.permission.READ_OWNER_DATA in package com.coship.NetworkNavigation
+I/SystemServer(  954): Account Manager
+I/SystemServer(  954): Content Manager
+I/SystemServer(  954): System Content Providers
+I/SystemServer(  954): Lights Service
+I/SystemServer(  954): Battery Service
+I/SystemServer(  954): Pppoe Service
+I/SystemServer(  954): Vibrator Service
+I/SystemServer(  954): Alarm Manager
+I/SystemServer(  954): Init Watchdog
+I/SystemServer(  954): Window Manager
+I/InputManager(  954): Initializing input manager
+W/StatusBarManager(  954): warning: no STATUS_BAR_SERVICE
+I/InputManager(  954): Starting input manager
+I/WindowManager(  954): Enabled StrictMode logging for WMThread's Looper
+I/SystemServer(  954): Bluetooth Service
+I/WindowManager(  954): Enabled StrictMode for PolicyThread's Looper
+I/SystemServer(  954): Input Method Service
+W/InputManagerService(  954): Couldn't create dir.: /data/system/inputmethod
+I/SystemServer(  954): Accessibility Manager
+I/ActivityManager(  954): Config changed: {1.0 0mcc0mnc zh_CN layoutdir=0 sw720dp w1280dp h720dp xlrg long land ?uimode ?night -touch -keyb/v/h -nav/h s.2}
+I/SystemServer(  954): TV
+I/SystemServer(  954): Device Policy
+I/SystemServer(  954): Status Bar
+I/SystemServer(  954): Clipboard Service
+I/SystemServer(  954): NetworkManagement Service
+I/SystemServer(  954): Text Service Manager Service
+W/TextServicesManagerService(  954): no available spell checker services found
+I/SystemServer(  954): NetworkStats Service
+I/SystemServer(  954): NetworkPolicy Service
+I/SystemServer(  954): Wi-Fi P2pService
+D/WifiP2pService(  954): P2pDisabledState
+E/WifiP2pService(  954): Failed to reload sta firmware java.lang.NullPointerException
+I/SystemServer(  954): Wi-Fi Service
+D/WifiP2pService(  954): P2pDisabledState{ what=69633 when=0 }
+D/WifiP2pService(  954): DefaultState{ what=69633 when=0 }
+D/WifiP2pService(  954): P2pDisabledState{ what=69632 when=0 obj=com.android.internal.util.AsyncChannel@414ecaa8 }
+D/WifiP2pService(  954): DefaultState{ what=69632 when=-1ms obj=com.android.internal.util.AsyncChannel@414ecaa8 }
+D/WifiP2pService(  954): Full connection with WifiStateMachine established
+D/WifiP2pService(  954): P2pDisabledState{ what=69633 when=0 }
+D/WifiP2pService(  954): DefaultState{ what=69633 when=0 }
+D/WifiP2pService(  954): P2pDisabledState{ what=69632 when=0 obj=com.android.internal.util.AsyncChannel@41565098 }
+D/WifiP2pService(  954): DefaultState{ what=69632 when=0 obj=com.android.internal.util.AsyncChannel@41565098 }
+D/WifiP2pService(  954): Full connection with WifiStateMachine established
+I/SystemServer(  954): Connectivity Service
+D/ConnectivityService(  954): ConnectivityService starting up
+E/ConnectivityService(  954): Error in radioAttributes - ignoring attempt to redefine type 1
+D/ConnectivityService(  954): Starting Pppoe StateTracker
+D/ConnectivityService(  954): Starting Ethernet Service.
+V/EthernetStateTracker(  954): Ethernet State Tracker v1.0.6
+V/EthernetStateTracker(  954): successed to init device!
+I/EthernetService(  954): Ethernet dev enabled 2
+V/EthernetService(  954): device 0 name eth0
+V/EthernetStateTracker(  954): start to monitor the ethernet devices . . .
+V/EthernetMonitor(  954): go poll events
+I/EthernetManager(  954): Init Ethernet Manager, service: com.android.server.EthernetService@4150e608
+I/EthernetStateTracker(  954): reset device eth0
+I/EthernetStateTracker(  954): trigger dhcp for device eth0
+D/EthernetStateTracker(  954): DhcpHandler: DHCP request started
+I/EthernetStateTracker(  954): reset device eth0
+I/EthernetStateTracker(  954): trigger dhcp for device eth0
+E/MobileDataStateTracker(  954): default: Ignoring feature request because could not acquire PhoneService
+E/MobileDataStateTracker(  954): default: Could not enable APN type "default"
+D/NetworkManagementService(  954): Registering observer
+D/NetworkManagementService(  954): Registering observer
+I/WifiService(  954): WifiService starting up with Wi-Fi disabled
+I/WifiService(  954): WifiService starting up with Wi-Fi AP enabled
+D/WifiP2pService(  954): P2pDisabledState{ what=331907 when=0 }
+I/SystemServer(  954): Throttle Service
+I/SystemServer(  954): Mount Service
+D/MountService(  954): got storage path: /mnt/sdcard description: USB 存储�?primary: true removable: false emulated: false mtpReserve: 0 allowMassStorage: false maxFileSize: 0
+D/MountService(  954): mExternalStoragePath:/mnt/sdcard
+I/SystemServer(  954): Notification Manager
+I/SystemServer(  954): Device Storage Monitor
+I/SystemServer(  954): Location Manager
+D/VoldCmdListener(  738): volume list
+I/SystemServer(  954): Country Detector
+I/SystemServer(  954): Search Service
+I/SystemServer(  954): DropBox Service
+I/SystemServer(  954): Wallpaper Service
+I/SystemServer(  954): Audio Service
+V/EthernetMonitor(  954): get event 
+V/EthernetMonitor(  954): go poll events
+I/SystemServer(  954): Camera Observer
+I/SystemServer(  954): Microphone Observer
+I/SystemServer(  954): Wired Accessory Observer
+I/SystemServer(  954): USB Service
+I/SystemServer(  954): UI Mode Manager Service
+I/SystemServer(  954): Backup Service
+V/BackupManagerService(  954): Initializing package tracking
+V/BackupManagerService(  954): No ancestral data
+V/BackupManagerService(  954): addPackageParticipantsLocked: all
+I/BackupManagerService(  954): New app android never backed up; scheduling
+I/BackupManagerService(  954): New app com.android.browser never backed up; scheduling
+I/BackupManagerService(  954): New app com.android.providers.settings never backed up; scheduling
+I/BackupManagerService(  954): New app com.android.providers.userdictionary never backed up; scheduling
+I/BackupManagerService(  954): New app com.android.sharedstoragebackup never backed up; scheduling
+V/BackupManagerService(  954): Registering transport android/com.android.internal.backup.LocalTransport = com.android.internal.backup.LocalTransport@416237e8
+V/BackupManagerService(  954): Starting with transport android/com.android.internal.backup.LocalTransport
+V/BackupManagerService(  954): Google transport not present
+I/BackupManagerService(  954): Backup enabled => false
+I/BackupManagerService(  954): Opting out of backup
+I/SystemServer(  954): AppWidget Service
+I/SystemServer(  954): Recognition Service
+I/SystemServer(  954): DiskStats Service
+I/SystemServer(  954): SamplingProfiler Service
+I/SystemServer(  954): NetworkTimeUpdateService
+D/PowerManagerService(  954): system ready!
+I/ActivityManager(  954): System now ready
+I/SystemServer(  954): Making services ready
+I/ActivityManager(  954): Start proc com.mstar.dbprovider for content provider com.mstar.dbprovider/.MstTvUserSettingProvider: pid=1135 uid=10015 gids={}
+V/EthernetMonitor(  954): get event 
+V/EthernetMonitor(  954): go poll events
+V/EthernetMonitor(  954): get event 
+V/EthernetMonitor(  954): go poll events
+V/EthernetMonitor(  954): get event 
+V/EthernetMonitor(  954): go poll events
+I/ActivityManager(  954): Start proc com.aidufei.movieonline for broadcast com.aidufei.movieonline/com.aidufei.otoService.BootReceiver: pid=1154 uid=1000 gids={3003, 1015, 3002, 3001, 3004}
+D/SystemServer(  954): Starting service: Intent { cmp=com.android.systemui/.SystemUIService }
+I/ActivityManager(  954): Start proc com.android.systemui for service com.android.systemui/.SystemUIService: pid=1162 uid=1000 gids={3003, 1015, 3002, 3001, 3004}
+D/NetworkManagementService(  954): enabling bandwidth control
+D/SystemUIService( 1162): loading: class com.android.systemui.statusbar.tablet.TabletStatusBar
+D/SystemUIService( 1162): running: com.android.systemui.statusbar.tablet.TabletStatusBar@413afbf0
+I/ActivityManager(  954): Start proc com.coship.Multimedia for broadcast com.coship.Multimedia/.view.BootCompletedReceiver: pid=1199 uid=1000 gids={3003, 1015, 3002, 3001, 3004}
+W/ActivityManager(  954): Permission Denial: broadcasting Intent { act=android.net.conn.TETHER_STATE_CHANGED flg=0x30000000 (has extras) } from null (pid=-1, uid=-1) requires android.permission.CONNECTIVITY_INTERNAL due to registered receiver BroadcastFilter{415f4cd0 ReceiverList{415f52e8 954 system/1000 local:415fd160}}
+D/NetworkManagementService(  954): Registering observer
+D/NetworkManagementService(  954): Registering observer
+I/ActivityManager(  954): Config changed: {1.0 0mcc0mnc zh_CN layoutdir=0 sw720dp w1280dp h720dp xlrg long land -touch -keyb/v/h -nav/h s.3}
+W/RecognitionManagerService(  954): no available voice recognition services found
+W/InputManagerService(  954): Ignoring setImeWindowStatus of uid 1000 token: null
+I/ActivityManager(  954): Start proc com.android.inputmethod.pinyin for service com.android.inputmethod.pinyin/.PinyinIME: pid=1243 uid=10018 gids={3003}
+D/NetworkManagementService(  954): Registering observer
+I/SystemServer(  954): SIP Service
+W/ThrottleService(  954): unable to find stats for iface rmnet0
+I/ActivityManager(  954): Start proc com.coship.sdp.sce.tvappstore for added application com.coship.sdp.sce.tvappstore: pid=1265 uid=1000 gids={3003, 1015, 3002, 3001, 3004}
+I/ActivityManager(  954): Start proc com.coship.netfirmware for added application com.coship.netfirmware: pid=1278 uid=1000 gids={3003, 1015, 3002, 3001, 3004}
+I/ActivityManager(  954): Start proc com.iflytek.vaf.TouchKey for added application com.iflytek.vaf.TouchKey: pid=1296 uid=10029 gids={1015}
+I/ActivityManager(  954): START {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000000 cmp=com.ts.gaya.coship/.MainActivity} from pid 0
+I/ActivityManager(  954): Start proc com.ts.gaya.coship for activity com.ts.gaya.coship/.MainActivity: pid=1306 uid=10034 gids={3002, 3001, 3004, 3003, 1015}
+I/SystemServer(  954): Enabled StrictMode for system server main thread.
+I/EthernetStateTracker(  954): received interface reset event
+I/EthernetStateTracker(  954): reset device eth0
+I/EthernetStateTracker(  954): trigger dhcp for device eth0
+D/NetworkManagementService(  954): rsp <213 a4:a8:0f:ff:fe:96 0.0.0.0 0 [up broadcast running multicast]>
+D/NetworkManagementService(  954): flags <[up broadcast running multicast]>
+V/EthernetMonitor(  954): get event 
+V/EthernetMonitor(  954): go poll events
+I/StatusBar.HeightReceiver( 1162): Resizing status bar plugged=false height=48 old=0
+D/ConnectivityService(  954): special network not available
+I/MicrophoneObserver(  954): Microphone PLUG_IN
+V/EthernetMonitor(  954): get event eth0:16:
+V/EthernetMonitor(  954): dev: eth0 ev 16
+V/EthernetStateTracker(  954): report interface is up for eth0
+V/EthernetMonitor(  954): go poll events
+I/ActivityManager(  954): Start proc com.google.process.gapps for service com.google.android.location/.NetworkLocationService: pid=1365 uid=10010 gids={3003, 1015, 2001, 1007}
+W/MountService(  954): getVolumeState(/mnt/sdcard): Unknown volume
+W/MountService(  954): getVolumeState(/mnt/sdcard): Unknown volume
+I/EthernetStateTracker(  954): received interface up event, kick off connection request
+I/EthernetStateTracker(  954): IntentBroadcast, event=5
+I/EthernetStateTracker(  954): reset device eth0
+I/EthernetStateTracker(  954): trigger dhcp for device eth0
+E/EthernetStateTracker(  954): DhcpHandler: DHCP request failed: DHCP result was failed
+W/ActivityThread( 1365): ClassLoader.loadClass: The class loader returned by Thread.getContextClassLoader() may fail for processes that host multiple applications. You should explicitly specify a context class loader. For example: Thread.setContextClassLoader(getClass().getClassLoader());
+D/EthernetStateTracker(  954): DhcpHandler: DHCP request started
+I/EthernetStateTracker(  954): configureInterfaceAutoIP : ipaddr 169.254.1.29 gateway 0.0.0.0 netmask 255.255.0.0 dns1 0.0.0.0 dns2 0.0.0.0 DHCP server 0.0.0.0 lease 0 seconds
+V/EthernetMonitor(  954): get event eth0:20:
+V/EthernetMonitor(  954): dev: eth0 ev 20
+I/EthernetStateTracker(  954): report new state CONNECTED on dev eth0
+V/EthernetStateTracker(  954): update network state tracker
+V/EthernetStateTracker(  954): configureInterfaceAutoIP succeeded
+V/EthernetMonitor(  954): go poll events
+I/EthernetStateTracker(  954): received HW connected, stack=false CC=true
+I/StatusBarManagerService(  954): registerStatusBar bar=com.android.internal.statusbar.IStatusBar$Stub$Proxy@4158edd8
+D/SystemUIService( 1162): loading: class com.android.systemui.power.PowerUI
+D/SystemUIService( 1162): running: com.android.systemui.power.PowerUI@4145f618
+I/StatusBar.HeightReceiver( 1162): Resizing status bar plugged=false height=48 old=48
+I/StatusBar.HeightReceiver( 1162): Resizing status bar plugged=false height=48 old=48
+D/WifiService(  954): New client listening to asynchronous messages
+D/PowerManagerService(  954): bootCompleted
+V/DevicePolicyManagerService(  954): Sending password expiration notifications for action android.intent.action.BOOT_COMPLETED
+V/WiredAccessoryObserver(  954): init()
+W/WiredAccessoryObserver(  954): This kernel does not have wired headset support
+W/WiredAccessoryObserver(  954): This kernel does not have wired headset support
+W/WiredAccessoryObserver(  954): This kernel does not have wired headset support
+I/ActivityManager(  954): Start proc com.android.settings for broadcast com.android.settings/.SettingGlobalReceiver: pid=1435 uid=1000 gids={3003, 1015, 3002, 3001, 3004}
+I/ActivityManager(  954): Start proc com.biaoqi.stbwidget.host for broadcast com.biaoqi.stbwidget.host/.NetworkStatusChangeReceiver: pid=1465 uid=10026 gids={3003}
+V/TabletStatusBar( 1162): setLightsOn(true)
+I/ActivityManager(  954): Start proc com.android.contacts for broadcast com.android.contacts/.calllog.CallLogReceiver: pid=1479 uid=10000 gids={3003, 1015}
+I/ActivityManager(  954): Start proc com.coship.HS for broadcast com.coship.HS/.AutoStartReceiver: pid=1498 uid=1000 gids={3003, 1015, 3002, 3001, 3004}
+I/ActivityManager(  954): Start proc android.process.acore for content provider com.android.providers.contacts/.CallLogProvider: pid=1511 uid=10000 gids={3003, 1015}
+I/ActivityManager(  954): Start proc android.process.media for content provider com.android.providers.downloads/.DownloadProvider: pid=1524 uid=10009 gids={1015, 1023, 1024, 2001, 3003, 3007}
+I/ActivityManager(  954): Start proc com.android.providers.calendar for broadcast com.android.providers.calendar/.CalendarReceiver: pid=1548 uid=10004 gids={3003, 1015}
+W/MountService(  954): getVolumeState(/mnt/sdcard): Unknown volume
+V/EthernetMonitor(  954): get event eth0:21:
+V/EthernetMonitor(  954): dev: eth0 ev 21
+V/EthernetStateTracker(  954): report address is removed for eth0
+V/EthernetMonitor(  954): go poll events
+I/EthernetStateTracker(  954): received interface address remove event
+V/EthernetMonitor(  954): get event eth0:20:
+V/EthernetMonitor(  954): dev: eth0 ev 20
+I/EthernetStateTracker(  954): report new state CONNECTED on dev eth0
+V/EthernetStateTracker(  954): update network state tracker
+V/EthernetStateTracker(  954): getEthernetIPAddr : 192.168.1.120
+V/EthernetStateTracker(  954): configureInterfaceAutoIP skip!!
+V/EthernetMonitor(  954): go poll events
+I/EthernetStateTracker(  954): received HW connected, stack=true CC=true
+W/ProcessStats(  954): Skipping unknown process pid 1574
+I/ActivityManager(  954): Start proc com.coship.cw880 for broadcast com.coship.cw880/.BootCw880Recive: pid=1588 uid=1000 gids={3003, 1015, 3002, 3001, 3004}
+D/EthernetStateTracker(  954): DhcpHandler: DHCP request succeeded: addr: 192.168.1.120/24 mRoutes: 0.0.0.0/0 -> 192.168.1.1 |  dns: 192.168.1.1, dhcpServer: 192.168.1.1 leaseDuration: 86400
+I/EthernetStateTracker(  954): received configured succeeded, stack=true CC=true
+I/EthernetStateTracker(  954): IntentBroadcast, event=1
+D/ConnectivityService(  954): ConnectivityChange for ETH: CONNECTED/CONNECTED
+I/ActivityManager(  954): START {flg=0x10000000 cmp=com.google.android.gsf/.update.SystemUpdateInstallDialog} from pid 1365
+I/ActivityManager(  954): Start proc com.iflytek.vac for broadcast com.iflytek.vaf/com.iflytek.vocmd.Loader: pid=1625 uid=10027 gids={3003, 1015}
+I/ActivityManager(  954): Start proc com.coship.changetheaudiooutput for broadcast com.coship.changetheaudiooutput/.BootCompletedReceiver: pid=1639 uid=10031 gids={3002, 3001, 3004}
+I/ActivityManager(  954): Start proc com.iflytek.vaf.svc.rec for service com.iflytek.vaf/.svc.VAFSvc: pid=1659 uid=10027 gids={3003, 1015}
+W/InputManagerService(  954): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4167f320
+V/EthernetMonitor(  954): get event 
+V/EthernetMonitor(  954): go poll events
+I/ActivityManager(  954): Start proc com.coship.TestApp for broadcast com.coship.TestApp/.BootCompletedReceiver: pid=1675 uid=1000 gids={3003, 1015, 3002, 3001, 3004}
+I/ActivityManager(  954): Start proc com.iflytek.xiri.recorder.svc for service com.iflytek.xiri.recorder.svc/.PCMRecorderSvc: pid=1692 uid=10028 gids={3003, 1015}
+I/ActivityManager(  954): Start proc com.android.phone for content provider com.android.providers.telephony/.TelephonyProvider: pid=1707 uid=1001 gids={1015}
+I/ActivityManager(  954): Start proc com.iflytek.speech for service com.iflytek.speech/.SpeechService: pid=1722 uid=10023 gids={1015, 3003, 1007}
+I/ActivityManager(  954): Start proc com.coship.startwizard for broadcast com.coship.startwizard/.service.BootBroadcastReceiver: pid=1738 uid=1000 gids={3003, 1015, 3002, 3001, 3004}
+I/ActivityManager(  954): Start proc com.coship.stpservice for broadcast com.coship.stpservice/.StpReceiver: pid=1760 uid=1000 gids={3003, 1015, 3002, 3001, 3004}
+W/ActivityManager(  954): Permission Denial: receiving Intent { act=android.intent.action.BOOT_COMPLETED } to cn.tvbox requires android.permission.RECEIVE_BOOT_COMPLETED due to sender null (uid 1000)
+I/ActivityManager(  954): Start proc cn.tvbox for broadcast cn.tvbox/.receiver.NetworkConnectivityReceiver: pid=1783 uid=10035 gids={1015, 3003}
+I/ActivityManager(  954): Start proc com.coship.adjustthevolume for broadcast com.coship.adjustthevolume/.BootCompletedReceiver: pid=1807 uid=1000 gids={3003, 1015, 3002, 3001, 3004}
+V/CheckBackdoors( 1760): add new backdoor. actionName=com.coship.adjustthevolume, backdoor.mBackdoorKey=0x5252525252
+V/CheckBackdoors( 1760): add new backdoor. actionName=com.coship.adjustthevolume.Volup, backdoor.mBackdoorKey=0x18
+V/CheckBackdoors( 1760): add new backdoor. actionName=com.coship.adjustthevolume.VolDown, backdoor.mBackdoorKey=0x19
+I/ActivityManager(  954): Process com.coship.sdp.sce.tvappstore (pid 1265) has died.
+W/ActivityManager(  954): Scheduling restart of crashed service com.coship.sdp.sce.tvappstore/.app.service.AppStoreCoreService in 1250ms
+I/ActivityManager(  954): Start proc com.coship.sdp.sce.tvappstore for restart com.coship.sdp.sce.tvappstore: pid=1841 uid=1000 gids={3003, 1015, 3002, 3001, 3004}
+I/ActivityManager(  954): Start proc com.iflytek.xiri.remotecmd for service com.iflytek.xiri.remotecmd/com.iflytek.xiri.vocmd.MyService: pid=1858 uid=10030 gids={}
+W/MountService(  954): getVolumeState(/mnt/sdcard): Unknown volume
+W/MountService(  954): getVolumeState(/mnt/sdcard): Unknown volume
+D/ConnectivityService(  954): handleInetConditionHoldEnd: net=9, condition=0, published condition=0
+W/ThrottleService(  954): unable to find stats for iface rmnet0
+I/ActivityManager(  954): START {act=android.intent.action.MAIN flg=0x10200000 cmp=com.aidufei.movieonline/.MainCatalogActivity} from pid 1306
+W/ActivityManager(  954): Activity is launching as a new task, so cancelling activity result.
+W/MountService(  954): getVolumeState(/mnt/sdcard): Unknown volume
+W/ActivityThread( 1154): ClassLoader.loadClass: The class loader returned by Thread.getContextClassLoader() may fail for processes that host multiple applications. You should explicitly specify a context class loader. For example: Thread.setContextClassLoader(getClass().getClassLoader());
+W/InputManagerService(  954): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@41660138 (uid=10034 pid=1306)
+I/ActivityManager(  954): START {cmp=com.aidufei.movieonline/.ProgramDetailActivity (has extras)} from pid 1154
+I/UsageStats(  954): No package stats for pkg:com.aidufei.movieonline
+I/ActivityManager(  954): START {flg=0x78000000 cmp=com.aidufei.movieonline/.player.VideoPlayer (has extras)} from pid 1154
+W/ActivityThread( 1278): ClassLoader.loadClass: The class loader returned by Thread.getContextClassLoader() may fail for processes that host multiple applications. You should explicitly specify a context class loader. For example: Thread.setContextClassLoader(getClass().getClassLoader());
+W/ActivityManager(  954): Activity pause timeout for ActivityRecord{415a89c0 com.aidufei.movieonline/.player.VideoPlayer}
+I/ActivityManager(  954): START {flg=0x78000000 cmp=com.aidufei.movieonline/.player.VideoPlayer (has extras)} from pid 1154
+W/ActivityManager(  954): Activity pause timeout for ActivityRecord{418609f0 com.aidufei.movieonline/.player.VideoPlayer}
+I/ActivityManager(  954): START {cmp=com.aidufei.movieonline/.ProgramDetailActivity (has extras)} from pid 1154
+I/ActivityManager(  954): START {flg=0x78000000 cmp=com.aidufei.movieonline/.player.VideoPlayer (has extras)} from pid 1154
+W/ActivityManager(  954): Activity pause timeout for ActivityRecord{41664408 com.aidufei.movieonline/.player.VideoPlayer}
+I/ActivityManager(  954): START {cmp=com.aidufei.movieonline/.SubCatalogActivity (has extras)} from pid 1154
+I/ActivityManager(  954): START {cmp=com.aidufei.movieonline/.ProgramDetailActivity (has extras)} from pid 1154
+I/ActivityManager(  954): START {flg=0x78000000 cmp=com.aidufei.movieonline/.player.VideoPlayer (has extras)} from pid 1154
+W/ActivityManager(  954): Activity pause timeout for ActivityRecord{41664408 com.aidufei.movieonline/.player.VideoPlayer}
+I/ActivityManager(  954): START {flg=0x78000000 cmp=com.aidufei.movieonline/.player.VideoPlayer (has extras)} from pid 1154
+W/ThrottleService(  954): unable to find stats for iface rmnet0
+W/ActivityManager(  954): Activity pause timeout for ActivityRecord{415a89c0 com.aidufei.movieonline/.player.VideoPlayer}
+I/ActivityManager(  954): START {flg=0x78000000 cmp=com.aidufei.movieonline/.player.VideoPlayer (has extras)} from pid 1154
+W/ActivityManager(  954): Activity pause timeout for ActivityRecord{41680500 com.aidufei.movieonline/.player.VideoPlayer}
+I/ActivityManager(  954): START {cmp=com.aidufei.movieonline/.ProgramDetailActivity (has extras)} from pid 1154
+I/ActivityManager(  954): START {flg=0x78000000 cmp=com.aidufei.movieonline/.player.VideoPlayer (has extras)} from pid 1154
+W/ActivityManager(  954): Activity pause timeout for ActivityRecord{41664408 com.aidufei.movieonline/.player.VideoPlayer}
+V/TabletStatusBar( 1162): setLightsOn(true)
+W/InputManagerService(  954): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@41697e78 (uid=1000 pid=1154)
+I/ActivityManager(  954): START {act=android.intent.action.MAIN flg=0x10200000 cmp=com.coship.dvbplayer/.main} from pid 1306
+W/ActivityManager(  954): Activity is launching as a new task, so cancelling activity result.
+I/ActivityManager(  954): Start proc com.coship.dvbplayer for activity com.coship.dvbplayer/.main: pid=2213 uid=10032 gids={3003, 1015}
+V/TabletStatusBar( 1162): setLightsOn(true)
+W/InputManagerService(  954): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@41660138 (uid=10034 pid=1306)
+W/MountService(  954): getVolumeState(/mnt/sdcard): Unknown volume
+I/ActivityManager(  954): START {act=android.intent.LOOKBACK_PLAYER cmp=com.coship.dvbplayer/.videoplayer.VideoPlayer (has extras)} from pid 2213
+W/ActivityManager(  954): Activity pause timeout for ActivityRecord{41601b90 com.coship.dvbplayer/.main}
+V/TabletStatusBar( 1162): setLightsOn(true)
+W/ThrottleService(  954): unable to find stats for iface rmnet0
+W/ActivityManager(  954): Duplicate finish request for ActivityRecord{41724cc8 com.coship.dvbplayer/.videoplayer.VideoPlayer}
+V/TabletStatusBar( 1162): setLightsOn(true)
+W/ActivityManager(  954): Activity pause timeout for ActivityRecord{41601b90 com.coship.dvbplayer/.main}
+V/TabletStatusBar( 1162): setLightsOn(true)
+W/InputManagerService(  954): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@416b4330 (uid=10032 pid=2213)
+I/ActivityManager(  954): No longer want com.android.contacts (pid 1479): hidden #16
+I/ActivityManager(  954): START {act=android.intent.action.MAIN flg=0x10200000 cmp=com.coship.dvbplayer/.main} from pid 1306
+W/ActivityManager(  954): Activity is launching as a new task, so cancelling activity result.
+V/TabletStatusBar( 1162): setLightsOn(true)
+W/InputManagerService(  954): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@41660138 (uid=10034 pid=1306)
+W/InputManagerService(  954): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@415a7fb8
+W/ActivityManager(  954): Activity pause timeout for ActivityRecord{41672a48 com.coship.dvbplayer/.main}
+V/TabletStatusBar( 1162): setLightsOn(true)
+W/InputManagerService(  954): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@416b4330 (uid=10032 pid=2213)
+I/ActivityManager(  954): START {act=android.intent.action.MAIN flg=0x10200000 cmp=com.aidufei.movieonline/.MainCatalogActivity} from pid 1306
+W/ActivityManager(  954): Activity is launching as a new task, so cancelling activity result.
+W/InputManagerService(  954): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@41660138 (uid=10034 pid=1306)
+I/ActivityManager(  954): START {cmp=com.aidufei.movieonline/.SubCatalogActivity (has extras)} from pid 1154
+I/ActivityManager(  954): START {cmp=com.aidufei.movieonline/.SubCatalogActivity (has extras)} from pid 1154
+V/TabletStatusBar( 1162): setLightsOn(true)
+W/InputManagerService(  954): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@41697e78 (uid=1000 pid=1154)
+I/ActivityManager(  954): START {act=android.intent.action.MAIN flg=0x10200000 cmp=com.coship.dvbplayer/.main} from pid 1306
+W/ActivityManager(  954): Activity is launching as a new task, so cancelling activity result.
+V/TabletStatusBar( 1162): setLightsOn(true)
+W/InputManagerService(  954): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@41660138 (uid=10034 pid=1306)
+I/ActivityManager(  954): No longer want com.coship.startwizard (pid 1738): hidden #16
+I/ActivityManager(  954): No longer want com.coship.TestApp (pid 1675): hidden #17
+I/ActivityManager(  954): No longer want com.coship.changetheaudiooutput (pid 1639): hidden #18
+I/ActivityManager(  954): No longer want android.process.acore (pid 1511): hidden #19
+I/ActivityManager(  954): No longer want com.coship.cw880 (pid 1588): hidden #20
+W/ActivityManager(  954): Scheduling restart of crashed service com.coship.changetheaudiooutput/.AudioOutputServer in 5000ms
+W/ActivityManager(  954): Scheduling restart of crashed service com.coship.cw880/.MonitorCw880 in 14998ms
+I/ActivityManager(  954): No longer want com.coship.stpservice (pid 1760): hidden #16
+W/ActivityManager(  954): Scheduling restart of crashed service com.coship.stpservice/.StpService in 24961ms
+I/ActivityManager(  954): Start proc com.coship.changetheaudiooutput for service com.coship.changetheaudiooutput/.AudioOutputServer: pid=3625 uid=10031 gids={3002, 3001, 3004}
+I/ActivityManager(  954): Start proc com.coship.cw880 for service com.coship.cw880/.MonitorCw880: pid=3638 uid=1000 gids={3003, 1015, 3002, 3001, 3004}
+I/ActivityManager(  954): Start proc com.coship.stpservice for service com.coship.stpservice/.StpService: pid=3653 uid=1000 gids={3003, 1015, 3002, 3001, 3004}
+V/CheckBackdoors( 3653): add new backdoor. actionName=com.coship.adjustthevolume, backdoor.mBackdoorKey=0x5252525252
+V/CheckBackdoors( 3653): add new backdoor. actionName=com.coship.adjustthevolume.Volup, backdoor.mBackdoorKey=0x18
+V/CheckBackdoors( 3653): add new backdoor. actionName=com.coship.adjustthevolume.VolDown, backdoor.mBackdoorKey=0x19
+V/EthernetMonitor(  954): get event 
+V/EthernetMonitor(  954): go poll events
+W/ActivityManager(  954): Activity pause timeout for ActivityRecord{4188b810 com.coship.dvbplayer/.main}
+V/TabletStatusBar( 1162): setLightsOn(true)
+W/InputManagerService(  954): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@416b4330 (uid=10032 pid=2213)
+I/ActivityManager(  954): No longer want com.android.settings (pid 1435): hidden #16
+I/ActivityManager(  954): START {act=android.intent.action.MAIN flg=0x10200000 cmp=com.aidufei.movieonline/.MainCatalogActivity} from pid 1306
+W/ActivityManager(  954): Activity is launching as a new task, so cancelling activity result.
+W/InputManagerService(  954): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@41660138 (uid=10034 pid=1306)
+I/ActivityManager(  954): START {cmp=com.aidufei.movieonline/.SubCatalogActivity (has extras)} from pid 1154
+W/ThrottleService(  954): unable to find stats for iface rmnet0
+I/ActivityManager(  954): START {cmp=com.aidufei.movieonline/.ProgramDetailActivity (has extras)} from pid 1154
+I/ActivityManager(  954): START {cmp=com.aidufei.movieonline/.SubCatalogActivity (has extras)} from pid 1154
+I/ActivityManager(  954): START {cmp=com.aidufei.movieonline/.ProgramDetailActivity (has extras)} from pid 1154
+I/ActivityManager(  954): START {flg=0x78000000 cmp=com.aidufei.movieonline/.player.VideoPlayer (has extras)} from pid 1154
+W/ActivityManager(  954): Activity pause timeout for ActivityRecord{415a6e38 com.aidufei.movieonline/.player.VideoPlayer}
+W/InputManagerService(  954): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4151a1f0
+I/ActivityManager(  954): START {cmp=com.aidufei.movieonline/.SubCatalogActivity (has extras)} from pid 1154
+I/ActivityManager(  954): START {cmp=com.aidufei.movieonline/.ProgramDetailActivity (has extras)} from pid 1154
+I/ActivityManager(  954): START {flg=0x78000000 cmp=com.aidufei.movieonline/.player.VideoPlayer (has extras)} from pid 1154
+W/ActivityManager(  954): Activity pause timeout for ActivityRecord{41601b90 com.aidufei.movieonline/.player.VideoPlayer}
+I/ActivityManager(  954): START {flg=0x78000000 cmp=com.aidufei.movieonline/.player.VideoPlayer (has extras)} from pid 1154
+V/EthernetMonitor(  954): get event 
+V/EthernetMonitor(  954): go poll events
+V/EthernetMonitor(  954): get event 
+V/EthernetMonitor(  954): go poll events
+W/ActivityManager(  954): Activity pause timeout for ActivityRecord{415a6e38 com.aidufei.movieonline/.player.VideoPlayer}
+I/ActivityManager(  954): START {flg=0x78000000 cmp=com.aidufei.movieonline/.player.VideoPlayer (has extras)} from pid 1154
+W/ActivityManager(  954): Activity pause timeout for ActivityRecord{4168e648 com.aidufei.movieonline/.player.VideoPlayer}
+I/ActivityManager(  954): START {cmp=com.aidufei.movieonline/.ProgramDetailActivity (has extras)} from pid 1154
+I/ActivityManager(  954): START {flg=0x78000000 cmp=com.aidufei.movieonline/.player.VideoPlayer (has extras)} from pid 1154
+W/ActivityManager(  954): Activity pause timeout for ActivityRecord{41601b90 com.aidufei.movieonline/.player.VideoPlayer}
+W/ActivityManager(  954): Duplicate finish request for ActivityRecord{41601b90 com.aidufei.movieonline/.player.VideoPlayer}
+V/TabletStatusBar( 1162): setLightsOn(true)
+W/InputManagerService(  954): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@41697e78 (uid=1000 pid=1154)
+I/ActivityManager(  954): START {act=android.intent.action.MAIN flg=0x10200000 cmp=com.coship.dvbplayer/.main} from pid 1306
+W/ActivityManager(  954): Activity is launching as a new task, so cancelling activity result.
+V/TabletStatusBar( 1162): setLightsOn(true)
+W/InputManagerService(  954): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@41660138 (uid=10034 pid=1306)
+W/ActivityManager(  954): Activity pause timeout for ActivityRecord{415a89c0 com.coship.dvbplayer/.main}
+V/TabletStatusBar( 1162): setLightsOn(true)
+W/InputManagerService(  954): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@416b4330 (uid=10032 pid=2213)
+I/ActivityManager(  954): START {act=android.intent.action.MAIN flg=0x10200000 cmp=com.coship.dvbplayer/.main} from pid 1306
+W/ActivityManager(  954): Activity is launching as a new task, so cancelling activity result.
+V/TabletStatusBar( 1162): setLightsOn(true)
+W/InputManagerService(  954): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@41660138 (uid=10034 pid=1306)
+V/EthernetMonitor(  954): get event 
+V/EthernetMonitor(  954): go poll events
+W/ActivityManager(  954): Activity pause timeout for ActivityRecord{41601b90 com.coship.dvbplayer/.main}
+V/TabletStatusBar( 1162): setLightsOn(true)
+W/InputManagerService(  954): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@416b4330 (uid=10032 pid=2213)
+I/ActivityManager(  954): START {act=android.intent.action.MAIN flg=0x10200000 cmp=com.aidufei.movieonline/.MainCatalogActivity} from pid 1306
+W/ActivityManager(  954): Activity is launching as a new task, so cancelling activity result.
+W/InputManagerService(  954): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@41660138 (uid=10034 pid=1306)
+I/ActivityManager(  954): START {cmp=com.aidufei.movieonline/.ProgramDetailActivity (has extras)} from pid 1154
+I/ActivityManager(  954): START {flg=0x78000000 cmp=com.aidufei.movieonline/.player.VideoPlayer (has extras)} from pid 1154
+I/ActivityManager(  954): START {cmp=com.aidufei.movieonline/.ProgramDetailActivity (has extras)} from pid 1154
+I/ActivityManager(  954): START {flg=0x78000000 cmp=com.aidufei.movieonline/.player.VideoPlayer (has extras)} from pid 1154
+W/ActivityManager(  954): Activity pause timeout for ActivityRecord{416ec980 com.aidufei.movieonline/.player.VideoPlayer}
+V/TabletStatusBar( 1162): setLightsOn(true)
+W/InputManagerService(  954): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@41697e78 (uid=1000 pid=1154)
+I/ActivityManager(  954): START {act=android.intent.action.MAIN flg=0x10200000 cmp=com.coship.dvbplayer/.main} from pid 1306
+W/ActivityManager(  954): Activity is launching as a new task, so cancelling activity result.
+V/TabletStatusBar( 1162): setLightsOn(true)
+W/InputManagerService(  954): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@41660138 (uid=10034 pid=1306)
+W/ActivityManager(  954): Activity pause timeout for ActivityRecord{415a6f98 com.coship.dvbplayer/.main}
+V/TabletStatusBar( 1162): setLightsOn(true)
+W/InputManagerService(  954): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@416b4330 (uid=10032 pid=2213)
+I/ActivityManager(  954): START {act=android.intent.action.MAIN flg=0x10200000 cmp=com.aidufei.movieonline/.MainCatalogActivity} from pid 1306
+W/ActivityManager(  954): Activity is launching as a new task, so cancelling activity result.
+W/InputManagerService(  954): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@41660138 (uid=10034 pid=1306)
+I/ActivityManager(  954): START {cmp=com.aidufei.movieonline/.ProgramDetailActivity (has extras)} from pid 1154
+I/ActivityManager(  954): START {flg=0x78000000 cmp=com.aidufei.movieonline/.player.VideoPlayer (has extras)} from pid 1154
+W/ActivityManager(  954): Activity pause timeout for ActivityRecord{416d1720 com.aidufei.movieonline/.player.VideoPlayer}
+W/ThrottleService(  954): unable to find stats for iface rmnet0
+I/ActivityManager(  954): START {flg=0x78000000 cmp=com.aidufei.movieonline/.player.VideoPlayer (has extras)} from pid 1154
+W/ActivityManager(  954): Activity pause timeout for ActivityRecord{418768c8 com.aidufei.movieonline/.player.VideoPlayer}
+V/TabletStatusBar( 1162): setLightsOn(true)
+W/InputManagerService(  954): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@41697e78 (uid=1000 pid=1154)
+I/ActivityManager(  954): START {act=android.intent.action.MAIN flg=0x10200000 cmp=com.aidufei.movieonline/.MainCatalogActivity} from pid 1306
+W/ActivityManager(  954): Activity is launching as a new task, so cancelling activity result.
+W/InputManagerService(  954): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@41660138 (uid=10034 pid=1306)
+I/ActivityManager(  954): START {cmp=com.aidufei.movieonline/.ProgramDetailActivity (has extras)} from pid 1154
+I/ActivityManager(  954): START {flg=0x78000000 cmp=com.aidufei.movieonline/.player.VideoPlayer (has extras)} from pid 1154
+V/EthernetMonitor(  954): get event 
+V/EthernetMonitor(  954): go poll events
+V/EthernetMonitor(  954): get event 
+V/EthernetMonitor(  954): go poll events
+V/EthernetMonitor(  954): get event 
+V/EthernetMonitor(  954): go poll events
+W/ActivityManager(  954): Activity pause timeout for ActivityRecord{416876b0 com.aidufei.movieonline/.player.VideoPlayer}
+I/ActivityManager(  954): START {cmp=com.aidufei.movieonline/.ProgramDetailActivity (has extras)} from pid 1154
+W/ThrottleService(  954): unable to find stats for iface rmnet0
+W/InputManagerService(  954): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@414c5bd0
+V/TabletStatusBar( 1162): setLightsOn(true)
+W/InputManagerService(  954): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@41697e78 (uid=1000 pid=1154)
+I/ActivityManager(  954): START {act=android.intent.action.MAIN flg=0x10200000 cmp=com.aidufei.movieonline/.MainCatalogActivity} from pid 1306
+W/ActivityManager(  954): Activity is launching as a new task, so cancelling activity result.
+W/InputManagerService(  954): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@41660138 (uid=10034 pid=1306)
+I/ActivityManager(  954): START {cmp=com.aidufei.movieonline/.ProgramDetailActivity (has extras)} from pid 1154
+I/ActivityManager(  954): START {flg=0x78000000 cmp=com.aidufei.movieonline/.player.VideoPlayer (has extras)} from pid 1154
+V/EthernetMonitor(  954): get event 
+V/EthernetMonitor(  954): go poll events
+V/EthernetMonitor(  954): get event 
+V/EthernetMonitor(  954): go poll events
+V/EthernetMonitor(  954): get event 
+V/EthernetMonitor(  954): go poll events
+W/ActivityManager(  954): Activity pause timeout for ActivityRecord{415a6f98 com.aidufei.movieonline/.player.VideoPlayer}
+V/TabletStatusBar( 1162): setLightsOn(true)
+I/ActivityManager(  954): START {act=android.intent.action.MAIN flg=0x10200000 cmp=com.coship.dvbplayer/.main} from pid 1306
+W/ActivityManager(  954): Activity is launching as a new task, so cancelling activity result.
+V/TabletStatusBar( 1162): setLightsOn(true)
+W/InputManagerService(  954): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@41660138 (uid=10034 pid=1306)
+V/CheckBackdoors( 3653): this is backdoor.
+V/CheckBackdoors( 3653): Intent(com.coship.adjustthevolume)
+I/ActivityManager(  954): No longer want com.iflytek.vac (pid 1625): hidden #16
+W/ActivityManager(  954): Scheduling restart of crashed service com.iflytek.vaf/com.iflytek.vocmd.Context in 5000ms
+W/ActivityManager(  954): Scheduling restart of crashed service com.iflytek.vaf/com.iflytek.vocmd.StartService in 15000ms
+W/ActivityManager(  954): Scheduling restart of crashed service com.iflytek.vaf/com.iflytek.vac.Manager in 24999ms
+E/ActivityThread( 1659): Service com.iflytek.vaf.svc.VAFSvc has leaked IntentReceiver com.iflytek.vaf.svc.RemoteClientMonitor$5@4157e568 that was originally registered here. Are you missing a call to unregisterReceiver()?
+E/ActivityThread( 1659): android.app.IntentReceiverLeaked: Service com.iflytek.vaf.svc.VAFSvc has leaked IntentReceiver com.iflytek.vaf.svc.RemoteClientMonitor$5@4157e568 that was originally registered here. Are you missing a call to unregisterReceiver()?
+E/ActivityThread( 1659):        at android.app.LoadedApk$ReceiverDispatcher.<init>(LoadedApk.java:763)
+E/ActivityThread( 1659):        at android.app.LoadedApk.getReceiverDispatcher(LoadedApk.java:567)
+E/ActivityThread( 1659):        at android.app.ContextImpl.registerReceiverInternal(ContextImpl.java:1068)
+E/ActivityThread( 1659):        at android.app.ContextImpl.registerReceiver(ContextImpl.java:1055)
+E/ActivityThread( 1659):        at android.app.ContextImpl.registerReceiver(ContextImpl.java:1049)
+E/ActivityThread( 1659):        at android.content.ContextWrapper.registerReceiver(ContextWrapper.java:341)
+E/ActivityThread( 1659):        at com.iflytek.vaf.svc.RemoteClientMonitor.<init>(RemoteClientMonitor.java:270)
+E/ActivityThread( 1659):        at com.iflytek.vaf.svc.VAFSvc$VafSvcImp.<init>(VAFSvc.java:268)
+E/ActivityThread( 1659):        at com.iflytek.vaf.svc.VAFSvc.onCreate(VAFSvc.java:795)
+E/ActivityThread( 1659):        at android.app.ActivityThread.handleCreateService(ActivityThread.java:2253)
+E/ActivityThread( 1659):        at android.app.ActivityThread.access$1600(ActivityThread.java:123)
+E/ActivityThread( 1659):        at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1201)
+E/ActivityThread( 1659):        at android.os.Handler.dispatchMessage(Handler.java:99)
+E/ActivityThread( 1659):        at android.os.Looper.loop(Looper.java:137)
+E/ActivityThread( 1659):        at android.app.ActivityThread.main(ActivityThread.java:4424)
+E/ActivityThread( 1659):        at java.lang.reflect.Method.invokeNative(Native Method)
+E/ActivityThread( 1659):        at java.lang.reflect.Method.invoke(Method.java:511)
+E/ActivityThread( 1659):        at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:848)
+E/ActivityThread( 1659):        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:575)
+E/ActivityThread( 1659):        at dalvik.system.NativeStart.main(Native Method)
+E/ActivityThread( 1659): Service com.iflytek.vaf.svc.VAFSvc has leaked IntentReceiver com.iflytek.vaf.svc.CheckNetWork$1@4140e5f8 that was originally registered here. Are you missing a call to unregisterReceiver()?
+E/ActivityThread( 1659): android.app.IntentReceiverLeaked: Service com.iflytek.vaf.svc.VAFSvc has leaked IntentReceiver com.iflytek.vaf.svc.CheckNetWork$1@4140e5f8 that was originally registered here. Are you missing a call to unregisterReceiver()?
+E/ActivityThread( 1659):        at android.app.LoadedApk$ReceiverDispatcher.<init>(LoadedApk.java:763)
+E/ActivityThread( 1659):        at android.app.LoadedApk.getReceiverDispatcher(LoadedApk.java:567)
+E/ActivityThread( 1659):        at android.app.ContextImpl.registerReceiverInternal(ContextImpl.java:1068)
+E/ActivityThread( 1659):        at android.app.ContextImpl.registerReceiver(ContextImpl.java:1055)
+E/ActivityThread( 1659):        at android.app.ContextImpl.registerReceiver(ContextImpl.java:1049)
+E/ActivityThread( 1659):        at android.content.ContextWrapper.registerReceiver(ContextWrapper.java:341)
+E/ActivityThread( 1659):        at com.iflytek.vaf.svc.CheckNetWork.init(CheckNetWork.java:130)
+E/ActivityThread( 1659):        at com.iflytek.vaf.svc.Talker.<init>(Talker.java:319)
+E/ActivityThread( 1659):        at com.iflytek.vaf.svc.VAFSvc$VafSvcImp.<init>(VAFSvc.java:267)
+E/ActivityThread( 1659):        at com.iflytek.vaf.svc.VAFSvc.onCreate(VAFSvc.java:795)
+E/ActivityThread( 1659):        at android.app.ActivityThread.handleCreateService(ActivityThread.java:2253)
+E/ActivityThread( 1659):        at android.app.ActivityThread.access$1600(ActivityThread.java:123)
+E/ActivityThread( 1659):        at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1201)
+E/ActivityThread( 1659):        at android.os.Handler.dispatchMessage(Handler.java:99)
+E/ActivityThread( 1659):        at android.os.Looper.loop(Looper.java:137)
+E/ActivityThread( 1659):        at android.app.ActivityThread.main(ActivityThread.java:4424)
+E/ActivityThread( 1659):        at java.lang.reflect.Method.invokeNative(Native Method)
+E/ActivityThread( 1659):        at java.lang.reflect.Method.invoke(Method.java:511)
+E/ActivityThread( 1659):        at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:848)
+E/ActivityThread( 1659):        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:575)
+E/ActivityThread( 1659):        at dalvik.system.NativeStart.main(Native Method)
+E/ActivityThread( 1659): Service com.iflytek.vaf.svc.VAFSvc has leaked ServiceConnection com.iflytek.xiri.recorder.impl.RemotePcmRecorder$2$1@415543c8 that was originally bound here
+E/ActivityThread( 1659): android.app.ServiceConnectionLeaked: Service com.iflytek.vaf.svc.VAFSvc has leaked ServiceConnection com.iflytek.xiri.recorder.impl.RemotePcmRecorder$2$1@415543c8 that was originally bound here
+E/ActivityThread( 1659):        at android.app.LoadedApk$ServiceDispatcher.<init>(LoadedApk.java:936)
+E/ActivityThread( 1659):        at android.app.LoadedApk.getServiceDispatcher(LoadedApk.java:830)
+E/ActivityThread( 1659):        at android.app.ContextImpl.bindService(ContextImpl.java:1142)
+E/ActivityThread( 1659):        at android.content.ContextWrapper.bindService(ContextWrapper.java:370)
+E/ActivityThread( 1659):        at com.iflytek.xiri.recorder.impl.RemotePcmRecorder$2.run(RemotePcmRecorder.java:206)
+E/ActivityThread( 1659):        at com.iflytek.xiri.recorder.impl.RemotePcmRecorder.<init>(RemotePcmRecorder.java:213)
+E/ActivityThread( 1659):        at com.iflytek.xiri.recorder.impl.RemotePcmRecorder.getPcmRecorder(RemotePcmRecorder.java:139)
+E/ActivityThread( 1659):        at com.iflytek.vaf.svc.Talker.<init>(Talker.java:327)
+E/ActivityThread( 1659):        at com.iflytek.vaf.svc.VAFSvc$VafSvcImp.<init>(VAFSvc.java:267)
+E/ActivityThread( 1659):        at com.iflytek.vaf.svc.VAFSvc.onCreate(VAFSvc.java:795)
+E/ActivityThread( 1659):        at android.app.ActivityThread.handleCreateService(ActivityThread.java:2253)
+E/ActivityThread( 1659):        at android.app.ActivityThread.access$1600(ActivityThread.java:123)
+E/ActivityThread( 1659):        at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1201)
+E/ActivityThread( 1659):        at android.os.Handler.dispatchMessage(Handler.java:99)
+E/ActivityThread( 1659):        at android.os.Looper.loop(Looper.java:137)
+E/ActivityThread( 1659):        at android.app.ActivityThread.main(ActivityThread.java:4424)
+E/ActivityThread( 1659):        at java.lang.reflect.Method.invokeNative(Native Method)
+E/ActivityThread( 1659):        at java.lang.reflect.Method.invoke(Method.java:511)
+E/ActivityThread( 1659):        at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:848)
+E/ActivityThread( 1659):        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:575)
+E/ActivityThread( 1659):        at dalvik.system.NativeStart.main(Native Method)
+E/ActivityThread( 1659): Service com.iflytek.vaf.svc.VAFSvc has leaked ServiceConnection com.iflytek.business.speech.SpeechServiceUtil$2@41559350 that was originally bound here
+E/ActivityThread( 1659): android.app.ServiceConnectionLeaked: Service com.iflytek.vaf.svc.VAFSvc has leaked ServiceConnection com.iflytek.business.speech.SpeechServiceUtil$2@41559350 that was originally bound here
+E/ActivityThread( 1659):        at android.app.LoadedApk$ServiceDispatcher.<init>(LoadedApk.java:936)
+E/ActivityThread( 1659):        at android.app.LoadedApk.getServiceDispatcher(LoadedApk.java:830)
+E/ActivityThread( 1659):        at android.app.ContextImpl.bindService(ContextImpl.java:1142)
+E/ActivityThread( 1659):        at android.content.ContextWrapper.bindService(ContextWrapper.java:370)
+E/ActivityThread( 1659):        at com.iflytek.business.speech.SpeechServiceUtil.startSpeechService(SpeechServiceUtil.java:316)
+E/ActivityThread( 1659):        at com.iflytek.business.speech.SpeechServiceUtil.<init>(SpeechServiceUtil.java:77)
+E/ActivityThread( 1659):        at com.iflytek.tts.TextToSpeech.<init>(TextToSpeech.java:183)
+E/ActivityThread( 1659):        at com.iflytek.vaf.svc.Speaker.<init>(Speaker.java:326)
+E/ActivityThread( 1659):        at com.iflytek.vaf.svc.Speaker.getSpeaker(Speaker.java:313)
+E/ActivityThread( 1659):        at com.iflytek.vaf.svc.Talker.<init>(Talker.java:349)
+E/ActivityThread( 1659):        at com.iflytek.vaf.svc.VAFSvc$VafSvcImp.<init>(VAFSvc.java:267)
+E/ActivityThread( 1659):        at com.iflytek.vaf.svc.VAFSvc.onCreate(VAFSvc.java:795)
+E/ActivityThread( 1659):        at android.app.ActivityThread.handleCreateService(ActivityThread.java:2253)
+E/ActivityThread( 1659):        at android.app.ActivityThread.access$1600(ActivityThread.java:123)
+E/ActivityThread( 1659):        at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1201)
+E/ActivityThread( 1659):        at android.os.Handler.dispatchMessage(Handler.java:99)
+E/ActivityThread( 1659):        at android.os.Looper.loop(Looper.java:137)
+E/ActivityThread( 1659):        at android.app.ActivityThread.main(ActivityThread.java:4424)
+E/ActivityThread( 1659):        at java.lang.reflect.Method.invokeNative(Native Method)
+E/ActivityThread( 1659):        at java.lang.reflect.Method.invoke(Method.java:511)
+E/ActivityThread( 1659):        at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:848)
+E/ActivityThread( 1659):        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:575)
+E/ActivityThread( 1659):        at dalvik.system.NativeStart.main(Native Method)
+E/ActivityThread( 1659): Service com.iflytek.vaf.svc.VAFSvc has leaked ServiceConnection com.iflytek.vaf.svc.Talker$3@4145c460 that was originally bound here
+E/ActivityThread( 1659): android.app.ServiceConnectionLeaked: Service com.iflytek.vaf.svc.VAFSvc has leaked ServiceConnection com.iflytek.vaf.svc.Talker$3@4145c460 that was originally bound here
+E/ActivityThread( 1659):        at android.app.LoadedApk$ServiceDispatcher.<init>(LoadedApk.java:936)
+E/ActivityThread( 1659):        at android.app.LoadedApk.getServiceDispatcher(LoadedApk.java:830)
+E/ActivityThread( 1659):        at android.app.ContextImpl.bindService(ContextImpl.java:1142)
+E/ActivityThread( 1659):        at android.content.ContextWrapper.bindService(ContextWrapper.java:370)
+E/ActivityThread( 1659):        at com.iflytek.vaf.svc.Talker.<init>(Talker.java:320)
+E/ActivityThread( 1659):        at com.iflytek.vaf.svc.VAFSvc$VafSvcImp.<init>(VAFSvc.java:267)
+E/ActivityThread( 1659):        at com.iflytek.vaf.svc.VAFSvc.onCreate(VAFSvc.java:795)
+E/ActivityThread( 1659):        at android.app.ActivityThread.handleCreateService(ActivityThread.java:2253)
+E/ActivityThread( 1659):        at android.app.ActivityThread.access$1600(ActivityThread.java:123)
+E/ActivityThread( 1659):        at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1201)
+E/ActivityThread( 1659):        at android.os.Handler.dispatchMessage(Handler.java:99)
+E/ActivityThread( 1659):        at android.os.Looper.loop(Looper.java:137)
+E/ActivityThread( 1659):        at android.app.ActivityThread.main(ActivityThread.java:4424)
+E/ActivityThread( 1659):        at java.lang.reflect.Method.invokeNative(Native Method)
+E/ActivityThread( 1659):        at java.lang.reflect.Method.invoke(Method.java:511)
+E/ActivityThread( 1659):        at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:848)
+E/ActivityThread( 1659):        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:575)
+E/ActivityThread( 1659):        at dalvik.system.NativeStart.main(Native Method)
+V/CheckBackdoors( 3653): this is backdoor.
+V/CheckBackdoors( 3653): Intent(com.coship.adjustthevolume)
+V/CheckBackdoors( 3653): add new backdoor. actionName=com.coship.adjustthevolume.VolumeKey, backdoor.mBackdoorKey=0x15
+V/CheckBackdoors( 3653): add new backdoor. actionName=com.coship.adjustthevolume.VolumeKey, backdoor.mBackdoorKey=0x16
+V/CheckBackdoors( 3653): add new backdoor. actionName=com.coship.adjustthevolume.VolumeKey, backdoor.mBackdoorKey=0x4
+V/CheckBackdoors( 3653): there have same backdoor already, so do not add it
+V/CheckBackdoors( 3653): actionName=com.coship.adjustthevolume.VolumeKey, backdoor.mBackdoorKey=0x15
+V/CheckBackdoors( 3653): there have same backdoor already, so do not add it
+V/CheckBackdoors( 3653): actionName=com.coship.adjustthevolume.VolumeKey, backdoor.mBackdoorKey=0x16
+V/CheckBackdoors( 3653): there have same backdoor already, so do not add it
+V/CheckBackdoors( 3653): actionName=com.coship.adjustthevolume.VolumeKey, backdoor.mBackdoorKey=0x4
+W/InputManagerService(  954): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@416b4330 (uid=10032 pid=2213)
+V/CheckBackdoors( 3653): this is backdoor.
+V/CheckBackdoors( 3653): Intent(com.coship.adjustthevolume)
+V/CheckBackdoors( 3653): this is backdoor.
+V/CheckBackdoors( 3653): Intent(com.coship.adjustthevolume)
+V/CheckBackdoors( 3653): this is backdoor.
+V/CheckBackdoors( 3653): Intent(com.coship.adjustthevolume)
+V/CheckBackdoors( 3653): this is backdoor.
+V/CheckBackdoors( 3653): Intent(com.coship.adjustthevolume)
+V/CheckBackdoors( 3653): this is backdoor.
+V/CheckBackdoors( 3653): Intent(com.coship.adjustthevolume)
+V/CheckBackdoors( 3653): this is backdoor.
+V/CheckBackdoors( 3653): Intent(com.coship.adjustthevolume)
+V/CheckBackdoors( 3653): this is backdoor.
+V/CheckBackdoors( 3653): Intent(com.coship.adjustthevolume)
+V/CheckBackdoors( 3653): this is backdoor.
+V/CheckBackdoors( 3653): Intent(com.coship.adjustthevolume)
+V/CheckBackdoors( 3653): this is backdoor.
+V/CheckBackdoors( 3653): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 3653): this is backdoor.
+V/CheckBackdoors( 3653): Intent(com.coship.adjustthevolume.VolumeKey)
+I/ActivityManager(  954): Start proc com.iflytek.vac for service com.iflytek.vaf/com.iflytek.vocmd.Context: pid=4866 uid=10027 gids={3003, 1015}
+V/CheckBackdoors( 3653): this is backdoor.
+V/CheckBackdoors( 3653): Intent(com.coship.adjustthevolume.VolumeKey)
+V/CheckBackdoors( 3653): now remove the backdoor: index =3, actionName=com.coship.adjustthevolume.VolumeKey, backdoor.mBackdoorKey=0x15
+V/CheckBackdoors( 3653): now remove the backdoor: index =3, actionName=com.coship.adjustthevolume.VolumeKey, backdoor.mBackdoorKey=0x16
+V/CheckBackdoors( 3653): now remove the backdoor: index =3, actionName=com.coship.adjustthevolume.VolumeKey, backdoor.mBackdoorKey=0x4
+V/TabletStatusBar( 1162): setLightsOn(true)
+W/ThrottleService(  954): unable to find stats for iface rmnet0
+W/ActivityManager(  954): Activity pause timeout for ActivityRecord{415a6e38 com.coship.dvbplayer/.main}
+V/TabletStatusBar( 1162): setLightsOn(true)
+I/ActivityManager(  954): START {act=android.intent.action.MAIN flg=0x10200000 cmp=com.coship.dvbplayer/.main} from pid 1306
+W/ActivityManager(  954): Activity is launching as a new task, so cancelling activity result.
+V/TabletStatusBar( 1162): setLightsOn(true)
+W/InputManagerService(  954): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@41660138 (uid=10034 pid=1306)
+W/InputManagerService(  954): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@415b1840
+W/InputManagerService(  954): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@416c3c38
+I/ActivityManager(  954): START {act=android.intent.LOOKBACK_PLAYER cmp=com.coship.dvbplayer/.videoplayer.VideoPlayer (has extras)} from pid 2213
+W/ActivityManager(  954): Activity pause timeout for ActivityRecord{41672a48 com.coship.dvbplayer/.main}
+V/TabletStatusBar( 1162): setLightsOn(true)
+W/ActivityManager(  954): Duplicate finish request for ActivityRecord{416b70c8 com.coship.dvbplayer/.videoplayer.VideoPlayer}
+V/TabletStatusBar( 1162): setLightsOn(true)
+V/EthernetMonitor(  954): get event 
+V/EthernetMonitor(  954): go poll events
+W/InputManagerService(  954): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4184c178
+I/ActivityManager(  954): START {act=android.intent.LOOKBACK_PLAYER cmp=com.coship.dvbplayer/.videoplayer.VideoPlayer (has extras)} from pid 2213
+W/ActivityManager(  954): Activity pause timeout for ActivityRecord{41672a48 com.coship.dvbplayer/.main}
+V/TabletStatusBar( 1162): setLightsOn(true)
+V/TabletStatusBar( 1162): setLightsOn(true)
+W/InputManagerService(  954): Focus gain on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@416b4330 (uid=10032 pid=2213)
+V/TabletStatusBar( 1162): setLightsOn(true)
+W/InputManagerService(  954): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@416b4330 (uid=10032 pid=2213)
+I/ActivityManager(  954): START {act=android.intent.action.MAIN flg=0x10200000 cmp=com.coship.dvbplayer/.main} from pid 1306
+W/ActivityManager(  954): Activity is launching as a new task, so cancelling activity result.
+V/TabletStatusBar( 1162): setLightsOn(true)
+W/InputManagerService(  954): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@41660138 (uid=10034 pid=1306)
+--------- beginning of /dev/log/main
+I/System.out( 2213): message--->{"ret":"0","pageSize":0,"retInfo":"","program":[{"programId":76602,"eventDate":"2013-04-01","beginTime":"2013-04-01 00:37:00","endTime":"2013-04-01 01:42:00","eventName":"我们约会�?,"eventDesc":null,"status":1,"assetID":"TWSX0000076602003700","volumeName":"85864","channelResourceCode":"10047","isBook":0,"videoType":"1","channelID":"HNWSHD","isRecommend":0,"playCount":0,"keyWord":"我们约会�?,"channelName":null,"poster":[]},{"programId":76603,"eventDate":"2013-04-01","beginTime":"2013-04-01 01:42:00","endTime":"2013-04-01 03:16:00","eventName":"快乐大本�?,"eventDesc":null,"status":1,"assetID":"TWSX0000076603014200","volumeName":"85864","channelResourceCode":"10047","isBook":0,"videoType":"1","channelID":"HNWSHD","isRecommend":0,"playCount":0,"keyWord":"快乐大本�?,"channelName":null,"poster":[]},{"programId":76604,"eventDate":"2013-04-01","beginTime":"2013-04-01 03:16:00","endTime":"2013-04-01 04:29:00","eventName":"谁与争锋","eventDesc":null,"status":1,"assetID":"TWSX0000076604031600","volumeName":"85864","channelResourceCode":"10047","isBook":0,"videoType":"1","channelID":"HNWSHD","isRecommend":0,"playCount":0,"keyWord":"谁与争锋","channelName":null,"poster":[]},{"programId":76605,"eventDate":"2013-04-01","beginTime":"2013-04-01 04:29:00","endTime":"2013-04-01 04:55:00","eventName":"剧场","eventDesc":null,"status":1,"assetID":"TWSX0000076605042900","volumeName":"85864","channelResourceCode":"10047","isBook":0,"videoType":"1","channelID":"HNWSHD","isRecommend":0,"playCount":0,"keyWord":"剧场","channelName":null,"poster":[]},{"programId":76606,"eventDate":"2013-04-01","beginTime":"2013-04-01 04:55:00","endTime":"2013-04-01 05:21:00","eventName":"剧场","eventDesc":null,"status":1,"assetID":"TWSX0000076606045500","volumeName":"85864","channelResourceCode":"10047","isBook":0,"videoType":"1","channelID":"HNWSHD","isRecommend":0,"playCount":0,"keyWord":"剧场","channelName":null,"poster":[]},{"programId":76607,"eventDate":"2013-04-01","beginTime":"2013-04-01 05:21:00","endTime":"2013-04-01 05:47:00","eventName":"剧场","eventDesc":null,"status":1,"assetID":"TWSX0000076607052100","volumeName":"85864","channelResourceCode":"10047","isBook":0,"videoType":"1","channelID":"HNWSHD","isRecommend":0,"playCount":0,"keyWord":"剧场","channelName":null,"poster":[]},{"programId":76608,"eventDate":"2013-04-01","beginTime":"2013-04-01 05:47:00","endTime":"2013-04-01 07:00:00","eventName":"我们约会�?,"eventDesc":null,"status":1,"assetID":"TWSX0000076608054700","volumeName":"85864","channelResourceCode":"10047","isBook":0,"videoType":"1","channelID":"HNWSHD","isRecommend":0,"playCount":0,"keyWord":"我们约会�?,"channelName":null,"poster":[]},{"programId":76609,"eventDate":"2013-04-01","beginTime":"2013-04-01 07:00:00","endTime":"2013-04-01 07:30:00","eventName":"湖南新闻联播","eventDesc":null,"status":1,"assetID":"TWSX0000076609070000","volumeName":"85864","channelResourceCode":"10047","isBook":0,"videoType":"1","channelID":"HNWSHD","isRecommend":0,"playCount":0,"keyWord":"湖南新闻联播","channelName":null,"poster":[]},{"programId":76610,"eventDate":"2013-04-01","beginTime":"2013-04-01 07:30:00","endTime":"2013-04-01 07:50:00","eventName":"我们约会�?,"eventDesc":null,"status":1,"assetID":"TWSX0000076610073000","volumeName":"85864","channelResourceCode":"10047","isBook":0,"videoType":"1","channelID":"HNWSHD","isRecommend":0,"playCount":0,"keyWord":"我们约会�?,"channelName":null,"poster":[]},{"programId":76611,"eventDate":"2013-04-01","beginTime":"2013-04-01 07:50:00","endTime":"2013-04-01 08:57:00","eventName":"偶像独播剧场","eventDesc":null,"status":1,"assetID":"TWSX0000076611075000","volumeName":"85864","channelResourceCode":"10047","isBook":0,"videoType":"1","channelID":"HNWSHD","isRecommend":0,"playCount":0,"keyWord":"偶像独播剧场","channelName":null,"poster":[]},{"programId":76612,"eventDate":"2013-04-01","beginTime":"2013-04-01 08:57:00","endTime":"2013-04-01 10:05:00","eventName":"偶像独播剧场","eventDes
+I/dvb_Dvblist( 2213): [dateviwe setOnItemSelectedListener] position:3 date:2013-03-31
+I/dvb_Dvblist( 2213): [SelectDate] lastMylocator code:10047  position:3
+E/dvb_EpgInterface( 2213): [getEpgWeek]  data:2013-03-31
+E/dvb_EpgInterface( 2213): [getEpgWeek]  epg list empty,So to obtain data epg list
+I/DVB_main( 2213): [dispatchKeyEvent]  Action:0  keyCode:19
+I/dvb_control( 2213): [onKeyDown]  keyCode��19  Oklist_view.getVisibility():0 Constant.isHidden:false
+I/dvb_control( 2213): [onKeyDown]  Oklist_view is show,So Didn't do anything............
+I/DVB_main( 2213): [dispatchKeyEvent]  Does not deal with the keyCode
+I/message ( 2213): requestUrl  :http://wasu.feifeikan.com:8080/msis/getChannelProgram?version=V001&terminalType=2&resolution=1280*720&userCode=&channelResourceCode=10047&pageSize=0&curPage=0&beginTime=2013-03-31%2000:00:00&endTime=2013-03-31%2023:59:59&authKey=7409a3aca12f0fa125b13a7899420dfd
+D/DataSource_M3U8(  744): u32HLSSreamNum[0]===>u32BandWidth:800000 
+D/DataSource_M3U8(  744): getHLSPlayListInex  DownloadBandWidth:3227823   uInDex=0
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744): ============Begin to get playlist !!=====================
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744): 
+I/dvb_Dvblist( 2213): [dateviwe setOnItemSelectedListener] position:2 date:2013-03-30
+I/dvb_Dvblist( 2213): [SelectDate] lastMylocator code:10047  position:2
+E/dvb_EpgInterface( 2213): [getEpgWeek]  data:2013-03-30
+E/dvb_EpgInterface( 2213): [getEpgWeek]  epg list empty,So to obtain data epg list
+I/DVB_main( 2213): [dispatchKeyEvent]  Action:0  keyCode:19
+I/dvb_control( 2213): [onKeyDown]  keyCode��19  Oklist_view.getVisibility():0 Constant.isHidden:false
+I/dvb_control( 2213): [onKeyDown]  Oklist_view is show,So Didn't do anything............
+I/DVB_main( 2213): [dispatchKeyEvent]  Does not deal with the keyCode
+W/dalvikvm( 2213): threadid=14: thread exiting with uncaught exception (group=0x40fa81f8)
+I/message ( 2213): requestUrl  :http://wasu.feifeikan.com:8080/msis/getChannelProgram?version=V001&terminalType=2&resolution=1280*720&userCode=&channelResourceCode=10047&pageSize=0&curPage=0&beginTime=2013-03-30%2000:00:00&endTime=2013-03-30%2023:59:59&authKey=8e65936ac08ea9cc7061a19914896eaf
+E/AndroidRuntime( 2213): FATAL EXCEPTION: Thread-2607
+E/AndroidRuntime( 2213): java.lang.IndexOutOfBoundsException: Invalid index 0, size is 0
+E/AndroidRuntime( 2213):        at java.util.ArrayList.throwIndexOutOfBoundsException(ArrayList.java:251)
+E/AndroidRuntime( 2213):        at java.util.ArrayList.get(ArrayList.java:304)
+E/AndroidRuntime( 2213):        at com.coship.dvbplayer.epg.OttEpg$2.run(OttEpg.java:197)
+E/AndroidRuntime( 2213):        at java.lang.Thread.run(Thread.java:856)
+W/ActivityManager(  954):   Force finishing activity com.coship.dvbplayer/.main
+I/message ( 2213): message  :{"ret":"0","pageSize":0,"retInfo":"","program":[{"programId":76558,"eventDate":"2013-03-31","beginTime":"2013-03-31 00:40:00","endTime":"2013-03-31 02:40:00","eventName":"我是歌手","eventDesc":null,"status":1,"assetID":"TWSX0000076558004000","volumeName":"85864","channelResourceCode":"10047","isBook":0,"videoType":"1","channelID":"HNWSHD","isRecommend":0,"playCount":0,"keyWord":"我是歌手","channelName":null,"poster":[]},{"programId":76559,"eventDate":"2013-03-31","beginTime":"2013-03-31 02:40:00","endTime":"2013-03-31 03:20:00","eventName":"我是大美�?,"eventDesc":null,"status":1,"assetID":"TWSX0000076559024000","volumeName":"85864","channelResourceCode":"10047","isBook":0,"videoType":"1","channelID":"HNWSHD","isRecommend":0,"playCount":0,"keyWord":"我是大美�?,"channelName":null,"poster":[]},{"programId":76560,"eventDate":"2013-03-31","beginTime":"2013-03-31 03:20:00","endTime":"2013-03-31 05:30:00","eventName":"电影","eventDesc":null,"status":1,"assetID":"TWSX0000076560032000","volumeName":"85864","channelResourceCode":"10047","isBook":0,"videoType":"1","channelID":"HNWSHD","isRecommend":0,"playCount":0,"keyWord":"电影","channelName":null,"poster":[]},{"programId":76561,"eventDate":"2013-03-31","beginTime":"2013-03-31 05:30:00","endTime":"2013-03-31 07:00:00","eventName":"我是歌手","eventDesc":null,"status":1,"assetID":"TWSX0000076561053000","volumeName":"85864","channelResourceCode":"10047","isBook":0,"videoType":"1","channelID":"HNWSHD","isRecommend":0,"playCount":0,"keyWord":"我是歌手","channelName":null,"poster":[]},{"programId":76562,"eventDate":"2013-03-31","beginTime":"2013-03-31 07:00:00","endTime":"2013-03-31 07:30:00","eventName":"湖南新闻联播","eventDesc":null,"status":1,"assetID":"TWSX0000076562070000","volumeName":"85864","channelResourceCode":"10047","isBook":0,"videoType":"1","channelID":"HNWSHD","isRecommend":0,"playCount":0,"keyWord":"湖南新闻联播","channelName":null,"poster":[]},{"programId":76563,"eventDate":"2013-03-31","beginTime":"2013-03-31 07:30:00","endTime":"2013-03-31 08:00:00","eventName":"播报多看�?,"eventDesc":null,"status":1,"assetID":"TWSX0000076563073000","volumeName":"85864","channelResourceCode":"10047","isBook":0,"videoType":"1","channelID":"HNWSHD","isRecommend":0,"playCount":0,"keyWord":"播报多看�?,"channelName":null,"poster":[]},{"programId":76564,"eventDate":"2013-03-31","beginTime":"2013-03-31 08:00:00","endTime":"2013-03-31 09:00:00","eventName":"加油罗武�?24)","eventDesc":null,"status":1,"assetID":"TWSX0000076564080000","volumeName":"85864","channelResourceCode":"10047","isBook":0,"videoType":"1","channelID":"HNWSHD","isRecommend":0,"playCount":0,"keyWord":"加油罗武�?24)","channelName":null,"poster":[]},{"programId":76565,"eventDate":"2013-03-31","beginTime":"2013-03-31 09:00:00","endTime":"2013-03-31 10:00:00","eventName":"加油罗武�?25)","eventDesc":null,"status":1,"assetID":"TWSX0000076565090000","volumeName":"85864","channelResourceCode":"10047","isBook":0,"videoType":"1","channelID":"HNWSHD","isRecommend":0,"playCount":0,"keyWord":"加油罗武�?25)","channelName":null,"poster":[]},{"programId":76566,"eventDate":"2013-03-31","beginTime":"2013-03-31 10:00:00","endTime":"2013-03-31 11:00:00","eventName":"加油罗武�?26)","eventDesc":null,"status":1,"assetID":"TWSX0000076566100000","volumeName":"85864","channelResourceCode":"10047","isBook":0,"videoType":"1","channelID":"HNWSHD","isRecommend":0,"playCount":0,"keyWord":"加油罗武�?26)","channelName":null,"poster":[]},{"programId":76567,"eventDate":"2013-03-31","beginTime":"2013-03-31 11:00:00","endTime":"2013-03-31 13:00:00","eventName":"快乐大本�?,"eventDesc":null,"status":1,"assetID":"TWSX0000076567110000","volumeName":"85864","channelResourceCode":"10047","isBook":0,"videoType":"1","channelID":"HNWSHD","isRecommend":0,"playCount":0,"keyWord":"快乐大本�?,"channelName":null,"poster":[]},{"programId":76568,"eventDate":"2013-03-31","beginTime":"2013-03-31 13:00:00","endTime":"2013-03-31 15:00:00
+I/System.out( 2213): message--->{"ret":"0","pageSize":0,"retInfo":"","program":[{"programId":76558,"eventDate":"2013-03-31","beginTime":"2013-03-31 00:40:00","endTime":"2013-03-31 02:40:00","eventName":"我是歌手","eventDesc":null,"status":1,"assetID":"TWSX0000076558004000","volumeName":"85864","channelResourceCode":"10047","isBook":0,"videoType":"1","channelID":"HNWSHD","isRecommend":0,"playCount":0,"keyWord":"我是歌手","channelName":null,"poster":[]},{"programId":76559,"eventDate":"2013-03-31","beginTime":"2013-03-31 02:40:00","endTime":"2013-03-31 03:20:00","eventName":"我是大美�?,"eventDesc":null,"status":1,"assetID":"TWSX0000076559024000","volumeName":"85864","channelResourceCode":"10047","isBook":0,"videoType":"1","channelID":"HNWSHD","isRecommend":0,"playCount":0,"keyWord":"我是大美�?,"channelName":null,"poster":[]},{"programId":76560,"eventDate":"2013-03-31","beginTime":"2013-03-31 03:20:00","endTime":"2013-03-31 05:30:00","eventName":"电影","eventDesc":null,"status":1,"assetID":"TWSX0000076560032000","volumeName":"85864","channelResourceCode":"10047","isBook":0,"videoType":"1","channelID":"HNWSHD","isRecommend":0,"playCount":0,"keyWord":"电影","channelName":null,"poster":[]},{"programId":76561,"eventDate":"2013-03-31","beginTime":"2013-03-31 05:30:00","endTime":"2013-03-31 07:00:00","eventName":"我是歌手","eventDesc":null,"status":1,"assetID":"TWSX0000076561053000","volumeName":"85864","channelResourceCode":"10047","isBook":0,"videoType":"1","channelID":"HNWSHD","isRecommend":0,"playCount":0,"keyWord":"我是歌手","channelName":null,"poster":[]},{"programId":76562,"eventDate":"2013-03-31","beginTime":"2013-03-31 07:00:00","endTime":"2013-03-31 07:30:00","eventName":"湖南新闻联播","eventDesc":null,"status":1,"assetID":"TWSX0000076562070000","volumeName":"85864","channelResourceCode":"10047","isBook":0,"videoType":"1","channelID":"HNWSHD","isRecommend":0,"playCount":0,"keyWord":"湖南新闻联播","channelName":null,"poster":[]},{"programId":76563,"eventDate":"2013-03-31","beginTime":"2013-03-31 07:30:00","endTime":"2013-03-31 08:00:00","eventName":"播报多看�?,"eventDesc":null,"status":1,"assetID":"TWSX0000076563073000","volumeName":"85864","channelResourceCode":"10047","isBook":0,"videoType":"1","channelID":"HNWSHD","isRecommend":0,"playCount":0,"keyWord":"播报多看�?,"channelName":null,"poster":[]},{"programId":76564,"eventDate":"2013-03-31","beginTime":"2013-03-31 08:00:00","endTime":"2013-03-31 09:00:00","eventName":"加油罗武�?24)","eventDesc":null,"status":1,"assetID":"TWSX0000076564080000","volumeName":"85864","channelResourceCode":"10047","isBook":0,"videoType":"1","channelID":"HNWSHD","isRecommend":0,"playCount":0,"keyWord":"加油罗武�?24)","channelName":null,"poster":[]},{"programId":76565,"eventDate":"2013-03-31","beginTime":"2013-03-31 09:00:00","endTime":"2013-03-31 10:00:00","eventName":"加油罗武�?25)","eventDesc":null,"status":1,"assetID":"TWSX0000076565090000","volumeName":"85864","channelResourceCode":"10047","isBook":0,"videoType":"1","channelID":"HNWSHD","isRecommend":0,"playCount":0,"keyWord":"加油罗武�?25)","channelName":null,"poster":[]},{"programId":76566,"eventDate":"2013-03-31","beginTime":"2013-03-31 10:00:00","endTime":"2013-03-31 11:00:00","eventName":"加油罗武�?26)","eventDesc":null,"status":1,"assetID":"TWSX0000076566100000","volumeName":"85864","channelResourceCode":"10047","isBook":0,"videoType":"1","channelID":"HNWSHD","isRecommend":0,"playCount":0,"keyWord":"加油罗武�?26)","channelName":null,"poster":[]},{"programId":76567,"eventDate":"2013-03-31","beginTime":"2013-03-31 11:00:00","endTime":"2013-03-31 13:00:00","eventName":"快乐大本�?,"eventDesc":null,"status":1,"assetID":"TWSX0000076567110000","volumeName":"85864","channelResourceCode":"10047","isBook":0,"videoType":"1","channelID":"HNWSHD","isRecommend":0,"playCount":0,"keyWord":"快乐大本�?,"channelName":null,"poster":[]},{"programId":76568,"eventDate":"2013-03-31","beginTime":"2013-03-31 13:00:00","endTime":"2013-03-31 15:0
+I/dvb_Dvblist( 2213): [dateviwe setOnItemSelectedListener] position:1 date:2013-03-29
+I/dvb_Dvblist( 2213): [SelectDate] lastMylocator code:10047  position:1
+E/dvb_EpgInterface( 2213): [getEpgWeek]  data:2013-03-29
+E/dvb_EpgInterface( 2213): [getEpgWeek]  epg list empty,So to obtain data epg list
+I/DVB_main( 2213): [dispatchKeyEvent]  Action:0  keyCode:19
+I/dvb_control( 2213): [onKeyDown]  keyCode��19  Oklist_view.getVisibility():0 Constant.isHidden:false
+I/dvb_control( 2213): [onKeyDown]  Oklist_view is show,So Didn't do anything............
+I/DVB_main( 2213): [dispatchKeyEvent]  Does not deal with the keyCode
+I/message ( 2213): requestUrl  :http://wasu.feifeikan.com:8080/msis/getChannelProgram?version=V001&terminalType=2&resolution=1280*720&userCode=&channelResourceCode=10047&pageSize=0&curPage=0&beginTime=2013-03-29%2000:00:00&endTime=2013-03-29%2023:59:59&authKey=3bf1bf3c72ad2dd304ec0fd30c9994e1
+I/DVB_main( 2213): onPause
+I/DVB_main( 2213): exit, Send broadcast playtype is 0
+I/message ( 2213): message  :{"ret":"0","pageSize":0,"retInfo":"","program":[{"programId":76474,"eventDate":"2013-03-30","beginTime":"2013-03-30 00:00:00","endTime":"2013-03-30 02:00:00","eventName":"我是歌手","eventDesc":null,"status":1,"assetID":"TWSX0000076474000000","volumeName":"85864","channelResourceCode":"10047","isBook":0,"videoType":"1","channelID":"HNWSHD","isRecommend":0,"playCount":0,"keyWord":"我是歌手","channelName":null,"poster":[]},{"programId":76475,"eventDate":"2013-03-30","beginTime":"2013-03-30 02:00:00","endTime":"2013-03-30 05:30:00","eventName":"电影","eventDesc":null,"status":1,"assetID":"TWSX0000076475020000","volumeName":"85864","channelResourceCode":"10047","isBook":0,"videoType":"1","channelID":"HNWSHD","isRecommend":0,"playCount":0,"keyWord":"电影","channelName":null,"poster":[]},{"programId":76476,"eventDate":"2013-03-30","beginTime":"2013-03-30 05:30:00","endTime":"2013-03-30 07:00:00","eventName":"我是歌手","eventDesc":null,"status":1,"assetID":"TWSX0000076476053000","volumeName":"85864","channelResourceCode":"10047","isBook":0,"videoType":"1","channelID":"HNWSHD","isRecommend":0,"playCount":0,"keyWord":"我是歌手","channelName":null,"poster":[]},{"programId":76477,"eventDate":"2013-03-30","beginTime":"2013-03-30 07:00:00","endTime":"2013-03-30 07:30:00","eventName":"湖南新闻联播","eventDesc":null,"status":1,"assetID":"TWSX0000076477070000","volumeName":"85864","channelResourceCode":"10047","isBook":0,"videoType":"1","channelID":"HNWSHD","isRecommend":0,"playCount":0,"keyWord":"湖南新闻联播","channelName":null,"poster":[]},{"programId":76478,"eventDate":"2013-03-30","beginTime":"2013-03-30 07:30:00","endTime":"2013-03-30 08:00:00","eventName":"播报多看�?,"eventDesc":null,"status":1,"assetID":"TWSX0000076478073000","volumeName":"85864","channelResourceCode":"10047","isBook":0,"videoType":"1","channelID":"HNWSHD","isRecommend":0,"playCount":0,"keyWord":"播报多看�?,"channelName":null,"poster":[]},{"programId":76479,"eventDate":"2013-03-30","beginTime":"2013-03-30 08:00:00","endTime":"2013-03-30 09:00:00","eventName":"加油罗武�?21)","eventDesc":null,"status":1,"assetID":"TWSX0000076479080000","volumeName":"85864","channelResourceCode":"10047","isBook":0,"videoType":"1","channelID":"HNWSHD","isRecommend":0,"playCount":0,"keyWord":"加油罗武�?21)","channelName":null,"poster":[]},{"programId":76480,"eventDate":"2013-03-30","beginTime":"2013-03-30 09:00:00","endTime":"2013-03-30 10:00:00","eventName":"加油罗武�?22)","eventDesc":null,"status":1,"assetID":"TWSX0000076480090000","volumeName":"85864","channelResourceCode":"10047","isBook":0,"videoType":"1","channelID":"HNWSHD","isRecommend":0,"playCount":0,"keyWord":"加油罗武�?22)","channelName":null,"poster":[]},{"programId":76481,"eventDate":"2013-03-30","beginTime":"2013-03-30 10:00:00","endTime":"2013-03-30 11:00:00","eventName":"加油罗武�?23)","eventDesc":null,"status":1,"assetID":"TWSX0000076481100000","volumeName":"85864","channelResourceCode":"10047","isBook":0,"videoType":"1","channelID":"HNWSHD","isRecommend":0,"playCount":0,"keyWord":"加油罗武�?23)","channelName":null,"poster":[]},{"programId":76482,"eventDate":"2013-03-30","beginTime":"2013-03-30 11:00:00","endTime":"2013-03-30 13:00:00","eventName":"天天向上","eventDesc":null,"status":1,"assetID":"TWSX0000076482110000","volumeName":"85864","channelResourceCode":"10047","isBook":0,"videoType":"1","channelID":"HNWSHD","isRecommend":0,"playCount":0,"keyWord":"天天向上","channelName":null,"poster":[]},{"programId":76483,"eventDate":"2013-03-30","beginTime":"2013-03-30 13:00:00","endTime":"2013-03-30 15:00:00","eventName":"我是歌手","eventDesc":null,"status":1,"assetID":"TWSX0000076483130000","volumeName":"85864","channelResourceCode":"10047","isBook":0,"videoType":"1","channelID":"HNWSHD","isRecommend":0,"playCount":0,"keyWord":"我是歌手","channelName":null,"poster":[]},{"programId":76484,"eventDate":"2013-03-30","beginTime":"2013-03-30 15:00:00","endTime":"2013-03-30 16:00:00","eventName
+I/System.out( 2213): message--->{"ret":"0","pageSize":0,"retInfo":"","program":[{"programId":76474,"eventDate":"2013-03-30","beginTime":"2013-03-30 00:00:00","endTime":"2013-03-30 02:00:00","eventName":"我是歌手","eventDesc":null,"status":1,"assetID":"TWSX0000076474000000","volumeName":"85864","channelResourceCode":"10047","isBook":0,"videoType":"1","channelID":"HNWSHD","isRecommend":0,"playCount":0,"keyWord":"我是歌手","channelName":null,"poster":[]},{"programId":76475,"eventDate":"2013-03-30","beginTime":"2013-03-30 02:00:00","endTime":"2013-03-30 05:30:00","eventName":"电影","eventDesc":null,"status":1,"assetID":"TWSX0000076475020000","volumeName":"85864","channelResourceCode":"10047","isBook":0,"videoType":"1","channelID":"HNWSHD","isRecommend":0,"playCount":0,"keyWord":"电影","channelName":null,"poster":[]},{"programId":76476,"eventDate":"2013-03-30","beginTime":"2013-03-30 05:30:00","endTime":"2013-03-30 07:00:00","eventName":"我是歌手","eventDesc":null,"status":1,"assetID":"TWSX0000076476053000","volumeName":"85864","channelResourceCode":"10047","isBook":0,"videoType":"1","channelID":"HNWSHD","isRecommend":0,"playCount":0,"keyWord":"我是歌手","channelName":null,"poster":[]},{"programId":76477,"eventDate":"2013-03-30","beginTime":"2013-03-30 07:00:00","endTime":"2013-03-30 07:30:00","eventName":"湖南新闻联播","eventDesc":null,"status":1,"assetID":"TWSX0000076477070000","volumeName":"85864","channelResourceCode":"10047","isBook":0,"videoType":"1","channelID":"HNWSHD","isRecommend":0,"playCount":0,"keyWord":"湖南新闻联播","channelName":null,"poster":[]},{"programId":76478,"eventDate":"2013-03-30","beginTime":"2013-03-30 07:30:00","endTime":"2013-03-30 08:00:00","eventName":"播报多看�?,"eventDesc":null,"status":1,"assetID":"TWSX0000076478073000","volumeName":"85864","channelResourceCode":"10047","isBook":0,"videoType":"1","channelID":"HNWSHD","isRecommend":0,"playCount":0,"keyWord":"播报多看�?,"channelName":null,"poster":[]},{"programId":76479,"eventDate":"2013-03-30","beginTime":"2013-03-30 08:00:00","endTime":"2013-03-30 09:00:00","eventName":"加油罗武�?21)","eventDesc":null,"status":1,"assetID":"TWSX0000076479080000","volumeName":"85864","channelResourceCode":"10047","isBook":0,"videoType":"1","channelID":"HNWSHD","isRecommend":0,"playCount":0,"keyWord":"加油罗武�?21)","channelName":null,"poster":[]},{"programId":76480,"eventDate":"2013-03-30","beginTime":"2013-03-30 09:00:00","endTime":"2013-03-30 10:00:00","eventName":"加油罗武�?22)","eventDesc":null,"status":1,"assetID":"TWSX0000076480090000","volumeName":"85864","channelResourceCode":"10047","isBook":0,"videoType":"1","channelID":"HNWSHD","isRecommend":0,"playCount":0,"keyWord":"加油罗武�?22)","channelName":null,"poster":[]},{"programId":76481,"eventDate":"2013-03-30","beginTime":"2013-03-30 10:00:00","endTime":"2013-03-30 11:00:00","eventName":"加油罗武�?23)","eventDesc":null,"status":1,"assetID":"TWSX0000076481100000","volumeName":"85864","channelResourceCode":"10047","isBook":0,"videoType":"1","channelID":"HNWSHD","isRecommend":0,"playCount":0,"keyWord":"加油罗武�?23)","channelName":null,"poster":[]},{"programId":76482,"eventDate":"2013-03-30","beginTime":"2013-03-30 11:00:00","endTime":"2013-03-30 13:00:00","eventName":"天天向上","eventDesc":null,"status":1,"assetID":"TWSX0000076482110000","volumeName":"85864","channelResourceCode":"10047","isBook":0,"videoType":"1","channelID":"HNWSHD","isRecommend":0,"playCount":0,"keyWord":"天天向上","channelName":null,"poster":[]},{"programId":76483,"eventDate":"2013-03-30","beginTime":"2013-03-30 13:00:00","endTime":"2013-03-30 15:00:00","eventName":"我是歌手","eventDesc":null,"status":1,"assetID":"TWSX0000076483130000","volumeName":"85864","channelResourceCode":"10047","isBook":0,"videoType":"1","channelID":"HNWSHD","isRecommend":0,"playCount":0,"keyWord":"我是歌手","channelName":null,"poster":[]},{"programId":76484,"eventDate":"2013-03-30","beginTime":"2013-03-30 15:00:00","endTime":"2013-03-30 16:00:00","event
+D/dalvikvm( 2213): GC_CONCURRENT freed 2050K, 20% free 31630K/39235K, paused 2ms+11ms
+I//lib/ld-linux.so.3(  748): FrmCnt:326(0,2,13) Rate:24 Sys:4217769 STC:11812387 VPTS:11812355 APTS:11812395 Delay:9(41) V:0 A:0 VES:0x4550 AES:0x0 PCM:0x1a100 AudioErr:0x0
+D/TextLayoutCache(  954): Using debug level: 0 - Debug Enabled: 0
+I/message ( 2213): message  :{"ret":"0","pageSize":0,"retInfo":"","program":[{"programId":76494,"eventDate":"2013-03-29","beginTime":"2013-03-29 00:00:00","endTime":"2013-03-29 02:00:00","eventName":"百变大咖秀�?,"eventDesc":null,"status":1,"assetID":"TWSX0000076494000000","volumeName":"85864","channelResourceCode":"10047","isBook":0,"videoType":"1","channelID":"HNWSHD","isRecommend":0,"playCount":0,"keyWord":"百变大咖秀�?,"channelName":null,"poster":[]},{"programId":76495,"eventDate":"2013-03-29","beginTime":"2013-03-29 02:00:00","endTime":"2013-03-29 06:00:00","eventName":"电影","eventDesc":null,"status":1,"assetID":"TWSX0000076495020000","volumeName":"85864","channelResourceCode":"10047","isBook":0,"videoType":"1","channelID":"HNWSHD","isRecommend":0,"playCount":0,"keyWord":"电影","channelName":null,"poster":[]},{"programId":76496,"eventDate":"2013-03-29","beginTime":"2013-03-29 06:00:00","endTime":"2013-03-29 07:00:00","eventName":"称心如意","eventDesc":null,"status":1,"assetID":"TWSX0000076496060000","volumeName":"85864","channelResourceCode":"10047","isBook":0,"videoType":"1","channelID":"HNWSHD","isRecommend":0,"playCount":0,"keyWord":"称心如意","channelName":null,"poster":[]},{"programId":76497,"eventDate":"2013-03-29","beginTime":"2013-03-29 07:00:00","endTime":"2013-03-29 07:30:00","eventName":"湖南新闻联播","eventDesc":null,"status":1,"assetID":"TWSX0000076497070000","volumeName":"85864","channelResourceCode":"10047","isBook":0,"videoType":"1","channelID":"HNWSHD","isRecommend":0,"playCount":0,"keyWord":"湖南新闻联播","channelName":null,"poster":[]},{"programId":76498,"eventDate":"2013-03-29","beginTime":"2013-03-29 07:30:00","endTime":"2013-03-29 08:36:00","eventName":"加油罗武�?17)","eventDesc":null,"status":1,"assetID":"TWSX0000076498073000","volumeName":"85864","channelResourceCode":"10047","isBook":0,"videoType":"1","channelID":"HNWSHD","isRecommend":0,"playCount":0,"keyWord":"加油罗武�?17)","channelName":null,"poster":[]},{"programId":76499,"eventDate":"2013-03-29","beginTime":"2013-03-29 08:36:00","endTime":"2013-03-29 09:42:00","eventName":"加油罗武�?18)","eventDesc":null,"status":1,"assetID":"TWSX0000076499083600","volumeName":"85864","channelResourceCode":"10047","isBook":0,"videoType":"1","channelID":"HNWSHD","isRecommend":0,"playCount":0,"keyWord":"加油罗武�?18)","channelName":null,"poster":[]},{"programId":76500,"eventDate":"2013-03-29","beginTime":"2013-03-29 09:42:00","endTime":"2013-03-29 10:48:00","eventName":"加油罗武�?19)","eventDesc":null,"status":1,"assetID":"TWSX0000076500094200","volumeName":"85864","channelResourceCode":"10047","isBook":0,"videoType":"1","channelID":"HNWSHD","isRecommend":0,"playCount":0,"keyWord":"加油罗武�?19)","channelName":null,"poster":[]},{"programId":76501,"eventDate":"2013-03-29","beginTime":"2013-03-29 10:48:00","endTime":"2013-03-29 11:55:00","eventName":"加油罗武�?20)","eventDesc":null,"status":1,"assetID":"TWSX0000076501104800","volumeName":"85864","channelResourceCode":"10047","isBook":0,"videoType":"1","channelID":"HNWSHD","isRecommend":0,"playCount":0,"keyWord":"加油罗武�?20)","channelName":null,"poster":[]},{"programId":76502,"eventDate":"2013-03-29","beginTime":"2013-03-29 11:55:00","endTime":"2013-03-29 12:20:00","eventName":"娱乐无极�?,"eventDesc":null,"status":1,"assetID":"TWSX0000076502115500","volumeName":"85864","channelResourceCode":"10047","isBook":0,"videoType":"1","channelID":"HNWSHD","isRecommend":0,"playCount":0,"keyWord":"娱乐无极�?,"channelName":null,"poster":[]},{"programId":76503,"eventDate":"2013-03-29","beginTime":"2013-03-29 12:20:00","endTime":"2013-03-29 12:50:00","eventName":"播报多看�?,"eventDesc":null,"status":1,"assetID":"TWSX0000076503122000","volumeName":"85864","channelResourceCode":"10047","isBook":0,"videoType":"1","channelID":"HNWSHD","isRecommend":0,"playCount":0,"keyWord":"播报多看�?,"channelName":null,"poster":[]},{"programId":76504,"eventDate":"2013-03-29","beginTime":"2013-03-29 12:50:00","endTime":
+I/System.out( 2213): message--->{"ret":"0","pageSize":0,"retInfo":"","program":[{"programId":76494,"eventDate":"2013-03-29","beginTime":"2013-03-29 00:00:00","endTime":"2013-03-29 02:00:00","eventName":"百变大咖秀�?,"eventDesc":null,"status":1,"assetID":"TWSX0000076494000000","volumeName":"85864","channelResourceCode":"10047","isBook":0,"videoType":"1","channelID":"HNWSHD","isRecommend":0,"playCount":0,"keyWord":"百变大咖秀�?,"channelName":null,"poster":[]},{"programId":76495,"eventDate":"2013-03-29","beginTime":"2013-03-29 02:00:00","endTime":"2013-03-29 06:00:00","eventName":"电影","eventDesc":null,"status":1,"assetID":"TWSX0000076495020000","volumeName":"85864","channelResourceCode":"10047","isBook":0,"videoType":"1","channelID":"HNWSHD","isRecommend":0,"playCount":0,"keyWord":"电影","channelName":null,"poster":[]},{"programId":76496,"eventDate":"2013-03-29","beginTime":"2013-03-29 06:00:00","endTime":"2013-03-29 07:00:00","eventName":"称心如意","eventDesc":null,"status":1,"assetID":"TWSX0000076496060000","volumeName":"85864","channelResourceCode":"10047","isBook":0,"videoType":"1","channelID":"HNWSHD","isRecommend":0,"playCount":0,"keyWord":"称心如意","channelName":null,"poster":[]},{"programId":76497,"eventDate":"2013-03-29","beginTime":"2013-03-29 07:00:00","endTime":"2013-03-29 07:30:00","eventName":"湖南新闻联播","eventDesc":null,"status":1,"assetID":"TWSX0000076497070000","volumeName":"85864","channelResourceCode":"10047","isBook":0,"videoType":"1","channelID":"HNWSHD","isRecommend":0,"playCount":0,"keyWord":"湖南新闻联播","channelName":null,"poster":[]},{"programId":76498,"eventDate":"2013-03-29","beginTime":"2013-03-29 07:30:00","endTime":"2013-03-29 08:36:00","eventName":"加油罗武�?17)","eventDesc":null,"status":1,"assetID":"TWSX0000076498073000","volumeName":"85864","channelResourceCode":"10047","isBook":0,"videoType":"1","channelID":"HNWSHD","isRecommend":0,"playCount":0,"keyWord":"加油罗武�?17)","channelName":null,"poster":[]},{"programId":76499,"eventDate":"2013-03-29","beginTime":"2013-03-29 08:36:00","endTime":"2013-03-29 09:42:00","eventName":"加油罗武�?18)","eventDesc":null,"status":1,"assetID":"TWSX0000076499083600","volumeName":"85864","channelResourceCode":"10047","isBook":0,"videoType":"1","channelID":"HNWSHD","isRecommend":0,"playCount":0,"keyWord":"加油罗武�?18)","channelName":null,"poster":[]},{"programId":76500,"eventDate":"2013-03-29","beginTime":"2013-03-29 09:42:00","endTime":"2013-03-29 10:48:00","eventName":"加油罗武�?19)","eventDesc":null,"status":1,"assetID":"TWSX0000076500094200","volumeName":"85864","channelResourceCode":"10047","isBook":0,"videoType":"1","channelID":"HNWSHD","isRecommend":0,"playCount":0,"keyWord":"加油罗武�?19)","channelName":null,"poster":[]},{"programId":76501,"eventDate":"2013-03-29","beginTime":"2013-03-29 10:48:00","endTime":"2013-03-29 11:55:00","eventName":"加油罗武�?20)","eventDesc":null,"status":1,"assetID":"TWSX0000076501104800","volumeName":"85864","channelResourceCode":"10047","isBook":0,"videoType":"1","channelID":"HNWSHD","isRecommend":0,"playCount":0,"keyWord":"加油罗武�?20)","channelName":null,"poster":[]},{"programId":76502,"eventDate":"2013-03-29","beginTime":"2013-03-29 11:55:00","endTime":"2013-03-29 12:20:00","eventName":"娱乐无极�?,"eventDesc":null,"status":1,"assetID":"TWSX0000076502115500","volumeName":"85864","channelResourceCode":"10047","isBook":0,"videoType":"1","channelID":"HNWSHD","isRecommend":0,"playCount":0,"keyWord":"娱乐无极�?,"channelName":null,"poster":[]},{"programId":76503,"eventDate":"2013-03-29","beginTime":"2013-03-29 12:20:00","endTime":"2013-03-29 12:50:00","eventName":"播报多看�?,"eventDesc":null,"status":1,"assetID":"TWSX0000076503122000","volumeName":"85864","channelResourceCode":"10047","isBook":0,"videoType":"1","channelID":"HNWSHD","isRecommend":0,"playCount":0,"keyWord":"播报多看�?,"channelName":null,"poster":[]},{"programId":76504,"eventDate":"2013-03-29","beginTime":"2013-03-29 12:50:00","endTi
+E/dvb_EpgInterface( 2213): [getEpgWeek]  EpgListElement_list.get(0).data:2013-03-31
+E/dvb_EpgInterface( 2213): [getEpgWeek]  EpgListElement_list.get(0).data:2013-03-31
+E/dvb_EpgInterface( 2213): [getEpgWeek]  EpgListElement_list.get(1).data:2013-03-30
+I/MonitorCw880( 3638): easybusReceive success !
+D/MonitorCw880( 3638):  easybusMsg.remoteIp=  192.168.43.152 easybusMsg.remotePort=  60303 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880( 3638): currentRemoteHost=192.168.43.152 easybusMsg.remoteIp=192.168.43.152, counter=3
+D/MonitorCw880( 3638): easybusySend()-> easybusMsg.remoteIp=  192.168.43.152 easybusMsg.remotePort=  60303 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+E/dvb_EpgInterface( 2213): [getEpgWeek]  EpgListElement_list.get(0).data:2013-03-31
+E/dvb_EpgInterface( 2213): [getEpgWeek]  EpgListElement_list.get(1).data:2013-03-30
+E/dvb_EpgInterface( 2213): [getEpgWeek]  EpgListElement_list.get(2).data:2013-03-29
+D/dalvikvm(  954): GC_FOR_ALLOC freed 1298K, 61% free 3709K/9475K, paused 50ms
+D/dalvikvm(  954): GC_FOR_ALLOC freed 29K, 55% free 4301K/9475K, paused 42ms
+W/ActivityManager(  954): Activity pause timeout for ActivityRecord{4162f110 com.coship.dvbplayer/.main}
+I/dvb_OTTPlayer( 2213): [stop] stop
+D/MstarPlayer(  744): MstarPlayer::stop
+D/MstarPlayer(  744): request to exit async thread
+I/Process (  954): Sending signal. PID: 2213 SIG: 3
+I/dalvikvm( 2213): threadid=3: reacting to signal 3
+D/MstarPlayer(  744): exit async proc thread
+D/IMMPlayer(  744): Send MM_Stop
+D/IMMPlayer(  744): u32Item:1
+I/dalvikvm( 2213): Wrote stack traces to '/data/anr/traces.txt'
+D/InputEventConsistencyVerifier(  954): KeyEvent: ACTION_UP but key was not down.
+D/InputEventConsistencyVerifier(  954):   in Handler (android.view.ViewRootImpl) {416c9560}
+D/InputEventConsistencyVerifier(  954):   0: sent at 4217524000000, KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_UP, scanCode=103, metaState=0, flags=0x8, repeatCount=0, eventTime=4217524, downTime=4216774, deviceId=2, source=0x101 }
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744): Warning : ForceContentSourceReset
+D/selena.android.view.SelenaView( 1306): Surface Lost
+W/selena.android.view.SelenaView( 1306):     at selena.android.view.SelenaView.onSurfaceLost(SelenaView.java:322)
+I//lib/ld-linux.so.3(  748): MApp_VDPlayer_Stop interrupt
+V/selena.android.gl.EglHelper( 1306): >>> Looking for EGL Config ES1 R8G8B8A0 D16S0 AA0
+W/selena.android.gl.EglHelper( 1306):     at selena.android.gl.EglHelper.start(EglHelper.java:101)
+D/MstarPlayer(  744): player waiting exit
+V/selena.android.gl.EglHelper( 1306): eglChooseConfig err: 12288
+W/selena.android.gl.EglHelper( 1306):     at selena.android.gl.EglHelper.findAndInitConfig(EglHelper.java:177)
+V/selena.android.gl.EglHelper( 1306): >>> EGL Config [0] ES0 R8G8B8A0 D24S0 AA0 Caveat[12344] - Score: 2048
+W/selena.android.gl.EglHelper( 1306):     at selena.android.gl.EglHelper.findAndInitConfig(EglHelper.java:237)
+V/selena.android.gl.EglHelper( 1306): --> Config chosen: 0
+W/selena.android.gl.EglHelper( 1306):     at selena.android.gl.EglHelper.findAndInitConfig(EglHelper.java:250)
+V/selena.android.gl.EglHelper( 1306): >>> EGL Config [1] ES0 R8G8B8A8 D24S8 AA0 Caveat[12344] - Score: 526344
+W/selena.android.gl.EglHelper( 1306):     at selena.android.gl.EglHelper.findAndInitConfig(EglHelper.java:237)
+V/selena.android.gl.EglHelper( 1306): >>> EGL Config [2] ES0 R8G8B8A8 D24S8 AA0 Caveat[12344] - Score: 526344
+W/selena.android.gl.EglHelper( 1306):     at selena.android.gl.EglHelper.findAndInitConfig(EglHelper.java:237)
+I//lib/ld-linux.so.3(  748): MApp_VDPlayer_Stop
+I//lib/ld-linux.so.3(  748): E_VDP_DECODE_STATE_STOP --> E_VDP_DECODE_STATE_STANDBY
+I//lib/ld-linux.so.3(  748): E_VDP_PHASE_DECODE --> E_VDP_PHASE_STOP
+V/selena.android.gl.EglHelper( 1306): >>> EGL Config [3] ES0 R8G8B8A8 D24S8 AA4 Caveat[12344] - Score: 67635208
+W/selena.android.gl.EglHelper( 1306):     at selena.android.gl.EglHelper.findAndInitConfig(EglHelper.java:237)
+D/selena.android.gl.GLView$GLThread( 1306): waitForRenderComplete - Enter: false, false
+W/selena.android.gl.GLView$GLThread( 1306):     at selena.android.gl.GLView$GLThread.waitForRenderComplete(GLView.java:746)
+D/selena.android.gl.GLView$GLThread( 1306): waitForRenderComplete - LeaveAt: 3342
+W/selena.android.gl.GLView$GLThread( 1306):     at selena.android.gl.GLView$GLThread.waitForRenderComplete(GLView.java:755)
+I//lib/ld-linux.so.3(  748): Clear ES buffer
+D/OtOService( 1154): TVContentReceiver: ACTION_TV_CONTENT_CHANGED, playType: 0 ,resourceCode: null
+D/ServerAdapter( 1154): Server addr: http://wasu.feifeikan.com:8080/
+E/ServerHandler( 1154): Send:com.aidufei.protocol.oto.OtOContentRequest@429dc168
+D/ServerHandler( 1154): ServerHandler send request:200:{"Status":{"ReturnCode":100,"Description":"TVContentChanged"},"ServerAddr":"http:\/\/wasu.feifeikan.com:8080\/","Volume":-1}
+V/ServerHandler( 1154): ServerHandler send DatagramPacket:/192.168.43.152-[B@4146d7e0
+W/selena.android.view.SelenaView( 1306): DISPATCH_DRAW_WAIT_FOR_NFRAMES_COUNT: 1
+W/selena.android.view.SelenaView( 1306):     at selena.android.view.SelenaView.dispatchDraw(SelenaView.java:99)
+D/selena.android.gl.GLView$GLThread( 1306): waitForRenderComplete - Enter: false, false
+W/selena.android.gl.GLView$GLThread( 1306):     at selena.android.gl.GLView$GLThread.waitForRenderComplete(GLView.java:746)
+D/selena.android.gl.GLView$GLThread( 1306): waitForRenderComplete - LeaveAt: 3342
+W/selena.android.gl.GLView$GLThread( 1306):     at selena.android.gl.GLView$GLThread.waitForRenderComplete(GLView.java:755)
+I//lib/ld-linux.so.3(  748): E_VDP_PHASE_STOP --> E_VDP_PHASE_STANDBY
+I//lib/ld-linux.so.3(  748): Error code 0; Stop Pos:0x01b5e48 Time:13365
+I//lib/ld-linux.so.3(  748): Get MB_VDPLAYER_STOP command.
+D/IMMPlayer(  744): Get ret:0
+D/IMMPlayer(  744): Send MM_DeleteMediaItem
+D/IMMPlayer(  744): u32Item:1
+D/IMMPlayer(  744): Get ret:0
+D/IMMPlayer(  744): Send PLAYER_COMMAND_REMOVE_EVENT_RECIPIENT_FPTR
+D/IMMPlayer(  744): Get ret:1
+D/IMMPlayer(  744): Send FINALIZE
+I//lib/ld-linux.so.3(  748): Sbtitle de-init: 0.
+I//lib/ld-linux.so.3(  748): MMPlayerService::Client::MM_Finalize()
+I//lib/ld-linux.so.3(  748): MSrv_MM_PhotoPlayer::Finalize().
+I//lib/ld-linux.so.3(  748): mapi_cpcodec::Finalize().
+I//lib/ld-linux.so.3(  748): mapi_cpcodec::Finalize().
+I//lib/ld-linux.so.3(  748): Do mapi_cpcodec::Finalize().
+D/IMMPlayer(  744): Get ret:0
+D/MMPlayer(  744): disconnect
+D/MMPlayer(  744): 
+D/IMMPlayer(  744): Send DISCONNECT
+D/MstarPlayer(  744): MstarPlayer::clearAllSource
+D/MMPlayer(  744): destructor: 0x3aed8
+D/MMPlayer(  744): 
+D/Downloader(  744): Enter Downloader::ForceExit ! 
+D/MMPlayer(  744): disconnect
+D/MMPlayer(  744): 
+D/DataSource_M3U8(  744): [M3U8]request to exit download thread
+I//lib/ld-linux.so.3(  748): MM_Finalize done
+I//lib/ld-linux.so.3(  748): V/MMPlayerService( 763 1072): disconnect(callingPid 744, clientPid 744)
+I//lib/ld-linux.so.3(  748): V/MMPlayerService( 763 1072): Disconnet finalize OK.
+I//lib/ld-linux.so.3(  748): V/MMPlayerService( 763 1072): removeClient(callingPid 744)
+D/OpenGLRenderer( 1154): Flushing caches (mode 1)
+D/DataSource_M3U8(  744): [ContentSource_M3U8] DownloadThread Exit Done..
+D/DataSource_M3U8(  744): [M3U8]request to exit mPlaylistThread thread
+D/dalvikvm( 1199): GC_CONCURRENT freed 485K, 77% free 1388K/5827K, paused 1ms+1ms
+D/HomePlayerLib( 1199): hostaddress count is 2
+D/dalvikvm( 1199): GC_CONCURRENT freed 469K, 78% free 1319K/5827K, paused 1ms+1ms
+D/dalvikvm( 1199): GC_CONCURRENT freed 410K, 76% free 1417K/5827K, paused 1ms+1ms
+D/dalvikvm( 1199): GC_CONCURRENT freed 500K, 78% free 1324K/5827K, paused 2ms+2ms
+D/dalvikvm( 1199): GC_CONCURRENT freed 391K, 78% free 1324K/5827K, paused 1ms+1ms
+D/dalvikvm( 1199): GC_CONCURRENT freed 392K, 78% free 1326K/5827K, paused 2ms+2ms
+D/dalvikvm( 1199): GC_CONCURRENT freed 392K, 78% free 1324K/5827K, paused 1ms+1ms
+D/dalvikvm( 1199): GC_CONCURRENT freed 402K, 78% free 1338K/5827K, paused 1ms+1ms
+D/dalvikvm( 1199): GC_CONCURRENT freed 408K, 75% free 1462K/5827K, paused 1ms+1ms
+D/dalvikvm( 1199): GC_CONCURRENT freed 541K, 78% free 1305K/5827K, paused 1ms+1ms
+D/dalvikvm( 1199): GC_CONCURRENT freed 391K, 77% free 1356K/5827K, paused 0ms+1ms
+D/HTTPStream(  744): receive_line return error:-268435448
+D/HTTPStream(  744): receive header fail
+D/dalvikvm( 1199): GC_CONCURRENT freed 431K, 76% free 1436K/5827K, paused 1ms+1ms
+D/dalvikvm( 1199): GC_CONCURRENT freed 515K, 77% free 1394K/5827K, paused 1ms+1ms
+D/dalvikvm( 1199): GC_CONCURRENT freed 474K, 77% free 1342K/5827K, paused 1ms+1ms
+D/dalvikvm( 1199): GC_CONCURRENT freed 415K, 76% free 1438K/5827K, paused 0ms+1ms
+D/Downloader(  744): Enter Downloader::ForceExit ! 
+D/Downloader(  744): [downloadThread]Downloader::removeTask  
+D/Downloader(  744): ~Downloader
+D/DataSource_M3U8(  744): [M3U8]~ContentSource_M3U8 done.
+D/MstarPlayer(  744): setInstance: 0x0
+D/MstarPlayer(  744): ==========MstarPlayer::reset : 0x394b8==========
+D/MstarPlayer(  744): MstarPlayer::clearAllSource
+D/MstarPlayer(  744): setInstance: 0x0
+D/MstarPlayer(  744): reset done
+I/dvb_LoadTips( 2213): [gethandler] objInstance:com.coship.dvbplayer.LoadTips@417d8c10
+I/dvb_LoadTips( 2213): [gethandler] objInstance  mHandler:Handler (com.coship.dvbplayer.LoadTips$1) {42aafc78}
+I/dvb_LoadTips( 2213): [gethandler] objInstance:com.coship.dvbplayer.LoadTips@417d8c10
+I/dvb_LoadTips( 2213): [gethandler] objInstance  mHandler:Handler (com.coship.dvbplayer.LoadTips$1) {42aafc78}
+D/MstarPlayer(  744): ==========MstarPlayer::reset : 0x394b8==========
+D/MstarPlayer(  744): MstarPlayer::clearAllSource
+D/MstarPlayer(  744): setInstance: 0x0
+D/MstarPlayer(  744): reset done
+D/MstarPlayer(  744): 
+D/MstarPlayer(  744): =======Destroy mstar player  : 0x394b8========
+I//lib/ld-linux.so.3(  748): V/MMPlayerService( 763 1049): MMPlayerService::Client destructor(callingPid 744)
+I/dvb_Dvblist( 2213): [dateviwe setOnItemSelectedListener] position:0 date:2013-03-28
+I/dvb_Dvblist( 2213): [SelectDate] lastMylocator code:10047  position:0
+E/dvb_EpgInterface( 2213): [getEpgWeek]  data:2013-03-28
+I/dvb_EpgInterface( 2213): [getEpgWeek]  EpgListElement_list.get(0).data:2013-03-31
+I/dvb_EpgInterface( 2213): [getEpgWeek]  EpgListElement_list.get(1).data:2013-03-30
+I/dvb_EpgInterface( 2213): [getEpgWeek]  EpgListElement_list.get(2).data:2013-03-29
+E/dvb_EpgInterface( 2213): [getEpgWeek]  epg list empty,So to obtain data epg list
+V/dvb_EpgInterface( 2213): ++++list++++[00:40  我是歌手, 02:40  我是大美�? 03:20  电影, 05:30  我是歌手, 07:00  湖南新闻联播, 07:30  播报多看�? 08:00  加油罗武�?24), 09:00  加油罗武�?25), 10:00  加油罗武�?26), 11:00  快乐大本�? 13:00  我是歌手, 15:00  百万新娘�?25), 16:00  百万新娘�?26), 17:00  百万新娘�?27), 18:00  新闻当事�? 18:30  湖南新闻联播, 19:00  转播中央台新闻联�? 19:30  百万新娘�?35), 20:20  百万新娘�?36), 21:10  百万新娘�?37), 22:00  华丽一�?19), 22:50  华丽一�?20)]++++callback++++com.coship.dvbplayer.view.Dvblist$EpgInfoLoadCallback@416b4fb0
+I/dvb_Dvblist( 2213): [EpgInfoLoadCallback] list size:22
+D/dalvikvm( 1199): GC_CONCURRENT freed 517K, 77% free 1364K/5827K, paused 1ms+5ms
+V/dvb_EpgInterface( 2213): ++++list++++[00:00  我是歌手, 02:00  电影, 05:30  我是歌手, 07:00  湖南新闻联播, 07:30  播报多看�? 08:00  加油罗武�?21), 09:00  加油罗武�?22), 10:00  加油罗武�?23), 11:00  天天向上, 13:00  我是歌手, 15:00  百万新娘�?23), 16:00  百万新娘�?24), 17:00  百万新娘�?25), 18:00  新闻当事�? 18:30  湖南新闻联播, 19:00  转播中央台新闻联�? 19:30  百万新娘�?34), 20:10  快乐大本�? 22:00  华丽一�?17), 22:50  华丽一�?18)]++++callback++++com.coship.dvbplayer.view.Dvblist$EpgInfoLoadCallback@42e8a770
+I/dvb_Dvblist( 2213): [EpgInfoLoadCallback] list size:20
+V/dvb_EpgInterface( 2213): ++++list++++[00:00  百变大咖秀�? 02:00  电影, 06:00  称心如意, 07:00  湖南新闻联播, 07:30  加油罗武�?17), 08:36  加油罗武�?18), 09:42  加油罗武�?19), 10:48  加油罗武�?20), 11:55  娱乐无极�? 12:20  播报多看�? 12:50  我是歌手, 15:00  百万新娘�?21), 16:00  百万新娘�?22), 17:00  百万新娘�?23), 18:00  新闻大求�? 18:30  湖南新闻联播, 19:00  转播中央台新闻联�? 19:30  百万新娘�?33), 20:10  天天向上, 22:00  我是歌手]++++callback++++com.coship.dvbplayer.view.Dvblist$EpgInfoLoadCallback@4184da60
+I/dvb_Dvblist( 2213): [EpgInfoLoadCallback] list size:20
+I/DVB_main( 2213): onDestroy
+D/dvb_ServiceAdapter( 2213): onDestroy.
+V/OtOService( 1154): unregisterCallback:
+I/message ( 2213): requestUrl  :http://wasu.feifeikan.com:8080/msis/getChannelProgram?version=V001&terminalType=2&resolution=1280*720&userCode=&channelResourceCode=10047&pageSize=0&curPage=0&beginTime=2013-03-28%2000:00:00&endTime=2013-03-28%2023:59:59&authKey=7bd475428d61371b4880c626935e0b41
+I/dvb_OTTPlayer( 2213): [stop] stop
+E/dvb_OTTPlayer( 2213): [stop] ERROR:mediaplayer is null
+I/dvb_LoadTips( 2213): [gethandler] objInstance:com.coship.dvbplayer.LoadTips@417d8c10
+I/dvb_LoadTips( 2213): [gethandler] objInstance  mHandler:Handler (com.coship.dvbplayer.LoadTips$1) {42aafc78}
+I/dvb_LoadTips( 2213): [gethandler] objInstance:com.coship.dvbplayer.LoadTips@417d8c10
+I/dvb_LoadTips( 2213): [gethandler] objInstance  mHandler:Handler (com.coship.dvbplayer.LoadTips$1) {42aafc78}
+D/dalvikvm( 1199): GC_CONCURRENT freed 447K, 77% free 1371K/5827K, paused 1ms+2ms
+D/dalvikvm( 2213): GC_EXPLICIT freed 970K, 21% free 31365K/39235K, paused 2ms+10ms
+E/StrictMode( 2213): class com.coship.dvbplayer.main; instances=3; limit=1
+E/StrictMode( 2213): android.os.StrictMode$InstanceCountViolation: class com.coship.dvbplayer.main; instances=3; limit=1
+E/StrictMode( 2213):    at android.os.StrictMode.setClassInstanceLimit(StrictMode.java:1)
+E/dvb_OTTPlayer( 2213): [surfaceDestroyed]  holder:android.view.SurfaceView$4@42a43978
+I/InputQueue-JNI( 2213): Sending finished signal for input channel '4186b840 com.coship.dvbplayer/com.coship.dvbplayer.main (client)' since it is being unregistered while an input message is still in progress.
+I/dvb_LoadTips( 2213): [mHandler] ~~~~~~~~~~~~~~~~~~~~~~~~~mHandler:Handler (com.coship.dvbplayer.LoadTips$1) {42aafc78} msg.what:5 msg.obj:null
+I/InputQueue-JNI( 2213): Ignoring finish signal on channel that is no longer registered.
+I/dvb_LoadTips( 2213): [mHandler] ~~~~~~~~~~~~~~~~~~~~~~~~~mHandler:Handler (com.coship.dvbplayer.LoadTips$1) {42aafc78} msg.what:5 msg.obj:null
+D/dalvikvm( 1199): GC_CONCURRENT freed 457K, 78% free 1337K/5827K, paused 1ms+2ms
+I/message ( 2213): message  :{"ret":"0","pageSize":0,"retInfo":"","program":[{"programId":76536,"eventDate":"2013-03-28","beginTime":"2013-03-28 00:00:00","endTime":"2013-03-28 02:00:00","eventName":"我们约会�?,"eventDesc":null,"status":1,"assetID":"TWSX0000076536000000","volumeName":"85864","channelResourceCode":"10047","isBook":0,"videoType":"1","channelID":"HNWSHD","isRecommend":0,"playCount":0,"keyWord":"我们约会�?,"channelName":null,"poster":[]},{"programId":76537,"eventDate":"2013-03-28","beginTime":"2013-03-28 02:00:00","endTime":"2013-03-28 06:00:00","eventName":"电影","eventDesc":null,"status":1,"assetID":"TWSX0000076537020000","volumeName":"85864","channelResourceCode":"10047","isBook":0,"videoType":"1","channelID":"HNWSHD","isRecommend":0,"playCount":0,"keyWord":"电影","channelName":null,"poster":[]},{"programId":76538,"eventDate":"2013-03-28","beginTime":"2013-03-28 06:00:00","endTime":"2013-03-28 07:00:00","eventName":"称心如意","eventDesc":null,"status":1,"assetID":"TWSX0000076538060000","volumeName":"85864","channelResourceCode":"10047","isBook":0,"videoType":"1","channelID":"HNWSHD","isRecommend":0,"playCount":0,"keyWord":"称心如意","channelName":null,"poster":[]},{"programId":76539,"eventDate":"2013-03-28","beginTime":"2013-03-28 07:00:00","endTime":"2013-03-28 07:30:00","eventName":"湖南新闻联播","eventDesc":null,"status":1,"assetID":"TWSX0000076539070000","volumeName":"85864","channelResourceCode":"10047","isBook":0,"videoType":"1","channelID":"HNWSHD","isRecommend":0,"playCount":0,"keyWord":"湖南新闻联播","channelName":null,"poster":[]},{"programId":76540,"eventDate":"2013-03-28","beginTime":"2013-03-28 07:30:00","endTime":"2013-03-28 08:36:00","eventName":"加油罗武�?13)","eventDesc":null,"status":1,"assetID":"TWSX0000076540073000","volumeName":"85864","channelResourceCode":"10047","isBook":0,"videoType":"1","channelID":"HNWSHD","isRecommend":0,"playCount":0,"keyWord":"加油罗武�?13)","channelName":null,"poster":[]},{"programId":76541,"eventDate":"2013-03-28","beginTime":"2013-03-28 08:36:00","endTime":"2013-03-28 09:42:00","eventName":"加油罗武�?14)","eventDesc":null,"status":1,"assetID":"TWSX0000076541083600","volumeName":"85864","channelResourceCode":"10047","isBook":0,"videoType":"1","channelID":"HNWSHD","isRecommend":0,"playCount":0,"keyWord":"加油罗武�?14)","channelName":null,"poster":[]},{"programId":76542,"eventDate":"2013-03-28","beginTime":"2013-03-28 09:42:00","endTime":"2013-03-28 10:48:00","eventName":"加油罗武�?15)","eventDesc":null,"status":1,"assetID":"TWSX0000076542094200","volumeName":"85864","channelResourceCode":"10047","isBook":0,"videoType":"1","channelID":"HNWSHD","isRecommend":0,"playCount":0,"keyWord":"加油罗武�?15)","channelName":null,"poster":[]},{"programId":76543,"eventDate":"2013-03-28","beginTime":"2013-03-28 10:48:00","endTime":"2013-03-28 11:55:00","eventName":"加油罗武�?16)","eventDesc":null,"status":1,"assetID":"TWSX0000076543104800","volumeName":"85864","channelResourceCode":"10047","isBook":0,"videoType":"1","channelID":"HNWSHD","isRecommend":0,"playCount":0,"keyWord":"加油罗武�?16)","channelName":null,"poster":[]},{"programId":76544,"eventDate":"2013-03-28","beginTime":"2013-03-28 11:55:00","endTime":"2013-03-28 12:20:00","eventName":"娱乐无极�?,"eventDesc":null,"status":1,"assetID":"TWSX0000076544115500","volumeName":"85864","channelResourceCode":"10047","isBook":0,"videoType":"1","channelID":"HNWSHD","isRecommend":0,"playCount":0,"keyWord":"娱乐无极�?,"channelName":null,"poster":[]},{"programId":76545,"eventDate":"2013-03-28","beginTime":"2013-03-28 12:20:00","endTime":"2013-03-28 12:50:00","eventName":"播报多看�?,"eventDesc":null,"status":1,"assetID":"TWSX0000076545122000","volumeName":"85864","channelResourceCode":"10047","isBook":0,"videoType":"1","channelID":"HNWSHD","isRecommend":0,"playCount":0,"keyWord":"播报多看�?,"channelName":null,"poster":[]},{"programId":76546,"eventDate":"2013-03-28","beginTime":"2013-03-28 12:50:00","endTime":"2013-
+I/System.out( 2213): message--->{"ret":"0","pageSize":0,"retInfo":"","program":[{"programId":76536,"eventDate":"2013-03-28","beginTime":"2013-03-28 00:00:00","endTime":"2013-03-28 02:00:00","eventName":"我们约会�?,"eventDesc":null,"status":1,"assetID":"TWSX0000076536000000","volumeName":"85864","channelResourceCode":"10047","isBook":0,"videoType":"1","channelID":"HNWSHD","isRecommend":0,"playCount":0,"keyWord":"我们约会�?,"channelName":null,"poster":[]},{"programId":76537,"eventDate":"2013-03-28","beginTime":"2013-03-28 02:00:00","endTime":"2013-03-28 06:00:00","eventName":"电影","eventDesc":null,"status":1,"assetID":"TWSX0000076537020000","volumeName":"85864","channelResourceCode":"10047","isBook":0,"videoType":"1","channelID":"HNWSHD","isRecommend":0,"playCount":0,"keyWord":"电影","channelName":null,"poster":[]},{"programId":76538,"eventDate":"2013-03-28","beginTime":"2013-03-28 06:00:00","endTime":"2013-03-28 07:00:00","eventName":"称心如意","eventDesc":null,"status":1,"assetID":"TWSX0000076538060000","volumeName":"85864","channelResourceCode":"10047","isBook":0,"videoType":"1","channelID":"HNWSHD","isRecommend":0,"playCount":0,"keyWord":"称心如意","channelName":null,"poster":[]},{"programId":76539,"eventDate":"2013-03-28","beginTime":"2013-03-28 07:00:00","endTime":"2013-03-28 07:30:00","eventName":"湖南新闻联播","eventDesc":null,"status":1,"assetID":"TWSX0000076539070000","volumeName":"85864","channelResourceCode":"10047","isBook":0,"videoType":"1","channelID":"HNWSHD","isRecommend":0,"playCount":0,"keyWord":"湖南新闻联播","channelName":null,"poster":[]},{"programId":76540,"eventDate":"2013-03-28","beginTime":"2013-03-28 07:30:00","endTime":"2013-03-28 08:36:00","eventName":"加油罗武�?13)","eventDesc":null,"status":1,"assetID":"TWSX0000076540073000","volumeName":"85864","channelResourceCode":"10047","isBook":0,"videoType":"1","channelID":"HNWSHD","isRecommend":0,"playCount":0,"keyWord":"加油罗武�?13)","channelName":null,"poster":[]},{"programId":76541,"eventDate":"2013-03-28","beginTime":"2013-03-28 08:36:00","endTime":"2013-03-28 09:42:00","eventName":"加油罗武�?14)","eventDesc":null,"status":1,"assetID":"TWSX0000076541083600","volumeName":"85864","channelResourceCode":"10047","isBook":0,"videoType":"1","channelID":"HNWSHD","isRecommend":0,"playCount":0,"keyWord":"加油罗武�?14)","channelName":null,"poster":[]},{"programId":76542,"eventDate":"2013-03-28","beginTime":"2013-03-28 09:42:00","endTime":"2013-03-28 10:48:00","eventName":"加油罗武�?15)","eventDesc":null,"status":1,"assetID":"TWSX0000076542094200","volumeName":"85864","channelResourceCode":"10047","isBook":0,"videoType":"1","channelID":"HNWSHD","isRecommend":0,"playCount":0,"keyWord":"加油罗武�?15)","channelName":null,"poster":[]},{"programId":76543,"eventDate":"2013-03-28","beginTime":"2013-03-28 10:48:00","endTime":"2013-03-28 11:55:00","eventName":"加油罗武�?16)","eventDesc":null,"status":1,"assetID":"TWSX0000076543104800","volumeName":"85864","channelResourceCode":"10047","isBook":0,"videoType":"1","channelID":"HNWSHD","isRecommend":0,"playCount":0,"keyWord":"加油罗武�?16)","channelName":null,"poster":[]},{"programId":76544,"eventDate":"2013-03-28","beginTime":"2013-03-28 11:55:00","endTime":"2013-03-28 12:20:00","eventName":"娱乐无极�?,"eventDesc":null,"status":1,"assetID":"TWSX0000076544115500","volumeName":"85864","channelResourceCode":"10047","isBook":0,"videoType":"1","channelID":"HNWSHD","isRecommend":0,"playCount":0,"keyWord":"娱乐无极�?,"channelName":null,"poster":[]},{"programId":76545,"eventDate":"2013-03-28","beginTime":"2013-03-28 12:20:00","endTime":"2013-03-28 12:50:00","eventName":"播报多看�?,"eventDesc":null,"status":1,"assetID":"TWSX0000076545122000","volumeName":"85864","channelResourceCode":"10047","isBook":0,"videoType":"1","channelID":"HNWSHD","isRecommend":0,"playCount":0,"keyWord":"播报多看�?,"channelName":null,"poster":[]},{"programId":76546,"eventDate":"2013-03-28","beginTime":"2013-03-28 12:50:00","endTime":"2
+E/dvb_EpgInterface( 2213): [getEpgWeek]  EpgListElement_list.get(0).data:2013-03-28
+V/dvb_EpgInterface( 2213): ++++list++++[00:00  我们约会�? 02:00  电影, 06:00  称心如意, 07:00  湖南新闻联播, 07:30  加油罗武�?13), 08:36  加油罗武�?14), 09:42  加油罗武�?15), 10:48  加油罗武�?16), 11:55  娱乐无极�? 12:20  播报多看�? 12:50  百万新娘�?16), 13:55  百万新娘�?17), 15:00  百万新娘�?18), 16:00  百万新娘�?19), 17:00  百万新娘�?20), 18:00  新闻大求�? 18:30  湖南新闻联播, 19:00  转播中央台新闻联�? 19:30  百万新娘�?30), 20:20  百万新娘�?31), 21:10  百万新娘�?32), 22:00  百变大咖秀Ⅲ]++++callback++++com.coship.dvbplayer.view.Dvblist$EpgInfoLoadCallback@42ef7ca0
+I/dvb_Dvblist( 2213): [EpgInfoLoadCallback] list size:22
+I/MonitorCw880( 3638): easybusReceive success !
+D/MonitorCw880( 3638):  easybusMsg.remoteIp=  192.168.43.152 easybusMsg.remotePort=  60303 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880( 3638): currentRemoteHost=192.168.43.152 easybusMsg.remoteIp=192.168.43.152, counter=4
+D/MonitorCw880( 3638): easybusySend()-> easybusMsg.remoteIp=  192.168.43.152 easybusMsg.remotePort=  60303 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/dalvikvm( 1199): GC_CONCURRENT freed 421K, 78% free 1319K/5827K, paused 0ms+1ms
+D/dalvikvm( 1199): GC_CONCURRENT freed 391K, 78% free 1324K/5827K, paused 0ms+2ms
+D/dalvikvm( 1199): GC_CONCURRENT freed 406K, 78% free 1336K/5827K, paused 1ms+2ms
+I/MonitorCw880( 3638): easybusReceive success !
+D/MonitorCw880( 3638):  easybusMsg.remoteIp=  192.168.43.152 easybusMsg.remotePort=  60303 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880( 3638): currentRemoteHost=192.168.43.152 easybusMsg.remoteIp=192.168.43.152, counter=5
+D/MonitorCw880( 3638): easybusySend()-> easybusMsg.remoteIp=  192.168.43.152 easybusMsg.remotePort=  60303 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/dalvikvm( 1199): GC_CONCURRENT freed 405K, 78% free 1325K/5827K, paused 1ms+1ms
+D/dalvikvm( 1199): GC_CONCURRENT freed 399K, 78% free 1322K/5827K, paused 1ms+1ms
+D/HomePlayerLib( 1199): hostaddress count is 2
+D/dalvikvm( 1199): GC_CONCURRENT freed 405K, 78% free 1306K/5827K, paused 1ms+1ms
+D/dalvikvm( 1199): GC_CONCURRENT freed 387K, 78% free 1320K/5827K, paused 1ms+1ms
+D/dalvikvm( 1199): GC_CONCURRENT freed 409K, 78% free 1297K/5827K, paused 1ms+1ms
+D/dalvikvm( 1199): GC_CONCURRENT freed 380K, 74% free 1562K/5827K, paused 1ms+1ms
+D/dalvikvm( 1199): GC_CONCURRENT freed 619K, 78% free 1332K/5827K, paused 1ms+1ms
+D/dalvikvm( 1199): GC_CONCURRENT freed 417K, 78% free 1319K/5827K, paused 0ms+1ms
+D/dalvikvm( 1199): GC_CONCURRENT freed 446K, 77% free 1366K/5827K, paused 1ms+2ms
+D/dalvikvm( 1199): GC_CONCURRENT freed 438K, 78% free 1314K/5827K, paused 1ms+1ms
+D/dalvikvm( 1199): GC_CONCURRENT freed 392K, 76% free 1432K/5827K, paused 1ms+1ms
+D/dalvikvm( 1199): GC_CONCURRENT freed 509K, 76% free 1421K/5827K, paused 1ms+1ms
+D/dalvikvm( 1199): GC_CONCURRENT freed 495K, 77% free 1394K/5827K, paused 1ms+1ms
+D/dalvikvm( 1199): GC_CONCURRENT freed 501K, 78% free 1334K/5827K, paused 1ms+1ms
+D/dalvikvm( 1199): GC_CONCURRENT freed 413K, 78% free 1320K/5827K, paused 1ms+1ms
+D/dalvikvm( 1199): GC_CONCURRENT freed 408K, 78% free 1308K/5827K, paused 1ms+1ms
+D/dalvikvm( 1199): GC_CONCURRENT freed 394K, 78% free 1316K/5827K, paused 0ms+1ms
+I/MonitorCw880( 3638): easybusReceive success !
+D/MonitorCw880( 3638):  easybusMsg.remoteIp=  192.168.43.152 easybusMsg.remotePort=  60303 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880( 3638): currentRemoteHost=192.168.43.152 easybusMsg.remoteIp=192.168.43.152, counter=6
+D/MonitorCw880( 3638): easybusySend()-> easybusMsg.remoteIp=  192.168.43.152 easybusMsg.remotePort=  60303 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/dalvikvm( 1199): GC_CONCURRENT freed 405K, 78% free 1320K/5827K, paused 0ms+1ms
+D/dalvikvm( 1199): GC_CONCURRENT freed 394K, 78% free 1320K/5827K, paused 0ms+1ms
+D/dalvikvm( 1199): GC_CONCURRENT freed 393K, 78% free 1320K/5827K, paused 1ms+1ms
+D/dalvikvm( 1199): GC_CONCURRENT freed 393K, 78% free 1320K/5827K, paused 1ms+1ms
+D/dalvikvm( 1199): GC_CONCURRENT freed 393K, 78% free 1321K/5827K, paused 1ms+1ms
+D/MonitorCw880( 3638): Befor,cycleCheckCounter=6 counter=7
+I/MonitorCw880( 3638): easybusReceive success !
+D/MonitorCw880( 3638):  easybusMsg.remoteIp=  192.168.43.152 easybusMsg.remotePort=  60303 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880( 3638): currentRemoteHost=192.168.43.152 easybusMsg.remoteIp=192.168.43.152, counter=2
+D/MonitorCw880( 3638): easybusySend()-> easybusMsg.remoteIp=  192.168.43.152 easybusMsg.remotePort=  60303 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/HomePlayerLib( 1199): hostaddress count is 2
+D/dalvikvm( 1199): GC_CONCURRENT freed 411K, 76% free 1420K/5827K, paused 1ms+1ms
+D/dalvikvm( 1199): GC_CONCURRENT freed 508K, 78% free 1319K/5827K, paused 0ms+1ms
+D/dalvikvm( 1199): GC_CONCURRENT freed 404K, 78% free 1307K/5827K, paused 1ms+1ms
+D/dalvikvm( 1199): GC_CONCURRENT freed 378K, 78% free 1328K/5827K, paused 1ms+1ms
+I/MonitorCw880( 3638): easybusReceive success !
+D/MonitorCw880( 3638):  easybusMsg.remoteIp=  192.168.43.152 easybusMsg.remotePort=  60303 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880( 3638): currentRemoteHost=192.168.43.152 easybusMsg.remoteIp=192.168.43.152, counter=3
+D/MonitorCw880( 3638): easybusySend()-> easybusMsg.remoteIp=  192.168.43.152 easybusMsg.remotePort=  60303 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/dalvikvm( 1199): GC_CONCURRENT freed 399K, 78% free 1322K/5827K, paused 1ms+1ms
+D/dalvikvm( 1199): GC_CONCURRENT freed 408K, 77% free 1366K/5827K, paused 1ms+1ms
+D/dalvikvm( 1199): GC_CONCURRENT freed 433K, 76% free 1430K/5827K, paused 0ms+1ms
+D/dalvikvm( 1199): GC_CONCURRENT freed 514K, 77% free 1347K/5827K, paused 1ms+1ms
+D/dalvikvm( 1199): GC_CONCURRENT freed 417K, 76% free 1433K/5827K, paused 0ms+1ms
+D/dalvikvm( 1199): GC_CONCURRENT freed 514K, 76% free 1428K/5827K, paused 1ms+1ms
+D/dalvikvm( 1199): GC_CONCURRENT freed 489K, 78% free 1323K/5827K, paused 1ms+1ms
+D/dalvikvm( 1199): GC_CONCURRENT freed 401K, 76% free 1422K/5827K, paused 1ms+1ms
+D/dalvikvm( 1199): GC_CONCURRENT freed 479K, 77% free 1354K/5827K, paused 2ms+1ms
+D/dalvikvm( 1199): GC_CONCURRENT freed 431K, 77% free 1392K/5827K, paused 1ms+1ms
+D/dalvikvm( 1199): GC_CONCURRENT freed 463K, 76% free 1438K/5827K, paused 1ms+1ms
+D/dalvikvm( 1199): GC_CONCURRENT freed 521K, 76% free 1423K/5827K, paused 1ms+1ms
+D/dalvikvm( 1199): GC_CONCURRENT freed 503K, 77% free 1349K/5827K, paused 1ms+1ms
+I/MonitorCw880( 3638): easybusReceive success !
+D/MonitorCw880( 3638):  easybusMsg.remoteIp=  192.168.43.152 easybusMsg.remotePort=  60303 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880( 3638): currentRemoteHost=192.168.43.152 easybusMsg.remoteIp=192.168.43.152, counter=4
+D/MonitorCw880( 3638): easybusySend()-> easybusMsg.remoteIp=  192.168.43.152 easybusMsg.remotePort=  60303 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/dalvikvm( 1199): GC_FOR_ALLOC freed 548K, 78% free 1306K/5827K, paused 10ms
+D/dalvikvm( 1199): GC_CONCURRENT freed 6K, 75% free 1486K/5827K, paused 0ms+1ms
+I/MonitorCw880( 3638): easybusReceive success !
+D/MonitorCw880( 3638):  easybusMsg.remoteIp=  192.168.43.152 easybusMsg.remotePort=  60303 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880( 3638): currentRemoteHost=192.168.43.152 easybusMsg.remoteIp=192.168.43.152, counter=5
+D/MonitorCw880( 3638): easybusySend()-> easybusMsg.remoteIp=  192.168.43.152 easybusMsg.remotePort=  60303 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/HomePlayerLib( 1199): hostaddress count is 2
+D/dalvikvm( 1199): GC_CONCURRENT freed 570K, 76% free 1421K/5827K, paused 1ms+1ms
+D/dalvikvm( 1199): GC_CONCURRENT freed 510K, 76% free 1401K/5827K, paused 1ms+1ms
+D/dalvikvm( 1199): GC_CONCURRENT freed 482K, 76% free 1418K/5827K, paused 1ms+1ms
+D/dalvikvm( 1199): GC_CONCURRENT freed 485K, 76% free 1448K/5827K, paused 1ms+1ms
+D/dalvikvm( 1199): GC_CONCURRENT freed 514K, 78% free 1331K/5827K, paused 1ms+1ms
+D/dalvikvm( 1199): GC_CONCURRENT freed 404K, 78% free 1311K/5827K, paused 1ms+1ms
+D/dalvikvm( 1199): GC_CONCURRENT freed 395K, 76% free 1421K/5827K, paused 1ms+1ms
+D/dalvikvm( 1199): GC_CONCURRENT freed 482K, 76% free 1451K/5827K, paused 1ms+1ms
+D/dalvikvm( 1199): GC_CONCURRENT freed 526K, 76% free 1435K/5827K, paused 1ms+0ms
+D/dalvikvm( 1199): GC_CONCURRENT freed 506K, 76% free 1429K/5827K, paused 1ms+1ms
+D/dalvikvm( 1199): GC_CONCURRENT freed 500K, 76% free 1427K/5827K, paused 1ms+1ms
+D/dalvikvm( 1199): GC_CONCURRENT freed 509K, 78% free 1301K/5827K, paused 1ms+1ms
+D/dalvikvm( 1199): GC_CONCURRENT freed 382K, 76% free 1426K/5827K, paused 1ms+1ms
+D/dalvikvm( 1199): GC_CONCURRENT freed 487K, 77% free 1369K/5827K, paused 1ms+1ms
+D/dalvikvm( 1199): GC_CONCURRENT freed 455K, 76% free 1421K/5827K, paused 1ms+1ms
+D/dalvikvm( 1199): GC_CONCURRENT freed 493K, 78% free 1321K/5827K, paused 1ms+1ms
+D/dalvikvm( 1199): GC_CONCURRENT freed 395K, 78% free 1320K/5827K, paused 1ms+2ms
+I/MonitorCw880( 3638): easybusReceive success !
+D/MonitorCw880( 3638):  easybusMsg.remoteIp=  192.168.43.152 easybusMsg.remotePort=  60303 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880( 3638): currentRemoteHost=192.168.43.152 easybusMsg.remoteIp=192.168.43.152, counter=6
+D/MonitorCw880( 3638): easybusySend()-> easybusMsg.remoteIp=  192.168.43.152 easybusMsg.remotePort=  60303 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880( 3638): Befor,cycleCheckCounter=6 counter=7
+D/InputEventConsistencyVerifier(  954): KeyEvent: ACTION_UP but key was not down.
+D/InputEventConsistencyVerifier(  954):   in com.android.internal.policy.impl.PhoneWindow$DecorView@416954d0
+D/InputEventConsistencyVerifier(  954):   0: sent at 4259664000000, KeyEvent { action=ACTION_UP, keyCode=KEYCODE_ENTER, scanCode=28, metaState=0, flags=0x8, repeatCount=0, eventTime=4259664, downTime=4259503, deviceId=2, source=0x101 }
+D/InputEventConsistencyVerifier(  954):   -- recent events --
+D/InputEventConsistencyVerifier(  954):   1: sent at 4221929194000, (unhandled) MotionEvent { action=ACTION_UP, id[0]=0, x[0]=357.34973, y[0]=389.03748, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, metaState=0, flags=0x1, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=4221929, downTime=4221805, deviceId=5, source=0x1002 }
+D/InputEventConsistencyVerifier(  954):   2: sent at 4221805630000, (unhandled) MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=357.34973, y[0]=389.03748, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, metaState=0, flags=0x1, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=4221805, downTime=4221805, deviceId=5, source=0x1002 }
+D/InputEventConsistencyVerifier(  954):   3: sent at 4221773272000, (unhandled) MotionEvent { action=ACTION_HOVER_MOVE, id[0]=0, x[0]=14.617493, y[0]=93.448, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=4221773, downTime=4200980, deviceId=6, source=0x1002 }
+D/InputEventConsistencyVerifier(  954):   4: sent at 4221773272000, (unhandled) MotionEvent { action=ACTION_HOVER_ENTER, id[0]=0, x[0]=14.617493, y[0]=93.448, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=4221773, downTime=4200980, deviceId=6, source=0x1002 }
+D/InputEventConsistencyVerifier(  954):   5: sent at 4221773272000, (unhandled) MotionEvent { action=ACTION_HOVER_ENTER, id[0]=0, x[0]=14.617493, y[0]=93.448, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=4221773, downTime=4200980, deviceId=6, source=0x1002 }
+I/Process ( 2213): Sending signal. PID: 2213 SIG: 9
+D/selena.android.view.SelenaView( 1306): onWindowFocusChanged: true
+W/selena.android.view.SelenaView( 1306):     at selena.android.view.SelenaView.onWindowFocusChanged(SelenaView.java:121)
+D/selena.android.gl.GLView( 1306): onWindowFocusChanged: true
+W/[ 4261.228616] binder: release proc 2213, transaction 399187, not freed
+selena.android.g[ 4261.235709] binder: release proc 2213, transaction 399188, not freed
+l.GLView( 1306):     at selena.android.gl.GLView.onWindowFocusChanged(GLView.java:379)
+V/TabletStatusBar( 1162): setLightsOn(true)
+D/selena.android.gl.GLView$GLThread( 1306): onWindowFocusChanged - Enter: false, false
+W/selena.android.gl.GLView$GLThread( 1306):     at selena.android.gl.GLView$GLThread.onWindowFocusChanged(GLView.java:822)
+D/selena.android.gl.GLView$GLThread( 1306): onWindowFocusChanged - Leave: false, false
+W/selena.android.gl.GLView$GLThread( 1306):     at selena.android.gl.GLView$GLThread.onWindowFocusChanged(GLView.java:831)
+D/selena.android.view.SelenaView( 1306): onCreateInputConnection
+W/selena.android.view.SelenaView( 1306):     at selena.android.view.SelenaView.onCreateInputConnection(SelenaView.java:396)
+I/ActivityManager(  954): Process com.coship.dvbplayer (pid 2213) has died.
+D/selena.android.view.SelenaView( 1306): Surface Created
+W/selena.android.view.SelenaView( 1306):     at selena.android.view.SelenaView.onSurfaceCreated(SelenaView.java:316)
+V/aglSendDebugString( 1306): GLES1 Context - Resized [00195838]: 1280x720 (BB:R5G6B5) (DS:D16), VP: Vec4(0,0,1280,720), SC: Vec4(0,0,1280,720)
+V/aglSendDebugString( 1306): >>> Restoring VertexArray: FVF:Position|Normal|ColorA|Tex1(2)|Tangent|BiNormal, NumVertex: 8, Stride: 60, Size: 480b (0.000457764MB) !
+V/aglSendDebugString( 1306): >>> Restoring IndexArray VBO: PT: TriangleList, MaxVertexIndex:8, NumIndices: 12, Stride: 2, Size: 24b (2.28882e-05MB) !
+V/aglSendDebugString( 1306): >>> Restoring VertexArray: FVF:Position|Normal|ColorA|Tex1(2)|Tangent|BiNormal, NumVertex: 8, Stride: 60, Size: 480b (0.000457764MB) !
+V/aglSendDebugString( 1306): >>> Restoring IndexArray VBO: PT: TriangleList, MaxVertexIndex:8, NumIndices: 12, Stride: 2, Size: 24b (2.28882e-05MB) !
+V/aglSendDebugString( 1306): >>> Restoring VertexArray: FVF:Position|Normal|ColorA|Tex1(2)|Tangent|BiNormal, NumVertex: 8, Stride: 60, Size: 480b (0.000457764MB) !
+V/aglSendDebugString( 1306): >>> Restoring IndexArray VBO: PT: TriangleList, MaxVertexIndex:8, NumIndices: 12, Stride: 2, Size: 24b (2.28882e-05MB) !
+V/aglSendDebugString( 1306): >>> Restoring VertexArray: FVF:Position|Normal|ColorA|Tex1(2), NumVertex: 4, Stride: 36, Size: 144b (0.000137329MB) !
+V/aglSendDebugString( 1306): >>> Restoring IndexArray VBO: PT: TriangleList, MaxVertexIndex:4, NumIndices: 6, Stride: 2, Size: 12b (1.14441e-05MB) !
+V/aglSendDebugString( 1306): >>> Restoring VertexArray: FVF:Position|Normal|ColorA|Tex1(2)|Tangent|BiNormal, NumVertex: 176, Stride: 60, Size: 10560b (0.0100708MB) !
+V/aglSendDebugString( 1306): >>> Restoring IndexArray VBO: PT: TriangleList, MaxVertexIndex:176, NumIndices: 264, Stride: 2, Size: 528b (0.00050354MB) !
+I/MonitorCw880( 3638): easybusReceive success !
+D/MonitorCw880( 3638):  easybusMsg.remoteIp=  192.168.43.152 easybusMsg.remotePort=  60303 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880( 3638): currentRemoteHost=192.168.43.152 easybusMsg.remoteIp=192.168.43.152, counter=2
+D/MonitorCw880( 3638): easybusySend()-> easybusMsg.remoteIp=  192.168.43.152 easybusMsg.remotePort=  60303 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/dalvikvm( 1199): GC_CONCURRENT freed 404K, 78% free 1331K/5827K, paused 3ms+2ms
+D/HomePlayerLib( 1199): hostaddress count is 2
+D/dalvikvm( 1199): GC_CONCURRENT freed 421K, 77% free 1373K/5827K, paused 1ms+1ms
+D/dalvikvm( 1199): GC_CONCURRENT freed 457K, 78% free 1307K/5827K, paused 1ms+1ms
+D/dalvikvm( 1199): GC_CONCURRENT freed 379K, 78% free 1322K/5827K, paused 1ms+1ms
+D/dalvikvm( 1199): GC_CONCURRENT freed 390K, 78% free 1324K/5827K, paused 1ms+1ms
+D/dalvikvm( 1199): GC_CONCURRENT freed 393K, 78% free 1325K/5827K, paused 0ms+1ms
+D/dalvikvm( 1199): GC_CONCURRENT freed 396K, 78% free 1325K/5827K, paused 1ms+1ms
+D/dalvikvm( 1199): GC_CONCURRENT freed 389K, 78% free 1328K/5827K, paused 0ms+1ms
+D/dalvikvm( 1199): GC_CONCURRENT freed 402K, 77% free 1364K/5827K, paused 1ms+2ms
+D/dalvikvm( 1199): GC_CONCURRENT freed 440K, 76% free 1434K/5827K, paused 1ms+1ms
+D/dalvikvm( 1199): GC_CONCURRENT freed 495K, 76% free 1409K/5827K, paused 1ms+1ms
+D/dalvikvm( 1199): GC_CONCURRENT freed 483K, 78% free 1321K/5827K, paused 1ms+2ms
+D/dalvikvm( 1199): GC_CONCURRENT freed 396K, 78% free 1320K/5827K, paused 1ms+1ms
+D/dalvikvm( 1199): GC_CONCURRENT freed 404K, 78% free 1309K/5827K, paused 1ms+1ms
+D/dalvikvm( 1199): GC_CONCURRENT freed 378K, 78% free 1333K/5827K, paused 1ms+1ms
+D/dalvikvm( 1199): GC_CONCURRENT freed 406K, 78% free 1324K/5827K, paused 1ms+1ms
+D/dalvikvm( 1199): GC_CONCURRENT freed 406K, 78% free 1322K/5827K, paused 1ms+1ms
+I/MonitorCw880( 3638): easybusReceive success !
+D/MonitorCw880( 3638):  easybusMsg.remoteIp=  192.168.43.152 easybusMsg.remotePort=  60303 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880( 3638): currentRemoteHost=192.168.43.152 easybusMsg.remoteIp=192.168.43.152, counter=3
+D/MonitorCw880( 3638): easybusySend()-> easybusMsg.remoteIp=  192.168.43.152 easybusMsg.remotePort=  60303 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/dalvikvm( 1199): GC_CONCURRENT freed 395K, 78% free 1320K/5827K, paused 1ms+1ms
+D/dalvikvm( 1199): GC_CONCURRENT freed 393K, 78% free 1320K/5827K, paused 1ms+1ms
+I/CheckinService( 1365): Preparing to send checkin request
+I/EventLogService( 1365): Accumulating logs since 1364973414401
+W/CheckinRequestBuilder( 1365): Unknown phone type: 0 id=null
+V/CheckinRequestBuilder( 1365): pre-froyo android id is 0
+D/dalvikvm( 1365): GC_CONCURRENT freed 543K, 74% free 1667K/6211K, paused 1ms+2ms
+I/CheckinTask( 1365): Sending checkin request (8600 bytes)
+D/dalvikvm( 1365): GC_CONCURRENT freed 291K, 72% free 1786K/6211K, paused 1ms+2ms
+E/CheckinTask( 1365): Checkin failed: https://android.clients.google.com/checkin (request #0)
+E/CheckinTask( 1365): java.io.IOException: Rejected response from server: HTTP/1.1 400 invalid hardware identifier: "000000000000" is not a valid MAC address (expect 12 hex digits)
+E/CheckinTask( 1365):   at com.google.android.gsf.checkin.CheckinTask.parseResponse(CheckinTask.java:313)
+E/CheckinTask( 1365):   at com.google.android.gsf.checkin.CheckinTask.sendRequest(CheckinTask.java:261)
+E/CheckinTask( 1365):   at com.google.android.gsf.checkin.CheckinTask.doInBackground(CheckinTask.java:150)
+E/CheckinTask( 1365):   at com.google.android.gsf.checkin.CheckinService$1.doInBackground(CheckinService.java:221)
+E/CheckinTask( 1365):   at com.google.android.gsf.checkin.CheckinService$1.doInBackground(CheckinService.java:214)
+E/CheckinTask( 1365):   at android.os.AsyncTask$2.call(AsyncTask.java:264)
+E/CheckinTask( 1365):   at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:305)
+E/CheckinTask( 1365):   at java.util.concurrent.FutureTask.run(FutureTask.java:137)
+E/CheckinTask( 1365):   at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1076)
+E/CheckinTask( 1365):   at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:569)
+E/CheckinTask( 1365):   at java.lang.Thread.run(Thread.java:856)
+D/dalvikvm( 1199): GC_CONCURRENT freed 402K, 75% free 1483K/5827K, paused 1ms+1ms
+I/MonitorCw880( 3638): easybusReceive success !
+D/MonitorCw880( 3638):  easybusMsg.remoteIp=  192.168.43.152 easybusMsg.remotePort=  60303 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880( 3638): currentRemoteHost=192.168.43.152 easybusMsg.remoteIp=192.168.43.152, counter=4
+D/MonitorCw880( 3638): easybusySend()-> easybusMsg.remoteIp=  192.168.43.152 easybusMsg.remotePort=  60303 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+I/MonitorCw880( 3638): easybusReceive success !
+D/MonitorCw880( 3638):  easybusMsg.remoteIp=  192.168.43.152 easybusMsg.remotePort=  60303 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880( 3638): currentRemoteHost=192.168.43.152 easybusMsg.remoteIp=192.168.43.152, counter=5
+D/MonitorCw880( 3638): easybusySend()-> easybusMsg.remoteIp=  192.168.43.152 easybusMsg.remotePort=  60303 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/HomePlayerLib( 1199): hostaddress count is 2
+D/dalvikvm( 1199): GC_CONCURRENT freed 564K, 76% free 1427K/5827K, paused 2ms+1ms
+D/dalvikvm( 1199): GC_CONCURRENT freed 517K, 76% free 1417K/5827K, paused 1ms+1ms
+D/dalvikvm( 1199): GC_CONCURRENT freed 498K, 77% free 1375K/5827K, paused 1ms+1ms
+D/dalvikvm( 1199): GC_CONCURRENT freed 455K, 78% free 1312K/5827K, paused 1ms+1ms
+D/dalvikvm( 1199): GC_CONCURRENT freed 394K, 78% free 1310K/5827K, paused 1ms+1ms
+D/dalvikvm( 1199): GC_CONCURRENT freed 391K, 76% free 1426K/5827K, paused 1ms+1ms
+D/dalvikvm( 1199): GC_CONCURRENT freed 487K, 76% free 1409K/5827K, paused 1ms+1ms
+D/dalvikvm( 1199): GC_CONCURRENT freed 538K, 78% free 1327K/5827K, paused 1ms+1ms
+D/dalvikvm( 1199): GC_CONCURRENT freed 394K, 77% free 1363K/5827K, paused 1ms+1ms
+^C
+130|shell@android:/ # 

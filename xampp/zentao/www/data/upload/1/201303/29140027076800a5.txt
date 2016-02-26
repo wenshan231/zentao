@@ -1,0 +1,411 @@
+
+shell@android:/ $ 
+shell@android:/ $ su 
+shell@android:/ # 
+shell@android:/ # 
+shell@android:/ # tcpdump -i uap0 -s 0 port 5353
+[  187.646268] device uap0 entered promiscuous mode
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on uap0, link-type EN10MB (Ethernet), capture size 65535 bytes
+[  192.095340] [SD_CTL_TASK] send msg to IMAN: data_adr=0x1f100,dalen=256
+13:43:38.820187 IP 192.168.43.152.5353 > 224.0.0.251.5353: 0 PTR (QM)? _easycontrol._udp.local. (41)
+13:43:38.895466 IP 192.168.43.1.5353 > 224.0.0.251.5353: 0*- [0q] 1/0/5 PTR SmartBox8._easycontrol._udp.local. (261)
+13:43:39.035811 IP 192.168.43.152.5353 > 224.0.0.251.5353: 0 PTR (QM)? _easycontrol._udp.local. (41)
+13:43:39.266209 IP 192.168.43.152.5353 > 224.0.0.251.5353: 0 PTR (QM)? _easycontrol._udp.local. (41)
+13:43:39.505803 IP 192.168.43.152.5353 > 224.0.0.251.5353: 0 [1n] ANY (QM)? 192-168-43-152.local. (54)
+13:43:40.508488 IP 192.168.43.152.5353 > 224.0.0.251.5353: 0 [1n] ANY (QM)? 192-168-43-152.local. (54)
+[  197.834234] Dest_ip=0xc0a82b98,TS_port=1234
+[  197.839054] [SD_CTL_TASK] send msg to IMAN: data_adr=0x1f100,dalen=256
+13:43:41.499238 IP 192.168.43.152.5353 > 224.0.0.251.5353: 0 [1n] ANY (QM)? 192-168-43-152.local. (54)
+13:43:42.515206 IP 192.168.43.152.5353 > 224.0.0.251.5353: 0*- [0q] 1/0/0 (Cache flush) A 192.168.43.152 (48)
+13:43:43.515206 IP 192.168.43.152.5353 > 224.0.0.251.5353: 0*- [0q] 1/0/0 (Cache flush) A 192.168.43.152 (48)
+[  200.857598] [SD_CTL_TASK] send msg to IMAN: data_adr=0x1f100,dalen=256
+[  201.365033] [SD_CTL_TASK] send msg to IMAN: data_adr=0x1f100,dalen=256
+[  204.533412] Dest_ip=0xc0a82b98,TS_port=1234
+[  204.538119] [SD_CTL_TASK] send msg to IMAN: data_adr=0x1f100,dalen=256
+[  207.545771] [SD_CTL_TASK] send msg to IMAN: data_adr=0x1f100,dalen=256
+[  208.051285] [SD_CTL_TASK] send msg to IMAN: data_adr=0x1f100,dalen=256
+^C
+[  222.081493] device uap0 left promiscuous mode
+9 packets captured
+9 packets received by filter
+0 packets dropped by kernel
+shell@android:/ # logcat -s MonitorCw880
+--------- beginning of /dev/log/system
+--------- beginning of /dev/log/main
+D/MonitorCw880( 1543): =========will to handle request=start
+D/MonitorCw880( 1543): ===mSendString = failed action = start
+D/MonitorCw880( 1543):  easybusMsg.remoteIp=  192.168.43.152 easybusMsg.remotePort=  44597 easybusMsg.msgType=  easyscreen easybusMsg.msgData=  action=start&result=failed
+D/MonitorCw880( 1543): send action -> start success
+I/MonitorCw880( 1543): easybusReceive success !
+D/MonitorCw880( 1543):  easybusMsg.remoteIp=  192.168.43.152 easybusMsg.remotePort=  48835 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880( 1543): currentRemoteHost=192.168.43.152 easybusMsg.remoteIp=192.168.43.152, counter=2
+D/MonitorCw880( 1543): easybusySend()-> easybusMsg.remoteIp=  192.168.43.152 easybusMsg.remotePort=  48835 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+I/MonitorCw880( 1543): easybusReceive success !
+D/MonitorCw880( 1543):  easybusMsg.remoteIp=  192.168.43.152 easybusMsg.remotePort=  48835 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880( 1543): currentRemoteHost=192.168.43.152 easybusMsg.remoteIp=192.168.43.152, counter=3
+D/MonitorCw880( 1543): easybusySend()-> easybusMsg.remoteIp=  192.168.43.152 easybusMsg.remotePort=  48835 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+I/MonitorCw880( 1543): easybusReceive success !
+D/MonitorCw880( 1543):  easybusMsg.remoteIp=  192.168.43.152 easybusMsg.remotePort=  48835 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880( 1543): currentRemoteHost=192.168.43.152 easybusMsg.remoteIp=192.168.43.152, counter=4
+D/MonitorCw880( 1543): easybusySend()-> easybusMsg.remoteIp=  192.168.43.152 easybusMsg.remotePort=  48835 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+I/MonitorCw880( 1543): easybusReceive success !
+D/MonitorCw880( 1543):  easybusMsg.remoteIp=  192.168.43.152 easybusMsg.remotePort=  48835 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880( 1543): currentRemoteHost=192.168.43.152 easybusMsg.remoteIp=192.168.43.152, counter=5
+D/MonitorCw880( 1543): easybusySend()-> easybusMsg.remoteIp=  192.168.43.152 easybusMsg.remotePort=  48835 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+I/MonitorCw880( 1543): easybusReceive success !
+D/MonitorCw880( 1543):  easybusMsg.remoteIp=  192.168.43.152 easybusMsg.remotePort=  48835 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880( 1543): currentRemoteHost=192.168.43.152 easybusMsg.remoteIp=192.168.43.152, counter=6
+D/MonitorCw880( 1543): easybusySend()-> easybusMsg.remoteIp=  192.168.43.152 easybusMsg.remotePort=  48835 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880( 1543): Befor,cycleCheckCounter=6 counter=7
+I/MonitorCw880( 1543): easybusReceive success !
+D/MonitorCw880( 1543):  easybusMsg.remoteIp=  192.168.43.152 easybusMsg.remotePort=  48835 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880( 1543): currentRemoteHost=192.168.43.152 easybusMsg.remoteIp=192.168.43.152, counter=2
+D/MonitorCw880( 1543): easybusySend()-> easybusMsg.remoteIp=  192.168.43.152 easybusMsg.remotePort=  48835 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+I/MonitorCw880( 1543): easybusReceive success !
+D/MonitorCw880( 1543):  easybusMsg.remoteIp=  192.168.43.152 easybusMsg.remotePort=  48835 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880( 1543): currentRemoteHost=192.168.43.152 easybusMsg.remoteIp=192.168.43.152, counter=3
+D/MonitorCw880( 1543): easybusySend()-> easybusMsg.remoteIp=  192.168.43.152 easybusMsg.remotePort=  48835 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+I/MonitorCw880( 1543): easybusReceive success !
+D/MonitorCw880( 1543):  easybusMsg.remoteIp=  192.168.43.152 easybusMsg.remotePort=  48835 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880( 1543): currentRemoteHost=192.168.43.152 easybusMsg.remoteIp=192.168.43.152, counter=4
+D/MonitorCw880( 1543): easybusySend()-> easybusMsg.remoteIp=  192.168.43.152 easybusMsg.remotePort=  48835 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+I/MonitorCw880( 1543): easybusReceive success !
+D/MonitorCw880( 1543):  easybusMsg.remoteIp=  192.168.43.152 easybusMsg.remotePort=  48835 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880( 1543): currentRemoteHost=192.168.43.152 easybusMsg.remoteIp=192.168.43.152, counter=5
+D/MonitorCw880( 1543): easybusySend()-> easybusMsg.remoteIp=  192.168.43.152 easybusMsg.remotePort=  48835 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+I/MonitorCw880( 1543): easybusReceive success !
+D/MonitorCw880( 1543):  easybusMsg.remoteIp=  192.168.43.152 easybusMsg.remotePort=  48835 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880( 1543): currentRemoteHost=192.168.43.152 easybusMsg.remoteIp=192.168.43.152, counter=6
+D/MonitorCw880( 1543): easybusySend()-> easybusMsg.remoteIp=  192.168.43.152 easybusMsg.remotePort=  48835 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880( 1543): Befor,cycleCheckCounter=6 counter=7
+I/MonitorCw880( 1543): easybusReceive success !
+D/MonitorCw880( 1543):  easybusMsg.remoteIp=  192.168.43.152 easybusMsg.remotePort=  48835 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880( 1543): currentRemoteHost=192.168.43.152 easybusMsg.remoteIp=192.168.43.152, counter=2
+D/MonitorCw880( 1543): easybusySend()-> easybusMsg.remoteIp=  192.168.43.152 easybusMsg.remotePort=  48835 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+I/MonitorCw880( 1543): easybusReceive success !
+D/MonitorCw880( 1543):  easybusMsg.remoteIp=  192.168.43.152 easybusMsg.remotePort=  48835 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880( 1543): currentRemoteHost=192.168.43.152 easybusMsg.remoteIp=192.168.43.152, counter=3
+D/MonitorCw880( 1543): easybusySend()-> easybusMsg.remoteIp=  192.168.43.152 easybusMsg.remotePort=  48835 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+I/MonitorCw880( 1543): easybusReceive success !
+D/MonitorCw880( 1543):  easybusMsg.remoteIp=  192.168.43.152 easybusMsg.remotePort=  48835 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880( 1543): currentRemoteHost=192.168.43.152 easybusMsg.remoteIp=192.168.43.152, counter=4
+D/MonitorCw880( 1543): easybusySend()-> easybusMsg.remoteIp=  192.168.43.152 easybusMsg.remotePort=  48835 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+I/MonitorCw880( 1543): easybusReceive success !
+D/MonitorCw880( 1543):  easybusMsg.remoteIp=  192.168.43.152 easybusMsg.remotePort=  48835 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880( 1543): currentRemoteHost=192.168.43.152 easybusMsg.remoteIp=192.168.43.152, counter=5
+D/MonitorCw880( 1543): easybusySend()-> easybusMsg.remoteIp=  192.168.43.152 easybusMsg.remotePort=  48835 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+I/MonitorCw880( 1543): easybusReceive success !
+D/MonitorCw880( 1543):  easybusMsg.remoteIp=  192.168.43.152 easybusMsg.remotePort=  48835 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880( 1543): currentRemoteHost=192.168.43.152 easybusMsg.remoteIp=192.168.43.152, counter=6
+D/MonitorCw880( 1543): easybusySend()-> easybusMsg.remoteIp=  192.168.43.152 easybusMsg.remotePort=  48835 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880( 1543): Befor,cycleCheckCounter=6 counter=7
+I/MonitorCw880( 1543): easybusReceive success !
+D/MonitorCw880( 1543):  easybusMsg.remoteIp=  192.168.43.152 easybusMsg.remotePort=  48835 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880( 1543): currentRemoteHost=192.168.43.152 easybusMsg.remoteIp=192.168.43.152, counter=2
+D/MonitorCw880( 1543): easybusySend()-> easybusMsg.remoteIp=  192.168.43.152 easybusMsg.remotePort=  48835 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+I/MonitorCw880( 1543): easybusReceive success !
+D/MonitorCw880( 1543):  easybusMsg.remoteIp=  192.168.43.152 easybusMsg.remotePort=  48835 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880( 1543): currentRemoteHost=192.168.43.152 easybusMsg.remoteIp=192.168.43.152, counter=3
+D/MonitorCw880( 1543): easybusySend()-> easybusMsg.remoteIp=  192.168.43.152 easybusMsg.remotePort=  48835 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+I/MonitorCw880( 1543): easybusReceive success !
+D/MonitorCw880( 1543):  easybusMsg.remoteIp=  192.168.43.152 easybusMsg.remotePort=  48835 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880( 1543): currentRemoteHost=192.168.43.152 easybusMsg.remoteIp=192.168.43.152, counter=4
+D/MonitorCw880( 1543): easybusySend()-> easybusMsg.remoteIp=  192.168.43.152 easybusMsg.remotePort=  48835 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+I/MonitorCw880( 1543): easybusReceive success !
+D/MonitorCw880( 1543):  easybusMsg.remoteIp=  192.168.43.152 easybusMsg.remotePort=  48835 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880( 1543): currentRemoteHost=192.168.43.152 easybusMsg.remoteIp=192.168.43.152, counter=5
+D/MonitorCw880( 1543): easybusySend()-> easybusMsg.remoteIp=  192.168.43.152 easybusMsg.remotePort=  48835 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+I/MonitorCw880( 1543): easybusReceive success !
+D/MonitorCw880( 1543):  easybusMsg.remoteIp=  192.168.43.152 easybusMsg.remotePort=  48835 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880( 1543): currentRemoteHost=192.168.43.152 easybusMsg.remoteIp=192.168.43.152, counter=6
+D/MonitorCw880( 1543): easybusySend()-> easybusMsg.remoteIp=  192.168.43.152 easybusMsg.remotePort=  48835 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880( 1543): Befor,cycleCheckCounter=6 counter=7
+I/MonitorCw880( 1543): easybusReceive success !
+D/MonitorCw880( 1543):  easybusMsg.remoteIp=  192.168.43.152 easybusMsg.remotePort=  48835 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880( 1543): currentRemoteHost=192.168.43.152 easybusMsg.remoteIp=192.168.43.152, counter=2
+D/MonitorCw880( 1543): easybusySend()-> easybusMsg.remoteIp=  192.168.43.152 easybusMsg.remotePort=  48835 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+I/MonitorCw880( 1543): easybusReceive success !
+D/MonitorCw880( 1543):  easybusMsg.remoteIp=  192.168.43.152 easybusMsg.remotePort=  48835 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880( 1543): currentRemoteHost=192.168.43.152 easybusMsg.remoteIp=192.168.43.152, counter=3
+D/MonitorCw880( 1543): easybusySend()-> easybusMsg.remoteIp=  192.168.43.152 easybusMsg.remotePort=  48835 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+I/MonitorCw880( 1543): easybusReceive success !
+D/MonitorCw880( 1543):  easybusMsg.remoteIp=  192.168.43.152 easybusMsg.remotePort=  48835 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880( 1543): currentRemoteHost=192.168.43.152 easybusMsg.remoteIp=192.168.43.152, counter=4
+D/MonitorCw880( 1543): easybusySend()-> easybusMsg.remoteIp=  192.168.43.152 easybusMsg.remotePort=  48835 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+I/MonitorCw880( 1543): easybusReceive success !
+D/MonitorCw880( 1543):  easybusMsg.remoteIp=  192.168.43.152 easybusMsg.remotePort=  48835 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880( 1543): currentRemoteHost=192.168.43.152 easybusMsg.remoteIp=192.168.43.152, counter=5
+D/MonitorCw880( 1543): easybusySend()-> easybusMsg.remoteIp=  192.168.43.152 easybusMsg.remotePort=  48835 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+I/MonitorCw880( 1543): easybusReceive success !
+D/MonitorCw880( 1543):  easybusMsg.remoteIp=  192.168.43.152 easybusMsg.remotePort=  48835 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880( 1543): currentRemoteHost=192.168.43.152 easybusMsg.remoteIp=192.168.43.152, counter=6
+D/MonitorCw880( 1543): easybusySend()-> easybusMsg.remoteIp=  192.168.43.152 easybusMsg.remotePort=  48835 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880( 1543): Befor,cycleCheckCounter=6 counter=7
+I/MonitorCw880( 1543): easybusReceive success !
+D/MonitorCw880( 1543):  easybusMsg.remoteIp=  192.168.43.152 easybusMsg.remotePort=  48835 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880( 1543): currentRemoteHost=192.168.43.152 easybusMsg.remoteIp=192.168.43.152, counter=2
+D/MonitorCw880( 1543): easybusySend()-> easybusMsg.remoteIp=  192.168.43.152 easybusMsg.remotePort=  48835 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+I/MonitorCw880( 1543): easybusReceive success !
+D/MonitorCw880( 1543):  easybusMsg.remoteIp=  192.168.43.152 easybusMsg.remotePort=  48835 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880( 1543): currentRemoteHost=192.168.43.152 easybusMsg.remoteIp=192.168.43.152, counter=3
+D/MonitorCw880( 1543): easybusySend()-> easybusMsg.remoteIp=  192.168.43.152 easybusMsg.remotePort=  48835 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+
+
+
+
+I/MonitorCw880( 1543): easybusReceive success !
+D/MonitorCw880( 1543):  easybusMsg.remoteIp=  192.168.43.152 easybusMsg.remotePort=  48835 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880( 1543): currentRemoteHost=192.168.43.152 easybusMsg.remoteIp=192.168.43.152, counter=4
+D/MonitorCw880( 1543): easybusySend()-> easybusMsg.remoteIp=  192.168.43.152 easybusMsg.remotePort=  48835 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+^C
+130|shell@android:/ # su
+shell@android:/ # 
+shell@android:/ # 
+shell@android:/ #    
+shell@android:/ # 
+shell@android:/ # dmesg
+04 705 /system/lib/libiniparser.so
+<4>[   31.329797] 5aef2000-5aef3000 rw-p 00003000 b3:04 705 /system/lib/libiniparser.so
+<4>[   31.337347] 5aef3000-5aef5000 rw-p 5aef3000 b3:04 705 
+<4>[   31.342534] 5aef5000-5af6b000 r--s 00000000 b3:04 1132 /system/usr/share/zoneinfo/zoneinfo.dat
+<4>[   31.351233] 5af6b000-5b627000 r--s 00000000 b3:04 1098 /system/usr/icu/icudt46l.dat
+<4>[   31.358948] 5b627000-5b62f000 rw-p 5b627000 b3:04 1098 
+<4>[   31.364232] 5b62f000-5b630000 r--s 00019000 b3:04 56 /system/app/Xiri.apk
+<4>[   31.371082] 5b630000-5b632000 r--s 000ba000 b3:04 56 /system/app/Xiri.apk
+<4>[   31.377916] 5b636000-5b63a000 rw-p 5b636000 b3:04 56 
+<4>[   31.383017] 5b63d000-5b656000 rw-p 5b63d000 b3:04 56 
+<4>[   31.388129] 5b656000-5b657000 ---p 5b656000 b3:04 56 
+<4>[   31.393240] 5b657000-5b756000 rw-p 5b657000 b3:04 56 
+<4>[   31.398322] 5b756000-5b757000 ---p 5b756000 b3:04 56 
+<4>[   31.403407] 5b757000-5b856000 rw-p 5b757000 b3:04 56 
+<4>[   31.408496] 5b856000-5b857000 ---p 5b856000 b3:04 56 
+<4>[   31.413585] 5b857000-5b956000 rw-p 5b857000 b3:04 56 
+<4>[   31.418672] 5b956000-5b957000 ---p 5b956000 b3:04 56 
+<4>[   31.423756] 5b957000-5ba56000 rw-p 5b957000 b3:04 56 
+<4>[   31.428845] 5ba56000-5bb54000 r--p 00000000 00:0c 522 /dev/binder
+<4>[   31.435001] 5bb54000-5bb55000 ---p 5bb54000 00:0c 522 
+<4>[   31.440176] 5bb55000-5bc54000 rw-p 5bb55000 00:0c 522 
+<4>[   31.445351] 5bc54000-5bc55000 ---p 5bc54000 00:0c 522 
+<4>[   31.450523] 5bc55000-5bd54000 rw-p 5bc55000 00:0c 522 
+<4>[   31.455698] 5bd54000-5bded000 r--p 00000000 b3:05 23237 /data/dalvik-cache/system@app@Xiri.apk@classes.dex
+<4>[   31.465415] 5beed000-5bf4c000 r-xp 00000000 b3:04 841 /system/lib/libvitvmsc.so
+<4>[   31.472773] 5bf4c000-5bf4d000 rw-p 0005f000 b3:04 841 /system/lib/libvitvmsc.so
+<4>[   31.480171] 5bf4d000-5bf4e000 rw-p 5bf4d000 b3:04 841 
+<4>[   31.485368] 5bf4e000-5bf4f000 ---p 5bf4e000 b3:04 841 
+<4>[   31.490540] 5bf4f000-5c04e000 rw-p 5bf4f000 b3:04 841 
+<4>[   31.495751] 5c04e000-5c14e000 rw-s 00000000 00:04 2916 /dev/ashmem/AudioFlinger::Client (deleted)
+<4>[   31.504758] 5c14e000-5c152000 rw-p 5c14e000 00:04 2916 
+<4>[   31.510058] 5c152000-5c153000 ---p 5c152000 00:04 2916 
+<4>[   31.515339] 5c153000-5c252000 rw-p 5c153000 00:04 2916 
+<4>[   31.520602] 5c252000-5c256000 rw-p 5c252000 00:04 2916 
+<4>[   31.525867] 5c256000-5c257000 ---p 5c256000 00:04 2916 
+<4>[   31.531126] 5c257000-5c356000 rw-p 5c257000 00:04 2916 
+<4>[   31.536390] 5c356000-5c456000 r-xp 00000000 00:04 2954 /dev/ashmem/dalvik-jit-code-cache (deleted)
+<4>[   31.545418] 5c456000-5c45a000 rw-p 5c456000 00:04 2954 
+<4>[   31.550681] 5c45a000-5c45b000 ---p 5c45a000 00:04 2954 
+<4>[   31.555940] 5c45b000-5c55a000 rw-p 5c45b000 00:04 2954 
+<4>[   31.561194] 5c55a000-5c55b000 ---p 5c55a000 00:04 2954 
+<4>[   31.566446] 5c55b000-5c65a000 rw-p 5c55b000 00:04 2954 
+<4>[   31.571697] 5c65a000-5c65e000 rw-p 5c65a000 00:04 2954 
+<4>[   31.576947] 5c65e000-5c65f000 ---p 5c65e000 00:04 2954 
+<4>[   31.582220] 5c65f000-5c75e000 rw-p 5c65f000 00:04 2954 
+<4>[   31.587473] 5c75e000-5c75f000 ---p 5c75e000 00:04 2954 
+<4>[   31.592724] 5c75f000-5c85e000 rw-p 5c75f000 00:04 2954 
+<4>[   31.597976] b0001000-b0009000 r-xp 00001000 b3:04 161 /system/bin/linker
+<4>[   31.604749] b0009000-b000a000 rw-p 00009000 b3:04 161 /system/bin/linker
+<4>[   31.611501] b000a000-b0015000 rw-p b000a000 b3:04 161 
+<4>[   31.616666] be7ef000-be811000 rw-p befde000 b3:04 161 
+<4>[   31.621828] -----------------------------------------------------------
+<4>[   31.621833] 
+<4>[   31.629974] task stack info : pid(1677) stack area (0x5bf4f000 ~ 0x5c04e000)
+<4>[   31.637039] -----------------------------------------------------------
+<4>[   31.643689] * dump user stack
+<4>[   31.646674] -----------------------------------------------------------
+<4>[   31.653305] pid(1677) stack vma (0x5bf4f000 ~ 0x5c04e000)
+<4>[   31.658745] User Stack: (0x5c04d860 to 0x5c04df00)
+<4>[   31.663561] d860: 00000000 5c04d8a0 5c04d8a4 00000000 5bf4c7bc 5c04d8a0 5c04d8a4 5bf1cf5b
+<4>[   31.671779] d880: 5c04d8a4 00000000 5bf4c7bc 5c04d8a4 001d57d8 5befa107 5c04d8a0 5bf36654
+<4>[   31.680046] d8a0: 00000080 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+<4>[   31.688274] d8c0: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+<4>[   31.696493] d8e0: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+<4>[   31.704712] d900: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+<4>[   31.712935] d920: 00000000 46bafed3 00000000 00000000 5bf2d5e0 00000001 5c04da70 00000000
+<4>[   31.721167] d940: 001d57d8 5bf4d178 5bf4d134 5befa5fd 001d57d8 5bf4c7bc 0000000d 000001ec
+<4>[   31.729395] d960: 5bf4c7bc 5befb9c7 00000001 4187f420 00000000 00000000 00000000 00000000
+<4>[   31.737618] d980: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+<4>[   31.745839] d9a0: 00000000 5c04da04 00000000 00000000 5c04da88 40d6d314 00000007 40d9789f
+<4>[   31.754062] d9c0: 41856870 5c04dad4 40dcd0ff 40d7d6df 5c04dad4 41856870 5c04dad4 40debf90
+<4>[   31.762266] d9e0: 5c04dacc 41856870 40dcd1bb 40d7dfe7 40dcd1bb 40d7dfe7 40dcd3ae 00000000
+<4>[   31.770516] da00: 4139b018 577ac2da 5b639cd4 56f31370 40dcd3b4 00000001 5c04dad0 5c04dda8
+<4>[   31.778741] da20: 5c04dad4 5c04de1c 40df0c58 0021bb10 56f138f8 5c04db68 5c04db68 00000001
+<4>[   31.786971] da40: 00000007 40d9789f 00000007 40d9789f 00000007 40d9789f 4185da30 0021bb10
+<4>[   31.795210] da60: 00000007 40d9789f 00000007 40d9789f 00224088 00224110 002263e8 00226470
+<4>[   31.803438] da80: 002264f8 00226580 00226608 001b9a78 001b9b00 001b9b88 001b9c10 001b9c98
+<4>[   31.811666] daa0: 002251e0 4185dd28 40dcd3b4 0021bb10 5c04db6c 4185dd28 40dcd1fa 40d99421
+<4>[   31.819895] dac0: 5c04db74 00000000 40df0c58 00000106 4185dd28 40d6cbe4 40f9b7d8 000001dc
+<4>[   31.828098] dae0: 000001dc 40debf90 40f9b7d8 000000f6 000000f6 00000106 40debf90 40dad675
+<4>[   31.836325] db00: 40debf90 4185dd28 40df0fb8 4185db38 40debf90 4185dd28 40df0fb8 4185dd28
+<4>[   31.844550] db20: 40df0c58 40d8f651 00000000 46bafed3 5bdb2842 4185dd38 00187f40 4185dd28
+<4>[   31.852774] db40: 40d8f651 00000000 5b639f6c 5bdb2842 5c04dbdc 40d81313 40dcd3b4 0021bb10
+<4>[   31.861004] db60: 4185dd28 4185dd38 00000000 000000f6 00000000 0000000d 40de43ee 00232148
+<4>[   31.869236] db80: 5b639f6c 5bdb2842 5c04dbdc 5bf4c7bc 00000000 5bf4d134 000001ec 5bf03fad
+<4>[   31.877440] dba0: 5c04dbc8 00232148 0021bb10 00000004 5b639f74 5bef953f 57190428 0021bb10
+<4>[   31.885659] dbc0: 00000004 40d57c74 5b639f6c 00000001 417ab588 0021bb20 5c04deb8 40d92007
+<4>[   31.893883] dbe0: 5b639f6c 5bdb2840 5bef9525 0021bb20 5b639f10 00000000 417ab588 0021bb10
+<4>[   31.902108] dc00: 5b639f10 46bafed3 5b639f10 00000000 00000000 00000000 00000000 00000000
+<4>[   31.910330] dc20: 0021626d 00216258 4004c4c8 4004c4c8 002320e8 00232110 001aa8b0 4004c498
+<4>[   31.918552] dc40: 5bdb468a 40018a5f 00232140 00232188 00000178 4004c474 00232148 00000021
+<4>[   31.926782] dc60: 40dd200f 400198c3 00232109 0810d0c4 00000407 b000ead8 002320e0 4004c4c8
+<4>[   31.935048] dc80: 00000030 4004c474 002320e8 5bef9525 5bdb468a 400198c3 00000000 002320e8
+<4>[   31.943282] dca0: 00216258 00000000 001aa8b0 5bef9525 5bdb468a 40019f27 00000000 40d93fa7
+<4>[   31.951510] dcc0: 0021bb38 40db576b 0021bb10 00000000 001a1800 fffffe4c 4139b018 000001f2
+<4>[   31.959743] dce0: 00000000 00000001 4139b018 000001f2 4185d7f8 4185d7f8 4139b018 000001f2
+<4>[   31.967971] dd00: 5c04dd80 5719043c 00000001 5c04dd80 57190428 57190428 000005b0 5bdbb6ef
+<4>[   31.976211] dd20: 00000019 5c04dd80 00000001 46bafed3 5c04dd80 00000000 00000000 57190428
+<4>[   31.984442] dd40: 0021bb20 0021bb10 5b639f6c 0021bb10 417ab588 5b639f58 5c04deb8 40d85989
+<4>[   31.992650] dd60: 5b639f6c 0021bb20 57190428 57190428 40d8597d 0021bb20 5b639f6c 40d93d37
+<4>[   32.000880] dd80: 5b639f6c 0021bb20 57190428 5bd7c122 5b639f84 0021bb10 417ab588 40d57e00
+<4>[   32.009106] dda0: 00000000 40d69ad0 00000000 0021bb10 40debf90 5c04ddd8 5718fda0 5c04de1c
+<4>[   32.017331] ddc0: 00000000 00000000 5c04deb8 40d6d314 00000000 00000000 00000000 00000000
+<4>[   32.025568] dde0: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+<4>[   32.033775] de00: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+<4>[   32.041998] de20: 5b639fd4 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+<4>[   32.050229] de40: 40d98b61 0021bb10 5718fda0 5c04deb8 417a05f0 00000000 5bdbcbd2 5b639fec
+<4>[   32.058456] de60: 5c04de68 40da5ad5 0021bb10 5718fda0 417a05f0 5c04deb8 0021bb10 40df0c58
+<4>[   32.066685] de80: 00000078 40d98b61 0021bb10 00100000 00000001 40da5af9 5c04deb8 5c04deb8
+<4>[   32.074886] dea0: 40df0c58 5c04deb8 40d98b61 40debf90 40d98c11 5c04deb8 00000000 00000000
+<4>[   32.083111] dec0: 00000000 65726854 372d6461 00000036 5c04df00 5c04decd 5c04dec4 46bafed3
+<4>[   32.091337] dee0: 5c04df00 40d98b61 0021bb10 40016c6c 5c04df00 001ebf38 be810744 400167c0
+<4>[   32.099556] -----------------------------------------------------------
+<4>[   32.099568] 
+<1>[   32.564993] Thread-76: unhandled page fault (11) at 0x0000021c, code 0x017
+<7>[   32.607600] mmc1:0001: error -5 reading SDIO_CCCR_INTx
+<4>[   32.753669] 
+<4>[   32.753674] >> [sdmmc_0] ###########...(Ejected) OK!
+<4>[   32.769471] CYWEE: cw880_remove(), SDIO func=1
+<4>[   32.773992] CYWEE: Need implement cw880_remove_card()
+<4>[   32.779106] CYWEE: cw880_remove_card()
+<4>[   32.782924] CYWEE: cw880_unregister_dev()
+<4>[   32.791086] CYWEE: Making the sdio dev card as NULL
+<4>[   32.796041] CYWEE: cw880_free_handle()
+<4>[   32.800153] CYWEE_TEST: sdio_bus_uevent start!
+<6>[   32.805983] mmc1: card 0001 removed
+<4>[   32.813970] >> [sdmmc_0] Set IOS => Clk=0 (Real=0)
+<4>[   32.818870] >> [sdmmc_0] Set IOS => BusWidth=0
+<4>[   32.823387] >> [sdmmc_0] Set IOS => BusTiming=0
+<4>[   32.829542] >> [sdmmc_0] Get CD => (0)
+<4>[   32.893679] 
+<4>[   32.893686] >> [sdmmc_0] ##########....(Inserted) OK! 
+<4>[   32.901868] >> [sdmmc_0] Get CD => (1)
+<4>[   32.942008] >> [sdmmc_0] Set IOS => Clk=300000 (Real=300000)
+<4>[   33.089206] >> [sdmmc_0] Set IOS => BusTiming=2
+<4>[   33.096397] >> [sdmmc_0] Set IOS => Clk=32000000 (Real=32000000)
+<4>[   33.111752] >> [sdmmc_0] Set IOS => BusWidth=2
+<6>[   33.259262] mmc1: new high speed SDIO card at address 0001
+<4>[   33.278790] CYWEE_TEST: sdio_bus_uevent start!
+<4>[   33.295324] CYWEE_TEST: sdio_match_device start!
+<4>[   33.300071] CYWEE_TEST: sdio_match_device match succeed!
+<4>[   33.316394] CYWEE_TEST: sdio_bus_probe start!
+<4>[   33.320875] CYWEE_TEST: sdio_match_device start!
+<4>[   33.325582] CYWEE_TEST: sdio_match_device match succeed!
+<4>[   33.361120] CYWEE: cw880_probe()
+<4>[   33.364730] CYWEE: vendor=0x0089 device=0x0001 class=4 function=1 max_blksize=12 cur_blksize=12 enable_timeout=100
+<4>[   33.378272] CYWEE: cw880_add_card()
+<4>[   33.408969] CYWEE: sdio_claim_irq done: ret=0
+<4>[   33.414250] CYWEE: func->max_blksize=512 should set from CIS, but we don't have CIS now.
+<4>[   33.426072] 
+<4>[   33.426078] 
+<4>[   33.426080] CYWEE DEBUG : CCCR_INT_ENABLE after writing= 3
+<4>[   33.438903] CYWEE DEBUG : cis1_base_addr is 0x010100.
+<4>[   33.444176] Get IMAN read_Addr=0x7F100 recv_addr0=0x1f100,recv_adr1=0x1f200
+<4>[   33.451025] 
+<4>[   33.451030] CYWEE DEBUG : IronMan Detected on High speed SDIO Device
+<4>[   33.451033] 
+<4>[   33.460591] CYWEE: host->f_min=300000 host->f_max=32000000
+<4>[   33.466122] CYWEE: mmc1: clock 20000000Hz busmode 2 powermode 2 cs 0 Vdd 15 width 2 timing 2
+<4>[   33.477876] >> [sdmmc_0] Set IOS => Clk=20000000 (Real=20000000)
+<4>[   33.493538] bootword = 55500000
+<4>[   33.496747] Fw download needed
+<4>[   33.522504] Use cmd53 write bootword
+<4>[   33.530191]  0x4  0x0  0x11  0x0  0x7  0x2  0x0  0x0  0x0  0x0  0x0  0x0  0x0  0x0  0x0  0x0 
+<4>[   33.539125] device version = 0x207
+<4>[   33.542577] fw_info size is = 8
+<4>[   33.937421] 
+<4>[   33.937427] >> [sdmmc_0] ###########...(Ejected) OK!
+<4>[   34.001434] firmware addr = 0xf1012000
+<4>[   34.005223] firmware size = 0x25408
+<4>[   34.009393] firmware checksum = 0xffffb013
+<4>[   34.013523] trans_len = 16 
+<4>[   34.016342] 08 00 22 02 08 54 02 00 12 00 00 10 00 00 00 00 
+<4>[   34.024619] CYWEE: cw880_remove(), SDIO func=1
+<4>[   34.029198] CYWEE: Need implement cw880_remove_card()
+<7>[   34.030283] mmc1:0001: error -19 reading SDIO_CCCR_INTx
+<4>[   34.039554] CYWEE: cw880_remove_card()
+<4>[   34.043332] CYWEE: cw880_unregister_dev()
+<4>[   34.059617] CYWEE: Making the sdio dev card as NULL
+<4>[   34.064718] CYWEE: cw880_free_handle()
+<4>[   34.077756] CYWEE_TEST: sdio_bus_uevent start!
+<6>[   34.087360] mmc1: card 0001 removed
+<4>[   34.097679] >> [sdmmc_0] Set IOS => Clk=0 (Real=0)
+<4>[   34.102583] >> [sdmmc_0] Set IOS => BusWidth=0
+<4>[   34.107078] >> [sdmmc_0] Set IOS => BusTiming=0
+<4>[   34.120313] >> [sdmmc_0] Get CD => (0)
+<4>[   34.974685] 
+<4>[   34.974691] >> [sdmmc_0] ##########....(Inserted) OK! 
+<4>[   35.020832] >> [sdmmc_0] Get CD => (1)
+<4>[   35.065398] >> [sdmmc_0] Set IOS => Clk=300000 (Real=300000)
+<4>[   35.165328] >> [sdmmc_0] Set IOS => BusTiming=2
+<4>[   35.171293] >> [sdmmc_0] Set IOS => Clk=32000000 (Real=32000000)
+<4>[   35.193010] >> [sdmmc_0] Set IOS => BusWidth=2
+<6>[   35.383930] mmc1: new high speed SDIO card at address 0002
+<4>[   35.400692] CYWEE_TEST: sdio_bus_uevent start!
+<4>[   35.424132] CYWEE_TEST: sdio_match_device start!
+<4>[   35.428878] CYWEE_TEST: sdio_match_device match succeed!
+<4>[   35.440236] CYWEE_TEST: sdio_bus_probe start!
+<4>[   35.444862] CYWEE_TEST: sdio_match_device start!
+<4>[   35.449581] CYWEE_TEST: sdio_match_device match succeed!
+<4>[   35.466558] CYWEE: cw880_probe()
+<4>[   35.469884] CYWEE: vendor=0x0089 device=0x0001 class=4 function=1 max_blksize=12 cur_blksize=12 enable_timeout=100
+<4>[   35.486023] CYWEE: cw880_add_card()
+<4>[   35.492110] CYWEE: sdio_claim_irq done: ret=0
+<4>[   35.497260] CYWEE: func->max_blksize=512 should set from CIS, but we don't have CIS now.
+<4>[   35.508445] 
+<4>[   35.508451] 
+<4>[   35.508453] CYWEE DEBUG : CCCR_INT_ENABLE after writing= 3
+<4>[   35.522251] CYWEE DEBUG : cis1_base_addr is 0x010100.
+<4>[   35.527450] Get IMAN read_Addr=0x7F100 recv_addr0=0x1f100,recv_adr1=0x1f200
+<4>[   35.534323] 
+<4>[   35.534332] CYWEE DEBUG : IronMan Detected on High speed SDIO Device
+<4>[   35.534336] 
+<4>[   35.543924] CYWEE: host->f_min=300000 host->f_max=32000000
+<4>[   35.549490] CYWEE: mmc1: clock 20000000Hz busmode 2 powermode 2 cs 0 Vdd 15 width 2 timing 2
+<4>[   35.565848] >> [sdmmc_0] Set IOS => Clk=20000000 (Real=20000000)
+<4>[   35.598210] bootword = 66600008
+<1>[   38.946865] Thread-76: unhandled page fault (11) at 0x0000021c, code 0x017
+<1>[   38.954374] [COREDUMP] SIGNR:11
+<1>[   38.954379] 
+<3>[   39.965441] init: untracked pid 1026 exited
+<3>[   39.970105] init: untracked pid 1027 exited
+<3>[   39.974602] init: untracked pid 1028 exited
+<3>[   39.987213] init: untracked pid 1029 exited
+<4>[  112.584432] Dest_ip=0xc0a82b98,TS_port=1234
+<7>[  112.590890] [SD_CTL_TASK] send msg to IMAN: data_adr=0x1f100,dalen=256
+<7>[  115.593824] [SD_CTL_TASK] send msg to IMAN: data_adr=0x1f100,dalen=256
+<7>[  116.101361] [SD_CTL_TASK] send msg to IMAN: data_adr=0x1f100,dalen=256
+<4>[  119.157769] Dest_ip=0xc0a82b98,TS_port=1234
+<7>[  119.162487] [SD_CTL_TASK] send msg to IMAN: data_adr=0x1f100,dalen=256
+<7>[  122.171151] [SD_CTL_TASK] send msg to IMAN: data_adr=0x1f100,dalen=256
+<7>[  122.678831] [SD_CTL_TASK] send msg to IMAN: data_adr=0x1f100,dalen=256
+<6>[  187.646268] device uap0 entered promiscuous mode
+<7>[  192.095340] [SD_CTL_TASK] send msg to IMAN: data_adr=0x1f100,dalen=256
+<4>[  197.834234] Dest_ip=0xc0a82b98,TS_port=1234
+<7>[  197.839054] [SD_CTL_TASK] send msg to IMAN: data_adr=0x1f100,dalen=256
+<7>[  200.857598] [SD_CTL_TASK] send msg to IMAN: data_adr=0x1f100,dalen=256
+<7>[  201.365033] [SD_CTL_TASK] send msg to IMAN: data_adr=0x1f100,dalen=256
+<4>[  204.533412] Dest_ip=0xc0a82b98,TS_port=1234
+<7>[  204.538119] [SD_CTL_TASK] send msg to IMAN: data_adr=0x1f100,dalen=256
+<7>[  207.545771] [SD_CTL_TASK] send msg to IMAN: data_adr=0x1f100,dalen=256
+<7>[  208.051285] [SD_CTL_TASK] send msg to IMAN: data_adr=0x1f100,dalen=256
+<6>[  222.081493] device uap0 left promiscuous mode
+shell@android:/ # 

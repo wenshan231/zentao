@@ -1,0 +1,1866 @@
+shell@android:/update # logcat -c;logcat
+--------- beginning of /dev/log/main
+D/dalvikvm( 1157): GC_CONCURRENT freed 420K, 78% free 1320K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 396K, 78% free 1318K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 394K, 78% free 1319K/5891K, paused 1ms+1ms
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1157): GC_CONCURRENT freed 401K, 78% free 1317K/5891K, paused 1ms+1ms
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+^C
+130|shell@android:/update # logcat                                             
+--------- beginning of /dev/log/main
+D/dalvikvm( 1157): GC_CONCURRENT freed 420K, 78% free 1320K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 396K, 78% free 1318K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 394K, 78% free 1319K/5891K, paused 1ms+1ms
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1157): GC_CONCURRENT freed 401K, 78% free 1317K/5891K, paused 1ms+1ms
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1157): GC_CONCURRENT freed 417K, 78% free 1316K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 407K, 78% free 1318K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 393K, 78% free 1318K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 393K, 78% free 1318K/5891K, paused 0ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 392K, 78% free 1319K/5891K, paused 1ms+1ms
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1157): GC_CONCURRENT freed 422K, 79% free 1294K/5891K, paused 0ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 381K, 78% free 1323K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 400K, 78% free 1317K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 404K, 78% free 1312K/5891K, paused 1ms+1ms
+D/HomePlayerLib( 1157): hostaddress count is 2
+D/dalvikvm( 1157): GC_CONCURRENT freed 391K, 78% free 1307K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 382K, 78% free 1335K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 422K, 78% free 1316K/5891K, paused 0ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 401K, 76% free 1472K/5891K, paused 1ms+0ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 551K, 76% free 1425K/5891K, paused 0ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 510K, 76% free 1422K/5891K, paused 0ms+1ms
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1157): GC_CONCURRENT freed 504K, 76% free 1426K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 488K, 78% free 1322K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 401K, 76% free 1426K/5891K, paused 0ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 514K, 76% free 1416K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 479K, 78% free 1327K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 416K, 78% free 1296K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 376K, 78% free 1322K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 395K, 77% free 1404K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 470K, 78% free 1324K/5891K, paused 1ms+1ms
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1157): GC_CONCURRENT freed 409K, 77% free 1407K/5891K, paused 1ms+2ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 484K, 76% free 1432K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 518K, 78% free 1306K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 394K, 78% free 1305K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 394K, 78% free 1305K/5891K, paused 0ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 394K, 78% free 1306K/5891K, paused 0ms+1ms
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/HomePlayerLib( 1157): hostaddress count is 2
+D/dalvikvm( 1157): GC_CONCURRENT freed 397K, 77% free 1413K/5891K, paused 1ms+0ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 495K, 78% free 1317K/5891K, paused 0ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 404K, 77% free 1385K/5891K, paused 0ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 465K, 75% free 1485K/5891K, paused 1ms+0ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 543K, 76% free 1451K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 536K, 78% free 1310K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 395K, 76% free 1457K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 528K, 77% free 1368K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 456K, 76% free 1424K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 511K, 76% free 1424K/5891K, paused 1ms+1ms
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1157): GC_CONCURRENT freed 494K, 78% free 1327K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 409K, 76% free 1427K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 509K, 76% free 1432K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 519K, 78% free 1301K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 383K, 78% free 1317K/5891K, paused 1ms+1ms
+^C
+130|shell@android:/update # [ 2123.030074] binder: release proc 1735, transaction 49808, not freed
+lo
+-rw------- system   system   192127211 2007-01-02 05:36 update_H002104_V211344_Q00001_C00001.zip
+shell@android:/update # 
+shell@android:/update # 
+shell@android:/update # 
+shell@android:/update # 
+shell@android:/update # 
+shell@android:/update # 
+shell@android:/update # 
+shell@android:/update # 
+shell@android:/update # 
+shell@android:/update # logcat -c;logcat
+--------- beginning of /dev/log/main
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1157): GC_CONCURRENT freed 499K, 78% free 1316K/5891K, paused 1ms+1ms
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+[ 2140.326184] IR: [03932] scan key value is 0xec13c936 
+[ 2140.326190]  
+[ 2140.378478] IR: [03932] scan key value is 0xec13c936 
+[ 2140.378482]  I/MainActivity( 1238): onClick -> 52060
+--------- beginning of /dev/log/system
+I/ActivityManager(  950): START {flg=0x10000000 cmp=com.coship.ottsetting/.main (has extras)} from pid 1238
+D/dalvikvm(  950): GC_FOR_ALLOC freed 1520K, 64% free 3691K/9987K, paused 42ms
+I/dalvikvm-heap(  950): Grow heap (frag case) to 8.206MB for 1048592-byte allocation
+D/dalvikvm(  950): GC_FOR_ALLOC freed <1K, 53% free 4715K/9987K, paused 36ms
+D/dalvikvm(  950): GC_CONCURRENT freed 22K, 53% free 4750K/9987K, paused 2ms+4ms
+V/MainActivity( 1238): 启动onlineMovice，用户为  ：null
+V/MainActivity( 1238): userName = null ;passwd = null ; DiviceId = null
+I/ActivityManager(  950): Start proc com.coship.ottsetting for activity com.coship.ottsetting/.main: pid=2533 uid=1000 gids={3003, 1015, 3002, 3001, 3004}
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 2533): GC_CONCURRENT freed 387K, 69% free 1881K/5955K, paused 6ms+2ms
+D/dalvikvm(  742): GC_FOR_ALLOC freed 389K, 69% free 1879K/5955K, paused 59ms
+I/Zygote  (  742): Preloading classes...
+D/dalvikvm(  742): GC_EXPLICIT freed 1K, 69% free 1879K/5955K, paused 7ms+2ms
+D/OpenGLRenderer( 1238): Flushing caches (mode 1)
+D/OpenGLRenderer( 1238): Flushing caches (mode 0)
+D/dalvikvm( 2533): GC_FOR_ALLOC freed 51K, 59% free 2957K/7043K, paused 41ms
+I/dalvikvm-heap( 2533): Grow heap (frag case) to 10.003MB for 3686416-byte allocation
+D/dalvikvm( 2533): GC_CONCURRENT freed 1K, 39% free 6555K/10691K, paused 1ms+16ms
+V/ottsetting( 2533): getConnectedType is :1
+I/Process (  950): Sending signal. PID: 2533 SIG: 3
+I/dalvikvm( 2533): threadid=3: reacting to signal 3
+I/dalvikvm( 2533): Wrote stack traces to '/data/anr/traces.txt'
+V/ottsetting( 2533): onReceive CONNECTIVITY_CHANGE
+E/StaggeredGridView( 2533): onMeasure: must have an exact height or match_parent! Using fallback spec of EXACTLY 720
+D/libEGL  ( 2533): loaded /system/lib/egl/libGLES_android.so
+D/libEGL  ( 2533): loaded /system/lib/egl/libEGL_mali.so
+D/libEGL  ( 2533): loaded /system/lib/egl/libGLESv1_CM_mali.so
+D/libEGL  ( 2533): loaded /system/lib/egl/libGLESv2_mali.so
+D/OpenGLRenderer( 2533): Enabling debug mode 0
+D/ScaleViewPanel( 2533): ScaleViewPanel constructor
+D/dalvikvm( 2533): GC_FOR_ALLOC freed 697K, 41% free 6912K/11651K, paused 20ms
+D/ScaleViewPanel( 2533): ScaleViewPanel constructor
+D/ScaleViewPanel( 2533): ScaleViewPanel constructor
+D/dalvikvm( 2533): GC_FOR_ALLOC freed 11K, 34% free 8440K/12675K, paused 19ms
+D/ScaleViewPanel( 2533): ScaleViewPanel constructor
+D/ScaleViewPanel( 2533): ScaleViewPanel constructor
+D/ScaleViewPanel( 2533): ScaleViewPanel constructor
+D/ScaleViewPanel( 2533): ScaleViewPanel constructor
+D/ScaleViewPanel( 2533): ScaleViewPanel constructor
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/ScaleViewPanel( 2533): ScaleViewPanel constructor
+D/dalvikvm( 2533): GC_FOR_ALLOC freed 12K, 30% free 9985K/14211K, paused 20ms
+D/ScaleViewPanel( 2533): ScaleViewPanel constructor
+D/ScaleViewPanel( 2533): ScaleViewPanel constructor
+D/ScaleViewPanel( 2533): ScaleViewPanel constructor
+V/ottsetting( 2533): getConnectedType is :1
+I/Process (  950): Sending signal. PID: 2533 SIG: 3
+I/dalvikvm( 2533): threadid=3: reacting to signal 3
+D/dalvikvm(  742): GC_FOR_ALLOC freed 308K, 66% free 2085K/6083K, paused 24ms
+I/dalvikvm( 2533): Wrote stack traces to '/data/anr/traces.txt'
+I/System  (  742): Loaded time zone names for  in 837ms (827ms in ICU)
+W/InputManagerService(  950): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@415f3428 (uid=10006 pid=1238)
+E/StaggeredGridView( 2533): onMeasure: must have an exact height or match_parent! Using fallback spec of EXACTLY 720
+D/ScaleViewPanel( 2533): dispatchDraw
+I/ActivityManager(  950): Displayed com.coship.ottsetting/.main: +1s409ms
+D/ScaleViewPanel( 2533): dispatchDraw
+D/ScaleViewPanel( 2533): dispatchDraw
+I/System  (  742): Loaded time zone names for en_US in 556ms (551ms in ICU)
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+I/System  (  742): Loaded time zone names for zh_CN in 380ms (375ms in ICU)
+I/Zygote  (  742): ...preloaded 136 classes in 2074ms.
+
+[ 2143.049850] IR: [03932] scan key value is 0xea15c936 
+[ 2143.049854]  D/ScaleViewPanel( 2533): dispatchDraw
+
+[ 2143.102153] IR: [03932] scan key value is 0xea15c936 
+[ 2143.102157]  D/InputEventConsistencyVerifier( 2533): KeyEvent: ACTION_UP but key was not down.
+D/InputEventConsistencyVerifier( 2533):   in com.coship.ottsetting.view.ScaleViewPanel@415499f0
+D/InputEventConsistencyVerifier( 2533):   0: sent at 2143268000000, KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_DOWN, scanCode=108, metaState=0, flags=0x8, repeatCount=0, eventTime=2143268, downTime=2143056, deviceId=1, source=0x101 }
+D/ScaleViewPanel( 2533): dispatchDraw
+
+[ 2143.450699] IR: [03932] scan key value is 0xeb14c936 
+[ 2143.450704]  D/ScaleViewPanel( 2533): dispatchDraw
+
+[ 2143.502999] IR: [03932] scan key value is 0xeb14c936 
+[ 2143.503004]  D/InputEventConsistencyVerifier( 2533): KeyEvent: ACTION_UP but key was not down.
+D/InputEventConsistencyVerifier( 2533):   in com.coship.ottsetting.view.ScaleViewPanel@4153abd8
+D/InputEventConsistencyVerifier( 2533):   0: sent at 2143668000000, KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_RIGHT, scanCode=106, metaState=0, flags=0x8, repeatCount=0, eventTime=2143668, downTime=2143457, deviceId=1, source=0x101 }
+D/ScaleViewPanel( 2533): dispatchDraw
+
+[ 2143.779226] IR: [03932] scan key value is 0xec13c936 
+[ 2143.779231]  
+[ 2143.831522] IR: [03932] scan key value is 0xec13c936 
+[ 2143.831527]  D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+V/NetSettingAdapter( 2533): [onClickListener] num:5
+I/ActivityManager(  950): START {cmp=com.coship.ottsetting/.upgradesetting.upGrade} from pid 2533
+D/dalvikvm( 2533): GC_FOR_ALLOC freed 1379K, 34% free 10264K/15363K, paused 23ms
+I/dalvikvm-heap( 2533): Grow heap (frag case) to 15.653MB for 2128704-byte allocation
+D/dalvikvm( 2533): GC_CONCURRENT freed 3K, 30% free 12339K/17475K, paused 2ms+4ms
+D/dalvikvm( 2533): GC_FOR_ALLOC freed 2K, 24% free 13728K/18051K, paused 20ms
+V/upGrade ( 2533): mBindRemote--->true
+I/Tools   ( 2533): SystemPropertiesClass:class android.os.SystemProperties
+W/Tools   ( 2533): ~~~~~~~~~~~~~~~~~~~~~~method:public static java.lang.String android.os.SystemProperties.get(java.lang.String,java.lang.String)
+W/Tools   ( 2533): ~~~~~~~~~~~~~~~~~~~~~~returnvalue:211343
+I/Tools   ( 2533): SystemPropertiesClass:class android.os.SystemProperties
+W/Tools   ( 2533): ~~~~~~~~~~~~~~~~~~~~~~method:public static java.lang.String android.os.SystemProperties.get(java.lang.String,java.lang.String)
+W/Tools   ( 2533): ~~~~~~~~~~~~~~~~~~~~~~returnvalue:211343
+V/upGrade ( 2533): [onServiceConnected]iUpdateService:com.coship.update.IUpdateService$Stub$Proxy@41e79828
+I/ActivityManager(  950): Displayed com.coship.ottsetting/.upgradesetting.upGrade: +376ms
+D/OpenGLRenderer( 2533): Flushing caches (mode 0)
+D/HomePlayerLib( 1157): hostaddress count is 2
+D/dalvikvm( 1157): GC_CONCURRENT freed 403K, 76% free 1424K/5891K, paused 3ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 516K, 76% free 1414K/5891K, paused 0ms+2ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 498K, 77% free 1372K/5891K, paused 0ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 494K, 78% free 1321K/5891K, paused 1ms+2ms
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1157): GC_CONCURRENT freed 408K, 78% free 1297K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 380K, 76% free 1423K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 485K, 77% free 1386K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 454K, 78% free 1319K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 408K, 76% free 1454K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 518K, 77% free 1408K/5891K, paused 1ms+1ms
+D/NetFirmwareService( 1295): onReceive com.coship.systemupgrade.manualcheck
+D/NetFirmwareService( 1295): MSG_CHECK_UPGRADE
+D/NetFirmwareService( 1295): serverURL = http://172.21.11.65/update/system/S1001/CHINA_OTT/CIBN/002104
+I/NetFirmwareService( 1295): Date:Wed, 19 Jun 2013 08:10:48 GMT
+I/NetFirmwareService( 1295): Server:Apache/2.2.11 (Unix)
+I/NetFirmwareService( 1295): Last-Modified:Wed, 19 Jun 2013 07:58:08 GMT
+I/NetFirmwareService( 1295): ETag:"18800c-1e-4df7d30b64400"
+I/NetFirmwareService( 1295): Accept-Ranges:bytes
+I/NetFirmwareService( 1295): Content-Length:30
+I/NetFirmwareService( 1295): Keep-Alive:timeout=5, max=100
+I/NetFirmwareService( 1295): Connection:Keep-Alive
+I/NetFirmwareService( 1295): Content-Type:text/plain
+D/NetFirmwareService( 1295): Download URL = http://172.21.11.65/update/system/S1001/CHINA_OTT/CIBN/002104/versioncode.dat
+D/NetFirmwareService( 1295): Save file in path = /data/data/com.coship.netfirmware/versionCode.dat
+D/NetFirmwareService( 1295): Set download thread number = 2
+D/DownloadTask( 1295): mDesFilePath =/data/data/com.coship.netfirmware/versionCode.dat
+D/DownloadTask( 1295): mRecordFile =/data/data/com.coship.netfirmware/versionCode.dat.cdl.Record
+D/DownloadTask( 1295): mfilePath =/data/data/com.coship.netfirmware/versionCode.dat.cdl
+D/dalvikvm( 1157): GC_CONCURRENT freed 483K, 78% free 1319K/5891K, paused 7ms+1ms
+I/DownloadTask( 1295): Date:Wed, 19 Jun 2013 08:10:48 GMT
+I/DownloadTask( 1295): Server:Apache/2.2.11 (Unix)
+I/DownloadTask( 1295): Last-Modified:Wed, 19 Jun 2013 07:58:08 GMT
+I/DownloadTask( 1295): ETag:"18800c-1e-4df7d30b64400"
+I/DownloadTask( 1295): Accept-Ranges:bytes
+I/DownloadTask( 1295): Content-Length:30
+I/DownloadTask( 1295): Keep-Alive:timeout=5, max=100
+I/DownloadTask( 1295): Connection:Keep-Alive
+I/DownloadTask( 1295): Content-Type:text/plain
+D/DownloadTask( 1295): server accept range
+D/DownloadTask( 1295): initTaskRecord currentSize=-1
+D/DownloadTask( 1295): totalSize=-1
+D/DownloadTask( 1295): magicID=abc
+D/DownloadTask( 1295): mCurrentSize=0
+D/DownloadTask( 1295): mTotalSize=30
+D/DownloadTask( 1295): mMagicID=null
+D/DownloadTask( 1295): The record is invalid, need reset record
+D/DownloadXpress( 1295): write file name = /data/data/com.coship.netfirmware/versionCode.dat.cdl
+D/dalvikvm( 1295): GC_CONCURRENT freed 11142K, 86% free 2569K/17987K, paused 1ms+2ms
+D/dalvikvm( 1295): GC_FOR_ALLOC freed 176K, 84% free 2939K/17987K, paused 18ms
+D/NetFirmwareService( 1295): mTaskStatus:1
+D/NetFirmwareService( 1295): MSG_VER_CODE_STATUS_CHANGE
+D/NetFirmwareService( 1295): MSG_VER_CODE_STATUS_CHANGE
+D/dalvikvm( 1157): GC_CONCURRENT freed 408K, 78% free 1321K/5891K, paused 1ms+1ms
+V/DownloadXpress( 1295): Accept-Ranges: bytes
+V/DownloadXpress( 1295): Content-Disposition: null
+V/DownloadXpress( 1295): Content-Length: 15
+V/DownloadXpress( 1295): Content-Location: null
+V/DownloadXpress( 1295): ETag: "18800c-1e-4df7d30b64400"
+V/DownloadXpress( 1295): Transfer-Encoding: null
+D/DownloadXpress( 1295): sendDataInStack --data length =15 offset =15 file name = filePart1
+D/DownloadXpress( 1295): write data  Pos=15   Length =15  Thread =filePart1
+D/DownloadXpress( 1295): filePart1 final status: 491
+V/DownloadXpress( 1295): Accept-Ranges: bytes
+V/DownloadXpress( 1295): Content-Disposition: null
+V/DownloadXpress( 1295): Content-Length: 15
+V/DownloadXpress( 1295): Content-Location: null
+V/DownloadXpress( 1295): ETag: "18800c-1e-4df7d30b64400"
+V/DownloadXpress( 1295): Transfer-Encoding: null
+D/DownloadXpress( 1295): sendDataInStack --data length =15 offset =0 file name = filePart0
+D/DownloadXpress( 1295): write data  Pos=0   Length =15  Thread =filePart0
+D/DownloadXpress( 1295): filePart0 final status: 491
+D/dalvikvm( 1157): GC_CONCURRENT freed 401K, 78% free 1332K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 412K, 76% free 1432K/5891K, paused 5ms+1ms
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1157): GC_CONCURRENT freed 527K, 78% free 1298K/5891K, paused 1ms+1ms
+W/DownloadTask( 1295): There has a file named /data/data/com.coship.netfirmware/versionCode.dat already
+D/DownloadTask( 1295): src file = /data/data/com.coship.netfirmware/versionCode.dat.cdl --- des file=/data/data/com.coship.netfirmware/versionCode.dat
+D/NetFirmwareService( 1295): mTaskStatus:3
+D/NetFirmwareService( 1295): DownloadConstants.TASK_STATUS_COMPLETED
+D/NetFirmwareService( 1295): MSG_VER_CODE_STATUS_CHANGE
+D/NetFirmwareService( 1295): MSG_CHECK_VERSION_CODE
+D/NetFirmwareService( 1295): checkVersionCode
+D/NetFirmwareService( 1295): analysisVersionCodeData
+D/NetFirmwareService( 1295): charset detect...
+D/dalvikvm( 1295): GC_CONCURRENT freed 283K, 81% free 3497K/17987K, paused 1ms+2ms
+D/NetFirmwareService( 1295): charset detect finished, charset type:US-ASCII
+D/NetFirmwareService( 1295): version code line:v=211344
+D/NetFirmwareService( 1295): verCode = 211344
+D/NetFirmwareService( 1295): Description URL = null
+D/NetFirmwareService( 1295): MSG_GET_DESCRIPTION
+D/NetFirmwareService( 1295): mDescriptionURL: http://172.21.11.65/update/system/S1001/CHINA_OTT/CIBN/002104/description_211344.dat
+I/NetFirmwareService( 1295): Date:Wed, 19 Jun 2013 08:10:48 GMT
+I/NetFirmwareService( 1295): Server:Apache/2.2.11 (Unix)
+I/NetFirmwareService( 1295): Last-Modified:Wed, 19 Jun 2013 08:08:04 GMT
+I/NetFirmwareService( 1295): ETag:"18800b-7b4-4df7d543c8100"
+I/NetFirmwareService( 1295): Accept-Ranges:bytes
+I/NetFirmwareService( 1295): Content-Length:1972
+I/NetFirmwareService( 1295): Keep-Alive:timeout=5, max=100
+I/NetFirmwareService( 1295): Connection:Keep-Alive
+I/NetFirmwareService( 1295): Content-Type:text/plain
+D/NetFirmwareService( 1295): Download URL = http://172.21.11.65/update/system/S1001/CHINA_OTT/CIBN/002104/description_211344.dat
+D/NetFirmwareService( 1295): Save file in path = /data/data/com.coship.netfirmware/description.dat
+D/NetFirmwareService( 1295): Set download thread number = 2
+D/DownloadTask( 1295): mDesFilePath =/data/data/com.coship.netfirmware/description.dat
+D/DownloadTask( 1295): mRecordFile =/data/data/com.coship.netfirmware/description.dat.cdl.Record
+D/DownloadTask( 1295): mfilePath =/data/data/com.coship.netfirmware/description.dat.cdl
+D/dalvikvm( 1157): GC_CONCURRENT freed 378K, 76% free 1432K/5891K, paused 1ms+1ms
+I/DownloadTask( 1295): Date:Wed, 19 Jun 2013 08:10:48 GMT
+I/DownloadTask( 1295): Server:Apache/2.2.11 (Unix)
+I/DownloadTask( 1295): Last-Modified:Wed, 19 Jun 2013 08:08:04 GMT
+I/DownloadTask( 1295): ETag:"18800b-7b4-4df7d543c8100"
+I/DownloadTask( 1295): Accept-Ranges:bytes
+I/DownloadTask( 1295): Content-Length:1972
+I/DownloadTask( 1295): Keep-Alive:timeout=5, max=100
+I/DownloadTask( 1295): Connection:Keep-Alive
+I/DownloadTask( 1295): Content-Type:text/plain
+D/DownloadTask( 1295): server accept range
+D/DownloadTask( 1295): initTaskRecord currentSize=-1
+D/DownloadTask( 1295): totalSize=-1
+D/DownloadTask( 1295): magicID=abc
+D/DownloadTask( 1295): mCurrentSize=0
+D/DownloadTask( 1295): mTotalSize=1972
+D/DownloadTask( 1295): mMagicID=null
+D/DownloadTask( 1295): The record is invalid, need reset record
+D/DownloadXpress( 1295): write file name = /data/data/com.coship.netfirmware/description.dat.cdl
+D/dalvikvm( 1295): GC_FOR_ALLOC freed 823K, 81% free 3475K/17987K, paused 17ms
+D/dalvikvm( 1295): GC_FOR_ALLOC freed <1K, 78% free 3987K/17987K, paused 14ms
+D/NetFirmwareService( 1295): mTaskStatus:1
+D/NetFirmwareService( 1295): MSG_DESCRIPT_STATUS_CHANGE
+D/NetFirmwareService( 1295): MSG_DESCRIPT_STATUS_CHANGE
+V/DownloadXpress( 1295): Accept-Ranges: bytes
+V/DownloadXpress( 1295): Accept-Ranges: bytes
+V/DownloadXpress( 1295): Content-Disposition: null
+V/DownloadXpress( 1295): Content-Length: 986
+V/DownloadXpress( 1295): Content-Disposition: null
+V/DownloadXpress( 1295): Content-Location: null
+V/DownloadXpress( 1295): Content-Length: 986
+V/DownloadXpress( 1295): ETag: "18800b-7b4-4df7d543c8100"
+V/DownloadXpress( 1295): Content-Location: null
+V/DownloadXpress( 1295): Transfer-Encoding: null
+V/DownloadXpress( 1295): ETag: "18800b-7b4-4df7d543c8100"
+D/DownloadXpress( 1295): sendDataInStack --data length =986 offset =0 file name = filePart0
+V/DownloadXpress( 1295): Transfer-Encoding: null
+D/DownloadXpress( 1295): filePart0 final status: 491
+D/DownloadXpress( 1295): sendDataInStack --data length =986 offset =986 file name = filePart1
+D/DownloadXpress( 1295): write data  Pos=0   Length =986  Thread =filePart0
+D/DownloadXpress( 1295): filePart1 final status: 491
+D/dalvikvm( 1157): GC_CONCURRENT freed 519K, 78% free 1306K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 395K, 76% free 1419K/5891K, paused 1ms+2ms
+D/NetFirmwareService( 1295): mTaskStatus:1
+D/NetFirmwareService( 1295): MSG_DESCRIPT_STATUS_CHANGE
+D/DownloadXpress( 1295): write data  Pos=986   Length =986  Thread =filePart1
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+W/DownloadTask( 1295): There has a file named /data/data/com.coship.netfirmware/description.dat already
+D/DownloadTask( 1295): src file = /data/data/com.coship.netfirmware/description.dat.cdl --- des file=/data/data/com.coship.netfirmware/description.dat
+D/NetFirmwareService( 1295): mTaskStatus:3
+D/NetFirmwareService( 1295): DownloadConstants.TASK_STATUS_COMPLETED
+D/NetFirmwareService( 1295): MSG_DESCRIPT_STATUS_CHANGE
+D/NetFirmwareService( 1295): MSG_CHECK_DESCRIPTION
+D/DescriptionInfo( 1295): charset detect...
+D/dalvikvm( 1295): GC_CONCURRENT freed 1635K, 81% free 3526K/17987K, paused 2ms+6ms
+D/DescriptionInfo( 1295): charset detect finished, charset type:GBK
+D/DescriptionInfo( 1295): version=p7764.i13235_2013-06-14
+D/DescriptionInfo( 1295): versionCode=211344
+D/DescriptionInfo( 1295): compatibleDevice=002104
+D/DescriptionInfo( 1295): sn=
+D/DescriptionInfo( 1295): mac=
+D/DescriptionInfo( 1295): updateType=silent
+D/DescriptionInfo( 1295): speed=0
+D/DescriptionInfo( 1295): checkTime=0
+D/DescriptionInfo( 1295): packageSize=1921272110000
+D/DescriptionInfo( 1295): md5=FC66D5FCA73DB9A5CC58745954FDA8D2
+D/DescriptionInfo( 1295): packageUrl=
+D/DescriptionInfo( 1295): changeHistory=1,优化系统升级;2,此种情况属于传屏黑屏情况，目前造成的原因有3种;3,从盒子端发送的TS数据格式是错误的，造成手机端无法解码;4从而关闭socket，进而出现重连，导致黑屏延时,目前盒子端已经有一个workaround的解决方案，但rootcase的问题还没解决;5,网络情况很不好，从手机端的log分析，有5秒内都没有数据到来，导致超时关闭socket，进而致黑屏延时;3,从盒子端发送的TS数据格式是错误的，造成手机端无法解码;4从而关闭socket，进而出现重连，导致黑屏延时，
+D/DescriptionInfo( 1295): 目前盒子端已经有一个workaround的解决方案，但rootcase的问题还没解决;5,网络情况很不好，从手机端的log分析，有5秒内都没有数据到来，导致超时关闭socket，进而致黑屏延时;1,优化系统升级;2,此种情况属于传屏黑屏情况，目前造成的原因有3种;3,从盒子端发送的TS数据格式是错误的，造成手机端无法解码;4从而关闭socket，进而出现重连，导致黑屏延时,目前盒子端已经有一个workaround的解决方案，但rootcase的问题还没解决;5,网络情况很不好，从手机端的log分析，有5秒内都没有数据到来，导致超时关闭socket，进而致黑屏延时;3,从盒子端发送的TS数据格式是错误的，造成手机端无法解码;4从而关闭socket，进而出现重连，导致黑屏延时，
+D/DescriptionInfo( 1295): 目前盒子端已经有一个workaround的解决方案，但rootcase的问题还没解决;5,网络情况很不好，从手机端的log分析，有5秒内都没有数据到来，导致超时关闭socket，进而致黑屏延时;1,优化系统升级;2,此种情况属于传屏黑屏情况，目前造成的原因有3种;3,从盒子端发送的TS数据格式是错误的，造成手机端无法解码;4从而关闭socket，进而出现重连，导致黑屏延时,目前盒子端已经有一个workaround的解决方案，但rootcase的问题还没解决;5,网络情况很不好，从手机端的log分析，有5秒内都没有数据到来，导致超时关闭socket，进而致黑屏延时;3,从盒子端发送的TS数据格式是错误的，造成手机端无法解码;4从而关闭socket，进而出现重连，导致黑屏延时，
+D/DescriptionInfo( 1295): 目前盒子端已经有一个workaround的解决方案，但rootcase的问题还没解决;5,网络情况很不好，从手机端的log分析，有5秒内都没有数据到来，导致超时关闭socket，进而致黑屏延时;
+D/DescriptionInfo( 1295): checkDescriptionInfo version code = 211344
+D/DescriptionInfo( 1295): checkDescriptionInfo machine id = 0
+D/DescriptionInfo( 1295): checkDescriptionInfo hardware id = 002104
+D/DescriptionInfo( 1295): checkDescriptionInfo update package size = 1921272110000
+D/NetFirmwareService( 1295): The description info is valid
+D/NetFirmwareService( 1295): The description version code = 211344
+D/NetFirmwareService( 1295): The description packagesize = 1921272110000
+D/NetFirmwareService( 1295): The description md5 = fc66d5fca73db9a5cc58745954fda8d2
+D/NetFirmwareService( 1295): The description updatePackageFileName = update_H002104_V211344_Q00001_C00001.zip
+D/NetFirmwareService( 1295): The description release notes = 1,优化系统升级;2,此种情况属于传屏黑屏情况，目前造成的原因有3种;3,从盒子端发送的TS数据格式是错误的，造成手机端无法解码;4从而关闭socket，进而出现重连，导致黑屏延时,目前盒子端已经有一个workaround的解决方案，但rootcase的问题还没解决;5,网络情况很不好，从手机端的log分析，有5秒内都没有数据到来，导致超时关闭socket，进而致黑屏延时;3,从盒子端发送的TS数据格式是错误的，造成手机端无法解码;4从而关闭socket，进而出现重连，导致黑屏延时，
+V/NetFirmwareService( 1295): files.length--->1
+D/NetFirmwareService( 1295): check a exsit update package
+D/NetFirmwareService( 1295): Send broadcast of version check_md5.
+V/upGrade ( 2533): [BroadcastReceiver]action:com.coship.market.firmware.check_md5
+V/upGrade ( 2533): [BroadcastReceiver]fileName:/update/update_H002104_V211344_Q00001_C00001.zipmd5:fc66d5fca73db9a5cc58745954fda8d2
+W/dalvikvm( 2533): threadid=11: thread exiting with uncaught exception (group=0x40fa81f8)
+E/AndroidRuntime( 2533): FATAL EXCEPTION: Thread-103
+E/AndroidRuntime( 2533): java.lang.NumberFormatException: Invalid int: "1921272110000"
+E/AndroidRuntime( 2533):        at java.lang.Integer.invalidInt(Integer.java:138)
+E/AndroidRuntime( 2533):        at java.lang.Integer.parse(Integer.java:378)
+E/AndroidRuntime( 2533):        at java.lang.Integer.parseInt(Integer.java:366)
+E/AndroidRuntime( 2533):        at java.lang.Integer.parseInt(Integer.java:332)
+E/AndroidRuntime( 2533):        at java.lang.Integer.valueOf(Integer.java:490)
+E/AndroidRuntime( 2533):        at com.coship.ottsetting.upgradesetting.upGrade$2$1.run(upGrade.java:176)
+W/ActivityManager(  950):   Force finishing activity com.coship.ottsetting/.upgradesetting.upGrade
+D/dalvikvm(  950): GC_FOR_ALLOC freed 1439K, 62% free 3857K/9987K, paused 42ms
+D/dalvikvm(  950): GC_FOR_ALLOC freed 26K, 56% free 4452K/9987K, paused 39ms
+D/OpenGLRenderer( 2533): Flushing caches (mode 0)
+E/ActivityThread( 2533): Activity com.coship.ottsetting.upgradesetting.upGrade has leaked ServiceConnection com.coship.ottsetting.upgradesetting.upGrade$9@41533ca0 that was originally bound here
+E/ActivityThread( 2533): android.app.ServiceConnectionLeaked: Activity com.coship.ottsetting.upgradesetting.upGrade has leaked ServiceConnection com.coship.ottsetting.upgradesetting.upGrade$9@41533ca0 that was originally bound here
+E/ActivityThread( 2533):        at android.app.LoadedApk$ServiceDispatcher.<init>(LoadedApk.java:936)
+E/ActivityThread( 2533):        at android.app.LoadedApk.getServiceDispatcher(LoadedApk.java:830)
+E/ActivityThread( 2533):        at android.app.ContextImpl.bindService(ContextImpl.java:1147)
+E/ActivityThread( 2533):        at android.content.ContextWrapper.bindService(ContextWrapper.java:370)
+E/ActivityThread( 2533):        at com.coship.ottsetting.upgradesetting.upGrade.remoteAIDL(upGrade.java:484)
+E/ActivityThread( 2533):        at com.coship.ottsetting.upgradesetting.upGrade.init(upGrade.java:358)
+E/ActivityThread( 2533):        at com.coship.ottsetting.upgradesetting.upGrade.onCreate(upGrade.java:104)
+E/ActivityThread( 2533):        at android.app.Activity.performCreate(Activity.java:4465)
+E/ActivityThread( 2533):        at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1049)
+E/ActivityThread( 2533):        at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:1920)
+E/ActivityThread( 2533):        at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:1981)
+E/ActivityThread( 2533):        at android.app.ActivityThread.access$600(ActivityThread.java:123)
+E/ActivityThread( 2533):        at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1147)
+E/ActivityThread( 2533):        at android.os.Handler.dispatchMessage(Handler.java:99)
+E/ActivityThread( 2533):        at android.os.Looper.loop(Looper.java:137)
+E/ActivityThread( 2533):        at android.app.ActivityThread.main(ActivityThread.java:4424)
+E/ActivityThread( 2533):        at java.lang.reflect.Method.invokeNative(Native Method)
+E/ActivityThread( 2533):        at java.lang.reflect.Method.invoke(Method.java:511)
+E/ActivityThread( 2533):        at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:848)
+E/ActivityThread( 2533):        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:575)
+E/ActivityThread( 2533):        at dalvik.system.NativeStart.main(Native Method)
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+W/ActivityManager(  950): Unbind failed: could not find connection for android.os.BinderProxy@416f1110
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1157): GC_CONCURRENT freed 507K, 78% free 1321K/5891K, paused 0ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 397K, 78% free 1317K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 393K, 78% free 1317K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 391K, 78% free 1318K/5891K, paused 1ms+1ms
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1157): GC_CONCURRENT freed 392K, 78% free 1318K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 419K, 79% free 1294K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 366K, 77% free 1364K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 443K, 78% free 1306K/5891K, paused 0ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 395K, 78% free 1305K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 393K, 76% free 1419K/5891K, paused 1ms+1ms
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1157): GC_CONCURRENT freed 487K, 77% free 1407K/5891K, paused 1ms+1ms
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/HomePlayerLib( 1157): hostaddress count is 2
+D/dalvikvm( 1157): GC_CONCURRENT freed 494K, 78% free 1303K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 388K, 76% free 1421K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 497K, 78% free 1317K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 393K, 78% free 1308K/5891K, paused 0ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 411K, 77% free 1409K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 597K, 78% free 1322K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 407K, 77% free 1383K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 469K, 78% free 1322K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 394K, 78% free 1322K/5891K, paused 1ms+2ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 393K, 78% free 1323K/5891K, paused 1ms+1ms
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1157): GC_CONCURRENT freed 392K, 78% free 1322K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 398K, 78% free 1324K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 390K, 78% free 1321K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 403K, 78% free 1320K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 404K, 78% free 1306K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 396K, 76% free 1428K/5891K, paused 1ms+0ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 515K, 78% free 1306K/5891K, paused 1ms+1ms
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1157): GC_CONCURRENT freed 395K, 78% free 1315K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 393K, 78% free 1332K/5891K, paused 1ms+1ms
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1157): GC_CONCURRENT freed 437K, 78% free 1315K/5891K, paused 0ms+1ms
+D/HomePlayerLib( 1157): hostaddress count is 2
+D/dalvikvm( 1157): GC_CONCURRENT freed 402K, 78% free 1312K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 387K, 78% free 1316K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 403K, 78% free 1305K/5891K, paused 0ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 378K, 78% free 1321K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 389K, 78% free 1323K/5891K, paused 1ms+1ms
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1157): GC_CONCURRENT freed 402K, 76% free 1436K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 516K, 77% free 1378K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 448K, 76% free 1441K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 521K, 76% free 1431K/5891K, paused 0ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 503K, 78% free 1321K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 393K, 77% free 1369K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 444K, 76% free 1434K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 515K, 76% free 1418K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 485K, 78% free 1329K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 404K, 78% free 1311K/5891K, paused 1ms+1ms
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1157): GC_CONCURRENT freed 381K, 78% free 1319K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 396K, 76% free 1423K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 501K, 78% free 1306K/5891K, paused 0ms+1ms
+
+[ 2169.348310] IR: [03932] scan key value is 0xec13c936 
+[ 2169.348315]  
+[ 2169.400607] IR: [03932] scan key value is 0xec13c936 
+[ 2169.400612]  I/Process ( 2533): Sending signal. PID: 2533 SIG: 9
+
+[ 2169.602275] binder: 2533: binder_alloc_buf, no vma
+E/JavaBinder(  950): !!! FAILED BINDER TRANSACTION !!!
+I/WindowManager(  950): WIN DEATH: Window{41601a68 com.coship.ottsetting/com.coship.ottsetting.main paused=false}
+I/ActivityManager(  950): Process com.coship.ottsetting (pid 2533) has died.
+W/ActivityManager(  950): Force removing ActivityRecord{417cbd60 com.coship.ottsetting/.main}: app died, no saved state
+I/MainActivity( 1238):  onResume
+W/InputManagerService(  950): Got RemoteException sending setActive(false) notification to pid 2533 uid 1000
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+[ 2170.446082] IR: [03932] scan key value is 0xec13c936 
+[ 2170.446087]  
+[ 2170.498378] IR: [03932] scan key value is 0xec13c936 
+[ 2170.498383]  I/MainActivity( 1238): onClick -> 52060
+I/ActivityManager(  950): START {flg=0x10000000 cmp=com.coship.ottsetting/.main (has extras)} from pid 1238
+D/dalvikvm(  950): GC_FOR_ALLOC freed 878K, 60% free 4045K/9987K, paused 47ms
+I/dalvikvm-heap(  950): Grow heap (frag case) to 8.551MB for 1048592-byte allocation
+D/dalvikvm(  950): GC_FOR_ALLOC freed 11K, 55% free 5058K/11075K, paused 37ms
+D/dalvikvm(  950): GC_CONCURRENT freed 7K, 55% free 5051K/11075K, paused 2ms+4ms
+V/MainActivity( 1238): 启动onlineMovice，用户为  ：null
+V/MainActivity( 1238): userName = null ;passwd = null ; DiviceId = null
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+I/Zygote  (  742): Preloading classes...
+I/ActivityManager(  950): Start proc com.coship.ottsetting for activity com.coship.ottsetting/.main: pid=2565 uid=1000 gids={3003, 1015, 3002, 3001, 3004}
+D/dalvikvm( 2565): GC_CONCURRENT freed 477K, 68% free 2059K/6275K, paused 2ms+7ms
+D/dalvikvm(  742): GC_EXPLICIT freed 479K, 68% free 2048K/6275K, paused 1ms+6ms
+D/OpenGLRenderer( 1238): Flushing caches (mode 1)
+D/OpenGLRenderer( 1238): Flushing caches (mode 0)
+D/dalvikvm( 2565): GC_FOR_ALLOC freed 51K, 58% free 3125K/7363K, paused 26ms
+I/dalvikvm-heap( 2565): Grow heap (frag case) to 10.167MB for 3686416-byte allocation
+D/dalvikvm(  742): GC_FOR_ALLOC freed 382K, 66% free 2178K/6275K, paused 28ms
+I/Zygote  (  742): ...preloaded 185 classes in 318ms.
+D/dalvikvm( 2565): GC_CONCURRENT freed 1K, 39% free 6724K/11011K, paused 2ms+2ms
+V/ottsetting( 2565): getConnectedType is :1
+V/ottsetting( 2565): onReceive CONNECTIVITY_CHANGE
+E/StaggeredGridView( 2565): onMeasure: must have an exact height or match_parent! Using fallback spec of EXACTLY 720
+D/libEGL  ( 2565): loaded /system/lib/egl/libGLES_android.so
+D/libEGL  ( 2565): loaded /system/lib/egl/libEGL_mali.so
+D/libEGL  ( 2565): loaded /system/lib/egl/libGLESv1_CM_mali.so
+D/libEGL  ( 2565): loaded /system/lib/egl/libGLESv2_mali.so
+D/OpenGLRenderer( 2565): Enabling debug mode 0
+D/ScaleViewPanel( 2565): ScaleViewPanel constructor
+
+[ 2171.492343] IR: [03932] scan key value is 0xea15c936 
+[ 2171.492348]  I/Process (  950): Sending signal. PID: 2565 SIG: 3
+I/dalvikvm( 2565): threadid=3: reacting to signal 3
+D/dalvikvm( 2565): GC_FOR_ALLOC freed 697K, 41% free 7080K/11971K, paused 37ms
+I/dalvikvm-heap( 2565): Grow heap (frag case) to 11.484MB for 1016112-byte allocation
+I/dalvikvm( 2565): Wrote stack traces to '/data/anr/traces.txt'
+
+[ 2171.544647] IR: [03932] scan key value is 0xea15c936 
+[ 2171.544653]  D/dalvikvm( 2565): GC_FOR_ALLOC freed 1K, 38% free 8071K/12995K, paused 22ms
+D/ScaleViewPanel( 2565): ScaleViewPanel constructor
+D/ScaleViewPanel( 2565): ScaleViewPanel constructor
+D/ScaleViewPanel( 2565): ScaleViewPanel constructor
+D/ScaleViewPanel( 2565): ScaleViewPanel constructor
+D/ScaleViewPanel( 2565): ScaleViewPanel constructor
+D/dalvikvm( 2565): GC_FOR_ALLOC freed 14K, 32% free 9383K/13763K, paused 24ms
+D/ScaleViewPanel( 2565): ScaleViewPanel constructor
+D/ScaleViewPanel( 2565): ScaleViewPanel constructor
+D/ScaleViewPanel( 2565): ScaleViewPanel constructor
+D/ScaleViewPanel( 2565): ScaleViewPanel constructor
+D/ScaleViewPanel( 2565): ScaleViewPanel constructor
+D/dalvikvm( 2565): GC_FOR_ALLOC freed 688K, 32% free 10279K/15043K, paused 24ms
+D/ScaleViewPanel( 2565): ScaleViewPanel constructor
+V/ottsetting( 2565): getConnectedType is :1
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+E/StaggeredGridView( 2565): onMeasure: must have an exact height or match_parent! Using fallback spec of EXACTLY 720
+W/InputManagerService(  950): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@415f3428 (uid=10006 pid=1238)
+D/ScaleViewPanel( 2565): dispatchDraw
+I/Process (  950): Sending signal. PID: 2565 SIG: 3
+I/dalvikvm( 2565): threadid=3: reacting to signal 3
+I/dalvikvm( 2565): Wrote stack traces to '/data/anr/traces.txt'
+I/ActivityManager(  950): Displayed com.coship.ottsetting/.main: +1s150ms
+D/ScaleViewPanel( 2565): dispatchDraw
+D/InputEventConsistencyVerifier( 2565): KeyEvent: ACTION_UP but key was not down.
+D/InputEventConsistencyVerifier( 2565):   in com.coship.ottsetting.view.ScaleViewPanel@41a35f00
+D/InputEventConsistencyVerifier( 2565):   0: sent at 2171712000000, KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_DOWN, scanCode=108, metaState=0, flags=0x8, repeatCount=0, eventTime=2171712, downTime=2171499, deviceId=1, source=0x101 }
+D/ScaleViewPanel( 2565): dispatchDraw
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+
+[ 2173.036522] IR: [03932] scan key value is 0xeb14c936 
+[ 2173.036526]  D/ScaleViewPanel( 2565): dispatchDraw
+
+[ 2173.088825] IR: [03932] scan key value is 0xeb14c936 
+[ 2173.088830]  D/InputEventConsistencyVerifier( 2565): KeyEvent: ACTION_UP but key was not down.
+D/InputEventConsistencyVerifier( 2565):   in com.coship.ottsetting.view.ScaleViewPanel@41a36f08
+D/InputEventConsistencyVerifier( 2565):   0: sent at 2173256000000, KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_RIGHT, scanCode=106, metaState=0, flags=0x8, repeatCount=0, eventTime=2173256, downTime=2173043, deviceId=1, source=0x101 }
+D/ScaleViewPanel( 2565): dispatchDraw
+D/dalvikvm( 1157): GC_CONCURRENT freed 393K, 77% free 1378K/5891K, paused 0ms+1ms
+
+[ 2173.410844] IR: [03932] scan key value is 0xec13c936 
+[ 2173.410849]  
+[ 2173.463138] IR: [03932] scan key value is 0xec13c936 
+[ 2173.463143]  D/dalvikvm( 1157): GC_CONCURRENT freed 455K, 76% free 1416K/5891K, paused 1ms+1ms
+V/NetSettingAdapter( 2565): [onClickListener] num:5
+I/ActivityManager(  950): START {cmp=com.coship.ottsetting/.upgradesetting.upGrade} from pid 2565
+D/dalvikvm( 2565): GC_FOR_ALLOC freed 700K, 31% free 10431K/15107K, paused 22ms
+I/dalvikvm-heap( 2565): Grow heap (frag case) to 15.817MB for 2128704-byte allocation
+D/dalvikvm( 2565): GC_CONCURRENT freed 2K, 28% free 12508K/17219K, paused 2ms+3ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 490K, 77% free 1401K/5891K, paused 1ms+1ms
+D/dalvikvm( 2565): GC_FOR_ALLOC freed 2K, 25% free 13724K/18179K, paused 22ms
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+V/upGrade ( 2565): mBindRemote--->true
+I/Tools   ( 2565): SystemPropertiesClass:class android.os.SystemProperties
+W/Tools   ( 2565): ~~~~~~~~~~~~~~~~~~~~~~method:public static java.lang.String android.os.SystemProperties.get(java.lang.String,java.lang.String)
+W/Tools   ( 2565): ~~~~~~~~~~~~~~~~~~~~~~returnvalue:211343
+I/Tools   ( 2565): SystemPropertiesClass:class android.os.SystemProperties
+W/Tools   ( 2565): ~~~~~~~~~~~~~~~~~~~~~~method:public static java.lang.String android.os.SystemProperties.get(java.lang.String,java.lang.String)
+W/Tools   ( 2565): ~~~~~~~~~~~~~~~~~~~~~~returnvalue:211343
+D/dalvikvm( 1157): GC_CONCURRENT freed 473K, 77% free 1365K/5891K, paused 1ms+1ms
+V/upGrade ( 2565): [onServiceConnected]iUpdateService:com.coship.update.IUpdateService$Stub$Proxy@41575290
+I/ActivityManager(  950): Displayed com.coship.ottsetting/.upgradesetting.upGrade: +377ms
+D/OpenGLRenderer( 2565): Flushing caches (mode 0)
+D/dalvikvm( 1157): GC_CONCURRENT freed 445K, 78% free 1316K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 407K, 78% free 1301K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 381K, 76% free 1436K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 514K, 77% free 1379K/5891K, paused 1ms+1ms
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1157): GC_CONCURRENT freed 457K, 76% free 1415K/5891K, paused 0ms+1ms
+D/NetFirmwareService( 1295): onReceive com.coship.systemupgrade.manualcheck
+D/NetFirmwareService( 1295): MSG_CHECK_UPGRADE
+D/NetFirmwareService( 1295): serverURL = http://172.21.11.65/update/system/S1001/CHINA_OTT/CIBN/002104
+I/NetFirmwareService( 1295): Date:Wed, 19 Jun 2013 08:11:17 GMT
+I/NetFirmwareService( 1295): Server:Apache/2.2.11 (Unix)
+I/NetFirmwareService( 1295): Last-Modified:Wed, 19 Jun 2013 07:58:08 GMT
+I/NetFirmwareService( 1295): ETag:"18800c-1e-4df7d30b64400"
+I/NetFirmwareService( 1295): Accept-Ranges:bytes
+I/NetFirmwareService( 1295): Content-Length:30
+I/NetFirmwareService( 1295): Keep-Alive:timeout=5, max=100
+I/NetFirmwareService( 1295): Connection:Keep-Alive
+I/NetFirmwareService( 1295): Content-Type:text/plain
+D/NetFirmwareService( 1295): Download URL = http://172.21.11.65/update/system/S1001/CHINA_OTT/CIBN/002104/versioncode.dat
+D/NetFirmwareService( 1295): Save file in path = /data/data/com.coship.netfirmware/versionCode.dat
+D/NetFirmwareService( 1295): Set download thread number = 2
+D/DownloadTask( 1295): mDesFilePath =/data/data/com.coship.netfirmware/versionCode.dat
+D/DownloadTask( 1295): mRecordFile =/data/data/com.coship.netfirmware/versionCode.dat.cdl.Record
+D/DownloadTask( 1295): mfilePath =/data/data/com.coship.netfirmware/versionCode.dat.cdl
+I/DownloadTask( 1295): Date:Wed, 19 Jun 2013 08:11:17 GMT
+I/DownloadTask( 1295): Server:Apache/2.2.11 (Unix)
+I/DownloadTask( 1295): Last-Modified:Wed, 19 Jun 2013 07:58:08 GMT
+I/DownloadTask( 1295): ETag:"18800c-1e-4df7d30b64400"
+I/DownloadTask( 1295): Accept-Ranges:bytes
+I/DownloadTask( 1295): Content-Length:30
+I/DownloadTask( 1295): Keep-Alive:timeout=5, max=100
+I/DownloadTask( 1295): Connection:Keep-Alive
+I/DownloadTask( 1295): Content-Type:text/plain
+D/DownloadTask( 1295): server accept range
+D/DownloadTask( 1295): initTaskRecord currentSize=-1
+D/DownloadTask( 1295): totalSize=-1
+D/DownloadTask( 1295): magicID=abc
+D/DownloadTask( 1295): mCurrentSize=0
+D/DownloadTask( 1295): mTotalSize=30
+D/DownloadTask( 1295): mMagicID=null
+D/DownloadTask( 1295): The record is invalid, need reset record
+D/DownloadXpress( 1295): write file name = /data/data/com.coship.netfirmware/versionCode.dat.cdl
+D/dalvikvm( 1295): GC_FOR_ALLOC freed 1829K, 87% free 2450K/17987K, paused 23ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 490K, 76% free 1449K/5891K, paused 0ms+1ms
+D/NetFirmwareService( 1295): mTaskStatus:1
+D/dalvikvm( 1295): GC_FOR_ALLOC freed 82K, 84% free 2911K/17987K, paused 15ms
+D/NetFirmwareService( 1295): MSG_VER_CODE_STATUS_CHANGE
+D/NetFirmwareService( 1295): MSG_VER_CODE_STATUS_CHANGE
+V/DownloadXpress( 1295): Accept-Ranges: bytes
+V/DownloadXpress( 1295): Content-Disposition: null
+V/DownloadXpress( 1295): Content-Length: 15
+V/DownloadXpress( 1295): Content-Location: null
+V/DownloadXpress( 1295): ETag: "18800c-1e-4df7d30b64400"
+V/DownloadXpress( 1295): Transfer-Encoding: null
+D/DownloadXpress( 1295): sendDataInStack --data length =15 offset =0 file name = filePart0
+D/DownloadXpress( 1295): write data  Pos=0   Length =15  Thread =filePart0
+D/DownloadXpress( 1295): filePart0 final status: 491
+V/DownloadXpress( 1295): Accept-Ranges: bytes
+V/DownloadXpress( 1295): Content-Disposition: null
+V/DownloadXpress( 1295): Content-Length: 15
+V/DownloadXpress( 1295): Content-Location: null
+V/DownloadXpress( 1295): ETag: "18800c-1e-4df7d30b64400"
+V/DownloadXpress( 1295): Transfer-Encoding: null
+D/DownloadXpress( 1295): sendDataInStack --data length =15 offset =15 file name = filePart1
+D/DownloadXpress( 1295): write data  Pos=15   Length =15  Thread =filePart1
+D/DownloadXpress( 1295): filePart1 final status: 491
+W/DownloadTask( 1295): There has a file named /data/data/com.coship.netfirmware/versionCode.dat already
+D/DownloadTask( 1295): src file = /data/data/com.coship.netfirmware/versionCode.dat.cdl --- des file=/data/data/com.coship.netfirmware/versionCode.dat
+D/NetFirmwareService( 1295): mTaskStatus:3
+D/NetFirmwareService( 1295): DownloadConstants.TASK_STATUS_COMPLETED
+D/NetFirmwareService( 1295): MSG_VER_CODE_STATUS_CHANGE
+D/NetFirmwareService( 1295): MSG_CHECK_VERSION_CODE
+D/NetFirmwareService( 1295): checkVersionCode
+D/NetFirmwareService( 1295): analysisVersionCodeData
+D/NetFirmwareService( 1295): charset detect...
+D/dalvikvm( 1295): GC_CONCURRENT freed 232K, 81% free 3525K/17987K, paused 2ms+2ms
+D/NetFirmwareService( 1295): charset detect finished, charset type:US-ASCII
+D/NetFirmwareService( 1295): version code line:v=211344
+D/NetFirmwareService( 1295): verCode = 211344
+D/NetFirmwareService( 1295): Description URL = null
+D/NetFirmwareService( 1295): MSG_GET_DESCRIPTION
+D/NetFirmwareService( 1295): mDescriptionURL: http://172.21.11.65/update/system/S1001/CHINA_OTT/CIBN/002104/description_211344.dat
+I/NetFirmwareService( 1295): Date:Wed, 19 Jun 2013 08:11:18 GMT
+I/NetFirmwareService( 1295): Server:Apache/2.2.11 (Unix)
+I/NetFirmwareService( 1295): Last-Modified:Wed, 19 Jun 2013 08:08:04 GMT
+I/NetFirmwareService( 1295): ETag:"18800b-7b4-4df7d543c8100"
+I/NetFirmwareService( 1295): Accept-Ranges:bytes
+I/NetFirmwareService( 1295): Content-Length:1972
+I/NetFirmwareService( 1295): Keep-Alive:timeout=5, max=100
+I/NetFirmwareService( 1295): Connection:Keep-Alive
+I/NetFirmwareService( 1295): Content-Type:text/plain
+D/NetFirmwareService( 1295): Download URL = http://172.21.11.65/update/system/S1001/CHINA_OTT/CIBN/002104/description_211344.dat
+D/NetFirmwareService( 1295): Save file in path = /data/data/com.coship.netfirmware/description.dat
+D/NetFirmwareService( 1295): Set download thread number = 2
+D/DownloadTask( 1295): mDesFilePath =/data/data/com.coship.netfirmware/description.dat
+D/DownloadTask( 1295): mRecordFile =/data/data/com.coship.netfirmware/description.dat.cdl.Record
+D/DownloadTask( 1295): mfilePath =/data/data/com.coship.netfirmware/description.dat.cdl
+I/DownloadTask( 1295): Date:Wed, 19 Jun 2013 08:11:18 GMT
+I/DownloadTask( 1295): Server:Apache/2.2.11 (Unix)
+I/DownloadTask( 1295): Last-Modified:Wed, 19 Jun 2013 08:08:04 GMT
+I/DownloadTask( 1295): ETag:"18800b-7b4-4df7d543c8100"
+I/DownloadTask( 1295): Accept-Ranges:bytes
+I/DownloadTask( 1295): Content-Length:1972
+I/DownloadTask( 1295): Keep-Alive:timeout=5, max=100
+I/DownloadTask( 1295): Connection:Keep-Alive
+I/DownloadTask( 1295): Content-Type:text/plain
+D/DownloadTask( 1295): server accept range
+D/DownloadTask( 1295): initTaskRecord currentSize=-1
+D/DownloadTask( 1295): totalSize=-1
+D/DownloadTask( 1295): magicID=abc
+D/DownloadTask( 1295): mCurrentSize=0
+D/DownloadTask( 1295): mTotalSize=1972
+D/DownloadTask( 1295): mMagicID=null
+D/DownloadTask( 1295): The record is invalid, need reset record
+D/DownloadXpress( 1295): write file name = /data/data/com.coship.netfirmware/description.dat.cdl
+D/dalvikvm( 1295): GC_FOR_ALLOC freed 854K, 81% free 3478K/17987K, paused 22ms
+D/dalvikvm( 1295): GC_FOR_ALLOC freed <1K, 78% free 3990K/17987K, paused 12ms
+D/NetFirmwareService( 1295): mTaskStatus:1
+D/NetFirmwareService( 1295): MSG_DESCRIPT_STATUS_CHANGE
+D/NetFirmwareService( 1295): MSG_DESCRIPT_STATUS_CHANGE
+V/DownloadXpress( 1295): Accept-Ranges: bytes
+V/DownloadXpress( 1295): Accept-Ranges: bytes
+V/DownloadXpress( 1295): Content-Disposition: null
+V/DownloadXpress( 1295): Content-Length: 986
+V/DownloadXpress( 1295): Content-Location: null
+V/DownloadXpress( 1295): ETag: "18800b-7b4-4df7d543c8100"
+V/DownloadXpress( 1295): Transfer-Encoding: null
+D/DownloadXpress( 1295): sendDataInStack --data length =986 offset =986 file name = filePart1
+V/DownloadXpress( 1295): Content-Disposition: null
+D/DownloadXpress( 1295): write data  Pos=986   Length =986  Thread =filePart1
+V/DownloadXpress( 1295): Content-Length: 986
+V/DownloadXpress( 1295): Content-Location: null
+D/DownloadXpress( 1295): filePart1 final status: 491
+V/DownloadXpress( 1295): ETag: "18800b-7b4-4df7d543c8100"
+V/DownloadXpress( 1295): Transfer-Encoding: null
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/DownloadXpress( 1295): sendDataInStack --data length =986 offset =0 file name = filePart0
+D/DownloadXpress( 1295): filePart0 final status: 491
+D/DownloadXpress( 1295): write data  Pos=0   Length =986  Thread =filePart0
+W/DownloadTask( 1295): There has a file named /data/data/com.coship.netfirmware/description.dat already
+D/DownloadTask( 1295): src file = /data/data/com.coship.netfirmware/description.dat.cdl --- des file=/data/data/com.coship.netfirmware/description.dat
+D/NetFirmwareService( 1295): mTaskStatus:3
+D/NetFirmwareService( 1295): DownloadConstants.TASK_STATUS_COMPLETED
+D/NetFirmwareService( 1295): MSG_DESCRIPT_STATUS_CHANGE
+D/dalvikvm( 1295): GC_CONCURRENT freed 1655K, 82% free 3405K/17987K, paused 1ms+2ms
+D/NetFirmwareService( 1295): MSG_CHECK_DESCRIPTION
+D/DescriptionInfo( 1295): charset detect...
+D/DescriptionInfo( 1295): charset detect finished, charset type:GBK
+D/DescriptionInfo( 1295): version=p7764.i13235_2013-06-14
+D/DescriptionInfo( 1295): versionCode=211344
+D/DescriptionInfo( 1295): compatibleDevice=002104
+D/DescriptionInfo( 1295): sn=
+D/DescriptionInfo( 1295): mac=
+D/DescriptionInfo( 1295): updateType=silent
+D/DescriptionInfo( 1295): speed=0
+D/DescriptionInfo( 1295): checkTime=0
+D/DescriptionInfo( 1295): packageSize=1921272110000
+D/DescriptionInfo( 1295): md5=FC66D5FCA73DB9A5CC58745954FDA8D2
+D/DescriptionInfo( 1295): packageUrl=
+D/DescriptionInfo( 1295): changeHistory=1,优化系统升级;2,此种情况属于传屏黑屏情况，目前造成的原因有3种;3,从盒子端发送的TS数据格式是错误的，造成手机端无法解码;4从而关闭socket，进而出现重连，导致黑屏延时,目前盒子端已经有一个workaround的解决方案，但rootcase的问题还没解决;5,网络情况很不好，从手机端的log分析，有5秒内都没有数据到来，导致超时关闭socket，进而致黑屏延时;3,从盒子端发送的TS数据格式是错误的，造成手机端无法解码;4从而关闭socket，进而出现重连，导致黑屏延时，
+D/DescriptionInfo( 1295): 目前盒子端已经有一个workaround的解决方案，但rootcase的问题还没解决;5,网络情况很不好，从手机端的log分析，有5秒内都没有数据到来，导致超时关闭socket，进而致黑屏延时;1,优化系统升级;2,此种情况属于传屏黑屏情况，目前造成的原因有3种;3,从盒子端发送的TS数据格式是错误的，造成手机端无法解码;4从而关闭socket，进而出现重连，导致黑屏延时,目前盒子端已经有一个workaround的解决方案，但rootcase的问题还没解决;5,网络情况很不好，从手机端的log分析，有5秒内都没有数据到来，导致超时关闭socket，进而致黑屏延时;3,从盒子端发送的TS数据格式是错误的，造成手机端无法解码;4从而关闭socket，进而出现重连，导致黑屏延时，
+D/DescriptionInfo( 1295): 目前盒子端已经有一个workaround的解决方案，但rootcase的问题还没解决;5,网络情况很不好，从手机端的log分析，有5秒内都没有数据到来，导致超时关闭socket，进而致黑屏延时;1,优化系统升级;2,此种情况属于传屏黑屏情况，目前造成的原因有3种;3,从盒子端发送的TS数据格式是错误的，造成手机端无法解码;4从而关闭socket，进而出现重连，导致黑屏延时,目前盒子端已经有一个workaround的解决方案，但rootcase的问题还没解决;5,网络情况很不好，从手机端的log分析，有5秒内都没有数据到来，导致超时关闭socket，进而致黑屏延时;3,从盒子端发送的TS数据格式是错误的，造成手机端无法解码;4从而关闭socket，进而出现重连，导致黑屏延时，
+D/DescriptionInfo( 1295): 目前盒子端已经有一个workaround的解决方案，但rootcase的问题还没解决;5,网络情况很不好，从手机端的log分析，有5秒内都没有数据到来，导致超时关闭socket，进而致黑屏延时;
+D/DescriptionInfo( 1295): checkDescriptionInfo version code = 211344
+D/DescriptionInfo( 1295): checkDescriptionInfo machine id = 0
+D/DescriptionInfo( 1295): checkDescriptionInfo hardware id = 002104
+D/DescriptionInfo( 1295): checkDescriptionInfo update package size = 1921272110000
+D/NetFirmwareService( 1295): The description info is valid
+D/NetFirmwareService( 1295): The description version code = 211344
+D/NetFirmwareService( 1295): The description packagesize = 1921272110000
+D/NetFirmwareService( 1295): The description md5 = fc66d5fca73db9a5cc58745954fda8d2
+D/NetFirmwareService( 1295): The description updatePackageFileName = update_H002104_V211344_Q00001_C00001.zip
+D/NetFirmwareService( 1295): The description release notes = 1,优化系统升级;2,此种情况属于传屏黑屏情况，目前造成的原因有3种;3,从盒子端发送的TS数据格式是错误的，造成手机端无法解码;4从而关闭socket，进而出现重连，导致黑屏延时,目前盒子端已经有一个workaround的解决方案，但rootcase的问题还没解决;5,网络情况很不好，从手机端的log分析，有5秒内都没有数据到来，导致超时关闭socket，进而致黑屏延时;3,从盒子端发送的TS数据格式是错误的，造成手机端无法解码;4从而关闭socket，进而出现重连，导致黑屏延时，
+V/NetFirmwareService( 1295): files.length--->1
+D/NetFirmwareService( 1295): check a exsit update package
+D/NetFirmwareService( 1295): Send broadcast of version check_md5.
+V/upGrade ( 2565): [BroadcastReceiver]action:com.coship.market.firmware.check_md5
+V/upGrade ( 2565): [BroadcastReceiver]fileName:/update/update_H002104_V211344_Q00001_C00001.zipmd5:fc66d5fca73db9a5cc58745954fda8d2
+W/dalvikvm( 2565): threadid=12: thread exiting with uncaught exception (group=0x40fa81f8)
+E/AndroidRuntime( 2565): FATAL EXCEPTION: Thread-107
+E/AndroidRuntime( 2565): java.lang.NumberFormatException: Invalid int: "1921272110000"
+E/AndroidRuntime( 2565):        at java.lang.Integer.invalidInt(Integer.java:138)
+E/AndroidRuntime( 2565):        at java.lang.Integer.parse(Integer.java:378)
+E/AndroidRuntime( 2565):        at java.lang.Integer.parseInt(Integer.java:366)
+E/AndroidRuntime( 2565):        at java.lang.Integer.parseInt(Integer.java:332)
+E/AndroidRuntime( 2565):        at java.lang.Integer.valueOf(Integer.java:490)
+E/AndroidRuntime( 2565):        at com.coship.ottsetting.upgradesetting.upGrade$2$1.run(upGrade.java:176)
+W/ActivityManager(  950):   Force finishing activity com.coship.ottsetting/.upgradesetting.upGrade
+D/OpenGLRenderer( 2565): Flushing caches (mode 0)
+E/ActivityThread( 2565): Activity com.coship.ottsetting.upgradesetting.upGrade has leaked ServiceConnection com.coship.ottsetting.upgradesetting.upGrade$9@415701b0 that was originally bound here
+E/ActivityThread( 2565): android.app.ServiceConnectionLeaked: Activity com.coship.ottsetting.upgradesetting.upGrade has leaked ServiceConnection com.coship.ottsetting.upgradesetting.upGrade$9@415701b0 that was originally bound here
+E/ActivityThread( 2565):        at android.app.LoadedApk$ServiceDispatcher.<init>(LoadedApk.java:936)
+E/ActivityThread( 2565):        at android.app.LoadedApk.getServiceDispatcher(LoadedApk.java:830)
+E/ActivityThread( 2565):        at android.app.ContextImpl.bindService(ContextImpl.java:1147)
+E/ActivityThread( 2565):        at android.content.ContextWrapper.bindService(ContextWrapper.java:370)
+E/ActivityThread( 2565):        at com.coship.ottsetting.upgradesetting.upGrade.remoteAIDL(upGrade.java:484)
+E/ActivityThread( 2565):        at com.coship.ottsetting.upgradesetting.upGrade.init(upGrade.java:358)
+E/ActivityThread( 2565):        at com.coship.ottsetting.upgradesetting.upGrade.onCreate(upGrade.java:104)
+E/ActivityThread( 2565):        at android.app.Activity.performCreate(Activity.java:4465)
+E/ActivityThread( 2565):        at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1049)
+E/ActivityThread( 2565):        at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:1920)
+E/ActivityThread( 2565):        at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:1981)
+E/ActivityThread( 2565):        at android.app.ActivityThread.access$600(ActivityThread.java:123)
+E/ActivityThread( 2565):        at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1147)
+E/ActivityThread( 2565):        at android.os.Handler.dispatchMessage(Handler.java:99)
+E/ActivityThread( 2565):        at android.os.Looper.loop(Looper.java:137)
+E/ActivityThread( 2565):        at android.app.ActivityThread.main(ActivityThread.java:4424)
+E/ActivityThread( 2565):        at java.lang.reflect.Method.invokeNative(Native Method)
+E/ActivityThread( 2565):        at java.lang.reflect.Method.invoke(Method.java:511)
+E/ActivityThread( 2565):        at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:848)
+E/ActivityThread( 2565):        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:575)
+E/ActivityThread( 2565):        at dalvik.system.NativeStart.main(Native Method)
+W/ActivityManager(  950): Unbind failed: could not find connection for android.os.BinderProxy@4167d8f0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1157): GC_CONCURRENT freed 545K, 77% free 1398K/5891K, paused 1ms+1ms
+D/HomePlayerLib( 1157): hostaddress count is 2
+D/dalvikvm( 1157): GC_CONCURRENT freed 485K, 78% free 1304K/5891K, paused 1ms+1ms
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1157): GC_CONCURRENT freed 388K, 76% free 1430K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 495K, 76% free 1446K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 512K, 78% free 1323K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 394K, 78% free 1323K/5891K, paused 0ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 391K, 77% free 1369K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 444K, 76% free 1438K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 516K, 78% free 1310K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 391K, 76% free 1428K/5891K, paused 1ms+0ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 512K, 78% free 1319K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 408K, 75% free 1496K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 580K, 78% free 1344K/5891K, paused 1ms+1ms
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1157): GC_CONCURRENT freed 423K, 76% free 1429K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 494K, 78% free 1319K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 396K, 76% free 1445K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 526K, 76% free 1431K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 518K, 76% free 1421K/5891K, paused 1ms+1ms
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/HomePlayerLib( 1157): hostaddress count is 2
+D/dalvikvm( 1157): GC_CONCURRENT freed 506K, 78% free 1312K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 388K, 78% free 1315K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 403K, 78% free 1304K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 378K, 78% free 1320K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 389K, 78% free 1322K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 393K, 78% free 1321K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 391K, 77% free 1369K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 444K, 78% free 1310K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 395K, 76% free 1423K/5891K, paused 1ms+1ms
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1157): GC_CONCURRENT freed 487K, 76% free 1447K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 535K, 78% free 1296K/5891K, paused 0ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 370K, 76% free 1460K/5891K, paused 0ms+0ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 541K, 78% free 1311K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 395K, 78% free 1308K/5891K, paused 1ms+0ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 386K, 78% free 1354K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 433K, 76% free 1463K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 532K, 78% free 1319K/5891K, paused 1ms+1ms
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1157): GC_CONCURRENT freed 395K, 78% free 1317K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 394K, 77% free 1364K/5891K, paused 0ms+0ms
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1157): GC_CONCURRENT freed 453K, 78% free 1303K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 383K, 76% free 1428K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 514K, 78% free 1306K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 393K, 78% free 1306K/5891K, paused 1ms+1ms
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1157): GC_CONCURRENT freed 393K, 78% free 1305K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 396K, 79% free 1294K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 373K, 78% free 1306K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 395K, 78% free 1305K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 392K, 76% free 1460K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 527K, 77% free 1366K/5891K, paused 1ms+1ms
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1157): GC_CONCURRENT freed 442K, 75% free 1497K/5891K, paused 1ms+1ms
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/HomePlayerLib( 1157): hostaddress count is 2
+D/dalvikvm( 1157): GC_CONCURRENT freed 579K, 77% free 1405K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 491K, 76% free 1418K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 498K, 77% free 1386K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 469K, 76% free 1416K/5891K, paused 1ms+1ms
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1157): GC_CONCURRENT freed 480K, 76% free 1435K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 521K, 78% free 1327K/5891K, paused 0ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 403K, 77% free 1395K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 454K, 77% free 1390K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 468K, 78% free 1308K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 392K, 78% free 1310K/5891K, paused 0ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 393K, 78% free 1339K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 416K, 76% free 1434K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 517K, 76% free 1424K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 486K, 78% free 1329K/5891K, paused 1ms+1ms
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1157): GC_CONCURRENT freed 416K, 76% free 1423K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 492K, 76% free 1417K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 503K, 78% free 1338K/5891K, paused 1ms+1ms
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1157): GC_CONCURRENT freed 521K, 78% free 1317K/5891K, paused 1ms+1ms
+D/HomePlayerLib( 1157): hostaddress count is 2
+D/dalvikvm( 1157): GC_CONCURRENT freed 393K, 76% free 1422K/5891K, paused 0ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 504K, 76% free 1415K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 487K, 78% free 1320K/5891K, paused 0ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 391K, 76% free 1436K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 521K, 76% free 1419K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 511K, 77% free 1408K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 481K, 78% free 1311K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 407K, 77% free 1409K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 490K, 76% free 1427K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 495K, 78% free 1323K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 394K, 78% free 1321K/5891K, paused 1ms+1ms
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1157): GC_CONCURRENT freed 402K, 76% free 1444K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 495K, 78% free 1350K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 425K, 78% free 1323K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 406K, 78% free 1320K/5891K, paused 0ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 395K, 78% free 1319K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 405K, 78% free 1315K/5891K, paused 1ms+1ms
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1157): GC_CONCURRENT freed 407K, 79% free 1293K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 379K, 77% free 1413K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 487K, 78% free 1319K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 435K, 78% free 1323K/5891K, paused 0ms+1ms
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1157): GC_CONCURRENT freed 402K, 78% free 1307K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 396K, 78% free 1305K/5891K, paused 0ms+0ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 392K, 78% free 1314K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 393K, 78% free 1305K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 393K, 78% free 1314K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 404K, 78% free 1319K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 393K, 78% free 1318K/5891K, paused 1ms+1ms
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1157): GC_CONCURRENT freed 393K, 78% free 1319K/5891K, paused 1ms+1ms
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1157): GC_CONCURRENT freed 411K, 78% free 1311K/5891K, paused 1ms+1ms
+D/HomePlayerLib( 1157): hostaddress count is 2
+D/dalvikvm( 1157): GC_CONCURRENT freed 387K, 78% free 1315K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 401K, 78% free 1312K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 389K, 78% free 1317K/5891K, paused 1ms+2ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 405K, 78% free 1321K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 391K, 78% free 1322K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 400K, 78% free 1311K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 396K, 78% free 1308K/5891K, paused 1ms+1ms
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1157): GC_CONCURRENT freed 392K, 78% free 1309K/5891K, paused 0ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 393K, 78% free 1318K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 403K, 78% free 1318K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 407K, 77% free 1363K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 432K, 76% free 1434K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 498K, 76% free 1448K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 516K, 77% free 1368K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 454K, 78% free 1308K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 398K, 76% free 1419K/5891K, paused 1ms+1ms
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1157): GC_CONCURRENT freed 487K, 76% free 1443K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 527K, 78% free 1316K/5891K, paused 1ms+1ms
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+
+
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+
+
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1157): GC_CONCURRENT freed 460K, 78% free 1354K/5891K, paused 1ms+1ms
+D/HomePlayerLib( 1157): hostaddress count is 2
+D/dalvikvm( 1157): GC_CONCURRENT freed 429K, 77% free 1399K/5891K, paused 0ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 491K, 76% free 1436K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 500K, 76% free 1447K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 522K, 76% free 1437K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 593K, 77% free 1356K/5891K, paused 0ms+1ms
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1157): GC_CONCURRENT freed 451K, 78% free 1299K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 376K, 77% free 1407K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 482K, 78% free 1321K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 399K, 78% free 1321K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 392K, 78% free 1323K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 393K, 78% free 1321K/5891K, paused 0ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 392K, 78% free 1323K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 410K, 78%
+[ 2236.691481] IR: [03932] scan key value is 0xec13c936 
+[ 2236.691486]   free 1299K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 375K, 78% free 1317K/5891K, paused 1ms+1ms
+I/Process ( 2565): Sending signal. PID: 2565 SIG: 9
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+
+[ 2236.938295] binder: release proc 2565, transaction 53510, not freed
+I/WindowManager(  950): WIN DEATH: Window{415ade78 com.coship.ottsetting/com.coship.ottsetting.main paused=false}
+I/ActivityManager(  950): Process com.coship.ottsetting (pid 2565) has died.
+W/ActivityManager(  950): Force removing ActivityRecord{416d7c48 com.coship.ottsetting/.main}: app died, no saved state
+I/MainActivity( 1238):  onResume
+W/InputManagerService(  950): Got RemoteException sending setActive(false) notification to pid 2565 uid 1000
+D/dalvikvm( 1157): GC_CONCURRENT freed 394K, 77% free 1400K/5891K, paused 2ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 472K, 77% free 1401K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 475K, 78% free 1325K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 403K, 76% free 1431K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 517K, 76% free 1421K/5891K, paused 0ms+1ms
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1157): GC_CONCURRENT freed 488K, 78% free 1319K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 403K, 76% free 1415K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 489K, 78% free 1319K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 405K, 76% free 1417K/5891K, paused 0ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 495K, 78% free 1316K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 397K, 78% free 1314K/5891K, paused 1ms+2ms
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1157): GC_CONCURRENT freed 393K, 78% free 1330K/5891K, paused 1ms+1ms
+
+
+D/dalvikvm( 1157): GC_CONCURRENT freed 404K, 78% free 1318K/5891K, paused 1ms+1ms
+
+
+D/dalvikvm( 1157): GC_CONCURRENT freed 393K, 78% free 1318K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 393K, 78% free 1318K/5891K, paused 1ms+1ms
+^C
+130|shell@android:/update # 
+130|shell@android:/update # 
+130|shell@android:/update # 
+130|shell@android:/update # 
+130|shell@android:/update # logcat -s NetFirmwareService upGrade
+--------- beginning of /dev/log/system
+--------- beginning of /dev/log/main
+D/NetFirmwareService( 1295): mTaskStatus:1
+D/NetFirmwareService( 1295): MSG_VER_CODE_STATUS_CHANGE
+D/NetFirmwareService( 1295): MSG_VER_CODE_STATUS_CHANGE
+D/NetFirmwareService( 1295): mTaskStatus:3
+D/NetFirmwareService( 1295): DownloadConstants.TASK_STATUS_COMPLETED
+D/NetFirmwareService( 1295): MSG_VER_CODE_STATUS_CHANGE
+D/NetFirmwareService( 1295): MSG_CHECK_VERSION_CODE
+D/NetFirmwareService( 1295): checkVersionCode
+D/NetFirmwareService( 1295): analysisVersionCodeData
+D/NetFirmwareService( 1295): charset detect...
+D/NetFirmwareService( 1295): charset detect finished, charset type:US-ASCII
+D/NetFirmwareService( 1295): version code line:v=211344
+D/NetFirmwareService( 1295): verCode = 211344
+D/NetFirmwareService( 1295): Description URL = null
+D/NetFirmwareService( 1295): MSG_GET_DESCRIPTION
+D/NetFirmwareService( 1295): mDescriptionURL: http://172.21.11.65/update/system/S1001/CHINA_OTT/CIBN/002104/description_211344.dat
+I/NetFirmwareService( 1295): Date:Wed, 19 Jun 2013 08:10:48 GMT
+I/NetFirmwareService( 1295): Server:Apache/2.2.11 (Unix)
+I/NetFirmwareService( 1295): Last-Modified:Wed, 19 Jun 2013 08:08:04 GMT
+I/NetFirmwareService( 1295): ETag:"18800b-7b4-4df7d543c8100"
+I/NetFirmwareService( 1295): Accept-Ranges:bytes
+I/NetFirmwareService( 1295): Content-Length:1972
+I/NetFirmwareService( 1295): Keep-Alive:timeout=5, max=100
+I/NetFirmwareService( 1295): Connection:Keep-Alive
+I/NetFirmwareService( 1295): Content-Type:text/plain
+D/NetFirmwareService( 1295): Download URL = http://172.21.11.65/update/system/S1001/CHINA_OTT/CIBN/002104/description_211344.dat
+D/NetFirmwareService( 1295): Save file in path = /data/data/com.coship.netfirmware/description.dat
+D/NetFirmwareService( 1295): Set download thread number = 2
+D/NetFirmwareService( 1295): mTaskStatus:1
+D/NetFirmwareService( 1295): MSG_DESCRIPT_STATUS_CHANGE
+D/NetFirmwareService( 1295): MSG_DESCRIPT_STATUS_CHANGE
+D/NetFirmwareService( 1295): mTaskStatus:1
+D/NetFirmwareService( 1295): MSG_DESCRIPT_STATUS_CHANGE
+D/NetFirmwareService( 1295): mTaskStatus:3
+D/NetFirmwareService( 1295): DownloadConstants.TASK_STATUS_COMPLETED
+D/NetFirmwareService( 1295): MSG_DESCRIPT_STATUS_CHANGE
+D/NetFirmwareService( 1295): MSG_CHECK_DESCRIPTION
+D/NetFirmwareService( 1295): The description info is valid
+D/NetFirmwareService( 1295): The description version code = 211344
+D/NetFirmwareService( 1295): The description packagesize = 1921272110000
+D/NetFirmwareService( 1295): The description md5 = fc66d5fca73db9a5cc58745954fda8d2
+D/NetFirmwareService( 1295): The description updatePackageFileName = update_H002104_V211344_Q00001_C00001.zip
+D/NetFirmwareService( 1295): The description release notes = 1,优化系统升级;2,此种情况属于传屏黑屏情况，目前造成的原因有3种;3,从盒子端发送的TS数据格式是错误的，造成手机端无法解码;4从而关闭socket，进而出现重连，导致黑屏延时,目前盒子端已经有一个workaround的解决方案，但rootcase的问题还没解决;5,网络情况很不好，从手机端的log分析，有5秒内都没有数据到来，导致超时关闭socket，进而致黑屏延时;3,从盒子端发送的TS数据格式是错误的，造成手机端无法解码;4从而关闭socket，进而出现重连，导致黑屏延时，
+V/NetFirmwareService( 1295): files.length--->1
+D/NetFirmwareService( 1295): check a exsit update package
+D/NetFirmwareService( 1295): Send broadcast of version check_md5.
+V/upGrade ( 2533): [BroadcastReceiver]action:com.coship.market.firmware.check_md5
+V/upGrade ( 2533): [BroadcastReceiver]fileName:/update/update_H002104_V211344_Q00001_C00001.zipmd5:fc66d5fca73db9a5cc58745954fda8d2
+V/upGrade ( 2565): mBindRemote--->true
+V/upGrade ( 2565): [onServiceConnected]iUpdateService:com.coship.update.IUpdateService$Stub$Proxy@41575290
+D/NetFirmwareService( 1295): onReceive com.coship.systemupgrade.manualcheck
+D/NetFirmwareService( 1295): MSG_CHECK_UPGRADE
+D/NetFirmwareService( 1295): serverURL = http://172.21.11.65/update/system/S1001/CHINA_OTT/CIBN/002104
+I/NetFirmwareService( 1295): Date:Wed, 19 Jun 2013 08:11:17 GMT
+I/NetFirmwareService( 1295): Server:Apache/2.2.11 (Unix)
+I/NetFirmwareService( 1295): Last-Modified:Wed, 19 Jun 2013 07:58:08 GMT
+I/NetFirmwareService( 1295): ETag:"18800c-1e-4df7d30b64400"
+I/NetFirmwareService( 1295): Accept-Ranges:bytes
+I/NetFirmwareService( 1295): Content-Length:30
+I/NetFirmwareService( 1295): Keep-Alive:timeout=5, max=100
+I/NetFirmwareService( 1295): Connection:Keep-Alive
+I/NetFirmwareService( 1295): Content-Type:text/plain
+D/NetFirmwareService( 1295): Download URL = http://172.21.11.65/update/system/S1001/CHINA_OTT/CIBN/002104/versioncode.dat
+D/NetFirmwareService( 1295): Save file in path = /data/data/com.coship.netfirmware/versionCode.dat
+D/NetFirmwareService( 1295): Set download thread number = 2
+D/NetFirmwareService( 1295): mTaskStatus:1
+D/NetFirmwareService( 1295): MSG_VER_CODE_STATUS_CHANGE
+D/NetFirmwareService( 1295): MSG_VER_CODE_STATUS_CHANGE
+D/NetFirmwareService( 1295): mTaskStatus:3
+D/NetFirmwareService( 1295): DownloadConstants.TASK_STATUS_COMPLETED
+D/NetFirmwareService( 1295): MSG_VER_CODE_STATUS_CHANGE
+D/NetFirmwareService( 1295): MSG_CHECK_VERSION_CODE
+D/NetFirmwareService( 1295): checkVersionCode
+D/NetFirmwareService( 1295): analysisVersionCodeData
+D/NetFirmwareService( 1295): charset detect...
+D/NetFirmwareService( 1295): charset detect finished, charset type:US-ASCII
+D/NetFirmwareService( 1295): version code line:v=211344
+D/NetFirmwareService( 1295): verCode = 211344
+D/NetFirmwareService( 1295): Description URL = null
+D/NetFirmwareService( 1295): MSG_GET_DESCRIPTION
+D/NetFirmwareService( 1295): mDescriptionURL: http://172.21.11.65/update/system/S1001/CHINA_OTT/CIBN/002104/description_211344.dat
+I/NetFirmwareService( 1295): Date:Wed, 19 Jun 2013 08:11:18 GMT
+I/NetFirmwareService( 1295): Server:Apache/2.2.11 (Unix)
+I/NetFirmwareService( 1295): Last-Modified:Wed, 19 Jun 2013 08:08:04 GMT
+I/NetFirmwareService( 1295): ETag:"18800b-7b4-4df7d543c8100"
+I/NetFirmwareService( 1295): Accept-Ranges:bytes
+I/NetFirmwareService( 1295): Content-Length:1972
+I/NetFirmwareService( 1295): Keep-Alive:timeout=5, max=100
+I/NetFirmwareService( 1295): Connection:Keep-Alive
+I/NetFirmwareService( 1295): Content-Type:text/plain
+D/NetFirmwareService( 1295): Download URL = http://172.21.11.65/update/system/S1001/CHINA_OTT/CIBN/002104/description_211344.dat
+D/NetFirmwareService( 1295): Save file in path = /data/data/com.coship.netfirmware/description.dat
+D/NetFirmwareService( 1295): Set download thread number = 2
+D/NetFirmwareService( 1295): mTaskStatus:1
+D/NetFirmwareService( 1295): MSG_DESCRIPT_STATUS_CHANGE
+D/NetFirmwareService( 1295): MSG_DESCRIPT_STATUS_CHANGE
+D/NetFirmwareService( 1295): mTaskStatus:3
+D/NetFirmwareService( 1295): DownloadConstants.TASK_STATUS_COMPLETED
+D/NetFirmwareService( 1295): MSG_DESCRIPT_STATUS_CHANGE
+D/NetFirmwareService( 1295): MSG_CHECK_DESCRIPTION
+D/NetFirmwareService( 1295): The description info is valid
+D/NetFirmwareService( 1295): The description version code = 211344
+D/NetFirmwareService( 1295): The description packagesize = 1921272110000
+D/NetFirmwareService( 1295): The description md5 = fc66d5fca73db9a5cc58745954fda8d2
+D/NetFirmwareService( 1295): The description updatePackageFileName = update_H002104_V211344_Q00001_C00001.zip
+D/NetFirmwareService( 1295): The description release notes = 1,优化系统升级;2,此种情况属于传屏黑屏情况，目前造成的原因有3种;3,从盒子端发送的TS数据格式是错误的，造成手机端无法解码;4从而关闭socket，进而出现重连，导致黑屏延时,目前盒子端已经有一个workaround的解决方案，但rootcase的问题还没解决;5,网络情况很不好，从手机端的log分析，有5秒内都没有数据到来，导致超时关闭socket，进而致黑屏延时;3,从盒子端发送的TS数据格式是错误的，造成手机端无法解码;4从而关闭socket，进而出现重连，导致黑屏延时，
+V/NetFirmwareService( 1295): files.length--->1
+D/NetFirmwareService( 1295): check a exsit update package
+D/NetFirmwareService( 1295): Send broadcast of version check_md5.
+V/upGrade ( 2565): [BroadcastReceiver]action:com.coship.market.firmware.check_md5
+V/upGrade ( 2565): [BroadcastReceiver]fileName:/update/update_H002104_V211344_Q00001_C00001.zipmd5:fc66d5fca73db9a5cc58745954fda8d2
+
+
+[ 2259.226667] IR: [03932] scan key value is 0xec13c936 
+[ 2259.226672]  
+[ 2259.278932] IR: [03932] scan key value is 0xec13c936 
+[ 2259.278937]  
+[ 2262.290208] IR: [03932] scan key value is 0xea15c936 
+[ 2262.290213]  
+[ 2262.342510] IR: [03932] scan key value is 0xea15c936 
+[ 2262.342514]  
+[ 2262.737669] IR: [03932] scan key value is 0xeb14c936 
+[ 2262.737673]  
+[ 2262.789959] IR: [03932] scan key value is 0xeb14c936 
+[ 2262.789964]  
+[ 2265.816051] IR: [03932] scan key value is 0xec13c936 
+[ 2265.816055]  
+[ 2265.868351] IR: [03932] scan key value is 0xec13c936 
+[ 2265.868356]  V/upGrade ( 2606): mBindRemote--->true
+V/upGrade ( 2606): [onServiceConnected]iUpdateService:com.coship.update.IUpdateService$Stub$Proxy@41411f48
+D/NetFirmwareService( 1295): onReceive com.coship.systemupgrade.manualcheck
+D/NetFirmwareService( 1295): MSG_CHECK_UPGRADE
+D/NetFirmwareService( 1295): serverURL = http://172.21.11.65/update/system/S1001/CHINA_OTT/CIBN/002104
+I/NetFirmwareService( 1295): Date:Wed, 19 Jun 2013 08:12:50 GMT
+I/NetFirmwareService( 1295): Server:Apache/2.2.11 (Unix)
+I/NetFirmwareService( 1295): Last-Modified:Wed, 19 Jun 2013 07:58:08 GMT
+I/NetFirmwareService( 1295): ETag:"18800c-1e-4df7d30b64400"
+I/NetFirmwareService( 1295): Accept-Ranges:bytes
+I/NetFirmwareService( 1295): Content-Length:30
+I/NetFirmwareService( 1295): Keep-Alive:timeout=5, max=100
+I/NetFirmwareService( 1295): Connection:Keep-Alive
+I/NetFirmwareService( 1295): Content-Type:text/plain
+D/NetFirmwareService( 1295): Download URL = http://172.21.11.65/update/system/S1001/CHINA_OTT/CIBN/002104/versioncode.dat
+D/NetFirmwareService( 1295): Save file in path = /data/data/com.coship.netfirmware/versionCode.dat
+D/NetFirmwareService( 1295): Set download thread number = 2
+D/NetFirmwareService( 1295): mTaskStatus:1
+D/NetFirmwareService( 1295): MSG_VER_CODE_STATUS_CHANGE
+D/NetFirmwareService( 1295): MSG_VER_CODE_STATUS_CHANGE
+D/NetFirmwareService( 1295): mTaskStatus:3
+D/NetFirmwareService( 1295): DownloadConstants.TASK_STATUS_COMPLETED
+D/NetFirmwareService( 1295): MSG_VER_CODE_STATUS_CHANGE
+D/NetFirmwareService( 1295): MSG_CHECK_VERSION_CODE
+D/NetFirmwareService( 1295): checkVersionCode
+D/NetFirmwareService( 1295): analysisVersionCodeData
+D/NetFirmwareService( 1295): charset detect...
+D/NetFirmwareService( 1295): charset detect finished, charset type:US-ASCII
+D/NetFirmwareService( 1295): version code line:v=211344
+D/NetFirmwareService( 1295): verCode = 211344
+D/NetFirmwareService( 1295): Description URL = null
+D/NetFirmwareService( 1295): MSG_GET_DESCRIPTION
+D/NetFirmwareService( 1295): mDescriptionURL: http://172.21.11.65/update/system/S1001/CHINA_OTT/CIBN/002104/description_211344.dat
+I/NetFirmwareService( 1295): Date:Wed, 19 Jun 2013 08:12:50 GMT
+I/NetFirmwareService( 1295): Server:Apache/2.2.11 (Unix)
+I/NetFirmwareService( 1295): Last-Modified:Wed, 19 Jun 2013 08:08:04 GMT
+I/NetFirmwareService( 1295): ETag:"18800b-7b4-4df7d543c8100"
+I/NetFirmwareService( 1295): Accept-Ranges:bytes
+I/NetFirmwareService( 1295): Content-Length:1972
+I/NetFirmwareService( 1295): Keep-Alive:timeout=5, max=100
+I/NetFirmwareService( 1295): Connection:Keep-Alive
+I/NetFirmwareService( 1295): Content-Type:text/plain
+D/NetFirmwareService( 1295): Download URL = http://172.21.11.65/update/system/S1001/CHINA_OTT/CIBN/002104/description_211344.dat
+D/NetFirmwareService( 1295): Save file in path = /data/data/com.coship.netfirmware/description.dat
+D/NetFirmwareService( 1295): Set download thread number = 2
+D/NetFirmwareService( 1295): mTaskStatus:1
+D/NetFirmwareService( 1295): MSG_DESCRIPT_STATUS_CHANGE
+D/NetFirmwareService( 1295): MSG_DESCRIPT_STATUS_CHANGE
+D/NetFirmwareService( 1295): mTaskStatus:1
+D/NetFirmwareService( 1295): MSG_DESCRIPT_STATUS_CHANGE
+D/NetFirmwareService( 1295): mTaskStatus:3
+D/NetFirmwareService( 1295): DownloadConstants.TASK_STATUS_COMPLETED
+D/NetFirmwareService( 1295): MSG_DESCRIPT_STATUS_CHANGE
+D/NetFirmwareService( 1295): MSG_CHECK_DESCRIPTION
+D/NetFirmwareService( 1295): The description info is valid
+D/NetFirmwareService( 1295): The description version code = 211344
+D/NetFirmwareService( 1295): The description packagesize = 1921272110000
+D/NetFirmwareService( 1295): The description md5 = fc66d5fca73db9a5cc58745954fda8d2
+D/NetFirmwareService( 1295): The description updatePackageFileName = update_H002104_V211344_Q00001_C00001.zip
+D/NetFirmwareService( 1295): The description release notes = 1,优化系统升级;2,此种情况属于传屏黑屏情况，目前造成的原因有3种;3,从盒子端发送的TS数据格式是错误的，造成手机端无法解码;4从而关闭socket，进而出现重连，导致黑屏延时,目前盒子端已经有一个workaround的解决方案，但rootcase的问题还没解决;5,网络情况很不好，从手机端的log分析，有5秒内都没有数据到来，导致超时关闭socket，进而致黑屏延时;3,从盒子端发送的TS数据格式是错误的，造成手机端无法解码;4从而关闭socket，进而出现重连，导致黑屏延时，
+V/NetFirmwareService( 1295): files.length--->1
+D/NetFirmwareService( 1295): check a exsit update package
+V/upGrade ( 2606): [BroadcastReceiver]action:com.coship.market.firmware.check_md5
+D/NetFirmwareService( 1295): Send broadcast of version check_md5.
+V/upGrade ( 2606): [BroadcastReceiver]fileName:/update/update_H002104_V211344_Q00001_C00001.zipmd5:fc66d5fca73db9a5cc58745954fda8d2
+
+[ 2429.067306] IR: [03932] scan key value is 0xec13c936 
+[ 2429.067310]  
+[ 2429.119602] IR: [03932] scan key value is 0xec13c936 
+[ 2429.119607]  
+[ 2429.362630] binder: release proc 2606, transaction 55551, not freed
+[ 2516.550088] IR: [03932] scan key value is 0xec13c936 
+[ 2516.550093]  
+[ 2516.602391] IR: [03932] scan key value is 0xec13c936 
+[ 2516.602396]  
+[ 2518.475874] IR: [03932] scan key value is 0xea15c936 
+[ 2518.475879]  
+[ 2518.528183] IR: [03932] scan key value is 0xea15c936 
+[ 2518.528189]  
+[ 2518.882856] IR: [03932] scan key value is 0xeb14c936 
+[ 2518.882861]  
+[ 2518.935149] IR: [03932] scan key value is 0xeb14c936 
+[ 2518.935154]  
+
+^C
+130|shell@android:/update # logcat -c;logcat
+--------- beginning of /dev/log/main
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+
+[ 2540.750703] IR: [03932] scan key value is 0xec13c936 
+[ 2540.750708]  
+[ 2540.802999] IR: [03932] scan key value is 0xec13c936 
+[ 2540.803005]  V/NetSettingAdapter( 2644): [onClickListener] num:5
+--------- beginning of /dev/log/system
+I/ActivityManager(  950): START {cmp=com.coship.ottsetting/.upgradesetting.upGrade} from pid 2644
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 2644): GC_FOR_ALLOC freed 701K, 31% free 10589K/15171K, paused 24ms
+I/dalvikvm-heap( 2644): Grow heap (frag case) to 15.971MB for 2128704-byte allocation
+D/dalvikvm( 2644): GC_CONCURRENT freed 2K, 27% free 12666K/17283K, paused 1ms+3ms
+D/dalvikvm( 2644): GC_FOR_ALLOC freed 2K, 23% free 14227K/18435K, paused 25ms
+V/upGrade ( 2644): mBindRemote--->true
+I/Tools   ( 2644): SystemPropertiesClass:class android.os.SystemProperties
+W/Tools   ( 2644): ~~~~~~~~~~~~~~~~~~~~~~method:public static java.lang.String android.os.SystemProperties.get(java.lang.String,java.lang.String)
+W/Tools   ( 2644): ~~~~~~~~~~~~~~~~~~~~~~returnvalue:211343
+I/Tools   ( 2644): SystemPropertiesClass:class android.os.SystemProperties
+W/Tools   ( 2644): ~~~~~~~~~~~~~~~~~~~~~~method:public static java.lang.String android.os.SystemProperties.get(java.lang.String,java.lang.String)
+W/Tools   ( 2644): ~~~~~~~~~~~~~~~~~~~~~~returnvalue:211343
+V/upGrade ( 2644): [onServiceConnected]iUpdateService:com.coship.update.IUpdateService$Stub$Proxy@415702e8
+I/ActivityManager(  950): Displayed com.coship.ottsetting/.upgradesetting.upGrade: +396ms
+D/OpenGLRenderer( 2644): Flushing caches (mode 0)
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/NetFirmwareService( 1295): onReceive com.coship.systemupgrade.manualcheck
+D/NetFirmwareService( 1295): MSG_CHECK_UPGRADE
+D/NetFirmwareService( 1295): serverURL = http://172.21.11.65/update/system/S1001/CHINA_OTT/CIBN/002104
+I/NetFirmwareService( 1295): Date:Wed, 19 Jun 2013 08:17:24 GMT
+I/NetFirmwareService( 1295): Server:Apache/2.2.11 (Unix)
+I/NetFirmwareService( 1295): Last-Modified:Wed, 19 Jun 2013 07:58:08 GMT
+I/NetFirmwareService( 1295): ETag:"18800c-1e-4df7d30b64400"
+I/NetFirmwareService( 1295): Accept-Ranges:bytes
+I/NetFirmwareService( 1295): Content-Length:30
+I/NetFirmwareService( 1295): Keep-Alive:timeout=5, max=100
+I/NetFirmwareService( 1295): Connection:Keep-Alive
+I/NetFirmwareService( 1295): Content-Type:text/plain
+D/NetFirmwareService( 1295): Download URL = http://172.21.11.65/update/system/S1001/CHINA_OTT/CIBN/002104/versioncode.dat
+D/NetFirmwareService( 1295): Save file in path = /data/data/com.coship.netfirmware/versionCode.dat
+D/NetFirmwareService( 1295): Set download thread number = 2
+D/DownloadTask( 1295): mDesFilePath =/data/data/com.coship.netfirmware/versionCode.dat
+D/DownloadTask( 1295): mRecordFile =/data/data/com.coship.netfirmware/versionCode.dat.cdl.Record
+D/DownloadTask( 1295): mfilePath =/data/data/com.coship.netfirmware/versionCode.dat.cdl
+I/DownloadTask( 1295): Date:Wed, 19 Jun 2013 08:17:25 GMT
+I/DownloadTask( 1295): Server:Apache/2.2.11 (Unix)
+I/DownloadTask( 1295): Last-Modified:Wed, 19 Jun 2013 07:58:08 GMT
+I/DownloadTask( 1295): ETag:"18800c-1e-4df7d30b64400"
+I/DownloadTask( 1295): Accept-Ranges:bytes
+I/DownloadTask( 1295): Content-Length:30
+I/DownloadTask( 1295): Keep-Alive:timeout=5, max=100
+I/DownloadTask( 1295): Connection:Keep-Alive
+I/DownloadTask( 1295): Content-Type:text/plain
+D/dalvikvm( 1295): GC_CONCURRENT freed 1838K, 87% free 2449K/17987K, paused 1ms+2ms
+D/DownloadTask( 1295): server accept range
+D/DownloadTask( 1295): initTaskRecord currentSize=-1
+D/DownloadTask( 1295): totalSize=-1
+D/DownloadTask( 1295): magicID=abc
+D/DownloadTask( 1295): mCurrentSize=0
+D/DownloadTask( 1295): mTotalSize=30
+D/DownloadTask( 1295): mMagicID=null
+D/DownloadTask( 1295): The record is invalid, need reset record
+D/DownloadXpress( 1295): write file name = /data/data/com.coship.netfirmware/versionCode.dat.cdl
+D/NetFirmwareService( 1295): mTaskStatus:1
+D/dalvikvm( 1295): GC_CONCURRENT freed 178K, 84% free 2967K/17987K, paused 1ms+2ms
+D/NetFirmwareService( 1295): MSG_VER_CODE_STATUS_CHANGE
+D/NetFirmwareService( 1295): MSG_VER_CODE_STATUS_CHANGE
+V/DownloadXpress( 1295): Accept-Ranges: bytes
+V/DownloadXpress( 1295): Content-Disposition: null
+V/DownloadXpress( 1295): Content-Length: 15
+V/DownloadXpress( 1295): Content-Location: null
+V/DownloadXpress( 1295): ETag: "18800c-1e-4df7d30b64400"
+V/DownloadXpress( 1295): Transfer-Encoding: null
+D/DownloadXpress( 1295): sendDataInStack --data length =15 offset =0 file name = filePart0
+D/DownloadXpress( 1295): write data  Pos=0   Length =15  Thread =filePart0
+D/DownloadXpress( 1295): filePart0 final status: 491
+V/DownloadXpress( 1295): Accept-Ranges: bytes
+V/DownloadXpress( 1295): Content-Disposition: null
+V/DownloadXpress( 1295): Content-Length: 15
+V/DownloadXpress( 1295): Content-Location: null
+V/DownloadXpress( 1295): ETag: "18800c-1e-4df7d30b64400"
+V/DownloadXpress( 1295): Transfer-Encoding: null
+D/DownloadXpress( 1295): sendDataInStack --data length =15 offset =15 file name = filePart1
+D/DownloadXpress( 1295): write data  Pos=15   Length =15  Thread =filePart1
+D/DownloadXpress( 1295): filePart1 final status: 491
+W/DownloadTask( 1295): There has a file named /data/data/com.coship.netfirmware/versionCode.dat already
+D/DownloadTask( 1295): src file = /data/data/com.coship.netfirmware/versionCode.dat.cdl --- des file=/data/data/com.coship.netfirmware/versionCode.dat
+D/NetFirmwareService( 1295): mTaskStatus:3
+D/NetFirmwareService( 1295): DownloadConstants.TASK_STATUS_COMPLETED
+D/NetFirmwareService( 1295): MSG_VER_CODE_STATUS_CHANGE
+D/NetFirmwareService( 1295): MSG_CHECK_VERSION_CODE
+D/NetFirmwareService( 1295): checkVersionCode
+D/NetFirmwareService( 1295): analysisVersionCodeData
+D/NetFirmwareService( 1295): charset detect...
+D/dalvikvm( 1295): GC_CONCURRENT freed 302K, 82% free 3397K/17987K, paused 2ms+2ms
+D/NetFirmwareService( 1295): charset detect finished, charset type:US-ASCII
+D/NetFirmwareService( 1295): version code line:v=211344
+D/NetFirmwareService( 1295): verCode = 211344
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/NetFirmwareService( 1295): Description URL = null
+D/NetFirmwareService( 1295): MSG_GET_DESCRIPTION
+D/NetFirmwareService( 1295): mDescriptionURL: http://172.21.11.65/update/system/S1001/CHINA_OTT/CIBN/002104/description_211344.dat
+I/NetFirmwareService( 1295): Date:Wed, 19 Jun 2013 08:17:25 GMT
+I/NetFirmwareService( 1295): Server:Apache/2.2.11 (Unix)
+I/NetFirmwareService( 1295): Last-Modified:Wed, 19 Jun 2013 08:08:04 GMT
+I/NetFirmwareService( 1295): ETag:"18800b-7b4-4df7d543c8100"
+I/NetFirmwareService( 1295): Accept-Ranges:bytes
+I/NetFirmwareService( 1295): Content-Length:1972
+I/NetFirmwareService( 1295): Keep-Alive:timeout=5, max=100
+I/NetFirmwareService( 1295): Connection:Keep-Alive
+I/NetFirmwareService( 1295): Content-Type:text/plain
+D/NetFirmwareService( 1295): Download URL = http://172.21.11.65/update/system/S1001/CHINA_OTT/CIBN/002104/description_211344.dat
+D/NetFirmwareService( 1295): Save file in path = /data/data/com.coship.netfirmware/description.dat
+D/NetFirmwareService( 1295): Set download thread number = 2
+D/DownloadTask( 1295): mDesFilePath =/data/data/com.coship.netfirmware/description.dat
+D/DownloadTask( 1295): mRecordFile =/data/data/com.coship.netfirmware/description.dat.cdl.Record
+D/DownloadTask( 1295): mfilePath =/data/data/com.coship.netfirmware/description.dat.cdl
+I/DownloadTask( 1295): Date:Wed, 19 Jun 2013 08:17:25 GMT
+I/DownloadTask( 1295): Server:Apache/2.2.11 (Unix)
+I/DownloadTask( 1295): Last-Modified:Wed, 19 Jun 2013 08:08:04 GMT
+I/DownloadTask( 1295): ETag:"18800b-7b4-4df7d543c8100"
+I/DownloadTask( 1295): Accept-Ranges:bytes
+I/DownloadTask( 1295): Content-Length:1972
+I/DownloadTask( 1295): Keep-Alive:timeout=5, max=100
+I/DownloadTask( 1295): Connection:Keep-Alive
+I/DownloadTask( 1295): Content-Type:text/plain
+D/DownloadTask( 1295): server accept range
+D/DownloadTask( 1295): initTaskRecord currentSize=-1
+D/DownloadTask( 1295): totalSize=-1
+D/DownloadTask( 1295): magicID=abc
+D/DownloadTask( 1295): mCurrentSize=0
+D/DownloadTask( 1295): mTotalSize=1972
+D/DownloadTask( 1295): mMagicID=null
+D/DownloadTask( 1295): The record is invalid, need reset record
+D/DownloadXpress( 1295): write file name = /data/data/com.coship.netfirmware/description.dat.cdl
+D/dalvikvm( 1295): GC_CONCURRENT freed 781K, 81% free 3565K/17987K, paused 1ms+2ms
+D/NetFirmwareService( 1295): mTaskStatus:1
+D/dalvikvm( 1295): GC_CONCURRENT freed 113K, 76% free 4481K/17987K, paused 1ms+1ms
+D/NetFirmwareService( 1295): MSG_DESCRIPT_STATUS_CHANGE
+D/NetFirmwareService( 1295): MSG_DESCRIPT_STATUS_CHANGE
+V/DownloadXpress( 1295): Accept-Ranges: bytes
+V/DownloadXpress( 1295): Content-Disposition: null
+V/DownloadXpress( 1295): Content-Length: 986
+V/DownloadXpress( 1295): Content-Location: null
+V/DownloadXpress( 1295): ETag: "18800b-7b4-4df7d543c8100"
+V/DownloadXpress( 1295): Transfer-Encoding: null
+D/DownloadXpress( 1295): sendDataInStack --data length =986 offset =0 file name = filePart0
+D/DownloadXpress( 1295): write data  Pos=0   Length =986  Thread =filePart0
+D/DownloadXpress( 1295): filePart0 final status: 491
+V/DownloadXpress( 1295): Accept-Ranges: bytes
+V/DownloadXpress( 1295): Content-Disposition: null
+V/DownloadXpress( 1295): Content-Length: 986
+V/DownloadXpress( 1295): Content-Location: null
+V/DownloadXpress( 1295): ETag: "18800b-7b4-4df7d543c8100"
+V/DownloadXpress( 1295): Transfer-Encoding: null
+D/DownloadXpress( 1295): sendDataInStack --data length =986 offset =986 file name = filePart1
+D/DownloadXpress( 1295): write data  Pos=986   Length =986  Thread =filePart1
+D/DownloadXpress( 1295): filePart1 final status: 491
+W/DownloadTask( 1295): There has a file named /data/data/com.coship.netfirmware/description.dat already
+D/DownloadTask( 1295): src file = /data/data/com.coship.netfirmware/description.dat.cdl --- des file=/data/data/com.coship.netfirmware/description.dat
+D/NetFirmwareService( 1295): mTaskStatus:3
+D/NetFirmwareService( 1295): DownloadConstants.TASK_STATUS_COMPLETED
+D/NetFirmwareService( 1295): MSG_DESCRIPT_STATUS_CHANGE
+D/NetFirmwareService( 1295): MSG_CHECK_DESCRIPTION
+D/DescriptionInfo( 1295): charset detect...
+D/DescriptionInfo( 1295): charset detect finished, charset type:GBK
+D/DescriptionInfo( 1295): version=p7764.i13235_2013-06-14
+D/DescriptionInfo( 1295): versionCode=211344
+D/DescriptionInfo( 1295): compatibleDevice=002104
+D/DescriptionInfo( 1295): sn=
+D/DescriptionInfo( 1295): mac=
+D/DescriptionInfo( 1295): updateType=silent
+D/DescriptionInfo( 1295): speed=0
+D/DescriptionInfo( 1295): checkTime=0
+D/DescriptionInfo( 1295): packageSize=1921272110000
+D/DescriptionInfo( 1295): md5=FC66D5FCA73DB9A5CC58745954FDA8D2
+D/DescriptionInfo( 1295): packageUrl=
+D/DescriptionInfo( 1295): changeHistory=1,优化系统升级;2,此种情况属于传屏黑屏情况，目前造成的原因有3种;3,从盒子端发送的TS数据格式是错误的，造成手机端无法解码;4从而关闭socket，进而出现重连，导致黑屏延时,目前盒子端已经有一个workaround的解决方案，但rootcase的问题还没解决;5,网络情况很不好，从手机端的log分析，有5秒内都没有数据到来，导致超时关闭socket，进而致黑屏延时;3,从盒子端发送的TS数据格式是错误的，造成手机端无法解码;4从而关闭socket，进而出现重连，导致黑屏延时，
+D/DescriptionInfo( 1295): 目前盒子端已经有一个workaround的解决方案，但rootcase的问题还没解决;5,网络情况很不好，从手机端的log分析，有5秒内都没有数据到来，导致超时关闭socket，进而致黑屏延时;1,优化系统升级;2,此种情况属于传屏黑屏情况，目前造成的原因有3种;3,从盒子端发送的TS数据格式是错误的，造成手机端无法解码;4从而关闭socket，进而出现重连，导致黑屏延时,目前盒子端已经有一个workaround的解决方案，但rootcase的问题还没解决;5,网络情况很不好，从手机端的log分析，有5秒内都没有数据到来，导致超时关闭socket，进而致黑屏延时;3,从盒子端发送的TS数据格式是错误的，造成手机端无法解码;4从而关闭socket，进而出现重连，导致黑屏延时，
+D/DescriptionInfo( 1295): 目前盒子端已经有一个workaround的解决方案，但rootcase的问题还没解决;5,网络情况很不好，从手机端的log分析，有5秒内都没有数据到来，导致超时关闭socket，进而致黑屏延时;1,优化系统升级;2,此种情况属于传屏黑屏情况，目前造成的原因有3种;3,从盒子端发送的TS数据格式是错误的，造成手机端无法解码;4从而关闭socket，进而出现重连，导致黑屏延时,目前盒子端已经有一个workaround的解决方案，但rootcase的问题还没解决;5,网络情况很不好，从手机端的log分析，有5秒内都没有数据到来，导致超时关闭socket，进而致黑屏延时;3,从盒子端发送的TS数据格式是错误的，造成手机端无法解码;4从而关闭socket，进而出现重连，导致黑屏延时，
+D/DescriptionInfo( 1295): 目前盒子端已经有一个workaround的解决方案，但rootcase的问题还没解决;5,网络情况很不好，从手机端的log分析，有5秒内都没有数据到来，导致超时关闭socket，进而致黑屏延时;
+D/DescriptionInfo( 1295): checkDescriptionInfo version code = 211344
+D/DescriptionInfo( 1295): checkDescriptionInfo machine id = 0
+D/DescriptionInfo( 1295): checkDescriptionInfo hardware id = 002104
+D/DescriptionInfo( 1295): checkDescriptionInfo update package size = 1921272110000
+D/NetFirmwareService( 1295): The description info is valid
+D/NetFirmwareService( 1295): The description version code = 211344
+D/NetFirmwareService( 1295): The description packagesize = 1921272110000
+D/NetFirmwareService( 1295): The description md5 = fc66d5fca73db9a5cc58745954fda8d2
+D/NetFirmwareService( 1295): The description updatePackageFileName = update_H002104_V211344_Q00001_C00001.zip
+D/NetFirmwareService( 1295): The description release notes = 1,优化系统升级;2,此种情况属于传屏黑屏情况，目前造成的原因有3种;3,从盒子端发送的TS数据格式是错误的，造成手机端无法解码;4从而关闭socket，进而出现重连，导致黑屏延时,目前盒子端已经有一个workaround的解决方案，但rootcase的问题还没解决;5,网络情况很不好，从手机端的log分析，有5秒内都没有数据到来，导致超时关闭socket，进而致黑屏延时;3,从盒子端发送的TS数据格式是错误的，造成手机端无法解码;4从而关闭socket，进而出现重连，导致黑屏延时，
+V/NetFirmwareService( 1295): files.length--->1
+D/NetFirmwareService( 1295): check a exsit update package
+V/upGrade ( 2644): [BroadcastReceiver]action:com.coship.market.firmware.check_md5
+D/NetFirmwareService( 1295): Send broadcast of version check_md5.
+V/upGrade ( 2644): [BroadcastReceiver]fileName:/update/update_H002104_V211344_Q00001_C00001.zipmd5:fc66d5fca73db9a5cc58745954fda8d2
+W/dalvikvm( 2644): threadid=12: thread exiting with uncaught exception (group=0x40fa81f8)
+E/AndroidRuntime( 2644): FATAL EXCEPTION: Thread-113
+E/AndroidRuntime( 2644): java.lang.NumberFormatException: Invalid int: "1921272110000"
+E/AndroidRuntime( 2644):        at java.lang.Integer.invalidInt(Integer.java:138)
+E/AndroidRuntime( 2644):        at java.lang.Integer.parse(Integer.java:378)
+E/AndroidRuntime( 2644):        at java.lang.Integer.parseInt(Integer.java:366)
+E/AndroidRuntime( 2644):        at java.lang.Integer.parseInt(Integer.java:332)
+E/AndroidRuntime( 2644):        at java.lang.Integer.valueOf(Integer.java:490)
+E/AndroidRuntime( 2644):        at com.coship.ottsetting.upgradesetting.upGrade$2$1.run(upGrade.java:176)
+W/ActivityManager(  950):   Force finishing activity com.coship.ottsetting/.upgradesetting.upGrade
+D/OpenGLRenderer( 2644): Flushing caches (mode 0)
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+E/ActivityThread( 2644): Activity com.coship.ottsetting.upgradesetting.upGrade has leaked ServiceConnection com.coship.ottsetting.upgradesetting.upGrade$9@41409510 that was originally bound here
+E/ActivityThread( 2644): android.app.ServiceConnectionLeaked: Activity com.coship.ottsetting.upgradesetting.upGrade has leaked ServiceConnection com.coship.ottsetting.upgradesetting.upGrade$9@41409510 that was originally bound here
+E/ActivityThread( 2644):        at android.app.LoadedApk$ServiceDispatcher.<init>(LoadedApk.java:936)
+E/ActivityThread( 2644):        at android.app.LoadedApk.getServiceDispatcher(LoadedApk.java:830)
+E/ActivityThread( 2644):        at android.app.ContextImpl.bindService(ContextImpl.java:1147)
+E/ActivityThread( 2644):        at android.content.ContextWrapper.bindService(ContextWrapper.java:370)
+E/ActivityThread( 2644):        at com.coship.ottsetting.upgradesetting.upGrade.remoteAIDL(upGrade.java:484)
+E/ActivityThread( 2644):        at com.coship.ottsetting.upgradesetting.upGrade.init(upGrade.java:358)
+E/ActivityThread( 2644):        at com.coship.ottsetting.upgradesetting.upGrade.onCreate(upGrade.java:104)
+E/ActivityThread( 2644):        at android.app.Activity.performCreate(Activity.java:4465)
+E/ActivityThread( 2644):        at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1049)
+E/ActivityThread( 2644):        at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:1920)
+E/ActivityThread( 2644):        at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:1981)
+E/ActivityThread( 2644):        at android.app.ActivityThread.access$600(ActivityThread.java:123)
+E/ActivityThread( 2644):        at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1147)
+E/ActivityThread( 2644):        at android.os.Handler.dispatchMessage(Handler.java:99)
+E/ActivityThread( 2644):        at android.os.Looper.loop(Looper.java:137)
+E/ActivityThread( 2644):        at android.app.ActivityThread.main(ActivityThread.java:4424)
+E/ActivityThread( 2644):        at java.lang.reflect.Method.invokeNative(Native Method)
+E/ActivityThread( 2644):        at java.lang.reflect.Method.invoke(Method.java:511)
+E/ActivityThread( 2644):        at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:848)
+E/ActivityThread( 2644):        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:575)
+E/ActivityThread( 2644):        at dalvik.system.NativeStart.main(Native Method)
+W/ActivityManager(  950): Unbind failed: could not find connection for android.os.BinderProxy@41609be8
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+W/ThrottleService(  950): unable to find stats for iface rmnet0
+D/dalvikvm( 1157): GC_CONCURRENT freed 411K, 78% free 1328K/5891K, paused 0ms+1ms
+D/HomePlayerLib( 1157): hostaddress count is 2
+D/dalvikvm( 1157): GC_CONCURRENT freed 414K, 76% free 1468K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 557K, 76% free 1416K/5891K, paused 0ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 488K, 76% free 1428K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 512K, 78% free 1324K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 403K, 76% free 1424K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 489K, 76% free 1447K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 516K, 78% free 1323K/5891K, paused 1ms+2ms
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1157): GC_CONCURRENT freed 401K, 77% free 1393K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 471K, 76% free 1439K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 509K, 78% free 1322K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 431K, 78% free 1303K/5891K, paused 0ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 387K, 76% free 1418K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 504K, 76% free 1422K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 515K, 78% free 1298K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 377K, 78% free 1307K/5891K, paused 1ms+1ms
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1157): GC_CONCURRENT freed 398K, 76% free 1419K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 487K, 78% free 1318K/5891K, paused 1ms+1ms
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1157): GC_CONCURRENT freed 392K, 78% free 1317K/5891K, paused 0ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 392K, 78% free 1318K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 393K, 78% free 1318K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 402K, 76% free 1421K/5891K, paused 0ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 489K, 78% free 1318K/5891K, paused 1ms+1ms
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1157): GC_CONCURRENT freed 394K, 76% free 1425K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 513K, 78% free 1302K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 379K, 76% free 1424K/5891K, paused 0ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 514K, 76% free 1417K/5891K, paused 0ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 508K, 79% free 1295K/5891K, paused 1ms+1ms
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1157): GC_CONCURRENT freed 395K, 77% free 1397K/5891K, paused 0ms+1ms
+D/HomePlayerLib( 1157): hostaddress count is 2
+D/dalvikvm( 1157): GC_CONCURRENT freed 472K, 76% free 1423K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 505K, 77% free 1399K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 487K, 78% free 1321K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_FOR_ALLOC freed 487K, 78% free 1332K/5891K, paused 10ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 6K, 75% free 1517K/5891K, paused 1ms+1ms
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1157): GC_CONCURRENT freed 581K, 76% free 1447K/5891K, paused 0ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 523K, 76% free 1434K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 517K, 78% free 1302K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 392K, 76% free 1422K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 505K, 78% free 1304K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 373K, 78% free 1318K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 388K, 76% free 1432K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 506K, 76% free 1424K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 510K, 76% free 1426K/5891K, paused 1ms+1ms
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1157): GC_CONCURRENT freed 514K, 76% free 1416K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 491K, 78% free 1319K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 405K, 76% free 1430K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 518K, 76% free 1421K/5891K, paused 1ms+1ms
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/HomePlayerLib( 1157): hostaddress count is 2
+D/dalvikvm( 1157): GC_CONCURRENT freed 506K, 78% free 1303K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 389K, 78% free 1298K/5891K, paused 0ms+0ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 376K, 77% free 1398K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 486K, 77% free 1408K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 494K, 77% free 1405K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 476K, 78% free 1323K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 392K, 78% free 1322K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 393K, 78% free 1323K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 396K, 78% free 1330K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 421K, 78% free 1300K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 385K, 76% free 1424K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 487K, 76% free 1445K/5891K, paused 0ms+1ms
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1157): GC_CONCURRENT freed 514K, 78% free 1329K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 416K, 76% free 1463K/5891K, paused 0ms+0ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 542K, 76% free 1424K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 512K, 78% free 1296K/5891K, paused 0ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 372K, 78% free 1317K/5891K, paused 1ms+2ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 394K, 76% free 1423K/5891K, paused 0ms+1ms
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1157): GC_CONCURRENT freed 512K, 77% free 1401K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 484K, 78% free 1316K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 410K, 76% free 1414K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 499K, 78% free 1306K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 394K, 78% free 1306K/5891K, paused 1ms+1ms
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1157): GC_CONCURRENT freed 394K, 78% free 1306K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 398K, 79% free 1292K/5891K, paused 0ms+0ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 382K, 79% free 1294K/5891K, paused 0ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 381K, 76% free 1419K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 487K, 77% free 1403K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 475K, 78% free 1320K/5891K, paused 1ms+1ms
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1157): GC_CONCURRENT freed 412K, 76% free 1417K/5891K, paused 0ms+1ms
+D/HomePlayerLib( 1157): hostaddress count is 2
+D/dalvikvm( 1157): GC_CONCURRENT freed 508K, 78% free 1316K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 403K, 77% free 1378K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 455K, 78% free 1307K/5891K, paused 0ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 391K, 78% free 1309K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 392K, 78% free 1308K/5891K, paused 0ms+0ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 390K, 76% free 1433K/5891K, paused 1ms+1ms
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1157): GC_CONCURRENT freed 530K, 78% free 1302K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 373K, 76% free 1441K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 520K, 76% free 1431K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 535K, 77% free 1403K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 490K, 77% free 1405K/5891K, paused 0ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 477K, 76% free 1438K/5891K, paused 1ms+2ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 507K, 76% free 1443K/5891K, paused 0ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 516K, 77% free 1407K/5891K, paused 1ms+1ms
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1157): GC_CONCURRENT freed 487K, 78% free 1316K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 397K, 78% free 1304K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 393K, 78% free 1305K/5891K, paused 1ms+1ms
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1157): GC_CONCURRENT freed 457K, 78% free 1354K/5891K, paused 0ms+1ms
+D/HomePlayerLib( 1157): hostaddress count is 2
+D/dalvikvm( 1157): GC_CONCURRENT freed 429K, 76% free 1429K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 504K, 76% free 1424K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 487K, 77% free 1367K/5891K, paused 1ms+1ms
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1157): GC_CONCURRENT freed 535K, 78% free 1339K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 421K, 78% free 1309K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 393K, 77% free 1390K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 475K, 76% free 1434K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 520K, 78% free 1306K/5891K, paused 1ms+2ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 382K, 78% free 1308K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 391K, 76% free 1423K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 508K, 76% free 1421K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 504K, 76% free 1425K/5891K, paused 0ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 488K, 78% free 1327K/5891K, paused 2ms+1ms
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1157): GC_CONCURRENT freed 415K, 76% free 1419K/5891K, paused 0ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 491K, 76% free 1425K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 514K, 78% free 1325K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 406K, 76% free 1431K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 515K, 78% free 1306K/5891K, paused 1ms+1ms
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1157): GC_CONCURRENT freed 393K, 77% free 1397K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 486K, 78% free 1300K/5891K, paused 0ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 378K, 78% free 1319K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 396K, 78% free 1317K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 393K, 78% free 1318K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 394K, 78% free 1318K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 393K, 78% free 1318K/5891K, paused 1ms+1ms
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1157): GC_CONCURRENT freed 391K, 78% free 1318K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 393K, 78% free 1318K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 393K, 78% free 1319K/5891K, paused 1ms+1ms
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1157): GC_CONCURRENT freed 490K, 79% free 1292K/5891K, paused 0ms+1ms
+D/HomePlayerLib( 1157): hostaddress count is 2
+D/dalvikvm( 1157): GC_CONCURRENT freed 377K, 78% free 1328K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 414K, 77% free 1372K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 454K, 76% free 1416K/5891K, paused 0ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 485K, 78% free 1323K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 393K, 78% free 1322K/5891K, paused 0ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 393K, 77% free 1408K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 484K, 76% free 1438K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 511K, 76% free 1439K/5891K, paused 1ms+0ms
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1157): GC_CONCURRENT freed 523K, 78% free 1299K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 386K, 76% free 1423K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 488K, 78% free 1322K/5891K, paused 0ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 393K, 78% free 1322K/5891K, paused 0ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 393K, 77% free 1408K/5891K, paused 0ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 483K, 78% free 1312K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 436K, 77% free 1382K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 446K, 78% free 1322K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 394K, 77% free 1378K/5891K, paused 1ms+1ms
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1157): GC_CONCURRENT freed 447K, 78% free 1326K/5891K, paused 1ms+1ms
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1157): GC_CONCURRENT freed 415K, 77% free 1402K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 477K, 76% free 1425K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 502K, 78% free 1308K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 399K, 78% free 1306K/5891K, paused 1ms+1ms
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1157): GC_CONCURRENT freed 382K, 78% free 1318K/5891K, paused 0ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 394K, 76% free 1443K/5891K, paused 0ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 514K, 77% free 1407K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 484K, 76% free 1432K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 517K, 76% free 1421K/5891K, paused 1ms+2ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 489K, 78% free 1325K/5891K, paused 0ms+1ms
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/HomePlayerLib( 1157): hostaddress count is 2
+D/dalvikvm( 1157): GC_CONCURRENT freed 412K, 78% free 1303K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 387K, 76% free 1421K/5891K, paused 0ms+0ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 497K, 77% free 1373K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 455K, 77% free 1392K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 475K, 78% free 1319K/5891K, paused 1ms+2ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 406K, 78% free 1321K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 392K, 78% free 1323K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 394K, 78% free 1323K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 393K, 78% free 1322K/5891K, paused 1ms+1ms
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1157): GC_CONCURRENT freed 395K, 78% free 1330K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 415K, 76% free 1421K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 502K, 76% free 1431K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 509K, 76% free 1434K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 515K, 76% free 1424K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 486K, 78% free 1324K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 410K, 78% free 1298K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 377K, 78% free 1318K/5891K, paused 0ms+0ms
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1157): GC_CONCURRENT freed 394K, 78% free 1317K/5891K, paused 1ms+1ms
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1157): GC_CONCURRENT freed 404K, 76% free 1418K/5891K, paused 1ms+0ms
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/HomePlayerLib( 1157): hostaddress count is 2
+D/dalvikvm( 1157): GC_CONCURRENT freed 508K, 76% free 1421K/5891K, paused 0ms+1ms
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1157): GC_CONCURRENT freed 504K, 76% free 1423K/5891K, paused 0ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 498K, 78% free 1340K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 429K, 76% free 1418K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 500K, 78% free 1351K/5891K, paused 0ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 434K, 78% free 1319K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 406K, 78% free 1322K/5891K, paused 1ms+2ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 403K, 78% free 1311K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 393K, 77% free 1385K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 442K, 76% free 1455K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 534K, 78% free 1327K/5891K, paused 1ms+1ms
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1157): GC_CONCURRENT freed 402K, 76% free 1435K/5891K, paused 1ms+2ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 516K, 76% free 1424K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 486K, 78% free 1329K/5891K, paused 0ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 404K, 76% free 1436K/5891K, paused 1ms+2ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 516K, 78% free 1311K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 395K, 78% free 1309K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 378K, 78% free 1319K/5891K, paused 0ms+1ms
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1157): GC_CONCURRENT freed 393K, 77% free 1362K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 442K, 78% free 1332K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 409K, 78% free 1318K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 392K, 78% free 1317K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 392K, 78% free 1318K/5891K, paused 1ms+1ms
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1157): GC_CONCURRENT freed 393K, 78% free 1318K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 391K, 78% free 1317K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 393K, 77% free 1364K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 442K, 76% free 1417K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 490K, 76% free 1425K/5891K, paused 0ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 503K, 78% free 1307K/5891K, paused 0ms+1ms
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1157): GC_CONCURRENT freed 479K, 78% free 1332K/5891K, paused 1ms+1ms
+D/HomePlayerLib( 1157): hostaddress count is 2
+D/dalvikvm( 1157): GC_CONCURRENT freed 415K, 77% free 1413K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 504K, 76% free 1415K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 487K, 76% free 1428K/5891K, paused 1ms+1ms
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1157): GC_CONCURRENT freed 512K, 78% free 1330K/5891K, paused 0ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 416K, 76% free 1425K/5891K, paused 1ms+2ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 483K, 76% free 1453K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 547K, 77% free 1407K/5891K, paused 0ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 470K, 78% free 1339K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 422K, 76% free 1441K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 526K, 78% free 1305K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 378K, 75% free 1506K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 579K, 77% free 1388K/5891K, paused 1ms+1ms
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/dalvikvm( 1157): GC_CONCURRENT freed 474K, 76% free 1418K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 492K, 75% free 1488K/5891K, paused 1ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 567K, 76% free 1431K/5891K, paused 0ms+1ms
+D/dalvikvm( 1157): GC_CONCURRENT freed 519K, 76% free 1415K/5891K, paused 0ms+1ms
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1540): Current Remote Host is null, continue, counter=0
+^C

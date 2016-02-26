@@ -1,0 +1,183 @@
+[  600.544918] IR: [03932] scan key value is 0x8f70c936 
+[  600.544923]  
+[  600.596681] IR: [03932] scan key value is 0x8f70c936 
+[  600.596686]  
+[  600.706945] IR: [03932] scan key value is 0x8f70c936 
+[  600.706950]  W/WindowManager(  950): Unable to find ITelephony interface.
+I/ActivityManager(  950): START {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.coship.cibn/.MainActivity} from pid 950
+W/WindowManager(  950): Token{416bded0 ActivityRecord{416c7ad8 com.coship.cibn/.MainActivity}} failed creating starting window
+W/WindowManager(  950): android.view.InflateException: Binary XML file line #34: Error inflating class <unknown>
+W/WindowManager(  950):         at android.view.LayoutInflater.createView(LayoutInflater.java:606)
+W/WindowManager(  950):         at com.android.internal.policy.impl.PhoneLayoutInflater.onCreateView(PhoneLayoutInflater.java:56)
+W/WindowManager(  950):         at android.view.LayoutInflater.onCreateView(LayoutInflater.java:653)
+W/WindowManager(  950):         at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:678)
+W/WindowManager(  950):         at android.view.LayoutInflater.rInflate(LayoutInflater.java:739)
+W/WindowManager(  950):         at android.view.LayoutInflater.inflate(LayoutInflater.java:489)
+W/WindowManager(  950):         at android.view.LayoutInflater.inflate(LayoutInflater.java:396)
+W/WindowManager(  950):         at android.view.LayoutInflater.inflate(LayoutInflater.java:352)
+W/WindowManager(  950):         at com.android.internal.policy.impl.PhoneWindow.generateLayout(PhoneWindow.java:2707)
+W/WindowManager(  950):         at com.android.internal.policy.impl.PhoneWindow.installDecor(PhoneWindow.java:2767)
+W/WindowManager(  950):         at com.android.internal.policy.impl.PhoneWindow.getDecorView(PhoneWindow.java:1534)
+W/WindowManager(  950):         at com.android.internal.policy.impl.PhoneWindowManager.addStartingWindow(PhoneWindowManager.java:1339)
+W/WindowManager(  950):         at com.android.server.wm.WindowManagerService$H.handleMessage(WindowManagerService.java:6631)
+W/WindowManager(  950):         at android.os.Handler.dispatchMessage(Handler.java:99)
+W/WindowManager(  950):         at android.os.Looper.loop(Looper.java:137)
+W/WindowManager(  950):         at com.android.server.wm.WindowManagerService$WMThread.run(WindowManagerService.java:704)
+W/WindowManager(  950): Caused by: java.lang.reflect.InvocationTargetException
+W/WindowManager(  950):         at java.lang.reflect.Constructor.constructNative(Native Method)
+W/WindowManager(  950):         at java.lang.reflect.Constructor.newInstance(Constructor.java:417)
+W/WindowManager(  950):         at android.view.LayoutInflater.createView(LayoutInflater.java:586)
+W/WindowManager(  950):         ... 15 more
+W/WindowManager(  950): Caused by: android.content.res.Resources$NotFoundException: Resource is not a Drawable (color or path): TypedValue{t=0x2/d=0x1010059 a=-1}
+W/WindowManager(  950):         at android.content.res.Resources.loadDrawable(Resources.java:1897)
+W/WindowManager(  950):         at android.content.res.TypedArray.getDrawable(TypedArray.java:601)
+W/WindowManager(  950):         at android.widget.FrameLayout.<init>(FrameLayout.java:107)
+W/WindowManager(  950):         at android.widget.FrameLayout.<init>(FrameLayout.java:95)
+W/WindowManager(  950):         ... 18 more
+I/        ( 2666): jpeg hw mutex s_index = 290
+I/        ( 2666): [MSOS_PRINT][003171]     ~!~mappd sharemem    
+I/        ( 2666): [MSOS_PRINT][000605]     pthread_mutex_init
+I/        ( 2666): [MSOS_PRINT][000607]     CHIP_InitISR
+D/        ( 2666): [skia jpeg]: readbuf addr:0x1a1c2000, size: 0x100000
+D/        ( 2666):  write buff addr:0x0,  size: 0x0
+D/        ( 2666):  internal buff addr:0x1a2c2000,   size: 0x100000
+E/        ( 2666): get vaddr failed:pvaddr_read=0x60219000,pvaddr_internal=0x60319000,pvaddr_write=0x0
+D/dalvikvm( 2666): GC_FOR_ALLOC freed 106K, 43% free 6714K/11651K, paused 32ms
+I/dalvikvm-heap( 2666): Grow heap (frag case) to 13.673MB for 3686416-byte allocation
+D/dalvikvm( 2666): GC_CONCURRENT freed 1K, 33% free 10313K/15299K, paused 2ms+3ms
+V/BaseSQLProvider( 2666): If have  the table of AuthAdressRecord? 
+V/BaseSQLProvider( 2666): update CIBNAddressData msg to db!
+E/AuthResultProvider( 2666):   uri.getPathSegments() ==  []
+V/DefaultFromSP( 2666): the db update is ok !
+V/BootedReceiver( 1321): android.intent.action.CHECKER_MACADDR
+I/Process (  950): Sending signal. PID: 2666 SIG: 3
+I/dalvikvm( 2666): threadid=3: reacting to signal 3
+I/dalvikvm( 2666): Wrote stack traces to '/data/anr/traces.txt'
+D/dalvikvm( 2666): GC_FOR_ALLOC freed 1306K, 33% free 10637K/15683K, paused 31ms
+I/dalvikvm-heap( 2666): Grow heap (frag case) to 14.958MB for 1016112-byte allocation
+D/dalvikvm( 2666): GC_FOR_ALLOC freed 2K, 31% free 11627K/16707K, paused 25ms
+E/StrictMode( 2666): Finalizing a Cursor that has not been deactivated or closed. database = /data/data/com.coship.cibn/databases/AuthAdressRecord.db, table = AuthAdressRecord, query = SELECT server_address, ads_server_address, topic_server_address, portalms_server_address, appstore_server_address, player_server_address, device_id_address, device_login_address FROM AuthAdressRecord
+E/StrictMode( 2666): android.database.sqlite.DatabaseObjectNotClosedException: Application did not close the cursor or database object that was opened here
+E/StrictMode( 2666):    at android.database.sqlite.SQLiteCursor.<init>(SQLiteCursor.java:99)
+E/StrictMode( 2666):    at android.database.sqlite.SQLiteDirectCursorDriver.query(SQLiteDirectCursorDriver.java:51)
+E/StrictMode( 2666):    at android.database.sqlite.SQLiteDatabase.rawQueryWithFactory(SQLiteDatabase.java:1564)
+E/StrictMode( 2666):    at android.database.sqlite.SQLiteQueryBuilder.query(SQLiteQueryBuilder.java:354)
+E/StrictMode( 2666):    at android.database.sqlite.SQLiteQueryBuilder.query(SQLiteQueryBuilder.java:291)
+E/StrictMode( 2666):    at com.coship.cibn.contentProvider.AuthResultProvider.query(AuthResultProvider.java:102)
+E/StrictMode( 2666):    at android.content.ContentProvider$Transport.query(ContentProvider.java:178)
+E/StrictMode( 2666):    at android.content.ContentResolver.query(ContentResolver.java:311)
+E/StrictMode( 2666):    at com.coship.cibn.contentProvider.BaseSQLProvider._isHaveAddressInDB(BaseSQLProvider.java:79)
+E/StrictMode( 2666):    at com.coship.cibn.ConfAddress.DefaultAddressFromSP.initDefServerAddr(DefaultAddressFromSP.java:126)
+E/StrictMode( 2666):    at com.coship.cibn.MainActivity.initDefServerAddr(MainActivity.java:998)
+E/StrictMode( 2666):    at com.coship.cibn.MainActivity.onCreate(MainActivity.java:277)
+E/StrictMode( 2666):    at android.app.Activity.performCreate(Activity.java:4465)
+E/StrictMode( 2666):    at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1049)
+E/StrictMode( 2666):    at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:1920)
+E/StrictMode( 2666):    at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:1981)
+E/StrictMode( 2666):    at android.app.ActivityThread.access$600(ActivityThread.java:123)
+E/StrictMode( 2666):    at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1147)
+E/StrictMode( 2666):    at android.os.Handler.dispatchMessage(Handler.java:99)
+E/StrictMode( 2666):    at android.os.Looper.loop(Looper.java:137)
+E/StrictMode( 2666):    at android.app.ActivityThread.main(ActivityThread.java:4424)
+E/StrictMode( 2666):    at java.lang.reflect.Method.invokeNative(Native Method)
+E/StrictMode( 2666):    at java.lang.reflect.Method.invoke(Method.java:511)
+E/StrictMode( 2666):    at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:848)
+E/StrictMode( 2666):    at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:575)
+E/StrictMode( 2666):    at dalvik.system.NativeStart.main(Native Method)
+E/StrictMode( 2666): A resource was acquired at attached stack trace but never released. See java.io.Closeable for information on avoiding resource leaks.
+E/StrictMode( 2666): java.lang.Throwable: Explicit termination method 'close' not called
+E/StrictMode( 2666):    at dalvik.system.CloseGuard.open(CloseGuard.java:184)
+E/StrictMode( 2666):    at android.content.ContentResolver$CursorWrapperInner.<init>(ContentResolver.java:1582)
+E/StrictMode( 2666):    at android.content.ContentResolver.query(ContentResolver.java:321)
+E/StrictMode( 2666):    at com.coship.cibn.contentProvider.BaseSQLProvider._isHaveAddressInDB(BaseSQLProvider.java:79)
+E/StrictMode( 2666):    at com.coship.cibn.ConfAddress.DefaultAddressFromSP.initDefServerAddr(DefaultAddressFromSP.java:126)
+E/StrictMode( 2666):    at com.coship.cibn.MainActivity.initDefServerAddr(MainActivity.java:998)
+E/StrictMode( 2666):    at com.coship.cibn.MainActivity.onCreate(MainActivity.java:277)
+E/StrictMode( 2666):    at android.app.Activity.performCreate(Activity.java:4465)
+E/StrictMode( 2666):    at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1049)
+E/StrictMode( 2666):    at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:1920)
+E/StrictMode( 2666):    at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:1981)
+E/StrictMode( 2666):    at android.app.ActivityThread.access$600(ActivityThread.java:123)
+E/StrictMode( 2666):    at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1147)
+E/StrictMode( 2666):    at android.os.Handler.dispatchMessage(Handler.java:99)
+E/StrictMode( 2666):    at android.os.Looper.loop(Looper.java:137)
+E/StrictMode( 2666):    at android.app.ActivityThread.main(ActivityThread.java:4424)
+E/StrictMode( 2666):    at java.lang.reflect.Method.invokeNative(Native Method)
+E/StrictMode( 2666):    at java.lang.reflect.Method.invoke(Method.java:511)
+E/StrictMode( 2666):    at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:848)
+E/StrictMode( 2666):    at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:575)
+E/StrictMode( 2666):    at dalvik.system.NativeStart.main(Native Method)
+W/CursorWrapperInner( 2666): Cursor finalized without prior close()
+I/MainActivity( 2666): Connect to PortalMS-Server  Address: http://cibn-iepg.longvisionmedia.com:8881
+D/libEGL  ( 2666): loaded /system/lib/egl/libGLES_android.so
+D/libEGL  ( 2666): loaded /system/lib/egl/libEGL_mali.so
+D/libEGL  ( 2666): loaded /system/lib/egl/libGLESv1_CM_mali.so
+D/libEGL  ( 2666): loaded /system/lib/egl/libGLESv2_mali.so
+D/OpenGLRenderer( 2666): Enabling debug mode 0
+W/Resources( 2666): Converting to int: TypedValue{t=0x3/d=0xa2 "res/drawable-mdpi/nav_normal.png" a=2 r=0x7f02009e}
+D/AndroidRuntime( 2666): Shutting down VM
+W/dalvikvm( 2666): threadid=1: thread exiting with uncaught exception (group=0x40fa81f8)
+E/AndroidRuntime( 2666): FATAL EXCEPTION: main
+E/AndroidRuntime( 2666): java.lang.NumberFormatException: Invalid int: "res/drawable-mdpi/nav_normal.png"
+E/AndroidRuntime( 2666):        at java.lang.Integer.invalidInt(Integer.java:138)
+E/AndroidRuntime( 2666):        at java.lang.Integer.parse(Integer.java:375)
+E/AndroidRuntime( 2666):        at java.lang.Integer.parseInt(Integer.java:366)
+E/AndroidRuntime( 2666):        at com.android.internal.util.XmlUtils.convertValueToInt(XmlUtils.java:123)
+E/AndroidRuntime( 2666):        at android.content.res.TypedArray.getInt(TypedArray.java:254)
+E/AndroidRuntime( 2666):        at android.view.animation.Animation.<init>(Animation.java:240)
+E/AndroidRuntime( 2666):        at android.view.animation.AlphaAnimation.<init>(AlphaAnimation.java:40)
+E/AndroidRuntime( 2666):        at android.view.animation.AnimationUtils.createAnimationFromXml(AnimationUtils.java:116)
+E/AndroidRuntime( 2666):        at android.view.animation.AnimationUtils.createAnimationFromXml(AnimationUtils.java:91)
+E/AndroidRuntime( 2666):        at android.view.animation.AnimationUtils.loadAnimation(AnimationUtils.java:72)
+E/AndroidRuntime( 2666):        at android.widget.ViewAnimator.setInAnimation(ViewAnimator.java:309)
+E/AndroidRuntime( 2666):        at com.coship.cibn.controller.SlideManagerRootImpl.setSlideViewPanel(SlideManagerRootImpl.java:102)
+E/AndroidRuntime( 2666):        at com.coship.cibn.controller.RecommondManagerImpl$RecommondAdapter.newView(RecommondManagerImpl.java:163)
+E/AndroidRuntime( 2666):        at com.coship.cibn.controller.RecommondManagerImpl$RecommondAdapter.getView(RecommondManagerImpl.java:126)
+E/AndroidRuntime( 2666):        at android.support.v4.widget.StaggeredGridView.obtainView(StaggeredGridView.java:1621)
+E/AndroidRuntime( 2666):        at android.support.v4.widget.StaggeredGridView.fillDown(StaggeredGridView.java:1326)
+E/AndroidRuntime( 2666):        at android.support.v4.widget.StaggeredGridView.populate(StaggeredGridView.java:874)
+E/AndroidRuntime( 2666):        at android.support.v4.widget.StaggeredGridView.onLayout(StaggeredGridView.java:825)
+E/AndroidRuntime( 2666):        at android.view.View.layout(View.java:11278)
+E/AndroidRuntime( 2666):        at android.view.ViewGroup.layout(ViewGroup.java:4224)
+E/AndroidRuntime( 2666):        at com.coship.widget.viewflow.ViewFlow.onLayout(ViewFlow.java:251)
+E/AndroidRuntime( 2666):        at android.view.View.layout(View.java:11278)
+E/AndroidRuntime( 2666):        at android.view.ViewGroup.layout(ViewGroup.java:4224)
+E/AndroidRuntime( 2666):        at android.widget.RelativeLayout.onLayout(RelativeLayout.java:925)
+E/AndroidRuntime( 2666):        at android.view.View.layout(View.java:11278)
+E/AndroidRuntime( 2666):        at android.view.ViewGroup.layout(ViewGroup.java:4224)
+E/AndroidRuntime( 2666):        at android.widget.FrameLayout.onLayout(FrameLayout.java:431)
+E/AndroidRuntime( 2666):        at android.view.View.layout(View.java:11278)
+E/AndroidRuntime( 2666):        at android.view.ViewGroup.layout(ViewGroup.java:4224)
+E/AndroidRuntime( 2666):        at android.widget.LinearLayout.setChildFrame(LinearLayout.java:1628)
+E/AndroidRuntime( 2666):        at android.widget.LinearLayout.layoutVertical(LinearLayout.java:1486)
+E/AndroidRuntime( 2666):        at android.widget.LinearLayout.onLayout(LinearLayout.java:1399)
+E/AndroidRuntime( 2666):        at android.view.View.layout(View.java:11278)
+E/AndroidRuntime( 2666):        at android.view.ViewGroup.layout(ViewGroup.java:4224)
+E/AndroidRuntime( 2666):        at android.widget.FrameLayout.onLayout(FrameLayout.java:431)
+E/AndroidRuntime( 2666):        at android.view.View.layout(View.java:11278)
+E/AndroidRuntime( 2666):        at android.view.ViewGroup.layout(ViewGroup.java:4224)
+E/AndroidRuntime( 2666):        at android.view.ViewRootImpl.performTraversals(ViewRootImpl.java:1489)
+E/AndroidRuntime( 2666):        at android.view.ViewRootImpl.handleMessage(ViewRootImpl.java:2442)
+E/AndroidRuntime( 2666):        at android.os.Handler.dispatchMessage(Handler.java:99)
+E/AndroidRuntime( 2666):        at android.os.Looper.loop(Looper.java:137)
+E/AndroidRuntime( 2666):        at android.app.ActivityThread.main(ActivityThread.java:4424)
+E/AndroidRuntime( 2666):        at java.lang.reflect.Method.invokeNative(Native Method)
+E/AndroidRuntime( 2666):        at java.lang.reflect.Method.invoke(Method.java:511)
+E/AndroidRuntime( 2666):        at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:848)
+E/AndroidRuntime( 2666):        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:575)
+E/AndroidRuntime( 2666):        at dalvik.system.NativeStart.main(Native Method)
+W/ActivityManager(  950): Process com.coship.cibn has crashed too many times: killing!
+W/ActivityManager(  950):   Force finishing activity com.coship.cibn/.MainActivity
+I/Process (  950): Sending signal. PID: 2666 SIG: 3
+I/dalvikvm( 2666): threadid=3: reacting to signal 3
+I/dalvikvm( 2666): Wrote stack traces to '/data/anr/traces.txt'
+I/MainActivity( 2666): Connect to PortalMS-Server is OK!  Address: http://cibn-iepg.longvisionmedia.com:8881
+V/AddressFromService( 2666): start get address from Service!
+I/Process (  950): Sending signal. PID: 2666 SIG: 3
+W/ActivityManager(  950): Activity pause timeout for ActivityRecord{416c7ad8 com.coship.cibn/.MainActivity}
+I/dalvikvm( 2666): threadid=3: reacting to signal 3
+I/dalvikvm( 2666): Wrote stack traces to '/data/anr/traces.txt'
+D/dalvikvm(  950): GC_CONCURRENT freed 862K, 56% free 4546K/10307K, paused 3ms+6ms
+D/UpdateInstallAppStatusTimerTask( 2442):  ------:: UpdateInstallAppStatusTimerTask execute...
+D/AppInfoDao( 2442):  ------:: Can not find record in database by application packageName com.antutu.ABenchMark
+D/AppInfoDao( 2442):  ------:: Can not find record in database by application packageName com.trinitigame.android.kkjsdfsnfjr

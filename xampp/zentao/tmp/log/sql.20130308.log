@@ -1,0 +1,25 @@
+20130308 09:33:29: 
+  SELECT * FROM `zt_company` WHERE `pms` = 'localhost:88' 
+  SELECT * FROM `zt_company` WHERE `pms` = 'localhost' 
+  SELECT value FROM `zt_config` WHERE owner  = 'system' AND section  = 'global' AND `key`  = 'version' AND company  = '0'
+
+20130308 09:44:52: 
+  SELECT * FROM `zt_company` WHERE `pms` = 'localhost:88' 
+  SELECT * FROM `zt_company` WHERE `pms` = 'localhost' 
+  SELECT value FROM `zt_config` WHERE owner  = 'system' AND section  = 'global' AND `key`  = 'version' AND company  = '0'
+
+20130308 09:45:18: 
+  SELECT * FROM `zt_company` WHERE `pms` = 'localhost:88' 
+  SELECT * FROM `zt_company` WHERE `pms` = 'localhost' 
+  SELECT value FROM `zt_config` WHERE owner  = 'system' AND section  = 'global' AND `key`  = 'version' AND company  = '0'
+
+20130308 09:45:29: 
+  SELECT * FROM `zt_company` WHERE `pms` = 'localhost:88' 
+  SELECT * FROM `zt_company` WHERE `pms` = 'localhost' 
+  SELECT value FROM `zt_config` WHERE owner  = 'system' AND section  = 'global' AND `key`  = 'version' AND company  = '0'
+
+20130308 13:50:33: 
+  SELECT * FROM `zt_company` WHERE `pms` = 'localhost:88' 
+  SELECT * FROM `zt_company` WHERE `pms` = 'localhost' 
+  SELECT value FROM `zt_config` WHERE owner  = 'system' AND section  = 'global' AND `key`  = 'version' AND company  = '0'
+

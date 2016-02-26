@@ -1,0 +1,1627 @@
+
+shell@android:/ # 
+shell@android:/ # 
+shell@android:/ # 
+?1зы5AGER]:s StatusBar.NetworkControllerDS:s CLOUD_CLIENT:s [PMP_SERVER]:s         <
+--------- beginning of /dev/log/system
+--------- beginning of /dev/log/main
+
+
+
+
+su
+
+
+^C
+130|shell@android:/ # su
+shell@android:/ # 
+shell@android:/ # logcat -c;logcat
+--------- beginning of /dev/log/main
+W/dalvikvm( 1546): JNI: pin count on array 0x4147cbb0 ([B) is now 494
+--------- beginning of /dev/log/system
+D/WifiP2pService(  993): wait for wifi sta and softap disabled!!
+D/MonitorCw880( 1546): counter=10 && isHeartbeatTimeout=false
+W/dalvikvm( 1546): JNI: pin count on array 0x4147cbb0 ([B) is now 495
+D/WifiP2pService(  993): wait for wifi sta and softap disabled!!
+D/dalvikvm( 1158): GC_CONCURRENT freed 689K, 66% free 2511K/7363K, paused 1ms+2ms
+D/HomePlayerLib( 1158): hostaddress count is 1
+D/dalvikvm( 1158): GC_CONCURRENT freed 673K, 66% free 2528K/7363K, paused 1ms+1ms
+D/dalvikvm( 1158): GC_CONCURRENT freed 692K, 66% free 2518K/7363K, paused 1ms+2ms
+D/dalvikvm( 1158): GC_CONCURRENT freed 684K, 68% free 2409K/7363K, paused 1ms+2ms
+W/dalvikvm( 1546): JNI: pin count on array 0x4147cbb0 ([B) is now 496
+D/dalvikvm( 1158): GC_CONCURRENT freed 528K, 66% free 2540K/7363K, paused 1ms+1ms
+D/WifiP2pService(  993): wait for wifi sta and softap disabled!!
+D/dalvikvm( 1158): GC_CONCURRENT freed 714K, 66% free 2534K/7363K, paused 1ms+2ms
+D/dalvikvm( 1158): GC_CONCURRENT freed 699K, 66% free 2541K/7363K, paused 1ms+1ms
+D/MonitorCw880( 1546): counter=12 && isHeartbeatTimeout=false
+D/dalvikvm( 1158): GC_CONCURRENT freed 691K, 66% free 2555K/7363K, paused 1ms+2ms
+W/dalvikvm( 1546): JNI: pin count on array 0x4147cbb0 ([B) is now 497
+D/dalvikvm( 1158): GC_CONCURRENT freed 734K, 66% free 2528K/7363K, paused 3ms+1ms
+D/WifiP2pService(  993): wait for wifi sta and softap disabled!!
+D/dalvikvm( 1158): GC_CONCURRENT freed 679K, 67% free 2432K/7363K, paused 1ms+2ms
+D/dalvikvm( 1158): GC_CONCURRENT freed 567K, 66% free 2526K/7363K, paused 1ms+1ms
+W/dalvikvm( 1546): JNI: pin count on array 0x4147cbb0 ([B) is now 498
+D/dalvikvm( 1158): GC_CONCURRENT freed 696K, 68% free 2406K/7363K, paused 2ms+2ms
+D/WifiP2pService(  993): wait for wifi sta and softap disabled!!
+D/dalvikvm( 1158): GC_CONCURRENT freed 540K, 66% free 2510K/7363K, paused 1ms+2ms
+D/MonitorCw880( 1546): counter=4 && isHeartbeatTimeout=false
+D/dalvikvm( 1158): GC_CONCURRENT freed 661K, 66% free 2536K/7363K, paused 1ms+1ms
+D/dalvikvm( 1158): GC_CONCURRENT freed 704K, 67% free 2431K/7363K, paused 1ms+2ms
+W/dalvikvm( 1546): JNI: pin count on array 0x4147cbb0 ([B) is now 499
+D/dalvikvm( 1158): GC_CONCURRENT freed 571K, 68% free 2403K/7363K, paused 1ms+2ms
+D/WifiP2pService(  993): wait for wifi sta and softap disabled!!
+D/dalvikvm( 1158): GC_CONCURRENT freed 533K, 66% free 2509K/7363K, paused 2ms+1ms
+W/dalvikvm( 1546): JNI: pin count on array 0x4147cbb0 ([B) is now 500
+D/WifiP2pService(  993): wait for wifi sta and softap disabled!!
+D/MonitorCw880( 1546): counter=6 && isHeartbeatTimeout=false
+W/dalvikvm( 1546): JNI: pin count on array 0x4147cbb0 ([B) is now 501
+D/WifiP2pService(  993): wait for wifi sta and softap disabled!!
+W/dalvikvm( 1546): JNI: pin count on array 0x4147cbb0 ([B) is now 502
+D/dalvikvm( 1158): GC_CONCURRENT freed 657K, 66% free 2512K/7363K, paused 1ms+1ms
+D/WifiP2pService(  993): wait for wifi sta and softap disabled!!
+D/dalvikvm( 1158): GC_CONCURRENT freed 664K, 67% free 2430K/7363K, paused 1ms+2ms
+D/MonitorCw880( 1546): counter=8 && isHeartbeatTimeout=false
+D/dalvikvm( 1158): GC_CONCURRENT freed 557K, 68% free 2428K/7363K, paused 1ms+2ms
+D/dalvikvm( 1158): GC_CONCURRENT freed 566K, 67% free 2443K/7363K, paused 1ms+2ms
+W/dalvikvm( 1546): JNI: pin count on array 0x4147cbb0 ([B) is now 503
+D/WifiP2pService(  993): wait for wifi sta and softap disabled!!
+D/dalvikvm( 1158): GC_CONCURRENT freed 581K, 66% free 2531K/7363K, paused 9ms+1ms
+W/dalvikvm( 1546): JNI: pin count on array 0x4147cbb0 ([B) is now 504
+D/WifiP2pService(  993): wait for wifi sta and softap disabled!!
+D/MonitorCw880( 1546): counter=10 && isHeartbeatTimeout=false
+W/dalvikvm( 1546): JNI: pin count on array 0x4147cbb0 ([B) is now 505
+D/WifiP2pService(  993): wait for wifi sta and softap disabled!!
+D/dalvikvm( 1158): GC_CONCURRENT freed 700K, 66% free 2535K/7363K, paused 4ms+1ms
+W/dalvikvm( 1546): JNI: pin count on array 0x4147cbb0 ([B) is now 506
+D/WifiP2pService(  993): wait for wifi sta and softap disabled!!
+D/MonitorCw880( 1546): counter=12 && isHeartbeatTimeout=false
+D/dalvikvm( 1158): GC_CONCURRENT freed 700K, 67% free 2430K/7363K, paused 1ms+2ms
+D/HomePlayerLib( 1158): hostaddress count is 1
+D/dalvikvm( 1158): GC_CONCURRENT freed 571K, 66% free 2527K/7363K, paused 2ms+2ms
+D/dalvikvm( 1158): GC_CONCURRENT freed 671K, 66% free 2557K/7363K, paused 1ms+1ms
+W/dalvikvm( 1546): JNI: pin count on array 0x4147cbb0 ([B) is now 507
+D/dalvikvm( 1158): GC_CONCURRENT freed 726K, 67% free 2454K/7363K, paused 5ms+2ms
+D/dalvikvm( 1158): GC_CONCURRENT freed 587K, 66% free 2548K/7363K, paused 2ms+1ms
+D/WifiP2pService(  993): wait for wifi sta and softap disabled!!
+D/dalvikvm( 1158): GC_CONCURRENT freed 716K, 66% free 2540K/7363K, paused 3ms+9ms
+D/dalvikvm( 1158): GC_CONCURRENT freed 708K, 67% free 2459K/7363K, paused 1ms+3ms
+D/dalvikvm( 1158): GC_CONCURRENT freed 676K, 67% free 2462K/7363K, paused 1ms+2ms
+W/dalvikvm( 1546): JNI: pin count on array 0x4147cbb0 ([B) is now 508
+D/WifiP2pService(  993): wait for wifi sta and softap disabled!!
+D/dalvikvm( 1158): GC_CONCURRENT freed 599K, 66% free 2536K/7363K, paused 1ms+2ms
+D/MonitorCw880( 1546): counter=4 && isHeartbeatTimeout=false
+W/dalvikvm( 1546): JNI: pin count on array 0x4147cbb0 ([B) is now 509
+D/WifiP2pService(  993): wait for wifi sta and softap disabled!!
+W/dalvikvm( 1546): JNI: pin count on array 0x4147cbb0 ([B) is now 510
+D/WifiP2pService(  993): wait for wifi sta and softap disabled!!
+D/MonitorCw880( 1546): counter=6 && isHeartbeatTimeout=false
+W/dalvikvm( 1546): JNI: pin count on array 0x4147cbb0 ([B) is now 511
+D/dalvikvm( 1158): GC_CONCURRENT freed 703K, 66% free 2528K/7363K, paused 2ms+2ms
+D/WifiP2pService(  993): wait for wifi sta and softap disabled!!
+D/dalvikvm( 1158): GC_CONCURRENT freed 690K, 66% free 2542K/7363K, paused 1ms+1ms
+D/dalvikvm( 1158): GC_CONCURRENT freed 717K, 66% free 2529K/7363K, paused 1ms+2ms
+W/dalvikvm( 1546): JNI: pin count on array 0x4147cbb0 ([B) is now 512
+D/dalvikvm( 1158): GC_CONCURRENT freed 692K, 67% free 2499K/7363K, paused 28ms+1ms
+D/WifiP2pService(  993): wait for wifi sta and softap disabled!!
+D/MonitorCw880( 1546): counter=8 && isHeartbeatTimeout=false
+D/dalvikvm( 1158): GC_CONCURRENT freed 662K, 67% free 2444K/7363K, paused 1ms+2ms
+D/dalvikvm( 1158): GC_CONCURRENT freed 574K, 66% free 2514K/7363K, paused 1ms+2ms
+W/dalvikvm( 1546): JNI: pin count on array 0x4147cbb0 ([B) is now 513
+D/dalvikvm( 1158): GC_CONCURRENT freed 662K, 66% free 2552K/7363K, paused 2ms+2ms
+D/WifiP2pService(  993): wait for wifi sta and softap disabled!!
+W/dalvikvm( 1546): JNI: pin count on array 0x4147cbb0 ([B) is now 514
+D/WifiP2pService(  993): wait for wifi sta and softap disabled!!
+D/MonitorCw880( 1546): counter=10 && isHeartbeatTimeout=false
+W/dalvikvm( 1546): JNI: pin count on array 0x4147cbb0 ([B) is now 515
+D/WifiP2pService(  993): wait for wifi sta and softap disabled!!
+W/dalvikvm( 1546): JNI: pin count on array 0x4147cbb0 ([B) is now 516
+D/WifiP2pService(  993): wait for wifi sta and softap disabled!!
+D/MonitorCw880( 1546): counter=12 && isHeartbeatTimeout=false
+W/dalvikvm( 1546): JNI: pin count on array 0x4147cbb0 ([B) is now 517
+D/dalvikvm(  993): GC_CONCURRENT freed 804K, 62% free 4022K/10371K, paused 3ms+7ms
+D/WifiP2pService(  993): wait for wifi sta and softap disabled!!
+D/dalvikvm( 1158): GC_CONCURRENT freed 729K, 68% free 2418K/7363K, paused 1ms+1ms
+D/dalvikvm( 1158): GC_CONCURRENT freed 543K, 66% free 2523K/7363K, paused 1ms+1ms
+D/HomePlayerLib( 1158): hostaddress count is 1
+D/dalvikvm( 1158): GC_CONCURRENT freed 673K, 64% free 2692K/7363K, paused 1ms+1ms
+W/dalvikvm( 1546): JNI: pin count on array 0x4147cbb0 ([B) is now 518
+D/dalvikvm( 1158): GC_CONCURRENT freed 899K, 67% free 2491K/7363K, paused 1ms+1ms
+D/dalvikvm( 1158): GC_CONCURRENT freed 635K, 66% free 2555K/7363K, paused 2ms+2ms
+D/WifiP2pService(  993): wait for wifi sta and softap disabled!!
+D/dalvikvm( 1158): GC_CONCURRENT freed 728K, 66% free 2534K/7363K, paused 2ms+1ms
+D/MonitorCw880( 1546): counter=4 && isHeartbeatTimeout=false
+D/dalvikvm( 1158): GC_CONCURRENT freed 702K, 66% free 2534K/7363K, paused 1ms+1ms
+D/dalvikvm( 1158): GC_CONCURRENT freed 704K, 68% free 2423K/7363K, paused 2ms+1ms
+W/dalvikvm( 1546): JNI: pin count on array 0x4147cbb0 ([B) is now 519
+D/dalvikvm( 1158): GC_CONCURRENT freed 556K, 66% free 2528K/7363K, paused 1ms+1ms
+D/WifiP2pService(  993): wait for wifi sta and softap disabled!!
+W/dalvikvm( 1546): JNI: pin count on array 0x4147cbb0 ([B) is now 520
+D/WifiP2pService(  993): wait for wifi sta and softap disabled!!
+D/MonitorCw880( 1546): counter=6 && isHeartbeatTimeout=false
+W/dalvikvm( 1546): JNI: pin count on array 0x4147cbb0 ([B) is now 521
+D/WifiP2pService(  993): wait for wifi sta and softap disabled!!
+W/dalvikvm( 1546): JNI: pin count on array 0x4147cbb0 ([B) is now 522
+D/dalvikvm( 1158): GC_CONCURRENT freed 675K, 66% free 2528K/7363K, paused 1ms+1ms
+D/WifiP2pService(  993): wait for wifi sta and softap disabled!!
+D/dalvikvm( 1158): GC_CONCURRENT freed 690K, 66% free 2528K/7363K, paused 3ms+1ms
+D/MonitorCw880( 1546): counter=8 && isHeartbeatTimeout=false
+D/dalvikvm( 1158): GC_CONCURRENT freed 700K, 66% free 2530K/7363K, paused 1ms+1ms
+W/dalvikvm( 1546): JNI: pin count on array 0x4147cbb0 ([B) is now 523
+D/dalvikvm( 1158): GC_CONCURRENT freed 703K, 66% free 2528K/7363K, paused 1ms+3ms
+D/WifiP2pService(  993): wait for wifi sta and softap disabled!!
+D/dalvikvm( 1158): GC_CONCURRENT freed 698K, 68% free 2408K/7363K, paused 1ms+1ms
+D/dalvikvm( 1158): GC_CONCURRENT freed 539K, 67% free 2470K/7363K, paused 1ms+1ms
+D/dalvikvm( 1158): GC_CONCURRENT freed 620K, 66% free 2535K/7363K, paused 1ms+1ms
+W/dalvikvm( 1546): JNI: pin count on array 0x4147cbb0 ([B) is now 524
+D/WifiP2pService(  993): wait for wifi sta and softap disabled!!
+D/dalvikvm( 1158): GC_CONCURRENT freed 704K, 66% free 2527K/7363K, paused 1ms+3ms
+D/MonitorCw880( 1546): counter=10 && isHeartbeatTimeout=false
+D/dalvikvm( 1158): GC_CONCURRENT freed 691K, 67% free 2484K/7363K, paused 2ms+1ms
+W/dalvikvm( 1546): JNI: pin count on array 0x4147cbb0 ([B) is now 525
+D/dalvikvm( 1158): GC_CONCURRENT freed 635K, 66% free 2537K/7363K, paused 1ms+2ms
+D/WifiP2pService(  993): wait for wifi sta and softap disabled!!
+D/dalvikvm( 1158): GC_CONCURRENT freed 705K, 66% free 2514K/7363K, paused 1ms+1ms
+D/dalvikvm( 1158): GC_CONCURRENT freed 675K, 66% free 2530K/7363K, paused 1ms+2ms
+
+W/dalvikvm( 1546): JNI: pin count on array 0x4147cbb0 ([B) is now 526
+D/WifiP2pService(  993): wait for wifi sta and softap disabled!!
+D/MonitorCw880( 1546): counter=12 && isHeartbeatTimeout=false
+^C
+130|shell@android:/ # tcpdump -s 0 port 1234
+[ 2670.873402] device eth0 entered promiscuous mode
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 65535 bytes
+20:40:09.063689 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 3384413028:3384414344(1316) ack 1412006325 win 2896 <nop,nop,timestamp 667725 289058>
+20:40:09.064674 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 1316:2764(1448) ack 1 win 2896 <nop,nop,timestamp 667725 289058>
+20:40:09.064736 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 2764:4212(1448) ack 1 win 2896 <nop,nop,timestamp 667725 289058>
+20:40:09.065107 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4212:5660(1448) ack 1 win 2896 <nop,nop,timestamp 667725 289058>
+20:40:09.065340 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 5660:7108(1448) ack 1 win 2896 <nop,nop,timestamp 667725 289058>
+20:40:09.065394 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 7108:8556(1448) ack 1 win 2896 <nop,nop,timestamp 667725 289058>
+20:40:09.065437 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 8556:10004(1448) ack 1 win 2896 <nop,nop,timestamp 667725 289058>
+20:40:09.065482 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 10004:11452(1448) ack 1 win 2896 <nop,nop,timestamp 667725 289058>
+20:40:09.065542 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 11452:12900(1448) ack 1 win 2896 <nop,nop,timestamp 667725 289058>
+20:40:09.065588 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 12900:14348(1448) ack 1 win 2896 <nop,nop,timestamp 667725 289058>
+20:40:09.075789 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 1316 win 3072 <nop,nop,timestamp 289062 667725>
+20:40:09.076001 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 14348:15792(1444) ack 1 win 2896 <nop,nop,timestamp 667728 289062>
+20:40:09.078291 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 14348 win 2872 <nop,nop,timestamp 289062 667725>
+20:40:09.081071 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 15792 win 3072 <nop,nop,timestamp 289063 667728>
+20:40:09.105254 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 15792:17108(1316) ack 1 win 2896 <nop,nop,timestamp 667735 289063>
+20:40:09.105356 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 17108:18556(1448) ack 1 win 2896 <nop,nop,timestamp 667735 289063>
+20:40:09.105423 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 18556:20004(1448) ack 1 win 2896 <nop,nop,timestamp 667735 289063>
+20:40:09.105472 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 20004:21452(1448) ack 1 win 2896 <nop,nop,timestamp 667735 289063>
+20:40:09.105520 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 21452:22900(1448) ack 1 win 2896 <nop,nop,timestamp 667735 289063>
+20:40:09.117084 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 17108 win 3072 <nop,nop,timestamp 289065 667735>
+20:40:09.117273 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 22900:23688(788) ack 1 win 2896 <nop,nop,timestamp 667738 289065>
+20:40:09.120380 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 22900 win 3004 <nop,nop,timestamp 289066 667735>
+20:40:09.122242 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 23688 win 3072 <nop,nop,timestamp 289067 667738>
+20:40:09.141265 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 23688:25004(1316) ack 1 win 2896 <nop,nop,timestamp 667744 289067>
+20:40:09.141355 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 25004:26452(1448) ack 1 win 2896 <nop,nop,timestamp 667744 289067>
+20:40:09.141402 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 26452:27900(1448) ack 1 win 2896 <nop,nop,timestamp 667744 289067>
+20:40:09.141464 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 27900:29348(1448) ack 1 win 2896 <nop,nop,timestamp 667744 289067>
+20:40:09.141506 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 29348:30796(1448) ack 1 win 2896 <nop,nop,timestamp 667744 289067>
+20:40:09.145324 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 30796:32244(1448) ack 1 win 2896 <nop,nop,timestamp 667745 289067>
+20:40:09.145543 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 32244:33692(1448) ack 1 win 2896 <nop,nop,timestamp 667745 289067>
+20:40:09.145600 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 33692:35140(1448) ack 1 win 2896 <nop,nop,timestamp 667745 289067>
+20:40:09.145646 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 35140:36588(1448) ack 1 win 2896 <nop,nop,timestamp 667745 289067>
+20:40:09.145700 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 36588:38036(1448) ack 1 win 2896 <nop,nop,timestamp 667745 289067>
+20:40:09.149029 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 25004 win 3072 <nop,nop,timestamp 289069 667744>
+20:40:09.149229 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 38036:39480(1444) ack 1 win 2896 <nop,nop,timestamp 667746 289069>
+20:40:09.150963 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 30796 win 2983 <nop,nop,timestamp 289070 667744>
+20:40:09.152477 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 33692 win 3030 <nop,nop,timestamp 289070 667745>
+20:40:09.155578 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 39480 win 2941 <nop,nop,timestamp 289070 667745>
+20:40:09.185227 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 39480:40796(1316) ack 1 win 2896 <nop,nop,timestamp 667755 289070>
+20:40:09.185326 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 40796:42244(1448) ack 1 win 2896 <nop,nop,timestamp 667755 289070>
+20:40:09.185374 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 42244:43692(1448) ack 1 win 2896 <nop,nop,timestamp 667755 289070>
+20:40:09.185460 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 43692:45140(1448) ack 1 win 2896 <nop,nop,timestamp 667755 289070>
+20:40:09.185519 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 45140:46588(1448) ack 1 win 2896 <nop,nop,timestamp 667755 289070>
+20:40:09.189158 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 46588:48036(1448) ack 1 win 2896 <nop,nop,timestamp 667756 289070>
+20:40:09.189269 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 48036:49484(1448) ack 1 win 2896 <nop,nop,timestamp 667756 289070>
+20:40:09.189312 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 49484:50932(1448) ack 1 win 2896 <nop,nop,timestamp 667756 289070>
+20:40:09.189367 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 50932:52380(1448) ack 1 win 2896 <nop,nop,timestamp 667756 289070>
+20:40:09.189405 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 52380:53828(1448) ack 1 win 2896 <nop,nop,timestamp 667756 289070>
+20:40:09.217251 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 53828:55276(1448) ack 1 win 2896 <nop,nop,timestamp 667763 289070>
+20:40:09.217341 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 55276:56724(1448) ack 1 win 2896 <nop,nop,timestamp 667763 289070>
+20:40:09.217388 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 56724:58172(1448) ack 1 win 2896 <nop,nop,timestamp 667763 289070>
+20:40:09.217466 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 58172:59620(1448) ack 1 win 2896 <nop,nop,timestamp 667763 289070>
+20:40:09.217511 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 59620:61068(1448) ack 1 win 2896 <nop,nop,timestamp 667763 289070>
+20:40:09.217563 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 61068:62516(1448) ack 1 win 2896 <nop,nop,timestamp 667763 289070>
+20:40:09.227952 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 40796 win 3072 <nop,nop,timestamp 289076 667755>
+20:40:09.228104 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 62516:63168(652) ack 1 win 2896 <nop,nop,timestamp 667766 289076>
+20:40:09.228496 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 48036 win 2962 <nop,nop,timestamp 289076 667755>
+20:40:09.228504 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 50932 win 3004 <nop,nop,timestamp 289076 667756>
+20:40:09.228543 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 53828 win 2983 <nop,nop,timestamp 289077 667756>
+20:40:09.228549 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 56724 win 3051 <nop,nop,timestamp 289077 667763>
+20:40:09.229086 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 63168:64616(1448) ack 1 win 2896 <nop,nop,timestamp 667766 289077>
+20:40:09.229132 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 64616:66064(1448) ack 1 win 2896 <nop,nop,timestamp 667766 289077>
+20:40:09.229170 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 66064:67512(1448) ack 1 win 2896 <nop,nop,timestamp 667766 289077>
+20:40:09.229206 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 67512:68960(1448) ack 1 win 2896 <nop,nop,timestamp 667766 289077>
+20:40:09.229243 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 62516 win 2962 <nop,nop,timestamp 289077 667763>
+20:40:09.229292 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 68960:70408(1448) ack 1 win 2896 <nop,nop,timestamp 667766 289077>
+20:40:09.233599 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 64616 win 3036 <nop,nop,timestamp 289078 667766>
+20:40:09.233713 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 70408:71064(656) ack 1 win 2896 <nop,nop,timestamp 667767 289078>
+20:40:09.235333 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 70408 win 2983 <nop,nop,timestamp 289078 667766>
+20:40:09.239012 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 71064 win 3072 <nop,nop,timestamp 289078 667767>
+20:40:09.265394 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 71064:72380(1316) ack 1 win 2896 <nop,nop,timestamp 667775 289078>
+20:40:09.265475 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 72380:73828(1448) ack 1 win 2896 <nop,nop,timestamp 667775 289078>
+20:40:09.265522 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 73828:75276(1448) ack 1 win 2896 <nop,nop,timestamp 667775 289078>
+20:40:09.265593 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 75276:76724(1448) ack 1 win 2896 <nop,nop,timestamp 667775 289078>
+20:40:09.265649 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 76724:78172(1448) ack 1 win 2896 <nop,nop,timestamp 667775 289078>
+20:40:09.269160 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 78172:79620(1448) ack 1 win 2896 <nop,nop,timestamp 667776 289078>
+20:40:09.269288 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 79620:81068(1448) ack 1 win 2896 <nop,nop,timestamp 667776 289078>
+20:40:09.269357 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 81068:82516(1448) ack 1 win 2896 <nop,nop,timestamp 667776 289078>
+20:40:09.269405 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 82516:83964(1448) ack 1 win 2896 <nop,nop,timestamp 667776 289078>
+20:40:09.269462 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 83964:85412(1448) ack 1 win 2896 <nop,nop,timestamp 667776 289078>
+20:40:09.279461 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 85412 win 2872 <nop,nop,timestamp 289082 667775>
+20:40:09.279670 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 85412:86856(1444) ack 1 win 2896 <nop,nop,timestamp 667779 289082>
+20:40:09.293153 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 86856 win 3072 <nop,nop,timestamp 289084 667779>
+20:40:09.297259 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 86856:88172(1316) ack 1 win 2896 <nop,nop,timestamp 667783 289084>
+20:40:09.297341 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 88172:89620(1448) ack 1 win 2896 <nop,nop,timestamp 667783 289084>
+20:40:09.297395 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 89620:91068(1448) ack 1 win 2896 <nop,nop,timestamp 667783 289084>
+20:40:09.297462 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 91068:92516(1448) ack 1 win 2896 <nop,nop,timestamp 667783 289084>
+20:40:09.297506 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 92516:93964(1448) ack 1 win 2896 <nop,nop,timestamp 667783 289084>
+20:40:09.302674 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 88172 win 3072 <nop,nop,timestamp 289085 667783>
+20:40:09.302837 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 93964:94752(788) ack 1 win 2896 <nop,nop,timestamp 667784 289085>
+20:40:09.305581 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 93964 win 3004 <nop,nop,timestamp 289085 667783>
+20:40:09.308225 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 94752 win 3072 <nop,nop,timestamp 289085 667784>
+20:40:09.309282 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 94752:96068(1316) ack 1 win 2896 <nop,nop,timestamp 667786 289085>
+20:40:09.309366 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 96068:97516(1448) ack 1 win 2896 <nop,nop,timestamp 667786 289085>
+20:40:09.309413 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 97516:98964(1448) ack 1 win 2896 <nop,nop,timestamp 667786 289085>
+20:40:09.309480 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 98964:100412(1448) ack 1 win 2896 <nop,nop,timestamp 667786 289085>
+20:40:09.309525 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 100412:101860(1448) ack 1 win 2896 <nop,nop,timestamp 667786 289085>
+20:40:09.317166 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 96068 win 3072 <nop,nop,timestamp 289086 667786>
+20:40:09.317349 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 101860:102648(788) ack 1 win 2896 <nop,nop,timestamp 667788 289086>
+20:40:09.321788 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 102648 win 2995 <nop,nop,timestamp 289087 667786>
+20:40:09.345193 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 102648:103964(1316) ack 1 win 2896 <nop,nop,timestamp 667795 289087>
+20:40:09.345287 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 103964:105412(1448) ack 1 win 2896 <nop,nop,timestamp 667795 289087>
+20:40:09.345327 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 105412:106860(1448) ack 1 win 2896 <nop,nop,timestamp 667795 289087>
+20:40:09.345378 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 106860:108308(1448) ack 1 win 2896 <nop,nop,timestamp 667795 289087>
+20:40:09.345415 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 108308:109756(1448) ack 1 win 2896 <nop,nop,timestamp 667795 289087>
+20:40:09.348678 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 103964 win 3072 <nop,nop,timestamp 289089 667795>
+20:40:09.348808 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 109756:110544(788) ack 1 win 2896 <nop,nop,timestamp 667796 289089>
+20:40:09.352627 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 109756 win 3004 <nop,nop,timestamp 289090 667795>
+20:40:09.352636 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 110544 win 3072 <nop,nop,timestamp 289090 667796>
+20:40:09.369137 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 110544:111860(1316) ack 1 win 2896 <nop,nop,timestamp 667801 289090>
+20:40:09.369215 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 111860:113308(1448) ack 1 win 2896 <nop,nop,timestamp 667801 289090>
+20:40:09.369256 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 113308:114756(1448) ack 1 win 2896 <nop,nop,timestamp 667801 289090>
+20:40:09.369310 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 114756:116204(1448) ack 1 win 2896 <nop,nop,timestamp 667801 289090>
+20:40:09.369363 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 116204:117652(1448) ack 1 win 2896 <nop,nop,timestamp 667801 289090>
+20:40:09.376108 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 111860 win 3072 <nop,nop,timestamp 289092 667801>
+20:40:09.376265 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 117652:118440(788) ack 1 win 2896 <nop,nop,timestamp 667803 289092>
+20:40:09.376115 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 117652 win 2983 <nop,nop,timestamp 289092 667801>
+20:40:09.381139 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 118440 win 3072 <nop,nop,timestamp 289092 667803>
+20:40:09.381312 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 118440:119756(1316) ack 1 win 2896 <nop,nop,timestamp 667804 289092>
+20:40:09.381373 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 119756:121204(1448) ack 1 win 2896 <nop,nop,timestamp 667804 289092>
+20:40:09.388557 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 119756 win 3072 <nop,nop,timestamp 289093 667804>
+20:40:09.388565 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 125548 win 2983 <nop,nop,timestamp 289093 667804>
+20:40:09.402963 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 126336 win 3072 <nop,nop,timestamp 289095 667806>
+20:40:09.405164 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 133576 win 2962 <nop,nop,timestamp 289095 667807>
+20:40:09.406634 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 134232 win 3072 <nop,nop,timestamp 289095 667810>
+20:40:09.432923 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 135548 win 3072 <nop,nop,timestamp 289098 667816>
+20:40:09.545116 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 173712:175028(1316) ack 1 win 2896 <nop,nop,timestamp 667845 289106>
+20:40:09.545188 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 175028:176476(1448) ack 1 win 2896 <nop,nop,timestamp 667845 289106>
+20:40:09.545226 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 176476:177924(1448) ack 1 win 2896 <nop,nop,timestamp 667845 289106>
+20:40:09.545279 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 177924:179372(1448) ack 1 win 2896 <nop,nop,timestamp 667845 289106>
+20:40:09.545320 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 179372:180820(1448) ack 1 win 2896 <nop,nop,timestamp 667845 289106>
+20:40:09.549050 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 180820:182268(1448) ack 1 win 2896 <nop,nop,timestamp 667846 289106>
+20:40:09.549109 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 182268:183716(1448) ack 1 win 2896 <nop,nop,timestamp 667846 289106>
+20:40:09.549149 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 183716:185164(1448) ack 1 win 2896 <nop,nop,timestamp 667846 289106>
+20:40:09.549182 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 175028 win 3072 <nop,nop,timestamp 289109 667845>
+20:40:09.549261 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 185164:186612(1448) ack 1 win 2896 <nop,nop,timestamp 667846 289106>
+20:40:09.549313 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 186612:186872(260) ack 1 win 2896 <nop,nop,timestamp 667846 289109>
+20:40:09.549369 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 186872:188320(1448) ack 1 win 2896 <nop,nop,timestamp 667846 289109>
+20:40:09.555929 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 182268 win 2962 <nop,nop,timestamp 289110 667845>
+20:40:09.560571 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 185164 win 3051 <nop,nop,timestamp 289111 667846>
+20:40:09.566908 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 188320 win 3002 <nop,nop,timestamp 289111 667846>
+20:40:09.567085 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 188320:189504(1184) ack 1 win 2896 <nop,nop,timestamp 667850 289111>
+20:40:09.573295 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 189504 win 3072 <nop,nop,timestamp 289112 667850>
+20:40:09.589191 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 189504:190820(1316) ack 1 win 2896 <nop,nop,timestamp 667856 289112>
+20:40:09.589262 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 190820:192268(1448) ack 1 win 2896 <nop,nop,timestamp 667856 289112>
+20:40:09.589301 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 192268:193716(1448) ack 1 win 2896 <nop,nop,timestamp 667856 289112>
+20:40:09.589355 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 193716:195164(1448) ack 1 win 2896 <nop,nop,timestamp 667856 289112>
+20:40:09.589394 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 195164:196612(1448) ack 1 win 2896 <nop,nop,timestamp 667856 289112>
+20:40:09.605045 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 190820 win 3072 <nop,nop,timestamp 289115 667856>
+20:40:09.605211 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 196612:197400(788) ack 1 win 2896 <nop,nop,timestamp 667860 289115>
+20:40:09.607631 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 196612 win 3004 <nop,nop,timestamp 289115 667856>
+20:40:09.610650 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 197400 win 3072 <nop,nop,timestamp 289116 667860>
+20:40:09.613028 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 197400:198716(1316) ack 1 win 2896 <nop,nop,timestamp 667862 289116>
+20:40:09.613084 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 198716:200164(1448) ack 1 win 2896 <nop,nop,timestamp 667862 289116>
+20:40:09.613122 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 200164:201612(1448) ack 1 win 2896 <nop,nop,timestamp 667862 289116>
+20:40:09.613171 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 201612:203060(1448) ack 1 win 2896 <nop,nop,timestamp 667862 289116>
+20:40:09.616901 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 198716 win 3072 <nop,nop,timestamp 289116 667862>
+20:40:09.861163 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 300048:301364(1316) ack 1 win 2896 <nop,nop,timestamp 667924 289138>
+20:40:09.861258 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 301364:302812(1448) ack 1 win 2896 <nop,nop,timestamp 667924 289138>
+20:40:09.861319 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 302812:304260(1448) ack 1 win 2896 <nop,nop,timestamp 667924 289138>
+20:40:09.861369 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 304260:305708(1448) ack 1 win 2896 <nop,nop,timestamp 667924 289138>
+20:40:09.861415 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 305708:307156(1448) ack 1 win 2896 <nop,nop,timestamp 667924 289138>
+20:40:09.865309 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 307156:308604(1448) ack 1 win 2896 <nop,nop,timestamp 667925 289138>
+20:40:09.865387 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 308604:310052(1448) ack 1 win 2896 <nop,nop,timestamp 667925 289138>
+20:40:09.865437 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 310052:311500(1448) ack 1 win 2896 <nop,nop,timestamp 667925 289138>
+20:40:09.865501 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 311500:312948(1448) ack 1 win 2896 <nop,nop,timestamp 667925 289138>
+20:40:09.865547 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 312948:314396(1448) ack 1 win 2896 <nop,nop,timestamp 667925 289138>
+20:40:09.867813 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 301364 win 3072 <nop,nop,timestamp 289141 667924>
+20:40:09.867907 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 314396:315840(1444) ack 1 win 2896 <nop,nop,timestamp 667926 289141>
+20:40:09.871043 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 304260 win 3051 <nop,nop,timestamp 289142 667924>
+20:40:09.871050 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 310052 win 2983 <nop,nop,timestamp 289142 667924>
+20:40:09.872938 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 312948 win 3030 <nop,nop,timestamp 289142 667925>
+20:40:09.872945 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 315840 win 2985 <nop,nop,timestamp 289142 667925>
+20:40:09.905107 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 315840:317156(1316) ack 1 win 2896 <nop,nop,timestamp 667935 289142>
+20:40:09.905180 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 317156:318604(1448) ack 1 win 2896 <nop,nop,timestamp 667935 289142>
+20:40:09.905221 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 318604:320052(1448) ack 1 win 2896 <nop,nop,timestamp 667935 289142>
+20:40:09.905294 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 320052:321500(1448) ack 1 win 2896 <nop,nop,timestamp 667935 289142>
+20:40:09.905340 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 321500:322948(1448) ack 1 win 2896 <nop,nop,timestamp 667935 289142>
+20:40:09.909031 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 322948:324396(1448) ack 1 win 2896 <nop,nop,timestamp 667936 289142>
+20:40:09.909085 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 324396:325844(1448) ack 1 win 2896 <nop,nop,timestamp 667936 289142>
+20:40:09.909122 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 325844:327292(1448) ack 1 win 2896 <nop,nop,timestamp 667936 289142>
+20:40:09.909159 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 327292:328740(1448) ack 1 win 2896 <nop,nop,timestamp 667936 289142>
+20:40:09.909213 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 328740:330188(1448) ack 1 win 2896 <nop,nop,timestamp 667936 289142>
+20:40:09.911478 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 317156 win 3072 <nop,nop,timestamp 289145 667935>
+20:40:09.911573 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 330188:331632(1444) ack 1 win 2896 <nop,nop,timestamp 667937 289145>
+20:40:09.913342 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 322948 win 2983 <nop,nop,timestamp 289146 667935>
+20:40:09.916546 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 325844 win 3051 <nop,nop,timestamp 289146 667936>
+20:40:09.920847 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 330188 win 2984 <nop,nop,timestamp 289146 667936>
+20:40:09.920856 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 331632 win 3072 <nop,nop,timestamp 289146 667937>
+20:40:09.953505 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 332948 win 3072 <nop,nop,timestamp 289150 667946>
+20:40:09.955229 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 335844 win 3030 <nop,nop,timestamp 289150 667946>
+20:40:09.955239 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 338740 win 3004 <nop,nop,timestamp 289150 667946>
+20:40:09.957341 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 339528 win 3072 <nop,nop,timestamp 289150 667947>
+20:40:09.987107 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 340844 win 3072 <nop,nop,timestamp 289153 667952>
+20:40:10.193860 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 417700 win 2983 <nop,nop,timestamp 289174 668004>
+20:40:10.208863 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 420596 win 3051 <nop,nop,timestamp 289175 668005>
+20:40:10.208870 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 423492 win 3031 <nop,nop,timestamp 289175 668005>
+20:40:10.210104 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 426384 win 3004 <nop,nop,timestamp 289175 668005>
+20:40:10.225317 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 426384:427700(1316) ack 1 win 2896 <nop,nop,timestamp 668015 289175>
+20:40:10.225422 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 427700:429148(1448) ack 1 win 2896 <nop,nop,timestamp 668015 289175>
+20:40:10.225500 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 429148:430596(1448) ack 1 win 2896 <nop,nop,timestamp 668015 289175>
+20:40:10.225551 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 430596:432044(1448) ack 1 win 2896 <nop,nop,timestamp 668015 289175>
+20:40:10.225607 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 432044:433492(1448) ack 1 win 2896 <nop,nop,timestamp 668015 289175>
+20:40:10.229102 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 433492:434940(1448) ack 1 win 2896 <nop,nop,timestamp 668016 289175>
+20:40:10.229168 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 434940:436388(1448) ack 1 win 2896 <nop,nop,timestamp 668016 289175>
+20:40:10.229208 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 436388:437836(1448) ack 1 win 2896 <nop,nop,timestamp 668016 289175>
+20:40:10.229247 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 437836:439284(1448) ack 1 win 2896 <nop,nop,timestamp 668016 289175>
+20:40:10.229297 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 439284:440732(1448) ack 1 win 2896 <nop,nop,timestamp 668016 289175>
+20:40:10.231372 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 427700 win 3072 <nop,nop,timestamp 289178 668015>
+20:40:10.231481 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 440732:442176(1444) ack 1 win 2896 <nop,nop,timestamp 668017 289178>
+20:40:10.233212 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 433492 win 2983 <nop,nop,timestamp 289178 668015>
+20:40:10.239260 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 436388 win 3051 <nop,nop,timestamp 289178 668016>
+20:40:10.241256 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 440732 win 3031 <nop,nop,timestamp 289178 668016>
+20:40:10.241263 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 442176 win 3072 <nop,nop,timestamp 289179 668017>
+20:40:10.269091 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 442176:443492(1316) ack 1 win 2896 <nop,nop,timestamp 668026 289179>
+20:40:10.269160 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 443492:444940(1448) ack 1 win 2896 <nop,nop,timestamp 668026 289179>
+20:40:10.269200 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 444940:446388(1448) ack 1 win 2896 <nop,nop,timestamp 668026 289179>
+20:40:10.269256 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 446388:447836(1448) ack 1 win 2896 <nop,nop,timestamp 668026 289179>
+20:40:10.269296 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 447836:449284(1448) ack 1 win 2896 <nop,nop,timestamp 668026 289179>
+20:40:10.279252 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 443492 win 3072 <nop,nop,timestamp 289182 668026>
+20:40:10.279429 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 449284:450072(788) ack 1 win 2896 <nop,nop,timestamp 668029 289182>
+20:40:10.282065 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 449284 win 2983 <nop,nop,timestamp 289183 668026>
+20:40:10.282074 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 450072 win 3072 <nop,nop,timestamp 289183 668029>
+20:40:10.293177 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 450072:451388(1316) ack 1 win 2896 <nop,nop,timestamp 668032 289183>
+20:40:10.293601 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 451388:452836(1448) ack 1 win 2896 <nop,nop,timestamp 668032 289183>
+20:40:10.526117 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 544824 win 3072 <nop,nop,timestamp 289207 668089>
+20:40:10.537061 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 544824:546140(1316) ack 1 win 2896 <nop,nop,timestamp 668093 289207>
+20:40:10.537129 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 546140:547588(1448) ack 1 win 2896 <nop,nop,timestamp 668093 289207>
+20:40:10.537168 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 547588:549036(1448) ack 1 win 2896 <nop,nop,timestamp 668093 289207>
+20:40:10.537219 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 549036:550484(1448) ack 1 win 2896 <nop,nop,timestamp 668093 289207>
+20:40:10.537261 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 550484:551932(1448) ack 1 win 2896 <nop,nop,timestamp 668093 289207>
+20:40:10.541242 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 551932:553380(1448) ack 1 win 2896 <nop,nop,timestamp 668094 289207>
+20:40:10.541364 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 553380:554828(1448) ack 1 win 2896 <nop,nop,timestamp 668094 289207>
+20:40:10.541431 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 554828:556276(1448) ack 1 win 2896 <nop,nop,timestamp 668094 289207>
+20:40:10.541477 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 556276:557724(1448) ack 1 win 2896 <nop,nop,timestamp 668094 289207>
+20:40:10.541520 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 557724:559172(1448) ack 1 win 2896 <nop,nop,timestamp 668094 289207>
+20:40:10.549044 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 546140 win 3072 <nop,nop,timestamp 289209 668093>
+20:40:10.549185 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 559172:560616(1444) ack 1 win 2896 <nop,nop,timestamp 668096 289209>
+20:40:10.550692 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 554828 win 2962 <nop,nop,timestamp 289210 668093>
+20:40:10.555036 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 559172 win 2915 <nop,nop,timestamp 289210 668094>
+20:40:10.556424 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 560616 win 3072 <nop,nop,timestamp 289210 668096>
+20:40:10.569092 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 560616:561932(1316) ack 1 win 2896 <nop,nop,timestamp 668101 289210>
+20:40:10.569162 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 561932:563380(1448) ack 1 win 2896 <nop,nop,timestamp 668101 289210>
+20:40:10.569205 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 563380:564828(1448) ack 1 win 2896 <nop,nop,timestamp 668101 289210>
+20:40:10.569256 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 564828:566276(1448) ack 1 win 2896 <nop,nop,timestamp 668101 289210>
+20:40:10.569295 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 566276:567724(1448) ack 1 win 2896 <nop,nop,timestamp 668101 289210>
+20:40:10.578454 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 561932 win 3072 <nop,nop,timestamp 289212 668101>
+20:40:10.578599 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 567724:568512(788) ack 1 win 2896 <nop,nop,timestamp 668103 289212>
+20:40:10.584241 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 568512 win 2970 <nop,nop,timestamp 289213 668101>
+20:40:10.593188 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 568512:569828(1316) ack 1 win 2896 <nop,nop,timestamp 668107 289213>
+20:40:10.593280 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 569828:571276(1448) ack 1 win 2896 <nop,nop,timestamp 668107 289213>
+20:40:10.593354 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 571276:572724(1448) ack 1 win 2896 <nop,nop,timestamp 668107 289213>
+20:40:10.593403 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 572724:574172(1448) ack 1 win 2896 <nop,nop,timestamp 668107 289213>
+20:40:10.593452 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 574172:575620(1448) ack 1 win 2896 <nop,nop,timestamp 668107 289213>
+20:40:10.596801 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 569828 win 3072 <nop,nop,timestamp 289214 668107>
+20:40:10.861155 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 662476:663924(1448) ack 1 win 2896 <nop,nop,timestamp 668174 289239>
+20:40:10.861232 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 663924:665372(1448) ack 1 win 2896 <nop,nop,timestamp 668174 289239>
+20:40:10.861280 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 656684 win 3072 <nop,nop,timestamp 289241 668173>
+20:40:10.861383 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 665372:666820(1448) ack 1 win 2896 <nop,nop,timestamp 668174 289239>
+20:40:10.861463 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 666820:667212(392) ack 1 win 2896 <nop,nop,timestamp 668174 289241>
+20:40:10.861514 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 667212:668660(1448) ack 1 win 2896 <nop,nop,timestamp 668174 289241>
+20:40:10.861569 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 668660:670108(1448) ack 1 win 2896 <nop,nop,timestamp 668174 289241>
+20:40:10.867913 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 662476 win 2983 <nop,nop,timestamp 289241 668173>
+20:40:10.872740 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 665372 win 3051 <nop,nop,timestamp 289241 668174>
+20:40:10.873988 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 670108 win 3001 <nop,nop,timestamp 289242 668174>
+20:40:10.874060 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 670108:671160(1052) ack 1 win 2896 <nop,nop,timestamp 668177 289242>
+20:40:10.901190 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 671160:672608(1448) ack 1 win 2896 <nop,nop,timestamp 668184 289242>
+20:40:10.901260 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 672608:674056(1448) ack 1 win 2896 <nop,nop,timestamp 668184 289242>
+20:40:10.901306 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 674056:675504(1448) ack 1 win 2896 <nop,nop,timestamp 668184 289242>
+20:40:10.901368 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 675504:676952(1448) ack 1 win 2896 <nop,nop,timestamp 668184 289242>
+20:40:10.901420 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 676952:678400(1448) ack 1 win 2896 <nop,nop,timestamp 668184 289242>
+20:40:10.905088 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 678400:679848(1448) ack 1 win 2896 <nop,nop,timestamp 668185 289242>
+20:40:10.905156 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 679848:681296(1448) ack 1 win 2896 <nop,nop,timestamp 668185 289242>
+20:40:10.905195 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 681296:682744(1448) ack 1 win 2896 <nop,nop,timestamp 668185 289242>
+20:40:10.964778 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 671160 win 3072 <nop,nop,timestamp 289244 668177>
+20:40:11.202739 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 790916 win 3072 <nop,nop,timestamp 289275 668256>
+20:40:11.202937 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 796708:797496(788) ack 1 win 2896 <nop,nop,timestamp 668259 289275>
+20:40:11.207263 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 796708 win 2983 <nop,nop,timestamp 289275 668256>
+20:40:11.213102 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 797496:798944(1448) ack 1 win 2896 <nop,nop,timestamp 668262 289275>
+20:40:11.213186 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 798944:800392(1448) ack 1 win 2896 <nop,nop,timestamp 668262 289275>
+20:40:11.213226 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 800392:801840(1448) ack 1 win 2896 <nop,nop,timestamp 668262 289275>
+20:40:11.213278 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 801840:803288(1448) ack 1 win 2896 <nop,nop,timestamp 668262 289275>
+20:40:11.213317 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 803288:804736(1448) ack 1 win 2896 <nop,nop,timestamp 668262 289275>
+20:40:11.223236 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 797496 win 3072 <nop,nop,timestamp 289275 668259>
+20:40:11.223399 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 804736:805392(656) ack 1 win 2896 <nop,nop,timestamp 668265 289275>
+20:40:11.225346 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 805392:806840(1448) ack 1 win 2896 <nop,nop,timestamp 668265 289275>
+20:40:11.225406 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 806840:808288(1448) ack 1 win 2896 <nop,nop,timestamp 668265 289275>
+20:40:11.225465 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 808288:809736(1448) ack 1 win 2896 <nop,nop,timestamp 668265 289275>
+20:40:11.225517 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 809736:811184(1448) ack 1 win 2896 <nop,nop,timestamp 668265 289275>
+20:40:11.225556 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 811184:812632(1448) ack 1 win 2896 <nop,nop,timestamp 668265 289275>
+20:40:11.230977 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 800392 win 3051 <nop,nop,timestamp 289277 668262>
+20:40:11.236441 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 806840 win 2974 <nop,nop,timestamp 289277 668262>
+20:40:11.236613 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 812632:813288(656) ack 1 win 2896 <nop,nop,timestamp 668268 289277>
+20:40:11.236453 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 809736 win 3051 <nop,nop,timestamp 289278 668265>
+20:40:11.236707 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 812632 win 3046 <nop,nop,timestamp 289278 668265>
+20:40:11.249906 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 813288 win 3072 <nop,nop,timestamp 289280 668268>
+20:40:11.261233 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 813288:814604(1316) ack 1 win 2896 <nop,nop,timestamp 668274 289280>
+20:40:11.261316 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 814604:816052(1448) ack 1 win 2896 <nop,nop,timestamp 668274 289280>
+20:40:11.261360 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 816052:817500(1448) ack 1 win 2896 <nop,nop,timestamp 668274 289280>
+20:40:11.261414 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 817500:818948(1448) ack 1 win 2896 <nop,nop,timestamp 668274 289280>
+20:40:11.261454 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 818948:820396(1448) ack 1 win 2896 <nop,nop,timestamp 668274 289280>
+20:40:11.265044 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 820396:821844(1448) ack 1 win 2896 <nop,nop,timestamp 668275 289280>
+20:40:11.265129 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 821844:823292(1448) ack 1 win 2896 <nop,nop,timestamp 668275 289280>
+20:40:11.265172 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 823292:824740(1448) ack 1 win 2896 <nop,nop,timestamp 668275 289280>
+20:40:11.279133 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 814604 win 3072 <nop,nop,timestamp 289282 668274>
+20:40:11.538600 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 909356 win 3072 <nop,nop,timestamp 289308 668341>
+20:40:11.538787 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 915148:915936(788) ack 1 win 2896 <nop,nop,timestamp 668343 289308>
+20:40:11.541192 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 915936:917384(1448) ack 1 win 2896 <nop,nop,timestamp 668344 289308>
+20:40:11.541271 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 917384:918832(1448) ack 1 win 2896 <nop,nop,timestamp 668344 289308>
+20:40:11.541313 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 918832:920280(1448) ack 1 win 2896 <nop,nop,timestamp 668344 289308>
+20:40:11.541362 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 920280:921728(1448) ack 1 win 2896 <nop,nop,timestamp 668344 289308>
+20:40:11.541401 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 921728:923176(1448) ack 1 win 2896 <nop,nop,timestamp 668344 289308>
+20:40:11.541850 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 915936 win 2988 <nop,nop,timestamp 289309 668341>
+20:40:11.541973 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 923176:923832(656) ack 1 win 2896 <nop,nop,timestamp 668344 289309>
+20:40:11.570736 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 918832 win 3051 <nop,nop,timestamp 289309 668344>
+20:40:11.570749 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 923176 win 2984 <nop,nop,timestamp 289309 668344>
+20:40:11.572304 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 923832 win 3072 <nop,nop,timestamp 289311 668344>
+20:40:11.577213 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 923832:925148(1316) ack 1 win 2896 <nop,nop,timestamp 668353 289311>
+20:40:11.577301 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 925148:926596(1448) ack 1 win 2896 <nop,nop,timestamp 668353 289311>
+20:40:11.577354 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 926596:928044(1448) ack 1 win 2896 <nop,nop,timestamp 668353 289311>
+20:40:11.577428 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 928044:929492(1448) ack 1 win 2896 <nop,nop,timestamp 668353 289311>
+20:40:11.577472 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 929492:930940(1448) ack 1 win 2896 <nop,nop,timestamp 668353 289311>
+20:40:11.581250 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 930940:932388(1448) ack 1 win 2896 <nop,nop,timestamp 668354 289311>
+20:40:11.581329 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 932388:933836(1448) ack 1 win 2896 <nop,nop,timestamp 668354 289311>
+20:40:11.581377 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 933836:935284(1448) ack 1 win 2896 <nop,nop,timestamp 668354 289311>
+20:40:11.581443 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 935284:936732(1448) ack 1 win 2896 <nop,nop,timestamp 668354 289311>
+20:40:11.581490 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 936732:938180(1448) ack 1 win 2896 <nop,nop,timestamp 668354 289311>
+20:40:11.581547 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 925148 win 3072 <nop,nop,timestamp 289313 668353>
+20:40:11.581648 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 938180:939624(1444) ack 1 win 2896 <nop,nop,timestamp 668354 289313>
+20:40:11.585217 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 939624:941072(1448) ack 1 win 2896 <nop,nop,timestamp 668355 289313>
+20:40:11.585287 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 941072:942520(1448) ack 1 win 2896 <nop,nop,timestamp 668355 289313>
+20:40:11.585333 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 942520:943968(1448) ack 1 win 2896 <nop,nop,timestamp 668355 289313>
+20:40:11.585382 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 943968:945416(1448) ack 1 win 2896 <nop,nop,timestamp 668355 289313>
+20:40:11.589286 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 930940 win 2983 <nop,nop,timestamp 289313 668353>
+20:40:11.589651 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 933836 win 3051 <nop,nop,timestamp 289314 668354>
+20:40:11.869107 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 1042272:1043588(1316) ack 1 win 2896 <nop,nop,timestamp 668426 289338>
+20:40:11.869180 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 1043588:1045036(1448) ack 1 win 2896 <nop,nop,timestamp 668426 289338>
+20:40:11.869219 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 1045036:1046484(1448) ack 1 win 2896 <nop,nop,timestamp 668426 289338>
+20:40:11.869272 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 1046484:1047932(1448) ack 1 win 2896 <nop,nop,timestamp 668426 289338>
+20:40:11.869312 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 1047932:1049380(1448) ack 1 win 2896 <nop,nop,timestamp 668426 289338>
+20:40:11.878164 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 1043588 win 3072 <nop,nop,timestamp 289342 668426>
+20:40:11.878327 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 1049380:1050168(788) ack 1 win 2896 <nop,nop,timestamp 668428 289342>
+20:40:11.880009 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 1049380 win 2983 <nop,nop,timestamp 289342 668426>
+20:40:11.884800 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 1050168 win 3072 <nop,nop,timestamp 289343 668428>
+20:40:11.893052 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 1050168:1051484(1316) ack 1 win 2896 <nop,nop,timestamp 668432 289343>
+20:40:11.893130 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 1051484:1052932(1448) ack 1 win 2896 <nop,nop,timestamp 668432 289343>
+20:40:11.893170 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 1052932:1054380(1448) ack 1 win 2896 <nop,nop,timestamp 668432 289343>
+20:40:11.893223 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 1054380:1055828(1448) ack 1 win 2896 <nop,nop,timestamp 668432 289343>
+20:40:11.893261 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 1055828:1057276(1448) ack 1 win 2896 <nop,nop,timestamp 668432 289343>
+20:40:11.897842 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 1051484 win 3072 <nop,nop,timestamp 289344 668432>
+20:40:11.898073 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 1057276:1058064(788) ack 1 win 2896 <nop,nop,timestamp 668433 289344>
+20:40:11.902316 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 1057276 win 2983 <nop,nop,timestamp 289345 668432>
+20:40:11.902324 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 1058064 win 3072 <nop,nop,timestamp 289345 668433>
+20:40:11.905137 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 1058064:1059380(1316) ack 1 win 2896 <nop,nop,timestamp 668435 289345>
+20:40:11.905208 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 1059380:1060828(1448) ack 1 win 2896 <nop,nop,timestamp 668435 289345>
+20:40:11.905248 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 1060828:1062276(1448) ack 1 win 2896 <nop,nop,timestamp 668435 289345>
+20:40:11.905372 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 1062276:1063724(1448) ack 1 win 2896 <nop,nop,timestamp 668435 289345>
+20:40:11.905801 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 1063724:1065172(1448) ack 1 win 2896 <nop,nop,timestamp 668435 289345>
+20:40:11.910671 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 1059380 win 3072 <nop,nop,timestamp 289346 668435>
+20:40:11.910799 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 1065172:1065960(788) ack 1 win 2896 <nop,nop,timestamp 668436 289346>
+20:40:11.915871 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 1065172 win 2982 <nop,nop,timestamp 289346 668435>
+20:40:11.924165 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 1065960 win 3072 <nop,nop,timestamp 289346 668436>
+20:40:11.941298 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 1065960:1067276(1316) ack 1 win 2896 <nop,nop,timestamp 668444 289346>
+20:40:11.941381 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 1067276:1068724(1448) ack 1 win 2896 <nop,nop,timestamp 668444 289346>
+20:40:11.941425 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 1068724:1070172(1448) ack 1 win 2896 <nop,nop,timestamp 668444 289346>
+20:40:11.941489 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 1070172:1071620(1448) ack 1 win 2896 <nop,nop,timestamp 668444 289346>
+20:40:11.941536 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 1071620:1073068(1448) ack 1 win 2896 <nop,nop,timestamp 668444 289346>
+20:40:11.945836 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 1067276 win 3072 <nop,nop,timestamp 289349 668444>
+20:40:11.949061 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 1073068 win 2983 <nop,nop,timestamp 289349 668444>
+20:40:11.950485 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 1075964 win 3003 <nop,nop,timestamp 289350 668445>
+20:40:11.960937 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 1078860 win 3030 <nop,nop,timestamp 289350 668445>
+20:40:11.962686 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 1081752 win 2985 <nop,nop,timestamp 289350 668445>
+20:40:12.204848 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 1147160 win 3030 <nop,nop,timestamp 289375 668496>
+20:40:12.205796 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 1151504 win 2963 <nop,nop,timestamp 289375 668496>
+20:40:12.205803 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 1154400 win 3025 <nop,nop,timestamp 289375 668506>
+20:40:12.213080 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 1160712:1162160(1448) ack 1 win 2896 <nop,nop,timestamp 668512 289375>
+20:40:12.213136 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 1162160:1163608(1448) ack 1 win 2896 <nop,nop,timestamp 668512 289375>
+20:40:12.213175 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 1163608:1165056(1448) ack 1 win 2896 <nop,nop,timestamp 668512 289375>
+20:40:12.213211 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 1165056:1166504(1448) ack 1 win 2896 <nop,nop,timestamp 668512 289375>
+20:40:12.213264 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 1166504:1167952(1448) ack 1 win 2896 <nop,nop,timestamp 668512 289375>
+20:40:12.217938 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 1167952:1169400(1448) ack 1 win 2896 <nop,nop,timestamp 668513 289375>
+20:40:12.218010 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 1169400:1170848(1448) ack 1 win 2896 <nop,nop,timestamp 668513 289375>
+20:40:12.218049 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 1170848:1172296(1448) ack 1 win 2896 <nop,nop,timestamp 668513 289375>
+20:40:12.218086 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 1172296:1173744(1448) ack 1 win 2896 <nop,nop,timestamp 668513 289375>
+20:40:12.218141 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 1173744:1175192(1448) ack 1 win 2896 <nop,nop,timestamp 668513 289375>
+20:40:12.221213 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 1175192:1176640(1448) ack 1 win 2896 <nop,nop,timestamp 668514 289375>
+20:40:12.221300 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 1176640:1178088(1448) ack 1 win 2896 <nop,nop,timestamp 668514 289375>
+20:40:12.221351 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 1178088:1179536(1448) ack 1 win 2896 <nop,nop,timestamp 668514 289375>
+20:40:12.221433 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 1179536:1180984(1448) ack 1 win 2896 <nop,nop,timestamp 668514 289375>
+20:40:12.221481 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 1180984:1182432(1448) ack 1 win 2896 <nop,nop,timestamp 668514 289375>
+20:40:12.221543 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 1182432:1183880(1448) ack 1 win 2896 <nop,nop,timestamp 668514 289375>
+20:40:12.225308 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 1183880:1185328(1448) ack 1 win 2896 <nop,nop,timestamp 668515 289375>
+20:40:12.225390 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 1185328:1186776(1448) ack 1 win 2896 <nop,nop,timestamp 668515 289375>
+20:40:12.225439 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 1186776:1188224(1448) ack 1 win 2896 <nop,nop,timestamp 668515 289375>
+20:40:12.225508 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 1188224:1189672(1448) ack 1 win 2896 <nop,nop,timestamp 668515 289375>
+20:40:12.229864 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 1157296 win 3051 <nop,nop,timestamp 289377 668506>
+20:40:12.544353 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 1296260 win 3072 <nop,nop,timestamp 289409 668592>
+20:40:12.544553 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 1302052:1302840(788) ack 1 win 2896 <nop,nop,timestamp 668595 289409>
+20:40:12.545141 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 1302840:1304288(1448) ack 1 win 2896 <nop,nop,timestamp 668595 289409>
+20:40:12.545194 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 1304288:1305736(1448) ack 1 win 2896 <nop,nop,timestamp 668595 289409>
+20:40:12.545233 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 1305736:1307184(1448) ack 1 win 2896 <nop,nop,timestamp 668595 289409>
+20:40:12.545269 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 1307184:1308632(1448) ack 1 win 2896 <nop,nop,timestamp 668595 289409>
+20:40:12.545321 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 1308632:1310080(1448) ack 1 win 2896 <nop,nop,timestamp 668595 289409>
+20:40:12.549082 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 1302052 win 3004 <nop,nop,timestamp 289409 668592>
+20:40:12.550420 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 1302840 win 3072 <nop,nop,timestamp 289409 668595>
+20:40:12.550502 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 1310080:1310736(656) ack 1 win 2896 <nop,nop,timestamp 668596 289409>
+20:40:12.550426 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 1310080 win 2962 <nop,nop,timestamp 289410 668595>
+20:40:12.565351 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 1310736 win 3072 <nop,nop,timestamp 289411 668596>
+20:40:12.581170 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 1310736:1312052(1316) ack 1 win 2896 <nop,nop,timestamp 668604 289411>
+20:40:12.581244 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 1312052:1313500(1448) ack 1 win 2896 <nop,nop,timestamp 668604 289411>
+20:40:12.581287 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 1313500:1314948(1448) ack 1 win 2896 <nop,nop,timestamp 668604 289411>
+20:40:12.581361 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 1314948:1316396(1448) ack 1 win 2896 <nop,nop,timestamp 668604 289411>
+20:40:12.581404 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 1316396:1317844(1448) ack 1 win 2896 <nop,nop,timestamp 668604 289411>
+20:40:12.586969 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 1312052 win 3072 <nop,nop,timestamp 289413 668604>
+20:40:12.587155 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 1317844:1318632(788) ack 1 win 2896 <nop,nop,timestamp 668606 289413>
+20:40:12.590329 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 1317844 win 2983 <nop,nop,timestamp 289413 668604>
+20:40:12.605860 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 1318632 win 3072 <nop,nop,timestamp 289415 668606>
+20:40:12.617135 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 1318632:1319948(1316) ack 1 win 2896 <nop,nop,timestamp 668613 289415>
+20:40:12.617207 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 1319948:1321396(1448) ack 1 win 2896 <nop,nop,timestamp 668613 289415>
+20:40:12.617248 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 1321396:1322844(1448) ack 1 win 2896 <nop,nop,timestamp 668613 289415>
+20:40:12.617299 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 1322844:1324292(1448) ack 1 win 2896 <nop,nop,timestamp 668613 289415>
+20:40:12.617338 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 1324292:1325740(1448) ack 1 win 2896 <nop,nop,timestamp 668613 289415>
+20:40:12.621187 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 1325740:1327188(1448) ack 1 win 2896 <nop,nop,timestamp 668614 289415>
+20:40:12.621258 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 1327188:1328636(1448) ack 1 win 2896 <nop,nop,timestamp 668614 289415>
+20:40:12.621297 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 1328636:1330084(1448) ack 1 win 2896 <nop,nop,timestamp 668614 289415>
+20:40:12.621334 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 1330084:1331532(1448) ack 1 win 2896 <nop,nop,timestamp 668614 289415>
+20:40:12.621412 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 1331532:1332980(1448) ack 1 win 2896 <nop,nop,timestamp 668614 289415>
+20:40:12.629835 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 1319948 win 3072 <nop,nop,timestamp 289417 668613>
+20:40:12.636672 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 1328636 win 2962 <nop,nop,timestamp 289418 668613>
+20:40:12.639821 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 1331532 win 3051 <nop,nop,timestamp 289418 668614>
+20:40:12.639828 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 1334424 win 3051 <nop,nop,timestamp 289418 668614>
+20:40:12.682864 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 1335740 win 3072 <nop,nop,timestamp 289421 668624>
+20:40:12.682872 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 1344428 win 2962 <nop,nop,timestamp 289422 668624>
+20:40:12.870239 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 1410492 win 3006 <nop,nop,timestamp 289441 668673>
+20:40:12.870246 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 1413388 win 3051 <nop,nop,timestamp 289441 668673>
+20:40:12.871548 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 1421280 win 2947 <nop,nop,timestamp 289441 668674>
+20:40:12.871698 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 1428520:1429176(656) ack 1 win 2896 <nop,nop,timestamp 668677 289441>
+20:40:12.873282 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 1424176 win 3030 <nop,nop,timestamp 289442 668675>
+20:40:12.875735 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 1427072 win 3030 <nop,nop,timestamp 289442 668675>
+20:40:12.875742 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 1429176 win 2998 <nop,nop,timestamp 289442 668675>
+20:40:12.905138 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 1429176:1430492(1316) ack 1 win 2896 <nop,nop,timestamp 668685 289442>
+20:40:12.905211 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 1430492:1431940(1448) ack 1 win 2896 <nop,nop,timestamp 668685 289442>
+20:40:12.905251 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 1431940:1433388(1448) ack 1 win 2896 <nop,nop,timestamp 668685 289442>
+20:40:12.905301 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 1433388:1434836(1448) ack 1 win 2896 <nop,nop,timestamp 668685 289442>
+20:40:12.905339 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 1434836:1436284(1448) ack 1 win 2896 <nop,nop,timestamp 668685 289442>
+20:40:12.909110 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 1436284:1437732(1448) ack 1 win 2896 <nop,nop,timestamp 668686 289442>
+20:40:12.909180 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 1437732:1439180(1448) ack 1 win 2896 <nop,nop,timestamp 668686 289442>
+20:40:12.909221 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 1439180:1440628(1448) ack 1 win 2896 <nop,nop,timestamp 668686 289442>
+20:40:12.909257 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 1440628:1442076(1448) ack 1 win 2896 <nop,nop,timestamp 668686 289442>
+20:40:12.909309 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 1442076:1443524(1448) ack 1 win 2896 <nop,nop,timestamp 668686 289442>
+20:40:12.911952 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 1430492 win 3072 <nop,nop,timestamp 289446 668685>
+20:40:12.912096 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 1443524:1444968(1444) ack 1 win 2896 <nop,nop,timestamp 668687 289446>
+20:40:12.911959 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 1436284 win 2983 <nop,nop,timestamp 289446 668685>
+20:40:12.914612 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 1439180 win 3030 <nop,nop,timestamp 289446 668686>
+20:40:12.915673 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 1443524 win 2963 <nop,nop,timestamp 289446 668686>
+20:40:12.915681 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 1444968 win 3072 <nop,nop,timestamp 289446 668687>
+20:40:12.937122 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 1444968:1446284(1316) ack 1 win 2896 <nop,nop,timestamp 668693 289446>
+20:40:12.937211 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 1446284:1447732(1448) ack 1 win 2896 <nop,nop,timestamp 668693 289446>
+20:40:12.937253 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 1447732:1449180(1448) ack 1 win 2896 <nop,nop,timestamp 668693 289446>
+20:40:12.937304 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 1449180:1450628(1448) ack 1 win 2896 <nop,nop,timestamp 668693 289446>
+20:40:12.937347 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 1450628:1452076(1448) ack 1 win 2896 <nop,nop,timestamp 668693 289446>
+20:40:12.941120 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 1446284 win 3072 <nop,nop,timestamp 289449 668693>
+20:40:12.943471 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 1452076 win 3004 <nop,nop,timestamp 289449 668693>
+20:40:13.221139 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 1539720:1541036(1316) ack 1 win 2896 <nop,nop,timestamp 668764 289474>
+20:40:13.221210 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 1541036:1542484(1448) ack 1 win 2896 <nop,nop,timestamp 668764 289474>
+20:40:13.221250 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 1542484:1543932(1448) ack 1 win 2896 <nop,nop,timestamp 668764 289474>
+20:40:13.221304 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 1543932:1545380(1448) ack 1 win 2896 <nop,nop,timestamp 668764 289474>
+20:40:13.221343 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 1545380:1546828(1448) ack 1 win 2896 <nop,nop,timestamp 668764 289474>
+20:40:13.225113 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 1546828:1548276(1448) ack 1 win 2896 <nop,nop,timestamp 668765 289474>
+20:40:13.225174 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 1548276:1549724(1448) ack 1 win 2896 <nop,nop,timestamp 668765 289474>
+20:40:13.225214 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 1549724:1551172(1448) ack 1 win 2896 <nop,nop,timestamp 668765 289474>
+20:40:13.225249 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 1551172:1552620(1448) ack 1 win 2896 <nop,nop,timestamp 668765 289474>
+20:40:13.225300 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 1552620:1554068(1448) ack 1 win 2896 <nop,nop,timestamp 668765 289474>
+20:40:13.227836 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 1541036 win 3072 <nop,nop,timestamp 289477 668764>
+20:40:13.227978 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 1554068:1555512(1444) ack 1 win 2896 <nop,nop,timestamp 668766 289477>
+20:40:13.227844 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 1543932 win 3030 <nop,nop,timestamp 289477 668764>
+20:40:13.228140 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 1546828 win 3004 <nop,nop,timestamp 289477 668764>
+20:40:13.234095 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 1549724 win 3051 <nop,nop,timestamp 289478 668765>
+20:40:13.234102 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 1554068 win 2984 <nop,nop,timestamp 289478 668765>
+20:40:13.235338 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 1555512 win 3072 <nop,nop,timestamp 289478 668766>
+20:40:13.265130 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 1555512:1556828(1316) ack 1 win 2896 <nop,nop,timestamp 668775 289478>
+20:40:13.265202 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 1556828:1558276(1448) ack 1 win 2896 <nop,nop,timestamp 668775 289478>
+20:40:13.265242 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 1558276:1559724(1448) ack 1 win 2896 <nop,nop,timestamp 668775 289478>
+20:40:13.265291 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 1559724:1561172(1448) ack 1 win 2896 <nop,nop,timestamp 668775 289478>
+20:40:13.265330 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 1561172:1562620(1448) ack 1 win 2896 <nop,nop,timestamp 668775 289478>
+20:40:13.269047 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 1562620:1564068(1448) ack 1 win 2896 <nop,nop,timestamp 668776 289478>
+20:40:13.269102 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 1564068:1565516(1448) ack 1 win 2896 <nop,nop,timestamp 668776 289478>
+20:40:13.269141 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 1565516:1566964(1448) ack 1 win 2896 <nop,nop,timestamp 668776 289478>
+20:40:13.269178 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 1566964:1568412(1448) ack 1 win 2896 <nop,nop,timestamp 668776 289478>
+20:40:13.269231 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 1568412:1569860(1448) ack 1 win 2896 <nop,nop,timestamp 668776 289478>
+20:40:13.271928 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 1556828 win 3072 <nop,nop,timestamp 289481 668775>
+20:40:13.272025 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 1569860:1571304(1444) ack 1 win 2896 <nop,nop,timestamp 668777 289481>
+20:40:13.276016 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 1562620 win 3004 <nop,nop,timestamp 289482 668775>
+20:40:13.276023 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 1565516 win 3051 <nop,nop,timestamp 289482 668776>
+20:40:13.279225 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 1569860 win 2988 <nop,nop,timestamp 289482 668776>
+20:40:13.290074 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 1571304 win 3072 <nop,nop,timestamp 289483 668777>
+20:40:13.309117 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 1571304:1572620(1316) ack 1 win 2896 <nop,nop,timestamp 668786 289483>
+20:40:13.316626 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 1572620 win 3072 <nop,nop,timestamp 289486 668786>
+20:40:13.316633 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 1578412 win 2983 <nop,nop,timestamp 289486 668786>
+20:40:13.549082 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 1666056:1667372(1316) ack 1 win 2896 <nop,nop,timestamp 668846 289507>
+20:40:13.549152 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 1667372:1668820(1448) ack 1 win 2896 <nop,nop,timestamp 668846 289507>
+20:40:13.549191 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 1668820:1670268(1448) ack 1 win 2896 <nop,nop,timestamp 668846 289507>
+20:40:13.549242 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 1670268:1671716(1448) ack 1 win 2896 <nop,nop,timestamp 668846 289507>
+20:40:13.549281 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 1671716:1673164(1448) ack 1 win 2896 <nop,nop,timestamp 668846 289507>
+20:40:13.553878 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 1667372 win 3072 <nop,nop,timestamp 289510 668846>
+20:40:13.554023 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 1673164:1673952(788) ack 1 win 2896 <nop,nop,timestamp 668847 289510>
+20:40:13.558364 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 1673952 win 2970 <nop,nop,timestamp 289510 668846>
+20:40:13.585261 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 1673952:1675268(1316) ack 1 win 2896 <nop,nop,timestamp 668855 289510>
+20:40:13.585349 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 1675268:1676716(1448) ack 1 win 2896 <nop,nop,timestamp 668855 289510>
+20:40:13.585397 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 1676716:1678164(1448) ack 1 win 2896 <nop,nop,timestamp 668855 289510>
+20:40:13.585460 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 1678164:1679612(1448) ack 1 win 2896 <nop,nop,timestamp 668855 289510>
+20:40:13.585505 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 1679612:1681060(1448) ack 1 win 2896 <nop,nop,timestamp 668855 289510>
+20:40:13.589121 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 1681060:1682508(1448) ack 1 win 2896 <nop,nop,timestamp 668856 289510>
+20:40:13.589203 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 1682508:1683956(1448) ack 1 win 2896 <nop,nop,timestamp 668856 289510>
+20:40:13.589245 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 1683956:1685404(1448) ack 1 win 2896 <nop,nop,timestamp 668856 289510>
+20:40:13.589294 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 1685404:1686852(1448) ack 1 win 2896 <nop,nop,timestamp 668856 289510>
+20:40:13.589332 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 1686852:1688300(1448) ack 1 win 2896 <nop,nop,timestamp 668856 289510>
+20:40:13.593142 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 1688300:1689748(1448) ack 1 win 2896 <nop,nop,timestamp 668857 289510>
+20:40:13.597795 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 1676716 win 3030 <nop,nop,timestamp 289514 668855>
+20:40:13.602431 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 1679612 win 3030 <nop,nop,timestamp 289514 668855>
+20:40:13.602440 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 1683956 win 2963 <nop,nop,timestamp 289514 668855>
+20:40:13.602472 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 1686852 win 3030 <nop,nop,timestamp 289514 668856>
+20:40:13.602479 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 1689748 win 3051 <nop,nop,timestamp 289514 668856>
+20:40:13.607903 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 1692644 win 3051 <nop,nop,timestamp 289515 668857>
+20:40:13.897206 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 1800288:1801604(1316) ack 1 win 2896 <nop,nop,timestamp 668933 289542>
+20:40:13.897293 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 1801604:1803052(1448) ack 1 win 2896 <nop,nop,timestamp 668933 289542>
+20:40:13.897341 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 1803052:1804500(1448) ack 1 win 2896 <nop,nop,timestamp 668933 289542>
+20:40:13.897408 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 1804500:1805948(1448) ack 1 win 2896 <nop,nop,timestamp 668933 289542>
+20:40:13.897452 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 1805948:1807396(1448) ack 1 win 2896 <nop,nop,timestamp 668933 289542>
+20:40:13.901510 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 1801604 win 3072 <nop,nop,timestamp 289545 668933>
+20:40:13.901686 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 1807396:1808184(788) ack 1 win 2896 <nop,nop,timestamp 668934 289545>
+20:40:13.904580 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 1807396 win 2983 <nop,nop,timestamp 289545 668933>
+20:40:13.907347 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 1808184 win 3072 <nop,nop,timestamp 289545 668934>
+20:40:13.933238 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 1808184:1809500(1316) ack 1 win 2896 <nop,nop,timestamp 668942 289545>
+20:40:13.933331 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 1809500:1810948(1448) ack 1 win 2896 <nop,nop,timestamp 668942 289545>
+20:40:13.933379 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 1810948:1812396(1448) ack 1 win 2896 <nop,nop,timestamp 668942 289545>
+20:40:13.933447 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 1812396:1813844(1448) ack 1 win 2896 <nop,nop,timestamp 668942 289545>
+20:40:13.933490 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 1813844:1815292(1448) ack 1 win 2896 <nop,nop,timestamp 668942 289545>
+20:40:13.941369 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 1809500 win 3072 <nop,nop,timestamp 289548 668942>
+20:40:13.941554 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 1815292:1816080(788) ack 1 win 2896 <nop,nop,timestamp 668944 289548>
+20:40:13.944795 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 1815292 win 2983 <nop,nop,timestamp 289549 668942>
+20:40:13.947812 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 1816080 win 3072 <nop,nop,timestamp 289549 668944>
+20:40:13.969173 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 1816080:1817396(1316) ack 1 win 2896 <nop,nop,timestamp 668951 289549>
+20:40:13.969248 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 1817396:1818844(1448) ack 1 win 2896 <nop,nop,timestamp 668951 289549>
+20:40:13.969290 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 1818844:1820292(1448) ack 1 win 2896 <nop,nop,timestamp 668951 289549>
+20:40:13.969343 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 1820292:1821740(1448) ack 1 win 2896 <nop,nop,timestamp 668951 289549>
+20:40:13.969380 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 1821740:1823188(1448) ack 1 win 2896 <nop,nop,timestamp 668951 289549>
+20:40:13.974590 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 1817396 win 3072 <nop,nop,timestamp 289552 668951>
+20:40:13.974762 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 1823188:1823976(788) ack 1 win 2896 <nop,nop,timestamp 668952 289552>
+20:40:13.978227 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 1823188 win 2983 <nop,nop,timestamp 289552 668951>
+20:40:13.980416 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 1823976 win 3072 <nop,nop,timestamp 289553 668952>
+20:40:13.993070 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 1823976:1825292(1316) ack 1 win 2896 <nop,nop,timestamp 668957 289553>
+20:40:13.993140 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 1825292:1826740(1448) ack 1 win 2896 <nop,nop,timestamp 668957 289553>
+20:40:13.993180 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 1826740:1828188(1448) ack 1 win 2896 <nop,nop,timestamp 668957 289553>
+20:40:13.993233 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 1828188:1829636(1448) ack 1 win 2896 <nop,nop,timestamp 668957 289553>
+20:40:14.002567 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 1825292 win 3072 <nop,nop,timestamp 289555 668957>
+20:40:14.007009 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 1831084 win 3004 <nop,nop,timestamp 289555 668957>
+20:40:14.013495 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 1831872 win 3072 <nop,nop,timestamp 289556 668959>
+20:40:14.035924 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 1833188 win 3072 <nop,nop,timestamp 289558 668966>
+20:40:14.037477 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 1838980 win 2983 <nop,nop,timestamp 289558 668966>
+20:40:14.221182 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 1895040:1896356(1316) ack 1 win 2896 <nop,nop,timestamp 669014 289574>
+20:40:14.221254 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 1896356:1897804(1448) ack 1 win 2896 <nop,nop,timestamp 669014 289574>
+20:40:14.221294 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 1897804:1899252(1448) ack 1 win 2896 <nop,nop,timestamp 669014 289574>
+20:40:14.221346 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 1899252:1900700(1448) ack 1 win 2896 <nop,nop,timestamp 669014 289574>
+20:40:14.221386 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 1900700:1902148(1448) ack 1 win 2896 <nop,nop,timestamp 669014 289574>
+20:40:14.225624 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 1896356 win 3072 <nop,nop,timestamp 289577 669014>
+20:40:14.225776 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 1902148:1902936(788) ack 1 win 2896 <nop,nop,timestamp 669015 289577>
+20:40:14.233167 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 1902936:1904384(1448) ack 1 win 2896 <nop,nop,timestamp 669017 289577>
+20:40:14.233228 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 1904384:1905832(1448) ack 1 win 2896 <nop,nop,timestamp 669017 289577>
+20:40:14.233270 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 1905832:1907280(1448) ack 1 win 2896 <nop,nop,timestamp 669017 289577>
+20:40:14.233307 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 1907280:1908728(1448) ack 1 win 2896 <nop,nop,timestamp 669017 289577>
+20:40:14.233358 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 1908728:1910176(1448) ack 1 win 2896 <nop,nop,timestamp 669017 289577>
+20:40:14.238335 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 1900700 win 3009 <nop,nop,timestamp 289577 669014>
+20:40:14.239893 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 1902936 win 3057 <nop,nop,timestamp 289578 669014>
+20:40:14.240007 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 1910176:1910832(656) ack 1 win 2896 <nop,nop,timestamp 669019 289578>
+20:40:14.248308 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 1905832 win 3051 <nop,nop,timestamp 289579 669017>
+20:40:14.249539 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 1910832 win 2995 <nop,nop,timestamp 289579 669017>
+20:40:14.269122 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 1910832:1912148(1316) ack 1 win 2896 <nop,nop,timestamp 669026 289579>
+20:40:14.269194 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 1912148:1913596(1448) ack 1 win 2896 <nop,nop,timestamp 669026 289579>
+20:40:14.269236 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 1913596:1915044(1448) ack 1 win 2896 <nop,nop,timestamp 669026 289579>
+20:40:14.269286 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 1915044:1916492(1448) ack 1 win 2896 <nop,nop,timestamp 669026 289579>
+20:40:14.269326 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 1916492:1917940(1448) ack 1 win 2896 <nop,nop,timestamp 669026 289579>
+20:40:14.275188 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 1912148 win 3072 <nop,nop,timestamp 289582 669026>
+20:40:14.275413 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 1917940:1918728(788) ack 1 win 2896 <nop,nop,timestamp 669028 289582>
+20:40:14.567763 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 2006900 win 3072 <nop,nop,timestamp 289609 669091>
+20:40:14.567906 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 2019932:2021376(1444) ack 1 win 2896 <nop,nop,timestamp 669101 289609>
+20:40:14.567770 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 2015588 win 2962 <nop,nop,timestamp 289611 669091>
+20:40:14.571112 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 2018484 win 3030 <nop,nop,timestamp 289611 669094>
+20:40:14.573309 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 2021376 win 3051 <nop,nop,timestamp 289612 669094>
+20:40:14.577016 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 2021376:2022692(1316) ack 1 win 2896 <nop,nop,timestamp 669103 289612>
+20:40:14.577094 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 2022692:2024140(1448) ack 1 win 2896 <nop,nop,timestamp 669103 289612>
+20:40:14.577136 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 2024140:2025588(1448) ack 1 win 2896 <nop,nop,timestamp 669103 289612>
+20:40:14.577185 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 2025588:2027036(1448) ack 1 win 2896 <nop,nop,timestamp 669103 289612>
+20:40:14.577239 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 2027036:2028484(1448) ack 1 win 2896 <nop,nop,timestamp 669103 289612>
+20:40:14.581159 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 2028484:2029932(1448) ack 1 win 2896 <nop,nop,timestamp 669104 289612>
+20:40:14.581232 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 2029932:2031380(1448) ack 1 win 2896 <nop,nop,timestamp 669104 289612>
+20:40:14.581270 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 2031380:2032828(1448) ack 1 win 2896 <nop,nop,timestamp 669104 289612>
+20:40:14.581306 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 2032828:2034276(1448) ack 1 win 2896 <nop,nop,timestamp 669104 289612>
+20:40:14.581398 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 2034276:2035724(1448) ack 1 win 2896 <nop,nop,timestamp 669104 289612>
+20:40:14.609283 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 2035724:2037172(1448) ack 1 win 2896 <nop,nop,timestamp 669111 289612>
+20:40:14.609371 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 2037172:2038620(1448) ack 1 win 2896 <nop,nop,timestamp 669111 289612>
+20:40:14.609421 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 2038620:2040068(1448) ack 1 win 2896 <nop,nop,timestamp 669111 289612>
+20:40:14.609492 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 2040068:2041516(1448) ack 1 win 2896 <nop,nop,timestamp 669111 289612>
+20:40:14.609536 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 2041516:2042964(1448) ack 1 win 2896 <nop,nop,timestamp 669111 289612>
+20:40:14.609590 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 2042964:2044412(1448) ack 1 win 2896 <nop,nop,timestamp 669111 289612>
+20:40:14.616900 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 2022692 win 3072 <nop,nop,timestamp 289613 669103>
+20:40:14.617114 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 2044412:2045064(652) ack 1 win 2896 <nop,nop,timestamp 669113 289613>
+20:40:14.621126 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 2045064:2046512(1448) ack 1 win 2896 <nop,nop,timestamp 669114 289613>
+20:40:14.621187 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 2046512:2047960(1448) ack 1 win 2896 <nop,nop,timestamp 669114 289613>
+20:40:14.667946 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 2025588 win 3051 <nop,nop,timestamp 289614 669103>
+20:40:14.667976 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 2028484 win 3051 <nop,nop,timestamp 289616 669103>
+20:40:14.667980 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 2034276 win 2983 <nop,nop,timestamp 289616 669104>
+20:40:14.673752 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 2035724 win 3072 <nop,nop,timestamp 289620 669104>
+20:40:14.674979 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 2042964 win 2983 <nop,nop,timestamp 289621 669111>
+20:40:14.893207 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 2171400:2172716(1316) ack 1 win 2896 <nop,nop,timestamp 669182 289642>
+20:40:14.893293 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 2172716:2174164(1448) ack 1 win 2896 <nop,nop,timestamp 669182 289642>
+20:40:14.893339 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 2174164:2175612(1448) ack 1 win 2896 <nop,nop,timestamp 669182 289642>
+20:40:14.893410 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 2175612:2177060(1448) ack 1 win 2896 <nop,nop,timestamp 669182 289642>
+20:40:14.893469 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 2177060:2178508(1448) ack 1 win 2896 <nop,nop,timestamp 669182 289642>
+20:40:14.898195 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 2172716 win 3072 <nop,nop,timestamp 289644 669182>
+20:40:14.898388 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 2178508:2179296(788) ack 1 win 2896 <nop,nop,timestamp 669183 289644>
+20:40:14.902960 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 2179296 win 2988 <nop,nop,timestamp 289645 669182>
+20:40:14.905378 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 2179296:2180612(1316) ack 1 win 2896 <nop,nop,timestamp 669185 289645>
+20:40:14.905474 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 2180612:2182060(1448) ack 1 win 2896 <nop,nop,timestamp 669185 289645>
+20:40:14.905537 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 2182060:2183508(1448) ack 1 win 2896 <nop,nop,timestamp 669185 289645>
+20:40:14.905583 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 2183508:2184956(1448) ack 1 win 2896 <nop,nop,timestamp 669185 289645>
+20:40:14.905623 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 2184956:2186404(1448) ack 1 win 2896 <nop,nop,timestamp 669185 289645>
+20:40:14.930622 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 2180612 win 3072 <nop,nop,timestamp 289647 669185>
+20:40:14.930791 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 2186404:2187192(788) ack 1 win 2896 <nop,nop,timestamp 669191 289647>
+20:40:14.930893 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 2186404 win 2983 <nop,nop,timestamp 289647 669185>
+20:40:14.936882 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 2187192 win 3072 <nop,nop,timestamp 289648 669191>
+20:40:14.941155 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 2187192:2188508(1316) ack 1 win 2896 <nop,nop,timestamp 669194 289648>
+20:40:14.941238 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 2188508:2189956(1448) ack 1 win 2896 <nop,nop,timestamp 669194 289648>
+20:40:14.941285 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 2189956:2191404(1448) ack 1 win 2896 <nop,nop,timestamp 669194 289648>
+20:40:14.941366 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 2191404:2192852(1448) ack 1 win 2896 <nop,nop,timestamp 669194 289648>
+20:40:14.941413 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 2192852:2194300(1448) ack 1 win 2896 <nop,nop,timestamp 669194 289648>
+20:40:14.944927 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 2188508 win 3072 <nop,nop,timestamp 289649 669194>
+20:40:14.945079 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 2194300:2195088(788) ack 1 win 2896 <nop,nop,timestamp 669195 289649>
+20:40:14.945233 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 2195088:2196536(1448) ack 1 win 2896 <nop,nop,timestamp 669195 289649>
+20:40:14.950668 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 2194300 win 2983 <nop,nop,timestamp 289649 669194>
+20:40:14.951436 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 2195088 win 3072 <nop,nop,timestamp 289650 669195>
+20:40:14.951442 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 2202328 win 2962 <nop,nop,timestamp 289650 669195>
+20:40:14.958001 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 2202984 win 3072 <nop,nop,timestamp 289650 669197>
+20:40:14.988863 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 2204300 win 3072 <nop,nop,timestamp 289653 669202>
+20:40:14.996919 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 2210092 win 3004 <nop,nop,timestamp 289654 669202>
+20:40:15.221234 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 2281944:2283260(1316) ack 1 win 2896 <nop,nop,timestamp 669264 289676>
+20:40:15.221315 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 2283260:2284708(1448) ack 1 win 2896 <nop,nop,timestamp 669264 289676>
+20:40:15.221359 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 2284708:2286156(1448) ack 1 win 2896 <nop,nop,timestamp 669264 289676>
+20:40:15.221420 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 2286156:2287604(1448) ack 1 win 2896 <nop,nop,timestamp 669264 289676>
+20:40:15.221464 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 2287604:2289052(1448) ack 1 win 2896 <nop,nop,timestamp 669264 289676>
+20:40:15.230513 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 2283260 win 3072 <nop,nop,timestamp 289677 669264>
+20:40:15.230668 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 2289052:2289840(788) ack 1 win 2896 <nop,nop,timestamp 669266 289677>
+20:40:15.230520 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 2289052 win 3004 <nop,nop,timestamp 289678 669264>
+20:40:15.236190 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 2289840 win 3072 <nop,nop,timestamp 289678 669266>
+20:40:15.257174 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 2289840:2291156(1316) ack 1 win 2896 <nop,nop,timestamp 669273 289678>
+20:40:15.257263 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 2291156:2292604(1448) ack 1 win 2896 <nop,nop,timestamp 669273 289678>
+20:40:15.257335 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 2292604:2294052(1448) ack 1 win 2896 <nop,nop,timestamp 669273 289678>
+20:40:15.257389 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 2294052:2295500(1448) ack 1 win 2896 <nop,nop,timestamp 669273 289678>
+20:40:15.257434 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 2295500:2296948(1448) ack 1 win 2896 <nop,nop,timestamp 669273 289678>
+20:40:15.268575 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 2291156 win 3072 <nop,nop,timestamp 289681 669273>
+20:40:15.268724 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 2296948:2297736(788) ack 1 win 2896 <nop,nop,timestamp 669276 289681>
+20:40:15.268582 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 2296948 win 2983 <nop,nop,timestamp 289681 669273>
+20:40:15.269083 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 2297736:2299184(1448) ack 1 win 2896 <nop,nop,timestamp 669276 289681>
+20:40:15.269133 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 2299184:2300632(1448) ack 1 win 2896 <nop,nop,timestamp 669276 289681>
+20:40:15.269170 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 2300632:2302080(1448) ack 1 win 2896 <nop,nop,timestamp 669276 289681>
+20:40:15.269206 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 2302080:2303528(1448) ack 1 win 2896 <nop,nop,timestamp 669276 289681>
+20:40:15.269270 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 2303528:2304976(1448) ack 1 win 2896 <nop,nop,timestamp 669276 289681>
+20:40:15.272278 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 2297736 win 3072 <nop,nop,timestamp 289682 669276>
+20:40:15.272370 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 2304976:2305632(656) ack 1 win 2896 <nop,nop,timestamp 669277 289682>
+20:40:15.277814 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 2305632 win 2974 <nop,nop,timestamp 289682 669276>
+20:40:15.305216 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 2305632:2306948(1316) ack 1 win 2896 <nop,nop,timestamp 669285 289682>
+20:40:15.305299 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 2306948:2308396(1448) ack 1 win 2896 <nop,nop,timestamp 669285 289682>
+20:40:15.311316 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 2306948 win 3072 <nop,nop,timestamp 289686 669285>
+20:40:15.314581 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 2312740 win 2983 <nop,nop,timestamp 289686 669285>
+20:40:15.314591 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 2313528 win 3072 <nop,nop,timestamp 289686 669287>
+20:40:15.552789 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 2400384 win 3072 <nop,nop,timestamp 289708 669343>
+20:40:15.552902 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 2414864:2416176(1312) ack 1 win 2896 <nop,nop,timestamp 669347 289708>
+20:40:15.552796 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 2403280 win 3051 <nop,nop,timestamp 289709 669344>
+20:40:15.553407 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 2406176 win 3051 <nop,nop,timestamp 289710 669344>
+20:40:15.553413 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 2410520 win 2984 <nop,nop,timestamp 289710 669344>
+20:40:15.554649 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 2413416 win 3030 <nop,nop,timestamp 289710 669345>
+20:40:15.556937 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 2416176 win 3051 <nop,nop,timestamp 289710 669345>
+20:40:15.585235 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 2416176:2417492(1316) ack 1 win 2896 <nop,nop,timestamp 669355 289710>
+20:40:15.585324 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 2417492:2418940(1448) ack 1 win 2896 <nop,nop,timestamp 669355 289710>
+20:40:15.585372 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 2418940:2420388(1448) ack 1 win 2896 <nop,nop,timestamp 669355 289710>
+20:40:15.585438 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 2420388:2421836(1448) ack 1 win 2896 <nop,nop,timestamp 669355 289710>
+20:40:15.585485 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 2421836:2423284(1448) ack 1 win 2896 <nop,nop,timestamp 669355 289710>
+20:40:15.589108 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 2423284:2424732(1448) ack 1 win 2896 <nop,nop,timestamp 669356 289710>
+20:40:15.589171 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 2424732:2426180(1448) ack 1 win 2896 <nop,nop,timestamp 669356 289710>
+20:40:15.589210 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 2426180:2427628(1448) ack 1 win 2896 <nop,nop,timestamp 669356 289710>
+20:40:15.589249 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 2427628:2429076(1448) ack 1 win 2896 <nop,nop,timestamp 669356 289710>
+20:40:15.589303 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 2429076:2430524(1448) ack 1 win 2896 <nop,nop,timestamp 669356 289710>
+20:40:15.598746 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 2418940 win 3051 <nop,nop,timestamp 289714 669355>
+20:40:15.598920 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 2430524:2431968(1444) ack 1 win 2896 <nop,nop,timestamp 669358 289714>
+20:40:15.601172 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 2430524 win 2893 <nop,nop,timestamp 289715 669355>
+20:40:15.603180 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 2431968 win 3072 <nop,nop,timestamp 289715 669358>
+20:40:15.617232 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 2431968:2433284(1316) ack 1 win 2896 <nop,nop,timestamp 669363 289715>
+20:40:15.617339 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 2433284:2434732(1448) ack 1 win 2896 <nop,nop,timestamp 669363 289715>
+20:40:15.617406 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 2434732:2436180(1448) ack 1 win 2896 <nop,nop,timestamp 669363 289715>
+20:40:15.617453 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 2436180:2437628(1448) ack 1 win 2896 <nop,nop,timestamp 669363 289715>
+20:40:15.617496 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 2437628:2439076(1448) ack 1 win 2896 <nop,nop,timestamp 669363 289715>
+20:40:15.629106 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 2439076:2440524(1448) ack 1 win 2896 <nop,nop,timestamp 669366 289715>
+20:40:15.629192 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 2440524:2441972(1448) ack 1 win 2896 <nop,nop,timestamp 669366 289715>
+20:40:15.629233 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 2441972:2443420(1448) ack 1 win 2896 <nop,nop,timestamp 669366 289715>
+20:40:15.629284 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 2443420:2444868(1448) ack 1 win 2896 <nop,nop,timestamp 669366 289715>
+20:40:15.639882 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 2434732 win 3051 <nop,nop,timestamp 289717 669363>
+20:40:15.646951 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 2439076 win 3004 <nop,nop,timestamp 289717 669363>
+20:40:15.646971 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 2441972 win 3030 <nop,nop,timestamp 289718 669366>
+20:40:15.646976 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 2444868 win 3030 <nop,nop,timestamp 289718 669366>
+20:40:15.648764 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 2447760 win 3051 <nop,nop,timestamp 289719 669366>
+20:40:15.675471 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 2449076 win 3072 <nop,nop,timestamp 289722 669375>
+20:40:15.893110 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 2526720:2528036(1316) ack 1 win 2896 <nop,nop,timestamp 669432 289743>
+20:40:15.893181 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 2528036:2529484(1448) ack 1 win 2896 <nop,nop,timestamp 669432 289743>
+20:40:15.893239 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 2529484:2530932(1448) ack 1 win 2896 <nop,nop,timestamp 669432 289743>
+20:40:15.893294 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 2530932:2532380(1448) ack 1 win 2896 <nop,nop,timestamp 669432 289743>
+20:40:15.893335 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 2532380:2533828(1448) ack 1 win 2896 <nop,nop,timestamp 669432 289743>
+20:40:15.901173 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 2528036 win 3072 <nop,nop,timestamp 289744 669432>
+20:40:15.901351 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 2533828:2534616(788) ack 1 win 2896 <nop,nop,timestamp 669434 289744>
+20:40:15.901460 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 2532380 win 3005 <nop,nop,timestamp 289745 669432>
+20:40:15.905110 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 2534616:2536064(1448) ack 1 win 2896 <nop,nop,timestamp 669435 289745>
+20:40:15.905171 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 2536064:2537512(1448) ack 1 win 2896 <nop,nop,timestamp 669435 289745>
+20:40:15.905210 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 2537512:2538960(1448) ack 1 win 2896 <nop,nop,timestamp 669435 289745>
+20:40:15.905247 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 2538960:2540408(1448) ack 1 win 2896 <nop,nop,timestamp 669435 289745>
+20:40:15.905278 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 2534616 win 3036 <nop,nop,timestamp 289745 669432>
+20:40:15.905365 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 2540408:2541196(788) ack 1 win 2896 <nop,nop,timestamp 669435 289745>
+20:40:15.914406 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 2537512 win 3051 <nop,nop,timestamp 289746 669435>
+20:40:15.914413 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 2541196 win 2995 <nop,nop,timestamp 289746 669435>
+20:40:15.914537 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 2541196:2542512(1316) ack 1 win 2896 <nop,nop,timestamp 669437 289746>
+20:40:15.919798 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 2542512 win 3072 <nop,nop,timestamp 289746 669437>
+20:40:15.941203 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 2542512:2543828(1316) ack 1 win 2896 <nop,nop,timestamp 669444 289746>
+20:40:15.941287 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 2543828:2545276(1448) ack 1 win 2896 <nop,nop,timestamp 669444 289746>
+20:40:15.941333 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 2545276:2546724(1448) ack 1 win 2896 <nop,nop,timestamp 669444 289746>
+20:40:15.941401 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 2546724:2548172(1448) ack 1 win 2896 <nop,nop,timestamp 669444 289746>
+20:40:15.941446 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 2548172:2549620(1448) ack 1 win 2896 <nop,nop,timestamp 669444 289746>
+20:40:15.952337 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 2549620 win 2983 <nop,nop,timestamp 289750 669444>
+20:40:15.952481 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 2549620:2550408(788) ack 1 win 2896 <nop,nop,timestamp 669447 289750>
+20:40:15.957681 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 2551856 win 3036 <nop,nop,timestamp 289750 669447>
+20:40:15.963189 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 2557648 win 2983 <nop,nop,timestamp 289751 669447>
+20:40:15.966087 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 2558304 win 3072 <nop,nop,timestamp 289751 669448>
+20:40:15.996636 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 2559620 win 3072 <nop,nop,timestamp 289754 669456>
+20:40:15.996645 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 2565412 win 3004 <nop,nop,timestamp 289754 669456>
+20:40:16.229097 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 2653056:2654372(1316) ack 1 win 2896 <nop,nop,timestamp 669516 289774>
+20:40:16.229163 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 2654372:2655820(1448) ack 1 win 2896 <nop,nop,timestamp 669516 289774>
+20:40:16.229201 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 2655820:2657268(1448) ack 1 win 2896 <nop,nop,timestamp 669516 289774>
+20:40:16.229251 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 2657268:2658716(1448) ack 1 win 2896 <nop,nop,timestamp 669516 289774>
+20:40:16.229290 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 2658716:2660164(1448) ack 1 win 2896 <nop,nop,timestamp 669516 289774>
+20:40:16.233031 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 2660164:2661612(1448) ack 1 win 2896 <nop,nop,timestamp 669517 289774>
+20:40:16.233089 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 2661612:2663060(1448) ack 1 win 2896 <nop,nop,timestamp 669517 289774>
+20:40:16.233127 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 2663060:2664508(1448) ack 1 win 2896 <nop,nop,timestamp 669517 289774>
+20:40:16.233165 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 2664508:2665956(1448) ack 1 win 2896 <nop,nop,timestamp 669517 289774>
+20:40:16.233215 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 2665956:2667404(1448) ack 1 win 2896 <nop,nop,timestamp 669517 289774>
+20:40:16.233437 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 2654372 win 3072 <nop,nop,timestamp 289778 669516>
+20:40:16.233524 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 2667404:2668848(1444) ack 1 win 2896 <nop,nop,timestamp 669517 289778>
+20:40:16.241824 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 2661612 win 2962 <nop,nop,timestamp 289778 669516>
+20:40:16.241836 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 2664508 win 3030 <nop,nop,timestamp 289778 669517>
+20:40:16.243091 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 2668848 win 2963 <nop,nop,timestamp 289778 669517>
+20:40:16.261132 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 2668848:2670164(1316) ack 1 win 2896 <nop,nop,timestamp 669524 289778>
+20:40:16.261207 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 2670164:2671612(1448) ack 1 win 2896 <nop,nop,timestamp 669524 289778>
+20:40:16.261246 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 2671612:2673060(1448) ack 1 win 2896 <nop,nop,timestamp 669524 289778>
+20:40:16.261299 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 2673060:2674508(1448) ack 1 win 2896 <nop,nop,timestamp 669524 289778>
+20:40:16.261337 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 2674508:2675956(1448) ack 1 win 2896 <nop,nop,timestamp 669524 289778>
+20:40:16.265079 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 2675956:2677404(1448) ack 1 win 2896 <nop,nop,timestamp 669525 289778>
+20:40:16.265162 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 2677404:2678852(1448) ack 1 win 2896 <nop,nop,timestamp 669525 289778>
+20:40:16.268574 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 2670164 win 3072 <nop,nop,timestamp 289781 669524>
+20:40:16.268581 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 2674508 win 3009 <nop,nop,timestamp 289781 669524>
+20:40:16.271074 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 2677404 win 3051 <nop,nop,timestamp 289781 669524>
+20:40:16.560522 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 2779392 win 2962 <nop,nop,timestamp 289810 669595>
+20:40:16.585211 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 2779392:2780708(1316) ack 1 win 2896 <nop,nop,timestamp 669605 289810>
+20:40:16.585320 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 2780708:2782156(1448) ack 1 win 2896 <nop,nop,timestamp 669605 289810>
+20:40:16.585367 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 2782156:2783604(1448) ack 1 win 2896 <nop,nop,timestamp 669605 289810>
+20:40:16.585433 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 2783604:2785052(1448) ack 1 win 2896 <nop,nop,timestamp 669605 289810>
+20:40:16.585478 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 2785052:2786500(1448) ack 1 win 2896 <nop,nop,timestamp 669605 289810>
+20:40:16.589116 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 2786500:2787948(1448) ack 1 win 2896 <nop,nop,timestamp 669606 289810>
+20:40:16.589180 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 2787948:2789396(1448) ack 1 win 2896 <nop,nop,timestamp 669606 289810>
+20:40:16.589221 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 2789396:2790844(1448) ack 1 win 2896 <nop,nop,timestamp 669606 289810>
+20:40:16.589260 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 2790844:2792292(1448) ack 1 win 2896 <nop,nop,timestamp 669606 289810>
+20:40:16.589311 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 2792292:2793740(1448) ack 1 win 2896 <nop,nop,timestamp 669606 289810>
+20:40:16.596698 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 2780708 win 3072 <nop,nop,timestamp 289814 669605>
+20:40:16.596873 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 2793740:2795184(1444) ack 1 win 2896 <nop,nop,timestamp 669608 289814>
+20:40:16.596707 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 2783604 win 3051 <nop,nop,timestamp 289814 669605>
+20:40:16.599346 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 2793740 win 2920 <nop,nop,timestamp 289814 669605>
+20:40:16.601871 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 2795184 win 3072 <nop,nop,timestamp 289815 669608>
+20:40:16.629124 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 2795184:2796500(1316) ack 1 win 2896 <nop,nop,timestamp 669616 289815>
+20:40:16.629194 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 2796500:2797948(1448) ack 1 win 2896 <nop,nop,timestamp 669616 289815>
+20:40:16.629240 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 2797948:2799396(1448) ack 1 win 2896 <nop,nop,timestamp 669616 289815>
+20:40:16.629295 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 2799396:2800844(1448) ack 1 win 2896 <nop,nop,timestamp 669616 289815>
+20:40:16.629334 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 2800844:2802292(1448) ack 1 win 2896 <nop,nop,timestamp 669616 289815>
+20:40:16.641395 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 2796500 win 3072 <nop,nop,timestamp 289818 669616>
+20:40:16.641575 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 2802292:2803080(788) ack 1 win 2896 <nop,nop,timestamp 669619 289818>
+20:40:16.646340 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 2802292 win 2983 <nop,nop,timestamp 289819 669616>
+20:40:16.648467 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 2803080 win 3072 <nop,nop,timestamp 289819 669619>
+20:40:16.653079 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 2803080:2804396(1316) ack 1 win 2896 <nop,nop,timestamp 669622 289819>
+20:40:16.653145 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 2804396:2805844(1448) ack 1 win 2896 <nop,nop,timestamp 669622 289819>
+20:40:16.653185 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 2805844:2807292(1448) ack 1 win 2896 <nop,nop,timestamp 669622 289819>
+20:40:16.653234 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 2807292:2808740(1448) ack 1 win 2896 <nop,nop,timestamp 669622 289819>
+20:40:16.669896 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 2804396 win 3072 <nop,nop,timestamp 289821 669622>
+20:40:16.901189 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 2904556:2906004(1448) ack 1 win 2896 <nop,nop,timestamp 669684 289830>
+20:40:16.901270 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 2906004:2907452(1448) ack 1 win 2896 <nop,nop,timestamp 669684 289830>
+20:40:16.901340 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 2907452:2908900(1448) ack 1 win 2896 <nop,nop,timestamp 669684 289830>
+20:40:16.901406 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 2908900:2910348(1448) ack 1 win 2896 <nop,nop,timestamp 669684 289830>
+20:40:16.901453 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 2910348:2911796(1448) ack 1 win 2896 <nop,nop,timestamp 669684 289830>
+20:40:16.901513 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 2911796:2913244(1448) ack 1 win 2896 <nop,nop,timestamp 669684 289830>
+20:40:16.912622 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 2859668 win 3072 <nop,nop,timestamp 289836 669655>
+20:40:16.912799 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 2913244:2913624(380) ack 1 win 2896 <nop,nop,timestamp 669687 289836>
+20:40:16.912864 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 2868356 win 2962 <nop,nop,timestamp 289837 669655>
+20:40:16.912871 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 2871252 win 2935 <nop,nop,timestamp 289837 669656>
+20:40:16.915602 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 2874148 win 3051 <nop,nop,timestamp 289842 669656>
+20:40:16.915612 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 2878492 win 3009 <nop,nop,timestamp 289843 669663>
+20:40:16.915647 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 2881388 win 3051 <nop,nop,timestamp 289843 669663>
+20:40:16.915654 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 2887180 win 2962 <nop,nop,timestamp 289843 669666>
+20:40:16.915714 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 2897316 win 2825 <nop,nop,timestamp 289843 669666>
+20:40:16.917158 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 2900212 win 3051 <nop,nop,timestamp 289846 669681>
+20:40:16.918590 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 2907452 win 2941 <nop,nop,timestamp 289846 669681>
+20:40:16.918598 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 2913624 win 2890 <nop,nop,timestamp 289846 669684>
+20:40:16.937047 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 2913624:2914940(1316) ack 1 win 2896 <nop,nop,timestamp 669693 289846>
+20:40:16.937121 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 2914940:2916388(1448) ack 1 win 2896 <nop,nop,timestamp 669693 289846>
+20:40:16.937161 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 2916388:2917836(1448) ack 1 win 2896 <nop,nop,timestamp 669693 289846>
+20:40:16.937215 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 2917836:2919284(1448) ack 1 win 2896 <nop,nop,timestamp 669693 289846>
+20:40:16.937256 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 2919284:2920732(1448) ack 1 win 2896 <nop,nop,timestamp 669693 289846>
+20:40:16.941366 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 2920732:2922180(1448) ack 1 win 2896 <nop,nop,timestamp 669694 289846>
+20:40:16.941550 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 2922180:2923628(1448) ack 1 win 2896 <nop,nop,timestamp 669694 289846>
+20:40:16.941676 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 2923628:2925076(1448) ack 1 win 2896 <nop,nop,timestamp 669694 289846>
+20:40:16.941745 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 2925076:2926524(1448) ack 1 win 2896 <nop,nop,timestamp 669694 289846>
+20:40:16.941790 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 2926524:2927972(1448) ack 1 win 2896 <nop,nop,timestamp 669694 289846>
+20:40:16.946808 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 2914940 win 3072 <nop,nop,timestamp 289849 669693>
+20:40:16.946984 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 2927972:2929416(1444) ack 1 win 2896 <nop,nop,timestamp 669695 289849>
+20:40:16.954787 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 2919284 win 3005 <nop,nop,timestamp 289849 669693>
+20:40:16.960423 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 2922180 win 3051 <nop,nop,timestamp 289850 669693>
+20:40:16.960432 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 2926524 win 3004 <nop,nop,timestamp 289851 669694>
+20:40:17.024682 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 2929416 win 3003 <nop,nop,timestamp 289851 669694>
+20:40:17.024714 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 2932312 win 3051 <nop,nop,timestamp 289855 669704>
+20:40:17.024719 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 2936656 win 3004 <nop,nop,timestamp 289855 669704>
+20:40:17.024767 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 2939552 win 3051 <nop,nop,timestamp 289856 669705>
+20:40:17.225159 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 3023380:3024828(1448) ack 1 win 2896 <nop,nop,timestamp 669765 289874>
+20:40:17.225224 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 3024828:3026276(1448) ack 1 win 2896 <nop,nop,timestamp 669765 289874>
+20:40:17.225262 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 3026276:3027724(1448) ack 1 win 2896 <nop,nop,timestamp 669765 289874>
+20:40:17.225296 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 3027724:3029172(1448) ack 1 win 2896 <nop,nop,timestamp 669765 289874>
+20:40:17.225327 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 3017588 win 3072 <nop,nop,timestamp 289877 669764>
+20:40:17.225412 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 3029172:3029432(260) ack 1 win 2896 <nop,nop,timestamp 669765 289877>
+20:40:17.230321 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 3020484 win 3051 <nop,nop,timestamp 289878 669764>
+20:40:17.232167 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 3027724 win 2962 <nop,nop,timestamp 289878 669764>
+20:40:17.234460 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 3029432 win 3044 <nop,nop,timestamp 289878 669765>
+20:40:17.234602 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 3030880:3032064(1184) ack 1 win 2896 <nop,nop,timestamp 669767 289878>
+20:40:17.243874 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 3032064 win 3051 <nop,nop,timestamp 289878 669765>
+20:40:17.265226 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 3032064:3033380(1316) ack 1 win 2896 <nop,nop,timestamp 669775 289878>
+20:40:17.265307 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 3033380:3034828(1448) ack 1 win 2896 <nop,nop,timestamp 669775 289878>
+20:40:17.265359 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 3034828:3036276(1448) ack 1 win 2896 <nop,nop,timestamp 669775 289878>
+20:40:17.265423 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 3036276:3037724(1448) ack 1 win 2896 <nop,nop,timestamp 669775 289878>
+20:40:17.265468 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 3037724:3039172(1448) ack 1 win 2896 <nop,nop,timestamp 669775 289878>
+20:40:17.269054 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 3039172:3040620(1448) ack 1 win 2896 <nop,nop,timestamp 669776 289878>
+20:40:17.269132 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 3040620:3042068(1448) ack 1 win 2896 <nop,nop,timestamp 669776 289878>
+20:40:17.269184 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 3042068:3043516(1448) ack 1 win 2896 <nop,nop,timestamp 669776 289878>
+20:40:17.269237 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 3043516:3044964(1448) ack 1 win 2896 <nop,nop,timestamp 669776 289878>
+20:40:17.269275 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 3044964:3046412(1448) ack 1 win 2896 <nop,nop,timestamp 669776 289878>
+20:40:17.297144 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 3046412:3047860(1448) ack 1 win 2896 <nop,nop,timestamp 669783 289878>
+20:40:17.297245 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 3047860:3049308(1448) ack 1 win 2896 <nop,nop,timestamp 669783 289878>
+20:40:17.297334 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 3049308:3050756(1448) ack 1 win 2896 <nop,nop,timestamp 669783 289878>
+20:40:17.297386 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 3050756:3052204(1448) ack 1 win 2896 <nop,nop,timestamp 669783 289878>
+20:40:17.297441 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 3052204:3053652(1448) ack 1 win 2896 <nop,nop,timestamp 669783 289878>
+20:40:17.297490 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 3053652:3055100(1448) ack 1 win 2896 <nop,nop,timestamp 669783 289878>
+20:40:17.304148 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 3033380 win 3072 <nop,nop,timestamp 289884 669775>
+20:40:17.320648 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 3044964 win 2893 <nop,nop,timestamp 289886 669775>
+20:40:17.369055 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 3047860 win 3030 <nop,nop,timestamp 289887 669776>
+20:40:17.566235 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 3149716 win 3025 <nop,nop,timestamp 289909 669842>
+20:40:17.574975 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 3150504 win 3072 <nop,nop,timestamp 289909 669844>
+20:40:17.575126 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 3157744:3158400(656) ack 1 win 2896 <nop,nop,timestamp 669853 289909>
+20:40:17.574994 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 3153400 win 3051 <nop,nop,timestamp 289910 669845>
+20:40:17.574999 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 3157744 win 3004 <nop,nop,timestamp 289910 669845>
+20:40:17.581290 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 3158400:3159848(1448) ack 1 win 2896 <nop,nop,timestamp 669854 289910>
+20:40:17.581359 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 3159848:3161296(1448) ack 1 win 2896 <nop,nop,timestamp 669854 289910>
+20:40:17.581403 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 3161296:3162744(1448) ack 1 win 2896 <nop,nop,timestamp 669854 289910>
+20:40:17.581462 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 3162744:3164192(1448) ack 1 win 2896 <nop,nop,timestamp 669854 289910>
+20:40:17.581511 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 3164192:3165640(1448) ack 1 win 2896 <nop,nop,timestamp 669854 289910>
+20:40:17.585179 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 3165640:3167088(1448) ack 1 win 2896 <nop,nop,timestamp 669855 289910>
+20:40:17.585262 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 3167088:3168536(1448) ack 1 win 2896 <nop,nop,timestamp 669855 289910>
+20:40:17.585312 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 3168536:3169984(1448) ack 1 win 2896 <nop,nop,timestamp 669855 289910>
+20:40:17.585378 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 3169984:3171432(1448) ack 1 win 2896 <nop,nop,timestamp 669855 289910>
+20:40:17.585428 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 3171432:3172880(1448) ack 1 win 2896 <nop,nop,timestamp 669855 289910>
+20:40:17.601579 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 3158400 win 3072 <nop,nop,timestamp 289913 669853>
+20:40:17.601748 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 3172880:3174192(1312) ack 1 win 2896 <nop,nop,timestamp 669859 289913>
+20:40:17.603476 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 3161296 win 3051 <nop,nop,timestamp 289915 669854>
+20:40:17.610608 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 3168536 win 2962 <nop,nop,timestamp 289915 669854>
+20:40:17.610615 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 3174192 win 2893 <nop,nop,timestamp 289915 669855>
+20:40:17.625229 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 3174192:3175508(1316) ack 1 win 2896 <nop,nop,timestamp 669865 289915>
+20:40:17.625316 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 3175508:3176956(1448) ack 1 win 2896 <nop,nop,timestamp 669865 289915>
+20:40:17.625368 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 3176956:3178404(1448) ack 1 win 2896 <nop,nop,timestamp 669865 289915>
+20:40:17.625431 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 3178404:3179852(1448) ack 1 win 2896 <nop,nop,timestamp 669865 289915>
+20:40:17.625474 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 3179852:3181300(1448) ack 1 win 2896 <nop,nop,timestamp 669865 289915>
+20:40:17.629046 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 3181300:3182748(1448) ack 1 win 2896 <nop,nop,timestamp 669866 289915>
+20:40:17.629108 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 3182748:3184196(1448) ack 1 win 2896 <nop,nop,timestamp 669866 289915>
+20:40:17.629148 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 3184196:3185644(1448) ack 1 win 2896 <nop,nop,timestamp 669866 289915>
+20:40:17.629700 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 3175508 win 3072 <nop,nop,timestamp 289917 669865>
+20:40:17.635715 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 3181300 win 2983 <nop,nop,timestamp 289918 669865>
+20:40:17.901181 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 3268944:3270260(1316) ack 1 win 2896 <nop,nop,timestamp 669934 289943>
+20:40:17.901283 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 3270260:3271708(1448) ack 1 win 2896 <nop,nop,timestamp 669934 289943>
+20:40:17.901347 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 3271708:3273156(1448) ack 1 win 2896 <nop,nop,timestamp 669934 289943>
+20:40:17.901390 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 3273156:3274604(1448) ack 1 win 2896 <nop,nop,timestamp 669934 289943>
+20:40:17.901433 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 3274604:3276052(1448) ack 1 win 2896 <nop,nop,timestamp 669934 289943>
+20:40:17.905215 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 3276052:3277500(1448) ack 1 win 2896 <nop,nop,timestamp 669935 289943>
+20:40:17.905298 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 3277500:3278948(1448) ack 1 win 2896 <nop,nop,timestamp 669935 289943>
+20:40:17.905344 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 3278948:3280396(1448) ack 1 win 2896 <nop,nop,timestamp 669935 289943>
+20:40:17.905422 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 3280396:3281844(1448) ack 1 win 2896 <nop,nop,timestamp 669935 289943>
+20:40:17.905469 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 3281844:3283292(1448) ack 1 win 2896 <nop,nop,timestamp 669935 289943>
+20:40:17.909853 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 3270260 win 3072 <nop,nop,timestamp 289945 669934>
+20:40:17.909980 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 3283292:3284736(1444) ack 1 win 2896 <nop,nop,timestamp 669936 289945>
+20:40:17.911462 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 3276052 win 2983 <nop,nop,timestamp 289945 669934>
+20:40:17.913305 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 3278948 win 3030 <nop,nop,timestamp 289946 669935>
+20:40:17.921488 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 3284736 win 2982 <nop,nop,timestamp 289947 669935>
+20:40:17.945260 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 3284736:3286052(1316) ack 1 win 2896 <nop,nop,timestamp 669945 289947>
+20:40:17.945389 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 3286052:3287500(1448) ack 1 win 2896 <nop,nop,timestamp 669945 289947>
+20:40:17.945458 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 3287500:3288948(1448) ack 1 win 2896 <nop,nop,timestamp 669945 289947>
+20:40:17.945506 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 3288948:3290396(1448) ack 1 win 2896 <nop,nop,timestamp 669945 289947>
+20:40:17.949299 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 3286052 win 3072 <nop,nop,timestamp 289950 669945>
+20:40:17.956232 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 3300528 win 2851 <nop,nop,timestamp 289950 669945>
+20:40:18.052550 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 3301844 win 3072 <nop,nop,timestamp 289953 669953>
+20:40:18.052559 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 3310532 win 2962 <nop,nop,timestamp 289954 669953>
+20:40:18.052618 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 3313428 win 3025 <nop,nop,timestamp 289955 669954>
+20:40:18.052649 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 3316324 win 3051 <nop,nop,timestamp 289958 669954>
+20:40:18.229834 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 3378700 win 2983 <nop,nop,timestamp 289974 670004>
+20:40:18.230230 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 3403176:3404624(1448) ack 1 win 2896 <nop,nop,timestamp 670016 289974>
+20:40:18.230286 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 3404624:3406072(1448) ack 1 win 2896 <nop,nop,timestamp 670016 289974>
+20:40:18.230324 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 3406072:3407520(1448) ack 1 win 2896 <nop,nop,timestamp 670016 289974>
+20:40:18.230360 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 3407520:3408968(1448) ack 1 win 2896 <nop,nop,timestamp 670016 289974>
+20:40:18.230481 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 3408968:3410416(1448) ack 1 win 2896 <nop,nop,timestamp 670016 289974>
+20:40:18.237091 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 3381596 win 3051 <nop,nop,timestamp 289978 670005>
+20:40:18.241640 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 3388836 win 2962 <nop,nop,timestamp 289978 670005>
+20:40:18.241649 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 3391732 win 2956 <nop,nop,timestamp 289978 670012>
+20:40:18.244208 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 3394628 win 3051 <nop,nop,timestamp 289979 670012>
+20:40:18.244217 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 3400420 win 2962 <nop,nop,timestamp 289979 670015>
+20:40:18.249285 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 3410416 win 2831 <nop,nop,timestamp 289979 670015>
+20:40:18.249432 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 3410416:3411072(656) ack 1 win 2896 <nop,nop,timestamp 670021 289979>
+20:40:18.256937 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 3411072 win 3072 <nop,nop,timestamp 289980 670021>
+20:40:18.257248 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 3411072:3412388(1316) ack 1 win 2896 <nop,nop,timestamp 670023 289980>
+20:40:18.257320 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 3412388:3413836(1448) ack 1 win 2896 <nop,nop,timestamp 670023 289980>
+20:40:18.257365 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 3413836:3415284(1448) ack 1 win 2896 <nop,nop,timestamp 670023 289980>
+20:40:18.257428 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 3415284:3416732(1448) ack 1 win 2896 <nop,nop,timestamp 670023 289980>
+20:40:18.257472 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 3416732:3418180(1448) ack 1 win 2896 <nop,nop,timestamp 670023 289980>
+20:40:18.261432 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 3412388 win 3072 <nop,nop,timestamp 289981 670023>
+20:40:18.261577 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 3418180:3418968(788) ack 1 win 2896 <nop,nop,timestamp 670024 289981>
+20:40:18.268499 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 3418180 win 3004 <nop,nop,timestamp 289981 670023>
+20:40:18.268506 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 3418968 win 3072 <nop,nop,timestamp 289981 670024>
+20:40:18.269141 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 3418968:3420284(1316) ack 1 win 2896 <nop,nop,timestamp 670026 289981>
+20:40:18.269204 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 3420284:3421732(1448) ack 1 win 2896 <nop,nop,timestamp 670026 289981>
+20:40:18.269244 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 3421732:3423180(1448) ack 1 win 2896 <nop,nop,timestamp 670026 289981>
+20:40:18.269362 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 3423180:3424628(1448) ack 1 win 2896 <nop,nop,timestamp 670026 289981>
+20:40:18.270074 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 3424628:3426076(1448) ack 1 win 2896 <nop,nop,timestamp 670026 289981>
+20:40:18.273208 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 3420284 win 3072 <nop,nop,timestamp 289982 670026>
+20:40:18.273309 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 3426076:3426864(788) ack 1 win 2896 <nop,nop,timestamp 670027 289982>
+20:40:18.277155 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 3426076 win 2983 <nop,nop,timestamp 289982 670026>
+20:40:18.280837 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 3426864 win 3072 <nop,nop,timestamp 289982 670027>
+20:40:18.305108 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 3426864:3428180(1316) ack 1 win 2896 <nop,nop,timestamp 670035 289982>
+20:40:18.309824 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 3428180 win 3072 <nop,nop,timestamp 289985 670035>
+20:40:18.314079 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 3434760 win 2970 <nop,nop,timestamp 289986 670035>
+20:40:18.345083 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 3436076 win 3072 <nop,nop,timestamp 289989 670044>
+20:40:18.577246 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 3521616:3522932(1316) ack 1 win 2896 <nop,nop,timestamp 670103 290011>
+20:40:18.577334 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 3522932:3524380(1448) ack 1 win 2896 <nop,nop,timestamp 670103 290011>
+20:40:18.577382 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 3524380:3525828(1448) ack 1 win 2896 <nop,nop,timestamp 670103 290011>
+20:40:18.577443 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 3525828:3527276(1448) ack 1 win 2896 <nop,nop,timestamp 670103 290011>
+20:40:18.577486 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 3527276:3528724(1448) ack 1 win 2896 <nop,nop,timestamp 670103 290011>
+20:40:18.581191 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 3528724:3530172(1448) ack 1 win 2896 <nop,nop,timestamp 670104 290011>
+20:40:18.581278 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 3530172:3531620(1448) ack 1 win 2896 <nop,nop,timestamp 670104 290011>
+20:40:18.581330 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 3531620:3533068(1448) ack 1 win 2896 <nop,nop,timestamp 670104 290011>
+20:40:18.581374 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 3522932 win 3072 <nop,nop,timestamp 290013 670103>
+20:40:18.581499 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 3533068:3533460(392) ack 1 win 2896 <nop,nop,timestamp 670104 290013>
+20:40:18.581557 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 3533460:3534908(1448) ack 1 win 2896 <nop,nop,timestamp 670104 290013>
+20:40:18.581617 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 3534908:3536356(1448) ack 1 win 2896 <nop,nop,timestamp 670104 290013>
+20:40:18.585016 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 3530172 win 2983 <nop,nop,timestamp 290013 670103>
+20:40:18.590152 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 3533068 win 3030 <nop,nop,timestamp 290013 670104>
+20:40:18.594526 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 3536356 win 2980 <nop,nop,timestamp 290013 670104>
+20:40:18.594605 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 3536356:3537408(1052) ack 1 win 2896 <nop,nop,timestamp 670107 290013>
+20:40:18.598485 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 3537408 win 3072 <nop,nop,timestamp 290014 670107>
+20:40:18.621240 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 3537408:3538724(1316) ack 1 win 2896 <nop,nop,timestamp 670114 290014>
+20:40:18.621332 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 3538724:3540172(1448) ack 1 win 2896 <nop,nop,timestamp 670114 290014>
+20:40:18.621381 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 3540172:3541620(1448) ack 1 win 2896 <nop,nop,timestamp 670114 290014>
+20:40:18.621447 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 3541620:3543068(1448) ack 1 win 2896 <nop,nop,timestamp 670114 290014>
+20:40:18.621522 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 3543068:3544516(1448) ack 1 win 2896 <nop,nop,timestamp 670114 290014>
+20:40:18.625169 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 3544516:3545964(1448) ack 1 win 2896 <nop,nop,timestamp 670115 290014>
+20:40:18.625978 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 3545964:3547412(1448) ack 1 win 2896 <nop,nop,timestamp 670115 290014>
+20:40:18.626045 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 3547412:3548860(1448) ack 1 win 2896 <nop,nop,timestamp 670115 290014>
+20:40:18.626094 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 3548860:3550308(1448) ack 1 win 2896 <nop,nop,timestamp 670115 290014>
+20:40:18.626155 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 3550308:3551756(1448) ack 1 win 2896 <nop,nop,timestamp 670115 290014>
+20:40:18.629238 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 3538724 win 3072 <nop,nop,timestamp 290017 670114>
+20:40:18.641755 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 3541620 win 3051 <nop,nop,timestamp 290018 670114>
+20:40:18.641764 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 3544516 win 3025 <nop,nop,timestamp 290018 670114>
+20:40:19.169223 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 3647952:3649268(1316) ack 1 win 2896 <nop,nop,timestamp 670251 290042>
+20:40:19.169300 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 3649268:3650716(1448) ack 1 win 2896 <nop,nop,timestamp 670251 290042>
+20:40:19.169346 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 3650716:3652164(1448) ack 1 win 2896 <nop,nop,timestamp 670251 290042>
+20:40:19.169406 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 3652164:3653612(1448) ack 1 win 2896 <nop,nop,timestamp 670251 290042>
+20:40:19.169448 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 3653612:3655060(1448) ack 1 win 2896 <nop,nop,timestamp 670251 290042>
+20:40:19.173130 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 3655060:3656508(1448) ack 1 win 2896 <nop,nop,timestamp 670252 290042>
+20:40:19.173235 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 3656508:3657956(1448) ack 1 win 2896 <nop,nop,timestamp 670252 290042>
+20:40:19.173305 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 3657956:3659404(1448) ack 1 win 2896 <nop,nop,timestamp 670252 290042>
+20:40:19.173354 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 3659404:3660852(1448) ack 1 win 2896 <nop,nop,timestamp 670252 290042>
+20:40:19.173401 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 3660852:3662300(1448) ack 1 win 2896 <nop,nop,timestamp 670252 290042>
+20:40:19.177325 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 3662300:3663748(1448) ack 1 win 2896 <nop,nop,timestamp 670253 290042>
+20:40:19.177419 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 3663748:3665196(1448) ack 1 win 2896 <nop,nop,timestamp 670253 290042>
+20:40:19.177473 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 3665196:3666644(1448) ack 1 win 2896 <nop,nop,timestamp 670253 290042>
+20:40:19.177542 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 3666644:3668092(1448) ack 1 win 2896 <nop,nop,timestamp 670253 290042>
+20:40:19.177588 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 3668092:3669540(1448) ack 1 win 2896 <nop,nop,timestamp 670253 290042>
+20:40:19.177646 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 3669540:3670988(1448) ack 1 win 2896 <nop,nop,timestamp 670253 290042>
+20:40:19.181153 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 3670988:3672436(1448) ack 1 win 2896 <nop,nop,timestamp 670254 290042>
+20:40:19.181229 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 3672436:3673884(1448) ack 1 win 2896 <nop,nop,timestamp 670254 290042>
+20:40:19.181275 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 3673884:3675332(1448) ack 1 win 2896 <nop,nop,timestamp 670254 290042>
+20:40:19.237519 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 3733252 win 2962 <nop,nop,timestamp 290078 670263>
+20:40:19.241203 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 3736148 win 3030 <nop,nop,timestamp 290078 670263>
+20:40:19.241212 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 3740492 win 2963 <nop,nop,timestamp 290078 670263>
+20:40:19.241225 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 3743388 win 3025 <nop,nop,timestamp 290078 670264>
+20:40:19.241232 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 3746284 win 3051 <nop,nop,timestamp 290078 670264>
+20:40:19.241934 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 3752076 win 2962 <nop,nop,timestamp 290078 670264>
+20:40:19.241943 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 3754972 win 3030 <nop,nop,timestamp 290078 670264>
+20:40:19.242245 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 3758496 win 2975 <nop,nop,timestamp 290078 670265>
+20:40:19.242344 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 3765736:3766392(656) ack 1 win 2896 <nop,nop,timestamp 670269 290078>
+20:40:19.242252 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 3761392 win 3030 <nop,nop,timestamp 290079 670265>
+20:40:19.242460 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 3765736 win 2963 <nop,nop,timestamp 290079 670265>
+20:40:19.252525 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 3766392 win 3072 <nop,nop,timestamp 290079 670269>
+20:40:19.253290 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 3766392:3767708(1316) ack 1 win 2896 <nop,nop,timestamp 670272 290079>
+20:40:19.253395 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 3767708:3769156(1448) ack 1 win 2896 <nop,nop,timestamp 670272 290079>
+20:40:19.253461 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 3769156:3770604(1448) ack 1 win 2896 <nop,nop,timestamp 670272 290079>
+20:40:19.253513 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 3770604:3772052(1448) ack 1 win 2896 <nop,nop,timestamp 670272 290079>
+20:40:19.253571 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 3772052:3773500(1448) ack 1 win 2896 <nop,nop,timestamp 670272 290079>
+20:40:19.257154 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 3773500:3774948(1448) ack 1 win 2896 <nop,nop,timestamp 670273 290079>
+20:40:19.257262 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 3774948:3776396(1448) ack 1 win 2896 <nop,nop,timestamp 670273 290079>
+20:40:19.257315 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 3776396:3777844(1448) ack 1 win 2896 <nop,nop,timestamp 670273 290079>
+20:40:19.257377 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 3777844:3779292(1448) ack 1 win 2896 <nop,nop,timestamp 670273 290079>
+20:40:19.257421 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 3779292:3780740(1448) ack 1 win 2896 <nop,nop,timestamp 670273 290079>
+20:40:19.257602 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 3769156 win 3051 <nop,nop,timestamp 290080 670272>
+20:40:19.257728 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 3780740:3782184(1444) ack 1 win 2896 <nop,nop,timestamp 670273 290080>
+20:40:19.261042 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 3773500 win 3004 <nop,nop,timestamp 290081 670272>
+20:40:19.261343 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 3782184:3783632(1448) ack 1 win 2896 <nop,nop,timestamp 670274 290081>
+20:40:19.261407 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 3783632:3785080(1448) ack 1 win 2896 <nop,nop,timestamp 670274 290081>
+20:40:19.261455 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 3785080:3786528(1448) ack 1 win 2896 <nop,nop,timestamp 670274 290081>
+20:40:19.261515 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 3786528:3787976(1448) ack 1 win 2896 <nop,nop,timestamp 670274 290081>
+20:40:19.261562 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 3787976:3789424(1448) ack 1 win 2896 <nop,nop,timestamp 670274 290081>
+20:40:19.577191 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 3884312:3885760(1448) ack 1 win 2896 <nop,nop,timestamp 670353 290108>
+20:40:19.577280 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 3885760:3887208(1448) ack 1 win 2896 <nop,nop,timestamp 670353 290108>
+20:40:19.577326 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 3887208:3888656(1448) ack 1 win 2896 <nop,nop,timestamp 670353 290108>
+20:40:19.577398 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 3888656:3890104(1448) ack 1 win 2896 <nop,nop,timestamp 670353 290108>
+20:40:19.577443 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 3890104:3891552(1448) ack 1 win 2896 <nop,nop,timestamp 670353 290108>
+20:40:19.589081 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 3891552:3893000(1448) ack 1 win 2896 <nop,nop,timestamp 670356 290108>
+20:40:19.589149 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 3893000:3894448(1448) ack 1 win 2896 <nop,nop,timestamp 670356 290108>
+20:40:19.589191 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 3894448:3895896(1448) ack 1 win 2896 <nop,nop,timestamp 670356 290108>
+20:40:19.589227 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 3895896:3897344(1448) ack 1 win 2896 <nop,nop,timestamp 670356 290108>
+20:40:19.589279 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 3897344:3898792(1448) ack 1 win 2896 <nop,nop,timestamp 670356 290108>
+20:40:19.589317 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 3898792:3900240(1448) ack 1 win 2896 <nop,nop,timestamp 670356 290108>
+20:40:19.625124 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 3900240:3901688(1448) ack 1 win 2896 <nop,nop,timestamp 670365 290108>
+20:40:19.625197 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 3901688:3903136(1448) ack 1 win 2896 <nop,nop,timestamp 670365 290108>
+20:40:19.625239 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 3903136:3904584(1448) ack 1 win 2896 <nop,nop,timestamp 670365 290108>
+20:40:19.625277 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 3904584:3906032(1448) ack 1 win 2896 <nop,nop,timestamp 670365 290108>
+20:40:19.625329 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 3906032:3907480(1448) ack 1 win 2896 <nop,nop,timestamp 670365 290108>
+20:40:19.629030 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 3907480:3908928(1448) ack 1 win 2896 <nop,nop,timestamp 670366 290108>
+20:40:19.629081 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 3908928:3910376(1448) ack 1 win 2896 <nop,nop,timestamp 670366 290108>
+20:40:19.629118 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 3910376:3911824(1448) ack 1 win 2896 <nop,nop,timestamp 670366 290108>
+20:40:19.629154 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 3911824:3913272(1448) ack 1 win 2896 <nop,nop,timestamp 670366 290108>
+20:40:19.629208 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 3913272:3914720(1448) ack 1 win 2896 <nop,nop,timestamp 670366 290108>
+20:40:19.629246 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 3914720:3916168(1448) ack 1 win 2896 <nop,nop,timestamp 670366 290108>
+20:40:19.669137 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 3916168:3917616(1448) ack 1 win 2896 <nop,nop,timestamp 670376 290108>
+20:40:19.684440 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 3862592 win 2974 <nop,nop,timestamp 290123 670332>
+20:40:19.909083 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4026308:4027756(1448) ack 1 win 2896 <nop,nop,timestamp 670436 290142>
+20:40:19.909149 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4027756:4029204(1448) ack 1 win 2896 <nop,nop,timestamp 670436 290142>
+20:40:19.909191 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4029204:4030652(1448) ack 1 win 2896 <nop,nop,timestamp 670436 290142>
+20:40:19.909256 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4030652:4032100(1448) ack 1 win 2896 <nop,nop,timestamp 670436 290142>
+20:40:19.909295 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4032100:4033548(1448) ack 1 win 2896 <nop,nop,timestamp 670436 290142>
+20:40:19.910596 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 4004588 win 3072 <nop,nop,timestamp 290144 670432>
+20:40:19.910719 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 4033548:4034856(1308) ack 1 win 2896 <nop,nop,timestamp 670436 290144>
+20:40:19.910604 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 4010380 win 3004 <nop,nop,timestamp 290145 670432>
+20:40:19.949097 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4034856:4036304(1448) ack 1 win 2896 <nop,nop,timestamp 670446 290145>
+20:40:19.949158 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4036304:4037752(1448) ack 1 win 2896 <nop,nop,timestamp 670446 290145>
+20:40:19.949194 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4037752:4039200(1448) ack 1 win 2896 <nop,nop,timestamp 670446 290145>
+20:40:19.949231 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4039200:4040648(1448) ack 1 win 2896 <nop,nop,timestamp 670446 290145>
+20:40:19.949281 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4040648:4042096(1448) ack 1 win 2896 <nop,nop,timestamp 670446 290145>
+20:40:19.955512 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 4013276 win 3051 <nop,nop,timestamp 290146 670433>
+20:40:19.955520 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 4016172 win 3051 <nop,nop,timestamp 290146 670433>
+20:40:19.955564 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 4019068 win 3025 <nop,nop,timestamp 290147 670433>
+20:40:19.955570 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 4021964 win 3030 <nop,nop,timestamp 290149 670434>
+20:40:19.955616 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 4024860 win 3009 <nop,nop,timestamp 290149 670434>
+20:40:19.955621 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 4027756 win 2983 <nop,nop,timestamp 290149 670434>
+20:40:19.956290 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 4030652 win 3051 <nop,nop,timestamp 290149 670436>
+20:40:19.956809 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 4033548 win 3051 <nop,nop,timestamp 290150 670436>
+20:40:19.956818 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 4040648 win 2987 <nop,nop,timestamp 290150 670436>
+20:40:19.956979 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 4042096:4042752(656) ack 1 win 2896 <nop,nop,timestamp 670448 290150>
+20:40:19.961040 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 4042752 win 3036 <nop,nop,timestamp 290151 670446>
+20:40:19.985084 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 4042752:4044068(1316) ack 1 win 2896 <nop,nop,timestamp 670455 290151>
+20:40:19.985153 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4044068:4045516(1448) ack 1 win 2896 <nop,nop,timestamp 670455 290151>
+20:40:19.985215 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4045516:4046964(1448) ack 1 win 2896 <nop,nop,timestamp 670455 290151>
+20:40:19.985270 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4046964:4048412(1448) ack 1 win 2896 <nop,nop,timestamp 670455 290151>
+20:40:19.985308 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4048412:4049860(1448) ack 1 win 2896 <nop,nop,timestamp 670455 290151>
+20:40:19.989036 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4049860:4051308(1448) ack 1 win 2896 <nop,nop,timestamp 670456 290151>
+20:40:19.989114 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4051308:4052756(1448) ack 1 win 2896 <nop,nop,timestamp 670456 290151>
+20:40:19.993365 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 4044068 win 3072 <nop,nop,timestamp 290154 670455>
+20:40:20.002366 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 4052756 win 2962 <nop,nop,timestamp 290154 670455>
+20:40:20.010981 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 4055652 win 3030 <nop,nop,timestamp 290155 670456>
+20:40:20.012210 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 4058544 win 2985 <nop,nop,timestamp 290155 670456>
+20:40:20.029521 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 4059860 win 3072 <nop,nop,timestamp 290157 670463>
+20:40:20.033305 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 4065652 win 3004 <nop,nop,timestamp 290157 670463>
+20:40:20.269091 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4143956:4145404(1448) ack 1 win 2896 <nop,nop,timestamp 670526 290176>
+20:40:20.269179 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4145404:4146852(1448) ack 1 win 2896 <nop,nop,timestamp 670526 290176>
+20:40:20.269221 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4146852:4148300(1448) ack 1 win 2896 <nop,nop,timestamp 670526 290176>
+20:40:20.269270 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4148300:4149748(1448) ack 1 win 2896 <nop,nop,timestamp 670526 290176>
+20:40:20.269308 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4149748:4151196(1448) ack 1 win 2896 <nop,nop,timestamp 670526 290176>
+20:40:20.269344 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4151196:4152644(1448) ack 1 win 2896 <nop,nop,timestamp 670526 290176>
+20:40:20.284785 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 4130924 win 3072 <nop,nop,timestamp 290178 670515>
+20:40:20.284935 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 4152644:4153296(652) ack 1 win 2896 <nop,nop,timestamp 670530 290178>
+20:40:20.286614 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 4133820 win 3051 <nop,nop,timestamp 290181 670515>
+20:40:20.286660 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 4136716 win 3025 <nop,nop,timestamp 290181 670515>
+20:40:20.286665 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 4139612 win 3051 <nop,nop,timestamp 290182 670516>
+20:40:20.286714 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 4142508 win 3006 <nop,nop,timestamp 290182 670516>
+20:40:20.286720 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 4145404 win 3051 <nop,nop,timestamp 290183 670516>
+20:40:20.288091 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 4151196 win 2962 <nop,nop,timestamp 290183 670526>
+20:40:20.288102 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 4153296 win 3057 <nop,nop,timestamp 290183 670526>
+20:40:20.293139 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 4153296:4154612(1316) ack 1 win 2896 <nop,nop,timestamp 670532 290183>
+20:40:20.293206 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4154612:4156060(1448) ack 1 win 2896 <nop,nop,timestamp 670532 290183>
+20:40:20.293246 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4156060:4157508(1448) ack 1 win 2896 <nop,nop,timestamp 670532 290183>
+20:40:20.293298 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4157508:4158956(1448) ack 1 win 2896 <nop,nop,timestamp 670532 290183>
+20:40:20.293338 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4158956:4160404(1448) ack 1 win 2896 <nop,nop,timestamp 670532 290183>
+20:40:20.305299 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4160404:4161852(1448) ack 1 win 2896 <nop,nop,timestamp 670535 290183>
+20:40:20.305409 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4161852:4163300(1448) ack 1 win 2896 <nop,nop,timestamp 670535 290183>
+20:40:20.305480 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4163300:4164748(1448) ack 1 win 2896 <nop,nop,timestamp 670535 290183>
+20:40:20.305528 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4164748:4166196(1448) ack 1 win 2896 <nop,nop,timestamp 670535 290183>
+20:40:20.305575 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4166196:4167644(1448) ack 1 win 2896 <nop,nop,timestamp 670535 290183>
+20:40:20.337081 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 4154612 win 3072 <nop,nop,timestamp 290185 670532>
+20:40:20.337299 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 4167644:4169088(1444) ack 1 win 2896 <nop,nop,timestamp 670543 290185>
+20:40:20.337095 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 4163300 win 2962 <nop,nop,timestamp 290186 670532>
+20:40:20.337467 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 4166196 win 2977 <nop,nop,timestamp 290186 670535>
+20:40:20.341238 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4169088:4170536(1448) ack 1 win 2896 <nop,nop,timestamp 670544 290186>
+20:40:20.341309 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4170536:4171984(1448) ack 1 win 2896 <nop,nop,timestamp 670544 290186>
+20:40:20.341355 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4171984:4173432(1448) ack 1 win 2896 <nop,nop,timestamp 670544 290186>
+20:40:20.341436 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4173432:4174880(1448) ack 1 win 2896 <nop,nop,timestamp 670544 290186>
+20:40:20.341489 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4174880:4176328(1448) ack 1 win 2896 <nop,nop,timestamp 670544 290186>
+20:40:20.345247 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4176328:4177776(1448) ack 1 win 2896 <nop,nop,timestamp 670545 290186>
+20:40:20.345338 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4177776:4179224(1448) ack 1 win 2896 <nop,nop,timestamp 670545 290186>
+20:40:20.364638 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 4169088 win 3051 <nop,nop,timestamp 290190 670535>
+20:40:20.364645 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 4171984 win 3051 <nop,nop,timestamp 290190 670544>
+20:40:20.364707 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 4177776 win 2962 <nop,nop,timestamp 290190 670544>
+20:40:20.587268 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 4180672 win 3030 <nop,nop,timestamp 290192 670545>
+20:40:20.587440 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4248592:4250040(1448) ack 1 win 2896 <nop,nop,timestamp 670606 290192>
+20:40:20.587473 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4250040:4251488(1448) ack 1 win 2896 <nop,nop,timestamp 670606 290192>
+20:40:20.590254 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 4183568 win 2985 <nop,nop,timestamp 290192 670545>
+20:40:20.590392 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4251488:4252936(1448) ack 1 win 2896 <nop,nop,timestamp 670606 290192>
+20:40:20.590442 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4252936:4254384(1448) ack 1 win 2896 <nop,nop,timestamp 670606 290192>
+20:40:20.590466 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4254384:4255832(1448) ack 1 win 2896 <nop,nop,timestamp 670606 290192>
+20:40:20.590261 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 4184880 win 3072 <nop,nop,timestamp 290192 670550>
+20:40:20.590532 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4255832:4257280(1448) ack 1 win 2896 <nop,nop,timestamp 670606 290192>
+20:40:20.590306 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 4187776 win 3051 <nop,nop,timestamp 290195 670555>
+20:40:20.590597 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4257280:4258728(1448) ack 1 win 2896 <nop,nop,timestamp 670606 290195>
+20:40:20.590625 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4258728:4260176(1448) ack 1 win 2896 <nop,nop,timestamp 670606 290195>
+20:40:20.590688 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4260176:4261624(1448) ack 1 win 2896 <nop,nop,timestamp 670606 290195>
+20:40:20.590312 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 4197912 win 2919 <nop,nop,timestamp 290196 670555>
+20:40:20.590849 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4261624:4263072(1448) ack 1 win 2896 <nop,nop,timestamp 670606 290196>
+20:40:20.590934 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4263072:4264520(1448) ack 1 win 2896 <nop,nop,timestamp 670606 290196>
+20:40:20.591085 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4264520:4265968(1448) ack 1 win 2896 <nop,nop,timestamp 670607 290196>
+20:40:20.591178 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4265968:4267416(1448) ack 1 win 2896 <nop,nop,timestamp 670607 290196>
+20:40:20.591300 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4267416:4268864(1448) ack 1 win 2896 <nop,nop,timestamp 670607 290196>
+20:40:20.591423 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4268864:4270312(1448) ack 1 win 2896 <nop,nop,timestamp 670607 290196>
+20:40:20.591585 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4270312:4271760(1448) ack 1 win 2896 <nop,nop,timestamp 670607 290196>
+20:40:20.590365 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 4200808 win 3051 <nop,nop,timestamp 290199 670556>
+20:40:20.591744 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4271760:4273208(1448) ack 1 win 2896 <nop,nop,timestamp 670607 290199>
+20:40:20.591797 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4273208:4274656(1448) ack 1 win 2896 <nop,nop,timestamp 670607 290199>
+20:40:20.591915 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4274656:4276104(1448) ack 1 win 2896 <nop,nop,timestamp 670607 290199>
+20:40:20.590413 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 4208048 win 2962 <nop,nop,timestamp 290199 670566>
+20:40:20.592090 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4276104:4277552(1448) ack 1 win 2896 <nop,nop,timestamp 670607 290199>
+20:40:20.590419 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 4210944 win 3030 <nop,nop,timestamp 290203 670572>
+20:40:20.593720 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 4216736 win 2962 <nop,nop,timestamp 290203 670572>
+20:40:20.593731 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 4219632 win 3004 <nop,nop,timestamp 290203 670575>
+20:40:20.593770 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 4222528 win 3051 <nop,nop,timestamp 290203 670575>
+20:40:20.593824 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 4225424 win 3051 <nop,nop,timestamp 290205 670575>
+20:40:20.916671 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 4358592 win 3072 <nop,nop,timestamp 290239 670670>
+20:40:20.916817 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 4389000:4390176(1176) ack 1 win 2896 <nop,nop,timestamp 670688 290239>
+20:40:20.916678 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 4361488 win 3051 <nop,nop,timestamp 290242 670672>
+20:40:20.945149 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4390176:4391624(1448) ack 1 win 2896 <nop,nop,timestamp 670695 290242>
+20:40:20.945214 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4391624:4393072(1448) ack 1 win 2896 <nop,nop,timestamp 670695 290242>
+20:40:20.945253 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4393072:4394520(1448) ack 1 win 2896 <nop,nop,timestamp 670695 290242>
+20:40:20.945289 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4394520:4395968(1448) ack 1 win 2896 <nop,nop,timestamp 670695 290242>
+20:40:20.945341 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4395968:4397416(1448) ack 1 win 2896 <nop,nop,timestamp 670695 290242>
+20:40:20.949143 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4397416:4398864(1448) ack 1 win 2896 <nop,nop,timestamp 670696 290242>
+20:40:20.949200 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4398864:4400312(1448) ack 1 win 2896 <nop,nop,timestamp 670696 290242>
+20:40:20.949239 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4400312:4401760(1448) ack 1 win 2896 <nop,nop,timestamp 670696 290242>
+20:40:20.949274 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4401760:4403208(1448) ack 1 win 2896 <nop,nop,timestamp 670696 290242>
+20:40:20.949331 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4403208:4404656(1448) ack 1 win 2896 <nop,nop,timestamp 670696 290242>
+20:40:20.961869 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 4364384 win 3051 <nop,nop,timestamp 290250 670672>
+20:40:20.961878 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 4370176 win 2962 <nop,nop,timestamp 290250 670672>
+20:40:20.963306 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 4373072 win 3025 <nop,nop,timestamp 290250 670675>
+20:40:20.975238 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 4375968 win 3051 <nop,nop,timestamp 290252 670684>
+20:40:20.977305 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4404656:4406104(1448) ack 1 win 2896 <nop,nop,timestamp 670703 290252>
+20:40:20.977377 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4406104:4407552(1448) ack 1 win 2896 <nop,nop,timestamp 670703 290252>
+20:40:20.977419 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4407552:4409000(1448) ack 1 win 2896 <nop,nop,timestamp 670703 290252>
+20:40:20.977457 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4409000:4410448(1448) ack 1 win 2896 <nop,nop,timestamp 670703 290252>
+20:40:20.977509 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4410448:4411896(1448) ack 1 win 2896 <nop,nop,timestamp 670703 290252>
+20:40:20.979291 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 4381760 win 2962 <nop,nop,timestamp 290252 670684>
+20:40:20.979302 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 4384656 win 3025 <nop,nop,timestamp 290252 670685>
+20:40:21.033445 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 4386104 win 3072 <nop,nop,timestamp 290258 670685>
+20:40:21.253023 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 4419136 win 2962 <nop,nop,timestamp 290277 670706>
+20:40:21.253190 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4488888:4490336(1448) ack 1 win 2896 <nop,nop,timestamp 670772 290277>
+20:40:21.253223 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4490336:4491784(1448) ack 1 win 2896 <nop,nop,timestamp 670772 290277>
+20:40:21.253245 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4491784:4493232(1448) ack 1 win 2896 <nop,nop,timestamp 670772 290277>
+20:40:21.253267 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4493232:4494680(1448) ack 1 win 2896 <nop,nop,timestamp 670772 290277>
+20:40:21.253288 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4494680:4496128(1448) ack 1 win 2896 <nop,nop,timestamp 670772 290277>
+20:40:21.253033 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 4422032 win 2956 <nop,nop,timestamp 290277 670706>
+20:40:21.253409 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4496128:4497576(1448) ack 1 win 2896 <nop,nop,timestamp 670772 290277>
+20:40:21.253490 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4497576:4499024(1448) ack 1 win 2896 <nop,nop,timestamp 670772 290277>
+20:40:21.258731 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 4424928 win 3030 <nop,nop,timestamp 290279 670715>
+20:40:21.258896 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4499024:4500472(1448) ack 1 win 2896 <nop,nop,timestamp 670773 290279>
+20:40:21.258927 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4500472:4501920(1448) ack 1 win 2896 <nop,nop,timestamp 670773 290279>
+20:40:21.258949 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4501920:4503368(1448) ack 1 win 2896 <nop,nop,timestamp 670773 290279>
+20:40:21.258739 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 4430720 win 2941 <nop,nop,timestamp 290279 670715>
+20:40:21.259013 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4503368:4504816(1448) ack 1 win 2896 <nop,nop,timestamp 670773 290279>
+20:40:21.259039 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4504816:4506264(1448) ack 1 win 2896 <nop,nop,timestamp 670773 290279>
+20:40:21.259109 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4506264:4507712(1448) ack 1 win 2896 <nop,nop,timestamp 670774 290279>
+20:40:21.259194 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4507712:4509160(1448) ack 1 win 2896 <nop,nop,timestamp 670774 290279>
+20:40:21.258778 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 4433616 win 3051 <nop,nop,timestamp 290279 670721>
+20:40:21.259353 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4509160:4510608(1448) ack 1 win 2896 <nop,nop,timestamp 670774 290279>
+20:40:21.259439 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4510608:4512056(1448) ack 1 win 2896 <nop,nop,timestamp 670774 290279>
+20:40:21.259577 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4512056:4513504(1448) ack 1 win 2896 <nop,nop,timestamp 670774 290279>
+20:40:21.258783 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 4439408 win 2962 <nop,nop,timestamp 290279 670721>
+20:40:21.259730 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4513504:4514952(1448) ack 1 win 2896 <nop,nop,timestamp 670774 290279>
+20:40:21.259810 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4514952:4516400(1448) ack 1 win 2896 <nop,nop,timestamp 670774 290279>
+20:40:21.258830 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 4442304 win 3004 <nop,nop,timestamp 290280 670724>
+20:40:21.258836 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 4445448 win 2980 <nop,nop,timestamp 290280 670724>
+20:40:21.260001 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 4516400:4516512(112) ack 1 win 2896 <nop,nop,timestamp 670774 290280>
+20:40:21.262795 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 4448344 win 3051 <nop,nop,timestamp 290280 670733>
+20:40:21.265250 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4516512:4517960(1448) ack 1 win 2896 <nop,nop,timestamp 670775 290280>
+20:40:21.589190 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 4634952:4636268(1316) ack 1 win 2896 <nop,nop,timestamp 670856 290312>
+20:40:21.589265 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4636268:4637716(1448) ack 1 win 2896 <nop,nop,timestamp 670856 290312>
+20:40:21.589326 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4637716:4639164(1448) ack 1 win 2896 <nop,nop,timestamp 670856 290312>
+20:40:21.589379 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4639164:4640612(1448) ack 1 win 2896 <nop,nop,timestamp 670856 290312>
+20:40:21.589416 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4640612:4642060(1448) ack 1 win 2896 <nop,nop,timestamp 670856 290312>
+20:40:21.609789 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 4636268 win 3072 <nop,nop,timestamp 290315 670856>
+20:40:21.609939 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 4642060:4642848(788) ack 1 win 2896 <nop,nop,timestamp 670861 290315>
+20:40:21.613102 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4642848:4644296(1448) ack 1 win 2896 <nop,nop,timestamp 670862 290315>
+20:40:21.613156 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4644296:4645744(1448) ack 1 win 2896 <nop,nop,timestamp 670862 290315>
+20:40:21.613194 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4645744:4647192(1448) ack 1 win 2896 <nop,nop,timestamp 670862 290315>
+20:40:21.613231 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4647192:4648640(1448) ack 1 win 2896 <nop,nop,timestamp 670862 290315>
+20:40:21.613265 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 4642060 win 2983 <nop,nop,timestamp 290316 670856>
+20:40:21.613334 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4648640:4650088(1448) ack 1 win 2896 <nop,nop,timestamp 670862 290315>
+20:40:21.619720 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 4642848 win 3072 <nop,nop,timestamp 290316 670861>
+20:40:21.619915 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 4650088:4650744(656) ack 1 win 2896 <nop,nop,timestamp 670864 290316>
+20:40:21.625243 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4650744:4652192(1448) ack 1 win 2896 <nop,nop,timestamp 670865 290316>
+20:40:21.625316 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4652192:4653640(1448) ack 1 win 2896 <nop,nop,timestamp 670865 290316>
+20:40:21.625362 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4653640:4655088(1448) ack 1 win 2896 <nop,nop,timestamp 670865 290316>
+20:40:21.625441 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4655088:4656536(1448) ack 1 win 2896 <nop,nop,timestamp 670865 290316>
+20:40:21.625494 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4656536:4657984(1448) ack 1 win 2896 <nop,nop,timestamp 670865 290316>
+20:40:21.625542 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 4650744 win 2974 <nop,nop,timestamp 290317 670862>
+20:40:21.625675 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 4657984:4658640(656) ack 1 win 2896 <nop,nop,timestamp 670865 290317>
+20:40:21.629725 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 4653640 win 3030 <nop,nop,timestamp 290317 670865>
+20:40:21.632058 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 4656536 win 3030 <nop,nop,timestamp 290318 670865>
+20:40:21.632067 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 4658640 win 2998 <nop,nop,timestamp 290318 670865>
+20:40:21.661642 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 4658640:4659956(1316) ack 1 win 2896 <nop,nop,timestamp 670874 290318>
+20:40:21.682718 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 4659956 win 3072 <nop,nop,timestamp 290321 670874>
+20:40:21.682728 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 4665748 win 2983 <nop,nop,timestamp 290321 670874>
+20:40:21.683055 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 4668644 win 3051 <nop,nop,timestamp 290323 670875>
+20:40:21.686444 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 4672988 win 3004 <nop,nop,timestamp 290323 670875>
+20:40:21.690652 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 4674432 win 3072 <nop,nop,timestamp 290323 670879>
+20:40:21.916119 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 4763396 win 2962 <nop,nop,timestamp 290345 670935>
+20:40:21.916128 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 4766292 win 3030 <nop,nop,timestamp 290346 670935>
+20:40:21.917638 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 4766552 win 3072 <nop,nop,timestamp 290346 670935>
+20:40:21.917802 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 4768000:4769184(1184) ack 1 win 2896 <nop,nop,timestamp 670938 290346>
+20:40:21.923949 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 4769184 win 3031 <nop,nop,timestamp 290347 670935>
+20:40:21.933152 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 4769184:4770500(1316) ack 1 win 2896 <nop,nop,timestamp 670942 290347>
+20:40:21.933225 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4770500:4771948(1448) ack 1 win 2896 <nop,nop,timestamp 670942 290347>
+20:40:21.933265 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4771948:4773396(1448) ack 1 win 2896 <nop,nop,timestamp 670942 290347>
+20:40:21.933320 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4773396:4774844(1448) ack 1 win 2896 <nop,nop,timestamp 670942 290347>
+20:40:21.933360 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4774844:4776292(1448) ack 1 win 2896 <nop,nop,timestamp 670942 290347>
+20:40:21.940970 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 4770500 win 3072 <nop,nop,timestamp 290348 670942>
+20:40:21.941159 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 4776292:4777080(788) ack 1 win 2896 <nop,nop,timestamp 670944 290348>
+20:40:21.942518 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 4774844 win 3009 <nop,nop,timestamp 290349 670942>
+20:40:21.945277 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4777080:4778528(1448) ack 1 win 2896 <nop,nop,timestamp 670945 290349>
+20:40:21.945342 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4778528:4779976(1448) ack 1 win 2896 <nop,nop,timestamp 670945 290349>
+20:40:21.945390 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4779976:4781424(1448) ack 1 win 2896 <nop,nop,timestamp 670945 290349>
+20:40:21.945452 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4781424:4782872(1448) ack 1 win 2896 <nop,nop,timestamp 670945 290349>
+20:40:21.945496 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4782872:4784320(1448) ack 1 win 2896 <nop,nop,timestamp 670945 290349>
+20:40:21.948027 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 4777080 win 3057 <nop,nop,timestamp 290349 670942>
+20:40:21.948184 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 4784320:4784976(656) ack 1 win 2896 <nop,nop,timestamp 670946 290349>
+20:40:21.953179 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 4784320 win 2962 <nop,nop,timestamp 290350 670945>
+20:40:21.957813 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 4784976 win 3072 <nop,nop,timestamp 290350 670946>
+20:40:21.981189 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 4784976:4786292(1316) ack 1 win 2896 <nop,nop,timestamp 670954 290350>
+20:40:21.981275 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4786292:4787740(1448) ack 1 win 2896 <nop,nop,timestamp 670954 290350>
+20:40:21.981323 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4787740:4789188(1448) ack 1 win 2896 <nop,nop,timestamp 670954 290350>
+20:40:21.981385 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4789188:4790636(1448) ack 1 win 2896 <nop,nop,timestamp 670954 290350>
+20:40:21.981428 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4790636:4792084(1448) ack 1 win 2896 <nop,nop,timestamp 670954 290350>
+20:40:21.984080 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 4786292 win 3072 <nop,nop,timestamp 290353 670954>
+20:40:21.984276 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 4792084:4792872(788) ack 1 win 2896 <nop,nop,timestamp 670955 290353>
+20:40:21.985194 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4792872:4794320(1448) ack 1 win 2896 <nop,nop,timestamp 670955 290353>
+20:40:21.992706 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 4792084 win 3004 <nop,nop,timestamp 290354 670954>
+20:40:21.995479 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 4792872 win 3072 <nop,nop,timestamp 290354 670955>
+20:40:22.004811 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 4800112 win 2962 <nop,nop,timestamp 290355 670955>
+20:40:22.006906 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 4800768 win 3072 <nop,nop,timestamp 290355 670958>
+20:40:22.122365 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 4802084 win 3072 <nop,nop,timestamp 290366 670965>
+20:40:22.122375 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 4812220 win 2914 <nop,nop,timestamp 290366 670965>
+20:40:22.262704 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 4826700 win 3051 <nop,nop,timestamp 290380 670982>
+20:40:22.264755 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 4833940 win 2962 <nop,nop,timestamp 290380 670982>
+20:40:22.264764 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 4854728 win 2662 <nop,nop,timestamp 290381 670985>
+20:40:22.265028 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 4879344:4879728(384) ack 1 win 2896 <nop,nop,timestamp 671025 290381>
+20:40:22.265252 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4879728:4881176(1448) ack 1 win 2896 <nop,nop,timestamp 671025 290381>
+20:40:22.265311 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4881176:4882624(1448) ack 1 win 2896 <nop,nop,timestamp 671025 290381>
+20:40:22.265357 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4882624:4884072(1448) ack 1 win 2896 <nop,nop,timestamp 671025 290381>
+20:40:22.265399 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4884072:4885520(1448) ack 1 win 2896 <nop,nop,timestamp 671025 290381>
+20:40:22.265466 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4885520:4886968(1448) ack 1 win 2896 <nop,nop,timestamp 671025 290381>
+20:40:22.271138 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 4879728 win 2327 <nop,nop,timestamp 290382 671005>
+20:40:22.271308 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 4886968:4887624(656) ack 1 win 2896 <nop,nop,timestamp 671027 290382>
+20:40:22.271145 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 4882624 win 2353 <nop,nop,timestamp 290382 671025>
+20:40:22.271398 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 4886968 win 2311 <nop,nop,timestamp 290382 671025>
+20:40:22.279006 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 4887624 win 3072 <nop,nop,timestamp 290382 671027>
+20:40:22.301201 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 4887624:4888940(1316) ack 1 win 2896 <nop,nop,timestamp 671034 290382>
+20:40:22.301283 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4888940:4890388(1448) ack 1 win 2896 <nop,nop,timestamp 671034 290382>
+20:40:22.301330 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4890388:4891836(1448) ack 1 win 2896 <nop,nop,timestamp 671034 290382>
+20:40:22.301398 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4891836:4893284(1448) ack 1 win 2896 <nop,nop,timestamp 671034 290382>
+20:40:22.301445 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4893284:4894732(1448) ack 1 win 2896 <nop,nop,timestamp 671034 290382>
+20:40:22.305193 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4894732:4896180(1448) ack 1 win 2896 <nop,nop,timestamp 671035 290382>
+20:40:22.305280 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4896180:4897628(1448) ack 1 win 2896 <nop,nop,timestamp 671035 290382>
+20:40:22.305321 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4897628:4899076(1448) ack 1 win 2896 <nop,nop,timestamp 671035 290382>
+20:40:22.305380 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4899076:4900524(1448) ack 1 win 2896 <nop,nop,timestamp 671035 290382>
+20:40:22.305422 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4900524:4901972(1448) ack 1 win 2896 <nop,nop,timestamp 671035 290382>
+20:40:22.309467 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 4888940 win 3072 <nop,nop,timestamp 290385 671034>
+20:40:22.309586 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 4901972:4903416(1444) ack 1 win 2896 <nop,nop,timestamp 671036 290385>
+20:40:22.309474 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 4894732 win 3004 <nop,nop,timestamp 290386 671034>
+20:40:22.335684 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 4897628 win 3030 <nop,nop,timestamp 290386 671035>
+20:40:22.335692 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 4903416 win 2941 <nop,nop,timestamp 290387 671035>
+20:40:22.345210 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 4903416:4904732(1316) ack 1 win 2896 <nop,nop,timestamp 671045 290387>
+20:40:22.345298 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4904732:4906180(1448) ack 1 win 2896 <nop,nop,timestamp 671045 290387>
+20:40:22.345340 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4906180:4907628(1448) ack 1 win 2896 <nop,nop,timestamp 671045 290387>
+20:40:22.348824 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 4904732 win 3072 <nop,nop,timestamp 290389 671045>
+20:40:22.352117 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 4910524 win 3004 <nop,nop,timestamp 290390 671045>
+20:40:22.399693 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 4911312 win 3072 <nop,nop,timestamp 290390 671046>
+20:40:22.400227 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 4918552 win 2983 <nop,nop,timestamp 290390 671046>
+20:40:22.585127 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 4998168:4999484(1316) ack 1 win 2896 <nop,nop,timestamp 671105 290411>
+20:40:22.585198 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 4999484:5000932(1448) ack 1 win 2896 <nop,nop,timestamp 671105 290411>
+20:40:22.585237 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 5000932:5002380(1448) ack 1 win 2896 <nop,nop,timestamp 671105 290411>
+20:40:22.585287 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 5002380:5003828(1448) ack 1 win 2896 <nop,nop,timestamp 671105 290411>
+20:40:22.585326 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 5003828:5005276(1448) ack 1 win 2896 <nop,nop,timestamp 671105 290411>
+20:40:22.589076 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 5005276:5006724(1448) ack 1 win 2896 <nop,nop,timestamp 671106 290411>
+20:40:22.589142 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 5006724:5008172(1448) ack 1 win 2896 <nop,nop,timestamp 671106 290411>
+20:40:22.589183 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 5008172:5009620(1448) ack 1 win 2896 <nop,nop,timestamp 671106 290411>
+20:40:22.589219 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 5009620:5011068(1448) ack 1 win 2896 <nop,nop,timestamp 671106 290411>
+20:40:22.589272 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 5011068:5012516(1448) ack 1 win 2896 <nop,nop,timestamp 671106 290411>
+20:40:22.592607 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 5000932 win 3051 <nop,nop,timestamp 290414 671105>
+20:40:22.592703 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 5012516:5013960(1444) ack 1 win 2896 <nop,nop,timestamp 671107 290414>
+20:40:22.596865 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 5012516 win 2893 <nop,nop,timestamp 290414 671105>
+20:40:22.599679 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 5013960 win 3072 <nop,nop,timestamp 290414 671107>
+20:40:22.617187 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 5013960:5015276(1316) ack 1 win 2896 <nop,nop,timestamp 671113 290414>
+20:40:22.617270 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 5015276:5016724(1448) ack 1 win 2896 <nop,nop,timestamp 671113 290414>
+20:40:22.617318 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 5016724:5018172(1448) ack 1 win 2896 <nop,nop,timestamp 671113 290414>
+20:40:22.617386 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 5018172:5019620(1448) ack 1 win 2896 <nop,nop,timestamp 671113 290414>
+20:40:22.617433 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 5019620:5021068(1448) ack 1 win 2896 <nop,nop,timestamp 671113 290414>
+20:40:22.621986 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 5015276 win 3072 <nop,nop,timestamp 290417 671113>
+20:40:22.625306 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 5021068 win 2983 <nop,nop,timestamp 290417 671113>
+20:40:22.631199 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 5021856 win 3072 <nop,nop,timestamp 290417 671114>
+20:40:22.636380 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 5024752 win 3051 <nop,nop,timestamp 290418 671116>
+20:40:22.636387 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 5029096 win 3004 <nop,nop,timestamp 290418 671116>
+20:40:22.939781 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 5117924 win 3072 <nop,nop,timestamp 290447 671185>
+20:40:22.939956 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 5130956:5132400(1444) ack 1 win 2896 <nop,nop,timestamp 671194 290447>
+20:40:22.943731 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 5123716 win 2988 <nop,nop,timestamp 290447 671185>
+20:40:22.943739 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 5126612 win 3051 <nop,nop,timestamp 290447 671186>
+20:40:22.944279 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 5130956 win 3004 <nop,nop,timestamp 290448 671186>
+20:40:22.945508 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 5132400 win 3072 <nop,nop,timestamp 290449 671194>
+20:40:22.949059 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 5132400:5133716(1316) ack 1 win 2896 <nop,nop,timestamp 671196 290449>
+20:40:22.949119 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 5133716:5135164(1448) ack 1 win 2896 <nop,nop,timestamp 671196 290449>
+20:40:22.949159 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 5135164:5136612(1448) ack 1 win 2896 <nop,nop,timestamp 671196 290449>
+20:40:22.949208 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 5136612:5138060(1448) ack 1 win 2896 <nop,nop,timestamp 671196 290449>
+20:40:22.949246 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 5138060:5139508(1448) ack 1 win 2896 <nop,nop,timestamp 671196 290449>
+20:40:22.953554 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 5133716 win 3072 <nop,nop,timestamp 290450 671196>
+20:40:22.953650 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 5139508:5140296(788) ack 1 win 2896 <nop,nop,timestamp 671197 290450>
+20:40:22.956646 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 5139508 win 2983 <nop,nop,timestamp 290450 671196>
+20:40:22.958122 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 5140296 win 3072 <nop,nop,timestamp 290450 671197>
+20:40:22.973179 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 5140296:5141612(1316) ack 1 win 2896 <nop,nop,timestamp 671202 290450>
+20:40:22.973266 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 5141612:5143060(1448) ack 1 win 2896 <nop,nop,timestamp 671202 290450>
+20:40:22.973319 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 5143060:5144508(1448) ack 1 win 2896 <nop,nop,timestamp 671202 290450>
+20:40:22.973432 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 5144508:5145956(1448) ack 1 win 2896 <nop,nop,timestamp 671202 290450>
+20:40:22.973561 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 5145956:5147404(1448) ack 1 win 2896 <nop,nop,timestamp 671202 290450>
+20:40:22.979205 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 5141612 win 3072 <nop,nop,timestamp 290452 671202>
+20:40:22.979362 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 5147404:5148192(788) ack 1 win 2896 <nop,nop,timestamp 671204 290452>
+20:40:22.979470 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 5147404 win 2983 <nop,nop,timestamp 290452 671202>
+20:40:22.982823 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 5148192 win 3072 <nop,nop,timestamp 290453 671204>
+20:40:22.985098 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 5148192:5149508(1316) ack 1 win 2896 <nop,nop,timestamp 671205 290453>
+20:40:22.985165 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 5149508:5150956(1448) ack 1 win 2896 <nop,nop,timestamp 671205 290453>
+20:40:22.985206 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 5150956:5152404(1448) ack 1 win 2896 <nop,nop,timestamp 671205 290453>
+20:40:22.992717 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 5149508 win 3072 <nop,nop,timestamp 290453 671205>
+20:40:22.992724 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 5152404 win 3027 <nop,nop,timestamp 290454 671205>
+20:40:23.001016 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 5155300 win 3051 <nop,nop,timestamp 290454 671205>
+20:40:23.001026 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 5156088 win 3072 <nop,nop,timestamp 290454 671207>
+20:40:23.261151 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 5250840:5252156(1316) ack 1 win 2896 <nop,nop,timestamp 671274 290480>
+20:40:23.261225 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 5252156:5253604(1448) ack 1 win 2896 <nop,nop,timestamp 671274 290480>
+20:40:23.261265 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 5253604:5255052(1448) ack 1 win 2896 <nop,nop,timestamp 671274 290480>
+20:40:23.261318 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 5255052:5256500(1448) ack 1 win 2896 <nop,nop,timestamp 671274 290480>
+20:40:23.261356 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 5256500:5257948(1448) ack 1 win 2896 <nop,nop,timestamp 671274 290480>
+20:40:23.265096 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 5257948:5259396(1448) ack 1 win 2896 <nop,nop,timestamp 671275 290480>
+20:40:23.265199 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 5259396:5260844(1448) ack 1 win 2896 <nop,nop,timestamp 671275 290480>
+20:40:23.265241 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 5260844:5262292(1448) ack 1 win 2896 <nop,nop,timestamp 671275 290480>
+20:40:23.265291 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 5262292:5263740(1448) ack 1 win 2896 <nop,nop,timestamp 671275 290480>
+20:40:23.265328 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 5263740:5265188(1448) ack 1 win 2896 <nop,nop,timestamp 671275 290480>
+20:40:23.269992 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 5257948 win 2983 <nop,nop,timestamp 290481 671274>
+20:40:23.270140 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 5265188:5266632(1444) ack 1 win 2896 <nop,nop,timestamp 671276 290481>
+20:40:23.269999 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 5260844 win 2962 <nop,nop,timestamp 290482 671275>
+20:40:23.273964 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 5263740 win 3030 <nop,nop,timestamp 290482 671275>
+20:40:23.273971 IP 192.168.2.11.53908 > 192.168.2.14.1234: . ack 5266632 win 3051 <nop,nop,timestamp 290482 671275>
+20:40:23.305123 IP 192.168.2.14.1234 > 192.168.2.11.53908: P 5266632:5267948(1316) ack 1 win 2896 <nop,nop,timestamp 671285 290482>
+20:40:23.305195 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 5267948:5269396(1448) ack 1 win 2896 <nop,nop,timestamp 671285 290482>
+20:40:23.305235 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 5269396:5270844(1448) ack 1 win 2896 <nop,nop,timestamp 671285 290482>
+20:40:23.305289 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 5270844:5272292(1448) ack 1 win 2896 <nop,nop,timestamp 671285 290482>
+20:40:23.305330 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 5272292:5273740(1448) ack 1 win 2896 <nop,nop,timestamp 671285 290482>
+20:40:23.309016 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 5273740:5275188(1448) ack 1 win 2896 <nop,nop,timestamp 671286 290482>
+20:40:23.309071 IP 192.168.2.14.1234 > 192.168.2.11.53908: . 5275188:5276636(1448) ack 1 win 2896 <nop,nop,timestamp 671286 290482>
+20:40:23.309110 IP 192.168.2.1^C23.590683 IP 192[ 2686.333709] device eth0 left promiscuous mode
+.168.2.14.1234 > 192.168.2.11.53908: . 5373492:5374940(1448) ack 1 win 2896 <nop,nop,timestamp 671356 290512>
+
+1412 packets captured
+5812 packets received by filter
+4312 packets dropped by kernel
+shell@android:/ # [ 3142.852788] Thread-67: unhandled page fault (11) at 0xdeadd00d, code 0x80d
+[ 3143.072458] Thread-67: unhandled page fault (11) at 0xdeadd00d, code 0x80d
+[ 3145.575213] Thread-67: unhandled page fault (11) at 0xdeadd00d, code 0x80d
+[ 3145.585378] [COREDUMP] SIGNR:11
+[ 3145.585383] 
+[ 3150.775499] [SD_CTL_TASK] send msg to IMAN: msgid=0x150a. ret = 0
+[ 3150.781591] CW880 :rtsk=0x17, stsk=0x15,msgid=0x150b,msglen=4
+[ 3150.791478] [SD_CTL_TASK] send msg to IMAN: msgid=0x513. ret = 0
+[ 3150.797565] CW880 :rtsk=0x17, stsk=0x15,msgid=0x1509,msglen=4
+[ 3156.840344] accepted a http connect , new connect ip is  192.168.2.11
+[ 3156.846877]                           old connect ip is  192.168.2.11
+[ 3162.879909] accepted a http connect , new connect ip is  192.168.2.11
+[ 3162.886460]                           old connect ip is  192.168.2.11
+[ 3163.931460] Thread-40: unhandled page fault (11) at 0xdeadd00d, code 0x80d
+[ 3164.141457] Thread-40: unhandled page fault (11) at 0xdeadd00d, code 0x80d
+[ 3165.733066] Thread-40: unhandled page fault (11) at 0xdeadd00d, code 0x80d
+[ 3165.740571] [COREDUMP] SIGNR:11
+[ 3165.740576] 
+[ 3168.922227] accepted a http connect , new connect ip is  192.168.2.11
+[ 3168.928857]                           old connect ip is  192.168.2.11
+[ 3174.965955] accepted a http connect , new connect ip is  192.168.2.11
+[ 3174.972479]                           old connect ip is  192.168.2.11
+[ 3181.012622] accepted a http connect , new connect ip is  192.168.2.11
+[ 3181.019368]                           old connect ip is  192.168.2.11
+[ 3187.067266] accepted a http connect , new connect ip is  192.168.2.11
+[ 3187.073801]                           old connect ip is  192.168.2.11
+[ 3193.115757] accepted a http connect , new connect ip is  192.168.2.11
+[ 3193.122286]                           old connect ip is  192.168.2.11
+[ 3199.155643] accepted a http connect , new connect ip is  192.168.2.11
+[ 3199.162321]                           old connect ip is  192.168.2.11
+[ 3205.208250] accepted a http connect , new connect ip is  192.168.2.11
+[ 3205.214749]                           old connect ip is  192.168.2.11
+[ 3211.267795] accepted a http connect , new connect ip is  192.168.2.11
+[ 3211.274299]                           old connect ip is  192.168.2.11
+[ 3217.309614] accepted a http connect , new connect ip is  192.168.2.11
+[ 3217.316305]                           old connect ip is  192.168.2.11
+[ 3223.368671] accepted a http connect , new connect ip is  192.168.2.11
+[ 3223.375367]                           old connect ip is  192.168.2.11
+[ 3229.408363] accepted a http connect , new connect ip is  192.168.2.11
+[ 3229.414905]                           old connect ip is  192.168.2.11
+[ 3235.482757] accepted a http connect , new connect ip is  192.168.2.11
+[ 3235.489447]                           old connect ip is  192.168.2.11
+[ 3241.535399] accepted a http connect , new connect ip is  192.168.2.11
+[ 3241.542098]                           old connect ip is  192.168.2.11
+[ 3247.578497] accepted a http connect , new connect ip is  192.168.2.11
+[ 3247.585205]                           old connect ip is  192.168.2.11
+[ 3253.620056] accepted a http connect , new connect ip is  192.168.2.11
+[ 3253.626750]                           old connect ip is  192.168.2.11

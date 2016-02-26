@@ -1,0 +1,3032 @@
+D/dhcpcd  ( 2068): sending DHCP_DISCOVER with xid 0xbfc0c226, next in 7.14 seconds
+E/        ( 1241): get vaddr failed:pvaddr_read=0x5aae2000,pvaddr_internal=0x5bc0e000,pvaddr_write=0x0
+D/dalvikvm( 1241): GC_CONCURRENT freed 3081K, 42% free 12529K/21251K, paused 2ms+5ms
+E/        ( 1241): get vaddr failed:pvaddr_read=0x5aae2000,pvaddr_internal=0x5bc0e000,pvaddr_write=0x0
+D/dalvikvm( 1241): GC_FOR_ALLOC freed 529K, 36% free 13766K/21251K, paused 22ms
+E/        ( 1241): get vaddr failed:pvaddr_read=0x5aae2000,pvaddr_internal=0x5bc0e000,pvaddr_write=0x0
+E/        ( 1241): get vaddr failed:pvaddr_read=0x5aae2000,pvaddr_internal=0x5bc0e000,pvaddr_write=0x0
+D/dalvikvm( 1241): GC_CONCURRENT freed 2164K, 36% free 13632K/21251K, paused 2ms+5ms
+D/dhcpcd  ( 2068): sending DHCP_DISCOVER with xid 0xbfc0c226, next in 16.97 seconds
+E/        ( 1241): get vaddr failed:pvaddr_read=0x5aae2000,pvaddr_internal=0x5bc0e000,pvaddr_write=0x0
+E/        ( 1241): get vaddr failed:pvaddr_read=0x5aae2000,pvaddr_internal=0x5bc0e000,pvaddr_write=0x0
+D/dalvikvm( 1241): GC_FOR_ALLOC freed 2485K, 42% free 12432K/21251K, paused 23ms
+D/dalvikvm( 1241): GC_FOR_ALLOC freed 321K, 36% free 13766K/21251K, paused 21ms
+E/        ( 1241): get vaddr failed:pvaddr_read=0x5aae2000,pvaddr_internal=0x5bc0e000,pvaddr_write=0x0
+E/        ( 1241): get vaddr failed:pvaddr_read=0x5aae2000,pvaddr_internal=0x5bc0e000,pvaddr_write=0x0
+D/dalvikvm( 1241): GC_CONCURRENT freed 2164K, 37% free 13532K/21251K, paused 1ms+5ms
+E/        ( 1241): get vaddr failed:pvaddr_read=0x5aae2000,pvaddr_internal=0x5bc0e000,pvaddr_write=0x0
+E/        ( 1241): get vaddr failed:pvaddr_read=0x5aae2000,pvaddr_internal=0x5bc0e000,pvaddr_write=0x0
+D/dalvikvm( 1241): GC_CONCURRENT freed 3082K, 42% free 12404K/21251K, paused 2ms+5ms
+E/        ( 1241): get vaddr failed:pvaddr_read=0x5aae2000,pvaddr_internal=0x5bc0e000,pvaddr_write=0x0
+E/        ( 1241): get vaddr failed:pvaddr_read=0x5aae2000,pvaddr_internal=0x5bc0e000,pvaddr_write=0x0
+D/dalvikvm( 1241): GC_FOR_ALLOC freed 527K, 36% free 13766K/21251K, paused 21ms
+E/        ( 1241): get vaddr failed:pvaddr_read=0x5aae2000,pvaddr_internal=0x5bc0e000,pvaddr_write=0x0
+E/        ( 1241): get vaddr failed:pvaddr_read=0x5aae2000,pvaddr_internal=0x5bc0e000,pvaddr_write=0x0
+D/dalvikvm( 1241): GC_CONCURRENT freed 2164K, 36% free 13605K/21251K, paused 2ms+5ms
+E/        ( 1241): get vaddr failed:pvaddr_read=0x5aae2000,pvaddr_internal=0x5bc0e000,pvaddr_write=0x0
+E/        ( 1241): get vaddr failed:pvaddr_read=0x5aae2000,pvaddr_internal=0x5bc0e000,pvaddr_write=0x0
+D/dalvikvm( 1241): GC_FOR_ALLOC freed 2485K, 42% free 12432K/21251K, paused 22ms
+D/dalvikvm( 1241): GC_FOR_ALLOC freed 321K, 36% free 13766K/21251K, paused 21ms
+D/dhcpcd  ( 2068): sending DHCP_DISCOVER with xid 0xbfc0c226, next in 32.59 seconds
+E/        ( 1241): get vaddr failed:pvaddr_read=0x5aae2000,pvaddr_internal=0x5bc0e000,pvaddr_write=0x0
+E/        ( 1241): get vaddr failed:pvaddr_read=0x5aae2000,pvaddr_internal=0x5bc0e000,pvaddr_write=0x0
+D/dalvikvm( 1241): GC_CONCURRENT freed 2164K, 36% free 13614K/21251K, paused 1ms+5ms
+E/        ( 1241): get vaddr failed:pvaddr_read=0x5aae2000,pvaddr_internal=0x5bc0e000,pvaddr_write=0x0
+E/        ( 1241): get vaddr failed:pvaddr_read=0x5aae2000,pvaddr_internal=0x5bc0e000,pvaddr_write=0x0
+--------- beginning of /dev/log/system
+W/ThrottleService(  941): unable to find stats for iface rmnet0
+D/dalvikvm( 1241): GC_CONCURRENT freed 3113K, 42% free 12453K/21251K, paused 1ms+5ms
+E/        ( 1241): get vaddr failed:pvaddr_read=0x5aae2000,pvaddr_internal=0x5bc0e000,pvaddr_write=0x0
+E/        ( 1241): get vaddr failed:pvaddr_read=0x5aae2000,pvaddr_internal=0x5bc0e000,pvaddr_write=0x0
+D/dalvikvm( 1241): GC_FOR_ALLOC freed 497K, 36% free 13766K/21251K, paused 24ms
+E/        ( 1241): get vaddr failed:pvaddr_read=0x5aae2000,pvaddr_internal=0x5bc0e000,pvaddr_write=0x0
+E/        ( 1241): get vaddr failed:pvaddr_read=0x5aae2000,pvaddr_internal=0x5bc0e000,pvaddr_write=0x0
+D/dalvikvm( 1241): GC_CONCURRENT freed 2164K, 36% free 13605K/21251K, paused 1ms+5ms
+E/        ( 1241): get vaddr failed:pvaddr_read=0x5aae2000,pvaddr_internal=0x5bc0e000,pvaddr_write=0x0
+E/        ( 1241): get vaddr failed:pvaddr_read=0x5aae2000,pvaddr_internal=0x5bc0e000,pvaddr_write=0x0
+D/dalvikvm( 1241): GC_FOR_ALLOC freed 2485K, 42% free 12432K/21251K, paused 21ms
+D/dalvikvm( 1241): GC_FOR_ALLOC freed 321K, 36% free 13766K/21251K, paused 21ms
+E/        ( 1241): get vaddr failed:pvaddr_read=0x5aae2000,pvaddr_internal=0x5bc0e000,pvaddr_write=0x0
+E/        ( 1241): get vaddr failed:pvaddr_read=0x5aae2000,pvaddr_internal=0x5bc0e000,pvaddr_write=0x0
+D/dalvikvm( 1241): GC_CONCURRENT freed 2164K, 36% free 13615K/21251K, paused 1ms+5ms
+D/dalvikvm(  941): GC_CONCURRENT freed 769K, 65% free 3899K/11075K, paused 2ms+4ms
+E/        ( 1241): get vaddr failed:pvaddr_read=0x5aae2000,pvaddr_internal=0x5bc0e000,pvaddr_write=0x0
+E/        ( 1241): get vaddr failed:pvaddr_read=0x5aae2000,pvaddr_internal=0x5bc0e000,pvaddr_write=0x0
+D/dalvikvm( 1241): GC_CONCURRENT freed 3112K, 42% free 12457K/21251K, paused 1ms+4ms
+E/        ( 1241): get vaddr failed:pvaddr_read=0x5aae2000,pvaddr_internal=0x5bc0e000,pvaddr_write=0x0
+E/        ( 1241): get vaddr failed:pvaddr_read=0x5aae2000,pvaddr_internal=0x5bc0e000,pvaddr_write=0x0
+D/dalvikvm( 1241): GC_FOR_ALLOC freed 497K, 36% free 13766K/21251K, paused 21ms
+E/        ( 1241): get vaddr failed:pvaddr_read=0x5aae2000,pvaddr_internal=0x5bc0e000,pvaddr_write=0x0
+E/        ( 1241): get vaddr failed:pvaddr_read=0x5aae2000,pvaddr_internal=0x5bc0e000,pvaddr_write=0x0
+D/dalvikvm( 1241): GC_CONCURRENT freed 2164K, 36% free 13608K/21251K, paused 2ms+4ms
+E/        ( 1241): get vaddr failed:pvaddr_read=0x5aae2000,pvaddr_internal=0x5bc0e000,pvaddr_write=0x0
+E/        ( 1241): get vaddr failed:pvaddr_read=0x5aae2000,pvaddr_internal=0x5bc0e000,pvaddr_write=0x0
+D/dalvikvm( 1241): GC_FOR_ALLOC freed 2485K, 42% free 12432K/21251K, paused 22ms
+D/dalvikvm( 1241): GC_FOR_ALLOC freed 321K, 36% free 13766K/21251K, paused 22ms
+D/dhcpcd  ( 2068): sending DHCP_DISCOVER with xid 0xbfc0c226, next in 63.20 seconds
+E/        ( 1241): get vaddr failed:pvaddr_read=0x5aae2000,pvaddr_internal=0x5bc0e000,pvaddr_write=0x0
+E/        ( 1241): get vaddr failed:pvaddr_read=0x5aae2000,pvaddr_internal=0x5bc0e000,pvaddr_write=0x0
+D/dalvikvm( 1241): GC_CONCURRENT freed 2164K, 36% free 13615K/21251K, paused 2ms+6ms
+E/dhcpcd  ( 2068): timed out
+D/dhcpcd  ( 2068): executing `/system/etc/dhcpcd/dhcpcd-run-hooks', reason FAIL
+D/dhcpcd  ( 2068): broadcasting for a lease
+D/dhcpcd  ( 2068): sending DHCP_DISCOVER with xid 0x59af6, next in 4.95 seconds
+E/        ( 1241): get vaddr failed:pvaddr_read=0x5aae2000,pvaddr_internal=0x5bc0e000,pvaddr_write=0x0
+E/        ( 1241): get vaddr failed:pvaddr_read=0x5aae2000,pvaddr_internal=0x5bc0e000,pvaddr_write=0x0
+D/dalvikvm( 1241): GC_CONCURRENT freed 3113K, 42% free 12451K/21251K, paused 2ms+5ms
+E/        ( 1241): get vaddr failed:pvaddr_read=0x5aae2000,pvaddr_internal=0x5bc0e000,pvaddr_write=0x0
+E/        ( 1241): get vaddr failed:pvaddr_read=0x5aae2000,pvaddr_internal=0x5bc0e000,pvaddr_write=0x0
+D/dalvikvm( 1241): GC_FOR_ALLOC freed 497K, 36% free 13766K/21251K, paused 22ms
+D/dhcpcd  ( 2068): sending DHCP_DISCOVER with xid 0x59af6, next in 8.20 seconds
+E/        ( 1241): get vaddr failed:pvaddr_read=0x5aae2000,pvaddr_internal=0x5bc0e000,pvaddr_write=0x0
+E/        ( 1241): get vaddr failed:pvaddr_read=0x5aae2000,pvaddr_internal=0x5bc0e000,pvaddr_write=0x0
+D/dalvikvm( 1241): GC_CONCURRENT freed 2164K, 36% free 13632K/21251K, paused 1ms+4ms
+E/        ( 1241): get vaddr failed:pvaddr_read=0x5aae2000,pvaddr_internal=0x5bc0e000,pvaddr_write=0x0
+E/        ( 1241): get vaddr failed:pvaddr_read=0x5aae2000,pvaddr_internal=0x5bc0e000,pvaddr_write=0x0
+D/dalvikvm( 1241): GC_FOR_ALLOC freed 2485K, 42% free 12432K/21251K, paused 21ms
+D/dalvikvm( 1241): GC_FOR_ALLOC freed 321K, 36% free 13766K/21251K, paused 20ms
+W/SingleClientConnManager( 3649): Invalid use of SingleClientConnManager: connection still allocated.
+W/SingleClientConnManager( 3649): Make sure to release the connection before allocating another one.
+E/        ( 1241): get vaddr failed:pvaddr_read=0x5aae2000,pvaddr_internal=0x5bc0e000,pvaddr_write=0x0
+E/        ( 1241): get vaddr failed:pvaddr_read=0x5aae2000,pvaddr_internal=0x5bc0e000,pvaddr_write=0x0
+D/dalvikvm( 1241): GC_CONCURRENT freed 2163K, 37% free 13533K/21251K, paused 1ms+4ms
+D/dhcpcd  ( 2068): sending DHCP_DISCOVER with xid 0x59af6, next in 16.73 seconds
+V/EthernetMonitor(  941): get event 
+V/EthernetMonitor(  941): go poll events
+V/EthernetMonitor(  941): get event 
+V/EthernetMonitor(  941): go poll events
+E/        ( 1241): get vaddr failed:pvaddr_read=0x5aae2000,pvaddr_internal=0x5bc0e000,pvaddr_write=0x0
+E/        ( 1241): get vaddr failed:pvaddr_read=0x5aae2000,pvaddr_internal=0x5bc0e000,pvaddr_write=0x0
+D/dalvikvm( 1241): GC_CONCURRENT freed 3082K, 42% free 12381K/21251K, paused 2ms+4ms
+E/        ( 1241): get vaddr failed:pvaddr_read=0x5aae2000,pvaddr_internal=0x5bc0e000,pvaddr_write=0x0
+E/        ( 1241): get vaddr failed:pvaddr_read=0x5aae2000,pvaddr_internal=0x5bc0e000,pvaddr_write=0x0
+D/dalvikvm( 1241): GC_FOR_ALLOC freed 528K, 36% free 13766K/21251K, paused 21ms
+E/        ( 1241): get vaddr failed:pvaddr_read=0x5aae2000,pvaddr_internal=0x5bc0e000,pvaddr_write=0x0
+E/        ( 1241): get vaddr failed:pvaddr_read=0x5aae2000,pvaddr_internal=0x5bc0e000,pvaddr_write=0x0
+D/dalvikvm( 1241): GC_CONCURRENT freed 2164K, 36% free 13610K/21251K, paused 2ms+5ms
+E/        ( 1241): get vaddr failed:pvaddr_read=0x5aae2000,pvaddr_internal=0x5bc0e000,pvaddr_write=0x0
+E/        ( 1241): get vaddr failed:pvaddr_read=0x5aae2000,pvaddr_internal=0x5bc0e000,pvaddr_write=0x0
+D/dalvikvm( 1241): GC_FOR_ALLOC freed 2485K, 42% free 12432K/21251K, paused 22ms
+D/dalvikvm( 1241): GC_FOR_ALLOC freed 321K, 36% free 13766K/21251K, paused 21ms
+E/        ( 1241): get vaddr failed:pvaddr_read=0x5aae2000,pvaddr_internal=0x5bc0e000,pvaddr_write=0x0
+E/        ( 1241): get vaddr failed:pvaddr_read=0x5aae2000,pvaddr_internal=0x5bc0e000,pvaddr_write=0x0
+D/dalvikvm( 1241): GC_CONCURRENT freed 2164K, 36% free 13612K/21251K, paused 2ms+5ms
+D/dhcpcd  ( 2068): sending DHCP_DISCOVER with xid 0x59af6, next in 32.80 seconds
+E/        ( 1241): get vaddr failed:pvaddr_read=0x5aae2000,pvaddr_internal=0x5bc0e000,pvaddr_write=0x0
+E/        ( 1241): get vaddr failed:pvaddr_read=0x5aae2000,pvaddr_internal=0x5bc0e000,pvaddr_write=0x0
+D/dalvikvm( 1241): GC_CONCURRENT freed 3112K, 42% free 12450K/21251K, paused 1ms+4ms
+E/        ( 1241): get vaddr failed:pvaddr_read=0x5aae2000,pvaddr_internal=0x5bc0e000,pvaddr_write=0x0
+E/        ( 1241): get vaddr failed:pvaddr_read=0x5aae2000,pvaddr_internal=0x5bc0e000,pvaddr_write=0x0
+D/dalvikvm( 1241): GC_FOR_ALLOC freed 497K, 36% free 13766K/21251K, paused 21ms
+D/dalvikvm( 1148): GC_CONCURRENT freed 792K, 61% free 3015K/7555K, paused 1ms+3ms
+E/        ( 1241): get vaddr failed:pvaddr_read=0x5aae2000,pvaddr_internal=0x5bc0e000,pvaddr_write=0x0
+E/        ( 1241): get vaddr failed:pvaddr_read=0x5aae2000,pvaddr_internal=0x5bc0e000,pvaddr_write=0x0
+D/dalvikvm( 1241): GC_CONCURRENT freed 2164K, 36% free 13605K/21251K, paused 1ms+4ms
+E/        ( 1241): get vaddr failed:pvaddr_read=0x5aae2000,pvaddr_internal=0x5bc0e000,pvaddr_write=0x0
+E/        ( 1241): get vaddr failed:pvaddr_read=0x5aae2000,pvaddr_internal=0x5bc0e000,pvaddr_write=0x0
+D/dalvikvm( 1241): GC_FOR_ALLOC freed 2485K, 42% free 12432K/21251K, paused 22ms
+D/dalvikvm( 1241): GC_FOR_ALLOC freed 321K, 36% free 13766K/21251K, paused 21ms
+E/        ( 1241): get vaddr failed:pvaddr_read=0x5aae2000,pvaddr_internal=0x5bc0e000,pvaddr_write=0x0
+E/        ( 1241): get vaddr failed:pvaddr_read=0x5aae2000,pvaddr_internal=0x5bc0e000,pvaddr_write=0x0
+D/dalvikvm( 1241): GC_CONCURRENT freed 2164K, 36% free 13612K/21251K, paused 1ms+5ms
+E/        ( 1241): get vaddr failed:pvaddr_read=0x5aae2000,pvaddr_internal=0x5bc0e000,pvaddr_write=0x0
+E/        ( 1241): get vaddr failed:pvaddr_read=0x5aae2000,pvaddr_internal=0x5bc0e000,pvaddr_write=0x0
+D/dalvikvm( 1241): GC_CONCURRENT freed 3112K, 42% free 12449K/21251K, paused 2ms+5ms
+E/        ( 1241): get vaddr failed:pvaddr_read=0x5aae2000,pvaddr_internal=0x5bc0e000,pvaddr_write=0x0
+E/        ( 1241): get vaddr failed:pvaddr_read=0x5aae2000,pvaddr_internal=0x5bc0e000,pvaddr_write=0x0
+D/dalvikvm( 1241): GC_FOR_ALLOC freed 497K, 36% free 13766K/21251K, paused 21ms
+E/        ( 1241): get vaddr failed:pvaddr_read=0x5aae2000,pvaddr_internal=0x5bc0e000,pvaddr_write=0x0
+E/        ( 1241): get vaddr failed:pvaddr_read=0x5aae2000,pvaddr_internal=0x5bc0e000,pvaddr_write=0x0
+D/dalvikvm( 1241): GC_CONCURRENT freed 2164K, 36% free 13606K/21251K, paused 1ms+4ms
+E/        ( 1241): get vaddr failed:pvaddr_read=0x5aae2000,pvaddr_internal=0x5bc0e000,pvaddr_write=0x0
+E/        ( 1241): get vaddr failed:pvaddr_read=0x5aae2000,pvaddr_internal=0x5bc0e000,pvaddr_write=0x0
+D/dalvikvm( 1241): GC_FOR_ALLOC freed 2485K, 42% free 12432K/21251K, paused 21ms
+D/dalvikvm( 1241): GC_FOR_ALLOC freed 321K, 36% free 13766K/21251K, paused 20ms
+E/        ( 1241): get vaddr failed:pvaddr_read=0x5aae2000,pvaddr_internal=0x5bc0e000,pvaddr_write=0x0
+E/        ( 1241): get vaddr failed:pvaddr_read=0x5aae2000,pvaddr_internal=0x5bc0e000,pvaddr_write=0x0
+D/dalvikvm( 1241): GC_CONCURRENT freed 2163K, 36% free 13609K/21251K, paused 1ms+5ms
+
+[46992.790325] IR: [03932] scan key value is 0xeb14c936 
+[46992.790330]  
+[46992.841319] IR: [03932] scan key value is 0xeb14c936 
+[46992.841324]  
+[46992.995674] IR: [03932] scan key value is 0xeb14c936 
+[46992.995679]  
+[46993.046605] IR: [03932] scan key value is 0xeb14c936 
+[46993.046610]  
+[46993.184868] IR: [03932] scan key value is 0xeb14c936 
+[46993.184873]  
+[46993.235794] IR: [03932] scan key value is 0xeb14c936 
+[46993.235798]  
+[46993.385306] IR: [03932] scan key value is 0xeb14c936 
+[46993.385310]  
+[46993.436250] IR: [03932] scan key value is 0xeb14c936 
+[46993.436255]  
+[46993.635248] IR: [03932] scan key value is 0xeb14c936 
+[46993.635253]  
+[46993.686120] IR: [03932] scan key value is 0xeb14c936 
+[46993.686125]  
+[46994.596496] IR: [03932] scan key value is 0xeb14c936 
+[46994.596500]  
+[46994.647357] IR: [03932] scan key value is 0xeb14c936 
+[46994.647362]  
+[46995.180659] IR: [03932] scan key value is 0xeb14c936 
+[46995.180663]  
+[46995.231537] IR: [03932] scan key value is 0xeb14c936 
+[46995.231542]  D/InputEventConsistencyVerifier( 1241): KeyEvent: ACTION_UP but key was not down.
+D/InputEventConsistencyVerifier( 1241):   in com.coship.cibn.view.ScaleViewPanel@41789b68
+D/InputEventConsistencyVerifier( 1241):   0: sent at 46995397000000, KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_RIGHT, scanCode=106, metaState=0, flags=0x8, repeatCount=0, eventTime=46995397, downTime=46995184, deviceId=2, source=0x101 }
+D/InputEventConsistencyVerifier( 1241):   -- recent events --
+D/InputEventConsistencyVerifier( 1241):   1: sent at 3103985000000, (unhandled) KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=105, metaState=0, flags=0x8, repeatCount=0, eventTime=3103985, downTime=3103985, deviceId=2, source=0x101 }
+D/InputEventConsistencyVerifier( 1241):   2: sent at 3103529000000, (unhandled) KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_LEFT, scanCode=105, metaState=0, flags=0x80000008, repeatCount=0, eventTime=3103529, downTime=3103315, deviceId=2, source=0x101 }
+D/InputEventConsistencyVerifier( 1241):   3: sent at 32791000000, (unhandled) KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=103, metaState=0, flags=0x8, repeatCount=0, eventTime=32791, downTime=32791, deviceId=2, source=0x101 }
+D/InputEventConsistencyVerifier( 1241):   4: sent at 31981000000, (unhandled) KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_RIGHT, scanCode=106, metaState=0, flags=0x80000008, repeatCount=0, eventTime=31981, downTime=31768, deviceId=2, source=0x101 }
+D/dhcpcd  ( 2068): sending DHCP_DISCOVER with xid 0x59af6, next in 63.34 seconds
+
+[46995.739592] IR: [03932] scan key value is 0xeb14c936 
+[46995.739598]  
+[46995.790499] IR: [03932] scan key value is 0xeb14c936 
+[46995.790504]  E/dhcpcd  ( 2068): timed out
+D/dhcpcd  ( 2068): executing `/system/etc/dhcpcd/dhcpcd-run-hooks', reason FAIL
+D/dhcpcd  ( 2068): broadcasting for a lease
+D/dhcpcd  ( 2068): sending DHCP_DISCOVER with xid 0xd65ebe3, next in 3.47 seconds
+
+[46996.606145] IR: [03932] scan key value is 0xee11c936 
+[46996.606150]  
+[46996.657665] IR: [03932] scan key value is 0xee11c936 
+[46996.657670]  D/InputEventConsistencyVerifier( 1241): KeyEvent: ACTION_UP but key was not down.
+D/InputEventConsistencyVerifier( 1241):   in com.coship.cibn.view.ScaleViewPanel@41961158
+D/InputEventConsistencyVerifier( 1241):   0: sent at 46996821000000, KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_UP, scanCode=103, metaState=0, flags=0x8, repeatCount=0, eventTime=46996821, downTime=46996610, deviceId=2, source=0x101 }
+D/InputEventConsistencyVerifier( 1241):   -- recent events --
+D/InputEventConsistencyVerifier( 1241):   1: sent at 2229608000000, (unhandled) KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=108, metaState=0, flags=0x8, repeatCount=0, eventTime=2229608, downTime=2229608, deviceId=2, source=0x101 }
+D/InputEventConsistencyVerifier( 1241):   2: sent at 2228961000000, (unhandled) KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=158, metaState=0, flags=0x80000008, repeatCount=0, eventTime=2228961, downTime=2228751, deviceId=2, source=0x101 }
+D/InputEventConsistencyVerifier( 1241):   3: sent at 2226069000000, KeyEvent { action=ACTION_UP, keyCode=KEYCODE_ENTER, scanCode=28, metaState=0, flags=0x8, repeatCount=0, eventTime=2226069, downTime=2225908, deviceId=2, source=0x101 }
+D/InputEventConsistencyVerifier( 1241):   4: sent at 2225908000000, KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_ENTER, scanCode=28, metaState=0, flags=0x8, repeatCount=0, eventTime=2225908, downTime=2225908, deviceId=2, source=0x101 }
+D/InputEventConsistencyVerifier( 1241):   5: sent at 2224149000000, (unhandled) KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=158, metaState=0, flags=0x80000008, repeatCount=0, eventTime=2224149, downTime=2223936, deviceId=2, source=0x101 }
+
+[46997.367800] IR: [03932] scan key value is 0xea15c936 
+[46997.367804]  
+[46997.419508] IR: [03932] scan key value is 0xea15c936 
+[46997.419513]  D/InputEventConsistencyVerifier( 1241): KeyEvent: ACTION_UP but key was not down.
+D/InputEventConsistencyVerifier( 1241):   in com.coship.cibn.view.ScaleViewPanel@414659a8
+D/InputEventConsistencyVerifier( 1241):   0: sent at 46997585000000, KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_DOWN, scanCode=108, metaState=0, flags=0x8, repeatCount=0, eventTime=46997585, downTime=46997371, deviceId=2, source=0x101 }
+D/InputEventConsistencyVerifier( 1241):   -- recent events --
+D/InputEventConsistencyVerifier( 1241):   1: sent at 46996610000000, (unhandled) KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=103, metaState=0, flags=0x8, repeatCount=0, eventTime=46996610, downTime=46996610, deviceId=2, source=0x101 }
+D/InputEventConsistencyVerifier( 1241):   2: sent at 46995953000000, (unhandled) KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_RIGHT, scanCode=106, metaState=0, flags=0x8, repeatCount=0, eventTime=46995953, downTime=46995743, deviceId=2, source=0x101 }
+D/InputEventConsistencyVerifier( 1241):   3: sent at 46294985000000, (unhandled) KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=106, metaState=0, flags=0x8, repeatCount=0, eventTime=46294985, downTime=46294985, deviceId=2, source=0x101 }
+D/InputEventConsistencyVerifier( 1241):   4: sent at 46294677000000, (unhandled) KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_DOWN, scanCode=108, metaState=0, flags=0x8, repeatCount=0, eventTime=46294677, downTime=46294465, deviceId=2, source=0x101 }
+D/InputEventConsistencyVerifier( 1241):   5: sent at 46294465000000, (unhandled) KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=108, metaState=0, flags=0x8, repeatCount=0, eventTime=46294465, downTime=46294465, deviceId=2, source=0x101 }
+D/dhcpcd  ( 2068): sending DHCP_DISCOVER with xid 0xd65ebe3, next in 8.46 seconds
+
+[47000.176938] IR: [03932] scan key value is 0xee11c936 
+[47000.176943]  
+[47000.228369] IR: [03932] scan key value is 0xee11c936 
+[47000.228374]  D/InputEventConsistencyVerifier( 1241): KeyEvent: ACTION_UP but key was not down.
+D/InputEventConsistencyVerifier( 1241):   in com.coship.cibn.view.ScaleViewPanel@41961158
+D/InputEventConsistencyVerifier( 1241):   0: sent at 47000393000000, KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_UP, scanCode=103, metaState=0, flags=0x8, repeatCount=0, eventTime=47000393, downTime=47000181, deviceId=2, source=0x101 }
+D/InputEventConsistencyVerifier( 1241):   -- recent events --
+D/InputEventConsistencyVerifier( 1241):   1: sent at 46997371000000, (unhandled) KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=108, metaState=0, flags=0x8, repeatCount=0, eventTime=46997371, downTime=46997371, deviceId=2, source=0x101 }
+D/InputEventConsistencyVerifier( 1241):   2: sent at 46996821000000, (unhandled) KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_UP, scanCode=103, metaState=0, flags=0x80000008, repeatCount=0, eventTime=46996821, downTime=46996610, deviceId=2, source=0x101 }
+D/InputEventConsistencyVerifier( 1241):   3: sent at 2229608000000, (unhandled) KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=108, metaState=0, flags=0x8, repeatCount=0, eventTime=2229608, downTime=2229608, deviceId=2, source=0x101 }
+D/InputEventConsistencyVerifier( 1241):   4: sent at 2228961000000, (unhandled) KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=158, metaState=0, flags=0x80000008, repeatCount=0, eventTime=2228961, downTime=2228751, deviceId=2, source=0x101 }
+D/InputEventConsistencyVerifier( 1241):   5: sent at 2226069000000, KeyEvent { action=ACTION_UP, keyCode=KEYCODE_ENTER, scanCode=28, metaState=0, flags=0x8, repeatCount=0, eventTime=2226069, downTime=2225908, deviceId=2, source=0x101 }
+
+[47000.807489] IR: [03932] scan key value is 0xea15c936 
+[47000.807494]  
+[47000.859268] IR: [03932] scan key value is 0xea15c936 
+[47000.859273]  D/InputEventConsistencyVerifier( 1241): KeyEvent: ACTION_UP but key was not down.
+D/InputEventConsistencyVerifier( 1241):   in com.coship.cibn.view.ScaleViewPanel@414659a8
+D/InputEventConsistencyVerifier( 1241):   0: sent at 47001025000000, KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_DOWN, scanCode=108, metaState=0, flags=0x8, repeatCount=0, eventTime=47001025, downTime=47000811, deviceId=2, source=0x101 }
+D/InputEventConsistencyVerifier( 1241):   -- recent events --
+D/InputEventConsistencyVerifier( 1241):   1: sent at 47000181000000, (unhandled) KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=103, metaState=0, flags=0x8, repeatCount=0, eventTime=47000181, downTime=47000181, deviceId=2, source=0x101 }
+D/InputEventConsistencyVerifier( 1241):   2: sent at 46997585000000, (unhandled) KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_DOWN, scanCode=108, metaState=0, flags=0x80000008, repeatCount=0, eventTime=46997585, downTime=46997371, deviceId=2, source=0x101 }
+D/InputEventConsistencyVerifier( 1241):   3: sent at 46996610000000, (unhandled) KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=103, metaState=0, flags=0x8, repeatCount=0, eventTime=46996610, downTime=46996610, deviceId=2, source=0x101 }
+D/InputEventConsistencyVerifier( 1241):   4: sent at 46995953000000, (unhandled) KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_RIGHT, scanCode=106, metaState=0, flags=0x8, repeatCount=0, eventTime=46995953, downTime=46995743, deviceId=2, source=0x101 }
+D/InputEventConsistencyVerifier( 1241):   5: sent at 46294985000000, (unhandled) KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=106, metaState=0, flags=0x8, repeatCount=0, eventTime=46294985, downTime=46294985, deviceId=2, source=0x101 }
+
+[47001.442189] IR: [03932] scan key value is 0xee11c936 
+[47001.442194]  
+[47001.493661] IR: [03932] scan key value is 0xee11c936 
+[47001.493666]  D/InputEventConsistencyVerifier( 1241): KeyEvent: ACTION_UP but key was not down.
+D/InputEventConsistencyVerifier( 1241):   in com.coship.cibn.view.ScaleViewPanel@41961158
+D/InputEventConsistencyVerifier( 1241):   0: sent at 47001657000000, KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_UP, scanCode=103, metaState=0, flags=0x8, repeatCount=0, eventTime=47001657, downTime=47001446, deviceId=2, source=0x101 }
+D/InputEventConsistencyVerifier( 1241):   -- recent events --
+D/InputEventConsistencyVerifier( 1241):   1: sent at 47000811000000, (unhandled) KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=108, metaState=0, flags=0x8, repeatCount=0, eventTime=47000811, downTime=47000811, deviceId=2, source=0x101 }
+D/InputEventConsistencyVerifier( 1241):   2: sent at 47000393000000, (unhandled) KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_UP, scanCode=103, metaState=0, flags=0x80000008, repeatCount=0, eventTime=47000393, downTime=47000181, deviceId=2, source=0x101 }
+D/InputEventConsistencyVerifier( 1241):   3: sent at 46997371000000, (unhandled) KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=108, metaState=0, flags=0x8, repeatCount=0, eventTime=46997371, downTime=46997371, deviceId=2, source=0x101 }
+D/InputEventConsistencyVerifier( 1241):   4: sent at 46996821000000, (unhandled) KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_UP, scanCode=103, metaState=0, flags=0x80000008, repeatCount=0, eventTime=46996821, downTime=46996610, deviceId=2, source=0x101 }
+D/InputEventConsistencyVerifier( 1241):   5: sent at 2229608000000, (unhandled) KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=108, metaState=0, flags=0x8, repeatCount=0, eventTime=2229608, downTime=2229608, deviceId=2, source=0x101 }
+
+[47002.019243] IR: [03932] scan key value is 0xea15c936 
+[47002.019248]  
+[47002.071012] IR: [03932] scan key value is 0xea15c936 
+[47002.071017]  D/InputEventConsistencyVerifier( 1241): KeyEvent: ACTION_UP but key was not down.
+D/InputEventConsistencyVerifier( 1241):   in com.coship.cibn.view.ScaleViewPanel@414659a8
+D/InputEventConsistencyVerifier( 1241):   0: sent at 47002237000000, KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_DOWN, scanCode=108, metaState=0, flags=0x8, repeatCount=0, eventTime=47002237, downTime=47002023, deviceId=2, source=0x101 }
+D/InputEventConsistencyVerifier( 1241):   -- recent events --
+D/InputEventConsistencyVerifier( 1241):   1: sent at 47001446000000, (unhandled) KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=103, metaState=0, flags=0x8, repeatCount=0, eventTime=47001446, downTime=47001446, deviceId=2, source=0x101 }
+D/InputEventConsistencyVerifier( 1241):   2: sent at 47001025000000, (unhandled) KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_DOWN, scanCode=108, metaState=0, flags=0x80000008, repeatCount=0, eventTime=47001025, downTime=47000811, deviceId=2, source=0x101 }
+D/InputEventConsistencyVerifier( 1241):   3: sent at 47000181000000, (unhandled) KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=103, metaState=0, flags=0x8, repeatCount=0, eventTime=47000181, downTime=47000181, deviceId=2, source=0x101 }
+D/InputEventConsistencyVerifier( 1241):   4: sent at 46997585000000, (unhandled) KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_DOWN, scanCode=108, metaState=0, flags=0x80000008, repeatCount=0, eventTime=46997585, downTime=46997371, deviceId=2, source=0x101 }
+D/InputEventConsistencyVerifier( 1241):   5: sent at 46996610000000, (unhandled) KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=103, metaState=0, flags=0x8, repeatCount=0, eventTime=46996610, downTime=46996610, deviceId=2, source=0x101 }
+
+[47002.734313] IR: [03932] scan key value is 0xee11c936 
+[47002.734318]  
+[47002.785787] IR: [03932] scan key value is 0xee11c936 
+[47002.785792]  D/InputEventConsistencyVerifier( 1241): KeyEvent: ACTION_UP but key was not down.
+D/InputEventConsistencyVerifier( 1241):   in com.coship.cibn.view.ScaleViewPanel@41961158
+D/InputEventConsistencyVerifier( 1241):   0: sent at 47002949000000, KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_UP, scanCode=103, metaState=0, flags=0x8, repeatCount=0, eventTime=47002949, downTime=47002738, deviceId=2, source=0x101 }
+D/InputEventConsistencyVerifier( 1241):   -- recent events --
+D/InputEventConsistencyVerifier( 1241):   1: sent at 47002023000000, (unhandled) KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=108, metaState=0, flags=0x8, repeatCount=0, eventTime=47002023, downTime=47002023, deviceId=2, source=0x101 }
+D/InputEventConsistencyVerifier( 1241):   2: sent at 47001657000000, (unhandled) KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_UP, scanCode=103, metaState=0, flags=0x80000008, repeatCount=0, eventTime=47001657, downTime=47001446, deviceId=2, source=0x101 }
+D/InputEventConsistencyVerifier( 1241):   3: sent at 47000811000000, (unhandled) KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=108, metaState=0, flags=0x8, repeatCount=0, eventTime=47000811, downTime=47000811, deviceId=2, source=0x101 }
+D/InputEventConsistencyVerifier( 1241):   4: sent at 47000393000000, (unhandled) KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_UP, scanCode=103, metaState=0, flags=0x80000008, repeatCount=0, eventTime=47000393, downTime=47000181, deviceId=2, source=0x101 }
+D/InputEventConsistencyVerifier( 1241):   5: sent at 46997371000000, (unhandled) KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=108, metaState=0, flags=0x8, repeatCount=0, eventTime=46997371, downTime=46997371, deviceId=2, source=0x101 }
+
+[47003.403447] IR: [03932] scan key value is 0xea15c936 
+[47003.403452]  
+[47003.455285] IR: [03932] scan key value is 0xea15c936 
+[47003.455290]  D/InputEventConsistencyVerifier( 1241): KeyEvent: ACTION_UP but key was not down.
+D/InputEventConsistencyVerifier( 1241):   in com.coship.cibn.view.ScaleViewPanel@414659a8
+D/InputEventConsistencyVerifier( 1241):   0: sent at 47003621000000, KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_DOWN, scanCode=108, metaState=0, flags=0x8, repeatCount=0, eventTime=47003621, downTime=47003407, deviceId=2, source=0x101 }
+D/InputEventConsistencyVerifier( 1241):   -- recent events --
+D/InputEventConsistencyVerifier( 1241):   1: sent at 47002738000000, (unhandled) KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=103, metaState=0, flags=0x8, repeatCount=0, eventTime=47002738, downTime=47002738, deviceId=2, source=0x101 }
+D/InputEventConsistencyVerifier( 1241):   2: sent at 47002237000000, (unhandled) KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_DOWN, scanCode=108, metaState=0, flags=0x80000008, repeatCount=0, eventTime=47002237, downTime=47002023, deviceId=2, source=0x101 }
+D/InputEventConsistencyVerifier( 1241):   3: sent at 47001446000000, (unhandled) KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=103, metaState=0, flags=0x8, repeatCount=0, eventTime=47001446, downTime=47001446, deviceId=2, source=0x101 }
+D/InputEventConsistencyVerifier( 1241):   4: sent at 47001025000000, (unhandled) KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_DOWN, scanCode=108, metaState=0, flags=0x80000008, repeatCount=0, eventTime=47001025, downTime=47000811, deviceId=2, source=0x101 }
+D/InputEventConsistencyVerifier( 1241):   5: sent at 47000181000000, (unhandled) KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=103, metaState=0, flags=0x8, repeatCount=0, eventTime=47000181, downTime=47000181, deviceId=2, source=0x101 }
+
+[47005.848212] IR: [03932] scan key value is 0xec13c936 
+[47005.848217]  
+[47005.899385] IR: [03932] scan key value is 0xec13c936 
+[47005.899390]  I/MainActivity( 1241): CIBN ---> onClick -> 52061
+I/ActivityManager(  941): START {flg=0x10000000 cmp=com.coship.Multimedia/.main} from pid 1241
+D/dalvikvm(  941): GC_FOR_ALLOC freed 464K, 65% free 3912K/11075K, paused 40ms
+I/dalvikvm-heap(  941): Grow heap (frag case) to 8.421MB for 1048592-byte allocation
+D/dalvikvm(  941): GC_FOR_ALLOC freed 14K, 56% free 4922K/11075K, paused 38ms
+D/dalvikvm(  941): GC_CONCURRENT freed <1K, 56% free 4922K/11075K, paused 3ms+4ms
+I/UsageStats(  941): No package stats for pkg:com.coship.cibn
+D/OpenGLRenderer( 1241): Flushing caches (mode 1)
+D/dalvikvm( 4618): GC_FOR_ALLOC freed 59K, 44% free 6632K/11651K, paused 68ms
+D/OpenGLRenderer( 1241): Flushing caches (mode 0)
+I/dalvikvm-heap( 4618): Grow heap (frag case) to 17.987MB for 8294416-byte allocation
+
+[47006.476412] *********** [Normal_MIU0] is still reclaimalbe !! *************
+D/dalvikvm( 4618): GC_CONCURRENT freed 1K, 26% free 14731K/19779K, paused 6ms+4ms
+I/Process (  941): Sending signal. PID: 4618 SIG: 3
+I/dalvikvm( 4618): threadid=3: reacting to signal 3
+I/dalvikvm( 4618): Wrote stack traces to '/data/anr/traces.txt'
+V/Multimedia( 4618): +++++onCreate++++
+V/TabletStatusBar( 1148): setLightsOn(true)
+D/dalvikvm( 4618): GC_CONCURRENT freed 1124K, 24% free 15663K/20483K, paused 104ms+3ms
+I/AirplayService( 4618): in setAirplayDevName
+I/Process (  941): Sending signal. PID: 4618 SIG: 3
+I/dalvikvm( 4618): threadid=3: reacting to signal 3
+I/dalvikvm( 4618): Wrote stack traces to '/data/anr/traces.txt'
+I/Multimedia( 4618): onResume startServiceIntent
+D/libEGL  ( 4618): loaded /system/lib/egl/libGLES_android.so
+D/libEGL  ( 4618): loaded /system/lib/egl/libEGL_mali.so
+D/libEGL  ( 4618): loaded /system/lib/egl/libGLESv1_CM_mali.so
+D/libEGL  ( 4618): loaded /system/lib/egl/libGLESv2_mali.so
+D/OpenGLRenderer( 4618): Enabling debug mode 0
+D/Multimedia_BackService( 4618): BackService onStart called
+D/Multimedia_BackService( 4618): device Name:SmartBoxtc
+I/AirplayService( 4618): in setAirplayDevName
+V/Multimedia_BackService( 4618): +++playBackInfoHttpServerThread++start
+D/Multimedia_BackService( 4618): onIpChanged called,new ip is 192.168.2.102
+D/HomePlayerLib( 4618): MediaRenderer will start with ip addrss 192.168.2.102
+D/HomePlayerLib( 4618): hostaddress count is 1
+D/dalvikvm( 4618): GC_CONCURRENT freed 2010K, 27% free 15746K/21443K, paused 12ms+4ms
+I/Process (  941): Sending signal. PID: 4618 SIG: 3
+I/dalvikvm( 4618): threadid=3: reacting to signal 3
+I/dalvikvm( 4618): Wrote stack traces to '/data/anr/traces.txt'
+I/ActivityManager(  941): Displayed com.coship.Multimedia/.main: +1s556ms
+D/dhcpcd  ( 2068): sending DHCP_DISCOVER with xid 0xd65ebe3, next in 16.37 seconds
+D/HomePlayerLib( 4618): hostaddress count is 1
+D/dalvikvm( 4618): GC_CONCURRENT freed 2059K, 27% free 15688K/21443K, paused 3ms+4ms
+D/HomePlayerLib( 4618): hostaddress count is 1
+D/dalvikvm( 4618): GC_CONCURRENT freed 1980K, 27% free 15726K/21443K, paused 2ms+3ms
+D/HomePlayerLib( 4618): hostaddress count is 1
+D/dalvikvm( 4618): GC_CONCURRENT freed 2046K, 27% free 15710K/21443K, paused 2ms+4ms
+W/HomePlayerLib( 4618): mediaRenderer start success 
+[47009.504200] IR: [03932] scan key value is 0xec13c936 
+[47009.504205]  
+[47009.555388] IR: [03932] scan key value is 0xec13c936 
+[47009.555394]  D/dalvikvm( 4618): GC_CONCURRENT freed 2054K, 28% free 15645K/21443K, paused 7ms+4ms
+W/InputManagerService(  941): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@4163c700 (uid=10004 pid=1241)
+D/HomePlayerLib( 4618): hostaddress count is 1
+D/dalvikvm( 4618): GC_CONCURRENT freed 1924K, 27% free 15674K/21443K, paused 2ms+4ms
+D/dalvikvm( 4618): GC_CONCURRENT freed 1933K, 27% free 15664K/21443K, paused 2ms+3ms
+D/dalvikvm( 4618): GC_CONCURRENT freed 1921K, 27% free 15680K/21443K, paused 2ms+4ms
+D/dalvikvm( 4618): GC_CONCURRENT freed 1857K, 27% free 15783K/21443K, paused 2ms+4ms
+D/BackService( 4618): [actionControlReceived] Name:SetAVTransportURI
+D/XXXX    ( 4618): XXXX hp in actionControlReceived acname is : SetAVTransportURI
+D/BackService( 4618): [actionControlReceived] Name:GetVolumeDBRange
+D/XXXX    ( 4618): XXXX hp in actionControlReceived acname is : GetVolumeDBRange
+D/BackService( 4618): [actionControlReceived] Name:Play
+V/BackService( 4618): ++++fileType++++1+++++MusicWindow++++false++++uri++++http://192.168.2.108:57836/%25/RMVB%20%E7%BB%BF%E8%89%B2%E5%B7%A8%E4%BA%BA720P.rmvb
+V/MovieWindow( 4618): ++++come here++++[]
+I/ActivityManager(  941): START {act=com.coship.Multimedia.moviewindow.launch flg=0x14000000 cmp=com.coship.Multimedia/.MovieWindow.MovieWindow (has extras)} from pid 4618
+V/Multimedia( 4618): ++++++onPause++++++
+D/BackService( 4618): need start activity,url is http://192.168.2.108:57836/%25/RMVB%20%E7%BB%BF%E8%89%B2%E5%B7%A8%E4%BA%BA720P.rmvb
+D/dalvikvm( 4618): GC_FOR_ALLOC freed 488K, 27% free 15670K/21443K, paused 35ms
+I/dalvikvm-heap( 4618): Grow heap (frag case) to 19.672MB for 806380-byte allocation
+D/dalvikvm( 4618): GC_FOR_ALLOC freed 10K, 27% free 16447K/22275K, paused 34ms
+D/BackService( 4618): [actionControlReceived] Name:GetVolumeDBRange
+D/XXXX    ( 4618): XXXX hp in actionControlReceived acname is : GetVolumeDBRange
+D/dalvikvm( 4618): GC_FOR_ALLOC freed 190K, 26% free 16517K/22275K, paused 35ms
+I/dalvikvm-heap( 4618): Grow heap (frag case) to 20.043MB for 328036-byte allocation
+D/dalvikvm( 4618): GC_FOR_ALLOC freed 8K, 26% free 16830K/22659K, paused 43ms
+D/dalvikvm( 4618): GC_FOR_ALLOC freed 8K, 26% free 16868K/22659K, paused 57ms
+I/dalvikvm-heap( 4618): Grow heap (frag case) to 20.453MB for 398468-byte allocation
+D/dalvikvm( 4618): GC_FOR_ALLOC freed 2K, 26% free 17255K/23107K, paused 31ms
+D/BackService( 4618): [actionControlReceived] Name:GetTransportInfo
+D/XXXX    ( 4618): XXXX hp in actionControlReceived acname is : GetTransportInfo
+I/Process (  941): Sending signal. PID: 4618 SIG: 3
+I/dalvikvm( 4618): threadid=3: reacting to signal 3
+D/dalvikvm( 4618): GC_FOR_ALLOC freed 101K, 26% free 17247K/23107K, paused 35ms
+I/dalvikvm-heap( 4618): Grow heap (frag case) to 20.728MB for 298216-byte allocation
+I/dalvikvm( 4618): Wrote stack traces to '/data/anr/traces.txt'
+D/dalvikvm( 4618): GC_FOR_ALLOC freed 1K, 26% free 17537K/23427K, paused 32ms
+I/System.out( 4618): progress_Max-->32
+W/MediaPlayer.java( 4618): setScreenOnWhilePlaying(true) is ineffective without a SurfaceHolder
+V/audio_hw_primary(  744): out_get_latency ret 10ms
+D/BackService( 4618): [actionControlReceived] Name:GetPositionInfo
+D/XXXX    ( 4618): XXXX hp in actionControlReceived acname is : GetPositionInfo
+D/BackService( 4618): [actionControlReceived] Name:GetVolume
+D/XXXX    ( 4618): XXXX hp in actionControlReceived acname is : GetVolume
+D/XXXX    ( 4618): XXXX hp in actionControlReceived setValue is : 16
+I/Process (  941): Sending signal. PID: 4618 SIG: 3
+I/dalvikvm( 4618): threadid=3: reacting to signal 3
+I/dalvikvm( 4618): Wrote stack traces to '/data/anr/traces.txt'
+I/Process (  941): Sending signal. PID: 4618 SIG: 3
+I/dalvikvm( 4618): threadid=3: reacting to signal 3
+I/dalvikvm( 4618): Wrote stack traces to '/data/anr/traces.txt'
+V/MovieWindow( 4618): +++++videoUrlList++++[http://192.168.2.108:57836/%25/RMVB%20%E7%BB%BF%E8%89%B2%E5%B7%A8%E4%BA%BA720P.rmvb]
+V/MovieWindow( 4618): +++++++++playingUrl+++++++++http://192.168.2.108:57836/%25/RMVB%20%E7%BB%BF%E8%89%B2%E5%B7%A8%E4%BA%BA720P.rmvb
+V/TabletStatusBar( 1148): setLightsOn(true)
+I/MovieWindow( 4618): [handleIntent]  CurrentActionTytpe:100
+D/MediaPlayerService(  744):  Create MstarPlayer
+D/MstarPlayer(  744): Create MstarPlayer:0x3d708,Version:Release Mstar player lib Version:0015,Base CL:690305  Date:2012/11/06
+D/MstarPlayer(  744): TV Local Time :  Wed Apr 10 09:23:05 2013
+D/MstarPlayer(  744):  
+D/MstarPlayer(  744): setInstance: 0x3d708
+D/MstarPlayer(  744): mstar player set listener
+D/MstarPlayer(  744): MstarPlayer::initCheck
+D/MediaPlayerService(  744): [37] setVideoSurfaceTexture(0x0)
+D/MstarPlayer(  744): MstarPlayer::prepareAsync
+D/MstarPlayer(  744): 
+D/MstarPlayer(  744):  MstarPlayer::doSetDataSource
+D/MstarPlayer(  744): MstarPlayer::clearAllSource
+D/MstarPlayer(  744): 
+D/MstarPlayer(  744):  MstarPlayer::doSetDataSource: url=http://192.168.2.108:57836/%25/RMVB%20%E7%BB%BF%E8%89%B2%E5%B7%A8%E4%BA%BA720P.rmvb
+D/StreamDataSource(  744): host 192.168.2.108,path /%25/RMVB%20%E7%BB%BF%E8%89%B2%E5%B7%A8%E4%BA%BA720P.rmvb,port 57836 
+D/StreamDataSource(  744): malloc 524288 buffer
+D/Downloader(  744): Release Mstar Content Source CL:493363  Date:2013/03/20
+D/Downloader(  744): Curl Version:libcurl/7.21.7 OpenSSL/1.0.0e
+D/Downloader(  744): [downloadThread]init a multi curl done.curlm:0x46168 pRingBuffer:0x1c640
+D/HTTPStreamCurl(  744): HTTPStreamCurl Connecting to :http://192.168.2.108:57836/%25/RMVB%20%E7%BB%BF%E8%89%B2%E5%B7%A8%E4%BA%BA720P.rmvb
+I/receiver( 4618): *******BroadcastReceiver**********android.net.conn.CONNECTIVITY_CHANGE
+D/Downloader(  744): [downloadThread]Downloader::removeTask  
+I/MovieWindow( 4618): [surfaceCreated] ~~~~~~~~~~~~~~~~
+I/MovieWindow( 4618): [surfaceChanged] ~~~~~~~~~~~~~~~~
+D/MediaPlayerService(  744): [37] setVideoSurfaceTexture(0x38d00)
+D/MstarPlayer(  744): MstarPlayer::setVideoSurfaceTexture 
+D/Downloader(  744): Content-Length: 133137065
+D/Downloader(  744): 
+D/Downloader(  744): Content-Type: application/octet-stream
+D/Downloader(  744): 
+D/HTTPStreamCurl(  744): <<<<<<<<stream len: 133137065   m_UrlContentType:application/octet-stream
+D/HTTPStreamCurl(  744):   retrycount:100 
+D/HTTPStreamCurl(  744): HTTPStreamCurl::connectWithRedirectsAndRange, isDlna=0, couldSeek=0
+D/StreamDataSource(  744):  StreamContentSource::connect OK !! 
+V/MovieWindow( 4618): actionControlReceived in MovieWindow,action is GetVolumeDBRange
+D/XXXX    ( 4618): XXXX hp in actionControlReceived acname is : GetVolumeDBRange
+D/dhcpcd  ( 2068): sending DHCP_DISCOVER with xid 0xd65ebe3, next in 31.09 seconds
+D/MstarPlayer(  744): open mHwcFifoFD = 25
+D/MstarPlayer(  744): MstarPlayer::doPrepare
+D/ContentSource(  744): sniffMP3
+D/StreamDataSource(  744): getPath, mediaType = 0
+D/StreamDataSource(  744): the path is /%25/RMVB%20%E7%BB%BF%E8%89%B2%E5%B7%A8%E4%BA%BA720P.rmvb
+D/ContentSource(  744): sniffAAC
+D/StreamDataSource(  744): getPath, mediaType = 0
+D/StreamDataSource(  744): the path is /%25/RMVB%20%E7%BB%BF%E8%89%B2%E5%B7%A8%E4%BA%BA720P.rmvb
+D/ContentSource(  744): sniffWMA
+D/StreamDataSource(  744): getPath, mediaType = 0
+D/StreamDataSource(  744): the path is /%25/RMVB%20%E7%BB%BF%E8%89%B2%E5%B7%A8%E4%BA%BA720P.rmvb
+D/ContentSource(  744): sniffOGG
+D/StreamDataSource(  744): getPath, mediaType = 0
+D/StreamDataSource(  744): the path is /%25/RMVB%20%E7%BB%BF%E8%89%B2%E5%B7%A8%E4%BA%BA720P.rmvb
+D/ContentSource(  744): sniffWAV
+D/StreamDataSource(  744): getPath, mediaType = 0
+I/ActivityManager(  941): Displayed com.coship.Multimedia/.MovieWindow.MovieWindow: +1s969ms
+D/StreamDataSource(  744): the path is /%25/RMVB%20%E7%BB%BF%E8%89%B2%E5%B7%A8%E4%BA%BA720P.rmvb
+D/ContentSource(  744): sniffPCM
+D/StreamDataSource(  744): getPath, mediaType = 0
+D/StreamDataSource(  744): the path is /%25/RMVB%20%E7%BB%BF%E8%89%B2%E5%B7%A8%E4%BA%BA720P.rmvb
+D/ContentSource(  744): sniffMP4
+D/StreamDataSource(  744): getPath, mediaType = 0
+D/StreamDataSource(  744): the path is /%25/RMVB%20%E7%BB%BF%E8%89%B2%E5%B7%A8%E4%BA%BA720P.rmvb
+D/ContentSource(  744): sniffASF
+D/StreamDataSource(  744): getPath, mediaType = 0
+D/StreamDataSource(  744): the path is /%25/RMVB%20%E7%BB%BF%E8%89%B2%E5%B7%A8%E4%BA%BA720P.rmvb
+D/ContentSource(  744): sniffFLV
+D/StreamDataSource(  744): getPath, mediaType 
+[47024.802565] [irq_proc_open][373] -16
+= 0
+D/StreamDataSource(  744): the path is /%25/RMVB%20%E7%BB%BF%E8%89%B2%E5%B7%A8%E4%BA%BA720P.rmvb
+D/ContentSource(  744): sniffMKV
+D/StreamDataSource(  744): getPath, mediaType = 0
+D/StreamDataSource(  744): the path is /%25/RMVB%20%E7%BB%BF%E8%89%B2%E5%B7%A8%E4%BA%BA720P.rmvb
+D/ContentSource(  744): sniffAVI
+D/StreamDataSource(  744): getPath, mediaType = 0
+D/StreamDataSource(  744): the path is /%25/RMVB%20%E7%BB%BF%E8%89%B2%E5%B7%A8%E4%BA%BA720P.rmvb
+D/ContentSource(  744): sniffMOV
+D/StreamDataSource(  744): getPath, mediaType = 0
+D/StreamDataSource(  744): the path is /%25/RMVB%20%E7%BB%BF%E8%89%B2%E5%B7%A8%E4%BA%BA720P.rmvb
+D/ContentSource(  744): sniffTS
+D/StreamDataSource(  744): getPath, mediaType = 0
+D/StreamDataSource(  744): the path is /%25/RMVB%20%E7%BB%BF%E8%89%B2%E5%B7%A8%E4%BA%BA720P.rmvb
+D/ContentSource(  744): sniffMPEG
+D/StreamDataSource(  744): getPath, mediaType = 0
+D/StreamDataSource(  744): the path is /%25/RMVB%20%E7%BB%BF%E8%89%B2%E5%B7%A8%E4%BA%BA720P.rmvb
+D/ContentSource(  744): sniffRM
+D/StreamDataSource(  744): getPath, mediaType = 0
+D/StreamDataSource(  744): the path is /%25/RMVB%20%E7%BB%BF%E8%89%B2%E5%B7%A8%E4%BA%BA720P.rmvb
+D/ContentSource(  744): content is rm
+D/ContentSource(  744): media is rm
+D/MstarPlayer(  744): create MSrv_MM_PlayerInterface
+D/MstarPlayer(  744): ===> GET source FILE Size 133137065 
+D/MstarPlayer(  744): doPrepare: FileLength=133137065
+D/MstarPlayer(  744): play content is video
+D/MMPlayer(  744): constructor: 0x3c588
+D/MMPlayer(  744): 
+D/MMPlayer(  744): connect
+D/MMPlayer(  744): 
+D/MMPlayer(  744): getMMPlayerService
+D/IMMPlayerService(  744): Send CONNECT
+I//lib/ld-linux.so.3(  748): HPD        -> HPD  -> V/MMPlayerService( 755 1046): MMPlayerService::connect(callingPid 744, client 0x714010f0)
+I//lib/ld-linux.so.3(  748): V/MMPlayerService( 755 1046): MMPlayerService::Client constructor(callingPid 744)
+D/IMMPlayer(  744): Send INITIALIZE
+I//lib/ld-linux.so.3(  748): MMPlayerService::Client::MM_Initialize()
+I//lib/ld-linux.so.3(  748): MSrv_MM_PhotoPlayer::Initialize().
+I//lib/ld-linux.so.3(  748): mapi_cpcodec::Initialize(). eDecoderPath:2
+I//lib/ld-linux.so.3(  748): MIU interval 0x60000000.
+I//lib/ld-linux.so.3(  748): E_MMAP_ID_XC_MAIN_FB PA: 0x17bc1000, VA: 0x457c2000, size: 0x1800000, IsMIU0: 1.
+I//lib/ld-linux.so.3(  748): E_MMAP_ID_PHOTO_SHAREMEM PA: 0x167bc000, VA: 0x443bd000, size: 0x400, IsMIU0: 1.
+I//lib/ld-linux.so.3(  748): E_MMAP_ID_JPD_READ PA: 0x167bc400, VA: 0x443bd400, size: 0x50080, IsMIU0: 1.
+I//lib/ld-linux.so.3(  748): E_MMAP_ID_JPD_WRITE PA: 0x1680c480, VA: 0x4440d480, size: 0x3fc000, IsMIU0: 1.
+I//lib/ld-linux.so.3(  748): E_MMAP_ID_PHOTO_DISPLAY PA: 0x163c0000, VA: 0x43fc1000, size: 0x3fc000, IsMIU0: 1.
+I//lib/ld-linux.so.3(  748): E_MMAP_ID_PHOTO_INTER PA: 0x16c08480, VA: 0x44809480, size: 0x630000, IsMIU0: 1.
+I//lib/ld-linux.so.3(  748): E_MMAP_ID_PHOTO_MPO_INTER PA: 0x17238480, VA: 0x44e39480, size: 0x3fc000, IsMIU0: 1.
+I//lib/ld-linux.so.3(  748): E_MMAP_ID_VDPLAYER_DATA PA: 0x163c0000, VA: 0x43fc1000, size: 0x1000, IsMIU0: 1.
+I//lib/ld-linux.so.3(  748): E_MMAP_ID_VDPLAYER_BITSTREAM PA: 0x16d40000, VA: 0x44941000, size: 0x400000, IsMIU0: 1.
+I//lib/ld-linux.so.3(  748): E_MMAP_ID_VDPLAYER_BITSTREAM_EXT PA: 0x16940000, VA: 0x44541000, size: 0x400000, IsMIU0: 1.
+I//lib/ld-linux.so.3(  748): E_MMAP_ID_SUBTITLE PA: 0x16740000, VA: 0x44341000, size: 0x1e0000, IsMIU0: 1.
+I//lib/ld-linux.so.3(  748): E_MMAP_ID_MAD_DEC PA: 0x15c40000, VA: 0x43841000, size: 0x280000, IsMIU0: 1.
+I//lib/ld-linux.so.3(  748): E_MMAP_ID_VDEC_CPU PA: 0x1b800000, VA: 0x49401000, size: 0x200000, IsMIU0: 1.
+I//lib/ld-linux.so.3(  748): E_MMAP_ID_VDEC_FRAMEBUFFER PA: 0x1ba00000, VA: 0x49601000, size: 0x1b00000, IsMIU0: 1.
+I//lib/ld-linux.so.3(  748): E_MMAP_ID_VDEC_FRAMEBUFFERSD PA: 0x1ba00000, VA: 0x49601000, size: 0x1b00000, IsMIU0: 1.
+I//lib/ld-linux.so.3(  748): E_MMAP_ID_VDEC_BITSTREAM PA: 0x1d500000, VA: 0x4b101000, size: 0x800000, IsMIU0: 1.
+I//lib/ld-linux.so.3(  748): E_MMAP_ID_VDEC_MVC_FRAMEBUFFER PA: 0x1ba00000, VA: 0x49601000, size: 0x2b00000, IsMIU0: 1.
+I//lib/ld-linux.so.3(  748): E_MMAP_ID_VDEC_MVC_BITSTREAM PA: 0x1e500000, VA: 0x4c101000, size: 0x1600000, IsMIU0: 1.
+I//lib/ld-linux.so.3(  748): E_MMAP_ID_DMX_SECBUF PA: 0xd0000, VA: 0x411d1000, size: 0x70000, IsMIU0: 1.
+I//lib/ld-linux.so.3(  748): Thread name: mapi_cpcodec.
+I//lib/ld-linux.so.3(  748): ???????? Important,The MMAP ID(110) does not existed!, please check it...
+I//lib/ld-linux.so.3(  748): ???????? Please update the right system configure...
+I//lib/ld-linux.so.3(  748): ???????? Important,The MMAP ID(111) does not existed!, please check it...
+I//lib/ld-linux.so.3(  748): ???????? Please update the right system configure...
+I//lib/ld-linux.so.3(  748): Panel width: 1280, heigt: 720.
+I//lib/ld-linux.so.3(  748): MPO SBS width: 1792, heigt: 504.
+I//lib/ld-linux.so.3(  748): Output Buffer start: 0x4440d480, BUS address start: 0x5680c480, size: 0x3fc000.
+I//lib/ld-linux.so.3(  748): Display Buffer start: 0x43fc1000, BUS address start: 0x563c0000, size: 0x3fc000.
+I//lib/ld-linux.so.3(  748): Internal Buffer start: 0x44809480, BUS address start: 0x56c08480, size: 0x630000.
+I//lib/ld-linux.so.3(  748): MPO Internal Buffer start: 0x44e39480, BUS address start: 0x57238480, size: 0x3fc000.
+I//lib/ld-linux.so.3(  748): MSrv_MM_PhotoPlayer::Initialize() Done.
+I//lib/ld-linux.so.3(  748): >>> MSrv_MM_VideoPlayer  Initialize 
+I//lib/ld-linux.so.3(  748): mapi_cpcodec::Initialize(). eDecoderPath:2
+I//lib/ld-linux.so.3(  748): ******Amplifier_TI5707_SWMute(0)
+D/OpenGLRenderer( 4618): Flushing caches (mode 0)
+I//lib/ld-linux.so.3(  748): 5707write fail = 7
+I//lib/ld-linux.so.3(  748): 5707write fail = 7
+I//lib/ld-linux.so.3(  748): 5707write fail = 7
+I//lib/ld-linux.so.3(  748): 5707write fail = 7
+I//lib/ld-linux.so.3(  748): 5707write fail = 6
+D/IMMPlayer(  744): Get ret:0
+D/IMMPlayer(  744): Send PLAYER_COMMAND_ADD_EVENT_RECIPIENT_FPTR
+D/IMMPlayer(  744): Get ret:1
+D/IMMPlayer(  744): Send MM_SetPlayerTimeOutValue
+D/IMMPlayer(  744): pTimeOutInfo->u32FileIOTimeOut:4294967295
+D/IMMPlayer(  744): pTimeOutInfo->u32FileReadTimeOut:4294967295
+D/IMMPlayer(  744): pTimeOutInfo->u32FileSeekTimeOut:4294967295
+D/IMMPlayer(  744): pTimeOutInfo->u32DecodeCtrlTimeOut:4294967295
+D/IMMPlayer(  744): pTimeOutInfo->u32ESBuffCtrlTimeOut:-1
+D/IMMPlayer(  744): Get ret:0
+D/IMMPlayer(  744): Send MM_CreateMediaItem
+D/IMMPlayer(  744): stMedia.u32FileID:4294967295
+D/IMMPlayer(  744): stMedia.u32FileSecondID:0
+D/IMMPlayer(  744): stMedia.u32FileThirdID:0
+D/IMMPlayer(  744): stMedia.u32FileFourthID:0
+D/IMMPlayer(  744): stMedia.u64FileLength:133137065
+D/IMMPlayer(  744): stMedia.eMediaType:2
+D/IMMPlayer(  744): stMedia.eMediaFileType:1
+D/IMMPlayer(  744): stMedia.eMediaCreateMode:0
+D/IMMPlayer(  744): stMedia.u32CtlFlag:66
+I//lib/ld-linux.so.3(  748): Panel width: 01280, heigt: 720.
+I//lib/ld-linux.so.3(  748): Thread name: MM_Audio.
+I//lib/ld-linux.so.3(  748): Thread name: MM_Audio.
+D/IMMPlayer(  744): Get ret:0
+D/MstarPlayer(  744): media item 0x1
+D/MstarPlayer(  744): MstarPlayer::doPrepare done
+I//lib/ld-linux.so.3(  748): Video Item Info, file ID: 0xffffffff, file length: 0x0 0x7ef82a9.
+I//lib/ld-linux.so.3(  748): Output Resolution: DISPLAY_DACOUT_576P or DISPLAY_DACOUT_720P_50 or DISPLAY_DACOUT_1080P_50.
+I//lib/ld-linux.so.3(  748): >>>GetDRMSetting From EEPROM
+I//lib/ld-linux.so.3(  748): mapi_cpcodec::CreateMedia(): 47024785.
+I//lib/ld-linux.so.3(  748): 1 File ID: 0xffffffff, 2 File ID: 0x0, 3 File ID: 0x0, 4 File ID: 0x0.
+I//lib/ld-linux.so.3(  748): File size: 0x0 7ef82a9.
+I//lib/ld-linux.so.3(  748): Media Type: 0, File Type: 1, Create Mode: 0.
+I//lib/ld-linux.so.3(  748): mapi_cpcodec::videoCreateMedia().
+I//lib/ld-linux.so.3(  748): Reconfigure Buffer.
+I//lib/ld-linux.so.3(  748): E_MMAP_ID_VDEC_FRAMEBUFFER PA: 0x1ba00000, VA: 0x49601000, size: 0x1b00000, IsMIU0: 1.
+I//lib/ld-linux.so.3(  748): E_MMAP_ID_VDEC_FRAMEBUFFERSD PA: 0x1ba00000, VA: 0x49601000, size: 0x1b00000, IsMIU0: 1.
+I//lib/ld-linux.so.3(  748): E_MMAP_ID_VDEC_BITSTREAM PA: 0x1d500000, VA: 0x4b101000, size: 0x800000, IsMIU0: 1.
+I//lib/ld-linux.so.3(  748): E_MMAP_ID_VDEC_MVC_FRAMEBUFFER PA: 0x1ba00000, VA: 0x49601000, size: 0x2b00000, IsMIU0: 1.
+I//lib/ld-linux.so.3(  748): E_MMAP_ID_VDEC_MVC_BITSTREAM PA: 0x1e500000, VA: 0x4c101000, size: 0x1600000, IsMIU0: 1.
+I//lib/ld-linux.so.3(  748): Copy TSP FW bin 71401c78 -> 411d1000; 4400
+I//lib/ld-linux.so.3(  748): drop error frame.
+I//lib/ld-linux.so.3(  748): pCodecMedia eFileType:1,eAppType:0 
+I//lib/ld-linux.so.3(  748): default seekable Stream mode config: Set preload size 0x4000
+I//lib/ld-linux.so.3(  748): Stream mode. Set read header require size: MIN_REQUIRE_SIZE
+I//lib/ld-linux.so.3(  748): >>>>  DRM start  DRM MODEL ID  0x3031
+I//lib/ld-linux.so.3(  748): LoadDRMMemory();
+I//lib/ld-linux.so.3(  748): Display Msg: 29.
+I//lib/ld-linux.so.3(  748):  set Frame buffer info  MAX_FRAMENUM 4   MAX_FIELDNUM  16
+I//lib/ld-linux.so.3(  748): Enable TS Subtitle codec state  1
+I//lib/ld-linux.so.3(  748): [CI][HbbTV-VOD]<INFO>:[1365556985.779150] MM init start
+I//lib/ld-linux.so.3(  748): videoCreateMedia Done.
+I//lib/ld-linux.so.3(  748): Create CP Ccodec Video Media Done.
+I//lib/ld-linux.so.3(  748): Device or resource busy
+I//lib/ld-linux.so.3(  748): Cannot open interrupt descriptor for irq=147 Auth OK
+I//lib/ld-linux.so.3(  748): Check S/W IP Statue
+I//lib/ld-linux.so.3(  748): [0]:OFF; [1]:OFF; [2]:OFF; [3]:ON
+I//lib/ld-linux.so.3(  748): [4]:OFF; [5]:OFF; [6]:OFF; [7]:OFF
+I//lib/ld-linux.so.3(  748): [8]:OFF; [9]:OFF; [10]:OFF; [11]:ON
+I//lib/ld-linux.so.3(  748): [12]:ON; [13]:OFF; [14]:OFF; [15]:OFF
+I//lib/ld-linux.so.3(  748): [16]:OFF; [17]:OFF; [18]:OFF; [19]:ON
+I//lib/ld-linux.so.3(  748): [20]:ON; [21]:ON; [22]:ON; [23]:ON
+I//lib/ld-linux.so.3(  748): [24]:OFF; [25]:OFF; [26]:OFF; [27]:ON
+I//lib/ld-linux.so.3(  748): [28]:ON; [29]:ON; [30]:ON; [31]:OFF
+I//lib/ld-linux.so.3(  748): [32]:OFF; [33]:ON; [34]:ON; [35]:OFF
+I//lib/ld-linux.so.3(  748): [36]:OFF; [37]:OFF; [38]:OFF; [39]:ON
+I//lib/ld-linux.so.3(  748): [40]:ON; [41]:OFF; [42]:OFF; [43]:OFF
+I//lib/ld-linux.so.3(  748): [44]:OFF; [45]:OFF; [46]:OFF; [47]:OFF
+I//lib/ld-linux.so.3(  748): [48]:OFF; [49]:OFF; [50]:OFF; [51]:OFF
+I//lib/ld-linux.so.3(  748): [52]:OFF; [53]:OFF; [54]:OFF; [55]:OFF
+I//lib/ld-linux.so.3(  748): [56]:OFF; [57]:OFF; [58]:OFF; [59]:OFF
+I//lib/ld-linux.so.3(  748): [60]:OFF; [61]:OFF; [62]:OFF; [63]:OFF
+I//lib/ld-linux.so.3(  748): Subtitle File Open Fail !!
+I//lib/ld-linux.so.3(  748): Attached File Open Fail !!
+I//lib/ld-linux.so.3(  748): Audio File Fail!!
+D/MediaPlayerService(  744): [37] notify (0x41c80, 3, 1, 0)
+V/MovieWindow( 4618): actionControlReceived in MovieWindow,action is GetTransportInfo
+I//lib/ld-linux.so.3(  748): Blocking Read: 109, size: 0x1000.
+I//lib/ld-linux.so.3(  748): File format : RM
+I//lib/ld-linux.so.3(  748): Blocking Read: 1, size: 0x10000.
+D/MstarPlayer(  744): 00File size: 133137065, pos : 69632  Seek position: 133128192.
+D/StreamDataSource(  744): 
+D/StreamDataSource(  744):  seekAt : 133128192   
+V/MovieWindow( 4618): actionControlReceived in MovieWindow,action is GetPositionInfo
+V/MovieWindow( 4618): actionControlReceived in MovieWindow,action is GetVolume
+D/XXXX    ( 4618): XXXX hp in actionControlReceived acname is : GetVolume
+D/XXXX    ( 4618): XXXX hp in actionControlReceived setValue is : 16
+D/StreamDataSource(  744): StreamContentSource::sendRangeRequest, offset=133128192
+D/Downloader(  744): [downloadThread]Downloader::removeTask  
+D/Downloader(  744): root:iStartTask true
+D/Downloader(  744): [downloadThread]task have range string:133128192- 
+D/Downloader(  744): Content-Type: application/octet-stream
+D/Downloader(  744): 
+D/HTTPStreamCurl(  744): <<<<<<<<stream len: 133137065   m_UrlContentType:application/octet-stream
+D/HTTPStreamCurl(  744):   retrycount:100 
+D/StreamDataSource(  744): end of streaming,133137065/246564
+D/MediaPlayerService(  744): [37] notify (0x41c80, 3, 100, 0)
+D/MstarPlayer(  744): File seek OK.
+I//lib/ld-linux.so.3(  748): Blocking Read: 0, size: 0x2000.
+D/StreamDataSource(  744):   Warning : StreamContentSource ->size is out of stream 682,133136384/133137065 
+D/MstarPlayer(  744):  ========^^ set file end ^^============,tell size=133137065,fsize=133137065
+I//lib/ld-linux.so.3(  748): Blocking Read: 0, size: 0x2a9.
+I//lib/ld-linux.so.3(  748): Index Table: 1
+I//lib/ld-linux.so.3(  748): ==============================================================================================
+I//lib/ld-linux.so.3(  748): Data:MIU0; Bits:MIU0; MAD:MIU0; MVD:MIU0; SVD:MIU0; FB:MIU0; TSP:MIU0; FBL:No
+I//lib/ld-linux.so.3(  748): Bit Buffer:0x44941000      Size:0x400000
+I//lib/ld-linux.so.3(  748): Subtitle Bit Buffer:0x44341000     Size:0x1b0000
+I//lib/ld-linux.so.3(  748): MAD Buffer:0x43841000
+I//lib/ld-linux.so.3(  748): MADExt Buffer:0x44541000   Size:0x400000
+I//lib/ld-linux.so.3(  748): VDEC FW Buffer:0x49401000  Size:0x200000
+I//lib/ld-linux.so.3(  748): Frame Buffer:0x49601000    Size:0x1f00000
+I//lib/ld-linux.so.3(  748): MVD Buffer:0x4b501000      Size:0x400000
+I//lib/ld-linux.so.3(  748): TSP FW Buffer:0x411d1000   Size:0x70000
+I//lib/ld-linux.so.3(  748): Data Buffer:0x163d1000     Size:0x36f000
+I//lib/ld-linux.so.3(  748): Attached File Buffer Size:0xffffffff
+I//lib/ld-linux.so.3(  748): -> Demuxer:0x164f8000      Size:0x248000
+I//lib/ld-linux.so.3(  748): -> SeqHeader:0x43fd2000    Size:0x1000
+I//lib/ld-linux.so.3(  748): -> MOV Table:0x49601000    Size:0x1b00000
+I//lib/ld-linux.so.3(  748): -> MOV Static:0x43fd3000   Size:0x100000
+I//lib/ld-linux.so.3(  748): -> DRM Payload:0x440d3000  Size:0x4000
+I//lib/ld-linux.so.3(  748): -> DRM Playback Context:0x440d7000 Size:0x1000
+I//lib/ld-linux.so.3(  748): -> MADExtend:0x440d9000    Size:0x20000
+I//lib/ld-linux.so.3(  748): -> NonCache Area:0x440d8000        Size:0x1000
+I//lib/ld-linux.so.3(  748): -> Reserved Size:0x0
+I//lib/ld-linux.so.3(  748): ==============================================================================================
+I//lib/ld-linux.so.3(  748): Initialize RM HW
+I//lib/ld-linux.so.3(  748): HAL_VPU_EX_SetDbgLevel eLevel=0x1
+D/MstarPlayer(  744): 00File size: 133137065, pos : 133137065  Seek position: 0.
+D/StreamDataSource(  744): 
+D/StreamDataSource(  744):  seekAt : 0   
+I//lib/ld-linux.so.3(  748): DS enable = 0
+D/StreamDataSource(  744): StreamContentSource::sendRangeRequest, offset=0
+D/Downloader(  744): [downloadThread]Downloader::removeTask  
+D/Downloader(  744): Content-Length: 133137065
+D/Downloader(  744): 
+D/Downloader(  744): Content-Type: application/octet-stream
+D/Downloader(  744): 
+D/HTTPStreamCurl(  744): <<<<<<<<stream len: 133137065   m_UrlContentType:application/octet-stream
+D/HTTPStreamCurl(  744):   retrycount:100 
+D/MstarPlayer(  744): File seek OK.
+D/MediaPlayerService(  744): [37] notify (0x41c80, 3, 1, 0)
+I//lib/ld-linux.so.3(  748): Blocking Read: 404, size: 0x5000.
+D/MstarPlayer(  744): Get E_EVENT_INIT_OK event.
+D/IMMPlayer(  744): Send MM_EnableSubtitleShow
+D/IMMPlayer(  744): u32Item:1
+D/IMMPlayer(  744): bEnable:1
+D/IMMPlayer(  744): Get ret:1
+D/MstarPlayer(  744): <<<<<set init done flag
+I//lib/ld-linux.so.3(  748): To ask Dynscaling Size from vdec  0xc00
+I//lib/ld-linux.so.3(  748): jim:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+I//lib/ld-linux.so.3(  748):  Size(1280x720), Disp(1280x720), Par(1x1), FrameRate:60000, Interlace:0
+I//lib/ld-linux.so.3(  748): 1st sequence header Decode Ready!! **
+I//lib/ld-linux.so.3(  748): [CI][HbbTV-VOD]<INFO>:[1365556986.993171] MM init done
+I//lib/ld-linux.so.3(  748): E_CPCODEC_MSG_INIT_OK: 47026002.
+D/MstarPlayer(  744): <<<<<<<<<Init done
+D/IMMPlayer(  744): Send MM_GetMetaData
+D/IMMPlayer(  744): u32Item:1
+D/IMMPlayer(  744): eMetadata:11
+D/IMMPlayer(  744): u32BuffSize:4
+D/IMMPlayer(  744): Get ret:0
+D/IMMPlayer(  744): Send MM_GetMetaData
+D/IMMPlayer(  744): u32Item:1
+D/IMMPlayer(  744): eMetadata:12
+D/IMMPlayer(  744): u32BuffSize:4
+D/IMMPlayer(  744): Get ret:0
+D/MediaPlayerService(  744): [37] notify (0x41c80, 5, 1280, 720)
+D/MstarPlayer(  744): MstarPlayer::initRender
+D/MstarPlayer(  744): MstarPlayer::initRender Done.
+D/MstarPlayer(  744): prepare done....video size 1280,720
+D/MediaPlayerService(  744): [37] notify (0x41c80, 1, 0, 0)
+I/MovieWindow( 4618): [onPrepared] mp:android.media.MediaPlayer@424554a8
+D/MstarPlayer(  744): MstarPlayer::getDuration  mFlag: 0x4
+D/IMMPlayer(  744): Send MM_GetMetaData
+D/IMMPlayer(  744): u32Item:1
+D/IMMPlayer(  744): eMetadata:10
+D/IMMPlayer(  744): u32BuffSize:4
+D/IMMPlayer(  744): Get ret:0
+D/MstarPlayer(  744): get duration 148940
+I/System.out( 4618): cyp+++videoDuration++++148
+D/MstarPlayer(  744): MstarPlayer::setLooping=0
+D/MstarPlayer(  744): playerType
+D/MstarPlayer(  744): MstarPlayer::setLooping=0
+D/IMMPlayer(  744): Send MM_Play
+D/IMMPlayer(  744): u32Item:1
+D/IMMPlayer(  744): Get ret:0
+V/MovieWindow( 4618): ++++subtitleUrl++++
+I//lib/ld-linux.so.3(  748): mapi_cpcodec::Play(): 47026073.
+I//lib/ld-linux.so.3(  748): [CI][HbbTV-VOD]<INFO>:[1365556987.064479] MM play start
+D/MstarPlayer(  744): MstarPlayer::onOffExtSubtitleTrack
+D/MstarPlayer(  744): MstarPlayer::onOffIntSubtitleTrack
+D/IMMPlayer(  744): Send MM_EnableSubtitleShow
+D/IMMPlayer(  744): u32Item:1
+D/IMMPlayer(  744): bEnable:0
+D/IMMPlayer(  744): Get ret:1
+E/MediaPlayer( 4618): MediaPlayer::offSubtitleTrack, ret 0
+D/MstarPlayer(  744): MstarPlayer::onOffExtSubtitleTrack
+D/MstarPlayer(  744): MstarPlayer::onOffIntSubtitleTrack
+D/IMMPlayer(  744): Send MM_EnableSubtitleShow
+D/IMMPlayer(  744): u32Item:1
+D/IMMPlayer(  744): bEnable:1
+D/IMMPlayer(  744): Get ret:1
+E/MediaPlayer( 4618): MediaPlay[47026.372015] 
+[47026.372023] irq_proc_write
+er::onSubtitleTrack, ret 0
+D/MediaPlayer-JNI( 4618): setSubtitleDataSource
+D/MstarPlayer(  744): MstarPlayer::setSubtitleDataSource: 
+D/MstarPlayer(  744): Not a subtitle file!
+D/MstarPlayer(  744): This subtitle is invalid!
+I//lib/ld-linux.so.3(  748): MApp_VDPlayer_Play
+I//lib/ld-linux.so.3(  748): [CI][HbbTV-VOD]<INFO>:[1365556987.096304] MM setup display start
+I//lib/ld-linux.so.3(  748): Display Msg: 33.
+I//lib/ld-linux.so.3(  748): Screen Setting: 1.
+I//lib/ld-linux.so.3(  748): Set Black Screen ON.
+I//lib/ld-linux.so.3(  748): Video set up display.
+I//lib/ld-linux.so.3(  748): Scaler frame buffer mode.
+I//lib/ld-linux.so.3(  748): stDisplayInfo.u32OutputRate: 0.
+I//lib/ld-linux.so.3(  748): Display Msg: 28.
+I//lib/ld-linux.so.3(  748): Video Width: 1280, Height: 720, FrameRate: 60000, Interlace: 0.
+I//lib/ld-linux.so.3(  748): crop: left=0, right=0, top=0, bottom=0
+I//lib/ld-linux.so.3(  748): Video Type: 3.
+I//lib/ld-linux.so.3(  748): Video PAR Width: 1280, Height: 720.
+I//lib/ld-linux.so.3(  748): Video Aspect Ratio: 16x9.
+I//lib/ld-linux.so.3(  748): 1. Display Rect: x: 0, y: 0, width: 1280, height: 720.
+I//lib/ld-linux.so.3(  748): 2. Display Rect: x: 0, y: 0, width: 1280, height: 720.
+I//lib/ld-linux.so.3(  748): CropRect u16X=0, u16Y=0, u16Width=1280, u16Height=720
+I//lib/ld-linux.so.3(  748): DispRect u16X=0, u16Y=0, u16Width=1280, u16Height=720
+I//lib/ld-linux.so.3(  748): Scaler start: 0x17bc1000, size: 0x1800000.
+I//lib/ld-linux.so.3(  748): MVOP switch to MIU 0.
+I//lib/ld-linux.so.3(  748): ->u16FrameRate = 60000
+I//lib/ld-linux.so.3(  748): ->u8Interlace = 0
+I//lib/ld-linux.so.3(  748): ->u16HorSize = 1280
+I//lib/ld-linux.so.3(  748): ->u16VerSize = 720
+I//lib/ld-linux.so.3(  748): Crop Win, X: 0, Y: 0, W: 1280, H: 720.
+I//lib/ld-linux.so.3(  748): Diso Win, X: 0, Y: 0, W: 1280, H: 720.
+I//lib/ld-linux.so.3(  748): [MApi_Video] CropWin assigned: x,y,w,h=0,0,1280,720
+I//lib/ld-linux.so.3(  748): [MApi_Video] DstWin assigned: x,y,w,h=0,0,1280,720
+I//lib/ld-linux.so.3(  748): [MApi_Video] SrcWin1[Win=0]: x,y,w,h=152,18,1280,720
+I//lib/ld-linux.so.3(  748): [MApi_Video] CropWin1: x,y,w,h=0,0,1280,720
+I//lib/ld-linux.so.3(  748): [MApi_Video] DispWin1: x,y,w,h=0,0,1280,720
+I//lib/ld-linux.so.3(  748): === open 3D OverScan ===
+I//lib/ld-linux.so.3(  748): [MApi_Video] SrcWin2: x,y,w,h=152,18,1280,720
+I//lib/ld-linux.so.3(  748): [MApi_Video] CropWin2: x,y,w,h=0,0,1280,720
+I//lib/ld-linux.so.3(  748): [MApi_Video] DispWin2: x,y,w,h=0,0,1280,720
+I//lib/ld-linux.so.3(  748): [MApi_Video] SrcWin3: x,y,w,h=152,18,1280,720
+I//lib/ld-linux.so.3(  748): [MApi_Video] CropWin3: x,y,w,h=0,0,1280,720
+I//lib/ld-linux.so.3(  748): [MApi_Video] DispWin3: x,y,w,h=0,0,1280,720
+I//lib/ld-linux.so.3(  748): [MApi_Video] SrcWin5[Win=0]: x,y,w,h=152,18,1280,720
+I//lib/ld-linux.so.3(  748): [MApi_Video] CropWin5: x,y,w,h=0,0,1280,720
+I//lib/ld-linux.so.3(  748): [MApi_Video] DispWin5: x,y,w,h=0,0,1280,720
+I//lib/ld-linux.so.3(  748): [MApi_Video] DLC cap Hstart=1, Hend=501, Vstart=5a, Vend=276
+I//lib/ld-linux.so.3(  748): Read Bandwidthtable.bin
+D/MstarPlayer(  744): Get E_EVENT_DECODE_FIRST_FRAME_DONE event.
+I//lib/ld-linux.so.3(  748): enPQMNRType is 1
+I//lib/ld-linux.so.3(  748): enPQFLType is 1
+I//lib/ld-linux.so.3(  748):    [Plugins_PatchPQ]Customer Path PQ Add here
+I//lib/ld-linux.so.3(  748): [CI][HbbTV-VOD]<INFO>:[1365556987.358129] MM setup display done
+I//lib/ld-linux.so.3(  748): Load COOK Audio Codec.
+I//lib/ld-linux.so.3(  748): ========COOK Audio Codec========
+I//lib/ld-linux.so.3(  748): ===== Check Audio Decoder Protection from hash-key IP =====
+I//lib/ld-linux.so.3(  748): Hash-key Support DD.
+I//lib/ld-linux.so.3(  748): Hash-key Support DD+.
+I//lib/ld-linux.so.3(  748): Hash-key Support Generic HE-AAC !!
+I//lib/ld-linux.so.3(  748): Hash-key Support WMA.
+I//lib/ld-linux.so.3(  748): Hash-key Support DRA.
+I//lib/ld-linux.so.3(  748): ===== Check Protection IP End                         =====
+D/MstarPlayer(  744): Read DisplayRectangle FIFO x 0, y 0, w 1280, h 720
+D/MstarPlayer(  744): setDisplayRectangle  x 0, y 0, w 1280, h 720
+D/IMMPlayer(  744): Send MM_SetDisplayRectangle
+D/IMMPlayer(  744): u32Item:1
+D/IMMPlayer(  744): stRect u16X:0
+D/IMMPlayer(  744): stRect u16Y:0
+D/IMMPlayer(  744): stRect u16Height:720
+D/IMMPlayer(  744): stRect u16Width:1280
+I//lib/ld-linux.so.3(  748): Video PAR Width: 1280, Height: 720.
+I//lib/ld-linux.so.3(  748): Video Aspect Ratio: 16x9.
+I//lib/ld-linux.so.3(  748): 1. Display Rect: x: 0, y: 0, width: 1280, height: 720.
+I//lib/ld-linux.so.3(  748): 2. Display Rect: x: 0, y: 0, width: 1280, height: 720.
+I//lib/ld-linux.so.3(  748): CropRect u16X=0, u16Y=0, u16Width=1280, u16Height=720
+I//lib/ld-linux.so.3(  748): DispRect u16X=0, u16Y=0, u16Width=1280, u16Height=720
+I//lib/ld-linux.so.3(  748): Crop Win, X: 0, Y: 0, W: 1280, H: 720.
+I//lib/ld-linux.so.3(  748): Diso Win, X: 0, Y: 0, W: 1280, H: 720.
+I//lib/ld-linux.so.3(  748): [MApi_Video] CropWin assigned: x,y,w,h=0,0,1280,720
+I//lib/ld-linux.so.3(  748): [MApi_Video] DstWin assigned: x,y,w,h=0,0,1280,720
+I//lib/ld-linux.so.3(  748): [MApi_Video] SrcWin1[Win=0]: x,y,w,h=152,18,1280,720
+I//lib/ld-linux.so.3(  748): [MApi_Video] CropWin1: x,y,w,h=0,0,1280,720
+I//lib/ld-linux.so.3(  748): [MApi_Video] DispWin1: x,y,w,h=0,0,1280,720
+I//lib/ld-linux.so.3(  748): === open 3D OverScan ===
+I//lib/ld-linux.so.3(  748): [MApi_Video] SrcWin2: x,y,w,h=152,18,1280,720
+I//lib/ld-linux.so.3(  748): [MApi_Video] CropWin2: x,y,w,h=0,0,1280,720
+I//lib/ld-linux.so.3(  748): [MApi_Video] DispWin2: x,y,w,h=0,0,1280,720
+I//lib/ld-linux.so.3(  748): [MApi_Video] SrcWin3: x,y,w,h=152,18,1280,720
+I//lib/ld-linux.so.3(  748): [MApi_Video] CropWin3: x,y,w,h=0,0,1280,720
+I//lib/ld-linux.so.3(  748): [MApi_Video] DispWin3: x,y,w,h=0,0,1280,720
+I//lib/ld-linux.so.3(  748): [MApi_Video] SrcWin5[Win=0]: x,y,w,h=152,18,1280,720
+I//lib/ld-linux.so.3(  748): [MApi_Video] CropWin5: x,y,w,h=0,0,1280,720
+I//lib/ld-linux.so.3(  748): [MApi_Video] DispWin5: x,y,w,h=0,0,1280,720
+V/MovieWindow( 4618): actionControlReceived in MovieWindow,action is GetVolumeDBRange
+D/XXXX    ( 4618): XXXX hp in actionControlReceived acname is : GetVolumeDBRange
+I//lib/ld-linux.so.3(  748): ******Amplifier_TI5707_SWMute(0)
+I//lib/ld-linux.so.3(  748): 5707write fail = 7
+I//lib/ld-linux.so.3(  748): 5707write fail = 7
+I//lib/ld-linux.so.3(  748): 5707write fail = 7
+I//lib/ld-linux.so.3(  748): 5707write fail = 7
+I//lib/ld-linux.so.3(  748): 5707write fail = 6
+D/MstarPlayer(  744): E_EVENT_PLAYING_OK
+D/ContentSource(  744): valid length(372736) < (1048576 )is no enough ,read less...   
+I//lib/ld-linux.so.3(  748): Video is in playing state.
+I//lib/ld-linux.so.3(  748): STC Updated by Video: (40223231->41)
+I//lib/ld-linux.so.3(  748): [MApi_Video] DLC cap Hstart=1, Hend=501, Vstart=5a, Vend=276
+I//lib/ld-linux.so.3(  748): FrmCnt:9(0,0,0) Rate:112 Sys:47026493 STC:48 VPTS:41 APTS:0 Delay:34(41) V:21 A:5 VES:0x59a1 AES:0x0 PCM:0x0 AudioErr:0x0
+I//lib/ld-linux.so.3(  748): 1st Decode & Display Ready!!
+I//lib/ld-linux.so.3(  748): Audio StartTime: 0
+I//lib/ld-linux.so.3(  748): Display Msg: 33.
+I//lib/ld-linux.so.3(  748): Screen Setting: 1.
+I//lib/ld-linux.so.3(  748): 2. Set Black Screen OFF.
+V/MovieWindow( 4618): actionControlReceived in MovieWindow,action is GetTransportInfo
+D/ContentSource(  744): valid length(524288) < (1048576 )is no enough ,read less...   
+I//lib/ld-linux.so.3(  748): [CI][HbbTV-VOD]<INFO>:[1365556987.775914] MM play done
+D/IMMPlayer(  744): Get ret:0
+V/MovieWindow( 4618): actionControlReceived in MovieWindow,action is GetPositionInfo
+D/ContentSource(  744): valid length(524288) < (1048576 )is no enough ,read less...   
+I//lib/ld-linux.so.3(  748): STC Updated by Audio:(692->28)
+D/MediaPlayerService(  744): [37] notify (0x41c80, 3, 2, 0)
+V/MovieWindow( 4618): actionControlReceived in MovieWindow,action is GetVolume
+D/XXXX    ( 4618): XXXX hp in actionControlReceived acname is : GetVolume
+D/XXXX    ( 4618): XXXX hp in actionControlReceived setValue is : 16
+D/ContentSource(  744): valid length(524288) < (1048576 )is no enough ,read less...   
+I//lib/ld-linux.so.3(  748): FrmCnt:28(0,0,0) Rate:12 Sys:47028001 STC:892 VPTS:875 APTS:892 Delay:25(41) V:1147 A:17 VES:0x148697 AES:0x0 PCM:0x25780 AudioErr:0x0
+D/HomePlayerLib( 4618): hostaddress count is 1
+D/dalvikvm( 4618): GC_CONCURRENT freed 2210K, 26% free 17434K/23427K, paused 2ms+5ms
+D/StreamDataSource(  744):   Warning : StreamContentSource has not enough data ,valid:0!!! 
+D/dalvikvm( 4618): GC_CONCURRENT freed 2122K, 27% free 17238K/23427K, paused 3ms+4ms
+V/MovieWindow( 4618): actionControlReceived in MovieWindow,action is GetVolumeDBRange
+D/XXXX    ( 4618): XXXX hp in actionControlReceived acname is : GetVolumeDBRange
+V/MovieWindow( 4618): actionControlReceived in MovieWindow,action is GetTransportInfo
+D/StreamDataSource(  744):   Warning : StreamContentSource has not enough data ,valid:139760!!! 
+D/ContentSource(  744): valid length(139760) < (1048576 )is no enough ,read less...   
+D/dalvikvm( 4618): GC_CONCURRENT freed 2016K, 27% free 17269K/23427K, paused 2ms+8ms
+I//lib/ld-linux.so.3(  748): FrmCnt:64(0,0,0) Rate:23 Sys:47029505 STC:2396 VPTS:2419 APTS:1764 Delay:64(41) V:225 A:5 VES:0x456ff AES:0x0 PCM:0x0 AudioErr:0x0
+V/MovieWindow( 4618): actionControlReceived in MovieWindow,action is GetPositionInfo
+V/MovieWindow( 4618): actionControlReceived in MovieWindow,action is GetVolume
+D/XXXX    ( 4618): XXXX hp in actionControlReceived acname is : GetVolume
+D/XXXX    ( 4618): XXXX hp in actionControlReceived setValue is : 16
+D/ContentSource(  744): valid length(777744) < (1048576 )is no enough ,read less...   
+D/MediaPlayerService(  744): [37] notify (0x41c80, 3, 3, 0)
+I//lib/ld-linux.so.3(  748): Old STC: 0x00000cc3, PTS: 0x00000744, Diff: 0x0000057f
+D/ContentSource(  744): valid length(524288) < (643072 )is no enough ,read less...   
+D/dalvikvm( 4618): GC_CONCURRENT freed 1954K, 27% free 17274K/23427K, paused 4ms+8ms
+V/MovieWindow( 4618): actionControlReceived in MovieWindow,action is GetVolumeDBRange
+D/XXXX    ( 4618): XXXX hp in actionControlReceived acname is : GetVolumeDBRange
+V/MovieWindow( 4618): actionControlReceived in MovieWindow,action is GetTransportInfo
+D/ContentSource(  744): valid length(405504) < (1048576 )is no enough ,read less...   
+D/MediaPlayerService(  744): [37] notify (0x41c80, 3, 4, 0)
+V/MovieWindow( 4618): actionControlReceived in MovieWindow,action is GetPositionInfo
+I//lib/ld-linux.so.3(  748): FrmCnt:85(0,0,1) Rate:13 Sys:47031034 STC:2517 VPTS:3253 APTS:2520 Delay:777(41) V:1035 A:9 VES:0x1bff24 AES:0x1e60 PCM:0x4ba80 AudioErr:0x0
+V/MovieWindow( 4618): actionControlReceived in MovieWindow,action is GetVolume
+D/XXXX    ( 4618): XXXX hp in actionControlReceived acname is : GetVolume
+D/XXXX    ( 4618): XXXX hp in actionControlReceived setValue is : 16
+D/ContentSource(  744): valid length(524288) < (1048576 )is no enough ,read less...   
+D/ContentSource(  744): valid length(524288) < (1048576 )is no enough ,read less...   
+D/ContentSource(  744): valid length(524288) < (1048576 )is no enough ,read less...   
+D/MediaPlayerService(  744): [37] notify (0x41c80, 3, 5, 0)
+D/ContentSource(  744): valid length(524288) < (774144 )is no enough ,read less...   
+I//lib/ld-linux.so.3(  748): FrmCnt:102(0,0,1) Rate:11 Sys:47032565 STC:4048 VPTS:4045 APTS:4048 Delay:38(41) V:2404 A:29 VES:0x1c382c AES:0x2e70 PCM:0x4b900 AudioErr:0x0
+D/StreamDataSource(  744):   Warning : StreamContentSource has not enough data ,valid:180304!!! 
+D/ContentSource(  744): valid length(180304) < (520192 )is no enough ,read less...   
+V/MovieWindow( 4618): actionControlReceived in MovieWindow,action is GetVolumeDBRange
+D/XXXX    ( 4618): XXXX hp in actionControlReceived acname is : GetVolumeDBRange
+V/MovieWindow( 4618): actionControlReceived in MovieWindow,action is Pause
+D/MstarPlayer(  744): MstarPlayer::pause
+D/IMMPlayer(  744): Send MM_SetTrickMode
+D/IMMPlayer(  744): u32Item:1
+D/IMMPlayer(  744): stTrickInfo->eMode:1
+D/IMMPlayer(  744): stTrickInfo->eSpeed:1
+D/Downloader(  744): Downloader::pause
+D/IMMPlayer(  744): Get ret:0
+I//lib/ld-linux.so.3(  748): 1. Mode: 1, Speed: 1.
+I//lib/ld-linux.so.3(  748): SetTrickMode, Mode: 1, Speed: 1.
+I//lib/ld-linux.so.3(  748): Send to Co-processor: eMode: 0, eSpeed: 0.
+V/MovieWindow( 4618): actionControlReceived in MovieWindow,action is GetTransportInfo
+D/dalvikvm( 4618): GC_CONCURRENT freed 1952K, 27% free 17335K/23427K, paused 3ms+6ms
+V/MovieWindow( 4618): actionControlReceived in MovieWindow,action is GetPositionInfo
+D/StreamDataSource(  744):   Warning : StreamContentSource has not enough data ,valid:132520!!! 
+D/ContentSource(  744): valid length(132520) < (356352 )is no enough ,read less...   
+V/MovieWindow( 4618): actionControlReceived in MovieWindow,action is GetVolume
+D/XXXX    ( 4618): XXXX hp in actionControlReceived acname is : GetVolume
+D/XXXX    ( 4618): XXXX hp in actionControlReceived setValue is : 16
+D/dalvikvm( 4618): GC_CONCURRENT freed 2014K, 27% free 17299K/23427K, paused 12ms+4ms
+D/StreamDataSource(  744):   Warning : StreamContentSource has not enough data ,valid:0!!! 
+D/StreamDataSource(  744):   Warning : StreamContentSource has not enough data ,valid:0!!! 
+[47036.453426] *********** [Normal_MIU0] is still reclaimalbe !! *************
+[47036.460454] *********** [Normal_MIU0] is still reclaimalbe !! *************
+[47036.467464] *********** [Normal_MIU0] is still reclaimalbe !! *************
+[47036.474473] *********** [Normal_MIU0] is still reclaimalbe !! *************
+[47036.481482] *********** [Normal_MIU0] is still reclaimalbe !! *************
+[47036.488491] *********** [Normal_MIU0] is still reclaimalbe !! *************
+[47036.495599] *********** [Normal_MIU0] is still reclaimalbe !! *************
+[47036.502616] *********** [Normal_MIU0] is still reclaimalbe !! *************
+[47036.509626] *********** [Normal_MIU0] is still reclaimalbe !! *************
+[47036.516630] *********** [Normal_MIU0] is still reclaimalbe !! *************
+[47036.523636] *********** [Normal_MIU0] is still reclaimalbe !! *************
+[47036.530639] *********** [Normal_MIU0] is still reclaimalbe !! *************
+[47036.537743] *********** [Normal_MIU0] is still reclaimalbe !! *************
+V/MovieWindow( 4618): actionControlReceived in MovieWindow,action is GetVolumeDBRange
+D/XXXX    ( 4618): XXXX hp in actionControlReceived acname is : GetVolumeDBRange
+V/MovieWindow( 4618): actionControlReceived in MovieWindow,action is GetTransportInfo
+V/MovieWindow( 4618): actionControlReceived in MovieWindow,action is GetPositionInfo
+D/dalvikvm( 4618): GC_CONCURRENT freed 1982K, 27% free 17240K/23427K, paused 3ms+5ms
+V/MovieWindow( 4618): actionControlReceived in MovieWindow,action is GetVolume
+D/XXXX    ( 4618): XXXX hp in actionControlReceived acname is : GetVolume
+D/XXXX    ( 4618): XXXX hp in actionControlReceived setValue is : 16
+D/StreamDataSource(  744):   Warning : StreamContentSource has not enough data ,valid:0!!! 
+V/MovieWindow( 4618): actionControlReceived in MovieWindow,action is SetAVTransportURI
+D/XXXX    ( 4618): XXXX hp in actionControlReceived acname is : SetAVTransportURI
+V/MovieWindow( 4618): actionControlReceived in MovieWindow,action is Play
+V/MovieWindow( 4618): ++++++fileUrlList+++++[http://192.168.2.108:57836/%25/1.dat]++++++length+++++1
+V/MovieWindow( 4618): ++++come here++++[http://192.168.2.108:57836/%25/1.dat]
+W/dalvikvm( 4618): threadid=17: thread exiting with uncaught exception (group=0x40fa81f8)
+E/AndroidRuntime( 4618): FATAL EXCEPTION: Cyber.HTTPServerThread
+E/AndroidRuntime( 4618): android.view.ViewRootImpl$CalledFromWrongThreadException: Only the original thread that created a view hierarchy can touch its views.
+E/AndroidRuntime( 4618):        at android.view.ViewRootImpl.checkThread(ViewRootImpl.java:4039)
+E/AndroidRuntime( 4618):        at android.view.ViewRootImpl.requestLayout(ViewRootImpl.java:709)
+E/AndroidRuntime( 4618):        at android.view.View.requestLayout(View.java:12675)
+E/AndroidRuntime( 4618):        at android.view.View.requestLayout(View.java:12675)
+E/AndroidRuntime( 4618):        at android.view.View.requestLayout(View.java:12675)
+E/AndroidRuntime( 4618):        at android.view.View.requestLayout(View.java:12675)
+E/AndroidRuntime( 4618):        at android.widget.RelativeLayout.requestLayout(RelativeLayout.java:268)
+E/AndroidRuntime( 4618):        at android.view.View.requestLayout(View.java:12675)
+E/AndroidRuntime( 4618):        at android.view.View.setFlags(View.java:6720)
+E/AndroidRuntime( 4618):        at android.view.View.setVisibility(View.java:4617)
+E/AndroidRuntime( 4618):        at com.coship.Multimedia.MovieWindow.MovieWindow.play(MovieWindow.java:1261)
+E/AndroidRuntime( 4618):        at com.coship.Multimedia.MovieWindow.MovieWindow.access$700(MovieWindow.java:83)
+E/AndroidRuntime( 4618):        at com.coship.Multimedia.MovieWindow.MovieWindow$VideoRenererListener.actionControlReceived(MovieWindow.java:1727)
+E/AndroidRuntime( 4618):        at org.cybergarage.upnp.std.av.renderer.AVTransport.actionControlReceived(AVTransport.java:851)
+E/AndroidRuntime( 4618):        at org.cybergarage.upnp.Action.performActionListener(Action.java:335)
+E/AndroidRuntime( 4618):        at org.cybergarage.upnp.Device.deviceActionControlRecieved(Device.java:1745)
+E/AndroidRuntime( 4618):        at org.cybergarage.upnp.Device.deviceControlRequestRecieved(Device.java:1709)
+E/AndroidRuntime( 4618):        at org.cybergarage.upnp.Device.soapActionRecieved(Device.java:1694)
+E/AndroidRuntime( 4618):        at org.cybergarage.upnp.Device.httpPostRequestRecieved(Device.java:1671)
+E/AndroidRuntime( 4618):        at org.cybergarage.upnp.Device.httpRequestRecieved(Device.java:1600)
+E/AndroidRuntime( 4618):        at org.cybergarage.upnp.std.av.renderer.MediaRenderer.httpRequestRecieved(MediaRenderer.java:204)
+E/AndroidRuntime( 4618):        at org.cybergarage.http.HTTPServer.performRequestListener(HTTPServer.java:212)
+E/AndroidRuntime( 4618):        at org.cybergarage.http.HTTPServerThread.run(HTTPServerThread.java:48)
+W/ActivityManager(  941):   Force finishing activity com.coship.Multimedia/.MovieWindow.MovieWindow
+V/MovieWindow( 4618): set background listener in MusicWindow onPause
+D/MovieWindow( 4618): onPause in moviewindow
+D/dalvikvm(  941): GC_FOR_ALLOC freed 1511K, 64% free 4062K/11075K, paused 76ms
+D/dalvikvm(  941): GC_CONCURRENT freed 46K, 56% free 4916K/11075K, paused 3ms+6ms
+I/AirplayService( 4618): in setAirplayDevName
+I/Multimedia( 4618): onResume startServiceIntent
+D/Multimedia_BackService( 4618): BackService onStart called
+D/Multimedia_BackService( 4618): device Name:SmartBoxtc
+I/AirplayService( 4618): in setAirplayDevName
+D/BackService( 4618): [actionControlReceived] Name:GetVolumeDBRange
+D/XXXX    ( 4618): XXXX hp in actionControlReceived acname is : GetVolumeDBRange
+V/MovieWindow( 4618): +++++++surfaceDestroyed+++++++
+D/MstarPlayer(  744): ==========MstarPlayer::reset : 0x3d708==========
+D/StreamDataSource(  744): ForceStopRead !!
+D/MstarPlayer(  744): request to exit async thread
+D/StreamDataSource(  744):   Warning : StreamContentSource has not enough data ,valid:0!!! 
+D/MstarPlayer(  744):  ========^^ set file end ^^============,tell size=-1,fsize=133137065
+D/MstarPlayer(  744): exit async proc thread
+D/IMMPlayer(  744): Send MM_SetTrickMode
+D/IMMPlayer(  744): u32Item:1
+D/IMMPlayer(  744): stTrickInfo->eMode:0
+D/IMMPlayer(  744): stTrickInfo->eSpeed:1
+I//lib/ld-linux.so.3(  748): 1. Mode: 0, Speed: 1.
+I//lib/ld-linux.so.3(  748): SetTrickMode, Mode: 0, Speed: 1.
+I//lib/ld-linux.so.3(  748): Send to Co-processor: eMode: 0, eSpeed: 1.
+D/IMMPlayer(  744): Get ret:0
+D/IMMPlayer(  744): Send MM_Stop
+D/IMMPlayer(  744): u32Item:1
+I//lib/ld-linux.so.3(  748): MApp_VDPlay[47038.298682] *********** [Normal_MIU0] is still reclaimalbe !! *************
+[47038.307002] *********** [Normal_MIU0] is still reclaimalbe !! *************
+[47038.314010] *********** [Normal_MIU0] is still reclaimalbe !! *************
+[47038.321038] *********** [Normal_MIU0] is still reclaimalbe !! *************
+[47038.328068] *********** [Normal_MIU0] is still reclaimalbe !! *************
+[47038.335091] *********** [Normal_MIU0] is still reclaimalbe !! *************
+er_Stop interrup[47038.342268] *********** [Normal_MIU0] is still reclaimalbe !! *************
+[47038.350600] *********** [Normal_MIU0] is still reclaimalbe !! *************
+[47038.357629] *********** [Normal_MIU0] is still reclaimalbe !! *************
+[47038.364638] *********** [Normal_MIU0] is still reclaimalbe !! *************
+[47038.371652] *********** [Normal_MIU0] is still reclaimalbe !! *************
+t
+D/MovieWindow( 4618): onDestroy in moviewindow
+E/WindowManager( 4618): Activity com.coship.Multimedia.MovieWindow.MovieWindow has leaked window com.android.internal.policy.impl.PhoneWindow$DecorView@42364920 that was originally added here
+E/WindowManager( 4618): android.view.WindowLeaked: Activity com.coship.Multimedia.MovieWindow.MovieWindow has leaked window com.android.internal.policy.impl.PhoneWindow$DecorView@42364920 that was originally added here
+E/WindowManager( 4618):         at android.view.ViewRootImpl.<init>(ViewRootImpl.java:344)
+E/WindowManager( 4618):         at android.view.WindowManagerImpl.addView(WindowManagerImpl.java:267)
+E/WindowManager( 4618):         at android.view.WindowManagerImpl.addView(WindowManagerImpl.java:215)
+E/WindowManager( 4618):         at android.view.WindowManagerImpl$CompatModeWrapper.addView(WindowManagerImpl.java:140)
+E/WindowManager( 4618):         at android.view.Window$LocalWindowManager.addView(Window.java:537)
+E/WindowManager( 4618):         at android.app.Dialog.show(Dialog.java:278)
+E/WindowManager( 4618):         at com.coship.Multimedia.MovieWindow.MovieWindow$MessageHandler.handleMessage(MovieWindow.java:1161)
+E/WindowManager( 4618):         at android.os.Handler.dispatchMessage(Handler.java:99)
+E/WindowManager( 4618):         at android.os.Looper.loop(Looper.java:137)
+E/WindowManager( 4618):         at android.app.ActivityThread.main(ActivityThread.java:4424)
+E/WindowManager( 4618):         at java.lang.reflect.Method.invokeNative(Native Method)
+E/WindowManager( 4618):         at java.lang.reflect.Method.invoke(Method.java:511)
+E/WindowManager( 4618):         at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:848)
+E/WindowManager( 4618):         at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:575)
+E/WindowManager( 4618):         at dalvik.system.NativeStart.main(Native Method)
+D/BackService( 4618): [actionControlReceived] Name:GetTransportInfo
+D/XXXX    ( 4618): XXXX hp in actionControlReceived acname is : GetTransportInfo
+I//lib/ld-linux.so.3(  748): MApp_VDPlayer_Stop
+I//lib/ld-linux.so.3(  748): E_VDP_DECODE_STATE_STOP --> E_VDP_DECODE_STATE_STANDBY
+I//lib/ld-linux.so.3(  748): E_VDP_PHASE_DECODE --> E_VDP_PHASE_STOP
+D/HomePlayerLib( 4618): hostaddress count is 1
+I//lib/ld-linux.so.3(  748): E_VDP_PHASE_STOP --> E_VDP_PHASE_STANDBY
+I//lib/ld-linux.so.3(  748): Error code 0; Stop Pos:0x02ec86a Time:4672
+I//lib/ld-linux.so.3(  748): Get MB_VDPLAYER_STOP command.
+D/IMMPlayer(  744): Get ret:0
+D/IMMPlayer(  744): Send MM_DeleteMediaItem
+D/IMMPlayer(  744): u32Item:1
+D/IMMPlayer(  744): Get ret:0
+D/IMMPlayer(  744): Send PLAYER_COMMAND_REMOVE_EVENT_RECIPIENT_FPTR
+D/IMMPlayer(  744): Get ret:1
+D/IMMPlayer(  744): Send FINALIZE
+I//lib/ld-linux.so.3(  748): Sbtitle de-init: 0.
+I//lib/ld-linux.so.3(  748): MMPlayerService::Client::MM_Finalize()
+I//lib/ld-linux.so.3(  748): MSrv_MM_PhotoPlayer::Finalize().
+I//lib/ld-linux.so.3(  748): mapi_cpcodec::Finalize().
+I//lib/ld-linux.so.3(  748): mapi_cpcodec::Finalize().
+I//lib/ld-linux.so.3(  748): Do mapi_cpcodec::Finalize().
+D/IMMPlayer(  744): Get ret:0
+D/MMPlayer(  744): disconnect
+D/MMPlayer(  744): 
+D/IMMPlayer(  744): Send DISCONNECT
+D/MMPlayer(  744): destructor: 0x3c588
+D/MMPlayer(  744): 
+D/MMPlayer(  744): disconnect
+D/MMPlayer(  744): 
+D/MstarPlayer(  744): MstarPlayer::clearAllSource
+D/StreamDataSource(  744): ~StreamContentSource 
+D/HTTPStreamCurl(  744): 
+D/HTTPStreamCurl(  744):  ~HTTPStreamCurl 
+D/Downloader(  744): Enter Downloader::ForceExit ! 
+D/HTTPStreamCurl(  744): [HTTPStreamCurl]request to exit download thread 
+D/HTTPStreamCurl(  744): [HTTPStreamCurl]request to exit download thread  Done !!
+D/Downloader(  744): Enter Downloader::ForceExit ! 
+D/Downloader(  744): [downloadThread]Downloader::removeTask  
+I//lib/ld-linux.so.3(  748): MM_Finalize done
+I//lib/ld-linux.so.3(  748): V/MMPlayerService( 755 1069): disconnect(callingPid 744, clientPid 744)
+I//lib/ld-linux.so.3(  748): V/MMPlayerService( 755 1069): Disconnet finalize OK.
+I//lib/ld-linux.so.3(  748): V/MMPlayerService( 755 1069): removeClient(callingPid 744)
+I//lib/ld-linux.so.3(  748): V/MMPlayerService( 755 1048): MMPlayerService::Client destructor(callingPid 744)
+D/Downloader(  744): ~Downloader
+D/HTTPStreamCurl(  744): ~HTTPStreamCurl done.
+D/MstarPlayer(  744): setInstance: 0x0
+D/MstarPlayer(  744): reset done
+I/MovieWindow( 4618): ***********surfaceDestroyed
+D/MstarPlayer(  744): ==========MstarPlayer::reset : 0x3d708==========
+D/MstarPlayer(  744): MstarPlayer::clearAllSource
+D/MstarPlayer(  744): setInstance: 0x0
+D/MstarPlayer(  744): reset done
+D/MstarPlayer(  744): 
+D/MstarPlayer(  744): =======Destroy mstar player  : 0x3d708========
+D/BackService( 4618): [actionControlReceived] Name:GetPositionInfo
+D/XXXX    ( 4618): XXXX hp in actionControlReceived acname is : GetPositionInfo
+D/dalvikvm( 4618): GC_CONCURRENT freed 1900K, 26% free 17538K/23427K, paused 3ms+4ms
+D/BackService( 4618): [actionControlReceived] Name:GetVolume
+D/XXXX    ( 4618): XXXX hp in actionControlReceived acname is : GetVolume
+D/XXXX    ( 4618): XXXX hp in actionControlReceived setValue is : 16
+D/dalvikvm( 4618): GC_CONCURRENT freed 2217K, 27% free 17255K/23427K, paused 2ms+4ms
+D/BackService( 4618): [actionControlReceived] Name:GetVolumeDBRange
+D/XXXX    ( 4618): XXXX hp in actionControlReceived acname is : GetVolumeDBRange
+D/BackService( 4618): [actionControlReceived] Name:GetTransportInfo
+D/XXXX    ( 4618): XXXX hp in actionControlReceived acname is : GetTransportInfo
+D/dalvikvm( 4618): GC_CONCURRENT freed 1916K, 27% free 17313K/23427K, paused 2ms+4ms
+D/BackService( 4618): [actionControlReceived] Name:GetPositionInfo
+D/XXXX    ( 4618): XXXX hp in actionControlReceived acname is : GetPositionInfo
+D/BackService( 4618): [actionControlReceived] Name:GetVolume
+D/XXXX    ( 4618): XXXX hp in actionControlReceived acname is : GetVolume
+D/XXXX    ( 4618): XXXX hp in actionControlReceived setValue is : 16
+D/BackService( 4618): [actionControlReceived] Name:GetVolumeDBRange
+D/XXXX    ( 4618): XXXX hp in actionControlReceived acname is : GetVolumeDBRange
+D/BackService( 4618): [actionControlReceived] Name:GetTransportInfo
+D/XXXX    ( 4618): XXXX hp in actionControlReceived acname is : GetTransportInfo
+D/BackService( 4618): [actionControlReceived] Name:GetPositionInfo
+D/XXXX    ( 4618): XXXX hp in actionControlReceived acname is : GetPositionInfo
+D/BackService( 4618): [actionControlReceived] Name:GetVolume
+D/XXXX    ( 4618): XXXX hp in actionControlReceived acname is : GetVolume
+D/XXXX    ( 4618): XXXX hp in actionControlReceived setValue is : 16
+[47043.723433] IR: [03932] scan key value is 0xec13c936 
+[47043.723437]  
+[47043.774592] IR: [03932] scan key value is 0xec13c936 
+[47043.774596]  I/Process ( 4618): Sending signal. PID: 4618 SIG: 9
+V/TabletStatusBar( 1148): setLightsOn(true)
+
+[47044.077690] binder: release proc 4618, transaction 809887, not freed
+I/ActivityManager(  941): Process com.coship.Multimedia (pid 4618) has died.
+W/ActivityManager(  941): Service crashed 2 times, stopping: ServiceRecord{418304e8 com.coship.Multimedia/.view.BackService}
+W/ActivityManager(  941): Force removing ActivityRecord{41642418 com.coship.Multimedia/.main}: app died, no saved state
+I/WindowManager(  941): WIN DEATH: Window{4173b4f8 com.coship.Multimedia/com.coship.Multimedia.main paused=false}
+W/InputManagerService(  941): Got RemoteException sending setActive(false) notification to pid 4618 uid 1000
+E/audio_hw_primary(  744): MAD out_write error!
+W/AudioFlinger(  744): write blocked for 10001 msecs, 1 delayed writes, thread 0x21330
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+D/dhcpcd  ( 2068): sending DHCP_DISCOVER with xid 0xd65ebe3, next in 64.90 seconds
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/dhcpcd  ( 2068): timed out
+D/dhcpcd  ( 2068): executing `/system/etc/dhcpcd/dhcpcd-run-hooks', reason FAIL
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+D/dhcpcd  ( 2068): broadcasting for a lease
+D/dhcpcd  ( 2068): sending DHCP_DISCOVER with xid 0xf29eb670, next in 3.32 seconds
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_prima[47060.671974] IR: [03932] scan key value is 0xed12c936 
+[47060.671979]  ry(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_h
+[47060.723480] IR: [03932] scan key value is 0xed12c936 
+[47060.723485]  w_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+D/dhcpcd  ( 2068): sending DHCP_DISCOVER with xid 0xf29eb670, next in 7.82 seconds
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+E/audio_hw_primary(  744): MAD out_write error!
+^Z[2] + Stopped              logcat 
+shell@android:/ $ 
+[47128.655782] IR: [03932] scan key value is 0xeb14c936 
+[47128.655786]  
+[47128.706708] IR: [03932] scan key value is 0xeb14c936 
+[47128.706713]  
+[47129.127151] IR: [03932] scan key value is 0xec13c936 
+[47129.127156]  
+[47129.178399] IR: [03932] scan key value is 0xec13c936 
+[47129.178404]  
+[47131.783234] IR: [03932] scan key value is 0xec13c936 
+[47131.783238]  
+[47179.702329] [irq_proc_open][373] -16
+[47185.573576] 
+[47185.573596] irq_proc_write
+[47221.713342] *********** [Normal_MIU0] is still reclaimalbe !! *************
+[47221.720381] *********** [Normal_MIU0] is still reclaimalbe !! *************
+[47221.727395] *********** [Normal_MIU0] is still reclaimalbe !! *************
+[47221.734407] *********** [Normal_MIU0] is still reclaimalbe !! *************
+[47221.741419] *********** [Normal_MIU0] is still reclaimalbe !! *************
+[47221.748429] *********** [Normal_MIU0] is still reclaimalbe !! *************
+[47221.755533] *********** [Normal_MIU0] is still reclaimalbe !! *************
+[47221.762555] *********** [Normal_MIU0] is still reclaimalbe !! *************
+[47221.769564] *********** [Normal_MIU0] is still reclaimalbe !! *************
+[47221.776569] *********** [Normal_MIU0] is still reclaimalbe !! *************
+[47221.783588] *********** [Normal_MIU0] is still reclaimalbe !! *************
+[47221.790603] *********** [Normal_MIU0] is still reclaimalbe !! *************
+[47221.797722] *********** [Normal_MIU0] is still reclaimalbe !! *************
+[47221.804748] *********** [Normal_MIU0] is still reclaimalbe !! *************
+[47221.811757] *********** [Normal_MIU0] is still reclaimalbe !! *************
+[47222.090140] *********** [Normal_MIU0] is still reclaimalbe !! *************
+[47222.097169] *********** [Normal_MIU0] is still reclaimalbe !! *************
+[47222.104176] *********** [Normal_MIU0] is still reclaimalbe !! *************
+[47222.111190] *********** [Normal_MIU0] is still reclaimalbe !! *************
+[47222.118195] *********** [Normal_MIU0] is still reclaimalbe !! *************
+[47222.125206] *********** [Normal_MIU0] is still reclaimalbe !! *************
+[47222.132319] *********** [Normal_MIU0] is still reclaimalbe !! *************
+[47222.139345] *********** [Normal_MIU0] is still reclaimalbe !! *************
+[47222.200368] *********** [Normal_MIU0] is still reclaimalbe !! *************
+[47222.207396] *********** [Normal_MIU0] is still reclaimalbe !! *************
+[47222.345657] *********** [Normal_MIU0] is still reclaimalbe !! *************
+[47222.352696] *********** [Normal_MIU0] is still reclaimalbe !! *************
+[47222.359705] *********** [Normal_MIU0] is still reclaimalbe !! *************
+[47222.366719] *********** [Normal_MIU0] is still reclaimalbe !! *************
+[47222.373724] *********** [Normal_MIU0] is still reclaimalbe !! *************
+[47222.380731] *********** [Normal_MIU0] is still reclaimalbe !! *************
+[47222.387850] *********** [Normal_MIU0] is still reclaimalbe !! *************
+[47222.394871] *********** [Normal_MIU0] is still reclaimalbe !! *************
+[47222.401879] *********** [Normal_MIU0] is still reclaimalbe !! *************
+[47222.408885] *********** [Normal_MIU0] is still reclaimalbe !! *************
+[47222.415887] *********** [Normal_MIU0] is still reclaimalbe !! *************
+[47222.422898] *********** [Normal_MIU0] is still reclaimalbe !! *************
+[47222.429967] *********** [Normal_MIU0] is still reclaimalbe !! *************
+[47222.436982] *********** [Normal_MIU0] is still reclaimalbe !! *************
+[47222.443992] *********** [Normal_MIU0] is still reclaimalbe !! *************
+[47275.051348] IR: [03932] scan key value is 0xec13c936 
+[47275.051352]  
+[47275.373279] binder: release proc 13011, transaction 816384, not freed
+[48041.399008] IR: [03932] scan key value is 0x2dd2bd02 
+[48041.399012]  
+[48041.405509] Coship Smart DVB IR Receiver: unknown key: key=0x2dd2bd02 down=1
+[48041.451256] IR: [03932] scan key value is 0x2dd2bd02 
+[48041.451260]  
+[48041.619673] Coship Smart DVB IR Receiver: unknown key: key=0x2dd2bd02 down=0
+[48048.453200] IR: [03932] scan key value is 0xed12c936 
+[48048.453205]  
+[48048.504667] IR: [03932] scan key value is 0xed12c936 
+[48048.504671]  
+[48048.910523] IR: [03932] scan key value is 0xea15c936 
+[48048.910528]  
+[48048.962281] IR: [03932] scan key value is 0xea15c936 
+[48048.962286]  
+[48049.250524] IR: [03932] scan key value is 0xea15c936 
+[48049.250530]  
+[48049.302297] IR: [03932] scan key value is 0xea15c936 
+[48049.302302]  
+[48049.599520] IR: [03932] scan key value is 0xea15c936 
+[48049.599525]  
+[48049.651255] IR: [03932] scan key value is 0xea15c936 
+[48049.651260]  
+[48049.876328] IR: [03932] scan key value is 0xea15c936 
+[48049.876333]  
+[48049.928044] IR: [03932] scan key value is 0xea15c936 
+[48049.928049]  
+[48050.272685] IR: [03932] scan key value is 0xed12c936 
+[48050.272690]  
+[48050.324143] IR: [03932] scan key value is 0xed12c936 
+[48050.324148]  
+[48050.555696] IR: [03932] scan key value is 0xed12c936 
+[48050.555701]  
+[48050.607165] IR: [03932] scan key value is 0xed12c936 
+[48050.607170]  
+[48051.153882] IR: [03932] scan key value is 0xed12c936 
+[48051.153888]  
+[48051.205391] IR: [03932] scan key value is 0xed12c936 
+[48051.205396]  
+[48051.888423] IR: [03932] scan key value is 0xee11c936 
+[48051.888428]  
+[48052.319535] IR: [03932] scan key value is 0xee11c936 
+[48052.319540]  
+[48052.370991] IR: [03932] scan key value is 0xee11c936 
+[48052.370996]  
+[48052.853066] IR: [03932] scan key value is 0xeb14c936 
+[48052.853072]  
+[48052.903971] IR: [03932] scan key value is 0xeb14c936 
+[48052.903975]  
+[48053.433156] IR: [03932] scan key value is 0xed12c936 
+[48053.433161]  
+[48053.484646] IR: [03932] scan key value is 0xed12c936 
+[48053.484651]  
+[48053.741647] IR: [03932] scan key value is 0xed12c936 
+[48053.741653]  
+[48053.793129] IR: [03932] scan key value is 0xed12c936 
+[48053.793134]  
+[48054.024935] IR: [03932] scan key value is 0xed12c936 
+[48054.024939]  
+[48054.076391] IR: [03932] scan key value is 0xed12c936 
+[48054.076396]  
+[48054.894421] IR: [03932] scan key value is 0xeb14c936 
+[48054.894426]  
+[48054.945316] IR: [03932] scan key value is 0xeb14c936 
+[48054.945321]  
+[48055.157984] IR: [03932] scan key value is 0xeb14c936 
+[48055.157989]  
+[48055.208917] IR: [03932] scan key value is 0xeb14c936 
+[48055.208922]  
+[48055.393013] IR: [03932] scan key value is 0xeb14c936 
+[48055.393017]  
+[48055.443941] IR: [03932] scan key value is 0xeb14c936 
+[48055.443946]  
+[48055.598960] IR: [03932] scan key value is 0xeb14c936 

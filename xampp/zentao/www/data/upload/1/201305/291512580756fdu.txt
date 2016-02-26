@@ -1,0 +1,30 @@
+Starting kernel ...
+
+02.037 Uncompressing Linux...
+02.250  done, booting the kernel.
+[    2.439256] CPU1: Unknown IPI message 0x1
+
+[    2.771804] specify port
+
+[    2.776523] /home/zhuangjunfeng/ysten_branch/code/BDP_Linux/linux-3.0/drivers/rtc/hctosys.c: unable to open rtc device (rtc0)
+
+[    2.789396] init: /init.rc: 257: invalid command 'mknod'
+
+[    2.850954] init: cannot open '/initlogo.rle'
+
+[    2.935649] EXT4-fs (mmcblk0p23): VFS: Can't find ext4 filesystem
+
+[    3.970819] init: Unable to open persistent property directory /data/property errno: 2
+
+[    4.272871] init: cannot find '/system/bin/a2dpuploadserver', disabling 'a2dpupload'
+
+shell@android:/ $ [   14.657328] init: untracked pid 87 exited
+[   14.661263] init: untracked pid 92 exited
+[   16.654801] init: untracked pid 162 exited
+[   16.656106] init: untracked pid 161 exited
+[   21.565556] init: untracked pid 184 exited
+[   21.567605] init: untracked pid 183 exited
+[   26.463746] init: untracked pid 209 exited
+[   26.464642] init: untracked pid 207 exited
+[   31.355721] init: untracked pid 233 exited
+[   31.357576] init: untracked pid 232 exited

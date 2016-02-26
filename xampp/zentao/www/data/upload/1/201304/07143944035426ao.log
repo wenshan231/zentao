@@ -1,0 +1,1983 @@
+
+130|shell@android:/ $ logcat                                                   
+--------- beginning of /dev/log/system
+V/EthernetMonitor(  989): get event 
+V/EthernetMonitor(  989): go poll events
+V/EthernetMonitor(  989): get event 
+V/EthernetMonitor(  989): go poll events
+V/EthernetMonitor(  989): get event 
+V/EthernetMonitor(  989): go poll events
+V/EthernetMonitor(  989): get event 
+V/EthernetMonitor(  989): go poll events
+W/ThrottleService(  989): unable to find stats for iface rmnet0
+V/EthernetMonitor(  989): get event 
+V/EthernetMonitor(  989): go poll events
+V/EthernetMonitor(  989): get event 
+V/EthernetMonitor(  989): go poll events
+V/TabletStatusBar( 1196): setLightsOn(true)
+E/ActivityThread( 1843): Activity com.coship.dvbsetting.systemsetting.SyssetAcivity has leaked ServiceConnection com.coship.dvbsetting.systemsetting.childview.NetUpdate$2@41655e28 that was originally bound here
+E/ActivityThread( 1843): android.app.ServiceConnectionLeaked: Activity com.coship.dvbsetting.systemsetting.SyssetAcivity has leaked ServiceConnection com.coship.dvbsetting.systemsetting.childview.NetUpdate$2@41655e28 that was originally bound here
+E/ActivityThread( 1843):        at android.app.LoadedApk$ServiceDispatcher.<init>(LoadedApk.java:936)
+E/ActivityThread( 1843):        at android.app.LoadedApk.getServiceDispatcher(LoadedApk.java:830)
+E/ActivityThread( 1843):        at android.app.ContextImpl.bindService(ContextImpl.java:1142)
+E/ActivityThread( 1843):        at android.content.ContextWrapper.bindService(ContextWrapper.java:370)
+E/ActivityThread( 1843):        at com.coship.dvbsetting.systemsetting.childview.NetUpdate.remoteAIDL(NetUpdate.java:345)
+E/ActivityThread( 1843):        at com.coship.dvbsetting.systemsetting.childview.NetUpdate.show(NetUpdate.java:504)
+E/ActivityThread( 1843):        at com.coship.dvbsetting.ExpanItem.clickandselect(ExpanItem.java:199)
+E/ActivityThread( 1843):        at com.coship.dvbsetting.ExpanItem.access$000(ExpanItem.java:33)
+E/ActivityThread( 1843):        at com.coship.dvbsetting.ExpanItem$onitemselect.onItemSelected(ExpanItem.java:151)
+E/ActivityThread( 1843):        at android.widget.AdapterView.fireOnSelected(AdapterView.java:882)
+E/ActivityThread( 1843):        at android.widget.AdapterView.access$200(AdapterView.java:48)
+E/ActivityThread( 1843):        at android.widget.AdapterView$SelectionNotifier.run(AdapterView.java:848)
+E/ActivityThread( 1843):        at android.os.Handler.handleCallback(Handler.java:605)
+E/ActivityThread( 1843):        at android.os.Handler.dispatchMessage(Handler.java:92)
+E/ActivityThread( 1843):        at android.os.Looper.loop(Looper.java:137)
+E/ActivityThread( 1843):        at android.app.ActivityThread.main(ActivityThread.java:4424)
+E/ActivityThread( 1843):        at java.lang.reflect.Method.invokeNative(Native Method)
+E/ActivityThread( 1843):        at java.lang.reflect.Method.invoke(Method.java:511)
+E/ActivityThread( 1843):        at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:848)
+E/ActivityThread( 1843):        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:575)
+E/ActivityThread( 1843):        at dalvik.system.NativeStart.main(Native Method)
+W/ActivityManager(  989): Unbind failed: could not find connection for android.os.BinderProxy@415e5040
+V/TabletStatusBar( 1196): setLightsOn(true)
+W/InputManagerService(  989): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@41741038 (uid=1000 pid=1843)
+I/ActivityManager(  989): START {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 pkg=com.coship.dvbsetting cmp=com.coship.dvbsetting/.main} from pid 1331
+V/TabletStatusBar( 1196): setLightsOn(true)
+W/InputManagerService(  989): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@415da440 (uid=10034 pid=1331)
+I/ActivityManager(  989): START {cmp=com.coship.dvbsetting/.systemsetting.SyssetAcivity} from pid 1843
+I/EthernetManager( 1843): Init Ethernet Manager, service: android.net.ethernet.IEthernetManager$Stub$Proxy@41820ba8
+V/TabletStatusBar( 1196): setLightsOn(true)
+V/EthernetMonitor(  989): get event 
+V/EthernetMonitor(  989): go poll events
+V/EthernetMonitor(  989): get event 
+V/EthernetMonitor(  989): go poll events
+I/ActivityManager(  989): No longer want com.mstar.dbprovider (pid 1179): hidden #16
+I/ActivityManager(  989): No longer want com.coship.changetheaudiooutput (pid 1583): hidden #16
+I/ActivityManager(  989): No longer want com.aidufei.movieonline (pid 1552): hidden #17
+I/ActivityManager(  989): No longer want com.android.settings (pid 1539): hidden #18
+I/ActivityManager(  989): No longer want android.process.acore (pid 1455): hidden #19
+I/ActivityManager(  989): No longer want com.coship.cw880 (pid 1500): hidden #20
+I/ActivityManager(  989): No longer want com.android.contacts (pid 1389): hidden #21
+W/ActivityManager(  989): Scheduling restart of crashed service com.coship.cw880/.MonitorCw880 in 5000ms
+W/ActivityManager(  989): Scheduling restart of crashed service com.coship.changetheaudiooutput/.AudioOutputServer in 14998ms
+W/ActivityManager(  989): Scheduling restart of crashed service com.aidufei.movieonline/com.aidufei.otoService.OtOService in 24988ms
+I/ActivityManager(  989): Start proc com.coship.cw880 for service com.coship.cw880/.MonitorCw880: pid=2180 uid=1000 gids={3003, 1015, 3002, 3001, 3004}
+I/ActivityManager(  989): Start proc com.coship.changetheaudiooutput for service com.coship.changetheaudiooutput/.AudioOutputServer: pid=2195 uid=10031 gids={3002, 3001, 3004}
+I/ActivityManager(  989): Start proc com.aidufei.movieonline for service com.aidufei.movieonline/com.aidufei.otoService.OtOService: pid=2208 uid=1000 gids={3003, 1015, 3002, 3001, 3004}
+W/ThrottleService(  989): unable to find stats for iface rmnet0
+V/TabletStatusBar( 1196): setLightsOn(true)
+I/ActivityManager(  989): START {cmp=com.coship.dvbsetting/.systemsetting.SyssetAcivity} from pid 1843
+I/EthernetManager( 1843): Init Ethernet Manager, service: android.net.ethernet.IEthernetManager$Stub$Proxy@42d38c68
+V/TabletStatusBar( 1196): setLightsOn(true)
+V/TabletStatusBar( 1196): setLightsOn(true)
+V/TabletStatusBar( 1196): setLightsOn(true)
+W/InputManagerService(  989): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@41741038 (uid=1000 pid=1843)
+I/ActivityManager(  989): No longer want com.coship.Multimedia (pid 1612): hidden #16
+W/ActivityManager(  989): Scheduling restart of crashed service com.coship.Multimedia/.view.BackService in 5000ms
+I/ActivityManager(  989): START {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 pkg=com.coship.dvbsetting cmp=com.coship.dvbsetting/.main} from pid 1331
+V/TabletStatusBar( 1196): setLightsOn(true)
+W/InputManagerService(  989): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@415da440 (uid=10034 pid=1331)
+I/ActivityManager(  989): Start proc com.coship.Multimedia for service com.coship.Multimedia/.view.BackService: pid=2256 uid=1000 gids={3003, 1015, 3002, 3001, 3004}
+V/TabletStatusBar( 1196): setLightsOn(true)
+W/InputManagerService(  989): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@41741038 (uid=1000 pid=1843)
+I/ActivityManager(  989): START {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 pkg=com.coship.dvbsetting cmp=com.coship.dvbsetting/.main} from pid 1331
+V/TabletStatusBar( 1196): setLightsOn(true)
+W/InputManagerService(  989): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@415da440 (uid=10034 pid=1331)
+V/EthernetMonitor(  989): get event 
+V/EthernetMonitor(  989): go poll events
+V/EthernetMonitor(  989): get event 
+V/EthernetMonitor(  989): go poll events
+I/ActivityManager(  989): START {cmp=com.coship.dvbsetting/.systemsetting.SyssetAcivity} from pid 1843
+I/EthernetManager( 1843): Init Ethernet Manager, service: android.net.ethernet.IEthernetManager$Stub$Proxy@42ccba08
+V/TabletStatusBar( 1196): setLightsOn(true)
+V/TabletStatusBar( 1196): setLightsOn(true)
+I/ActivityManager(  989): START {cmp=com.coship.dvbsetting/.netsetting.netSet} from pid 1843
+I/EthernetManager( 1843): Init Ethernet Manager, service: android.net.ethernet.IEthernetManager$Stub$Proxy@42ce79c8
+V/TabletStatusBar( 1196): setLightsOn(true)
+I/ActivityManager(  989): START {cmp=com.coship.dvbsetting/.netsetting.dialog.WifiPWDialog (has extras)} from pid 1843
+V/TabletStatusBar( 1196): setLightsOn(true)
+V/EthernetMonitor(  989): get event 
+V/EthernetMonitor(  989): go poll events
+V/EthernetMonitor(  989): get event 
+V/EthernetMonitor(  989): go poll events
+V/EthernetMonitor(  989): get event 
+V/EthernetMonitor(  989): go poll events
+V/EthernetMonitor(  989): get event 
+V/EthernetMonitor(  989): go poll events
+V/EthernetMonitor(  989): get event 
+V/EthernetMonitor(  989): go poll events
+V/EthernetMonitor(  989): get event 
+V/EthernetMonitor(  989): go poll events
+V/EthernetMonitor(  989): get event 
+V/EthernetMonitor(  989): go poll events
+V/EthernetMonitor(  989): get event 
+V/EthernetMonitor(  989): go poll events
+V/TabletStatusBar( 1196): setLightsOn(true)
+V/EthernetMonitor(  989): get event 
+V/EthernetMonitor(  989): go poll events
+V/EthernetMonitor(  989): get event 
+V/EthernetMonitor(  989): go poll events
+V/EthernetMonitor(  989): get event 
+V/EthernetMonitor(  989): go poll events
+V/EthernetMonitor(  989): get event 
+V/EthernetMonitor(  989): go poll events
+V/EthernetMonitor(  989): get event 
+V/EthernetMonitor(  989): go poll events
+V/EthernetMonitor(  989): get event 
+V/EthernetMonitor(  989): go poll events
+V/EthernetMonitor(  989): get event 
+V/EthernetMonitor(  989): go poll events
+V/EthernetMonitor(  989): get event 
+V/EthernetMonitor(  989): go poll events
+V/EthernetMonitor(  989): get event 
+V/EthernetMonitor(  989): go poll events
+V/EthernetMonitor(  989): get event 
+V/EthernetMonitor(  989): go poll events
+V/EthernetMonitor(  989): get event 
+V/EthernetMonitor(  989): go poll events
+V/EthernetMonitor(  989): get event 
+V/EthernetMonitor(  989): go poll events
+V/EthernetMonitor(  989): get event 
+V/EthernetMonitor(  989): go poll events
+V/EthernetMonitor(  989): get event 
+V/EthernetMonitor(  989): go poll events
+V/EthernetMonitor(  989): get event 
+V/EthernetMonitor(  989): go poll events
+V/EthernetMonitor(  989): get event 
+V/EthernetMonitor(  989): go poll events
+V/EthernetMonitor(  989): get event 
+V/EthernetMonitor(  989): go poll events
+V/EthernetMonitor(  989): get event 
+V/EthernetMonitor(  989): go poll events
+I/ActivityManager(  989): START {cmp=com.coship.dvbsetting/.netsetting.dialog.WifiPWDErrorDialog} from pid 1843
+V/TabletStatusBar( 1196): setLightsOn(true)
+V/TabletStatusBar( 1196): setLightsOn(true)
+V/EthernetMonitor(  989): get event 
+V/EthernetMonitor(  989): go poll events
+V/EthernetMonitor(  989): get event 
+V/EthernetMonitor(  989): go poll events
+D/ConnectivityService(  989): ConnectivityChange for WIFI: DISCONNECTED/DISCONNECTED
+E/MobileDataStateTracker(  989): default: Ignoring feature request because could not acquire PhoneService
+E/MobileDataStateTracker(  989): default: Could not enable APN type "default"
+D/ConnectivityService(  989): Attempting to switch to mobile
+I/EthernetStateTracker(  989): reset device eth0
+I/ActivityManager(  989): Start proc com.android.settings for broadcast com.android.settings/.net.GolableWifiChangeReceiver: pid=2334 uid=1000 gids={3003, 1015, 3002, 3001, 3004}
+I/EthernetStateTracker(  989): trigger dhcp for device eth0
+D/ConnectivityService(  989): Attempting to switch to ETH
+D/EthernetStateTracker(  989): DhcpHandler: DHCP request started
+D/ConnectivityService(  989): Attempting to switch to pppoe
+D/ConnectivityService(  989): ConnectivityChange for WIFI: DISCONNECTED/DISCONNECTED
+E/MobileDataStateTracker(  989): default: Ignoring feature request because could not acquire PhoneService
+E/MobileDataStateTracker(  989): default: Could not enable APN type "default"
+D/ConnectivityService(  989): Attempting to switch to mobile
+I/EthernetStateTracker(  989): reset device eth0
+I/EthernetStateTracker(  989): trigger dhcp for device eth0
+D/ConnectivityService(  989): Attempting to switch to ETH
+D/ConnectivityService(  989): Attempting to switch to pppoe
+V/EthernetMonitor(  989): get event 
+V/EthernetMonitor(  989): go poll events
+I/ActivityManager(  989): Start proc com.biaoqi.stbwidget.host for broadcast com.biaoqi.stbwidget.host/.NetworkStatusChangeReceiver: pid=2352 uid=10026 gids={3003}
+I/ActivityManager(  989): No longer want com.coship.TestApp (pid 1670): hidden #16
+I/ActivityManager(  989): Start proc cn.tvbox for broadcast cn.tvbox/.receiver.NetworkConnectivityReceiver: pid=2369 uid=10035 gids={1015, 3003}
+D/ConnectivityService(  989): handleInetConditionChange: no active default network - ignore
+I/ActivityManager(  989): No longer want com.coship.startwizard (pid 1691): hidden #16
+E/EthernetStateTracker(  989): DhcpHandler: DHCP request failed: Timed out waiting for dhcpcd to start
+D/EthernetStateTracker(  989): DhcpHandler: DHCP request started
+V/EthernetStateTracker(  989): configureInterfaceAutoIP skip!
+V/TabletStatusBar( 1196): setLightsOn(true)
+E/ActivityThread( 1843): Activity com.coship.dvbsetting.netsetting.netSet has leaked ServiceConnection android.bluetooth.BluetoothHeadset$1@42df3920 that was originally bound here
+E/ActivityThread( 1843): android.app.ServiceConnectionLeaked: Activity com.coship.dvbsetting.netsetting.netSet has leaked ServiceConnection android.bluetooth.BluetoothHeadset$1@42df3920 that was originally bound here
+E/ActivityThread( 1843):        at android.app.LoadedApk$ServiceDispatcher.<init>(LoadedApk.java:936)
+E/ActivityThread( 1843):        at android.app.LoadedApk.getServiceDispatcher(LoadedApk.java:830)
+E/ActivityThread( 1843):        at android.app.ContextImpl.bindService(ContextImpl.java:1142)
+E/ActivityThread( 1843):        at android.content.ContextWrapper.bindService(ContextWrapper.java:370)
+E/ActivityThread( 1843):        at android.bluetooth.BluetoothHeadset.<init>(BluetoothHeadset.java:231)
+E/ActivityThread( 1843):        at android.bluetooth.BluetoothAdapter.getProfileProxy(BluetoothAdapter.java:1168)
+E/ActivityThread( 1843):        at com.coship.dvbsetting.bluetooth.HeadsetProfile.<init>(HeadsetProfile.java:111)
+E/ActivityThread( 1843):        at com.coship.dvbsetting.netsetting.BluetoothSet.init(BluetoothSet.java:160)
+E/ActivityThread( 1843):        at com.coship.dvbsetting.netsetting.BluetoothSet.<init>(BluetoothSet.java:131)
+E/ActivityThread( 1843):        at com.coship.dvbsetting.netsetting.BluetoothSet.getInstance(BluetoothSet.java:110)
+E/ActivityThread( 1843):        at com.coship.dvbsetting.netsetting.netSet.onCreate(netSet.java:81)
+E/ActivityThread( 1843):        at android.app.Activity.performCreate(Activity.java:4465)
+E/ActivityThread( 1843):        at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1049)
+E/ActivityThread( 1843):        at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:1920)
+E/ActivityThread( 1843):        at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:1981)
+E/ActivityThread( 1843):        at android.app.ActivityThread.access$600(ActivityThread.java:123)
+E/ActivityThread( 1843):        at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1147)
+E/ActivityThread( 1843):        at android.os.Handler.dispatchMessage(Handler.java:99)
+E/ActivityThread( 1843):        at android.os.Looper.loop(Looper.java:137)
+E/ActivityThread( 1843):        at android.app.ActivityThread.main(ActivityThread.java:4424)
+E/ActivityThread( 1843):        at java.lang.reflect.Method.invokeNative(Native Method)
+E/ActivityThread( 1843):        at java.lang.reflect.Method.invoke(Method.java:511)
+E/ActivityThread( 1843):        at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:848)
+E/ActivityThread( 1843):        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:575)
+E/ActivityThread( 1843):        at dalvik.system.NativeStart.main(Native Method)
+W/ActivityManager(  989): Unbind failed: could not find connection for android.os.BinderProxy@416f43b0
+V/TabletStatusBar( 1196): setLightsOn(true)
+W/InputManagerService(  989): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@41741038 (uid=1000 pid=1843)
+I/ActivityManager(  989): No longer want com.coship.stpservice (pid 1712): hidden #16
+W/ActivityManager(  989): Scheduling restart of crashed service com.coship.stpservice/.StpService in 5000ms
+I/ActivityManager(  989): START {act=android.intent.action.MAIN flg=0x10200000 cmp=com.aidufei.movieonline/.MainCatalogActivity} from pid 1331
+W/ActivityManager(  989): Activity is launching as a new task, so cancelling activity result.
+W/InputManagerService(  989): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@415da440 (uid=10034 pid=1331)
+I/ActivityManager(  989): Start proc com.coship.stpservice for service com.coship.stpservice/.StpService: pid=2424 uid=1000 gids={3003, 1015, 3002, 3001, 3004}
+V/CheckBackdoors( 2424): add new backdoor. actionName=com.coship.adjustthevolume, backdoor.mBackdoorKey=0x5252525252
+V/CheckBackdoors( 2424): add new backdoor. actionName=com.coship.adjustthevolume.Volup, backdoor.mBackdoorKey=0x18
+V/CheckBackdoors( 2424): add new backdoor. actionName=com.coship.adjustthevolume.VolDown, backdoor.mBackdoorKey=0x19
+V/TabletStatusBar( 1196): setLightsOn(true)
+W/InputManagerService(  989): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@41606420 (uid=1000 pid=2208)
+I/ActivityManager(  989): START {act=android.intent.action.MAIN flg=0x10200000 cmp=com.aidufei.movieonline/.MainCatalogActivity} from pid 1331
+W/ActivityManager(  989): Activity is launching as a new task, so cancelling activity result.
+W/InputManagerService(  989): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@415da440 (uid=10034 pid=1331)
+V/TabletStatusBar( 1196): setLightsOn(true)
+W/InputManagerService(  989): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@41606420 (uid=1000 pid=2208)
+E/EthernetStateTracker(  989): DhcpHandler: DHCP request failed: Timed out waiting for DHCP to finish
+V/EthernetStateTracker(  989): configureInterfaceAutoIP skip!
+I/ActivityManager(  989): START {act=android.intent.action.MAIN flg=0x10200000 cmp=com.coship.NetworkNavigation/.browser.BrowserActivity} from pid 1331
+W/ActivityManager(  989): Activity is launching as a new task, so cancelling activity result.
+I/ActivityManager(  989): Start proc com.coship.NetworkNavigation for activity com.coship.NetworkNavigation/.browser.BrowserActivity: pid=2456 uid=1000 gids={3003, 1015, 3002, 3001, 3004}
+W/InputManagerService(  989): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@415da440 (uid=10034 pid=1331)
+V/TabletStatusBar( 1196): setLightsOn(true)
+W/InputManagerService(  989): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@416ac868 (uid=1000 pid=2456)
+I/ActivityManager(  989): No longer want com.iflytek.vac (pid 1566): hidden #16
+W/ActivityManager(  989): Scheduling restart of crashed service com.iflytek.vaf/com.iflytek.vocmd.Context in 5000ms
+W/ActivityManager(  989): Scheduling restart of crashed service com.iflytek.vaf/com.iflytek.vac.Manager in 15000ms
+W/ActivityManager(  989): Scheduling restart of crashed service com.iflytek.vaf/com.iflytek.vocmd.StartService in 25000ms
+E/ActivityThread( 1598): Service com.iflytek.vaf.svc.VAFSvc has leaked IntentReceiver com.iflytek.vaf.svc.RemoteClientMonitor$5@417ad360 that was originally registered here. Are you missing a call to unregisterReceiver()?
+E/ActivityThread( 1598): android.app.IntentReceiverLeaked: Service com.iflytek.vaf.svc.VAFSvc has leaked IntentReceiver com.iflytek.vaf.svc.RemoteClientMonitor$5@417ad360 that was originally registered here. Are you missing a call to unregisterReceiver()?
+E/ActivityThread( 1598):        at android.app.LoadedApk$ReceiverDispatcher.<init>(LoadedApk.java:763)
+E/ActivityThread( 1598):        at android.app.LoadedApk.getReceiverDispatcher(LoadedApk.java:567)
+E/ActivityThread( 1598):        at android.app.ContextImpl.registerReceiverInternal(ContextImpl.java:1068)
+E/ActivityThread( 1598):        at android.app.ContextImpl.registerReceiver(ContextImpl.java:1055)
+E/ActivityThread( 1598):        at android.app.ContextImpl.registerReceiver(ContextImpl.java:1049)
+E/ActivityThread( 1598):        at android.content.ContextWrapper.registerReceiver(ContextWrapper.java:341)
+E/ActivityThread( 1598):        at com.iflytek.vaf.svc.RemoteClientMonitor.<init>(RemoteClientMonitor.java:270)
+E/ActivityThread( 1598):        at com.iflytek.vaf.svc.VAFSvc$VafSvcImp.<init>(VAFSvc.java:268)
+E/ActivityThread( 1598):        at com.iflytek.vaf.svc.VAFSvc.onCreate(VAFSvc.java:795)
+E/ActivityThread( 1598):        at android.app.ActivityThread.handleCreateService(ActivityThread.java:2253)
+E/ActivityThread( 1598):        at android.app.ActivityThread.access$1600(ActivityThread.java:123)
+E/ActivityThread( 1598):        at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1201)
+E/ActivityThread( 1598):        at android.os.Handler.dispatchMessage(Handler.java:99)
+E/ActivityThread( 1598):        at android.os.Looper.loop(Looper.java:137)
+E/ActivityThread( 1598):        at android.app.ActivityThread.main(ActivityThread.java:4424)
+E/ActivityThread( 1598):        at java.lang.reflect.Method.invokeNative(Native Method)
+E/ActivityThread( 1598):        at java.lang.reflect.Method.invoke(Method.java:511)
+E/ActivityThread( 1598):        at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:848)
+E/ActivityThread( 1598):        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:575)
+E/ActivityThread( 1598):        at dalvik.system.NativeStart.main(Native Method)
+E/ActivityThread( 1598): Service com.iflytek.vaf.svc.VAFSvc has leaked IntentReceiver com.iflytek.vaf.svc.CheckNetWork$1@416ed598 that was originally registered here. Are you missing a call to unregisterReceiver()?
+E/ActivityThread( 1598): android.app.IntentReceiverLeaked: Service com.iflytek.vaf.svc.VAFSvc has leaked IntentReceiver com.iflytek.vaf.svc.CheckNetWork$1@416ed598 that was originally registered here. Are you missing a call to unregisterReceiver()?
+E/ActivityThread( 1598):        at android.app.LoadedApk$ReceiverDispatcher.<init>(LoadedApk.java:763)
+E/ActivityThread( 1598):        at android.app.LoadedApk.getReceiverDispatcher(LoadedApk.java:567)
+E/ActivityThread( 1598):        at android.app.ContextImpl.registerReceiverInternal(ContextImpl.java:1068)
+E/ActivityThread( 1598):        at android.app.ContextImpl.registerReceiver(ContextImpl.java:1055)
+E/ActivityThread( 1598):        at android.app.ContextImpl.registerReceiver(ContextImpl.java:1049)
+E/ActivityThread( 1598):        at android.content.ContextWrapper.registerReceiver(ContextWrapper.java:341)
+E/ActivityThread( 1598):        at com.iflytek.vaf.svc.CheckNetWork.init(CheckNetWork.java:130)
+E/ActivityThread( 1598):        at com.iflytek.vaf.svc.Talker.<init>(Talker.java:319)
+E/ActivityThread( 1598):        at com.iflytek.vaf.svc.VAFSvc$VafSvcImp.<init>(VAFSvc.java:267)
+E/ActivityThread( 1598):        at com.iflytek.vaf.svc.VAFSvc.onCreate(VAFSvc.java:795)
+E/ActivityThread( 1598):        at android.app.ActivityThread.handleCreateService(ActivityThread.java:2253)
+E/ActivityThread( 1598):        at android.app.ActivityThread.access$1600(ActivityThread.java:123)
+E/ActivityThread( 1598):        at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1201)
+E/ActivityThread( 1598):        at android.os.Handler.dispatchMessage(Handler.java:99)
+E/ActivityThread( 1598):        at android.os.Looper.loop(Looper.java:137)
+E/ActivityThread( 1598):        at android.app.ActivityThread.main(ActivityThread.java:4424)
+E/ActivityThread( 1598):        at java.lang.reflect.Method.invokeNative(Native Method)
+E/ActivityThread( 1598):        at java.lang.reflect.Method.invoke(Method.java:511)
+E/ActivityThread( 1598):        at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:848)
+E/ActivityThread( 1598):        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:575)
+E/ActivityThread( 1598):        at dalvik.system.NativeStart.main(Native Method)
+E/ActivityThread( 1598): Service com.iflytek.vaf.svc.VAFSvc has leaked ServiceConnection com.iflytek.xiri.recorder.impl.RemotePcmRecorder$2$1@414e9980 that was originally bound here
+E/ActivityThread( 1598): android.app.ServiceConnectionLeaked: Service com.iflytek.vaf.svc.VAFSvc has leaked ServiceConnection com.iflytek.xiri.recorder.impl.RemotePcmRecorder$2$1@414e9980 that was originally bound here
+E/ActivityThread( 1598):        at android.app.LoadedApk$ServiceDispatcher.<init>(LoadedApk.java:936)
+E/ActivityThread( 1598):        at android.app.LoadedApk.getServiceDispatcher(LoadedApk.java:830)
+E/ActivityThread( 1598):        at android.app.ContextImpl.bindService(ContextImpl.java:1142)
+E/ActivityThread( 1598):        at android.content.ContextWrapper.bindService(ContextWrapper.java:370)
+E/ActivityThread( 1598):        at com.iflytek.xiri.recorder.impl.RemotePcmRecorder$2.run(RemotePcmRecorder.java:206)
+E/ActivityThread( 1598):        at com.iflytek.xiri.recorder.impl.RemotePcmRecorder.<init>(RemotePcmRecorder.java:213)
+E/ActivityThread( 1598):        at com.iflytek.xiri.recorder.impl.RemotePcmRecorder.getPcmRecorder(RemotePcmRecorder.java:139)
+E/ActivityThread( 1598):        at com.iflytek.vaf.svc.Talker.<init>(Talker.java:327)
+E/ActivityThread( 1598):        at com.iflytek.vaf.svc.VAFSvc$VafSvcImp.<init>(VAFSvc.java:267)
+E/ActivityThread( 1598):        at com.iflytek.vaf.svc.VAFSvc.onCreate(VAFSvc.java:795)
+E/ActivityThread( 1598):        at android.app.ActivityThread.handleCreateService(ActivityThread.java:2253)
+E/ActivityThread( 1598):        at android.app.ActivityThread.access$1600(ActivityThread.java:123)
+E/ActivityThread( 1598):        at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1201)
+E/ActivityThread( 1598):        at android.os.Handler.dispatchMessage(Handler.java:99)
+E/ActivityThread( 1598):        at android.os.Looper.loop(Looper.java:137)
+E/ActivityThread( 1598):        at android.app.ActivityThread.main(ActivityThread.java:4424)
+E/ActivityThread( 1598):        at java.lang.reflect.Method.invokeNative(Native Method)
+E/ActivityThread( 1598):        at java.lang.reflect.Method.invoke(Method.java:511)
+E/ActivityThread( 1598):        at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:848)
+E/ActivityThread( 1598):        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:575)
+E/ActivityThread( 1598):        at dalvik.system.NativeStart.main(Native Method)
+E/ActivityThread( 1598): Service com.iflytek.vaf.svc.VAFSvc has leaked ServiceConnection com.iflytek.business.speech.SpeechServiceUtil$2@413ac908 that was originally bound here
+E/ActivityThread( 1598): android.app.ServiceConnectionLeaked: Service com.iflytek.vaf.svc.VAFSvc has leaked ServiceConnection com.iflytek.business.speech.SpeechServiceUtil$2@413ac908 that was originally bound here
+E/ActivityThread( 1598):        at android.app.LoadedApk$ServiceDispatcher.<init>(LoadedApk.java:936)
+E/ActivityThread( 1598):        at android.app.LoadedApk.getServiceDispatcher(LoadedApk.java:830)
+E/ActivityThread( 1598):        at android.app.ContextImpl.bindService(ContextImpl.java:1142)
+E/ActivityThread( 1598):        at android.content.ContextWrapper.bindService(ContextWrapper.java:370)
+E/ActivityThread( 1598):        at com.iflytek.business.speech.SpeechServiceUtil.startSpeechService(SpeechServiceUtil.java:316)
+E/ActivityThread( 1598):        at com.iflytek.business.speech.SpeechServiceUtil.<init>(SpeechServiceUtil.java:77)
+E/ActivityThread( 1598):        at com.iflytek.tts.TextToSpeech.<init>(TextToSpeech.java:183)
+E/ActivityThread( 1598):        at com.iflytek.vaf.svc.Speaker.<init>(Speaker.java:326)
+E/ActivityThread( 1598):        at com.iflytek.vaf.svc.Speaker.getSpeaker(Speaker.java:313)
+E/ActivityThread( 1598):        at com.iflytek.vaf.svc.Talker.<init>(Talker.java:349)
+E/ActivityThread( 1598):        at com.iflytek.vaf.svc.VAFSvc$VafSvcImp.<init>(VAFSvc.java:267)
+E/ActivityThread( 1598):        at com.iflytek.vaf.svc.VAFSvc.onCreate(VAFSvc.java:795)
+E/ActivityThread( 1598):        at android.app.ActivityThread.handleCreateService(ActivityThread.java:2253)
+E/ActivityThread( 1598):        at android.app.ActivityThread.access$1600(ActivityThread.java:123)
+E/ActivityThread( 1598):        at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1201)
+E/ActivityThread( 1598):        at android.os.Handler.dispatchMessage(Handler.java:99)
+E/ActivityThread( 1598):        at android.os.Looper.loop(Looper.java:137)
+E/ActivityThread( 1598):        at android.app.ActivityThread.main(ActivityThread.java:4424)
+E/ActivityThread( 1598):        at java.lang.reflect.Method.invokeNative(Native Method)
+E/ActivityThread( 1598):        at java.lang.reflect.Method.invoke(Method.java:511)
+E/ActivityThread( 1598):        at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:848)
+E/ActivityThread( 1598):        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:575)
+E/ActivityThread( 1598):        at dalvik.system.NativeStart.main(Native Method)
+E/ActivityThread( 1598): Service com.iflytek.vaf.svc.VAFSvc has leaked ServiceConnection com.iflytek.vaf.svc.Talker$3@414f6f20 that was originally bound here
+E/ActivityThread( 1598): android.app.ServiceConnectionLeaked: Service com.iflytek.vaf.svc.VAFSvc has leaked ServiceConnection com.iflytek.vaf.svc.Talker$3@414f6f20 that was originally bound here
+E/ActivityThread( 1598):        at android.app.LoadedApk$ServiceDispatcher.<init>(LoadedApk.java:936)
+E/ActivityThread( 1598):        at android.app.LoadedApk.getServiceDispatcher(LoadedApk.java:830)
+E/ActivityThread( 1598):        at android.app.ContextImpl.bindService(ContextImpl.java:1142)
+E/ActivityThread( 1598):        at android.content.ContextWrapper.bindService(ContextWrapper.java:370)
+E/ActivityThread( 1598):        at com.iflytek.vaf.svc.Talker.<init>(Talker.java:320)
+E/ActivityThread( 1598):        at com.iflytek.vaf.svc.VAFSvc$VafSvcImp.<init>(VAFSvc.java:267)
+E/ActivityThread( 1598):        at com.iflytek.vaf.svc.VAFSvc.onCreate(VAFSvc.java:795)
+E/ActivityThread( 1598):        at android.app.ActivityThread.handleCreateService(ActivityThread.java:2253)
+E/ActivityThread( 1598):        at android.app.ActivityThread.access$1600(ActivityThread.java:123)
+E/ActivityThread( 1598):        at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1201)
+E/ActivityThread( 1598):        at android.os.Handler.dispatchMessage(Handler.java:99)
+E/ActivityThread( 1598):        at android.os.Looper.loop(Looper.java:137)
+E/ActivityThread( 1598):        at android.app.ActivityThread.main(ActivityThread.java:4424)
+E/ActivityThread( 1598):        at java.lang.reflect.Method.invokeNative(Native Method)
+E/ActivityThread( 1598):        at java.lang.reflect.Method.invoke(Method.java:511)
+E/ActivityThread( 1598):        at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:848)
+E/ActivityThread( 1598):        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:575)
+E/ActivityThread( 1598):        at dalvik.system.NativeStart.main(Native Method)
+I/ActivityManager(  989): START {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 pkg=com.coship.dvbsetting cmp=com.coship.dvbsetting/.main} from pid 1331
+V/TabletStatusBar( 1196): setLightsOn(true)
+W/InputManagerService(  989): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@415da440 (uid=10034 pid=1331)
+I/ActivityManager(  989): START {cmp=com.coship.dvbsetting/.netsetting.netSet} from pid 1843
+I/EthernetManager( 1843): Init Ethernet Manager, service: android.net.ethernet.IEthernetManager$Stub$Proxy@42d26f40
+V/TabletStatusBar( 1196): setLightsOn(true)
+I/ActivityManager(  989): Start proc com.iflytek.vac for service com.iflytek.vaf/com.iflytek.vocmd.Context: pid=2499 uid=10027 gids={3003, 1015}
+D/WifiP2pService(  989): P2pDisabledState{ what=131203 when=-1ms }
+D/NetworkManagementService(  989): rsp <213 a4:a8:0f:ff:ff:0e 0.0.0.0 0 [down broadcast multicast]>
+D/NetworkManagementService(  989): flags <[down broadcast multicast]>
+V/EthernetMonitor(  989): get event 
+V/EthernetMonitor(  989): go poll events
+V/EthernetMonitor(  989): get event 
+V/EthernetMonitor(  989): go poll events
+V/EthernetMonitor(  989): get event 
+V/EthernetMonitor(  989): go poll events
+I/ActivityManager(  989): START {cmp=com.coship.dvbsetting/.netsetting.dialog.WifiPWDialog (has extras)} from pid 1843
+V/TabletStatusBar( 1196): setLightsOn(true)
+V/EthernetMonitor(  989): get event 
+V/EthernetMonitor(  989): go poll events
+V/EthernetMonitor(  989): get event 
+V/EthernetMonitor(  989): go poll events
+V/EthernetMonitor(  989): get event 
+V/EthernetMonitor(  989): go poll events
+V/EthernetMonitor(  989): get event 
+V/EthernetMonitor(  989): go poll events
+V/TabletStatusBar( 1196): setLightsOn(true)
+V/EthernetMonitor(  989): get event 
+V/EthernetMonitor(  989): go poll events
+V/EthernetMonitor(  989): get event 
+V/EthernetMonitor(  989): go poll events
+V/EthernetMonitor(  989): get event 
+V/EthernetMonitor(  989): go poll events
+V/EthernetMonitor(  989): get event 
+V/EthernetMonitor(  989): go poll events
+V/EthernetMonitor(  989): get event 
+V/EthernetMonitor(  989): go poll events
+V/EthernetMonitor(  989): get event 
+V/EthernetMonitor(  989): go poll events
+V/EthernetMonitor(  989): get event 
+V/EthernetMonitor(  989): go poll events
+V/EthernetMonitor(  989): get event 
+V/EthernetMonitor(  989): go poll events
+V/EthernetMonitor(  989): get event 
+V/EthernetMonitor(  989): go poll events
+D/ConnectivityService(  989): ConnectivityChange for WIFI: CONNECTED/CONNECTED
+D/ConnectivityService(  989): ConnectivityChange for WIFI: CONNECTED/CONNECTED
+D/ConnectivityService(  989): handleConnectivityChange: address are the same reset per doReset linkProperty[1]: resetMask=0
+I/ActivityManager(  989): Process com.coship.sdp.sce.tvappstore (pid 1288) has died.
+W/ActivityManager(  989): Scheduling restart of crashed service com.coship.sdp.sce.tvappstore/.app.service.AppStoreCoreService in 1250ms
+I/ActivityManager(  989): Start proc com.coship.sdp.sce.tvappstore for restart com.coship.sdp.sce.tvappstore: pid=2571 uid=1000 gids={3003, 1015, 3002, 3001, 3004}
+V/TabletStatusBar( 1196): setLightsOn(true)
+E/ActivityThread( 1843): Activity com.coship.dvbsetting.netsetting.netSet has leaked ServiceConnection android.bluetooth.BluetoothHeadset$1@4349be20 that was originally bound here
+E/ActivityThread( 1843): android.app.ServiceConnectionLeaked: Activity com.coship.dvbsetting.netsetting.netSet has leaked ServiceConnection android.bluetooth.BluetoothHeadset$1@4349be20 that was originally bound here
+E/ActivityThread( 1843):        at android.app.LoadedApk$ServiceDispatcher.<init>(LoadedApk.java:936)
+E/ActivityThread( 1843):        at android.app.LoadedApk.getServiceDispatcher(LoadedApk.java:830)
+E/ActivityThread( 1843):        at android.app.ContextImpl.bindService(ContextImpl.java:1142)
+E/ActivityThread( 1843):        at android.content.ContextWrapper.bindService(ContextWrapper.java:370)
+E/ActivityThread( 1843):        at android.bluetooth.BluetoothHeadset.<init>(BluetoothHeadset.java:231)
+E/ActivityThread( 1843):        at android.bluetooth.BluetoothAdapter.getProfileProxy(BluetoothAdapter.java:1168)
+E/ActivityThread( 1843):        at com.coship.dvbsetting.bluetooth.HeadsetProfile.<init>(HeadsetProfile.java:111)
+E/ActivityThread( 1843):        at com.coship.dvbsetting.netsetting.BluetoothSet.init(BluetoothSet.java:160)
+E/ActivityThread( 1843):        at com.coship.dvbsetting.netsetting.BluetoothSet.<init>(BluetoothSet.java:131)
+E/ActivityThread( 1843):        at com.coship.dvbsetting.netsetting.BluetoothSet.getInstance(BluetoothSet.java:110)
+E/ActivityThread( 1843):        at com.coship.dvbsetting.netsetting.netSet.onCreate(netSet.java:81)
+E/ActivityThread( 1843):        at android.app.Activity.performCreate(Activity.java:4465)
+E/ActivityThread( 1843):        at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1049)
+E/ActivityThread( 1843):        at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:1920)
+E/ActivityThread( 1843):        at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:1981)
+E/ActivityThread( 1843):        at android.app.ActivityThread.access$600(ActivityThread.java:123)
+E/ActivityThread( 1843):        at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1147)
+E/ActivityThread( 1843):        at android.os.Handler.dispatchMessage(Handler.java:99)
+E/ActivityThread( 1843):        at android.os.Looper.loop(Looper.java:137)
+E/ActivityThread( 1843):        at android.app.ActivityThread.main(ActivityThread.java:4424)
+E/ActivityThread( 1843):        at java.lang.reflect.Method.invokeNative(Native Method)
+E/ActivityThread( 1843):        at java.lang.reflect.Method.invoke(Method.java:511)
+E/ActivityThread( 1843):        at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:848)
+E/ActivityThread( 1843):        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:575)
+E/ActivityThread( 1843):        at dalvik.system.NativeStart.main(Native Method)
+W/ActivityManager(  989): Unbind failed: could not find connection for android.os.BinderProxy@41658070
+I/UsageStats(  989): No package stats for pkg:com.coship.dvbsetting
+V/TabletStatusBar( 1196): setLightsOn(true)
+W/InputManagerService(  989): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@41741038 (uid=1000 pid=1843)
+V/EthernetMonitor(  989): get event 
+V/EthernetMonitor(  989): go poll events
+V/EthernetMonitor(  989): get event 
+V/EthernetMonitor(  989): go poll events
+I/ActivityManager(  989): START {act=android.intent.action.MAIN flg=0x10200000 cmp=com.aidufei.movieonline/.MainCatalogActivity} from pid 1331
+W/ActivityManager(  989): Activity is launching as a new task, so cancelling activity result.
+W/InputManagerService(  989): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@415da440 (uid=10034 pid=1331)
+W/ThrottleService(  989): unable to find stats for iface rmnet0
+I/ActivityManager(  989): START {flg=0x58000000 cmp=com.coship.dvbplayer/.main (has extras)} from pid 2208
+I/ActivityManager(  989): Start proc com.coship.dvbplayer for activity com.coship.dvbplayer/.main: pid=2677 uid=10032 gids={3003, 1015}
+V/TabletStatusBar( 1196): setLightsOn(true)
+W/InputManagerService(  989): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@41606420 (uid=1000 pid=2208)
+W/ActivityManager(  989): Activity pause timeout for ActivityRecord{4168eac0 com.coship.dvbplayer/.main}
+W/InputManagerService(  989): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@4167d468 (uid=10032 pid=2677)
+V/TabletStatusBar( 1196): setLightsOn(true)
+W/InputManagerService(  989): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@41606420 (uid=1000 pid=2208)
+I/ActivityManager(  989): START {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 pkg=com.coship.dvbsetting cmp=com.coship.dvbsetting/.main} from pid 1331
+V/TabletStatusBar( 1196): setLightsOn(true)
+W/InputManagerService(  989): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@415da440 (uid=10034 pid=1331)
+I/ActivityManager(  989): START {cmp=com.coship.dvbsetting/.netsetting.netSet} from pid 1843
+I/EthernetManager( 1843): Init Ethernet Manager, service: android.net.ethernet.IEthernetManager$Stub$Proxy@43445ae0
+V/TabletStatusBar( 1196): setLightsOn(true)
+V/TabletStatusBar( 1196): setLightsOn(true)
+E/ActivityThread( 1843): Activity com.coship.dvbsetting.netsetting.netSet has leaked ServiceConnection android.bluetooth.BluetoothHeadset$1@42df75f8 that was originally bound here
+E/ActivityThread( 1843): android.app.ServiceConnectionLeaked: Activity com.coship.dvbsetting.netsetting.netSet has leaked ServiceConnection android.bluetooth.BluetoothHeadset$1@42df75f8 that was originally bound here
+E/ActivityThread( 1843):        at android.app.LoadedApk$ServiceDispatcher.<init>(LoadedApk.java:936)
+E/ActivityThread( 1843):        at android.app.LoadedApk.getServiceDispatcher(LoadedApk.java:830)
+E/ActivityThread( 1843):        at android.app.ContextImpl.bindService(ContextImpl.java:1142)
+E/ActivityThread( 1843):        at android.content.ContextWrapper.bindService(ContextWrapper.java:370)
+E/ActivityThread( 1843):        at android.bluetooth.BluetoothHeadset.<init>(BluetoothHeadset.java:231)
+E/ActivityThread( 1843):        at android.bluetooth.BluetoothAdapter.getProfileProxy(BluetoothAdapter.java:1168)
+E/ActivityThread( 1843):        at com.coship.dvbsetting.bluetooth.HeadsetProfile.<init>(HeadsetProfile.java:111)
+E/ActivityThread( 1843):        at com.coship.dvbsetting.netsetting.BluetoothSet.init(BluetoothSet.java:160)
+E/ActivityThread( 1843):        at com.coship.dvbsetting.netsetting.BluetoothSet.<init>(BluetoothSet.java:131)
+E/ActivityThread( 1843):        at com.coship.dvbsetting.netsetting.BluetoothSet.getInstance(BluetoothSet.java:110)
+E/ActivityThread( 1843):        at com.coship.dvbsetting.netsetting.netSet.onCreate(netSet.java:81)
+E/ActivityThread( 1843):        at android.app.Activity.performCreate(Activity.java:4465)
+E/ActivityThread( 1843):        at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1049)
+E/ActivityThread( 1843):        at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:1920)
+E/ActivityThread( 1843):        at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:1981)
+E/ActivityThread( 1843):        at android.app.ActivityThread.access$600(ActivityThread.java:123)
+E/ActivityThread( 1843):        at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1147)
+E/ActivityThread( 1843):        at android.os.Handler.dispatchMessage(Handler.java:99)
+E/ActivityThread( 1843):        at android.os.Looper.loop(Looper.java:137)
+E/ActivityThread( 1843):        at android.app.ActivityThread.main(ActivityThread.java:4424)
+E/ActivityThread( 1843):        at java.lang.reflect.Method.invokeNative(Native Method)
+E/ActivityThread( 1843):        at java.lang.reflect.Method.invoke(Method.java:511)
+E/ActivityThread( 1843):        at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:848)
+E/ActivityThread( 1843):        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:575)
+E/ActivityThread( 1843):        at dalvik.system.NativeStart.main(Native Method)
+W/ActivityManager(  989): Unbind failed: could not find connection for android.os.BinderProxy@4142fb58
+I/ActivityManager(  989): START {cmp=com.coship.dvbsetting/.systemsetting.SyssetAcivity} from pid 1843
+I/EthernetManager( 1843): Init Ethernet Manager, service: android.net.ethernet.IEthernetManager$Stub$Proxy@434050a8
+V/TabletStatusBar( 1196): setLightsOn(true)
+I/ActivityManager(  989): START {flg=0x58000000 cmp=com.coship.dvbplayer/.main (has extras)} from pid 2208
+V/TabletStatusBar( 1196): setLightsOn(true)
+W/InputManagerService(  989): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@41741038 (uid=1000 pid=1843)
+V/TabletStatusBar( 1196): setLightsOn(true)
+W/InputManagerService(  989): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@4167d468 (uid=10032 pid=2677)
+V/TabletStatusBar( 1196): setLightsOn(true)
+E/ActivityThread( 1843): Activity com.coship.dvbsetting.systemsetting.SyssetAcivity has leaked ServiceConnection com.coship.dvbsetting.systemsetting.childview.NetUpdate$2@418252a0 that was originally bound here
+E/ActivityThread( 1843): android.app.ServiceConnectionLeaked: Activity com.coship.dvbsetting.systemsetting.SyssetAcivity has leaked ServiceConnection com.coship.dvbsetting.systemsetting.childview.NetUpdate$2@418252a0 that was originally bound here
+E/ActivityThread( 1843):        at android.app.LoadedApk$ServiceDispatcher.<init>(LoadedApk.java:936)
+E/ActivityThread( 1843):        at android.app.LoadedApk.getServiceDispatcher(LoadedApk.java:830)
+E/ActivityThread( 1843):        at android.app.ContextImpl.bindService(ContextImpl.java:1142)
+E/ActivityThread( 1843):        at android.content.ContextWrapper.bindService(ContextWrapper.java:370)
+E/ActivityThread( 1843):        at com.coship.dvbsetting.systemsetting.childview.NetUpdate.remoteAIDL(NetUpdate.java:345)
+E/ActivityThread( 1843):        at com.coship.dvbsetting.systemsetting.childview.NetUpdate.show(NetUpdate.java:504)
+E/ActivityThread( 1843):        at com.coship.dvbsetting.ExpanItem.show(ExpanItem.java:305)
+E/ActivityThread( 1843):        at com.coship.dvbsetting.systemsetting.SyssetAcivity.onResume(SyssetAcivity.java:267)
+E/ActivityThread( 1843):        at android.app.Instrumentation.callActivityOnResume(Instrumentation.java:1154)
+E/ActivityThread( 1843):        at android.app.Activity.performResume(Activity.java:4539)
+E/ActivityThread( 1843):        at android.app.ActivityThread.performResumeActivity(ActivityThread.java:2434)
+E/ActivityThread( 1843):        at android.app.ActivityThread.handleResumeActivity(ActivityThread.java:2472)
+E/ActivityThread( 1843):        at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1173)
+E/ActivityThread( 1843):        at android.os.Handler.dispatchMessage(Handler.java:99)
+E/ActivityThread( 1843):        at android.os.Looper.loop(Looper.java:137)
+E/ActivityThread( 1843):        at android.app.ActivityThread.main(ActivityThread.java:4424)
+E/ActivityThread( 1843):        at java.lang.reflect.Method.invokeNative(Native Method)
+E/ActivityThread( 1843):        at java.lang.reflect.Method.invoke(Method.java:511)
+E/ActivityThread( 1843):        at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:848)
+E/ActivityThread( 1843):        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:575)
+E/ActivityThread( 1843):        at dalvik.system.NativeStart.main(Native Method)
+W/ActivityManager(  989): Unbind failed: could not find connection for android.os.BinderProxy@4159a630
+V/TabletStatusBar( 1196): setLightsOn(true)
+W/InputManagerService(  989): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@41741038 (uid=1000 pid=1843)
+I/ActivityManager(  989): START {act=android.intent.action.MAIN flg=0x10200000 cmp=com.aidufei.movieonline/.MainCatalogActivity} from pid 1331
+W/ActivityManager(  989): Activity is launching as a new task, so cancelling activity result.
+W/InputManagerService(  989): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@415da440 (uid=10034 pid=1331)
+I/ActivityManager(  989): START {flg=0x58000000 cmp=com.coship.dvbplayer/.main (has extras)} from pid 2208
+V/TabletStatusBar( 1196): setLightsOn(true)
+W/InputManagerService(  989): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@41606420 (uid=1000 pid=2208)
+W/InputManagerService(  989): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@4167d468 (uid=10032 pid=2677)
+I/ActivityManager(  989): START {flg=0x58000000 cmp=com.coship.dvbplayer/.main (has extras)} from pid 2208
+V/TabletStatusBar( 1196): setLightsOn(true)
+W/InputManagerService(  989): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@41606420 (uid=1000 pid=2208)
+W/InputManagerService(  989): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@4167d468 (uid=10032 pid=2677)
+I/ActivityManager(  989): START {cmp=com.aidufei.movieonline/.SubCatalogActivity (has extras)} from pid 2208
+I/ActivityManager(  989): START {cmp=com.aidufei.movieonline/.SubCatalogActivity (has extras)} from pid 2208
+I/ActivityManager(  989): START {flg=0x58000000 cmp=com.coship.dvbplayer/.main (has extras)} from pid 2208
+V/TabletStatusBar( 1196): setLightsOn(true)
+W/InputManagerService(  989): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@41606420 (uid=1000 pid=2208)
+I/ActivityManager(  989): START {flg=0x78000000 cmp=com.coship.dvbplayer/.main (has extras)} from pid 2208
+I/ActivityManager(  989): START {act=android.intent.LOOKBACK_PLAYER cmp=com.coship.dvbplayer/.videoplayer.VideoPlayer (has extras)} from pid 2677
+V/TabletStatusBar( 1196): setLightsOn(true)
+V/TabletStatusBar( 1196): setLightsOn(true)
+I/ActivityManager(  989): START {flg=0x78000000 cmp=com.aidufei.movieonline/.player.VideoPlayer (has extras)} from pid 2208
+W/InputManagerService(  989): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@4167d468 (uid=10032 pid=2677)
+I/ActivityManager(  989): START {flg=0x78000000 cmp=com.coship.dvbplayer/.main (has extras)} from pid 2208
+V/TabletStatusBar( 1196): setLightsOn(true)
+I/ActivityManager(  989): START {act=android.intent.LOOKBACK_PLAYER cmp=com.coship.dvbplayer/.videoplayer.VideoPlayer (has extras)} from pid 2677
+V/TabletStatusBar( 1196): setLightsOn(true)
+W/ActivityManager(  989): Duplicate finish request for ActivityRecord{41597388 com.coship.dvbplayer/.videoplayer.VideoPlayer}
+I/ActivityManager(  989): START {flg=0x78000000 cmp=com.coship.dvbplayer/.main (has extras)} from pid 2208
+V/TabletStatusBar( 1196): setLightsOn(true)
+W/InputManagerService(  989): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@41606420 (uid=1000 pid=2208)
+I/ActivityManager(  989): START {act=android.intent.LOOKBACK_PLAYER cmp=com.coship.dvbplayer/.videoplayer.VideoPlayer (has extras)} from pid 2677
+V/TabletStatusBar( 1196): setLightsOn(true)
+W/ActivityManager(  989): Duplicate finish request for ActivityRecord{4168c410 com.coship.dvbplayer/.main}
+I/ActivityManager(  989): START {flg=0x78000000 cmp=com.aidufei.movieonline/.player.VideoPlayer (has extras)} from pid 2208
+W/ThrottleService(  989): unable to find stats for iface rmnet0
+I/ActivityManager(  989): START {cmp=com.aidufei.movieonline/.ProgramDetailActivity (has extras)} from pid 2208
+V/TabletStatusBar( 1196): setLightsOn(true)
+W/InputManagerService(  989): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@41606420 (uid=1000 pid=2208)
+I/ActivityManager(  989): START {act=android.intent.action.MAIN flg=0x10200000 cmp=com.coship.dvbplayer/.main} from pid 1331
+W/ActivityManager(  989): Activity is launching as a new task, so cancelling activity result.
+V/TabletStatusBar( 1196): setLightsOn(true)
+W/InputManagerService(  989): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@415da440 (uid=10034 pid=1331)
+W/ThrottleService(  989): unable to find stats for iface rmnet0
+I/ActivityManager(  989): START {flg=0x78000000 cmp=com.coship.dvbplayer/.main (has extras)} from pid 2208
+I/ActivityManager(  989): START {act=android.intent.LOOKBACK_PLAYER cmp=com.coship.dvbplayer/.videoplayer.VideoPlayer (has extras)} from pid 2677
+V/TabletStatusBar( 1196): setLightsOn(true)
+I/ActivityManager(  989): START {flg=0x78000000 cmp=com.aidufei.movieonline/.player.VideoPlayer (has extras)} from pid 2208
+V/TabletStatusBar( 1196): setLightsOn(true)
+I/ActivityManager(  989): START {act=android.intent.action.MAIN flg=0x10200000 cmp=com.aidufei.movieonline/.MainCatalogActivity} from pid 1331
+W/ActivityManager(  989): Activity is launching as a new task, so cancelling activity result.
+W/InputManagerService(  989): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@415da440 (uid=10034 pid=1331)
+I/ActivityManager(  989): START {cmp=com.aidufei.movieonline/.ProgramDetailActivity (has extras)} from pid 2208
+I/ActivityManager(  989): START {flg=0x78000000 cmp=com.aidufei.movieonline/.player.VideoPlayer (has extras)} from pid 2208
+I/ActivityManager(  989): START {cmp=com.aidufei.movieonline/.ProgramDetailActivity (has extras)} from pid 2208
+I/ActivityManager(  989): START {flg=0x78000000 cmp=com.aidufei.movieonline/.player.VideoPlayer (has extras)} from pid 2208
+W/ActivityManager(  989): Activity pause timeout for ActivityRecord{4168c410 com.aidufei.movieonline/.player.VideoPlayer}
+I/ActivityManager(  989): START {cmp=com.aidufei.movieonline/.ProgramDetailActivity (has extras)} from pid 2208
+I/ActivityManager(  989): START {flg=0x78000000 cmp=com.aidufei.movieonline/.player.VideoPlayer (has extras)} from pid 2208
+W/ActivityManager(  989): Activity pause timeout for ActivityRecord{4171b2e8 com.aidufei.movieonline/.player.VideoPlayer}
+W/ActivityManager(  989): Duplicate finish request for ActivityRecord{4171b2e8 com.aidufei.movieonline/.player.VideoPlayer}
+I/ActivityManager(  989): START {flg=0x78000000 cmp=com.aidufei.movieonline/.player.VideoPlayer (has extras)} from pid 2208
+W/ActivityManager(  989): Activity pause timeout for ActivityRecord{415751d8 com.aidufei.movieonline/.player.VideoPlayer}
+I/WindowManager(  989): Input event dispatching timed out sending to application AppWindowToken{417348f8 token=Token{416dd628 ActivityRecord{417d7b48 com.aidufei.movieonline/.ProgramDetailActivity}}}
+E/ActivityManager(  989): ANR in com.aidufei.movieonline (com.aidufei.movieonline/.ProgramDetailActivity)
+E/ActivityManager(  989): Reason: keyDispatchingTimedOut
+E/ActivityManager(  989): Load: 2.79 / 3.0 / 3.0
+E/ActivityManager(  989): CPU usage from 7265ms to 0ms ago:
+E/ActivityManager(  989):   19% 756/ld-linux.so.3: 12% user + 7.1% kernel
+E/ActivityManager(  989):   6.8% 2256/com.coship.Multimedia: 5.7% user + 1.1% kernel / faults: 975 minor
+E/ActivityManager(  989):   6.1% 989/system_server: 4.8% user + 1.3% kernel / faults: 55 minor
+E/ActivityManager(  989):   3.4% 744/mediaserver: 0% user + 3.4% kernel
+E/ActivityManager(  989):   3.3% 2208/com.aidufei.movieonline: 1.6% user + 1.6% kernel / faults: 298 minor
+E/ActivityManager(  989):   1.6% 1045/surfaceflinger: 1.1% user + 0.5% kernel
+E/ActivityManager(  989):   1.3% 761/keydispatch_wq/: 0% user + 1.3% kernel
+E/ActivityManager(  989):   1.3% 1196/com.android.systemui: 0.9% user + 0.4% kernel / faults: 7 minor
+E/ActivityManager(  989):   0.8% 1454/ksdioirqd/mmc1: 0% user + 0.8% kernel
+E/ActivityManager(  989):   0% 3/ksoftirqd/0: 0% user + 0% kernel
+E/ActivityManager(  989):   0% 718/jbd2/mmcblk5-8: 0% user + 0% kernel
+E/ActivityManager(  989):   0% 749/virtualkeypad: 0% user + 0% kernel
+E/ActivityManager(  989):   0.1% 775/mali-pmm-wq: 0% user + 0.1% kernel
+E/ActivityManager(  989):   0% 907/MOAL_WORK_QUEUE: 0% user + 0% kernel
+E/ActivityManager(  989):   0% 966/usb-storage: 0% user + 0% kernel
+E/ActivityManager(  989):   0% 975/scsi-polling th: 0% user + 0% kernel
+E/ActivityManager(  989):   0.1% 1253/com.android.inputmethod.pinyin: 0% user + 0.1% kernel
+E/ActivityManager(  989):   0% 2424/com.coship.stpservice: 0% user + 0% kernel / faults: 4 minor
+E/ActivityManager(  989): 9.3% TOTAL: 6.2% user + 3% kernel + 0% iowait
+E/ActivityManager(  989): CPU usage from 608ms to 1139ms later:
+E/ActivityManager(  989):   20% 756/ld-linux.so.3: 15% user + 5.6% kernel
+E/ActivityManager(  989):     9.4% 1025/ld-linux.so.3: 9.4% user + 0% kernel
+E/ActivityManager(  989):     7.5% 1083/CECMonitor: 1.8% user + 5.6% kernel
+E/ActivityManager(  989):     1.8% 1032/756keypad Input: 0% user + 1.8% kernel
+E/ActivityManager(  989):     1.8% 1038/IRQThread_157: 0% user + 1.8% kernel
+E/ActivityManager(  989):     1.8% 1054/MControl Monito: 0% user + 1.8% kernel
+E/ActivityManager(  989):     1.8% 1085/DTV Monitor Tas: 0% user + 1.8% kernel
+E/ActivityManager(  989):   16% 989/system_server: 3.7% user + 13% kernel / faults: 5 minor
+E/ActivityManager(  989):     9.4% 1141/InputDispatcher: 1.8% user + 7.5% kernel
+E/ActivityManager(  989):     3.7% 1009/er.ServerThread: 1.8% user + 1.8% kernel
+E/ActivityManager(  989):     1.8% 994/Compiler: 1.8% user + 0% kernel
+E/ActivityManager(  989):     1.8% 1132/PowerManagerSer: 0% user + 1.8% kernel
+E/ActivityManager(  989):   3.9% 2208/com.aidufei.movieonline: 1.3% user + 2.6% kernel / faults: 37 minor
+E/ActivityManager(  989):     3.9% 2212/Signal Catcher: 1.3% user + 2.6% kernel
+E/ActivityManager(  989):   3.7% 744/mediaserver: 1.8% user + 1.8% kernel
+E/ActivityManager(  989):     1.8% 3480/DownloadLocalFi: 0% user + 1.8% kernel
+E/ActivityManager(  989):   2.2% 761/keydispatch_wq/: 0% user + 2.2% kernel
+E/ActivityManager(  989):   0.9% 3/ksoftirqd/0: 0.9% user + 0% kernel
+E/ActivityManager(  989): 9% TOTAL: 4.9% user + 4.1% kernel
+W/ActivityManager(  989): Launch timeout has expired, giving up wake lock!
+W/ActivityManager(  989): Activity idle timeout for ActivityRecord{417d7b48 com.aidufei.movieonline/.ProgramDetailActivity}
+I/WindowManager(  989): Input event dispatching timed out sending to application AppWindowToken{417348f8 token=Token{416dd628 ActivityRecord{417d7b48 com.aidufei.movieonline/.ProgramDetailActivity}}}
+E/ActivityManager(  989): ANR in com.aidufei.movieonline (com.aidufei.movieonline/.ProgramDetailActivity)
+E/ActivityManager(  989): Reason: keyDispatchingTimedOut
+E/ActivityManager(  989): Load: 2.75 / 2.98 / 3.0
+E/ActivityManager(  989): CPU usage from 9326ms to 2703ms ago:
+E/ActivityManager(  989):   40% 989/system_server: 28% user + 11% kernel / faults: 2952 minor 26 major
+E/ActivityManager(  989):   21% 756/ld-linux.so.3: 14% user + 6.9% kernel
+E/ActivityManager(  989):   12% 2256/com.coship.Multimedia: 10% user + 1.8% kernel / faults: 887 minor 1 major
+E/ActivityManager(  989):   4.2% 744/mediaserver: 2.2% user + 1.9% kernel
+E/ActivityManager(  989):   3.1% 1045/surfaceflinger: 2.1% user + 1% kernel
+E/ActivityManager(  989):   3% 1454/ksdioirqd/mmc1: 0% user + 3% kernel
+E/ActivityManager(  989):   2.4% 761/keydispatch_wq/: 0% user + 2.4% kernel
+E/ActivityManager(  989):   0.7% 421/mmcqd: 0% user + 0.7% kernel
+E/ActivityManager(  989):   1.5% 2208/com.aidufei.movieonline: 0.4% user + 1% kernel / faults: 105 minor
+E/ActivityManager(  989):   0.6% 1196/com.android.systemui: 0.6% user + 0% kernel / faults: 9 minor
+E/ActivityManager(  989):   0.4% 3/ksoftirqd/0: 0.4% user + 0% kernel
+E/ActivityManager(  989):   0% 289/kswapd0: 0% user + 0% kernel
+E/ActivityManager(  989):   0.1% 773/mali/0: 0% user + 0.1% kernel
+E/ActivityManager(  989):   0% 1303/com.coship.netfirmware: 0% user + 0% kernel / faults: 82 minor 3 major
+E/ActivityManager(  989):   0% 1316/com.iflytek.vaf.TouchKey: 0% user + 0% kernel / faults: 188 minor 8 major
+E/ActivityManager(  989):   0% 2571/com.coship.sdp.sce.tvappstore: 0% user + 0% kernel / faults: 119 minor 1 major
+E/ActivityManager(  989):   0% 1//init: 0% user + 0% kernel / faults: 3 minor
+E/ActivityManager(  989):   0% 7/events/0: 0% user + 0% kernel
+E/ActivityManager(  989):   0.1% 775/mali-pmm-wq: 0% user + 0.1% kernel
+E/ActivityManager(  989):   0% 2334/com.android.settings: 0% user + 0% kernel / faults: 24 minor
+E/ActivityManager(  989):   0.1% 2424/com.coship.stpservice: 0% user + 0.1% kernel / faults: 6 minor
+E/ActivityManager(  989):   0% 3201/flush-179:0: 0% user + 0% kernel
+E/ActivityManager(  989): 20% TOTAL: 12% user + 6.2% kernel + 1.8% iowait
+E/ActivityManager(  989): CPU usage from 436ms to 960ms later:
+E/ActivityManager(  989):   20% 756/ld-linux.so.3: 13% user + 7.5% kernel
+E/ActivityManager(  989):     9.4% 1025/ld-linux.so.3: 9.4% user + 0% kernel
+E/ActivityManager(  989):     7.5% 1083/CECMonitor: 1.8% user + 5.6% kernel
+E/ActivityManager(  989):     1.8% 1034/756Linux hotplu: 0% user + 1.8% kernel
+E/ActivityManager(  989):   11% 989/system_server: 7.5% user + 3.7% kernel
+E/ActivityManager(  989):     11% 1141/InputDispatcher: 9.4% user + 1.8% kernel
+E/ActivityManager(  989):   4.3% 1454/ksdioirqd/mmc1: 0% user + 4.3% kernel
+E/ActivityManager(  989):   1.9% 744/mediaserver: 0% user + 1.9% kernel
+E/ActivityManager(  989):     1.9% 3480/DownloadLocalFi: 0% user + 1.9% kernel
+E/ActivityManager(  989): 7.2% TOTAL: 3% user + 4.1% kernel
+W/ActivityManager(  989):   Force finishing activity com.aidufei.movieonline/.ProgramDetailActivity
+I/ActivityManager(  989): Killing ProcessRecord{41683400 2208:com.aidufei.movieonline/1000}: user's request
+I/ActivityManager(  989): Process com.aidufei.movieonline (pid 2208) has died.
+I/WindowManager(  989): WIN DEATH: Window{41688198 com.aidufei.movieonline/com.aidufei.movieonline.ProgramDetailActivity paused=true}
+W/ActivityManager(  989): Scheduling restart of crashed service com.aidufei.movieonline/com.aidufei.otoService.OtOService in 5000ms
+I/WindowManager(  989): WIN DEATH: Window{41697e80 com.aidufei.movieonline/com.aidufei.movieonline.player.VideoPlayer paused=false}
+W/WindowManager(  989): Force-removing child win Window{416a7bd8 SurfaceView paused=false} from container Window{41697e80 com.aidufei.movieonline/com.aidufei.movieonline.player.VideoPlayer paused=false}
+W/WindowManager(  989): Failed looking up window
+W/WindowManager(  989): java.lang.IllegalArgumentException: Requested window android.os.BinderProxy@4178f168 does not exist
+W/WindowManager(  989):         at com.android.server.wm.WindowManagerService.windowForClientLocked(WindowManagerService.java:7185)
+W/WindowManager(  989):         at com.android.server.wm.WindowManagerService.windowForClientLocked(WindowManagerService.java:7176)
+W/WindowManager(  989):         at com.android.server.wm.WindowState$DeathRecipient.binderDied(WindowState.java:1545)
+W/WindowManager(  989):         at android.os.BinderProxy.sendDeathNotice(Binder.java:417)
+W/WindowManager(  989):         at dalvik.system.NativeStart.run(Native Method)
+I/WindowManager(  989): WIN DEATH: null
+I/WindowManager(  989): WINDOW DIED Window{417270e8 com.aidufei.movieonline/com.aidufei.movieonline.MainCatalogActivity paused=false}
+W/WindowManager(  989): Failed looking up window
+W/WindowManager(  989): java.lang.IllegalArgumentException: Requested window android.os.BinderProxy@41705228 does not exist
+W/WindowManager(  989):         at com.android.server.wm.WindowManagerService.windowForClientLocked(WindowManagerService.java:7185)
+W/WindowManager(  989):         at com.android.server.wm.WindowManagerService.windowForClientLocked(WindowManagerService.java:7176)
+W/WindowManager(  989):         at com.android.server.wm.WindowState$DeathRecipient.binderDied(WindowState.java:1545)
+W/WindowManager(  989):         at android.os.BinderProxy.sendDeathNotice(Binder.java:417)
+W/WindowManager(  989):         at dalvik.system.NativeStart.run(Native Method)
+I/WindowManager(  989): WIN DEATH: null
+I/ActivityManager(  989): Start proc com.aidufei.movieonline for activity com.aidufei.movieonline/.MainCatalogActivity: pid=3497 uid=1000 gids={3003, 1015, 3002, 3001, 3004}
+W/InputManagerService(  989): Got RemoteException sending setActive(false) notification to pid 2208 uid 1000
+I/ActivityManager(  989): START {cmp=com.aidufei.movieonline/.ProgramDetailActivity (has extras)} from pid 3497
+I/ActivityManager(  989): START {flg=0x78000000 cmp=com.aidufei.movieonline/.player.VideoPlayer (has extras)} from pid 3497
+W/ActivityManager(  989): Activity pause timeout for ActivityRecord{417048c0 com.aidufei.movieonline/.player.VideoPlayer}
+I/ActivityManager(  989): No longer want com.iflytek.xiri.recorder.svc (pid 1626): hidden #16
+I/ActivityManager(  989): START {cmp=com.aidufei.movieonline/.ProgramDetailActivity (has extras)} from pid 3497
+I/ActivityManager(  989): START {flg=0x78000000 cmp=com.aidufei.movieonline/.player.VideoPlayer (has extras)} from pid 3497
+I/ActivityManager(  989): No longer want com.sihuatech.wasutv4ics (pid 1783): hidden #16
+I/ActivityManager(  989): No longer want com.iflytek.xiri.remotecmd (pid 1731): hidden #17
+I/ActivityManager(  989): No longer want com.iflytek.speech (pid 1653): hidden #18
+I/ActivityManager(  989): No longer want com.coship.cw880 (pid 2180): hidden #16
+W/ActivityManager(  989): Scheduling restart of crashed service com.coship.cw880/.MonitorCw880 in 5000ms
+I/ActivityManager(  989): No longer want com.coship.changetheaudiooutput (pid 2195): hidden #16
+W/ActivityManager(  989): Scheduling restart of crashed service com.coship.changetheaudiooutput/.AudioOutputServer in 14947ms
+I/ActivityManager(  989): Start proc com.coship.cw880 for service com.coship.cw880/.MonitorCw880: pid=3627 uid=1000 gids={3003, 1015, 3002, 3001, 3004}
+I/ActivityManager(  989): Start proc com.coship.changetheaudiooutput for service com.coship.changetheaudiooutput/.AudioOutputServer: pid=3643 uid=10031 gids={3002, 3001, 3004}
+I/ActivityManager(  989): START {cmp=com.aidufei.movieonline/.SearchActivity} from pid 3497
+I/ActivityManager(  989): START {cmp=com.aidufei.movieonline/.ProgramDetailActivity (has extras)} from pid 3497
+I/ActivityManager(  989): START {flg=0x78000000 cmp=com.aidufei.movieonline/.player.VideoPlayer (has extras)} from pid 3497
+W/ThrottleService(  989): unable to find stats for iface rmnet0
+W/ThrottleService(  989): unable to find stats for iface rmnet0
+I/ActivityManager(  989): START {cmp=com.aidufei.movieonline/.SubCatalogActivity (has extras)} from pid 3497
+W/ThrottleService(  989): unable to find stats for iface rmnet0
+V/EthernetMonitor(  989): get event 
+V/EthernetMonitor(  989): go poll events
+V/EthernetMonitor(  989): get event 
+V/EthernetMonitor(  989): go poll events
+V/EthernetMonitor(  989): get event 
+V/EthernetMonitor(  989): go poll events
+V/EthernetMonitor(  989): get event 
+V/EthernetMonitor(  989): go poll events
+D/ConnectivityService(  989): ConnectivityChange for WIFI: DISCONNECTED/DISCONNECTED
+E/MobileDataStateTracker(  989): default: Ignoring feature request because could not acquire PhoneService
+E/MobileDataStateTracker(  989): default: Could not enable APN type "default"
+D/ConnectivityService(  989): Attempting to switch to mobile
+I/EthernetStateTracker(  989): reset device eth0
+I/EthernetStateTracker(  989): trigger dhcp for device eth0
+D/EthernetStateTracker(  989): DhcpHandler: DHCP request started
+D/ConnectivityService(  989): Attempting to switch to ETH
+D/ConnectivityService(  989): Attempting to switch to pppoe
+D/ConnectivityService(  989): now reset wlan0, resetMask = 3
+D/ConnectivityService(  989): resetConnections(wlan0, 3)
+D/ConnectivityService(  989): ConnectivityChange for WIFI: DISCONNECTED/DISCONNECTED
+E/MobileDataStateTracker(  989): default: Ignoring feature request because could not acquire PhoneService
+E/MobileDataStateTracker(  989): default: Could not enable APN type "default"
+D/ConnectivityService(  989): Attempting to switch to mobile
+I/EthernetStateTracker(  989): reset device eth0
+I/EthernetStateTracker(  989): trigger dhcp for device eth0
+D/ConnectivityService(  989): Attempting to switch to ETH
+D/ConnectivityService(  989): Attempting to switch to pppoe
+D/ConnectivityService(  989): now reset wlan0, resetMask = 3
+D/ConnectivityService(  989): resetConnections(wlan0, 3)
+V/EthernetMonitor(  989): get event 
+V/EthernetMonitor(  989): go poll events
+V/EthernetMonitor(  989): get event 
+V/EthernetMonitor(  989): go poll events
+V/EthernetMonitor(  989): get event 
+V/EthernetMonitor(  989): go poll events
+V/EthernetMonitor(  989): get event 
+V/EthernetMonitor(  989): go poll events
+V/EthernetMonitor(  989): get event 
+V/EthernetMonitor(  989): go poll events
+V/EthernetMonitor(  989): get event 
+V/EthernetMonitor(  989): go poll events
+V/EthernetMonitor(  989): get event 
+V/EthernetMonitor(  989): go poll events
+V/EthernetMonitor(  989): get event 
+V/EthernetMonitor(  989): go poll events
+V/EthernetMonitor(  989): get event 
+V/EthernetMonitor(  989): go poll events
+D/ConnectivityService(  989): ConnectivityChange for WIFI: CONNECTED/CONNECTED
+D/ConnectivityService(  989): ConnectivityChange for WIFI: CONNECTED/CONNECTED
+D/ConnectivityService(  989): handleConnectivityChange: address are the same reset per doReset linkProperty[1]: resetMask=0
+D/ConnectivityService(  989): NetTransition Wakelock for WifiStateMachine released by timeout
+E/EthernetStateTracker(  989): DhcpHandler: DHCP request failed: Timed out waiting for dhcpcd to start
+D/EthernetStateTracker(  989): DhcpHandler: DHCP request started
+V/EthernetStateTracker(  989): configureInterfaceAutoIP skip!
+E/EthernetStateTracker(  989): DhcpHandler: DHCP request failed: Timed out waiting for DHCP to finish
+V/EthernetStateTracker(  989): configureInterfaceAutoIP skip!
+W/ThrottleService(  989): unable to find stats for iface rmnet0
+I/ActivityManager(  989): START {cmp=com.aidufei.movieonline/.ProgramDetailActivity (has extras)} from pid 3497
+I/ActivityManager(  989): START {flg=0x78000000 cmp=com.aidufei.movieonline/.player.VideoPlayer (has extras)} from pid 3497
+W/ThrottleService(  989): unable to find stats for iface rmnet0
+I/ActivityManager(  989): START {flg=0x78000000 cmp=com.aidufei.movieonline/.player.VideoPlayer (has extras)} from pid 3497
+I/ActivityManager(  989): START {flg=0x58000000 cmp=com.coship.dvbplayer/.main (has extras)} from pid 3497
+--------- beginning of /dev/log/main
+I/dalvikvm-heap( 2677): Grow heap (frag case) to 32.331MB for 453136-byte allocation
+D/dalvikvm( 2677): GC_FOR_ALLOC freed 4K, 20% free 29415K/36547K, paused 42ms
+D/dalvikvm( 2677): GC_FOR_ALLOC freed 1594K, 23% free 28420K/36547K, paused 36ms
+I/DVB_main( 2677): [checkbundle] channelResourceCode:10032 playType:2
+I/DVB_main( 2677): [checkbundle]:   get channelResourceCode:10032++++++++++playType+++++++++++2
+I/DVB_main( 2677): [handleIntent] get intent ,playType:2
+I/message ( 2677): requestUrl  :http://wasu.feifeikan.com:8080/msis/getSystemTime?version=V001&terminalType=2&resolution=1280*720&authKey=9f2aa3c3a05d8276610141ecc406a4a0
+I/message ( 2677): message  :{"ret":"0","retInfo":"","dateTime":"2013-04-07 11:28:58"}
+I/System.out( 2677): message--->{"ret":"0","retInfo":"","dateTime":"2013-04-07 11:28:58"}
+I/Process (  989): Sending signal. PID: 2677 SIG: 3
+I/dalvikvm( 2677): threadid=3: reacting to signal 3
+V/Tools   ( 2677): ++++++++++currentDate+++++++++2013-04-07 11:28:58
+I/dalvikvm( 2677): Wrote stack traces to '/data/anr/traces.txt'
+V/TimeShiftPlay( 2677): +++++nownmin+++++1365305280000
+V/DVB_main( 2677): ++++delay+++0+++TimeShiftPlay.getInstance(this).getCurrentTime()+++1365305280++++timecode++++0
+I/dvb_OTTPlayer( 2677): [getInstance] begin..............
+I/dvb_OTTPlayer( 2677): [play] mediaplayer is null creat it .....
+I/dvb_OTTPlayer( 2677): [initMediaplayer] new MediaPlayer END....  mediaplayer:android.media.MediaPlayer@415c6c78
+D/dvb_OTTPlayer( 2677): Send broadcast: channelCode 10032 type 2
+I/dvb_OTTPlayer( 2677): [play] code :10032 name:
+I/dvb_LoadTips( 2677): [gethandler] objInstance:com.coship.dvbplayer.LoadTips@41590950
+D/OtOService( 3497): TVContentReceiver: ACTION_TV_CONTENT_CHANGED, playType: 2 ,resourceCode: 10032
+I/dvb_LoadTips( 2677): [gethandler] objInstance  mHandler:Handler (com.coship.dvbplayer.LoadTips$1) {4156d4b0}
+I/dvb_LoadTips( 2677): [gethandler] objInstance:com.coship.dvbplayer.LoadTips@41590950
+I/dvb_LoadTips( 2677): [gethandler] objInstance  mHandler:Handler (com.coship.dvbplayer.LoadTips$1) {4156d4b0}
+I/dvb_OTTPlayer( 2677): [GetPlayURLThread] begin code:10032
+I/DVB_main( 2677): onStart
+I/DVB_main( 2677): onResume
+I/message ( 2677): requestUrl  :http://wasu.feifeikan.com:8080/msis/getPlayURL?version=V001&terminalType=2&resolution=1280*720&resourceCode=10032&productCode=&userCode=&playType=2&delay=0&shifttime=0&shiftend=0&timecode=0&authKey=ac900a6241407931fcf0efafef9a267a
+I/dvb_OTTPlayer( 2677): [getInstance] begin..............
+D/dvb_ServiceAdapter( 2677): serviceConnection:com.aidufei.otoService.IotoService$Stub$Proxy@42acbcf0
+V/OtOService( 3497): registerCallback:com.aidufei.otoService.IServiceCallBack$Stub$Proxy@41802e10
+I/dvb_LoadTips( 2677): [mHandler] ~~~~~~~~~~~~~~~~~~~~~~~~~mHandler:Handler (com.coship.dvbplayer.LoadTips$1) {4156d4b0} msg.what:3 msg.obj:
+V/TabletStatusBar( 1196): setLightsOn(true)
+E/dvb_OTTPlayer( 2677): [surfaceCreated]  holder:android.view.SurfaceView$4@4175e0e0
+E/dvb_OTTPlayer( 2677): [surfaceChanged]  mediaplayer:android.media.MediaPlayer@415c6c78
+E/dvb_OTTPlayer( 2677): [surfaceChanged]  holder:android.view.SurfaceView$4@4175e0e0  format:4  width:1280 height:720
+E/dvb_OTTPlayer( 2677): [surfaceChanged]  mediaplayer:android.media.MediaPlayer@415c6c78
+I/message ( 2677): message  :{"ret":"0","palyURL":"http://live.feifeikan.com/live/coship,CCTV1HD.m3u8?fmt=x264_0k_mpegts&sora=1&sk=74602672F50D417FAAA2CFCF258D567C&UUID=99a3c63b-ae20-4e92-947f-2f25f6b2d8cf&userCode=default&userName=default&spCode=484581254562&productCode=2&resourceCode=10032&subId=123&resourceName=&authType=2","retInfo":""}
+I/System.out( 2677): message--->{"ret":"0","palyURL":"http://live.feifeikan.com/live/coship,CCTV1HD.m3u8?fmt=x264_0k_mpegts&sora=1&sk=74602672F50D417FAAA2CFCF258D567C&UUID=99a3c63b-ae20-4e92-947f-2f25f6b2d8cf&userCode=default&userName=default&spCode=484581254562&productCode=2&resourceCode=10032&subId=123&resourceName=&authType=2","retInfo":""}
+E/dvb_OTTPlayer( 2677): [GetPlayURLThread]  url:http://live.feifeikan.com/live/coship,CCTV1HD.m3u8?fmt=x264_0k_mpegts&sora=1&sk=74602672F50D417FAAA2CFCF258D567C&UUID=99a3c63b-ae20-4e92-947f-2f25f6b2d8cf&userCode=default&userName=default&spCode=484581254562&productCode=2&resourceCode=10032&subId=123&resourceName=&authType=2
+I/dvb_OTTPlayer( 2677): [play] String path:http://live.feifeikan.com/live/coship,CCTV1HD.m3u8?fmt=x264_0k_mpegts&sora=1&sk=74602672F50D417FAAA2CFCF258D567C&UUID=99a3c63b-ae20-4e92-947f-2f25f6b2d8cf&userCode=default&userName=default&spCode=484581254562&productCode=2&resourceCode=10032&subId=123&resourceName=&authType=2
+D/MediaPlayerService(  744):  Create MstarPlayer
+D/MstarPlayer(  744): Create MstarPlayer:0x303e8,Version:Release Mstar player lib Version:0015,Base CL:690305  Date:2012/11/06
+D/MstarPlayer(  744): TV Local Time :  Sun Apr  7 11:28:55 2013
+D/MstarPlayer(  744):  
+D/MstarPlayer(  744): setInstance: 0x303e8
+D/MstarPlayer(  744): mstar player set listener
+D/MstarPlayer(  744): MstarPlayer::initCheck
+D/MediaPlayerService(  744): [23] setVideoSurfaceTexture(0x216d80)
+D/MstarPlayer(  744): MstarPlayer::setVideoSurfaceTexture 
+D/MstarPlayer(  744): open mHwcFifoFD = 21
+D/MediaPlayerService(  744): [23] setVideoSurfaceTexture(0x22eaa8)
+D/MstarPlayer(  744): MstarPlayer::prepareAsync
+D/MstarPlayer(  744): 
+D/MstarPlayer(  744):  MstarPlayer::doSetDataSource
+D/MstarPlayer(  744): MstarPlayer::clearAllSource
+D/MstarPlayer(  744): 
+D/MstarPlayer(  744):  MstarPlayer::doSetDataSource: url=http://live.feifeikan.com/live/coship,CCTV1HD.m3u8?fmt=x264_0k_mpegts&sora=1&sk=74602672F50D417FAAA2CFCF258D567C&UUID=99a3c63b-ae20-4e92-947f-2f25f6b2d8cf&userCode=default&userName=default&spCode=484581254562&productCode=2&resourceCode=10032&subId=123&resourceName=&authType=2
+D/Downloader(  744): Release Mstar Content Source CL:493363  Date:2013/03/20
+D/Downloader(  744): Curl Version:libcurl/7.21.7 OpenSSL/1.0.0e
+D/Downloader(  744): [downloadThread]init a multi curl done.curlm:0x24440 pRingBuffer:0x48ad48
+D/DataSource_M3U8(  744): [M3U8]ContentSource_M3U8 contruct done
+D/DataSource_M3U8(  744): [M3U8] try parseURLs=http://live.feifeikan.com/live/coship,CCTV1HD.m3u8?fmt=x264_0k_mpegts&sora=1&sk=74602672F50D417FAAA2CFCF258D567C&UUID=99a3c63b-ae20-4e92-947f-2f25f6b2d8cf&userCode=default&userName=default&spCode=484581254562&productCode=2&resourceCode=10032&subId=123&resourceName=&authType=2
+D/DataSource_M3U8(  744): bg thread ready to run
+D/DataSource_M3U8(  744): bg thread 5152352
+D/DataSource_M3U8(  744): bg thread ready to run
+D/Downloader(  744): [downloadThread]Downloader::removeTask  
+I/ActivityManager(  989): Displayed com.coship.dvbplayer/.main: +807ms
+W/InputManagerService(  989): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@4167e138 (uid=1000 pid=3497)
+D/HomePlayerLib( 2256): hostaddress count is 1
+D/dalvikvm( 2256): GC_CONCURRENT freed 1947K, 46% free 7266K/13443K, paused 3ms+4ms
+D/dalvikvm( 2256): GC_CONCURRENT freed 1954K, 46% free 7381K/13443K, paused 6ms+4ms
+D/MonitorCw880( 3627): currentRemoteHost is null ,continue
+E/ServerHandler( 3497): receiveRequest
+V/OtORequest( 3497): parseCommand
+V/OtORequest( 3497): get command=103
+V/OtORequest( 3497): parse OtORequest: cmd=103 paramLength=0 bufferlen=8
+D/OtOService( 3497): client request get status.playType:2
+D/OtOService( 3497): callback N: 1
+D/OtOService( 3497): send callback: 101
+D/dvb_ServiceAdapter( 2677): dvb_ResultCallBack: what:101   arg1:0
+D/OtOService( 3497): VOB　sync :com.aidufei.otoService.PlayEvent@4184df68
+D/OtOService( 3497): --resourceCode: null --ShiftTime:0 --timeCode:0 --delay: 0
+E/ServerAdapter( 3497): ServerAdapter:0
+E/ServerHandler( 3497): Send:com.aidufei.protocol.oto.OtOStatusRequest@41582d90
+D/ServerHandler( 3497): ServerHandler send request:103:{"ResourceInfo":{"ShiftEnd":0,"TimeCode":0,"PlayType":3,"ResourceName":"","ProductCode":"","ShiftTime":0,"ResourceCode":""},"Status":{"ReturnCode":100,"Description":"ok"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 3497): ServerHandler send DatagramPacket:/192.168.1.194-[B@42e36ff0
+D/OtOService( 3497): send callback obj: com.aidufei.otoService.IServiceCallBack$Stub$Proxy@41802e10
+E/ServerAdapter( 3497): ServerAdapter:0
+E/ServerHandler( 3497): Send:com.aidufei.protocol.oto.OtOStatusRequest@41801318
+D/ServerHandler( 3497): ServerHandler send request:103:{"Status":{"ReturnCode":99,"Description":"status sync processing"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 3497): ServerHandler send DatagramPacket:/192.168.1.194-[B@41ff5270
+D/MonitorCw880( 3627): currentRemoteHost is null ,continue
+E/ServerHandler( 3497): receiveRequest
+V/OtORequest( 3497): parseCommand
+V/OtORequest( 3497): get command=103
+V/OtORequest( 3497): parse OtORequest: cmd=103 paramLength=0 bufferlen=8
+D/OtOService( 3497): client request get status.playType:2
+D/OtOService( 3497): callback N: 1
+D/OtOService( 3497): send callback: 101
+D/dvb_ServiceAdapter( 2677): dvb_ResultCallBack: what:101   arg1:0
+D/OtOService( 3497): VOB　sync :com.aidufei.otoService.PlayEvent@41801cd8
+D/OtOService( 3497): --resourceCode: null --ShiftTime:0 --timeCode:0 --delay: 0
+E/ServerAdapter( 3497): ServerAdapter:0
+E/ServerHandler( 3497): Send:com.aidufei.protocol.oto.OtOStatusRequest@41883618
+D/ServerHandler( 3497): ServerHandler send request:103:{"ResourceInfo":{"ShiftEnd":0,"TimeCode":0,"PlayType":3,"ResourceName":"","ProductCode":"","ShiftTime":0,"ResourceCode":""},"Status":{"ReturnCode":100,"Description":"ok"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 3497): ServerHandler send DatagramPacket:/192.168.1.194-[B@42061218
+D/OtOService( 3497): send callback obj: com.aidufei.otoService.IServiceCallBack$Stub$Proxy@41802e10
+E/ServerAdapter( 3497): ServerAdapter:0
+E/ServerHandler( 3497): Send:com.aidufei.protocol.oto.OtOStatusRequest@417315b0
+D/ServerHandler( 3497): ServerHandler send request:103:{"Status":{"ReturnCode":99,"Description":"status sync processing"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 3497): ServerHandler send DatagramPacket:/192.168.1.194-[B@41f4f990
+E/ServerHandler( 3497): receiveRequest
+V/OtORequest( 3497): parseCommand
+V/OtORequest( 3497): get command=103
+V/OtORequest( 3497): parse OtORequest: cmd=103 paramLength=0 bufferlen=8
+D/OtOService( 3497): client request get status.playType:2
+D/OtOService( 3497): callback N: 1
+D/OtOService( 3497): send callback: 101
+D/dvb_ServiceAdapter( 2677): dvb_ResultCallBack: what:101   arg1:0
+D/OtOService( 3497): VOB　sync :com.aidufei.otoService.PlayEvent@41b614b0
+D/OtOService( 3497): --resourceCode: null --ShiftTime:0 --timeCode:0 --delay: 0
+E/ServerAdapter( 3497): ServerAdapter:0
+E/ServerHandler( 3497): Send:com.aidufei.protocol.oto.OtOStatusRequest@417ece48
+D/ServerHandler( 3497): ServerHandler send request:103:{"ResourceInfo":{"ShiftEnd":0,"TimeCode":0,"PlayType":3,"ResourceName":"","ProductCode":"","ShiftTime":0,"ResourceCode":""},"Status":{"ReturnCode":100,"Description":"ok"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 3497): ServerHandler send DatagramPacket:/192.168.1.194-[B@41f88140
+D/OtOService( 3497): send callback obj: com.aidufei.otoService.IServiceCallBack$Stub$Proxy@41802e10
+E/ServerAdapter( 3497): ServerAdapter:0
+E/ServerHandler( 3497): Send:com.aidufei.protocol.oto.OtOStatusRequest@41f4dda8
+D/ServerHandler( 3497): ServerHandler send request:103:{"Status":{"ReturnCode":99,"Description":"status sync processing"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 3497): ServerHandler send DatagramPacket:/192.168.1.194-[B@414ea490
+D/DataSource_M3U8(  744): parseURLs : waiting 10010 ms 
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744): Error : m3u8filelength = 0! 
+D/DataSource_M3U8(  744): [M3U8] try parseURLs=http://live.feifeikan.com/live/coship,CCTV1HD.m3u8?fmt=x264_0k_mpegts&sora=1&sk=74602672F50D417FAAA2CFCF258D567C&UUID=99a3c63b-ae20-4e92-947f-2f25f6b2d8cf&userCode=default&userName=default&spCode=484581254562&productCode=2&resourceCode=10032&subId=123&resourceName=&authType=2
+D/dhcpcd  ( 3962): sending DHCP_DISCOVER with xid 0xf062d99a, next in 31.02 seconds
+D/HomePlayerLib( 2256): hostaddress count is 1
+D/dalvikvm( 2256): GC_CONCURRENT freed 2077K, 46% free 7356K/13443K, paused 2ms+3ms
+E/ServerHandler( 3497): receiveRequest
+V/OtORequest( 3497): parseCommand
+V/OtORequest( 3497): get command=103
+V/OtORequest( 3497): parse OtORequest: cmd=103 paramLength=0 bufferlen=8
+D/OtOService( 3497): client request get status.playType:2
+D/OtOService( 3497): callback N: 1
+D/OtOService( 3497): send callback: 101
+D/dvb_ServiceAdapter( 2677): dvb_ResultCallBack: what:101   arg1:0
+D/OtOService( 3497): VOB　sync :com.aidufei.otoService.PlayEvent@4173d208
+D/OtOService( 3497): --resourceCode: null --ShiftTime:0 --timeCode:0 --delay: 0
+E/ServerAdapter( 3497): ServerAdapter:0
+E/ServerHandler( 3497): Send:com.aidufei.protocol.oto.OtOStatusRequest@41fdeb48
+D/ServerHandler( 3497): ServerHandler send request:103:{"ResourceInfo":{"ShiftEnd":0,"TimeCode":0,"PlayType":3,"ResourceName":"","ProductCode":"","ShiftTime":0,"ResourceCode":""},"Status":{"ReturnCode":100,"Description":"ok"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 3497): ServerHandler send DatagramPacket:/192.168.1.194-[B@41846b48
+D/OtOService( 3497): send callback obj: com.aidufei.otoService.IServiceCallBack$Stub$Proxy@41802e10
+E/ServerAdapter( 3497): ServerAdapter:0
+E/ServerHandler( 3497): Send:com.aidufei.protocol.oto.OtOStatusRequest@41882478
+D/ServerHandler( 3497): ServerHandler send request:103:{"Status":{"ReturnCode":99,"Description":"status sync processing"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 3497): ServerHandler send DatagramPacket:/192.168.1.194-[B@42014510
+D/MonitorCw880( 3627): currentRemoteHost is null ,continue
+D/dalvikvm( 2256): GC_CONCURRENT freed 2042K, 46% free 7277K/13443K, paused 2ms+3ms
+E/ServerHandler( 3497): receiveRequest
+V/OtORequest( 3497): parseCommand
+V/OtORequest( 3497): get command=103
+V/OtORequest( 3497): parse OtORequest: cmd=103 paramLength=0 bufferlen=8
+D/OtOService( 3497): client request get status.playType:2
+D/OtOService( 3497): callback N: 1
+D/OtOService( 3497): send callback: 101
+D/dvb_ServiceAdapter( 2677): dvb_ResultCallBack: what:101   arg1:0
+D/OtOService( 3497): VOB　sync :com.aidufei.otoService.PlayEvent@42d3fac8
+D/OtOService( 3497): --resourceCode: null --ShiftTime:0 --timeCode:0 --delay: 0
+E/ServerAdapter( 3497): ServerAdapter:0
+E/ServerHandler( 3497): Send:com.aidufei.protocol.oto.OtOStatusRequest@416e6e40
+D/ServerHandler( 3497): ServerHandler send request:103:{"ResourceInfo":{"ShiftEnd":0,"TimeCode":0,"PlayType":3,"ResourceName":"","ProductCode":"","ShiftTime":0,"ResourceCode":""},"Status":{"ReturnCode":100,"Description":"ok"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 3497): ServerHandler send DatagramPacket:/192.168.1.194-[B@4173a138
+D/OtOService( 3497): send callback obj: com.aidufei.otoService.IServiceCallBack$Stub$Proxy@41802e10
+E/ServerAdapter( 3497): ServerAdapter:0
+E/ServerHandler( 3497): Send:com.aidufei.protocol.oto.OtOStatusRequest@41b683f8
+D/ServerHandler( 3497): ServerHandler send request:103:{"Status":{"ReturnCode":99,"Description":"status sync processing"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 3497): ServerHandler send DatagramPacket:/192.168.1.194-[B@41f87dd8
+E/ServerHandler( 3497): receiveRequest
+V/OtORequest( 3497): parseCommand
+V/OtORequest( 3497): get command=103
+V/OtORequest( 3497): parse OtORequest: cmd=103 paramLength=0 bufferlen=8
+D/OtOService( 3497): client request get status.playType:2
+D/OtOService( 3497): callback N: 1
+D/OtOService( 3497): send callback: 101
+D/dvb_ServiceAdapter( 2677): dvb_ResultCallBack: what:101   arg1:0
+D/OtOService( 3497): VOB　sync :com.aidufei.otoService.PlayEvent@41f89e28
+D/OtOService( 3497): --resourceCode: null --ShiftTime:0 --timeCode:0 --delay: 0
+E/ServerAdapter( 3497): ServerAdapter:0
+E/ServerHandler( 3497): Send:com.aidufei.protocol.oto.OtOStatusRequest@41f87428
+D/ServerHandler( 3497): ServerHandler send request:103:{"ResourceInfo":{"ShiftEnd":0,"TimeCode":0,"PlayType":3,"ResourceName":"","ProductCode":"","ShiftTime":0,"ResourceCode":""},"Status":{"ReturnCode":100,"Description":"ok"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 3497): ServerHandler send DatagramPacket:/192.168.1.194-[B@41fe4668
+D/OtOService( 3497): send callback obj: com.aidufei.otoService.IServiceCallBack$Stub$Proxy@41802e10
+E/ServerAdapter( 3497): ServerAdapter:0
+E/ServerHandler( 3497): Send:com.aidufei.protocol.oto.OtOStatusRequest@41f932d8
+D/ServerHandler( 3497): ServerHandler send request:103:{"Status":{"ReturnCode":99,"Description":"status sync processing"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 3497): ServerHandler send DatagramPacket:/192.168.1.194-[B@41f85078
+D/MonitorCw880( 3627): currentRemoteHost is null ,continue
+E/ServerHandler( 3497): receiveRequest
+V/OtORequest( 3497): parseCommand
+V/OtORequest( 3497): get command=103
+V/OtORequest( 3497): parse OtORequest: cmd=103 paramLength=0 bufferlen=8
+D/OtOService( 3497): client request get status.playType:2
+D/OtOService( 3497): callback N: 1
+D/OtOService( 3497): send callback: 101
+D/dvb_ServiceAdapter( 2677): dvb_ResultCallBack: what:101   arg1:0
+D/OtOService( 3497): VOB　sync :com.aidufei.otoService.PlayEvent@417d8038
+D/OtOService( 3497): --resourceCode: null --ShiftTime:0 --timeCode:0 --delay: 0
+E/ServerAdapter( 3497): ServerAdapter:0
+E/ServerHandler( 3497): Send:com.aidufei.protocol.oto.OtOStatusRequest@41859900
+D/ServerHandler( 3497): ServerHandler send request:103:{"ResourceInfo":{"ShiftEnd":0,"TimeCode":0,"PlayType":3,"ResourceName":"","ProductCode":"","ShiftTime":0,"ResourceCode":""},"Status":{"ReturnCode":100,"Description":"ok"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 3497): ServerHandler send DatagramPacket:/192.168.1.194-[B@41882f08
+D/OtOService( 3497): send callback obj: com.aidufei.otoService.IServiceCallBack$Stub$Proxy@41802e10
+E/ServerAdapter( 3497): ServerAdapter:0
+E/ServerHandler( 3497): Send:com.aidufei.protocol.oto.OtOStatusRequest@41844ac8
+D/ServerHandler( 3497): ServerHandler send request:103:{"Status":{"ReturnCode":99,"Description":"status sync processing"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 3497): ServerHandler send DatagramPacket:/192.168.1.194-[B@41f77b18
+E/ServerHandler( 3497): receiveRequest
+V/OtORequest( 3497): parseCommand
+V/OtORequest( 3497): get command=103
+V/OtORequest( 3497): parse OtORequest: cmd=103 paramLength=0 bufferlen=8
+D/OtOService( 3497): client request get status.playType:2
+D/OtOService( 3497): callback N: 1
+D/OtOService( 3497): send callback: 101
+D/dvb_ServiceAdapter( 2677): dvb_ResultCallBack: what:101   arg1:0
+D/OtOService( 3497): VOB　sync :com.aidufei.otoService.PlayEvent@4185ba20
+D/OtOService( 3497): --resourceCode: null --ShiftTime:0 --timeCode:0 --delay: 0
+E/ServerAdapter( 3497): ServerAdapter:0
+E/ServerHandler( 3497): Send:com.aidufei.protocol.oto.OtOStatusRequest@41880ab8
+D/ServerHandler( 3497): ServerHandler send request:103:{"ResourceInfo":{"ShiftEnd":0,"TimeCode":0,"PlayType":3,"ResourceName":"","ProductCode":"","ShiftTime":0,"ResourceCode":""},"Status":{"ReturnCode":100,"Description":"ok"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 3497): ServerHandler send DatagramPacket:/192.168.1.194-[B@41699ff8
+D/OtOService( 3497): send callback obj: com.aidufei.otoService.IServiceCallBack$Stub$Proxy@41802e10
+E/ServerAdapter( 3497): ServerAdapter:0
+E/ServerHandler( 3497): Send:com.aidufei.protocol.oto.OtOStatusRequest@41fe0588
+D/ServerHandler( 3497): ServerHandler send request:103:{"Status":{"ReturnCode":99,"Description":"status sync processing"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 3497): ServerHandler send DatagramPacket:/192.168.1.194-[B@4185eaf0
+D/DataSource_M3U8(  744): parseURLs : waiting 10010 ms 
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744): Error : m3u8filelength = 0! 
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744):  Error :  parseURLs error  urlNum < 0!!!!
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744):  ContentSource_M3U8 construct Error !!
+D/Downloader(  744): Enter Downloader::ForceExit ! 
+D/DataSource_M3U8(  744): [M3U8]request to exit download thread
+D/MonitorCw880( 3627): currentRemoteHost is null ,continue
+E/ServerHandler( 3497): receiveRequest
+V/OtORequest( 3497): parseCommand
+V/OtORequest( 3497): get command=103
+V/OtORequest( 3497): parse OtORequest: cmd=103 paramLength=0 bufferlen=8
+D/OtOService( 3497): client request get status.playType:2
+D/OtOService( 3497): callback N: 1
+D/OtOService( 3497): send callback: 101
+D/dvb_ServiceAdapter( 2677): dvb_ResultCallBack: what:101   arg1:0
+D/OtOService( 3497): VOB　sync :com.aidufei.otoService.PlayEvent@41f899e0
+D/OtOService( 3497): --resourceCode: null --ShiftTime:0 --timeCode:0 --delay: 0
+E/ServerAdapter( 3497): ServerAdapter:0
+E/ServerHandler( 3497): Send:com.aidufei.protocol.oto.OtOStatusRequest@41fad068
+D/ServerHandler( 3497): ServerHandler send request:103:{"ResourceInfo":{"ShiftEnd":0,"TimeCode":0,"PlayType":3,"ResourceName":"","ProductCode":"","ShiftTime":0,"ResourceCode":""},"Status":{"ReturnCode":100,"Description":"ok"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 3497): ServerHandler send DatagramPacket:/192.168.1.194-[B@41856340
+D/OtOService( 3497): send callback obj: com.aidufei.otoService.IServiceCallBack$Stub$Proxy@41802e10
+E/ServerAdapter( 3497): ServerAdapter:0
+E/ServerHandler( 3497): Send:com.aidufei.protocol.oto.OtOStatusRequest@41b77158
+D/ServerHandler( 3497): ServerHandler send request:103:{"Status":{"ReturnCode":99,"Description":"status sync processing"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 3497): ServerHandler send DatagramPacket:/192.168.1.194-[B@41f98b88
+D/HomePlayerLib( 2256): hostaddress count is 1
+D/dalvikvm( 2256): GC_CONCURRENT freed 1990K, 46% free 7374K/13443K, paused 2ms+5ms
+D/dalvikvm( 2256): GC_CONCURRENT freed 2079K, 46% free 7290K/13443K, paused 3ms+3ms
+E/ServerHandler( 3497): receiveRequest
+V/OtORequest( 3497): parseCommand
+V/OtORequest( 3497): get command=103
+V/OtORequest( 3497): parse OtORequest: cmd=103 paramLength=0 bufferlen=8
+D/OtOService( 3497): client request get status.playType:2
+D/OtOService( 3497): callback N: 1
+D/OtOService( 3497): send callback: 101
+D/dvb_ServiceAdapter( 2677): dvb_ResultCallBack: what:101   arg1:0
+D/OtOService( 3497): VOB　sync :com.aidufei.otoService.PlayEvent@4169a700
+D/OtOService( 3497): --resourceCode: null --ShiftTime:0 --timeCode:0 --delay: 0
+E/ServerAdapter( 3497): ServerAdapter:0
+E/ServerHandler( 3497): Send:com.aidufei.protocol.oto.OtOStatusRequest@4183aa98
+D/ServerHandler( 3497): ServerHandler send request:103:{"ResourceInfo":{"ShiftEnd":0,"TimeCode":0,"PlayType":3,"ResourceName":"","ProductCode":"","ShiftTime":0,"ResourceCode":""},"Status":{"ReturnCode":100,"Description":"ok"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 3497): ServerHandler send DatagramPacket:/192.168.1.194-[B@41801eb8
+D/OtOService( 3497): send callback obj: com.aidufei.otoService.IServiceCallBack$Stub$Proxy@41802e10
+E/ServerAdapter( 3497): ServerAdapter:0
+E/ServerHandler( 3497): Send:com.aidufei.protocol.oto.OtOStatusRequest@41f9f988
+D/ServerHandler( 3497): ServerHandler send request:103:{"Status":{"ReturnCode":99,"Description":"status sync processing"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 3497): ServerHandler send DatagramPacket:/192.168.1.194-[B@41839080
+E/ServerHandler( 3497): receiveRequest
+V/OtORequest( 3497): parseCommand
+V/OtORequest( 3497): get command=103
+V/OtORequest( 3497): parse OtORequest: cmd=103 paramLength=0 bufferlen=8
+D/OtOService( 3497): client request get status.playType:2
+D/OtOService( 3497): callback N: 1
+D/OtOService( 3497): send callback: 101
+D/dvb_ServiceAdapter( 2677): dvb_ResultCallBack: what:101   arg1:0
+D/OtOService( 3497): VOB　sync :com.aidufei.otoService.PlayEvent@4221ac28
+D/OtOService( 3497): --resourceCode: null --ShiftTime:0 --timeCode:0 --delay: 0
+E/ServerAdapter( 3497): ServerAdapter:0
+E/ServerHandler( 3497): Send:com.aidufei.protocol.oto.OtOStatusRequest@42017ba8
+D/ServerHandler( 3497): ServerHandler send request:103:{"ResourceInfo":{"ShiftEnd":0,"TimeCode":0,"PlayType":3,"ResourceName":"","ProductCode":"","ShiftTime":0,"ResourceCode":""},"Status":{"ReturnCode":100,"Description":"ok"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 3497): ServerHandler send DatagramPacket:/192.168.1.194-[B@417a65d8
+D/OtOService( 3497): send callback obj: com.aidufei.otoService.IServiceCallBack$Stub$Proxy@41802e10
+E/ServerAdapter( 3497): ServerAdapter:0
+E/ServerHandler( 3497): Send:com.aidufei.protocol.oto.OtOStatusRequest@4182a548
+D/ServerHandler( 3497): ServerHandler send request:103:{"Status":{"ReturnCode":99,"Description":"status sync processing"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 3497): ServerHandler send DatagramPacket:/192.168.1.194-[B@41604d58
+D/MonitorCw880( 3627): currentRemoteHost is null ,continue
+E/ServerHandler( 3497): receiveRequest
+V/OtORequest( 3497): parseCommand
+V/OtORequest( 3497): get command=103
+V/OtORequest( 3497): parse OtORequest: cmd=103 paramLength=0 bufferlen=8
+D/OtOService( 3497): client request get status.playType:2
+D/OtOService( 3497): callback N: 1
+D/OtOService( 3497): send callback: 101
+D/dvb_ServiceAdapter( 2677): dvb_ResultCallBack: what:101   arg1:0
+D/OtOService( 3497): VOB　sync :com.aidufei.otoService.PlayEvent@4162ada0
+D/OtOService( 3497): --resourceCode: null --ShiftTime:0 --timeCode:0 --delay: 0
+E/ServerAdapter( 3497): ServerAdapter:0
+E/ServerHandler( 3497): Send:com.aidufei.protocol.oto.OtOStatusRequest@4201d110
+D/ServerHandler( 3497): ServerHandler send request:103:{"ResourceInfo":{"ShiftEnd":0,"TimeCode":0,"PlayType":3,"ResourceName":"","ProductCode":"","ShiftTime":0,"ResourceCode":""},"Status":{"ReturnCode":100,"Description":"ok"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 3497): ServerHandler send DatagramPacket:/192.168.1.194-[B@4221a3d8
+D/OtOService( 3497): send callback obj: com.aidufei.otoService.IServiceCallBack$Stub$Proxy@41802e10
+E/ServerAdapter( 3497): ServerAdapter:0
+E/ServerHandler( 3497): Send:com.aidufei.protocol.oto.OtOStatusRequest@4173fd68
+D/ServerHandler( 3497): ServerHandler send request:103:{"Status":{"ReturnCode":99,"Description":"status sync processing"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 3497): ServerHandler send DatagramPacket:/192.168.1.194-[B@41859c78
+E/ServerHandler( 3497): receiveRequest
+V/OtORequest( 3497): parseCommand
+V/OtORequest( 3497): get command=103
+V/OtORequest( 3497): parse OtORequest: cmd=103 paramLength=0 bufferlen=8
+D/OtOService( 3497): client request get status.playType:2
+D/OtOService( 3497): callback N: 1
+D/OtOService( 3497): send callback: 101
+D/dvb_ServiceAdapter( 2677): dvb_ResultCallBack: what:101   arg1:0
+D/OtOService( 3497): VOB　sync :com.aidufei.otoService.PlayEvent@41ff80a8
+D/OtOService( 3497): --resourceCode: null --ShiftTime:0 --timeCode:0 --delay: 0
+E/ServerAdapter( 3497): ServerAdapter:0
+E/ServerHandler( 3497): Send:com.aidufei.protocol.oto.OtOStatusRequest@41ffd9c8
+D/ServerHandler( 3497): ServerHandler send request:103:{"ResourceInfo":{"ShiftEnd":0,"TimeCode":0,"PlayType":3,"ResourceName":"","ProductCode":"","ShiftTime":0,"ResourceCode":""},"Status":{"ReturnCode":100,"Description":"ok"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 3497): ServerHandler send DatagramPacket:/192.168.1.194-[B@41b5ea20
+D/OtOService( 3497): send callback obj: com.aidufei.otoService.IServiceCallBack$Stub$Proxy@41802e10
+E/ServerAdapter( 3497): ServerAdapter:0
+E/ServerHandler( 3497): Send:com.aidufei.protocol.oto.OtOStatusRequest@41b60d18
+D/ServerHandler( 3497): ServerHandler send request:103:{"Status":{"ReturnCode":99,"Description":"status sync processing"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 3497): ServerHandler send DatagramPacket:/192.168.1.194-[B@41ff6f28
+D/DataSource_M3U8(  744): ----------UpdatePlaylistThread runing... 
+E/ServerHandler( 3497): receiveRequest
+V/OtORequest( 3497): parseCommand
+V/OtORequest( 3497): get command=103
+V/OtORequest( 3497): parse OtORequest: cmd=103 paramLength=0 bufferlen=8
+D/OtOService( 3497): client request get status.playType:2
+D/OtOService( 3497): callback N: 1
+D/OtOService( 3497): send callback: 101
+D/dvb_ServiceAdapter( 2677): dvb_ResultCallBack: what:101   arg1:0
+D/OtOService( 3497): VOB　sync :com.aidufei.otoService.PlayEvent@41fd7b50
+D/OtOService( 3497): --resourceCode: null --ShiftTime:0 --timeCode:0 --delay: 0
+E/ServerAdapter( 3497): ServerAdapter:0
+E/ServerHandler( 3497): Send:com.aidufei.protocol.oto.OtOStatusRequest@41b654c0
+D/ServerHandler( 3497): ServerHandler send request:103:{"ResourceInfo":{"ShiftEnd":0,"TimeCode":0,"PlayType":3,"ResourceName":"","ProductCode":"","ShiftTime":0,"ResourceCode":""},"Status":{"ReturnCode":100,"Description":"ok"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 3497): ServerHandler send DatagramPacket:/192.168.1.194-[B@42d42fc0
+D/OtOService( 3497): send callback obj: com.aidufei.otoService.IServiceCallBack$Stub$Proxy@41802e10
+E/ServerAdapter( 3497): ServerAdapter:0
+E/ServerHandler( 3497): Send:com.aidufei.protocol.oto.OtOStatusRequest@41845d20
+D/ServerHandler( 3497): ServerHandler send request:103:{"Status":{"ReturnCode":99,"Description":"status sync processing"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 3497): ServerHandler send DatagramPacket:/192.168.1.194-[B@41f99a50
+D/MonitorCw880( 3627): currentRemoteHost is null ,continue
+D/dalvikvm( 2256): GC_CONCURRENT freed 1997K, 46% free 7299K/13443K, paused 3ms+3ms
+D/HomePlayerLib( 2256): hostaddress count is 1
+E/ServerHandler( 3497): receiveRequest
+V/OtORequest( 3497): parseCommand
+V/OtORequest( 3497): get command=103
+V/OtORequest( 3497): parse OtORequest: cmd=103 paramLength=0 bufferlen=8
+D/OtOService( 3497): client request get status.playType:2
+D/OtOService( 3497): callback N: 1
+D/OtOService( 3497): send callback: 101
+D/dvb_ServiceAdapter( 2677): dvb_ResultCallBack: what:101   arg1:0
+D/OtOService( 3497): VOB　sync :com.aidufei.otoService.PlayEvent@417b4d30
+D/OtOService( 3497): --resourceCode: null --ShiftTime:0 --timeCode:0 --delay: 0
+E/ServerAdapter( 3497): ServerAdapter:0
+E/ServerHandler( 3497): Send:com.aidufei.protocol.oto.OtOStatusRequest@41fae210
+D/ServerHandler( 3497): ServerHandler send request:103:{"ResourceInfo":{"ShiftEnd":0,"TimeCode":0,"PlayType":3,"ResourceName":"","ProductCode":"","ShiftTime":0,"ResourceCode":""},"Status":{"ReturnCode":100,"Description":"ok"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 3497): ServerHandler send DatagramPacket:/192.168.1.194-[B@41f6aac0
+D/OtOService( 3497): send callback obj: com.aidufei.otoService.IServiceCallBack$Stub$Proxy@41802e10
+E/ServerAdapter( 3497): ServerAdapter:0
+E/ServerHandler( 3497): Send:com.aidufei.protocol.oto.OtOStatusRequest@41f78338
+D/ServerHandler( 3497): ServerHandler send request:103:{"Status":{"ReturnCode":99,"Description":"status sync processing"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 3497): ServerHandler send DatagramPacket:/192.168.1.194-[B@41fa2408
+D/dalvikvm( 2256): GC_CONCURRENT freed 2002K, 46% free 7325K/13443K, paused 3ms+3ms
+D/dalvikvm( 2256): GC_CONCURRENT freed 2031K, 47% free 7239K/13443K, paused 3ms+3ms
+E/ServerHandler( 3497): receiveRequest
+V/OtORequest( 3497): parseCommand
+V/OtORequest( 3497): get command=103
+V/OtORequest( 3497): parse OtORequest: cmd=103 paramLength=0 bufferlen=8
+D/OtOService( 3497): client request get status.playType:2
+D/OtOService( 3497): callback N: 1
+D/OtOService( 3497): send callback: 101
+D/dvb_ServiceAdapter( 2677): dvb_ResultCallBack: what:101   arg1:0
+D/OtOService( 3497): VOB　sync :com.aidufei.otoService.PlayEvent@41fe6fd8
+D/OtOService( 3497): --resourceCode: null --ShiftTime:0 --timeCode:0 --delay: 0
+E/ServerAdapter( 3497): ServerAdapter:0
+E/ServerHandler( 3497): Send:com.aidufei.protocol.oto.OtOStatusRequest@41fe74b0
+D/ServerHandler( 3497): ServerHandler send request:103:{"ResourceInfo":{"ShiftEnd":0,"TimeCode":0,"PlayType":3,"ResourceName":"","ProductCode":"","ShiftTime":0,"ResourceCode":""},"Status":{"ReturnCode":100,"Description":"ok"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 3497): ServerHandler send DatagramPacket:/192.168.1.194-[B@41873730
+D/OtOService( 3497): send callback obj: com.aidufei.otoService.IServiceCallBack$Stub$Proxy@41802e10
+E/ServerAdapter( 3497): ServerAdapter:0
+E/ServerHandler( 3497): Send:com.aidufei.protocol.oto.OtOStatusRequest@4183c440
+D/ServerHandler( 3497): ServerHandler send request:103:{"Status":{"ReturnCode":99,"Description":"status sync processing"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 3497): ServerHandler send DatagramPacket:/192.168.1.194-[B@42218a18
+D/MonitorCw880( 3627): currentRemoteHost is null ,continue
+E/ServerHandler( 3497): receiveRequest
+V/OtORequest( 3497): parseCommand
+V/OtORequest( 3497): get command=103
+V/OtORequest( 3497): parse OtORequest: cmd=103 paramLength=0 bufferlen=8
+D/OtOService( 3497): client request get status.playType:2
+D/OtOService( 3497): callback N: 1
+D/OtOService( 3497): send callback: 101
+D/dvb_ServiceAdapter( 2677): dvb_ResultCallBack: what:101   arg1:0
+D/OtOService( 3497): VOB　sync :com.aidufei.otoService.PlayEvent@4202beb8
+D/OtOService( 3497): --resourceCode: null --ShiftTime:0 --timeCode:0 --delay: 0
+E/ServerAdapter( 3497): ServerAdapter:0
+E/ServerHandler( 3497): Send:com.aidufei.protocol.oto.OtOStatusRequest@41b7ffd0
+D/ServerHandler( 3497): ServerHandler send request:103:{"ResourceInfo":{"ShiftEnd":0,"TimeCode":0,"PlayType":3,"ResourceName":"","ProductCode":"","ShiftTime":0,"ResourceCode":""},"Status":{"ReturnCode":100,"Description":"ok"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 3497): ServerHandler send DatagramPacket:/192.168.1.194-[B@41b6d0a0
+D/OtOService( 3497): send callback obj: com.aidufei.otoService.IServiceCallBack$Stub$Proxy@41802e10
+E/ServerAdapter( 3497): ServerAdapter:0
+E/ServerHandler( 3497): Send:com.aidufei.protocol.oto.OtOStatusRequest@4205f338
+D/ServerHandler( 3497): ServerHandler send request:103:{"Status":{"ReturnCode":99,"Description":"status sync processing"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 3497): ServerHandler send DatagramPacket:/192.168.1.194-[B@4205fa20
+E/ServerHandler( 3497): receiveRequest
+V/OtORequest( 3497): parseCommand
+V/OtORequest( 3497): get command=103
+V/OtORequest( 3497): parse OtORequest: cmd=103 paramLength=0 bufferlen=8
+D/OtOService( 3497): client request get status.playType:2
+D/OtOService( 3497): callback N: 1
+D/OtOService( 3497): send callback: 101
+D/dvb_ServiceAdapter( 2677): dvb_ResultCallBack: what:101   arg1:0
+D/OtOService( 3497): VOB　sync :com.aidufei.otoService.PlayEvent@41f859d8
+D/OtOService( 3497): --resourceCode: null --ShiftTime:0 --timeCode:0 --delay: 0
+E/ServerAdapter( 3497): ServerAdapter:0
+E/ServerHandler( 3497): Send:com.aidufei.protocol.oto.OtOStatusRequest@41b61df0
+D/ServerHandler( 3497): ServerHandler send request:103:{"ResourceInfo":{"ShiftEnd":0,"TimeCode":0,"PlayType":3,"ResourceName":"","ProductCode":"","ShiftTime":0,"ResourceCode":""},"Status":{"ReturnCode":100,"Description":"ok"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 3497): ServerHandler send DatagramPacket:/192.168.1.194-[B@4185bd80
+D/OtOService( 3497): send callback obj: com.aidufei.otoService.IServiceCallBack$Stub$Proxy@41802e10
+E/ServerAdapter( 3497): ServerAdapter:0
+E/ServerHandler( 3497): Send:com.aidufei.protocol.oto.OtOStatusRequest@41b5ee08
+D/ServerHandler( 3497): ServerHandler send request:103:{"Status":{"ReturnCode":99,"Description":"status sync processing"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 3497): ServerHandler send DatagramPacket:/192.168.1.194-[B@417f1b08
+D/DataSource_M3U8(  744): [ContentSource_M3U8] DownloadThread Exit Done..
+D/DataSource_M3U8(  744): [M3U8]request to exit mPlaylistThread thread
+D/Downloader(  744): Enter Downloader::ForceExit ! 
+D/Downloader(  744): [downloadThread]Downloader::removeTask  
+D/Downloader(  744): ~Downloader
+D/MstarPlayer(  744): MstarPlayer::doPrepare
+D/MstarPlayer(  744): 
+D/MstarPlayer(  744):  Error : ContentSource_M3U8 initCheck! 
+D/MediaPlayerService(  744): [23] notify (0x3de18, 100, 1, -1001)
+E/MediaPlayer( 2677): error (1, -1001)
+E/MediaPlayer.java( 2677): Error (1,-1001)
+I/dvb_LoadTips( 2677): [gethandler] objInstance:com.coship.dvbplayer.LoadTips@41590950
+I/dvb_LoadTips( 2677): [gethandler] objInstance  mHandler:Handler (com.coship.dvbplayer.LoadTips$1) {4156d4b0}
+I/dvb_LoadTips( 2677): [gethandler] objInstance:com.coship.dvbplayer.LoadTips@41590950
+I/dvb_LoadTips( 2677): [gethandler] objInstance  mHandler:Handler (com.coship.dvbplayer.LoadTips$1) {4156d4b0}
+I/dvb_OTTPlayer( 2677): [onError ] arg0:android.media.MediaPlayer@415c6c78 arg1:1 arg2:-1001
+E/MediaPlayer( 2677): stop called in state 0
+E/MediaPlayer( 2677): error (-38, 0)
+D/MstarPlayer(  744): ==========MstarPlayer::reset : 0x303e8==========
+D/MstarPlayer(  744): request to exit async thread
+D/MstarPlayer(  744): exit async proc thread
+D/MstarPlayer(  744): MstarPlayer::clearAllSource
+D/DataSource_M3U8(  744): [M3U8]~ContentSource_M3U8 done.
+D/MstarPlayer(  744): setInstance: 0x0
+D/MstarPlayer(  744): reset done
+I/dvb_OTTPlayer( 2677): [onInfo ] arg0:android.media.MediaPlayer@415c6c78
+I/dvb_LoadTips( 2677): [mHandler] ~~~~~~~~~~~~~~~~~~~~~~~~~mHandler:Handler (com.coship.dvbplayer.LoadTips$1) {4156d4b0} msg.what:5 msg.obj:null
+D/MstarPlayer(  744): ==========MstarPlayer::reset : 0x303e8==========
+D/MstarPlayer(  744): MstarPlayer::clearAllSource
+D/MstarPlayer(  744): setInstance: 0x0
+D/MstarPlayer(  744): reset done
+D/MstarPlayer(  744): 
+D/MstarPlayer(  744): =======Destroy mstar player  : 0x303e8========
+D/MonitorCw880( 3627): currentRemoteHost is null ,continue
+E/ServerHandler( 3497): receiveRequest
+V/OtORequest( 3497): parseCommand
+V/OtORequest( 3497): get command=103
+V/OtORequest( 3497): parse OtORequest: cmd=103 paramLength=0 bufferlen=8
+D/OtOService( 3497): client request get status.playType:2
+D/OtOService( 3497): callback N: 1
+D/OtOService( 3497): send callback: 101
+D/dvb_ServiceAdapter( 2677): dvb_ResultCallBack: what:101   arg1:0
+D/OtOService( 3497): VOB　sync :com.aidufei.otoService.PlayEvent@418863b0
+D/OtOService( 3497): --resourceCode: null --ShiftTime:0 --timeCode:0 --delay: 0
+E/ServerAdapter( 3497): ServerAdapter:0
+E/ServerHandler( 3497): Send:com.aidufei.protocol.oto.OtOStatusRequest@41886760
+D/ServerHandler( 3497): ServerHandler send request:103:{"ResourceInfo":{"ShiftEnd":0,"TimeCode":0,"PlayType":3,"ResourceName":"","ProductCode":"","ShiftTime":0,"ResourceCode":""},"Status":{"ReturnCode":100,"Description":"ok"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 3497): ServerHandler send DatagramPacket:/192.168.1.194-[B@41fa3ae0
+D/OtOService( 3497): send callback obj: com.aidufei.otoService.IServiceCallBack$Stub$Proxy@41802e10
+E/ServerAdapter( 3497): ServerAdapter:0
+E/ServerHandler( 3497): Send:com.aidufei.protocol.oto.OtOStatusRequest@42d3e110
+D/ServerHandler( 3497): ServerHandler send request:103:{"Status":{"ReturnCode":99,"Description":"status sync processing"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 3497): ServerHandler send DatagramPacket:/192.168.1.194-[B@4173d840
+D/dhcpcd  ( 3962): sending DHCP_DISCOVER with xid 0xf062d99a, next in 64.06 seconds
+E/ServerHandler( 3497): receiveRequest
+V/OtORequest( 3497): parseCommand
+V/OtORequest( 3497): get command=103
+V/OtORequest( 3497): parse OtORequest: cmd=103 paramLength=0 bufferlen=8
+D/OtOService( 3497): client request get status.playType:2
+D/OtOService( 3497): callback N: 1
+D/OtOService( 3497): send callback: 101
+D/dvb_ServiceAdapter( 2677): dvb_ResultCallBack: what:101   arg1:0
+D/OtOService( 3497): VOB　sync :com.aidufei.otoService.PlayEvent@41800af8
+D/OtOService( 3497): --resourceCode: null --ShiftTime:0 --timeCode:0 --delay: 0
+E/ServerAdapter( 3497): ServerAdapter:0
+E/ServerHandler( 3497): Send:com.aidufei.protocol.oto.OtOStatusRequest@417403e8
+D/ServerHandler( 3497): ServerHandler send request:103:{"ResourceInfo":{"ShiftEnd":0,"TimeCode":0,"PlayType":3,"ResourceName":"","ProductCode":"","ShiftTime":0,"ResourceCode":""},"Status":{"ReturnCode":100,"Description":"ok"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 3497): ServerHandler send DatagramPacket:/192.168.1.194-[B@415ed840
+D/OtOService( 3497): send callback obj: com.aidufei.otoService.IServiceCallBack$Stub$Proxy@41802e10
+E/ServerAdapter( 3497): ServerAdapter:0
+E/ServerHandler( 3497): Send:com.aidufei.protocol.oto.OtOStatusRequest@4183d8b8
+D/ServerHandler( 3497): ServerHandler send request:103:{"Status":{"ReturnCode":99,"Description":"status sync processing"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 3497): ServerHandler send DatagramPacket:/192.168.1.194-[B@4205d308
+D/HomePlayerLib( 2256): hostaddress count is 1
+D/dalvikvm( 2256): GC_CONCURRENT freed 1942K, 47% free 7243K/13443K, paused 3ms+3ms
+D/dalvikvm( 2256): GC_CONCURRENT freed 1955K, 47% free 7249K/13443K, paused 2ms+4ms
+E/dhcpcd  ( 3962): timed out
+D/dhcpcd  ( 3962): executing `/system/etc/dhcpcd/dhcpcd-run-hooks', reason FAIL
+D/dhcpcd  ( 3962): broadcasting for a lease
+D/dhcpcd  ( 3962): sending DHCP_DISCOVER with xid 0x41fb5825, next in 3.29 seconds
+E/ServerHandler( 3497): receiveRequest
+V/OtORequest( 3497): parseCommand
+V/OtORequest( 3497): get command=103
+V/OtORequest( 3497): parse OtORequest: cmd=103 paramLength=0 bufferlen=8
+D/OtOService( 3497): client request get status.playType:2
+D/OtOService( 3497): callback N: 1
+D/OtOService( 3497): send callback: 101
+D/dvb_ServiceAdapter( 2677): dvb_ResultCallBack: what:101   arg1:0
+D/OtOService( 3497): VOB　sync :com.aidufei.otoService.PlayEvent@41f76560
+D/OtOService( 3497): --resourceCode: null --ShiftTime:0 --timeCode:0 --delay: 0
+E/ServerAdapter( 3497): ServerAdapter:0
+E/ServerHandler( 3497): Send:com.aidufei.protocol.oto.OtOStatusRequest@41ffa998
+D/ServerHandler( 3497): ServerHandler send request:103:{"ResourceInfo":{"ShiftEnd":0,"TimeCode":0,"PlayType":3,"ResourceName":"","ProductCode":"","ShiftTime":0,"ResourceCode":""},"Status":{"ReturnCode":100,"Description":"ok"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 3497): ServerHandler send DatagramPacket:/192.168.1.194-[B@41844da8
+D/OtOService( 3497): send callback obj: com.aidufei.otoService.IServiceCallBack$Stub$Proxy@41802e10
+E/ServerAdapter( 3497): ServerAdapter:0
+E/ServerHandler( 3497): Send:com.aidufei.protocol.oto.OtOStatusRequest@417bb248
+D/ServerHandler( 3497): ServerHandler send request:103:{"Status":{"ReturnCode":99,"Description":"status sync processing"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 3497): ServerHandler send DatagramPacket:/192.168.1.194-[B@417bf258
+D/MonitorCw880( 3627): currentRemoteHost is null ,continue
+E/ServerHandler( 3497): receiveRequest
+V/OtORequest( 3497): parseCommand
+V/OtORequest( 3497): get command=103
+V/OtORequest( 3497): parse OtORequest: cmd=103 paramLength=0 bufferlen=8
+D/OtOService( 3497): client request get status.playType:2
+D/OtOService( 3497): callback N: 1
+D/OtOService( 3497): send callback: 101
+D/dvb_ServiceAdapter( 2677): dvb_ResultCallBack: what:101   arg1:0
+D/OtOService( 3497): VOB　sync :com.aidufei.otoService.PlayEvent@41fa8ad0
+D/OtOService( 3497): --resourceCode: null --ShiftTime:0 --timeCode:0 --delay: 0
+E/ServerAdapter( 3497): ServerAdapter:0
+E/ServerHandler( 3497): Send:com.aidufei.protocol.oto.OtOStatusRequest@42023a40
+D/ServerHandler( 3497): ServerHandler send request:103:{"ResourceInfo":{"ShiftEnd":0,"TimeCode":0,"PlayType":3,"ResourceName":"","ProductCode":"","ShiftTime":0,"ResourceCode":""},"Status":{"ReturnCode":100,"Description":"ok"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 3497): ServerHandler send DatagramPacket:/192.168.1.194-[B@417f12c8
+D/OtOService( 3497): send callback obj: com.aidufei.otoService.IServiceCallBack$Stub$Proxy@41802e10
+E/ServerAdapter( 3497): ServerAdapter:0
+E/ServerHandler( 3497): Send:com.aidufei.protocol.oto.OtOStatusRequest@41b69ba8
+D/ServerHandler( 3497): ServerHandler send request:103:{"Status":{"ReturnCode":99,"Description":"status sync processing"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 3497): ServerHandler send DatagramPacket:/192.168.1.194-[B@417efff8
+D/dhcpcd  ( 3962): sending DHCP_DISCOVER with xid 0x41fb5825, next in 7.28 seconds
+E/ServerHandler( 3497): receiveRequest
+V/OtORequest( 3497): parseCommand
+V/OtORequest( 3497): get command=103
+V/OtORequest( 3497): parse OtORequest: cmd=103 paramLength=0 bufferlen=8
+D/OtOService( 3497): client request get status.playType:2
+D/OtOService( 3497): callback N: 1
+D/OtOService( 3497): send callback: 101
+D/dvb_ServiceAdapter( 2677): dvb_ResultCallBack: what:101   arg1:0
+D/OtOService( 3497): VOB　sync :com.aidufei.otoService.PlayEvent@417f0a98
+D/OtOService( 3497): --resourceCode: null --ShiftTime:0 --timeCode:0 --delay: 0
+E/ServerAdapter( 3497): ServerAdapter:0
+E/ServerHandler( 3497): Send:com.aidufei.protocol.oto.OtOStatusRequest@42060310
+D/ServerHandler( 3497): ServerHandler send request:103:{"ResourceInfo":{"ShiftEnd":0,"TimeCode":0,"PlayType":3,"ResourceName":"","ProductCode":"","ShiftTime":0,"ResourceCode":""},"Status":{"ReturnCode":100,"Description":"ok"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 3497): ServerHandler send DatagramPacket:/192.168.1.194-[B@41fe5350
+D/OtOService( 3497): send callback obj: com.aidufei.otoService.IServiceCallBack$Stub$Proxy@41802e10
+E/ServerAdapter( 3497): ServerAdapter:0
+E/ServerHandler( 3497): Send:com.aidufei.protocol.oto.OtOStatusRequest@417f2e10
+D/ServerHandler( 3497): ServerHandler send request:103:{"Status":{"ReturnCode":99,"Description":"status sync processing"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 3497): ServerHandler send DatagramPacket:/192.168.1.194-[B@41b5fb90
+D/MonitorCw880( 3627): currentRemoteHost is null ,continue
+E/ServerHandler( 3497): receiveRequest
+V/OtORequest( 3497): parseCommand
+V/OtORequest( 3497): get command=103
+V/OtORequest( 3497): parse OtORequest: cmd=103 paramLength=0 bufferlen=8
+D/OtOService( 3497): client request get status.playType:2
+D/OtOService( 3497): callback N: 1
+D/OtOService( 3497): send callback: 101
+D/dvb_ServiceAdapter( 2677): dvb_ResultCallBack: what:101   arg1:0
+D/OtOService( 3497): VOB　sync :com.aidufei.otoService.PlayEvent@41fdc8f0
+D/OtOService( 3497): --resourceCode: null --ShiftTime:0 --timeCode:0 --delay: 0
+E/ServerAdapter( 3497): ServerAdapter:0
+E/ServerHandler( 3497): Send:com.aidufei.protocol.oto.OtOStatusRequest@41f97a58
+D/ServerHandler( 3497): ServerHandler send request:103:{"ResourceInfo":{"ShiftEnd":0,"TimeCode":0,"PlayType":3,"ResourceName":"","ProductCode":"","ShiftTime":0,"ResourceCode":""},"Status":{"ReturnCode":100,"Description":"ok"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 3497): ServerHandler send DatagramPacket:/192.168.1.194-[B@416291a8
+D/OtOService( 3497): send callback obj: com.aidufei.otoService.IServiceCallBack$Stub$Proxy@41802e10
+E/ServerAdapter( 3497): ServerAdapter:0
+E/ServerHandler( 3497): Send:com.aidufei.protocol.oto.OtOStatusRequest@4203d8e8
+D/ServerHandler( 3497): ServerHandler send request:103:{"Status":{"ReturnCode":99,"Description":"status sync processing"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 3497): ServerHandler send DatagramPacket:/192.168.1.194-[B@417a1e08
+E/ServerHandler( 3497): receiveRequest
+V/OtORequest( 3497): parseCommand
+V/OtORequest( 3497): get command=103
+V/OtORequest( 3497): parse OtORequest: cmd=103 paramLength=0 bufferlen=8
+D/OtOService( 3497): client request get status.playType:2
+D/OtOService( 3497): callback N: 1
+D/OtOService( 3497): send callback: 101
+D/dvb_ServiceAdapter( 2677): dvb_ResultCallBack: what:101   arg1:0
+D/OtOService( 3497): VOB　sync :com.aidufei.otoService.PlayEvent@4179c468
+D/OtOService( 3497): --resourceCode: null --ShiftTime:0 --timeCode:0 --delay: 0
+E/ServerAdapter( 3497): ServerAdapter:0
+E/ServerHandler( 3497): Send:com.aidufei.protocol.oto.OtOStatusRequest@4202c8c8
+D/ServerHandler( 3497): ServerHandler send request:103:{"ResourceInfo":{"ShiftEnd":0,"TimeCode":0,"PlayType":3,"ResourceName":"","ProductCode":"","ShiftTime":0,"ResourceCode":""},"Status":{"ReturnCode":100,"Description":"ok"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 3497): ServerHandler send DatagramPacket:/192.168.1.194-[B@417d5a80
+D/OtOService( 3497): send callback obj: com.aidufei.otoService.IServiceCallBack$Stub$Proxy@41802e10
+E/ServerAdapter( 3497): ServerAdapter:0
+E/ServerHandler( 3497): Send:com.aidufei.protocol.oto.OtOStatusRequest@417d63a8
+D/ServerHandler( 3497): ServerHandler send request:103:{"Status":{"ReturnCode":99,"Description":"status sync processing"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 3497): ServerHandler send DatagramPacket:/192.168.1.194-[B@417ad308
+D/HomePlayerLib( 2256): hostaddress count is 1
+D/dalvikvm( 2256): GC_CONCURRENT freed 1965K, 46% free 7289K/13443K, paused 5ms+3ms
+D/dalvikvm( 2256): GC_CONCURRENT freed 1995K, 46% free 7319K/13443K, paused 2ms+3ms
+D/dhcpcd  ( 3962): sending DHCP_DISCOVER with xid 0x41fb5825, next in 15.96 seconds
+E/ServerHandler( 3497): receiveRequest
+V/OtORequest( 3497): parseCommand
+V/OtORequest( 3497): get command=103
+V/OtORequest( 3497): parse OtORequest: cmd=103 paramLength=0 bufferlen=8
+D/OtOService( 3497): client request get status.playType:2
+D/OtOService( 3497): callback N: 1
+D/OtOService( 3497): send callback: 101
+D/dvb_ServiceAdapter( 2677): dvb_ResultCallBack: what:101   arg1:0
+D/OtOService( 3497): VOB　sync :com.aidufei.otoService.PlayEvent@41f91ff8
+D/OtOService( 3497): --resourceCode: null --ShiftTime:0 --timeCode:0 --delay: 0
+E/ServerAdapter( 3497): ServerAdapter:0
+E/ServerHandler( 3497): Send:com.aidufei.protocol.oto.OtOStatusRequest@41f924d0
+D/ServerHandler( 3497): ServerHandler send request:103:{"ResourceInfo":{"ShiftEnd":0,"TimeCode":0,"PlayType":3,"ResourceName":"","ProductCode":"","ShiftTime":0,"ResourceCode":""},"Status":{"ReturnCode":100,"Description":"ok"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 3497): ServerHandler send DatagramPacket:/192.168.1.194-[B@41b7c418
+D/OtOService( 3497): send callback obj: com.aidufei.otoService.IServiceCallBack$Stub$Proxy@41802e10
+E/ServerAdapter( 3497): ServerAdapter:0
+E/ServerHandler( 3497): Send:com.aidufei.protocol.oto.OtOStatusRequest@41ffb258
+D/ServerHandler( 3497): ServerHandler send request:103:{"Status":{"ReturnCode":99,"Description":"status sync processing"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 3497): ServerHandler send DatagramPacket:/192.168.1.194-[B@41fe82d0
+D/MonitorCw880( 3627): currentRemoteHost is null ,continue
+E/ServerHandler( 3497): receiveRequest
+V/OtORequest( 3497): parseCommand
+V/OtORequest( 3497): get command=103
+V/OtORequest( 3497): parse OtORequest: cmd=103 paramLength=0 bufferlen=8
+D/OtOService( 3497): client request get status.playType:2
+D/OtOService( 3497): callback N: 1
+D/OtOService( 3497): send callback: 101
+D/dvb_ServiceAdapter( 2677): dvb_ResultCallBack: what:101   arg1:0
+D/OtOService( 3497): VOB　sync :com.aidufei.otoService.PlayEvent@417554f0
+D/OtOService( 3497): --resourceCode: null --ShiftTime:0 --timeCode:0 --delay: 0
+E/ServerAdapter( 3497): ServerAdapter:0
+E/ServerHandler( 3497): Send:com.aidufei.protocol.oto.OtOStatusRequest@417559c8
+D/ServerHandler( 3497): ServerHandler send request:103:{"ResourceInfo":{"ShiftEnd":0,"TimeCode":0,"PlayType":3,"ResourceName":"","ProductCode":"","ShiftTime":0,"ResourceCode":""},"Status":{"ReturnCode":100,"Description":"ok"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 3497): ServerHandler send DatagramPacket:/192.168.1.194-[B@42d3ea08
+D/OtOService( 3497): send callback obj: com.aidufei.otoService.IServiceCallBack$Stub$Proxy@41802e10
+E/ServerAdapter( 3497): ServerAdapter:0
+E/ServerHandler( 3497): Send:com.aidufei.protocol.oto.OtOStatusRequest@42d3f330
+D/ServerHandler( 3497): ServerHandler send request:103:{"Status":{"ReturnCode":99,"Description":"status sync processing"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 3497): ServerHandler send DatagramPacket:/192.168.1.194-[B@41fd6f00
+E/ServerHandler( 3497): receiveRequest
+V/OtORequest( 3497): parseCommand
+V/OtORequest( 3497): get command=103
+V/OtORequest( 3497): parse OtORequest: cmd=103 paramLength=0 bufferlen=8
+D/OtOService( 3497): client request get status.playType:2
+D/OtOService( 3497): callback N: 1
+D/OtOService( 3497): send callback: 101
+D/dvb_ServiceAdapter( 2677): dvb_ResultCallBack: what:101   arg1:0
+D/OtOService( 3497): VOB　sync :com.aidufei.otoService.PlayEvent@416c8150
+D/OtOService( 3497): --resourceCode: null --ShiftTime:0 --timeCode:0 --delay: 0
+E/ServerAdapter( 3497): ServerAdapter:0
+E/ServerHandler( 3497): Send:com.aidufei.protocol.oto.OtOStatusRequest@416c8628
+D/ServerHandler( 3497): ServerHandler send request:103:{"ResourceInfo":{"ShiftEnd":0,"TimeCode":0,"PlayType":3,"ResourceName":"","ProductCode":"","ShiftTime":0,"ResourceCode":""},"Status":{"ReturnCode":100,"Description":"ok"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 3497): ServerHandler send DatagramPacket:/192.168.1.194-[B@4202b4c8
+D/OtOService( 3497): send callback obj: com.aidufei.otoService.IServiceCallBack$Stub$Proxy@41802e10
+E/ServerAdapter( 3497): ServerAdapter:0
+E/ServerHandler( 3497): Send:com.aidufei.protocol.oto.OtOStatusRequest@417a98c0
+D/ServerHandler( 3497): ServerHandler send request:103:{"Status":{"ReturnCode":99,"Description":"status sync processing"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 3497): ServerHandler send DatagramPacket:/192.168.1.194-[B@4201d590
+D/MonitorCw880( 3627): currentRemoteHost is null ,continue
+E/ServerHandler( 3497): receiveRequest
+V/OtORequest( 3497): parseCommand
+V/OtORequest( 3497): get command=103
+V/OtORequest( 3497): parse OtORequest: cmd=103 paramLength=0 bufferlen=8
+D/OtOService( 3497): client request get status.playType:2
+D/OtOService( 3497): callback N: 1
+D/OtOService( 3497): send callback: 101
+D/dvb_ServiceAdapter( 2677): dvb_ResultCallBack: what:101   arg1:0
+D/OtOService( 3497): VOB　sync :com.aidufei.otoService.PlayEvent@4201e828
+D/OtOService( 3497): --resourceCode: null --ShiftTime:0 --timeCode:0 --delay: 0
+E/ServerAdapter( 3497): ServerAdapter:0
+E/ServerHandler( 3497): Send:com.aidufei.protocol.oto.OtOStatusRequest@41faeb60
+D/ServerHandler( 3497): ServerHandler send request:103:{"ResourceInfo":{"ShiftEnd":0,"TimeCode":0,"PlayType":3,"ResourceName":"","ProductCode":"","ShiftTime":0,"ResourceCode":""},"Status":{"ReturnCode":100,"Description":"ok"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 3497): ServerHandler send DatagramPacket:/192.168.1.194-[B@420194d8
+D/OtOService( 3497): send callback obj: com.aidufei.otoService.IServiceCallBack$Stub$Proxy@41802e10
+E/ServerAdapter( 3497): ServerAdapter:0
+E/ServerHandler( 3497): Send:com.aidufei.protocol.oto.OtOStatusRequest@42019e00
+D/ServerHandler( 3497): ServerHandler send request:103:{"Status":{"ReturnCode":99,"Description":"status sync processing"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 3497): ServerHandler send DatagramPacket:/192.168.1.194-[B@417a38e8
+E/ServerHandler( 3497): receiveRequest
+V/OtORequest( 3497): parseCommand
+V/OtORequest( 3497): get command=103
+V/OtORequest( 3497): parse OtORequest: cmd=103 paramLength=0 bufferlen=8
+D/OtOService( 3497): client request get status.playType:2
+D/OtOService( 3497): callback N: 1
+D/OtOService( 3497): send callback: 101
+D/dvb_ServiceAdapter( 2677): dvb_ResultCallBack: what:101   arg1:0
+D/OtOService( 3497): VOB　sync :com.aidufei.otoService.PlayEvent@41fb0bb0
+D/OtOService( 3497): --resourceCode: null --ShiftTime:0 --timeCode:0 --delay: 0
+E/ServerAdapter( 3497): ServerAdapter:0
+E/ServerHandler( 3497): Send:com.aidufei.protocol.oto.OtOStatusRequest@41fb1088
+D/ServerHandler( 3497): ServerHandler send request:103:{"ResourceInfo":{"ShiftEnd":0,"TimeCode":0,"PlayType":3,"ResourceName":"","ProductCode":"","ShiftTime":0,"ResourceCode":""},"Status":{"ReturnCode":100,"Description":"ok"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 3497): ServerHandler send DatagramPacket:/192.168.1.194-[B@41fac3b0
+D/OtOService( 3497): send callback obj: com.aidufei.otoService.IServiceCallBack$Stub$Proxy@41802e10
+E/ServerAdapter( 3497): ServerAdapter:0
+E/ServerHandler( 3497): Send:com.aidufei.protocol.oto.OtOStatusRequest@41facc78
+D/ServerHandler( 3497): ServerHandler send request:103:{"Status":{"ReturnCode":99,"Description":"status sync processing"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 3497): ServerHandler send DatagramPacket:/192.168.1.194-[B@41fa9f80
+D/HomePlayerLib( 2256): hostaddress count is 1
+D/dalvikvm( 2256): GC_CONCURRENT freed 2023K, 46% free 7334K/13443K, paused 2ms+3ms
+E/ServerHandler( 3497): receiveRequest
+V/OtORequest( 3497): parseCommand
+V/OtORequest( 3497): get command=103
+V/OtORequest( 3497): parse OtORequest: cmd=103 paramLength=0 bufferlen=8
+D/OtOService( 3497): client request get status.playType:2
+D/OtOService( 3497): callback N: 1
+D/OtOService( 3497): send callback: 101
+D/dvb_ServiceAdapter( 2677): dvb_ResultCallBack: what:101   arg1:0
+D/OtOService( 3497): VOB　sync :com.aidufei.otoService.PlayEvent@416eec10
+D/OtOService( 3497): --resourceCode: null --ShiftTime:0 --timeCode:0 --delay: 0
+E/ServerAdapter( 3497): ServerAdapter:0
+E/ServerHandler( 3497): Send:com.aidufei.protocol.oto.OtOStatusRequest@416ef0e8
+D/ServerHandler( 3497): ServerHandler send request:103:{"ResourceInfo":{"ShiftEnd":0,"TimeCode":0,"PlayType":3,"ResourceName":"","ProductCode":"","ShiftTime":0,"ResourceCode":""},"Status":{"ReturnCode":100,"Description":"ok"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 3497): ServerHandler send DatagramPacket:/192.168.1.194-[B@4170c668
+D/OtOService( 3497): send callback obj: com.aidufei.otoService.IServiceCallBack$Stub$Proxy@41802e10
+E/ServerAdapter( 3497): ServerAdapter:0
+E/ServerHandler( 3497): Send:com.aidufei.protocol.oto.OtOStatusRequest@4170cf90
+D/ServerHandler( 3497): ServerHandler send request:103:{"Status":{"ReturnCode":99,"Description":"status sync processing"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 3497): ServerHandler send DatagramPacket:/192.168.1.194-[B@41717cf8
+D/dalvikvm( 2256): GC_CONCURRENT freed 2040K, 47% free 7250K/13443K, paused 3ms+3ms
+D/MonitorCw880( 3627): currentRemoteHost is null ,continue
+E/ServerHandler( 3497): receiveRequest
+V/OtORequest( 3497): parseCommand
+V/OtORequest( 3497): get command=103
+V/OtORequest( 3497): parse OtORequest: cmd=103 paramLength=0 bufferlen=8
+D/OtOService( 3497): client request get status.playType:2
+D/OtOService( 3497): callback N: 1
+D/OtOService( 3497): send callback: 101
+D/dvb_ServiceAdapter( 2677): dvb_ResultCallBack: what:101   arg1:0
+D/OtOService( 3497): VOB　sync :com.aidufei.otoService.PlayEvent@41718fc8
+D/OtOService( 3497): --resourceCode: null --ShiftTime:0 --timeCode:0 --delay: 0
+E/ServerAdapter( 3497): ServerAdapter:0
+E/ServerHandler( 3497): Send:com.aidufei.protocol.oto.OtOStatusRequest@417194a0
+D/ServerHandler( 3497): ServerHandler send request:103:{"ResourceInfo":{"ShiftEnd":0,"TimeCode":0,"PlayType":3,"ResourceName":"","ProductCode":"","ShiftTime":0,"ResourceCode":""},"Status":{"ReturnCode":100,"Description":"ok"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 3497): ServerHandler send DatagramPacket:/192.168.1.194-[B@41750b20
+D/OtOService( 3497): send callback obj: com.aidufei.otoService.IServiceCallBack$Stub$Proxy@41802e10
+E/ServerAdapter( 3497): ServerAdapter:0
+E/ServerHandler( 3497): Send:com.aidufei.protocol.oto.OtOStatusRequest@41715520
+D/ServerHandler( 3497): ServerHandler send request:103:{"Status":{"ReturnCode":99,"Description":"status sync processing"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 3497): ServerHandler send DatagramPacket:/192.168.1.194-[B@417165e0
+E/ServerHandler( 3497): receiveRequest
+V/OtORequest( 3497): parseCommand
+V/OtORequest( 3497): get command=103
+V/OtORequest( 3497): parse OtORequest: cmd=103 paramLength=0 bufferlen=8
+D/OtOService( 3497): client request get status.playType:2
+D/OtOService( 3497): callback N: 1
+D/OtOService( 3497): send callback: 101
+D/dvb_ServiceAdapter( 2677): dvb_ResultCallBack: what:101   arg1:0
+D/OtOService( 3497): VOB　sync :com.aidufei.otoService.PlayEvent@416e58c8
+D/OtOService( 3497): --resourceCode: null --ShiftTime:0 --timeCode:0 --delay: 0
+E/ServerAdapter( 3497): ServerAdapter:0
+E/ServerHandler( 3497): Send:com.aidufei.protocol.oto.OtOStatusRequest@416e5da0
+D/ServerHandler( 3497): ServerHandler send request:103:{"ResourceInfo":{"ShiftEnd":0,"TimeCode":0,"PlayType":3,"ResourceName":"","ProductCode":"","ShiftTime":0,"ResourceCode":""},"Status":{"ReturnCode":100,"Description":"ok"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 3497): ServerHandler send DatagramPacket:/192.168.1.194-[B@41f7fb40
+D/OtOService( 3497): send callback obj: com.aidufei.otoService.IServiceCallBack$Stub$Proxy@41802e10
+E/ServerAdapter( 3497): ServerAdapter:0
+E/ServerHandler( 3497): Send:com.aidufei.protocol.oto.OtOStatusRequest@41f80468
+D/ServerHandler( 3497): ServerHandler send request:103:{"Status":{"ReturnCode":99,"Description":"status sync processing"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 3497): ServerHandler send DatagramPacket:/192.168.1.194-[B@4139d5a0
+D/dhcpcd  ( 3962): sending DHCP_DISCOVER with xid 0x41fb5825, next in 31.08 seconds
+D/MonitorCw880( 3627): currentRemoteHost is null ,continue
+E/ServerHandler( 3497): receiveRequest
+V/OtORequest( 3497): parseCommand
+V/OtORequest( 3497): get command=103
+V/OtORequest( 3497): parse OtORequest: cmd=103 paramLength=0 bufferlen=8
+D/OtOService( 3497): client request get status.playType:2
+D/OtOService( 3497): callback N: 1
+D/OtOService( 3497): send callback: 101
+D/dvb_ServiceAdapter( 2677): dvb_ResultCallBack: what:101   arg1:0
+D/OtOService( 3497): VOB　sync :com.aidufei.otoService.PlayEvent@4139e870
+D/OtOService( 3497): --resourceCode: null --ShiftTime:0 --timeCode:0 --delay: 0
+E/ServerAdapter( 3497): ServerAdapter:0
+E/ServerHandler( 3497): Send:com.aidufei.protocol.oto.OtOStatusRequest@415c6038
+D/ServerHandler( 3497): ServerHandler send request:103:{"ResourceInfo":{"ShiftEnd":0,"TimeCode":0,"PlayType":3,"ResourceName":"","ProductCode":"","ShiftTime":0,"ResourceCode":""},"Status":{"ReturnCode":100,"Description":"ok"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 3497): ServerHandler send DatagramPacket:/192.168.1.194-[B@415c7ca0
+D/OtOService( 3497): send callback obj: com.aidufei.otoService.IServiceCallBack$Stub$Proxy@41802e10
+E/ServerAdapter( 3497): ServerAdapter:0
+E/ServerHandler( 3497): Send:com.aidufei.protocol.oto.OtOStatusRequest@416eb810
+D/ServerHandler( 3497): ServerHandler send request:103:{"Status":{"ReturnCode":99,"Description":"status sync processing"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 3497): ServerHandler send DatagramPacket:/192.168.1.194-[B@416ec8d0
+E/ServerHandler( 3497): receiveRequest
+V/OtORequest( 3497): parseCommand
+V/OtORequest( 3497): get command=103
+V/OtORequest( 3497): parse OtORequest: cmd=103 paramLength=0 bufferlen=8
+D/OtOService( 3497): client request get status.playType:2
+D/OtOService( 3497): callback N: 1
+D/OtOService( 3497): send callback: 101
+D/dvb_ServiceAdapter( 2677): dvb_ResultCallBack: what:101   arg1:0
+D/OtOService( 3497): VOB　sync :com.aidufei.otoService.PlayEvent@416d7e70
+D/OtOService( 3497): --resourceCode: null --ShiftTime:0 --timeCode:0 --delay: 0
+E/ServerAdapter( 3497): ServerAdapter:0
+E/ServerHandler( 3497): Send:com.aidufei.protocol.oto.OtOStatusRequest@416d8348
+D/ServerHandler( 3497): ServerHandler send request:103:{"ResourceInfo":{"ShiftEnd":0,"TimeCode":0,"PlayType":3,"ResourceName":"","ProductCode":"","ShiftTime":0,"ResourceCode":""},"Status":{"ReturnCode":100,"Description":"ok"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 3497): ServerHandler send DatagramPacket:/192.168.1.194-[B@42014870
+D/OtOService( 3497): send callback obj: com.aidufei.otoService.IServiceCallBack$Stub$Proxy@41802e10
+E/ServerAdapter( 3497): ServerAdapter:0
+E/ServerHandler( 3497): Send:com.aidufei.protocol.oto.OtOStatusRequest@42015120
+D/ServerHandler( 3497): ServerHandler send request:103:{"Status":{"ReturnCode":99,"Description":"status sync processing"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 3497): ServerHandler send DatagramPacket:/192.168.1.194-[B@420161e0
+E/ServerHandler( 3497): receiveRequest
+V/OtORequest( 3497): parseCommand
+V/OtORequest( 3497): get command=103
+V/OtORequest( 3497): parse OtORequest: cmd=103 paramLength=0 bufferlen=8
+D/OtOService( 3497): client request get status.playType:2
+D/OtOService( 3497): callback N: 1
+D/OtOService( 3497): send callback: 101
+D/dvb_ServiceAdapter( 2677): dvb_ResultCallBack: what:101   arg1:0
+D/OtOService( 3497): VOB　sync :com.aidufei.otoService.PlayEvent@42016b48
+D/OtOService( 3497): --resourceCode: null --ShiftTime:0 --timeCode:0 --delay: 0
+E/ServerAdapter( 3497): ServerAdapter:0
+E/ServerHandler( 3497): Send:com.aidufei.protocol.oto.OtOStatusRequest@41b63478
+D/ServerHandler( 3497): ServerHandler send request:103:{"ResourceInfo":{"ShiftEnd":0,"TimeCode":0,"PlayType":3,"ResourceName":"","ProductCode":"","ShiftTime":0,"ResourceCode":""},"Status":{"ReturnCode":100,"Description":"ok"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 3497): ServerHandler send DatagramPacket:/192.168.1.194-[B@41847dc8
+D/OtOService( 3497): send callback obj: com.aidufei.otoService.IServiceCallBack$Stub$Proxy@41802e10
+E/ServerAdapter( 3497): ServerAdapter:0
+E/ServerHandler( 3497): Send:com.aidufei.protocol.oto.OtOStatusRequest@418486f0
+D/ServerHandler( 3497): ServerHandler send request:103:{"Status":{"ReturnCode":99,"Description":"status sync processing"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 3497): ServerHandler send DatagramPacket:/192.168.1.194-[B@41849760
+D/HomePlayerLib( 2256): hostaddress count is 1
+D/dalvikvm( 2256): GC_CONCURRENT freed 1949K, 46% free 7312K/13443K, paused 2ms+3ms
+D/dalvikvm( 2256): GC_CONCURRENT freed 2025K, 46% free 7331K/13443K, paused 2ms+3ms
+D/MonitorCw880( 3627): currentRemoteHost is null ,continue
+E/ServerHandler( 3497): receiveRequest
+V/OtORequest( 3497): parseCommand
+V/OtORequest( 3497): get command=103
+V/OtORequest( 3497): parse OtORequest: cmd=103 paramLength=0 bufferlen=8
+D/OtOService( 3497): client request get status.playType:2
+D/OtOService( 3497): callback N: 1
+D/OtOService( 3497): send callback: 101
+D/dvb_ServiceAdapter( 2677): dvb_ResultCallBack: what:101   arg1:0
+D/OtOService( 3497): VOB　sync :com.aidufei.otoService.PlayEvent@417878e8
+D/OtOService( 3497): --resourceCode: null --ShiftTime:0 --timeCode:0 --delay: 0
+E/ServerAdapter( 3497): ServerAdapter:0
+E/ServerHandler( 3497): Send:com.aidufei.protocol.oto.OtOStatusRequest@41787dc0
+D/ServerHandler( 3497): ServerHandler send request:103:{"ResourceInfo":{"ShiftEnd":0,"TimeCode":0,"PlayType":3,"ResourceName":"","ProductCode":"","ShiftTime":0,"ResourceCode":""},"Status":{"ReturnCode":100,"Description":"ok"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 3497): ServerHandler send DatagramPacket:/192.168.1.194-[B@41fa4668
+D/OtOService( 3497): send callback obj: com.aidufei.otoService.IServiceCallBack$Stub$Proxy@41802e10
+E/ServerAdapter( 3497): ServerAdapter:0
+E/ServerHandler( 3497): Send:com.aidufei.protocol.oto.OtOStatusRequest@41fa4f90
+D/ServerHandler( 3497): ServerHandler send request:103:{"Status":{"ReturnCode":99,"Description":"status sync processing"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 3497): ServerHandler send DatagramPacket:/192.168.1.194-[B@41fa6050
+E/ServerHandler( 3497): receiveRequest
+V/OtORequest( 3497): parseCommand
+V/OtORequest( 3497): get command=103
+V/OtORequest( 3497): parse OtORequest: cmd=103 paramLength=0 bufferlen=8
+D/OtOService( 3497): client request get status.playType:2
+D/OtOService( 3497): callback N: 1
+D/OtOService( 3497): send callback: 101
+D/dvb_ServiceAdapter( 2677): dvb_ResultCallBack: what:101   arg1:0
+D/OtOService( 3497): VOB　sync :com.aidufei.otoService.PlayEvent@4202f2e0
+D/OtOService( 3497): --resourceCode: null --ShiftTime:0 --timeCode:0 --delay: 0
+E/ServerAdapter( 3497): ServerAdapter:0
+E/ServerHandler( 3497): Send:com.aidufei.protocol.oto.OtOStatusRequest@4202f7b8
+D/ServerHandler( 3497): ServerHandler send request:103:{"ResourceInfo":{"ShiftEnd":0,"TimeCode":0,"PlayType":3,"ResourceName":"","ProductCode":"","ShiftTime":0,"ResourceCode":""},"Status":{"ReturnCode":100,"Description":"ok"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 3497): ServerHandler send DatagramPacket:/192.168.1.194-[B@41f5fb88
+D/OtOService( 3497): send callback obj: com.aidufei.otoService.IServiceCallBack$Stub$Proxy@41802e10
+E/ServerAdapter( 3497): ServerAdapter:0
+E/ServerHandler( 3497): Send:com.aidufei.protocol.oto.OtOStatusRequest@41f604b0
+D/ServerHandler( 3497): ServerHandler send request:103:{"Status":{"ReturnCode":99,"Description":"status sync processing"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 3497): ServerHandler send DatagramPacket:/192.168.1.194-[B@41f61530
+D/MonitorCw880( 3627): currentRemoteHost is null ,continue
+E/ServerHandler( 3497): receiveRequest
+V/OtORequest( 3497): parseCommand
+V/OtORequest( 3497): get command=103
+V/OtORequest( 3497): parse OtORequest: cmd=103 paramLength=0 bufferlen=8
+D/OtOService( 3497): client request get status.playType:2
+D/OtOService( 3497): callback N: 1
+D/OtOService( 3497): send callback: 101
+D/dvb_ServiceAdapter( 2677): dvb_ResultCallBack: what:101   arg1:0
+D/OtOService( 3497): VOB　sync :com.aidufei.otoService.PlayEvent@41f81cf0
+D/OtOService( 3497): --resourceCode: null --ShiftTime:0 --timeCode:0 --delay: 0
+E/ServerAdapter( 3497): ServerAdapter:0
+E/ServerHandler( 3497): Send:com.aidufei.protocol.oto.OtOStatusRequest@41f821c8
+D/ServerHandler( 3497): ServerHandler send request:103:{"ResourceInfo":{"ShiftEnd":0,"TimeCode":0,"PlayType":3,"ResourceName":"","ProductCode":"","ShiftTime":0,"ResourceCode":""},"Status":{"ReturnCode":100,"Description":"ok"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 3497): ServerHandler send DatagramPacket:/192.168.1.194-[B@41f83e30
+D/OtOService( 3497): send callback obj: com.aidufei.otoService.IServiceCallBack$Stub$Proxy@41802e10
+E/ServerAdapter( 3497): ServerAdapter:0
+E/ServerHandler( 3497): Send:com.aidufei.protocol.oto.OtOStatusRequest@41f84758
+D/ServerHandler( 3497): ServerHandler send request:103:{"Status":{"ReturnCode":99,"Description":"status sync processing"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 3497): ServerHandler send DatagramPacket:/192.168.1.194-[B@41f5cd98
+E/ServerHandler( 3497): receiveRequest
+V/OtORequest( 3497): parseCommand
+V/OtORequest( 3497): get command=103
+V/OtORequest( 3497): parse OtORequest: cmd=103 paramLength=0 bufferlen=8
+D/OtOService( 3497): client request get status.playType:2
+D/OtOService( 3497): callback N: 1
+D/OtOService( 3497): send callback: 101
+D/dvb_ServiceAdapter( 2677): dvb_ResultCallBack: what:101   arg1:0
+D/OtOService( 3497): VOB　sync :com.aidufei.otoService.PlayEvent@41f5e068
+D/OtOService( 3497): --resourceCode: null --ShiftTime:0 --timeCode:0 --delay: 0
+E/ServerAdapter( 3497): ServerAdapter:0
+E/ServerHandler( 3497): Send:com.aidufei.protocol.oto.OtOStatusRequest@41f5e540
+D/ServerHandler( 3497): ServerHandler send request:103:{"ResourceInfo":{"ShiftEnd":0,"TimeCode":0,"PlayType":3,"ResourceName":"","ProductCode":"","ShiftTime":0,"ResourceCode":""},"Status":{"ReturnCode":100,"Description":"ok"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 3497): ServerHandler send DatagramPacket:/192.168.1.194-[B@420256a0
+D/OtOService( 3497): send callback obj: com.aidufei.otoService.IServiceCallBack$Stub$Proxy@41802e10
+E/ServerAdapter( 3497): ServerAdapter:0
+E/ServerHandler( 3497): Send:com.aidufei.protocol.oto.OtOStatusRequest@42025fc8
+D/ServerHandler( 3497): ServerHandler send request:103:{"Status":{"ReturnCode":99,"Description":"status sync processing"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 3497): ServerHandler send DatagramPacket:/192.168.1.194-[B@42027088
+E/ServerHandler( 3497): receiveRequest
+V/OtORequest( 3497): parseCommand
+V/OtORequest( 3497): get command=103
+V/OtORequest( 3497): parse OtORequest: cmd=103 paramLength=0 bufferlen=8
+D/OtOService( 3497): client request get status.playType:2
+D/OtOService( 3497): callback N: 1
+D/OtOService( 3497): send callback: 101
+D/dvb_ServiceAdapter( 2677): dvb_ResultCallBack: what:101   arg1:0
+D/OtOService( 3497): VOB　sync :com.aidufei.otoService.PlayEvent@41f8d020
+D/OtOService( 3497): --resourceCode: null --ShiftTime:0 --timeCode:0 --delay: 0
+E/ServerAdapter( 3497): ServerAdapter:0
+E/ServerHandler( 3497): Send:com.aidufei.protocol.oto.OtOStatusRequest@41f8d4f8
+D/ServerHandler( 3497): ServerHandler send request:103:{"ResourceInfo":{"ShiftEnd":0,"TimeCode":0,"PlayType":3,"ResourceName":"","ProductCode":"","ShiftTime":0,"ResourceCode":""},"Status":{"ReturnCode":100,"Description":"ok"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 3497): ServerHandler send DatagramPacket:/192.168.1.194-[B@41f8f160
+D/OtOService( 3497): send callback obj: com.aidufei.otoService.IServiceCallBack$Stub$Proxy@41802e10
+E/ServerAdapter( 3497): ServerAdapter:0
+E/ServerHandler( 3497): Send:com.aidufei.protocol.oto.OtOStatusRequest@41f8fa88
+D/ServerHandler( 3497): ServerHandler send request:103:{"Status":{"ReturnCode":99,"Description":"status sync processing"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 3497): ServerHandler send DatagramPacket:/192.168.1.194-[B@417b82a8
+D/MonitorCw880( 3627): currentRemoteHost is null ,continue
+D/dalvikvm( 2256): GC_CONCURRENT freed 2038K, 46% free 7333K/13443K, paused 2ms+3ms
+D/HomePlayerLib( 2256): hostaddress count is 1
+D/dalvikvm( 2256): GC_CONCURRENT freed 2025K, 45% free 7479K/13443K, paused 2ms+3ms
+E/ServerHandler( 3497): receiveRequest
+V/OtORequest( 3497): parseCommand
+V/OtORequest( 3497): get command=103
+V/OtORequest( 3497): parse OtORequest: cmd=103 paramLength=0 bufferlen=8
+D/OtOService( 3497): client request get status.playType:2
+D/OtOService( 3497): callback N: 1
+D/OtOService( 3497): send callback: 101
+D/dvb_ServiceAdapter( 2677): dvb_ResultCallBack: what:101   arg1:0
+D/OtOService( 3497): VOB　sync :com.aidufei.otoService.PlayEvent@417b9578
+D/OtOService( 3497): --resourceCode: null --ShiftTime:0 --timeCode:0 --delay: 0
+E/ServerAdapter( 3497): ServerAdapter:0
+E/ServerHandler( 3497): Send:com.aidufei.protocol.oto.OtOStatusRequest@417b9a50
+D/ServerHandler( 3497): ServerHandler send request:103:{"ResourceInfo":{"ShiftEnd":0,"TimeCode":0,"PlayType":3,"ResourceName":"","ProductCode":"","ShiftTime":0,"ResourceCode":""},"Status":{"ReturnCode":100,"Description":"ok"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 3497): ServerHandler send DatagramPacket:/192.168.1.194-[B@415e9680
+D/OtOService( 3497): send callback obj: com.aidufei.otoService.IServiceCallBack$Stub$Proxy@41802e10
+E/ServerAdapter( 3497): ServerAdapter:0
+E/ServerHandler( 3497): Send:com.aidufei.protocol.oto.OtOStatusRequest@415e9fa8
+D/ServerHandler( 3497): ServerHandler send request:103:{"Status":{"ReturnCode":99,"Description":"status sync processing"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 3497): ServerHandler send DatagramPacket:/192.168.1.194-[B@415eb068
+E/ServerHandler( 3497): receiveRequest
+V/OtORequest( 3497): parseCommand
+V/OtORequest( 3497): get command=103
+V/OtORequest( 3497): parse OtORequest: cmd=103 paramLength=0 bufferlen=8
+D/OtOService( 3497): client request get status.playType:2
+D/OtOService( 3497): callback N: 1
+D/OtOService( 3497): send callback: 101
+D/dvb_ServiceAdapter( 2677): dvb_ResultCallBack: what:101   arg1:0
+D/OtOService( 3497): VOB　sync :com.aidufei.otoService.PlayEvent@415ec338
+D/OtOService( 3497): --resourceCode: null --ShiftTime:0 --timeCode:0 --delay: 0
+E/ServerAdapter( 3497): ServerAdapter:0
+E/ServerHandler( 3497): Send:com.aidufei.protocol.oto.OtOStatusRequest@416ceb78
+D/ServerHandler( 3497): ServerHandler send request:103:{"ResourceInfo":{"ShiftEnd":0,"TimeCode":0,"PlayType":3,"ResourceName":"","ProductCode":"","ShiftTime":0,"ResourceCode":""},"Status":{"ReturnCode":100,"Description":"ok"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 3497): ServerHandler send DatagramPacket:/192.168.1.194-[B@416d07e0
+D/OtOService( 3497): send callback obj: com.aidufei.otoService.IServiceCallBack$Stub$Proxy@41802e10
+E/ServerAdapter( 3497): ServerAdapter:0
+E/ServerHandler( 3497): Send:com.aidufei.protocol.oto.OtOStatusRequest@416d1108
+D/ServerHandler( 3497): ServerHandler send request:103:{"Status":{"ReturnCode":99,"Description":"status sync processing"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 3497): ServerHandler send DatagramPacket:/192.168.1.194-[B@416d21c8
+D/MonitorCw880( 3627): currentRemoteHost is null ,continue
+E/ServerHandler( 3497): receiveRequest
+V/OtORequest( 3497): parseCommand
+V/OtORequest( 3497): get command=103
+V/OtORequest( 3497): parse OtORequest: cmd=103 paramLength=0 bufferlen=8
+D/OtOService( 3497): client request get status.playType:2
+D/OtOService( 3497): callback N: 1
+D/OtOService( 3497): send callback: 101
+D/dvb_ServiceAdapter( 2677): dvb_ResultCallBack: what:101   arg1:0
+D/OtOService( 3497): VOB　sync :com.aidufei.otoService.PlayEvent@417c11c8
+D/OtOService( 3497): --resourceCode: null --ShiftTime:0 --timeCode:0 --delay: 0
+E/ServerAdapter( 3497): ServerAdapter:0
+E/ServerHandler( 3497): Send:com.aidufei.protocol.oto.OtOStatusRequest@417c16a0
+D/ServerHandler( 3497): ServerHandler send request:103:{"ResourceInfo":{"ShiftEnd":0,"TimeCode":0,"PlayType":3,"ResourceName":"","ProductCode":"","ShiftTime":0,"ResourceCode":""},"Status":{"ReturnCode":100,"Description":"ok"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 3497): ServerHandler send DatagramPacket:/192.168.1.194-[B@417c32a0
+D/OtOService( 3497): send callback obj: com.aidufei.otoService.IServiceCallBack$Stub$Proxy@41802e10
+E/ServerAdapter( 3497): ServerAdapter:0
+E/ServerHandler( 3497): Send:com.aidufei.protocol.oto.OtOStatusRequest@417c3bc8
+D/ServerHandler( 3497): ServerHandler send request:103:{"Status":{"ReturnCode":99,"Description":"status sync processing"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 3497): ServerHandler send DatagramPacket:/192.168.1.194-[B@4169d938
+E/ServerHandler( 3497): receiveRequest
+V/OtORequest( 3497): parseCommand
+V/OtORequest( 3497): get command=103
+V/OtORequest( 3497): parse OtORequest: cmd=103 paramLength=0 bufferlen=8
+D/OtOService( 3497): client request get status.playType:2
+D/OtOService( 3497): callback N: 1
+D/OtOService( 3497): send callback: 101
+D/dvb_ServiceAdapter( 2677): dvb_ResultCallBack: what:101   arg1:0
+D/OtOService( 3497): VOB　sync :com.aidufei.otoService.PlayEvent@4169ec08
+D/OtOService( 3497): --resourceCode: null --ShiftTime:0 --timeCode:0 --delay: 0
+E/ServerAdapter( 3497): ServerAdapter:0
+E/ServerHandler( 3497): Send:com.aidufei.protocol.oto.OtOStatusRequest@4169f0e0
+D/ServerHandler( 3497): ServerHandler send request:103:{"ResourceInfo":{"ShiftEnd":0,"TimeCode":0,"PlayType":3,"ResourceName":"","ProductCode":"","ShiftTime":0,"ResourceCode":""},"Status":{"ReturnCode":100,"Description":"ok"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 3497): ServerHandler send DatagramPacket:/192.168.1.194-[B@417b0520
+D/OtOService( 3497): send callback obj: com.aidufei.otoService.IServiceCallBack$Stub$Proxy@41802e10
+E/ServerAdapter( 3497): ServerAdapter:0
+E/ServerHandler( 3497): Send:com.aidufei.protocol.oto.OtOStatusRequest@417b0e30
+D/ServerHandler( 3497): ServerHandler send request:103:{"Status":{"ReturnCode":99,"Description":"status sync processing"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 3497): ServerHandler send DatagramPacket:/192.168.1.194-[B@417b1ef0
+E/ServerHandler( 3497): receiveRequest
+V/OtORequest( 3497): parseCommand
+V/OtORequest( 3497): get command=103
+V/OtORequest( 3497): parse OtORequest: cmd=103 paramLength=0 bufferlen=8
+D/OtOService( 3497): client request get status.playType:2
+D/OtOService( 3497): callback N: 1
+D/OtOService( 3497): send callback: 101
+D/dvb_ServiceAdapter( 2677): dvb_ResultCallBack: what:101   arg1:0
+D/OtOService( 3497): VOB　sync :com.aidufei.otoService.PlayEvent@417b31c0
+D/OtOService( 3497): --resourceCode: null --ShiftTime:0 --timeCode:0 --delay: 0
+E/ServerAdapter( 3497): ServerAdapter:0
+E/ServerHandler( 3497): Send:com.aidufei.protocol.oto.OtOStatusRequest@417b3698
+D/ServerHandler( 3497): ServerHandler send request:103:{"ResourceInfo":{"ShiftEnd":0,"TimeCode":0,"PlayType":3,"ResourceName":"","ProductCode":"","ShiftTime":0,"ResourceCode":""},"Status":{"ReturnCode":100,"Description":"ok"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 3497): ServerHandler send DatagramPacket:/192.168.1.194-[B@41f7a730
+D/OtOService( 3497): send callback obj: com.aidufei.otoService.IServiceCallBack$Stub$Proxy@41802e10
+E/ServerAdapter( 3497): ServerAdapter:0
+E/ServerHandler( 3497): Send:com.aidufei.protocol.oto.OtOStatusRequest@41f7b058
+D/ServerHandler( 3497): ServerHandler send request:103:{"Status":{"ReturnCode":99,"Description":"status sync processing"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 3497): ServerHandler send DatagramPacket:/192.168.1.194-[B@41f7c118
+D/MonitorCw880( 3627): currentRemoteHost is null ,continue
+E/ServerHandler( 3497): receiveRequest
+V/OtORequest( 3497): parseCommand
+V/OtORequest( 3497): get command=103
+V/OtORequest( 3497): parse OtORequest: cmd=103 paramLength=0 bufferlen=8
+D/OtOService( 3497): client request get status.playType:2
+D/OtOService( 3497): callback N: 1
+D/OtOService( 3497): send callback: 101
+D/dvb_ServiceAdapter( 2677): dvb_ResultCallBack: what:101   arg1:0
+D/OtOService( 3497): VOB　sync :com.aidufei.otoService.PlayEvent@41f7d3e8
+D/OtOService( 3497): --resourceCode: null --ShiftTime:0 --timeCode:0 --delay: 0
+E/ServerAdapter( 3497): ServerAdapter:0
+E/ServerHandler( 3497): Send:com.aidufei.protocol.oto.OtOStatusRequest@41f7d8c0
+D/ServerHandler( 3497): ServerHandler send request:103:{"ResourceInfo":{"ShiftEnd":0,"TimeCode":0,"PlayType":3,"ResourceName":"","ProductCode":"","ShiftTime":0,"ResourceCode":""},"Status":{"ReturnCode":100,"Description":"ok"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 3497): ServerHandler send DatagramPacket:/192.168.1.194-[B@41b84b68
+D/OtOService( 3497): send callback obj: com.aidufei.otoService.IServiceCallBack$Stub$Proxy@41802e10
+E/ServerAdapter( 3497): ServerAdapter:0
+E/ServerHandler( 3497): Send:com.aidufei.protocol.oto.OtOStatusRequest@41b85490
+D/ServerHandler( 3497): ServerHandler send request:103:{"Status":{"ReturnCode":99,"Description":"status sync processing"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 3497): ServerHandler send DatagramPacket:/192.168.1.194-[B@41b86550
+D/dalvikvm( 2256): GC_CONCURRENT freed 2187K, 47% free 7249K/13443K, paused 2ms+3ms
+D/HomePlayerLib( 2256): hostaddress count is 1
+D/dalvikvm( 2256): GC_CONCURRENT freed 1952K, 47% free 7236K/13443K, paused 2ms+4ms
+D/dalvikvm( 2256): GC_CONCURRENT freed 1945K, 47% free 7246K/13443K, paused 2ms+4ms
+E/ServerHandler( 3497): receiveRequest
+V/OtORequest( 3497): parseCommand
+V/OtORequest( 3497): get command=103
+V/OtORequest( 3497): parse OtORequest: cmd=103 paramLength=0 bufferlen=8
+D/OtOService( 3497): client request get status.playType:2
+D/OtOService( 3497): callback N: 1
+D/OtOService( 3497): send callback: 101
+D/dvb_ServiceAdapter( 2677): dvb_ResultCallBack: what:101   arg1:0
+D/OtOService( 3497): VOB　sync :com.aidufei.otoService.PlayEvent@41b87a00
+D/OtOService( 3497): --resourceCode: null --ShiftTime:0 --timeCode:0 --delay: 0
+E/ServerAdapter( 3497): ServerAdapter:0
+E/ServerHandler( 3497): Send:com.aidufei.protocol.oto.OtOStatusRequest@41b87ed8
+D/ServerHandler( 3497): ServerHandler send request:103:{"ResourceInfo":{"ShiftEnd":0,"TimeCode":0,"PlayType":3,"ResourceName":"","ProductCode":"","ShiftTime":0,"ResourceCode":""},"Status":{"ReturnCode":100,"Description":"ok"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 3497): ServerHandler send DatagramPacket:/192.168.1.194-[B@41f6d1f0
+D/OtOService( 3497): send callback obj: com.aidufei.otoService.IServiceCallBack$Stub$Proxy@41802e10
+E/ServerAdapter( 3497): ServerAdapter:0
+E/ServerHandler( 3497): Send:com.aidufei.protocol.oto.OtOStatusRequest@41f6db18
+D/ServerHandler( 3497): ServerHandler send request:103:{"Status":{"ReturnCode":99,"Description":"status sync processing"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 3497): ServerHandler send DatagramPacket:/192.168.1.194-[B@41f6ebd8
+E/ServerHandler( 3497): receiveRequest
+V/OtORequest( 3497): parseCommand
+V/OtORequest( 3497): get command=103
+V/OtORequest( 3497): parse OtORequest: cmd=103 paramLength=0 bufferlen=8
+D/OtOService( 3497): client request get status.playType:2
+D/OtOService( 3497): callback N: 1
+D/OtOService( 3497): send callback: 101
+D/dvb_ServiceAdapter( 2677): dvb_ResultCallBack: what:101   arg1:0
+D/OtOService( 3497): VOB　sync :com.aidufei.otoService.PlayEvent@41f6fea8
+D/OtOService( 3497): --resourceCode: null --ShiftTime:0 --timeCode:0 --delay: 0
+E/ServerAdapter( 3497): ServerAdapter:0
+E/ServerHandler( 3497): Send:com.aidufei.protocol.oto.OtOStatusRequest@41f70380
+D/MonitorCw880( 3627): currentRemoteHost is null ,continue
+D/ServerHandler( 3497): ServerHandler send request:103:{"ResourceInfo":{"ShiftEnd":0,"TimeCode":0,"PlayType":3,"ResourceName":"","ProductCode":"","ShiftTime":0,"ResourceCode":""},"Status":{"ReturnCode":100,"Description":"ok"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 3497): ServerHandler send DatagramPacket:/192.168.1.194-[B@42d375d8
+D/OtOService( 3497): send callback obj: com.aidufei.otoService.IServiceCallBack$Stub$Proxy@41802e10
+E/ServerAdapter( 3497): ServerAdapter:0
+E/ServerHandler( 3497): Send:com.aidufei.protocol.oto.OtOStatusRequest@42d37ea0
+D/ServerHandler( 3497): ServerHandler send request:103:{"Status":{"ReturnCode":99,"Description":"status sync processing"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 3497): ServerHandler send DatagramPacket:/192.168.1.194-[B@42d38f60
+D/dhcpcd  ( 3962): sending DHCP_DISCOVER with xid 0x41fb5825, next in 63.06 seconds
+E/ServerHandler( 3497): receiveRequest
+V/OtORequest( 3497): parseCommand
+V/OtORequest( 3497): get command=103
+V/OtORequest( 3497): parse OtORequest: cmd=103 paramLength=0 bufferlen=8
+D/OtOService( 3497): client request get status.playType:2
+D/OtOService( 3497): callback N: 1
+D/OtOService( 3497): send callback: 101
+D/dvb_ServiceAdapter( 2677): dvb_ResultCallBack: what:101   arg1:0
+D/OtOService( 3497): VOB　sync :com.aidufei.otoService.PlayEvent@42d3a230
+D/OtOService( 3497): --resourceCode: null --ShiftTime:0 --timeCode:0 --delay: 0
+E/ServerAdapter( 3497): ServerAdapter:0
+E/ServerHandler( 3497): Send:com.aidufei.protocol.oto.OtOStatusRequest@42d3a708
+D/ServerHandler( 3497): ServerHandler send request:103:{"ResourceInfo":{"ShiftEnd":0,"TimeCode":0,"PlayType":3,"ResourceName":"","ProductCode":"","ShiftTime":0,"ResourceCode":""},"Status":{"ReturnCode":100,"Description":"ok"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 3497): ServerHandler send DatagramPacket:/192.168.1.194-[B@42d3c370
+D/OtOService( 3497): send callback obj: com.aidufei.otoService.IServiceCallBack$Stub$Proxy@41802e10
+E/ServerAdapter( 3497): ServerAdapter:0
+E/ServerHandler( 3497): Send:com.aidufei.protocol.oto.OtOStatusRequest@42d3cc98
+D/ServerHandler( 3497): ServerHandler send request:103:{"Status":{"ReturnCode":99,"Description":"status sync processing"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 3497): ServerHandler send DatagramPacket:/192.168.1.194-[B@42e46dd0
+E/ServerHandler( 3497): receiveRequest
+V/OtORequest( 3497): parseCommand
+V/OtORequest( 3497): get command=103
+V/OtORequest( 3497): parse OtORequest: cmd=103 paramLength=0 bufferlen=8
+D/OtOService( 3497): client request get status.playType:2
+D/OtOService( 3497): callback N: 1
+D/OtOService( 3497): send callback: 101
+D/dvb_ServiceAdapter( 2677): dvb_ResultCallBack: what:101   arg1:0
+D/OtOService( 3497): VOB　sync :com.aidufei.otoService.PlayEvent@42e480a0
+D/OtOService( 3497): --resourceCode: null --ShiftTime:0 --timeCode:0 --delay: 0
+E/ServerAdapter( 3497): ServerAdapter:0
+E/ServerHandler( 3497): Send:com.aidufei.protocol.oto.OtOStatusRequest@42e48578
+D/ServerHandler( 3497): ServerHandler send request:103:{"ResourceInfo":{"ShiftEnd":0,"TimeCode":0,"PlayType":3,"ResourceName":"","ProductCode":"","ShiftTime":0,"ResourceCode":""},"Status":{"ReturnCode":100,"Description":"ok"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 3497): ServerHandler send DatagramPacket:/192.168.1.194-[B@42e4a1e0
+D/OtOService( 3497): send callback obj: com.aidufei.otoService.IServiceCallBack$Stub$Proxy@41802e10
+E/ServerAdapter( 3497): ServerAdapter:0
+E/ServerHandler( 3497): Send:com.aidufei.protocol.oto.OtOStatusRequest@42e4ab08
+D/ServerHandler( 3497): ServerHandler send request:103:{"Status":{"ReturnCode":99,"Description":"status sync processing"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 3497): ServerHandler send DatagramPacket:/192.168.1.194-[B@42e4bbc8
+D/MonitorCw880( 3627): currentRemoteHost is null ,continue
+E/ServerHandler( 3497): receiveRequest
+V/OtORequest( 3497): parseCommand
+V/OtORequest( 3497): get command=103
+V/OtORequest( 3497): parse OtORequest: cmd=103 paramLength=0 bufferlen=8
+D/OtOService( 3497): client request get status.playType:2
+D/OtOService( 3497): callback N: 1
+D/OtOService( 3497): send callback: 101
+D/dvb_ServiceAdapter( 2677): dvb_ResultCallBack: what:101   arg1:0
+D/OtOService( 3497): VOB　sync :com.aidufei.otoService.PlayEvent@42e4ce98
+D/OtOService( 3497): --resourceCode: null --ShiftTime:0 --timeCode:0 --delay: 0
+E/ServerAdapter( 3497): ServerAdapter:0
+E/ServerHandler( 3497): Send:com.aidufei.protocol.oto.OtOStatusRequest@42e4d370
+D/ServerHandler( 3497): ServerHandler send request:103:{"ResourceInfo":{"ShiftEnd":0,"TimeCode":0,"PlayType":3,"ResourceName":"","ProductCode":"","ShiftTime":0,"ResourceCode":""},"Status":{"ReturnCode":100,"Description":"ok"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 3497): ServerHandler send DatagramPacket:/192.168.1.194-[B@42e4efd8
+D/OtOService( 3497): send callback obj: com.aidufei.otoService.IServiceCallBack$Stub$Proxy@41802e10
+E/ServerAdapter( 3497): ServerAdapter:0
+E/ServerHandler( 3497): Send:com.aidufei.protocol.oto.OtOStatusRequest@41fb27b0
+D/ServerHandler( 3497): ServerHandler send request:103:{"Status":{"ReturnCode":99,"Description":"status sync processing"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 3497): ServerHandler send DatagramPacket:/192.168.1.194-[B@41fb3860
+D/HomePlayerLib( 2256): hostaddress count is 1
+D/dalvikvm( 2256): GC_CONCURRENT freed 1956K, 47% free 7237K/13443K, paused 2ms+3ms
+E/dhcpcd  ( 3962): timed out
+D/dhcpcd  ( 3962): executing `/system/etc/dhcpcd/dhcpcd-run-hooks', reason FAIL
+D/dalvikvm( 2256): GC_CONCURRENT freed 1931K, 46% free 7338K/13443K, paused 2ms+5ms
+D/dhcpcd  ( 3962): broadcasting for a lease
+D/dhcpcd  ( 3962): sending DHCP_DISCOVER with xid 0xdd3277fb, next in 4.14 seconds
+E/ServerHandler( 3497): receiveRequest
+V/OtORequest( 3497): parseCommand
+V/OtORequest( 3497): get command=103
+V/OtORequest( 3497): parse OtORequest: cmd=103 paramLength=0 bufferlen=8
+D/OtOService( 3497): client request get status.playType:2
+D/OtOService( 3497): callback N: 1
+D/OtOService( 3497): send callback: 101
+D/dvb_ServiceAdapter( 2677): dvb_ResultCallBack: what:101   arg1:0
+D/OtOService( 3497): VOB　sync :com.aidufei.otoService.PlayEvent@41fb4b30
+D/OtOService( 3497): --resourceCode: null --ShiftTime:0 --timeCode:0 --delay: 0
+E/ServerAdapter( 3497): ServerAdapter:0
+E/ServerHandler( 3497): Send:com.aidufei.protocol.oto.OtOStatusRequest@41fb5008
+D/ServerHandler( 3497): ServerHandler send request:103:{"ResourceInfo":{"ShiftEnd":0,"TimeCode":0,"PlayType":3,"ResourceName":"","ProductCode":"","ShiftTime":0,"ResourceCode":""},"Status":{"ReturnCode":100,"Description":"ok"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 3497): ServerHandler send DatagramPacket:/192.168.1.194-[B@41fb6c70
+D/OtOService( 3497): send callback obj: com.aidufei.otoService.IServiceCallBack$Stub$Proxy@41802e10
+E/ServerAdapter( 3497): ServerAdapter:0
+E/ServerHandler( 3497): Send:com.aidufei.protocol.oto.OtOStatusRequest@41fb7598
+D/ServerHandler( 3497): ServerHandler send request:103:{"Status":{"ReturnCode":99,"Description":"status sync processing"},"PlayStatus":0,"Volume":0}
+V/ServerHandler( 3497): ServerHandler send DatagramPacket:/192.168.1.194-[B@41fb8658
+^C
+130|shell@android:/ $ 
+130|shell@android:/ $ 

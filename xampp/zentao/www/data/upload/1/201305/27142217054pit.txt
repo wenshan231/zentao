@@ -1,0 +1,1932 @@
+[   85.440026]  
+shell@android:/ $ 
+shell@android:/ $ logcat、
+/system/bin/sh: logcat、: not found
+127|shell@android:/ $ logcat                                                   
+/system/bin/sh: logcat not found
+127|shell@android:/ $ logcat                                                   
+--------- beginning of /dev/log/system
+I/Vold    (  738): Vold 2.1 (the revenge) firing up
+E/Vold    (  738): Error reading configuration (No such file or directory)... continuing anyways
+D/Vold    (  738): can not get the uuid of /dev/block/vold/8:0 when device add
+D/Vold    (  738): can not get the uuid of /dev/block/vold/8:0 when device remove
+I/SystemServer(  950): Entered the Android system server!
+I/SystemServer(  950): Entropy Service
+I/SystemServer(  950): Power Manager
+I/SystemServer(  950): Activity Manager
+I/ActivityManager(  950): Enabled StrictMode logging for AThread's Looper
+I/SystemServer(  950): Telephony Registry
+I/SystemServer(  950): Package Manager
+W/PackageManager(  950): Running ENG build: no pre-dexopt!
+W/PackageManager(  950): Library not found: /system/framework/com.android.future.usb.accessory.jar
+W/PackageParser(  950): No actions in intent filter at /system/app/Bluetooth.apk Binary XML file line #125
+I/PackageParser(  950): com.coship.HS: compat added android.permission.WRITE_EXTERNAL_STORAGE android.permission.READ_PHONE_STATE
+W/PackageParser(  950): No actions in intent filter at /system/app/CIBN_out.apk Binary XML file line #191
+W/PackageParser(  950): No actions in intent filter at /system/app/Contacts.apk Binary XML file line #525
+W/PackageParser(  950): Problem in package /system/app/STB-Settings.apk:
+W/PackageParser(  950): Unknown element under <activity>: data at /system/app/STB-Settings.apk Binary XML file line #145
+W/PackageParser(  950): Problem in package /system/app/STB-Settings.apk:
+W/PackageParser(  950): Unknown element under <activity>: action at /system/app/STB-Settings.apk Binary XML file line #231
+W/PackageParser(  950): Problem in package /system/app/STB-Settings.apk:
+W/PackageParser(  950): Unknown element under <activity>: action at /system/app/STB-Settings.apk Binary XML file line #232
+W/PackageParser(  950): Problem in package /system/app/STB-Settings.apk:
+W/PackageParser(  950): Unknown element under <activity>: action at /system/app/STB-Settings.apk Binary XML file line #289
+W/PackageParser(  950): Problem in package /system/app/STB-Settings.apk:
+W/PackageParser(  950): Unknown element under <activity>: action at /system/app/STB-Settings.apk Binary XML file line #393
+W/PackageParser(  950): Problem in package /system/app/STB-Settings.apk:
+W/PackageParser(  950): Unknown element under <activity>: action at /system/app/STB-Settings.apk Binary XML file line #394
+W/PackageParser(  950): No actions in intent filter at /system/app/com.coship.Multimedia.apk Binary XML file line #97
+W/PackageParser(  950): No actions in intent filter at /system/app/com.coship.Multimedia.apk Binary XML file line #104
+I/PackageParser(  950): com.coship.Multimedia: compat added android.permission.READ_PHONE_STATE
+W/PackageParser(  950): No actions in intent filter at /system/app/com.coship.NetworkNavigation.apk Binary XML file line #24
+W/PackageParser(  950): No actions in intent filter at /system/app/com.coship.NetworkNavigation.apk Binary XML file line #31
+W/PackageParser(  950): No actions in intent filter at /system/app/com.coship.NetworkNavigation.apk Binary XML file line #38
+W/PackageParser(  950): No actions in intent filter at /system/app/com.coship.NetworkNavigation.apk Binary XML file line #45
+W/PackageParser(  950): No actions in intent filter at /system/app/com.coship.NetworkNavigation.apk Binary XML file line #52
+W/PackageParser(  950): No actions in intent filter at /system/app/com.coship.app.vaf.apk Binary XML file line #58
+I/PackageParser(  950): com.coship.dvbplayer: compat added android.permission.READ_PHONE_STATE
+W/PackageParser(  950): No actions in intent filter at /system/app/com.coship.dvbsetting.apk Binary XML file line #103
+W/PackageParser(  950): No actions in intent filter at /system/app/com.coship.dvbsetting.apk Binary XML file line #111
+W/PackageParser(  950): No actions in intent filter at /system/app/com.coship.dvbsetting.apk Binary XML file line #119
+W/PackageParser(  950): No actions in intent filter at /system/app/com.coship.dvbsetting.apk Binary XML file line #127
+W/PackageParser(  950): No actions in intent filter at /system/app/com.coship.dvbsetting.apk Binary XML file line #135
+W/PackageParser(  950): No actions in intent filter at /system/app/com.coship.dvbsetting.apk Binary XML file line #141
+W/PackageParser(  950): No actions in intent filter at /system/app/com.coship.dvbsetting.apk Binary XML file line #155
+W/PackageParser(  950): No actions in intent filter at /system/app/com.coship.dvbsetting.apk Binary XML file line #163
+W/PackageParser(  950): No actions in intent filter at /system/app/com.coship.dvbsetting.apk Binary XML file line #172
+W/PackageParser(  950): No actions in intent filter at /system/app/com.coship.dvbsetting.apk Binary XML file line #180
+W/PackageParser(  950): No actions in intent filter at /system/app/com.coship.dvbsetting.apk Binary XML file line #187
+W/PackageParser(  950): No actions in intent filter at /system/app/com.coship.dvbsetting.apk Binary XML file line #195
+W/PackageParser(  950): No actions in intent filter at /system/app/com.coship.dvbsetting.apk Binary XML file line #202
+W/PackageParser(  950): No actions in intent filter at /system/app/com.coship.dvbsetting.apk Binary XML file line #210
+W/PackageParser(  950): No actions in intent filter at /system/app/com.coship.dvbsetting.apk Binary XML file line #217
+W/PackageParser(  950): No actions in intent filter at /system/app/com.coship.dvbsetting.apk Binary XML file line #223
+W/PackageParser(  950): No actions in intent filter at /system/app/com.coship.dvbsetting.apk Binary XML file line #230
+W/PackageParser(  950): No actions in intent filter at /system/app/com.coship.dvbsetting.apk Binary XML file line #236
+I/PackageParser(  950): com.coship.dvbsetting: compat added android.permission.READ_PHONE_STATE
+W/PackageManager(  950): Unable to update from com.android.settings to com.coship.dvbsetting: old package still exists
+I/Installer(  950): connecting...
+W/PackageParser(  950): Unknown element under <manifest>: fr at /data/app/jixianmotuo2TrialXtreme2HD_V2.96_mumayi_57e5b.apk Binary XML file line #33
+I/PackageManager(  950): Time to scan packages: 4.043 seconds
+W/PackageManager(  950): Unknown permission android.permission.APPWIDGET_LIST in package com.biaoqi.stbwidget.host
+W/PackageManager(  950): Unknown permission com.android.launcher.permission.READ_SETTINGS in package com.coship.dvbsetting
+W/PackageManager(  950): Unknown permission com.android.launcher.permission.WRITE_SETTINGS in package com.coship.dvbsetting
+W/PackageManager(  950): Unknown permission android.permission.APPWIDGET_LIST in package com.mstar.appwidget
+W/PackageManager(  950): Unknown permission android.permission.ADD_SYSTEM_SERVICE in package com.coship.sdp.sce.tvappstore
+W/PackageManager(  950): Unknown permission android.permission.READ_EXTERNAL_STORAGE in package com.coship.sdp.sce.tvappstore
+W/PackageManager(  950): Unknown permission com.google.android.gm.permission.WRITE_GMAIL in package com.coship.sdp.sce.tvappstore
+W/PackageManager(  950): Unknown permission com.google.android.gm.permission.READ_GMAIL in package com.coship.sdp.sce.tvappstore
+W/PackageManager(  950): Unknown permission com.android.launcher.permission.INSTALL_SHORTCUT in package com.android.browser
+W/PackageManager(  950): Unknown permission com.google.android.gm.permission.WRITE_GMAIL in package com.coship.app.vaf
+W/PackageManager(  950): Unknown permission com.google.android.gm.permission.READ_GMAIL in package com.coship.app.vaf
+W/PackageManager(  950): Unknown permission com.android.launcher.permission.READ_SETTINGS in package com.coship.app.vaf
+W/PackageManager(  950): Unknown permission com.android.launcher.permission.WRITE_SETTINGS in package com.coship.app.vaf
+W/PackageManager(  950): Unknown permission com.google.android.gm.permission.WRITE_GMAIL in package com.coship.TestApp
+W/PackageManager(  950): Unknown permission com.google.android.gm.permission.READ_GMAIL in package com.coship.TestApp
+W/PackageManager(  950): Unknown permission com.android.launcher.permission.READ_SETTINGS in package com.coship.TestApp
+W/PackageManager(  950): Unknown permission com.android.launcher.permission.WRITE_SETTINGS in package com.coship.TestApp
+W/PackageManager(  950): Unknown permission android.permission.WRITE_OWNER_DATA in package com.iflytek.speech
+W/PackageManager(  950): Unknown permission android.permission.BAIDU_LOCATION_SERVICE in package com.iflytek.speech
+W/PackageManager(  950): Unknown permission android.permission.WRITE_OWNER_DATA in package com.coship.UpdateApp
+W/PackageManager(  950): Unknown permission android.permission.READ_OWNER_DATA in package com.coship.UpdateApp
+W/PackageManager(  950): Unknown permission android.permission.ADD_SYSTEM_SERVICE in package com.coship.netfirmware
+W/PackageManager(  950): Unknown permission android.permission.READ_SETTINGS in package com.android.settings
+W/PackageManager(  950): Unknown permission com.android.launcher.permission.READ_SETTINGS in package com.android.settings
+W/PackageManager(  950): Unknown permission com.android.launcher.permission.WRITE_SETTINGS in package com.android.settings
+W/PackageManager(  950): Unknown permission android.webkit.permission.PLUGIN in package com.adobe.flashplayer
+W/PackageManager(  950): Unknown permission android.permission.READ_OWNER_DATA in package com.adobe.flashplayer
+W/PackageManager(  950): Unknown permission android.permission.WRITE_OWNER_DATA in package com.adobe.flashplayer
+W/PackageManager(  950): Unknown permission android.permission.READ_EXTERNAL_STORAGE in package com.adobe.flashplayer
+W/PackageManager(  950): Unknown permission com.android.vending.BILLING in package com.trinitigame.android.kkjsdfsnfjr
+W/PackageManager(  950): Unknown permission com.android.launcher.permission.INSTALL_SHORTCUT in package com.trinitigame.android.kkjsdfsnfjr
+W/PackageManager(  950): Unknown permission android.permission.WRITE_OWNER_DATA in package com.coship.Multimedia
+W/PackageManager(  950): Unknown permission android.permission.READ_OWNER_DATA in package com.coship.Multimedia
+W/PackageManager(  950): Unknown permission com.android.launcher.permission.INSTALL_SHORTCUT in package com.game.SkaterBoyword
+W/PackageManager(  950): Unknown permission android.permission.WRITE_OWNER_DATA in package com.coship.NetworkNavigation
+W/PackageManager(  950): Unknown permission android.permission.READ_OWNER_DATA in package com.coship.NetworkNavigation
+W/PackageManager(  950): Unknown permission android.permission.READ_EXTERNAL_STORAGE in package com.rovio.angrybirdsstarwars.ads.iap
+W/PackageManager(  950): Unknown permission com.google.android.c2dm.permission.REGISTRATION in package com.rovio.angrybirdsstarwars.ads.iap
+W/PackageManager(  950): Unknown permission com.android.vending.BILLING in package com.rovio.angrybirdsstarwars.ads.iap
+I/SystemServer(  950): Account Manager
+I/SystemServer(  950): Content Manager
+I/SystemServer(  950): System Content Providers
+I/SystemServer(  950): Lights Service
+I/SystemServer(  950): Battery Service
+I/ActivityManager(  950): Memory class: 64
+I/SystemServer(  950): Pppoe Service
+I/SystemServer(  950): Vibrator Service
+I/SystemServer(  950): Alarm Manager
+I/SystemServer(  950): Init Watchdog
+I/SystemServer(  950): Window Manager
+I/InputManager(  950): Initializing input manager
+W/StatusBarManager(  950): warning: no STATUS_BAR_SERVICE
+I/InputManager(  950): Starting input manager
+I/WindowManager(  950): Enabled StrictMode for PolicyThread's Looper
+I/WindowManager(  950): Enabled StrictMode logging for WMThread's Looper
+I/SystemServer(  950): Bluetooth Service
+I/SystemServer(  950): Input Method Service
+W/InputManagerService(  950): Couldn't create dir.: /data/system/inputmethod
+I/SystemServer(  950): Accessibility Manager
+I/ActivityManager(  950): Config changed: {1.0 0mcc0mnc zh_CN layoutdir=0 sw720dp w1280dp h720dp xlrg long land ?uimode ?night -touch -keyb/v/h -nav/h s.2}
+I/SystemServer(  950): TV
+I/SystemServer(  950): Device Policy
+I/SystemServer(  950): Status Bar
+I/SystemServer(  950): Clipboard Service
+I/SystemServer(  950): NetworkManagement Service
+I/SystemServer(  950): Text Service Manager Service
+W/TextServicesManagerService(  950): no available spell checker services found
+I/SystemServer(  950): NetworkStats Service
+I/SystemServer(  950): NetworkPolicy Service
+I/SystemServer(  950): Wi-Fi P2pService
+D/WifiP2pService(  950): P2pDisabledState
+E/WifiP2pService(  950): Failed to reload sta firmware java.lang.NullPointerException
+D/WifiP2pService(  950): mThisDevice.deviceAddress=5a:87:e2:0b:29:48
+I/SystemServer(  950): Wi-Fi Service
+D/WifiP2pService(  950): P2pDisabledState{ what=69633 when=0 }
+D/WifiP2pService(  950): DefaultState{ what=69633 when=0 }
+D/WifiP2pService(  950): P2pDisabledState{ what=69632 when=-1ms obj=com.android.internal.util.AsyncChannel@414c0af8 }
+D/WifiP2pService(  950): DefaultState{ what=69632 when=-1ms obj=com.android.internal.util.AsyncChannel@414c0af8 }
+D/WifiP2pService(  950): Full connection with WifiStateMachine established
+D/WifiP2pService(  950): P2pDisabledState{ what=69633 when=-1ms }
+D/WifiP2pService(  950): DefaultState{ what=69633 when=-1ms }
+D/WifiP2pService(  950): P2pDisabledState{ what=69632 when=0 obj=com.android.internal.util.AsyncChannel@4150f998 }
+D/WifiP2pService(  950): DefaultState{ what=69632 when=0 obj=com.android.internal.util.AsyncChannel@4150f998 }
+D/WifiP2pService(  950): Full connection with WifiStateMachine established
+I/SystemServer(  950): Connectivity Service
+D/ConnectivityService(  950): ConnectivityService starting up
+E/ConnectivityService(  950): Error in radioAttributes - ignoring attempt to redefine type 1
+D/ConnectivityService(  950): Starting Pppoe StateTracker
+D/ConnectivityService(  950): Starting Ethernet Service.
+V/EthernetStateTracker(  950): Ethernet State Tracker v1.0.6
+V/EthernetStateTracker(  950): successed to init device!
+I/EthernetService(  950): Ethernet dev enabled 2
+V/EthernetService(  950): device 0 name eth0
+V/EthernetMonitor(  950): go poll events
+V/EthernetStateTracker(  950): start to monitor the ethernet devices . . .
+I/EthernetManager(  950): Init Ethernet Manager, service: com.android.server.EthernetService@4157ce90
+I/EthernetStateTracker(  950): reset device eth0
+I/EthernetStateTracker(  950): trigger dhcp for device eth0
+D/EthernetStateTracker(  950): DhcpHandler: DHCP request started
+I/EthernetStateTracker(  950): reset device eth0
+I/EthernetStateTracker(  950): trigger dhcp for device eth0
+E/MobileDataStateTracker(  950): default: Ignoring feature request because could not acquire PhoneService
+E/MobileDataStateTracker(  950): default: Could not enable APN type "default"
+D/NetworkManagementService(  950): Registering observer
+D/NetworkManagementService(  950): Registering observer
+I/WifiService(  950): WifiService starting up with Wi-Fi enabled
+D/WifiP2pService(  950): P2pDisabledState{ what=131203 when=0 }
+I/WifiService(  950): WifiService starting up with Wi-Fi AP disabled
+I/SystemServer(  950): Throttle Service
+I/SystemServer(  950): Mount Service
+D/MountService(  950): got storage path: /mnt/sdcard description: USB 瀛樺偍鍣primary: true removable: false emulated: false mtpReserve: 0 allowMassStorage: false maxFileSize: 0
+D/MountService(  950): mExternalStoragePath:/mnt/sdcard
+I/SystemServer(  950): Notification Manager
+D/VoldCmdListener(  738): volume list
+I/SystemServer(  950): Device Storage Monitor
+I/SystemServer(  950): Location Manager
+I/SystemServer(  950): Country Detector
+I/SystemServer(  950): Search Service
+I/SystemServer(  950): DropBox Service
+I/SystemServer(  950): Wallpaper Service
+I/SystemServer(  950): Audio Service
+I/SystemServer(  950): Camera Observer
+I/SystemServer(  950): Microphone Observer
+I/SystemServer(  950): Wired Accessory Observer
+I/SystemServer(  950): USB Service
+I/SystemServer(  950): UI Mode Manager Service
+I/SystemServer(  950): Backup Service
+V/BackupManagerService(  950): Initializing package tracking
+V/BackupManagerService(  950): No ancestral data
+V/BackupManagerService(  950): addPackageParticipantsLocked: all
+I/BackupManagerService(  950): New app android never backed up; scheduling
+I/BackupManagerService(  950): New app com.android.browser never backed up; scheduling
+I/BackupManagerService(  950): New app com.android.providers.settings never backed up; scheduling
+I/BackupManagerService(  950): New app com.android.providers.userdictionary never backed up; scheduling
+I/BackupManagerService(  950): New app com.android.sharedstoragebackup never backed up; scheduling
+V/BackupManagerService(  950): Registering transport android/com.android.internal.backup.LocalTransport = com.android.internal.backup.LocalTransport@415b4d30
+V/BackupManagerService(  950): Starting with transport android/com.android.internal.backup.LocalTransport
+V/BackupManagerService(  950): Google transport not present
+I/BackupManagerService(  950): Backup enabled => false
+I/BackupManagerService(  950): Opting out of backup
+I/SystemServer(  950): AppWidget Service
+I/SystemServer(  950): Recognition Service
+I/SystemServer(  950): DiskStats Service
+I/SystemServer(  950): SamplingProfiler Service
+I/SystemServer(  950): NetworkTimeUpdateService
+D/PowerManagerService(  950): system ready!
+I/ActivityManager(  950): System now ready
+I/SystemServer(  950): Making services ready
+I/ActivityManager(  950): Start proc com.mstar.dbprovider for content provider com.mstar.dbprovider/.MstTvUserSettingProvider: pid=1122 uid=10017 gids={}
+D/SystemServer(  950): Starting service: Intent { cmp=com.android.systemui/.SystemUIService }
+I/ActivityManager(  950): Start proc com.android.systemui for service com.android.systemui/.SystemUIService: pid=1139 uid=1000 gids={3003, 1015, 3002, 3001, 3004}
+D/NetworkManagementService(  950): enabling bandwidth control
+D/SystemUIService( 1139): loading: class com.android.systemui.statusbar.tablet.TabletStatusBar
+D/SystemUIService( 1139): running: com.android.systemui.statusbar.tablet.TabletStatusBar@413aec70
+D/NetworkManagementService(  950): rsp <213 58:87:e2:0b:29:48 0.0.0.0 0 [down broadcast multicast]>
+D/NetworkManagementService(  950): flags <[down broadcast multicast]>
+D/NetworkManagementService(  950): Registering observer
+D/NetworkManagementService(  950): Registering observer
+I/ActivityManager(  950): Config changed: {1.0 0mcc0mnc zh_CN layoutdir=0 sw720dp w1280dp h720dp xlrg long land -touch -keyb/v/h -nav/h s.3}
+W/RecognitionManagerService(  950): no available voice recognition services found
+W/InputManagerService(  950): Ignoring setImeWindowStatus of uid 1000 token: null
+I/ActivityManager(  950): Start proc com.android.inputmethod.pinyin for service com.android.inputmethod.pinyin/.PinyinIME: pid=1196 uid=10020 gids={3003}
+D/NetworkManagementService(  950): Registering observer
+I/SystemServer(  950): SIP Service
+W/ThrottleService(  950): unable to find stats for iface rmnet0
+I/ActivityManager(  950): Start proc com.google.process.gapps for service com.google.android.location/.NetworkLocationService: pid=1214 uid=10012 gids={3003, 1015, 2001, 1007}
+I/ActivityManager(  950): Start proc com.fiship.cibn for added application com.fiship.cibn: pid=1228 uid=10005 gids={3003, 1015}
+I/ActivityManager(  950): Start proc com.coship.sdp.sce.tvappstore for added application com.coship.sdp.sce.tvappstore: pid=1244 uid=1000 gids={3003, 1015, 3002, 3001, 3004}
+I/ActivityManager(  950): Start proc com.coship.easycontrolime for added application com.coship.easycontrolime: pid=1259 uid=10011 gids={3003}
+I/ActivityManager(  950): Start proc com.coship.netfirmware for added application com.coship.netfirmware: pid=1273 uid=1000 gids={3003, 1015, 3002, 3001, 3004}
+D/ActivityManager(  950): propValue:2
+D/ActivityManager(  950): start launcher......
+I/ActivityManager(  950): START {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000000 cmp=com.fiship.cibn/.MainActivity} from pid 0
+I/SystemServer(  950): Enabled StrictMode for system server main thread.
+I/EthernetStateTracker(  950): received interface reset event
+I/EthernetStateTracker(  950): reset device eth0
+I/EthernetStateTracker(  950): trigger dhcp for device eth0
+I/StatusBar.HeightReceiver( 1139): Resizing status bar plugged=false height=48 old=0
+V/EthernetMonitor(  950): get event 
+V/EthernetMonitor(  950): go poll events
+W/ActivityThread( 1214): ClassLoader.loadClass: The class loader returned by Thread.getContextClassLoader() may fail for processes that host multiple applications. You should explicitly specify a context class loader. For example: Thread.setContextClassLoader(getClass().getClassLoader());
+W/MountService(  950): getVolumeState(/mnt/sdcard): Unknown volume
+W/MountService(  950): getVolumeState(/mnt/sdcard): Unknown volume
+I/StatusBarManagerService(  950): registerStatusBar bar=com.android.internal.statusbar.IStatusBar$Stub$Proxy@41625ac0
+D/SystemUIService( 1139): loading: class com.android.systemui.power.PowerUI
+D/SystemUIService( 1139): running: com.android.systemui.power.PowerUI@41437ae0
+I/StatusBar.HeightReceiver( 1139): Resizing status bar plugged=false height=48 old=48
+I/StatusBar.HeightReceiver( 1139): Resizing status bar plugged=false height=48 old=48
+D/WifiService(  950): New client listening to asynchronous messages
+D/PowerManagerService(  950): bootCompleted
+V/DevicePolicyManagerService(  950): Sending password expiration notifications for action android.intent.action.BOOT_COMPLETED
+I/ActivityManager(  950): Start proc com.android.contacts for broadcast com.android.contacts/.calllog.CallLogReceiver: pid=1332 uid=10001 gids={3003, 1015}
+V/WiredAccessoryObserver(  950): init()
+W/WiredAccessoryObserver(  950): This kernel does not have wired headset support
+W/WiredAccessoryObserver(  950): This kernel does not have wired headset support
+W/WiredAccessoryObserver(  950): This kernel does not have wired headset support
+I/ActivityManager(  950): Start proc com.coship.HS for broadcast com.coship.HS/.AutoStartReceiver: pid=1357 uid=1000 gids={3003, 1015, 3002, 3001, 3004}
+I/BootReceiver(  950): Copying /data/tombstones/tombstone_00 to DropBox (SYSTEM_TOMBSTONE)
+I/ActivityManager(  950): Start proc android.process.media for content provider com.android.providers.downloads/.DownloadProvider: pid=1371 uid=10010 gids={1015, 1023, 1024, 2001, 3003, 3007}
+I/ActivityManager(  950): Start proc com.android.providers.calendar for broadcast com.android.providers.calendar/.CalendarReceiver: pid=1388 uid=10006 gids={3003, 1015}
+I/MicrophoneObserver(  950): Microphone PLUG_IN
+V/EthernetMonitor(  950): get event 
+V/EthernetMonitor(  950): go poll events
+V/EthernetMonitor(  950): get event 
+V/EthernetMonitor(  950): go poll events
+V/EthernetMonitor(  950): get event 
+V/EthernetMonitor(  950): go poll events
+V/EthernetMonitor(  950): get event eth0:16:
+V/EthernetMonitor(  950): dev: eth0 ev 16
+V/EthernetStateTracker(  950): report interface is up for eth0
+V/EthernetMonitor(  950): go poll events
+I/EthernetStateTracker(  950): received interface up event, kick off connection request
+I/ActivityManager(  950): Start proc android.process.acore for content provider com.android.providers.contacts/.CallLogProvider: pid=1457 uid=10001 gids={3003, 1015}
+I/EthernetStateTracker(  950): IntentBroadcast, event=5
+I/EthernetStateTracker(  950): reset device eth0
+W/MountService(  950): getVolumeState(/mnt/sdcard): Unknown volume
+I/EthernetStateTracker(  950): trigger dhcp for device eth0
+E/EthernetStateTracker(  950): DhcpHandler: DHCP request failed: DHCP result was failed
+V/EthernetMonitor(  950): get event 
+V/EthernetMonitor(  950): go poll events
+I/ActivityManager(  950): Start proc com.coship.cw880 for broadcast com.coship.cw880/.BootCw880Recive: pid=1491 uid=1000 gids={3003, 1015, 3002, 3001, 3004}
+D/EthernetStateTracker(  950): DhcpHandler: DHCP request started
+I/EthernetStateTracker(  950): configureInterfaceAutoIP : ipaddr 169.254.1.35 gateway 0.0.0.0 netmask 255.255.0.0 dns1 0.0.0.0 dns2 0.0.0.0 DHCP server 0.0.0.0 lease 0 seconds
+V/EthernetMonitor(  950): get event eth0:20:
+V/EthernetMonitor(  950): dev: eth0 ev 20
+I/EthernetStateTracker(  950): report new state CONNECTED on dev eth0
+V/EthernetStateTracker(  950): update network state tracker
+V/EthernetStateTracker(  950): configureInterfaceAutoIP succeeded
+I/EthernetStateTracker(  950): received HW connected, stack=false CC=true
+V/EthernetMonitor(  950): go poll events
+D/ConnectivityService(  950): ConnectivityChange for WIFI: CONNECTED/CONNECTED
+D/ConnectivityService(  950): ConnectivityChange for WIFI: CONNECTED/CONNECTED
+D/ConnectivityService(  950): handleConnectivityChange: address are the same reset per doReset linkProperty[1]: resetMask=0
+I/ActivityManager(  950): START {flg=0x10000000 cmp=com.google.android.gsf/.update.SystemUpdateInstallDialog} from pid 1214
+I/ActivityManager(  950): Start proc com.android.settings for broadcast com.android.settings/.SettingGlobalReceiver: pid=1552 uid=1000 gids={3003, 1015, 3002, 3001, 3004}
+I/ActivityManager(  950): Start proc com.coship.changetheaudiooutput for broadcast com.coship.changetheaudiooutput/.BootCompletedReceiver: pid=1566 uid=10028 gids={3002, 3001, 3004}
+W/InputManagerService(  950): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@41548a48
+I/ActivityManager(  950): Start proc com.coship.Multimedia for broadcast com.coship.Multimedia/.view.BootCompletedReceiver: pid=1582 uid=1000 gids={3003, 1015, 3002, 3001, 3004}
+I/ActivityManager(  950): Start proc com.coship.stpservice for broadcast com.coship.stpservice/.StpReceiver: pid=1597 uid=1000 gids={3003, 1015, 3002, 3001, 3004}
+I/ActivityManager(  950): Start proc com.android.phone for content provider com.android.providers.telephony/.TelephonyProvider: pid=1616 uid=1001 gids={1015}
+I/ActivityManager(  950): Start proc com.game.SkaterBoyword fo
+[  131.077159] IR: [03932] scan key value is 0xec13c936 
+[  131.077163]  r broadcast com.game.SkaterBoyword/net.iusys828.AdPushReceiver: pid=1637 uid=10037 gids={3003, 1015}
+V/EthernetMonitor(  950): get event eth0:21:
+V/EthernetMonitor(  950): dev: eth0 ev 21
+V/EthernetStateTracker(  950): report address is removed for eth0
+V/EthernetMonitor(  950): go poll events
+I/EthernetStateTracker(  950): received interface address remove event
+V/EthernetMonitor(  950): get event eth0:20:
+V/EthernetMonitor(  950): dev: eth0 ev 20
+I/EthernetStateTracker(  950): report new state CONNECTED on dev et
+[  131.129627] IR: [03932] scan key value is 0xec13c936 
+[  131.129632]  h0
+V/EthernetStateTracker(  950): update network state tracker
+W/MountService(  950): getVolumeState(/mnt/sdcard): Unknown volume
+V/EthernetStateTracker(  950): getEthernetIPAddr : 192.168.2.19
+V/EthernetStateTracker(  950): configureInterfaceAutoIP skip!!
+V/EthernetMonitor(  950): go poll events
+I/EthernetStateTracker(  950): received HW connected, stack=true CC=true
+I/ActivityManager(  950): Start proc com.trinitigame.android.kkjsdfsnfjr for broadcast com.trinitigame.android.kkjsdfsnfjr/com.baitui.BootReceiver: pid=1670 uid=10040 gids={3003, 1015}
+D/EthernetStateTracker(  950): DhcpHandler: DHCP request succeeded: addr: 192.168.2.19/24 mRoutes: 0.0.0.0/0 -> 192.168.2.1 |  dns: 192.168.2.1,192.168.99.5 dhcpServer: 192.168.2.1 leaseDuration: 3600
+I/EthernetStateTracker(  950): received configured succeeded, stack=true CC=true
+D/ConnectivityService(  950): ConnectivityChange for ETH: CONNECTED/CONNECTED
+D/ConnectivityService(  950): Policy requires WIFI teardown
+I/EthernetStateTracker(  950): IntentBroadcast, event=1
+W/MountService(  950): getVolumeState(/mnt/sdcard): Unknown volume
+I/ActivityManager(  950): Start proc com.biaoqi.stbwidget.host for broadcast com.biaoqi.stbwidget.host/.NetworkStatusChangeReceiver: pid=1694 uid=10027 gids={3003}
+I/ActivityManager(  950): START {flg=0x10000000 cmp=com.coship.dvbsetting/.main (has extras)} from pid 1228
+I/ActivityManager(  950): Start proc com.coship.dvbsetting for activity com.coship.dvbsetting/.main: pid=1725 uid=1000 gids={3003, 1015, 3002, 3001, 3004}
+V/EthernetMonitor(  950): get event 
+V/EthernetMonitor(  950): go poll events
+V/EthernetMonitor(  950): get event 
+V/EthernetMonitor(  950): go poll events
+V/EthernetMonitor(  950): get event 
+V/EthernetMonitor(  950): go poll events
+V/EthernetMonitor(  950): get event 
+V/EthernetMonitor(  950): go poll events
+D/ConnectivityService(  950): ConnectivityChange for WIFI: DISCONNECTED/DISCONNECTED
+E/MobileDataStateTracker(  950): default: Ignoring feature request because could not acquire PhoneService
+E/MobileDataStateTracker(  950): default: Could not enable APN type "default"
+D/ConnectivityService(  950): Attempting to switch to mobile
+D/ConnectivityService(  950): Attempting to switch to ETH
+D/ConnectivityService(  950): Attempting to switch to pppoe
+D/ConnectivityService(  950): now reset wlan0, resetMask = 3
+D/ConnectivityService(  950): resetConnections(wlan0, 3)
+D/ConnectivityService(  950): ConnectivityChange for WIFI: DISCONNECTED/DISCONNECTED
+V/EthernetMonitor(  950): get event 
+V/EthernetMonitor(  950): go poll events
+E/MobileDataStateTracker(  950): default: Ignoring feature request because could not acquire PhoneService
+E/MobileDataStateTracker(  950): default: Could not enable APN type "default"
+D/ConnectivityService(  950): Attempting to switch to mobile
+D/ConnectivityService(  950): Attempting to switch to ETH
+D/ConnectivityService(  950): Attempting to switch to pppoe
+D/ConnectivityService(  950): now reset wlan0, resetMask = 3
+D/ConnectivityService(  950): resetConnections(wlan0, 3)
+V/TabletStatusBar( 1139): setLightsOn(true)
+W/InputManagerService(  950): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@415a0f60 (uid=10005 pid=1228)
+I/ActivityManager(  950): START {cmp=com.coship.dvbsetting/.netsetting.netSet} from pid 1725
+I/EthernetManager( 1725): Init Ethernet Manager, service: android.net.ethernet.IEthernetManager$Stub$Proxy@4144df78
+D/ConnectivityService(  950): handleInetConditionHoldEnd: net=9, condition=0, published condition=0
+V/TabletStatusBar( 1139): setLightsOn(true)
+D/WifiP2pService(  950): P2pDisabledState{ what=331907 when=0 }
+V/EthernetMonitor(  950): get event 
+V/EthernetMonitor(  950): go poll events
+V/EthernetMonitor(  950): get event 
+V/EthernetMonitor(  950): go poll events
+V/EthernetMonitor(  950): get event 
+V/EthernetMonitor(  950): go poll events
+V/EthernetMonitor(  950): get event 
+V/EthernetMonitor(  950): go poll events
+D/NetworkManagementService(  950): rsp <213 58:87:e2:0b:29:48 0.0.0.0 0 [up broadcast running multicast]>
+D/NetworkManagementService(  950): flags <[up broadcast running multicast]>
+V/EthernetMonitor(  950): get event 
+V/EthernetMonitor(  950): go poll events
+D/NetworkManagementService(  950): rsp <213 58:87:e2:0b:29:48 192.168.43.1 24 [up broadcast running multicast]>
+D/NetworkManagementService(  950): flags <[up broadcast running multicast]>
+V/EthernetMonitor(  950): get event 
+V/EthernetMonitor(  950): go poll events
+V/EthernetMonitor(  950): get event 
+V/EthernetMonitor(  950): go poll events
+V/EthernetMonitor(  950): get event 
+V/EthernetMonitor(  950): go poll events
+W/MountService(  950): getVolumeState(/mnt/sdcard): Unknown volume
+D/WifiP2pService(  950): P2pDisabledState{ what=131203 when=-2ms }
+D/NetworkManagementService(  950): rsp <213 58:87:e2:0b:29:48 0.0.0.0 0 [down broadcast multicast]>
+D/NetworkManagementService(  950): flags <[down broadcast multicast]>
+V/EthernetMonitor(  950): get event 
+V/EthernetMonitor(  950): go poll events
+I/ActivityManager(  950): Process com.coship.sdp.sce.tvappstore (pid 1244) has died.
+W/ActivityManager(  950): Scheduling restart of crashed service com.coship.sdp.sce.tvappstore/.app.service.AppStoreCoreService in 1250ms
+I/ActivityManager(  950): Start proc com.coship.sdp.sce.tvappstore for restart com.coship.sdp.sce.tvappstore: pid=1969 uid=1000 gids={3003, 1015, 3002, 3001, 3004}
+W/MountService(  950): getVolumeState(/mnt/sdcard): Unknown volume
+W/MountService(  950): getVolumeState(/mnt/sdcard): Unknown volume
+V/EthernetMonitor(  950): get event 
+V/EthernetMonitor(  950): go poll events
+V/EthernetMonitor(  950): get event 
+V/EthernetMonitor(  950): go poll events
+V/EthernetMonitor(  950): get event 
+V/EthernetMonitor(  950): go poll events
+--------- beginning of /dev/log/main
+I/HighSet_WirlessNetwork( 1725): -------------------------SSID= liwenjuan ----------Adress= 5c:63:bf:f8:5d:de
+I/HighSet_WirlessNetwork( 1725): -------------------------SSID= TP_LINK_TEST_5GHz_D8070A ----------Adress= 8c:21:0a:d8:07:0a
+V/HighSet_WirlessNetwork( 1725): !!!!!!!! remove ssid:123
+I/HighSet_WirlessNetwork( 1725): -------------------------SSID= liwenjuan ----------Adress= 5c:63:bf:f8:5d:de
+I/HighSet_WirlessNetwork( 1725): -------------------------SSID= TP_LINK_TEST_5GHz_D8070A ----------Adress= 8c:21:0a:d8:07:0a
+V/HighSet_WirlessNetwork( 1725): !!!!!!!! remove ssid:123
+I/HighSet_WirlessNetwork( 1725): -------------------------SSID= liwenjuan ----------Adress= 5c:63:bf:f8:5d:de
+I/HighSet_WirlessNetwork( 1725): -------------------------SSID= TP_LINK_TEST_5GHz_D8070A ----------Adress= 8c:21:0a:d8:07:0a
+V/HighSet_WirlessNetwork( 1725): !!!!!!!! remove ssid:123
+I/HighSet_WirlessNetwork( 1725): -------------------------SSID= liwenjuan ----------Adress= 5c:63:bf:f8:5d:de
+I/HighSet_WirlessNetwork( 1725): -------------------------SSID= TP_LINK_TEST_5GHz_D8070A ----------Adress= 8c:21:0a:d8:07:0a
+V/HighSet_WirlessNetwork( 1725): !!!!!!!! remove ssid:123
+W/CheckinRequestBuilder( 1214): Unknown phone type: 0 id=null
+I/CheckinTask( 1214): Checkin success: https://android.clients.google.com/checkin (1 requests sent)
+D/dalvikvm( 1214): GC_CONCURRENT freed 354K, 70% free 1791K/5891K, paused 2ms+2ms
+D/SlideManagerRootImpl( 1228): slideTo = 4
+E/        ( 1228): get vaddr failed:pvaddr_read=0x5e9e7000,pvaddr_internal=0x5eae7000,pvaddr_write=0x0
+E/        ( 1228): get vaddr failed:pvaddr_read=0x5e9e7000,pvaddr_internal=0x5eae7000,pvaddr_write=0x0
+D/dalvikvm( 1228): GC_FOR_ALLOC freed 1837K, 23% free 28717K/37251K, paused 46ms
+D/InputEventConsistencyVerifier( 1725): KeyEvent: ACTION_UP but key was not down.
+D/InputEventConsistencyVerifier( 1725):   in android.widget.Button@41e96f58
+D/InputEventConsistencyVerifier( 1725):   0: sent at 57453000000, KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_DOWN, scanCode=108, metaState=0, flags=0x8, repeatCount=0, eventTime=57453, downTime=57132, deviceId=1, source=0x101 }
+D/dalvikvm( 1228): GC_FOR_ALLOC freed 325K, 20% free 30052K/37251K, paused 38ms
+V/EthernetMonitor(  950): get event 
+V/EthernetMonitor(  950): go poll events
+D/InputEventConsistencyVerifier( 1725): KeyEvent: ACTION_UP but key was not down.
+D/InputEventConsistencyVerifier( 1725):   in android.widget.ListView@41e97280
+D/InputEventConsistencyVerifier( 1725):   0: sent at 57809000000, KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_DOWN, scanCode=108, metaState=0, flags=0x8, repeatCount=0, eventTime=57809, downTime=57595, deviceId=1, source=0x101 }
+I/TabletStatusBar( 1139): receiver broadcast
+D/ConnectivityService(  950): ConnectivityChange for WIFI: CONNECTED/CONNECTED
+D/ConnectivityService(  950): ConnectivityChange for WIFI: CONNECTED/CONNECTED
+I/System.out( 1552): GolableWifiChangeReceiver:::::
+I/System.out( 1552): WIFI_CONNECT:true
+I/NetworkStatusChangeReceiver( 1694): action::::::::android.net.wifi.STATE_CHANGE
+I/System.out( 1694): 缃戠粶杩炴帴锛氾細锛氾細锛氾細锛
+I/System.out( 1694): 椤圭洰鍚嶇О锛欰3STB-WidgetHost锛岀増鏈彿锛.0.11锛屽彂甯冧汉锛氭湵閬撲笓(Jacky.Zhu)
+I/System.out( 1694): BabaoWebWidget---network connect---
+I/System.out( 1694): WeatherWidgetProvider----network connect----------
+I/NetworkConnect( 1725): //////@Override//////@Override//////@Override//////@Override//////@Override//////@Override//////@Override//////@Override
+I/NetworkConnect( 1725): Execute command :ping -c 1 -w 100 www.baidu.com
+I/HighSet_WirlessNetwork( 1725): -------------------------SSID= liwenjuan ----------Adress= 5c:63:bf:f8:5d:de
+I/HighSet_WirlessNetwork( 1725): -------------------------SSID= TP_LINK_TEST_5GHz_D8070A ----------Adress= 8c:21:0a:d8:07:0a
+V/HighSet_WirlessNetwork( 1725): !!!!!!!! remove ssid:123
+I/NetworkConnect( 1725): //////@Override//////@Override//////@Override//////@Override//////@Override//////@Override//////@Override//////@Override0
+I/System  ( 1725): Failed to destroy process 2035
+I/System  ( 1725): libcore.io.ErrnoException: kill failed: ESRCH (No such process)
+I/System  ( 1725):      at libcore.io.Posix.kill(Native Method)
+I/System  ( 1725):      at libcore.io.ForwardingOs.kill(ForwardingOs.java:77)
+I/System  ( 1725):      at java.lang.ProcessManager$ProcessImpl.destroy(ProcessManager.java:257)
+I/System  ( 1725):      at com.coship.dvbsetting.netsetting.quicksetservice.NetworkConnect.execueteCommand(NetworkConnect.java:167)
+I/System  ( 1725):      at com.coship.dvbsetting.netsetting.quicksetservice.NetworkConnect.CheckNet(NetworkConnect.java:70)
+I/System  ( 1725):      at com.coship.dvbsetting.netsetting.StateSet$1$1.run(StateSet.java:212)
+I/System  ( 1725):      at java.lang.Thread.run(Thread.java:856)
+W/System.err( 1694): org.json.JSONException: Value <?xml of type java.lang.String cannot be converted to JSONObject
+W/System.err( 1694):    at org.json.JSON.typeMismatch(JSON.java:111)
+W/System.err( 1694):    at org.json.JSONObject.<init>(JSONObject.java:158)
+W/System.err( 1694):    at org.json.JSONObject.<init>(JSONObject.java:171)
+W/System.err( 1694):    at com.biaoqi.stbwidget.host.BabaoWebHelper.getSinaWebNews(BabaoWebHelper.java:55)
+W/System.err( 1694):    at com.biaoqi.stbwid
+[  132.111726] IR: [03932] scan key value is 0xec13c936 
+[  132.111731]  get.host.BabaoWebWidget$1.run(BabaoWebWidget.java:46)
+W/System.err( 1694):    at java.lang.Thread.run(Thread.java:856)
+D/dalvikvm( 1694): GC_CONCURRENT freed 645K, 70% free 2160K/7107K, paused 2ms+2ms
+E/StrictMode( 1694): A resource was acquired at attached stack trace but never released. See java.io.Closeable for information on avoiding resource leaks.
+E/StrictMode( 1694): java.lang.Throwable: Explicit termination method 'end' not called
+E/StrictMode( 1694):    at dalvik.system.CloseGuard.open(CloseGuard.java:184)
+E/Str
+[  132.164208] IR: [03932] scan key value is 0xec13c936 
+[  132.164213]  ictMode( 1694):         at java.util.zip.Inflater.<init>(Inflater.java:82)
+E/StrictMode( 1694):    at java.util.zip.GZIPInputStream.<init>(GZIPInputStream.java:96)
+E/StrictMode( 1694):    at java.util.zip.GZIPInputStream.<init>(GZIPInputStream.java:81)
+E/StrictMode( 1694):    at libcore.net.http.HttpEngine.initContentStream(HttpEngine.java:512)
+E/StrictMode( 1694):    at libcore.net.http.HttpEngine.readResponse(HttpEngine.java:805)
+E/StrictMode( 1694):    at libcore.net.http.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:274)
+E/StrictMode( 1694):    at libcore.net.http.HttpURLConnectionImpl.getInputStream(HttpURLConnectionImpl.java:168)
+E/StrictMode( 1694):    at com.biaoqi.stbwidget.host.WeatherWidgetHelper.getWeatherContent(WeatherWidgetHelper.java:57)
+E/StrictMode( 1694):    at com.biaoqi.stbwidget.host.WeatherWidgetHelper.getCurrentCityWeather(WeatherWidgetHelper.java:87)
+E/StrictMode( 1694):    at com.biaoqi.stbwidget.host.WeatherWidgetProvider$1.run(WeatherWidgetProvider.java:64)
+E/StrictMode( 1694):    at java.lang.Thread.run(Thread.java:856)
+E/StrictMode( 1694): A resource was acquired at attached stack trace but never released. See java.io.Closeable for information on avoiding resource leaks.
+E/StrictMode( 1694): java.lang.Throwable: Explicit termination method 'end' not called
+E/StrictMode( 1694):    at dalvik.system.CloseGuard.open(CloseGuard.java:184)
+E/StrictMode( 1694):    at java.util.zip.Inflater.<init>(Inflater.java:82)
+E/StrictMode( 1694):    at java.util.zip.GZIPInputStream.<init>(GZIPInputStream.java:96)
+E/StrictMode( 1694):    at java.util.zip.GZIPInputStream.<init>(GZIPInputStream.java:81)
+E/StrictMode( 1694):    at libcore.net.http.HttpEngine.initContentStream(HttpEngine.java:512)
+E/StrictMode( 1694):    at libcore.net.http.HttpEngine.readResponse(HttpEngine.java:805)
+E/StrictMode( 1694):    at libcore.net.http.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:274)
+E/StrictMode( 1694):    at libcore.net.http.HttpURLConnectionImpl.getInputStream(HttpURLConnectionImpl.java:168)
+E/StrictMode( 1694):    at com.biaoqi.stbwidget.host.BabaoWebHelper.getSinaWebNews(BabaoWebHelper.java:42)
+E/StrictMode( 1694):    at com.biaoqi.stbwidget.host.BabaoWebWidget$1.run(BabaoWebWidget.java:46)
+E/StrictMode( 1694):    at java.lang.Thread.run(Thread.java:856)
+I/StateSet( 1725): -----wifi------dhcpinfo.toString()=ipaddr 192.168.2.3 gateway 192.168.2.1 netmask 255.255.255.0 dns1 192.168.2.1 dns2 192.168.99.5 DHCP server 192.168.2.1 lease 3600 seconds
+D/dalvikvm( 1694): GC_CONCURRENT freed 526K, 71% free 2090K/7107K, paused 1ms+2ms
+E/StrictMode( 1694): A resource was acquired at attached stack trace but never released. See java.io.Closeable for information on avoiding resource leaks.
+E/StrictMode( 1694): java.lang.Throwable: Explicit termination method 'end' not called
+E/StrictMode( 1694):    at dalvik.system.CloseGuard.open(CloseGuard.java:184)
+E/StrictMode( 1694):    at java.util.zip.Inflater.<init>(Inflater.java:82)
+E/StrictMode( 1694):    at java.util.zip.GZIPInputStream.<init>(GZIPInputStream.java:96)
+E/StrictMode( 1694):    at java.util.zip.GZIPInputStream.<init>(GZIPInputStream.java:81)
+E/StrictMode( 1694):    at libcore.net.http.HttpEngine.initContentStream(HttpEngine.java:512)
+E/StrictMode( 1694):    at libcore.net.http.HttpEngine.readResponse(HttpEngine.java:805)
+E/StrictMode( 1694):    at libcore.net.http.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:274)
+E/StrictMode( 1694):    at libcore.net.http.HttpURLConnectionImpl.getInputStream(HttpURLConnectionImpl.java:168)
+E/StrictMode( 1694):    at com.biaoqi.stbwidget.host.WeatherWidgetHelper.getWeatherContent(WeatherWidgetHelper.java:57)
+E/StrictMode( 1694):    at com.biaoqi.stbwidget.host.WeatherWidgetHelper.getCurrentCityWeather(WeatherWidgetHelper.java:86)
+E/StrictMode( 1694):    at com.biaoqi.stbwidget.host.WeatherWidgetProvider$1.run(WeatherWidgetProvider.java:62)
+E/StrictMode( 1694):    at java.lang.Thread.run(Thread.java:856)
+E/StrictMode( 1694): A resource was acquired at attached stack trace but never released. See java.io.Closeable for information on avoiding resource leaks.
+E/StrictMode( 1694): java.lang.Throwable: Explicit termination method 'end' not called
+E/StrictMode( 1694):    at dalvik.system.CloseGuard.open(CloseGuard.java:184)
+E/StrictMode( 1694):    at java.util.zip.Inflater.<init>(Inflater.java:82)
+E/StrictMode( 1694):    at java.util.zip.GZIPInputStream.<init>(GZIPInputStream.java:96)
+E/StrictMode( 1694):    at java.util.zip.GZIPInputStream.<init>(GZIPInputStream.java:81)
+E/StrictMode( 1694):    at libcore.net.http.HttpEngine.initContentStream(HttpEngine.java:512)
+E/StrictMode( 1694):    at libcore.net.http.HttpEngine.readResponse(HttpEngine.java:805)
+E/StrictMode( 1694):    at libcore.net.http.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:274)
+E/StrictMode( 1694):    at libcore.net.http.HttpURLConnectionImpl.getInputStream(HttpURLConnectionImpl.java:168)
+E/StrictMode( 1694):    at com.biaoqi.stbwidget.host.WeatherWidgetHelper.getWeatherContent(WeatherWidgetHelper.java:57)
+E/StrictMode( 1694):    at com.biaoqi.stbwidget.host.WeatherWidgetHelper.getCurrentCityWeather(WeatherWidgetHelper.java:87)
+E/StrictMode( 1694):    at com.biaoqi.stbwidget.host.WeatherWidgetProvider$1.run(WeatherWidgetProvider.java:62)
+E/StrictMode( 1694):    at java.lang.Thread.run(Thread.java:856)
+D/dalvikvm( 1582): GC_CONCURRENT freed 644K, 66% free 2373K/6979K, paused 1ms+2ms
+D/Multimedia_BackService( 1582): onIpChanged called,new ip is 192.168.2.19
+W/Multimedia_BackService( 1582): stop mediarenerer because IP changed
+D/dalvikvm(  950): GC_CONCURRENT freed 801K, 62% free 3574K/9283K, paused 2ms+5ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 644K, 66% free 2380K/6979K, paused 3ms+2ms
+D/HomePlayerLib( 1582): hostaddress count is 2
+D/dalvikvm( 1582): GC_CONCURRENT freed 668K, 67% free 2365K/6979K, paused 2ms+2ms
+D/dalvikvm( 1694): GC_CONCURRENT freed 441K, 71% free 2087K/7107K, paused 3ms+4ms
+E/StrictMode( 1694): A resource was acquired at attached stack trace but never released. See java.io.Closeable for information on avoiding resource leaks.
+E/StrictMode( 1694): java.lang.Throwable: Explicit termination method 'end' not called
+E/StrictMode( 1694):    at dalvik.system.CloseGuard.open(CloseGuard.java:184)
+E/StrictMode( 1694):    at java.util.zip.Inflater.<init>(Inflater.java:82)
+E/StrictMode( 1694):    at java.util.zip.GZIPInputStream.<init>(GZIPInputStream.java:96)
+E/StrictMode( 1694):    at java.util.zip.GZIPInputStream.<init>(GZIPInputStream.java:81)
+E/StrictMode( 1694):    at libcore.net.http.HttpEngine.initContentStream(HttpEngine.java:512)
+E/StrictMode( 1694):    at libcore.net.http.HttpEngine.readResponse(HttpEngine.java:805)
+E/StrictMode( 1694):    at libcore.net.http.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:274)
+E/StrictMode( 1694):    at libcore.net.http.HttpURLConnectionImpl.getInputStream(HttpURLConnectionImpl.java:168)
+E/StrictMode( 1694):    at com.biaoqi.stbwidget.host.WeatherWidgetHelper.getWeatherContent(WeatherWidgetHelper.java:57)
+E/StrictMode( 1694):    at com.biaoqi.stbwidget.host.WeatherWidgetHelper.getCurrentCityWeather(WeatherWidgetHelper.java:86)
+E/StrictMode( 1694):    at com.biaoqi.stbwidget.host.WeatherWidgetProvider$1.run(WeatherWidgetProvider.java:63)
+E/StrictMode( 1694):    at java.lang.Thread.run(Thread.java:856)
+D/dalvikvm( 1582): GC_CONCURRENT freed 616K, 66% free 2396K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 684K, 68% free 2272K/6979K, paused 1ms+2ms
+D/dalvikvm( 1694): GC_CONCURRENT freed 427K, 70% free 2166K/7107K, paused 3ms+13ms
+E/StrictMode( 1694): A resource was acquired at attached stack trace but never released. See java.io.Closeable for information on avoiding resource leaks.
+E/StrictMode( 1694): java.lang.Throwable: Explicit termination method 'end' not called
+E/StrictMode( 1694):    at dalvik.system.CloseGuard.open(CloseGuard.java:184)
+E/StrictMode( 1694):    at java.util.zip.Inflater.<init>(Inflater.java:82)
+E/StrictMode( 1694):    at java.util.zip.GZIPInputStream.<init>(GZIPInputStream.java:96)
+E/StrictMode( 1694):    at java.util.zip.GZIPInputStream.<init>(GZIPInputStream.java:81)
+E/StrictMode( 1694):    at libcore.net.http.HttpEngine.initContentStream(HttpEngine.java:512)
+E/StrictMode( 1694):    at libcore.net.http.HttpEngine.readResponse(HttpEngine.java:805)
+E/StrictMode( 1694):    at libcore.net.http.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:274)
+E/StrictMode( 1694):    at libcore.net.http.HttpURLConnectionImpl.getInputStream(HttpURLConnectionImpl.java:168)
+E/StrictMode( 1694):    at com.biaoqi.stbwidget.host.WeatherWidgetHelper.getWeatherContent(WeatherWidgetHelper.java:57)
+E/StrictMode( 1694):    at com.biaoqi.stbwidget.host.WeatherWidgetHelper.getCurrentCityWeather(WeatherWidgetHelper.java:87)
+E/StrictMode( 1694):    at com.biaoqi.stbwidget.host.WeatherWidgetProvider$1.run(WeatherWidgetProvider.java:63)
+E/StrictMode( 1694):    at java.lang.Thread.run(Thread.java:856)
+D/dalvikvm( 1582): GC_CONCURRENT freed 522K, 67% free 2370K/6979K, paused 2ms+17ms
+D/dalvikvm( 1694): GC_CONCURRENT freed 529K, 70% free 2181K/7107K, paused 68ms+5ms
+E/StrictMode( 1694): A resource was acquired at attached stack trace but never released. See java.io.Closeable for information on avoiding resource leaks.
+E/StrictMode( 1694): java.lang.Throwable: Explicit termination method 'end' not called
+E/StrictMode( 1694):    at dalvik.system.CloseGuard.open(CloseGuard.java:184)
+E/StrictMode( 1694):    at java.util.zip.Inflater.<init>(Inflater.java:82)
+E/StrictMode( 1694):    at java.util.zip.GZIPInputStream.<init>(GZIPInputStream.java:96)
+E/StrictMode( 1694):    at java.util.zip.GZIPInputStream.<init>(GZIPInputStream.java:81)
+E/StrictMode( 1694):    at libcore.net.http.HttpEngine.initContentStream(HttpEngine.java:512)
+E/StrictMode( 1694):    at libcore.net.http.HttpEngine.readResponse(HttpEngine.java:805)
+E/StrictMode( 1694):    at libcore.net.http.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:274)
+E/StrictMode( 1694):    at libcore.net.http.HttpURLConnectionImpl.getInputStream(HttpURLConnectionImpl.java:168)
+E/StrictMode( 1694):    at com.biaoqi.stbwidget.host.WeatherWidgetHelper.getWeatherContent(WeatherWidgetHelper.java:57)
+E/StrictMode( 1694):    at com.biaoqi.stbwidget.host.WeatherWidgetHelper.getCurrentCityWeather(WeatherWidgetHelper.java:86)
+E/StrictMode( 1694):    at com.biaoqi.stbwidget.host.WeatherWidgetProvider$1.run(WeatherWidgetProvider.java:64)
+E/StrictMode( 1694):    at java.lang.Thread.run(Thread.java:856)
+D/dalvikvm( 1582): GC_CONCURRENT freed 632K, 66% free 2384K/6979K, paused 2ms+3ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 668K, 67% free 2369K/6979K, paused 1ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 646K, 68% free 2274K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 525K, 67% free 2370K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 649K, 66% free 2374K/6979K, paused 2ms+2ms
+V/WifiConfig( 1725): !!!!!!<getConfig>:   password: null------accessPoint.security=2
+I/ActivityManager(  950): START {cmp=com.coship.dvbsetting/.netsetting.dialog.WifiStateDialog (has extras)} from pid 1725
+D/dalvikvm( 1725): GC_FOR_ALLOC freed 654K, 16% free 26195K/31171K, paused 45ms
+I/dalvikvm-heap( 1725): Grow heap (frag case) to 30.569MB for 1455120-byte allocation
+D/dalvikvm( 1725): GC_FOR_ALLOC freed 54K, 16% free 27562K/32643K, paused 35ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 647K, 66% free 2380K/6979K, paused 2ms+2ms
+V/WifiSTATEialog( 1725): !!!!<onCreate>   getExtras    ssid: TP_LINK_TEST_5GHz_D8070A
+V/WifiSTATEialog( 1725): !!!!<onCreate>   getExtras    mrssi: -46
+V/WifiSTATEialog( 1725): !!!!<onCreate>   getExtras    networkid: 2
+V/WifiSTATEialog( 1725): !!!!<onCreate>   mwificfg.SSID: "TP_LINK_TEST_5GHz_D8070A"
+V/WifiSTATEialog( 1725): !!!!<onCreate>   connName: "liwenjuan"
+V/WifiSTATEialog( 1725): !!!!<onCreate>   mwificfg.status: 2
+V/WifiSTATEialog( 1725): !!!!<onCreate>   mwificfg.networkId: 2
+V/WifiSTATEialog( 1725): !!!!!!!<onCreate> status: 2!!!!!!!!!!!!!
+V/WifiSTATEialog( 1725): !!!!!!!!!!<onCreate> status: !!!!!!!!!!!!!!mrssi:-46
+V/TabletStatusBar( 1139): setLightsOn(true)
+D/HomePlayerLib( 1582): MediaRenderer will start with ip addrss 192.168.2.19
+D/dalvikvm( 1582): GC_CONCURRENT freed 688K, 67% free 2342K/6979K, paused 2ms+2ms
+I/ActivityManager(  950): Displayed com.coship.dvbsetting/.netsetting.dialog.WifiStateDialog: +296ms
+D/HomePlayerLib( 1582): hostaddress count is 2
+D/dalvikvm( 1582): GC_CONCURRENT freed 621K, 67% free 2364K/6979K, paused 1ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 635K, 67% free 2315K/6979K, paused 2ms+2ms
+D/HomePlayerLib( 1582): hostaddress count is 2
+D/dalvikvm( 1582): GC_CONCURRENT freed 635K, 67% free 2314K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 585K, 67% free 2361K/6979K, paused 1ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 642K, 68% free 2272K/6979K, paused 2ms+2ms
+I/HighSet_WirlessNetwork( 1725): -----------------------wifi锟斤拷锟斤拷-------------------
+I/HighSet_WirlessNetwork( 1725): -------------------------SSID= liwenjuan ----------Adress= 5c:63:bf:f8:5d:de
+I/HighSet_WirlessNetwork( 1725): -------------------------SSID= TP_LINK_TEST_5GHz_D8070A ----------Adress= 8c:21:0a:d8:07:0a
+V/HighSet_WirlessNetwork( 1725): !!!!!!!! remove ssid:123
+D/dalvikvm( 1582): GC_CONCURRENT freed 503K, 66% free 2383K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 673K, 67% free 2367K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 631K, 67% free 2307K/6979K, paused 3ms+3ms
+D/Cw880jni( 1491): ==>>CW880 JNI  reboot cw880 over
+I/MonitorCw880( 1491): SystemPropertiesClass:class android.os.SystemProperties
+W/MonitorCw880( 1491): ~~~~~~~~~~~~~~~~~~~~~~method:public static void android.os.SystemProperties.set(java.lang.String,java.lang.String)
+W/MonitorCw880( 1491): setProperties sys.cw880.ready return value:null
+D/MonitorCw880( 1491): CW880Boot() ->end, returnCode=0
+V/WifiSTATEialog( 1725): !!!!!!!!!!<onClick> v: android.widget.Button@42d4b800 !!!!!!!!!
+V/WifiSTATEialog( 1725): !!!!! <SendResult> results: connect!!!!!!!!!!
+I/UsageStats(  950): No package stats for pkg:com.coship.dvbsetting
+V/TabletStatusBar( 1139): setLightsOn(true)
+V/onActivityResult( 1725): !!!!!!!!!!!!!!!!! Result: connect
+I/HighSet_WirlessNetwork( 1725): -------------------------SSID= liwenjuan ----------Adress= 5c:63:bf:f8:5d:de
+I/HighSet_WirlessNetwork( 1725): -------------------------SSID= TP_LINK_TEST_5GHz_D8070A ----------Adress= 8c:21:0a:d8:07:0a
+V/HighSet_WirlessNetwork( 1725): !!!!!!!! remove ssid:123
+I/HighSet_WirlessNetwork( 1725): ---connect()-----mwificfg="TP_LINK_TEST_5GHz_D8070A"-----------networkId=2
+I/Process (  950): Sending signal. PID: 1725 SIG: 3
+I/dalvikvm( 1725): threadid=3: reacting to signal 3
+I/dalvikvm( 1725): Wrote stack traces to '/data/anr/traces.txt'
+I/Process (  950): Sending signal. PID: 1725 SIG: 3
+I/dalvikvm( 1725): threadid=3: reacting to signal 3
+I/dalvikvm( 1725): Wrote stack traces to '/data/anr/traces.txt'
+I/Process (  950): Sending signal. PID: 1725 SIG: 3
+I/dalvikvm( 1725): threadid=3: reacting to signal 3
+I/dalvikvm( 1725): Wrote stack traces to '/data/anr/traces.txt'
+W/WimoApp ( 1491): Q to be created is for module index:23,pid=1491
+W/WimoApp ( 1491): Q_Addr is:0x1001701
+W/WimoApp ( 1491): 
+W/WimoApp ( 1491):  [U_MSGQ]create msgq for module(id=23) succeed!
+W/WimoApp ( 1491): 
+W/WimoApp ( 1491):  [WIM_M]send MODULE_HEART_BEAT_CHECK toMODULE(21) succeed!
+W/WimoApp ( 1491): 
+W/WimoApp ( 1491):  [APK]Received MODULE_HEART_BEAT_REPLY msg!
+D/MonitorCw880( 1491): CreateCw880BootThread ->  Cw880 api is startuped, reboot is ok 
+I/Process (  950): Sending signal. PID: 1725 SIG: 3
+I/dalvikvm( 1725): threadid=3: reacting to signal 3
+I/dalvikvm( 1725): Wrote stack traces to '/data/anr/traces.txt'
+D/SlideManagerRootImpl( 1228): slideTo = 0
+I/Process (  950): Sending signal. PID: 1725 SIG: 3
+I/dalvikvm( 1725): threadid=3: reacting to signal 3
+I/dalvikvm( 1725): Wrote stack traces to '/data/anr/traces.txt'
+V/EthernetMonitor(  950): get event 
+V/EthernetMonitor(  950): go poll events
+D/CommandListener(  739): Clearing all IP addresses on wlan0
+V/EthernetMonitor(  950): get event 
+V/EthernetMonitor(  950): go poll events
+V/EthernetMonitor(  950): get event 
+V/EthernetMonitor(  950): go poll events
+V/onActivityResult( 1725): !!!!!!!!!!!!!!!!! security: 0  ssid: null    password: null
+D/NetUtils(  950): android_net_utils_resetConnections in env=0x177198 clazz=0x58600001 iface=wlan0 mask=0x3
+I/TabletStatusBar( 1139): receiver broadcast
+D/ConnectivityService(  950): ConnectivityChange for WIFI: DISCONNECTED/DISCONNECTED
+E/MobileDataStateTracker(  950): default: Ignoring feature request because could not acquire PhoneService
+E/MobileDataStateTracker(  950): default: Could not enable APN type "default"
+D/ConnectivityService(  950): Attempting to switch to mobile
+D/ConnectivityService(  950): Attempting to switch to ETH
+D/ConnectivityService(  950): Attempting to switch to pppoe
+D/ConnectivityService(  950): now reset wlan0, resetMask = 3
+D/ConnectivityService(  950): resetConnections(wlan0, 3)
+I/System.out( 1552): GolableWifiChangeReceiver:::::
+I/System.out( 1552): WIFI_CONNECT:false
+I/NetworkStatusChangeReceiver( 1694): action::::::::android.net.wifi.STATE_CHANGE
+I/System.out( 1694): 缃戠粶鏂紑锛氾細锛氾細锛氾細锛
+D/ConnectivityService(  950): ConnectivityChange for WIFI: DISCONNECTED/DISCONNECTED
+I/wpa_supplicant( 1957): wlan0: CTRL-EVENT-DISCONNECTED bssid=00:00:00:00:00:00 reason=0
+W/NetworkStats(  950): dropping UID delta from unknown iface: iface=uap0 uid=0 set=DEFAULT tag=0x0 rxBytes=0 rxPackets=0 txBytes=80 txPackets=2 operations=0
+W/NetworkStats(  950): dropping UID delta from unknown iface: iface=wlan0 uid=0 set=DEFAULT tag=0x0 rxBytes=5079 rxPackets=22 txBytes=4829 txPackets=22 operations=0
+W/NetworkStats(  950): dropping UID delta from unknown iface: iface=wlan0 uid=1000 set=FOREGROUND tag=0x0 rxBytes=814 rxPackets=2 txBytes=0 txPackets=0 operations=0
+D/NetUtils(  950): android_net_utils_resetConnections in env=0x177198 clazz=0x5ab00001 iface=wlan0 mask=0x3
+E/MobileDataStateTracker(  950): default: Ignoring feature request because could not acquire PhoneService
+E/MobileDataStateTracker(  950): default: Could not enable APN type "default"
+D/ConnectivityService(  950): Attempting to switch to mobile
+D/ConnectivityService(  950): Attempting to switch to ETH
+D/ConnectivityService(  950): Attempting to switch to pppoe
+D/ConnectivityService(  950): now reset wlan0, resetMask = 3
+D/ConnectivityService(  950): resetConnections(wlan0, 3)
+I/wpa_supplicant( 1957): wlan0: Trying to associate with 8c:21:0a:d8:07:0a (SSID='TP_LINK_TEST_5GHz_D8070A' freq=5785 MHz)
+I/System.out( 1694): BabaoWebWidget---network not connect---
+I/System.out( 1694): 椤圭洰鍚嶇О锛欰3STB-WidgetHost锛岀増鏈彿锛.0.11锛屽彂甯冧汉锛氭湵閬撲笓(Jacky.Zhu)
+I/System.out( 1694): WeatherWidgetProvider----network not connect----------
+D/dalvikvm(  950): GC_CONCURRENT freed 679K, 61% free 3627K/9283K, paused 2ms+5ms
+I/Process (  950): Sending signal. PID: 1725 SIG: 3
+I/dalvikvm( 1725): threadid=3: reacting to signal 3
+I/dalvikvm( 1725): Wrote stack traces to '/data/anr/traces.txt'
+I/StateSet( 1725): -------you xian-----tv_Ip=192.168.2.19
+I/HighSet_WirlessNetwork( 1725): -------------------------SSID= liwenjuan ----------Adress= 5c:63:bf:f8:5d:de
+I/HighSet_WirlessNetwork( 1725): -------------------------SSID= TP_LINK_TEST_5GHz_D8070A ----------Adress= 8c:21:0a:d8:07:0a
+V/HighSet_WirlessNetwork( 1725): !!!!!!!! remove ssid:123
+I/wpa_supplicant( 1957): wlan0: Associated with 8c:21:0a:d8:07:0a
+V/EthernetMonitor(  950): get event 
+V/EthernetMonitor(  950): go poll events
+V/EthernetMonitor(  950): get event 
+V/EthernetMonitor(  950): go poll events
+I/HighSet_WirlessNetwork( 1725): -------------------------SSID= liwenjuan ----------Adress= 5c:63:bf:f8:5d:de
+I/HighSet_WirlessNetwork( 1725): -------------------------SSID= TP_LINK_TEST_5GHz_D8070A ----------Adress= 8c:21:0a:d8:07:0a
+V/HighSet_WirlessNetwork( 1725): !!!!!!!! remove ssid:123
+I/HighSet_WirlessNetwork( 1725): -------------------------SSID= liwenjuan ----------Adress= 5c:63:bf:f8:5d:de
+I/HighSet_WirlessNetwork( 1725): -------------------------SSID= TP_LINK_TEST_5GHz_D8070A ----------Adress= 8c:21:0a:d8:07:0a
+V/HighSet_WirlessNetwork( 1725): !!!!!!!! remove ssid:123
+D/dalvikvm( 1582): GC_CONCURRENT freed 563K, 67% free 2363K/6979K, paused 37ms+3ms
+I/HighSet_WirlessNetwork( 1725): -------------------------SSID= liwenjuan ----------Adress= 5c:63:bf:f8:5d:de
+I/HighSet_WirlessNetwork( 1725): -------------------------SSID= TP_LINK_TEST_5GHz_D8070A ----------Adress= 8c:21:0a:d8:07:0a
+V/HighSet_WirlessNetwork( 1725): !!!!!!!! remove ssid:123
+D/dalvikvm( 1582): GC_CONCURRENT freed 646K, 68% free 2268K/6979K, paused 2ms+2ms
+D/Tethering(  950): MasterInitialState.processMessage what=3
+D/StpService( 1597): receive Broadcast Info NetworkInfo: type: WIFI[], state: DISCONNECTED/DISCONNECTED, reason: (unspecified), extra: (none), roaming: false, failover: false, isAvailable: true
+I/StpService( 1597): Network Type Changed to 1
+I/NetworkMonitorService( 1139): onReceive CONNECTIVITY_CHANGE
+I/NetworkMonitorService( 1139): getConnectedType is :9
+D/Tethering(  950): MasterInitialState.processMessage what=3
+D/CommandListener(  739): Clearing all IP addresses on wlan0
+V/EthernetMonitor(  950): get event 
+V/EthernetMonitor(  950): go poll events
+D/StpService( 1597): receive Broadcast Info NetworkInfo: type: ETH[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), roaming: false, failover: false, isAvailable: true
+I/StpService( 1597): Network Type Changed to 9
+V/EthernetMonitor(  950): get event 
+V/EthernetMonitor(  950): go poll events
+V/EthernetMonitor(  950): get event 
+V/EthernetMonitor(  950): go poll events
+I/wpa_supplicant( 1957): wlan0: CTRL-EVENT-TERMINATING 
+D/Tethering(  950): MasterInitialState.processMessage what=3
+D/StpService( 1597): receive Broadcast Info NetworkInfo: type: WIFI[], state: DISCONNECTED/DISCONNECTED, reason: (unspecified), extra: (none), roaming: false, failover: false, isAvailable: true
+I/StpService( 1597): Network Type Changed to 1
+D/StpService( 1597): receive Broadcast Info NetworkInfo: type: ETH[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), roaming: false, failover: false, isAvailable: true
+I/StpService( 1597): Network Type Changed to 9
+D/Tethering(  950): MasterInitialState.processMessage what=3
+I/StateSet( 1725): -------you xian-----tv_Ip=192.168.2.19
+I/BootCompletedReceiver( 1582): [onReceive] Action锟斤拷android.net.conn.CONNECTIVITY_CHANGE
+D/dalvikvm( 1582): GC_CONCURRENT freed 511K, 66% free 2375K/6979K, paused 9ms+3ms
+D/BootCompletedReceiver( 1582): [onReceive] renderer was configed as autoboot,start backservice
+D/Multimedia_BackService( 1582): BackService onStart called
+D/Multimedia_BackService( 1582): device Name:1鍟婂晩鍟婂晩鍟
+I/AirplayService( 1582): in setAirplayDevName
+I/NetworkMonitorService( 1139): onReceive CONNECTIVITY_CHANGE
+D/WifiStateMachine(  950): isDriverShouldRemove = true
+I/NetworkMonitorService( 1139): onReceive CONNECTIVITY_CHANGE
+I/NetworkMonitorService( 1139): onReceive CONNECTIVITY_CHANGE
+I/TabletStatusBar( 1139): receiver broadcast
+I/NetworkMonitorService( 1139): getConnectedType is :9
+I/NetworkMonitorService( 1139): getConnectedType is :9
+I/NetworkMonitorService( 1139): getConnectedType is :9
+I/System.out( 1670): now=1369453626232 ctime=1369448571539 isStart=true
+D/HomePlayerLib( 1582): hostaddress count is 1
+V/HighSet_WirlessNetwork( 1725): !!!!!<BroadcastReceiver>====wifi closed==
+I/BootCompletedReceiver( 1582): [onReceive] Action锟斤拷android.net.conn.CONNECTIVITY_CHANGE
+D/BootCompletedReceiver( 1582): [onReceive] renderer was configed as autoboot,start backservice
+D/Multimedia_BackService( 1582): BackService onStart called
+D/Multimedia_BackService( 1582): device Name:1鍟婂晩鍟婂晩鍟
+I/AirplayService( 1582): in setAirplayDevName
+D/dalvikvm( 1214): GC_CONCURRENT freed 507K, 71% free 1753K/5955K, paused 2ms+5ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 750K, 68% free 2278K/6979K, paused 4ms+2ms
+I/System.out( 1670): now=1369453626450 ctime=1369448571539 isStart=true
+I/BootCompletedReceiver( 1582): [onReceive] Action锟斤拷android.net.conn.CONNECTIVITY_CHANGE
+D/BootCompletedReceiver( 1582): [onReceive] renderer was configed as autoboot,start backservice
+D/Multimedia_BackService( 1582): BackService onStart called
+D/Multimedia_BackService( 1582): device Name:1鍟婂晩鍟婂晩鍟
+I/AirplayService( 1582): in setAirplayDevName
+I/System.out( 1670): now=1369453626693 ctime=1369448571539 isStart=true
+D/dalvikvm( 1582): GC_CONCURRENT freed 640K, 67% free 2314K/6979K, paused 1ms+6ms
+D/HomePlayerLib( 1582): hostaddress count is 1
+D/dalvikvm( 1214): GC_CONCURRENT freed 411K, 71% free 1732K/5955K, paused 1ms+23ms
+D/InputEventConsistencyVerifier( 1725): KeyEvent: ACTION_UP but key was not down.
+D/InputEventConsistencyVerifier( 1725):   in android.widget.Button@41e96f58
+D/InputEventConsistencyVerifier( 1725):   0: sent at 67626000000, KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_UP, scanCode=103, metaState=0, flags=0x8, repeatCount=0, eventTime=67626, downTime=67410, deviceId=1, source=0x101 }
+D/InputEventConsistencyVerifier( 1725):   -- recent events --
+D/InputEventConsistencyVerifier( 1725):   1: sent at 57595000000, (unhandled) KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=108, metaState=0, flags=0x8, repeatCount=0, eventTime=57595, downTime=57595, deviceId=1, source=0x101 }
+D/InputEventConsistencyVerifier( 1725):   2: sent at 57453000000, (unhandled) KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_DOWN, scanCode=108, metaState=0, flags=0x80000008, repeatCount=0, eventTime=57453, downTime=57132, deviceId=1, source=0x101 }
+D/dalvikvm( 1582): GC_CONCURRENT freed 554K, 67% free 2356K/6979K, paused 1ms+2ms
+I/BootCompletedReceiver( 1582): [onReceive] Action锟斤拷android.net.conn.CONNECTIVITY_CHANGE
+D/BootCompletedReceiver( 1582): [onReceive] renderer was configed as autoboot,start backservice
+D/Multimedia_BackService( 1582): BackService onStart called
+D/Multimedia_BackService( 1582): device Name:1鍟婂晩鍟婂晩鍟
+I/AirplayService( 1582): in setAi
+[  134.472401] IR: [03932] scan key value is 0xee11c936 
+[  134.472406]  rplayDevName
+D/InputEventConsistencyVerifier( 1725): KeyEvent: ACTION_UP but key was not down.
+D/InputEventConsistencyVerifier( 1725):   in android.widget.ImageButton@41e96580
+D/InputEventConsistencyVerifier( 1725):   0: sent at 67885000000, KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_UP, scanCode=103, metaState=0, flags=0x8, repeatCount=0, eventTime=67885, downTime=67672, deviceId=1, source=0x101 }
+D/InputEventConsistencyVerifier( 1725):   -- recent events --
+D/InputEventConsistencyVerifier( 1725):   1: sent at
+[  134.524880] IR: [03932] scan key value is 0xee11c936 
+[  134.524886]   57132000000, (unhandled) KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=108, metaState=0, flags=0x8, repeatCount=0, eventTime=57132, downTime=57132, deviceId=1, source=0x101 }
+D/InputEventConsistencyVerifier( 1725):   2: sent at 50085000000, KeyEvent { action=ACTION_UP, keyCode=KEYCODE_ENTER, scanCode=28, metaState=0, flags=0x8, repeatCount=0, eventTime=50085, downTime=49871, deviceId=1, source=0x101 }
+D/InputEventConsistencyVerifier( 1725):   3: sent at 49871000000, KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_ENTER, scanCode=28, metaState=0, flags=0x8, repeatCount=0, eventTime=49871, downTime=49871, deviceId=1, source=0x101 }
+D/InputEventConsistencyVerifier( 1725):   4: sent at 49629000000, (unhandled) KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_RIGHT, scanCode=106, metaState=0, flags=0x80000008, repeatCount=0, eventTime=49629, downTime=49416, deviceId=1, source=0x101 }
+E/WindowManager(  950): ##############################dispatchUnhandledKey
+I/System.out( 1670): now=1369453627037 ctime=1369448571539 isStart=true
+I/System.out( 1552): GolableWifiChangeReceiver:::::
+I/System.out( 1552): WIFI_CONNECT:false
+I/NetworkStatusChangeReceiver( 1694): action::::::::android.net.wifi.STATE_CHANGE
+I/System.out( 1694): 缃戠粶鏂紑锛氾細锛氾細锛氾細锛
+I/dalvikvm(  950): Jit: resizing JitTable from 4096 to 8192
+D/dalvikvm(  950): GC_EXPLICIT freed 713K, 61% free 3686K/9283K, paused 10ms+6ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 615K, 66% free 2393K/6979K, paused 64ms+3ms
+I/System.out( 1694): BabaoWebWidget---network not connect---
+I/System.out( 1694): 椤圭洰鍚嶇О锛欰3STB-WidgetHost锛岀増鏈彿锛.0.11锛屽彂甯冧汉锛氭湵閬撲笓(Jacky.Zhu)
+I/System.out( 1694): WeatherWidgetProvider----network not connect----------
+W/GpsLocationProvider(  950): Failed to enable location provider
+D/dalvikvm( 1214): GC_CONCURRENT freed 395K, 71% free 1736K/5955K, paused 2ms+4ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 689K, 68% free 2237K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 473K, 68% free 2255K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 495K, 68% free 2260K/6979K, paused 2ms+2ms
+D/HomePlayerLib( 1582): hostaddress count is 1
+D/dalvikvm( 1582): GC_CONCURRENT freed 491K, 66% free 2386K/6979K, paused 3ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 682K, 67% free 2363K/6979K, paused 1ms+1ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 636K, 67% free 2361K/6979K, paused 2ms+2ms
+D/InputEventConsistencyVerifier( 1725): KeyEvent: ACTION_UP but key was not down.
+D/InputEventConsistencyVerifier( 1725):   in android.widget.ListView@41e97280
+D/InputEventConsistencyVerifier( 1725):   0: sent at 69165000000, KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_DOWN, scanCode=108, metaState=0, flags=0x8, repeatCount=0, eventTime=69165, downTime=68954, deviceId=1, source=0x101 }
+D/InputEventConsistencyVerifier( 1725):   -- recent events --
+D/InputEventConsistencyVerifier( 1725):   1: sent at 67410000000, (unhandled) KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=103, metaState=0, flags=0x8, repeatCount=0, eventTime=67410, downTime=67410, deviceId=1, source=0x101 }
+D/InputEventConsistencyVerifier( 1725):   2: sent at 67333000000, (unhandled) KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_UP, scanCode=103, metaState=0, flags=0x8, repeatCount=0, eventTime=67333, downTime=67173, deviceId=1, source=0x101 }
+D/InputEventConsistencyVerifier( 1725):   3: sent at 67173000000, KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=103, metaState=0, flags=0x8, repeatCount=0, eventTime=67173, downTime=67173, deviceId=1, source=0x101 }
+D/InputEventConsistencyVerifier( 1725):   4: sent at 67149000000, (unhandled) KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_UP, scanCode=103, metaState=0, flags=0x8, repeatCount=0, eventTime=67149, downTime=66934, deviceId=1, source=0x101 }
+D/InputEventConsistencyVerifier( 1725):   5: sent at 66934000000, KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=103, metaState=0, flags=0x8, repeatCount=0, eventTime=66934, downTime=66934, deviceId=1, source=0x101 }
+D/dalvikvm( 1582): GC_CONCURRENT freed 677K, 67% free 2332K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 602K, 68% free 2243K/6979K, paused 2ms+2ms
+D/SlideManagerRootImpl( 1228): slideTo = 1
+D/dalvikvm( 1582): GC_CONCURRENT freed 485K, 68% free 2253K/6979K, paused 2ms+2ms
+W/HomePlayerLib( 1582): mediaRenderer start success 
+D/dalvikvm( 1582): GC_CONCURRENT freed 499K, 68% free 2262K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 610K, 68% free 2259K/6979K, paused 2ms+2ms
+V/WifiConfig( 1725): !!!!!!<getConfig>:   password: null------accessPoint.security=2
+I/ActivityManager(  950): START {cmp=com.coship.dvbsetting/.netsetting.dialog.WifiStateDialog (has extras)} from pid 1725
+D/dalvikvm( 1582): GC_CONCURRENT freed 491K, 68% free 2265K/6979K, paused 2ms+2ms
+V/WifiSTATEialog( 1725): !!!!<onCreate>   getExtras    ssid: TP_LINK_TEST_5GHz_D8070A
+V/WifiSTATEialog( 1725): !!!!<onCreate>   getExtras    mrssi: -48
+V/WifiSTATEialog( 1725): !!!!<onCreate>   getExtras    networkid: 2
+V/WifiSTATEialog( 1725): !!!!<onCreate>   mwificfg.SSID: "TP_LINK_TEST_5GHz_D8070A"
+V/WifiSTATEialog( 1725): !!!!<onCreate>   connName: "null"
+V/WifiSTATEialog( 1725): !!!!<onCreate>   mwificfg.status: 2
+V/WifiSTATEialog( 1725): !!!!<onCreate>   mwificfg.networkId: 2
+V/WifiSTATEialog( 1725): !!!!!!!<onCreate> status: 2!!!!!!!!!!!!!
+V/WifiSTATEialog( 1725): !!!!!!!!!!<onCreate> status: !!!!!!!!!!!!!!mrssi:-48
+V/TabletStatusBar( 1139): setLightsOn(true)
+I/ActivityManager(  950): Displayed com.coship.dvbsetting/.netsetting.dialog.WifiStateDialog: +96ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 499K, 68% free 2263K/6979K, paused 1ms+3ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 515K, 68% free 2260K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 497K, 68% free 2262K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 558K, 67% free 2306K/6979K, paused 2ms+2ms
+V/WifiSTATEialog( 1725): !!!!!!!!!!<onClick> v: android.widget.Button@42f832b0 !!!!!!!!!
+V/WifiSTATEialog( 1725): !!!!! <SendResult> results: connect!!!!!!!!!!
+V/TabletStatusBar( 1139): setLightsOn(true)
+V/onActivityResult( 1725): !!!!!!!!!!!!!!!!! Result: connect
+I/HighSet_WirlessNetwork( 1725): ---connect()-----mwificfg="TP_LINK_TEST_5GHz_D8070A"-----------networkId=2
+V/onActivityResult( 1725): !!!!!!!!!!!!!!!!! security: 0  ssid: null    password: null
+D/dalvikvm( 1725): GC_EXPLICIT freed 1172K, 15% free 27858K/32771K, paused 3ms+8ms
+E/StrictMode( 1725): class com.coship.dvbsetting.netsetting.dialog.WifiStateDialog; instances=2; limit=1
+E/StrictMode( 1725): android.os.StrictMode$InstanceCountViolation: class com.coship.dvbsetting.netsetting.dialog.WifiStateDialog; instances=2; limit=1
+E/StrictMode( 1725):    at android.os.StrictMode.setClassInstanceLimit(StrictMode.java:1)
+D/dalvikvm( 1582): GC_CONCURRENT freed 564K, 66% free 2439K/6979K, paused 14ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 742K, 67% free 2365K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 637K, 68% free 2264K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 502K, 68% free 2258K/6979K, paused 2ms+2ms
+D/HomePlayerLib( 1582): hostaddress count is 1
+D/dalvikvm( 1582): GC_CONCURRENT freed 505K, 68% free 2258K/6979K, paused 1ms+2ms
+D/StpService( 1597): handleMessage NetworkType is 1
+D/StpService( 1597): handleMessage NetworkType is 9
+D/dalvikvm( 1582): GC_CONCURRENT freed 487K, 67% free 2360K/6979K, paused 13ms+2ms
+D/StpService( 1597): handleMessage NetworkType is 1
+D/StpService( 1597): handleMessage NetworkType is 9
+D/WifiP2pService(  950): P2pDisabledState{ what=331907 when=0 }
+D/WifiStateMachine(  950): gary test mWifiApState = 12
+D/WifiApSetting( 1725): handleWifiApStateChanged
+D/WifiApSetting( 1725): WIFI_AP_STATE_ENABLING
+E/WifiHW  (  950): get_wifi_device_num is 1
+D/WifiHW  (  950): wifi_driver has loaded!
+E/WifiHW  (  739): wifi_change_fw_path: AP
+D/SoftapController(  739): Softap fwReload - Ok
+V/EthernetMonitor(  950): get event 
+V/EthernetMonitor(  950): go poll events
+I/BootCompletedReceiver( 1582): [onReceive] Action锟斤拷android.net.wifi.WIFI_AP_STATE_CHANGED
+V/BootCompletedReceiver( 1582): ++++mWifiApState++++12
+D/dalvikvm( 1582): GC_CONCURRENT freed 621K, 67% free 2321K/6979K, paused 2ms+2ms
+W/GpsLocationProvider(  950): Failed to enable location provider
+D/dalvikvm( 1582): GC_CONCURRENT freed 563K, 68% free 2273K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 515K, 68% free 2251K/6979K, paused 2ms+1ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 488K, 68% free 2249K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 482K, 66% free 2375K/6979K, paused 2ms+2ms
+D/SoftapController(  739): Softap driver start: 0
+D/SoftapController(  739): write cmd interface=uap0
+D/SoftapController(  739): driver=nl80211
+D/SoftapController(  739): ctrl_interface=/data/misc/wifi/hostapd
+D/SoftapController(  739): ssid=1鍟婂晩鍟婂晩鍟
+D/SoftapController(  739): channel=6
+D/SoftapController(  739): hw_mode=g
+D/SoftapController(  739): ieee80211n=1
+D/SoftapController(  739): Softap startap - Ok
+E/hostapd ( 2132): Configuration file: /data/misc/wifi/hostapd.conf
+I/hostapd ( 2132): rfkill: Cannot open RFKILL control device
+V/EthernetMonitor(  950): get event 
+V/EthernetMonitor(  950): go poll events
+E/hostapd ( 2132): Failed to create interface mon.uap0: -95 (Operation not supported on transport endpoint)
+W/hostapd ( 2132): uap0: Could not connect to kernel driver
+V/EthernetMonitor(  950): get event 
+V/EthernetMonitor(  950): go poll events
+E/hostapd ( 2132): Using interface uap0 with hwaddr 58:87:e2:0b:29:48 and ssid "1\xe5\x95\x8a\xe5\x95\x8a\xe5\x95\x8a\xe5\x95\x8a\xe5\x95\x8a"
+D/Tethering(  950): sendTetherStateChangedBroadcast 1, 0, 0
+V/EthernetMonitor(  950): get event 
+V/EthernetMonitor(  950): go poll events
+W/NetworkStats(  950): dropping UID delta from unknown iface: iface=wlan0 uid=0 set=DEFAULT tag=0x0 rxBytes=32 rxPackets=1 txBytes=64 txPackets=2 operations=0
+D/dalvikvm( 1582): GC_CONCURRENT freed 642K, 67% free 2325K/6979K, paused 6ms+2ms
+D/WifiStateMachine(  950): gary test mWifiApState = 13
+D/WifiApSetting( 1725): handleWifiApStateChanged
+D/WifiApSetting( 1725): WIFI_AP_STATE_ENABLED
+I/BootCompletedReceiver( 1582): [onReceive] Action锟斤拷android.net.wifi.WIFI_AP_STATE_CHANGED
+V/BootCompletedReceiver( 1582): ++++mWifiApState++++13
+W/BootCompletedReceiver( 1582): stop mediarenerer because IP changed
+D/CommandListener(  739): Setting iface cfg
+D/NetworkManagementService(  950): rsp <213 58:87:e2:0b:29:48 0.0.0.0 0 [up broadcast running multicast]>
+D/NetworkManagementService(  950): flags <[up broadcast running multicast]>
+D/CommandListener(  739): Trying to bring up uap0
+V/EthernetMonitor(  950): get event 
+V/EthernetMonitor(  950): go poll events
+D/Tethering(  950): Tethering uap0
+D/Tethering(  950): InitialState.processMessage what=2
+D/Tethering(  950): sendTetherStateChangedBroadcast 0, 0, 0
+D/Tethering(  950): Tethered uap0
+D/Tethering(  950): sendTetherStateChangedBroadcast 0, 1, 0
+D/Tethering(  950): MasterInitialState.processMessage what=1
+D/TetherController(  739): Setting IP forward enable = 1
+D/TetherController(  739): Starting tethering services
+D/TetherController(  739): Tethering services running
+D/TetherController(  739): setDnsForwarders(0 = '8.8.8.8')
+D/TetherController(  739): setDnsForwarders(1 = '8.8.4.4')
+D/TetherController(  739): Sending update msg to dnsmasq [update_dns:8.8.8.8:8.8.4.4]
+D/Tethering(  950): chooseUpstreamType(true), preferredApn =5, got type=9
+D/TetherController(  739): setDnsForwarders(0 = '192.168.2.1')
+D/TetherController(  739): setDnsForwarders(1 = '192.168.99.5')
+D/TetherController(  739): Sending update msg to dnsmasq [update_dns:192.168.2.1:192.168.99.5]
+D/Tethering(  950): notifying tethered with iface =eth0
+D/Tethering(  950): TetheredState.processMessage what=12
+I/dnsmasq ( 2136): started, version 2.51 cachesize 150
+I/dnsmasq ( 2136): compile time options: no-IPv6 GNU-getopt no-DBus no-I18N DHCP no-scripts no-TFTP
+W/dnsmasq ( 2136): warning: no upstream servers configured
+I/dnsmasq ( 2136): DHCP, IP range 192.168.48.2 -- 192.168.48.254, lease time 1h
+I/dnsmasq ( 2136): DHCP, IP range 192.168.47.2 -- 192.168.47.254, lease time 1h
+I/dnsmasq ( 2136): DHCP
+[  135.616127] IR: [03932] scan key value is 0xec13c936 
+[  135.616131]  , IP range 192.168.46.2 -- 192.168.46.254, lease time 1h
+I/dnsmasq ( 2136): DHCP, IP range 192.168.45.2 -- 192.168.45.254, lease time 1h
+I/dnsmasq ( 2136): DHCP, IP range 192.168.44.2 -- 192.168.44.254, lease time 1h
+I/dnsmasq ( 2136): DHCP, IP range 192.168.43.2 -- 192.168.43.254, lease time 1h
+I/dnsmasq ( 2136): DHCP, IP range 192.168.42.2 -- 192.168.42.254, lease time 1h
+I/dnsmasq ( 2136): read /etc/hosts - 1 addresses
+I/dnsmasq ( 2136): using nameserver 8.8.4.4#53
+I/dnsmasq ( 2136): using nameser
+[  135.668607] IR: [03932] scan key value is 0xec13c936 
+[  135.668612]  ver 8.8.8.8#53
+W/NetworkStats(  950): dropping UID delta from unknown iface: iface=uap0 uid=0 set=DEFAULT tag=0x0 rxBytes=0 rxPackets=0 txBytes=40 txPackets=1 operations=0
+D/dalvikvm(  950): GC_CONCURRENT freed 792K, 61% free 3670K/9283K, paused 2ms+5ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 536K, 66% free 2438K/6979K, paused 2ms+8ms
+D/HomePlayerLib( 1582): hostaddress count is 2
+D/dalvikvm( 1582): GC_CONCURRENT freed 679K, 67% free 2324K/6979K, paused 2ms+1ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 531K, 67% free 2311K/6979K, paused 1ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 501K, 66% free 2433K/6979K, paused 1ms+6ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 675K, 66% free 2430K/6979K, paused 3ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 668K, 66% free 2410K/6979K, paused 1ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 639K, 67% free 2335K/6979K, paused 2ms+4ms
+D/HomePlayerLib( 1582): MediaRenderer will start with ip addrss 192.168.2.19
+D/dalvikvm( 1582): GC_CONCURRENT freed 548K, 67% free 2332K/6979K, paused 2ms+2ms
+D/HomePlayerLib( 1582): hostaddress count is 2
+D/dalvikvm( 1582): GC_CONCURRENT freed 632K, 67% free 2340K/6979K, paused 2ms+2ms
+D/HomePlayerLib( 1582): hostaddress count is 2
+D/dalvikvm( 1582): GC_CONCURRENT freed 559K, 66% free 2421K/6979K, paused 1ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 664K, 67% free 2341K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 558K, 68% free 2300K/6979K, paused 1ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 496K, 66% free 2433K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 651K, 65% free 2455K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 696K, 66% free 2437K/6979K, paused 2ms+2ms
+D/SlideManagerRootImpl( 1228): slideTo = 2
+D/dalvikvm( 1582): GC_CONCURRENT freed 682K, 68% free 2302K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 495K, 65% free 2450K/6979K, paused 2ms+1ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 694K, 67% free 2325K/6979K, paused 1ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 523K, 67% free 2345K/6979K, paused 2ms+3ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 558K, 66% free 2428K/6979K, paused 2ms+2ms
+D/HomePlayerLib( 1582): hostaddress count is 2
+D/dalvikvm( 1582): GC_CONCURRENT freed 666K, 67% free 2324K/6979K, paused 2ms+1ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 539K, 66% free 2380K/6979K, paused 1ms+3ms
+D/HomePlayerLib( 1582): hostaddress count is 2
+D/dalvikvm( 1582): GC_CONCURRENT freed 597K, 66% free 2435K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 672K, 67% free 2324K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 535K, 66% free 2424K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 660K, 66% free 2435K/6979K, paused 1ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 681K, 66% free 2382K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 608K, 67% free 2317K/6979K, paused 2ms+2ms
+V/WifiConfig( 1725): !!!!!!<getConfig>:   password: null------accessPoint.security=2
+I/ActivityManager(  950): START {cmp=com.coship.dvbsetting/.netsetting.dialog.WifiStateDialog (has extras)} from pid 1725
+V/WifiSTATEialog( 1725): !!!!<onCreate>   getExtras    ssid: TP_LINK_TEST_5GHz_D8070A
+V/WifiSTATEialog( 1725): !!!!<onCreate>   getExtras    mrssi: -48
+V/WifiSTATEialog( 1725): !!!!<onCreate>   getExtras    networkid: 2
+V/WifiSTATEialog( 1725): !!!!<onCreate>   mwificfg.SSID: "TP_LINK_TEST_5GHz_D8070A"
+V/WifiSTATEialog( 1725): !!!!<onCreate>   connName: "null"
+V/WifiSTATEialog( 1725): !!!!<onCreate>   mwificfg.status: 2
+V/WifiSTATEialog( 1725): !!!!<onCreate>   mwificfg.networkId: 2
+V/WifiSTATEialog( 1725): !!!!!!!<onCreate> status: 2!!!!!!!!!!!!!
+V/WifiSTATEialog( 1725): !!!!!!!!!!<onCreate> status: !!!!!!!!!!!!!!mrssi:-48
+V/TabletStatusBar( 1139): setLightsOn(true)
+D/dalvikvm( 1582): GC_CONCURRENT freed 519K, 66% free 2433K/6979K, paused 1ms+9ms
+D/HomePlayerLib( 1582): hostaddress count is 2
+D/dalvikvm( 1582): GC_CONCURRENT freed 671K, 66% free 2398K/6979K, paused 2ms+2ms
+I/ActivityManager(  950): Displayed com.coship.dvbsetting/.netsetting.dialog.WifiStateDialog: +151ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 624K, 66% free 2412K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 620K, 65% free 2458K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 696K, 66% free 2441K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 674K, 65% free 2444K/6979K, paused 1ms+2ms
+D/dalvikvm( 1582): GC_FOR_ALLOC freed 780K, 67% free 2339K/6979K, paused 19ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 524K, 66% free 2423K/6979K, paused 1ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 632K, 65% free 2477K/6979K, paused 1ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 726K, 67% free 2316K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 525K, 67% free 2335K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 540K, 67% free 2316K/6979K, paused 2ms+2ms
+V/WifiSTATEialog( 1725): !!!!!!!!!!<onClick> v: android.widget.Button@42d1eec0 !!!!!!!!!
+V/WifiSTATEialog( 1725): !!!!! <SendResult> results: connect!!!!!!!!!!
+V/TabletStatusBar( 1139): setLightsOn(true)
+V/onActivityResult( 1725): !!!!!!!!!!!!!!!!! Result: connect
+I/HighSet_WirlessNetwork( 1725): ---connect()-----mwificfg="TP_LINK_TEST_5GHz_D8070A"-----------networkId=2
+V/onActivityResult( 1725): !!!!!!!!!!!!!!!!! security: 0  ssid: null    password: null
+D/dalvikvm( 1725): GC_EXPLICIT freed 209K, 16% free 27744K/32771K, paused 2ms+6ms
+E/StrictMode( 1725): class com.coship.dvbsetting.netsetting.dialog.WifiStateDialog; instances=2; limit=1
+E/StrictMode( 1725): android.os.StrictMode$InstanceCountViolation: class com.coship.dvbsetting.netsetting.dialog.WifiStateDialog; instances=2; limit=1
+E/StrictMode( 1725):    at android.os.StrictMode.setClassInstanceLimit(StrictMode.java:1)
+D/dalvikvm( 1582): GC_CONCURRENT freed 527K, 66% free 2385K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 605K, 67% free 2318K/6979K, paused 5ms+2ms
+W/HomePlayerLib( 1582): mediaRenderer start success 
+D/dalvikvm( 1582): GC_CONCURRENT freed 566K, 68% free 2267K/6979K, paused 1ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 520K, 68% free 2264K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 490K, 68% free 2267K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 512K, 68% free 2268K/6979K, paused 2ms+2ms
+V/WifiConfig( 1725): !!!!!!<getConfig>:   password: null------accessPoint.security=2
+I/ActivityManager(  950): START {cmp=com.coship.dvbsetting/.netsetting.dialog.WifiStateDialog (has extras)} from pid 1725
+V/WifiSTATEialog( 1725): !!!!<onCreate>   getExtras    ssid: liwenjuan
+V/WifiSTATEialog( 1725): !!!!<onCreate>   getExtras    mrssi: -41
+V/WifiSTATEialog( 1725): !!!!<onCreate>   getExtras    networkid: 1
+V/WifiSTATEialog( 1725): !!!!<onCreate>   mwificfg.SSID: "liwenjuan"
+V/WifiSTATEialog( 1725): !!!!<onCreate>   connName: "null"
+V/WifiSTATEialog( 1725): !!!!<onCreate>   mwificfg.status: 1
+V/WifiSTATEialog( 1725): !!!!<onCreate>   mwificfg.networkId: 1
+V/WifiSTATEialog( 1725): !!!!!!!<onCreate> status: 1!!!!!!!!!!!!!
+V/WifiSTATEialog( 1725): !!!!!!!!!!<onCreate> status: !!!!!!!!!!!!!!mrssi:-41
+V/TabletStatusBar( 1139): setLightsOn(true)
+I/ActivityManager(  950): Displayed com.coship.dvbsetting/.netsetting.dialog.WifiStateDialog: +83ms
+D/SlideManagerRootImpl( 1228): slideTo = 3
+V/WifiSTATEialog( 1725): !!!!!!!!!!<onClick> v: android.widget.Button@4282d330 !!!!!!!!!
+V/WifiSTATEialog( 1725): !!!!! <SendResult> results: connect!!!!!!!!!!
+V/TabletStatusBar( 1139): setLightsOn(true)
+V/onActivityResult( 1725): !!!!!!!!!!!!!!!!! Result: connect
+I/HighSet_WirlessNetwork( 1725): ---connect()-----mwificfg="liwenjuan"-----------networkId=1
+V/onActivityResult( 1725): !!!!!!!!!!!!!!!!! security: 0  ssid: null    password: null
+D/dalvikvm( 1725): GC_EXPLICIT freed 83K, 16% free 27744K/32771K, paused 1ms+5ms
+E/StrictMode( 1725): class com.coship.dvbsetting.netsetting.dialog.WifiStateDialog; instances=2; limit=1
+E/StrictMode( 1725): android.os.StrictMode$InstanceCountViolation: class com.coship.dvbsetting.netsetting.dialog.WifiStateDialog; instances=2; limit=1
+E/StrictMode( 1725):    at android.os.StrictMode.setClassInstanceLimit(StrictMode.java:1)
+D/dalvikvm( 1582): GC_CONCURRENT freed 522K, 67% free 2365K/6979K, paused 2ms+1ms
+D/HomePlayerLib( 1582): hostaddress count is 2
+D/dalvikvm( 1582): GC_CONCURRENT freed 633K, 68% free 2263K/6979K, paused 1ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 507K, 68% free 2262K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 487K, 68% free 2266K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 495K, 68% free 2268K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 515K, 68% free 2246K/6979K, paused 1ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 485K, 68% free 2280K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 527K, 68% free 2264K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 489K, 68% free 2267K/6979K, paused 2ms+3ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 492K, 68% free 2294K/6979K, paused 2ms+2ms
+D/da
+[  136.473245] IR: [03932] scan key value is 0xec13c936 
+[  136.473250]  lvikvm( 1582): GC_CONCURRENT freed 539K, 66% free 2381K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 643K, 67% free 2356K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 631K, 67% free 2366K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 626K, 66% free 2391K/6979K, paused 2ms+2ms
+V/WifiConfig( 1725): !!!!!!<getConfig>:   password: null------accessPoint.security=2
+I/ActivityManager(  950): START {cmp=com.coship.dvbsetting/.netsetting.dialog.WifiStateDialog (has extras)} from p
+[  136.525727] IR: [03932] scan key value is 0xec13c936 
+[  136.525732]  id 1725
+V/WifiSTATEialog( 1725): !!!!<onCreate>   getExtras    ssid: TP_LINK_TEST_5GHz_D8070A
+V/WifiSTATEialog( 1725): !!!!<onCreate>   getExtras    mrssi: -48
+V/WifiSTATEialog( 1725): !!!!<onCreate>   getExtras    networkid: 2
+V/WifiSTATEialog( 1725): !!!!<onCreate>   mwificfg.SSID: "TP_LINK_TEST_5GHz_D8070A"
+V/WifiSTATEialog( 1725): !!!!<onCreate>   connName: "null"
+V/WifiSTATEialog( 1725): !!!!<onCreate>   mwificfg.status: 2
+V/WifiSTATEialog( 1725): !!!!<onCreate>   mwificfg.networkId: 2
+V/WifiSTATEialog( 1725): !!!!!!!<onCreate> status: 2!!!!!!!!!!!!!
+V/WifiSTATEialog( 1725): !!!!!!!!!!<onCreate> status: !!!!!!!!!!!!!!mrssi:-48
+V/TabletStatusBar( 1139): setLightsOn(true)
+I/ActivityManager(  950): Displayed com.coship.dvbsetting/.netsetting.dialog.WifiStateDialog: +97ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 732K, 67% free 2305K/6979K, paused 2ms+23ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 562K, 68% free 2283K/6979K, paused 1ms+2ms
+V/WifiSTATEialog( 1725): !!!!!!!!!!<onClick> v: android.widget.Button@42da2490 !!!!!!!!!
+V/WifiSTATEialog( 1725): !!!!! <SendResult> results: connect!!!!!!!!!!
+V/TabletStatusBar( 1139): setLightsOn(true)
+V/onActivityResult( 1725): !!!!!!!!!!!!!!!!! Result: connect
+D/dalvikvm( 1582): GC_CONCURRENT freed 515K, 66% free 2390K/6979K, paused 2ms+2ms
+I/HighSet_WirlessNetwork( 1725): ---connect()-----mwificfg="TP_LINK_TEST_5GHz_D8070A"-----------networkId=2
+V/onActivityResult( 1725): !!!!!!!!!!!!!!!!! security: 0  ssid: null    password: null
+D/dalvikvm(  950): GC_CONCURRENT freed 788K, 62% free 3574K/9283K, paused 1ms+6ms
+D/dalvikvm( 1725): GC_EXPLICIT freed 82K, 16% free 27744K/32771K, paused 2ms+5ms
+E/StrictMode( 1725): class com.coship.dvbsetting.netsetting.dialog.WifiStateDialog; instances=2; limit=1
+E/StrictMode( 1725): android.os.StrictMode$InstanceCountViolation: class com.coship.dvbsetting.netsetting.dialog.WifiStateDialog; instances=2; limit=1
+E/StrictMode( 1725):    at android.os.StrictMode.setClassInstanceLimit(StrictMode.java:1)
+D/dalvikvm( 1582): GC_CONCURRENT freed 664K, 68% free 2268K/6979K, paused 2ms+2ms
+I//lib/ld-linux.so.3(  748): 6666
+D/dalvikvm( 1582): GC_CONCURRENT freed 521K, 68% free 2239K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 480K, 68% free 2244K/6979K, paused 1ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 488K, 68% free 2260K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 491K, 68% free 2264K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 502K, 68% free 2265K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 506K, 67% free 2363K/6979K, paused 1ms+2ms
+D/SlideManagerRootImpl( 1228): slideTo = 4
+D/dalvikvm( 1582): GC_CONCURRENT freed 644K, 67% free 2366K/6979K, paused 1ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 631K, 67% free 2372K/6979K, paused 1ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 650K, 67% free 2369K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 651K, 68% free 2246K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 488K, 66% free 2400K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 673K, 66% free 2390K/6979K, paused 1ms+3ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 661K, 67% free 2349K/6979K, paused 1ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 626K, 68% free 2241K/6979K, paused 1ms+2ms
+D/SlideManagerRootImpl( 1228): slideTo = 0
+D/HomePlayerLib( 1582): hostaddress count is 2
+D/dalvikvm( 1582): GC_CONCURRENT freed 481K, 68% free 2261K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 495K, 68% free 2263K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 490K, 68% free 2267K/6979K, paused 2ms+3ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 511K, 68% free 2262K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 495K, 68% free 2282K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 530K, 68% free 2268K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 515K, 67% free 2356K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 647K, 68% free 2270K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 506K, 66% free 2381K/6979K, paused 1ms+2ms
+D/ConnectivityService(  950): NetTransition Wakelock for WifiStateMachine released by timeout
+D/dalvikvm( 1582): GC_CONCURRENT freed 656K, 66% free 2378K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 645K, 66% free 2388K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 667K, 66% free 2374K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 646K, 67% free 2315K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 569K, 66% free 2381K/6979K, paused 1ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 664K, 68% free 2282K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 485K, 68% free 2296K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 547K, 67% free 2372K/6979K, paused 2ms+3ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 642K, 66% free 2394K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 673K, 68% free 2293K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 546K, 66% free 2414K/6979K, paused 1ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 703K, 67% free 2328K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 586K, 67% free 2373K/6979K, paused 1ms+2ms
+D/SlideManagerRootImpl( 1228): slideTo = 1
+D/dalvikvm( 1582): GC_CONCURRENT freed 642K, 68% free 2266K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 502K, 68% free 2266K/6979K, paused 1ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 515K, 68% free 2264K/6979K, paused 1ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 500K, 68% free 2266K/6979K, paused 1ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 518K, 68% free 2264K/6979K, paused 1ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 502K, 68% free 2265K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 507K, 68% free 2260K/6979K, paused 1ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 490K, 68% free 2264K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 503K, 68% free 2266K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 506K, 68% free 2260K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 501K, 68% free 2277K/6979K, paused 1ms+2ms
+D/SlideManagerRootImpl( 1228): slideTo = 2
+D/dalvikvm( 1582): GC_CONCURRENT freed 514K, 67% free 2317K/6979K, paused 1ms+2ms
+D/HomePlayerLib( 1582): hostaddress count is 2
+D/dalvikvm( 1582): GC_CONCURRENT freed 585K, 67% free 2368K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 645K, 67% free 2368K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 629K, 68% free 2270K/6979K, paused 1ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 519K, 67% free 2371K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 647K, 68% free 2258K/6979K, paused 1ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 491K, 68% free 2266K/6979K, paused 1ms+2ms
+W/ThrottleService(  950): unable to find stats for iface rmnet0
+D/dalvikvm( 1582): GC_CONCURRENT freed 494K, 66% free 2389K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 676K, 67% free 2368K/6979K, paused 1ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 629K, 65% free 2460K/6979K, paused 1ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 760K, 68% free 2257K/6979K, paused 1ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 504K, 68% free 2248K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 477K, 67% free 2309K/6979K, paused 1ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 567K, 68% free 2253K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 500K, 68% free 2280K/6979K, paused 1ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 534K, 67% free 2367K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 635K, 66% free 2373K/6979K, paused 1ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 648K, 68% free 2262K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 492K, 66% free 2387K/6979K, paused 2ms+2ms
+D/SlideManagerRootImpl( 1228): slideTo = 3
+D/dalvikvm( 1582): GC_CONCURRENT freed 659K, 68% free 2266K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 518K, 68% free 2264K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 501K, 67% free 2372K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 653K, 67% free 2369K/6979K, paused 1ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 654K, 68% free 2271K/6979K, paused 1ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 504K, 67% free 2371K/6979K, paused 1ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 653K, 67% free 2369K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 652K, 68% free 2242K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 467K, 67% free 2371K/6979K, paused 1ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 651K, 67% free 2369K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 651K, 68% free 2247K/6979K, paused 2ms+2ms
+D/SlideManagerRootImpl( 1228): slideTo = 4
+D/dalvikvm( 1582): GC_CONCURRENT freed 484K, 68% free 2262K/6979K, paused 2ms+2ms
+D/HomePlayerLib( 1582): hostaddress count is 2
+D/dalvikvm( 1582): GC_CONCURRENT freed 497K, 68% free 2262K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 505K, 68% free 2262K/6979K, paused 2ms+3ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 487K, 68% free 2266K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 494K, 68% free 2268K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 515K, 67% free 2355K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 621K, 66% free 2382K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 662K, 66% free 2386K/6979K, paused 1ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 660K, 68% free 2258K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 491K, 67% free 2372K/6979K, paused 2ms+1ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 645K, 68% free 2258K/6979K, paused 1ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 491K, 68% free 2266K/6979K, paused 2ms+1ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 496K, 66% free 2385K/6979K, paused 1ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 662K, 68% free 2264K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 495K, 66% free 2386K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 662K, 66% free 2392K/6979K, paused 1ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 667K, 68% free 2266K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 507K, 68% free 2251K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 495K, 68% free 2242K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 486K, 68% free 2260K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 490K, 68% free 2264K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 502K, 68% free 2266K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 507K, 68% free 2251K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 495K, 68% free 2243K/6979K, paused 2ms+3ms
+D/SlideManagerRootImpl( 1228): slideTo = 0
+D/dalvikvm( 1582): GC_CONCURRENT freed 482K, 68% free 2259K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 487K, 68% free 2264K/6979K, paused 2ms+2ms
+D/HomePlayerLib( 1582): hostaddress count is 2
+D/dalvikvm( 1582): GC_CONCURRENT freed 506K, 68% free 2261K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 496K, 68% free 2262K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 496K, 67% free 2372K/6979K, paused 2ms+1ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 624K, 68% free 2301K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 549K, 68% free 2269K/6979K, paused 2ms+2ms
+D/SlideManagerRootImpl( 1228): slideTo = 1
+D/dalvikvm( 1582): GC_CONCURRENT freed 521K, 66% free 2438K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 730K, 66% free 2381K/6979K, paused 1ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 653K, 66% free 2384K/6979K, paused 1ms+1ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 661K, 68% free 2280K/6979K, paused 1ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 511K, 68% free 2269K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 515K, 68% free 2268K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 515K, 65% free 2488K/6979K, paused 3ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 775K, 66% free 2393K/6979K, paused 2ms+3ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 671K, 68% free 2258K/6979K, paused 1ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 508K, 68% free 2238K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 471K, 68% free 2264K/6979K, paused 1ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 505K, 66% free 2374K/6979K, paused 2ms+2ms
+V/WifiConfig( 1725): !!!!!!<getConfig>:   password: null------accessPoint.security=2
+I/ActivityManager(  950): START {cmp=com.coship.dvbsetting/.netsetting.dialog.WifiStateDialog (has extras)} from pid 1725
+V/WifiSTATEialog( 1725): !!!!<onCreate>   getExtras    ssid: TP_LINK_TEST_5GHz_D8070A
+V/WifiSTATEialog( 1725): !!!!<onCreate>   getExtras    mrssi: -48
+V/WifiSTATEialog( 1725): !!!!<onCreate>   getExtras    networkid: 2
+V/WifiSTATEialog( 1725): !!!!<onCreate>   mwificfg.SSID: "TP_LINK_TEST_5GHz_D8070A"
+V/WifiSTATEialog( 1725): !!!!<onCreate>   connName: "null"
+V/WifiSTATEialog( 1725): !!!!<onCreate>   mwificfg.status: 2
+V/WifiSTATEialog( 1725): !!!!<onCreate>   mwificfg.networkId: 2
+V/WifiSTATEialog( 1725): !!!!!!!<onCreate> status: 2!!!!!!!!!!!!!
+V/WifiSTATEialog( 1725): !!!!!!!!!!<onCreate> status: !!!!!!!!!!!!!!mrssi:-48
+V/TabletStatusBar( 1139): setLightsOn(true)
+D/dalvikvm( 1582): GC_CONCURRENT freed 659K, 67% free 2362K/6979K, paused 3ms+5ms
+I/ActivityManager(  950): Displayed com.coship.dvbsetting/.netsetting.dialog.WifiStateDialog: +99ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 634K, 66% free 2373K/6979K, paused 1ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 650K, 66% free 2377K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 652K, 68% free 2270K/6979K, paused 2ms+2ms
+V/WifiSTATEialog( 1725): !!!!!!!!!!<onClick> v: android.widget.Button@42f72ae8 !!!!!!!!!
+V/WifiSTATEialog( 1725): !!!!! <SendResult> results: connect!!!!!!!!!!
+V/TabletStatusBar( 1139): setLightsOn(true)
+V/onActivityResult( 1725): !!!!!!!!!!!!!!!!! Result: connect
+I/HighSet_WirlessNetwork( 1725): ---connect()-----mwificfg="TP_LINK_TEST_5GHz_D8070A"-----------networkId=2
+V/onActivityResult( 1725): !!!!!!!!!!!!!!!!! security: 0  ssid: null    password: null
+D/dalvikvm( 1582): GC_CONCURRENT freed 501K, 67% free 2308K/6979K, paused 2ms+2ms
+D/dalvikvm( 1725): GC_EXPLICIT freed 82K, 16% free 27744K/32771K, paused 2ms+5ms
+E/StrictMode( 1725): class com.coship.dvbsetting.netsetting.dialog.WifiStateDialog; instances=2; limit=1
+E/StrictMode( 1725): android.os.StrictMode$InstanceCountViolation: class com.coship.dvbsetting.netsetting.dialog.WifiStateDialog; instances=2; limit=1
+E/StrictMode( 1725):    at android.os.StrictMode.setClassInstanceLimit(StrictMode.java:1)
+D/dalvikvm( 1582): GC_CONCURRENT freed 559K, 68% free 2270K/6979K, paused 2ms+1ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 502K, 68% free 2266K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 506K, 68% free 2260K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 503K, 68% free 2277K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 532K, 68% free 2264K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 510K, 68% free 2282K/6979K, paused 1ms+3ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 516K, 68% free 2269K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 520K, 68% free 2265K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 503K, 68% free 2267K/6979K, paused 1ms+2ms
+D/SlideManagerRootImpl( 1228): slideTo = 2
+V/WifiConfig( 1725): !!!!!!<getConfig>:   password: null------accessPoint.security=2
+I/ActivityManager(  950): START {cmp=com.coship.dvbsetting/.netsetting.dialog.WifiStateDialog (has extras)} from pid 1725
+V/WifiSTATEialog( 1725): !!!!<onCreate>   getExtras    ssid: liwenjuan
+V/WifiSTATEialog( 1725): !!!!<onCreate>   getExtras    mrssi: -41
+V/WifiSTATEialog( 1725): !!!!<onCreate>   getExtras    networkid: 1
+V/WifiSTATEialog( 1725): !!!!<onCreate>   mwificfg.SSID: "liwenjuan"
+V/WifiSTATEialog( 1725): !!!!<onCreate>   connName: "null"
+V/WifiSTATEialog( 1725): !!!!<onCreate>   mwificfg.status: 1
+V/WifiSTATEialog( 1725): !!!!<onCreate>   mwificfg.networkId: 1
+V/WifiSTATEialog( 1725): !!!!!!!<onCreate> status: 1!!!!!!!!!!!!!
+V/WifiSTATEialog( 1725): !!!!!!!!!!<onCreate> status: !!!!!!!!!!!!!!mrssi:-41
+V/TabletStatusBar( 1139): setLightsOn(true)
+I/ActivityManager(  950): Displayed com.coship.dvbsetting/.netsetting.dialog.WifiStateDialog: +87ms
+V/WifiSTATEialog( 1725): !!!!!!!!!!<onClick> v: android.widget.Button@42d07a80 !!!!!!!!!
+V/WifiSTATEialog( 1725): !!!!! <SendResult> results: connect!!!!!!!!!!
+V/TabletStatusBar( 1139): setLightsOn(true)
+V/onActivityResult( 1725): !!!!!!!!!!!!!!!!! Result: connect
+I/HighSet_WirlessNetwork( 1725): ---connect()-----mwificfg="liwenjuan"-----------networkId=1
+V/onActivityResult( 1725): !!!!!!!!!!!!!!!!! security: 0  ssid: null    password: null
+D/dalvikvm( 1725): GC_EXPLICIT freed 82K, 16% free 27744K/32771K, paused 2ms+5ms
+E/StrictMode( 1725): class com.coship.dvbsetting.netsetting.dialog.WifiStateDialog; instances=2; limit=1
+E/StrictMode( 1725): android.os.StrictMode$InstanceCountViolation: class com.coship.dvbsetting.netsetting.dialog.WifiStateDialog; instances=2; limit=1
+E/StrictMode( 1725):    at android.os.StrictMode.setClassInstanceLimit(StrictMode.java:1)
+D/dalvikvm( 1582): GC_CONCURRENT freed 515K, 67% free 2309K/6979K, paused 1ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 568K, 68% free 2264K/6979K, paused 2ms+3ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 492K, 68% free 2265K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 502K, 68% free 2267K/6979K, paused 2ms+3ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 518K, 68% free 2265K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 511K, 68% free 2277K/6979K, paused 2ms+2ms
+D/HomePlayerLib( 1582): hostaddress count is 2
+D/dalvikvm( 1582): GC_CONCURRENT freed 512K, 66% free 2385K/6979K, paused 1ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 672K, 67% free 2371K/6979K, paused 1ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 632K, 66% free 2392K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 660K, 66% free 2378K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 652K, 66% free 2382K/6979K, paused 1ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 664K, 68% free 2287K/6979K, paused 1ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 511K, 66% free 2401K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 684K, 66% free 2376K/6979K, paused 1ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 651K, 66% free 2379K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_FOR_ALLOC freed 776K, 68% free 2252K/6979K, paused 19ms
+D/SlideManagerRootImpl( 1228): slideTo = 3
+D/dalvikvm( 1582): GC_CONCURRENT freed <1K, 66% free 2380K/6979K, paused 1ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 652K, 66% free 2383K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 789K, 68% free 2248K/6979K, paused 1ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 480K, 64% free 2514K/6979K, paused 2ms+1ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 830K, 66% free 2385K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 651K, 66% free 2392K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 683K, 68% free 2250K/6979K, paused 1ms+2ms
+
+[  143.818373] IR: [03932] scan key value is 0xea15c936 
+[  143.818378]  
+[  143.870862] IR: [03932] scan key value is 0xea15c936 
+[  143.870867]  
+[  143.978937] IR: [03932] scan key value is 0xea15c936 
+[  143.978942]  
+[  144.191588] IR: [03932] scan key value is 0xea15c936 
+[  144.191593]  
+[  144.244074] IR: [03932] scan key value is 0xea15c936 
+[  144.244079]  
+[  144.471481] IR: [03932] scan key value is 0xea15c936 
+[  144.471485]  
+[  144.523976] IR: [03932] scan key value is 0xea15c936 
+[  144.523981]  
+[  145.099736] IR: [03932] scan key value is 0xec13c936 
+[  145.099741]  V/WifiConfig( 1725): !!!!!!<getConfig>:   password: null------accessPoint.security=2
+I/WifiConfig( 1725): ---getConfig---open WifiPWDialog
+I/ActivityManager(  950): START {cmp=com.coship.dvbsetting/.netsetting.dialog.WifiPWDialog (has extras)} from pid 1725
+V/WifiPWDialog( 1725): !!!!!!!! get security: 2  ssid: smarttv_2.4
+V/TabletStatusBar( 1139): setLightsOn(true)
+I/ActivityManager(  950): Displayed com.coship.dvbsetting/.netsetting.dialog.WifiPWDialog: +153ms
+D/dalvikvm( 1196): GC_FOR_ALLOC freed 96K, 84% free 782K/4611K, paused 9ms
+I/dalvikvm-heap( 1196): Grow heap (frag case) to 5.360MB for 1048592-byte allocation
+D/dalvikvm( 1196): GC_CONCURRENT freed 1K, 69% free 1804K/5699K, paused 1ms+1ms
+D/TextLayoutCache( 1196): Using debug level: 0 - Debug Enabled: 0
+D/##SoftKeyboardView( 1196): SoftKeyboardView
+D/##SoftKeyboardView( 1196): SoftKeyboardView
+D/dalvikvm( 1196): GC_FOR_ALLOC freed 137K, 66% free 2005K/5827K, paused 8ms
+I/dalvikvm-heap( 1196): Grow heap (frag case) to 9.055MB for 3670336-byte allocation
+D/dalvikvm( 1196): GC_CONCURRENT freed 8K, 42% free 5581K/9475K, paused 1ms+1ms
+D/dalvikvm( 1196): GC_FOR_ALLOC freed 20K, 41% free 5627K/9475K, paused 9ms
+I/dalvikvm-heap( 1196): Grow heap (frag case) to 12.798MB for 3886096-byte allocation
+D/dalvikvm( 1196): GC_CONCURRENT freed 2K, 30% free 9420K/13315K, paused 1ms+1ms
+D/AAAAAAAAAAAAa( 1196): skbCoreWidth:1280/skbCoreHeight:315
+D/SlideManagerRootImpl( 1228): slideTo = 4
+
+[  147.922625] IR: [03932] scan key value is 0xf10ec936 
+[  147.922630]  
+[  147.975102] IR: [03932] scan key value is 0xf10ec936 
+[  147.975107]  
+[  148.083182] IR: [03932] scan key value is 0xf10ec936 
+[  148.083187]  D/dalvikvm( 1582): GC_CONCURRENT freed 492K, 67% free 2322K/6979K, paused 3ms+3ms
+
+[  148.819764] IR: [03932] scan key value is 0xf10ec936 
+[  148.819769]  
+[  148.872237] IR: [03932] scan key value is 0xf10ec936 
+[  148.872243]  V/WifiPWDialog( 1725): !!!!! <SendResult> results: password!!!!!!!!!!
+D/dalvikvm(  950): GC_CONCURRENT freed 654K, 62% free 3585K/9283K, paused 2ms+4ms
+E/WindowManager(  950): ##############################dispatchUnhandledKey
+V/TabletStatusBar( 1139): setLightsOn(true)
+V/onActivityResult( 1725): !!!!!!!!!!!!!!!!! Result: password
+V/onActivityResult( 1725): !!!!!!!!!!!!!!!!! security: 0  ssid: null    password: null
+D/dalvikvm( 1582): GC_CONCURRENT freed 582K, 67% free 2369K/6979K, paused 4ms+2ms
+D/InputEventConsistencyVerifier( 1725): KeyEvent: ACTION_UP but key was not down.
+D/InputEventConsistencyVerifier( 1725):   in Handler (android.view.ViewRootImpl) {428b7d08}
+D/InputEventConsistencyVerifier( 1725):   0: sent at 149037000000, KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=158, metaState=0, flags=0x8, repeatCount=0, eventTime=149037, downTime=148825, deviceId=1, source=0x101 }
+D/InputEventConsistencyVerifier( 1725):   -- recent events --
+D/InputEventConsistencyVerifier( 1725):   1: sent at 145265000000, KeyEvent { action=ACTION_UP, keyCode=KEYCODE_ENTER, scanCode=28, metaState=0, flags=0x8, repeatCount=0, eventTime=145265, downTime=145105, deviceId=1, source=0x101 }
+D/InputEventConsistencyVerifier( 1725):   2: sent at 145105000000, KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_ENTER, scanCode=28, metaState=0, flags=0x8, repeatCount=0, eventTime=145105, downTime=145105, deviceId=1, source=0x101 }
+D/InputEventConsistencyVerifier( 1725):   3: sent at 144689000000, KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_DOWN, scanCode=108, metaState=0, flags=0x8, repeatCount=0, eventTime=144689, downTime=144477, deviceId=1, source=0x101 }
+D/InputEventConsistencyVerifier( 1725):   4: sent at 144477000000, KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=108, metaState=0, flags=0x8, repeatCount=0, eventTime=144477, downTime=144477, deviceId=1, source=0x101 }
+D/InputEventConsistencyVerifier( 1725):   5: sent at 144409000000, KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_DOWN, scanCode=108, metaState=0, flags=0x8, repeatCount=0, eventTime=144409, downTime=144197, deviceId=1, source=0x101 }
+D/dalvikvm( 1582): GC_CONCURRENT freed 642K, 68% free 2285K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 515K, 68% free 2266K/6979K, paused 1ms+2ms
+
+[  149.571872] IR: [03932] scan key value is 0xec13c936 
+[  149.571877]  
+[  149.624357] IR: [03932] scan key value is 0xec13c936 
+[  149.624362]  D/dalvikvm( 1582): GC_CONCURRENT freed 506K, 68% free 2277K/6979K, paused 2ms+2ms
+V/WifiConfig( 1725): !!!!!!<getConfig>:   password: null------accessPoint.security=2
+I/WifiConfig( 1725): ---getConfig---open WifiPWDialog
+I/ActivityManager(  950): START {cmp=com.coship.dvbsetting/.netsetting.dialog.WifiPWDialog (has extras)} from pid 1725
+V/WifiPWDialog( 1725): !!!!!!!! get security: 2  ssid: smarttv_2.4
+V/TabletStatusBar( 1139): setLightsOn(true)
+D/dalvikvm( 1582): GC_CONCURRENT freed 565K, 67% free 2334K/6979K, paused 2ms+2ms
+I/ActivityManager(  950): Displayed com.coship.dvbsetting/.netsetting.dialog.WifiPWDialog: +113ms
+
+[  150.068291] IR: [03932] scan key value is 0xec13c936 
+[  150.068298]  
+[  150.120754] IR: [03932] scan key value is 0xec13c936 
+[  150.120759]  I/System.out( 1196): [SkbContainer]:mSoftKeyDown--->8
+D/dalvikvm( 1582): GC_CONCURRENT freed 596K, 67% free 2309K/6979K, paused 60ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 561K, 67% free 2352K/6979K, paused 3ms+3ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 624K, 66% free 2374K/6979K, paused 1ms+2ms
+
+[  151.016932] IR: [03932] scan key value is 0xf10ec936 
+[  151.016937]  
+[  151.069421] IR: [03932] scan key value is 0xf10ec936 
+[  151.069426]  D/dalvikvm( 1582): GC_CONCURRENT freed 651K, 67% free 2322K/6979K, paused 2ms+2ms
+
+[  151.531138] IR: [03932] scan key value is 0xf10ec936 
+[  151.531143]  D/dalvikvm( 1582): GC_CONCURRENT freed 571K, 68%
+[  151.583617] IR: [03932] scan key value is 0xf10ec936 
+[  151.583622]   free 2271K/6979K, paused 5ms+2ms
+V/WifiPWDialog( 1725): !!!!! <SendResult> results: password!!!!!!!!!!
+E/WindowManager(  950): ##############################dispatchUnhandledKey
+I/ActivityManager(  950): START {cmp=com.coship.dvbsetting/.netsetting.dialog.WifiPWDErrorDialog} from pid 1725
+D/dalvikvm( 1582): GC_CONCURRENT freed 500K, 67% free 2350K/6979K, paused 3ms+3ms
+V/TabletStatusBar( 1139): setLightsOn(true)
+D/InputEventConsistencyVerifier( 1725): KeyEvent: ACTION_UP but key was not down.
+D/InputEventConsistencyVerifier( 1725):   in Handler (android.view.ViewRootImpl) {42d1eec0}
+D/InputEventConsistencyVerifier( 1725):   0: sent at 151749000000, KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=158, metaState=0, flags=0x8, repeatCount=0, eventTime=151749, downTime=151536, deviceId=1, source=0x101 }
+I/ActivityManager(  950): Displayed com.coship.dvbsetting/.netsetting.dialog.WifiPWDErrorDialog: +133ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 618K, 68% free 2267K/6979K, paused 6ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 503K, 67% free 2359K/6979K, paused 1ms+2ms
+D/HomePlayerLib( 1582): hostaddress count is 2
+D/dalvikvm( 1725): GC_EXPLICIT freed 214K, 16% free 27848K/32771K, paused 2ms+8ms
+E/StrictMode( 1725): class com.coship.dvbsetting.netsetting.dialog.WifiPWDialog; instances=2; limit=1
+E/StrictMode( 1725): android.os.StrictMode$InstanceCountViolation: class com.coship.dvbsetting.netsetting.dialog.WifiPWDialog; instances=
+[  152.348238] IR: [03932] scan key value is 0xee11c936 
+[  152.348243]  2; limit=1
+E/StrictMode( 1725):    at android.os.StrictMode.setClassInstanceLimit(StrictMode.java:1)
+E/WindowManager(  950): ##############################dispatchUnhandledKey
+D/dalvikvm( 1582): GC_CONCURRENT freed 616K, 67%
+[  152.400716] IR: [03932] scan key value is 0xee11c936 
+[  152.400721]   free 2348K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 583K, 68% free 2291K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 547K, 67% free 2367K/6979K, paused 1ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 629K, 67% free 2359K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 622K, 66% free 2377K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 648K, 66% free 2384K/6979K, paused 1ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 653K, 67% free 2356K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 612K, 66% free 2391K/6979K, paused 1ms+2ms
+
+[  153.161343] IR: [03932] scan key value is 0xec13c936 
+[  153.161348]  D/dalvikvm( 1582): GC_CONCURRENT freed 670K, 68% free 2266K/6979K, paused 2ms+2ms
+
+[  153.213823] IR: [03932] scan key value is 0xec13c936 
+[  153.213827]  D/dalvikvm( 1582): GC_CONCURRENT freed 490K, 68% free 2281K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 496K, 65% free 2452K/6979K, paused 2ms+2ms
+V/TabletStatusBar( 1139): setLightsOn(true)
+V/onActivityResult( 1725): !!!!!!!!!!!!!!!!! Result: password
+V/onActivityResult( 1725): !!!!!!!!!!!!!!!!! security: 0  ssid: null    password: null
+V/onActivityResult( 1725): !!!!!!!!!!!!!!!!! Result: pwd_erro
+V/onActivityResult( 1725): !!!!!!!!!!!!!!!!! security: 0  ssid: null    password: null
+D/dalvikvm( 1582): GC_CONCURRENT freed 753K, 68% free 2273K/6979K, paused 6ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 509K, 68% free 2273K/6979K, paused 2ms+2ms
+D/SlideManagerRootImpl( 1228): slideTo = 0
+D/dalvikvm( 1582): GC_CONCURRENT freed 508K, 67% free 2333K/6979K, paused 2ms+2ms
+
+[  153.978487] IR: [03932] scan key value is 0xee11c936 
+[  153.978492]  
+[  154.030965] IR: [03932] scan key value is 0xee11c936 
+[  154.030971]  D/dalvikvm( 1582): GC_CONCURRENT freed 603K, 68% free 2243K/6979K, paused 1ms+2ms
+
+[  154.344119] IR: [03932] scan key value is 0xee11c936 
+[  154.344124]  
+[  154.396603] IR: [03932] scan key value is 0xee11c936 
+[  154.396608]  D/dalvikvm( 1582): GC_CONCURRENT freed 486K, 67% free 2366K/6979K, paused 2ms+2ms
+
+[  154.788222] IR: [03932] scan key value is 0xee11c936 
+[  154.788226]  
+[  154.840705] IR: [03932] scan key value is 0xee11c936 
+[  154.840710]  
+[  155.161138] IR: [03932] scan key value is 0xec13c936 
+[  155.161143]  
+[  155.213623] IR: [03932] scan key value is 0xec13c936 
+[  155.213627]  V/WifiConfig( 1725): !!!!!!<getConfig>:   password: null------accessPoint.security=2
+I/ActivityManager(  950): START {cmp=com.coship.dvbsetting/.netsetting.dialog.WifiStateDialog (has extras)} from pid 1725
+V/WifiSTATEialog( 1725): !!!!<onCreate>   getExtras    ssid: liwenjuan
+V/WifiSTATEialog( 1725): !!!!<onCreate>   getExtras    mrssi: -41
+V/WifiSTATEialog( 1725): !!!!<onCreate>   getExtras    networkid: 1
+V/WifiSTATEialog( 1725): !!!!<onCreate>   mwificfg.SSID: "liwenjuan"
+V/WifiSTATEialog( 1725): !!!!<onCreate>   connName: "null"
+V/WifiSTATEialog( 1725): !!!!<onCreate>   mwificfg.status: 1
+V/WifiSTATEialog( 1725): !!!!<onCreate>   mwificfg.networkId: 1
+V/WifiSTATEialog( 1725): !!!!!!!<onCreate> status: 1!!!!!!!!!!!!!
+V/WifiSTATEialog( 1725): !!!!!!!!!!<onCreate> status: !!!!!!!!!!!!!!mrssi:-41
+V/TabletStatusBar( 1139): setLightsOn(true)
+I/ActivityManager(  950): Displayed com.coship.dvbsetting/.netsetting.dialog.WifiStateDialog: +86ms
+
+[  156.173309] IR: [03932] scan key value is 0xec13c936 
+[  156.173314]  
+[  156.225787] IR: [03932] scan key value is 0xec13c936 
+[  156.225792]  V/WifiSTATEialog( 1725): !!!!!!!!!!<onClick> v: android.widget.Button@42827b38 !!!!!!!!!
+V/WifiSTATEialog( 1725): !!!!! <SendResult> results: connect!!!!!!!!!!
+V/TabletStatusBar( 1139): setLightsOn(true)
+V/onActivityResult( 1725): !!!!!!!!!!!!!!!!! Result: connect
+I/HighSet_WirlessNetwork( 1725): ---connect()-----mwificfg="liwenjuan"-----------networkId=1
+V/onActivityResult( 1725): !!!!!!!!!!!!!!!!! security: 0  ssid: null    password: null
+D/dalvikvm( 1582): GC_CONCURRENT freed 635K, 66% free 2374K/6979K, paused 2ms+2ms
+
+[  157.727861] IR: [03932] scan key value is 0xec13c936 
+[  157.727866]  
+[  157.780314] IR: [03932] scan key value is 0xec13c936 
+[  157.780319]  V/WifiConfig( 1725): !!!!!!<getConfig>:   password: null------accessPoint.security=2
+I/ActivityManager(  950): START {cmp=com.coship.dvbsetting/.netsetting.dialog.WifiStateDialog (has extras)} from pid 1725
+D/dalvikvm( 1582): GC_CONCURRENT freed 653K, 68% free 2281K/6979K, paused 2ms+2ms
+D/dalvikvm(  950): GC_CONCURRENT freed 644K, 61% free 3648K/9283K, paused 2ms+5ms
+V/WifiSTATEialog( 1725): !!!!<onCreate>   getExtras    ssid: liwenjuan
+V/WifiSTATEialog( 1725): !!!!<onCreate>   getExtras    mrssi: -41
+V/WifiSTATEialog( 1725): !!!!<onCreate>   getExtras    networkid: 1
+V/WifiSTATEialog( 1725): !!!!<onCreate>   mwificfg.SSID: "liwenjuan"
+V/WifiSTATEialog( 1725): !!!!<onCreate>   connName: "null"
+V/WifiSTATEialog( 1725): !!!!<onCreate>   mwificfg.status: 1
+V/WifiSTATEialog( 1725): !!!!<onCreate>   mwificfg.networkId: 1
+V/WifiSTATEialog( 1725): !!!!!!!<onCreate> status: 1!!!!!!!!!!!!!
+V/WifiSTATEialog( 1725): !!!!!!!!!!<onCreate> status: !!!!!!!!!!!!!!mrssi:-41
+V/TabletStatusBar( 1139): setLightsOn(true)
+I/ActivityManager(  950): Displayed com.coship.dvbsetting/.netsetting.dialog.WifiStateDialog: +103ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 534K, 68% free 2248K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 476K, 68% free 2270K/6979K, paused 2ms+2ms
+
+[  158.578031] IR: [03932] scan key value is 0xeb14c936 
+[  158.578036]  
+[  158.630500] IR: [03932] scan key value is 0xeb14c936 
+[  158.630505]  D/dalvikvm( 1582): GC_CONCURRENT freed 502K, 67% free 2307K/6979K, paused 1ms+2ms
+D/InputEventConsistencyVerifier( 1725): KeyEvent: ACTION_UP but key was not down.
+D/InputEventConsistencyVerifier( 1725):   in android.widget.Button@42823870
+D/InputEventConsistencyVerifier( 1725):   0: sent at 158797000000, KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_RIGHT, scanCode=106, metaState=0, flags=0x8, repeatCount=0, eventTime=158797, downTime=158583, deviceId=1, source=0x101 }
+D/dalvikvm( 1582): GC_CONCURRENT freed 559K, 68% free 2271K/6979K, paused 2ms+2ms
+
+[  158.952640] IR: [03932] scan key value is 0xec13c936 
+[  158.952645]  
+[  159.005118] IR: [03932] scan key value is 0xec13c936 
+[  159.005123]  D/dalvikvm( 1582): GC_CONCURRENT freed 504K, 68% free 2267K/6979K, paused 1ms+2ms
+V/WifiSTATEialog( 1725): !!!!!!!!!!<onClick> v: android.widget.Button@42823870 !!!!!!!!!
+V/WifiSTATEialog( 1725): !!!!! <SendResult> results: ignore!!!!!!!!!!
+V/TabletStatusBar( 1139): setLightsOn(true)
+V/onActivityResult( 1725): !!!!!!!!!!!!!!!!! Result: ignore
+V/onActivityResult( 1725): !!!!!!!!!!!!!!!!! security: 0  ssid: null    password: null
+D/dalvikvm( 1725): GC_EXPLICIT freed 199K, 16% free 27820K/32771K, paused 2ms+6ms
+E/StrictMode( 1725): class com.coship.dvbsetting.netsetting.dialog.WifiStateDialog; instances=2; limit=1
+E/StrictMode( 1725): android.os.StrictMode$InstanceCountViolation: class com.coship.dvbsetting.netsetting.dialog.WifiStateDialog; instances=2; limit=1
+E/StrictMode( 1725):    at android.os.StrictMode.setClassInstanceLimit(StrictMode.java:1)
+D/dalvikvm( 1582): GC_CONCURRENT freed 506K, 68% free 2277K/6979K, paused 6ms+3ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 515K, 68% free 2266K/6979K, paused 2ms+2ms
+D/SlideManagerRootImpl( 1228): slideTo = 1
+D/dalvikvm( 1582): GC_CONCURRENT freed 506K, 67% free 2365K/6979K, paused 2ms+2ms
+
+[  160.290510] IR: [03932] scan key value is 0xec13c936 
+[  160.290514]  
+[  160.342983] IR: [03932] scan key value is 0xec13c936 
+[  160.342988]  V/WifiConfig( 1725): !!!!!!<getConfig>:   password: null------accessPoint.security=2
+I/ActivityManager(  950): START {cmp=com.coship.dvbsetting/.netsetting.dialog.WifiStateDialog (has extras)} from pid 1725
+V/WifiSTATEialog( 1725): !!!!<onCreate>   getExtras    ssid: liwenjuan
+V/WifiSTATEialog( 1725): !!!!<onCreate>   getExtras    mrssi: -41
+V/WifiSTATEialog( 1725): !!!!<onCreate>   getExtras    networkid: 1
+V/WifiSTATEialog( 1725): !!!!<onCreate>   mwificfg.SSID: "liwenjuan"
+V/WifiSTATEialog( 1725): !!!!<onCreate>   connName: "null"
+V/WifiSTATEialog( 1725): !!!!<onCreate>   mwificfg.status: 1
+V/WifiSTATEialog( 1725): !!!!<onCreate>   mwificfg.networkId: 1
+V/WifiSTATEialog( 1725): !!!!!!!<onCreate> status: 1!!!!!!!!!!!!!
+V/WifiSTATEialog( 1725): !!!!!!!!!!<onCreate> status: !!!!!!!!!!!!!!mrssi:-41
+V/TabletStatusBar( 1139): setLightsOn(true)
+I/ActivityManager(  950): Displayed com.coship.dvbsetting/.netsetting.dialog.WifiStateDialog: +88ms
+
+[  161.465043] IR: [03932] scan key value is 0xec13c936 
+[  161.465048]  
+[  161.517517] IR: [03932] scan key value is 0xec13c936 
+[  161.517522]  V/WifiSTATEialog( 1725): !!!!!!!!!!<onClick> v: android.widget.Button@42f8b910 !!!!!!!!!
+V/WifiSTATEialog( 1725): !!!!! <SendResult> results: connect!!!!!!!!!!
+V/TabletStatusBar( 1139): setLightsOn(true)
+V/onActivityResult( 1725): !!!!!!!!!!!!!!!!! Result: connect
+I/HighSet_WirlessNetwork( 1725): ---connect()-----mwificfg="liwenjuan"-----------networkId=1
+V/onActivityResult( 1725): !!!!!!!!!!!!!!!!! security: 0  ssid: null    password: null
+D/dalvikvm( 1725): GC_EXPLICIT freed 146K, 16% free 27756K/32771K, paused 2ms+5ms
+E/StrictMode( 1725): class com.coship.dvbsetting.netsetting.dialog.WifiStateDialog; instances=2; limit=1
+E/StrictMode( 1725): android.os.StrictMode$InstanceCountViolation: class com.coship.dvbsetting.netsetting.dialog.WifiStateDialog; instances=2; limit=1
+E/StrictMode( 1725):    at android.os.StrictMode.setClassInstanceLimit(StrictMode.java:1)
+
+[  162.320862] IR: [03932] scan key value is 0xec13c936 
+[  162.320867]  
+[  162.373319] IR: [03932] scan key value is 0xec13c936 
+[  162.373324]  V/WifiConfig( 1725): !!!!!!<getConfig>:   password: null------accessPoint.security=2
+I/ActivityManager(  950): START {cmp=com.coship.dvbsetting/.netsetting.dialog.WifiStateDialog (has extras)} from pid 1725
+V/WifiSTATEialog( 1725): !!!!<onCreate>   getExtras    ssid: liwenjuan
+V/WifiSTATEialog( 1725): !!!!<onCreate>   getExtras    mrssi: -41
+V/WifiSTATEialog( 1725): !!!!<onCreate>   getExtras    networkid: 1
+V/WifiSTATEialog( 1725): !!!!<onCreate>   mwificfg.SSID: "liwenjuan"
+V/WifiSTATEialog( 1725): !!!!<onCreate>   connName: "null"
+V/WifiSTATEialog( 1725): !!!!<onCreate>   mwificfg.status: 1
+V/WifiSTATEialog( 1725): !!!!<onCreate>   mwificfg.networkId: 1
+V/WifiSTATEialog( 1725): !!!!!!!<onCreate> status: 1!!!!!!!!!!!!!
+V/WifiSTATEialog( 1725): !!!!!!!!!!<onCreate> status: !!!!!!!!!!!!!!mrssi:-41
+V/TabletStatusBar( 1139): setLightsOn(true)
+I/ActivityManager(  950): Displayed com.coship.dvbsetting/.netsetting.dialog.WifiStateDialog: +80ms
+
+[  162.939093] IR: [03932] scan key value is 0xeb14c936 
+[  162.939098]  
+[  162.991538] IR: [03932] scan key value is 0xeb14c936 
+[  162.991543]  D/InputEventConsistencyVerifier( 1725): KeyEvent: ACTION_UP but key was not down.
+D/InputEventConsistencyVerifier( 1725):   in android.widget.Button@42d325d8
+D/InputEventConsistencyVerifier( 1725):   0: sent at 163157000000, KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_RIGHT, scanCode=106, metaState=0, flags=0x8, repeatCount=0, eventTime=163157, downTime=162944, deviceId=1, source=0x101 }
+
+[  163.314264] IR: [03932] scan key value is 0xec13c936 
+[  163.314268]  
+[  163.366744] IR: [03932] scan key value is 0xec13c936 
+[  163.366749]  V/WifiSTATEialog( 1725): !!!!!!!!!!<onClick> v: android.widget.Button@42d325d8 !!!!!!!!!
+V/WifiSTATEialog( 1725): !!!!! <SendResult> results: ignore!!!!!!!!!!
+V/TabletStatusBar( 1139): setLightsOn(true)
+V/onActivityResult( 1725): !!!!!!!!!!!!!!!!! Result: ignore
+V/onActivityResult( 1725): !!!!!!!!!!!!!!!!! security: 0  ssid: null    password: null
+D/dalvikvm( 1725): GC_EXPLICIT freed 79K, 16% free 27754K/32771K, paused 2ms+8ms
+E/StrictMode( 1725): class com.coship.dvbsetting.netsetting.dialog.WifiStateDialog; instances=2; limit=1
+E/StrictMode( 1725): android.os.StrictMode$InstanceCountViolation: class com.coship.dvbsetting.netsetting.dialog.WifiStateDialog; instances=2; limit=1
+E/StrictMode( 1725):    at android.os.StrictMode.setClassInstanceLimit(StrictMode.java:1)
+D/dalvikvm( 1582): GC_CONCURRENT freed 644K, 68% free 2297K/6979K, paused 1ms+3ms
+D/HomePlayerLib( 1582): hostaddress count is 2
+D/dalvikvm( 1582): GC_CONCURRENT freed 556K, 68% free 2261K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 504K, 68% free 2275K/6979K, paused 1ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 508K, 68% free 2267K/6979K, paused 2ms+2ms
+
+[  164.099842] IR: [03932] scan key value is 0xec13c936 
+[  164.099847]  D/dalvikvm( 1582): GC_CONCURRENT freed 513K, 66% free 2397K/6979K, paused 2ms+4ms
+
+[  164.152321] IR: [03932] scan key value is 0xec13c936 
+[  164.152327]  D/dalvikvm( 1582): GC_CONCURRENT freed 685K, 66% free 2374K/6979K, paused 1ms+2ms
+V/WifiConfig( 1725): !!!!!!<getConfig>:   password: null------accessPoint.security=2
+I/ActivityManager(  950): START {cmp=com.coship.dvbsetting/.netsetting.dialog.WifiStateDialog (has extras)} from pid 1725
+V/WifiSTATEialog( 1725): !!!!<onCreate>   getExtras    ssid: liwenjuan
+V/WifiSTATEialog( 1725): !!!!<onCreate>   getExtras    mrssi: -41
+V/WifiSTATEialog( 1725): !!!!<onCreate>   getExtras    networkid: 1
+V/WifiSTATEialog( 1725): !!!!<onCreate>   mwificfg.SSID: "liwenjuan"
+V/WifiSTATEialog( 1725): !!!!<onCreate>   connName: "null"
+V/WifiSTATEialog( 1725): !!!!<onCreate>   mwificfg.status: 1
+V/WifiSTATEialog( 1725): !!!!<onCreate>   mwificfg.networkId: 1
+V/WifiSTATEialog( 1725): !!!!!!!<onCreate> status: 1!!!!!!!!!!!!!
+V/WifiSTATEialog( 1725): !!!!!!!!!!<onCreate> status: !!!!!!!!!!!!!!mrssi:-41
+V/TabletStatusBar( 1139): setLightsOn(true)
+I/ActivityManager(  950): Displayed com.coship.dvbsetting/.netsetting.dialog.WifiStateDialog: +84ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 636K, 66% free 2377K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 660K, 67% free 2368K/6979K, paused 2ms+1ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 652K, 67% free 2359K/6979K, paused 1ms+1ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 621K, 67% free 2317K/6979K, paused 2ms+1ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 570K, 68% free 2266K/6979K, paused 1ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 500K, 68% free 2267K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 500K, 68% free 2268K/6979K, paused 1ms+2ms
+
+[  165.381252] IR: [03932] scan key value is 0xeb14c936 
+[  165.381257]  
+[  165.433705] IR: [03932] scan key value is 0xeb14c936 
+[  165.433710]  D/dalvikvm( 1582): GC_CONCURRENT freed 518K, 68% free 2265K/6979K, paused 2ms+2ms
+D/InputEventConsistencyVerifier( 1725): KeyEvent: ACTION_UP but key was not down.
+D/InputEventConsistencyVerifier( 1725):   in android.widget.Button@42f84638
+D/InputEventConsistencyVerifier( 1725):   0: sent at 165601000000, KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_RIGHT, scanCode=106, metaState=0, flags=0x8, repeatCount=0, eventTime=165601, downTime=165386, deviceId=1, source=0x101 }
+D/SlideManagerRootImpl( 1228): slideTo = 2
+
+[  165.688162] IR: [03932] scan key value is 0xeb14c936 
+[  165.688167]  
+[  165.740637] IR: [03932] scan key value is 0xeb14c936 
+[  165.740641]  D/dalvikvm( 1582): GC_CONCURRENT freed 499K, 68% free 2266K/6979K, paused 1ms+3ms
+D/InputEventConsistencyVerifier( 1725): KeyEvent: ACTION_UP but key was not down.
+D/InputEventConsistencyVerifier( 1725):   in android.widget.Button@42daeed0
+D/InputEventConsistencyVerifier( 1725):   0: sent at 165905000000, KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_RIGHT, scanCode=106, metaState=0, flags=0x8, repeatCount=0, eventTime=165905, downTime=165693, deviceId=1, source=0x101 }
+
+[  166.045074] IR: [03932] scan key value is 0xeb14c936 
+[  166.045079]  E/WindowManager(  950): ##############################dispatchUnhandledKey
+D/dalvikvm( 1582): GC_CONCURRENT freed 507K, 66% free 2376K/6979K, paused 1ms+2ms
+
+[  166.600418] IR: [03932] scan key value is 0xec13c936 
+[  166.600423]  
+[  166.652895] IR: [03932] scan key value is 0xec13c936 
+[  166.652900]  V/WifiSTATEialog( 1725): !!!!!!!!!!<onClick> v: android.widget.Button@42daeed0 !!!!!!!!!
+V/WifiSTATEialog( 1725): !!!!! <SendResult> results: cancel!!!!!!!!!!
+V/TabletStatusBar( 1139): setLightsOn(true)
+V/onActivityResult( 1725): !!!!!!!!!!!!!!!!! Result: cancel
+V/onActivityResult( 1725): !!!!!!!!!!!!!!!!! security: 0  ssid: null    password: null
+D/dalvikvm( 1582): GC_CONCURRENT freed 660K, 67% free 2365K/6979K, paused 3ms+2ms
+D/dalvikvm( 1725): GC_EXPLICIT freed 75K, 16% free 27757K/32771K, paused 2ms+4ms
+E/StrictMode( 1725): class com.coship.dvbsetting.netsetting.dialog.WifiStateDialog; instances=2; limit=1
+E/StrictMode( 1725): android.os.StrictMode$InstanceCountViolation: class com.coship.dvbsetting.netsetting.dialog.WifiStateDialog; instances=2; limit=1
+E/StrictMode( 1725):    at android.os.StrictMode.setClassInstanceLimit(StrictMode.java:1)
+D/dalvikvm(  950): GC_CONCURRENT freed 744K, 62% free 3587K/9283K, paused 4ms+5ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 641K, 68% free 2267K/6979K, paused 2ms+3ms
+
+[  167.193227] IR: [03932] scan key value is 0xec13c936 
+[  167.193232]  
+[  167.245679] IR: [03932] scan key value is 0xec13c936 
+[  167.245684]  
+[  167.353748] IR: [03932] scan key value is 0xec13c936 
+[  167.353753]  D/dalvikvm( 1582): GC_CONCURRENT freed 508K, 67% free 2364K/6979K, paused 2ms+2ms
+V/WifiConfig( 1725): !!!!!!<getConfig>:   password: null------accessPoint.security=2
+I/ActivityManager(  950): START {cmp=com.coship.dvbsetting/.netsetting.dialog.WifiStateDialog (has extras)} from pid 1725
+V/WifiSTATEialog( 1725): !!!!<onCreate>   getExtras    ssid: liwenjuan
+V/WifiSTATEialog( 1725): !!!!<onCreate>   getExtras    mrssi: -41
+V/WifiSTATEialog( 1725): !!!!<onCreate>   getExtras    networkid: 1
+V/WifiSTATEialog( 1725): !!!!<onCreate>   mwificfg.SSID: "liwenjuan"
+V/WifiSTATEialog( 1725): !!!!<onCreate>   connName: "null"
+V/WifiSTATEialog( 1725): !!!!<onCreate>   mwificfg.status: 1
+V/WifiSTATEialog( 1725): !!!!<onCreate>   mwificfg.networkId: 1
+V/WifiSTATEialog( 1725): !!!!!!!<onCreate> status: 1!!!!!!!!!!!!!
+V/WifiSTATEialog( 1725): !!!!!!!!!!<onCreate> status: !!!!!!!!!!!!!!mrssi:-41
+V/TabletStatusBar( 1139): setLightsOn(true)
+I/ActivityManager(  950): Displayed com.coship.dvbsetting/.netsetting.dialog.WifiStateDialog: +93ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 636K, 66% free 2406K/6979K, paused 2ms+3ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 696K, 68% free 2281K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 534K, 68% free 2270K/6979K, paused 2ms+2ms
+
+[  168.140584] IR: [03932] scan key value is 0xec13c936 
+[  168.140588]  
+[  168.193058] IR: [03932] scan key value is 0xec13c936 
+[  168.193063]  V/WifiSTATEialog( 1725): !!!!!!!!!!<onClick> v: android.widget.Button@42dea878 !!!!!!!!!
+V/WifiSTATEialog( 1725): !!!!! <SendResult> results: connect!!!!!!!!!!
+V/TabletStatusBar( 1139): setLightsOn(true)
+V/onActivityResult( 1725): !!!!!!!!!!!!!!!!! Result: connect
+I/HighSet_WirlessNetwork( 1725): ---connect()-----mwificfg="liwenjuan"-----------networkId=1
+V/onActivityResult( 1725): !!!!!!!!!!!!!!!!! security: 0  ssid: null    password: null
+D/dalvikvm( 1582): GC_CONCURRENT freed 502K, 67% free 2372K/6979K, paused 13ms+3ms
+D/dalvikvm( 1725): GC_EXPLICIT freed 80K, 16% free 27758K/32771K, paused 2ms+6ms
+E/StrictMode( 1725): class com.coship.dvbsetting.netsetting.dialog.WifiStateDialog; instances=2; limit=1
+E/StrictMode( 1725): android.os.StrictMode$InstanceCountViolation: class com.coship.dvbsetting.netsetting.dialog.WifiStateDialog; instances=2; limit=1
+E/StrictMode( 1725):    at android.os.StrictMode.setClassInstanceLimit(StrictMode.java:1)
+
+[  168.865950] IR: [03932] scan key value is 0xec13c936 
+[  168.865954]  
+[  168.918425] IR: [03932] scan key value is 0xec13c936 
+[  168.918431]  V/WifiConfig( 1725): !!!!!!<getConfig>:   password: null------accessPoint.security=2
+I/ActivityManager(  950): START {cmp=com.coship.dvbsetting/.netsetting.dialog.WifiStateDialog (has extras)} from pid 1725
+V/WifiSTATEialog( 1725): !!!!<onCreate>   getExtras    ssid: liwenjuan
+V/WifiSTATEialog( 1725): !!!!<onCreate>   getExtras    mrssi: -41
+V/WifiSTATEialog( 1725): !!!!<onCreate>   getExtras    networkid: 1
+V/WifiSTATEialog( 1725): !!!!<onCreate>   mwificfg.SSID: "liwenjuan"
+V/WifiSTATEialog( 1725): !!!!<onCreate>   connName: "null"
+V/WifiSTATEialog( 1725): !!!!<onCreate>   mwificfg.status: 1
+V/WifiSTATEialog( 1725): !!!!<onCreate>   mwificfg.networkId: 1
+V/WifiSTATEialog( 1725): !!!!!!!<onCreate> status: 1!!!!!!!!!!!!!
+V/WifiSTATEialog( 1725): !!!!!!!!!!<onCreate> status: !!!!!!!!!!!!!!mrssi:-41
+V/TabletStatusBar( 1139): setLightsOn(true)
+I/ActivityManager(  950): Displayed com.coship.dvbsetting/.netsetting.dialog.WifiStateDialog: +83ms
+
+[  169.547296] IR: [03932] scan key value is 0xec13c936 
+[  169.547302]  
+[  169.599754] IR: [03932] scan key value is 0xec13c936 
+[  169.599759]  V/WifiSTATEialog( 1725): !!!!!!!!!!<onClick> v: android.widget.Button@42f88928 !!!!!!!!!
+V/WifiSTATEialog( 1725): !!!!! <SendResult> results: connect!!!!!!!!!!
+V/TabletStatusBar( 1139): setLightsOn(true)
+V/onActivityResult( 1725): !!!!!!!!!!!!!!!!! Result: connect
+I/HighSet_WirlessNetwork( 1725): ---connect()-----mwificfg="liwenjuan"-----------networkId=1
+V/onActivityResult( 1725): !!!!!!!!!!!!!!!!! security: 0  ssid: null    password: null
+D/dalvikvm( 1725): GC_EXPLICIT freed 84K, 16% free 27755K/32771K, paused 2ms+5ms
+E/StrictMode( 1725): class com.coship.dvbsetting.netsetting.dialog.WifiStateDialog; instances=2; limit=1
+E/StrictMode( 1725): android.os.StrictMode$InstanceCountViolation: class com.coship.dvbsetting.netsetting.dialog.WifiStateDialog; instances=2; limit=1
+E/StrictMode( 1725):    at android.os.StrictMode.setClassInstanceLimit(StrictMode.java:1)
+D/dalvikvm( 1582): GC_CONCURRENT freed 647K, 66% free 2429K/6979K, paused 2ms+3ms
+
+[  170.158375] IR: [03932] scan key value is 0xec13c936 
+[  170.158380]  
+[  170.210852] IR: [03932] scan key value is 0xec13c936 
+[  170.210857]  V/WifiConfig( 1725): !!!!!!<getConfig>:   password: null------accessPoint.security=2
+I/ActivityManager(  950): START {cmp=com.coship.dvbsetting/.netsetting.dialog.WifiStateDialog (has extras)} from pid 1725
+V/WifiSTATEialog( 1725): !!!!<onCreate>   getExtras    ssid: liwenjuan
+V/WifiSTATEialog( 1725): !!!!<onCreate>   getExtras    mrssi: -41
+V/WifiSTATEialog( 1725): !!!!<onCreate>   getExtras    networkid: 1
+V/WifiSTATEialog( 1725): !!!!<onCreate>   mwificfg.SSID: "liwenjuan"
+V/WifiSTATEialog( 1725): !!!!<onCreate>   connName: "null"
+V/WifiSTATEialog( 1725): !!!!<onCreate>   mwificfg.status: 1
+V/WifiSTATEialog( 1725): !!!!<onCreate>   mwificfg.networkId: 1
+V/WifiSTATEialog( 1725): !!!!!!!<onCreate> status: 1!!!!!!!!!!!!!
+V/WifiSTATEialog( 1725): !!!!!!!!!!<onCreate> status: !!!!!!!!!!!!!!mrssi:-41
+V/TabletStatusBar( 1139): setLightsOn(true)
+I/ActivityManager(  950): Displayed com.coship.dvbsetting/.netsetting.dialog.WifiStateDialog: +82ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 726K, 67% free 2347K/6979K, paused 4ms+3ms
+
+[  171.010104] IR: [03932] scan key value is 0xec13c936 
+[  171.010109]  D/dalvikvm( 1582): GC_CONCURRENT freed 623K, 67% free 2366K/6979K, paused 3ms+2ms
+
+[  171.062559] IR: [03932] scan key value is 0xec13c936 
+[  171.062564]  D/dalvikvm( 1582): GC_CONCURRENT freed 639K, 68% free 2279K/6979K, paused 1ms+2ms
+V/WifiSTATEialog( 1725): !!!!!!!!!!<onClick> v: android.widget.Button@42f84638 !!!!!!!!!
+V/WifiSTATEialog( 1725): !!!!! <SendResult> results: connect!!!!!!!!!!
+V/TabletStatusBar( 1139): setLightsOn(true)
+V/onActivityResult( 1725): !!!!!!!!!!!!!!!!! Result: connect
+I/HighSet_WirlessNetwork( 1725): ---connect()-----mwificfg="liwenjuan"-----------networkId=1
+V/onActivityResult( 1725): !!!!!!!!!!!!!!!!! security: 0  ssid: null    password: null
+D/dalvikvm( 1725): GC_EXPLICIT freed 81K, 16% free 27756K/32771K, paused 2ms+7ms
+E/StrictMode( 1725): class com.coship.dvbsetting.netsetting.dialog.WifiStateDialog; instances=2; limit=1
+E/StrictMode( 1725): android.os.StrictMode$InstanceCountViolation: class com.coship.dvbsetting.netsetting.dialog.WifiStateDialog; instances=2; limit=1
+E/StrictMode( 1725):    at android.os.StrictMode.setClassInstanceLimit(StrictMode.java:1)
+I/ActivityManager(  950): START {cmp=com.coship.dvbsetting/.netsetting.dialog.WifiPWDErrorDialog} from pid 1725
+V/TabletStatusBar( 1139): setLightsOn(true)
+I/ActivityManager(  950): Displayed com.coship.dvbsetting/.netsetting.dialog.WifiPWDErrorDialog: +93ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 512K, 68% free 2267K/6979K, paused 2ms+2ms
+D/SlideManagerRootImpl( 1228): slideTo = 3
+D/dalvikvm( 1582): GC_CONCURRENT freed 516K, 67% free 2311K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 567K, 68% free 2279K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 514K, 68% free 2264K/6979K, paused 1ms+2ms
+D/HomePlayerLib( 1582): hostaddress count is 2
+D/dalvikvm( 1582): GC_CONCURRENT freed 504K, 68% free 2263K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 498K, 68% free 2264K/6979K, paused 3ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 509K, 68% free 2270K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 527K, 68% free 2287K/6979K, paused 2ms+2ms
+
+[  175.583401] IR: [03932] scan key value is 0xec13c936 
+[  175.583406]  D/dalvikvm( 1582): GC_CONCURRENT freed 516K, 64% free 2534K/6979K, paused 2ms+2ms
+
+[  175.635881] IR: [03932] scan key value is 0xec13c936 
+[  175.635885]  D/dalvikvm( 1582): GC_CONCURRENT freed 826K, 65% free 2473K/6979K, paused 2ms+2ms
+V/TabletStatusBar( 1139): setLightsOn(true)
+D/dalvikvm(  950): GC_CONCURRENT freed 667K, 61% free 3651K/9283K, paused 2ms+5ms
+V/onActivityResult( 1725): !!!!!!!!!!!!!!!!! Result: pwd_erro
+V/onActivityResult( 1725): !!!!!!!!!!!!!!!!! security: 0  ssid: null    password: null
+D/dalvikvm( 1582): GC_CONCURRENT freed 781K, 67% free 2332K/6979K, paused 2ms+5ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 572K, 65% free 2459K/6979K, paused 3ms+3ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 751K, 66% free 2386K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 621K, 66% free 2384K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 652K, 66% free 2377K/6979K, paused 1ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 660K, 68% free 2256K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 478K, 68% free 2275K/6979K, paused 1ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 524K, 68% free 2295K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 529K, 68% free 2269K/6979K, paused 1ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 529K, 68% free 2275K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 511K, 68% free 2267K/6979K, paused 1ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 506K, 68% free 2277K/6979K, paused 2ms+3ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 514K, 68% free 2267K/6979K, paused 2ms+3ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 518K, 68% free 2265K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 502K, 68% free 2266K/6979K, paused 1ms+3ms
+D/SlideManagerRootImpl( 1228): slideTo = 4
+D/dalvikvm( 1582): GC_CONCURRENT freed 507K, 68% free 2277K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 530K, 68% free 2243K/6979K, paused 2ms+2ms
+
+[  180.086057] IR: [03932] scan key value is 0xed12c936 
+[  180.086062]  
+[  180.138474] IR: [03932] scan key value is 0xed12c936 
+[  180.138479]  D/InputEventConsistencyVerifier( 1725): KeyEvent: ACTION_UP but key was not down.
+D/InputEventConsistencyVerifier( 1725):   in android.widget.LinearLayout@428ad9a0
+D/InputEventConsistencyVerifier( 1725):   0: sent at 180305000000, KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_LEFT, scanCode=105, metaState=0, flags=0x8, repeatCount=0, eventTime=180305, downTime=180091, deviceId=1, source=0x101 }
+D/InputEventConsistencyVerifier( 1725):   -- recent events --
+D/InputEventConsistencyVerifier( 1725):   1: sent at 48969000000, (unhandled) KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_DOWN, scanCode=108, metaState=0, flags=0x8, repeatCount=0, eventTime=48969, downTime=48756, deviceId=1, source=0x101 }
+D/InputEventConsistencyVerifier( 1725):   2: sent at 48756000000, KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=108, metaState=0, flags=0x8, repeatCount=0, eventTime=48756, downTime=48756, deviceId=1, source=0x101 }
+D/InputEventConsistencyVerifier( 1725):   3: sent at 48621000000, (unhandled) KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_DOWN, scanCode=108, metaState=0, flags=0x8, repeatCount=0, eventTime=48621, downTime=48407, deviceId=1, source=0x101 }
+D/InputEventConsistencyVerifier( 1725):   4: sent at 48407000000, KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=108, metaState=0, flags=0x8, repeatCount=0, eventTime=48407, downTime=48407, deviceId=1, source=0x101 }
+D/InputEventConsistencyVerifier( 1725):   5: sent at 48285000000, (unhandled) KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_DOWN, scanCode=108, metaState=0, flags=0x8, repeatCount=0, eventTime=48285, downTime=48071, deviceId=1, source=0x101 }
+
+[  182.753924] IR: [03932] scan key value is 0xea15c936 
+[  182.753929]  
+[  182.806319] IR: [03932] scan key value is 0xea15c936 
+[  182.806325]  V/PPPOESetting===>( 1725): ++++status++++disconnect
+D/SlideManagerRootImpl( 1228): slideTo = 0
+
+[  183.872079] IR: [03932] scan key value is 0xed12c936 
+[  183.872084]  E/WindowManager(  950): ##############################dispatchUnhandledKey
+
+[  183.924546] IR: [03932] scan key value is 0xed12c936 
+[  183.924551]  D/dalvikvm( 1582): GC_CONCURRENT freed 463K, 68% free 2266K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 516K, 68% free 2265K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 503K, 68% free 2267K/6979K, paused 1ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 518K, 68% free 2265K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 502K, 68% free 2266K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 507K, 68% free 2277K/6979K, paused 2ms+2ms
+
+[  185.661426] IR: [03932] scan key value is 0xed12c936 
+[  185.661430]  E/WindowManager(  950): ##############################dispatchUnhandledKey
+
+[  185.713816] IR: [03932] scan key value is 0xed12c936 
+[  185.713821]  D/dalvikvm( 1582): GC_CONCURRENT freed 530K, 68% free 2242K/6979K, paused 2ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 464K, 68% free 2266K/6979K, paused 2ms+3ms
+
+[  186.115261] IR: [03932] scan key value is 0xeb14c936 
+[  186.115267]  D/dalvikvm( 1582): GC_CONCURRENT freed 505K, 67% free 2324K/6979K, paused 2ms+3ms
+
+[  186.167651] IR: [03932] scan key value is 0xeb14c936 
+[  186.167656]  E/InputMethodService( 1196): Unexpected null in startExtractingText : mExtractedText = null, input connection = com.android.internal.view.InputConnectionWrapper@413a3bd8
+D/dalvikvm( 1582): GC_CONCURRENT freed 582K, 66% free 2378K/6979K, paused 2ms+2ms
+D/HomePlayerLib( 1582): hostaddress count is 2
+D/dalvikvm( 1582): GC_CONCURRENT freed 643K, 68% free 2264K/6979K, paused 1ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 497K, 66% free 2377K/6979K, paused 1ms+2ms
+D/dalvikvm( 1582): GC_CONCURRENT freed 657K, 67% free 2355K/6979
+[  186.857347] IR: [03932] scan key value is 0xeb14c936 
+[  186.857353]  K, paused 2ms+1ms
+
+[  186.909762] IR: [03932] scan key value is 0xeb14c936 
+[  186.909767]  D/dalvikvm( 1582): GC_CONCURRENT freed 585K, 66% free 2400K/6979K, paused 2ms+2ms
+D/InputEventConsistencyVerifier( 1725): KeyEvent: ACTION_UP but key was not down.
+D/InputEventConsistencyVerifier( 1725):   in com.android.internal.policy.impl.PhoneWindow$DecorView@414a9858
+D/InputEventConsistencyVerifier( 1725):   0: sent at 187077000000, KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_RIGHT, scanCode=106, metaState=0, flags=0x8, repeatCount=0, eventTime=187077, downTime=186863, deviceId=1, source=0x101 }
+D/InputEventConsistencyVerifier( 1725):   -- recent events --
+D/InputEventConsistencyVerifier( 1725):   1: sent at 185881000000, (unhandled) KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_LEFT, scanCode=105, metaState=0, flags=0x8, repeatCount=0, eventTime=185881, downTime=185666, deviceId=1, source=0x101 }
+D/InputEventConsistencyVerifier( 1725):   2: sent at 185666000000, (unhandled) KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=105, metaState=0, flags=0x8, repeatCount=0, eventTime=185666, downTime=185666, deviceId=1, source=0x101 }
+D/InputEventConsistencyVerifier( 1725):   3: sent at 184089000000, (unhandled) KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_LEFT, scanCode=105, metaState=0, flags=0x8, repeatCount=0, eventTime=184089, downTime=183877, deviceId=1, source=0x101 }
+D/InputEventConsistencyVerifier( 1725):   4: sent at 183877000000, (unhandled) KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=105, metaState=0, flags=0x8, repeatCount=0, eventTime=183877, downTime=183877, deviceId=1, source=0x101 }
+D/InputEventConsistencyVerifier( 1725):   5: sent at 182973000000, (unhandled) KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_DOWN, scanCode=108, metaState=0, flags=0x8, repeatCount=0, eventTime=182973, downTime=182759, deviceId=1, source=0x101 }
+D/dalvikvm( 1582): GC_CONCURRENT freed 681K, 67% free 2370K/6979K, paused 2ms+2ms
+
+[  187.400700] IR: [03932] scan key value is 0xeb14c936 
+[  187.400705]  D/dalvikvm( 1582): GC_CONCURRENT freed 635K, 66% free 2387K/6979K, paused 1ms+2ms
+D/InputEventConsistencyVerifier( 1725): KeyEvent: ACTION_UP but key was not down.
+D/InputEventConsistencyVerifier( 1725):   in com.android.internal.policy.impl.PhoneWindow$DecorView@414a9858
+D/InputEventConsistencyVerifier( 1725):   0: sent at 187565000000, KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_RIGHT, scanCode=106, metaState=0, flags=0x8, repeatCount=0, eventTime=187565, downTime=187406, deviceId=1, source=0x101 }
+D/InputEventConsistencyVerifier( 1725):   -- recent events --
+D/InputEventConsistencyVerifier( 1725):   1: sent at 187077000000, (unhandled) KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_RIGHT, scanCode=106, metaState=0, flags=0x80000008, repeatCount=0, eventTime=187077, downTime=186863, deviceId=1, source=0x101 }
+D/InputEventConsistencyVerifier( 1725):   2: sent at 185881000000, (unhandled) KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_LEFT, scanCode=105, metaState=0, flags=0x8, repeatCount=0, eventTime=185881, downTime=185666, deviceId=1, source=0x101 }
+D/InputEventConsistencyVerifier( 1725):   3: sent at 185666000000, (unhandled) KeyEvent { action=ACTION_DOWN, keyC^C
+130|shell@android:/ $ 
+[  187.837893] IR: [03932] scan key value is 0xed12c936 
+[  187.837899]  
+[  187.890286] IR: [03932] scan key value is 0xed12c936 

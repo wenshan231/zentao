@@ -1,0 +1,684 @@
+java.lang.String)
+W/MonitorCw880( 1526): getProperties sys.cw880.ready return value:true
+D/MonitorCw880( 1526): handleHandshake() -> Cw880BootState is cw880_reboot_success
+W/MonitorCw880( [  847.747283] CW880 API set ts info  ip is  192.168.43.186
+1526): setCw880CommunicateType()=1, return=6
+W/MonitorCw880( 1526): StartCw880() -> result=11
+D/MonitorCw880( 1526): =========will to handle request=handshake
+D/MonitorCw880( 1526): return action=handshake result= null
+D/MonitorCw880( 1526):  send result -> 192.168.43.186:58710 msgType= easyscreen, msgData=action=handshake&result=null&playurl=mmkhttp://192.168.43.1:1234&video=null&audio=null&protocol=http&transfermode=unicast&streamformat=ts&resolution=720p&videobitrate=1536&version=1
+I/MonitorCw880( 1526): SystemPropertiesClass:class android.os.SystemProperties
+W/MonitorCw880( 1526): ~~~~~~~~~~~~~~~~~~~~~~method:public static java.lang.String android.os.SystemProperties.get(java.lang.String,java.lang.String)
+W/MonitorCw880( 1526): getProperties persist.sys.resolution return value:2
+D/MonitorCw880( 1526): getProperties -> persist.sys.resolution=2
+I/MonitorCw880( 1526): ====mDisplaymode = 1
+D/MonitorCw880( 1526): handleHandshake() -> recevice action=handshake
+I/MonitorCw880( 1526): SystemPropertiesClass:class android.os.SystemProperties
+W/MonitorCw880( 1526): ~~~~~~~~~~~~~~~~~~~~~~method:public static java.lang.String android.os.SystemProperties.get(java.lang.String,java.lang.String)
+W/MonitorCw880( 1526): getProperties sys.cw880.ready return value:true
+D/MonitorCw880( 1526): handleHandshake() -> Cw880BootState is cw880_reboot_success
+W/MonitorCw880( [  853.786908] CW880 API set ts info  ip is  192.168.43.186
+1526): setCw880CommunicateType()=1, return=6
+W/MonitorCw880( 1526): StartCw880() -> result=11
+D/MonitorCw880( 1526): =========will to handle request=handshake
+D/MonitorCw880( 1526): return action=handshake result= null
+D/MonitorCw880( 1526):  send result -> 192.168.43.186:58710 msgType= easyscreen, msgData=action=handshake&result=null&playurl=mmkhttp://192.168.43.1:1234&video=null&audio=null&protocol=http&transfermode=unicast&streamformat=ts&resolution=720p&videobitrate=1536&version=1
+I/MonitorCw880( 1526): SystemPropertiesClass:class android.os.SystemProperties
+W/MonitorCw880( 1526): ~~~~~~~~~~~~~~~~~~~~~~method:public static java.lang.String android.os.SystemProperties.get(java.lang.String,java.lang.String)
+W/MonitorCw880( 1526): getProperties persist.sys.resolution return value:2
+D/MonitorCw880( 1526): getProperties -> persist.sys.resolution=2
+I/MonitorCw880( 1526): ====mDisplaymode = 1
+D/MonitorCw880( 1526): handleHandshake() -> recevice action=handshake
+I/MonitorCw880( 1526): SystemPropertiesClass:class android.os.SystemProperties
+W/MonitorCw880( 1526): ~~~~~~~~~~~~~~~~~~~~~~method:public static java.lang.String android.os.SystemProperties.get(java.lang.String,java.lang.String)
+W/MonitorCw880( 1526): getProperties sys.cw880.ready return value:true
+D/MonitorCw880( 1526): handleHandshake() -> Cw880BootState is cw880_reboot_success
+W/MonitorCw880( [  859.852997] CW880 API set ts info  ip is  192.168.43.186
+1526): setCw880CommunicateType()=1, return=6
+W/MonitorCw880( 1526): StartCw880() -> result=11
+D/MonitorCw880( 1526): =========will to handle request=handshake
+D/MonitorCw880( 1526): return action=handshake result= null
+D/MonitorCw880( 1526):  send result -> 192.168.43.186:58710 msgType= easyscreen, msgData=action=handshake&result=null&playurl=mmkhttp://192.168.43.1:1234&video=null&audio=null&protocol=http&transfermode=unicast&streamformat=ts&resolution=720p&videobitrate=1536&version=1
+I/MonitorCw880( 1526): SystemPropertiesClass:class android.os.SystemProperties
+W/MonitorCw880( 1526): ~~~~~~~~~~~~~~~~~~~~~~method:public static java.lang.String android.os.SystemProperties.get(java.lang.String,java.lang.String)
+W/MonitorCw880( 1526): getProperties persist.sys.resolution return value:2
+D/MonitorCw880( 1526): getProperties -> persist.sys.resolution=2
+I/MonitorCw880( 1526): ====mDisplaymode = 1
+D/MonitorCw880( 1526): handleHandshake() -> recevice action=handshake
+I/MonitorCw880( 1526): SystemPropertiesClass:class android.os.SystemProperties
+W/MonitorCw880( 1526): ~~~~~~~~~~~~~~~~~~~~~~method:public static java.lang.String android.os.SystemProperties.get(java.lang.String,java.lang.String)
+W/MonitorCw880( 1526): getProperties sys.cw880.ready return value:true
+D/MonitorCw880( 1526): handleHandshake() -> Cw880BootState is cw880_reboot_success
+^C
+130|shell@android:/ # [  865.914084] CW880 API set ts info  ip is  192.168.43.186
+dmesg
+AN: msgid=0x503. ret = -110
+<3>[  660.611412] accepted a http connect , new connect ip is  192.168.43.186
+<3>[  660.618156]                           old connect ip is  192.168.43.186
+<3>[  660.624817]                                          but CW880 is not started  , so close it
+<3>[  661.238191] accepted a http connect , new connect ip is  192.168.43.186
+<3>[  661.244873]                           old connect ip is  192.168.43.186
+<3>[  661.251527]                                          but CW880 is not started  , so close it
+<4>[  663.331136] 
+<4>[  663.331139] >> [sdmmc_0] Err: #Cmd: 53 =>(E: 0x0008)__(L:885)(B:16/16)(I:0/1)
+<7>[  663.331156] [SD_CTL_TASK] send msg to IMAN: msgid=0x150a. ret = -110
+<4>[  666.334565] Dest_ip=0xc0a82bba,TS_port=1234
+<3>[  666.334578] CW880 API set ts info  ip is  192.168.43.186
+<4>[  666.340302] 
+<4>[  666.340305] >> [sdmmc_0] Err: #Cmd: 53 =>(E: 0x0008)__(L:885)(B:16/16)(I:0/1)
+<7>[  666.340320] [SD_CTL_TASK] send msg to IMAN: msgid=0x503. ret = -110
+<4>[  669.375517] 
+<4>[  669.375521] >> [sdmmc_0] Err: #Cmd: 53 =>(E: 0x0008)__(L:885)(B:16/16)(I:0/1)
+<7>[  669.375539] [SD_CTL_TASK] send msg to IMAN: msgid=0x150a. ret = -110
+<4>[  672.379091] Dest_ip=0xc0a82bba,TS_port=1234
+<3>[  672.379106] CW880 API set ts info  ip is  192.168.43.186
+<4>[  672.384911] 
+<4>[  672.384913] >> [sdmmc_0] Err: #Cmd: 53 =>(E: 0x0008)__(L:885)(B:16/16)(I:0/1)
+<7>[  672.384927] [SD_CTL_TASK] send msg to IMAN: msgid=0x503. ret = -110
+<4>[  675.416474] 
+<4>[  675.416478] >> [sdmmc_0] Err: #Cmd: 53 =>(E: 0x0008)__(L:885)(B:16/16)(I:0/1)
+<7>[  675.416495] [SD_CTL_TASK] send msg to IMAN: msgid=0x150a. ret = -110
+<4>[  678.419300] Dest_ip=0xc0a82bba,TS_port=1234
+<3>[  678.419317] CW880 API set ts info  ip is  192.168.43.186
+<4>[  678.425211] 
+<4>[  678.425213] >> [sdmmc_0] Err: #Cmd: 53 =>(E: 0x0008)__(L:885)(B:16/16)(I:0/1)
+<7>[  678.425228] [SD_CTL_TASK] send msg to IMAN: msgid=0x503. ret = -110
+<4>[  681.500921] 
+<4>[  681.500924] >> [sdmmc_0] Err: #Cmd: 53 =>(E: 0x0008)__(L:885)(B:16/16)(I:0/1)
+<7>[  681.500942] [SD_CTL_TASK] send msg to IMAN: msgid=0x150a. ret = -110
+<4>[  684.503102] Dest_ip=0xc0a82bba,TS_port=1234
+<3>[  684.503117] CW880 API set ts info  ip is  192.168.43.186
+<4>[  684.508932] 
+<4>[  684.508935] >> [sdmmc_0] Err: #Cmd: 53 =>(E: 0x0008)__(L:885)(B:16/16)(I:0/1)
+<7>[  684.508949] [SD_CTL_TASK] send msg to IMAN: msgid=0x503. ret = -110
+<4>[  687.584389] 
+<4>[  687.584392] >> [sdmmc_0] Err: #Cmd: 53 =>(E: 0x0008)__(L:885)(B:16/16)(I:0/1)
+<7>[  687.584410] [SD_CTL_TASK] send msg to IMAN: msgid=0x150a. ret = -110
+<4>[  690.587244] Dest_ip=0xc0a82bba,TS_port=1234
+<3>[  690.587258] CW880 API set ts info  ip is  192.168.43.186
+<4>[  690.593069] 
+<4>[  690.593072] >> [sdmmc_0] Err: #Cmd: 53 =>(E: 0x0008)__(L:885)(B:16/16)(I:0/1)
+<7>[  690.593087] [SD_CTL_TASK] send msg to IMAN: msgid=0x503. ret = -110
+<4>[  693.633391] 
+<4>[  693.633394] >> [sdmmc_0] Err: #Cmd: 53 =>(E: 0x0008)__(L:885)(B:16/16)(I:0/1)
+<7>[  693.633410] [SD_CTL_TASK] send msg to IMAN: msgid=0x150a. ret = -110
+<4>[  696.635191] Dest_ip=0xc0a82bba,TS_port=1234
+<3>[  696.635206] CW880 API set ts info  ip is  192.168.43.186
+<4>[  696.640922] 
+<4>[  696.640925] >> [sdmmc_0] Err: #Cmd: 53 =>(E: 0x0008)__(L:885)(B:16/16)(I:0/1)
+<7>[  696.640938] [SD_CTL_TASK] send msg to IMAN: msgid=0x503. ret = -110
+<4>[  699.696499] 
+<4>[  699.696502] >> [sdmmc_0] Err: #Cmd: 53 =>(E: 0x0008)__(L:885)(B:16/16)(I:0/1)
+<7>[  699.696523] [SD_CTL_TASK] send msg to IMAN: msgid=0x150a. ret = -110
+<4>[  702.700235] Dest_ip=0xc0a82bba,TS_port=1234
+<3>[  702.700249] CW880 API set ts info  ip is  192.168.43.186
+<4>[  702.706057] 
+<4>[  702.706060] >> [sdmmc_0] Err: #Cmd: 53 =>(E: 0x0008)__(L:885)(B:16/16)(I:0/1)
+<7>[  702.706075] [SD_CTL_TASK] send msg to IMAN: msgid=0x503. ret = -110
+<4>[  705.755534] 
+<4>[  705.755538] >> [sdmmc_0] Err: #Cmd: 53 =>(E: 0x0008)__(L:885)(B:16/16)(I:0/1)
+<7>[  705.755554] [SD_CTL_TASK] send msg to IMAN: msgid=0x150a. ret = -110
+<4>[  708.759335] Dest_ip=0xc0a82bba,TS_port=1234
+<3>[  708.759349] CW880 API set ts info  ip is  192.168.43.186
+<4>[  708.765083] 
+<4>[  708.765085] >> [sdmmc_0] Err: #Cmd: 53 =>(E: 0x0008)__(L:885)(B:16/16)(I:0/1)
+<7>[  708.765100] [SD_CTL_TASK] send msg to IMAN: msgid=0x503. ret = -110
+<4>[  711.820406] 
+<4>[  711.820409] >> [sdmmc_0] Err: #Cmd: 53 =>(E: 0x0008)__(L:885)(B:16/16)(I:0/1)
+<7>[  711.820427] [SD_CTL_TASK] send msg to IMAN: msgid=0x150a. ret = -110
+<4>[  714.823337] Dest_ip=0xc0a82bba,TS_port=1234
+<3>[  714.823351] CW880 API set ts info  ip is  192.168.43.186
+<4>[  714.829232] 
+<4>[  714.829235] >> [sdmmc_0] Err: #Cmd: 53 =>(E: 0x0008)__(L:885)(B:16/16)(I:0/1)
+<7>[  714.829277] [SD_CTL_TASK] send msg to IMAN: msgid=0x503. ret = -110
+<4>[  717.855699] 
+<4>[  717.855703] >> [sdmmc_0] Err: #Cmd: 53 =>(E: 0x0008)__(L:885)(B:16/16)(I:0/1)
+<7>[  717.855718] [SD_CTL_TASK] send msg to IMAN: msgid=0x150a. ret = -110
+<4>[  720.859249] Dest_ip=0xc0a82bba,TS_port=1234
+<3>[  720.859263] CW880 API set ts info  ip is  192.168.43.186
+<4>[  720.865069] 
+<4>[  720.865072] >> [sdmmc_0] Err: #Cmd: 53 =>(E: 0x0008)__(L:885)(B:16/16)(I:0/1)
+<7>[  720.865086] [SD_CTL_TASK] send msg to IMAN: msgid=0x503. ret = -110
+<4>[  723.919217] 
+<4>[  723.919221] >> [sdmmc_0] Err: #Cmd: 53 =>(E: 0x0008)__(L:885)(B:16/16)(I:0/1)
+<7>[  723.919237] [SD_CTL_TASK] send msg to IMAN: msgid=0x150a. ret = -110
+<4>[  726.923041] Dest_ip=0xc0a82bba,TS_port=1234
+<3>[  726.923056] CW880 API set ts info  ip is  192.168.43.186
+<4>[  726.928936] 
+<4>[  726.928939] >> [sdmmc_0] Err: #Cmd: 53 =>(E: 0x0008)__(L:885)(B:16/16)(I:0/1)
+<7>[  726.928953] [SD_CTL_TASK] send msg to IMAN: msgid=0x503. ret = -110
+<4>[  729.979500] 
+<4>[  729.979503] >> [sdmmc_0] Err: #Cmd: 53 =>(E: 0x0008)__(L:885)(B:16/16)(I:0/1)
+<7>[  729.979519] [SD_CTL_TASK] send msg to IMAN: msgid=0x150a. ret = -110
+<4>[  732.982081] Dest_ip=0xc0a82bba,TS_port=1234
+<3>[  732.982097] CW880 API set ts info  ip is  192.168.43.186
+<4>[  732.987897] 
+<4>[  732.987900] >> [sdmmc_0] Err: #Cmd: 53 =>(E: 0x0008)__(L:885)(B:16/16)(I:0/1)
+<7>[  732.987913] [SD_CTL_TASK] send msg to IMAN: msgid=0x503. ret = -110
+<4>[  736.032982] 
+<4>[  736.032985] >> [sdmmc_0] Err: #Cmd: 53 =>(E: 0x0008)__(L:885)(B:16/16)(I:0/1)
+<7>[  736.033003] [SD_CTL_TASK] send msg to IMAN: msgid=0x150a. ret = -110
+<4>[  739.034880] Dest_ip=0xc0a82bba,TS_port=1234
+<3>[  739.034896] CW880 API set ts info  ip is  192.168.43.186
+<4>[  739.040934] 
+<4>[  739.040937] >> [sdmmc_0] Err: #Cmd: 53 =>(E: 0x0008)__(L:885)(B:16/16)(I:0/1)
+<7>[  739.040954] [SD_CTL_TASK] send msg to IMAN: msgid=0x503. ret = -110
+<4>[  742.094497] 
+<4>[  742.094500] >> [sdmmc_0] Err: #Cmd: 53 =>(E: 0x0008)__(L:885)(B:16/16)(I:0/1)
+<7>[  742.094517] [SD_CTL_TASK] send msg to IMAN: msgid=0x150a. ret = -110
+<4>[  745.098084] Dest_ip=0xc0a82bba,TS_port=1234
+<3>[  745.098100] CW880 API set ts info  ip is  192.168.43.186
+<4>[  745.103851] 
+<4>[  745.103853] >> [sdmmc_0] Err: #Cmd: 53 =>(E: 0x0008)__(L:885)(B:16/16)(I:0/1)
+<7>[  745.103867] [SD_CTL_TASK] send msg to IMAN: msgid=0x503. ret = -110
+<4>[  748.125236] 
+<4>[  748.125240] >> [sdmmc_0] Err: #Cmd: 53 =>(E: 0x0008)__(L:885)(B:16/16)(I:0/1)
+<7>[  748.125320] [SD_CTL_TASK] send msg to IMAN: msgid=0x150a. ret = -110
+<4>[  751.127154] Dest_ip=0xc0a82bba,TS_port=1234
+<3>[  751.127183] CW880 API set ts info  ip is  192.168.43.186
+<4>[  751.132868] 
+<4>[  751.132870] >> [sdmmc_0] Err: #Cmd: 53 =>(E: 0x0008)__(L:885)(B:16/16)(I:0/1)
+<7>[  751.132884] [SD_CTL_TASK] send msg to IMAN: msgid=0x503. ret = -110
+<4>[  754.138979] 
+<4>[  754.138982] >> [sdmmc_0] Err: #Cmd: 53 =>(E: 0x0008)__(L:885)(B:16/16)(I:0/1)
+<7>[  754.138999] [SD_CTL_TASK] send msg to IMAN: msgid=0x150a. ret = -110
+<4>[  757.142431] Dest_ip=0xc0a82bba,TS_port=1234
+<3>[  757.142446] CW880 API set ts info  ip is  192.168.43.186
+<4>[  757.148405] 
+<4>[  757.148408] >> [sdmmc_0] Err: #Cmd: 53 =>(E: 0x0008)__(L:885)(B:16/16)(I:0/1)
+<7>[  757.148445] [SD_CTL_TASK] send msg to IMAN: msgid=0x503. ret = -110
+<4>[  760.158893] 
+<4>[  760.158896] >> [sdmmc_0] Err: #Cmd: 53 =>(E: 0x0008)__(L:885)(B:16/16)(I:0/1)
+<7>[  760.158920] [SD_CTL_TASK] send msg to IMAN: msgid=0x150a. ret = -110
+<4>[  763.163423] Dest_ip=0xc0a82bba,TS_port=1234
+<3>[  763.163438] CW880 API set ts info  ip is  192.168.43.186
+<4>[  763.169316] 
+<4>[  763.169319] >> [sdmmc_0] Err: #Cmd: 53 =>(E: 0x0008)__(L:885)(B:16/16)(I:0/1)
+<7>[  763.169334] [SD_CTL_TASK] send msg to IMAN: msgid=0x503. ret = -110
+<4>[  766.176456] 
+<4>[  766.176459] >> [sdmmc_0] Err: #Cmd: 53 =>(E: 0x0008)__(L:885)(B:16/16)(I:0/1)
+<7>[  766.176476] [SD_CTL_TASK] send msg to IMAN: msgid=0x150a. ret = -110
+<4>[  769.178303] Dest_ip=0xc0a82bba,TS_port=1234
+<3>[  769.178318] CW880 API set ts info  ip is  192.168.43.186
+<4>[  769.184142] 
+<4>[  769.184145] >> [sdmmc_0] Err: #Cmd: 53 =>(E: 0x0008)__(L:885)(B:16/16)(I:0/1)
+<7>[  769.184160] [SD_CTL_TASK] send msg to IMAN: msgid=0x503. ret = -110
+<4>[  772.191134] 
+<4>[  772.191137] >> [sdmmc_0] Err: #Cmd: 53 =>(E: 0x0008)__(L:885)(B:16/16)(I:0/1)
+<7>[  772.191156] [SD_CTL_TASK] send msg to IMAN: msgid=0x150a. ret = -110
+<4>[  775.194229] Dest_ip=0xc0a82bba,TS_port=1234
+<3>[  775.194267] CW880 API set ts info  ip is  192.168.43.186
+<4>[  775.199994] 
+<4>[  775.199996] >> [sdmmc_0] Err: #Cmd: 53 =>(E: 0x0008)__(L:885)(B:16/16)(I:0/1)
+<7>[  775.200010] [SD_CTL_TASK] send msg to IMAN: msgid=0x503. ret = -110
+<4>[  778.206396] 
+<4>[  778.206400] >> [sdmmc_0] Err: #Cmd: 53 =>(E: 0x0008)__(L:885)(B:16/16)(I:0/1)
+<7>[  778.206416] [SD_CTL_TASK] send msg to IMAN: msgid=0x150a. ret = -110
+<4>[  781.210887] Dest_ip=0xc0a82bba,TS_port=1234
+<3>[  781.210902] CW880 API set ts info  ip is  192.168.43.186
+<4>[  781.216973] 
+<4>[  781.216976] >> [sdmmc_0] Err: #Cmd: 53 =>(E: 0x0008)__(L:885)(B:16/16)(I:0/1)
+<7>[  781.216993] [SD_CTL_TASK] send msg to IMAN: msgid=0x503. ret = -110
+<4>[  784.222814] 
+<4>[  784.222817] >> [sdmmc_0] Err: #Cmd: 53 =>(E: 0x0008)__(L:885)(B:16/16)(I:0/1)
+<7>[  784.222834] [SD_CTL_TASK] send msg to IMAN: msgid=0x150a. ret = -110
+<4>[  787.226639] Dest_ip=0xc0a82bba,TS_port=1234
+<3>[  787.226654] CW880 API set ts info  ip is  192.168.43.186
+<4>[  787.232419] 
+<4>[  787.232422] >> [sdmmc_0] Err: #Cmd: 53 =>(E: 0x0008)__(L:885)(B:16/16)(I:0/1)
+<7>[  787.232436] [SD_CTL_TASK] send msg to IMAN: msgid=0x503. ret = -110
+<4>[  790.240282] 
+<4>[  790.240285] >> [sdmmc_0] Err: #Cmd: 53 =>(E: 0x0008)__(L:885)(B:16/16)(I:0/1)
+<7>[  790.240300] [SD_CTL_TASK] send msg to IMAN: msgid=0x150a. ret = -110
+<4>[  793.242457] Dest_ip=0xc0a82bba,TS_port=1234
+<3>[  793.242471] CW880 API set ts info  ip is  192.168.43.186
+<4>[  793.248370] 
+<4>[  793.248373] >> [sdmmc_0] Err: #Cmd: 53 =>(E: 0x0008)__(L:885)(B:16/16)(I:0/1)
+<7>[  793.248389] [SD_CTL_TASK] send msg to IMAN: msgid=0x503. ret = -110
+<4>[  796.289126] 
+<4>[  796.289129] >> [sdmmc_0] Err: #Cmd: 53 =>(E: 0x0008)__(L:885)(B:16/16)(I:0/1)
+<7>[  796.289146] [SD_CTL_TASK] send msg to IMAN: msgid=0x150a. ret = -110
+<4>[  799.293189] Dest_ip=0xc0a82bba,TS_port=1234
+<3>[  799.293203] CW880 API set ts info  ip is  192.168.43.186
+<4>[  799.299300] 
+<4>[  799.299302] >> [sdmmc_0] Err: #Cmd: 53 =>(E: 0x0008)__(L:885)(B:16/16)(I:0/1)
+<7>[  799.299316] [SD_CTL_TASK] send msg to IMAN: msgid=0x503. ret = -110
+<4>[  802.379534] 
+<4>[  802.379537] >> [sdmmc_0] Err: #Cmd: 53 =>(E: 0x0008)__(L:885)(B:16/16)(I:0/1)
+<7>[  802.379557] [SD_CTL_TASK] send msg to IMAN: msgid=0x150a. ret = -110
+<4>[  805.384314] Dest_ip=0xc0a82bba,TS_port=1234
+<3>[  805.384328] CW880 API set ts info  ip is  192.168.43.186
+<4>[  805.390189] 
+<4>[  805.390192] >> [sdmmc_0] Err: #Cmd: 53 =>(E: 0x0008)__(L:885)(B:16/16)(I:0/1)
+<7>[  805.390207] [SD_CTL_TASK] send msg to IMAN: msgid=0x503. ret = -110
+<4>[  808.398670] 
+<4>[  808.398673] >> [sdmmc_0] Err: #Cmd: 53 =>(E: 0x0008)__(L:885)(B:16/16)(I:0/1)
+<7>[  808.398690] [SD_CTL_TASK] send msg to IMAN: msgid=0x150a. ret = -110
+<4>[  811.402147] Dest_ip=0xc0a82bba,TS_port=1234
+<3>[  811.402161] CW880 API set ts info  ip is  192.168.43.186
+<4>[  811.408064] 
+<4>[  811.408067] >> [sdmmc_0] Err: #Cmd: 53 =>(E: 0x0008)__(L:885)(B:16/16)(I:0/1)
+<7>[  811.408080] [SD_CTL_TASK] send msg to IMAN: msgid=0x503. ret = -110
+<4>[  814.445746] 
+<4>[  814.445749] >> [sdmmc_0] Err: #Cmd: 53 =>(E: 0x0008)__(L:885)(B:16/16)(I:0/1)
+<7>[  814.445768] [SD_CTL_TASK] send msg to IMAN: msgid=0x150a. ret = -110
+<4>[  817.449561] Dest_ip=0xc0a82bba,TS_port=1234
+<3>[  817.449575] CW880 API set ts info  ip is  192.168.43.186
+<4>[  817.455426] 
+<4>[  817.455428] >> [sdmmc_0] Err: #Cmd: 53 =>(E: 0x0008)__(L:885)(B:16/16)(I:0/1)
+<7>[  817.455442] [SD_CTL_TASK] send msg to IMAN: msgid=0x503. ret = -110
+<4>[  820.507535] 
+<4>[  820.507538] >> [sdmmc_0] Err: #Cmd: 53 =>(E: 0x0008)__(L:885)(B:16/16)(I:0/1)
+<7>[  820.507555] [SD_CTL_TASK] send msg to IMAN: msgid=0x150a. ret = -110
+<4>[  823.511177] Dest_ip=0xc0a82bba,TS_port=1234
+<3>[  823.511192] CW880 API set ts info  ip is  192.168.43.186
+<4>[  823.517128] 
+<4>[  823.517131] >> [sdmmc_0] Err: #Cmd: 53 =>(E: 0x0008)__(L:885)(B:16/16)(I:0/1)
+<7>[  823.517144] [SD_CTL_TASK] send msg to IMAN: msgid=0x503. ret = -110
+<4>[  826.570840] 
+<4>[  826.570843] >> [sdmmc_0] Err: #Cmd: 53 =>(E: 0x0008)__(L:885)(B:16/16)(I:0/1)
+<7>[  826.570860] [SD_CTL_TASK] send msg to IMAN: msgid=0x150a. ret = -110
+<4>[  829.574620] Dest_ip=0xc0a82bba,TS_port=1234
+<3>[  829.574635] CW880 API set ts info  ip is  192.168.43.186
+<4>[  829.580405] 
+<4>[  829.580407] >> [sdmmc_0] Err: #Cmd: 53 =>(E: 0x0008)__(L:885)(B:16/16)(I:0/1)
+<7>[  829.580423] [SD_CTL_TASK] send msg to IMAN: msgid=0x503. ret = -110
+<4>[  832.644253] 
+<4>[  832.644256] >> [sdmmc_0] Err: #Cmd: 53 =>(E: 0x0008)__(L:885)(B:16/16)(I:0/1)
+<7>[  832.644272] [SD_CTL_TASK] send msg to IMAN: msgid=0x150a. ret = -110
+<4>[  835.647090] Dest_ip=0xc0a82bba,TS_port=1234
+<3>[  835.647103] CW880 API set ts info  ip is  192.168.43.186
+<4>[  835.654059] 
+<4>[  835.654062] >> [sdmmc_0] Err: #Cmd: 53 =>(E: 0x0008)__(L:885)(B:16/16)(I:0/1)
+<7>[  835.654076] [SD_CTL_TASK] send msg to IMAN: msgid=0x503. ret = -110
+<4>[  838.662468] 
+<4>[  838.662471] >> [sdmmc_0] Err: #Cmd: 53 =>(E: 0x0008)__(L:885)(B:16/16)(I:0/1)
+<7>[  838.662488] [SD_CTL_TASK] send msg to IMAN: msgid=0x150a. ret = -110
+<4>[  841.666354] Dest_ip=0xc0a82bba,TS_port=1234
+<3>[  841.666367] CW880 API set ts info  ip is  192.168.43.186
+<4>[  841.673769] 
+<4>[  841.673772] >> [sdmmc_0] Err: #Cmd: 53 =>(E: 0x0008)__(L:885)(B:16/16)(I:0/1)
+<7>[  841.673786] [SD_CTL_TASK] send msg to IMAN: msgid=0x503. ret = -110
+<4>[  844.742323] 
+<4>[  844.742326] >> [sdmmc_0] Err: #Cmd: 53 =>(E: 0x0008)__(L:885)(B:16/16)(I:0/1)
+<7>[  844.742342] [SD_CTL_TASK] send msg to IMAN: msgid=0x150a. ret = -110
+<4>[  847.747266] Dest_ip=0xc0a82bba,TS_port=1234
+<3>[  847.747283] CW880 API set ts info  ip is  192.168.43.186
+<4>[  847.754809] 
+<4>[  847.754813] >> [sdmmc_0] Err: #Cmd: 53 =>(E: 0x0008)__(L:885)(B:16/16)(I:0/1)
+<7>[  847.754832] [SD_CTL_TASK] send msg to IMAN: msgid=0x503. ret = -110
+<4>[  850.784558] 
+<4>[  850.784562] >> [sdmmc_0] Err: #Cmd: 53 =>(E: 0x0008)__(L:885)(B:16/16)(I:0/1)
+<7>[  850.784579] [SD_CTL_TASK] send msg to IMAN: msgid=0x150a. ret = -110
+<4>[  853.786893] Dest_ip=0xc0a82bba,TS_port=1234
+<3>[  853.786908] CW880 API set ts info  ip is  192.168.43.186
+<4>[  853.794004] 
+<4>[  853.794006] >> [sdmmc_0] Err: #Cmd: 53 =>(E: 0x0008)__(L:885)(B:16/16)(I:0/1)
+<7>[  853.794020] [SD_CTL_TASK] send msg to IMAN: msgid=0x503. ret = -110
+<4>[  856.848742] 
+<4>[  856.848745] >> [sdmmc_0] Err: #Cmd: 53 =>(E: 0x0008)__(L:885)(B:16/16)(I:0/1)
+<7>[  856.848762] [SD_CTL_TASK] send msg to IMAN: msgid=0x150a. ret = -110
+<4>[  859.852983] Dest_ip=0xc0a82bba,TS_port=1234
+<3>[  859.852997] CW880 API set ts info  ip is  192.168.43.186
+<4>[  859.860096] 
+<4>[  859.860098] >> [sdmmc_0] Err: #Cmd: 53 =>(E: 0x0008)__(L:885)(B:16/16)(I:0/1)
+<7>[  859.860113] [SD_CTL_TASK] send msg to IMAN: msgid=0x503. ret = -110
+<4>[  862.910059] 
+<4>[  862.910062] >> [sdmmc_0] Err: #Cmd: 53 =>(E: 0x0008)__(L:885)(B:16/16)(I:0/1)
+<7>[  862.910078] [SD_CTL_TASK] send msg to IMAN: msgid=0x150a. ret = -110
+<4>[  865.914071] Dest_ip=0xc0a82bba,TS_port=1234
+<3>[  865.914084] CW880 API set ts info  ip is  192.168.43.186
+<4>[  865.920162] 
+<4>[  865.920165] >> [sdmmc_0] Err: #Cmd: 53 =>(E: 0x0008)__(L:885)(B:16/16)(I:0/1)
+<7>[  865.920180] [SD_CTL_TASK] send msg to IMAN: msgid=0x503. ret = -110
+shell@android:/ # 
+shell@android:/ # [  871.930153] CW880 API set ts info  ip is  192.168.43.186
+[  877.946258] CW880 API set ts info  ip is  192.168.43.186
+[  883.962310] CW880 API set ts info  ip is  192.168.43.186
+[  889.978457] CW880 API set ts info  ip is  192.168.43.186
+[  895.994404] CW880 API set ts info  ip is  192.168.43.186
+
+shell@android:/ # 
+shell@android:/ # logcat -s MonitorCw880                                       
+--------- beginning of /dev/log/system
+--------- beginning of /dev/log/main
+W/MonitorCw880( 1526): StartCw880() -> result=11
+D/MonitorCw880( 1526): =========will to handle request=handshake
+D/MonitorCw880( 1526): return action=handshake result= null
+D/MonitorCw880( 1526):  send result -> 192.168.43.186:58710 msgType= easyscreen, msgData=action=handshake&result=null&playurl=mmkhttp://192.168.43.1:1234&video=null&audio=null&protocol=http&transfermode=unicast&streamformat=ts&resolution=720p&videobitrate=1536&version=1
+I/MonitorCw880( 1526): SystemPropertiesClass:class android.os.SystemProperties
+W/MonitorCw880( 1526): ~~~~~~~~~~~~~~~~~~~~~~method:public static java.lang.String android.os.SystemProperties.get(java.lang.String,java.lang.String)
+W/MonitorCw880( 1526): getProperties persist.sys.resolution return value:2
+D/MonitorCw880( 1526): getProperties -> persist.sys.resolution=2
+I/MonitorCw880( 1526): ====mDisplaymode = 1
+D/MonitorCw880( 1526): handleStart() -> recevice action=start
+I/MonitorCw880( 1526): SystemPropertiesClass:class android.os.SystemProperties
+W/MonitorCw880( 1526): ~~~~~~~~~~~~~~~~~~~~~~method:public static java.lang.String android.os.SystemProperties.get(java.lang.String,java.lang.String)
+W/MonitorCw880( 1526): getProperties sys.cw880.ready return value:true
+W/MonitorCw880( 1526): setCw880CommunicateType()=1, return=6
+W/MonitorCw880( 1526): StartCw880() -> result=11
+D/MonitorCw880( 1526): =========will to handle request=start
+D/MonitorCw880( 1526): return action=start result= null
+D/MonitorCw880( 1526):  send result -> 192.168.43.186:58710 msgType= easyscreen, msgData=action=start&result=null
+I/MonitorCw880( 1526): SystemPropertiesClass:class android.os.SystemProperties
+W/MonitorCw880( 1526): ~~~~~~~~~~~~~~~~~~~~~~method:public static java.lang.String android.os.SystemProperties.get(java.lang.String,java.lang.String)
+W/MonitorCw880( 1526): getProperties persist.sys.resolution return value:2
+D/MonitorCw880( 1526): getProperties -> persist.sys.resolution=2
+I/MonitorCw880( 1526): ====mDisplaymode = 1
+D/MonitorCw880( 1526): handleStop() -> recevice action=stop
+W/MonitorCw880( 1526): action=Stop result=5,currentRemoteHost=null mip=192.168.43.186
+D/MonitorCw880( 1526): =========will to handle request=stop
+D/MonitorCw880( 1526): return action=stop result= failed
+D/MonitorCw880( 1526):  send result -> 192.168.43.186:58710 msgType= easyscreen, msgData=action=stop&result=failed
+I/MonitorCw880( 1526): SystemPropertiesClass:class android.os.SystemProperties
+W/MonitorCw880( 1526): ~~~~~~~~~~~~~~~~~~~~~~method:public static java.lang.String android.os.SystemProperties.get(java.lang.String,java.lang.String)
+W/MonitorCw880( 1526): getProperties persist.sys.resolution return value:2
+D/MonitorCw880( 1526): getProperties -> persist.sys.resolution=2
+I/MonitorCw880( 1526): ====mDisplaymode = 1
+D/MonitorCw880( 1526): handleHandshake() -> recevice action=handshake
+I/MonitorCw880( 1526): SystemPropertiesClass:class android.os.SystemProperties
+W/MonitorCw880( 1526): ~~~~~~~~~~~~~~~~~~~~~~method:public static java.lang.String android.os.SystemProperties.get(java.lang.String,java.lang.String)
+W/MonitorCw880( 1526): getProperties sys.cw880.ready return value:true
+D/MonitorCw880( 1526): handleHandshake() -> Cw880BootState is cw880_reboot_success
+W/MonitorCw880( 1526): setCw880CommunicateType()=1, return=6
+W/MonitorCw880( 1526): StartCw880() -> result=11
+D/MonitorCw880( 1526): =========will to handle request=handshake
+D/MonitorCw880( 1526): return action=handshake result= null
+D/MonitorCw880( 1526):  send result -> 192.168.43.186:58710 msgType= easyscreen, msgData=action=handshake&result=null&playurl=mmkhttp://192.168.43.1:1234&video=null&audio=null&protocol=http&transfermode=unicast&streamformat=ts&resolution=720p&videobitrate=1536&version=1
+I/MonitorCw880( 1526): SystemPropertiesClass:class android.os.SystemProperties
+W/MonitorCw880( 1526): ~~~~~~~~~~~~~~~~~~~~~~method:public static java.lang.String android.os.SystemProperties.get(java.lang.String,java.lang.String)
+W/MonitorCw880( 1526): getProperties persist.sys.resolution return value:2
+D/MonitorCw880( 1526): getProperties -> persist.sys.resolution=2
+I/MonitorCw880( 1526): ====mDisplaymode = 1
+D/MonitorCw880( 1526): handleHandshake() -> recevice action=handshake
+I/MonitorCw880( 1526): SystemPropertiesClass:class android.os.SystemProperties
+W/MonitorCw880( 1526): ~~~~~~~~~~~~~~~~~~~~~~method:public static java.lang.String android.os.SystemProperties.get(java.lang.String,java.lang.String)
+W/MonitorCw880( 1526): getProperties sys.cw880.ready return value:true
+D/MonitorCw880( 1526): handleHandshake() -> Cw880BootState is cw880_reboot_success
+W/MonitorCw880( 1526): setCw880CommunicateType()=1, return=6
+W/MonitorCw880( 1526): StartCw880() -> result=11
+D/MonitorCw880( 1526): =========will to handle request=handshake
+D/MonitorCw880( 1526): return action=handshake result= null
+D/MonitorCw880( 1526):  send result -> 192.168.43.186:58710 msgType= easyscreen, msgData=action=handshake&result=null&playurl=mmkhttp://192.168.43.1:1234&video=null&audio=null&protocol=http&transfermode=unicast&streamformat=ts&resolution=720p&videobitrate=1536&version=1
+I/MonitorCw880( 1526): SystemPropertiesClass:class android.os.SystemProperties
+W/MonitorCw880( 1526): ~~~~~~~~~~~~~~~~~~~~~~method:public static java.lang.String android.os.SystemProperties.get(java.lang.String,java.lang.String)
+W/MonitorCw880( 1526): getProperties persist.sys.resolution return value:2
+D/MonitorCw880( 1526): getProperties -> persist.sys.resolution=2
+I/MonitorCw880( 1526): ====mDisplaymode = 1
+D/MonitorCw880( 1526): handleHandshake() -> recevice action=handshake
+I/MonitorCw880( 1526): SystemPropertiesClass:class android.os.SystemProperties
+W/MonitorCw880( 1526): ~~~~~~~~~~~~~~~~~~~~~~method:public static java.lang.String android.os.SystemProperties.get(java.lang.String,java.lang.String)
+W/MonitorCw880( 1526): getProperties sys.cw880.ready return value:true
+D/MonitorCw880( 1526): handleHandshake() -> Cw880BootState is cw880_reboot_success
+W/MonitorCw880( 1526): setCw880CommunicateType()=1, return=6
+W/MonitorCw880( 1526): StartCw880() -> result=11
+D/MonitorCw880( 1526): =========will to handle request=handshake
+D/MonitorCw880( 1526): return action=handshake result= null
+D/MonitorCw880( 1526):  send result -> 192.168.43.186:58710 msgType= easyscreen, msgData=action=handshake&result=null&playurl=mmkhttp://192.168.43.1:1234&video=null&audio=null&protocol=http&transfermode=unicast&streamformat=ts&resolution=720p&videobitrate=1536&version=1
+I/MonitorCw880( 1526): SystemPropertiesClass:class android.os.SystemProperties
+W/MonitorCw880( 1526): ~~~~~~~~~~~~~~~~~~~~~~method:public static java.lang.String android.os.SystemProperties.get(java.lang.String,java.lang.String)
+W/MonitorCw880( 1526): getProperties persist.sys.resolution return value:2
+D/MonitorCw880( 1526): getProperties -> persist.sys.resolution=2
+I/MonitorCw880( 1526): ====mDisplaymode = 1
+D/MonitorCw880( 1526): handleHandshake() -> recevice action=handshake
+I/MonitorCw880( 1526): SystemPropertiesClass:class android.os.SystemProperties
+W/MonitorCw880( 1526): ~~~~~~~~~~~~~~~~~~~~~~method:public static java.lang.String android.os.SystemProperties.get(java.lang.String,java.lang.String)
+W/MonitorCw880( 1526): getProperties sys.cw880.ready return value:true
+D/MonitorCw880( 1526): handleHandshake() -> Cw880BootState is cw880_reboot_success
+W/MonitorCw880( 1526): setCw880CommunicateType()=1, return=6
+W/MonitorCw880( 1526): StartCw880() -> result=11
+D/MonitorCw880( 1526): =========will to handle request=handshake
+D/MonitorCw880( 1526): return action=handshake result= null
+D/MonitorCw880( 1526):  send result -> 192.168.43.186:58710 msgType= easyscreen, msgData=action=handshake&result=null&playurl=mmkhttp://192.168.43.1:1234&video=null&audio=null&protocol=http&transfermode=unicast&streamformat=ts&resolution=720p&videobitrate=1536&version=1
+I/MonitorCw880( 1526): SystemPropertiesClass:class android.os.SystemProperties
+W/MonitorCw880( 1526): ~~~~~~~~~~~~~~~~~~~~~~method:public static java.lang.String android.os.SystemProperties.get(java.lang.String,java.lang.String)
+W/MonitorCw880( 1526): getProperties persist.sys.resolution return value:2
+D/MonitorCw880( 1526): getProperties -> persist.sys.resolution=2
+I/MonitorCw880( 1526): ====mDisplaymode = 1
+D/MonitorCw880( 1526): handleStart() -> recevice action=start
+I/MonitorCw880( 1526): SystemPropertiesClass:class android.os.SystemProperties
+W/MonitorCw880( 1526): ~~~~~~~~~~~~~~~~~~~~~~method:public static java.lang.String android.os.SystemProperties.get(java.lang.String,java.lang.String)
+W/MonitorCw880( 1526): getProperties sys.cw880.ready return value:true
+W/MonitorCw880( 1526): setCw880CommunicateType()=1, return=6
+W/MonitorCw880( 1526): StartCw880() -> result=11
+D/MonitorCw880( 1526): =========will to handle request=start
+D/MonitorCw880( 1526): return action=start result= null
+D/MonitorCw880( 1526):  send result -> 192.168.43.186:58710 msgType= easyscreen, msgData=action=start&result=null
+I/MonitorCw880( 1526): SystemPropertiesClass:class android.os.SystemProperties
+W/MonitorCw880( 1526): ~~~~~~~~~~~~~~~~~~~~~~method:public static java.lang.String android.os.SystemProperties.get(java.lang.String,java.lang.String)
+W/MonitorCw880( 1526): getProperties persist.sys.resolution return value:2
+D/MonitorCw880( 1526): getProperties -> persist.sys.resolution=2
+I/MonitorCw880( 1526): ====mDisplaymode = 1
+D/MonitorCw880( 1526): handleStart() -> recevice action=start
+I/MonitorCw880( 1526): SystemPropertiesClass:class android.os.SystemProperties
+W/MonitorCw880( 1526): ~~~~~~~~~~~~~~~~~~~~~~method:public static java.lang.String android.os.SystemProperties.get(java.lang.String,java.lang.String)
+W/MonitorCw880( 1526): getProperties sys.cw880.ready return value:true
+W/MonitorCw880( 1526): setCw880CommunicateType()=1, return=6
+W/MonitorCw880( 1526): StartCw880() -> result=11
+D/MonitorCw880( 1526): =========will to handle request=start
+D/MonitorCw880( 1526): return action=start result= null
+D/MonitorCw880( 1526):  send result -> 192.168.43.186:58710 msgType= easyscreen, msgData=action=start&result=null
+I/MonitorCw880( 1526): SystemPropertiesClass:class android.os.SystemProperties
+W/MonitorCw880( 1526): ~~~~~~~~~~~~~~~~~~~~~~method:public static java.lang.String android.os.SystemProperties.get(java.lang.String,java.lang.String)
+W/MonitorCw880( 1526): getProperties persist.sys.resolution return value:2
+D/MonitorCw880( 1526): getProperties -> persist.sys.resolution=2
+I/MonitorCw880( 1526): ====mDisplaymode = 1
+D/MonitorCw880( 1526): handleStart() -> recevice action=start
+I/MonitorCw880( 1526): SystemPropertiesClass:class android.os.SystemProperties
+W/MonitorCw880( 1526): ~~~~~~~~~~~~~~~~~~~~~~method:public static java.lang.String android.os.SystemProperties.get(java.lang.String,java.lang.String)
+W/MonitorCw880( 1526): getProperties sys.cw880.ready return value:true
+W/MonitorCw880( 1526): setCw880CommunicateType()=1, return=6
+W/MonitorCw880( 1526): StartCw880() -> result=11
+D/MonitorCw880( 1526): =========will to handle request=start
+D/MonitorCw880( 1526): return action=start result= null
+D/MonitorCw880( 1526):  send result -> 192.168.43.186:58710 msgType= easyscreen, msgData=action=start&result=null
+I/MonitorCw880( 1526): SystemPropertiesClass:class android.os.SystemProperties
+W/MonitorCw880( 1526): ~~~~~~~~~~~~~~~~~~~~~~method:public static java.lang.String android.os.SystemProperties.get(java.lang.String,java.lang.String)
+W/MonitorCw880( 1526): getProperties persist.sys.resolution return value:2
+D/MonitorCw880( 1526): getProperties -> persist.sys.resolution=2
+I/MonitorCw880( 1526): ====mDisplaymode = 1
+D/MonitorCw880( 1526): handleStart() -> recevice action=start
+I/MonitorCw880( 1526): SystemPropertiesClass:class android.os.SystemProperties
+W/MonitorCw880( 1526): ~~~~~~~~~~~~~~~~~~~~~~method:public static java.lang.String android.os.SystemProperties.get(java.lang.String,java.lang.String)
+W/MonitorCw880( 1526): getProperties sys.cw880.ready return value:true
+W/MonitorCw880( 1526): setCw880CommunicateType()=1, return=6
+W/MonitorCw880( 1526): StartCw880() -> result=11
+D/MonitorCw880( 1526): =========will to handle request=start
+D/MonitorCw880( 1526): return action=start result= null
+D/MonitorCw880( 1526):  send result -> 192.168.43.186:58710 msgType= easyscreen, msgData=action=start&result=null
+I/MonitorCw880( 1526): SystemPropertiesClass:class android.os.SystemProperties
+W/MonitorCw880( 1526): ~~~~~~~~~~~~~~~~~~~~~~method:public static java.lang.String android.os.SystemProperties.get(java.lang.String,java.lang.String)
+W/MonitorCw880( 1526): getProperties persist.sys.resolution return value:2
+D/MonitorCw880( 1526): getProperties -> persist.sys.resolution=2
+I/MonitorCw880( 1526): ====mDisplaymode = 1
+D/MonitorCw880( 1526): handleStart() -> recevice action=start
+I/MonitorCw880( 1526): SystemPropertiesClass:class android.os.SystemProperties
+W/MonitorCw880( 1526): ~~~~~~~~~~~~~~~~~~~~~~method:public static java.lang.String android.os.SystemProperties.get(java.lang.String,java.lang.String)
+W/MonitorCw880( 1526): getProperties sys.cw880.ready return value:true
+W/MonitorCw880( 1526): setCw880CommunicateType()=1, return=6
+W/MonitorCw880( 1526): StartCw880() -> result=11
+D/MonitorCw880( 1526): =========will to handle request=start
+D/MonitorCw880( 1526): return action=start result= null
+D/MonitorCw880( 1526):  send result -> 192.168.43.186:58710 msgType= easyscreen, msgData=action=start&result=null
+I/MonitorCw880( 1526): SystemPropertiesClass:class android.os.SystemProperties
+W/MonitorCw880( 1526): ~~~~~~~~~~~~~~~~~~~~~~method:public static java.lang.String android.os.SystemProperties.get(java.lang.String,java.lang.String)
+W/MonitorCw880( 1526): getProperties persist.sys.resolution return value:2
+D/MonitorCw880( 1526): getProperties -> persist.sys.resolution=2
+I/MonitorCw880( 1526): ====mDisplaymode = 1
+D/MonitorCw880( 1526): handleStart() -> recevice action=start
+I/MonitorCw880( 1526): SystemPropertiesClass:class android.os.SystemProperties
+W/MonitorCw880( 1526): ~~~~~~~~~~~~~~~~~~~~~~method:public static java.lang.String android.os.SystemProperties.get(java.lang.String,java.lang.String)
+W/MonitorCw880( 1526): getProperties sys.cw880.ready return value:true
+W/MonitorCw880( [  902.014629] CW880 API set ts info  ip is  192.168.43.186
+1526): setCw880CommunicateType()=1, return=6
+W/MonitorCw880( 1526): StartCw880() -> result=11
+D/MonitorCw880( 1526): =========will to handle request=start
+D/MonitorCw880( 1526): return action=start result= null
+D/MonitorCw880( 1526):  send result -> 192.168.43.186:58710 msgType= easyscreen, msgData=action=start&result=null
+I/MonitorCw880( 1526): SystemPropertiesClass:class android.os.SystemProperties
+W/MonitorCw880( 1526): ~~~~~~~~~~~~~~~~~~~~~~method:public static java.lang.String android.os.SystemProperties.get(java.lang.String,java.lang.String)
+W/MonitorCw880( 1526): getProperties persist.sys.resolution return value:2
+D/MonitorCw880( 1526): getProperties -> persist.sys.resolution=2
+I/MonitorCw880( 1526): ====mDisplaymode = 1
+D/MonitorCw880( 1526): handleStart() -> recevice action=start
+I/MonitorCw880( 1526): SystemPropertiesClass:class android.os.SystemProperties
+W/MonitorCw880( 1526): ~~~~~~~~~~~~~~~~~~~~~~method:public static java.lang.String android.os.SystemProperties.get(java.lang.String,java.lang.String)
+W/MonitorCw880( 1526): getProperties sys.cw880.ready return value:true
+W/MonitorCw880( [  908.034477] CW880 API set ts info  ip is  192.168.43.186
+1526): setCw880CommunicateType()=1, return=6
+W/MonitorCw880( 1526): StartCw880() -> result=11
+D/MonitorCw880( 1526): =========will to handle request=start
+D/MonitorCw880( 1526): return action=start result= null
+D/MonitorCw880( 1526):  send result -> 192.168.43.186:58710 msgType= easyscreen, msgData=action=start&result=null
+I/MonitorCw880( 1526): SystemPropertiesClass:class android.os.SystemProperties
+W/MonitorCw880( 1526): ~~~~~~~~~~~~~~~~~~~~~~method:public static java.lang.String android.os.SystemProperties.get(java.lang.String,java.lang.String)
+W/MonitorCw880( 1526): getProperties persist.sys.resolution return value:2
+D/MonitorCw880( 1526): getProperties -> persist.sys.resolution=2
+I/MonitorCw880( 1526): ====mDisplaymode = 1
+D/MonitorCw880( 1526): handleStart() -> recevice action=start
+I/MonitorCw880( 1526): SystemPropertiesClass:class android.os.SystemProperties
+W/MonitorCw880( 1526): ~~~~~~~~~~~~~~~~~~~~~~method:public static java.lang.String android.os.SystemProperties.get(java.lang.String,java.lang.String)
+W/MonitorCw880( 1526): getProperties sys.cw880.ready return value:true
+W/MonitorCw880( [  914.054453] CW880 API set ts info  ip is  192.168.43.186
+1526): setCw880CommunicateType()=1, return=6
+W/MonitorCw880( 1526): StartCw880() -> result=11
+D/MonitorCw880( 1526): =========will to handle request=start
+D/MonitorCw880( 1526): return action=start result= null
+D/MonitorCw880( 1526):  send result -> 192.168.43.186:58710 msgType= easyscreen, msgData=action=start&result=null
+I/MonitorCw880( 1526): SystemPropertiesClass:class android.os.SystemProperties
+W/MonitorCw880( 1526): ~~~~~~~~~~~~~~~~~~~~~~method:public static java.lang.String android.os.SystemProperties.get(java.lang.String,java.lang.String)
+W/MonitorCw880( 1526): getProperties persist.sys.resolution return value:2
+D/MonitorCw880( 1526): getProperties -> persist.sys.resolution=2
+I/MonitorCw880( 1526): ====mDisplaymode = 1
+D/MonitorCw880( 1526): handleStart() -> recevice action=start
+I/MonitorCw880( 1526): SystemPropertiesClass:class android.os.SystemProperties
+W/MonitorCw880( 1526): ~~~~~~~~~~~~~~~~~~~~~~method:public static java.lang.String android.os.SystemProperties.get(java.lang.String,java.lang.String)
+W/MonitorCw880( 1526): getProperties sys.cw880.ready return value:true
+W/MonitorCw880( [  920.072366] CW880 API set ts info  ip is  192.168.43.186
+1526): setCw880CommunicateType()=1, return=6
+W/MonitorCw880( 1526): StartCw880() -> result=11
+D/MonitorCw880( 1526): =========will to handle request=start
+D/MonitorCw880( 1526): return action=start result= null
+D/MonitorCw880( 1526):  send result -> 192.168.43.186:58710 msgType= easyscreen, msgData=action=start&result=null
+I/MonitorCw880( 1526): SystemPropertiesClass:class android.os.SystemProperties
+W/MonitorCw880( 1526): ~~~~~~~~~~~~~~~~~~~~~~method:public static java.lang.String android.os.SystemProperties.get(java.lang.String,java.lang.String)
+W/MonitorCw880( 1526): getProperties persist.sys.resolution return value:2
+D/MonitorCw880( 1526): getProperties -> persist.sys.resolution=2
+I/MonitorCw880( 1526): ====mDisplaymode = 1
+D/MonitorCw880( 1526): handleStart() -> recevice action=start
+I/MonitorCw880( 1526): SystemPropertiesClass:class android.os.SystemProperties
+W/MonitorCw880( 1526): ~~~~~~~~~~~~~~~~~~~~~~method:public static java.lang.String android.os.SystemProperties.get(java.lang.String,java.lang.String)
+W/MonitorCw880( 1526): getProperties sys.cw880.ready return value:true
+^C
+130|shell@android:/ # [  926.094093] CW880 API set ts info  ip is  192.168.43.186
+
+130|shell@android:/ # 
+130|shell@android:/ # 
+130|shell@android:/ # 
+130|shell@android:/ # 
+130|shell@android:/ # 
+130|shell@android:/ # 
+130|shell@android:/ # 
+130|shell@android:/ # 
+130|shell@android:/ # 
+130|shell@android:/ # cd /sys
+sys/    system/ 
+130|shell@android:/ # cd /sys[  932.110439] CW880 API set ts info  ip is  192.168.43.186
+130|shell@android:/ # cd /system/cywee/                                        
+shell@android:/system/cywee # 
+shell@android:/system/cywee # ls
+boot.sh
+cw880_debug_cmcc
+cw880_drv.ko
+cwQ.ko
+gpio
+reset_gpio
+shell@android:/system/cywee # 
+shell@android:/system/cywee # [  938.194117] CW880 API set ts info  ip is  192.168.43.186
+
+shell@android:/system/cywee # 
+shell@android:/system/cywee # ll 
+-rw-r--r-- root     root          365 2013-06-08 09:17 boot.sh
+-rw-r--r-- root     root        22944 2013-06-08 09:17 cw880_debug_cmcc
+-rw-r--r-- root     root       456156 2013-06-07 12:09 cw880_drv.ko
+-rw-r--r-- root     root       235096 2013-06-08 09:17 cwQ.ko
+-rw-r--r-- root     root         5532 2013-06-08 09:17 gpio
+-rw-r--r-- root     root         5544 2013-06-08 09:17 reset_gpio
+shell@android:/system/cywee # 
+shell@android:/system/cywee # m[  944.242231] CW880 API set ts info  ip is  192.168.43.186
+   
+shell@android:/system/cywee # 
+shell@android:/system/cywee # 
+shell@android:/system/cywee # 
+shell@android:/system/cywee # 
+shell@android:/system/cywee # 
+shell@android:/system/cywee # mount [  950.300961] CW880 API set ts info  ip is  192.168.43.186
+-o remount /system
+shell@android:/system/cywee # 
+shell@android:/system/cywee # ls
+boot.sh
+cw880_debug_cmcc
+cw880_drv.ko
+cwQ.ko
+gpio
+reset_gpio
+shell@android:/system/cywee # 
+shell@android:/system/cywee # [  956.379113] CW880 API set ts info  ip is  192.168.43.186
+shell@android:/system/cywee # chmod 777 gpio [  962.440711] CW880 API set ts info  ip is  192.168.43.186
+
+shell@android:/system/cywee # 
+shell@android:/system/cywee # chmod 777 [  968.499117] CW880 API set ts info  ip is  192.168.43.186
+shell@android:/system/cywee # chmod 777 boot.sh                                
+shell@android:/system/cywee # 
+shell@android:/system/cywee # chmod 777 r[  974.531116] CW880 API set ts info  ip is  192.168.43.186
+shell@android:/system/cywee # chmod 777 reset_gpio                             
+shell@android:/system/cywee # 
+shell@android:/system/cywee # ll
+-rwxrwxrwx root     root          365 2013-06-08 09:17 boot.sh
+-rw-r--r-- root     root        22944 2013-06-08 09:17 cw880_debug_cmcc
+-rw-r--r-- root     root       456156 2013-06-07 12:09 cw880_drv.ko
+-rw-r--r-- root     root       235096 2013-06-08 09:17 cwQ.ko
+-rwxrwxrwx root     root         5532 2013-06-08 09:17 gpio
+-rwxrwxrwx root     root         5544 2013-06-08 09:17 reset_gpio
+shell@android:/system/cywee # 
+shell@android:/system/cywee # ./[  980.547973] CW880 API set ts info  ip is  192.168.43.186
+shell@android:/system/cywee # ./boot.sh                                        
+########welcome cywee#########
+insmod: init_module 'cwQ.ko' failed (File exists)
+insmod: init_module 'cw880_drv.ko' failed (File exists)
+mdrv_gpio_set_high(49)
+mdrv_gpio_set_high(51)
+mdrv_gpio_set_low(51)
+mdrv_gpio_set_low(49)
+test 1test 2mdrv_gpio_set_hightest 1test 2mdrv_gpio_set_low======================================
+test 1test 2mdrv_gpio_set_hightest 1test 2mdrv_gpio_set_low======over========
+shell@android:/system/cywee # 
+shell@android:/system/cywee # [  986.567189] CW880 API set ts info  ip is  192.168.43.186
+[  986.602762] CW880: cw880 receive start cmd, so control cw880 start stream. ret = 0
+[  986.610389] ------------------------------ socket type HTTP
+[ 1000.654524] CW880: cw880 receive stop cmd, so control cw880 stop stream. ret = 0
+[ 1006.742618] CW880 API set ts info  ip is  192.168.43.186
+[ 1006.774994] CW880: cw880 receive start cmd, so control cw880 start stream. ret = 0
+[ 1006.782659] ------------------------------ socket type HTTP
+[ 1006.872241] accepted a http connect , new connect ip is  192.168.43.186
+[ 1006.878975]                           old connect ip is  192.168.43.186
+[ 1008.198249] CW880: cw880 receive stop cmd, so control cw880 stop stream. ret = 0
+[ 1010.355446] CW880 API set ts info  ip is  192.168.43.186
+[ 1010.394794] CW880: cw880 receive start cmd, so control cw880 start stream. ret = 0
+[ 1010.402433] ------------------------------ socket type HTTP
+[ 1012.447200] accepted a http connect , new connect ip is  192.168.43.186
+[ 1012.453906]                           old connect ip is  192.168.43.186
+[ 1012.472284] CW880: cw880 receive stop cmd, so control cw880 stop stream. ret = 0
+[ 1014.480529] krecv new socket request header  fail 
+[ 1014.727935] CW880 API set ts info  ip is  192.168.43.186
+[ 1014.766863] CW880: cw880 receive start cmd, so control cw880 start stream. ret = 0
+[ 1014.774625] ------------------------------ socket type HTTP
+[ 1014.787806] CW880: cw880 receive stop cmd, so control cw880 stop stream. ret = 0
+[ 1014.913582] CW880 API set ts info  ip is  192.168.43.186
+[ 1014.947065] CW880: cw880 receive start cmd, so control cw880 start stream. ret = 0
+[ 1014.954760] ------------------------------ socket type HTTP
+[ 1016.891006] accepted a http connect , new connect ip is  192.168.43.186
+[ 1016.897717]                           old connect ip is  192.168.43.186
+[ 1018.942756] krecv new socket request header  fail 
+[ 1020.981983] accepted a http connect , new connect ip is  192.168.43.186
+[ 1020.988649]                           old connect ip is  192.168.43.186

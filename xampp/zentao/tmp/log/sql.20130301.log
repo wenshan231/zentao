@@ -1,0 +1,17 @@
+20130301 09:38:37: 
+  SELECT * FROM `zt_company` WHERE `pms` = 'localhost:88' 
+  SELECT * FROM `zt_company` WHERE `pms` = 'localhost' 
+  SELECT value FROM `zt_config` WHERE owner  = 'system' AND section  = 'global' AND `key`  = 'version' AND company  = '0'
+
+20130301 09:38:48: 
+  SELECT value FROM `zt_config` WHERE owner  = 'system' AND section  = 'global' AND `key`  = 'version' AND company  = '0'
+
+20130301 09:39:11: 
+  SELECT * FROM `zt_config` WHERE owner IN ('system','admin') AND  `zt_config`.company = '1' 
+  SELECT value FROM `zt_config` WHERE owner  = 'system' AND section  = 'global' AND `key`  = 'version' AND company  = '0'
+
+20130301 09:40:29: 
+  SELECT * FROM `zt_company` WHERE `pms` = '10.10.101.199:88' 
+  SELECT * FROM `zt_company` WHERE `pms` = 'localhost' 
+  SELECT value FROM `zt_config` WHERE owner  = 'system' AND section  = 'global' AND `key`  = 'version' AND company  = '0'
+

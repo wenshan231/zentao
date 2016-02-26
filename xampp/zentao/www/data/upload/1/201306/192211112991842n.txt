@@ -1,0 +1,607 @@
+/********************************************************************************************
+ *     LEGAL DISCLAIMER 
+ *
+ *     (Header of MediaTek Software/Firmware Release or Documentation)
+ *
+ *     BY OPENING OR USING THIS FILE, BUYER HEREBY UNEQUIVOCALLY ACKNOWLEDGES AND AGREES 
+ *     THAT THE SOFTWARE/FIRMWARE AND ITS DOCUMENTATIONS ("MEDIATEK SOFTWARE") RECEIVED 
+ *     FROM MEDIATEK AND/OR ITS REPRESENTATIVES ARE PROVIDED TO BUYER ON AN "AS-IS" BASIS 
+ *     ONLY. MEDIATEK EXPRESSLY DISCLAIMS ANY AND ALL WARRANTIES, EXPRESS OR IMPLIED, 
+ *     INCLUDING BUT NOT LIMITED TO THE IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR 
+ *     A PARTICULAR PURPOSE OR NONINFRINGEMENT. NEITHER DOES MEDIATEK PROVIDE ANY WARRANTY 
+ *     WHATSOEVER WITH RESPECT TO THE SOFTWARE OF ANY THIRD PARTY WHICH MAY BE USED BY, 
+ *     INCORPORATED IN, OR SUPPLIED WITH THE MEDIATEK SOFTWARE, AND BUYER AGREES TO LOOK 
+ *     ONLY TO SUCH THIRD PARTY FOR ANY WARRANTY CLAIM RELATING THERETO. MEDIATEK SHALL ALSO
+ *     NOT BE RESPONSIBLE FOR ANY MEDIATEK SOFTWARE RELEASES MADE TO BUYER'S SPECIFICATION 
+ *     OR TO CONFORM TO A PARTICULAR STANDARD OR OPEN FORUM.
+ *     
+ *     BUYER'S SOLE AND EXCLUSIVE REMEDY AND MEDIATEK'S ENTIRE AND CUMULATIVE LIABILITY WITH 
+ *     RESPECT TO THE MEDIATEK SOFTWARE RELEASED HEREUNDER WILL BE, AT MEDIATEK'S OPTION, 
+ *     TO REVISE OR REPLACE THE MEDIATEK SOFTWARE AT ISSUE, OR REFUND ANY SOFTWARE LICENSE 
+ *     FEES OR SERVICE CHARGE PAID BY BUYER TO MEDIATEK FOR SUCH MEDIATEK SOFTWARE AT ISSUE. 
+ *     
+ *     THE TRANSACTION CONTEMPLATED HEREUNDER SHALL BE CONSTRUED IN ACCORDANCE WITH THE LAWS 
+ *     OF THE STATE OF CALIFORNIA, USA, EXCLUDING ITS CONFLICT OF LAWS PRINCIPLES.  
+ ************************************************************************************************/
+/*!
+ * @file ir_regs.h
+ *
+ *
+ *
+ * @par Project
+ *    MT8530
+ *
+ * @par Description
+ *    IR RX Register Definition
+ *
+ * @par Author_Name
+ *    Zhifeng Zhao
+ *
+ * @par Last_Changed
+ * $Author: richard.sun $
+ * $Modtime: $
+ * $Revision: #3 $
+ *
+ */
+#ifndef __IR_REGS_H__
+#define __IR_REGS_H__
+
+//#define __DEBUG__
+
+#include "x_hal_ic.h"
+#include "drv_config.h"
+#include "chip_ver.h"
+
+/**************************************************
+    IR protocol & user define
+    ************************************************/
+#if (CONFIG_CHIP_VER_CURR == CONFIG_CHIP_VER_MT8520)
+#define CONFIG_ARM2_EJECT     0
+#define IRRX_USE_27M          1
+#elif (CONFIG_CHIP_VER_CURR == CONFIG_CHIP_VER_MT8530)
+#define CONFIG_ARM2_EJECT     1
+#define IRRX_USE_27M          0
+#elif (CONFIG_CHIP_VER_CURR == CONFIG_CHIP_VER_MT8550)
+#define CONFIG_ARM2_EJECT     1
+#define IRRX_USE_27M          0
+#elif (CONFIG_CHIP_VER_CURR == CONFIG_CHIP_VER_MT8555)
+#define CONFIG_ARM2_EJECT     1
+#define IRRX_USE_27M          0
+#elif (CONFIG_CHIP_VER_CURR >= CONFIG_CHIP_VER_MT8560)
+#define CONFIG_ARM2_EJECT     1
+#define IRRX_USE_27M          0
+#endif
+
+#define IRRX_RC_NEC  (0x00)
+#define IRRX_RC_RC6  (0x01)
+#define IRRX_RC_RC5  (0x02)
+#define IRRX_RC_PAN  (0X03)
+#define IRRX_RC_SIRC (0x04)
+#define IRRX_RC_JVC  (0x05) 
+#define IRRX_RC_RCA  (0x06) 
+#if (CONFIG_DRV_FPORTABLE_SUPPORT == 1)
+	#define IRRX_RC_PROTOCOL  IRRX_RC_SIRC 
+#else
+	#define IRRX_RC_PROTOCOL  IRRX_RC_NEC
+#endif
+
+
+#if(IRRX_RC_PROTOCOL == IRRX_RC_RC6)
+
+#define IRRX_RC_NAME "RC6 Remote Controller"
+#if (IRRX_USE_27M)
+#define IRRX_SAPERIOD_RC6 (UINT32)(0x2e)
+#else
+#define IRRX_SAPERIOD_RC6 (UINT32)(0xA6)
+#endif
+#define IRRX_RC6_CONFIG   (IRRX_CH_END_15 | IRRX_CH_IGSYN | IRRX_CH_HWIR | IRRX_CH_ORDINV | IRRX_CH_RC5)
+#define IRRX_RC6_BITCNT   (UINT32)(0x1e)
+#define IRRX_RC6_LEADER   (UINT32)(0x8)
+#define IRRX_RC6_TOGGLE0  (UINT32)(0x1)
+#define IRRX_RC6_TOGGLE1  (UINT32)(0x2)
+#define IRRX_RC6_CUSTOM (UINT32)(0x32)
+
+#define IRRX_RC6_GET_LEADER(bdata0) ((bdata0>>4))
+#define IRRX_RC6_GET_TOGGLE(bdata0) ((bdata0 & 0xc)>>2)
+#define IRRX_RC6_GET_CUSTOM(bdata0,bdata1) (((bdata0 & 0x3) << 6) |bdata1 >> 2)
+#define IRRX_RC6_GET_KEYCODE(bdata1,bdata2)  \
+                (((bdata2>>2) | ((bdata1 & 0x3)<<6)) & 0xff)
+
+#define IRRX_RC6_MAX_MAP_ENTRY   (0xFF)
+
+#elif(IRRX_RC_PROTOCOL == IRRX_RC_SIRC)
+#define IRRX_RC_NAME "SIRC Remote Controller"
+
+#if (IRRX_USE_27M)
+#define IRRX_SAPERIOD_SIRC (UINT32)(0x30)  
+#else
+#define IRRX_SAPERIOD_SIRC (UINT32)(0xAB)
+#endif
+#define IRRX_SIRC_CONFIG   (IRRX_CH_END_15 | IRRX_CH_ORDINV | IRRX_CH_HWIR)
+
+#define IRRX_SIRC_BITCNT12 (UINT32)(0xc)
+#define IRRX_SIRC_12B_DEVICE    ((UINT8)(0x01))
+
+#define IRRX_SIRC_BITCNT15 (UINT32)(0xf)
+#define IRRX_SIRC_15B_DEVICE    ((UINT8)(0x01))
+
+#define IRRX_SIRC_BITCNT20 (UINT32)(0x14)
+#define IRRX_SIRC_20B_DEVICE    ((UINT8)(0x1A))
+#define IRRX_SIRC_20B_EXTENDED  ((UINT8)(0xE2))
+
+#define IRRX_SIRC_MAX_MAP_ENTRY   (0x80)
+
+#elif(IRRX_RC_PROTOCOL == IRRX_RC_NEC)
+#define IRRX_RC_NAME "NEC Remote Controller"
+
+//NEC config
+#define MTK_IRRX_CONFIG         (IRRX_CH_END_15 + IRRX_CH_IGSYN + IRRX_CH_HWIR)
+#if (IRRX_USE_27M)
+//NEC sampling period 0x32 = 560us/9.5us
+#define MTK_IRRX_SAPERIOD       (0x0032)
+#else
+#define MTK_IRRX_SAPERIOD       (0x00B4)
+#endif
+#define MTK_NEC_MAX_MAP_ENTRY   (0xFF)
+
+#define MTK_IRRX_1st_Plus_REPEAT  (3)
+#define MTK_IRRX_BITCNT_NORMAL    (33)
+#define MTK_IRRX_BITCNT_REPEAT    (1)
+#define MTK_IRRX_BIT8_VERIFY      (0xff)
+/*added by chenxiangping for black and white remote control*/
+#if 1 
+#define MTK_IRRX_GRPID_DVD    (0xff00) 
+
+/* 这两个是N6207I遥控器白色和黑色客户码*/
+#define MTK_IRRX_GRPID_DVD_1  (0x4cb3)
+#define MTK_IRRX_GRPID_DVD_2  (0x4db2)
+/* 这是原来N5480I遥控器简易版客户码*/
+#define MTK_IRRX_GRPID_DVD_3  (0x4ab5)
+#define MTK_IRRX_GRPID_DVD_4  (0xbd02)
+#endif
+
+
+#elif(IRRX_RC_PROTOCOL == IRRX_RC_JVC)
+#define IRRX_RC_NAME "JVC Remote Controller"
+
+#if (IRRX_USE_27M)
+#define IRRX_SAPERIOD_JVC (UINT32)(0x30)
+#else
+#define IRRX_SAPERIOD_JVC (UINT32)(0xB0)
+#endif
+
+#define IRRX_JVC_CONFIG            (IRRX_CH_END_15 + IRRX_CH_HWIR)
+
+#define IRRX_JVC_BITCNT_NORMAL     (UINT32)(0x11)
+#define IRRX_JVC_BITCNT_REPEAT     (UINT32)(0x10)
+#define IRRX_JVC_1ST_PULSE_NORMAL  (UINT32)(0x8)
+#define IRRX_JVC_1ST_PULSE_REPEAT  (UINT32)(0x2)
+#define IRRX_JVC_CUSTOM            (UINT32)(0xEF)
+
+#define IRRX_JVC_MAX_MAP_ENTRY   (0xFF)
+
+#elif(IRRX_RC_PROTOCOL == IRRX_RC_PAN)
+#define IRRX_RC_NAME "PANASONIC Remote Controller"
+
+#if (IRRX_USE_27M)
+#define IRRX_SAPERIOD_PAN (UINT32)(0x26)
+#else
+#define IRRX_SAPERIOD_PAN (UINT32)(0x8A)
+#endif
+
+#define IRRX_PAN_CONFIG            (IRRX_CH_END_15 + IRRX_CH_IGSYN +  +IRRX_CH_HWIR)
+
+#define IRRX_PAN_BITCNT_NORMAL     (UINT32)(0x31)
+#define IRRX_PAN_BITCNT_REPEAT     (UINT32)(0x10)
+#define IRRX_PAN_1ST_PULSE_NORMAL  (UINT32)(0x8)
+#define IRRX_PAN_1ST_PULSE_REPEAT  (UINT32)(0x2)
+#define IRRX_PAN_CUSTOM            (UINT32)(0x2002)
+
+#define IRRX_PAN_MAX_MAP_ENTRY   (0xFF)
+
+#elif(IRRX_RC_PROTOCOL == IRRX_RC_RC5)
+#define IRRX_RC_NAME "RC5 Remote Controller"
+
+#if (IRRX_USE_27M)
+#define IRRX_SAPERIOD_RC5 (UINT32)(0x60)
+#else
+#define IRRX_SAPERIOD_RC5 (UINT32)(0xB0)
+#endif
+#define IRRX_RC5_CONFIG   (IRRX_CH_IGSYN | IRRX_CH_HWIR | IRRX_CH_ORDINV | IRRX_CH_RC5)
+
+#define IRRX_RC5_BITCNT   (UINT32)(0x10)
+#define IRRX_RC5_CUSTOM   (UINT32)(0x00)
+
+#define IRRX_RC5_GET_TOGGLE(bdata0) (((~(bdata0)) & 0x80) >> 7)
+#define IRRX_RC5_GET_CUSTOM(bdata0) (((~(bdata0)) & 0x7C) >> 2)
+#define IRRX_RC5_GET_KEYCODE(bdata0,bdata1)  \
+                ((((~(bdata0)) & 0x03) << 4) | (((~(bdata1)) & 0xF0) >> 4))
+
+#define IRRX_RC5_MAX_MAP_ENTRY   (0x40)
+
+
+#elif(IRRX_RC_PROTOCOL == IRRX_RC_RCA)
+#define IRRX_RC_NAME "RCA Remote Controller"
+
+#if (IRRX_USE_27M)
+#define IRRX_SAPERIOD_RCA (UINT32)(0x26)
+#else
+#define IRRX_SAPERIOD_RCA (UINT32)(0x96)
+#endif
+
+#define IRRX_RCA_CONFIG            (IRRX_CH_END_15 + IRRX_CH_IGSYN +  +IRRX_CH_HWIR)
+
+#define IRRX_RCA_BITCNT_NORMAL     (UINT32)(0x19)
+#define IRRX_RCA_BITCNT_REPEAT     (UINT32)(0x10)
+#define IRRX_RCA_1ST_PULSE_NORMAL  (UINT32)(0x9)
+#define IRRX_RCA_1ST_PULSE_REPEAT  (UINT32)(0x2)
+#define IRRX_RCA_CUSTOM            (UINT32)(0x3)
+
+#define IRRX_RCA_MAX_MAP_ENTRY   (0xFF)
+
+
+#else
+#define IRRX_RC_NAME "NONE"
+
+#error "Error: please set IR protocol!"
+
+#endif
+
+//set deglitch with the max number.
+#define MTK_IRRX_THRESHOLD      (0x0201)    
+
+/* if there is no key in 400ms, poll function will get a 0xffffffff key. */
+#define MTK_IRRX_TIMESLICE      (400)   
+#define MTK_IRRX_PRIORITY       (100)
+#define MTK_IRRX_ITEMCNT        (16)
+
+#define MAX_IRRX_DATA        (4)
+
+/**************************************************
+    IR clock select
+    ************************************************/
+#define IRRX_UP_CFG              0x188
+  #define FAST_CK_EN             (0x1<<20)//1: 27M; 0:3M
+
+#define IRRX_CLKPDN              0x040
+  #define IRRXPD                 (0x01<<1) //IR receiver module clock stop
+  
+#define IRRX_IRCKSEL             0x044
+  #define IRCLKSEL_MASK          0xf
+  
+  #define CLK_SEL_IR_DIV_1_1		 0x0		 
+  #define CLK_SEL_IR_DIV_1_2	     0x1		
+  #define CLK_SEL_IR_DIV_1_4	     0x2		
+  #define CLK_SEL_IR_DIV_1_8	     0x3		
+  #define CLK_SEL_IR_DIV_1_16	     0x4		
+  #define CLK_SEL_IR_DIV_1_32	     0x5		
+  #define CLK_SEL_IR_DIV_1_64	     0x6		
+  #define CLK_SEL_IR_DIV_1_128       0x7		
+  #define CLK_SEL_IR_DIV_1_256       0x8
+
+/**************************************************
+  IR interrupt , level 2 (level 1 is VECTOR_PWDNC)
+  ************************************************/
+#define IRRX_INTSTA             0x140
+  #define IR_INT                (0x01<<13)
+
+#define IRRX_INTEN              0x144
+  #define IR_INTEN              (0x01<<13)
+
+#define IRRX_INTCLR             0x148
+  #define IR_INTCLR             (0x01<<13)
+
+/**************************************************
+    IRRX register define
+    ************************************************/
+#define IRRX_COUNT_HIGH_REG        0x200  
+  #define IRRX_CH_BITCNT_MASK         0x0000003f
+  #define IRRX_CH_BITCNT_BITSFT       0
+  #define IRRX_CH_1ST_PULSE_MASK      0x0000ff00
+  #define IRRX_CH_1ST_PULSE_BITSFT    8
+  #define IRRX_CH_2ND_PULSE_MASK      0x00ff0000
+  #define IRRX_CH_2ND_PULSE_BITSFT    16
+  #define IRRX_CH_3RD_PULSE_MASK      0xff000000
+  #define IRRX_CH_3RD_PULSE_BITSFT    24
+  
+#define IRRX_COUNT_MID_REG         0x204
+#define IRRX_COUNT_LOW_REG         0x208
+
+#define IRRX_CONFIG_HIGH_REG     0x20c
+  #define IRRX_CH_DISPD        ((INT32)(1 << 15)) 
+  #define IRRX_CH_IGB0         ((INT32)(1 << 14))
+  #define IRRX_CH_END_7        ((INT32)(0x00 << 8))
+  #define IRRX_CH_END_15       ((INT32)(0x01 << 8))
+  #define IRRX_CH_END_23       ((INT32)(0x02 << 8))
+  #define IRRX_CH_END_31       ((INT32)(0x03 << 8))
+  #define IRRX_CH_END_39       ((INT32)(0x04 << 8))
+  #define IRRX_CH_END_47       ((INT32)(0x05 << 8))
+  #define IRRX_CH_END_55       ((INT32)(0x06 << 8))
+  #define IRRX_CH_END_63       ((INT32)(0x07 << 8))
+  #define IRRX_CH_DISCH        ((INT32)(1 << 7))
+  #define IRRX_CH_DISCL        ((INT32)(1 << 6))
+  #define IRRX_CH_IGSYN        ((INT32)(1 << 5))
+  #define IRRX_CH_ORDINV       ((INT32)(1 << 4))
+  #define IRRX_CH_RC5_1ST      ((INT32)(1 << 3))
+  #define IRRX_CH_RC5          ((INT32)(1 << 2))
+  #define IRRX_CH_IRI          ((INT32)(1 << 1))
+  #define IRRX_CH_HWIR         ((INT32)(1 << 0))
+
+#define IRRX_CONFIG_LOW_REG       (0x210)
+#define IRRX_THRESHOLD_REG        (0x214)
+    #define IRRX_GD_DEL_MASK      (0x0300)
+	#define IRRX_ICLR             (0x80)
+    #define IRRX_THRESHOLD_MASK   (0x7f)
+
+#define IRRX_IRCLR                (0x218)
+    #define IRCLR                 (0x1)
+
+#if (CONFIG_CHIP_VER_CURR >= CONFIG_CHIP_VER_MT8530)
+#define IRRX_WAKEN             0x080
+  #define IR_WAKEN             (0x1<<8)
+  
+#define IRRX_PDSTAT            0x088
+  #define IR_IR_WAK            (0x1<<8)
+
+#define IRRX_PDSTCLR            0x08C
+
+#define IRRX_IREXP_EN           ((UINT32)(0x240))
+    #define PD_IREXPEN_IR0        (((UINT32)(1))<<10)
+	#define PD_IREXPEN_IR1        (((UINT32)(1))<<11)
+	#define PD_IRPDWN_EN          (((UINT32)(1))<<9)
+	#define WU_BCEPEN             (((UINT32)(1))<<8)
+	#define WU_IREXPEN_IR0        (((UINT32)(1))<<0)
+	#define WU_IREXPEN_IR1        (((UINT32)(1))<<1)
+	#define WU_IREXPEN_IR2        (((UINT32)(1))<<2)
+	#define WU_IREXPEN_IR3        (((UINT32)(1))<<3)
+	#define WU_IREXPEN_IR4        (((UINT32)(1))<<4)
+	#define WU_IREXPEN_IR5        (((UINT32)(1))<<5)
+	#define WU_IREXPEN_IR6        (((UINT32)(1))<<6)
+	#define WU_IREXPEN_IR7        (((UINT32)(1))<<7)
+
+#define IRRX_ENEXP_IRM          ((UINT32)(0x244))
+#define IRRX_ENEXP_IRL          ((UINT32)(0x248))
+
+#define IRRX_EXP_BCNT           ((UINT32)(0x24C))
+
+#define IRRX_PDWNCNT            ((UINT32)(0x250))
+
+#define IRRX_EXP_IRM0          ((UINT32)(0x280))
+#define IRRX_EXP_IRL0          ((UINT32)(0x284))
+#define IRRX_EXP_IRM1          ((UINT32)(0x288))
+#define IRRX_EXP_IRL1          ((UINT32)(0x28C))
+#define IRRX_EXP_IRM2          ((UINT32)(0x290))
+#define IRRX_EXP_IRL2          ((UINT32)(0x294))
+#define IRRX_EXP_IRM3          ((UINT32)(0x298))
+#define IRRX_EXP_IRL3          ((UINT32)(0x29C))
+#define IRRX_EXP_IRM4          ((UINT32)(0x2A0))
+#define IRRX_EXP_IRL4          ((UINT32)(0x2A4))
+#define IRRX_EXP_IRM5          ((UINT32)(0x2A8))
+#define IRRX_EXP_IRL5          ((UINT32)(0x2AC))
+#define IRRX_EXP_IRM6          ((UINT32)(0x2B0))
+#define IRRX_EXP_IRL6          ((UINT32)(0x2B4))
+#define IRRX_EXP_IRM7          ((UINT32)(0x2B8))
+#define IRRX_EXP_IRL7          ((UINT32)(0x2BC))
+#define IRRX_EXPD_IRM0          ((UINT32)(0x2C0))
+#define IRRX_EXPD_IRL0          ((UINT32)(0x2C4))
+#define IRRX_EXPD_IRM1          ((UINT32)(0x2C8))
+#define IRRX_EXPD_IRL1          ((UINT32)(0x2CC))
+
+#elif (CONFIG_CHIP_VER_CURR == CONFIG_CHIP_VER_MT8520)
+#define BIM_CLEAR_BUSY_REG          (0x005c)
+#define BIM_CLR_BSY_IR                  (0x01)
+
+// IRRX BIM IR related registers
+//#define BIM_CLEAR_BUSY_REG        0x005c
+//    #define BIM_CLR_BSY_IR        0x01
+#define BIM_CLEAR_IRRX_BUSY_REG   (0x30)
+#define BIM_CLEAR_IRRX_BUSY_BIT   (0x01)
+
+#define IR_CLOCK_OFFSET  (8)
+/**************************************************
+    IR TX register define
+    ************************************************/
+//clear BIM busy register
+#define BIM_CLEAR_IRTX_BUSY_REG   (0x138)
+#define BIM_CLEAR_IRTX_BUSY_BIT   (0x1<<4)
+
+//clear BIM IRQ 
+#define BIM_CLEAR_IRTX_IRQ_REG   (0x140)
+#define BIM_CLEAR_IRTX_IRQ_BIT   (0x1<<4)
+
+//IRTXCFG_REG
+#define IRTX1_CONF_REG  ((UINT32)0x240)
+
+    //Number of IR bits that will be transmitted
+    #define IRTX1_CONF_BITNUM_MASk  (0x7f00)
+    #define IRTX1_CONF_BITNUM_OFFSET  (8)
+
+     //1:Start to transfer IR code
+     //0:IR code transfer completed .This bit can only by clear by HW
+     //Warning: This bit cann't be set with other bits together.
+    #define IRTX1_CONF_START (1<<0) 
+    
+    #define IRTX1_CONF_NEC (0x0<<1)
+    #define IRTX1_CONF_RC5 (0x1<<1)
+    #define IRTX1_CONF_RC6 (0x2<<1)
+    #define IRTX1_CONF_USER (0x3<<1)
+
+    //1:active, 0:IDLE .Read only
+    #define IRTX1_CONF_ACT_MASK (0x8)
+
+    //LSB first, MSB last,(ex R0[7] R0[6] ~ R0[0])
+    #define  IRTX1_CONF_BODR_LITTLE_ENDIAN (0x1<<4) 
+    //MSB first, LSB last,(ex R0[0] R0[1] ~ R0[7]) 
+    #define  IRTX1_CONF_BODR_BIG_ENDIAN (0x0<<4)
+
+    //IRTX_R6 first, IRTX_R0 last
+    #define IRTX1_CONF_RODR_R6FIRST (0x1<<5)
+     //IRTX_R0 first, IRTX_R6 last
+    #define IRTX1_CONF_RODR_R0FIRST (0x0<<5) 
+
+    //IRO is IRTX baseband signal
+    #define IRTX1_CONF_BASEBAND_SIG (0x0 << 6) 
+    //IRO is IRTX modulated signal
+    #define IRTX1_CONF_MODULATED_SIG (0x1 << 6)
+
+    //IR output inver bit
+    #define IRTX1_CONF_IRINV (0x1 << 7) 
+//IRTXCFG_REG define end 
+
+//IRTX_R3~IRTXR0
+#define IRTX1_TRAN30_REG ((UINT32)0x248) 
+ //IRTX_R7~IRTXR4
+#define IRTX1_TRAN74_REG ((UINT32)0x24c)
+
+//IRTX D0H, cycle numbers of "high" of  bit 0 at 27MHZ clock
+#define IRTX1_D0H_REG ((UINT32)0x250) 
+    //23~0 bit
+    #define IRTX1_D0H_REG_MASK (0xffffff) 
+
+//IRTX D0H, cycle numbers of "low" of  bit 0 at 27MHZ clock
+#define IRTX1_D0L_REG ((UINT32)0x254) 
+
+//IRTX D0H,cycle numbers of "high" of  bit 1 at 27MHZ clock
+#define IRTX1_D1H_REG ((UINT32)0x258) 
+
+ //IRTX D0H,cycle numbers of "low" of  bit 1 at 27MHZ clock
+#define IRTX1_D1L_REG ((UINT32)0x25c)
+
+
+//IRTX D0H, cycle numbers of "high" of  of SYNC bit 1 at 27MHZ clock
+//Note : SYNCH/SYNCL will by ignored if RC5/RC6 protocol adopted
+#define IRTX1_SYNCH_REG ((UINT32)0x260)
+
+//IRTX D0H,cycle numbers of "low" of  of SYNC bit 1 at 27MHZ clock
+//Note : SYNCH/SYNCL will by ignored if RC5/RC6 protocol adopted
+#define IRTX1_SYNCL_REG ((UINT32)0x264) 
+
+//modulation parameter, TX and TX2 has the same parameter.
+#define IRTX_MT_REG ((UINT32)0x268) 
+    //Carrier waveform period, carrier frequency=27MHZ/CWT
+    //Default Carrier frequency=27MHZ/690 = 39KHZ
+    #define IRTX_MT_CWT_MASK ((UINT32)0xffff)
+    #define IRTX_MT_CWT_OFFSET (0)
+    //Carrier waveform duty time, duty cycle = CDT/CWT
+    //Default duty cycle = 230/690=33%
+    #define IRTX_MT_CDT_MASK ((UINT32)0xffff0000)
+    #define IRTX_MT_CDT_OFFSET (16)
+
+       
+#define IRTX2_CONF_REG ((UINT32)0x244)
+    //the bit set is same as IRTX1_CONF_REG
+
+//IRTX2RL_REG
+#define IRTX2_TRAN30_REG ((UINT32)0x2d0)
+
+//IRTX2RH_REG
+#define IRTX2_TRAN74_REG ((UINT32)0x2d4)
+
+//IRTX2_D0H_REG
+#define IRTX2_D0H_REG ((UINT32)0x2d8) //IRTX D0H,
+
+//cycle numbers of "low" of  bit 0 at 27MHZ clock
+#define IRTX2_D0L_REG ((UINT32)0x2dc) //IRTX D0H,
+
+//cycle numbers of "high" of  bit 1 at 27MHZ clock
+#define IRTX2_D1H_REG ((UINT32)0x2e0) //IRTX D0H,
+
+//cycle numbers of "low" of  bit 1 at 27MHZ clock
+#define IRTX2_D1L_REG ((UINT32)0x2e4) //IRTX D0H,
+
+//cycle numbers of "high" of  of SYNC bit 1 at 27MHZ clock
+//Note : SYNCH/SYNCL will by ignored if RC5/RC6 protocol adopted
+#define IRTX2_SYNCH_REG ((UINT32)0x2e8) //IRTX D0H,
+
+//cycle numbers of "low" of  of SYNC bit 1 at 27MHZ clock
+//Note : SYNCH/SYNCL will by ignored if RC5/RC6 protocol adopted
+#define IRTX2_SYNCL_REG ((UINT32)0x2ec) //IRTX D0H,
+
+//PAD_GPIO13 Enable register
+#define IRTX_OUPPUT_GPIO13_REG (0xd0c8)
+//Bit 20 and bit 21 is used to enable PAD_GPIO13
+#define IRTX_OUPPUT_GPIO13_MASK (0x3<<20)
+#define IRTX_OUPPUT_GPIO13_OFFSET (20) 
+
+
+#define IRTX_SET_REG(bitmask, bitoff, value) (( (UINT32)(value)<<bitoff) & (UINT32)bitmask)
+#define IRTX_NEC ( 0)
+#define IRTX_RC6  (1)
+#define IRTX_RC5   (2)
+#define IRTX_BASEBAND  (0)
+#define IRTX_MODULATED  (1)
+#define IRTX_NEC_D0H    ((UINT32)0x3b46) //15174 = 27M * 562us
+#define  IRTX_NEC_D0L   ((UINT32)0x3b46) //15174 = 27M * 562us
+#define IRTX_NEC_D1H    ((UINT32)0x3b46) 
+#define IRTX_NEC_D1L     ((UINT32)0xb23e)   //45630 = 27M * 1690us
+#define IRTX_NEC_SYNCH  ((UINT32)0x3b538)   //243000 = 27M *9ms
+#define IRTX_NEC_SYNCL   ((UINT32)0x1da9c)  //27M*4.5ms    
+
+#define IRTX_RC6_D0H   ((UINT32)0x2ee0) //12000 = 27M * 444.44us
+#define IRTX_RC6_D0L   ((UINT32)0x2ee0) //12000 = 27M * 444.44us
+#define IRTX_RC6_D1H   ((UINT32)0x2ee0) //12000 = 27M * 444.44us
+#define IRTX_RC6_D1L   ((UINT32)0x2ee0) //12000 = 27M * 444.44us
+
+#define IRTX_RC5_D0H   ((UINT32)0x5dc0) //24000 = 27M * 888.89us
+#define IRTX_RC5_D0L    ((UINT32)0x5dc0) //24000 = 27M * 888.89us
+#define IRTX_RC5_D1H    ((UINT32)0x5dc0) //24000 = 27M * 888.89us
+#define IRTX_RC5_D1L    ((UINT32)0x5dc0) //24000 = 27M * 888.89us
+
+//NEC's carrier frequency is 39KHZ, cwt = 27M/39K = 690
+ #define IRTX_MT_CWT_NEC  (690)
+//NEC's duty cycle =33%, CDT = 690*33% = 230
+#define IRTX_MT_CDT_NEC     (230)
+
+//RC6/5's carrier frequency is 36KHZ, cwt = 27M/36k = 972
+#define IRTX_MT_CWT_RC56  (972)
+//RC6/5's duty cycle =25%,  cdt = cwt* 0.25 = 243
+#define IRTX_MT_CDT_RC56     (243)
+#endif	
+/**************************************************
+    IR device register read/write macros
+    ************************************************/
+#if (CONFIG_CHIP_VER_CURR == CONFIG_CHIP_VER_MT8520)
+#define IR_REGISTER_BASE         (IO_BASE + 0x8000)
+#define IR_BASE                  (IO_BASE + 0x8000)
+#elif (CONFIG_CHIP_VER_CURR >= CONFIG_CHIP_VER_MT8530)
+#define IR_REGISTER_BASE         PDWNC_BASE
+#define IR_BASE                  PDWNC_BASE
+#endif
+
+#define IR_REG_LENGTH            0
+
+#ifndef __DEBUG__
+
+#define IR_WRITE32(i4Addr, u4Val)  IO_WRITE32(IR_REGISTER_BASE, i4Addr, u4Val)   
+#define IR_READ32(i4Addr)          IO_READ32(IR_REGISTER_BASE, i4Addr)
+
+#else 
+
+extern INT32 _fgVerbose;
+
+//lint -emacro({717}, IR_WRITE32)   to disable "do {...} while (0)" lint warning
+#define IR_WRITE32(i4Addr, u4Val)        do {                                \
+            if (_fgVerbose) {                                                \
+                LOG(0,  "%s(%d) set 0x%04x as 0x%08x\n",    \
+                                    __FILE__, __LINE__, i4Addr, u4Val);        \
+            }                                                                \
+            IO_WRITE32(IR_REGISTER_BASE, i4Addr, u4Val);                    \
+        } while (0)
+
+__inline static UINT32 u4LogReadIR(INT32 i4Addr, CHAR *szFile, INT32 Line)
+{
+    UINT32 u4Val;
+    u4Val = IO_READ32(IR_REGISTER_BASE, i4Addr);
+    if (_fgVerbose) {
+        LOG(0,  "%s(%d) read 0x%04x get 0x%08x\n", szFile, Line, i4Addr, u4Val);
+    }
+    return u4Val;
+}
+#define IR_READ32(i4Addr)            u4LogReadIR(i4Addr, __FILE__, __LINE__)
+
+#endif /* __DEBUG__ */
+
+#endif /* __IRRX_VRF_HW_H__ */
+
+ 
+

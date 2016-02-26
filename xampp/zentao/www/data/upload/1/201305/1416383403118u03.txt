@@ -1,0 +1,754 @@
+
+shell@android:/ $ 
+shell@android:/ $ su
+shell@android:/ # 
+shell@android:/ # logcat -c;logcat
+--------- beginning of /dev/log/main
+D/dalvikvm(  613): GC_CONCURRENT freed 452K, 13% free 5735K/6535K, paused 1ms+1ms
+D/dalvikvm(  613): GC_CONCURRENT freed 451K, 13% free 5735K/6535K, paused 1ms+2ms
+D/dalvikvm(  613): GC_CONCURRENT freed 451K, 13% free 5735K/6535K, paused 1ms+1ms
+V/MediaPlayer(  723): getCurrentPosition
+V/MediaPlayer(  723): Using cached seek position: 2527000
+D/dalvikvm(  613): GC_CONCURRENT freed 452K, 13% free 5735K/6535K, paused 1ms+2ms
+D/dalvikvm(  613): GC_CONCURRENT freed 453K, 13% free 5736K/6535K, paused 1ms+1ms
+D/dalvikvm(  613): GC_CONCURRENT freed 453K, 13% free 5736K/6535K, paused 1ms+1ms
+V/MediaPlayer(  723): getCurrentPosition
+V/MediaPlayer(  723): Using cached seek position: 2527000
+V/MediaPlayer(  723): getCurrentPosition
+V/MediaPlayer(  723): Using cached seek position: 2527000
+V/MediaPlayer(  723): getCurrentPosition
+V/MediaPlayer(  723): Using cached seek position: 2527000
+V/MediaPlayer(  723): getCurrentPosition
+V/MediaPlayer(  723): Using cached seek position: 2527000
+V/MediaPlayer(  723): getCurrentPosition
+V/MediaPlayer(  723): Using cached seek position: 2527000
+D/HomePlayerLib(  613): hostaddress count is 1
+D/dalvikvm(  613): GC_CONCURRENT freed 484K, 13% free 5751K/6535K, paused 1ms+1ms
+D/dalvikvm(  613): GC_CONCURRENT freed 544K, 13% free 5719K/6535K, paused 2ms+2ms
+D/dalvikvm(  613): GC_CONCURRENT freed 425K, 13% free 5749K/6535K, paused 1ms+1ms
+D/dalvikvm(  613): GC_CONCURRENT freed 510K, 13% free 5750K/6535K, paused 1ms+1ms
+V/MediaPlayer(  723): getCurrentPosition
+V/MediaPlayer(  723): Using cached seek position: 2527000
+D/dalvikvm(  613): GC_CONCURRENT freed 510K, 13% free 5740K/6535K, paused 1ms+4ms
+D/dalvikvm(  613): GC_CONCURRENT freed 458K, 13% free 5736K/6535K, paused 2ms+1ms
+D/dalvikvm(  613): GC_CONCURRENT freed 452K, 13% free 5735K/6535K, paused 1ms+1ms
+D/dalvikvm(  613): GC_CONCURRENT freed 451K, 13% free 5735K/6535K, paused 1ms+1ms
+V/MediaPlayer(  723): getCurrentPosition
+V/MediaPlayer(  723): Using cached seek position: 2527000
+D/dalvikvm(  613): GC_CONCURRENT freed 453K, 13% free 5736K/6535K, paused 1ms+1ms
+D/dalvikvm(  613): GC_CONCURRENT freed 452K, 13% free 5735K/6535K, paused 1ms+1ms
+D/dalvikvm(  613): GC_CONCURRENT freed 452K, 13% free 5735K/6535K, paused 1ms+1ms
+D/dalvikvm(  613): GC_CONCURRENT freed 453K, 13% free 5736K/6535K, paused 1ms+2ms
+V/MediaPlayer(  723): getCurrentPosition
+V/MediaPlayer(  723): Using cached seek position: 2527000
+D/dalvikvm(  613): GC_CONCURRENT freed 452K, 13% free 5735K/6535K, paused 1ms+1ms
+D/dalvikvm(  613): GC_CONCURRENT freed 452K, 13% free 5735K/6535K, paused 1ms+2ms
+D/dalvikvm(  613): GC_CONCURRENT freed 453K, 13% free 5736K/6535K, paused 1ms+1ms
+V/MediaPlayer(  723): getCurrentPosition
+V/MediaPlayer(  723): Using cached seek position: 2527000
+V/MediaPlayer(  723): getCurrentPosition
+V/MediaPlayer(  723): Using cached seek position: 2527000
+D/dalvikvm(  613): GC_CONCURRENT freed 451K, 13% free 5735K/6535K, paused 1ms+2ms
+D/dalvikvm(  613): GC_CONCURRENT freed 450K, 13% free 5735K/6535K, paused 2ms+1ms
+V/MediaPlayer(  723): getCurrentPosition
+V/MediaPlayer(  723): Using cached seek position: 2527000
+D/dalvikvm(  613): GC_CONCURRENT freed 461K, 13% free 5727K/6535K, paused 1ms+1ms
+D/dalvikvm(  613): GC_CONCURRENT freed 453K, 13% free 5727K/6535K, paused 1ms+1ms
+D/dalvikvm(  613): GC_CONCURRENT freed 451K, 13% free 5727K/6535K, paused 1ms+1ms
+D/dalvikvm(  613): GC_CONCURRENT freed 452K, 13% free 5727K/6535K, paused 1ms+2ms
+V/MediaPlayer(  723): getCurrentPosition
+V/MediaPlayer(  723): Using cached seek position: 2527000
+D/dalvikvm(  613): GC_CONCURRENT freed 451K, 13% free 5727K/6535K, paused 1ms+1ms
+D/dalvikvm(  613): GC_CONCURRENT freed 453K, 13% free 5727K/6535K, paused 1ms+2ms
+V/MediaPlayer(  723): getCurrentPosition
+V/MediaPlayer(  723): Using cached seek position: 2527000
+D/dalvikvm(  613): GC_CONCURRENT freed 436K, 13% free 5725K/6535K, paused 1ms+2ms
+<IOM> Send BTN_EJECT Down event!
+<ANDROID_SETTING> a_cfg_get_standby, value: 0
+<AND_STUB>ERROR!!,recv AND_STUB_KEY_MSG 
+<MISC>_misc_eject_key_process() is called
+0X0009F002:0X000AF000
+Key down : 0X000AF000
+<MISC>ERR: c_dm_odd_get_tray_status error i4_ret= -5
+<MISC>ERR: c_dm_odd_get_tray_status error
+<MISC>Eject key process fail
+<AND_STUB>private message id is 0
+E/EventHub(  147): send pin = 24,value = 0
+V/PinyinIME(  683): onKeyDown:4
+I/PinyinIME(  683): onKeyDown:System handler the keyevent
+I/MediaControler(  723): pause called isPlaying:
+I/MediaControler(  723): pause called
+V/MediaPlayer(  723): pause
+V/MediaPlayerService(   89): [5] pause
+I/CmpbPlayer(   89): [CMPBPLAYER][INFO][pause]line:3110 cmpb_pause
+I/        (   89): CmpbHttpLiveStreaming::Pause enter!
+D/Playlist(   89): [pause][418]-------
+D/Playlist(   89): PlaylistPlayer::pause() enter!
+D/Playlist(   89): 
+D/Playlist(   89): [pause][421]-------
+D/Playlist(   89): PlaylistPlayer::pause() bTsInfoReady=1, fCMPBHandle=0, mState=4!
+D/Playlist(   89): 
+D/Playlist(   89): [pause][442]-------
+D/Playlist(   89): PlaylistPlayer::pause() exit failed!
+D/Playlist(   89): 
+I/        (   89): CmpbHttpLiveStreaming::Pause exit!
+D/VideoPlayer(  723): onPlayPause
+V/MediaPlayer(  723): getCurrentPosition
+<IOM> Send BTN_EJECT Up event!
+<AND_STUB>ERROR!!,recv AND_STUB_KEY_MSG 
+<AND_STUB>private message id is 0
+Key up : 0X000AF000
+V/MediaPlayer(  723): Using cached seek position: 2527000
+E/EventHub(  147): send pin = 24,value = 0
+I/PinyinIME(  683): onKeyUp:4
+I/PinyinIME(  683): onKeyUp:System handler the keyevent
+D/InputEventConsistencyVerifier(  723): KeyEvent: ACTION_UP but key was not down.
+D/InputEventConsistencyVerifier(  723):   in com.android.internal.policy.impl.PhoneWindow$DecorView@419cc568
+D/InputEventConsistencyVerifier(  723):   0: sent at 242917000000, KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=158, metaState=0, flags=0x8, repeatCount=0, eventTime=242917, downTime=242642, deviceId=1, source=0x701 }
+V/MediaPlayer(  723): getCurrentPosition
+<AND_STUB>ERROR!!,recv AND_STUB_KEY_MSG 
+<AND_STUB>private message id is 0
+0X0009F002:0X0003F001
+Key down : 0X0003F001
+V/MediaPlayer(  723): Using cached seek position: 2527000
+E/EventHub(  147): send pin = 24,value = 0
+V/PinyinIME(  683): onKeyDown:22
+I/PinyinIME(  683): onKeyDown:System handler the keyevent
+<AND_STUB>ERROR!!,recv AND_STUB_KEY_MSG 
+<AND_STUB>private message id is 0
+Key up : 0X0003F001
+E/EventHub(  147): send pin = 24,value = 0
+I/PinyinIME(  683): onKeyUp:22
+I/PinyinIME(  683): onKeyUp:System handler the keyevent
+0X0009F002:0X0003F000
+Key down : 0X0003F000
+<AND_STUB>ERROR!!,recv AND_STUB_KEY_MSG 
+<AND_STUB>private message id is 0
+E/EventHub(  147): send pin = 24,value = 0
+V/PinyinIME(  683): onKeyDown:21
+I/PinyinIME(  683): onKeyDown:System handler the keyevent
+<AND_STUB>ERROR!!,recv AND_STUB_KEY_MSG 
+<AND_STUB>private message id is 0
+Key up : 0X0003F000
+E/EventHub(  147): send pin = 24,value = 0
+I/PinyinIME(  683): onKeyUp:21
+I/PinyinIME(  683): onKeyUp:System handler the keyevent
+V/MediaPlayer(  723): getCurrentPosition
+V/MediaPlayer(  723): Using cached seek position: 2527000
+D/HomePlayerLib(  613): hostaddress count is 1
+D/dalvikvm(  613): GC_CONCURRENT freed 444K, 13% free 5738K/6535K, paused 1ms+1ms
+D/dalvikvm(  613): GC_CONCURRENT freed 425K, 13% free 5738K/6535K, paused 1ms+1ms
+D/dalvikvm(  613): GC_CONCURRENT freed 478K, 12% free 5763K/6535K, paused 1ms+2ms
+<IOM> Send BTN_EJECT Down event!
+<AND_STUB>ERROR!!,recv AND_STUB_KEY_MSG 
+<ANDROID_SETTING> a_cfg_get_standby, value: 0
+<AND_STUB>private message id is 0
+<MISC>_misc_eject_key_process() is called
+<MISC>ERR: c_dm_odd_get_tray_status error i4_ret= -5
+<MISC>ERR: c_dm_odd_get_tray_status error
+<MISC>Eject key process fail
+0X0009F002:0X000AF000
+Key down : 0X000AF000
+E/EventHub(  147): send pin = 24,value = 0
+V/PinyinIME(  683): onKeyDown:4
+I/PinyinIME(  683): onKeyDown:System handler the keyevent
+D/dalvikvm(  613): GC_CONCURRENT freed 539K, 13% free 5732K/6535K, paused 1ms+2ms
+<IOM> Send BTN_EJECT Up event!
+<AND_STUB>ERROR!!,recv AND_STUB_KEY_MSG 
+<AND_STUB>private message id is 0
+Key up : 0X000AF000
+E/EventHub(  147): send pin = 24,value = 0
+I/PinyinIME(  683): onKeyUp:4
+I/PinyinIME(  683): onKeyUp:System handler the keyevent
+D/InputEventConsistencyVerifier(  723): KeyEvent: ACTION_UP but key was not down.
+D/InputEventConsistencyVerifier(  723):   in com.android.internal.policy.impl.PhoneWindow$DecorView@419cc568
+D/InputEventConsistencyVerifier(  723):   0: sent at 245443000000, KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=158, metaState=0, flags=0x8, repeatCount=0, eventTime=245443, downTime=245277, deviceId=1, source=0x701 }
+D/InputEventConsistencyVerifier(  723):   -- recent events --
+D/InputEventConsistencyVerifier(  723):   1: sent at 244845000000, (unhandled) KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_LEFT, scanCode=105, metaState=0, flags=0x8, repeatCount=0, eventTime=244845, downTime=244678, deviceId=1, source=0x701 }
+D/InputEventConsistencyVerifier(  723):   2: sent at 244678000000, (unhandled) KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=105, metaState=0, flags=0x8, repeatCount=0, eventTime=244678, downTime=244678, deviceId=1, source=0x701 }
+D/InputEventConsistencyVerifier(  723):   3: sent at 244083000000, (unhandled) KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_RIGHT, scanCode=106, metaState=0, flags=0x8, repeatCount=0, eventTime=244083, downTime=243916, deviceId=1, source=0x701 }
+D/InputEventConsistencyVerifier(  723):   4: sent at 243916000000, (unhandled) KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=106, metaState=0, flags=0x8, repeatCount=0, eventTime=243916, downTime=243916, deviceId=1, source=0x701 }
+D/InputEventConsistencyVerifier(  723):   5: sent at 242917000000, (unhandled) KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=158, metaState=0, flags=0x80000008, repeatCount=0, eventTime=242917, downTime=242642, deviceId=1, source=0x701 }
+D/dalvikvm(  613): GC_CONCURRENT freed 496K, 13% free 5741K/6535K, paused 1ms+1ms
+D/dalvikvm(  613): GC_CONCURRENT freed 399K, 13% free 5727K/6535K, paused 1ms+1ms
+<IOM> Send BTN_EJECT Down event!
+<ANDROID_SETTING> a_cfg_get_standby, value: 0
+<MISC>_misc_eject_key_process() is called
+<AND_STUB>ERROR!!,recv AND_STUB_KEY_MSG 
+<MISC>ERR: c_dm_odd_get_tray_status error i4_ret= -5
+<MISC>ERR: c_dm_odd_get_tray_status error
+<MISC>Eject key process fail
+<AND_STUB>private message id is 0
+0X0009F002:0X000AF000
+Key down : 0X000AF000
+E/EventHub(  147): send pin = 24,value = 0
+V/PinyinIME(  683): onKeyDown:4
+I/PinyinIME(  683): onKeyDown:System handler the keyevent
+V/MediaPlayer(  723): getCurrentPosition
+V/MediaPlayer(  723): Using cached seek position: 2527000
+<IOM> Send BTN_EJECT Up event!
+<AND_STUB>ERROR!!,recv AND_STUB_KEY_MSG 
+<AND_STUB>private message id is 0
+Key up : 0X000AF000
+E/EventHub(  147): send pin = 24,value = 0
+I/PinyinIME(  683): onKeyUp:4
+I/PinyinIME(  683): onKeyUp:System handler the keyevent
+D/InputEventConsistencyVerifier(  723): KeyEvent: ACTION_UP but key was not down.
+D/InputEventConsistencyVerifier(  723):   in com.android.internal.policy.impl.PhoneWindow$DecorView@419cc568
+D/InputEventConsistencyVerifier(  723):   0: sent at 245981000000, KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=158, metaState=0, flags=0x8, repeatCount=0, eventTime=245981, downTime=245814, deviceId=1, source=0x701 }
+D/InputEventConsistencyVerifier(  723):   -- recent events --
+D/InputEventConsistencyVerifier(  723):   1: sent at 245443000000, (unhandled) KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=158, metaState=0, flags=0x80000008, repeatCount=0, eventTime=245443, downTime=245277, deviceId=1, source=0x701 }
+D/InputEventConsistencyVerifier(  723):   2: sent at 244845000000, (unhandled) KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_LEFT, scanCode=105, metaState=0, flags=0x8, repeatCount=0, eventTime=244845, downTime=244678, deviceId=1, source=0x701 }
+D/InputEventConsistencyVerifier(  723):   3: sent at 244678000000, (unhandled) KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=105, metaState=0, flags=0x8, repeatCount=0, eventTime=244678, downTime=244678, deviceId=1, source=0x701 }
+D/InputEventConsistencyVerifier(  723):   4: sent at 244083000000, (unhandled) KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_RIGHT, scanCode=106, metaState=0, flags=0x8, repeatCount=0, eventTime=244083, downTime=243916, deviceId=1, source=0x701 }
+D/InputEventConsistencyVerifier(  723):   5: sent at 243916000000, (unhandled) KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=106, metaState=0, flags=0x8, repeatCount=0, eventTime=243916, downTime=243916, deviceId=1, source=0x701 }
+<IOM> Send BTN_EJECT Down event!
+<ANDROID_SETTING> a_cfg_get_standby, value: 0
+<MISC>_misc_eject_key_process() is called
+0X0009F002:0X000AF000
+Key down : 0X000AF000
+<MISC>ERR: c_dm_odd_get_tray_status error i4_ret= -5
+<MISC>ERR: c_dm_odd_get_tray_status error
+<MISC>Eject key process fail
+<AND_STUB>ERROR!!,recv AND_STUB_KEY_MSG 
+<AND_STUB>private message id is 0
+E/EventHub(  147): send pin = 24,value = 0
+V/PinyinIME(  683): onKeyDown:4
+I/PinyinIME(  683): onKeyDown:System handler the keyevent
+<IOM> Send BTN_EJECT Up event!
+<AND_STUB>ERROR!!,recv AND_STUB_KEY_MSG 
+<AND_STUB>private message id is 0
+Key up : 0X000AF000
+E/EventHub(  147): send pin = 24,value = 0
+I/PinyinIME(  683): onKeyUp:4
+I/PinyinIME(  683): onKeyUp:System handler the keyevent
+D/InputEventConsistencyVerifier(  723): KeyEvent: ACTION_UP but key was not down.
+D/InputEventConsistencyVerifier(  723):   in com.android.internal.policy.impl.PhoneWindow$DecorView@419cc568
+D/InputEventConsistencyVerifier(  723):   0: sent at 246482000000, KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=158, metaState=0, flags=0x8, repeatCount=0, eventTime=246482, downTime=246412, deviceId=1, source=0x701 }
+D/InputEventConsistencyVerifier(  723):   -- recent events --
+D/InputEventConsistencyVerifier(  723):   1: sent at 245981000000, (unhandled) KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=158, metaState=0, flags=0x80000008, repeatCount=0, eventTime=245981, downTime=245814, deviceId=1, source=0x701 }
+D/InputEventConsistencyVerifier(  723):   2: sent at 245443000000, (unhandled) KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=158, metaState=0, flags=0x80000008, repeatCount=0, eventTime=245443, downTime=245277, deviceId=1, source=0x701 }
+D/InputEventConsistencyVerifier(  723):   3: sent at 244845000000, (unhandled) KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_LEFT, scanCode=105, metaState=0, flags=0x8, repeatCount=0, eventTime=244845, downTime=244678, deviceId=1, source=0x701 }
+D/InputEventConsistencyVerifier(  723):   4: sent at 244678000000, (unhandled) KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=105, metaState=0, flags=0x8, repeatCount=0, eventTime=244678, downTime=244678, deviceId=1, source=0x701 }
+D/InputEventConsistencyVerifier(  723):   5: sent at 244083000000, (unhandled) KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_RIGHT, scanCode=106, metaState=0, flags=0x8, repeatCount=0, eventTime=244083, downTime=243916, deviceId=1, source=0x701 }
+D/dalvikvm(  613): GC_CONCURRENT freed 444K, 13% free 5735K/6535K, paused 1ms+1ms
+V/MediaPlayer(  723): getCurrentPosition
+V/MediaPlayer(  723): Using cached seek position: 2527000
+D/dalvikvm(  613): GC_CONCURRENT freed 450K, 13% free 5735K/6535K, paused 1ms+2ms
+<AND_STUB>ERROR!!,recv AND_STUB_KEY_MSG 
+0X0009F002:0X0009F00D
+Key down : 0X0009F00D
+<AND_STUB>private message id is 0
+E/EventHub(  147): send pin = 24,value = 0
+V/PinyinIME(  683): onKeyDown:85
+I/PinyinIME(  683): onKeyDown:System handler the keyevent
+D/dalvikvm(  613): GC_CONCURRENT freed 452K, 13% free 5735K/6535K, paused 1ms+1ms
+<AND_STUB>ERROR!!,recv AND_STUB_KEY_MSG 
+<AND_STUB>private message id is 0
+Key up : 0X0009F00D
+E/EventHub(  147): send pin = 24,value = 0
+I/PinyinIME(  683): onKeyUp:85
+I/PinyinIME(  683): onKeyUp:System handler the keyevent
+D/dalvikvm(  613): GC_CONCURRENT freed 436K, 12% free 5752K/6535K, paused 1ms+1ms
+<AND_STUB>ERROR!!,recv AND_STUB_KEY_MSG 
+0X0009F002:0X0009F00D
+Key down : 0X0009F00D
+<AND_STUB>private message id is 0
+E/EventHub(  147): send pin = 24,value = 0
+V/PinyinIME(  683): onKeyDown:85
+I/PinyinIME(  683): onKeyDown:System handler the keyevent
+D/dalvikvm(  613): GC_CONCURRENT freed 469K, 13% free 5735K/6535K, paused 2ms+1ms
+<AND_STUB>ERROR!!,recv AND_STUB_KEY_MSG 
+<AND_STUB>private message id is 0
+Key up : 0X0009F00D
+E/EventHub(  147): send pin = 24,value = 0
+I/PinyinIME(  683): onKeyUp:85
+I/PinyinIME(  683): onKeyUp:System handler the keyevent
+V/MediaPlayer(  723): getCurrentPosition
+V/MediaPlayer(  723): Using cached seek position: 2527000
+D/dalvikvm(  613): GC_CONCURRENT freed 453K, 13% free 5736K/6535K, paused 1ms+1ms
+D/dalvikvm(  613): GC_CONCURRENT freed 450K, 13% free 5735K/6535K, paused 1ms+1ms
+D/dalvikvm(  613): GC_CONCURRENT freed 453K, 13% free 5736K/6535K, paused 1ms+1ms
+D/dalvikvm(  613): GC_CONCURRENT freed 453K, 13% free 5736K/6535K, paused 1ms+1ms
+D/dalvikvm(  613): GC_CONCURRENT freed 452K, 13% free 5735K/6535K, paused 1ms+1ms
+V/MediaPlayer(  723): getCurrentPosition
+V/MediaPlayer(  723): Using cached seek position: 2527000
+D/dalvikvm(  613): GC_CONCURRENT freed 452K, 13% free 5735K/6535K, paused 1ms+1ms
+D/dalvikvm(  613): GC_CONCURRENT freed 453K, 13% free 5736K/6535K, paused 1ms+1ms
+V/MediaPlayer(  723): getCurrentPosition
+V/MediaPlayer(  723): Using cached seek position: 2527000
+D/dalvikvm(  613): GC_CONCURRENT freed 452K, 13% free 5735K/6535K, paused 1ms+1ms
+D/dalvikvm(  613): GC_CONCURRENT freed 461K, 13% free 5727K/6535K, paused 1ms+1ms
+V/MediaPlayer(  723): getCurrentPosition
+V/MediaPlayer(  723): Using cached seek position: 2527000
+D/dalvikvm(  613): GC_CONCURRENT freed 453K, 13% free 5727K/6535K, paused 1ms+1ms
+V/MediaPlayer(  723): getCurrentPosition
+V/MediaPlayer(  723): Using cached seek position: 2527000
+{IOM} BTN_PROGRAM, state == 0x1
+{IOM} BTN_PROGRAMDOWN: 255s:84237ms
+E/EventHub(  147): send pin = 24,value = 0
+{IOM} BTN_PROGRAM, state == 0x2
+{IOM} BTN_PROGRAM REPEAT: 0s:52259ms
+V/MediaPlayer(  723): getCurrentPosition
+V/MediaPlayer(  723): Using cached seek position: 2527000
+{IOM} BTN_PROGRAM, state == 0x0
+{IOM} BTN_PROGRAM UP.
+0X0009F002:0X000AF006
+Key down : 0X000AF006
+<AND_STUB>ERROR!!,recv AND_STUB_KEY_MSG 
+<AND_STUB>private message id is 0
+{IOM} send BTN_ af006 to IOM.
+Key up : 0X000AF006
+<AND_STUB>ERROR!!,recv AND_STUB_KEY_MSG 
+<AND_STUB>private message id is 0
+E/EventHub(  147): send pin = 24,value = 0
+--------- beginning of /dev/log/system
+I/ActivityManager(  147): START {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.fiship.cibn/.MainActivity} from pid 147
+D/dalvikvm(  147): GC_FOR_ALLOC freed 274K, 14% free 7429K/8583K, paused 27ms
+D/VideoPlayer(  723): onPause
+D/dalvikvm(  723): GC_CONCURRENT freed 7057K, 38% free 13095K/20999K, paused 1ms+4ms
+E/VideoPlayer(  723): addBookMark:16100
+D/MediaControler(  723): stop
+V/MediaPlayer(  723): stop
+V/MediaPlayerService(   89): [5] stop
+I/CmpbPlayer(   89): [CMPBPLAYER][INFO][stop]line:3057 cmpb_stop
+<LOG /usr/local/bin/bdpprog, _recv_msg, #1023> recv(i4_sock, &t_msg_base, sizeof(IPC_MSG_BASE_T), 0) = 0, errno:0
+I/        (   89): CmpbHttpLiveStreaming::Stop enter!
+<LOG /usr/local/bin/bdpprog, _ipc_thd, #1374>IPC Thread (id:13) is being finished:
+<LOG /usr/local/bin/bdpprog, _unref_sess, #701>Close(pt_sess->i4_ct_sock: 45)
+D/Playlist(   89): [stop][360]-------
+<LOG /usr/local/bin/bdpprog, _unref_sess, #707>Close(pt_sess->i4_it_sock: 44)
+<LOG /usr/local/bin/bdpprog, _unref_sess, #728>Unref IPC ID (Count 13)
+D/Playlist(   89): PlaylistPlayer::stop() enter!
+[MTKPBCTRL] <AMCTRL>MtkPbLib_AMCtrlStop start 
+D/Playlist(   89): 
+D/Playlist(   89): [popMoniterEvent][1380]-------
+D/Playlist(   89): PlaylistPlayer::popMoniterEvent wakeup with event size:1
+D/Playlist(   89): 
+D/Playlist(   89): [hls_moniter_thread][1521]-------
+D/Playlist(   89): PlaylistPlayer::hls_moniter_thread pop event HLS_EXIT_MONITER
+D/Playlist(   89): 
+D/Playlist(   89): [setVideoFreeze][1247]-------
+D/Playlist(   89): PlaylistPlayer::setVideoFreeze bFlag = 0)
+D/Playlist(   89): 
+D/Playlist(   89): [stop][377]-------
+D/Playlist(   89): PlaylistPlayer::stop() before IMtkPb_Ctrl_Stop!
+D/Playlist(   89): 
+E/        (   89): <Client> IMtkPb_Ctrl_Stop ---> is called @Line: 4141!
+D/Test    (  723): request Url  :http://cibn-ido.longvisionmedia.com:8088/userCenter/addBookMark?version=V001&terminalType=1&resolution=1280*720&zip=1&zip=1&zip=1&zip=1&bookMark=2527&userName=20120312100000001&resourceCode=16100&resPkgCode=15848&userCode=20120312100000001&authKey=9fb90bb5a9628446d763e16f0fc0f51a
+[MTKPBCTRL] <MPCWP>MPC: Send MPC_CMD_STOP, return 0x21000100 
+[  255.569799] _fgVDecMvcDepStopOK = 0,eVDecMvcInfo = 0,BASEID = 4
+                                                                  [  255.569949] [VDEC-H264]ucFbgId = 2,eVDecMvcInfo = 0
+                                                                                                                        [  255.569964] [VDEC-H264]Dep status esINFO = 1
+                          [  255.569974] [VDEC-H264]Base status esINFO = 1
+                                                                          [  255.569982] [VDEC-H264]Release Proc Enter!
+                                                                                                                       [  255.570464] [AUD] DRV(0) receives STOP command 
+                            [  255.582205] [dsd-debug-info] start pos = 0xe2
+                                                                            [  255.582237] VScale: progressive(1),factor(2048),srcHeight(720),desHeight(720),u4VFactorCoeff(1) Vfator(0x800)
+                                               [  255.582494] [FBM]Real destroy fbg 2
+                                                                                     [  255.584670] [ESM] fifo clear, hdl:0x0, type:1
+                                                                                                                                     [  255.602201] [dsd-debug-info] start pos = 0xe2
+                                        [  255.602274] VScale: progressive(1),factor(2048),srcHeight(720),desHeight(720),u4VFactorCoeff(1) Vfator(0x800)
+           [  255.607098] [ESM] fifo clear, hdl:0x1, type:5
+                                                           [  255.607488] [DCC]  DmxControlSetEnabled, id: 0, fgEnabled: 0, fgNotified:1, fgThreshold:0, fgFilter:0
+                      [LPCH] lpch_dcc_set(), e_ctrl_type:0xc0000012
+
+[LPCH] lpch_dcc_set(), e_ctrl_type:0xc0000015
+
+[MPC] MPC_STR_LPCH_READ_ABORT_PUSH_FOR_ACROSS_PROC_OK_[0]
+[MPC] MPC_STOP_PARM_PICTURE_INFO_NULL
+[MTKPBCTRL] <MPCWP>vMpcMsgCallback: MPC_MSG_CMD_RET, *(MRESULT *)pvPar=0x21000100
+[  255.616401] [PBBUF] Clean buffer begin!
+                                          [  255.616420] [PBBUF] Clean buffer done!
+                                                                                   [LPCH] lpch_set_abort() pt_conn->e_state=6, pt_conn->e_read_state=2
+E/        (   89): RPC Succeed:IMtkPb_Ctrl_Stop #4174, ret 0
+[MTKPBCTRL] <AMCTRL>sync command return error code[0] 
+[MTKPBCTRL] <AMCTRL>MtkPbLib_AMCtrlStop end 
+D/Playlist(   89): [stop][379]-------
+D/Playlist(   89): PlaylistPlayer::stop() after IMtkPb_Ctrl_Stop, ret=0!
+D/Playlist(   89): 
+[  255.622651] [VDP0] VDP_SetPlaneEnable to 0
+                                             [  255.622709] [VDP2] MVDO is disable,do not shadow BACKGROUND
+                                                                                                           E/        (   89): <Client> IMtkPb_Ctrl_ClearVideo ---> is called @Line: 5685!
+[  255.642170] [FBM]Real destroy fbg 1
+                                      E/        (   89): RPC Succeed:IMtkPb_Ctrl_ClearVideo #5697, ret 0
+D/Playlist(   89): [stop][387]-------
+D/Playlist(   89): PlaylistPlayer::stop() after IMtkPb_Ctrl_ClearVideo, ret=0!
+D/Playlist(   89): 
+D/Playlist(   89): [stop][394]-------
+D/Playlist(   89): PlaylistPlayer::stop() before IMtkPb_Ctrl_Close!
+D/Playlist(   89): 
+[MTKPBCTRL] <MPCWP> i4SwIpcRpcMode fgIpcRpc 0
+[MTKPBCTRL] Sub_IMtkPb_Ctrl_Close, hHandle = 0 
+E/        (   89): <Client> IMtkPb_Ctrl_Close ---> is called @Line: 2271!
+[MTKPBCTRL] <MPCWP>MPC: Send MPC_CMD_SET_MMED_INF, return 0x21000100 
+[  255.727235] [AUD][AUD_MW] Set AUD_DEC_SET_TYPE_SPDIF_INPUT_MODE = 0x0. 
+                                                                          [  255.727448] [VDP0] Disconnect 
+                                                                                                           [  255.727549] [ESM] vESM_FreeESMem, to unmap, fifo, sa:0xe0984000, ea:0xe0d07000, handle:0x0, mapped mem:0x20984000
+                                                                                  [  255.727570] [ESM] vESM_FreeESMem, unmap already, fifo, sa:0xe0984000, ea:0xe0d07000, handle:0x0
+                                       [  255.728710] [DMX][DRV] FilterUnregisterComponent, IID_IADec, tag:0xbf82eb68
+                                                                                                                     [  255.728803] [ESM] vESM_FreeESMem, to unmap, fifo, sa:0xdfeea000, ea:0xdfff3000, handle:0x0, mapped mem:0x1feea000
+                                                                                            [  255.728827] [ESM] vESM_FreeESMem, unmap already, fifo, sa:0xdfeea000, ea:0xdfff3000, handle:0x0
+                                                 [  255.729732] vPBBUFFree prPbBuf->u4SlotAmount=32 .
+                                                                                                     [LPCH] lpch_dcc_delete_tables()
+[  255.730408] [PMX]Display Format Change :0.
+                                             [  255.730440] [PMX]Set Osd Enable :1.
+                                                                                   [  255.730453] [VDP] fgVdpIsWaitforSyncCtrl return false
+                                                                                                                                           [  255.730464] [PMX]PMX_SetOsdEnable.
+                                   [  255.730475] [PMX]Set Osd Enable :0.
+                                                                         [MPC] FORCE SET PMX TO WAIT DISPLAY
+
+[MTKPBCTRL] <MPCWP>vMpcMsgCallback: MPC_MSG_CMD_RET, *(MRESULT *)pvPar=0x21000100
+[MTKPBCTRL] <MPCWP>i4UnsetMediaInfo OK 
+[  255.750286] [Aud][AWD] pfCallback->pf_aud_aw_event_nfy == NULL
+                                                                 [MTKPBCTRL] <MPCWP>MPC: Send MPC_SCMD_INIT, return 0x21000100 
+[scom] close handle = 12333616
+[scom] MPC_MainDisp closed
+[scom] pt_scom_cb.fg_opened= 0
+[MPC] MPC_STR_RELEASE_INST_SUCCESS_[0]
+E/        (   89): RPC Succeed:IMtkPb_Ctrl_Close #2286, ret 0
+E/        (   89): <Client>Release Number0 client
+E/        (   89): <Client> IMtkPb_Ctrl_Close, @Line: 2359 
+<LOG /usr/local/bin/bdpprog, _recv_msg, #1023> recv(i4_sock, &t_msg_base, sizeof(IPC_MSG_BASE_T), 0) = 0, errno:0
+<LOG /usr/local/bin/bdpprog, _ipc_thd, #1374>IPC Thread (id:12) is being finished:
+<LOG /usr/local/bin/bdpprog, _unref_sess, #701>Close(pt_sess->i4_ct_sock: 36)
+<LOG /usr/local/bin/bdpprog, _unref_sess, #707>Close(pt_sess->i4_it_sock: 49)
+<LOG /usr/local/bin/bdpprog, _unref_sess, #728>Unref IPC ID (Count 12)
+E/        (   89): c_rpc_uninit_mtkpbctrl_client
+D/Playlist(   89): [stop][396]-------
+D/Playlist(   89): PlaylistPlayer::stop() after IMtkPb_Ctrl_Close, ret=0!
+D/Playlist(   89): 
+D/Playlist(   89): [stop][412]-------
+D/Playlist(   89): PlaylistPlayer::stop() exit success!
+D/Playlist(   89): 
+I/        (   89): CmpbHttpLiveStreaming::Stop exit!
+V/MediaPlayer(  723): setListener
+V/MediaPlayer(  723): disconnect
+V/MediaPlayerService(   89): disconnect(5) from pid 723
+I/CmpbPlayer(   89): [CMPBPLAYER][INFO][reset]line:3488 cmpb_reset
+I/CmpbPlayer(   89): [CMPBPLAYER][INFO][ResetNosync]line:439 ResetNosync enter
+I/CmpbPlayer(   89): [CMPBPLAYER][INFO][StopPlayer]line:553 StopPlayer(-1), bIsPlaying = 1 
+D/CmpbPlayer(   89): [CMPBPLAYER][DEBUG][StopPlayer]line:560 Stop Live stream Player, bisplaying = 1, m_pProtocolPlayer = 0x76b1e4 
+I/        (   89): CmpbHttpLiveStreaming::Stop enter!
+E/        (   89): Http living streaming is not CPP_START!
+D/CmpbPlayer(   89): [CMPBPLAYER][DEBUG][ResetNosync]line:500 Use free!
+D/Playlist(   89): [releasePlaylist][678]-------
+D/Playlist(   89): Playlist::releasePlaylist with pt_playlist==null?no!
+D/Playlist(   89): 
+D/Playlist(   89): [stop][364]-------
+D/Playlist(   89): Playlist::stop() enter!
+D/Playlist(   89): 
+D/Playlist(   89): [stop][370]-------
+D/Playlist(   89): Playlist::stop() Before pushWaiter notifyAll!
+D/Playlist(   89): 
+D/Playlist(   89): [stop][377]-------
+D/Playlist(   89): Playlist::stop() Before downloader stop!
+D/Playlist(   89): 
+D/Playlist(   89): [popDownloadTask][616]-------
+D/Playlist(   89): Playlist::popDownloadTask() resume from pushWaiter!
+D/Playlist(   89): 
+D/Playlist(   89): [popDownloadTask][655]-------
+D/Playlist(   89): Playlist::popDownloadTask() exit with return NULL!
+D/Playlist(   89): 
+D/Playlist(   89): [http_live_streaming_thread][3713]-------
+D/Playlist(   89): http_live_streaming_thread pop a null media!
+D/Playlist(   89): 
+D/Playlist(   89): [http_live_streaming_thread][3746]-------
+D/Playlist(   89): ---[INFO]---Quit http_live_streaming_thread!
+D/Playlist(   89): 
+D/Playlist(   89): [stop][380]-------
+D/Playlist(   89): Playlist::stop() Before pusher stop!
+D/Playlist(   89): 
+D/Playlist(   89): [nextToPlay][1249]-------
+D/Playlist(   89): Playlist::nextToPlay() after push wait
+D/Playlist(   89): 
+D/Playlist(   89): [nextToPlay][1340]-------
+D/Playlist(   89): Playlist::nextToPlay() return null media info
+D/Playlist(   89): 
+D/Playlist(   89): [pushmode_thread][1808]-------
+D/Playlist(   89): Playlist::pushmode_thread Begin nextToPlay
+D/Playlist(   89): 
+D/Playlist(   89): [pushmode_thread][1817]-------
+D/Playlist(   89): Playlist::pushmode_thread Notify End!
+D/Playlist(   89): 
+I/        (   89): CmpbHttpLiveStreaming::notifyBegin: play end
+D/Playlist(   89): [pushmode_thread][1820]-------
+D/Playlist(   89): *** yw_pushmode_thread ended!!***
+D/Playlist(   89): 
+D/Playlist(   89): [stop][386]-------
+D/Playlist(   89): Playlist::stop() exit success!
+D/Playlist(   89): 
+D/Playlist(   89): [free_media_char_buffer][1198]-------
+D/Playlist(   89): free media file 0
+D/Playlist(   89): 
+D/Playlist(   89): [free_media_char_buffer][1198]-------
+D/Playlist(   89): free media file 1
+D/Playlist(   89): 
+D/Playlist(   89): [free_media_char_buffer][1198]-------
+D/Playlist(   89): free media file 2
+D/Playlist(   89): 
+D/Playlist(   89): [free_media_char_buffer][1198]-------
+D/Playlist(   89): free media file 3
+D/Playlist(   89): 
+D/Playlist(   89): [free_media_char_buffer][1198]-------
+D/Playlist(   89): free media file 4
+D/Playlist(   89): 
+D/Playlist(   89): [free_media_char_buffer][1198]-------
+D/Playlist(   89): free media file 5
+D/Playlist(   89): 
+D/Playlist(   89): [free_media_char_buffer][1198]-------
+D/Playlist(   89): free media file 6
+D/Playlist(   89): 
+D/Playlist(   89): [free_media_char_buffer][1198]-------
+D/Playlist(   89): free media file 7
+D/Playlist(   89): 
+D/Playlist(   89): [free_media_char_buffer][1198]-------
+D/Playlist(   89): free media file 8
+D/Playlist(   89): 
+D/Playlist(   89): [free_media_char_buffer][1198]-------
+D/Playlist(   89): free media file 9
+D/Playlist(   89): 
+D/Playlist(   89): [free_media_char_buffer][1198]-------
+D/Playlist(   89): free media file 10
+D/Playlist(   89): 
+D/Playlist(   89): [free_media_char_buffer][1198]-------
+D/Playlist(   89): free media file 11
+D/Playlist(   89): 
+D/Playlist(   89): [free_media_char_buffer][1198]-------
+D/Playlist(   89): free media file 12
+D/Playlist(   89): 
+D/Playlist(   89): [free_media_char_buffer][1198]-------
+D/Playlist(   89): free media file 13
+D/Playlist(   89): 
+D/Playlist(   89): [free_media_char_buffer][1198]-------
+D/Playlist(   89): free media file 14
+D/Playlist(   89): 
+D/Playlist(   89): [free_media_char_buffer][1198]-------
+<LOG /usr/local/bin/bdpprog, _recv_msg, #1023> recv(i4_sock, &t_msg_base, sizeof(IPC_MSG_BASE_T), 0) = 0, errno:0
+D/Playlist(   89): free media file 15
+<LOG /usr/local/bin/bdpprog, _ipc_thd, #1374>IPC Thread (id:11) is being finished:
+<LOG /usr/local/bin/bdpprog, _unref_sess, #701>Close(pt_sess->i4_ct_sock: 43)
+D/Playlist(   89): 
+<LOG /usr/local/bin/bdpprog, _unref_sess, #707>Close(pt_sess->i4_it_sock: 42)
+<LOG /usr/local/bin/bdpprog, _unref_sess, #728>Unref IPC ID (Count 11)
+D/Playlist(   89): [free_media_char_buffer][1198]-------
+D/Playlist(   89): free media file 16
+D/Playlist(   89): 
+D/Playlist(   89): [free_media_char_buffer][1198]-------
+D/Playlist(   89): free media file 17
+D/Playlist(   89): 
+D/Playlist(   89): [free_media_char_buffer][1198]-------
+D/Playlist(   89): free media file 18
+D/Playlist(   89): 
+D/Playlist(   89): [free_media_char_buffer][1198]-------
+D/Playlist(   89): free media file 19
+D/Playlist(   89): 
+D/Playlist(   89): [free_media_char_buffer][1198]-------
+D/Playlist(   89): free media file 20
+D/Playlist(   89): 
+D/Playlist(   89): [free_media_char_buffer][1198]-------
+D/Playlist(   89): free media file 21
+D/Playlist(   89): 
+D/Playlist(   89): [free_media_char_buffer][1198]-------
+D/Playlist(   89): free media file 22
+D/Playlist(   89): 
+D/Playlist(   89): [free_media_char_buffer][1198]-------
+D/Playlist(   89): free media file 23
+D/Playlist(   89): 
+D/Playlist(   89): [free_media_char_buffer][1198]-------
+D/Playlist(   89): free media file 24
+D/Playlist(   89): 
+D/Playlist(   89): [free_media_char_buffer][1198]-------
+D/Playlist(   89): free media file 25
+D/Playlist(   89): 
+D/Playlist(   89): [free_media_char_buffer][1198]-------
+D/Playlist(   89): free media file 26
+D/Playlist(   89): 
+D/Playlist(   89): [free_media_char_buffer][1198]-------
+D/Playlist(   89): free media file 27
+D/Playlist(   89): 
+D/Playlist(   89): [free_media_char_buffer][1198]-------
+D/Playlist(   89): free media file 28
+D/Playlist(   89): 
+D/Playlist(   89): [free_media_char_buffer][1198]-------
+D/Playlist(   89): free media file 29
+D/Playlist(   89): 
+D/Playlist(   89): [free_media_char_buffer][1198]-------
+D/Playlist(   89): free media file 30
+D/Playlist(   89): 
+D/Playlist(   89): [free_media_char_buffer][1198]-------
+D/Playlist(   89): free media file 31
+D/Playlist(   89): 
+[MTKPBCTRL] The handle is error, please check
+<Server>ERR: _hndlr_x_MtkPb_Ctrl_ClearVideo Fail, err value is: -2 @Line: 6015 
+D/Playlist(   89): [free_media_char_buffer][1198]-------
+D/Playlist(   89): free media file 32
+D/Playlist(   89): 
+D/Playlist(   89): [free_media_char_buffer][1198]-------
+D/Playlist(   89): free media file 33
+D/Playlist(   89): 
+D/Playlist(   89): [free_media_char_buffer][1198]-------
+D/Playlist(   89): free media file 34
+D/Playlist(   89): 
+D/Playlist(   89): [free_media_char_buffer][1198]-------
+D/Playlist(   89): free media file 35
+D/Playlist(   89): 
+D/Playlist(   89): [free_media_char_buffer][1198]-------
+D/Playlist(   89): free media file 36
+D/Playlist(   89): 
+D/Playlist(   89): [free_media_char_buffer][1198]-------
+D/Playlist(   89): free media file 37
+D/Playlist(   89): 
+D/Playlist(   89): [free_media_char_buffer][1198]-------
+D/Playlist(   89): free media file 38
+D/Playlist(   89): 
+D/Playlist(   89): [free_media_char_buffer][1198]-------
+D/Playlist(   89): free media file 39
+D/Playlist(   89): 
+D/Playlist(   89): [free_media_char_buffer][1198]-------
+D/Playlist(   89): free media file 40
+D/Playlist(   89): 
+D/Playlist(   89): [free_media_char_buffer][1198]-------
+D/Playlist(   89): free media file 41
+D/Playlist(   89): 
+D/Playlist(   89): [free_media_char_buffer][1198]-------
+D/Playlist(   89): free media file 42
+D/Playlist(   89): 
+D/Playlist(   89): [free_media_char_buffer][1198]-------
+D/Playlist(   89): free media file 43
+D/Playlist(   89): 
+D/Playlist(   89): [free_media_char_buffer][1198]-------
+D/Playlist(   89): free media file 44
+D/Playlist(   89): 
+D/Playlist(   89): [free_media_char_buffer][1198]-------
+D/Playlist(   89): free media file 45
+D/Playlist(   89): 
+D/Playlist(   89): [free_media_char_buffer][1198]-------
+D/Playlist(   89): free media file 46
+D/Playlist(   89): 
+D/Playlist(   89): [free_media_char_buffer][1198]-------
+D/Playlist(   89): free media file 47
+D/Playlist(   89): 
+D/Playlist(   89): [free_media_char_buffer][1198]-------
+D/Playlist(   89): free media file 48
+D/Playlist(   89): 
+D/Playlist(   89): [free_media_char_buffer][1198]-------
+D/Playlist(   89): free media file 49
+D/Playlist(   89): 
+D/Playlist(   89): [free_media_char_buffer][1198]-------
+D/Playlist(   89): free media file 50
+D/Playlist(   89): 
+D/Playlist(   89): [free_media_char_buffer][1198]-------
+D/Playlist(   89): free media file 51
+D/Playlist(   89): 
+D/Playlist(   89): [free_media_char_buffer][1198]-------
+D/Playlist(   89): free media file 52
+D/Playlist(   89): 
+D/Playlist(   89): [free_media_char_buffer][1198]-------
+D/Playlist(   89): free media file 53
+D/Playlist(   89): 
+D/Playlist(   89): [free_media_char_buffer][1198]-------
+D/Playlist(   89): free media file 54
+D/Playlist(   89): 
+D/Playlist(   89): [free_media_char_buffer][1198]-------
+D/Playlist(   89): free media file 55
+D/Playlist(   89): 
+D/Playlist(   89): [free_media_char_buffer][1198]-------
+D/Playlist(   89): free media file 56
+D/Playlist(   89): 
+D/Playlist(   89): [free_media_char_buffer][1198]-------
+D/Playlist(   89): free media file 57
+D/Playlist(   89): 
+D/Playlist(   89): [free_media_char_buffer][1198]-------
+D/Playlist(   89): free media file 58
+D/Playlist(   89): 
+D/Playlist(   89): [free_media_char_buffer][1198]-------
+D/Playlist(   89): free media file 59
+D/Playlist(   89): 
+D/Playlist(   89): [free_media_char_buffer][1198]-------
+D/Playlist(   89): free media file 60
+D/Playlist(   89): 
+D/Playlist(   89): [free_media_char_buffer][1198]-------
+D/Playlist(   89): free media file 61
+D/Playlist(   89): 
+D/Playlist(   89): [free_media_char_buffer][1198]-------
+D/Playlist(   89): free media file 62
+D/Playlist(   89): 
+D/Playlist(   89): [free_media_char_buffer][1198]-------
+D/Playlist(   89): free media file 63
+D/Playlist(   89): 
+D/Playlist(   89): [free_media_char_buffer][1198]-------
+D/Playlist(   89): free media file 64
+D/Playlist(   89): 
+D/Playlist(   89): [free_media_char_buffer][1198]-------
+D/Playlist(   89): free media file 65
+D/Playlist(   89): 
+D/Playlist(   89): [free_media_char_buffer][1198]-------
+D/Playlist(   89): free media file 66
+D/Playlist(   89): 
+D/Playlist(   89): [free_media_char_buffer][1198]-------
+D/Playlist(   89): free media file 67
+D/Playlist(   89): 
+D/Playlist(   89): [free_media_char_buffer][1198]-------
+D/Playlist(   89): free media file 68
+D/Playlist(   89): 
+D/Playlist(   89): [free_media_char_buffer][1198]-------
+D/Playlist(   89): free media file 69
+D/Playlist(   89): 
+D/Playlist(   89): [free_media_char_buffer][1198]-------
+D/Playlist(   89): free media file 70
+D/Playlist(   89): 
+D/Playlist(   89): [free_media_char_buffer][1198]-------
+D/Playlist(   89): free media file 71
+D/Playlist(   89): 
+D/Playlist(   89): [free_media_char_buffer][1198]-------
+D/Playlist(   89): free media file 72
+D/Playlist(   89): 
+D/Playlist(   89): [free_media_char_buffer][1198]-------
+D/Playlist(   89): free media file 73
+D/Playlist(   89): 
+D/Playlist(   89): [free_media_char_buffer][1198]-------
+D/Playlist(   89): free media file 74
+D/Playlist(   89): 
+D/Playlist(   89): [free_media_char_buffer][1198]-------
+D/Playlist(   89): free media file 75
+D/Playlist(   89): 
+D/Playlist(   89): [free_media_char_buffer][1198]-------
+D/Playlist(   89): free media file 76
+D/Playlist(   89): 
+D/Playlist(   89): [free_media_char_buffer][1198]-------
+D/Playlist(   89): free media file 77
+D/Playlist(   89): 
+D/Playlist(   89): [free_media_char_buffer][1198]-------
+D/Playlist(   89): free media file 78
+D/Playlist(   89): 
+D/Playlist(   89): [free_media_char_buffer][1198]-------
+D/Playlist(   89): free media file 79
+D/Playlist(   89): 
+D/Playlist(   89): [free_media_char_buffer][1198]-------
+D/Playlist(   89): free media file 80
+D/Playlist(   89): 
+D/Playlist(   89): [free_media_char_buffer][1198]-------
+D/Playlist(   89): free media file 81
+D/Playlist(   89): 
+D/Playlist(   89): [free_media_char_buffer][1198]-------
+D/Playlist(   89): free media file 82
+D/Playlist(   89): 
+D/Playlist(   89): [free_media_char_buffer][1198]-------
+D/Playlist(   89): free media file 83
+D/Playlist(   89): 
+D/Playlist(   89): [free_media_char_buffer][1198]-------
+D/Playlist(   89): free media file 84
+D/Playlist(   89): 
+D/Playlist(   89): [free_media_char_buffer][1198]-------
+D/Playlist(   89): free media file 85
+D/Playlist(   89): 
+D/Playlist(   89): [free_media_char_buffer][1198]-------
+D/Playlist(   89): free media file 86
+D/Playlist(   89): 
+D/Playlist(   89): [free_media_char_buffer][1198]-------
+D/Playlist(   89): free media file 87
+D/Playlist(   89): 
+D/Playlist(   89): [free_media_char_buffer][1198]-------
+D/Playlist(   89): free media file 88
+D/Playlist(   89): 

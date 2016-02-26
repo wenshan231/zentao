@@ -1,0 +1,787 @@
+D/DataSource_M3U8(  744): getHLSPlayListInex  DownloadBandWidth:2412440   uInDex=0
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744): ============Begin to get playlist !!=====================
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744): 
+D/MonitorCw880( 2539): currentRemoteHost is null ,continue
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744):  Warnig::  getValidBufferLength()  <  Codec require !!!
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744):  connect Server :live.feifeikan.com
+D/DataSource_M3U8(  744): parseM3U8 .......!
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/108?slice=017891   
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/108?slice=017892   
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/108?slice=017893   
+D/DataSource_M3U8(  744): [M3U8] file: NULL line 
+D/DataSource_M3U8(  744): HLS=====>> Live Stream!!!!
+D/dalvikvm( 1645): GC_CONCURRENT freed 780K, 64% free 2847K/7875K, paused 2ms+3ms
+I//lib/ld-linux.so.3(  748): FrmCnt:7464(0,2,6) Rate:24 Sys:2555105 STC:34108089 VPTS:34108061 APTS:34108043 Delay:12(40) V:0 A:11 VES:0xc7cc0 AES:0x8000 PCM:0x4b580 AudioErr:0x0
+D/dalvikvm( 1645): GC_CONCURRENT freed 673K, 64% free 2868K/7875K, paused 2ms+2ms
+D/DataSource_M3U8(  744): getHLSPlayListInex  DownloadBandWidth:2412440   uInDex=0
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744): ============Begin to get playlist !!=====================
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744):  connect Server :live.feifeikan.com
+D/DataSource_M3U8(  744): parseM3U8 .......!
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/108?slice=017891   
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/108?slice=017892   
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/108?slice=017893   
+D/DataSource_M3U8(  744): [M3U8] file: NULL line 
+D/DataSource_M3U8(  744): HLS=====>> Live Stream!!!!
+D/dalvikvm( 1645): GC_CONCURRENT freed 706K, 64% free 2868K/7875K, paused 2ms+4ms
+D/HomePlayerLib( 1645): hostaddress count is 2
+D/dalvikvm( 1645): GC_CONCURRENT freed 719K, 63% free 2960K/7875K, paused 2ms+2ms
+D/dalvikvm( 1645): GC_CONCURRENT freed 836K, 64% free 2862K/7875K, paused 2ms+3ms
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744):  Warnig::  getValidBufferLength()  <  Codec require !!!
+D/dalvikvm( 1645): GC_CONCURRENT freed 691K, 64% free 2867K/7875K, paused 4ms+3ms
+D/dalvikvm( 1645): GC_CONCURRENT freed 701K, 63% free 2991K/7875K, paused 2ms+3ms
+D/DataSource_M3U8(  744): getHLSPlayListInex  DownloadBandWidth:2412440   uInDex=0
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744): ============Begin to get playlist !!=====================
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744): 
+D/dalvikvm( 1645): GC_CONCURRENT freed 841K, 64% free 2910K/7875K, paused 3ms+3ms
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744):  connect Server :live.feifeikan.com
+D/DataSource_M3U8(  744): parseM3U8 .......!
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/108?slice=017891   
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/108?slice=017892   
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/108?slice=017893   
+D/DataSource_M3U8(  744): [M3U8] file: NULL line 
+D/DataSource_M3U8(  744): HLS=====>> Live Stream!!!!
+D/Downloader(  744): Downloadserver bandWidth:1029649
+D/Downloader(  744): Downloadserver bandWidth:1029433
+D/Downloader(  744): Downloadserver bandWidth:1029433
+D/Downloader(  744): Downloadserver bandWidth:1029433
+D/dalvikvm( 1645): GC_CONCURRENT freed 773K, 64% free 2843K/7875K, paused 2ms+2ms
+D/dalvikvm( 1645): GC_CONCURRENT freed 674K, 64% free 2875K/7875K, paused 2ms+5ms
+I//lib/ld-linux.so.3(  748): FrmCnt:7503(0,2,6) Rate:25 Sys:2556645 STC:34109629 VPTS:34109621 APTS:34109607 Delay:32(40) V:0 A:19 VES:0xfe750 AES:0x8020 PCM:0x4b100 AudioErr:0x0
+D/dalvikvm( 1645): GC_CONCURRENT freed 705K, 64% free 2884K/7875K, paused 2ms+4ms
+D/DataSource_M3U8(  744): getHLSPlayListInex  DownloadBandWidth:2412440   uInDex=0
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744): ============Begin to get playlist !!=====================
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744):  Warnig::  getValidBufferLength()  <  Codec require !!!
+D/dalvikvm( 1645): GC_CONCURRENT freed 743K, 64% free 2903K/7875K, paused 2ms+3ms
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744):  connect Server :live.feifeikan.com
+D/DataSource_M3U8(  744): parseM3U8 .......!
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/108?slice=017891   
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/108?slice=017892   
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/108?slice=017893   
+D/DataSource_M3U8(  744): [M3U8] file: NULL line 
+D/DataSource_M3U8(  744): HLS=====>> Live Stream!!!!
+D/dalvikvm( 1645): GC_CONCURRENT freed 741K, 64% free 2872K/7875K, paused 3ms+3ms
+D/DataSource_M3U8(  744): getHLSPlayListInex  DownloadBandWidth:2412440   uInDex=0
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744): ============Begin to get playlist !!=====================
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744): 
+D/dalvikvm( 1645): GC_CONCURRENT freed 711K, 64% free 2864K/7875K, paused 2ms+3ms
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744):  connect Server :live.feifeikan.com
+D/DataSource_M3U8(  744): parseM3U8 .......!
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/108?slice=017891   
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/108?slice=017892   
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/108?slice=017893   
+D/DataSource_M3U8(  744): [M3U8] file: NULL line 
+D/DataSource_M3U8(  744): HLS=====>> Live Stream!!!!
+I/MonitorCw880( 2539): easybusReceive success !
+D/MonitorCw880( 2539):  easybusMsg.remoteIp=  192.168.43.152 easybusMsg.remotePort=  55078 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880( 2539):  ip error -> currentRemoteHost=null easybusMsg.remoteIp=192.168.43.152, counter=3
+D/DataSource_M3U8(  744): ----------UpdatePlaylistThread runing... 
+D/DataSource_M3U8(  744): getHLSPlayListInex  DownloadBandWidth:2412440   uInDex=0
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744): ============Begin to get playlist !!=====================
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744): 
+I//lib/ld-linux.so.3(  748): FrmCnt:7541(0,2,6) Rate:24 Sys:2558179 STC:34111163 VPTS:34111141 APTS:34111141 Delay:18(40) V:0 A:18 VES:0x102690 AES:0x8000 PCM:0x4b280 AudioErr:0x0
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744):  connect Server :live.feifeikan.com
+D/DataSource_M3U8(  744): parseM3U8 .......!
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/108?slice=017891   
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/108?slice=017892   
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/108?slice=017893   
+D/DataSource_M3U8(  744): [M3U8] file: NULL line 
+D/DataSource_M3U8(  744): HLS=====>> Live Stream!!!!
+D/DataSource_M3U8(  744): getHLSPlayListInex  DownloadBandWidth:2412440   uInDex=0
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744): ============Begin to get playlist !!=====================
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744): 
+I/DVB_main( 2020): [dispatchKeyEvent]  Action:0  keyCode:22
+I/dvb_control( 2020): [onKeyDown]  keyCode��22  Oklist_view.getVisibility():0 Constant.isHidden:false
+I/dvb_control( 2020): [onKeyDown]  Oklist_view is show,So Didn't do anything............
+I/DVB_main( 2020): [dispatchKeyEvent]  Does not deal with the keyCode
+E/WindowManager(  954): ##############################dispatchUnhandledKey
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744):  connect Server :live.feifeikan.com
+D/DataSource_M3U8(  744): parseM3U8 .......!
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/108?slice=017892   
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/108?slice=017893   
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744):  update  playlist[14] ==>> mediaSequence : 0   url = http://live.feifeikan.com/live/hls/108?slice=017894   
+D/DataSource_M3U8(  744): [M3U8] file: NULL line 
+D/DataSource_M3U8(  744): HLS=====>> Live Stream!!!!
+D/DataSource_M3U8(  744): [M3U8] checkShouldStartNext :[0](614572/614572)   sequence:0  start next:1  
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744): [M3U8]-7----->This :0x52698 --> post cmd for start next url:http://live.feifeikan.com/live/hls/108?slice=017894, knowedFileSize:0, mCurDowningIndex:0
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744): 
+D/Downloader(  744): [downloadThread]Downloader::removeTask  
+D/Downloader(  744): [downloadThread]task have range string:0- 
+I/DVB_main( 2020): [dispatchKeyEvent]  Action:1  keyCode:22
+I/DVB_main( 2020): [dispatchKeyEvent]  Does not deal with the keyCode
+I/DVB_main( 2020): [dispatchKeyEvent]  Action:0  keyCode:22
+I/dvb_control( 2020): [onKeyDown]  keyCode��22  Oklist_view.getVisibility():0 Constant.isHidden:false
+I/dvb_control( 2020): [onKeyDown]  Oklist_view is show,So Didn't do anything............
+I/DVB_main( 2020): [dispatchKeyEvent]  Does not deal with the keyCode
+E/WindowManager(  954): ##############################dispatchUnhandledKey
+D/CheckNetWork( 1628): isOk true
+D/CheckNetWork( 1628): ActInfoNetworkInfo: type: ETH[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), roaming: false, failover: false, isAvailable: true
+D/CheckNetWork( 1628): infoNetworkInfo: type: ETH[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), roaming: false, failover: false, isAvailable: true
+D/PushMsgCenter( 1563): mDownUpRun run while (true)
+D/PushMsgCenter( 1563): down  
+I/DVB_main( 2020): [dispatchKeyEvent]  Action:1  keyCode:22
+I/DVB_main( 2020): [dispatchKeyEvent]  Does not deal with the keyCode
+D/PushMsgCenter( 1563): down conn.getResponseCode() status = 404
+I/DVB_main( 2020): [dispatchKeyEvent]  Action:0  keyCode:22
+I/dvb_control( 2020): [onKeyDown]  keyCode��22  Oklist_view.getVisibility():0 Constant.isHidden:false
+I/dvb_control( 2020): [onKeyDown]  Oklist_view is show,So Didn't do anything............
+I/DVB_main( 2020): [dispatchKeyEvent]  Does not deal with the keyCode
+E/WindowManager(  954): ##############################dispatchUnhandledKey
+D/DataSource_M3U8(  744): getHLSPlayListInex  DownloadBandWidth:1029433   uInDex=0
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744): ============Begin to get playlist !!=====================
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744): 
+I/DVB_main( 2020): [dispatchKeyEvent]  Action:1  keyCode:22
+I/DVB_main( 2020): [dispatchKeyEvent]  Does not deal with the keyCode
+D/MonitorCw880( 2539): currentRemoteHost is null ,continue
+I//lib/ld-linux.so.3(  748): FrmCnt:7579(0,2,6) Rate:25 Sys:2559691 STC:34112675 VPTS:34112661 APTS:34112649 Delay:26(40) V:0 A:14 VES:0xe4680 AES:0x8000 PCM:0x4b600 AudioErr:0x0
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744):  Warnig::  getValidBufferLength()  <  Codec require !!!
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744):  connect Server :live.feifeikan.com
+D/DataSource_M3U8(  744): parseM3U8 .......!
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/108?slice=017892   
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/108?slice=017893   
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/108?slice=017894   
+D/DataSource_M3U8(  744): [M3U8] file: NULL line 
+D/DataSource_M3U8(  744): HLS=====>> Live Stream!!!!
+I/DVB_main( 2020): [dispatchKeyEvent]  Action:0  keyCode:22
+I/dvb_control( 2020): [onKeyDown]  keyCode��22  Oklist_view.getVisibility():0 Constant.isHidden:false
+I/dvb_control( 2020): [onKeyDown]  Oklist_view is show,So Didn't do anything............
+I/DVB_main( 2020): [dispatchKeyEvent]  Does not deal with the keyCode
+E/WindowManager(  954): ##############################dispatchUnhandledKey
+I/DVB_main( 2020): [dispatchKeyEvent]  Action:1  keyCode:22
+I/DVB_main( 2020): [dispatchKeyEvent]  Does not deal with the keyCode
+I/DVB_main( 2020): [dispatchKeyEvent]  Action:0  keyCode:22
+I/dvb_control( 2020): [onKeyDown]  keyCode��22  Oklist_view.getVisibility():0 Constant.isHidden:false
+I/dvb_control( 2020): [onKeyDown]  Oklist_view is show,So Didn't do anything............
+I/DVB_main( 2020): [dispatchKeyEvent]  Does not deal with the keyCode
+E/WindowManager(  954): ##############################dispatchUnhandledKey
+D/DataSource_M3U8(  744): getHLSPlayListInex  DownloadBandWidth:1029433   uInDex=0
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744): ============Begin to get playlist !!=====================
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744): 
+I/DVB_main( 2020): [dispatchKeyEvent]  Action:1  keyCode:22
+I/DVB_main( 2020): [dispatchKeyEvent]  Does not deal with the keyCode
+I/DVB_main( 2020): [dispatchKeyEvent]  Action:0  keyCode:22
+I/dvb_control( 2020): [onKeyDown]  keyCode��22  Oklist_view.getVisibility():0 Constant.isHidden:false
+I/dvb_control( 2020): [onKeyDown]  Oklist_view is show,So Didn't do anything............
+I/DVB_main( 2020): [dispatchKeyEvent]  Does not deal with the keyCode
+E/WindowManager(  954): ##############################dispatchUnhandledKey
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744):  connect Server :live.feifeikan.com
+D/DataSource_M3U8(  744): parseM3U8 .......!
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/108?slice=017892   
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/108?slice=017893   
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/108?slice=017894   
+D/DataSource_M3U8(  744): [M3U8] file: NULL line 
+D/DataSource_M3U8(  744): HLS=====>> Live Stream!!!!
+I/DVB_main( 2020): [dispatchKeyEvent]  Action:1  keyCode:22
+I/DVB_main( 2020): [dispatchKeyEvent]  Does not deal with the keyCode
+I/DVB_main( 2020): [dispatchKeyEvent]  Action:0  keyCode:22
+I/dvb_control( 2020): [onKeyDown]  keyCode��22  Oklist_view.getVisibility():0 Constant.isHidden:false
+I/dvb_control( 2020): [onKeyDown]  Oklist_view is show,So Didn't do anything............
+I/DVB_main( 2020): [dispatchKeyEvent]  Does not deal with the keyCode
+E/WindowManager(  954): ##############################dispatchUnhandledKey
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744):  Warnig::  getValidBufferLength()  <  Codec require !!!
+I/DVB_main( 2020): [dispatchKeyEvent]  Action:1  keyCode:22
+I/DVB_main( 2020): [dispatchKeyEvent]  Does not deal with the keyCode
+D/Downloader(  744): Downloadserver bandWidth:2536867
+D/Downloader(  744): Downloadserver bandWidth:2535539
+D/Downloader(  744): Downloadserver bandWidth:2535539
+D/Downloader(  744): Downloadserver bandWidth:2535539
+I/DVB_main( 2020): [dispatchKeyEvent]  Action:0  keyCode:22
+I/dvb_control( 2020): [onKeyDown]  keyCode��22  Oklist_view.getVisibility():0 Constant.isHidden:false
+I/dvb_control( 2020): [onKeyDown]  Oklist_view is show,So Didn't do anything............
+I/DVB_main( 2020): [dispatchKeyEvent]  Does not deal with the keyCode
+E/WindowManager(  954): ##############################dispatchUnhandledKey
+D/DataSource_M3U8(  744): getHLSPlayListInex  DownloadBandWidth:1029433   uInDex=0
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744): ============Begin to get playlist !!=====================
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744): 
+I/DVB_main( 2020): [dispatchKeyEvent]  Action:1  keyCode:22
+I/DVB_main( 2020): [dispatchKeyEvent]  Does not deal with the keyCode
+I/DVB_main( 2020): [dispatchKeyEvent]  Action:0  keyCode:22
+I/dvb_control( 2020): [onKeyDown]  keyCode��22  Oklist_view.getVisibility():0 Constant.isHidden:false
+I/dvb_control( 2020): [onKeyDown]  Oklist_view is show,So Didn't do anything............
+I/DVB_main( 2020): [dispatchKeyEvent]  Does not deal with the keyCode
+E/WindowManager(  954): ##############################dispatchUnhandledKey
+I//lib/ld-linux.so.3(  748): FrmCnt:7617(0,2,6) Rate:24 Sys:2561214 STC:34114197 VPTS:34114181 APTS:34114177 Delay:24(40) V:0 A:29 VES:0x136d70 AES:0x8000 PCM:0x4bd80 AudioErr:0x0
+I/DVB_main( 2020): [dispatchKeyEvent]  Action:1  keyCode:22
+I/DVB_main( 2020): [dispatchKeyEvent]  Does not deal with the keyCode
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744):  connect Server :live.feifeikan.com
+D/DataSource_M3U8(  744): parseM3U8 .......!
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/108?slice=017892   
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/108?slice=017893   
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/108?slice=017894   
+D/DataSource_M3U8(  744): [M3U8] file: NULL line 
+D/DataSource_M3U8(  744): HLS=====>> Live Stream!!!!
+I/DVB_main( 2020): [dispatchKeyEvent]  Action:0  keyCode:19
+I/dvb_control( 2020): [onKeyDown]  keyCode��19  Oklist_view.getVisibility():0 Constant.isHidden:false
+I/dvb_control( 2020): [onKeyDown]  Oklist_view is show,So Didn't do anything............
+I/DVB_main( 2020): [dispatchKeyEvent]  Does not deal with the keyCode
+E/WindowManager(  954): ##############################dispatchUnhandledKey
+I/DVB_main( 2020): [dispatchKeyEvent]  Action:1  keyCode:19
+I/DVB_main( 2020): [dispatchKeyEvent]  Does not deal with the keyCode
+I/DVB_main( 2020): [dispatchKeyEvent]  Action:0  keyCode:19
+I/dvb_control( 2020): [onKeyDown]  keyCode��19  Oklist_view.getVisibility():0 Constant.isHidden:false
+I/dvb_control( 2020): [onKeyDown]  Oklist_view is show,So Didn't do anything............
+I/DVB_main( 2020): [dispatchKeyEvent]  Does not deal with the keyCode
+E/WindowManager(  954): ##############################dispatchUnhandledKey
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744):  Warnig::  getValidBufferLength()  <  Codec require !!!
+D/DataSource_M3U8(  744): getHLSPlayListInex  DownloadBandWidth:1029433   uInDex=0
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744): ============Begin to get playlist !!=====================
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744): 
+I/DVB_main( 2020): [dispatchKeyEvent]  Action:1  keyCode:19
+I/DVB_main( 2020): [dispatchKeyEvent]  Does not deal with the keyCode
+I/DVB_main( 2020): [dispatchKeyEvent]  Action:0  keyCode:19
+I/dvb_control( 2020): [onKeyDown]  keyCode��19  Oklist_view.getVisibility():0 Constant.isHidden:false
+I/dvb_control( 2020): [onKeyDown]  Oklist_view is show,So Didn't do anything............
+I/DVB_main( 2020): [dispatchKeyEvent]  Does not deal with the keyCode
+E/WindowManager(  954): ##############################dispatchUnhandledKey
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744):  connect Server :live.feifeikan.com
+D/DataSource_M3U8(  744): parseM3U8 .......!
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/108?slice=017892   
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/108?slice=017893   
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/108?slice=017894   
+D/DataSource_M3U8(  744): [M3U8] file: NULL line 
+D/DataSource_M3U8(  744): HLS=====>> Live Stream!!!!
+I/DVB_main( 2020): [dispatchKeyEvent]  Action:1  keyCode:19
+I/DVB_main( 2020): [dispatchKeyEvent]  Does not deal with the keyCode
+I/DVB_main( 2020): [dispatchKeyEvent]  Action:0  keyCode:19
+I/dvb_control( 2020): [onKeyDown]  keyCode��19  Oklist_view.getVisibility():0 Constant.isHidden:false
+I/dvb_control( 2020): [onKeyDown]  Oklist_view is show,So Didn't do anything............
+I/DVB_main( 2020): [dispatchKeyEvent]  Does not deal with the keyCode
+E/WindowManager(  954): ##############################dispatchUnhandledKey
+I/DVB_main( 2020): [dispatchKeyEvent]  Action:1  keyCode:19
+I/DVB_main( 2020): [dispatchKeyEvent]  Does not deal with the keyCode
+I/DVB_main( 2020): [dispatchKeyEvent]  Action:0  keyCode:19
+I/dvb_control( 2020): [onKeyDown]  keyCode��19  Oklist_view.getVisibility():0 Constant.isHidden:false
+I/dvb_control( 2020): [onKeyDown]  Oklist_view is show,So Didn't do anything............
+I/DVB_main( 2020): [dispatchKeyEvent]  Does not deal with the keyCode
+E/WindowManager(  954): ##############################dispatchUnhandledKey
+D/DataSource_M3U8(  744): getHLSPlayListInex  DownloadBandWidth:1029433   uInDex=0
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744): ============Begin to get playlist !!=====================
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744): 
+I/DVB_main( 2020): [dispatchKeyEvent]  Action:1  keyCode:19
+I/DVB_main( 2020): [dispatchKeyEvent]  Does not deal with the keyCode
+I//lib/ld-linux.so.3(  748): FrmCnt:7655(0,2,6) Rate:25 Sys:2562727 STC:34115710 VPTS:34115701 APTS:34115685 Delay:31(40) V:0 A:24 VES:0x11b470 AES:0x8000 PCM:0x4b100 AudioErr:0x0
+I/MonitorCw880( 2539): easybusReceive success !
+D/MonitorCw880( 2539):  easybusMsg.remoteIp=  192.168.43.152 easybusMsg.remotePort=  55078 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880( 2539):  ip error -> currentRemoteHost=null easybusMsg.remoteIp=192.168.43.152, counter=3
+I/DVB_main( 2020): [dispatchKeyEvent]  Action:0  keyCode:21
+I/dvb_control( 2020): [onKeyDown]  keyCode��21  Oklist_view.getVisibility():0 Constant.isHidden:false
+I/dvb_control( 2020): [onKeyDown]  Oklist_view is show,So Didn't do anything............
+I/DVB_main( 2020): [dispatchKeyEvent]  Does not deal with the keyCode
+E/WindowManager(  954): ##############################dispatchUnhandledKey
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744):  connect Server :live.feifeikan.com
+D/DataSource_M3U8(  744): parseM3U8 .......!
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/108?slice=017892   
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/108?slice=017893   
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/108?slice=017894   
+D/DataSource_M3U8(  744): [M3U8] file: NULL line 
+D/DataSource_M3U8(  744): HLS=====>> Live Stream!!!!
+I/DVB_main( 2020): [dispatchKeyEvent]  Action:1  keyCode:21
+I/DVB_main( 2020): [dispatchKeyEvent]  Does not deal with the keyCode
+I/DVB_main( 2020): [dispatchKeyEvent]  Action:0  keyCode:21
+I/dvb_control( 2020): [onKeyDown]  keyCode��21  Oklist_view.getVisibility():0 Constant.isHidden:false
+I/dvb_control( 2020): [onKeyDown]  Oklist_view is show,So Didn't do anything............
+I/DVB_main( 2020): [dispatchKeyEvent]  Does not deal with the keyCode
+E/WindowManager(  954): ##############################dispatchUnhandledKey
+I/DVB_main( 2020): [dispatchKeyEvent]  Action:1  keyCode:21
+I/DVB_main( 2020): [dispatchKeyEvent]  Does not deal with the keyCode
+I/DVB_main( 2020): [dispatchKeyEvent]  Action:0  keyCode:21
+I/dvb_control( 2020): [onKeyDown]  keyCode��21  Oklist_view.getVisibility():0 Constant.isHidden:false
+I/dvb_control( 2020): [onKeyDown]  Oklist_view is show,So Didn't do anything............
+I/DVB_main( 2020): [dispatchKeyEvent]  Does not deal with the keyCode
+E/WindowManager(  954): ##############################dispatchUnhandledKey
+I/DVB_main( 2020): [dispatchKeyEvent]  Action:1  keyCode:21
+I/DVB_main( 2020): [dispatchKeyEvent]  Does not deal with the keyCode
+D/DataSource_M3U8(  744): getHLSPlayListInex  DownloadBandWidth:1029433   uInDex=0
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744): ============Begin to get playlist !!=====================
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744): 
+I/DVB_main( 2020): [dispatchKeyEvent]  Action:0  keyCode:21
+I/dvb_control( 2020): [onKeyDown]  keyCode��21  Oklist_view.getVisibility():0 Constant.isHidden:false
+I/dvb_control( 2020): [onKeyDown]  Oklist_view is show,So Didn't do anything............
+I/DVB_main( 2020): [dispatchKeyEvent]  Does not deal with the keyCode
+E/WindowManager(  954): ##############################dispatchUnhandledKey
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744):  connect Server :live.feifeikan.com
+D/DataSource_M3U8(  744): parseM3U8 .......!
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/108?slice=017892   
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/108?slice=017893   
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/108?slice=017894   
+D/DataSource_M3U8(  744): [M3U8] file: NULL line 
+D/DataSource_M3U8(  744): HLS=====>> Live Stream!!!!
+I/DVB_main( 2020): [dispatchKeyEvent]  Action:1  keyCode:21
+I/DVB_main( 2020): [dispatchKeyEvent]  Does not deal with the keyCode
+I/DVB_main( 2020): [dispatchKeyEvent]  Action:0  keyCode:21
+I/dvb_control( 2020): [onKeyDown]  keyCode��21  Oklist_view.getVisibility():0 Constant.isHidden:false
+I/dvb_control( 2020): [onKeyDown]  Oklist_view is show,So Didn't do anything............
+I/DVB_main( 2020): [dispatchKeyEvent]  Does not deal with the keyCode
+E/WindowManager(  954): ##############################dispatchUnhandledKey
+I/DVB_main( 2020): [dispatchKeyEvent]  Action:1  keyCode:21
+I/DVB_main( 2020): [dispatchKeyEvent]  Does not deal with the keyCode
+D/DataSource_M3U8(  744): getHLSPlayListInex  DownloadBandWidth:1029433   uInDex=0
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744): ============Begin to get playlist !!=====================
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744): 
+I/DVB_main( 2020): [dispatchKeyEvent]  Action:0  keyCode:21
+I/dvb_control( 2020): [onKeyDown]  keyCode��21  Oklist_view.getVisibility():0 Constant.isHidden:false
+I/dvb_control( 2020): [onKeyDown]  Oklist_view is show,So Didn't do anything............
+I/DVB_main( 2020): [dispatchKeyEvent]  Does not deal with the keyCode
+E/WindowManager(  954): ##############################dispatchUnhandledKey
+I//lib/ld-linux.so.3(  748): FrmCnt:7693(0,2,6) Rate:25 Sys:2564233 STC:34117216 VPTS:34117221 APTS:34117196 Delay:45(40) V:0 A:19 VES:0x101cb0 AES:0x8010 PCM:0x4b480 AudioErr:0x0
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744):  connect Server :live.feifeikan.com
+D/DataSource_M3U8(  744): parseM3U8 .......!
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/108?slice=017892   
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/108?slice=017893   
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/108?slice=017894   
+D/DataSource_M3U8(  744): [M3U8] file: NULL line 
+D/DataSource_M3U8(  744): HLS=====>> Live Stream!!!!
+I/DVB_main( 2020): [dispatchKeyEvent]  Action:1  keyCode:21
+I/DVB_main( 2020): [dispatchKeyEvent]  Does not deal with the keyCode
+D/MonitorCw880( 2539): currentRemoteHost is null ,continue
+D/DataSource_M3U8(  744): getHLSPlayListInex  DownloadBandWidth:1029433   uInDex=0
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744): ============Begin to get playlist !!=====================
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744):  connect Server :live.feifeikan.com
+D/DataSource_M3U8(  744): parseM3U8 .......!
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/108?slice=017893   
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/108?slice=017894   
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744):  update  playlist[15] ==>> mediaSequence : 0   url = http://live.feifeikan.com/live/hls/108?slice=017895   
+D/DataSource_M3U8(  744): [M3U8] file: NULL line 
+D/DataSource_M3U8(  744): HLS=====>> Live Stream!!!!
+D/DataSource_M3U8(  744): [M3U8] checkShouldStartNext :[0](605360/605360)   sequence:0  start next:1  
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744): [M3U8]-7----->This :0x52698 --> post cmd for start next url:http://live.feifeikan.com/live/hls/108?slice=017895, knowedFileSize:0, mCurDowningIndex:0
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744): 
+D/Downloader(  744): [downloadThread]Downloader::removeTask  
+D/Downloader(  744): [downloadThread]task have range string:0- 
+I//lib/ld-linux.so.3(  748): FrmCnt:7731(0,2,6) Rate:24 Sys:2565766 STC:34118750 VPTS:34118741 APTS:34118731 Delay:31(40) V:0 A:14 VES:0xdcb90 AES:0x8000 PCM:0x4b600 AudioErr:0x0
+D/DataSource_M3U8(  744): getHLSPlayListInex  DownloadBandWidth:2535539   uInDex=0
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744): ============Begin to get playlist !!=====================
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744):  Warnig::  getValidBufferLength()  <  Codec require !!!
+D/dalvikvm( 1645): GC_CONCURRENT freed 715K, 64% free 2850K/7875K, paused 2ms+3ms
+I/DVB_main( 2020): [dispatchKeyEvent]  Action:0  keyCode:21
+I/dvb_control( 2020): [onKeyDown]  keyCode��21  Oklist_view.getVisibility():0 Constant.isHidden:false
+I/dvb_control( 2020): [onKeyDown]  Oklist_view is show,So Didn't do anything............
+I/DVB_main( 2020): [dispatchKeyEvent]  Does not deal with the keyCode
+E/WindowManager(  954): ##############################dispatchUnhandledKey
+I/DVB_main( 2020): [dispatchKeyEvent]  Action:1  keyCode:21
+I/DVB_main( 2020): [dispatchKeyEvent]  Does not deal with the keyCode
+D/dalvikvm( 1645): GC_CONCURRENT freed 675K, 63% free 2972K/7875K, paused 2ms+4ms
+I/DVB_main( 2020): [dispatchKeyEvent]  Action:0  keyCode:21
+I/dvb_control( 2020): [onKeyDown]  keyCode��21  Oklist_view.getVisibility():0 Constant.isHidden:false
+I/dvb_control( 2020): [onKeyDown]  Oklist_view is show,So Didn't do anything............
+I/DVB_main( 2020): [dispatchKeyEvent]  Does not deal with the keyCode
+E/WindowManager(  954): ##############################dispatchUnhandledKey
+I/DVB_main( 2020): [dispatchKeyEvent]  Action:1  keyCode:21
+I/DVB_main( 2020): [dispatchKeyEvent]  Does not deal with the keyCode
+D/dalvikvm( 1645): GC_CONCURRENT freed 855K, 63% free 2969K/7875K, paused 2ms+3ms
+I/DVB_main( 2020): [dispatchKeyEvent]  Action:0  keyCode:20
+I/dvb_control( 2020): [onKeyDown]  keyCode��20  Oklist_view.getVisibility():0 Constant.isHidden:false
+I/dvb_control( 2020): [onKeyDown]  Oklist_view is show,So Didn't do anything............
+I/DVB_main( 2020): [dispatchKeyEvent]  Does not deal with the keyCode
+E/WindowManager(  954): ##############################dispatchUnhandledKey
+I/DVB_main( 2020): [dispatchKeyEvent]  Action:1  keyCode:20
+I/DVB_main( 2020): [dispatchKeyEvent]  Does not deal with the keyCode
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744):  Warnig::  getValidBufferLength()  <  Codec require !!!
+I/DVB_main( 2020): [dispatchKeyEvent]  Action:0  keyCode:20
+I/dvb_control( 2020): [onKeyDown]  keyCode��20  Oklist_view.getVisibility():0 Constant.isHidden:false
+I/dvb_control( 2020): [onKeyDown]  Oklist_view is show,So Didn't do anything............
+I/DVB_main( 2020): [dispatchKeyEvent]  Does not deal with the keyCode
+E/WindowManager(  954): ##############################dispatchUnhandledKey
+I/DVB_main( 2020): [dispatchKeyEvent]  Action:1  keyCode:20
+I/DVB_main( 2020): [dispatchKeyEvent]  Does not deal with the keyCode
+I/DVB_main( 2020): [dispatchKeyEvent]  Action:0  keyCode:20
+I/dvb_control( 2020): [onKeyDown]  keyCode��20  Oklist_view.getVisibility():0 Constant.isHidden:false
+I/dvb_control( 2020): [onKeyDown]  Oklist_view is show,So Didn't do anything............
+I/DVB_main( 2020): [dispatchKeyEvent]  Does not deal with the keyCode
+E/WindowManager(  954): ##############################dispatchUnhandledKey
+D/HomePlayerLib( 1645): hostaddress count is 2
+D/dalvikvm( 1645): GC_CONCURRENT freed 854K, 64% free 2857K/7875K, paused 3ms+3ms
+I//lib/ld-linux.so.3(  748): FrmCnt:7769(0,2,6) Rate:24 Sys:2567290 STC:34120273 VPTS:34120261 APTS:34120250 Delay:28(40) V:0 A:20 VES:0x10c640 AES:0x8050 PCM:0x4bd80 AudioErr:0x0
+D/dalvikvm( 1645): GC_CONCURRENT freed 691K, 63% free 2984K/7875K, paused 2ms+3ms
+I/DVB_main( 2020): [dispatchKeyEvent]  Action:1  keyCode:20
+I/DVB_main( 2020): [dispatchKeyEvent]  Does not deal with the keyCode
+D/dalvikvm( 1645): GC_CONCURRENT freed 864K, 62% free 3010K/7875K, paused 2ms+2ms
+I/DVB_main( 2020): [dispatchKeyEvent]  Action:0  keyCode:22
+I/dvb_control( 2020): [onKeyDown]  keyCode��22  Oklist_view.getVisibility():0 Constant.isHidden:false
+I/dvb_control( 2020): [onKeyDown]  Oklist_view is show,So Didn't do anything............
+I/DVB_main( 2020): [dispatchKeyEvent]  Does not deal with the keyCode
+E/WindowManager(  954): ##############################dispatchUnhandledKey
+I/MonitorCw880( 2539): easybusReceive success !
+D/MonitorCw880( 2539):  easybusMsg.remoteIp=  192.168.43.152 easybusMsg.remotePort=  55078 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880( 2539):  ip error -> currentRemoteHost=null easybusMsg.remoteIp=192.168.43.152, counter=3
+D/dalvikvm( 1645): GC_CONCURRENT freed 902K, 63% free 2970K/7875K, paused 2ms+2ms
+I/DVB_main( 2020): [dispatchKeyEvent]  Action:1  keyCode:22
+I/DVB_main( 2020): [dispatchKeyEvent]  Does not deal with the keyCode
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744):  connect Server :live.feifeikan.com
+D/DataSource_M3U8(  744): parseM3U8 .......!
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/108?slice=017893   
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/108?slice=017894   
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/108?slice=017895   
+D/DataSource_M3U8(  744): [M3U8] file: NULL line 
+D/DataSource_M3U8(  744): HLS=====>> Live Stream!!!!
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744):  Warnig::  getValidBufferLength()  <  Codec require !!!
+D/dalvikvm( 1645): GC_CONCURRENT freed 847K, 62% free 3032K/7875K, paused 2ms+3ms
+I/DVB_main( 2020): [dispatchKeyEvent]  Action:0  keyCode:22
+I/dvb_control( 2020): [onKeyDown]  keyCode��22  Oklist_view.getVisibility():0 Constant.isHidden:false
+I/dvb_control( 2020): [onKeyDown]  Oklist_view is show,So Didn't do anything............
+I/DVB_main( 2020): [dispatchKeyEvent]  Does not deal with the keyCode
+E/WindowManager(  954): ##############################dispatchUnhandledKey
+D/Downloader(  744): Downloadserver bandWidth:1928234
+D/Downloader(  744): Downloadserver bandWidth:1927490
+D/Downloader(  744): Downloadserver bandWidth:1927490
+D/Downloader(  744): Downloadserver bandWidth:1927490
+I/DVB_main( 2020): [dispatchKeyEvent]  Action:1  keyCode:22
+I/DVB_main( 2020): [dispatchKeyEvent]  Does not deal with the keyCode
+I/DVB_main( 2020): [dispatchKeyEvent]  Action:0  keyCode:22
+I/dvb_control( 2020): [onKeyDown]  keyCode��22  Oklist_view.getVisibility():0 Constant.isHidden:false
+I/dvb_control( 2020): [onKeyDown]  Oklist_view is show,So Didn't do anything............
+I/DVB_main( 2020): [dispatchKeyEvent]  Does not deal with the keyCode
+E/WindowManager(  954): ##############################dispatchUnhandledKey
+D/dalvikvm( 1645): GC_CONCURRENT freed 927K, 63% free 2974K/7875K, paused 2ms+3ms
+I/DVB_main( 2020): [dispatchKeyEvent]  Action:1  keyCode:22
+I/DVB_main( 2020): [dispatchKeyEvent]  Does not deal with the keyCode
+D/DataSource_M3U8(  744): getHLSPlayListInex  DownloadBandWidth:2535539   uInDex=0
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744): ============Begin to get playlist !!=====================
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744): 
+D/dalvikvm( 1645): GC_CONCURRENT freed 847K, 63% free 2978K/7875K, paused 3ms+3ms
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744):  connect Server :live.feifeikan.com
+D/DataSource_M3U8(  744): parseM3U8 .......!
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/108?slice=017893   
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/108?slice=017894   
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/108?slice=017895   
+D/DataSource_M3U8(  744): [M3U8] file: NULL line 
+D/DataSource_M3U8(  744): HLS=====>> Live Stream!!!!
+D/dalvikvm( 1645): GC_CONCURRENT freed 861K, 64% free 2868K/7875K, paused 3ms+3ms
+I/DVB_main( 2020): [dispatchKeyEvent]  Action:0  keyCode:19
+I/dvb_control( 2020): [onKeyDown]  keyCode��19  Oklist_view.getVisibility():0 Constant.isHidden:false
+I/dvb_control( 2020): [onKeyDown]  Oklist_view is show,So Didn't do anything............
+I/DVB_main( 2020): [dispatchKeyEvent]  Does not deal with the keyCode
+E/WindowManager(  954): ##############################dispatchUnhandledKey
+I/DVB_main( 2020): [dispatchKeyEvent]  Action:1  keyCode:19
+I/DVB_main( 2020): [dispatchKeyEvent]  Does not deal with the keyCode
+I//lib/ld-linux.so.3(  748): FrmCnt:7807(0,2,6) Rate:24 Sys:2568819 STC:34121803 VPTS:34121781 APTS:34121758 Delay:18(40) V:0 A:23 VES:0x11c1c0 AES:0x8000 PCM:0x4b500 AudioErr:0x0
+I/DVB_main( 2020): [dispatchKeyEvent]  Action:0  keyCode:19
+I/dvb_control( 2020): [onKeyDown]  keyCode��19  Oklist_view.getVisibility():0 Constant.isHidden:false
+I/dvb_control( 2020): [onKeyDown]  Oklist_view is show,So Didn't do anything............
+I/DVB_main( 2020): [dispatchKeyEvent]  Does not deal with the keyCode
+E/WindowManager(  954): ##############################dispatchUnhandledKey
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744):  Warnig::  getValidBufferLength()  <  Codec require !!!
+D/dalvikvm( 1645): GC_CONCURRENT freed 707K, 64% free 2871K/7875K, paused 3ms+3ms
+D/DataSource_M3U8(  744): getHLSPlayListInex  DownloadBandWidth:2535539   uInDex=0
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744): ============Begin to get playlist !!=====================
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744): 
+I/DVB_main( 2020): [dispatchKeyEvent]  Action:1  keyCode:19
+I/DVB_main( 2020): [dispatchKeyEvent]  Does not deal with the keyCode
+I/DVB_main( 2020): [dispatchKeyEvent]  Action:0  keyCode:19
+I/dvb_control( 2020): [onKeyDown]  keyCode��19  Oklist_view.getVisibility():0 Constant.isHidden:false
+I/dvb_control( 2020): [onKeyDown]  Oklist_view is show,So Didn't do anything............
+I/DVB_main( 2020): [dispatchKeyEvent]  Does not deal with the keyCode
+E/WindowManager(  954): ##############################dispatchUnhandledKey
+D/dalvikvm( 1645): GC_CONCURRENT freed 706K, 64% free 2871K/7875K, paused 2ms+3ms
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744):  connect Server :live.feifeikan.com
+D/DataSource_M3U8(  744): parseM3U8 .......!
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/108?slice=017893   
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/108?slice=017894   
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/108?slice=017895   
+D/DataSource_M3U8(  744): [M3U8] file: NULL line 
+D/DataSource_M3U8(  744): HLS=====>> Live Stream!!!!
+I/DVB_main( 2020): [dispatchKeyEvent]  Action:1  keyCode:19
+I/DVB_main( 2020): [dispatchKeyEvent]  Does not deal with the keyCode
+I/DVB_main( 2020): [dispatchKeyEvent]  Action:0  keyCode:21
+I/dvb_control( 2020): [onKeyDown]  keyCode��21  Oklist_view.getVisibility():0 Constant.isHidden:false
+I/dvb_control( 2020): [onKeyDown]  Oklist_view is show,So Didn't do anything............
+I/DVB_main( 2020): [dispatchKeyEvent]  Does not deal with the keyCode
+E/WindowManager(  954): ##############################dispatchUnhandledKey
+I/DVB_main( 2020): [dispatchKeyEvent]  Action:1  keyCode:21
+I/DVB_main( 2020): [dispatchKeyEvent]  Does not deal with the keyCode
+D/MonitorCw880( 2539): currentRemoteHost is null ,continue
+I/DVB_main( 2020): [dispatchKeyEvent]  Action:0  keyCode:21
+D/DataSource_M3U8(  744): getHLSPlayListInex  DownloadBandWidth:2535539   uInDex=0
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744): ============Begin to get playlist !!=====================
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744): 
+I/dvb_control( 2020): [onKeyDown]  keyCode��21  Oklist_view.getVisibility():0 Constant.isHidden:false
+I/dvb_control( 2020): [onKeyDown]  Oklist_view is show,So Didn't do anything............
+I/DVB_main( 2020): [dispatchKeyEvent]  Does not deal with the keyCode
+E/WindowManager(  954): ##############################dispatchUnhandledKey
+I/DVB_main( 2020): [dispatchKeyEvent]  Action:1  keyCode:21
+I/DVB_main( 2020): [dispatchKeyEvent]  Does not deal with the keyCode
+I/DVB_main( 2020): [dispatchKeyEvent]  Action:0  keyCode:21
+I/dvb_control( 2020): [onKeyDown]  keyCode��21  Oklist_view.getVisibility():0 Constant.isHidden:false
+I/dvb_control( 2020): [onKeyDown]  Oklist_view is show,So Didn't do anything............
+I/DVB_main( 2020): [dispatchKeyEvent]  Does not deal with the keyCode
+E/WindowManager(  954): ##############################dispatchUnhandledKey
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744):  connect Server :live.feifeikan.com
+D/DataSource_M3U8(  744): parseM3U8 .......!
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/108?slice=017894   
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/108?slice=017895   
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744):  update  playlist[16] ==>> mediaSequence : 0   url = http://live.feifeikan.com/live/hls/108?slice=017896   
+D/DataSource_M3U8(  744): [M3U8] file: NULL line 
+D/DataSource_M3U8(  744): HLS=====>> Live Stream!!!!
+D/DataSource_M3U8(  744): [M3U8] checkShouldStartNext :[0](623784/623784)   sequence:0  start next:1  
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744): [M3U8]-7----->This :0x52698 --> post cmd for start next url:http://live.feifeikan.com/live/hls/108?slice=017896, knowedFileSize:0, mCurDowningIndex:0
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744): 
+D/Downloader(  744): [downloadThread]Downloader::removeTask  
+D/Downloader(  744): [downloadThread]task have range string:0- 
+I/DVB_main( 2020): [dispatchKeyEvent]  Action:1  keyCode:21
+I/DVB_main( 2020): [dispatchKeyEvent]  Does not deal with the keyCode
+I/DVB_main( 2020): [dispatchKeyEvent]  Action:0  keyCode:20
+I/dvb_control( 2020): [onKeyDown]  keyCode��20  Oklist_view.getVisibility():0 Constant.isHidden:false
+I/dvb_control( 2020): [onKeyDown]  Oklist_view is show,So Didn't do anything............
+I/DVB_main( 2020): [dispatchKeyEvent]  Does not deal with the keyCode
+E/WindowManager(  954): ##############################dispatchUnhandledKey
+I//lib/ld-linux.so.3(  748): FrmCnt:7845(0,2,6) Rate:25 Sys:2570337 STC:34123320 VPTS:34123301 APTS:34123298 Delay:21(40) V:0 A:18 VES:0x101f40 AES:0x8010 PCM:0x4b200 AudioErr:0x0
+I/DVB_main( 2020): [dispatchKeyEvent]  Action:1  keyCode:20
+I/DVB_main( 2020): [dispatchKeyEvent]  Does not deal with the keyCode
+I/DVB_main( 2020): [dispatchKeyEvent]  Action:0  keyCode:20
+I/dvb_control( 2020): [onKeyDown]  keyCode��20  Oklist_view.getVisibility():0 Constant.isHidden:false
+I/dvb_control( 2020): [onKeyDown]  Oklist_view is show,So Didn't do anything............
+I/DVB_main( 2020): [dispatchKeyEvent]  Does not deal with the keyCode
+E/WindowManager(  954): ##############################dispatchUnhandledKey
+D/DataSource_M3U8(  744): getHLSPlayListInex  DownloadBandWidth:1927490   uInDex=0
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744): ============Begin to get playlist !!=====================
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744): 
+I/DVB_main( 2020): [dispatchKeyEvent]  Action:1  keyCode:20
+I/DVB_main( 2020): [dispatchKeyEvent]  Does not deal with the keyCode
+I/DVB_main( 2020): [dispatchKeyEvent]  Action:0  keyCode:20
+I/dvb_control( 2020): [onKeyDown]  keyCode��20  Oklist_view.getVisibility():0 Constant.isHidden:false
+I/dvb_control( 2020): [onKeyDown]  Oklist_view is show,So Didn't do anything............
+I/DVB_main( 2020): [dispatchKeyEvent]  Does not deal with the keyCode
+E/WindowManager(  954): ##############################dispatchUnhandledKey
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744):  connect Server :live.feifeikan.com
+D/DataSource_M3U8(  744): parseM3U8 .......!
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/108?slice=017894   
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/108?slice=017895   
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744):  do not update  mediaSequence : 0   url = http://live.feifeikan.com/live/hls/108?slice=017896   
+D/DataSource_M3U8(  744): [M3U8] file: NULL line 
+D/DataSource_M3U8(  744): HLS=====>> Live Stream!!!!
+I/DVB_main( 2020): [dispatchKeyEvent]  Action:1  keyCode:20
+I/DVB_main( 2020): [dispatchKeyEvent]  Does not deal with the keyCode
+I/DVB_main( 2020): [dispatchKeyEvent]  Action:0  keyCode:20
+I/dvb_control( 2020): [onKeyDown]  keyCode��20  Oklist_view.getVisibility():0 Constant.isHidden:false
+I/dvb_control( 2020): [onKeyDown]  Oklist_view is show,So Didn't do anything............
+I/DVB_main( 2020): [dispatchKeyEvent]  Does not deal with the keyCode
+E/WindowManager(  954): ##############################dispatchUnhandledKey
+I/DVB_main( 2020): [dispatchKeyEvent]  Action:1  keyCode:20
+I/DVB_main( 2020): [dispatchKeyEvent]  Does not deal with the keyCode
+D/DataSource_M3U8(  744): getHLSPlayListInex  DownloadBandWidth:1927490   uInDex=0
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744): ============Begin to get playlist !!=====================
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744):  Warnig::  getValidBufferLength()  <  Codec require !!!
+I//lib/ld-linux.so.3(  748): FrmCnt:7883(0,2,6) Rate:25 Sys:2571840 STC:34124824 VPTS:34124821 APTS:34124782 Delay:37(40) V:11 A:29 VES:0xf8560 AES:0x8020 PCM:0x4bb80 AudioErr:0x0
+D/Downloader(  744): Downloadserver bandWidth:2330850
+D/Downloader(  744): Downloadserver bandWidth:2330850
+D/Downloader(  744): Downloadserver bandWidth:2330850
+D/Downloader(  744): Downloadserver bandWidth:2330850
+I/DVB_main( 2020): [dispatchKeyEvent]  Action:0  keyCode:23
+I/dvb_control( 2020): [onKeyDown]  keyCode��23  Oklist_view.getVisibility():0 Constant.isHidden:false
+I/dvb_control( 2020): [onKeyDown]  Oklist_view is show,So Didn't do anything............
+I/DVB_main( 2020): [dispatchKeyEvent]  Does not deal with the keyCode
+E/WindowManager(  954): ##############################dispatchUnhandledKey
+I/MonitorCw880( 2539): easybusReceive success !
+D/MonitorCw880( 2539):  easybusMsg.remoteIp=  192.168.43.152 easybusMsg.remotePort=  55078 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/MonitorCw880( 2539):  ip error -> currentRemoteHost=null easybusMsg.remoteIp=192.168.43.152, counter=3
+D/DataSource_M3U8(  744): 
+D/DataSource_M3U8(  744):  Warnig::  getValidBufferLength()  <  Codec require !!!
+I/DVB_main( 2020): [dispatchKeyEvent]  Action:1  keyCode:23
+I/DVB_main( 2020): [dispatchKeyEvent]  Does not deal with the keyCode
+I/DVB_main( 2020): [dispatchKeyEvent]  Action:0  keyCode:23
+I/dvb_control( 2020): [onKeyDown]  keyCode��23  Oklist_view.getVisibility():0 Constant.isHidden:false
+I/dvb_control( 2020): [onKeyDown]  Oklist_view is show,So Didn't do anything............
+I/DVB_main( 2020): [dispatchKeyEvent]  Does not deal with the keyCode
+E/WindowManager(  954): ##############################dispatchUnhandledKey
+I/DVB_main( 2020): [dispatchKeyEvent]  Action:1  keyCode:23
+I/DVB_main( 2020): [dispatchKeyEvent]  Does not deal with the keyCode
+I/DVB_main( 2020): [dispatchKeyEvent]  Action:0  keyCode:23
+I/dvb_control( 2020): [onKeyDown]  keyCode��23  Oklist_view.getVisibility():0 Constant.isHidden:false
+I/dvb_control( 2020): [onKeyDown]  Oklist_view is show,So Didn't do anything............
+I/DVB_main( 2020): [dispatchKeyEvent]  Does not deal with the keyCode
+E/WindowManager(  954): ##############################dispatchUnhandledKey
+I//lib/ld-linux.so.3(  748): FrmCnt:7921(0,2,6) Rate:25 Sys:2573348 STC:34126332 VPTS:34126341 APTS:34126314 Delay:49(40) V:0 A:31 VES:0x146fc0 AES:0x7f40 PCM:0x4af00 AudioErr:0x0
+I/DVB_main( 2020): [dispatchKeyEvent]  Action:1  keyCode:23
+I/DVB_main( 2020): [dispatchKeyEvent]  Does not deal with the keyCode
+^C

@@ -1,0 +1,249 @@
+E/        ( 1261): get vaddr failed:pvaddr_read=0x5ff8c000,pvaddr_internal=0x6008c000,pvaddr_write=0x0
+D/dalvikvm( 1261): GC_CONCURRENT freed 3108K, 34% free 17361K/26115K, paused 2ms+3ms
+E/        ( 1261): get vaddr failed:pvaddr_read=0x5ff8c000,pvaddr_internal=0x6008c000,pvaddr_write=0x0
+D/dalvikvm( 1261): GC_FOR_ALLOC freed 495K, 29% free 18556K/26115K, paused 27ms
+[ 4189.350012] IR: [03932] scan key value is 0xeb148000 
+[ 4189.350016]  
+[ 4189.410860] IR: [03932] scan key value is 0xeb148000 
+[ 4189.410865]  D/InputEventConsistencyVerifier( 1261): KeyEvent: ACTION_UP but key was not down.
+D/InputEventConsistencyVerifier( 1261):   in com.coship.cibn.view.ScaleViewPanel@41a1dd08
+D/InputEventConsistencyVerifier( 1261):   0: sent at 4189577000000, KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_RIGHT, scanCode=106, metaState=0, flags=0x8, repeatCount=0, eventTime=4189577, downTime=4189355, deviceId=2, source=0x101 }
+D/InputEventConsistencyVerifier( 1261):   -- recent events --
+D/InputEventConsistencyVerifier( 1261):   1: sent at 3901640000000, (unhandled) KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=108, metaState=0, flags=0x8, repeatCount=0, eventTime=3901640, downTime=3901640, deviceId=2, source=0x101 }
+D/InputEventConsistencyVerifier( 1261):   2: sent at 3901329000000, (unhandled) KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_RIGHT, scanCode=106, metaState=0, flags=0x80000008, repeatCount=0, eventTime=3901329, downTime=3901117, deviceId=2, source=0x101 }
+
+[ 4189.749657] IR: [03932] scan key value is 0xea158000 
+[ 4189.749662]  
+[ 4189.810706] IR: [03932] scan key value is 0xea158000 
+[ 4189.810710]  D/InputEventConsistencyVerifier( 1261): KeyEvent: ACTION_UP but key was not down.
+D/InputEventConsistencyVerifier( 1261):   in com.coship.cibn.view.ScaleViewPanel@4149ea40
+D/InputEventConsistencyVerifier( 1261):   0: sent at 4189977000000, KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_DOWN, scanCode=108, metaState=0, flags=0x8, repeatCount=0, eventTime=4189977, downTime=4189755, deviceId=2, source=0x101 }
+D/InputEventConsistencyVerifier( 1261):   -- recent events --
+D/InputEventConsistencyVerifier( 1261):   1: sent at 3901986000000, (unhandled) KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=105, metaState=0, flags=0x8, repeatCount=0, eventTime=3901986, downTime=3901986, deviceId=2, source=0x101 }
+D/InputEventConsistencyVerifier( 1261):   2: sent at 3901853000000, (unhandled) KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_DOWN, scanCode=108, metaState=0, flags=0x80000008, repeatCount=0, eventTime=3901853, downTime=3901640, deviceId=2, source=0x101 }
+D/InputEventConsistencyVerifier( 1261):   3: sent at 3797640699000, MotionEvent { action=ACTION_CANCEL, id[0]=0, x[0]=828.35284, y[0]=226.50208, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=3797640, downTime=3797616, deviceId=5, source=0x1002 }
+D/InputEventConsistencyVerifier( 1261):   4: sent at 3797616807000, MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=127.39581, y[0]=57.482666, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=3797616, downTime=3797616, deviceId=5, source=0x1002 }
+D/InputEventConsistencyVerifier( 1261):   5: sent at 3769941233000, MotionEvent { action=ACTION_CANCEL, id[0]=0, x[0]=778.3919, y[0]=230.49655, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, metaState=0, flags=0x
+[ 4190.179989] IR: [03932] scan key value is 0xed128000 
+[ 4190.179994]  0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=3769941, downTime=3769900, deviceId=5, source=0x1002 }
+D/HomePlayerLib( 1698): hostaddress count is 1
+
+[ 4190.240908] IR: [03932] scan key value is 0xed128000 
+[ 4190.240913]  D/dalvikvm( 1698): GC_CONCURRENT freed 722K, 63% free 2914K/7811K, paused 4ms+3ms
+D/dalvikvm( 1698): GC_CONCURRENT freed 784K, 63% free 2962K/7811K, paused 2ms+3ms
+I/MonitorCw880( 2494): easybusReceive success !
+D/MonitorCw880( 2494):  easybusMsg.remoteIp=  192.168.2.106 easybusMsg.remotePort=  58554 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/InputEventConsistencyVerifier( 1261): KeyEvent: ACTION_UP but key was not down.
+D/InputEventConsistencyVerifier( 1261):   in com.coship.cibn.view.ScaleViewPanel@41a2db08
+D/InputEventConsistencyVerifier( 1261):   0: sent at 4190409000000, KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_LEFT, scanCode=105, metaState=0, flags=0x8, repeatCount=0, eventTime=4190409, downTime=4190186, deviceId=2, source=0x101 }
+D/InputEventConsistencyVerifier( 1261):   -- recent events --
+D/InputEventConsistencyVerifier( 1261):   1: sent at 4189355000000, (unhandled) KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=106, metaState=0, flags=0x8, repeatCount=0, eventTime=4189355, downTime=4189355, deviceId=2, source=0x101 }
+D/InputEventConsistencyVerifier( 1261):   2: sent at 3947997000000, KeyEvent { action=ACTION_UP, keyCode=KEYCODE_ENTER, scanCode=28, metaState=0, flags=0x8, repeatCount=0, eventTime=3947997, downTime=3947774, deviceId=2, source=0x101 }
+D/InputEventConsistencyVerifier( 1261):   3: sent at 3947774000000, KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_ENTER, scanCode=28, metaState=0, flags=0x8, repeatCount=0, eventTime=3947774, 
+[ 4190.547680] IR: [03932] scan key value is 0xec138000 
+[ 4190.547686]  downTime=3947774, deviceId=2, source=0x101 }
+D/InputEventConsistencyVerifier( 1261):   4: sent at 3902505000000, KeyEvent { action=ACTION_UP, keyCode=KEYCODE_ENTER, scanCode=28, metaState=0, flags=0x8, repeatCount=0, eventTime=3902505, downTime=3902345, deviceId=2, source=0x101 }
+D/InputEventConsistencyVerifier( 1261):   5: sent at 3902345000000, KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_ENTER, scanCode=28, metaState=0, flags=0x8, repeatCount=0, eventTime=3902345, downTime=3902345, deviceId=2, source=0x101 }
+D/dalvikvm( 1698): GC_CONCURRENT freed 834K, 64% free 2864K/7811K, paused 2ms+2ms
+D/RecommondAgency( 1261): CIBN ---> 12629
+I/ActivityManager(  954): START {act=com.aidufei.programDetail cmp=com.aidufei.movieonline/.ProgramDetailActivity (has extras)} from pid 1261
+I/ActivityManager(  954): Start proc com.aidufei.movieonline for activity com.aidufei.movieonline/.ProgramDetailActivity: pid=3603 uid=10000 gids={3003, 1015}
+D/dalvikvm(  742): GC_EXPLICIT freed 40K, 44% free 6574K/11651K, paused 2ms+4ms
+D/FeiApplication( 3603): read server address from SharedPreferences.
+D/com.aidufei.movieonline.FeiApplication$onCreate �?45
+        ( 3603):  == 启动捕获未知异常监听，并记录日志 == 
+D/dalvikvm(  742): GC_EXPLICIT freed <1K, 44% free 6574K/11651K, paused 2ms+14ms
+E/        ( 1261): get vaddr failed:pvaddr_read=0x5ff8c000,pvaddr_internal=0x6008c000,pvaddr_write=0x0
+D/com.aidufei.movieonline.FeiApplication$2$run �?54
+        ( 3603): 清除过期的日志文�?
+                                             E/        ( 1261): get vaddr failed:pvaddr_read=0x5ff8c000,pvaddr_internal=0x6008c000,pvaddr_write=0x0
+D/dalvikvm( 1698): GC_CONCURRENT freed 704K, 62% free 2978K/7811K, paused 7ms+15ms
+D/dalvikvm(  742): GC_EXPLICIT freed <1K, 44% free 6574K/11651K, paused 4ms+6ms
+D/dalvikvm( 1261): GC_CONCURRENT freed 2215K, 30% free 18326K/26115K, paused 2ms+3ms
+D/dalvikvm( 1698): GC_CONCURRENT freed 859K, 63% free 2966K/7811K, paused 2ms+2ms
+I/Process (  954): Sending signal. PID: 3603 SIG: 3
+I/dalvikvm( 3603): threadid=3: reacting to signal 3
+I/dalvikvm( 3603): Wrote stack traces to '/data/anr/traces.txt'
+D/dalvikvm( 1698): GC_CONCURRENT freed 840K, 62% free 2974K/7811K, paused 2ms+3ms
+I/Process (  954): Sending signal. PID: 3603 SIG: 3
+I/dalvikvm( 3603): threadid=3: reacting to signal 3
+I/dalvikvm( 3603): Wrote stack traces to '/data/anr/traces.txt'
+I/Process (  954): Sending signal. PID: 3603 SIG: 3
+I/dalvikvm( 3603): threadid=3: reacting to signal 3
+I/dalvikvm( 3603): Wrote stack traces to '/data/anr/traces.txt'
+I/Process (  954): Sending signal. PID: 3603 SIG: 3
+I/dalvikvm( 3603): threadid=3: reacting to signal 3
+I/dalvikvm( 3603): Wrote stack traces to '/data/anr/traces.txt'
+D/dalvikvm(  954): GC_CONCURRENT freed 1191K, 66% free 3763K/10819K, paused 2ms+4ms
+I/Process (  954): Sending signal. PID: 3603 SIG: 3
+I/dalvikvm( 3603): threadid=3: reacting to signal 3
+I/dalvikvm( 3603): Wrote stack traces to '/data/anr/traces.txt'
+I/Process (  954): Sending signal. PID: 3603 SIG: 3
+I/dalvikvm( 3603): threadid=3: reacting to signal 3
+I/dalvikvm( 3603): Wrote stack traces to '/data/anr/traces.txt'
+E/        ( 1261): get vaddr failed:pvaddr_read=0x5ff8c000,pvaddr_internal=0x6008c000,pvaddr_write=0x0
+E/        ( 1261): get vaddr failed:pvaddr_read=0x5ff8c000,pvaddr_internal=0x6008c000,pvaddr_write=0x0
+D/dalvikvm( 1261): GC_FOR_ALLOC freed 2483K, 35% free 17223K/26115K, paused 25ms
+D/dalvikvm( 1261): GC_FOR_ALLOC freed 321K, 29% free 18557K/26115K, paused 25ms
+I/Process (  954): Sending signal. PID: 3603 SIG: 3
+I/dalvikvm( 3603): threadid=3: reacting to signal 3
+I/dalvikvm( 3603): Wrote stack traces to '/data/anr/traces.txt'
+I/Process (  954): Sending signal. PID: 3603 SIG: 3
+I/dalvikvm( 3603): threadid=3: reacting to signal 3
+I/dalvikvm( 3603): Wrote stack traces to '/data/anr/traces.txt'
+I/Process (  954): Sending signal. PID: 3603 SIG: 3
+I/dalvikvm( 3603): threadid=3: reacting to signal 3
+I/dalvikvm( 3603): Wrote stack traces to '/data/anr/traces.txt'
+I/MonitorCw880( 2494): easybusReceive success !
+D/MonitorCw880( 2494):  easybusMsg.remoteIp=  192.168.2.106 easybusMsg.remotePort=  58554 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/dalvikvm( 1698): GC_CONCURRENT freed 838K, 64% free 2866K/7811K, paused 3ms+2ms
+I/Process (  954): Sending signal. PID: 3603 SIG: 3
+I/dalvikvm( 3603): threadid=3: reacting to signal 3
+I/dalvikvm( 3603): Wrote stack traces to '/data/anr/traces.txt'
+D/dalvikvm( 1698): GC_CONCURRENT freed 706K, 64% free 2865K/7811K, paused 2ms+2ms
+D/dalvikvm( 1698): GC_CONCURRENT freed 704K, 64% free 2865K/7811K, paused 2ms+2ms
+I/Process (  954): Sending signal. PID: 3603 SIG: 3
+I/dalvikvm( 3603): threadid=3: reacting to signal 3
+I/dalvikvm( 3603): Wrote stack traces to '/data/anr/traces.txt'
+D/dalvikvm( 1698): GC_CONCURRENT freed 703K, 64% free 2866K/7811K, paused 2ms+3ms
+I/Process (  954): Sending signal. PID: 3603 SIG: 3
+I/dalvikvm( 3603): threadid=3: reacting to signal 3
+D/dalvikvm( 1698): GC_CONCURRENT freed 705K, 64% free 2866K/7811K, paused 3ms+3ms
+I/dalvikvm( 3603): Wrote stack traces to '/data/anr/traces.txt'
+D/dalvikvm( 1698): GC_CONCURRENT freed 701K, 64% free 2864K/7811K, paused 3ms+4ms
+E/        ( 1261): get vaddr failed:pvaddr_read=0x5ff8c000,pvaddr_internal=0x6008c000,pvaddr_write=0x0
+E/        ( 1261): get vaddr failed:pvaddr_read=0x5ff8c000,pvaddr_internal=0x6008c000,pvaddr_write=0x0
+D/dalvikvm( 1261): GC_CONCURRENT freed 2160K, 30% free 18420K/26115K, paused 1ms+3ms
+I/Process (  954): Sending signal. PID: 3603 SIG: 3
+I/dalvikvm( 3603): threadid=3: reacting to signal 3
+I/dalvikvm( 3603): Wrote stack traces to '/data/anr/traces.txt'
+D/dalvikvm( 1698): GC_CONCURRENT freed 705K, 64% free 2863K/7811K, paused 3ms+3ms
+D/dalvikvm( 1698): GC_CONCURRENT freed 703K, 64% free 2862K/7811K, paused 2ms+3ms
+I/Process (  954): Sending signal. PID: 3603 SIG: 3
+I/dalvikvm( 3603): threadid=3: reacting to signal 3
+I/dalvikvm( 3603): Wrote stack traces to '/data/anr/traces.txt'
+D/dalvikvm( 1698): GC_CONCURRENT freed 703K, 64% free 2862K/7811K, paused 3ms+3ms
+D/dalvikvm( 1698): GC_CONCURRENT freed 704K, 64% free 2864K/7811K, paused 2ms+4ms
+I/Process (  954): Sending signal. PID: 3603 SIG: 3
+I/dalvikvm( 3603): threadid=3: reacting to signal 3
+I/dalvikvm( 3603): Wrote stack traces to '/data/anr/traces.txt'
+D/dalvikvm( 1698): GC_CONCURRENT freed 703K, 64% free 2865K/7811K, paused 2ms+2ms
+I/Process (  954): Sending signal. PID: 3603 SIG: 3
+I/dalvikvm( 3603): threadid=3: reacting to signal 3
+I/dalvikvm( 3603): Wrote stack traces to '/data/anr/traces.txt'
+D/dalvikvm( 1698): GC_CONCURRENT freed 703K, 64% free 2863K/7811K, paused 2ms+3ms
+I/Process (  954): Sending signal. PID: 3603 SIG: 3
+I/dalvikvm( 3603): threadid=3: reacting to signal 3
+I/dalvikvm( 3603): Wrote stack traces to '/data/anr/traces.txt'
+D/dalvikvm( 1698): GC_CONCURRENT freed 703K, 64% free 2863K/7811K, paused 2ms+3ms
+I/Process (  954): Sending signal. PID: 3603 SIG: 3
+I/dalvikvm( 3603): threadid=3: reacting to signal 3
+I/dalvikvm( 3603): Wrote stack traces to '/data/anr/traces.txt'
+D/dalvikvm( 1698): GC_CONCURRENT freed 705K, 64% free 2865K/7811K, paused 3ms+3ms
+D/dalvikvm( 1698): GC_CONCURRENT freed 701K, 64% free 2865K/7811K, paused 2ms+3ms
+E/        ( 1261): get vaddr failed:pvaddr_read=0x5ff8c000,pvaddr_internal=0x6008c000,pvaddr_write=0x0
+E/        ( 1261): get vaddr failed:pvaddr_read=0x5ff8c000,pvaddr_internal=0x6008c000,pvaddr_write=0x0
+I/Process (  954): Sending signal. PID: 3603 SIG: 3
+I/dalvikvm( 3603): threadid=3: reacting to signal 3
+I/dalvikvm( 3603): Wrote stack traces to '/data/anr/traces.txt'
+D/dalvikvm( 1698): GC_CONCURRENT freed 705K, 64% free 2865K/7811K, paused 2ms+2ms
+I/MonitorCw880( 2494): easybusReceive success !
+D/MonitorCw880( 2494):  easybusMsg.remoteIp=  192.168.2.106 easybusMsg.remotePort=  58554 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+W/ActivityManager(  954): Launch timeout has expired, giving up wake lock!
+W/ActivityManager(  954): Activity idle timeout for ActivityRecord{416a02a0 com.aidufei.movieonline/.ProgramDetailActivity}
+D/HomePlayerLib( 1698): hostaddress count is 1
+D/dalvikvm( 1698): GC_CONCURRENT freed 723K, 64% free 2853K/7811K, paused 2ms+2ms
+D/dalvikvm( 1698): GC_CONCURRENT freed 702K, 64% free 2855K/7811K, paused 2ms+2ms
+D/dalvikvm( 1698): GC_CONCURRENT freed 699K, 62% free 2978K/7811K, paused 2ms+3ms
+D/dalvikvm( 1698): GC_CONCURRENT freed 864K, 64% free 2863K/7811K, paused 2ms+3ms
+D/dalvikvm( 1698): GC_CONCURRENT freed 691K, 62% free 2985K/7811K, paused 2ms+2ms
+D/dalvikvm( 1698): GC_CONCURRENT freed 869K, 64% free 2867K/7811K, paused 2ms+2ms
+D/dalvikvm( 1261): GC_CONCURRENT freed 3107K, 34% free 17260K/26115K, paused 1ms+3ms
+E/        ( 1261): get vaddr failed:pvaddr_read=0x5ff8c000,pvaddr_internal=0x6008c000,pvaddr_write=0x0
+E/        ( 1261): get vaddr failed:pvaddr_read=0x5ff8c000,pvaddr_internal=0x6008c000,pvaddr_write=0x0
+D/dalvikvm( 1261): GC_FOR_ALLOC freed 495K, 29% free 18558K/26115K, paused 27ms
+I/MonitorCw880( 2494): easybusReceive success !
+D/MonitorCw880( 2494):  easybusMsg.remoteIp=  192.168.2.106 easybusMsg.remotePort=  58554 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+D/dalvikvm( 1698): GC_CONCURRENT freed 703K, 64% free 2864K/7811K, paused 2ms+3ms
+E/        ( 1261): get vaddr failed:pvaddr_read=0x5ff8c000,pvaddr_internal=0x6008c000,pvaddr_write=0x0
+E/        ( 1261): get vaddr failed:pvaddr_read=0x5ff8c000,pvaddr_internal=0x6008c000,pvaddr_write=0x0
+D/dalvikvm( 1261): GC_CONCURRENT freed 2160K, 30% free 18419K/26115K, paused 1ms+7ms
+D/dalvikvm( 1698): GC_CONCURRENT freed 705K, 64% free 2865K/7811K, paused 6ms+3ms
+D/dalvikvm( 1698): GC_CONCURRENT freed 704K, 64% free 2863K/7811K, paused 2ms+2ms
+D/dalvikvm( 1698): GC_CONCURRENT freed 703K, 64% free 2864K/7811K, paused 2ms+3ms
+D/dalvikvm( 1698): GC_CONCURRENT freed 705K, 64% free 2862K/7811K, paused 2ms+2ms
+E/        ( 1261): get vaddr failed:pvaddr_read=0x5ff8c000,pvaddr_internal=0x6008c000,pvaddr_write=0x0
+E/        ( 1261): get vaddr failed:pvaddr_read=0x5ff8c000,pvaddr_internal=0x6008c000,pvaddr_write=0x0
+D/dalvikvm( 1261): GC_FOR_ALLOC freed 2481K, 35% free 17223K/26115K, paused 27ms
+D/dalvikvm( 1261): GC_FOR_ALLOC freed 321K, 29% free 18557K/26115K, paused 27ms
+I/MonitorCw880( 2494): easybusReceive success !
+D/MonitorCw880( 2494):  easybusMsg.remoteIp=  192.168.2.106 easybusMsg.remotePort=  58554 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+W/ActivityManager(  954): Timeout executing service: ServiceRecord{414784e0 com.aidufei.movieonline/com.aidufei.otoService.OtOService}
+I/Process (  954): Sending signal. PID: 3603 SIG: 3
+I/dalvikvm( 3603): threadid=3: reacting to signal 3
+I/dalvikvm( 3603): Wrote stack traces to '/data/anr/traces.txt'
+I/Process (  954): Sending signal. PID: 954 SIG: 3
+I/dalvikvm(  954): threadid=3: reacting to signal 3
+I/dalvikvm(  954): Wrote stack traces to '/data/anr/traces.txt'
+I/Process (  954): Sending signal. PID: 1261 SIG: 3
+I/dalvikvm( 1261): threadid=3: reacting to signal 3
+I/dalvikvm( 1261): Wrote stack traces to '/data/anr/traces.txt'
+I/Process (  954): Sending signal. PID: 1288 SIG: 3
+I/dalvikvm( 1288): threadid=3: reacting to signal 3
+I/dalvikvm( 1288): Wrote stack traces to '/data/anr/traces.txt'
+I/Process (  954): Sending signal. PID: 1924 SIG: 3
+I/dalvikvm( 1924): threadid=3: reacting to signal 3
+I/dalvikvm( 1924): Wrote stack traces to '/data/anr/traces.txt'
+I/Process (  954): Sending signal. PID: 1274 SIG: 3
+I/dalvikvm( 1274): threadid=3: reacting to signal 3
+I/dalvikvm( 1274): Wrote stack traces to '/data/anr/traces.txt'
+I/Process (  954): Sending signal. PID: 1298 SIG: 3
+I/dalvikvm( 1298): threadid=3: reacting to signal 3
+I/dalvikvm( 1298): Wrote stack traces to '/data/anr/traces.txt'
+D/dalvikvm(  954): GC_CONCURRENT freed 627K, 64% free 3971K/10819K, paused 2ms+4ms
+D/dalvikvm(  954): GC_EXPLICIT freed 512K, 63% free 4033K/10819K, paused 2ms+4ms
+E/ActivityManager(  954): ANR in com.aidufei.movieonline
+E/ActivityManager(  954): Reason: Executing service com.aidufei.movieonline/com.aidufei.otoService.OtOService
+E/ActivityManager(  954): Load: 2.22 / 2.35 / 2.35
+E/ActivityManager(  954): CPU usage from 5113ms to 0ms ago:
+E/ActivityManager(  954):   21% 1698/com.coship.Multimedia: 19% user + 1.5% kernel / faults: 858 minor
+E/ActivityManager(  954):   14% 755/ld-linux.so.3: 2.7% user + 11% kernel
+E/ActivityManager(  954):   11% 1261/com.coship.cibn: 11% user + 0.1% kernel / faults: 1306 minor
+E/ActivityManager(  954):   3.3% 1451/cw880_threadfn: 0% user + 3.3% kernel
+E/ActivityManager(  954):   2.3% 1842/ksdioirqd/mmc1: 0% user + 2.3% kernel
+E/ActivityManager(  954):   0.9% 954/system_server: 0.1% user + 0.7% kernel
+E/ActivityManager(  954):   0.5% 744/mediaserver: 0.3% user + 0.1% kernel
+E/ActivityManager(  954):   0.1% 749/virtualkeypad: 0% user + 0.1% kernel
+E/ActivityManager(  954):   0% 1203/com.android.inputmethod.pinyin: 0% user + 0% kernel
+E/ActivityManager(  954):   0.1% 1274/com.coship.easycontrolime: 0.1% user + 0% kernel
+E/ActivityManager(  954):   0.1% 2494/com.coship.cw880: 0.1% user + 0% kernel / faults: 3 minor
+E/ActivityManager(  954):   0.1% 3602/logcat: 0% user + 0.1% kernel
+E/ActivityManager(  954): 9.3% TOTAL: 7% user + 2.3% kernel + 0% iowait
+E/ActivityManager(  954): CPU usage from 421ms to 945ms later:
+E/ActivityManager(  954):   13% 755/ld-linux.so.3: 5.6% user + 7.5% kernel
+E/ActivityManager(  954):     7.5% 1071/CECMonitor: 1.8% user + 5.6% kernel
+E/ActivityManager(  954):     3.7% 995/755Linux hotplu: 3.7% user + 0% kernel
+E/ActivityManager(  954):     1.8% 975/ld-linux.so.3: 1.8% user + 0% kernel
+E/ActivityManager(  954):     1.8% 994/755MStar IR: 0% user + 1.8% kernel
+E/ActivityManager(  954):     1.8% 1477/mapi_cpcodec: 0% user + 1.8% kernel
+E/ActivityManager(  954):   11% 954/system_server: 1.8% user + 9.4% kernel
+E/ActivityManager(  954):     11% 976/ActivityManager: 1.8% user + 9.4% kernel
+E/ActivityManager(  954):   3.7% 1451/cw880_threadfn: 0% user + 3.7% kernel
+E/ActivityManager(  954):   1.5% 1842/ksdioirqd/mmc1: 0% user + 1.5% kernel
+E/ActivityManager(  954): 3% TOTAL: 1.1% user + 1.9% kernel
+D/dalvikvm(  954): GC_CONCURRENT freed 800K, 63% free 4032K/10819K, paused 2ms+4ms
+D/dalvikvm(  954): GC_CONCURRENT freed 679K, 61% free 4259K/10819K, paused 5ms+4ms
+D/HomePlayerLib( 1698): hostaddress count is 1
+D/dalvikvm( 1698): GC_CONCURRENT freed 718K, 64% free 2857K/7811K, paused 3ms+3ms
+D/dalvikvm( 1698): GC_CONCURRENT freed 699K, 64% free 2860K/7811K, paused 2ms+3ms
+D/dalvikvm( 1698): GC_CONCURRENT freed 698K, 64% free 2865K/7811K, paused 2ms+2ms
+D/dalvikvm( 1698): GC_CONCURRENT freed 703K, 62% free 3005K/7811K, paused 3ms+3ms
+E/        ( 1261): get vaddr failed:pvaddr_read=0x5ff8c000,pvaddr_internal=0x6008c000,pvaddr_write=0x0
+E/        ( 1261): get vaddr failed:pvaddr_read=0x5ff8c000,pvaddr_internal=0x6008c000,pvaddr_write=0x0
+D/dalvikvm( 1261): GC_CONCURRENT freed 2160K, 30% free 18406K/26115K, paused 1ms+7ms
+D/dalvikvm( 1698): GC_CONCURRENT freed 878K, 63% free 2920K/7811K, paused 2ms+3ms
+D/dalvikvm( 1698): GC_CONCURRENT freed 790K, 64% free 2862K/7811K, paused 2ms+3ms
+I/MonitorCw880( 2494): easybusReceive success !
+D/MonitorCw880( 2494):  easybusMsg.remoteIp=  192.168.2.106 easybusMsg.remotePort=  58554 easybusMsg.msgType=  easyheartbeat easybusMsg.msgData=  easyheartbeat
+E/        ( 1261): get vaddr failed:pvaddr_read=0x5ff8c000,pvaddr_internal=0x6008c000,pvaddr_write=0x0
+E/        ( 1261): get vaddr failed:pvaddr_read=0x5ff8c000,pvaddr_internal=0x6008c000,pvaddr_write=0x0

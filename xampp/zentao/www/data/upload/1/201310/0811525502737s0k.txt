@@ -1,0 +1,5 @@
+            <?php foreach($product['projects'] as $key => $project):?>
+              <?php if($key > 0) echo "<tr class='a-center'>"?>
+              <td align='left'><?php echo "<p>" . html::a($this->createLink('project', 'view', "project=1"), $project['name']) . "</p>";?></td>-->
+              <?php if($key > 0) echo "</tr>"?>
+            <?php endforeach;?>

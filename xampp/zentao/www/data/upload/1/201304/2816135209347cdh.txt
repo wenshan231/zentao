@@ -1,0 +1,300 @@
+D/ReflectionActivity(20964): timeout=2987
+V/HttpSource( 8591): select type = 1, return = 0, errno 0
+V/HttpSource( 8591): select type = 0, return = 0, errno 22
+V/HttpSource( 8591): select type = 1, return = 0, errno 0
+V/HttpSource( 8591): select type = 0, return = 0, errno 22
+D/ReflectionActivity(20964): current=192.168.2.100
+D/ReflectionActivity(20964): timeout=3989
+V/HttpSource( 8591): select type = 1, return = 0, errno 0
+V/HttpSource( 8591): select type = 0, return = 0, errno 22
+V/HttpSource( 8591): select type = 1, return = 0, errno 0
+D/[TCP_SERVER](20659): Session local:/127.0.0.1:10201 remote:/127.0.0.1:51802@Di
+spatching 99 bytes data to uplayer
+I/[SESSION_MANAGER](20371): open session 16777314 with token oivQVfcK72FED622
+I/[SESSION_MANAGER](20371): add session 16777314
+I/[SESSION_MANAGER](20371): add token oivQVfcK72FED622
+I/[SESSION_MANAGER](20371): client DA_PC_d63ff9d0b5c7858ca3c01d12c7630b9af72aa80
+8 exist
+I/[SESSION_MANAGER](20371): add session 16777314 to client DA_PC_d63ff9d0b5c7858
+ca3c01d12c7630b9af72aa808
+D/[PMP_SERVER](20371): dispatch request to pmp://device/getBatteryInfo from clie
+nt DA_PC_d63ff9d0b5c7858ca3c01d12c7630b9af72aa808 with token oivQVfcK72FED622
+I/[PMP_SERVER](20371): dispatch request to device service
+I/[PMP_SERVER](20371): add task: oivQVfcK72FED622, current tasks count: 2
+I/[PMP_SERVER](20371): task: oivQVfcK72FED622 done
+I/[PMP_SERVER](20371): remove task: oivQVfcK72FED622
+I/[PMP_SERVER](20371): current tasks count: 1
+I/[SESSION_MANAGER](20371): close token oivQVfcK72FED622
+I/[PMP_SERVER](20371): close session: 16777314
+I/[SESSION_MANAGER](20371): close session 16777314
+I/[SESSION_MANAGER](20371): session2Tokens remove session 16777314
+I/[SESSION_MANAGER](20371): session2Client remove session 16777314
+D/[TCP_SERVER](20659): Session local:/127.0.0.1:10201 remote:/127.0.0.1:51803@Di
+spatching 105 bytes data to uplayer
+I/[SESSION_MANAGER](20371): open session 16777315 with token oivQVfcK529392B7
+I/[SESSION_MANAGER](20371): add session 16777315
+I/[SESSION_MANAGER](20371): add token oivQVfcK529392B7
+I/[SESSION_MANAGER](20371): client DA_PC_d63ff9d0b5c7858ca3c01d12c7630b9af72aa80
+8 exist
+I/[SESSION_MANAGER](20371): add session 16777315 to client DA_PC_d63ff9d0b5c7858
+ca3c01d12c7630b9af72aa808
+D/[PMP_SERVER](20371): dispatch request to pmp://device/getTelephonyInfoLite fro
+m client DA_PC_d63ff9d0b5c7858ca3c01d12c7630b9af72aa808 with token oivQVfcK52939
+2B7
+I/[PMP_SERVER](20371): dispatch request to device service
+I/[PMP_SERVER](20371): add task: oivQVfcK529392B7, current tasks count: 2
+I/[PMP_SERVER](20371): task: oivQVfcK529392B7 done
+I/[PMP_SERVER](20371): remove task: oivQVfcK529392B7
+I/[PMP_SERVER](20371): current tasks count: 1
+I/[SESSION_MANAGER](20371): close token oivQVfcK529392B7
+I/[PMP_SERVER](20371): close session: 16777315
+I/[SESSION_MANAGER](20371): close session 16777315
+I/[SESSION_MANAGER](20371): session2Tokens remove session 16777315
+D/[TCP_SERVER](20659): Session local:/127.0.0.1:10201 remote:/127.0.0.1:51804@Di
+spatching 105 bytes data to uplayer
+I/[SESSION_MANAGER](20371): session2Client remove session 16777315
+I/[SESSION_MANAGER](20371): open session 16777316 with token oivQVfcK45938C59
+I/[SESSION_MANAGER](20371): add session 16777316
+I/[SESSION_MANAGER](20371): add token oivQVfcK45938C59
+I/[SESSION_MANAGER](20371): client DA_PC_d63ff9d0b5c7858ca3c01d12c7630b9af72aa80
+8 exist
+I/[SESSION_MANAGER](20371): add session 16777316 to client DA_PC_d63ff9d0b5c7858
+ca3c01d12c7630b9af72aa808
+D/[PMP_SERVER](20371): dispatch request to pmp://device/getActiveNetworkInfo fro
+m client DA_PC_d63ff9d0b5c7858ca3c01d12c7630b9af72aa808 with token oivQVfcK45938
+C59
+I/[PMP_SERVER](20371): dispatch request to device service
+I/[PMP_SERVER](20371): add task: oivQVfcK45938C59, current tasks count: 2
+I/[PMP_SERVER](20371): task: oivQVfcK45938C59 done
+I/[PMP_SERVER](20371): remove task: oivQVfcK45938C59
+I/[PMP_SERVER](20371): current tasks count: 1
+I/[SESSION_MANAGER](20371): close token oivQVfcK45938C59
+I/[PMP_SERVER](20371): close session: 16777316
+I/[SESSION_MANAGER](20371): close session 16777316
+I/[SESSION_MANAGER](20371): session2Tokens remove session 16777316
+I/[SESSION_MANAGER](20371): session2Client remove session 16777316
+V/HttpSource( 8591): select type = 0, return = 0, errno 22
+D/ReflectionActivity(20964): current=192.168.2.100
+D/ReflectionActivity(20964): timeout=4990
+V/HttpSource( 8591): select type = 1, return = 0, errno 0
+V/HttpSource( 8591): select type = 0, return = 0, errno 22
+V/HttpSource( 8591): select type = 1, return = 0, errno 0
+V/HttpSource( 8591): select type = 0, return = 0, errno 22
+D/ReflectionActivity(20964): current=192.168.2.100
+D/ReflectionActivity(20964): timeout=5991
+V/HttpSource( 8591): select type = 1, return = 0, errno 0
+V/HttpSource( 8591): select disconnect
+V/HttpSource( 8591): feedMoreTSDataSelf while 8
+V/HttpSource( 8591): Connect: 192.168.2.100 : 1234
+V/HttpSource( 8591): select type = 0, return = 0, errno 22
+V/HttpSource( 8591): select type = 0, return = 0, errno 22
+D/ReflectionActivity(20964): current=192.168.2.100
+D/ReflectionActivity(20964): timeout=6993
+V/HttpSource( 8591): select type = 0, return = 0, errno 22
+V/HttpSource( 8591): select type = 0, return = 0, errno 22
+D/ReflectionActivity(20964): current=192.168.2.100
+D/ReflectionActivity(20964): timeout=7994
+V/HttpSource( 8591): select type = 0, return = 0, errno 22
+V/HttpSource( 8591): select disconnect
+V/HttpSource( 8591): feedMoreTSDataSelf while 59
+V/HttpSource( 8591): Connect: 192.168.2.100 : 1234
+D/[TCP_SERVER](20659): Session local:/127.0.0.1:10201 remote:/127.0.0.1:51807@Di
+spatching 162 bytes data to uplayer
+I/[SESSION_MANAGER](20371): open session 16777317 with token oivQVfcK4A69846B
+I/[SESSION_MANAGER](20371): add session 16777317
+I/[SESSION_MANAGER](20371): add token oivQVfcK4A69846B
+I/[SESSION_MANAGER](20371): client DA_PC_d63ff9d0b5c7858ca3c01d12c7630b9af72aa80
+8 exist
+I/[SESSION_MANAGER](20371): add session 16777317 to client DA_PC_d63ff9d0b5c7858
+ca3c01d12c7630b9af72aa808
+D/[PMP_SERVER](20371): dispatch request to pmp://conn/discover from client DA_PC
+_d63ff9d0b5c7858ca3c01d12c7630b9af72aa808 with token oivQVfcK4A69846B
+I/[PMP_SERVER](20371): dispatch request to conn service
+I/[PMP_SERVER](20371): add task: oivQVfcK4A69846B, current tasks count: 2
+I/[PMP_SERVER](20371): task: oivQVfcK4A69846B done
+I/[PMP_SERVER](20371): remove task: oivQVfcK4A69846B
+I/[PMP_SERVER](20371): current tasks count: 1
+I/[SESSION_MANAGER](20371): close token oivQVfcK4A69846B
+D/[TCP_SERVER](20659): Session local:/127.0.0.1:10201 remote:/127.0.0.1:51808@Di
+spatching 149 bytes data to uplayer
+I/[SESSION_MANAGER](20371): open session 16777318 with token 7A4633C4
+I/[SESSION_MANAGER](20371): add session 16777318
+I/[SESSION_MANAGER](20371): add token 7A4633C4
+I/[SESSION_MANAGER](20371): client DA_PC_d63ff9d0b5c7858ca3c01d12c7630b9af72aa80
+8 exist
+I/[SESSION_MANAGER](20371): add session 16777318 to client DA_PC_d63ff9d0b5c7858
+ca3c01d12c7630b9af72aa808
+D/[PMP_SERVER](20371): dispatch request to pmp://conn/who from client DA_PC_d63f
+f9d0b5c7858ca3c01d12c7630b9af72aa808 with token 7A4633C4
+I/[PMP_SERVER](20371): dispatch request to conn service
+I/[PMP_SERVER](20371): add task: 7A4633C4, current tasks count: 2
+I/[PMP_SERVER](20371): close session: 16777317
+I/[SESSION_MANAGER](20371): close session 16777317
+I/[SESSION_MANAGER](20371): session2Tokens remove session 16777317
+I/[SESSION_MANAGER](20371): session2Client remove session 16777317
+I/[PMP_SERVER](20371): task: 7A4633C4 done
+I/[PMP_SERVER](20371): remove task: 7A4633C4
+I/[PMP_SERVER](20371): current tasks count: 1
+I/[SESSION_MANAGER](20371): close token 7A4633C4
+I/[PMP_SERVER](20371): close session: 16777318
+I/[SESSION_MANAGER](20371): close session 16777318
+I/[SESSION_MANAGER](20371): session2Tokens remove session 16777318
+I/[SESSION_MANAGER](20371): session2Client remove session 16777318
+D/ReflectionActivity(20964): current=192.168.2.100
+D/ReflectionActivity(20964): timeout=8995
+D/[TCP_SERVER](20659): Session local:/127.0.0.1:10201 remote:/127.0.0.1:51809@Di
+spatching 99 bytes data to uplayer
+I/[SESSION_MANAGER](20371): open session 16777319 with token oivQVfcK612B2996
+I/[SESSION_MANAGER](20371): add session 16777319
+I/[SESSION_MANAGER](20371): add token oivQVfcK612B2996
+I/[SESSION_MANAGER](20371): client DA_PC_d63ff9d0b5c7858ca3c01d12c7630b9af72aa80
+8 exist
+I/[SESSION_MANAGER](20371): add session 16777319 to client DA_PC_d63ff9d0b5c7858
+ca3c01d12c7630b9af72aa808
+D/[PMP_SERVER](20371): dispatch request to pmp://device/getBatteryInfo from clie
+nt DA_PC_d63ff9d0b5c7858ca3c01d12c7630b9af72aa808 with token oivQVfcK612B2996
+I/[PMP_SERVER](20371): dispatch request to device service
+I/[PMP_SERVER](20371): add task: oivQVfcK612B2996, current tasks count: 2
+I/[PMP_SERVER](20371): task: oivQVfcK612B2996 done
+I/[PMP_SERVER](20371): remove task: oivQVfcK612B2996
+I/[PMP_SERVER](20371): current tasks count: 1
+I/[SESSION_MANAGER](20371): close token oivQVfcK612B2996
+I/[PMP_SERVER](20371): close session: 16777319
+I/[SESSION_MANAGER](20371): close session 16777319
+I/[SESSION_MANAGER](20371): session2Tokens remove session 16777319
+I/[SESSION_MANAGER](20371): session2Client remove session 16777319
+D/[TCP_SERVER](20659): Session local:/127.0.0.1:10201 remote:/127.0.0.1:51810@Di
+spatching 105 bytes data to uplayer
+I/[SESSION_MANAGER](20371): open session 16777320 with token oivQVfcK32551159
+I/[SESSION_MANAGER](20371): add session 16777320
+I/[SESSION_MANAGER](20371): add token oivQVfcK32551159
+I/[SESSION_MANAGER](20371): client DA_PC_d63ff9d0b5c7858ca3c01d12c7630b9af72aa80
+8 exist
+I/[SESSION_MANAGER](20371): add session 16777320 to client DA_PC_d63ff9d0b5c7858
+ca3c01d12c7630b9af72aa808
+D/[PMP_SERVER](20371): dispatch request to pmp://device/getTelephonyInfoLite fro
+m client DA_PC_d63ff9d0b5c7858ca3c01d12c7630b9af72aa808 with token oivQVfcK32551
+159
+I/[PMP_SERVER](20371): dispatch request to device service
+I/[PMP_SERVER](20371): add task: oivQVfcK32551159, current tasks count: 2
+I/[PMP_SERVER](20371): task: oivQVfcK32551159 done
+I/[PMP_SERVER](20371): remove task: oivQVfcK32551159
+I/[PMP_SERVER](20371): current tasks count: 1
+I/[SESSION_MANAGER](20371): close token oivQVfcK32551159
+D/[TCP_SERVER](20659): Session local:/127.0.0.1:10201 remote:/127.0.0.1:51811@Di
+spatching 105 bytes data to uplayer
+I/[SESSION_MANAGER](20371): open session 16777321 with token oivQVfcK3DE2CA15
+I/[SESSION_MANAGER](20371): add session 16777321
+I/[SESSION_MANAGER](20371): add token oivQVfcK3DE2CA15
+I/[SESSION_MANAGER](20371): client DA_PC_d63ff9d0b5c7858ca3c01d12c7630b9af72aa80
+8 exist
+I/[SESSION_MANAGER](20371): add session 16777321 to client DA_PC_d63ff9d0b5c7858
+ca3c01d12c7630b9af72aa808
+D/[PMP_SERVER](20371): dispatch request to pmp://device/getActiveNetworkInfo fro
+m client DA_PC_d63ff9d0b5c7858ca3c01d12c7630b9af72aa808 with token oivQVfcK3DE2C
+A15
+I/[PMP_SERVER](20371): dispatch request to device service
+I/[PMP_SERVER](20371): add task: oivQVfcK3DE2CA15, current tasks count: 2
+I/[PMP_SERVER](20371): task: oivQVfcK3DE2CA15 done
+I/[PMP_SERVER](20371): remove task: oivQVfcK3DE2CA15
+I/[PMP_SERVER](20371): current tasks count: 1
+I/[SESSION_MANAGER](20371): close token oivQVfcK3DE2CA15
+I/[PMP_SERVER](20371): close session: 16777320
+I/[SESSION_MANAGER](20371): close session 16777320
+I/[SESSION_MANAGER](20371): session2Tokens remove session 16777320
+I/[SESSION_MANAGER](20371): session2Client remove session 16777320
+I/[PMP_SERVER](20371): close session: 16777321
+I/[SESSION_MANAGER](20371): close session 16777321
+I/[SESSION_MANAGER](20371): session2Tokens remove session 16777321
+I/[SESSION_MANAGER](20371): session2Client remove session 16777321
+D/ReflectionActivity(20964): current=192.168.2.100
+D/ReflectionActivity(20964): timeout=9996
+D/ReflectionActivity(20964): current=192.168.2.100
+W/System.err(20964): java.lang.NullPointerException
+W/System.err(20964):    at com.coship.momokan.ReflectionActivity$HeartThread.run
+(Unknown Source)
+D/ReflectionActivity(20964): current=192.168.2.100
+W/System.err(20964): java.lang.NullPointerException
+W/System.err(20964):    at com.coship.momokan.ReflectionActivity$HeartThread.run
+(Unknown Source)
+D/Reconnect(20371): reconnect to command-directory.services.wandoujia.com:10482
+after 32000
+D/ReflectionActivity(20964): current=192.168.2.100
+W/System.err(20964): java.lang.NullPointerException
+W/System.err(20964):    at com.coship.momokan.ReflectionActivity$HeartThread.run
+(Unknown Source)
+D/ReflectionActivity(20964): current=192.168.2.100
+W/System.err(20964): java.lang.NullPointerException
+W/System.err(20964):    at com.coship.momokan.ReflectionActivity$HeartThread.run
+(Unknown Source)
+D/[TCP_SERVER](20659): Session local:/127.0.0.1:10201 remote:/127.0.0.1:51812@Di
+spatching 99 bytes data to uplayer
+I/[SESSION_MANAGER](20371): open session 16777322 with token oivQVfcK407BE472
+I/[SESSION_MANAGER](20371): add session 16777322
+I/[SESSION_MANAGER](20371): add token oivQVfcK407BE472
+I/[SESSION_MANAGER](20371): client DA_PC_d63ff9d0b5c7858ca3c01d12c7630b9af72aa80
+8 exist
+I/[SESSION_MANAGER](20371): add session 16777322 to client DA_PC_d63ff9d0b5c7858
+ca3c01d12c7630b9af72aa808
+D/[PMP_SERVER](20371): dispatch request to pmp://device/getBatteryInfo from clie
+nt DA_PC_d63ff9d0b5c7858ca3c01d12c7630b9af72aa808 with token oivQVfcK407BE472
+I/[PMP_SERVER](20371): dispatch request to device service
+I/[PMP_SERVER](20371): add task: oivQVfcK407BE472, current tasks count: 2
+I/[PMP_SERVER](20371): task: oivQVfcK407BE472 done
+I/[PMP_SERVER](20371): remove task: oivQVfcK407BE472
+I/[PMP_SERVER](20371): current tasks count: 1
+I/[SESSION_MANAGER](20371): close token oivQVfcK407BE472
+I/[PMP_SERVER](20371): close session: 16777322
+I/[SESSION_MANAGER](20371): close session 16777322
+I/[SESSION_MANAGER](20371): session2Tokens remove session 16777322
+I/[SESSION_MANAGER](20371): session2Client remove session 16777322
+D/[TCP_SERVER](20659): Session local:/127.0.0.1:10201 remote:/127.0.0.1:51813@Di
+spatching 105 bytes data to uplayer
+I/[SESSION_MANAGER](20371): open session 16777323 with token oivQVfcK3DC2E1E5
+I/[SESSION_MANAGER](20371): add session 16777323
+I/[SESSION_MANAGER](20371): add token oivQVfcK3DC2E1E5
+I/[SESSION_MANAGER](20371): client DA_PC_d63ff9d0b5c7858ca3c01d12c7630b9af72aa80
+8 exist
+I/[SESSION_MANAGER](20371): add session 16777323 to client DA_PC_d63ff9d0b5c7858
+ca3c01d12c7630b9af72aa808
+D/[PMP_SERVER](20371): dispatch request to pmp://device/getTelephonyInfoLite fro
+m client DA_PC_d63ff9d0b5c7858ca3c01d12c7630b9af72aa808 with token oivQVfcK3DC2E
+1E5
+I/[PMP_SERVER](20371): dispatch request to device service
+I/[PMP_SERVER](20371): add task: oivQVfcK3DC2E1E5, current tasks count: 2
+D/[TCP_SERVER](20659): Session local:/127.0.0.1:10201 remote:/127.0.0.1:51814@Di
+spatching 105 bytes data to uplayer
+I/[SESSION_MANAGER](20371): open session 16777324 with token oivQVfcK1EEF2FD7
+I/[SESSION_MANAGER](20371): add session 16777324
+I/[SESSION_MANAGER](20371): add token oivQVfcK1EEF2FD7
+I/[SESSION_MANAGER](20371): client DA_PC_d63ff9d0b5c7858ca3c01d12c7630b9af72aa80
+8 exist
+I/[SESSION_MANAGER](20371): add session 16777324 to client DA_PC_d63ff9d0b5c7858
+ca3c01d12c7630b9af72aa808
+D/[PMP_SERVER](20371): dispatch request to pmp://device/getActiveNetworkInfo fro
+m client DA_PC_d63ff9d0b5c7858ca3c01d12c7630b9af72aa808 with token oivQVfcK1EEF2
+FD7
+I/[PMP_SERVER](20371): dispatch request to device service
+I/[PMP_SERVER](20371): add task: oivQVfcK1EEF2FD7, current tasks count: 3
+I/[PMP_SERVER](20371): task: oivQVfcK3DC2E1E5 done
+I/[PMP_SERVER](20371): remove task: oivQVfcK3DC2E1E5
+I/[PMP_SERVER](20371): current tasks count: 2
+I/[SESSION_MANAGER](20371): close token oivQVfcK3DC2E1E5
+I/[PMP_SERVER](20371): task: oivQVfcK1EEF2FD7 done
+I/[PMP_SERVER](20371): remove task: oivQVfcK1EEF2FD7
+I/[PMP_SERVER](20371): current tasks count: 1
+I/[SESSION_MANAGER](20371): close token oivQVfcK1EEF2FD7
+I/[PMP_SERVER](20371): close session: 16777323
+I/[SESSION_MANAGER](20371): close session 16777323
+I/[SESSION_MANAGER](20371): session2Tokens remove session 16777323
+I/[SESSION_MANAGER](20371): session2Client remove session 16777323
+I/[PMP_SERVER](20371): close session: 16777324
+I/[SESSION_MANAGER](20371): close session 16777324
+I/[SESSION_MANAGER](20371): session2Tokens remove session 16777324
+I/[SESSION_MANAGER](20371): session2Client remove session 16777324
+D/ReflectionActivity(20964): current=192.168.2.100
+W/System.err(20964): java.lang.NullPointerException
+W/System.err(20964):    at com.coship.momokan.ReflectionActivity$HeartThread.run
+(Unknown Source)
+^C
+C:\Documents and Settings\907111>

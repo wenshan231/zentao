@@ -1,0 +1,468 @@
+
+130|shell@android:/ # 
+130|shell@android:/ # su
+shell@android:/ # 
+shell@android:/ # logcat
+--------- beginning of /dev/log/system
+W/ActivityManager(  948): Duplicate finish request for ActivityRecord{4185b738 com.coship.dvbplayer/.videoplayer.VideoPlayer}
+V/TabletStatusBar( 1158): setLightsOn(true)
+W/ActivityManager(  948): Duplicate finish request for ActivityRecord{4185b738 com.coship.dvbplayer/.videoplayer.VideoPlayer}
+W/ActivityManager(  948): Duplicate finish request for ActivityRecord{4185b738 com.coship.dvbplayer/.videoplayer.VideoPlayer}
+W/InputManagerService(  948): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@417761c8
+I/ActivityManager(  948): START {act=android.intent.LOOKBACK_PLAYER cmp=com.coship.dvbplayer/.videoplayer.VideoPlayer (has extras)} from pid 2612
+W/ActivityManager(  948): Activity pause timeout for ActivityRecord{4168d2b8 com.coship.dvbplayer/.main}
+V/TabletStatusBar( 1158): setLightsOn(true)
+W/ThrottleService(  948): unable to find stats for iface rmnet0
+W/ActivityManager(  948): Duplicate finish request for ActivityRecord{41780f08 com.coship.dvbplayer/.videoplayer.VideoPlayer}
+V/TabletStatusBar( 1158): setLightsOn(true)
+I/ActivityManager(  948): START {act=android.intent.LOOKBACK_PLAYER cmp=com.coship.dvbplayer/.videoplayer.VideoPlayer (has extras)} from pid 2612
+W/ActivityManager(  948): Activity pause timeout for ActivityRecord{4168d2b8 com.coship.dvbplayer/.main}
+V/TabletStatusBar( 1158): setLightsOn(true)
+V/EthernetMonitor(  948): get event 
+V/EthernetMonitor(  948): go poll events
+W/ThrottleService(  948): unable to find stats for iface rmnet0
+W/ThrottleService(  948): unable to find stats for iface rmnet0
+W/ThrottleService(  948): unable to find stats for iface rmnet0
+W/ThrottleService(  948): unable to find stats for iface rmnet0
+W/ThrottleService(  948): unable to find stats for iface rmnet0
+W/ThrottleService(  948): unable to find stats for iface rmnet0
+W/ThrottleService(  948): unable to find stats for iface rmnet0
+W/ThrottleService(  948): unable to find stats for iface rmnet0
+W/ThrottleService(  948): unable to find stats for iface rmnet0
+W/ThrottleService(  948): unable to find stats for iface rmnet0
+W/ThrottleService(  948): unable to find stats for iface rmnet0
+W/ActivityManager(  948): Duplicate finish request for ActivityRecord{416753d0 com.coship.dvbplayer/.videoplayer.VideoPlayer}
+V/TabletStatusBar( 1158): setLightsOn(true)
+W/ThrottleService(  948): unable to find stats for iface rmnet0
+W/ThrottleService(  948): unable to find stats for iface rmnet0
+W/ThrottleService(  948): unable to find stats for iface rmnet0
+W/ThrottleService(  948): unable to find stats for iface rmnet0
+W/ThrottleService(  948): unable to find stats for iface rmnet0
+W/ThrottleService(  948): unable to find stats for iface rmnet0
+W/ThrottleService(  948): unable to find stats for iface rmnet0
+W/ThrottleService(  948): unable to find stats for iface rmnet0
+W/ThrottleService(  948): unable to find stats for iface rmnet0
+W/ThrottleService(  948): unable to find stats for iface rmnet0
+I/ActivityManager(  948): START {act=android.intent.LOOKBACK_PLAYER cmp=com.coship.dvbplayer/.videoplayer.VideoPlayer (has extras)} from pid 2612
+W/ActivityManager(  948): Activity pause timeout for ActivityRecord{4168d2b8 com.coship.dvbplayer/.main}
+V/TabletStatusBar( 1158): setLightsOn(true)
+W/ThrottleService(  948): unable to find stats for iface rmnet0
+W/ThrottleService(  948): unable to find stats for iface rmnet0
+W/ThrottleService(  948): unable to find stats for iface rmnet0
+W/ThrottleService(  948): unable to find stats for iface rmnet0
+W/ThrottleService(  948): unable to find stats for iface rmnet0
+W/ThrottleService(  948): unable to find stats for iface rmnet0
+W/ThrottleService(  948): unable to find stats for iface rmnet0
+W/ThrottleService(  948): unable to find stats for iface rmnet0
+W/ThrottleService(  948): unable to find stats for iface rmnet0
+W/ThrottleService(  948): unable to find stats for iface rmnet0
+W/ThrottleService(  948): unable to find stats for iface rmnet0
+V/TabletStatusBar( 1158): setLightsOn(true)
+W/ThrottleService(  948): unable to find stats for iface rmnet0
+W/ThrottleService(  948): unable to find stats for iface rmnet0
+W/ThrottleService(  948): unable to find stats for iface rmnet0
+W/ThrottleService(  948): unable to find stats for iface rmnet0
+W/ThrottleService(  948): unable to find stats for iface rmnet0
+W/ThrottleService(  948): unable to find stats for iface rmnet0
+W/ThrottleService(  948): unable to find stats for iface rmnet0
+W/ThrottleService(  948): unable to find stats for iface rmnet0
+W/ThrottleService(  948): unable to find stats for iface rmnet0
+W/ThrottleService(  948): unable to find stats for iface rmnet0
+W/ThrottleService(  948): unable to find stats for iface rmnet0
+W/ThrottleService(  948): unable to find stats for iface rmnet0
+W/ThrottleService(  948): unable to find stats for iface rmnet0
+W/ThrottleService(  948): unable to find stats for iface rmnet0
+W/ThrottleService(  948): unable to find stats for iface rmnet0
+W/ThrottleService(  948): unable to find stats for iface rmnet0
+W/ThrottleService(  948): unable to find stats for iface rmnet0
+W/ThrottleService(  948): unable to find stats for iface rmnet0
+W/ThrottleService(  948): unable to find stats for iface rmnet0
+W/ThrottleService(  948): unable to find stats for iface rmnet0
+W/ThrottleService(  948): unable to find stats for iface rmnet0
+W/ThrottleService(  948): unable to find stats for iface rmnet0
+W/ThrottleService(  948): unable to find stats for iface rmnet0
+W/ThrottleService(  948): unable to find stats for iface rmnet0
+W/ThrottleService(  948): unable to find stats for iface rmnet0
+W/ThrottleService(  948): unable to find stats for iface rmnet0
+W/ThrottleService(  948): unable to find stats for iface rmnet0
+I/SystemServer(16429): Entered the Android system server!
+I/SystemServer(16429): Entropy Service
+I/SystemServer(16429): Power Manager
+I/SystemServer(16429): Activity Manager
+I/ActivityManager(16429): Memory class: 64
+I/SystemServer(16429): Telephony Registry
+I/ActivityManager(16429): Enabled StrictMode logging for AThread's Looper
+I/SystemServer(16429): Package Manager
+W/PackageManager(16429): Running ENG build: no pre-dexopt!
+W/PackageManager(16429): Library not found: /system/framework/com.android.future.usb.accessory.jar
+W/PackageParser(16429): No actions in intent filter at /system/app/Bluetooth.apk Binary XML file line #125
+I/PackageParser(16429): com.coship.HS: compat added android.permission.WRITE_EXTERNAL_STORAGE android.permission.READ_PHONE_STATE
+W/PackageParser(16429): No actions in intent filter at /system/app/Contacts.apk Binary XML file line #525
+W/PackageParser(16429): No actions in intent filter at /system/app/Coship_VAF.apk Binary XML file line #58
+I/PackageParser(16429): com.coship.cw880: compat added android.permission.WRITE_EXTERNAL_STORAGE android.permission.READ_PHONE_STATE
+W/PackageParser(16429): Problem in package /system/app/STB-Settings.apk:
+W/PackageParser(16429): Unknown element under <activity>: data at /system/app/STB-Settings.apk Binary XML file line #145
+W/PackageParser(16429): Problem in package /system/app/STB-Settings.apk:
+W/PackageParser(16429): Unknown element under <activity>: action at /system/app/STB-Settings.apk Binary XML file line #231
+W/PackageParser(16429): Problem in package /system/app/STB-Settings.apk:
+W/PackageParser(16429): Unknown element under <activity>: action at /system/app/STB-Settings.apk Binary XML file line #232
+W/PackageParser(16429): Problem in package /system/app/STB-Settings.apk:
+W/PackageParser(16429): Unknown element under <activity>: action at /system/app/STB-Settings.apk Binary XML file line #289
+W/PackageParser(16429): Problem in package /system/app/STB-Settings.apk:
+W/PackageParser(16429): Unknown element under <activity>: action at /system/app/STB-Settings.apk Binary XML file line #393
+W/PackageParser(16429): Problem in package /system/app/STB-Settings.apk:
+W/PackageParser(16429): Unknown element under <activity>: action at /system/app/STB-Settings.apk Binary XML file line #394
+W/PackageParser(16429): No actions in intent filter at /system/app/TZ_MST6A801_SDK4.0_WasuTV4ICS_Release_1.0.0.39_201302012009.apk Binary XML file line #134
+W/PackageParser(16429): No actions in intent filter at /system/app/TZ_MST6A801_SDK4.0_WasuTV4ICS_Release_1.0.0.39_201302012009.apk Binary XML file line #147
+W/PackageParser(16429): No actions in intent filter at /system/app/TZ_MST6A801_SDK4.0_WasuTV4ICS_Release_1.0.0.39_201302012009.apk Binary XML file line #154
+W/PackageParser(16429): No actions in intent filter at /system/app/TZ_MST6A801_SDK4.0_WasuTV4ICS_Release_1.0.0.39_201302012009.apk Binary XML file line #225
+W/PackageParser(16429): No actions in intent filter at /system/app/TZ_MST6A801_SDK4.0_WasuTV4ICS_Release_1.0.0.39_201302012009.apk Binary XML file line #245
+W/PackageParser(16429): No actions in intent filter at /system/app/TZ_MST6A801_SDK4.0_WasuTV4ICS_Release_1.0.0.39_201302012009.apk Binary XML file line #254
+W/PackageParser(16429): No actions in intent filter at /system/app/TZ_MST6A801_SDK4.0_WasuTV4ICS_Release_1.0.0.39_201302012009.apk Binary XML file line #262
+W/PackageParser(16429): No actions in intent filter at /system/app/TZ_MST6A801_SDK4.0_WasuTV4ICS_Release_1.0.0.39_201302012009.apk Binary XML file line #270
+W/PackageParser(16429): No actions in intent filter at /system/app/TZ_MST6A801_SDK4.0_WasuTV4ICS_Release_1.0.0.39_201302012009.apk Binary XML file line #279
+W/PackageParser(16429): No actions in intent filter at /system/app/TZ_MST6A801_SDK4.0_WasuTV4ICS_Release_1.0.0.39_201302012009.apk Binary XML file line #287
+W/PackageParser(16429): No actions in intent filter at /system/app/TZ_MST6A801_SDK4.0_WasuTV4ICS_Release_1.0.0.39_201302012009.apk Binary XML file line #296
+W/PackageParser(16429): No actions in intent filter at /system/app/TZ_MST6A801_SDK4.0_WasuTV4ICS_Release_1.0.0.39_201302012009.apk Binary XML file line #305
+I/PackageParser(16429): com.iflytek.vaf.TouchKey: compat added android.permission.WRITE_EXTERNAL_STORAGE android.permission.READ_PHONE_STATE
+W/PackageParser(16429): No actions in intent filter at /system/app/com.coship.Multimedia.apk Binary XML file line #97
+W/PackageParser(16429): No actions in intent filter at /system/app/com.coship.Multimedia.apk Binary XML file line #104
+I/PackageParser(16429): com.coship.Multimedia: compat added android.permission.READ_PHONE_STATE
+W/PackageParser(16429): No actions in intent filter at /system/app/com.coship.NetworkNavigation.apk Binary XML file line #24
+W/PackageParser(16429): No actions in intent filter at /system/app/com.coship.NetworkNavigation.apk Binary XML file line #31
+W/PackageParser(16429): No actions in intent filter at /system/app/com.coship.NetworkNavigation.apk Binary XML file line #38
+W/PackageParser(16429): No actions in intent filter at /system/app/com.coship.NetworkNavigation.apk Binary XML file line #45
+W/PackageParser(16429): No actions in intent filter at /system/app/com.coship.NetworkNavigation.apk Binary XML file line #52
+I/PackageParser(16429): com.coship.dvbplayer: compat added android.permission.READ_PHONE_STATE
+W/PackageParser(16429): No actions in intent filter at /system/app/com.coship.dvbsetting.apk Binary XML file line #102
+W/PackageParser(16429): No actions in intent filter at /system/app/com.coship.dvbsetting.apk Binary XML file line #110
+W/PackageParser(16429): No actions in intent filter at /system/app/com.coship.dvbsetting.apk Binary XML file line #118
+W/PackageParser(16429): No actions in intent filter at /system/app/com.coship.dvbsetting.apk Binary XML file line #126
+W/PackageParser(16429): No actions in intent filter at /system/app/com.coship.dvbsetting.apk Binary XML file line #134
+W/PackageParser(16429): No actions in intent filter at /system/app/com.coship.dvbsetting.apk Binary XML file line #140
+W/PackageParser(16429): No actions in intent filter at /system/app/com.coship.dvbsetting.apk Binary XML file line #154
+W/PackageParser(16429): No actions in intent filter at /system/app/com.coship.dvbsetting.apk Binary XML file line #162
+W/PackageParser(16429): No actions in intent filter at /system/app/com.coship.dvbsetting.apk Binary XML file line #171
+W/PackageParser(16429): No actions in intent filter at /system/app/com.coship.dvbsetting.apk Binary XML file line #179
+W/PackageParser(16429): No actions in intent filter at /system/app/com.coship.dvbsetting.apk Binary XML file line #186
+W/PackageParser(16429): No actions in intent filter at /system/app/com.coship.dvbsetting.apk Binary XML file line #194
+W/PackageParser(16429): No actions in intent filter at /system/app/com.coship.dvbsetting.apk Binary XML file line #201
+W/PackageParser(16429): No actions in intent filter at /system/app/com.coship.dvbsetting.apk Binary XML file line #209
+W/PackageParser(16429): No actions in intent filter at /system/app/com.coship.dvbsetting.apk Binary XML file line #216
+W/PackageParser(16429): No actions in intent filter at /system/app/com.coship.dvbsetting.apk Binary XML file line #222
+W/PackageParser(16429): No actions in intent filter at /system/app/com.coship.dvbsetting.apk Binary XML file line #229
+W/PackageParser(16429): No actions in intent filter at /system/app/com.coship.dvbsetting.apk Binary XML file line #235
+I/PackageParser(16429): com.coship.dvbsetting: compat added android.permission.READ_PHONE_STATE
+W/PackageManager(16429): Unable to update from com.android.settings to com.coship.dvbsetting: old package still exists
+W/PackageParser(16429): No actions in intent filter at /system/app/com.coship.netfirmware.apk Binary XML file line #36
+W/PackageParser(16429): No actions in intent filter at /system/app/com.coship.startwizard.apk Binary XML file line #39
+W/PackageParser(16429): No actions in intent filter at /system/app/com.coship.startwizard.apk Binary XML file line #46
+W/PackageParser(16429): No actions in intent filter at /system/app/com.coship.startwizard.apk Binary XML file line #53
+W/PackageParser(16429): No actions in intent filter at /system/app/com.coship.startwizard.apk Binary XML file line #60
+W/PackageParser(16429): No actions in intent filter at /system/app/com.coship.startwizard.apk Binary XML file line #67
+W/PackageParser(16429): No actions in intent filter at /system/app/com.coship.startwizard.apk Binary XML file line #74
+W/PackageParser(16429): No actions in intent filter at /system/app/com.coship.startwizard.apk Binary XML file line #81
+W/PackageParser(16429): No actions in intent filter at /system/app/com.coship.startwizard.apk Binary XML file line #88
+W/PackageParser(16429): No actions in intent filter at /system/app/com.coship.startwizard.apk Binary XML file line #95
+W/PackageParser(16429): No actions in intent filter at /system/app/com.coship.startwizard.apk Binary XML file line #103
+I/Installer(16429): connecting...
+I/PackageParser(16429): Mag3DLite.SF3D: compat added android.permission.WRITE_EXTERNAL_STORAGE android.permission.READ_PHONE_STATE
+I/PackageManager(16429): Time to scan packages: 3.665 seconds
+W/PackageManager(16429): Unknown permission android.permission.APPWIDGET_LIST in package com.iflytek.vaf
+W/PackageManager(16429): Unknown permission android.permission.APPWIDGET_LIST in package com.biaoqi.stbwidget.host
+W/PackageManager(16429): Unknown permission android.permission.APPWIDGET_LIST in package com.mstar.appwidget
+W/PackageManager(16429): Unknown permission android.permission.ADD_SYSTEM_SERVICE in package com.coship.sdp.sce.tvappstore
+W/PackageManager(16429): Unknown permission android.permission.READ_EXTERNAL_STORAGE in package com.coship.sdp.sce.tvappstore
+W/PackageManager(16429): Unknown permission com.google.android.gm.permission.WRITE_GMAIL in package com.coship.sdp.sce.tvappstore
+W/PackageManager(16429): Unknown permission com.google.android.gm.permission.READ_GMAIL in package com.coship.sdp.sce.tvappstore
+W/PackageManager(16429): Unknown permission com.google.android.gm.permission.WRITE_GMAIL in package com.coship.app.vaf
+W/PackageManager(16429): Unknown permission com.google.android.gm.permission.READ_GMAIL in package com.coship.app.vaf
+W/PackageManager(16429): Unknown permission com.google.android.gm.permission.WRITE_GMAIL in package com.coship.TestApp
+W/PackageManager(16429): Unknown permission com.google.android.gm.permission.READ_GMAIL in package com.coship.TestApp
+W/PackageManager(16429): Unknown permission android.permission.WRITE_OWNER_DATA in package com.iflytek.speech
+W/PackageManager(16429): Unknown permission android.permission.BAIDU_LOCATION_SERVICE in package com.iflytek.speech
+W/PackageManager(16429): Unknown permission com.google.android.gm.permission.WRITE_GMAIL in package com.ts.gaya.coship
+W/PackageManager(16429): Unknown permission com.google.android.gm.permission.READ_GMAIL in package com.ts.gaya.coship
+W/PackageManager(16429): Unknown permission android.permission.APPWIDGET_LIST in package com.iflytek.xiri.recorder.svc
+W/PackageManager(16429): Unknown permission android.permission.ADD_SYSTEM_SERVICE in package com.coship.netfirmware
+W/PackageManager(16429): Unknown permission android.permission.READ_SETTINGS in package com.android.settings
+W/PackageManager(16429): Unknown permission com.android.permission.READ_LOGS in package cn.tvbox
+W/PackageManager(16429): Not granting permission android.permission.DEVICE_POWER to package cn.tvbox (protectionLevel=2 flags=0xbe45)
+W/PackageManager(16429): Unknown permission android.webkit.permission.PLUGIN in package com.adobe.flashplayer
+W/PackageManager(16429): Unknown permission android.permission.READ_OWNER_DATA in package com.adobe.flashplayer
+W/PackageManager(16429): Unknown permission android.permission.WRITE_OWNER_DATA in package com.adobe.flashplayer
+W/PackageManager(16429): Unknown permission android.permission.READ_EXTERNAL_STORAGE in package com.adobe.flashplayer
+W/PackageManager(16429): Not granting permission android.permission.DIAGNOSTIC to package com.sihuatech.wasutv4ics (protectionLevel=2 flags=0xbe45)
+W/PackageManager(16429): Unknown permission android.permission.ACCESS_COARSE_UPDATES in package com.sihuatech.wasutv4ics
+W/PackageManager(16429): Unknown permission android.permission.READ_OWNER_DATA in package com.sihuatech.wasutv4ics
+W/PackageManager(16429): Unknown permission android.permission.WRITE_OWNER_DATA in package com.sihuatech.wasutv4ics
+W/PackageManager(16429): Not granting permission android.permission.CLEAR_APP_USER_DATA to package com.sihuatech.wasutv4ics (protectionLevel=2 flags=0xbe45)
+W/PackageManager(16429): Not granting permission android.permission.INJECT_EVENTS to package com.sihuatech.wasutv4ics (protectionLevel=2 flags=0xbe45)
+W/PackageManager(16429): Not granting permission android.permission.DEVICE_POWER to package com.sihuatech.wasutv4ics (protectionLevel=2 flags=0xbe45)
+W/PackageManager(16429): Unknown permission android.permission.WRITE_OWNER_DATA in package com.coship.Multimedia
+W/PackageManager(16429): Unknown permission android.permission.READ_OWNER_DATA in package com.coship.Multimedia
+W/PackageManager(16429): Unknown permission android.permission.WRITE_OWNER_DATA in package com.coship.NetworkNavigation
+W/PackageManager(16429): Unknown permission android.permission.READ_OWNER_DATA in package com.coship.NetworkNavigation
+I/SystemServer(16429): Account Manager
+I/SystemServer(16429): Content Manager
+I/SystemServer(16429): System Content Providers
+I/SystemServer(16429): Lights Service
+I/SystemServer(16429): Battery Service
+I/SystemServer(16429): Pppoe Service
+I/SystemServer(16429): Vibrator Service
+I/SystemServer(16429): Alarm Manager
+I/SystemServer(16429): Init Watchdog
+I/SystemServer(16429): Window Manager
+I/InputManager(16429): Initializing input manager
+W/StatusBarManager(16429): warning: no STATUS_BAR_SERVICE
+I/InputManager(16429): Starting input manager
+I/WindowManager(16429): Enabled StrictMode for PolicyThread's Looper
+I/WindowManager(16429): Enabled StrictMode logging for WMThread's Looper
+I/SystemServer(16429): Bluetooth Service
+I/SystemServer(16429): Input Method Service
+W/InputManagerService(16429): Couldn't create dir.: /data/system/inputmethod
+I/SystemServer(16429): Accessibility Manager
+I/ActivityManager(16429): Config changed: {1.0 0mcc0mnc zh_CN layoutdir=0 sw720dp w1280dp h720dp xlrg long land ?uimode ?night -touch -keyb/v/h -nav/h s.2}
+I/SystemServer(16429): TV
+I/SystemServer(16429): Device Policy
+I/SystemServer(16429): Status Bar
+I/SystemServer(16429): Clipboard Service
+I/SystemServer(16429): NetworkManagement Service
+I/SystemServer(16429): Text Service Manager Service
+W/TextServicesManagerService(16429): no available spell checker services found
+I/SystemServer(16429): NetworkStats Service
+I/SystemServer(16429): NetworkPolicy Service
+I/SystemServer(16429): Wi-Fi P2pService
+D/WifiP2pService(16429): P2pDisabledState
+E/WifiP2pService(16429): Failed to reload sta firmware java.lang.NullPointerException
+I/SystemServer(16429): Wi-Fi Service
+D/WifiP2pService(16429): P2pDisabledState{ what=69633 when=0 }
+D/WifiP2pService(16429): DefaultState{ what=69633 when=0 }
+D/WifiP2pService(16429): P2pDisabledState{ what=69632 when=-1ms obj=com.android.internal.util.AsyncChannel@414ef208 }
+D/WifiP2pService(16429): DefaultState{ what=69632 when=-1ms obj=com.android.internal.util.AsyncChannel@414ef208 }
+D/WifiP2pService(16429): Full connection with WifiStateMachine established
+D/WifiP2pService(16429): P2pDisabledState{ what=69633 when=0 }
+D/WifiP2pService(16429): DefaultState{ what=69633 when=0 }
+D/WifiP2pService(16429): P2pDisabledState{ what=69632 when=0 obj=com.android.internal.util.AsyncChannel@41412300 }
+D/WifiP2pService(16429): DefaultState{ what=69632 when=-1ms obj=com.android.internal.util.AsyncChannel@41412300 }
+D/WifiP2pService(16429): Full connection with WifiStateMachine established
+I/SystemServer(16429): Connectivity Service
+D/ConnectivityService(16429): ConnectivityService starting up
+E/ConnectivityService(16429): Error in radioAttributes - ignoring attempt to redefine type 1
+D/ConnectivityService(16429): Starting Pppoe StateTracker
+D/ConnectivityService(16429): Starting Ethernet Service.
+V/EthernetStateTracker(16429): Ethernet State Tracker v1.0.6
+V/EthernetStateTracker(16429): successed to init device!
+I/EthernetService(16429): Ethernet dev enabled 2
+V/EthernetService(16429): device 0 name eth0
+V/EthernetStateTracker(16429): start to monitor the ethernet devices . . .
+I/EthernetManager(16429): Init Ethernet Manager, service: com.android.server.EthernetService@4155ae28
+I/EthernetStateTracker(16429): reset device eth0
+V/EthernetMonitor(16429): go poll events
+I/EthernetStateTracker(16429): trigger dhcp for device eth0
+I/EthernetStateTracker(16429): reset device eth0
+D/EthernetStateTracker(16429): DhcpHandler: DHCP request started
+I/EthernetStateTracker(16429): trigger dhcp for device eth0
+E/MobileDataStateTracker(16429): default: Ignoring feature request because could not acquire PhoneService
+E/MobileDataStateTracker(16429): default: Could not enable APN type "default"
+D/NetworkManagementService(16429): Registering observer
+D/NetworkManagementService(16429): Registering observer
+I/WifiService(16429): WifiService starting up with Wi-Fi disabled
+I/WifiService(16429): WifiService starting up with Wi-Fi AP enabled
+I/SystemServer(16429): Throttle Service
+I/SystemServer(16429): Mount Service
+D/MountService(16429): got storage path: /mnt/sdcard description: USB 存储�?primary: true removable: false emulated: false mtpReserve: 0 allowMassStorage: false maxFileSize: 0
+D/MountService(16429): mExternalStoragePath:/mnt/sdcard
+I/SystemServer(16429): Notification Manager
+I/SystemServer(16429): Device Storage Monitor
+I/SystemServer(16429): Location Manager
+D/VoldCmdListener(  733): volume list
+I/SystemServer(16429): Country Detector
+I/SystemServer(16429): Search Service
+I/SystemServer(16429): DropBox Service
+I/SystemServer(16429): Wallpaper Service
+I/SystemServer(16429): Audio Service
+I/SystemServer(16429): Camera Observer
+I/SystemServer(16429): Microphone Observer
+I/SystemServer(16429): Wired Accessory Observer
+I/SystemServer(16429): USB Service
+I/SystemServer(16429): UI Mode Manager Service
+I/SystemServer(16429): Backup Service
+V/BackupManagerService(16429): Initializing package tracking
+V/BackupManagerService(16429): No ancestral data
+V/BackupManagerService(16429): addPackageParticipantsLocked: all
+I/BackupManagerService(16429): New app android never backed up; scheduling
+I/BackupManagerService(16429): New app com.android.browser never backed up; scheduling
+I/BackupManagerService(16429): New app com.android.providers.settings never backed up; scheduling
+I/BackupManagerService(16429): New app com.android.providers.userdictionary never backed up; scheduling
+I/BackupManagerService(16429): New app com.android.sharedstoragebackup never backed up; scheduling
+V/BackupManagerService(16429): Registering transport android/com.android.internal.backup.LocalTransport = com.android.internal.backup.LocalTransport@415ea8f0
+V/BackupManagerService(16429): Starting with transport android/com.android.internal.backup.LocalTransport
+V/BackupManagerService(16429): Google transport not present
+I/BackupManagerService(16429): Backup enabled => false
+I/BackupManagerService(16429): Opting out of backup
+I/SystemServer(16429): AppWidget Service
+I/SystemServer(16429): Recognition Service
+I/SystemServer(16429): DiskStats Service
+I/SystemServer(16429): SamplingProfiler Service
+I/SystemServer(16429): NetworkTimeUpdateService
+D/PowerManagerService(16429): system ready!
+I/ActivityManager(16429): System now ready
+I/SystemServer(16429): Making services ready
+V/EthernetMonitor(16429): get event 
+V/EthernetMonitor(16429): go poll events
+V/EthernetMonitor(16429): get event 
+V/EthernetMonitor(16429): go poll events
+I/ActivityManager(16429): Start proc com.aidufei.movieonline for broadcast com.aidufei.movieonline/com.aidufei.otoService.BootReceiver: pid=16511 uid=1000 gids={3003, 1015, 3002, 3001, 3004}
+V/EthernetMonitor(16429): get event eth0:21:
+V/EthernetMonitor(16429): dev: eth0 ev 21
+V/EthernetStateTracker(16429): report address is removed for eth0
+V/EthernetMonitor(16429): go poll events
+V/EthernetMonitor(16429): get event eth0:20:
+V/EthernetMonitor(16429): dev: eth0 ev 20
+I/EthernetStateTracker(16429): report new state CONNECTED on dev eth0
+V/EthernetStateTracker(16429): update network state tracker
+V/EthernetMonitor(16429): go poll events
+W/ProcessStats(16429): Skipping unknown process pid 16567
+D/EthernetStateTracker(16429): DhcpHandler: DHCP request succeeded: addr: 192.168.1.114/24 mRoutes: 0.0.0.0/0 -> 192.168.1.1 |  dns: 192.168.1.1, dhcpServer: 192.168.1.1 leaseDuration: 86400
+D/EthernetStateTracker(16429): DhcpHandler: DHCP request started
+W/ActivityManager(16429): Timeout of broadcast BroadcastRecord{4163c6d0 android.intent.action.TIME_TICK} - receiver=android.app.LoadedApk$ReceiverDispatcher$InnerReceiver@415452c0, started 10005ms ago
+W/ActivityManager(16429): Receiver during timeout: BroadcastFilter{415454c8 ReceiverList{41545450 16429 system/1000 local:415452c0}}
+W/ActivityManager(16429): Timeout of broadcast BroadcastRecord{4163c6d0 android.intent.action.TIME_TICK} - receiver=android.app.LoadedApk$ReceiverDispatcher$InnerReceiver@4156ac30, started 10009ms ago
+W/ActivityManager(16429): Receiver during timeout: BroadcastFilter{4156aea8 ReceiverList{4156ae30 16429 system/1000 local:4156ac30}}
+E/EthernetStateTracker(16429): DhcpHandler: DHCP request failed: Timed out waiting for DHCP to finish
+V/EthernetMonitor(16429): get event 
+V/EthernetMonitor(16429): go poll events
+V/EthernetMonitor(16429): get event 
+V/EthernetMonitor(16429): go poll events
+V/EthernetMonitor(16429): get event 
+V/EthernetMonitor(16429): go poll events
+V/EthernetMonitor(16429): get event 
+V/EthernetMonitor(16429): go poll events
+V/EthernetMonitor(16429): get event 
+V/EthernetMonitor(16429): go poll events
+V/EthernetMonitor(16429): get event 
+V/EthernetMonitor(16429): go poll events
+V/EthernetMonitor(16429): get event 
+V/EthernetMonitor(16429): go poll events
+V/EthernetMonitor(16429): get event 
+V/EthernetMonitor(16429): go poll events
+V/EthernetMonitor(16429): get event 
+V/EthernetMonitor(16429): go poll events
+V/EthernetMonitor(16429): get event 
+V/EthernetMonitor(16429): go poll events
+V/EthernetMonitor(16429): get event 
+V/EthernetMonitor(16429): go poll events
+V/EthernetMonitor(16429): get event 
+V/EthernetMonitor(16429): go poll events
+V/EthernetMonitor(16429): get event 
+V/EthernetMonitor(16429): go poll events
+V/EthernetMonitor(16429): get event 
+V/EthernetMonitor(16429): go poll events
+V/EthernetMonitor(16429): get event 
+V/EthernetMonitor(16429): go poll events
+V/EthernetMonitor(16429): get event 
+V/EthernetMonitor(16429): go poll events
+V/EthernetMonitor(16429): get event 
+V/EthernetMonitor(16429): go poll events
+V/EthernetMonitor(16429): get event 
+V/EthernetMonitor(16429): go poll events
+V/EthernetMonitor(16429): get event 
+V/EthernetMonitor(16429): go poll events
+W/ActivityManager(16429): Timeout of broadcast BroadcastRecord{41649998 android.intent.action.DATE_CHANGED} - receiver=android.app.LoadedApk$ReceiverDispatcher$InnerReceiver@415452c0, started 10010ms ago
+W/ActivityManager(16429): Receiver during timeout: BroadcastFilter{415454c8 ReceiverList{41545450 16429 system/1000 local:415452c0}}
+--------- beginning of /dev/log/main
+I//lib/ld-linux.so.3(  743): FrmCnt:403760(2,10,69) Rate:0 Sys:150869554 STC:17755436 VPTS:7290273 APTS:7290558 Delay:-10465123(40) V:0 A:0 VES:0x13f0 AES:0x0 PCM:0x0 AudioErr:0x0
+I//lib/ld-linux.so.3(  743): FrmCnt:403760(2,10,69) Rate:0 Sys:150871066 STC:17756948 VPTS:7290273 APTS:7290558 Delay:-10466635(40) V:0 A:0 VES:0x13f0 AES:0x0 PCM:0x0 AudioErr:0x0
+I//lib/ld-linux.so.3(  743): FrmCnt:403760(2,10,69) Rate:0 Sys:150872578 STC:17758460 VPTS:7290273 APTS:7290558 Delay:-10468147(40) V:0 A:0 VES:0x13f0 AES:0x0 PCM:0x0 AudioErr:0x0
+I//lib/ld-linux.so.3(  743): FrmCnt:403760(2,10,69) Rate:0 Sys:150874090 STC:17759972 VPTS:7290273 APTS:7290558 Delay:-10469659(40) V:0 A:0 VES:0x13f0 AES:0x0 PCM:0x0 AudioErr:0x0
+I//lib/ld-linux.so.3(  743): FrmCnt:403760(2,10,69) Rate:0 Sys:150875601 STC:17761484 VPTS:7290273 APTS:7290558 Delay:-10471171(40) V:0 A:0 VES:0x13f0 AES:0x0 PCM:0x0 AudioErr:0x0
+I//lib/ld-linux.so.3(  743): FrmCnt:403760(2,10,69) Rate:0 Sys:150877114 STC:17762996 VPTS:7290273 APTS:7290558 Delay:-10472683(40) V:0 A:0 VES:0x13f0 AES:0x0 PCM:0x0 AudioErr:0x0
+I//lib/ld-linux.so.3(  743): FrmCnt:403760(2,10,69) Rate:0 Sys:150878625 STC:17764508 VPTS:7290273 APTS:7290558 Delay:-10474195(40) V:0 A:0 VES:0x13f0 AES:0x0 PCM:0x0 AudioErr:0x0
+I//lib/ld-linux.so.3(  743): FrmCnt:403760(2,10,69) Rate:0 Sys:150880137 STC:17766019 VPTS:7290273 APTS:7290558 Delay:-10475706(40) V:0 A:0 VES:0x13f0 AES:0x0 PCM:0x0 AudioErr:0x0
+I//lib/ld-linux.so.3(  743): FrmCnt:403760(2,10,69) Rate:0 Sys:150881649 STC:17767531 VPTS:7290273 APTS:7290558 Delay:-10477218(40) V:0 A:0 VES:0x13f0 AES:0x0 PCM:0x0 AudioErr:0x0
+I//lib/ld-linux.so.3(  743): FrmCnt:403760(2,10,69) Rate:0 Sys:150883160 STC:17769043 VPTS:7290273 APTS:7290558 Delay:-10478730(40) V:0 A:0 VES:0x13f0 AES:0x0 PCM:0x0 AudioErr:0x0
+I//lib/ld-linux.so.3(  743): FrmCnt:403760(2,10,69) Rate:0 Sys:150884672 STC:17770555 VPTS:7290273 APTS:7290558 Delay:-10480242(40) V:0 A:0 VES:0x13f0 AES:0x0 PCM:0x0 AudioErr:0x0
+I//lib/ld-linux.so.3(  743): FrmCnt:403760(2,10,69) Rate:0 Sys:150886184 STC:17772067 VPTS:7290273 APTS:7290558 Delay:-10481754(40) V:0 A:0 VES:0x13f0 AES:0x0 PCM:0x0 AudioErr:0x0
+I//lib/ld-linux.so.3(  743): FrmCnt:403760(2,10,69) Rate:0 Sys:150887696 STC:17773578 VPTS:7290273 APTS:7290558 Delay:-10483265(40) V:0 A:0 VES:0x13f0 AES:0x0 PCM:0x0 AudioErr:0x0
+I//lib/ld-linux.so.3(  743): FrmCnt:403760(2,10,69) Rate:0 Sys:150889208 STC:17775090 VPTS:7290273 APTS:7290558 Delay:-10484777(40) V:0 A:0 VES:0x13f0 AES:0x0 PCM:0x0 AudioErr:0x0
+I//lib/ld-linux.so.3(  743): FrmCnt:403760(2,10,69) Rate:0 Sys:150890719 STC:17776602 VPTS:7290273 APTS:7290558 Delay:-10486289(40) V:0 A:0 VES:0x13f0 AES:0x0 PCM:0x0 AudioErr:0x0
+I//lib/ld-linux.so.3(  743): FrmCnt:403760(2,10,69) Rate:0 Sys:150892231 STC:17778114 VPTS:7290273 APTS:7290558 Delay:-10487801(40) V:0 A:0 VES:0x13f0 AES:0x0 PCM:0x0 AudioErr:0x0
+I//lib/ld-linux.so.3(  743): FrmCnt:403760(2,10,69) Rate:0 Sys:150893743 STC:17779626 VPTS:7290273 APTS:7290558 Delay:-10489313(40) V:0 A:0 VES:0x13f0 AES:0x0 PCM:0x0 AudioErr:0x0
+I//lib/ld-linux.so.3(  743): FrmCnt:403760(2,10,69) Rate:0 Sys:150895255 STC:17781138 VPTS:7290273 APTS:7290558 Delay:-10490825(40) V:0 A:0 VES:0x13f0 AES:0x0 PCM:0x0 AudioErr:0x0
+I//lib/ld-linux.so.3(  743): FrmCnt:403760(2,10,69) Rate:0 Sys:150896767 STC:17782650 VPTS:7290273 APTS:7290558 Delay:-10492337(40) V:0 A:0 VES:0x13f0 AES:0x0 PCM:0x0 AudioErr:0x0
+I//lib/ld-linux.so.3(  743): FrmCnt:403760(2,10,69) Rate:0 Sys:150898279 STC:17784161 VPTS:7290273 APTS:7290558 Delay:-10493848(40) V:0 A:0 VES:0x13f0 AES:0x0 PCM:0x0 AudioErr:0x0
+I//lib/ld-linux.so.3(  743): FrmCnt:403760(2,10,69) Rate:0 Sys:150899791 STC:17785673 VPTS:7290273 APTS:7290558 Delay:-10495360(40) V:0 A:0 VES:0x13f0 AES:0x0 PCM:0x0 AudioErr:0x0
+I//lib/ld-linux.so.3(  743): FrmCnt:403760(2,10,69) Rate:0 Sys:150901303 STC:17787185 VPTS:7290273 APTS:7290558 Delay:-10496872(40) V:0 A:0 VES:0x13f0 AES:0x0 PCM:0x0 AudioErr:0x0
+I//lib/ld-linux.so.3(  743): FrmCnt:403760(2,10,69) Rate:0 Sys:150902815 STC:17788697 VPTS:7290273 APTS:7290558 Delay:-10498384(40) V:0 A:0 VES:0x13f0 AES:0x0 PCM:0x0 AudioErr:0x0
+I//lib/ld-linux.so.3(  743): FrmCnt:403760(2,10,69) Rate:0 Sys:150904327 STC:17790209 VPTS:7290273 APTS:7290558 Delay:-10499896(40) V:0 A:0 VES:0x13f0 AES:0x0 PCM:0x0 AudioErr:0x0
+I//lib/ld-linux.so.3(  743): FrmCnt:403760(2,10,69) Rate:0 Sys:150905838 STC:17791721 VPTS:7290273 APTS:7290558 Delay:-10501408(40) V:0 A:0 VES:0x13f0 AES:0x0 PCM:0x0 AudioErr:0x0
+I//lib/ld-linux.so.3(  743): FrmCnt:403760(2,10,69) Rate:0 Sys:150907351 STC:17793233 VPTS:7290273 APTS:7290558 Delay:-10502920(40) V:0 A:0 VES:0x13f0 AES:0x0 PCM:0x0 AudioErr:0x0
+I//lib/ld-linux.so.3(  743): FrmCnt:403760(2,10,69) Rate:0 Sys:150908862 STC:17794745 VPTS:7290273 APTS:7290558 Delay:-10504432(40) V:0 A:0 VES:0x13f0 AES:0x0 PCM:0x0 AudioErr:0x0
+I//lib/ld-linux.so.3(  743): FrmCnt:403760(2,10,69) Rate:0 Sys:150910374 STC:17796257 VPTS:7290273 APTS:7290558 Delay:-10505943(40) V:0 A:0 VES:0x13f0 AES:0x0 PCM:0x0 AudioErr:0x0
+I//lib/ld-linux.so.3(  743): FrmCnt:403760(2,10,69) Rate:0 Sys:150911886 STC:17797768 VPTS:7290273 APTS:7290558 Delay:-10507455(40) V:0 A:0 VES:0x13f0 AES:0x0 PCM:0x0 AudioErr:0x0
+I//lib/ld-linux.so.3(  743): FrmCnt:403760(2,10,69) Rate:0 Sys:150913398 STC:17799280 VPTS:7290273 APTS:7290558 Delay:-10508967(40) V:0 A:0 VES:0x13f0 AES:0x0 PCM:0x0 AudioErr:0x0
+I//lib/ld-linux.so.3(  743): FrmCnt:403760(2,10,69) Rate:0 Sys:150914910 STC:17800792 VPTS:7290273 APTS:7290558 Delay:-10510479(40) V:0 A:0 VES:0x13f0 AES:0x0 PCM:0x0 AudioErr:0x0
+I//lib/ld-linux.so.3(  743): FrmCnt:403760(2,10,69) Rate:0 Sys:150916422 STC:17802304 VPTS:7290273 APTS:7290558 Delay:-10511991(40) V:0 A:0 VES:0x13f0 AES:0x0 PCM:0x0 AudioErr:0x0
+I//lib/ld-linux.so.3(  743): FrmCnt:403760(2,10,69) Rate:0 Sys:150917933 STC:17803816 VPTS:7290273 APTS:7290558 Delay:-10513503(40) V:0 A:0 VES:0x13f0 AES:0x0 PCM:0x0 AudioErr:0x0
+I//lib/ld-linux.so.3(  743): FrmCnt:403760(2,10,69) Rate:0 Sys:150919445 STC:17805328 VPTS:7290273 APTS:7290558 Delay:-10515015(40) V:0 A:0 VES:0x13f0 AES:0x0 PCM:0x0 AudioErr:0x0
+I//lib/ld-linux.so.3(  743): FrmCnt:403760(2,10,69) Rate:0 Sys:150920957 STC:17806840 VPTS:7290273 APTS:7290558 Delay:-10516527(40) V:0 A:0 VES:0x13f0 AES:0x0 PCM:0x0 AudioErr:0x0
+I//lib/ld-linux.so.3(  743): FrmCnt:403760(2,10,69) Rate:0 Sys:150922469 STC:17808351 VPTS:7290273 APTS:7290558 Delay:-10518038(40) V:0 A:0 VES:0x13f0 AES:0x0 PCM:0x0 AudioErr:0x0
+I//lib/ld-linux.so.3(  743): FrmCnt:403760(2,10,69) Rate:0 Sys:150923981 STC:17809863 VPTS:7290273 APTS:7290558 Delay:-10519550(40) V:0 A:0 VES:0x13f0 AES:0x0 PCM:0x0 AudioErr:0x0
+I//lib/ld-linux.so.3(  743): FrmCnt:403760(2,10,69) Rate:0 Sys:150925493 STC:17811376 VPTS:7290273 APTS:7290558 Delay:-10521063(40) V:0 A:0 VES:0x13f0 AES:0x0 PCM:0x0 AudioErr:0x0
+I//lib/ld-linux.so.3(  743): FrmCnt:403760(2,10,69) Rate:0 Sys:150927005 STC:17812887 VPTS:7290273 APTS:7290558 Delay:-10522574(40) V:0 A:0 VES:0x13f0 AES:0x0 PCM:0x0 AudioErr:0x0
+I//lib/ld-linux.so.3(  743): FrmCnt:403760(2,10,69) Rate:0 Sys:150928517 STC:17814399 VPTS:7290273 APTS:7290558 Delay:-10524086(40) V:0 A:0 VES:0x13f0 AES:0x0 PCM:0x0 AudioErr:0x0
+I//lib/ld-linux.so.3(  743): FrmCnt:403760(2,10,69) Rate:0 Sys:150930029 STC:17815911 VPTS:7290273 APTS:7290558 Delay:-10525598(40) V:0 A:0 VES:0x13f0 AES:0x0 PCM:0x0 AudioErr:0x0
+I//lib/ld-linux.so.3(  743): FrmCnt:403760(2,10,69) Rate:0 Sys:150931541 STC:17817423 VPTS:7290273 APTS:7290558 Delay:-10527110(40) V:0 A:0 VES:0x13f0 AES:0x0 PCM:0x0 AudioErr:0x0
+I//lib/ld-linux.so.3(  743): FrmCnt:403760(2,10,69) Rate:0 Sys:150933052 STC:17818935 VPTS:7290273 APTS:7290558 Delay:-10528622(40) V:0 A:0 VES:0x13f0 AES:0x0 PCM:0x0 AudioErr:0x0
+I//lib/ld-linux.so.3(  743): FrmCnt:403760(2,10,69) Rate:0 Sys:150934564 STC:17820447 VPTS:7290273 APTS:7290558 Delay:-10530134(40) V:0 A:0 VES:0x13f0 AES:0x0 PCM:0x0 AudioErr:0x0
+I//lib/ld-linux.so.3(  743): FrmCnt:403760(2,10,69) Rate:0 Sys:150936076 STC:17821959 VPTS:7290273 APTS:7290558 Delay:-10531646(40) V:0 A:0 VES:0x13f0 AES:0x0 PCM:0x0 AudioErr:0x0
+I//lib/ld-linux.so.3(  743): FrmCnt:403760(2,10,69) Rate:0 Sys:150937588 STC:17823471 VPTS:7290273 APTS:7290558 Delay:-10533158(40) V:0 A:0 VES:0x13f0 AES:0x0 PCM:0x0 AudioErr:0x0
+I//lib/ld-linux.so.3(  743): FrmCnt:403760(2,10,69) Rate:0 Sys:150939100 STC:17824982 VPTS:7290273 APTS:7290558 Delay:-10534669(40) V:0 A:0 VES:0x13f0 AES:0x0 PCM:0x0 AudioErr:0x0
+I//lib/ld-linux.so.3(  743): FrmCnt:403760(2,10,69) Rate:0 Sys:150940612 STC:17826494 VPTS:7290273 APTS:7290558 Delay:-10536181(40) V:0 A:0 VES:0x13f0 AES:0x0 PCM:0x0 AudioErr:0x0
+I//lib/ld-linux.so.3(  743): FrmCnt:403760(2,10,69) Rate:0 Sys:150942124 STC:17828007 VPTS:7290273 APTS:7290558 Delay:-10537694(40) V:0 A:0 VES:0x13f0 AES:0x0 PCM:0x0 AudioErr:0x0
+I//lib/ld-linux.so.3(  743): FrmCnt:403760(2,10,69) Rate:0 Sys:150943636 STC:17829518 VPTS:7290273 APTS:7290558 Delay:-10539205(40) V:0 A:0 VES:0x13f0 AES:0x0 PCM:0x0 AudioErr:0x0
+I//lib/ld-linux.so.3(  743): FrmCnt:403760(2,10,69) Rate:0 Sys:150945148 STC:17831030 VPTS:7290273 APTS:7290558 Delay:-10540717(40) V:0 A:0 VES:0x13f0 AES:0x0 PCM:0x0 AudioErr:0x0
+I//lib/ld-linux.so.3(  743): FrmCnt:403760(2,10,69) Rate:0 Sys:150946660 STC:17832542 VPTS:7290273 APTS:7290558 Delay:-10542229(40) V:0 A:0 VES:0x13f0 AES:0x0 PCM:0x0 AudioErr:0x0
+I//lib/ld-linux.so.3(  743): FrmCnt:403760(2,10,69) Rate:0 Sys:150948172 STC:17834054 VPTS:7290273 APTS:7290558 Delay:-10543741(40) V:0 A:0 VES:0x13f0 AES:0x0 PCM:0x0 AudioErr:0x0
+I//lib/ld-linux.so.3(  743): FrmCnt:403760(2,10,69) Rate:0 Sys:150949684 STC:17835566 VPTS:7290273 APTS:7290558 Delay:-10545253(40) V:0 A:0 VES:0x13f0 AES:0x0 PCM:0x0 AudioErr:0x0
+I//lib/ld-linux.so.3(  743): FrmCnt:403760(2,10,69) Rate:0 Sys:150951196 STC:17837079 VPTS:7290273 APTS:7290558 Delay:-10546766(40) V:0 A:0 VES:0x13f0 AES:0x0 PCM:0x0 AudioErr:0x0
+I//lib/ld-linux.so.3(  743): FrmCnt:403760(2,10,69) Rate:0 Sys:150952708 STC:17838590 VPTS:7290273 APTS:7290558 Delay:-10548277(40) V:0 A:0 VES:0x13f0 AES:0x0 PCM:0x0 AudioErr:0x0
+I//lib/ld-linux.so.3(  743): FrmCnt:403760(2,10,69) Rate:0 Sys:150954220 STC:17840102 VPTS:7290273 APTS:7290558 Delay:-10549789(40) V:0 A:0 VES:0x13f0 AES:0x0 PCM:0x0 AudioErr:0x0
+I//lib/ld-linux.so.3(  743): FrmCnt:403760(2,10,69) Rate:0 Sys:150955732 STC:17841614 VPTS:7290273 APTS:7290558 Delay:-10551301(40) V:0 A:0 VES:0x13f0 AES:0x0 PCM:0x0 AudioErr:0x0
+I//lib/ld-linux.so.3(  743): FrmCnt:403760(2,10,69) Rate:0 Sys:150957244 STC:17843126 VPTS:7290273 APTS:7290558 Delay:-10552813(40) V:0 A:0 VES:0x13f0 AES:0x0 PCM:0x0 AudioErr:0x0
+I//lib/ld-linux.so.3(  743): FrmCnt:403760(2,10,69) Rate:0 Sys:150958755 STC:17844638 VPTS:7290273 APTS:7290558 Delay:-10554325(40) V:0 A:0 VES:0x13f0 AES:0x0 PCM:0x0 AudioErr:0x0
+I//lib/ld-linux.so.3(  743): FrmCnt:403760(2,10,69) Rate:0 Sys:150960267 STC:17846150 VPTS:7290273 APTS:7290558 Delay:-10555837(40) V:0 A:0 VES:0x13f0 AES:0x0 PCM:0x0 AudioErr:0x0
+I//lib/ld-linux.so.3(  743): FrmCnt:403760(2,10,69) Rate:0 Sys:150961779 STC:17847662 VPTS:7290273 APTS:7290558 Delay:-10557349(40) V:0 A:0 VES:0x13f0 AES:0x0 PCM:0x0 AudioErr:0x0
+I//lib/ld-linux.so.3(  743): FrmCnt:403760(2,10,69) Rate:0 Sys:150963291 STC:17849174 VPTS:7290273 APTS:7290558 Delay:-10558861(40) V:0 A:0 VES:0x13f0 AES:0x0 PCM:0x0 AudioErr:0x0
+I//lib/ld-linux.so.3(  743): FrmCnt:403760(2,10,69) Rate:0 Sys:150964803 STC:17850685 VPTS:7290273 APTS:7290558 Delay:-10560372(40) V:0 A:0 VES:0x13f0 AES:0x0 PCM:0x0 AudioErr:0x0
+I//lib/ld-linux.so.3(  743): FrmCnt:403760(2,10,69) Rate:0 Sys:150966314 STC:17852197 VPTS:7290273 APTS:7290558 Delay:-10561884(40) V:0 A:0 VES:0x13f0 AES:0x0 PCM:0x0 AudioErr:0x0
+I//lib/ld-linux.so.3(  743): FrmCnt:403760(2,10,69) Rate:0 Sys:150967826 STC:17853709 VPTS:7290273 APTS:7290558 Delay:-10563396(40) V:0 A:0 VES:0x13f0 AES:0x0 PCM:0x0 AudioErr:0x0
+I//lib/ld-linux.so.3(  743): FrmCnt:403760(2,10,69) Rate:0 Sys:150969338 STC:17855220 VPTS:7290273 APTS:7290558 Delay:-10564907(40) V:0 A:0 VES:0x13f0 AES:0x0 PCM:0x0 AudioErr:0x0
+I//lib/ld-linux.so.3(  743): FrmCnt:403760(2,10,69) Rate:0 Sys:150970849 STC:17856732 VPTS:7290273 APTS:7290558 Delay:-10566419(40) V:0 A:0 VES:0x13f0 AES:0x0 PCM:0x0 AudioErr:0x0
+I//lib/ld-linux.so.3(  743): FrmCnt:403760(2,10,69) Rate:0 Sys:150972361 STC:17858244 VPTS:7290273 APTS:7290558 Delay:-10567931(40) V:0 A:0 VES:0x13f0 AES:0x0 PCM:0x0 AudioErr:0x0
+I//lib/ld-linux.so.3(  743): FrmCnt:403760(2,10,69) Rate:0 Sys:150973873 STC:17859755 VPTS:7290273 APTS:7290558 Delay:-10569442(40) V:0 A:0 VES:0x13f0 AES:0x0 PCM:0x0 AudioErr:0x0
+I//lib/ld-linux.so.3(  743): FrmCnt:403760(2,10,69) Rate:0 Sys:150975384 STC:17861267 VPTS:7290273 APTS:7290558 Delay:-10570954(40) V:0 A:0 VES:0x13f0 AES:0x0 PCM:0x0 AudioErr:0x0
+I//lib/ld-linux.so.3(  743): FrmCnt:403760(2,10,69) Rate:0 Sys:150976896 STC:17862778 VPTS:7290273 APTS:7290558 Delay:-10572465(40) V:0 A:0 VES:0x13f0 AES:0x0 PCM:0x0 AudioErr:0x0
+I//lib/ld-linux.so.3(  743): FrmCnt:403760(2,10,69) Rate:0 Sys:150978407 STC:17864290 VPTS:7290273 APTS:7290558 Delay:-10573977(40) V:0 A:0 VES:0x13f0 AES:0x0 PCM:0x0 AudioErr:0x0
+I//lib/ld-linux.so.3(  743): FrmCnt:403760(2,10,69) Rate:0 Sys:150979919 STC:17865802 VPTS:7290273 APTS:7290558 Delay:-10575489(40) V:0 A:0 VES:0x13f0 AES:0x0 PCM:0x0 AudioErr:0x0
+I//lib/ld-linux.so.3(  743): FrmCnt:403760(2,10,69) Rate:0 Sys:150981431 STC:17867313 VPTS:7290273 APTS:7290558 Delay:-10577000(40) V:0 A:0 VES:0x13f0 AES:0x0 PCM:0x0 AudioErr:0x0
+I//lib/ld-linux.so.3(  743): FrmCnt:403760(2,10,69) Rate:0 Sys:150982942 STC:17868825 VPTS:7290273 APTS:7290558 Delay:-10578512(40) V:0 A:0 VES:0x13f0 AES:0x0 PCM:0x0 AudioErr:0x0
+I//lib/ld-linux.so.3(  743): FrmCnt:403760(2,10,69) Rate:0 Sys:150984454 STC:17870337 VPTS:7290273 APTS:7290558 Delay:-10580024(40) V:0 A:0 VES:0x13f0 AES:0x0 PCM:0x0 AudioErr:0x0
+I//lib/ld-linux.so.3(  743): FrmCnt:403760(2,10,69) Rate:0 Sys:150985966 STC:17871849 VPTS:7290273 APTS:7290558 Delay:-10581536(40) V:0 A:0 VES:0x13f0 AES:0x0 PCM:0x0 AudioErr:0x0
+I//lib/ld-linux.so.3(  743): FrmCnt:403760(2,10,69) Rate:0 Sys:150987478 STC:17873360 VPTS:7290273 APTS:7290558 Delay:-10583047(40) V:0 A:0 VES:0x13f0 AES:0x0 PCM:0x0 AudioErr:0x0
+I//lib/ld-linux.so.3(  743): FrmCnt:403760(2,10,69) Rate:0 Sys:150988989 STC:17874872 VPTS:7290273 APTS:7290558 Delay:-10584559(40) V:0 A:0 VES:0x13f0 AES:0x0 PCM:0x0 AudioErr:0x0
+I//lib/ld-linux.so.3(  743): FrmCnt:403760(2,10,69) Rate:0 Sys:150990502 STC:17876385 VPTS:7290273 APTS:7290558 Delay:-10586072(40) V:0 A:0 VES:0x13f0 AES:0x0 PCM:0x0 AudioErr:0x0
+I//lib/ld-linux.so.3(  743): FrmCnt:403760(2,10,69) Rate:0 Sys:150992014 STC:17877896 VPTS:7290273 APTS:7290558 Delay:-10587583(40) V:0 A:0 VES:0x13f0 AES:0x0 PCM:0x0 AudioErr:0x0
+I//lib/ld-linux.so.3(  743): FrmCnt:403760(2,10,69) Rate:0 Sys:150993525 STC:17879408 VPTS:7290273 APTS:7290558 Delay:-10589095(40) V:0 A:0 VES:0x13f0 AES:0x0 PCM:0x0 AudioErr:0x0
+I//lib/ld-linux.so.3(  743): FrmCnt:403760(2,10,69) Rate:0 Sys:150995037 STC:17880920 VPTS:7290273 APTS:7290558 Delay:-10590607(40) V:0 A:0 VES:0x13f0 AES:0x0 PCM:0x0 AudioErr:0x0
+I//lib/ld-linux.so.3(  743): FrmCnt:403760(2,10,69) Rate:0 Sys:150996549 STC:17882431 VPTS:7290273 APTS:7290558 Delay:-10592118(40) V:0 A:0 VES:0x13f0 AES:0x0 PCM:0x0 AudioErr:0x0
+I//lib/ld-linux.so.3(  743): FrmCnt:403760(2,10,69) Rate:0 Sys:150998060 STC:17883942 VPTS:7290273 APTS:7290558 Delay:-10593629(40) V:0 A:0 VES:0x13f0 AES:0x0 PCM:0x0 AudioErr:0x0
+I//lib/ld-linux.so.3(  743): FrmCnt:403760(2,10,69) Rate:0 Sys:150999572 STC:17885454 VPTS:7290273 APTS:7290558 Delay:-10595141(40) V:0 A:0 VES:0x13f0 AES:0x0 PCM:0x0 AudioErr:0x0
+I//lib/ld-linux.so.3(  743): FrmCnt:403760(2,10,69) Rate:0 Sys:151001083 STC:17886966 VPTS:7290273 APTS:7290558 Delay:-10596653(40) I//lib/ld-linux.so.3(  743): FrmCnt:403760(2,10,69) Rate:0 Sys:151403408 STC:18289290 VPTS:7290273 APTS:7290558 Delay:-10998977(40) V:0 A:0 VES:0x13f0 AES:0x0 PCM:0x0 AudioErr:0x0
+I//lib/ld-linux.so.3(  743): FrmCnt:403760(2,10,69) Rate:0 Sys:151404920 STC:18290803 VPTS:7290273 APTS:7290558 Delay:-11000490(40) V:0 A:0 VES:0x13f0 AES:0x0 PCM:0x0 AudioErr:0x0
+I//lib/ld-linux.so.3(  743): FrmCnt:403760(2,10,69) Rate:0 Sys:151406433 STC:18292315 VPTS:7290273 APTS:7290558 Delay:-11002002(40) V:0 A:0 VES:0x13f0 AES:0x0 PCM:0x0 AudioErr:0x0
+I//lib/ld-linux.so.3(  743): FrmCnt:403760(2,10,69) Rate:0 Sys:151407945 STC:18293828 VPTS:7290273 APTS:7290558 Delay:-11003515(40) V:0 A:0 VES:0x13f0 AES:0x0 PCM:0x0 AudioErr:0x0
+I//lib/ld-linux.so.3(  743): FrmCnt:403760(2,10,69) Rate:0 Sys:151409458 STC:18295340 VPTS:7290273 APTS:7290558 Delay:-11005027(40) V:0 A:0 VES:0x13f0 AES:0x0 PCM:0x0 AudioErr:0x0
+^C
+130|shell@android:/ # 

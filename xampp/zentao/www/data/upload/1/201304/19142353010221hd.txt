@@ -1,0 +1,1462 @@
+[ 1108.545847]  logcat
+--------- beginning of /dev/log/system
+I/Vold    (  738): Vold 2.1 (the revenge) firing up
+E/Vold    (  738): Error reading configuration (No such file or directory)... continuing anyways
+D/Vold    (  738): can not get the uuid of /dev/block/vold/8:0 when device add
+D/Vold    (  738): can not get the uuid of /dev/block/vold/8:0 when device remove
+I/SystemServer(  973): Entered the Android system server!
+I/SystemServer(  973): Entropy Service
+I/SystemServer(  973): Power Manager
+I/SystemServer(  973): Activity Manager
+I/ActivityManager(  973): Memory class: 64
+I/ActivityManager(  973): Enabled StrictMode logging for AThread's Looper
+I/SystemServer(  973): Telephony Registry
+I/SystemServer(  973): Package Manager
+W/PackageManager(  973): Running ENG build: no pre-dexopt!
+W/PackageManager(  973): Library not found: /system/framework/com.android.future.usb.accessory.jar
+W/PackageParser(  973): No actions in intent filter at /system/app/Bluetooth.apk Binary XML file line #125
+I/PackageParser(  973): com.coship.HS: compat added android.permission.WRITE_EXTERNAL_STORAGE android.permission.READ_PHONE_STATE
+W/PackageParser(  973): No actions in intent filter at /system/app/Contacts.apk Binary XML file line #525
+W/PackageParser(  973): No actions in intent filter at /system/app/Coship_VAF.apk Binary XML file line #58
+I/PackageParser(  973): com.coship.cw880: compat added android.permission.WRITE_EXTERNAL_STORAGE android.permission.READ_PHONE_STATE
+W/PackageParser(  973): Problem in package /system/app/STB-Settings.apk:
+W/PackageParser(  973): Unknown element under <activity>: data at /system/app/STB-Settings.apk Binary XML file line #145
+W/PackageParser(  973): Problem in package /system/app/STB-Settings.apk:
+W/PackageParser(  973): Unknown element under <activity>: action at /system/app/STB-Settings.apk Binary XML file line #231
+W/PackageParser(  973): Problem in package /system/app/STB-Settings.apk:
+W/PackageParser(  973): Unknown element under <activity>: action at /system/app/STB-Settings.apk Binary XML file line #232
+W/PackageParser(  973): Problem in package /system/app/STB-Settings.apk:
+W/PackageParser(  973): Unknown element under <activity>: action at /system/app/STB-Settings.apk Binary XML file line #289
+W/PackageParser(  973): Problem in package /system/app/STB-Settings.apk:
+W/PackageParser(  973): Unknown element under <activity>: action at /system/app/STB-Settings.apk Binary XML file line #393
+W/PackageParser(  973): Problem in package /system/app/STB-Settings.apk:
+W/PackageParser(  973): Unknown element under <activity>: action at /system/app/STB-Settings.apk Binary XML file line #394
+I/PackageParser(  973): com.iflytek.vaf.TouchKey: compat added android.permission.WRITE_EXTERNAL_STORAGE android.permission.READ_PHONE_STATE
+W/PackageParser(  973): No actions in intent filter at /system/app/com.coship.Multimedia.apk Binary XML file line #97
+W/PackageParser(  973): No actions in intent filter at /system/app/com.coship.Multimedia.apk Binary XML file line #104
+I/PackageParser(  973): com.coship.Multimedia: compat added android.permission.READ_PHONE_STATE
+W/PackageParser(  973): No actions in intent filter at /system/app/com.coship.NetworkNavigation.apk Binary XML file line #24
+W/PackageParser(  973): No actions in intent filter at /system/app/com.coship.NetworkNavigation.apk Binary XML file line #31
+W/PackageParser(  973): No actions in intent filter at /system/app/com.coship.NetworkNavigation.apk Binary XML file line #38
+W/PackageParser(  973): No actions in intent filter at /system/app/com.coship.NetworkNavigation.apk Binary XML file line #45
+W/PackageParser(  973): No actions in intent filter at /system/app/com.coship.NetworkNavigation.apk Binary XML file line #52
+I/PackageParser(  973): com.coship.dvbplayer: compat added android.permission.READ_PHONE_STATE
+W/PackageParser(  973): No actions in intent filter at /system/app/com.coship.dvbsetting.apk Binary XML file line #103
+W/PackageParser(  973): No actions in intent filter at /system/app/com.coship.dvbsetting.apk Binary XML file line #111
+W/PackageParser(  973): No actions in intent filter at /system/app/com.coship.dvbsetting.apk Binary XML file line #119
+W/PackageParser(  973): No actions in intent filter at /system/app/com.coship.dvbsetting.apk Binary XML file line #127
+W/PackageParser(  973): No actions in intent filter at /system/app/com.coship.dvbsetting.apk Binary XML file line #135
+W/PackageParser(  973): No actions in intent filter at /system/app/com.coship.dvbsetting.apk Binary XML file line #141
+W/PackageParser(  973): No actions in intent filter at /system/app/com.coship.dvbsetting.apk Binary XML file line #155
+W/PackageParser(  973): No actions in intent filter at /system/app/com.coship.dvbsetting.apk Binary XML file line #163
+W/PackageParser(  973): No actions in intent filter at /system/app/com.coship.dvbsetting.apk Binary XML file line #172
+W/PackageParser(  973): No actions in intent filter at /system/app/com.coship.dvbsetting.apk Binary XML file line #180
+W/PackageParser(  973): No actions in intent filter at /system/app/com.coship.dvbsetting.apk Binary XML file line #187
+W/PackageParser(  973): No actions in intent filter at /system/app/com.coship.dvbsetting.apk Binary XML file line #195
+W/PackageParser(  973): No actions in intent filter at /system/app/com.coship.dvbsetting.apk Binary XML file line #202
+W/PackageParser(  973): No actions in intent filter at /system/app/com.coship.dvbsetting.apk Binary XML file line #210
+W/PackageParser(  973): No actions in intent filter at /system/app/com.coship.dvbsetting.apk Binary XML file line #217
+W/PackageParser(  973): No actions in intent filter at /system/app/com.coship.dvbsetting.apk Binary XML file line #223
+W/PackageParser(  973): No actions in intent filter at /system/app/com.coship.dvbsetting.apk Binary XML file line #230
+W/PackageParser(  973): No actions in intent filter at /system/app/com.coship.dvbsetting.apk Binary XML file line #236
+I/PackageParser(  973): com.coship.dvbsetting: compat added android.permission.READ_PHONE_STATE
+W/PackageManager(  973): Unable to update from com.android.settings to com.coship.dvbsetting: old package still exists
+W/PackageParser(  973): No actions in intent filter at /system/app/com.coship.startwizard.apk Binary XML file line #42
+W/PackageParser(  973): No actions in intent filter at /system/app/com.coship.startwizard.apk Binary XML file line #49
+W/PackageParser(  973): No actions in intent filter at /system/app/com.coship.startwizard.apk Binary XML file line #56
+W/PackageParser(  973): No actions in intent filter at /system/app/com.coship.startwizard.apk Binary XML file line #63
+W/PackageParser(  973): No actions in intent filter at /system/app/com.coship.startwizard.apk Binary XML file line #70
+W/PackageParser(  973): No actions in intent filter at /system/app/com.coship.startwizard.apk Binary XML file line #77
+W/PackageParser(  973): No actions in intent filter at /system/app/com.coship.startwizard.apk Binary XML file line #84
+W/PackageParser(  973): No actions in intent filter at /system/app/com.coship.startwizard.apk Binary XML file line #91
+W/PackageParser(  973): No actions in intent filter at /system/app/com.coship.startwizard.apk Binary XML file line #98
+W/PackageParser(  973): No actions in intent filter at /system/app/com.coship.startwizard.apk Binary XML file line #106
+W/PackageParser(  973): No actions in intent filter at /system/app/com.coship.startwizard.apk Binary XML file line #113
+I/Installer(  973): connecting...
+I/PackageManager(  973): Time to scan packages: 2.411 seconds
+W/PackageManager(  973): Unknown permission android.permission.APPWIDGET_LIST in package com.iflytek.vaf
+W/PackageManager(  973): Unknown permission android.permission.APPWIDGET_LIST in package com.biaoqi.stbwidget.host
+W/PackageManager(  973): Unknown permission com.android.launcher.permission.READ_SETTINGS in package com.coship.dvbsetting
+W/PackageManager(  973): Unknown permission com.android.launcher.permission.WRITE_SETTINGS in package com.coship.dvbsetting
+W/PackageManager(  973): Unknown permission android.permission.APPWIDGET_LIST in package com.mstar.appwidget
+W/PackageManager(  973): Unknown permission android.permission.ADD_SYSTEM_SERVICE in package com.coship.sdp.sce.tvappstore
+W/PackageManager(  973): Unknown permission android.permission.READ_EXTERNAL_STORAGE in package com.coship.sdp.sce.tvappstore
+W/PackageManager(  973): Unknown permission com.google.android.gm.permission.WRITE_GMAIL in package com.coship.sdp.sce.tvappstore
+W/PackageManager(  973): Unknown permission com.google.android.gm.permission.READ_GMAIL in package com.coship.sdp.sce.tvappstore
+W/PackageManager(  973): Unknown permission com.android.launcher.permission.INSTALL_SHORTCUT in package com.android.browser
+W/PackageManager(  973): Unknown permission com.google.android.gm.permission.WRITE_GMAIL in package com.coship.app.vaf
+W/PackageManager(  973): Unknown permission com.google.android.gm.permission.READ_GMAIL in package com.coship.app.vaf
+W/PackageManager(  973): Unknown permission com.android.launcher.permission.READ_SETTINGS in package com.coship.app.vaf
+W/PackageManager(  973): Unknown permission com.android.launcher.permission.WRITE_SETTINGS in package com.coship.app.vaf
+W/PackageManager(  973): Unknown permission com.google.android.gm.permission.WRITE_GMAIL in package com.coship.TestApp
+W/PackageManager(  973): Unknown permission com.google.android.gm.permission.READ_GMAIL in package com.coship.TestApp
+W/PackageManager(  973): Unknown permission com.android.launcher.permission.READ_SETTINGS in package com.coship.TestApp
+W/PackageManager(  973): Unknown permission com.android.launcher.permission.WRITE_SETTINGS in package com.coship.TestApp
+W/PackageManager(  973): Unknown permission android.permission.WRITE_OWNER_DATA in package com.iflytek.speech
+W/PackageManager(  973): Unknown permission android.permission.BAIDU_LOCATION_SERVICE in package com.iflytek.speech
+W/PackageManager(  973): Unknown permission android.permission.APPWIDGET_LIST in package com.iflytek.xiri.recorder.svc
+W/PackageManager(  973): Unknown permission android.permission.ADD_SYSTEM_SERVICE in package com.coship.netfirmware
+W/PackageManager(  973): Unknown permission android.permission.READ_SETTINGS in package com.android.settings
+W/PackageManager(  973): Unknown permission com.android.launcher.permission.READ_SETTINGS in package com.android.settings
+W/PackageManager(  973): Unknown permission com.android.launcher.permission.WRITE_SETTINGS in package com.android.settings
+W/PackageManager(  973): Unknown permission android.permission.WRITE_OWNER_DATA in package com.coship.Multimedia
+W/PackageManager(  973): Unknown permission android.permission.READ_OWNER_DATA in package com.coship.Multimedia
+W/PackageManager(  973): Unknown permission android.permission.WRITE_OWNER_DATA in package com.coship.NetworkNavigation
+W/PackageManager(  973): Unknown permission android.permission.READ_OWNER_DATA in package com.coship.NetworkNavigation
+I/SystemServer(  973): Account Manager
+I/SystemServer(  973): Content Manager
+I/SystemServer(  973): System Content Providers
+I/SystemServer(  973): Lights Service
+I/SystemServer(  973): Battery Service
+I/SystemServer(  973): Pppoe Service
+I/SystemServer(  973): Vibrator Service
+I/SystemServer(  973): Alarm Manager
+I/SystemServer(  973): Init Watchdog
+I/SystemServer(  973): Window Manager
+I/InputManager(  973): Initializing input manager
+W/StatusBarManager(  973): warning: no STATUS_BAR_SERVICE
+I/InputManager(  973): Starting input manager
+I/WindowManager(  973): Enabled StrictMode logging for WMThread's Looper
+I/SystemServer(  973): Bluetooth Service
+I/WindowManager(  973): Enabled StrictMode for PolicyThread's Looper
+I/SystemServer(  973): Input Method Service
+W/InputManagerService(  973): Couldn't create dir.: /data/system/inputmethod
+I/SystemServer(  973): Accessibility Manager
+I/ActivityManager(  973): Config changed: {1.0 0mcc0mnc zh_CN layoutdir=0 sw720dp w1280dp h720dp xlrg long land ?uimode ?night -touch -keyb/v/h -nav/h s.2}
+I/SystemServer(  973): TV
+I/SystemServer(  973): Device Policy
+I/SystemServer(  973): Status Bar
+I/SystemServer(  973): Clipboard Service
+I/SystemServer(  973): NetworkManagement Service
+I/SystemServer(  973): Text Service Manager Service
+W/TextServicesManagerService(  973): no available spell checker services found
+I/SystemServer(  973): NetworkStats Service
+I/SystemServer(  973): NetworkPolicy Service
+I/SystemServer(  973): Wi-Fi P2pService
+D/WifiP2pService(  973): P2pDisabledState
+E/WifiP2pService(  973): Failed to reload sta firmware java.lang.NullPointerException
+D/WifiP2pService(  973): mThisDevice.deviceAddress=a6:a8:20:13:03:6e
+I/SystemServer(  973): Wi-Fi Service
+D/WifiP2pService(  973): P2pDisabledState{ what=69633 when=0 }
+D/WifiP2pService(  973): DefaultState{ what=69633 when=0 }
+D/WifiP2pService(  973): P2pDisabledState{ what=69632 when=0 obj=com.android.internal.util.AsyncChannel@4155e690 }
+D/WifiP2pService(  973): DefaultState{ what=69632 when=-1ms obj=com.android.internal.util.AsyncChannel@4155e690 }
+D/WifiP2pService(  973): Full connection with WifiStateMachine established
+D/WifiP2pService(  973): P2pDisabledState{ what=69633 when=-1ms }
+D/WifiP2pService(  973): DefaultState{ what=69633 when=-1ms }
+D/WifiP2pService(  973): P2pDisabledState{ what=69632 when=0 obj=com.android.internal.util.AsyncChannel@41461e48 }
+D/WifiP2pService(  973): DefaultState{ what=69632 when=0 obj=com.android.internal.util.AsyncChannel@41461e48 }
+D/WifiP2pService(  973): Full connection with WifiStateMachine established
+I/SystemServer(  973): Connectivity Service
+D/ConnectivityService(  973): ConnectivityService starting up
+E/ConnectivityService(  973): Error in radioAttributes - ignoring attempt to redefine type 1
+D/ConnectivityService(  973): Starting Pppoe StateTracker
+D/ConnectivityService(  973): Starting Ethernet Service.
+V/EthernetStateTracker(  973): Ethernet State Tracker v1.0.6
+V/EthernetStateTracker(  973): successed to init device!
+I/EthernetService(  973): Ethernet dev enabled 2
+V/EthernetService(  973): device 0 name eth0
+V/EthernetStateTracker(  973): start to monitor the ethernet devices . . .
+I/EthernetManager(  973): Init Ethernet Manager, service: com.android.server.EthernetService@415443c8
+I/EthernetStateTracker(  973): reset device eth0
+V/EthernetMonitor(  973): go poll events
+I/EthernetStateTracker(  973): trigger dhcp for device eth0
+I/EthernetStateTracker(  973): reset device eth0
+D/EthernetStateTracker(  973): DhcpHandler: DHCP request started
+I/EthernetStateTracker(  973): trigger dhcp for device eth0
+E/MobileDataStateTracker(  973): default: Ignoring feature request because could not acquire PhoneService
+E/MobileDataStateTracker(  973): default: Could not enable APN type "default"
+D/NetworkManagementService(  973): Registering observer
+D/NetworkManagementService(  973): Registering observer
+I/WifiService(  973): WifiService starting up with Wi-Fi enabled
+D/WifiP2pService(  973): P2pDisabledState{ what=131203 when=0 }
+I/WifiService(  973): WifiService starting up with Wi-Fi AP disabled
+I/SystemServer(  973): Throttle Service
+I/SystemServer(  973): Mount Service
+D/MountService(  973): got storage path: /mnt/sdcard description: USB ´æ´¢Æ÷ primary: true removable: false emulated: false mtpReserve: 0 allowMassStorage: false maxFileSize: 0
+D/MountService(  973): mExternalStoragePath:/mnt/sdcard
+I/SystemServer(  973): Notification Manager
+D/VoldCmdListener(  738): volume list
+I/SystemServer(  973): Device Storage Monitor
+I/SystemServer(  973): Location Manager
+I/SystemServer(  973): Country Detector
+I/SystemServer(  973): Search Service
+I/SystemServer(  973): DropBox Service
+I/SystemServer(  973): Wallpaper Service
+I/SystemServer(  973): Audio Service
+I/SystemServer(  973): Camera Observer
+I/SystemServer(  973): Microphone Observer
+I/SystemServer(  973): Wired Accessory Observer
+I/SystemServer(  973): USB Service
+I/SystemServer(  973): UI Mode Manager Service
+I/SystemServer(  973): Backup Service
+V/BackupManagerService(  973): Initializing package tracking
+V/BackupManagerService(  973): No ancestral data
+V/BackupManagerService(  973): addPackageParticipantsLocked: all
+I/BackupManagerService(  973): New app android never backed up; scheduling
+I/BackupManagerService(  973): New app com.android.browser never backed up; scheduling
+I/BackupManagerService(  973): New app com.android.providers.settings never backed up; scheduling
+I/BackupManagerService(  973): New app com.android.providers.userdictionary never backed up; scheduling
+I/BackupManagerService(  973): New app com.android.sharedstoragebackup never backed up; scheduling
+V/BackupManagerService(  973): Registering transport android/com.android.internal.backup.LocalTransport = com.android.internal.backup.LocalTransport@41627f78
+V/BackupManagerService(  973): Starting with transport android/com.android.internal.backup.LocalTransport
+V/BackupManagerService(  973): Google transport not present
+I/BackupManagerService(  973): Backup enabled => false
+I/BackupManagerService(  973): Opting out of backup
+I/SystemServer(  973): AppWidget Service
+I/SystemServer(  973): Recognition Service
+I/SystemServer(  973): DiskStats Service
+I/SystemServer(  973): SamplingProfiler Service
+I/SystemServer(  973): NetworkTimeUpdateService
+D/PowerManagerService(  973): system ready!
+I/ActivityManager(  973): System now ready
+I/SystemServer(  973): Making services ready
+I/ActivityManager(  973): Start proc com.mstar.dbprovider for content provider com.mstar.dbprovider/.MstTvUserSettingProvider: pid=1110 uid=10019 gids={}
+D/SystemServer(  973): Starting service: Intent { cmp=com.android.systemui/.SystemUIService }
+I/ActivityManager(  973): Start proc com.android.systemui for service com.android.systemui/.SystemUIService: pid=1127 uid=1000 gids={3003, 1015, 3002, 3001, 3004}
+D/NetworkManagementService(  973): enabling bandwidth control
+D/SystemUIService( 1127): loading: class com.android.systemui.statusbar.tablet.TabletStatusBar
+D/SystemUIService( 1127): running: com.android.systemui.statusbar.tablet.TabletStatusBar@413f9950
+D/NetworkManagementService(  973): rsp <213 a4:a8:20:13:03:6e 0.0.0.0 0 [down broadcast multicast]>
+D/NetworkManagementService(  973): flags <[down broadcast multicast]>
+D/NetworkManagementService(  973): Registering observer
+D/NetworkManagementService(  973): Registering observer
+I/ActivityManager(  973): Config changed: {1.0 0mcc0mnc zh_CN layoutdir=0 sw720dp w1280dp h720dp xlrg long land -touch -keyb/v/h -nav/h s.3}
+W/RecognitionManagerService(  973): no available voice recognition services found
+W/InputManagerService(  973): Ignoring setImeWindowStatus of uid 1000 token: null
+I/ActivityManager(  973): Start proc com.android.inputmethod.pinyin for service com.android.inputmethod.pinyin/.PinyinIME: pid=1184 uid=10022 gids={3003}
+D/NetworkManagementService(  973): Registering observer
+I/SystemServer(  973): SIP Service
+W/ThrottleService(  973): unable to find stats for iface rmnet0
+I/ActivityManager(  973): Start proc com.coship.sdp.sce.tvappstore for added application com.coship.sdp.sce.tvappstore: pid=1218 uid=1000 gids={3003, 1015, 3002, 3001, 3004}
+I/ActivityManager(  973): Start proc com.coship.easycontrolime for added application com.coship.easycontrolime: pid=1226 uid=10013 gids={3003}
+I/ActivityManager(  973): Start proc com.coship.netfirmware for added application com.coship.netfirmware: pid=1237 uid=1000 gids={3003, 1015, 3002, 3001, 3004}
+I/ActivityManager(  973): Start proc com.iflytek.vaf.TouchKey for added application com.iflytek.vaf.TouchKey: pid=1248 uid=10032 gids={1015}
+I/ActivityManager(  973): START {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000000 cmp=com.coship.cibn/.MainActivity} from pid 0
+I/ActivityManager(  973): Start proc com.coship.cibn for activity com.coship.cibn/.MainActivity: pid=1260 uid=10006 gids={3003, 1015}
+I/SystemServer(  973): Enabled StrictMode for system server main thread.
+I/EthernetStateTracker(  973): received interface reset event
+I/EthernetStateTracker(  973): reset device eth0
+I/EthernetStateTracker(  973): trigger dhcp for device eth0
+I/ActivityManager(  973): Start proc com.google.process.gapps for service com.google.android.location/.NetworkLocationService: pid=1276 uid=10014 gids={3003, 1015, 2001, 1007}
+I/StatusBar.HeightReceiver( 1127): Resizing status bar plugged=false height=48 old=0
+V/EthernetMonitor(  973): get event 
+V/EthernetMonitor(  973): go poll events
+W/MountService(  973): getVolumeState(/mnt/sdcard): Unknown volume
+W/MountService(  973): getVolumeState(/mnt/sdcard): Unknown volume
+W/ActivityThread( 1276): ClassLoader.loadClass: The class loader returned by Thread.getContextClassLoader() may fail for processes that host multiple applications. You should explicitly specify a context class loader. For example: Thread.setContextClassLoader(getClass().getClassLoader());
+I/StatusBarManagerService(  973): registerStatusBar bar=com.android.internal.statusbar.IStatusBar$Stub$Proxy@415f5f18
+D/SystemUIService( 1127): loading: class com.android.systemui.power.PowerUI
+D/SystemUIService( 1127): running: com.android.systemui.power.PowerUI@4142d8f8
+I/StatusBar.HeightReceiver( 1127): Resizing status bar plugged=false height=48 old=48
+I/StatusBar.HeightReceiver( 1127): Resizing status bar plugged=false height=48 old=48
+D/WifiService(  973): New client listening to asynchronous messages
+I/ActivityManager(  973): Start proc com.aidufei.cibn.uploadchecker for content provider com.aidufei.cibn.uploadchecker/.contentprovider.AuthResultProvider: pid=1317 uid=10002 gids={3003}
+D/PowerManagerService(  973): bootCompleted
+V/DevicePolicyManagerService(  973): Sending password expiration notifications for action android.intent.action.BOOT_COMPLETED
+I/ActivityManager(  973): Start proc com.android.contacts for broadcast com.android.contacts/.calllog.CallLogReceiver: pid=1348 uid=10001 gids={3003, 1015}
+V/WiredAccessoryObserver(  973): init()
+W/WiredAccessoryObserver(  973): This kernel does not have wired headset support
+W/WiredAccessoryObserver(  973): This kernel does not have wired headset support
+W/WiredAccessoryObserver(  973): This kernel does not have wired headset support
+V/EthernetMonitor(  973): get event 
+V/EthernetMonitor(  973): go poll events
+V/EthernetMonitor(  973): get event 
+V/EthernetMonitor(  973): go poll events
+I/ActivityManager(  973): Start proc android.process.acore for content provider com.android.providers.contacts/.CallLogProvider: pid=1378 uid=10001 gids={3003, 1015}
+I/ActivityManager(  973): Start proc com.aidufei.movieonline for broadcast com.aidufei.movieonline/com.aidufei.otoService.BootReceiver: pid=1389 uid=10000 gids={3003, 1015}
+W/MountService(  973): getVolumeState(/mnt/sdcard): Unknown volume
+I/ActivityManager(  973): Start proc android.process.media for content provider com.android.providers.downloads/.DownloadProvider: pid=1446 uid=10012 gids={1015, 1023, 1024, 2001, 3003, 3007}
+I/MicrophoneObserver(  973): Microphone PLUG_IN
+W/MountService(  973): getVolumeState(/mnt/sdcard): Unknown volume
+I/ActivityManager(  973): Start proc com.coship.HS for broadcast com.coship.HS/.AutoStartReceiver: pid=1484 uid=1000 gids={3003, 1015, 3002, 3001, 3004}
+I/ActivityManager(  973): Start proc com.android.providers.calendar for broadcast com.android.providers.calendar/.CalendarReceiver: pid=1499 uid=10007 gids={3003, 1015}
+I/ActivityManager(  973): Start proc com.coship.cw880 for broadcast com.coship.cw880/.BootCw880Recive: pid=1517 uid=1000 gids={3003, 1015, 3002, 3001, 3004}
+I/ActivityManager(  973): START {flg=0x10000000 cmp=com.google.android.gsf/.update.SystemUpdateInstallDialog} from pid 1276
+I/ActivityManager(  973): Start proc com.android.settings for broadcast com.android.settings/.SettingGlobalReceiver: pid=1550 uid=1000 gids={3003, 1015, 3002, 3001, 3004}
+I/ActivityManager(  973): Start proc com.iflytek.vac for broadcast com.iflytek.vaf/com.iflytek.vocmd.Loader: pid=1565 uid=10030 gids={3003, 1015}
+W/InputManagerService(  973): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@415bac00
+I/ActivityManager(  973): Start proc com.coship.changetheaudiooutput for broadcast com.coship.changetheaudiooutput/.BootCompletedReceiver: pid=1579 uid=10034 gids={3002, 3001, 3004}
+I/ActivityManager(  973): Start proc com.iflytek.vaf.svc.rec for service com.iflytek.vaf/.svc.VAFSvc: pid=1598 uid=10030 gids={3003, 1015}
+V/EthernetMonitor(  973): get event eth0:16:
+V/EthernetMonitor(  973): dev: eth0 ev 16
+V/EthernetStateTracker(  973): report interface is up for eth0
+V/EthernetMonitor(  973): go poll events
+I/EthernetStateTracker(  973): received interface up event, kick off connection request
+V/EthernetMonitor(  973): get event 
+V/EthernetMonitor(  973): go poll events
+V/EthernetMonitor(  973): get event 
+V/EthernetMonitor(  973): go poll events
+V/EthernetMonitor(  973): get event 
+V/EthernetMonitor(  973): go poll events
+V/EthernetMonitor(  973): get event 
+V/EthernetMonitor(  973): go poll events
+V/EthernetMonitor(  973): get event 
+V/EthernetMonitor(  973): go poll events
+I/ActivityManager(  973): Start proc com.coship.Multimedia for broadcast com.coship.Multimedia/.view.BootCompletedReceiver: pid=1618 uid=1000 gids={3003, 1015, 3002, 3001, 3004}
+I/EthernetStateTracker(  973): IntentBroadcast, event=5
+I/EthernetStateTracker(  973): reset device eth0
+I/EthernetStateTracker(  973): trigger dhcp for device eth0
+E/EthernetStateTracker(  973): DhcpHandler: DHCP request failed: DHCP result was failed
+V/EthernetMonitor(  973): get event 
+V/EthernetMonitor(  973): go poll events
+I/ActivityManager(  973): Start proc com.iflytek.xiri.recorder.svc for service com.iflytek.xiri.recorder.svc/.PCMRecorderSvc: pid=1635 uid=10031 gids={3003, 1015}
+I/ActivityManager(  973): Start proc com.android.phone for content provider com.android.providers.telephony/.TelephonyProvider: pid=1653 uid=1001 gids={1015}
+D/EthernetStateTracker(  973): DhcpHandler: DHCP request started
+I/ActivityManager(  973): Start proc com.iflytek.speech for service com.iflytek.speech/.SpeechService: pid=1675 uid=10027 gids={1015, 3003, 1007}
+I/EthernetStateTracker(  973): configureInterfaceAutoIP : ipaddr 169.254.1.43 gateway 0.0.0.0 netmask 255.255.0.0 dns1 0.0.0.0 dns2 0.0.0.0 DHCP server 0.0.0.0 lease 0 seconds
+V/EthernetMonitor(  973): get event eth0:20:
+V/EthernetMonitor(  973): dev: eth0 ev 20
+I/EthernetStateTracker(  973): report new state CONNECTED on dev eth0
+V/EthernetStateTracker(  973): update network state tracker
+V/EthernetStateTracker(  973): configureInterfaceAutoIP succeeded
+V/EthernetMonitor(  973): go poll events
+I/EthernetStateTracker(  973): received HW connected, stack=false CC=true
+V/EthernetMonitor(  973): get event 
+V/EthernetMonitor(  973): go poll events
+I/ActivityManager(  973): Start proc com.coship.TestApp for broadcast com.coship.TestApp/.BootCompletedReceiver: pid=1726 uid=1000 gids={3003, 1015, 3002, 3001, 3004}
+D/ConnectivityService(  973): ConnectivityChange for WIFI: CONNECTED/CONNECTED
+D/ConnectivityService(  973): ConnectivityChange for WIFI: CONNECTED/CONNECTED
+D/ConnectivityService(  973): handleConnectivityChange: address are the same reset per doReset linkProperty[1]: resetMask=0
+I/ActivityManager(  973): Start proc com.coship.startwizard for broadcast com.coship.startwizard/.service.BootBroadcastReceiver: pid=1744 uid=1000 gids={3003, 1015, 3002, 3001, 3004}
+I/ActivityManager(  973): Start proc com.coship.stpservice for service com.coship.stpservice/.StpService: pid=1757 uid=1000 gids={3003, 1015, 3002, 3001, 3004}
+I/ActivityManager(  973): Start proc com.biaoqi.stbwidget.host for broadcast com.biaoqi.stbwidget.host/.NetworkStatusChangeReceiver: pid=1787 uid=10029 gids={3003}
+I/ActivityManager(  973): Start proc com.coship.adjustthevolume for broadcast com.coship.adjustthevolume/.BootCompletedReceiver: pid=1802 uid=1000 gids={3003, 1015, 3002, 3001, 3004}
+V/CheckBackdoors( 1757): add new backdoor. actionName=com.coship.adjustthevolume, backdoor.mBackdoorKey=0x5252525252
+V/CheckBackdoors( 1757): add new backdoor. actionName=com.coship.adjustthevolume.Volup, backdoor.mBackdoorKey=0x18
+V/CheckBackdoors( 1757): add new backdoor. actionName=com.coship.adjustthevolume.VolDown, backdoor.mBackdoorKey=0x19
+I/ActivityManager(  973): Start proc com.iflytek.xiri.remotecmd for service com.iflytek.xiri.remotecmd/com.iflytek.xiri.vocmd.MyService: pid=1829 uid=10033 gids={}
+V/EthernetMonitor(  973): get event eth0:21:
+V/EthernetMonitor(  973): dev: eth0 ev 21
+V/EthernetStateTracker(  973): report address is removed for eth0
+V/EthernetMonitor(  973): go poll events
+I/EthernetStateTracker(  973): received interface address remove event
+V/EthernetMonitor(  973): get event eth0:20:
+V/EthernetMonitor(  973): dev: eth0 ev 20
+I/EthernetStateTracker(  973): report new state CONNECTED on dev eth0
+V/EthernetStateTracker(  973): update network state tracker
+D/EthernetStateTracker(  973): DhcpHandler: DHCP request succeeded: addr: 192.168.2.102/24 mRoutes: 0.0.0.0/0 -> 192.168.2.1 |  dns: 192.168.2.1, dhcpServer: 192.168.2.1 leaseDuration: 7200
+D/ConnectivityService(  973): handleInetConditionHoldEnd: net=1, condition=0, published condition=0
+I/ActivityManager(  973): START {flg=0x10000000 cmp=com.coship.dvbsetting/.main (has extras)} from pid 1260
+I/ActivityManager(  973): Start proc com.coship.dvbsetting for activity com.coship.dvbsetting/.main: pid=1875 uid=1000 gids={3003, 1015, 3002, 3001, 3004}
+W/InputManagerService(  973): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@41625878 (uid=10006 pid=1260)
+I/ActivityManager(  973): START {cmp=com.coship.dvbsetting/.systemsetting.SyssetAcivity} from pid 1875
+V/EthernetStateTracker(  973): getEthernetIPAddr : 192.168.2.102
+V/EthernetStateTracker(  973): configureInterfaceAutoIP skip!!
+V/EthernetMonitor(  973): go poll events
+V/EthernetMonitor(  973): get event 
+V/EthernetMonitor(  973): go poll events
+W/ActivityManager(  973): Timeout of broadcast BroadcastRecord{416bab98 android.net.conn.CONNECTIVITY_CHANGE} - receiver=android.os.BinderProxy@415aacc0, started 10095ms ago
+W/ActivityManager(  973): Receiver during timeout: ResolveInfo{4162f820 com.aidufei.otoService.BootReceiver p=0 o=0 m=0x108000}
+I/EthernetStateTracker(  973): received configured succeeded, stack=true CC=true
+D/ConnectivityService(  973): ConnectivityChange for ETH: CONNECTED/CONNECTED
+I/EthernetStateTracker(  973): stop dhcp and interface
+I/EthernetStateTracker(  973): IntentBroadcast, event=1
+V/EthernetMonitor(  973): get event eth0:17:
+V/EthernetMonitor(  973): dev: eth0 ev 17
+I/EthernetStateTracker(  973): report new state DISCONNECTED on dev eth0
+V/EthernetStateTracker(  973): update network state tracker
+V/EthernetMonitor(  973): go poll events
+V/EthernetMonitor(  973): get event eth0:21:
+V/EthernetMonitor(  973): dev: eth0 ev 21
+V/EthernetStateTracker(  973): report address is removed for eth0
+V/EthernetMonitor(  973): go poll events
+V/TabletStatusBar( 1127): setLightsOn(true)
+I/EthernetStateTracker(  973): received HW connected, stack=true CC=true
+D/ConnectivityService(  973): ConnectivityChange for WIFI: DISCONNECTED/DISCONNECTED
+E/MobileDataStateTracker(  973): default: Ignoring feature request because could not acquire PhoneService
+E/MobileDataStateTracker(  973): default: Could not enable APN type "default"
+D/ConnectivityService(  973): Attempting to switch to mobile
+I/EthernetStateTracker(  973): reset device eth0
+W/ActivityManager(  973): finishReceiver called but active receiver is different
+I/EthernetStateTracker(  973): trigger dhcp for device eth0
+D/ConnectivityService(  973): Attempting to switch to ETH
+D/ConnectivityService(  973): Attempting to switch to pppoe
+D/EthernetStateTracker(  973): DhcpHandler: DHCP request started
+D/ConnectivityService(  973): now reset wlan0, resetMask = 3
+D/ConnectivityService(  973): resetConnections(wlan0, 3)
+I/EthernetStateTracker(  973): received disconnected events, stack=false CC=true
+D/ConnectivityService(  973): ConnectivityChange for WIFI: DISCONNECTED/DISCONNECTED
+E/MobileDataStateTracker(  973): default: Ignoring feature request because could not acquire PhoneService
+E/MobileDataStateTracker(  973): default: Could not enable APN type "default"
+D/ConnectivityService(  973): Attempting to switch to mobile
+V/EthernetMonitor(  973): get event eth0:16:
+V/EthernetMonitor(  973): dev: eth0 ev 16
+V/EthernetStateTracker(  973): report interface is up for eth0
+I/EthernetManager( 1875): Init Ethernet Manager, service: android.net.ethernet.IEthernetManager$Stub$Proxy@4145fe80
+E/ActivityManager(  973): Displayed com.coship.dvbsetting/.systemsetting.SyssetAcivity: +4s239msLoad: 5.24 / 1.35 / 0.45
+E/ActivityManager(  973): CPU usage from 5370ms to 0ms ago:
+E/ActivityManager(  973):   41% 1875/com.coship.dvbsetting: 30% user + 11% kernel / faults: 10028 minor 9 major
+E/ActivityManager(  973):   13% 973/system_server: 8.8% user + 4.6% kernel / faults: 1218 minor 7 major
+E/ActivityManager(  973):   12% 754/ld-linux.so.3: 5.3% user + 6.8% kernel / faults: 170 minor
+E/ActivityManager(  973):   9.5% 1618/com.coship.Multimedia: 7.3% user + 2.2% kernel / faults: 1003 minor
+E/ActivityManager(  973):   4.2% 1596/ksdioirqd/mmc1: 0% user + 4.2% kernel
+E/ActivityManager(  973):   4% 1020/surfaceflinger: 2.7% user + 1.2% kernel / faults: 58 minor
+E/ActivityManager(  973):   3.9% 421/mmcqd: 0% user + 3.9% kernel
+E/ActivityManager(  973):   3.8% 1389/com.aidufei.movieonline: 2% user + 1.8% kernel / faults: 850 minor
+E/ActivityManager(  973):   1.8% 744/mediaserver: 1.4% user + 0.3% kernel / faults: 44 minor
+E/ActivityManager(  973):   1.8% 1127/com.android.systemui: 1.2% user + 0.5% kernel / faults: 442 minor
+E/ActivityManager(  973):   1.6% 1260/com.coship.cibn: 0.9% user + 0.7% kernel / faults: 318 minor
+E/ActivityManager(  973):   0.9% 1//init: 0.1% user + 0.7% kernel / faults: 16 minor
+E/ActivityManager(  973):   0.9% 762/keydispatch_wq/: 0% user + 0.9% kernel
+E/ActivityManager(  973):   0.3% 739/netd: 0% user + 0.3% kernel / faults: 36 minor
+E/ActivityManager(  973):   0.3% 750/mdnsd: 0% user + 0.3% kernel / faults: 60 minor 1 major
+E/ActivityManager(  973):   0.1% 1653/com.android.phone: 0% user + 0% kernel / faults: 258 minor
+E/ActivityManager(  973):   0% 7/events/0: 0% user + 0% kernel
+E/ActivityManager(  973):   0% 8/events/1: 0% user + 0% kernel
+E/ActivityManager(  973):   0.1% 737/servicemanager: 0.1% user + 0% kernel
+E/ActivityManager(  973):   0.1% 775/mali/0: 0% user + 0.1% kernel
+E/ActivityManager(  973):   0.1% 777/mali-pmm-wq: 0% user + 0.1% kernel
+E/ActivityManager(  973):   0.1% 1184/com.android.inputmethod.pinyin: 0.1% user + 0% kernel / faults: 91 minor
+E/ActivityManager(  973):   0.1% 1446/android.process.media: 0.1% user + 0% kernel / faults: 292 minor
+E/ActivityManager(  973):   0% 1517/com.coship.cw880: 0% user + 0% kernel / faults: 246 minor
+E/ActivityManager(  973):   0.1% 1757/com.coship.stpservice: 0% user + 0.1% kernel / faults: 80 minor
+E/ActivityManager(  973):  +0% 1904/dnssd: 0% user + 0% kernel
+E/ActivityManager(  973):  +0% 1905/dnssd: 0% user + 0% kernel
+E/ActivityManager(  973):  +0% 1906/dnssd: 0% user + 0% kernel
+E/ActivityManager(  973):  +0% 1907/dnssd: 0% user + 0% kernel
+E/ActivityManager(  973): 49% TOTAL: 11% user + 8.3% kernel + 28% iowait + 0% softirq
+E/ActivityManager(  973): CPU usage from 1973ms to 2526ms later:
+E/ActivityManager(  973):   154% 1875/com.coship.dvbsetting: 118% user + 36% kernel / faults: 2063 minor 5 major
+E/ActivityManager(  973):     140% 1875/ship.dvbsetting: 109% user + 30% kernel
+E/ActivityManager(  973):     10% 1882/Compiler: 5.4% user + 5.4% kernel
+E/ActivityManager(  973):   118% 1618/com.coship.Multimedia: 105% user + 12% kernel / faults: 449 minor
+E/ActivityManager(  973):     47% 1619/GC: 43% user + 3.6% kernel
+E/ActivityManager(  973):     32% 1781/55.255.250:1900: 29% user + 3.6% kernel
+E/ActivityManager(  973):     32% 1823/55.255.250:1900: 29% user + 3.6% kernel
+E/ActivityManager(  973):     3.6% 1627/Compiler: 1.8% user + 1.8% kernel
+E/ActivityManager(  973):     1.8% 1629/FinalizerDaemon: 1.8% user + 0% kernel
+E/ActivityManager(  973):   49% 973/system_server: 25% user + 23% kernel / faults: 221 minor
+E/ActivityManager(  973):     16% 991/ActivityManager: 1.8% user + 14% kernel
+E/ActivityManager(  973):     16% 1065/WindowManager: 14% user + 1.8% kernel
+E/ActivityManager(  973):     5.4% 973/system_server: 3.6% user + 1.8% kernel
+E/ActivityManager(  973):     5.4% 980/Compiler: 1.8% user + 3.6% kernel
+E/ActivityManager(  973):     3.6% 1069/InputDispatcher: 3.6% user + 0% kernel
+E/ActivityManager(  973):     1.8% 1104/AudioService: 0% user + 1.8% kernel
+E/ActivityManager(  973):     1.8% 1652/Binder Thread #: 1.8% user + 0% kernel
+E/ActivityManager(  973):    +0% 1975/AudioTrackThrea: 0% user + 0% kernel
+E/ActivityManager(  973):   25% 754/ld-linux.so.3: 5.4% user + 20% kernel / faults: 12 minor
+E/ActivityManager(  973):     21% 1052/CECMonitor: 9% user + 12% kernel
+E/ActivityManager(  973):     1.8% 997/754Linux hotplu: 1.8% user + 0% kernel
+E/ActivityManager(  973):   25% 1596/ksdioirqd/mmc1: 0% user + 25% kernel
+E/ActivityManager(  973):   20% 1020/surfaceflinger: 10% user + 9% kernel / faults: 4 minor
+E/ActivityManager(  973):     10% 1026/SurfaceFlinger: 9% user + 1.8% kernel
+E/ActivityManager(  973):     3.6% 1020/surfaceflinger: 1.8% user + 1.8% kernel
+E/ActivityManager(  973):     3.6% 1037/Binder Thread #: 1.8% user + 1.8% kernel
+E/ActivityManager(  973):     1.8% 1034/SurfaceFlinger: 1.8% user + 0% kernel
+E/ActivityManager(  973):     1.8% 1035/SurfaceFlinger: 0% user + 1.8% kernel
+E/ActivityManager(  973):    +0% 1974/Binder Thread #: 0% user + 0% kernel
+E/ActivityManager(  973):   10% 421/mmcqd: 0% user + 10% kernel
+E/ActivityManager(  973):   5.4% 744/mediaserver: 1.8% user + 3.6% kernel / faults: 42 minor
+E/ActivityManager(  973):     1.8% 961/AudioOut_1: 0% user + 1.8% kernel
+E/ActivityManager(  973):     1.8% 962/Binder Thread #: 1.8% user + 0% kernel
+E/ActivityManager(  973):   3.6% 762/keydispatch_wq/: 0% user + 3.6% kernel
+E/ActivityManager(  973):   3.6% 1260/com.coship.cibn: 3.6% user + 0% kernel / faults: 28 minor
+E/ActivityManager(  973):   2.6% 1598/com.iflytek.vaf.svc.rec: 1.3% user + 1.3% kernel / faults: 285 minor 1 major
+E/ActivityManager(  973):   0.6% 737/servicemanager: 0% user + 0.6% kernel
+E/ActivityManager(  973):   0.7% 750/mdnsd: 0% user + 0.7% kernel / faults: 2
+W/ActivityManager(  973): Killing ProcessRecord{415876c8 1389:com.aidufei.movieonline/10000}: background ANR
+I/ActivityManager(  973): Process com.aidufei.movieonline (pid 1389) has died.
+W/ActivityManager(  973): Scheduling restart of crashed service com.aidufei.movieonline/com.aidufei.otoService.OtOService in 5000ms
+D/NetworkManagementService(  973): rsp <213 a4:a8:20:13:03:6e 0.0.0.0 0 [up broadcast running multicast]>
+D/NetworkManagementService(  973): flags <[up broadcast running multicast]>
+I/ActivityManager(  973): Start proc com.aidufei.movieonline for service com.aidufei.movieonline/com.aidufei.otoService.OtOService: pid=1991 uid=10000 gids={3003, 1015}
+W/MountService(  973): getVolumeState(/mnt/sdcard): Unknown volume
+W/ActivityManager(  973): Timeout executing service: ServiceRecord{41666738 com.aidufei.movieonline/com.aidufei.otoService.OtOService}
+E/ActivityManager(  973): ANR in com.aidufei.movieonline
+E/ActivityManager(  973): Reason: Executing service com.aidufei.movieonline/com.aidufei.otoService.OtOService
+E/ActivityManager(  973): Load: 5.74 / 1.77 / 0.62
+E/ActivityManager(  973): CPU usage from 22674ms to 0ms ago:
+E/ActivityManager(  973):   11% 754/ld-linux.so.3: 3% user + 8.2% kernel / faults: 498 minor 34 major
+E/ActivityManager(  973):   7.8% 1875/com.coship.dvbsetting: 6.3% user + 1.4% kernel / faults: 191 minor 2 major
+E/ActivityManager(  973):   2.1% 744/mediaserver: 1% user + 1.1% kernel / faults: 199 minor 21 major
+E/ActivityManager(  973):   2% 1596/ksdioirqd/mmc1: 0% user + 2% kernel
+E/ActivityManager(  973):   1% 973/system_server: 0.7% user + 0.2% kernel / faults: 176 minor
+E/ActivityManager(  973):   0.9% 421/mmcqd: 0% user + 0.9% kernel
+E/ActivityManager(  973):   0.8% 1260/com.coship.cibn: 0.5% user + 0.3% kernel / faults: 356 minor
+E/ActivityManager(  973):   0.4% 1317/com.aidufei.cibn.uploadchecker: 0.3% user + 0.1% kernel / faults: 363 minor
+E/ActivityManager(  973):   0.3% 762/keydispatch_wq/: 0% user + 0.3% kernel
+E/ActivityManager(  973):   0.2% 1020/surfaceflinger: 0% user + 0.1% kernel
+E/ActivityManager(  973):   0.1% 742/zygote: 0% user + 0% kernel / faults: 362 minor
+E/ActivityManager(  973):   0% 944/usb-storage: 0% user + 0% kernel
+E/ActivityManager(  973):   0% 1184/com.android.inputmethod.pinyin: 0% user + 0% kernel / faults: 22 minor
+E/ActivityManager(  973):   0% 1237/com.coship.netfirmware: 0% user + 0% kernel / faults: 91 minor
+E/ActivityManager(  973):   0% 3/ksoftirqd/0: 0% user + 0% kernel
+E/ActivityManager(  973):   0% 8/events/1: 0% user + 0% kernel
+E/ActivityManager(  973):   0% 739/netd: 0% user + 0% kernel / faults: 31 minor
+E/ActivityManager(  973):   0% 777/mali-pmm-wq: 0% user + 0% kernel
+E/ActivityManager(  973):   0% 966/flush-179:0: 0% user + 0% kernel
+E/ActivityManager(  973):   0% 1618/com.coship.Multimedia: 0% user + 0% kernel / faults: 24 minor
+E/ActivityManager(  973):   0% 1757/com.coship.stpservice: 0% user + 0% kernel / faults: 19 minor
+E/ActivityManager(  973):  +0% 1991/com.aidufei.movieonline: 0% user + 0% kernel
+E/ActivityManager(  973): 7.6% TOTAL: 2.6% user + 2.6% kernel + 2.3% iowait + 0% softirq
+E/ActivityManager(  973): CPU usage from 515ms to 1046ms later:
+E/ActivityManager(  973):   11% 973/system_server: 3.7% user + 7.5% kernel
+E/ActivityManager(  973):     11% 991/ActivityManager: 5.6% user + 5.6% kernel
+E/ActivityManager(  973):   9.4% 754/ld-linux.so.3: 3.7% user + 5.6% kernel
+E/ActivityManager(  973):     7.5% 1052/CECMonitor: 1.8% user + 5.6% kernel
+E/ActivityManager(  973):     1.8% 988/ld-linux.so.3: 1.8% user + 0% kernel
+E/ActivityManager(  973):     1.8% 1018/Picture Monitor: 0% user + 1.8% kernel
+E/ActivityManager(  973):   1.8% 744/mediaserver: 1.8% user + 0% kernel
+E/ActivityManager(  973):     1.8% 961/AudioOut_1: 0% user + 1.8% kernel
+E/ActivityManager(  973): 3.7% TOTAL: 1.5% user + 2.2% kernel
+W/ActivityManager(  973): Killing ProcessRecord{416a6ad0 1991:com.aidufei.movieonline/10000}: background ANR
+E/EthernetStateTracker(  973): DhcpHandler: DHCP request failed: Timed out waiting for DHCP to finish
+I/EthernetStateTracker(  973): stop dhcp and interface
+W/EthernetStateTracker(  973): Could not stop DHCP
+W/ActivityManager(  973): Timeout of broadcast BroadcastRecord{4170e510 android.intent.action.TIME_TICK} - receiver=android.app.LoadedApk$ReceiverDispatcher$InnerReceiver@41534b78, started 10002ms ago
+W/ActivityManager(  973): Receiver during timeout: BroadcastFilter{41534d80 ReceiverList{41534d08 973 system/1000 local:41534b78}}
+W/ThrottleService(  973): unable to find stats for iface rmnet0
+W/ActivityManager(  973): Timeout of broadcast BroadcastRecord{4170e510 android.intent.action.TIME_TICK} - receiver=android.app.LoadedApk$ReceiverDispatcher$InnerReceiver@41554520, started 10008ms ago
+W/ActivityManager(  973): Receiver during timeout: BroadcastFilter{41554798 ReceiverList{41554720 973 system/1000 local:41554520}}
+W/Watchdog(  973): *** WATCHDOG KILLING SYSTEM PROCESS: null
+--------- beginning of /dev/log/main
+W/System.err( 1260):    at libcore.io.Posix.getaddrinfo(Native Method)
+W/System.err( 1260):    at libcore.io.ForwardingOs.getaddrinfo(ForwardingOs.java:55)
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:411)
+W/System.err( 1260):    ... 13 more
+I/MainActivity( 1260): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+D/MonitorCw880( 1517): currentRemoteHost is null ,continue
+W/System.err( 1260): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:400)
+W/System.err( 1260):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1260):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1260):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1260):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.isConnectToServerByHttp(MainActivity.java:1056)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.access$2100(MainActivity.java:129)
+W/System.err( 1260):    at com.coship.cibn.MainActivity$4.run(MainActivity.java:1021)
+W/System.err( 1260):    at java.lang.Thread.run(Thread.java:856)
+I/MainActivity( 1260): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+D/MonitorCw880( 1517): currentRemoteHost is null ,continue
+D/UploadCheckerService( 1317): Can't Connect to CIBN_SERVER_PATH!  Address: http://tms.cibntest.ysten.com:8080
+D/UploadCheckerService( 1317): Can't Connect to CIBN_SERVER_PATH!  retryTime is : 181
+W/System.err( 1260): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:400)
+W/System.err( 1260):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1260):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1260):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1260):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.isConnectToServerByHttp(MainActivity.java:1056)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.access$2100(MainActivity.java:129)
+W/System.err( 1260):    at com.coship.cibn.MainActivity$4.run(MainActivity.java:1021)
+W/System.err( 1260):    at java.lang.Thread.run(Thread.java:856)
+I/MainActivity( 1260): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+D/MonitorCw880( 1517): currentRemoteHost is null ,continue
+W/System.err( 1260): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:426)
+W/System.err( 1260):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1260):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1260):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1260):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.isConnectToServerByHttp(MainActivity.java:1056)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.access$2100(MainActivity.java:129)
+W/System.err( 1260):    at com.coship.cibn.MainActivity$4.run(MainActivity.java:1021)
+W/System.err( 1260):    at java.lang.Thread.run(Thread.java:856)
+W/System.err( 1260): Caused by: libcore.io.GaiException: getaddrinfo failed: EAI_NODATA (No address associated with hostname)
+W/System.err( 1260):    at libcore.io.Posix.getaddrinfo(Native Method)
+W/System.err( 1260):    at libcore.io.ForwardingOs.getaddrinfo(ForwardingOs.java:55)
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:411)
+W/System.err( 1260):    ... 13 more
+I/MainActivity( 1260): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+D/MonitorCw880( 1517): currentRemoteHost is null ,continue
+W/System.err( 1260): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:400)
+W/System.err( 1260):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1260):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1260):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1260):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.isConnectToServerByHttp(MainActivity.java:1056)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.access$2100(MainActivity.java:129)
+W/System.err( 1260):    at com.coship.cibn.MainActivity$4.run(MainActivity.java:1021)
+W/System.err( 1260):    at java.lang.Thread.run(Thread.java:856)
+I/MainActivity( 1260): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+W/System.err( 1260): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:400)
+W/System.err( 1260):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1260):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1260):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1260):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.isConnectToServerByHttp(MainActivity.java:1056)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.access$2100(MainActivity.java:129)
+W/System.err( 1260):    at com.coship.cibn.MainActivity$4.run(MainActivity.java:1021)
+W/System.err( 1260):    at java.lang.Thread.run(Thread.java:856)
+I/MainActivity( 1260): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+D/MonitorCw880( 1517): currentRemoteHost is null ,continue
+W/System.err( 1260): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:426)
+W/System.err( 1260):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1260):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1260):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1260):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.isConnectToServerByHttp(MainActivity.java:1056)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.access$2100(MainActivity.java:129)
+W/System.err( 1260):    at com.coship.cibn.MainActivity$4.run(MainActivity.java:1021)
+W/System.err( 1260):    at java.lang.Thread.run(Thread.java:856)
+W/System.err( 1260): Caused by: libcore.io.GaiException: getaddrinfo failed: EAI_NODATA (No address associated with hostname)
+W/System.err( 1260):    at libcore.io.Posix.getaddrinfo(Native Method)
+W/System.err( 1260):    at libcore.io.ForwardingOs.getaddrinfo(ForwardingOs.java:55)
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:411)
+W/System.err( 1260):    ... 13 more
+I/MainActivity( 1260): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+D/UploadCheckerService( 1317): Can't Connect to CIBN_SERVER_PATH!  Address: http://tms.cibntest.ysten.com:8080
+D/UploadCheckerService( 1317): Can't Connect to CIBN_SERVER_PATH!  retryTime is : 182
+D/MonitorCw880( 1517): currentRemoteHost is null ,continue
+W/System.err( 1260): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:400)
+W/System.err( 1260):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1260):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1260):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1260):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.isConnectToServerByHttp(MainActivity.java:1056)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.access$2100(MainActivity.java:129)
+W/System.err( 1260):    at com.coship.cibn.MainActivity$4.run(MainActivity.java:1021)
+W/System.err( 1260):    at java.lang.Thread.run(Thread.java:856)
+I/MainActivity( 1260): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+D/MonitorCw880( 1517): currentRemoteHost is null ,continue
+W/System.err( 1260): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:400)
+W/System.err( 1260):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1260):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1260):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1260):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.isConnectToServerByHttp(MainActivity.java:1056)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.access$2100(MainActivity.java:129)
+W/System.err( 1260):    at com.coship.cibn.MainActivity$4.run(MainActivity.java:1021)
+W/System.err( 1260):    at java.lang.Thread.run(Thread.java:856)
+I/MainActivity( 1260): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+D/MonitorCw880( 1517): currentRemoteHost is null ,continue
+W/System.err( 1260): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:426)
+W/System.err( 1260):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1260):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1260):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1260):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.isConnectToServerByHttp(MainActivity.java:1056)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.access$2100(MainActivity.java:129)
+W/System.err( 1260):    at com.coship.cibn.MainActivity$4.run(MainActivity.java:1021)
+W/System.err( 1260):    at java.lang.Thread.run(Thread.java:856)
+W/System.err( 1260): Caused by: libcore.io.GaiException: getaddrinfo failed: EAI_NODATA (No address associated with hostname)
+W/System.err( 1260):    at libcore.io.Posix.getaddrinfo(Native Method)
+W/System.err( 1260):    at libcore.io.ForwardingOs.getaddrinfo(ForwardingOs.java:55)
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:411)
+W/System.err( 1260):    ... 13 more
+I/MainActivity( 1260): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+W/System.err( 1260): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:400)
+W/System.err( 1260):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1260):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1260):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1260):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.isConnectToServerByHttp(MainActivity.java:1056)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.access$2100(MainActivity.java:129)
+W/System.err( 1260):    at com.coship.cibn.MainActivity$4.run(MainActivity.java:1021)
+W/System.err( 1260):    at java.lang.Thread.run(Thread.java:856)
+I/MainActivity( 1260): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+D/MonitorCw880( 1517): currentRemoteHost is null ,continue
+D/UploadCheckerService( 1317): Can't Connect to CIBN_SERVER_PATH!  Address: http://tms.cibntest.ysten.com:8080
+D/UploadCheckerService( 1317): Can't Connect to CIBN_SERVER_PATH!  retryTime is : 183
+W/System.err( 1260): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:400)
+W/System.err( 1260):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1260):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1260):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1260):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.isConnectToServerByHttp(MainActivity.java:1056)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.access$2100(MainActivity.java:129)
+W/System.err( 1260):    at com.coship.cibn.MainActivity$4.run(MainActivity.java:1021)
+W/System.err( 1260):    at java.lang.Thread.run(Thread.java:856)
+I/MainActivity( 1260): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+D/MonitorCw880( 1517): currentRemoteHost is null ,continue
+W/System.err( 1260): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:426)
+W/System.err( 1260):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1260):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1260):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1260):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.isConnectToServerByHttp(MainActivity.java:1056)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.access$2100(MainActivity.java:129)
+W/System.err( 1260):    at com.coship.cibn.MainActivity$4.run(MainActivity.java:1021)
+W/System.err( 1260):    at java.lang.Thread.run(Thread.java:856)
+W/System.err( 1260): Caused by: libcore.io.GaiException: getaddrinfo failed: EAI_NODATA (No address associated with hostname)
+W/System.err( 1260):    at libcore.io.Posix.getaddrinfo(Native Method)
+W/System.err( 1260):    at libcore.io.ForwardingOs.getaddrinfo(ForwardingOs.java:55)
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:411)
+W/System.err( 1260):    ... 13 more
+I/MainActivity( 1260): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+D/MonitorCw880( 1517): currentRemoteHost is null ,continue
+W/System.err( 1260): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:400)
+W/System.err( 1260):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1260):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1260):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1260):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.isConnectToServerByHttp(MainActivity.java:1056)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.access$2100(MainActivity.java:129)
+W/System.err( 1260):    at com.coship.cibn.MainActivity$4.run(MainActivity.java:1021)
+W/System.err( 1260):    at java.lang.Thread.run(Thread.java:856)
+I/MainActivity( 1260): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+D/MonitorCw880( 1517): currentRemoteHost is null ,continue
+W/System.err( 1260): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:400)
+W/System.err( 1260):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1260):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1260):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1260):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.isConnectToServerByHttp(MainActivity.java:1056)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.access$2100(MainActivity.java:129)
+W/System.err( 1260):    at com.coship.cibn.MainActivity$4.run(MainActivity.java:1021)
+W/System.err( 1260):    at java.lang.Thread.run(Thread.java:856)
+I/MainActivity( 1260): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+D/UploadCheckerService( 1317): Can't Connect to CIBN_SERVER_PATH!  Address: http://tms.cibntest.ysten.com:8080
+D/UploadCheckerService( 1317): Can't Connect to CIBN_SERVER_PATH!  retryTime is : 184
+W/System.err( 1260): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:426)
+W/System.err( 1260):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1260):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1260):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1260):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.isConnectToServerByHttp(MainActivity.java:1056)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.access$2100(MainActivity.java:129)
+W/System.err( 1260):    at com.coship.cibn.MainActivity$4.run(MainActivity.java:1021)
+W/System.err( 1260):    at java.lang.Thread.run(Thread.java:856)
+W/System.err( 1260): Caused by: libcore.io.GaiException: getaddrinfo failed: EAI_NODATA (No address associated with hostname)
+W/System.err( 1260):    at libcore.io.Posix.getaddrinfo(Native Method)
+W/System.err( 1260):    at libcore.io.ForwardingOs.getaddrinfo(ForwardingOs.java:55)
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:411)
+W/System.err( 1260):    ... 13 more
+I/MainActivity( 1260): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+D/MonitorCw880( 1517): currentRemoteHost is null ,continue
+W/System.err( 1260): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:400)
+W/System.err( 1260):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1260):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1260):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1260):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.isConnectToServerByHttp(MainActivity.java:1056)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.access$2100(MainActivity.java:129)
+W/System.err( 1260):    at com.coship.cibn.MainActivity$4.run(MainActivity.java:1021)
+W/System.err( 1260):    at java.lang.Thread.run(Thread.java:856)
+I/MainActivity( 1260): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+D/MonitorCw880( 1517): currentRemoteHost is null ,continue
+W/System.err( 1260): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:400)
+W/System.err( 1260):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1260):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1260):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1260):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.isConnectToServerByHttp(MainActivity.java:1056)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.access$2100(MainActivity.java:129)
+W/System.err( 1260):    at com.coship.cibn.MainActivity$4.run(MainActivity.java:1021)
+W/System.err( 1260):    at java.lang.Thread.run(Thread.java:856)
+I/MainActivity( 1260): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+D/MonitorCw880( 1517): currentRemoteHost is null ,continue
+W/System.err( 1260): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:426)
+W/System.err( 1260):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1260):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1260):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1260):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.isConnectToServerByHttp(MainActivity.java:1056)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.access$2100(MainActivity.java:129)
+W/System.err( 1260):    at com.coship.cibn.MainActivity$4.run(MainActivity.java:1021)
+W/System.err( 1260):    at java.lang.Thread.run(Thread.java:856)
+W/System.err( 1260): Caused by: libcore.io.GaiException: getaddrinfo failed: EAI_NODATA (No address associated with hostname)
+W/System.err( 1260):    at libcore.io.Posix.getaddrinfo(Native Method)
+W/System.err( 1260):    at libcore.io.ForwardingOs.getaddrinfo(ForwardingOs.java:55)
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:411)
+W/System.err( 1260):    ... 13 more
+I/MainActivity( 1260): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+D/UploadCheckerService( 1317): Can't Connect to CIBN_SERVER_PATH!  Address: http://tms.cibntest.ysten.com:8080
+D/UploadCheckerService( 1317): Can't Connect to CIBN_SERVER_PATH!  retryTime is : 185
+D/MonitorCw880( 1517): currentRemoteHost is null ,continue
+W/System.err( 1260): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:400)
+W/System.err( 1260):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1260):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1260):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1260):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.isConnectToServerByHttp(MainActivity.java:1056)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.access$2100(MainActivity.java:129)
+W/System.err( 1260):    at com.coship.cibn.MainActivity$4.run(MainActivity.java:1021)
+W/System.err( 1260):    at java.lang.Thread.run(Thread.java:856)
+I/MainActivity( 1260): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+W/System.err( 1260): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:400)
+W/System.err( 1260):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1260):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1260):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1260):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.isConnectToServerByHttp(MainActivity.java:1056)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.access$2100(MainActivity.java:129)
+W/System.err( 1260):    at com.coship.cibn.MainActivity$4.run(MainActivity.java:1021)
+W/System.err( 1260):    at java.lang.Thread.run(Thread.java:856)
+I/MainActivity( 1260): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+D/MonitorCw880( 1517): currentRemoteHost is null ,continue
+W/System.err( 1260): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:426)
+W/System.err( 1260):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1260):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1260):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1260):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.isConnectToServerByHttp(MainActivity.java:1056)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.access$2100(MainActivity.java:129)
+W/System.err( 1260):    at com.coship.cibn.MainActivity$4.run(MainActivity.java:1021)
+W/System.err( 1260):    at java.lang.Thread.run(Thread.java:856)
+W/System.err( 1260): Caused by: libcore.io.GaiException: getaddrinfo failed: EAI_NODATA (No address associated with hostname)
+W/System.err( 1260):    at libcore.io.Posix.getaddrinfo(Native Method)
+W/System.err( 1260):    at libcore.io.ForwardingOs.getaddrinfo(ForwardingOs.java:55)
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:411)
+W/System.err( 1260):    ... 13 more
+I/MainActivity( 1260): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+D/MonitorCw880( 1517): currentRemoteHost is null ,continue
+W/System.err( 1260): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:400)
+W/System.err( 1260):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1260):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1260):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1260):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.isConnectToServerByHttp(MainActivity.java:1056)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.access$2100(MainActivity.java:129)
+W/System.err( 1260):    at com.coship.cibn.MainActivity$4.run(MainActivity.java:1021)
+W/System.err( 1260):    at java.lang.Thread.run(Thread.java:856)
+I/MainActivity( 1260): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+D/MonitorCw880( 1517): currentRemoteHost is null ,continue
+W/System.err( 1260): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:400)
+W/System.err( 1260):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1260):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1260):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1260):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.isConnectToServerByHttp(MainActivity.java:1056)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.access$2100(MainActivity.java:129)
+W/System.err( 1260):    at com.coship.cibn.MainActivity$4.run(MainActivity.java:1021)
+W/System.err( 1260):    at java.lang.Thread.run(Thread.java:856)
+I/MainActivity( 1260): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+D/UploadCheckerService( 1317): Can't Connect to CIBN_SERVER_PATH!  Address: http://tms.cibntest.ysten.com:8080
+D/UploadCheckerService( 1317): Can't Connect to CIBN_SERVER_PATH!  retryTime is : 186
+D/PushMsgCenter( 1565): mDownUpRun run while (true)
+D/PushMsgCenter( 1565): down  
+W/System.err( 1565): java.net.UnknownHostException: Unable to resolve host "vitv.voicecloud.cn": No address associated with hostname
+W/System.err( 1565):    at java.net.InetAddress.lookupHostByName(InetAddress.java:426)
+W/System.err( 1565):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1565):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1565):    at libcore.net.http.HttpConnection.<init>(HttpConnection.java:71)
+W/System.err( 1565):    at libcore.net.http.HttpConnection.<init>(HttpConnection.java:50)
+W/System.err( 1565):    at libcore.net.http.HttpConnection$Address.connect(HttpConnection.java:351)
+W/System.err( 1565):    at libcore.net.http.HttpConnectionPool.get(HttpConnectionPool.java:86)
+W/System.err( 1565):    at libcore.net.http.HttpConnection.connect(HttpConnection.java:128)
+W/System.err( 1565):    at libcore.net.http.HttpEngine.openSocketConnection(HttpEngine.java:308)
+W/System.err( 1565):    at libcore.net.http.HttpEngine.connect(HttpEngine.java:303)
+W/System.err( 1565):    at libcore.net.http.HttpEngine.sendSocketRequest(HttpEngine.java:282)
+W/System.err( 1565):    at libcore.net.http.HttpEngine.sendRequest(HttpEngine.java:232)
+W/System.err( 1565):    at libcore.net.http.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:273)
+W/System.err( 1565):    at libcore.net.http.HttpURLConnectionImpl.getResponseCode(HttpURLConnectionImpl.java:479)
+W/System.err( 1565):    at com.iflytek.push.PushMsgCenter.down(PushMsgCenter.java:270)
+W/System.err( 1565):    at com.iflytek.push.PushMsgCenter.access$500(PushMsgCenter.java:37)
+W/System.err( 1565):    at com.iflytek.push.PushMsgCenter$2.run(PushMsgCenter.java:175)
+W/System.err( 1565):    at java.lang.Thread.run(Thread.java:856)
+W/System.err( 1565): Caused by: libcore.io.GaiException: getaddrinfo failed: EAI_NODATA (No address associated with hostname)
+W/System.err( 1565):    at libcore.io.Posix.getaddrinfo(Native Method)
+W/System.err( 1565):    at libcore.io.ForwardingOs.getaddrinfo(ForwardingOs.java:55)
+W/System.err( 1565):    at java.net.InetAddress.lookupHostByName(InetAddress.java:411)
+W/System.err( 1565):    ... 17 more
+D/MonitorCw880( 1517): currentRemoteHost is null ,continue
+W/System.err( 1260): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:426)
+W/System.err( 1260):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1260):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1260):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1260):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.isConnectToServerByHttp(MainActivity.java:1056)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.access$2100(MainActivity.java:129)
+W/System.err( 1260):    at com.coship.cibn.MainActivity$4.run(MainActivity.java:1021)
+W/System.err( 1260):    at java.lang.Thread.run(Thread.java:856)
+W/System.err( 1260): Caused by: libcore.io.GaiException: getaddrinfo failed: EAI_NODATA (No address associated with hostname)
+W/System.err( 1260):    at libcore.io.Posix.getaddrinfo(Native Method)
+W/System.err( 1260):    at libcore.io.ForwardingOs.getaddrinfo(ForwardingOs.java:55)
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:411)
+W/System.err( 1260):    ... 13 more
+I/MainActivity( 1260): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+W/System.err( 1260): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:400)
+W/System.err( 1260):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1260):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1260):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1260):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.isConnectToServerByHttp(MainActivity.java:1056)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.access$2100(MainActivity.java:129)
+W/System.err( 1260):    at com.coship.cibn.MainActivity$4.run(MainActivity.java:1021)
+W/System.err( 1260):    at java.lang.Thread.run(Thread.java:856)
+I/MainActivity( 1260): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+D/MonitorCw880( 1517): currentRemoteHost is null ,continue
+W/System.err( 1260): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:400)
+W/System.err( 1260):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1260):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1260):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1260):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.isConnectToServerByHttp(MainActivity.java:1056)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.access$2100(MainActivity.java:129)
+W/System.err( 1260):    at com.coship.cibn.MainActivity$4.run(MainActivity.java:1021)
+W/System.err( 1260):    at java.lang.Thread.run(Thread.java:856)
+I/MainActivity( 1260): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+D/MonitorCw880( 1517): currentRemoteHost is null ,continue
+W/System.err( 1260): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:426)
+W/System.err( 1260):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1260):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1260):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1260):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.isConnectToServerByHttp(MainActivity.java:1056)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.access$2100(MainActivity.java:129)
+W/System.err( 1260):    at com.coship.cibn.MainActivity$4.run(MainActivity.java:1021)
+W/System.err( 1260):    at java.lang.Thread.run(Thread.java:856)
+W/System.err( 1260): Caused by: libcore.io.GaiException: getaddrinfo failed: EAI_NODATA (No address associated with hostname)
+W/System.err( 1260):    at libcore.io.Posix.getaddrinfo(Native Method)
+W/System.err( 1260):    at libcore.io.ForwardingOs.getaddrinfo(ForwardingOs.java:55)
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:411)
+W/System.err( 1260):    ... 13 more
+I/MainActivity( 1260): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+D/UploadCheckerService( 1317): Can't Connect to CIBN_SERVER_PATH!  Address: http://tms.cibntest.ysten.com:8080
+D/UploadCheckerService( 1317): Can't Connect to CIBN_SERVER_PATH!  retryTime is : 187
+D/MonitorCw880( 1517): currentRemoteHost is null ,continue
+W/System.err( 1260): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:400)
+W/System.err( 1260):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1260):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1260):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1260):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.isConnectToServerByHttp(MainActivity.java:1056)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.access$2100(MainActivity.java:129)
+W/System.err( 1260):    at com.coship.cibn.MainActivity$4.run(MainActivity.java:1021)
+W/System.err( 1260):    at java.lang.Thread.run(Thread.java:856)
+I/MainActivity( 1260): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+D/MonitorCw880( 1517): currentRemoteHost is null ,continue
+W/System.err( 1260): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:400)
+W/System.err( 1260):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1260):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1260):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1260):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpCli
+[ 1164.289546] IR: [03932] scan key value is 0xee11c936 
+[ 1164.289551]  ent.java:555)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.isConnectToServerByHttp(MainActivity.java:1056)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.access$2100(MainActivity.java:129)
+W/System.err( 1260):    at com.coship.cibn.MainActivity$4.run(MainActivity.java:1021)
+W/System.err( 1
+[ 1164.342126] IR: [03932] scan key value is 0xee11c936 
+[ 1164.342130]  260):   at java.lang.Thread.run(Thread.java:856)
+I/MainActivity( 1260): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+W/System.err( 1260): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:426)
+W/System.err( 1260):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1260):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1260):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1260):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.isConnectToServerByHttp(MainActivity.java:1056)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.access$2100(MainActivity.java:129)
+W/System.err( 1260):    at com.coship.cibn.MainActivity$4.run(MainActivity.java:1021)
+W/System.err( 1260):    at java.lang.Thread.run(Thread.java:856)
+W/System.err( 1260): Caused by: libcore.io.GaiException: getaddrinfo failed: EAI_NODATA (No address associated with hostname)
+W/System.err( 1260):    at libcore.io.Posix.getaddrinfo(Native Method)
+W/System.err( 1260):    at libcore.io.ForwardingOs.getaddrinfo(ForwardingOs.java:55)
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:411)
+W/System.err( 1260):    ... 13 more
+I/MainActivity( 1260): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+D/MonitorCw880( 1517): currentRemoteHost is null ,continue
+W/System.err( 1260): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:400)
+W/System.err( 1260):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1260):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1260):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1260):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.isConnectToServerByHttp(MainActivity.java:1056)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.access$2100(MainActivity.java:129)
+W/System.err( 1260):    at com.coship.cibn.MainActivity$4.run(MainActivity.java:1021)
+W/System.err( 1260):    at java.lang.Thread.run(Thread.java:856)
+I/MainActivity( 1260): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+D/MonitorCw880( 1517): currentRemoteHost is null ,continue
+D/UploadCheckerService( 1317): Can't Connect to CIBN_SERVER_PATH!  Address: http://tms.cibntest.ysten.com:8080
+D/UploadCheckerService( 1317): Can't Connect to CIBN_SERVER_PATH!  retryTime is : 188
+W/System.err( 1260): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:400)
+W/System.err( 1260):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1260):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1260):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1260):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.isConnectToServerByHttp(MainActivity.java:1056)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.access$2100(MainActivity.java:129)
+W/System.err( 1260):    at com.coship.cibn.MainActivity$4.run(MainActivity.java:1021)
+W/System.err( 1260):    at java.lang.Thread.run(Thread.java:856)
+I/MainActivity( 1260): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+D/MonitorCw880( 1517): currentRemoteHost is null ,continue
+
+[ 1165.781164] IR: [03932] scan key value is 0xee11c936 
+[ 1165.781169]  
+[ 1165.833747] IR: [03932] scan key value is 0xee11c936 
+[ 1165.833751]  W/System.err( 1260): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:426)
+W/System.err( 1260):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1260):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1260):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1260):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.isConnectToServerByHttp(MainActivity.java:1056)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.access$2100(MainActivity.java:129)
+W/System.err( 1260):    at com.coship.cibn.MainActivity$4.run(MainActivity.java:1021)
+W/System.err( 1260):    at java.lang.Thread.run(Thread.java:856)
+W/System.err( 1260): Caused by: libcore.io.GaiException: getaddrinfo failed: EAI_NODATA (No address associated w
+[ 1166.578219] IR: [03932] scan key value is 0xea15c936 
+[ 1166.578224]  ith hostname)
+W/System.err( 1260):    at libcore.io.Posix.getaddrinfo(Native Method)
+W/System.err( 1260):    at libcore.io.ForwardingOs.getaddrinfo(ForwardingOs.java:55)
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:411)
+W/System.err( 1260):    ... 13 more
+I/MainActivity( 1260): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+
+[ 1166.630801] IR: [03932] scan key value is 0xea15c936 
+[ 1166.630805]  
+[ 1167.145314] IR: [03932] scan key value is 0xee11c936 
+[ 1167.145319]  
+[ 1167.197897] IR: [03932] scan key value is 0xee11c936 
+[ 1167.197901]  
+[ 1167.583072] IR: [03932] scan key value is 0xee11c936 
+[ 1167.583077]  
+[ 1167.635653] IR: [03932] scan key value is 0xee11c936 
+[ 1167.635657]  
+[ 1168.067504] IR: [03932] scan key value is 0xea15c936 
+[ 1168.067508]  
+[ 1168.120084] IR: [03932] scan key value is 0xea15c936 
+[ 1168.120088]  
+[ 1168.437539] IR: [03932] scan key value is 0xed12c936 
+[ 1168.437544]  
+[ 1168.490122] IR: [03932] scan key value is 0xed12c936 
+[ 1168.490126]  
+[ 1168.832606] IR: [03932] scan key value is 0xeb14c936 
+[ 1168.832610]  
+[ 1168.885198] IR: [03932] scan key value is 0xeb14c936 
+[ 1168.885202]  
+[ 1169.235272] IR: [03932] scan key value is 0xee11c936 
+[ 1169.235276]  
+[ 1169.287857] IR: [03932] scan key value is 0xee11c936 
+[ 1169.287861]  
+[ 1169.491301] IR: [03932] scan key value is 0xee11c936 
+[ 1169.491305]  
+[ 1169.543883] IR: [03932] scan key value is 0xee11c936 
+[ 1169.543887]  D/MonitorCw880( 1517): currentRemoteHost is null ,continue
+
+[ 1170.077537] IR: [03932] scan key value is 0xea15c936 
+[ 1170.077541]  
+[ 1170.130119] IR: [03932] scan key value is 0xea15c936 
+[ 1170.130123]  W/System.err( 1260): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:400)
+W/System.err( 1260):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1260):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1260):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1260):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1260):    at com.coship.ci
+[ 1170.548046] IR: [03932] scan key value is 0xee11c936 
+[ 1170.548050]  bn.MainActivity.isConnectToServerByHttp(MainActivity.java:1056)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.access$2100(MainActivity.java:129)
+W/System.err( 1260):    at com.coship.cibn.MainActivity$4.run(MainActivity.java:1021)
+W/System.err( 1260):    at java.lang.Thread.run(Thread.java:856)
+I/MainActivity( 1260): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+
+[ 1170.600625] IR: [03932] scan key value is 0xee11c936 
+[ 1170.600629]  
+[ 1170.834675] IR: [03932] scan key value is 0xee11c936 
+[ 1170.834679]  
+[ 1170.887256] IR: [03932] scan key value is 0xee11c936 
+[ 1170.887260]  
+[ 1171.156422] IR: [03932] scan key value is 0xee11c936 
+[ 1171.156427]  
+[ 1171.209000] IR: [03932] scan key value is 0xee11c936 
+[ 1171.209004]  
+[ 1171.458297] IR: [03932] scan key value is 0xee11c936 
+[ 1171.458301]  
+[ 1171.510879] IR: [03932] scan key value is 0xee11c936 
+[ 1171.510883]  
+[ 1171.727884] IR: [03932] scan key value is 0xee11c936 
+[ 1171.727888]  
+[ 1171.780466] IR: [03932] scan key value is 0xee11c936 
+[ 1171.780470]  W/System.err( 1260): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:400)
+W/System.err( 1260):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1260):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1260):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1260):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.isConnectToServerByHttp(MainActivity.java:1056)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.access$2100(MainActivity.java:129)
+W/System.err( 1260):    at com.coship.cibn.MainActivity$4.run(MainActivity.java:1021)
+W/System.err( 1260):    at java.lang.Thread.run(Thread.java:856)
+I/MainActivity( 1260): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+
+[ 1174.648119] IR: [03932] scan key value is 0xee11c936 
+[ 1174.648124]  
+[ 1174.700704] IR: [03932] scan key value is 0xee11c936 
+[ 1174.700707]  D/MonitorCw880( 1517): currentRemoteHost is null ,continue
+
+[ 1175.025584] IR: [03932] scan key value is 0xee11c936 
+[ 1175.025589]  
+[ 1175.078164] IR: [03932] scan key value is 0xee11c936 
+[ 1175.078169]  
+[ 1175.325550] IR: [03932] scan key value is 0xee11c936 
+[ 1175.325555]  
+[ 1175.378135] IR: [03932] scan key value is 0xee11c936 
+[ 1175.378139]  
+[ 1175.486454] IR: [03932] scan key value is 0xee11c936 
+[ 1175.486458]  
+[ 1175.594770] IR: [03932] scan key value is 0xee11c936 
+[ 1175.594774]  
+[ 1175.703080] IR: [03932] scan key value is 0xee11c936 
+[ 1175.703084]  
+[ 1175.811397] IR: [03932] scan key value is 0xee11c936 
+[ 1175.811402]  
+[ 1175.919711] IR: [03932] scan key value is 0xee11c936 
+[ 1175.919715]  
+[ 1176.028030] IR: [03932] scan key value is 0xee11c936 
+[ 1176.028034]  
+[ 1176.474872] IR: [03932] scan key value is 0xea15c936 
+[ 1176.474876]  
+[ 1176.527459] IR: [03932] scan key value is 0xea15c936 
+[ 1176.527463]  
+[ 1176.635777] IR: [03932] scan key value is 0xea15c936 
+[ 1176.635781]  
+[ 1176.744095] IR: [03932] scan key value is 0xea15c936 
+[ 1176.744099]  
+[ 1176.852416] IR: [03932] scan key value is 0xea15c936 
+[ 1176.852420]  
+[ 1177.230872] IR: [03932] scan key value is 0xee11c936 
+[ 1177.230877]  
+[ 1177.283457] IR: [03932] scan key value is 0xee11c936 
+[ 1177.283461]  D/UploadCheckerService( 1317): Can't Connect to CIBN_SERVER_PATH!  Address: http://tms.cibntest.ysten.com:8080
+D/UploadCheckerService( 1317): Can't Connect to CIBN_SERVER_PATH!  retryTime is : 189
+
+[ 1177.809313] IR: [03932] scan key value is 0xea15c936 
+[ 1177.809318]  
+[ 1177.861893] IR: [03932] scan key value is 0xea15c936 
+[ 1177.861897]  
+[ 1178.389163] IR: [03932] scan key value is 0xee11c936 
+[ 1178.389168]  
+[ 1178.441750] IR: [03932] scan key value is 0xee11c936 
+[ 1178.441754]  W/System.err( 1260): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:426)
+W/System.err( 1260):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1260):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1260):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1260):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.isConnectToServerByHttp(MainActivity.java:1056)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.access$2100(MainActivity.java:129)
+W/System.err( 1260):    at com.coship.cibn.MainActivity$4.run(MainActivity.java:1021)
+W/System.err( 1260):    at java.lang.Thread.run(Thread.java:856)
+W/System.err( 1260): Caused by: libcore.io.GaiException: getaddrinfo failed: EAI_NODATA (No address associated with hostname)
+W/System.err( 1260):    at libcore.io.Posix.getaddrinfo(Native Method)
+W/System.err( 1260):    at libcore.io.ForwardingOs.getaddrinfo(ForwardingOs.java:55)
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:411)
+W/System.err( 1260):    ... 13 more
+I/MainActivity( 1260): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+
+[ 1178.767191] IR: [03932] scan key value is 0xed12c936 
+[ 1178.767196]  
+[ 1178.819773] IR: [03932] scan key value is 0xed12c936 
+[ 1178.819777]  
+[ 1179.193461] IR: [03932] scan key value is 0xeb14c936 
+[ 1179.193466]  
+[ 1179.246045] IR: [03932] scan key value is 0xeb14c936 
+[ 1179.246049]  
+[ 1179.560599] IR: [03932] scan key value is 0xee11c936 
+[ 1179.560604]  
+[ 1179.613183] IR: [03932] scan key value is 0xee11c936 
+[ 1179.613187]  D/MonitorCw880( 1517): currentRemoteHost is null ,continue
+
+[ 1180.106760] IR: [03932] scan key value is 0xea15c936 
+[ 1180.106764]  
+[ 1180.159342] IR: [03932] scan key value is 0xea15c936 
+[ 1180.159347]  W/System.err( 1260): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:400)
+W/System.err( 1260):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1260):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1260):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1260):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.isConnectToServerByHttp(MainActivity.java:1056)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.access$2100(MainActivity.java:129)
+W/System.err( 1260):    at com.coship.cibn.MainActivity$4.run(MainActivity.java:1021)
+W/System.err( 1260):    at java.lang.Thread.run(Thread.java:856)
+I/MainActivity( 1260): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+D/MonitorCw880( 1517): currentRemoteHost is null ,continue
+W/System.err( 1260): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:400)
+W/System.err( 1260):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1260):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1260):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1260):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.isConnectToServerByHttp(MainActivity.java:1056)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.access$2100(MainActivity.java:129)
+W/System.err( 1260):    at com.coship.cibn.MainActivity$4.run(MainActivity.java:1021)
+W/System.err( 1260):    at java.lang.Thread.run(Thread.java:856)
+I/MainActivity( 1260): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+D/MonitorCw880( 1517): currentRemoteHost is null ,continue
+W/System.err( 1260): java.net.UnknownHostException: Unable to resolve host "cibn-iepg.longvisionmedia.com": No address associated with hostname
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:426)
+W/System.err( 1260):    at java.net.InetAddress.getAllByNameImpl(InetAddress.java:242)
+W/System.err( 1260):    at java.net.InetAddress.getAllByName(InetAddress.java:220)
+W/System.err( 1260):    at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1260):    at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1260):    at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1260):    at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.isConnectToServerByHttp(MainActivity.java:1056)
+W/System.err( 1260):    at com.coship.cibn.MainActivity.access$2100(MainActivity.java:129)
+W/System.err( 1260):    at com.coship.cibn.MainActivity$4.run(MainActivity.java:1021)
+W/System.err( 1260):    at java.lang.Thread.run(Thread.java:856)
+W/System.err( 1260): Caused by: libcore.io.GaiException: getaddrinfo failed: EAI_NODATA (No address associated with hostname)
+W/System.err( 1260):    at libcore.io.Posix.getaddrinfo(Native Method)
+W/System.err( 1260):    at libcore.io.ForwardingOs.getaddrinfo(ForwardingOs.java:55)
+W/System.err( 1260):    at java.net.InetAddress.lookupHostByName(InetAddress.java:411)
+W/System.err( 1260):    ... 13 more
+I/MainActivity( 1260): Can't Connect to PortalMS-Server!  Address: http://cibn-iepg.longvisionmedia.com:8881
+^C
+130|shell@android:/ $ 
+[ 1283.233338] IR: [03932] scan key value is 0xee11c936 
+[ 1283.233343]  
+[ 1283.285917] IR: [03932] scan key value is 0xee11c936 
+[ 1283.285921]  
+[ 1283.669972] IR: [03932] scan key value is 0xed12c936 
+[ 1283.669976]  
+[ 1283.722552] IR: [03932] scan key value is 0xed12c936 
+[ 1283.722556]  
+[ 1283.830866] IR: [03932] scan key value is 0xed12c936 
+[ 1283.830870]  
+[ 1284.054060] IR: [03932] scan key value is 0xed12c936 
+[ 1284.054063]  
+[ 1284.106641] IR: [03932] scan key value is 0xed12c936 
+[ 1284.106644]  
+[ 1284.371655] IR: [03932] scan key value is 0xeb14c936 
+[ 1284.371660]  
+[ 1284.424233] IR: [03932] scan key value is 0xeb14c936 
+[ 1284.424237]  
+[ 1284.532544] IR: [03932] scan key value is 0xeb14c936 
+[ 1284.532548]  
+[ 1285.091607] IR: [03932] scan key value is 0xea15c936 
+[ 1285.091612]  
+[ 1285.144184] IR: [03932] scan key value is 0xea15c936 
+[ 1285.144188]  
+[ 1287.521391] IR: [03932] scan key value is 0xee11c936 
+[ 1287.521395]  
+[ 1287.573966] IR: [03932] scan key value is 0xee11c936 
+[ 1287.573971]  
+[ 1291.907161] IR: [03932] scan key value is 0xbf40c936 
+[ 1291.907165]  
+[ 1291.959740] IR: [03932] scan key value is 0xbf40c936 
+[ 1291.959745]  
+[ 1297.690792] IR: [03932] scan key value is 0x8f708000 
+[ 1297.690797]  
+[ 1297.751791] IR: [03932] scan key value is 0x8f708000 
+[ 1297.751795]  
+[ 1298.394275] IR: [03932] scan key value is 0x8f708000 
+[ 1298.394279]  
+[ 1298.455971] IR: [03932] scan key value is 0x8f708000 
+[ 1298.455976]  
+[ 1298.629085] IR: [03932] scan key value is 0x8f708000 
+[ 1298.629090]  
+[ 1298.690727] IR: [03932] scan key value is 0x8f708000 
+[ 1298.690731]  
+[ 1299.074141] IR: [03932] scan key value is 0x8f708000 
+[ 1299.074146]  
+[ 1299.135225] IR: [03932] scan key value is 0x8f708000 
+[ 1299.135229]  
+[ 1301.150707] IR: [03932] scan key value is 0x8f708000 
+[ 1301.150712]  
+[ 1301.211713] IR: [03932] scan key value is 0x8f708000 

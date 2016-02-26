@@ -1,0 +1,32 @@
+01-02 08:21:15.520: E/AndroidRuntime(3725): FATAL EXCEPTION: Thread-309
+01-02 08:21:15.520: E/AndroidRuntime(3725): java.lang.NullPointerException
+01-02 08:21:15.520: E/AndroidRuntime(3725): 	at org.cybergarage.upnp.ssdp.HTTPUSocket.post(HTTPUSocket.java:202)
+01-02 08:21:15.520: E/AndroidRuntime(3725): 	at org.cybergarage.upnp.ssdp.SSDPSearchResponseSocket.post(SSDPSearchResponseSocket.java:116)
+01-02 08:21:15.520: E/AndroidRuntime(3725): 	at org.cybergarage.upnp.ssdp.SSDPSearchResponseSocketList.post(SSDPSearchResponseSocketList.java:160)
+01-02 08:21:15.520: E/AndroidRuntime(3725): 	at org.cybergarage.upnp.ControlPoint.search(ControlPoint.java:561)
+01-02 08:21:15.520: E/AndroidRuntime(3725): 	at org.cybergarage.upnp.ControlPoint.start(ControlPoint.java:886)
+01-02 08:21:15.520: E/AndroidRuntime(3725): 	at org.cybergarage.upnp.ControlPoint.start(ControlPoint.java:916)
+01-02 08:21:15.520: E/AndroidRuntime(3725): 	at stp.homeplayerlib.ContentManager.startControlPoint(ContentManager.java:212)
+01-02 08:21:15.520: E/AndroidRuntime(3725): 	at com.coship.Multimedia.CoverFlowMain$1.run(CoverFlowMain.java:158)
+01-02 08:21:15.520: E/AndroidRuntime(3725): 	at java.lang.Thread.run(Thread.java:856)
+
+
+
+
+
+
+
+
+
+01-02 08:58:50.028: E/AndroidRuntime(31773): FATAL EXCEPTION: Thread-259
+01-02 08:58:50.028: E/AndroidRuntime(31773): java.lang.ArrayIndexOutOfBoundsException: length=0; index=1
+01-02 08:58:50.028: E/AndroidRuntime(31773): 	at java.util.Vector.arrayIndexOutOfBoundsException(Vector.java:907)
+01-02 08:58:50.028: E/AndroidRuntime(31773): 	at java.util.Vector.elementAt(Vector.java:328)
+01-02 08:58:50.028: E/AndroidRuntime(31773): 	at java.util.Vector.get(Vector.java:442)
+01-02 08:58:50.028: E/AndroidRuntime(31773): 	at org.cybergarage.upnp.ssdp.SSDPNotifySocketList.getSSDPNotifySocket(SSDPNotifySocketList.java:51)
+01-02 08:58:50.028: E/AndroidRuntime(31773): 	at org.cybergarage.upnp.ssdp.SSDPNotifySocketList.start(SSDPNotifySocketList.java:114)
+01-02 08:58:50.028: E/AndroidRuntime(31773): 	at org.cybergarage.upnp.ControlPoint.start(ControlPoint.java:863)
+01-02 08:58:50.028: E/AndroidRuntime(31773): 	at org.cybergarage.upnp.ControlPoint.start(ControlPoint.java:916)
+01-02 08:58:50.028: E/AndroidRuntime(31773): 	at stp.homeplayerlib.ContentManager.startControlPoint(ContentManager.java:212)
+01-02 08:58:50.028: E/AndroidRuntime(31773): 	at com.coship.Multimedia.FileList.FileListActivity$2.run(FileListActivity.java:135)
+01-02 08:58:50.028: E/AndroidRuntime(31773): 	at java.lang.Thread.run(Thread.java:856)

@@ -1,0 +1,26 @@
+D/HomePlayerLib( 1777): hostaddress count is 2
+D/dalvikvm( 1777): GC_CONCURRENT freed 785K, 64% free 2680K/7363K, paused 3ms+2ms
+D/MonitorCw880( 1288): Current Remote Host is null, continue, counter=0
+W/dalvikvm( 1777): threadid=15: thread exiting with uncaught exception (group=0x40fa81f8)
+E/AndroidRuntime( 1777): FATAL EXCEPTION: Thread-99
+E/AndroidRuntime( 1777): java.lang.ArrayIndexOutOfBoundsException: length=0; index=2
+E/AndroidRuntime( 1777):        at java.util.Vector.arrayIndexOutOfBoundsException(Vector.java:907)
+E/AndroidRuntime( 1777):        at java.util.Vector.elementAt(Vector.java:328)
+E/AndroidRuntime( 1777):        at java.util.Vector.get(Vector.java:442)
+E/AndroidRuntime( 1777):        at org.cybergarage.upnp.ssdp.SSDPSearchSocketList.getSSDPSearchSocket(SSDPSearchSocketList.java:73)
+E/AndroidRuntime( 1777):        at org.cybergarage.upnp.ssdp.SSDPSearchSocketList.start(SSDPSearchSocketList.java:136)
+E/AndroidRuntime( 1777):        at org.cybergarage.upnp.Device.start(Device.java:2008)
+E/AndroidRuntime( 1777):        at org.cybergarage.upnp.std.av.renderer.MediaRenderer.start(MediaRenderer.java:229)
+E/AndroidRuntime( 1777):        at stp.homeplayerlib.DlnaManager.startMediaRendererSync(DlnaManager.java:325)
+E/AndroidRuntime( 1777):        at com.coship.Multimedia.view.BackService$4.run(BackService.java:337)
+E/AndroidRuntime( 1777):        at java.lang.Thread.run(Thread.java:856)
+D/dalvikvm( 1777): GC_CONCURRENT freed 783K, 62% free 2814K/7363K, paused 2ms+2ms
+W/dalvikvm( 1777): threadid=14: thread exiting with uncaught exception (group=0x40fa81f8)
+I/Process ( 1777): Sending signal. PID: 1777 SIG: 9
+I/ActivityManager(  939): Process com.coship.Multimedia (pid 1777) has died.
+W/ActivityManager(  939): Service crashed 2 times, stopping: ServiceRecord{41643bf0 com.coship.Multimedia/.view.BackService}
+W/InputManagerService(  939): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@41617e50
+D/MonitorCw880( 1288): Current Remote Host is null, continue, counter=0
+D/MonitorCw880( 1288): Current Remote Host is null, continue, counter=0
+D/NetFirmwareService( 1273): MSG_CREATE_CHECK_THREAD
+D/NetFirmwareService( 1273): MSG_CHECK_UPGRADE

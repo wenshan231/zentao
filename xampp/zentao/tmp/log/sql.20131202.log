@@ -1,0 +1,921 @@
+20131202 10:33:21: user-login-L3plbnRhby8=
+  SELECT * FROM `zt_company` WHERE `pms` = 'localhost:88' 
+  SELECT * FROM `zt_company` WHERE `pms` = 'localhost' 
+  SELECT * FROM `zt_config` WHERE owner IN ('system','') AND company IN ('1','0') ORDER BY id
+
+20131202 10:33:30: user-login-L3plbnRhby8=
+  SELECT * FROM `zt_config` WHERE owner IN ('system','') AND company IN ('1','0') ORDER BY id
+  SELECT locked FROM `zt_user` WHERE account  = 'fujia' AND  `zt_user`.company = '1' 
+  SELECT * FROM `zt_user` WHERE account  = 'fujia' AND password  = 'a4385e22e023442f25680a4bd2eb8e22' AND deleted  = '0' AND  `zt_user`.company = '1' 
+  UPDATE `zt_user` SET  visits = visits + 1 , ip = '::1', last = '1385951610' WHERE account  = 'fujia' AND  `zt_user`.company = '1' 
+  UPDATE `zt_user` SET  fails  = '0', locked = '0000-00-00 00:00:00' WHERE account  = 'fujia'
+  SELECT module, method FROM `zt_userGroup` AS t1  LEFT JOIN `zt_groupPriv` AS t2  ON t1.group = t2.group  WHERE t1.account  = 'fujia' AND  t1.company = '1' 
+  SELECT `group` FROM `zt_userGroup` WHERE `account` = 'fujia'  AND  `zt_userGroup`.company = '1' 
+  INSERT INTO `zt_action` SET `objectType` = 'user',`objectID` = '227',`actor` = 'fujia',`action` = 'login',`date` = '2013-12-02 10:33:30',`comment` = '',`extra` = '',`product` = ',0,',`project` = '0',`company` = '1'
+
+20131202 10:33:30: 
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+
+20131202 10:33:37: my
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT *, IF(INSTR(" done", status) < 2, 0, 1) AS isDone FROM `zt_project` WHERE iscat  = '0' AND status  != 'done' AND deleted  = '0'  AND  `zt_project`.company = '1'  ORDER BY isDone, `order`, status
+  SELECT id, project, estimate, consumed, `left`, status, closedReason FROM `zt_task` WHERE project IN ('50','8','9','10','11','13','14','17','18','20','22','23','24','25','27','28','29','30','31','32','33','35','36','37','34','38','39','41','42','43','45','51','53','52','54','55','56','76','44','46','66','79','58','59','60','61','62','63','64','65','68','69','70','71','80','72','74','75','77','82','78','81','83','84','85','86','87','88','89','90') AND deleted  = '0' AND  `zt_task`.company = '1' 
+  SELECT project, date AS name, `left` AS value FROM `zt_burn` WHERE project IN ('50','8','9','10','11','13','14','17','18','20','22','23','24','25','27','28','29','30','31','32','33','35','36','37','34','38','39','41','42','43','45','51','53','52','54','55','56','76','44','46','66','79','58','59','60','61','62','63','64','65','68','69','70','71','80','72','74','75','77','82','78','81','83','84','85','86','87','88','89','90')  AND  `zt_burn`.company = '1'  ORDER BY date desc
+  SELECT * FROM `zt_product` WHERE deleted  = '0' AND status  != 'closed'  AND  `zt_product`.company = '1'  ORDER BY `order` asc
+  SELECT product, status, count(status) AS count FROM `zt_story` WHERE deleted  = '0' AND product IN ('35','7','11','14','15','16','17','18','20','21','27','25','26','28','29','30','31','32','37','38','39','40','41','42','43','44','45','46','47','49','50','51','52','53')  AND  `zt_story`.company = '1'  GROUP BY product, status
+  SELECT product, count(*) AS count FROM `zt_productPlan` WHERE deleted  = '0' AND product IN ('35','7','11','14','15','16','17','18','20','21','27','25','26','28','29','30','31','32','37','38','39','40','41','42','43','44','45','46','47','49','50','51','52','53') AND end  > '2013-12-02 10:33:31'  AND  `zt_productPlan`.company = '1'  GROUP BY product
+  SELECT product, count(*) AS count FROM `zt_release` WHERE deleted  = '0' AND product IN ('35','7','11','14','15','16','17','18','20','21','27','25','26','28','29','30','31','32','37','38','39','40','41','42','43','44','45','46','47','49','50','51','52','53')  AND  `zt_release`.company = '1'  GROUP BY product
+  SELECT product,count(*) AS conut FROM `zt_bug` WHERE deleted  = '0' AND product IN ('35','7','11','14','15','16','17','18','20','21','27','25','26','28','29','30','31','32','37','38','39','40','41','42','43','44','45','46','47','49','50','51','52','53')  AND  `zt_bug`.company = '1'  GROUP BY product
+  SELECT product,count(*) AS count FROM `zt_bug` WHERE status  = 'active' AND deleted  = '0' AND product IN ('35','7','11','14','15','16','17','18','20','21','27','25','26','28','29','30','31','32','37','38','39','40','41','42','43','44','45','46','47','49','50','51','52','53')  AND  `zt_bug`.company = '1'  GROUP BY product
+  SELECT product,count(*) AS count FROM `zt_bug` WHERE AssignedTo  = '' AND deleted  = '0' AND product IN ('35','7','11','14','15','16','17','18','20','21','27','25','26','28','29','30','31','32','37','38','39','40','41','42','43','44','45','46','47','49','50','51','52','53')  AND  `zt_bug`.company = '1'  GROUP BY product
+  SELECT * FROM `zt_action` WHERE 1  AND date  > '2013-11-30' AND date  < '2013-12-03'  AND  `zt_action`.company = '1'  ORDER BY date desc  limit 0, 14 
+  SELECT commiter, account, realname FROM `zt_user` WHERE commiter  != '' AND  `zt_user`.company = '1' 
+  SELECT id, account AS name FROM `zt_user` WHERE id IN ('227') AND  `zt_user`.company = '1' 
+  SELECT * FROM `zt_todo` WHERE account  = 'fujia' AND date >= '1970-01-01'  AND date <= '2109-01-01'  AND status IN ('wait','doing')  AND  `zt_todo`.company = '1'  ORDER BY date, status, begin LIMIT 10 
+  SELECT * FROM `zt_todo` WHERE account  = 'fujia' AND date >= '1970-01-01'  AND date <= '2109-01-01'  AND status IN ('wait','doing') ORDER BY date, status, begin LIMIT 10 
+  SELECT t1.*, t2.id as projectID, t2.name as projectName, t3.id as storyID, t3.title as storyTitle, t3.status AS storyStatus, t3.version AS latestStoryVersion FROM `zt_task` AS t1  LEFT JOIN `zt_project` AS t2  ON t1.project = t2.id  LEFT JOIN `zt_story` AS t3  ON t1.story = t3.id  WHERE t1.deleted  = '0' AND t1.assignedTo  = 'fujia'  AND  t1.company = '1'  ORDER BY id desc LIMIT 10 
+  SELECT t1.*, t2.id as projectID, t2.name as projectName, t3.id as storyID, t3.title as storyTitle, t3.status AS storyStatus, t3.version AS latestStoryVersion FROM `zt_task` AS t1  LEFT JOIN `zt_project` AS t2  ON t1.project = t2.id  LEFT JOIN `zt_story` AS t3  ON t1.story = t3.id  WHERE t1.deleted  = '0' AND t1.assignedTo  = 'fujia' ORDER BY id desc LIMIT 10 
+  SELECT t1.id, t1.title, t2.name as product FROM `zt_bug` AS t1  LEFT JOIN `zt_product` AS t2  ON t1.product=t2.id  WHERE t1.assignedTo  = 'fujia' AND t1.deleted  = '0'  AND  t1.company = '1'  ORDER BY id desc LIMIT 10 
+  SELECT id, title FROM `zt_story` WHERE deleted  = '0' AND assignedTo  = 'fujia'  AND  `zt_story`.company = '1'  ORDER BY id desc LIMIT 10 
+  SELECT account, realname FROM `zt_user`  WHERE  `zt_user`.company = '1'  ORDER BY account
+
+20131202 10:34:37: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+
+20131202 10:39:38: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT * FROM `zt_config` WHERE 1 = 1  AND company IN ('1') AND owner IN ('system') AND module IN ('common') AND section IN ('global') AND `key` IN ('sn')
+
+20131202 10:44:38: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT * FROM `zt_config` WHERE 1 = 1  AND company IN ('1') AND owner IN ('system') AND module IN ('common') AND section IN ('global') AND `key` IN ('sn')
+
+20131202 10:49:38: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT * FROM `zt_config` WHERE 1 = 1  AND company IN ('1') AND owner IN ('system') AND module IN ('common') AND section IN ('global') AND `key` IN ('sn')
+
+20131202 10:54:38: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT * FROM `zt_config` WHERE 1 = 1  AND company IN ('1') AND owner IN ('system') AND module IN ('common') AND section IN ('global') AND `key` IN ('sn')
+
+20131202 10:59:38: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+
+20131202 11:04:38: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+
+20131202 11:09:38: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT * FROM `zt_config` WHERE 1 = 1  AND company IN ('1') AND owner IN ('system') AND module IN ('common') AND section IN ('global') AND `key` IN ('sn')
+
+20131202 11:14:39: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT * FROM `zt_config` WHERE 1 = 1  AND company IN ('1') AND owner IN ('system') AND module IN ('common') AND section IN ('global') AND `key` IN ('sn')
+
+20131202 11:19:39: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT * FROM `zt_config` WHERE 1 = 1  AND company IN ('1') AND owner IN ('system') AND module IN ('common') AND section IN ('global') AND `key` IN ('sn')
+
+20131202 11:24:39: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+
+20131202 11:29:39: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT * FROM `zt_config` WHERE 1 = 1  AND company IN ('1') AND owner IN ('system') AND module IN ('common') AND section IN ('global') AND `key` IN ('sn')
+
+20131202 11:34:39: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+
+20131202 11:39:39: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+
+20131202 11:44:39: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT * FROM `zt_config` WHERE 1 = 1  AND company IN ('1') AND owner IN ('system') AND module IN ('common') AND section IN ('global') AND `key` IN ('sn')
+
+20131202 11:49:39: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT * FROM `zt_config` WHERE 1 = 1  AND company IN ('1') AND owner IN ('system') AND module IN ('common') AND section IN ('global') AND `key` IN ('sn')
+
+20131202 11:54:39: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT * FROM `zt_config` WHERE 1 = 1  AND company IN ('1') AND owner IN ('system') AND module IN ('common') AND section IN ('global') AND `key` IN ('sn')
+
+20131202 11:59:40: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+
+20131202 12:04:40: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT * FROM `zt_config` WHERE 1 = 1  AND company IN ('1') AND owner IN ('system') AND module IN ('common') AND section IN ('global') AND `key` IN ('sn')
+
+20131202 12:09:40: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT * FROM `zt_config` WHERE 1 = 1  AND company IN ('1') AND owner IN ('system') AND module IN ('common') AND section IN ('global') AND `key` IN ('sn')
+
+20131202 12:14:40: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+
+20131202 12:19:40: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT * FROM `zt_config` WHERE 1 = 1  AND company IN ('1') AND owner IN ('system') AND module IN ('common') AND section IN ('global') AND `key` IN ('sn')
+
+20131202 12:24:40: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+
+20131202 12:29:40: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+
+20131202 13:17:30: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+
+20131202 13:22:31: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+
+20131202 13:27:31: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT * FROM `zt_config` WHERE 1 = 1  AND company IN ('1') AND owner IN ('system') AND module IN ('common') AND section IN ('global') AND `key` IN ('sn')
+
+20131202 13:32:31: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT * FROM `zt_config` WHERE 1 = 1  AND company IN ('1') AND owner IN ('system') AND module IN ('common') AND section IN ('global') AND `key` IN ('sn')
+
+20131202 13:37:31: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT * FROM `zt_config` WHERE 1 = 1  AND company IN ('1') AND owner IN ('system') AND module IN ('common') AND section IN ('global') AND `key` IN ('sn')
+
+20131202 13:42:31: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+
+20131202 13:47:31: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT * FROM `zt_config` WHERE 1 = 1  AND company IN ('1') AND owner IN ('system') AND module IN ('common') AND section IN ('global') AND `key` IN ('sn')
+
+20131202 13:47:55: qa
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+
+20131202 13:47:56: bug-browse
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT *,  IF(INSTR(" closed", status) < 2, 0, 1) AS isClosed FROM `zt_product` WHERE deleted  = '0'  AND  `zt_product`.company = '1'  ORDER BY isClosed, `order`
+  SELECT id, status, name FROM `zt_product` WHERE id IN ('35','7','11','14','15','16','17','18','20','21','27','25','26','28','29','30','31','32','37','38','39','40','41','42','43','44','45','46','47','49','50','51','52','53','12','13','36')  AND  `zt_product`.company = '1'  ORDER BY `order`
+  SELECT id, status, name FROM `zt_product` WHERE id IN ('35','7','11','14','15','16','17','18','20','21','27','25','26','28','29','30','31','32','37','38','39','40','41','42','43','44','45','46','47','49','50','51','52','53','12','13','36')  AND  `zt_product`.company = '1'  ORDER BY `order`
+  SELECT *, IF(INSTR(" done", status) < 2, 0, 1) AS isDone FROM `zt_project` WHERE iscat  = '0' AND deleted  = '0'  AND  `zt_project`.company = '1'  ORDER BY isDone, `order`, status
+  SELECT * FROM `zt_bug` WHERE product  = '35' AND project IN ('50','8','9','10','11','13','14','17','18','20','22','23','24','25','27','28','29','30','31','32','33','35','36','37','34','38','39','41','42','43','45','51','53','52','54','55','56','76','44','46','66','79','58','59','60','61','62','63','64','65','68','69','70','71','80','72','74','75','77','82','78','81','83','84','85','86','87','88','89','90','5','15','16','21','40','57','67','73','0') AND deleted  = '0'  AND  `zt_bug`.company = '1'  ORDER BY id desc
+  SELECT COUNT(*) AS recTotal FROM `zt_bug` WHERE product  = '35' AND project IN ('50','8','9','10','11','13','14','17','18','20','22','23','24','25','27','28','29','30','31','32','33','35','36','37','34','38','39','41','42','43','45','51','53','52','54','55','56','76','44','46','66','79','58','59','60','61','62','63','64','65','68','69','70','71','80','72','74','75','77','82','78','81','83','84','85','86','87','88','89','90','5','15','16','21','40','57','67','73','0') AND deleted  = '0'  AND  `zt_bug`.company = '1'  
+  SELECT * FROM `zt_bug` WHERE product  = '35' AND project IN ('50','8','9','10','11','13','14','17','18','20','22','23','24','25','27','28','29','30','31','32','33','35','36','37','34','38','39','41','42','43','45','51','53','52','54','55','56','76','44','46','66','79','58','59','60','61','62','63','64','65','68','69','70','71','80','72','74','75','77','82','78','81','83','84','85','86','87','88','89','90','5','15','16','21','40','57','67','73','0') AND deleted  = '0'  AND  `zt_bug`.company = '1'  ORDER BY id desc  limit 0, 20 
+  SELECT * FROM `zt_bug` WHERE product  = '35' AND project IN ('50','8','9','10','11','13','14','17','18','20','22','23','24','25','27','28','29','30','31','32','33','35','36','37','34','38','39','41','42','43','45','51','53','52','54','55','56','76','44','46','66','79','58','59','60','61','62','63','64','65','68','69','70','71','80','72','74','75','77','82','78','81','83','84','85','86','87','88','89','90','5','15','16','21','40','57','67','73','0') AND deleted  = '0' ORDER BY id desc  limit 0, 20 
+  SELECT id, status FROM `zt_project` WHERE id IN ('50','50','50','50','50','50','72','72','72','72','72','72','72','72','72','72','72','72','50','50') AND  `zt_project`.company = '1' 
+  SELECT * FROM `zt_module` WHERE root  = '35' AND type  = 'bug'  AND  `zt_module`.company = '1'  ORDER BY grade desc, `order`
+  SELECT t2.id, t2.name, t2.deleted FROM `zt_projectProduct` AS t1  LEFT JOIN `zt_project` AS t2  ON t1.project = t2.id  WHERE t1.product  = '35'  AND  t1.company = '1'  ORDER BY t1.project desc
+  SELECT id,name FROM `zt_build` WHERE product IN ('35') AND deleted  = '0'  AND  `zt_build`.company = '1'  ORDER BY date desc, id desc
+  SELECT id,name FROM `zt_build` WHERE product IN ('35') AND deleted  = '0'  AND  `zt_build`.company = '1'  ORDER BY date desc, id desc
+  SELECT account, realname FROM `zt_user`  WHERE  `zt_user`.company = '1'  ORDER BY account
+  SELECT id,name FROM `zt_build` WHERE product IN ('35') AND deleted  = '0'  AND  `zt_build`.company = '1'  ORDER BY date desc, id desc
+  SELECT * FROM `zt_module` WHERE root  = '35' AND type  = 'bug'  AND  `zt_module`.company = '1'  ORDER BY grade desc, `order`
+
+20131202 13:48:10: bug-import-35-0
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT t2.id, t2.name, t2.deleted FROM `zt_projectProduct` AS t1  LEFT JOIN `zt_project` AS t2  ON t1.project = t2.id  WHERE t1.product  = '35'  AND  t1.company = '1'  ORDER BY t1.project desc
+  SELECT id,name FROM `zt_build` WHERE product IN ('35') AND deleted  = '0'  AND  `zt_build`.company = '1'  ORDER BY date desc, id desc
+
+20131202 13:48:57: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+
+20131202 13:49:01: bug-browse-35-byModule-682
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT *,  IF(INSTR(" closed", status) < 2, 0, 1) AS isClosed FROM `zt_product` WHERE deleted  = '0'  AND  `zt_product`.company = '1'  ORDER BY isClosed, `order`
+  SELECT id, status, name FROM `zt_product` WHERE id IN ('35','7','11','14','15','16','17','18','20','21','27','25','26','28','29','30','31','32','37','38','39','40','41','42','43','44','45','46','47','49','50','51','52','53','12','13','36')  AND  `zt_product`.company = '1'  ORDER BY `order`
+  SELECT id, status, name FROM `zt_product` WHERE id IN ('35','7','11','14','15','16','17','18','20','21','27','25','26','28','29','30','31','32','37','38','39','40','41','42','43','44','45','46','47','49','50','51','52','53','12','13','36')  AND  `zt_product`.company = '1'  ORDER BY `order`
+  SELECT *, IF(INSTR(" done", status) < 2, 0, 1) AS isDone FROM `zt_project` WHERE iscat  = '0' AND deleted  = '0'  AND  `zt_project`.company = '1'  ORDER BY isDone, `order`, status
+  SELECT * FROM `zt_module` WHERE `id` = '682'  AND  `zt_module`.company = '1' 
+  SELECT id FROM `zt_module` WHERE path  LIKE ',682,%' AND  `zt_module`.company = '1' 
+  SELECT * FROM `zt_bug` WHERE product  = '35' AND module IN ('682') AND project IN ('50','8','9','10','11','13','14','17','18','20','22','23','24','25','27','28','29','30','31','32','33','35','36','37','34','38','39','41','42','43','45','51','53','52','54','55','56','76','44','46','66','79','58','59','60','61','62','63','64','65','68','69','70','71','80','72','74','75','77','82','78','81','83','84','85','86','87','88','89','90','5','15','16','21','40','57','67','73','0') AND deleted  = '0'  AND  `zt_bug`.company = '1'  ORDER BY id desc
+  SELECT COUNT(*) AS recTotal FROM `zt_bug` WHERE product  = '35' AND module IN ('682') AND project IN ('50','8','9','10','11','13','14','17','18','20','22','23','24','25','27','28','29','30','31','32','33','35','36','37','34','38','39','41','42','43','45','51','53','52','54','55','56','76','44','46','66','79','58','59','60','61','62','63','64','65','68','69','70','71','80','72','74','75','77','82','78','81','83','84','85','86','87','88','89','90','5','15','16','21','40','57','67','73','0') AND deleted  = '0'  AND  `zt_bug`.company = '1'  
+  SELECT * FROM `zt_bug` WHERE product  = '35' AND module IN ('682') AND project IN ('50','8','9','10','11','13','14','17','18','20','22','23','24','25','27','28','29','30','31','32','33','35','36','37','34','38','39','41','42','43','45','51','53','52','54','55','56','76','44','46','66','79','58','59','60','61','62','63','64','65','68','69','70','71','80','72','74','75','77','82','78','81','83','84','85','86','87','88','89','90','5','15','16','21','40','57','67','73','0') AND deleted  = '0'  AND  `zt_bug`.company = '1'  ORDER BY id desc
+  SELECT * FROM `zt_bug` WHERE product  = '35' AND module IN ('682') AND project IN ('50','8','9','10','11','13','14','17','18','20','22','23','24','25','27','28','29','30','31','32','33','35','36','37','34','38','39','41','42','43','45','51','53','52','54','55','56','76','44','46','66','79','58','59','60','61','62','63','64','65','68','69','70','71','80','72','74','75','77','82','78','81','83','84','85','86','87','88','89','90','5','15','16','21','40','57','67','73','0') AND deleted  = '0' ORDER BY id desc
+  SELECT id, status FROM `zt_project` WHERE id IN ('50','50','50','50','50','50','50','50','50','50','50','50','50') AND  `zt_project`.company = '1' 
+  SELECT * FROM `zt_module` WHERE root  = '35' AND type  = 'bug'  AND  `zt_module`.company = '1'  ORDER BY grade desc, `order`
+  SELECT t2.id, t2.name, t2.deleted FROM `zt_projectProduct` AS t1  LEFT JOIN `zt_project` AS t2  ON t1.project = t2.id  WHERE t1.product  = '35'  AND  t1.company = '1'  ORDER BY t1.project desc
+  SELECT id,name FROM `zt_build` WHERE product IN ('35') AND deleted  = '0'  AND  `zt_build`.company = '1'  ORDER BY date desc, id desc
+  SELECT id,name FROM `zt_build` WHERE product IN ('35') AND deleted  = '0'  AND  `zt_build`.company = '1'  ORDER BY date desc, id desc
+  SELECT account, realname FROM `zt_user`  WHERE  `zt_user`.company = '1'  ORDER BY account
+  SELECT id,name FROM `zt_build` WHERE product IN ('35') AND deleted  = '0'  AND  `zt_build`.company = '1'  ORDER BY date desc, id desc
+  SELECT * FROM `zt_module` WHERE root  = '35' AND type  = 'bug'  AND  `zt_module`.company = '1'  ORDER BY grade desc, `order`
+
+20131202 13:49:03: bug-browse-35-byModule-557
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT *,  IF(INSTR(" closed", status) < 2, 0, 1) AS isClosed FROM `zt_product` WHERE deleted  = '0'  AND  `zt_product`.company = '1'  ORDER BY isClosed, `order`
+  SELECT id, status, name FROM `zt_product` WHERE id IN ('35','7','11','14','15','16','17','18','20','21','27','25','26','28','29','30','31','32','37','38','39','40','41','42','43','44','45','46','47','49','50','51','52','53','12','13','36')  AND  `zt_product`.company = '1'  ORDER BY `order`
+  SELECT id, status, name FROM `zt_product` WHERE id IN ('35','7','11','14','15','16','17','18','20','21','27','25','26','28','29','30','31','32','37','38','39','40','41','42','43','44','45','46','47','49','50','51','52','53','12','13','36')  AND  `zt_product`.company = '1'  ORDER BY `order`
+  SELECT *, IF(INSTR(" done", status) < 2, 0, 1) AS isDone FROM `zt_project` WHERE iscat  = '0' AND deleted  = '0'  AND  `zt_project`.company = '1'  ORDER BY isDone, `order`, status
+  SELECT * FROM `zt_module` WHERE `id` = '557'  AND  `zt_module`.company = '1' 
+  SELECT id FROM `zt_module` WHERE path  LIKE ',557,%' AND  `zt_module`.company = '1' 
+  SELECT * FROM `zt_bug` WHERE product  = '35' AND module IN ('557') AND project IN ('50','8','9','10','11','13','14','17','18','20','22','23','24','25','27','28','29','30','31','32','33','35','36','37','34','38','39','41','42','43','45','51','53','52','54','55','56','76','44','46','66','79','58','59','60','61','62','63','64','65','68','69','70','71','80','72','74','75','77','82','78','81','83','84','85','86','87','88','89','90','5','15','16','21','40','57','67','73','0') AND deleted  = '0'  AND  `zt_bug`.company = '1'  ORDER BY id desc
+  SELECT COUNT(*) AS recTotal FROM `zt_bug` WHERE product  = '35' AND module IN ('557') AND project IN ('50','8','9','10','11','13','14','17','18','20','22','23','24','25','27','28','29','30','31','32','33','35','36','37','34','38','39','41','42','43','45','51','53','52','54','55','56','76','44','46','66','79','58','59','60','61','62','63','64','65','68','69','70','71','80','72','74','75','77','82','78','81','83','84','85','86','87','88','89','90','5','15','16','21','40','57','67','73','0') AND deleted  = '0'  AND  `zt_bug`.company = '1'  
+  SELECT * FROM `zt_bug` WHERE product  = '35' AND module IN ('557') AND project IN ('50','8','9','10','11','13','14','17','18','20','22','23','24','25','27','28','29','30','31','32','33','35','36','37','34','38','39','41','42','43','45','51','53','52','54','55','56','76','44','46','66','79','58','59','60','61','62','63','64','65','68','69','70','71','80','72','74','75','77','82','78','81','83','84','85','86','87','88','89','90','5','15','16','21','40','57','67','73','0') AND deleted  = '0'  AND  `zt_bug`.company = '1'  ORDER BY id desc
+  SELECT * FROM `zt_bug` WHERE product  = '35' AND module IN ('557') AND project IN ('50','8','9','10','11','13','14','17','18','20','22','23','24','25','27','28','29','30','31','32','33','35','36','37','34','38','39','41','42','43','45','51','53','52','54','55','56','76','44','46','66','79','58','59','60','61','62','63','64','65','68','69','70','71','80','72','74','75','77','82','78','81','83','84','85','86','87','88','89','90','5','15','16','21','40','57','67','73','0') AND deleted  = '0' ORDER BY id desc
+  SELECT id, status FROM `zt_project` WHERE id IN ('50') AND  `zt_project`.company = '1' 
+  SELECT * FROM `zt_module` WHERE root  = '35' AND type  = 'bug'  AND  `zt_module`.company = '1'  ORDER BY grade desc, `order`
+  SELECT t2.id, t2.name, t2.deleted FROM `zt_projectProduct` AS t1  LEFT JOIN `zt_project` AS t2  ON t1.project = t2.id  WHERE t1.product  = '35'  AND  t1.company = '1'  ORDER BY t1.project desc
+  SELECT id,name FROM `zt_build` WHERE product IN ('35') AND deleted  = '0'  AND  `zt_build`.company = '1'  ORDER BY date desc, id desc
+  SELECT id,name FROM `zt_build` WHERE product IN ('35') AND deleted  = '0'  AND  `zt_build`.company = '1'  ORDER BY date desc, id desc
+  SELECT account, realname FROM `zt_user`  WHERE  `zt_user`.company = '1'  ORDER BY account
+  SELECT id,name FROM `zt_build` WHERE product IN ('35') AND deleted  = '0'  AND  `zt_build`.company = '1'  ORDER BY date desc, id desc
+  SELECT * FROM `zt_module` WHERE root  = '35' AND type  = 'bug'  AND  `zt_module`.company = '1'  ORDER BY grade desc, `order`
+
+20131202 13:49:06: bug-import-35-557
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT t2.id, t2.name, t2.deleted FROM `zt_projectProduct` AS t1  LEFT JOIN `zt_project` AS t2  ON t1.project = t2.id  WHERE t1.product  = '35'  AND  t1.company = '1'  ORDER BY t1.project desc
+  SELECT id,name FROM `zt_build` WHERE product IN ('35') AND deleted  = '0'  AND  `zt_build`.company = '1'  ORDER BY date desc, id desc
+
+20131202 13:49:09: build-ajaxGetProjectBuilds-78-35-resolvedBuild-0
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT id,name FROM `zt_build` WHERE project  = '78' AND product  = '35' AND deleted  = '0'  AND  `zt_build`.company = '1'  ORDER BY date desc, id desc
+
+20131202 13:50:03: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT * FROM `zt_config` WHERE 1 = 1  AND company IN ('1') AND owner IN ('system') AND module IN ('common') AND section IN ('global') AND `key` IN ('sn')
+
+20131202 13:51:28: bug-import-35-557
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT t2.id, t2.name, t2.deleted FROM `zt_projectProduct` AS t1  LEFT JOIN `zt_project` AS t2  ON t1.project = t2.id  WHERE t1.product  = '35'  AND  t1.company = '1'  ORDER BY t1.project desc
+  SELECT id,name FROM `zt_build` WHERE product IN ('35') AND deleted  = '0'  AND  `zt_build`.company = '1'  ORDER BY date desc, id desc
+
+20131202 13:51:29: bug-importPreview-35-557-78-trunk-type,severity,steps,status,assignedTo
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT t2.id, t2.name, t2.deleted FROM `zt_projectProduct` AS t1  LEFT JOIN `zt_project` AS t2  ON t1.project = t2.id  WHERE t1.product  = '35'  AND  t1.company = '1'  ORDER BY t1.project desc
+  SELECT *,  IF(INSTR(" closed", status) < 2, 0, 1) AS isClosed FROM `zt_product` WHERE deleted  = '0'  AND  `zt_product`.company = '1'  ORDER BY isClosed, `order`
+  SELECT account, realname, INSTR(',td,pm,qd,qa,dev,', role) AS roleOrder FROM `zt_user` WHERE deleted  = '0'  AND  `zt_user`.company = '1'  ORDER BY account
+  SELECT id,name FROM `zt_build` WHERE project  = '78' AND product  = '35' AND deleted  = '0'  AND  `zt_build`.company = '1'  ORDER BY date desc, id desc
+  SELECT id, status, name FROM `zt_product` WHERE id IN ('35','7','11','14','15','16','17','18','20','21','27','25','26','28','29','30','31','32','37','38','39','40','41','42','43','44','45','46','47','49','50','51','52','53','12','13','36')  AND  `zt_product`.company = '1'  ORDER BY `order`
+  SELECT id, status, name FROM `zt_product` WHERE id IN ('35','7','11','14','15','16','17','18','20','21','27','25','26','28','29','30','31','32','37','38','39','40','41','42','43','44','45','46','47','49','50','51','52','53','12','13','36')  AND  `zt_product`.company = '1'  ORDER BY `order`
+
+20131202 13:52:30: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT * FROM `zt_config` WHERE 1 = 1  AND company IN ('1') AND owner IN ('system') AND module IN ('common') AND section IN ('global') AND `key` IN ('sn')
+
+20131202 13:52:35: build-ajaxGetProjectBuilds-75-35-resolvedBuild-trunk
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT id,name FROM `zt_build` WHERE project  = '75' AND product  = '35' AND deleted  = '0'  AND  `zt_build`.company = '1'  ORDER BY date desc, id desc
+
+20131202 13:52:40: bug-importPreview-35-557-78-trunk-type,severity,steps,status,assignedTo
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT t2.id, t2.name, t2.deleted FROM `zt_projectProduct` AS t1  LEFT JOIN `zt_project` AS t2  ON t1.project = t2.id  WHERE t1.product  = '35'  AND  t1.company = '1'  ORDER BY t1.project desc
+  SELECT *,  IF(INSTR(" closed", status) < 2, 0, 1) AS isClosed FROM `zt_product` WHERE deleted  = '0'  AND  `zt_product`.company = '1'  ORDER BY isClosed, `order`
+  SELECT account, realname, INSTR(',td,pm,qd,qa,dev,', role) AS roleOrder FROM `zt_user` WHERE deleted  = '0'  AND  `zt_user`.company = '1'  ORDER BY account
+  SELECT id,name FROM `zt_build` WHERE project  = '78' AND product  = '35' AND deleted  = '0'  AND  `zt_build`.company = '1'  ORDER BY date desc, id desc
+  INSERT INTO `zt_bug` SET `product` = '35',`module` = '557',`project` = '78',`openedBuild` = '',`title` = 'bug测试1',`pri` = '2',`openedBy` = 'fujia',`openedDate` = '2013-12-02 13:52:40',`assignedDate` = '2013-12-02 13:52:40',`type` = 'UI',`severity` = '3',`assignedTo` = '',`steps` = '<p>[步骤]\r\n<p>[结果]\r\n<p>[期望]',`status` = 'active',`company` = '1'
+  SELECT product, project FROM `zt_bug` WHERE id  = '4931' AND  `zt_bug`.company = '1' 
+  INSERT INTO `zt_action` SET `objectType` = 'bug',`objectID` = '4931',`actor` = 'fujia',`action` = 'opened',`date` = '2013-12-02 13:52:40',`comment` = '',`extra` = '',`product` = ',35,',`project` = '78',`company` = '1'
+  INSERT INTO `zt_bug` SET `product` = '35',`module` = '557',`project` = '75',`openedBuild` = '',`title` = 'test2',`pri` = '3',`openedBy` = 'fujia',`openedDate` = '2013-12-02 13:52:40',`assignedDate` = '2013-12-02 13:52:40',`type` = 'UE',`severity` = '3',`assignedTo` = 'fujia',`steps` = '方法：例如从爬虫注入影片1-10，岁的法师法师法师法师打发是飞洒分飞顺丰萨芬阿萨德发生的发发斯蒂芬撒旦法',`status` = 'resolved',`company` = '1'
+  SELECT product, project FROM `zt_bug` WHERE id  = '4932' AND  `zt_bug`.company = '1' 
+  INSERT INTO `zt_action` SET `objectType` = 'bug',`objectID` = '4932',`actor` = 'fujia',`action` = 'opened',`date` = '2013-12-02 13:52:40',`comment` = '',`extra` = '',`product` = ',35,',`project` = '75',`company` = '1'
+  INSERT INTO `zt_bug` SET `product` = '35',`module` = '557',`project` = '78',`openedBuild` = 'trunk',`title` = 'bug测试2',`pri` = '4',`openedBy` = 'fujia',`openedDate` = '2013-12-02 13:52:40',`assignedDate` = '2013-12-02 13:52:40',`type` = 'codeerror',`severity` = '3',`assignedTo` = 'liuzhiwei',`steps` = '[步骤]\r\n\r\n',`status` = 'active',`company` = '1'
+  SELECT product, project FROM `zt_bug` WHERE id  = '4933' AND  `zt_bug`.company = '1' 
+  INSERT INTO `zt_action` SET `objectType` = 'bug',`objectID` = '4933',`actor` = 'fujia',`action` = 'opened',`date` = '2013-12-02 13:52:40',`comment` = '',`extra` = '',`product` = ',35,',`project` = '78',`company` = '1'
+
+20131202 13:52:41: bug-browse-35-byModule-557
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT *,  IF(INSTR(" closed", status) < 2, 0, 1) AS isClosed FROM `zt_product` WHERE deleted  = '0'  AND  `zt_product`.company = '1'  ORDER BY isClosed, `order`
+  SELECT id, status, name FROM `zt_product` WHERE id IN ('35','7','11','14','15','16','17','18','20','21','27','25','26','28','29','30','31','32','37','38','39','40','41','42','43','44','45','46','47','49','50','51','52','53','12','13','36')  AND  `zt_product`.company = '1'  ORDER BY `order`
+  SELECT id, status, name FROM `zt_product` WHERE id IN ('35','7','11','14','15','16','17','18','20','21','27','25','26','28','29','30','31','32','37','38','39','40','41','42','43','44','45','46','47','49','50','51','52','53','12','13','36')  AND  `zt_product`.company = '1'  ORDER BY `order`
+  SELECT *, IF(INSTR(" done", status) < 2, 0, 1) AS isDone FROM `zt_project` WHERE iscat  = '0' AND deleted  = '0'  AND  `zt_project`.company = '1'  ORDER BY isDone, `order`, status
+  SELECT * FROM `zt_module` WHERE `id` = '557'  AND  `zt_module`.company = '1' 
+  SELECT id FROM `zt_module` WHERE path  LIKE ',557,%' AND  `zt_module`.company = '1' 
+  SELECT * FROM `zt_bug` WHERE product  = '35' AND module IN ('557') AND project IN ('50','8','9','10','11','13','14','17','18','20','22','23','24','25','27','28','29','30','31','32','33','35','36','37','34','38','39','41','42','43','45','51','53','52','54','55','56','76','44','46','66','79','58','59','60','61','62','63','64','65','68','69','70','71','80','72','74','75','77','82','78','81','83','84','85','86','87','88','89','90','5','15','16','21','40','57','67','73','0') AND deleted  = '0'  AND  `zt_bug`.company = '1'  ORDER BY id desc
+  SELECT COUNT(*) AS recTotal FROM `zt_bug` WHERE product  = '35' AND module IN ('557') AND project IN ('50','8','9','10','11','13','14','17','18','20','22','23','24','25','27','28','29','30','31','32','33','35','36','37','34','38','39','41','42','43','45','51','53','52','54','55','56','76','44','46','66','79','58','59','60','61','62','63','64','65','68','69','70','71','80','72','74','75','77','82','78','81','83','84','85','86','87','88','89','90','5','15','16','21','40','57','67','73','0') AND deleted  = '0'  AND  `zt_bug`.company = '1'  
+  SELECT * FROM `zt_bug` WHERE product  = '35' AND module IN ('557') AND project IN ('50','8','9','10','11','13','14','17','18','20','22','23','24','25','27','28','29','30','31','32','33','35','36','37','34','38','39','41','42','43','45','51','53','52','54','55','56','76','44','46','66','79','58','59','60','61','62','63','64','65','68','69','70','71','80','72','74','75','77','82','78','81','83','84','85','86','87','88','89','90','5','15','16','21','40','57','67','73','0') AND deleted  = '0'  AND  `zt_bug`.company = '1'  ORDER BY id desc
+  SELECT * FROM `zt_bug` WHERE product  = '35' AND module IN ('557') AND project IN ('50','8','9','10','11','13','14','17','18','20','22','23','24','25','27','28','29','30','31','32','33','35','36','37','34','38','39','41','42','43','45','51','53','52','54','55','56','76','44','46','66','79','58','59','60','61','62','63','64','65','68','69','70','71','80','72','74','75','77','82','78','81','83','84','85','86','87','88','89','90','5','15','16','21','40','57','67','73','0') AND deleted  = '0' ORDER BY id desc
+  SELECT id, status FROM `zt_project` WHERE id IN ('78','75','78','50') AND  `zt_project`.company = '1' 
+  SELECT * FROM `zt_module` WHERE root  = '35' AND type  = 'bug'  AND  `zt_module`.company = '1'  ORDER BY grade desc, `order`
+  SELECT t2.id, t2.name, t2.deleted FROM `zt_projectProduct` AS t1  LEFT JOIN `zt_project` AS t2  ON t1.project = t2.id  WHERE t1.product  = '35'  AND  t1.company = '1'  ORDER BY t1.project desc
+  SELECT id,name FROM `zt_build` WHERE product IN ('35') AND deleted  = '0'  AND  `zt_build`.company = '1'  ORDER BY date desc, id desc
+  SELECT id,name FROM `zt_build` WHERE product IN ('35') AND deleted  = '0'  AND  `zt_build`.company = '1'  ORDER BY date desc, id desc
+  SELECT account, realname FROM `zt_user`  WHERE  `zt_user`.company = '1'  ORDER BY account
+  SELECT id,name FROM `zt_build` WHERE product IN ('35') AND deleted  = '0'  AND  `zt_build`.company = '1'  ORDER BY date desc, id desc
+  SELECT * FROM `zt_module` WHERE root  = '35' AND type  = 'bug'  AND  `zt_module`.company = '1'  ORDER BY grade desc, `order`
+
+20131202 13:52:50: bug-import-35-557
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT t2.id, t2.name, t2.deleted FROM `zt_projectProduct` AS t1  LEFT JOIN `zt_project` AS t2  ON t1.project = t2.id  WHERE t1.product  = '35'  AND  t1.company = '1'  ORDER BY t1.project desc
+  SELECT id,name FROM `zt_build` WHERE product IN ('35') AND deleted  = '0'  AND  `zt_build`.company = '1'  ORDER BY date desc, id desc
+
+20131202 13:52:56: build-ajaxGetProjectBuilds-78-35-resolvedBuild-0
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT id,name FROM `zt_build` WHERE project  = '78' AND product  = '35' AND deleted  = '0'  AND  `zt_build`.company = '1'  ORDER BY date desc, id desc
+
+20131202 13:52:59: build-ajaxGetProjectBuilds-72-35-resolvedBuild-trunk
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT id,name FROM `zt_build` WHERE project  = '72' AND product  = '35' AND deleted  = '0'  AND  `zt_build`.company = '1'  ORDER BY date desc, id desc
+  SELECT build,name FROM `zt_release` WHERE build IN ('508','504','496','486','466','448','440','439','433') AND deleted  = '0' AND  `zt_release`.company = '1' 
+
+20131202 13:53:22: bug-import-35-557
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT t2.id, t2.name, t2.deleted FROM `zt_projectProduct` AS t1  LEFT JOIN `zt_project` AS t2  ON t1.project = t2.id  WHERE t1.product  = '35'  AND  t1.company = '1'  ORDER BY t1.project desc
+  SELECT id,name FROM `zt_build` WHERE product IN ('35') AND deleted  = '0'  AND  `zt_build`.company = '1'  ORDER BY date desc, id desc
+
+20131202 13:53:22: bug-importPreview-35-557-72-trunk
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT t2.id, t2.name, t2.deleted FROM `zt_projectProduct` AS t1  LEFT JOIN `zt_project` AS t2  ON t1.project = t2.id  WHERE t1.product  = '35'  AND  t1.company = '1'  ORDER BY t1.project desc
+  SELECT *,  IF(INSTR(" closed", status) < 2, 0, 1) AS isClosed FROM `zt_product` WHERE deleted  = '0'  AND  `zt_product`.company = '1'  ORDER BY isClosed, `order`
+  SELECT account, realname, INSTR(',td,pm,qd,qa,dev,', role) AS roleOrder FROM `zt_user` WHERE deleted  = '0'  AND  `zt_user`.company = '1'  ORDER BY account
+  SELECT id,name FROM `zt_build` WHERE project  = '72' AND product  = '35' AND deleted  = '0'  AND  `zt_build`.company = '1'  ORDER BY date desc, id desc
+  SELECT build,name FROM `zt_release` WHERE build IN ('508','504','496','486','466','448','440','439','433') AND deleted  = '0' AND  `zt_release`.company = '1' 
+  SELECT id, status, name FROM `zt_product` WHERE id IN ('35','7','11','14','15','16','17','18','20','21','27','25','26','28','29','30','31','32','37','38','39','40','41','42','43','44','45','46','47','49','50','51','52','53','12','13','36')  AND  `zt_product`.company = '1'  ORDER BY `order`
+  SELECT id, status, name FROM `zt_product` WHERE id IN ('35','7','11','14','15','16','17','18','20','21','27','25','26','28','29','30','31','32','37','38','39','40','41','42','43','44','45','46','47','49','50','51','52','53','12','13','36')  AND  `zt_product`.company = '1'  ORDER BY `order`
+
+20131202 13:53:29: bug-importPreview-35-557-72-trunk
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT t2.id, t2.name, t2.deleted FROM `zt_projectProduct` AS t1  LEFT JOIN `zt_project` AS t2  ON t1.project = t2.id  WHERE t1.product  = '35'  AND  t1.company = '1'  ORDER BY t1.project desc
+  SELECT *,  IF(INSTR(" closed", status) < 2, 0, 1) AS isClosed FROM `zt_product` WHERE deleted  = '0'  AND  `zt_product`.company = '1'  ORDER BY isClosed, `order`
+  SELECT account, realname, INSTR(',td,pm,qd,qa,dev,', role) AS roleOrder FROM `zt_user` WHERE deleted  = '0'  AND  `zt_user`.company = '1'  ORDER BY account
+  SELECT id,name FROM `zt_build` WHERE project  = '72' AND product  = '35' AND deleted  = '0'  AND  `zt_build`.company = '1'  ORDER BY date desc, id desc
+  SELECT build,name FROM `zt_release` WHERE build IN ('508','504','496','486','466','448','440','439','433') AND deleted  = '0' AND  `zt_release`.company = '1' 
+  INSERT INTO `zt_bug` SET `product` = '35',`module` = '557',`project` = '72',`openedBuild` = 'trunk',`title` = 'bug测试1',`pri` = '2',`openedBy` = 'fujia',`openedDate` = '2013-12-02 13:53:29',`assignedDate` = '2013-12-02 13:53:29',`type` = 'codeerror',`severity` = '3',`assignedTo` = 'fujia',`status` = 'active',`company` = '1'
+  SELECT product, project FROM `zt_bug` WHERE id  = '4934' AND  `zt_bug`.company = '1' 
+  INSERT INTO `zt_action` SET `objectType` = 'bug',`objectID` = '4934',`actor` = 'fujia',`action` = 'opened',`date` = '2013-12-02 13:53:29',`comment` = '',`extra` = '',`product` = ',35,',`project` = '72',`company` = '1'
+  INSERT INTO `zt_bug` SET `product` = '35',`module` = '557',`project` = '72',`openedBuild` = 'trunk',`title` = 'test2',`pri` = '2',`openedBy` = 'fujia',`openedDate` = '2013-12-02 13:53:29',`assignedDate` = '2013-12-02 13:53:29',`type` = 'codeerror',`severity` = '3',`assignedTo` = 'fujia',`status` = 'active',`company` = '1'
+  SELECT product, project FROM `zt_bug` WHERE id  = '4935' AND  `zt_bug`.company = '1' 
+  INSERT INTO `zt_action` SET `objectType` = 'bug',`objectID` = '4935',`actor` = 'fujia',`action` = 'opened',`date` = '2013-12-02 13:53:29',`comment` = '',`extra` = '',`product` = ',35,',`project` = '72',`company` = '1'
+  INSERT INTO `zt_bug` SET `product` = '35',`module` = '557',`project` = '72',`openedBuild` = 'trunk',`title` = 'bug测试2',`pri` = '1',`openedBy` = 'fujia',`openedDate` = '2013-12-02 13:53:29',`assignedDate` = '2013-12-02 13:53:29',`type` = 'codeerror',`severity` = '3',`assignedTo` = 'fujia',`status` = 'active',`company` = '1'
+  SELECT product, project FROM `zt_bug` WHERE id  = '4936' AND  `zt_bug`.company = '1' 
+  INSERT INTO `zt_action` SET `objectType` = 'bug',`objectID` = '4936',`actor` = 'fujia',`action` = 'opened',`date` = '2013-12-02 13:53:29',`comment` = '',`extra` = '',`product` = ',35,',`project` = '72',`company` = '1'
+
+20131202 13:53:29: bug-browse-35-byModule-557
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT *,  IF(INSTR(" closed", status) < 2, 0, 1) AS isClosed FROM `zt_product` WHERE deleted  = '0'  AND  `zt_product`.company = '1'  ORDER BY isClosed, `order`
+  SELECT id, status, name FROM `zt_product` WHERE id IN ('35','7','11','14','15','16','17','18','20','21','27','25','26','28','29','30','31','32','37','38','39','40','41','42','43','44','45','46','47','49','50','51','52','53','12','13','36')  AND  `zt_product`.company = '1'  ORDER BY `order`
+  SELECT id, status, name FROM `zt_product` WHERE id IN ('35','7','11','14','15','16','17','18','20','21','27','25','26','28','29','30','31','32','37','38','39','40','41','42','43','44','45','46','47','49','50','51','52','53','12','13','36')  AND  `zt_product`.company = '1'  ORDER BY `order`
+  SELECT *, IF(INSTR(" done", status) < 2, 0, 1) AS isDone FROM `zt_project` WHERE iscat  = '0' AND deleted  = '0'  AND  `zt_project`.company = '1'  ORDER BY isDone, `order`, status
+  SELECT * FROM `zt_module` WHERE `id` = '557'  AND  `zt_module`.company = '1' 
+  SELECT id FROM `zt_module` WHERE path  LIKE ',557,%' AND  `zt_module`.company = '1' 
+  SELECT * FROM `zt_bug` WHERE product  = '35' AND module IN ('557') AND project IN ('50','8','9','10','11','13','14','17','18','20','22','23','24','25','27','28','29','30','31','32','33','35','36','37','34','38','39','41','42','43','45','51','53','52','54','55','56','76','44','46','66','79','58','59','60','61','62','63','64','65','68','69','70','71','80','72','74','75','77','82','78','81','83','84','85','86','87','88','89','90','5','15','16','21','40','57','67','73','0') AND deleted  = '0'  AND  `zt_bug`.company = '1'  ORDER BY id desc
+  SELECT COUNT(*) AS recTotal FROM `zt_bug` WHERE product  = '35' AND module IN ('557') AND project IN ('50','8','9','10','11','13','14','17','18','20','22','23','24','25','27','28','29','30','31','32','33','35','36','37','34','38','39','41','42','43','45','51','53','52','54','55','56','76','44','46','66','79','58','59','60','61','62','63','64','65','68','69','70','71','80','72','74','75','77','82','78','81','83','84','85','86','87','88','89','90','5','15','16','21','40','57','67','73','0') AND deleted  = '0'  AND  `zt_bug`.company = '1'  
+  SELECT * FROM `zt_bug` WHERE product  = '35' AND module IN ('557') AND project IN ('50','8','9','10','11','13','14','17','18','20','22','23','24','25','27','28','29','30','31','32','33','35','36','37','34','38','39','41','42','43','45','51','53','52','54','55','56','76','44','46','66','79','58','59','60','61','62','63','64','65','68','69','70','71','80','72','74','75','77','82','78','81','83','84','85','86','87','88','89','90','5','15','16','21','40','57','67','73','0') AND deleted  = '0'  AND  `zt_bug`.company = '1'  ORDER BY id desc
+  SELECT * FROM `zt_bug` WHERE product  = '35' AND module IN ('557') AND project IN ('50','8','9','10','11','13','14','17','18','20','22','23','24','25','27','28','29','30','31','32','33','35','36','37','34','38','39','41','42','43','45','51','53','52','54','55','56','76','44','46','66','79','58','59','60','61','62','63','64','65','68','69','70','71','80','72','74','75','77','82','78','81','83','84','85','86','87','88','89','90','5','15','16','21','40','57','67','73','0') AND deleted  = '0' ORDER BY id desc
+  SELECT id, status FROM `zt_project` WHERE id IN ('72','72','72','78','75','78','50') AND  `zt_project`.company = '1' 
+  SELECT * FROM `zt_module` WHERE root  = '35' AND type  = 'bug'  AND  `zt_module`.company = '1'  ORDER BY grade desc, `order`
+  SELECT t2.id, t2.name, t2.deleted FROM `zt_projectProduct` AS t1  LEFT JOIN `zt_project` AS t2  ON t1.project = t2.id  WHERE t1.product  = '35'  AND  t1.company = '1'  ORDER BY t1.project desc
+  SELECT id,name FROM `zt_build` WHERE product IN ('35') AND deleted  = '0'  AND  `zt_build`.company = '1'  ORDER BY date desc, id desc
+  SELECT id,name FROM `zt_build` WHERE product IN ('35') AND deleted  = '0'  AND  `zt_build`.company = '1'  ORDER BY date desc, id desc
+  SELECT account, realname FROM `zt_user`  WHERE  `zt_user`.company = '1'  ORDER BY account
+  SELECT id,name FROM `zt_build` WHERE product IN ('35') AND deleted  = '0'  AND  `zt_build`.company = '1'  ORDER BY date desc, id desc
+  SELECT * FROM `zt_module` WHERE root  = '35' AND type  = 'bug'  AND  `zt_module`.company = '1'  ORDER BY grade desc, `order`
+
+20131202 13:53:32: bug-view-4933
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT *,  IF(INSTR(" closed", status) < 2, 0, 1) AS isClosed FROM `zt_product` WHERE deleted  = '0'  AND  `zt_product`.company = '1'  ORDER BY isClosed, `order`
+  SELECT t1.*, t2.name AS projectName, t3.title AS storyTitle, t3.status AS storyStatus, t3.version AS latestStoryVersion, t4.name AS taskName FROM `zt_bug` AS t1  LEFT JOIN `zt_project` AS t2  ON t1.project = t2.id  LEFT JOIN `zt_story` AS t3  ON t1.story = t3.id  LEFT JOIN `zt_task` AS t4  ON t1.task = t4.id  WHERE t1.id  = '4933' AND  t1.company = '1' 
+  SELECT id, title FROM `zt_case` WHERE `fromBug`  = '4933' AND  `zt_case`.company = '1' 
+  SELECT * FROM `zt_file` WHERE objectType  = 'bug' AND objectID  = '4933'  AND  `zt_file`.company = '1'  ORDER BY id
+  SELECT id, status, name FROM `zt_product` WHERE id IN ('35','7','11','14','15','16','17','18','20','21','27','25','26','28','29','30','31','32','37','38','39','40','41','42','43','44','45','46','47','49','50','51','52','53','12','13','36')  AND  `zt_product`.company = '1'  ORDER BY `order`
+  SELECT id, status, name FROM `zt_product` WHERE id IN ('35','7','11','14','15','16','17','18','20','21','27','25','26','28','29','30','31','32','37','38','39','40','41','42','43','44','45','46','47','49','50','51','52','53','12','13','36')  AND  `zt_product`.company = '1'  ORDER BY `order`
+  SELECT id, status FROM `zt_project` WHERE id  = '78' AND  `zt_project`.company = '1' 
+  SELECT path FROM `zt_module` WHERE id  = '557' AND  `zt_module`.company = '1' 
+  SELECT * FROM `zt_module` WHERE id IN ('557')  AND  `zt_module`.company = '1'  ORDER BY grade
+  SELECT account, realname FROM `zt_user`  WHERE  `zt_user`.company = '1'  ORDER BY account
+  SELECT commiter, account, realname FROM `zt_user` WHERE commiter  != '' AND  `zt_user`.company = '1' 
+  SELECT * FROM `zt_action` WHERE objectType  = 'bug' AND objectID  = '4933'  AND  `zt_action`.company = '1'  ORDER BY date, id
+  SELECT * FROM `zt_history` WHERE action IN ('109608')  AND  `zt_history`.company = '1'  ORDER BY id
+  SELECT id,name FROM `zt_build` WHERE product IN ('35') AND deleted  = '0'  AND  `zt_build`.company = '1'  ORDER BY date desc, id desc
+  SELECT * FROM `zt_bug` WHERE  product  = '35' AND module IN ('557') AND project IN ('50','8','9','10','11','13','14','17','18','20','22','23','24','25','27','28','29','30','31','32','33','35','36','37','34','38','39','41','42','43','45','51','53','52','54','55','56','76','44','46','66','79','58','59','60','61','62','63','64','65','68','69','70','71','80','72','74','75','77','82','78','81','83','84','85','86','87','88','89','90','5','15','16','21','40','57','67','73','0') AND deleted  = '0'    AND  `zt_bug`.company = '1'  ORDER BY  id desc
+
+20131202 13:53:32: js/jquery/syntaxhighlighter/styles/shCore
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+
+20131202 13:53:32: js/jquery/syntaxhighlighter/styles/shThemeDefault
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+
+20131202 13:53:32: js/jquery/syntaxhighlighter/scripts/shCore
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+
+20131202 13:53:32: js/jquery/syntaxhighlighter/scripts/shAutoloader
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+
+20131202 13:53:33: js/jquery/syntaxhighlighter/styles/shCore
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+
+20131202 13:53:33: js/jquery/syntaxhighlighter/styles/shThemeDefault
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+
+20131202 13:53:37: bug-view-4932
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT *,  IF(INSTR(" closed", status) < 2, 0, 1) AS isClosed FROM `zt_product` WHERE deleted  = '0'  AND  `zt_product`.company = '1'  ORDER BY isClosed, `order`
+  SELECT t1.*, t2.name AS projectName, t3.title AS storyTitle, t3.status AS storyStatus, t3.version AS latestStoryVersion, t4.name AS taskName FROM `zt_bug` AS t1  LEFT JOIN `zt_project` AS t2  ON t1.project = t2.id  LEFT JOIN `zt_story` AS t3  ON t1.story = t3.id  LEFT JOIN `zt_task` AS t4  ON t1.task = t4.id  WHERE t1.id  = '4932' AND  t1.company = '1' 
+  SELECT id, title FROM `zt_case` WHERE `fromBug`  = '4932' AND  `zt_case`.company = '1' 
+  SELECT * FROM `zt_file` WHERE objectType  = 'bug' AND objectID  = '4932'  AND  `zt_file`.company = '1'  ORDER BY id
+  UPDATE `zt_action` SET  `read`  = '1' WHERE objectType  = 'bug' AND objectID  = '4932' AND `read`  = '0' AND  `zt_action`.company = '1' 
+  SELECT id, status, name FROM `zt_product` WHERE id IN ('35','7','11','14','15','16','17','18','20','21','27','25','26','28','29','30','31','32','37','38','39','40','41','42','43','44','45','46','47','49','50','51','52','53','12','13','36')  AND  `zt_product`.company = '1'  ORDER BY `order`
+  SELECT id, status, name FROM `zt_product` WHERE id IN ('35','7','11','14','15','16','17','18','20','21','27','25','26','28','29','30','31','32','37','38','39','40','41','42','43','44','45','46','47','49','50','51','52','53','12','13','36')  AND  `zt_product`.company = '1'  ORDER BY `order`
+  SELECT id, status FROM `zt_project` WHERE id  = '75' AND  `zt_project`.company = '1' 
+  SELECT path FROM `zt_module` WHERE id  = '557' AND  `zt_module`.company = '1' 
+  SELECT * FROM `zt_module` WHERE id IN ('557')  AND  `zt_module`.company = '1'  ORDER BY grade
+  SELECT account, realname FROM `zt_user`  WHERE  `zt_user`.company = '1'  ORDER BY account
+  SELECT commiter, account, realname FROM `zt_user` WHERE commiter  != '' AND  `zt_user`.company = '1' 
+  SELECT * FROM `zt_action` WHERE objectType  = 'bug' AND objectID  = '4932'  AND  `zt_action`.company = '1'  ORDER BY date, id
+  SELECT * FROM `zt_history` WHERE action IN ('109607')  AND  `zt_history`.company = '1'  ORDER BY id
+  SELECT id,name FROM `zt_build` WHERE product IN ('35') AND deleted  = '0'  AND  `zt_build`.company = '1'  ORDER BY date desc, id desc
+  SELECT * FROM `zt_bug` WHERE  product  = '35' AND module IN ('557') AND project IN ('50','8','9','10','11','13','14','17','18','20','22','23','24','25','27','28','29','30','31','32','33','35','36','37','34','38','39','41','42','43','45','51','53','52','54','55','56','76','44','46','66','79','58','59','60','61','62','63','64','65','68','69','70','71','80','72','74','75','77','82','78','81','83','84','85','86','87','88','89','90','5','15','16','21','40','57','67','73','0') AND deleted  = '0'    AND  `zt_bug`.company = '1'  ORDER BY  id desc
+
+20131202 13:53:38: js/jquery/syntaxhighlighter/scripts/shAutoloader
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+
+20131202 13:53:38: js/jquery/syntaxhighlighter/styles/shThemeDefault
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+
+20131202 13:53:38: js/jquery/syntaxhighlighter/scripts/shCore
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+
+20131202 13:53:38: js/jquery/syntaxhighlighter/styles/shCore
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+
+20131202 13:53:39: bug-view-4931
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT *,  IF(INSTR(" closed", status) < 2, 0, 1) AS isClosed FROM `zt_product` WHERE deleted  = '0'  AND  `zt_product`.company = '1'  ORDER BY isClosed, `order`
+  SELECT t1.*, t2.name AS projectName, t3.title AS storyTitle, t3.status AS storyStatus, t3.version AS latestStoryVersion, t4.name AS taskName FROM `zt_bug` AS t1  LEFT JOIN `zt_project` AS t2  ON t1.project = t2.id  LEFT JOIN `zt_story` AS t3  ON t1.story = t3.id  LEFT JOIN `zt_task` AS t4  ON t1.task = t4.id  WHERE t1.id  = '4931' AND  t1.company = '1' 
+  SELECT id, title FROM `zt_case` WHERE `fromBug`  = '4931' AND  `zt_case`.company = '1' 
+  SELECT * FROM `zt_file` WHERE objectType  = 'bug' AND objectID  = '4931'  AND  `zt_file`.company = '1'  ORDER BY id
+  SELECT id, status, name FROM `zt_product` WHERE id IN ('35','7','11','14','15','16','17','18','20','21','27','25','26','28','29','30','31','32','37','38','39','40','41','42','43','44','45','46','47','49','50','51','52','53','12','13','36')  AND  `zt_product`.company = '1'  ORDER BY `order`
+  SELECT id, status, name FROM `zt_product` WHERE id IN ('35','7','11','14','15','16','17','18','20','21','27','25','26','28','29','30','31','32','37','38','39','40','41','42','43','44','45','46','47','49','50','51','52','53','12','13','36')  AND  `zt_product`.company = '1'  ORDER BY `order`
+  SELECT id, status FROM `zt_project` WHERE id  = '78' AND  `zt_project`.company = '1' 
+  SELECT path FROM `zt_module` WHERE id  = '557' AND  `zt_module`.company = '1' 
+  SELECT * FROM `zt_module` WHERE id IN ('557')  AND  `zt_module`.company = '1'  ORDER BY grade
+  SELECT account, realname FROM `zt_user`  WHERE  `zt_user`.company = '1'  ORDER BY account
+  SELECT commiter, account, realname FROM `zt_user` WHERE commiter  != '' AND  `zt_user`.company = '1' 
+  SELECT * FROM `zt_action` WHERE objectType  = 'bug' AND objectID  = '4931'  AND  `zt_action`.company = '1'  ORDER BY date, id
+  SELECT * FROM `zt_history` WHERE action IN ('109606')  AND  `zt_history`.company = '1'  ORDER BY id
+  SELECT id,name FROM `zt_build` WHERE product IN ('35') AND deleted  = '0'  AND  `zt_build`.company = '1'  ORDER BY date desc, id desc
+  SELECT * FROM `zt_bug` WHERE  product  = '35' AND module IN ('557') AND project IN ('50','8','9','10','11','13','14','17','18','20','22','23','24','25','27','28','29','30','31','32','33','35','36','37','34','38','39','41','42','43','45','51','53','52','54','55','56','76','44','46','66','79','58','59','60','61','62','63','64','65','68','69','70','71','80','72','74','75','77','82','78','81','83','84','85','86','87','88','89','90','5','15','16','21','40','57','67','73','0') AND deleted  = '0'    AND  `zt_bug`.company = '1'  ORDER BY  id desc
+
+20131202 13:53:40: js/jquery/syntaxhighlighter/scripts/shAutoloader
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+
+20131202 13:53:40: js/jquery/syntaxhighlighter/scripts/shCore
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+
+20131202 13:53:40: js/jquery/syntaxhighlighter/styles/shCore
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+
+20131202 13:53:40: js/jquery/syntaxhighlighter/styles/shThemeDefault
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+
+20131202 13:53:42: bug-view-2860
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT *,  IF(INSTR(" closed", status) < 2, 0, 1) AS isClosed FROM `zt_product` WHERE deleted  = '0'  AND  `zt_product`.company = '1'  ORDER BY isClosed, `order`
+  SELECT t1.*, t2.name AS projectName, t3.title AS storyTitle, t3.status AS storyStatus, t3.version AS latestStoryVersion, t4.name AS taskName FROM `zt_bug` AS t1  LEFT JOIN `zt_project` AS t2  ON t1.project = t2.id  LEFT JOIN `zt_story` AS t3  ON t1.story = t3.id  LEFT JOIN `zt_task` AS t4  ON t1.task = t4.id  WHERE t1.id  = '2860' AND  t1.company = '1' 
+  SELECT id, title FROM `zt_case` WHERE `fromBug`  = '2860' AND  `zt_case`.company = '1' 
+  SELECT * FROM `zt_file` WHERE objectType  = 'bug' AND objectID  = '2860'  AND  `zt_file`.company = '1'  ORDER BY id
+  SELECT id, status, name FROM `zt_product` WHERE id IN ('35','7','11','14','15','16','17','18','20','21','27','25','26','28','29','30','31','32','37','38','39','40','41','42','43','44','45','46','47','49','50','51','52','53','12','13','36')  AND  `zt_product`.company = '1'  ORDER BY `order`
+  SELECT id, status, name FROM `zt_product` WHERE id IN ('35','7','11','14','15','16','17','18','20','21','27','25','26','28','29','30','31','32','37','38','39','40','41','42','43','44','45','46','47','49','50','51','52','53','12','13','36')  AND  `zt_product`.company = '1'  ORDER BY `order`
+  SELECT id, status FROM `zt_project` WHERE id  = '50' AND  `zt_project`.company = '1' 
+  SELECT path FROM `zt_module` WHERE id  = '557' AND  `zt_module`.company = '1' 
+  SELECT * FROM `zt_module` WHERE id IN ('557')  AND  `zt_module`.company = '1'  ORDER BY grade
+  SELECT account, realname FROM `zt_user`  WHERE  `zt_user`.company = '1'  ORDER BY account
+  SELECT commiter, account, realname FROM `zt_user` WHERE commiter  != '' AND  `zt_user`.company = '1' 
+  SELECT * FROM `zt_action` WHERE objectType  = 'bug' AND objectID  = '2860'  AND  `zt_action`.company = '1'  ORDER BY date, id
+  SELECT * FROM `zt_history` WHERE action IN ('61728','61731','62113','65489')  AND  `zt_history`.company = '1'  ORDER BY id
+  SELECT id,name FROM `zt_build` WHERE product IN ('35') AND deleted  = '0'  AND  `zt_build`.company = '1'  ORDER BY date desc, id desc
+  SELECT * FROM `zt_bug` WHERE  product  = '35' AND module IN ('557') AND project IN ('50','8','9','10','11','13','14','17','18','20','22','23','24','25','27','28','29','30','31','32','33','35','36','37','34','38','39','41','42','43','45','51','53','52','54','55','56','76','44','46','66','79','58','59','60','61','62','63','64','65','68','69','70','71','80','72','74','75','77','82','78','81','83','84','85','86','87','88','89','90','5','15','16','21','40','57','67','73','0') AND deleted  = '0'    AND  `zt_bug`.company = '1'  ORDER BY  id desc
+
+20131202 13:53:42: js/jquery/syntaxhighlighter/scripts/shCore
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+
+20131202 13:53:42: js/jquery/syntaxhighlighter/styles/shCore
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+
+20131202 13:53:42: js/jquery/syntaxhighlighter/styles/shThemeDefault
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+
+20131202 13:53:42: js/jquery/syntaxhighlighter/scripts/shAutoloader
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+
+20131202 13:53:42: js/jquery/syntaxhighlighter/styles/shThemeDefault
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+
+20131202 13:53:42: js/jquery/syntaxhighlighter/styles/shCore
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+
+20131202 13:53:44: bug-view-4931
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT *,  IF(INSTR(" closed", status) < 2, 0, 1) AS isClosed FROM `zt_product` WHERE deleted  = '0'  AND  `zt_product`.company = '1'  ORDER BY isClosed, `order`
+  SELECT t1.*, t2.name AS projectName, t3.title AS storyTitle, t3.status AS storyStatus, t3.version AS latestStoryVersion, t4.name AS taskName FROM `zt_bug` AS t1  LEFT JOIN `zt_project` AS t2  ON t1.project = t2.id  LEFT JOIN `zt_story` AS t3  ON t1.story = t3.id  LEFT JOIN `zt_task` AS t4  ON t1.task = t4.id  WHERE t1.id  = '4931' AND  t1.company = '1' 
+  SELECT id, title FROM `zt_case` WHERE `fromBug`  = '4931' AND  `zt_case`.company = '1' 
+  SELECT * FROM `zt_file` WHERE objectType  = 'bug' AND objectID  = '4931'  AND  `zt_file`.company = '1'  ORDER BY id
+  SELECT id, status, name FROM `zt_product` WHERE id IN ('35','7','11','14','15','16','17','18','20','21','27','25','26','28','29','30','31','32','37','38','39','40','41','42','43','44','45','46','47','49','50','51','52','53','12','13','36')  AND  `zt_product`.company = '1'  ORDER BY `order`
+  SELECT id, status, name FROM `zt_product` WHERE id IN ('35','7','11','14','15','16','17','18','20','21','27','25','26','28','29','30','31','32','37','38','39','40','41','42','43','44','45','46','47','49','50','51','52','53','12','13','36')  AND  `zt_product`.company = '1'  ORDER BY `order`
+  SELECT id, status FROM `zt_project` WHERE id  = '78' AND  `zt_project`.company = '1' 
+  SELECT path FROM `zt_module` WHERE id  = '557' AND  `zt_module`.company = '1' 
+  SELECT * FROM `zt_module` WHERE id IN ('557')  AND  `zt_module`.company = '1'  ORDER BY grade
+  SELECT account, realname FROM `zt_user`  WHERE  `zt_user`.company = '1'  ORDER BY account
+  SELECT commiter, account, realname FROM `zt_user` WHERE commiter  != '' AND  `zt_user`.company = '1' 
+  SELECT * FROM `zt_action` WHERE objectType  = 'bug' AND objectID  = '4931'  AND  `zt_action`.company = '1'  ORDER BY date, id
+  SELECT * FROM `zt_history` WHERE action IN ('109606')  AND  `zt_history`.company = '1'  ORDER BY id
+  SELECT id,name FROM `zt_build` WHERE product IN ('35') AND deleted  = '0'  AND  `zt_build`.company = '1'  ORDER BY date desc, id desc
+  SELECT * FROM `zt_bug` WHERE  product  = '35' AND module IN ('557') AND project IN ('50','8','9','10','11','13','14','17','18','20','22','23','24','25','27','28','29','30','31','32','33','35','36','37','34','38','39','41','42','43','45','51','53','52','54','55','56','76','44','46','66','79','58','59','60','61','62','63','64','65','68','69','70','71','80','72','74','75','77','82','78','81','83','84','85','86','87','88','89','90','5','15','16','21','40','57','67','73','0') AND deleted  = '0'    AND  `zt_bug`.company = '1'  ORDER BY  id desc
+
+20131202 13:53:44: js/jquery/syntaxhighlighter/scripts/shCore
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+
+20131202 13:53:44: js/jquery/syntaxhighlighter/styles/shCore
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+
+20131202 13:53:44: js/jquery/syntaxhighlighter/scripts/shAutoloader
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+
+20131202 13:53:44: js/jquery/syntaxhighlighter/styles/shThemeDefault
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+
+20131202 13:53:44: js/jquery/syntaxhighlighter/styles/shCore
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+
+20131202 13:53:44: js/jquery/syntaxhighlighter/styles/shThemeDefault
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+
+20131202 13:53:46: bug-browse-35
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT *,  IF(INSTR(" closed", status) < 2, 0, 1) AS isClosed FROM `zt_product` WHERE deleted  = '0'  AND  `zt_product`.company = '1'  ORDER BY isClosed, `order`
+  SELECT id, status, name FROM `zt_product` WHERE id IN ('35','7','11','14','15','16','17','18','20','21','27','25','26','28','29','30','31','32','37','38','39','40','41','42','43','44','45','46','47','49','50','51','52','53','12','13','36')  AND  `zt_product`.company = '1'  ORDER BY `order`
+  SELECT id, status, name FROM `zt_product` WHERE id IN ('35','7','11','14','15','16','17','18','20','21','27','25','26','28','29','30','31','32','37','38','39','40','41','42','43','44','45','46','47','49','50','51','52','53','12','13','36')  AND  `zt_product`.company = '1'  ORDER BY `order`
+  SELECT *, IF(INSTR(" done", status) < 2, 0, 1) AS isDone FROM `zt_project` WHERE iscat  = '0' AND deleted  = '0'  AND  `zt_project`.company = '1'  ORDER BY isDone, `order`, status
+  SELECT * FROM `zt_bug` WHERE product  = '35' AND project IN ('50','8','9','10','11','13','14','17','18','20','22','23','24','25','27','28','29','30','31','32','33','35','36','37','34','38','39','41','42','43','45','51','53','52','54','55','56','76','44','46','66','79','58','59','60','61','62','63','64','65','68','69','70','71','80','72','74','75','77','82','78','81','83','84','85','86','87','88','89','90','5','15','16','21','40','57','67','73','0') AND deleted  = '0'  AND  `zt_bug`.company = '1'  ORDER BY id desc
+  SELECT COUNT(*) AS recTotal FROM `zt_bug` WHERE product  = '35' AND project IN ('50','8','9','10','11','13','14','17','18','20','22','23','24','25','27','28','29','30','31','32','33','35','36','37','34','38','39','41','42','43','45','51','53','52','54','55','56','76','44','46','66','79','58','59','60','61','62','63','64','65','68','69','70','71','80','72','74','75','77','82','78','81','83','84','85','86','87','88','89','90','5','15','16','21','40','57','67','73','0') AND deleted  = '0'  AND  `zt_bug`.company = '1'  
+  SELECT * FROM `zt_bug` WHERE product  = '35' AND project IN ('50','8','9','10','11','13','14','17','18','20','22','23','24','25','27','28','29','30','31','32','33','35','36','37','34','38','39','41','42','43','45','51','53','52','54','55','56','76','44','46','66','79','58','59','60','61','62','63','64','65','68','69','70','71','80','72','74','75','77','82','78','81','83','84','85','86','87','88','89','90','5','15','16','21','40','57','67','73','0') AND deleted  = '0'  AND  `zt_bug`.company = '1'  ORDER BY id desc  limit 0, 20 
+  SELECT * FROM `zt_bug` WHERE product  = '35' AND project IN ('50','8','9','10','11','13','14','17','18','20','22','23','24','25','27','28','29','30','31','32','33','35','36','37','34','38','39','41','42','43','45','51','53','52','54','55','56','76','44','46','66','79','58','59','60','61','62','63','64','65','68','69','70','71','80','72','74','75','77','82','78','81','83','84','85','86','87','88','89','90','5','15','16','21','40','57','67','73','0') AND deleted  = '0' ORDER BY id desc  limit 0, 20 
+  SELECT id, status FROM `zt_project` WHERE id IN ('72','72','72','78','75','78','50','50','50','50','50','50','72','72','72','72','72','72','72','72') AND  `zt_project`.company = '1' 
+  SELECT * FROM `zt_module` WHERE root  = '35' AND type  = 'bug'  AND  `zt_module`.company = '1'  ORDER BY grade desc, `order`
+  SELECT t2.id, t2.name, t2.deleted FROM `zt_projectProduct` AS t1  LEFT JOIN `zt_project` AS t2  ON t1.project = t2.id  WHERE t1.product  = '35'  AND  t1.company = '1'  ORDER BY t1.project desc
+  SELECT id,name FROM `zt_build` WHERE product IN ('35') AND deleted  = '0'  AND  `zt_build`.company = '1'  ORDER BY date desc, id desc
+  SELECT id,name FROM `zt_build` WHERE product IN ('35') AND deleted  = '0'  AND  `zt_build`.company = '1'  ORDER BY date desc, id desc
+  SELECT account, realname FROM `zt_user`  WHERE  `zt_user`.company = '1'  ORDER BY account
+  SELECT id,name FROM `zt_build` WHERE product IN ('35') AND deleted  = '0'  AND  `zt_build`.company = '1'  ORDER BY date desc, id desc
+  SELECT * FROM `zt_module` WHERE root  = '35' AND type  = 'bug'  AND  `zt_module`.company = '1'  ORDER BY grade desc, `order`
+
+20131202 13:53:48: bug-browse-35-byModule-557
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT *,  IF(INSTR(" closed", status) < 2, 0, 1) AS isClosed FROM `zt_product` WHERE deleted  = '0'  AND  `zt_product`.company = '1'  ORDER BY isClosed, `order`
+  SELECT id, status, name FROM `zt_product` WHERE id IN ('35','7','11','14','15','16','17','18','20','21','27','25','26','28','29','30','31','32','37','38','39','40','41','42','43','44','45','46','47','49','50','51','52','53','12','13','36')  AND  `zt_product`.company = '1'  ORDER BY `order`
+  SELECT id, status, name FROM `zt_product` WHERE id IN ('35','7','11','14','15','16','17','18','20','21','27','25','26','28','29','30','31','32','37','38','39','40','41','42','43','44','45','46','47','49','50','51','52','53','12','13','36')  AND  `zt_product`.company = '1'  ORDER BY `order`
+  SELECT *, IF(INSTR(" done", status) < 2, 0, 1) AS isDone FROM `zt_project` WHERE iscat  = '0' AND deleted  = '0'  AND  `zt_project`.company = '1'  ORDER BY isDone, `order`, status
+  SELECT * FROM `zt_module` WHERE `id` = '557'  AND  `zt_module`.company = '1' 
+  SELECT id FROM `zt_module` WHERE path  LIKE ',557,%' AND  `zt_module`.company = '1' 
+  SELECT * FROM `zt_bug` WHERE product  = '35' AND module IN ('557') AND project IN ('50','8','9','10','11','13','14','17','18','20','22','23','24','25','27','28','29','30','31','32','33','35','36','37','34','38','39','41','42','43','45','51','53','52','54','55','56','76','44','46','66','79','58','59','60','61','62','63','64','65','68','69','70','71','80','72','74','75','77','82','78','81','83','84','85','86','87','88','89','90','5','15','16','21','40','57','67','73','0') AND deleted  = '0'  AND  `zt_bug`.company = '1'  ORDER BY id desc
+  SELECT COUNT(*) AS recTotal FROM `zt_bug` WHERE product  = '35' AND module IN ('557') AND project IN ('50','8','9','10','11','13','14','17','18','20','22','23','24','25','27','28','29','30','31','32','33','35','36','37','34','38','39','41','42','43','45','51','53','52','54','55','56','76','44','46','66','79','58','59','60','61','62','63','64','65','68','69','70','71','80','72','74','75','77','82','78','81','83','84','85','86','87','88','89','90','5','15','16','21','40','57','67','73','0') AND deleted  = '0'  AND  `zt_bug`.company = '1'  
+  SELECT * FROM `zt_bug` WHERE product  = '35' AND module IN ('557') AND project IN ('50','8','9','10','11','13','14','17','18','20','22','23','24','25','27','28','29','30','31','32','33','35','36','37','34','38','39','41','42','43','45','51','53','52','54','55','56','76','44','46','66','79','58','59','60','61','62','63','64','65','68','69','70','71','80','72','74','75','77','82','78','81','83','84','85','86','87','88','89','90','5','15','16','21','40','57','67','73','0') AND deleted  = '0'  AND  `zt_bug`.company = '1'  ORDER BY id desc
+  SELECT * FROM `zt_bug` WHERE product  = '35' AND module IN ('557') AND project IN ('50','8','9','10','11','13','14','17','18','20','22','23','24','25','27','28','29','30','31','32','33','35','36','37','34','38','39','41','42','43','45','51','53','52','54','55','56','76','44','46','66','79','58','59','60','61','62','63','64','65','68','69','70','71','80','72','74','75','77','82','78','81','83','84','85','86','87','88','89','90','5','15','16','21','40','57','67','73','0') AND deleted  = '0' ORDER BY id desc
+  SELECT id, status FROM `zt_project` WHERE id IN ('72','72','72','78','75','78','50') AND  `zt_project`.company = '1' 
+  SELECT * FROM `zt_module` WHERE root  = '35' AND type  = 'bug'  AND  `zt_module`.company = '1'  ORDER BY grade desc, `order`
+  SELECT t2.id, t2.name, t2.deleted FROM `zt_projectProduct` AS t1  LEFT JOIN `zt_project` AS t2  ON t1.project = t2.id  WHERE t1.product  = '35'  AND  t1.company = '1'  ORDER BY t1.project desc
+  SELECT id,name FROM `zt_build` WHERE product IN ('35') AND deleted  = '0'  AND  `zt_build`.company = '1'  ORDER BY date desc, id desc
+  SELECT id,name FROM `zt_build` WHERE product IN ('35') AND deleted  = '0'  AND  `zt_build`.company = '1'  ORDER BY date desc, id desc
+  SELECT account, realname FROM `zt_user`  WHERE  `zt_user`.company = '1'  ORDER BY account
+  SELECT id,name FROM `zt_build` WHERE product IN ('35') AND deleted  = '0'  AND  `zt_build`.company = '1'  ORDER BY date desc, id desc
+  SELECT * FROM `zt_module` WHERE root  = '35' AND type  = 'bug'  AND  `zt_module`.company = '1'  ORDER BY grade desc, `order`
+
+20131202 13:53:54: bug-view-4936
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT *,  IF(INSTR(" closed", status) < 2, 0, 1) AS isClosed FROM `zt_product` WHERE deleted  = '0'  AND  `zt_product`.company = '1'  ORDER BY isClosed, `order`
+  SELECT t1.*, t2.name AS projectName, t3.title AS storyTitle, t3.status AS storyStatus, t3.version AS latestStoryVersion, t4.name AS taskName FROM `zt_bug` AS t1  LEFT JOIN `zt_project` AS t2  ON t1.project = t2.id  LEFT JOIN `zt_story` AS t3  ON t1.story = t3.id  LEFT JOIN `zt_task` AS t4  ON t1.task = t4.id  WHERE t1.id  = '4936' AND  t1.company = '1' 
+  SELECT id, title FROM `zt_case` WHERE `fromBug`  = '4936' AND  `zt_case`.company = '1' 
+  SELECT * FROM `zt_file` WHERE objectType  = 'bug' AND objectID  = '4936'  AND  `zt_file`.company = '1'  ORDER BY id
+  UPDATE `zt_action` SET  `read`  = '1' WHERE objectType  = 'bug' AND objectID  = '4936' AND `read`  = '0' AND  `zt_action`.company = '1' 
+  SELECT id, status, name FROM `zt_product` WHERE id IN ('35','7','11','14','15','16','17','18','20','21','27','25','26','28','29','30','31','32','37','38','39','40','41','42','43','44','45','46','47','49','50','51','52','53','12','13','36')  AND  `zt_product`.company = '1'  ORDER BY `order`
+  SELECT id, status, name FROM `zt_product` WHERE id IN ('35','7','11','14','15','16','17','18','20','21','27','25','26','28','29','30','31','32','37','38','39','40','41','42','43','44','45','46','47','49','50','51','52','53','12','13','36')  AND  `zt_product`.company = '1'  ORDER BY `order`
+  SELECT id, status FROM `zt_project` WHERE id  = '72' AND  `zt_project`.company = '1' 
+  SELECT path FROM `zt_module` WHERE id  = '557' AND  `zt_module`.company = '1' 
+  SELECT * FROM `zt_module` WHERE id IN ('557')  AND  `zt_module`.company = '1'  ORDER BY grade
+  SELECT account, realname FROM `zt_user`  WHERE  `zt_user`.company = '1'  ORDER BY account
+  SELECT commiter, account, realname FROM `zt_user` WHERE commiter  != '' AND  `zt_user`.company = '1' 
+  SELECT * FROM `zt_action` WHERE objectType  = 'bug' AND objectID  = '4936'  AND  `zt_action`.company = '1'  ORDER BY date, id
+  SELECT * FROM `zt_history` WHERE action IN ('109611')  AND  `zt_history`.company = '1'  ORDER BY id
+  SELECT id,name FROM `zt_build` WHERE product IN ('35') AND deleted  = '0'  AND  `zt_build`.company = '1'  ORDER BY date desc, id desc
+  SELECT * FROM `zt_bug` WHERE  product  = '35' AND module IN ('557') AND project IN ('50','8','9','10','11','13','14','17','18','20','22','23','24','25','27','28','29','30','31','32','33','35','36','37','34','38','39','41','42','43','45','51','53','52','54','55','56','76','44','46','66','79','58','59','60','61','62','63','64','65','68','69','70','71','80','72','74','75','77','82','78','81','83','84','85','86','87','88','89','90','5','15','16','21','40','57','67','73','0') AND deleted  = '0'    AND  `zt_bug`.company = '1'  ORDER BY  id desc
+
+20131202 13:53:54: js/jquery/syntaxhighlighter/scripts/shCore
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+
+20131202 13:53:54: js/jquery/syntaxhighlighter/styles/shCore
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+
+20131202 13:53:54: js/jquery/syntaxhighlighter/scripts/shAutoloader
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+
+20131202 13:53:54: js/jquery/syntaxhighlighter/styles/shThemeDefault
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+
+20131202 13:53:54: js/jquery/syntaxhighlighter/styles/shCore
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+
+20131202 13:53:56: bug-browse-35
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT *,  IF(INSTR(" closed", status) < 2, 0, 1) AS isClosed FROM `zt_product` WHERE deleted  = '0'  AND  `zt_product`.company = '1'  ORDER BY isClosed, `order`
+  SELECT id, status, name FROM `zt_product` WHERE id IN ('35','7','11','14','15','16','17','18','20','21','27','25','26','28','29','30','31','32','37','38','39','40','41','42','43','44','45','46','47','49','50','51','52','53','12','13','36')  AND  `zt_product`.company = '1'  ORDER BY `order`
+  SELECT id, status, name FROM `zt_product` WHERE id IN ('35','7','11','14','15','16','17','18','20','21','27','25','26','28','29','30','31','32','37','38','39','40','41','42','43','44','45','46','47','49','50','51','52','53','12','13','36')  AND  `zt_product`.company = '1'  ORDER BY `order`
+  SELECT *, IF(INSTR(" done", status) < 2, 0, 1) AS isDone FROM `zt_project` WHERE iscat  = '0' AND deleted  = '0'  AND  `zt_project`.company = '1'  ORDER BY isDone, `order`, status
+  SELECT * FROM `zt_bug` WHERE product  = '35' AND project IN ('50','8','9','10','11','13','14','17','18','20','22','23','24','25','27','28','29','30','31','32','33','35','36','37','34','38','39','41','42','43','45','51','53','52','54','55','56','76','44','46','66','79','58','59','60','61','62','63','64','65','68','69','70','71','80','72','74','75','77','82','78','81','83','84','85','86','87','88','89','90','5','15','16','21','40','57','67','73','0') AND deleted  = '0'  AND  `zt_bug`.company = '1'  ORDER BY id desc
+  SELECT COUNT(*) AS recTotal FROM `zt_bug` WHERE product  = '35' AND project IN ('50','8','9','10','11','13','14','17','18','20','22','23','24','25','27','28','29','30','31','32','33','35','36','37','34','38','39','41','42','43','45','51','53','52','54','55','56','76','44','46','66','79','58','59','60','61','62','63','64','65','68','69','70','71','80','72','74','75','77','82','78','81','83','84','85','86','87','88','89','90','5','15','16','21','40','57','67','73','0') AND deleted  = '0'  AND  `zt_bug`.company = '1'  
+  SELECT * FROM `zt_bug` WHERE product  = '35' AND project IN ('50','8','9','10','11','13','14','17','18','20','22','23','24','25','27','28','29','30','31','32','33','35','36','37','34','38','39','41','42','43','45','51','53','52','54','55','56','76','44','46','66','79','58','59','60','61','62','63','64','65','68','69','70','71','80','72','74','75','77','82','78','81','83','84','85','86','87','88','89','90','5','15','16','21','40','57','67','73','0') AND deleted  = '0'  AND  `zt_bug`.company = '1'  ORDER BY id desc  limit 0, 20 
+  SELECT * FROM `zt_bug` WHERE product  = '35' AND project IN ('50','8','9','10','11','13','14','17','18','20','22','23','24','25','27','28','29','30','31','32','33','35','36','37','34','38','39','41','42','43','45','51','53','52','54','55','56','76','44','46','66','79','58','59','60','61','62','63','64','65','68','69','70','71','80','72','74','75','77','82','78','81','83','84','85','86','87','88','89','90','5','15','16','21','40','57','67','73','0') AND deleted  = '0' ORDER BY id desc  limit 0, 20 
+  SELECT id, status FROM `zt_project` WHERE id IN ('72','72','72','78','75','78','50','50','50','50','50','50','72','72','72','72','72','72','72','72') AND  `zt_project`.company = '1' 
+  SELECT * FROM `zt_module` WHERE root  = '35' AND type  = 'bug'  AND  `zt_module`.company = '1'  ORDER BY grade desc, `order`
+  SELECT t2.id, t2.name, t2.deleted FROM `zt_projectProduct` AS t1  LEFT JOIN `zt_project` AS t2  ON t1.project = t2.id  WHERE t1.product  = '35'  AND  t1.company = '1'  ORDER BY t1.project desc
+  SELECT id,name FROM `zt_build` WHERE product IN ('35') AND deleted  = '0'  AND  `zt_build`.company = '1'  ORDER BY date desc, id desc
+  SELECT id,name FROM `zt_build` WHERE product IN ('35') AND deleted  = '0'  AND  `zt_build`.company = '1'  ORDER BY date desc, id desc
+  SELECT account, realname FROM `zt_user`  WHERE  `zt_user`.company = '1'  ORDER BY account
+  SELECT id,name FROM `zt_build` WHERE product IN ('35') AND deleted  = '0'  AND  `zt_build`.company = '1'  ORDER BY date desc, id desc
+  SELECT * FROM `zt_module` WHERE root  = '35' AND type  = 'bug'  AND  `zt_module`.company = '1'  ORDER BY grade desc, `order`
+
+20131202 13:54:00: bug-view-4935
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT *,  IF(INSTR(" closed", status) < 2, 0, 1) AS isClosed FROM `zt_product` WHERE deleted  = '0'  AND  `zt_product`.company = '1'  ORDER BY isClosed, `order`
+  SELECT t1.*, t2.name AS projectName, t3.title AS storyTitle, t3.status AS storyStatus, t3.version AS latestStoryVersion, t4.name AS taskName FROM `zt_bug` AS t1  LEFT JOIN `zt_project` AS t2  ON t1.project = t2.id  LEFT JOIN `zt_story` AS t3  ON t1.story = t3.id  LEFT JOIN `zt_task` AS t4  ON t1.task = t4.id  WHERE t1.id  = '4935' AND  t1.company = '1' 
+  SELECT id, title FROM `zt_case` WHERE `fromBug`  = '4935' AND  `zt_case`.company = '1' 
+  SELECT * FROM `zt_file` WHERE objectType  = 'bug' AND objectID  = '4935'  AND  `zt_file`.company = '1'  ORDER BY id
+  UPDATE `zt_action` SET  `read`  = '1' WHERE objectType  = 'bug' AND objectID  = '4935' AND `read`  = '0' AND  `zt_action`.company = '1' 
+  SELECT id, status, name FROM `zt_product` WHERE id IN ('35','7','11','14','15','16','17','18','20','21','27','25','26','28','29','30','31','32','37','38','39','40','41','42','43','44','45','46','47','49','50','51','52','53','12','13','36')  AND  `zt_product`.company = '1'  ORDER BY `order`
+  SELECT id, status, name FROM `zt_product` WHERE id IN ('35','7','11','14','15','16','17','18','20','21','27','25','26','28','29','30','31','32','37','38','39','40','41','42','43','44','45','46','47','49','50','51','52','53','12','13','36')  AND  `zt_product`.company = '1'  ORDER BY `order`
+  SELECT id, status FROM `zt_project` WHERE id  = '72' AND  `zt_project`.company = '1' 
+  SELECT path FROM `zt_module` WHERE id  = '557' AND  `zt_module`.company = '1' 
+  SELECT * FROM `zt_module` WHERE id IN ('557')  AND  `zt_module`.company = '1'  ORDER BY grade
+  SELECT account, realname FROM `zt_user`  WHERE  `zt_user`.company = '1'  ORDER BY account
+  SELECT commiter, account, realname FROM `zt_user` WHERE commiter  != '' AND  `zt_user`.company = '1' 
+  SELECT * FROM `zt_action` WHERE objectType  = 'bug' AND objectID  = '4935'  AND  `zt_action`.company = '1'  ORDER BY date, id
+  SELECT * FROM `zt_history` WHERE action IN ('109610')  AND  `zt_history`.company = '1'  ORDER BY id
+  SELECT id,name FROM `zt_build` WHERE product IN ('35') AND deleted  = '0'  AND  `zt_build`.company = '1'  ORDER BY date desc, id desc
+  SELECT * FROM `zt_bug` WHERE  product  = '35' AND project IN ('50','8','9','10','11','13','14','17','18','20','22','23','24','25','27','28','29','30','31','32','33','35','36','37','34','38','39','41','42','43','45','51','53','52','54','55','56','76','44','46','66','79','58','59','60','61','62','63','64','65','68','69','70','71','80','72','74','75','77','82','78','81','83','84','85','86','87','88','89','90','5','15','16','21','40','57','67','73','0') AND deleted  = '0'    AND  `zt_bug`.company = '1'  ORDER BY  id desc  
+
+20131202 13:54:00: js/jquery/syntaxhighlighter/styles/shCore
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+
+20131202 13:54:00: js/jquery/syntaxhighlighter/scripts/shAutoloader
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+
+20131202 13:54:00: js/jquery/syntaxhighlighter/scripts/shCore
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+
+20131202 13:54:00: js/jquery/syntaxhighlighter/styles/shThemeDefault
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+
+20131202 13:54:00: js/jquery/syntaxhighlighter/styles/shThemeDefault
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+
+20131202 13:54:00: js/jquery/syntaxhighlighter/styles/shCore
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+
+20131202 13:54:02: bug-browse-35
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT *,  IF(INSTR(" closed", status) < 2, 0, 1) AS isClosed FROM `zt_product` WHERE deleted  = '0'  AND  `zt_product`.company = '1'  ORDER BY isClosed, `order`
+  SELECT id, status, name FROM `zt_product` WHERE id IN ('35','7','11','14','15','16','17','18','20','21','27','25','26','28','29','30','31','32','37','38','39','40','41','42','43','44','45','46','47','49','50','51','52','53','12','13','36')  AND  `zt_product`.company = '1'  ORDER BY `order`
+  SELECT id, status, name FROM `zt_product` WHERE id IN ('35','7','11','14','15','16','17','18','20','21','27','25','26','28','29','30','31','32','37','38','39','40','41','42','43','44','45','46','47','49','50','51','52','53','12','13','36')  AND  `zt_product`.company = '1'  ORDER BY `order`
+  SELECT *, IF(INSTR(" done", status) < 2, 0, 1) AS isDone FROM `zt_project` WHERE iscat  = '0' AND deleted  = '0'  AND  `zt_project`.company = '1'  ORDER BY isDone, `order`, status
+  SELECT * FROM `zt_bug` WHERE product  = '35' AND project IN ('50','8','9','10','11','13','14','17','18','20','22','23','24','25','27','28','29','30','31','32','33','35','36','37','34','38','39','41','42','43','45','51','53','52','54','55','56','76','44','46','66','79','58','59','60','61','62','63','64','65','68','69','70','71','80','72','74','75','77','82','78','81','83','84','85','86','87','88','89','90','5','15','16','21','40','57','67','73','0') AND deleted  = '0'  AND  `zt_bug`.company = '1'  ORDER BY id desc
+  SELECT COUNT(*) AS recTotal FROM `zt_bug` WHERE product  = '35' AND project IN ('50','8','9','10','11','13','14','17','18','20','22','23','24','25','27','28','29','30','31','32','33','35','36','37','34','38','39','41','42','43','45','51','53','52','54','55','56','76','44','46','66','79','58','59','60','61','62','63','64','65','68','69','70','71','80','72','74','75','77','82','78','81','83','84','85','86','87','88','89','90','5','15','16','21','40','57','67','73','0') AND deleted  = '0'  AND  `zt_bug`.company = '1'  
+  SELECT * FROM `zt_bug` WHERE product  = '35' AND project IN ('50','8','9','10','11','13','14','17','18','20','22','23','24','25','27','28','29','30','31','32','33','35','36','37','34','38','39','41','42','43','45','51','53','52','54','55','56','76','44','46','66','79','58','59','60','61','62','63','64','65','68','69','70','71','80','72','74','75','77','82','78','81','83','84','85','86','87','88','89','90','5','15','16','21','40','57','67','73','0') AND deleted  = '0'  AND  `zt_bug`.company = '1'  ORDER BY id desc  limit 0, 20 
+  SELECT * FROM `zt_bug` WHERE product  = '35' AND project IN ('50','8','9','10','11','13','14','17','18','20','22','23','24','25','27','28','29','30','31','32','33','35','36','37','34','38','39','41','42','43','45','51','53','52','54','55','56','76','44','46','66','79','58','59','60','61','62','63','64','65','68','69','70','71','80','72','74','75','77','82','78','81','83','84','85','86','87','88','89','90','5','15','16','21','40','57','67','73','0') AND deleted  = '0' ORDER BY id desc  limit 0, 20 
+  SELECT id, status FROM `zt_project` WHERE id IN ('72','72','72','78','75','78','50','50','50','50','50','50','72','72','72','72','72','72','72','72') AND  `zt_project`.company = '1' 
+  SELECT * FROM `zt_module` WHERE root  = '35' AND type  = 'bug'  AND  `zt_module`.company = '1'  ORDER BY grade desc, `order`
+  SELECT t2.id, t2.name, t2.deleted FROM `zt_projectProduct` AS t1  LEFT JOIN `zt_project` AS t2  ON t1.project = t2.id  WHERE t1.product  = '35'  AND  t1.company = '1'  ORDER BY t1.project desc
+  SELECT id,name FROM `zt_build` WHERE product IN ('35') AND deleted  = '0'  AND  `zt_build`.company = '1'  ORDER BY date desc, id desc
+  SELECT id,name FROM `zt_build` WHERE product IN ('35') AND deleted  = '0'  AND  `zt_build`.company = '1'  ORDER BY date desc, id desc
+  SELECT account, realname FROM `zt_user`  WHERE  `zt_user`.company = '1'  ORDER BY account
+  SELECT id,name FROM `zt_build` WHERE product IN ('35') AND deleted  = '0'  AND  `zt_build`.company = '1'  ORDER BY date desc, id desc
+  SELECT * FROM `zt_module` WHERE root  = '35' AND type  = 'bug'  AND  `zt_module`.company = '1'  ORDER BY grade desc, `order`
+
+20131202 13:54:11: bug-browse-35-byModule-557
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT *,  IF(INSTR(" closed", status) < 2, 0, 1) AS isClosed FROM `zt_product` WHERE deleted  = '0'  AND  `zt_product`.company = '1'  ORDER BY isClosed, `order`
+  SELECT id, status, name FROM `zt_product` WHERE id IN ('35','7','11','14','15','16','17','18','20','21','27','25','26','28','29','30','31','32','37','38','39','40','41','42','43','44','45','46','47','49','50','51','52','53','12','13','36')  AND  `zt_product`.company = '1'  ORDER BY `order`
+  SELECT id, status, name FROM `zt_product` WHERE id IN ('35','7','11','14','15','16','17','18','20','21','27','25','26','28','29','30','31','32','37','38','39','40','41','42','43','44','45','46','47','49','50','51','52','53','12','13','36')  AND  `zt_product`.company = '1'  ORDER BY `order`
+  SELECT *, IF(INSTR(" done", status) < 2, 0, 1) AS isDone FROM `zt_project` WHERE iscat  = '0' AND deleted  = '0'  AND  `zt_project`.company = '1'  ORDER BY isDone, `order`, status
+  SELECT * FROM `zt_module` WHERE `id` = '557'  AND  `zt_module`.company = '1' 
+  SELECT id FROM `zt_module` WHERE path  LIKE ',557,%' AND  `zt_module`.company = '1' 
+  SELECT * FROM `zt_bug` WHERE product  = '35' AND module IN ('557') AND project IN ('50','8','9','10','11','13','14','17','18','20','22','23','24','25','27','28','29','30','31','32','33','35','36','37','34','38','39','41','42','43','45','51','53','52','54','55','56','76','44','46','66','79','58','59','60','61','62','63','64','65','68','69','70','71','80','72','74','75','77','82','78','81','83','84','85','86','87','88','89','90','5','15','16','21','40','57','67','73','0') AND deleted  = '0'  AND  `zt_bug`.company = '1'  ORDER BY id desc
+  SELECT COUNT(*) AS recTotal FROM `zt_bug` WHERE product  = '35' AND module IN ('557') AND project IN ('50','8','9','10','11','13','14','17','18','20','22','23','24','25','27','28','29','30','31','32','33','35','36','37','34','38','39','41','42','43','45','51','53','52','54','55','56','76','44','46','66','79','58','59','60','61','62','63','64','65','68','69','70','71','80','72','74','75','77','82','78','81','83','84','85','86','87','88','89','90','5','15','16','21','40','57','67','73','0') AND deleted  = '0'  AND  `zt_bug`.company = '1'  
+  SELECT * FROM `zt_bug` WHERE product  = '35' AND module IN ('557') AND project IN ('50','8','9','10','11','13','14','17','18','20','22','23','24','25','27','28','29','30','31','32','33','35','36','37','34','38','39','41','42','43','45','51','53','52','54','55','56','76','44','46','66','79','58','59','60','61','62','63','64','65','68','69','70','71','80','72','74','75','77','82','78','81','83','84','85','86','87','88','89','90','5','15','16','21','40','57','67','73','0') AND deleted  = '0'  AND  `zt_bug`.company = '1'  ORDER BY id desc
+  SELECT * FROM `zt_bug` WHERE product  = '35' AND module IN ('557') AND project IN ('50','8','9','10','11','13','14','17','18','20','22','23','24','25','27','28','29','30','31','32','33','35','36','37','34','38','39','41','42','43','45','51','53','52','54','55','56','76','44','46','66','79','58','59','60','61','62','63','64','65','68','69','70','71','80','72','74','75','77','82','78','81','83','84','85','86','87','88','89','90','5','15','16','21','40','57','67','73','0') AND deleted  = '0' ORDER BY id desc
+  SELECT id, status FROM `zt_project` WHERE id IN ('72','72','72','78','75','78','50') AND  `zt_project`.company = '1' 
+  SELECT * FROM `zt_module` WHERE root  = '35' AND type  = 'bug'  AND  `zt_module`.company = '1'  ORDER BY grade desc, `order`
+  SELECT t2.id, t2.name, t2.deleted FROM `zt_projectProduct` AS t1  LEFT JOIN `zt_project` AS t2  ON t1.project = t2.id  WHERE t1.product  = '35'  AND  t1.company = '1'  ORDER BY t1.project desc
+  SELECT id,name FROM `zt_build` WHERE product IN ('35') AND deleted  = '0'  AND  `zt_build`.company = '1'  ORDER BY date desc, id desc
+  SELECT id,name FROM `zt_build` WHERE product IN ('35') AND deleted  = '0'  AND  `zt_build`.company = '1'  ORDER BY date desc, id desc
+  SELECT account, realname FROM `zt_user`  WHERE  `zt_user`.company = '1'  ORDER BY account
+  SELECT id,name FROM `zt_build` WHERE product IN ('35') AND deleted  = '0'  AND  `zt_build`.company = '1'  ORDER BY date desc, id desc
+  SELECT * FROM `zt_module` WHERE root  = '35' AND type  = 'bug'  AND  `zt_module`.company = '1'  ORDER BY grade desc, `order`
+
+20131202 13:54:14: bug-view-4933
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT *,  IF(INSTR(" closed", status) < 2, 0, 1) AS isClosed FROM `zt_product` WHERE deleted  = '0'  AND  `zt_product`.company = '1'  ORDER BY isClosed, `order`
+  SELECT t1.*, t2.name AS projectName, t3.title AS storyTitle, t3.status AS storyStatus, t3.version AS latestStoryVersion, t4.name AS taskName FROM `zt_bug` AS t1  LEFT JOIN `zt_project` AS t2  ON t1.project = t2.id  LEFT JOIN `zt_story` AS t3  ON t1.story = t3.id  LEFT JOIN `zt_task` AS t4  ON t1.task = t4.id  WHERE t1.id  = '4933' AND  t1.company = '1' 
+  SELECT id, title FROM `zt_case` WHERE `fromBug`  = '4933' AND  `zt_case`.company = '1' 
+  SELECT * FROM `zt_file` WHERE objectType  = 'bug' AND objectID  = '4933'  AND  `zt_file`.company = '1'  ORDER BY id
+  SELECT id, status, name FROM `zt_product` WHERE id IN ('35','7','11','14','15','16','17','18','20','21','27','25','26','28','29','30','31','32','37','38','39','40','41','42','43','44','45','46','47','49','50','51','52','53','12','13','36')  AND  `zt_product`.company = '1'  ORDER BY `order`
+  SELECT id, status, name FROM `zt_product` WHERE id IN ('35','7','11','14','15','16','17','18','20','21','27','25','26','28','29','30','31','32','37','38','39','40','41','42','43','44','45','46','47','49','50','51','52','53','12','13','36')  AND  `zt_product`.company = '1'  ORDER BY `order`
+  SELECT id, status FROM `zt_project` WHERE id  = '78' AND  `zt_project`.company = '1' 
+  SELECT path FROM `zt_module` WHERE id  = '557' AND  `zt_module`.company = '1' 
+  SELECT * FROM `zt_module` WHERE id IN ('557')  AND  `zt_module`.company = '1'  ORDER BY grade
+  SELECT account, realname FROM `zt_user`  WHERE  `zt_user`.company = '1'  ORDER BY account
+  SELECT commiter, account, realname FROM `zt_user` WHERE commiter  != '' AND  `zt_user`.company = '1' 
+  SELECT * FROM `zt_action` WHERE objectType  = 'bug' AND objectID  = '4933'  AND  `zt_action`.company = '1'  ORDER BY date, id
+  SELECT * FROM `zt_history` WHERE action IN ('109608')  AND  `zt_history`.company = '1'  ORDER BY id
+  SELECT id,name FROM `zt_build` WHERE product IN ('35') AND deleted  = '0'  AND  `zt_build`.company = '1'  ORDER BY date desc, id desc
+  SELECT * FROM `zt_bug` WHERE  product  = '35' AND module IN ('557') AND project IN ('50','8','9','10','11','13','14','17','18','20','22','23','24','25','27','28','29','30','31','32','33','35','36','37','34','38','39','41','42','43','45','51','53','52','54','55','56','76','44','46','66','79','58','59','60','61','62','63','64','65','68','69','70','71','80','72','74','75','77','82','78','81','83','84','85','86','87','88','89','90','5','15','16','21','40','57','67','73','0') AND deleted  = '0'    AND  `zt_bug`.company = '1'  ORDER BY  id desc
+
+20131202 13:54:14: js/jquery/syntaxhighlighter/styles/shCore
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+
+20131202 13:54:14: js/jquery/syntaxhighlighter/styles/shThemeDefault
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+
+20131202 13:54:14: js/jquery/syntaxhighlighter/scripts/shCore
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+
+20131202 13:54:14: js/jquery/syntaxhighlighter/scripts/shAutoloader
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+
+20131202 13:54:14: js/jquery/syntaxhighlighter/styles/shThemeDefault
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+
+20131202 13:54:14: js/jquery/syntaxhighlighter/styles/shCore
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+
+20131202 13:55:15: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT * FROM `zt_config` WHERE 1 = 1  AND company IN ('1') AND owner IN ('system') AND module IN ('common') AND section IN ('global') AND `key` IN ('sn')
+
+20131202 13:55:38: bug-browse-35
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT *,  IF(INSTR(" closed", status) < 2, 0, 1) AS isClosed FROM `zt_product` WHERE deleted  = '0'  AND  `zt_product`.company = '1'  ORDER BY isClosed, `order`
+  SELECT id, status, name FROM `zt_product` WHERE id IN ('35','7','11','14','15','16','17','18','20','21','27','25','26','28','29','30','31','32','37','38','39','40','41','42','43','44','45','46','47','49','50','51','52','53','12','13','36')  AND  `zt_product`.company = '1'  ORDER BY `order`
+  SELECT id, status, name FROM `zt_product` WHERE id IN ('35','7','11','14','15','16','17','18','20','21','27','25','26','28','29','30','31','32','37','38','39','40','41','42','43','44','45','46','47','49','50','51','52','53','12','13','36')  AND  `zt_product`.company = '1'  ORDER BY `order`
+  SELECT *, IF(INSTR(" done", status) < 2, 0, 1) AS isDone FROM `zt_project` WHERE iscat  = '0' AND deleted  = '0'  AND  `zt_project`.company = '1'  ORDER BY isDone, `order`, status
+  SELECT * FROM `zt_bug` WHERE product  = '35' AND project IN ('50','8','9','10','11','13','14','17','18','20','22','23','24','25','27','28','29','30','31','32','33','35','36','37','34','38','39','41','42','43','45','51','53','52','54','55','56','76','44','46','66','79','58','59','60','61','62','63','64','65','68','69','70','71','80','72','74','75','77','82','78','81','83','84','85','86','87','88','89','90','5','15','16','21','40','57','67','73','0') AND deleted  = '0'  AND  `zt_bug`.company = '1'  ORDER BY id desc
+  SELECT COUNT(*) AS recTotal FROM `zt_bug` WHERE product  = '35' AND project IN ('50','8','9','10','11','13','14','17','18','20','22','23','24','25','27','28','29','30','31','32','33','35','36','37','34','38','39','41','42','43','45','51','53','52','54','55','56','76','44','46','66','79','58','59','60','61','62','63','64','65','68','69','70','71','80','72','74','75','77','82','78','81','83','84','85','86','87','88','89','90','5','15','16','21','40','57','67','73','0') AND deleted  = '0'  AND  `zt_bug`.company = '1'  
+  SELECT * FROM `zt_bug` WHERE product  = '35' AND project IN ('50','8','9','10','11','13','14','17','18','20','22','23','24','25','27','28','29','30','31','32','33','35','36','37','34','38','39','41','42','43','45','51','53','52','54','55','56','76','44','46','66','79','58','59','60','61','62','63','64','65','68','69','70','71','80','72','74','75','77','82','78','81','83','84','85','86','87','88','89','90','5','15','16','21','40','57','67','73','0') AND deleted  = '0'  AND  `zt_bug`.company = '1'  ORDER BY id desc  limit 0, 20 
+  SELECT * FROM `zt_bug` WHERE product  = '35' AND project IN ('50','8','9','10','11','13','14','17','18','20','22','23','24','25','27','28','29','30','31','32','33','35','36','37','34','38','39','41','42','43','45','51','53','52','54','55','56','76','44','46','66','79','58','59','60','61','62','63','64','65','68','69','70','71','80','72','74','75','77','82','78','81','83','84','85','86','87','88','89','90','5','15','16','21','40','57','67','73','0') AND deleted  = '0' ORDER BY id desc  limit 0, 20 
+  SELECT id, status FROM `zt_project` WHERE id IN ('72','72','72','78','75','78','50','50','50','50','50','50','72','72','72','72','72','72','72','72') AND  `zt_project`.company = '1' 
+  SELECT * FROM `zt_module` WHERE root  = '35' AND type  = 'bug'  AND  `zt_module`.company = '1'  ORDER BY grade desc, `order`
+  SELECT t2.id, t2.name, t2.deleted FROM `zt_projectProduct` AS t1  LEFT JOIN `zt_project` AS t2  ON t1.project = t2.id  WHERE t1.product  = '35'  AND  t1.company = '1'  ORDER BY t1.project desc
+  SELECT id,name FROM `zt_build` WHERE product IN ('35') AND deleted  = '0'  AND  `zt_build`.company = '1'  ORDER BY date desc, id desc
+  SELECT id,name FROM `zt_build` WHERE product IN ('35') AND deleted  = '0'  AND  `zt_build`.company = '1'  ORDER BY date desc, id desc
+  SELECT account, realname FROM `zt_user`  WHERE  `zt_user`.company = '1'  ORDER BY account
+  SELECT id,name FROM `zt_build` WHERE product IN ('35') AND deleted  = '0'  AND  `zt_build`.company = '1'  ORDER BY date desc, id desc
+  SELECT * FROM `zt_module` WHERE root  = '35' AND type  = 'bug'  AND  `zt_module`.company = '1'  ORDER BY grade desc, `order`
+
+20131202 13:56:38: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT * FROM `zt_config` WHERE 1 = 1  AND company IN ('1') AND owner IN ('system') AND module IN ('common') AND section IN ('global') AND `key` IN ('sn')
+
+20131202 14:01:38: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT * FROM `zt_config` WHERE 1 = 1  AND company IN ('1') AND owner IN ('system') AND module IN ('common') AND section IN ('global') AND `key` IN ('sn')
+
+20131202 14:06:39: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT * FROM `zt_config` WHERE 1 = 1  AND company IN ('1') AND owner IN ('system') AND module IN ('common') AND section IN ('global') AND `key` IN ('sn')
+
+20131202 14:11:39: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT * FROM `zt_config` WHERE 1 = 1  AND company IN ('1') AND owner IN ('system') AND module IN ('common') AND section IN ('global') AND `key` IN ('sn')
+
+20131202 14:16:39: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT * FROM `zt_config` WHERE 1 = 1  AND company IN ('1') AND owner IN ('system') AND module IN ('common') AND section IN ('global') AND `key` IN ('sn')
+
+20131202 14:21:39: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT * FROM `zt_config` WHERE 1 = 1  AND company IN ('1') AND owner IN ('system') AND module IN ('common') AND section IN ('global') AND `key` IN ('sn')
+
+20131202 14:26:39: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT * FROM `zt_config` WHERE 1 = 1  AND company IN ('1') AND owner IN ('system') AND module IN ('common') AND section IN ('global') AND `key` IN ('sn')
+
+20131202 14:31:39: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT * FROM `zt_config` WHERE 1 = 1  AND company IN ('1') AND owner IN ('system') AND module IN ('common') AND section IN ('global') AND `key` IN ('sn')
+
+20131202 14:36:40: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT * FROM `zt_config` WHERE 1 = 1  AND company IN ('1') AND owner IN ('system') AND module IN ('common') AND section IN ('global') AND `key` IN ('sn')
+
+20131202 15:06:34: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+
+20131202 15:11:34: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT * FROM `zt_config` WHERE 1 = 1  AND company IN ('1') AND owner IN ('system') AND module IN ('common') AND section IN ('global') AND `key` IN ('sn')
+
+20131202 15:16:34: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+
+20131202 15:21:34: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT * FROM `zt_config` WHERE 1 = 1  AND company IN ('1') AND owner IN ('system') AND module IN ('common') AND section IN ('global') AND `key` IN ('sn')
+
+20131202 15:26:34: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT * FROM `zt_config` WHERE 1 = 1  AND company IN ('1') AND owner IN ('system') AND module IN ('common') AND section IN ('global') AND `key` IN ('sn')
+
+20131202 15:31:34: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT * FROM `zt_config` WHERE 1 = 1  AND company IN ('1') AND owner IN ('system') AND module IN ('common') AND section IN ('global') AND `key` IN ('sn')
+
+20131202 15:36:14: testcase-browse-35
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT *,  IF(INSTR(" closed", status) < 2, 0, 1) AS isClosed FROM `zt_product` WHERE deleted  = '0'  AND  `zt_product`.company = '1'  ORDER BY isClosed, `order`
+  SELECT id, status, name FROM `zt_product` WHERE id IN ('35','7','11','14','15','16','17','18','20','21','27','25','26','28','29','30','31','32','37','38','39','40','41','42','43','44','45','46','47','49','50','51','52','53','12','13','36')  AND  `zt_product`.company = '1'  ORDER BY `order`
+  SELECT id, status, name FROM `zt_product` WHERE id IN ('35','7','11','14','15','16','17','18','20','21','27','25','26','28','29','30','31','32','37','38','39','40','41','42','43','44','45','46','47','49','50','51','52','53','12','13','36')  AND  `zt_product`.company = '1'  ORDER BY `order`
+  SELECT * FROM `zt_case` WHERE product  = '35' AND deleted  = '0'  AND  `zt_case`.company = '1'  ORDER BY id desc
+  SELECT COUNT(*) AS recTotal FROM `zt_case` WHERE product  = '35' AND deleted  = '0'  AND  `zt_case`.company = '1'  
+  SELECT * FROM `zt_case` WHERE product  = '35' AND deleted  = '0'  AND  `zt_case`.company = '1'  ORDER BY id desc  limit 0, 20 
+  SELECT * FROM `zt_case` WHERE product  = '35' AND deleted  = '0' ORDER BY id desc  limit 0, 20 
+  SELECT * FROM `zt_module` WHERE root  = '35' AND type  = 'case'  AND  `zt_module`.company = '1'  ORDER BY grade desc, `order`
+  SELECT * FROM `zt_module` WHERE root  = '35' AND type  = 'case'  AND  `zt_module`.company = '1'  ORDER BY grade desc, `order`
+  SELECT account, realname FROM `zt_user`  WHERE  `zt_user`.company = '1'  ORDER BY account
+
+20131202 15:36:23: company
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+
+20131202 15:36:24: company-browse
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT * FROM `zt_dept` WHERE `id` = '0'  AND  `zt_dept`.company = '1' 
+  SELECT * FROM `zt_dept`  WHERE  `zt_dept`.company = '1'  ORDER BY grade desc, `order`
+  SELECT u.*, d.name as deptName FROM `zt_user` AS u  LEFT JOIN `zt_dept` AS d  ON u.dept = d.id  WHERE u.deleted  = '0'  AND  u.company = '1'  ORDER BY u.id
+  SELECT COUNT(*) AS recTotal FROM `zt_user` AS u  LEFT JOIN `zt_dept` AS d  ON u.dept = d.id  WHERE u.deleted  = '0'  AND  u.company = '1'  
+  SELECT u.*, d.name as deptName FROM `zt_user` AS u  LEFT JOIN `zt_dept` AS d  ON u.dept = d.id  WHERE u.deleted  = '0'  AND  u.company = '1'  ORDER BY u.id  limit 0, 20 
+  SELECT id, title FROM `zt_userQuery` WHERE account  = 'fujia' AND module  = 'user'  AND  `zt_userQuery`.company = '1'  ORDER BY id asc
+  SELECT * FROM `zt_dept` WHERE `id` = '0'  AND  `zt_dept`.company = '1' 
+  SELECT * FROM `zt_dept`  WHERE  `zt_dept`.company = '1'  ORDER BY grade desc, `order`
+  SELECT u.*, t.*, zt_project.name as projectName FROM `zt_user` AS u  LEFT JOIN `zt_task` AS t  ON u.account = t.assignedTo  LEFT JOIN `zt_project` ON zt_project.id = t.project  WHERE u.deleted  = '0' AND t.status  = 'doing'  AND  u.company = '1'  ORDER BY u.account
+
+20131202 15:36:27: group-browse
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT * FROM `zt_group` WHERE `company` = '1'   AND  `zt_group`.company = '1'  ORDER BY id
+  SELECT t2.account, t2.realname FROM `zt_userGroup` AS t1  LEFT JOIN `zt_user` AS t2  ON t1.account = t2.account  WHERE `group`  = '1' AND t2.deleted  = '0' AND t2.company  = '1'  AND  t1.company = '1'  ORDER BY t2.account
+  SELECT t2.account, t2.realname FROM `zt_userGroup` AS t1  LEFT JOIN `zt_user` AS t2  ON t1.account = t2.account  WHERE `group`  = '2' AND t2.deleted  = '0' AND t2.company  = '1'  AND  t1.company = '1'  ORDER BY t2.account
+  SELECT t2.account, t2.realname FROM `zt_userGroup` AS t1  LEFT JOIN `zt_user` AS t2  ON t1.account = t2.account  WHERE `group`  = '3' AND t2.deleted  = '0' AND t2.company  = '1'  AND  t1.company = '1'  ORDER BY t2.account
+  SELECT t2.account, t2.realname FROM `zt_userGroup` AS t1  LEFT JOIN `zt_user` AS t2  ON t1.account = t2.account  WHERE `group`  = '4' AND t2.deleted  = '0' AND t2.company  = '1'  AND  t1.company = '1'  ORDER BY t2.account
+  SELECT t2.account, t2.realname FROM `zt_userGroup` AS t1  LEFT JOIN `zt_user` AS t2  ON t1.account = t2.account  WHERE `group`  = '5' AND t2.deleted  = '0' AND t2.company  = '1'  AND  t1.company = '1'  ORDER BY t2.account
+  SELECT t2.account, t2.realname FROM `zt_userGroup` AS t1  LEFT JOIN `zt_user` AS t2  ON t1.account = t2.account  WHERE `group`  = '6' AND t2.deleted  = '0' AND t2.company  = '1'  AND  t1.company = '1'  ORDER BY t2.account
+  SELECT t2.account, t2.realname FROM `zt_userGroup` AS t1  LEFT JOIN `zt_user` AS t2  ON t1.account = t2.account  WHERE `group`  = '8' AND t2.deleted  = '0' AND t2.company  = '1'  AND  t1.company = '1'  ORDER BY t2.account
+  SELECT t2.account, t2.realname FROM `zt_userGroup` AS t1  LEFT JOIN `zt_user` AS t2  ON t1.account = t2.account  WHERE `group`  = '11' AND t2.deleted  = '0' AND t2.company  = '1'  AND  t1.company = '1'  ORDER BY t2.account
+
+20131202 15:36:29: group-managepriv-byGroup-1
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT * FROM `zt_group` WHERE `id` = '1'  AND  `zt_group`.company = '1' 
+  SELECT module, method FROM `zt_groupPriv` WHERE `group`  = '1'  AND  `zt_groupPriv`.company = '1'  ORDER BY module
+
+20131202 15:36:33: group-managePriv-byGroup-1-qa-
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT * FROM `zt_group` WHERE `id` = '1'  AND  `zt_group`.company = '1' 
+  SELECT module, method FROM `zt_groupPriv` WHERE `group`  = '1'  AND  `zt_groupPriv`.company = '1'  ORDER BY module
+
+20131202 15:37:33: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT * FROM `zt_config` WHERE 1 = 1  AND company IN ('1') AND owner IN ('system') AND module IN ('common') AND section IN ('global') AND `key` IN ('sn')
+
+20131202 15:42:34: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+
+20131202 15:47:34: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+
+20131202 15:52:34: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT * FROM `zt_config` WHERE 1 = 1  AND company IN ('1') AND owner IN ('system') AND module IN ('common') AND section IN ('global') AND `key` IN ('sn')
+
+20131202 15:52:41: notice
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+
+20131202 15:52:41: notice-browse
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT * FROM `zt_notice` WHERE deleted  = '0'  AND  `zt_notice`.company = '1'  ORDER BY id desc
+  SELECT COUNT(*) AS recTotal FROM `zt_notice` WHERE deleted  = '0'  AND  `zt_notice`.company = '1'  
+  SELECT * FROM `zt_notice` WHERE deleted  = '0'  AND  `zt_notice`.company = '1'  ORDER BY id desc
+  SELECT * FROM `zt_module` WHERE root  = '0' AND type  = 'notice'  AND  `zt_module`.company = '1'  ORDER BY grade desc, `order`
+  SELECT account, realname FROM `zt_user`  WHERE  `zt_user`.company = '1'  ORDER BY account
+
+20131202 15:52:46: notice-shining
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+
+20131202 15:53:53: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT * FROM `zt_config` WHERE 1 = 1  AND company IN ('1') AND owner IN ('system') AND module IN ('common') AND section IN ('global') AND `key` IN ('sn')
+
+20131202 15:54:26: notice-shining
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+
+20131202 15:56:41: misc-ping
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+
+20131202 15:57:59: notice-browse
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+  SELECT * FROM `zt_notice` WHERE deleted  = '0'  AND  `zt_notice`.company = '1'  ORDER BY id desc
+  SELECT COUNT(*) AS recTotal FROM `zt_notice` WHERE deleted  = '0'  AND  `zt_notice`.company = '1'  
+  SELECT * FROM `zt_notice` WHERE deleted  = '0'  AND  `zt_notice`.company = '1'  ORDER BY id desc
+  SELECT * FROM `zt_module` WHERE root  = '0' AND type  = 'notice'  AND  `zt_module`.company = '1'  ORDER BY grade desc, `order`
+  SELECT account, realname FROM `zt_user`  WHERE  `zt_user`.company = '1'  ORDER BY account
+
+20131202 15:58:08: notice-shining
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+
+20131202 17:01:10: notice-shining
+  SELECT * FROM `zt_config` WHERE owner IN ('system','fujia') AND company IN ('1','0') ORDER BY id
+

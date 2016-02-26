@@ -1,0 +1,1440 @@
+--------- beginning of /dev/log/system
+01-01 20:00:02.240 I/Vold    (  733): Vold 2.1 (the revenge) firing up
+01-01 20:00:02.240 E/Vold    (  733): Error reading configuration (No such file or directory)... continuing anyways
+01-01 20:00:04.684 D/Vold    (  733): can not get the uuid of /dev/block/vold/8:0 when device add
+01-01 20:00:05.688 D/Vold    (  733): can not get the uuid of /dev/block/vold/8:0 when device remove
+01-01 20:00:06.628 I/SystemServer(  948): Entered the Android system server!
+01-01 20:00:06.796 I/SystemServer(  948): Entropy Service
+01-01 20:00:06.820 I/SystemServer(  948): Power Manager
+01-01 20:00:06.900 I/SystemServer(  948): Activity Manager
+01-01 20:00:01.911 I/SystemServer(  948): Telephony Registry
+01-01 20:00:01.911 I/ActivityManager(  948): Enabled StrictMode logging for AThread's Looper
+01-01 20:00:01.927 I/SystemServer(  948): Package Manager
+01-01 20:00:02.207 W/PackageManager(  948): Running ENG build: no pre-dexopt!
+01-01 20:00:02.223 W/PackageManager(  948): Library not found: /system/framework/com.android.future.usb.accessory.jar
+01-01 20:00:02.540 W/PackageParser(  948): No actions in intent filter at /system/app/Bluetooth.apk Binary XML file line #125
+01-01 20:00:02.559 I/PackageParser(  948): com.coship.HS: compat added android.permission.WRITE_EXTERNAL_STORAGE android.permission.READ_PHONE_STATE
+01-01 20:00:03.159 W/PackageParser(  948): No actions in intent filter at /system/app/Contacts.apk Binary XML file line #525
+01-01 20:00:03.188 W/PackageParser(  948): No actions in intent filter at /system/app/Coship_VAF.apk Binary XML file line #58
+01-01 20:00:03.196 I/PackageParser(  948): com.coship.cw880: compat added android.permission.WRITE_EXTERNAL_STORAGE android.permission.READ_PHONE_STATE
+01-01 20:00:03.716 W/PackageParser(  948): Problem in package /system/app/STB-Settings.apk:
+01-01 20:00:03.716 W/PackageParser(  948): Unknown element under <activity>: data at /system/app/STB-Settings.apk Binary XML file line #145
+01-01 20:00:03.719 W/PackageParser(  948): Problem in package /system/app/STB-Settings.apk:
+01-01 20:00:03.719 W/PackageParser(  948): Unknown element under <activity>: action at /system/app/STB-Settings.apk Binary XML file line #231
+01-01 20:00:03.719 W/PackageParser(  948): Problem in package /system/app/STB-Settings.apk:
+01-01 20:00:03.719 W/PackageParser(  948): Unknown element under <activity>: action at /system/app/STB-Settings.apk Binary XML file line #232
+01-01 20:00:03.719 W/PackageParser(  948): Problem in package /system/app/STB-Settings.apk:
+01-01 20:00:03.719 W/PackageParser(  948): Unknown element under <activity>: action at /system/app/STB-Settings.apk Binary XML file line #289
+01-01 20:00:03.724 W/PackageParser(  948): Problem in package /system/app/STB-Settings.apk:
+01-01 20:00:03.724 W/PackageParser(  948): Unknown element under <activity>: action at /system/app/STB-Settings.apk Binary XML file line #393
+01-01 20:00:03.724 W/PackageParser(  948): Problem in package /system/app/STB-Settings.apk:
+01-01 20:00:03.724 W/PackageParser(  948): Unknown element under <activity>: action at /system/app/STB-Settings.apk Binary XML file line #394
+01-01 20:00:03.799 W/PackageParser(  948): No actions in intent filter at /system/app/TZ_MST6A801_SDK4.0_WasuTV4ICS_Release_1.0.0.39_201301311731.apk Binary XML file line #134
+01-01 20:00:03.799 W/PackageParser(  948): No actions in intent filter at /system/app/TZ_MST6A801_SDK4.0_WasuTV4ICS_Release_1.0.0.39_201301311731.apk Binary XML file line #147
+01-01 20:00:03.799 W/PackageParser(  948): No actions in intent filter at /system/app/TZ_MST6A801_SDK4.0_WasuTV4ICS_Release_1.0.0.39_201301311731.apk Binary XML file line #154
+01-01 20:00:03.799 W/PackageParser(  948): No actions in intent filter at /system/app/TZ_MST6A801_SDK4.0_WasuTV4ICS_Release_1.0.0.39_201301311731.apk Binary XML file line #225
+01-01 20:00:03.804 W/PackageParser(  948): No actions in intent filter at /system/app/TZ_MST6A801_SDK4.0_WasuTV4ICS_Release_1.0.0.39_201301311731.apk Binary XML file line #245
+01-01 20:00:03.804 W/PackageParser(  948): No actions in intent filter at /system/app/TZ_MST6A801_SDK4.0_WasuTV4ICS_Release_1.0.0.39_201301311731.apk Binary XML file line #254
+01-01 20:00:03.804 W/PackageParser(  948): No actions in intent filter at /system/app/TZ_MST6A801_SDK4.0_WasuTV4ICS_Release_1.0.0.39_201301311731.apk Binary XML file line #262
+01-01 20:00:03.804 W/PackageParser(  948): No actions in intent filter at /system/app/TZ_MST6A801_SDK4.0_WasuTV4ICS_Release_1.0.0.39_201301311731.apk Binary XML file line #270
+01-01 20:00:03.804 W/PackageParser(  948): No actions in intent filter at /system/app/TZ_MST6A801_SDK4.0_WasuTV4ICS_Release_1.0.0.39_201301311731.apk Binary XML file line #279
+01-01 20:00:03.804 W/PackageParser(  948): No actions in intent filter at /system/app/TZ_MST6A801_SDK4.0_WasuTV4ICS_Release_1.0.0.39_201301311731.apk Binary XML file line #287
+01-01 20:00:03.804 W/PackageParser(  948): No actions in intent filter at /system/app/TZ_MST6A801_SDK4.0_WasuTV4ICS_Release_1.0.0.39_201301311731.apk Binary XML file line #296
+01-01 20:00:03.804 W/PackageParser(  948): No actions in intent filter at /system/app/TZ_MST6A801_SDK4.0_WasuTV4ICS_Release_1.0.0.39_201301311731.apk Binary XML file line #305
+01-01 20:00:03.967 I/PackageParser(  948): com.iflytek.vaf.TouchKey: compat added android.permission.WRITE_EXTERNAL_STORAGE android.permission.READ_PHONE_STATE
+01-01 20:00:03.999 W/PackageParser(  948): No actions in intent filter at /system/app/com.coship.Multimedia.apk Binary XML file line #97
+01-01 20:00:03.999 W/PackageParser(  948): No actions in intent filter at /system/app/com.coship.Multimedia.apk Binary XML file line #104
+01-01 20:00:04.004 I/PackageParser(  948): com.coship.Multimedia: compat added android.permission.READ_PHONE_STATE
+01-01 20:00:04.023 W/PackageParser(  948): No actions in intent filter at /system/app/com.coship.NetworkNavigation.apk Binary XML file line #24
+01-01 20:00:04.023 W/PackageParser(  948): No actions in intent filter at /system/app/com.coship.NetworkNavigation.apk Binary XML file line #31
+01-01 20:00:04.023 W/PackageParser(  948): No actions in intent filter at /system/app/com.coship.NetworkNavigation.apk Binary XML file line #38
+01-01 20:00:04.023 W/PackageParser(  948): No actions in intent filter at /system/app/com.coship.NetworkNavigation.apk Binary XML file line #45
+01-01 20:00:04.023 W/PackageParser(  948): No actions in intent filter at /system/app/com.coship.NetworkNavigation.apk Binary XML file line #52
+01-01 20:00:04.084 I/PackageParser(  948): com.coship.dvbplayer: compat added android.permission.READ_PHONE_STATE
+01-01 20:00:04.119 W/PackageParser(  948): No actions in intent filter at /system/app/com.coship.dvbsetting.apk Binary XML file line #102
+01-01 20:00:04.119 W/PackageParser(  948): No actions in intent filter at /system/app/com.coship.dvbsetting.apk Binary XML file line #110
+01-01 20:00:04.119 W/PackageParser(  948): No actions in intent filter at /system/app/com.coship.dvbsetting.apk Binary XML file line #118
+01-01 20:00:04.119 W/PackageParser(  948): No actions in intent filter at /system/app/com.coship.dvbsetting.apk Binary XML file line #126
+01-01 20:00:04.119 W/PackageParser(  948): No actions in intent filter at /system/app/com.coship.dvbsetting.apk Binary XML file line #134
+01-01 20:00:04.119 W/PackageParser(  948): No actions in intent filter at /system/app/com.coship.dvbsetting.apk Binary XML file line #140
+01-01 20:00:04.119 W/PackageParser(  948): No actions in intent filter at /system/app/com.coship.dvbsetting.apk Binary XML file line #154
+01-01 20:00:04.124 W/PackageParser(  948): No actions in intent filter at /system/app/com.coship.dvbsetting.apk Binary XML file line #162
+01-01 20:00:04.124 W/PackageParser(  948): No actions in intent filter at /system/app/com.coship.dvbsetting.apk Binary XML file line #171
+01-01 20:00:04.124 W/PackageParser(  948): No actions in intent filter at /system/app/com.coship.dvbsetting.apk Binary XML file line #179
+01-01 20:00:04.124 W/PackageParser(  948): No actions in intent filter at /system/app/com.coship.dvbsetting.apk Binary XML file line #186
+01-01 20:00:04.124 W/PackageParser(  948): No actions in intent filter at /system/app/com.coship.dvbsetting.apk Binary XML file line #194
+01-01 20:00:04.124 W/PackageParser(  948): No actions in intent filter at /system/app/com.coship.dvbsetting.apk Binary XML file line #201
+01-01 20:00:04.124 W/PackageParser(  948): No actions in intent filter at /system/app/com.coship.dvbsetting.apk Binary XML file line #209
+01-01 20:00:04.124 W/PackageParser(  948): No actions in intent filter at /system/app/com.coship.dvbsetting.apk Binary XML file line #216
+01-01 20:00:04.124 W/PackageParser(  948): No actions in intent filter at /system/app/com.coship.dvbsetting.apk Binary XML file line #223
+01-01 20:00:04.124 W/PackageParser(  948): No actions in intent filter at /system/app/com.coship.dvbsetting.apk Binary XML file line #230
+01-01 20:00:04.124 I/PackageParser(  948): com.coship.dvbsetting: compat added android.permission.READ_PHONE_STATE
+01-01 20:00:04.124 W/PackageManager(  948): Unable to update from com.android.settings to com.coship.dvbsetting: old package still exists
+01-01 20:00:04.140 I/PackageParser(  948): com.coship.portal: compat added android.permission.WRITE_EXTERNAL_STORAGE android.permission.READ_PHONE_STATE
+01-01 20:00:04.167 W/PackageParser(  948): No actions in intent filter at /system/app/com.coship.startwizard.apk Binary XML file line #39
+01-01 20:00:04.172 W/PackageParser(  948): No actions in intent filter at /system/app/com.coship.startwizard.apk Binary XML file line #46
+01-01 20:00:04.172 W/PackageParser(  948): No actions in intent filter at /system/app/com.coship.startwizard.apk Binary XML file line #53
+01-01 20:00:04.172 W/PackageParser(  948): No actions in intent filter at /system/app/com.coship.startwizard.apk Binary XML file line #60
+01-01 20:00:04.172 W/PackageParser(  948): No actions in intent filter at /system/app/com.coship.startwizard.apk Binary XML file line #67
+01-01 20:00:04.172 W/PackageParser(  948): No actions in intent filter at /system/app/com.coship.startwizard.apk Binary XML file line #74
+01-01 20:00:04.172 W/PackageParser(  948): No actions in intent filter at /system/app/com.coship.startwizard.apk Binary XML file line #81
+01-01 20:00:04.172 W/PackageParser(  948): No actions in intent filter at /system/app/com.coship.startwizard.apk Binary XML file line #88
+01-01 20:00:04.172 W/PackageParser(  948): No actions in intent filter at /system/app/com.coship.startwizard.apk Binary XML file line #95
+01-01 20:00:04.284 I/Installer(  948): connecting...
+01-01 20:00:05.028 I/PackageManager(  948): Time to scan packages: 2.818 seconds
+01-01 20:00:05.028 W/PackageManager(  948): Unknown permission android.permission.APPWIDGET_LIST in package com.iflytek.vaf
+01-01 20:00:05.028 W/PackageManager(  948): Unknown permission android.permission.APPWIDGET_LIST in package com.biaoqi.stbwidget.host
+01-01 20:00:05.055 W/PackageManager(  948): Unknown permission com.android.launcher.permission.READ_SETTINGS in package com.coship.dvbsetting
+01-01 20:00:05.055 W/PackageManager(  948): Unknown permission com.android.launcher.permission.WRITE_SETTINGS in package com.coship.dvbsetting
+01-01 20:00:05.055 W/PackageManager(  948): Unknown permission android.permission.APPWIDGET_LIST in package com.mstar.appwidget
+01-01 20:00:05.060 W/PackageManager(  948): Unknown permission android.permission.ADD_SYSTEM_SERVICE in package com.coship.sdp.sce.tvappstore
+01-01 20:00:05.060 W/PackageManager(  948): Unknown permission android.permission.READ_EXTERNAL_STORAGE in package com.coship.sdp.sce.tvappstore
+01-01 20:00:05.060 W/PackageManager(  948): Unknown permission com.google.android.gm.permission.WRITE_GMAIL in package com.coship.sdp.sce.tvappstore
+01-01 20:00:05.060 W/PackageManager(  948): Unknown permission com.google.android.gm.permission.READ_GMAIL in package com.coship.sdp.sce.tvappstore
+01-01 20:00:05.060 W/PackageManager(  948): Unknown permission com.android.launcher.permission.INSTALL_SHORTCUT in package com.android.browser
+01-01 20:00:05.060 W/PackageManager(  948): Unknown permission com.google.android.gm.permission.WRITE_GMAIL in package com.coship.app.vaf
+01-01 20:00:05.060 W/PackageManager(  948): Unknown permission com.google.android.gm.permission.READ_GMAIL in package com.coship.app.vaf
+01-01 20:00:05.060 W/PackageManager(  948): Unknown permission com.android.launcher.permission.READ_SETTINGS in package com.coship.app.vaf
+01-01 20:00:05.060 W/PackageManager(  948): Unknown permission com.android.launcher.permission.WRITE_SETTINGS in package com.coship.app.vaf
+01-01 20:00:05.060 W/PackageManager(  948): Unknown permission com.google.android.gm.permission.WRITE_GMAIL in package com.coship.TestApp
+01-01 20:00:05.060 W/PackageManager(  948): Unknown permission com.google.android.gm.permission.READ_GMAIL in package com.coship.TestApp
+01-01 20:00:05.063 W/PackageManager(  948): Unknown permission com.android.launcher.permission.READ_SETTINGS in package com.coship.TestApp
+01-01 20:00:05.063 W/PackageManager(  948): Unknown permission com.android.launcher.permission.WRITE_SETTINGS in package com.coship.TestApp
+01-01 20:00:05.063 W/PackageManager(  948): Unknown permission android.permission.WRITE_OWNER_DATA in package com.iflytek.speech
+01-01 20:00:05.063 W/PackageManager(  948): Unknown permission android.permission.BAIDU_LOCATION_SERVICE in package com.iflytek.speech
+01-01 20:00:05.063 W/PackageManager(  948): Unknown permission android.permission.APPWIDGET_LIST in package com.iflytek.xiri.recorder.svc
+01-01 20:00:05.063 W/PackageManager(  948): Unknown permission android.permission.READ_SETTINGS in package com.android.settings
+01-01 20:00:05.068 W/PackageManager(  948): Unknown permission com.android.launcher.permission.READ_SETTINGS in package com.android.settings
+01-01 20:00:05.068 W/PackageManager(  948): Unknown permission com.android.launcher.permission.WRITE_SETTINGS in package com.android.settings
+01-01 20:00:05.071 W/PackageManager(  948): Unknown permission com.android.launcher.permission.INSTALL_SHORTCUT in package cn.tvbox
+01-01 20:00:05.071 W/PackageManager(  948): Unknown permission com.android.permission.READ_LOGS in package cn.tvbox
+01-01 20:00:05.071 W/PackageManager(  948): Not granting permission android.permission.DEVICE_POWER to package cn.tvbox (protectionLevel=2 flags=0xbe45)
+01-01 20:00:05.071 W/PackageManager(  948): Unknown permission android.webkit.permission.PLUGIN in package com.adobe.flashplayer
+01-01 20:00:05.071 W/PackageManager(  948): Unknown permission android.permission.READ_OWNER_DATA in package com.adobe.flashplayer
+01-01 20:00:05.071 W/PackageManager(  948): Unknown permission android.permission.WRITE_OWNER_DATA in package com.adobe.flashplayer
+01-01 20:00:05.071 W/PackageManager(  948): Unknown permission android.permission.READ_EXTERNAL_STORAGE in package com.adobe.flashplayer
+01-01 20:00:05.076 W/PackageManager(  948): Not granting permission android.permission.DIAGNOSTIC to package com.sihuatech.wasutv4ics (protectionLevel=2 flags=0xbe45)
+01-01 20:00:05.076 W/PackageManager(  948): Unknown permission android.permission.ACCESS_COARSE_UPDATES in package com.sihuatech.wasutv4ics
+01-01 20:00:05.076 W/PackageManager(  948): Unknown permission android.permission.READ_OWNER_DATA in package com.sihuatech.wasutv4ics
+01-01 20:00:05.076 W/PackageManager(  948): Unknown permission android.permission.WRITE_OWNER_DATA in package com.sihuatech.wasutv4ics
+01-01 20:00:05.076 W/PackageManager(  948): Not granting permission android.permission.CLEAR_APP_USER_DATA to package com.sihuatech.wasutv4ics (protectionLevel=2 flags=0xbe45)
+01-01 20:00:05.076 W/PackageManager(  948): Not granting permission android.permission.INJECT_EVENTS to package com.sihuatech.wasutv4ics (protectionLevel=2 flags=0xbe45)
+01-01 20:00:05.076 W/PackageManager(  948): Not granting permission android.permission.DEVICE_POWER to package com.sihuatech.wasutv4ics (protectionLevel=2 flags=0xbe45)
+01-01 20:00:05.076 W/PackageManager(  948): Unknown permission android.permission.WRITE_OWNER_DATA in package com.coship.Multimedia
+01-01 20:00:05.076 W/PackageManager(  948): Unknown permission android.permission.READ_OWNER_DATA in package com.coship.Multimedia
+01-01 20:00:05.079 W/PackageManager(  948): Unknown permission android.permission.WRITE_OWNER_DATA in package com.coship.NetworkNavigation
+01-01 20:00:05.079 W/PackageManager(  948): Unknown permission android.permission.READ_OWNER_DATA in package com.coship.NetworkNavigation
+01-01 20:00:05.439 I/SystemServer(  948): Account Manager
+01-01 20:00:05.495 I/SystemServer(  948): Content Manager
+01-01 20:00:05.740 I/SystemServer(  948): System Content Providers
+01-01 20:00:05.924 I/SystemServer(  948): Lights Service
+01-01 20:00:05.927 I/SystemServer(  948): Battery Service
+01-01 20:00:05.932 I/SystemServer(  948): Pppoe Service
+01-01 20:00:05.935 I/SystemServer(  948): Vibrator Service
+01-01 20:00:05.959 I/SystemServer(  948): Alarm Manager
+01-01 20:00:05.964 I/SystemServer(  948): Init Watchdog
+01-01 20:00:05.964 I/SystemServer(  948): Window Manager
+01-01 20:00:06.020 I/InputManager(  948): Initializing input manager
+01-01 20:00:06.039 W/StatusBarManager(  948): warning: no STATUS_BAR_SERVICE
+01-01 20:00:06.087 I/InputManager(  948): Starting input manager
+01-01 20:00:06.087 I/WindowManager(  948): Enabled StrictMode logging for WMThread's Looper
+01-01 20:00:06.092 I/SystemServer(  948): Bluetooth Service
+01-01 20:00:06.095 I/WindowManager(  948): Enabled StrictMode for PolicyThread's Looper
+01-01 20:00:06.159 I/SystemServer(  948): Input Method Service
+01-01 20:00:06.164 W/InputManagerService(  948): Couldn't create dir.: /data/system/inputmethod
+01-01 20:00:06.199 I/SystemServer(  948): Accessibility Manager
+01-01 20:00:06.204 I/ActivityManager(  948): Config changed: {1.0 0mcc0mnc zh_CN layoutdir=0 sw720dp w1280dp h720dp xlrg long land ?uimode ?night -touch -keyb/v/h -nav/h s.2}
+01-01 20:00:06.215 I/SystemServer(  948): TV
+01-01 20:00:06.215 I/SystemServer(  948): Device Policy
+01-01 20:00:06.215 I/SystemServer(  948): Status Bar
+01-01 20:00:06.255 I/SystemServer(  948): Clipboard Service
+01-01 20:00:06.260 I/SystemServer(  948): NetworkManagement Service
+01-01 20:00:06.263 I/SystemServer(  948): Text Service Manager Service
+01-01 20:00:06.263 W/TextServicesManagerService(  948): no available spell checker services found
+01-01 20:00:06.263 I/SystemServer(  948): NetworkStats Service
+01-01 20:00:06.276 I/SystemServer(  948): NetworkPolicy Service
+01-01 20:00:06.279 I/SystemServer(  948): Wi-Fi P2pService
+01-01 20:00:06.287 D/WifiP2pService(  948): P2pDisabledState
+01-01 20:00:06.287 E/WifiP2pService(  948): Failed to reload sta firmware java.lang.NullPointerException
+01-01 20:00:06.287 I/SystemServer(  948): Wi-Fi Service
+01-01 20:00:06.300 D/WifiP2pService(  948): P2pDisabledState{ what=69633 when=0 }
+01-01 20:00:06.300 D/WifiP2pService(  948): DefaultState{ what=69633 when=0 }
+01-01 20:00:06.303 D/WifiP2pService(  948): P2pDisabledState{ what=69632 when=0 obj=com.android.internal.util.AsyncChannel@41450888 }
+01-01 20:00:06.303 D/WifiP2pService(  948): DefaultState{ what=69632 when=-1ms obj=com.android.internal.util.AsyncChannel@41450888 }
+01-01 20:00:06.303 D/WifiP2pService(  948): Full connection with WifiStateMachine established
+01-01 20:00:06.311 D/WifiP2pService(  948): P2pDisabledState{ what=69633 when=0 }
+01-01 20:00:06.311 D/WifiP2pService(  948): DefaultState{ what=69633 when=0 }
+01-01 20:00:06.311 D/WifiP2pService(  948): P2pDisabledState{ what=69632 when=0 obj=com.android.internal.util.AsyncChannel@415812b0 }
+01-01 20:00:06.311 D/WifiP2pService(  948): DefaultState{ what=69632 when=-1ms obj=com.android.internal.util.AsyncChannel@415812b0 }
+01-01 20:00:06.311 D/WifiP2pService(  948): Full connection with WifiStateMachine established
+01-01 20:00:06.316 I/SystemServer(  948): Connectivity Service
+01-01 20:00:06.316 D/ConnectivityService(  948): ConnectivityService starting up
+01-01 20:00:06.319 E/ConnectivityService(  948): Error in radioAttributes - ignoring attempt to redefine type 1
+01-01 20:00:06.343 D/ConnectivityService(  948): Starting Pppoe StateTracker
+01-01 20:00:06.356 D/ConnectivityService(  948): Starting Ethernet Service.
+01-01 20:00:06.359 V/EthernetStateTracker(  948): Ethernet State Tracker v1.0.6
+01-01 20:00:06.359 V/EthernetStateTracker(  948): successed to init device!
+01-01 20:00:06.372 I/EthernetService(  948): Ethernet dev enabled 2
+01-01 20:00:06.372 V/EthernetService(  948): device 0 name eth0
+01-01 20:00:06.375 V/EthernetStateTracker(  948): start to monitor the ethernet devices . . .
+01-01 20:00:06.375 I/EthernetManager(  948): Init Ethernet Manager, service: com.android.server.EthernetService@414094f0
+01-01 20:00:06.375 I/EthernetStateTracker(  948): reset device eth0
+01-01 20:00:06.404 V/EthernetMonitor(  948): go poll events
+01-01 20:00:06.452 I/EthernetStateTracker(  948): set ip manually ipaddr 192.168.1.2 gateway 192.168.1.1 netmask 255.255.255.0 dns1 0.0.0.0 dns2 0.0.0.0 DHCP server 0.0.0.0 lease 0 seconds
+01-01 20:00:06.455 V/EthernetStateTracker(  948): Static IP configuration succeeded
+01-01 20:00:06.455 V/EthernetMonitor(  948): get event eth0:16:
+01-01 20:00:06.455 V/EthernetMonitor(  948): dev: eth0 ev 16
+01-01 20:00:06.455 V/EthernetStateTracker(  948): report interface is up for eth0
+01-01 20:00:06.455 V/EthernetMonitor(  948): go poll events
+01-01 20:00:06.455 V/EthernetMonitor(  948): get event eth0:20:
+01-01 20:00:06.455 I/EthernetStateTracker(  948): reset device eth0
+01-01 20:00:06.455 V/EthernetMonitor(  948): dev: eth0 ev 20
+01-01 20:00:06.455 I/EthernetStateTracker(  948): report new state CONNECTED on dev eth0
+01-01 20:00:06.455 V/EthernetStateTracker(  948): update network state tracker
+01-01 20:00:06.532 I/EthernetStateTracker(  948): set ip manually ipaddr 192.168.1.2 gateway 192.168.1.1 netmask 255.255.255.0 dns1 0.0.0.0 dns2 0.0.0.0 DHCP server 0.0.0.0 lease 0 seconds
+01-01 20:00:06.532 V/EthernetStateTracker(  948): Static IP configuration succeeded
+01-01 20:00:06.535 E/MobileDataStateTracker(  948): default: Ignoring feature request because could not acquire PhoneService
+01-01 20:00:06.535 E/MobileDataStateTracker(  948): default: Could not enable APN type "default"
+01-01 20:00:06.540 D/NetworkManagementService(  948): Registering observer
+01-01 20:00:06.540 D/NetworkManagementService(  948): Registering observer
+01-01 20:00:06.540 I/WifiService(  948): WifiService starting up with Wi-Fi enabled
+01-01 20:00:06.540 D/WifiP2pService(  948): P2pDisabledState{ what=131203 when=0 }
+01-01 20:00:06.548 I/WifiService(  948): WifiService starting up with Wi-Fi AP disabled
+01-01 20:00:06.548 I/SystemServer(  948): Throttle Service
+01-01 20:00:06.548 I/SystemServer(  948): Mount Service
+01-01 20:00:06.551 D/MountService(  948): got storage path: /mnt/sdcard description: USB 存储器 primary: true removable: false emulated: false mtpReserve: 0 allowMassStorage: false maxFileSize: 0
+01-01 20:00:06.556 I/SystemServer(  948): Notification Manager
+01-01 20:00:06.556 I/SystemServer(  948): Device Storage Monitor
+01-01 20:00:06.556 I/SystemServer(  948): Location Manager
+01-01 20:00:06.559 I/SystemServer(  948): Country Detector
+01-01 20:00:06.559 I/SystemServer(  948): Search Service
+01-01 20:00:06.559 I/SystemServer(  948): DropBox Service
+01-01 20:00:06.559 I/SystemServer(  948): Wallpaper Service
+01-01 20:00:06.567 I/SystemServer(  948): Audio Service
+01-01 20:00:06.567 D/VoldCmdListener(  733): volume list
+01-01 20:00:06.583 V/EthernetMonitor(  948): go poll events
+01-01 20:00:06.756 I/SystemServer(  948): Camera Observer
+01-01 20:00:06.756 I/SystemServer(  948): Microphone Observer
+01-01 20:00:06.756 I/SystemServer(  948): Wired Accessory Observer
+01-01 20:00:06.756 I/SystemServer(  948): USB Service
+01-01 20:00:06.759 I/SystemServer(  948): UI Mode Manager Service
+01-01 20:00:06.759 I/SystemServer(  948): Backup Service
+01-01 20:00:06.900 I/ActivityManager(  948): Memory class: 64
+01-01 20:00:06.943 V/BackupManagerService(  948): Initializing package tracking
+01-01 20:00:06.948 V/BackupManagerService(  948): No ancestral data
+01-01 20:00:07.015 V/BackupManagerService(  948): addPackageParticipantsLocked: all
+01-01 20:00:07.015 I/BackupManagerService(  948): New app android never backed up; scheduling
+01-01 20:00:07.020 I/BackupManagerService(  948): New app com.android.browser never backed up; scheduling
+01-01 20:00:07.020 I/BackupManagerService(  948): New app com.android.providers.settings never backed up; scheduling
+01-01 20:00:07.020 I/BackupManagerService(  948): New app com.android.providers.userdictionary never backed up; scheduling
+01-01 20:00:07.020 I/BackupManagerService(  948): New app com.android.sharedstoragebackup never backed up; scheduling
+01-01 20:00:07.020 V/BackupManagerService(  948): Registering transport android/com.android.internal.backup.LocalTransport = com.android.internal.backup.LocalTransport@4161b3e0
+01-01 20:00:07.020 V/BackupManagerService(  948): Starting with transport android/com.android.internal.backup.LocalTransport
+01-01 20:00:07.020 V/BackupManagerService(  948): Google transport not present
+01-01 20:00:07.023 I/BackupManagerService(  948): Backup enabled => false
+01-01 20:00:07.023 I/BackupManagerService(  948): Opting out of backup
+01-01 20:00:07.023 I/SystemServer(  948): AppWidget Service
+01-01 20:00:07.023 I/SystemServer(  948): Recognition Service
+01-01 20:00:07.023 I/SystemServer(  948): DiskStats Service
+01-01 20:00:07.023 I/SystemServer(  948): SamplingProfiler Service
+01-01 20:00:07.028 I/SystemServer(  948): NetworkTimeUpdateService
+01-01 20:00:07.036 D/PowerManagerService(  948): system ready!
+01-01 20:00:07.039 I/ActivityManager(  948): System now ready
+01-01 20:00:07.039 I/SystemServer(  948): Making services ready
+01-01 20:00:07.207 I/ActivityManager(  948): Start proc com.mstar.dbprovider for content provider com.mstar.dbprovider/.MstTvUserSettingProvider: pid=1127 uid=10015 gids={}
+01-01 20:00:07.511 D/SystemServer(  948): Starting service: Intent { cmp=com.android.systemui/.SystemUIService }
+01-01 20:00:07.548 I/ActivityManager(  948): Start proc com.android.systemui for service com.android.systemui/.SystemUIService: pid=1143 uid=1000 gids={3003, 1015, 3002, 3001, 3004}
+01-01 20:00:07.548 D/NetworkManagementService(  948): enabling bandwidth control
+01-01 20:00:07.716 D/SystemUIService( 1143): loading: class com.android.systemui.statusbar.tablet.TabletStatusBar
+01-01 20:00:07.716 D/SystemUIService( 1143): running: com.android.systemui.statusbar.tablet.TabletStatusBar@413f9958
+01-01 20:00:08.068 D/NetworkManagementService(  948): rsp <213 a4:a8:0f:ff:ff:0e 0.0.0.0 0 [down broadcast multicast]>
+01-01 20:00:08.071 D/NetworkManagementService(  948): flags <[down broadcast multicast]>
+01-01 20:00:08.255 D/NetworkManagementService(  948): Registering observer
+01-01 20:00:08.276 D/NetworkManagementService(  948): Registering observer
+01-01 20:00:08.295 I/ActivityManager(  948): Config changed: {1.0 0mcc0mnc zh_CN layoutdir=0 sw720dp w1280dp h720dp xlrg long land -touch -keyb/v/h -nav/h s.3}
+01-01 20:00:08.303 W/RecognitionManagerService(  948): no available voice recognition services found
+01-01 20:00:08.423 V/EthernetMonitor(  948): get event 
+01-01 20:00:08.423 V/EthernetMonitor(  948): go poll events
+01-01 20:00:08.431 I/MicrophoneObserver(  948): Microphone PLUG_IN
+01-01 20:00:08.431 I/StatusBar.HeightReceiver( 1143): Resizing status bar plugged=false height=48 old=0
+01-01 20:00:08.468 W/InputManagerService(  948): Ignoring setImeWindowStatus of uid 1000 token: null
+01-01 20:00:08.500 I/ActivityManager(  948): Start proc com.android.inputmethod.pinyin for service com.android.inputmethod.pinyin/.PinyinIME: pid=1226 uid=10018 gids={3003}
+01-01 20:00:08.532 D/NetworkManagementService(  948): Registering observer
+01-01 20:00:08.548 I/SystemServer(  948): SIP Service
+01-01 20:00:08.612 W/ThrottleService(  948): unable to find stats for iface rmnet0
+01-01 20:00:08.860 I/ActivityManager(  948): Start proc com.coship.sdp.sce.tvappstore for added application com.coship.sdp.sce.tvappstore: pid=1272 uid=1000 gids={3003, 1015, 3002, 3001, 3004}
+01-01 20:00:09.364 I/ActivityManager(  948): Start proc com.iflytek.vaf.TouchKey for added application com.iflytek.vaf.TouchKey: pid=1287 uid=10029 gids={1015}
+01-01 20:00:09.367 I/ActivityManager(  948): START {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000000 cmp=com.coship.portal/.PortalLuanch} from pid 0
+01-01 20:00:09.844 I/ActivityManager(  948): Start proc com.coship.portal for activity com.coship.portal/.PortalLuanch: pid=1300 uid=10033 gids={3003, 3002, 3001, 3004, 1015}
+01-01 20:00:09.844 I/SystemServer(  948): Enabled StrictMode for system server main thread.
+01-01 20:00:09.844 I/EthernetStateTracker(  948): received interface reset event
+01-01 20:00:09.844 I/EthernetStateTracker(  948): reset device eth0
+01-01 20:00:09.916 I/EthernetStateTracker(  948): set ip manually ipaddr 192.168.1.2 gateway 192.168.1.1 netmask 255.255.255.0 dns1 0.0.0.0 dns2 0.0.0.0 DHCP server 0.0.0.0 lease 0 seconds
+01-01 20:00:09.919 V/EthernetStateTracker(  948): Static IP configuration succeeded
+01-01 20:00:09.919 I/EthernetStateTracker(  948): received configured succeeded, stack=false CC=false
+01-01 20:00:09.919 D/ConnectivityService(  948): ConnectivityChange for ETH: CONNECTED/CONNECTED
+01-01 20:00:09.932 I/EthernetStateTracker(  948): IntentBroadcast, event=1
+01-01 20:00:09.935 I/EthernetStateTracker(  948): received interface up event, kick off connection request
+01-01 20:00:09.935 E/ConnectivityService(  948): exception setting default dns interface: java.lang.IllegalStateException: Error communicating with native daemon to set dns for interface
+01-01 20:00:10.167 I/ActivityManager(  948): Start proc com.android.settings for broadcast com.android.settings/.SettingGlobalReceiver: pid=1313 uid=1000 gids={3003, 1015, 3002, 3001, 3004}
+01-01 20:00:10.167 I/EthernetStateTracker(  948): IntentBroadcast, event=5
+01-01 20:00:10.167 I/EthernetStateTracker(  948): reset device eth0
+01-01 20:00:10.239 I/EthernetStateTracker(  948): set ip manually ipaddr 192.168.1.2 gateway 192.168.1.1 netmask 255.255.255.0 dns1 0.0.0.0 dns2 0.0.0.0 DHCP server 0.0.0.0 lease 0 seconds
+01-01 20:00:10.244 V/EthernetStateTracker(  948): Static IP configuration succeeded
+01-01 20:00:10.244 I/EthernetStateTracker(  948): received configured succeeded, stack=false CC=true
+01-01 20:00:10.244 I/EthernetStateTracker(  948): setState, skip: 1
+01-01 20:00:10.244 I/EthernetStateTracker(  948): IntentBroadcast, event=1
+01-01 20:00:10.247 I/EthernetStateTracker(  948): received HW connected, stack=true CC=true
+01-01 20:00:10.567 I/ActivityManager(  948): Start proc com.google.process.gapps for service com.google.android.location/.NetworkLocationService: pid=1330 uid=10010 gids={3003, 1015, 2001, 1007}
+01-01 20:00:10.620 W/MountService(  948): getVolumeState(/mnt/usb/sda1): Unknown volume
+01-01 20:00:10.623 W/MountService(  948): getVolumeState(/mnt/usb/sda1): Unknown volume
+01-01 20:00:10.852 I/ActivityManager(  948): Start proc com.biaoqi.stbwidget.host for broadcast com.biaoqi.stbwidget.host/.NetworkStatusChangeReceiver: pid=1349 uid=10026 gids={3003}
+01-01 20:00:10.852 W/ActivityManager(  948): Unable to start service Intent { act=com.coship.sysfunc.SysFuncService }: not found
+01-01 20:00:11.188 I/StatusBarManagerService(  948): registerStatusBar bar=com.android.internal.statusbar.IStatusBar$Stub$Proxy@415f9c20
+01-01 20:00:11.303 D/SystemUIService( 1143): loading: class com.android.systemui.power.PowerUI
+01-01 20:00:11.303 D/SystemUIService( 1143): running: com.android.systemui.power.PowerUI@4142f6a0
+01-01 20:00:11.311 I/EthernetStateTracker(  948): received configured succeeded, stack=true CC=true
+01-01 20:00:11.311 I/EthernetStateTracker(  948): setState, skip: 1
+01-01 20:00:11.311 I/EthernetStateTracker(  948): IntentBroadcast, event=1
+01-01 20:00:11.319 I/EthernetStateTracker(  948): received configured succeeded, stack=true CC=true
+01-01 20:00:11.319 I/StatusBar.HeightReceiver( 1143): Resizing status bar plugged=false height=48 old=48
+01-01 20:00:11.319 I/EthernetStateTracker(  948): setState, skip: 1
+01-01 20:00:11.324 I/EthernetStateTracker(  948): IntentBroadcast, event=1
+01-01 20:00:11.332 I/StatusBar.HeightReceiver( 1143): Resizing status bar plugged=false height=48 old=48
+01-01 20:00:11.868 D/WifiService(  948): New client listening to asynchronous messages
+01-01 20:00:12.220 D/PowerManagerService(  948): bootCompleted
+01-01 20:00:12.220 V/DevicePolicyManagerService(  948): Sending password expiration notifications for action android.intent.action.BOOT_COMPLETED
+01-01 20:00:12.276 V/WiredAccessoryObserver(  948): init()
+01-01 20:00:12.276 W/WiredAccessoryObserver(  948): This kernel does not have wired headset support
+01-01 20:00:12.279 W/WiredAccessoryObserver(  948): This kernel does not have wired headset support
+01-01 20:00:12.287 W/WiredAccessoryObserver(  948): This kernel does not have wired headset support
+01-01 20:00:12.383 I/ActivityManager(  948): Start proc com.android.contacts for broadcast com.android.contacts/.calllog.CallLogReceiver: pid=1442 uid=10000 gids={3003, 1015}
+01-01 20:00:12.823 V/TabletStatusBar( 1143): setLightsOn(true)
+01-01 20:00:14.663 I/ActivityManager(  948): Start proc com.coship.HS for broadcast com.coship.HS/.AutoStartReceiver: pid=1479 uid=1000 gids={3003, 1015, 3002, 3001, 3004}
+01-01 20:00:14.716 V/EthernetMonitor(  948): get event 
+01-01 20:00:14.716 V/EthernetMonitor(  948): go poll events
+01-01 20:00:14.740 V/EthernetMonitor(  948): get event 
+01-01 20:00:14.740 V/EthernetMonitor(  948): go poll events
+01-01 20:00:14.740 V/EthernetMonitor(  948): get event 
+01-01 20:00:14.740 V/EthernetMonitor(  948): go poll events
+01-01 20:00:14.740 V/EthernetMonitor(  948): get event 
+01-01 20:00:14.740 V/EthernetMonitor(  948): go poll events
+01-01 20:00:14.740 V/EthernetMonitor(  948): get event 
+01-01 20:00:14.740 V/EthernetMonitor(  948): go poll events
+01-01 20:00:14.743 V/EthernetMonitor(  948): get event 
+01-01 20:00:14.743 V/EthernetMonitor(  948): go poll events
+01-01 20:00:14.759 V/EthernetMonitor(  948): get event 
+01-01 20:00:14.759 V/EthernetMonitor(  948): go poll events
+01-01 20:00:14.764 V/EthernetMonitor(  948): get event 
+01-01 20:00:14.764 V/EthernetMonitor(  948): go poll events
+01-01 20:00:14.996 I/ActivityManager(  948): Start proc android.process.acore for content provider com.android.providers.contacts/.CallLogProvider: pid=1498 uid=10000 gids={3003, 1015}
+01-01 20:00:15.215 I/ActivityManager(  948): Start proc android.process.media for content provider com.android.providers.downloads/.DownloadProvider: pid=1512 uid=10009 gids={1015, 1023, 1024, 2001, 3003, 3007}
+01-01 20:00:15.388 I/ActivityManager(  948): Start proc com.android.phone for content provider com.android.providers.telephony/.TelephonyProvider: pid=1525 uid=1001 gids={1015}
+01-01 20:00:16.580 V/EthernetMonitor(  948): get event 
+01-01 20:00:16.580 V/EthernetMonitor(  948): go poll events
+01-01 20:00:17.692 I/ActivityManager(  948): Start proc com.android.providers.calendar for broadcast com.android.providers.calendar/.CalendarReceiver: pid=1570 uid=10004 gids={3003, 1015}
+01-01 20:00:17.759 D/ConnectivityService(  948): ConnectivityChange for WIFI: CONNECTED/CONNECTED
+01-01 20:00:17.759 D/ConnectivityService(  948): Policy requires ETH teardown
+01-01 20:00:17.759 I/EthernetStateTracker(  948): stop dhcp and interface
+01-01 20:00:17.783 W/MountService(  948): getVolumeState(/mnt/usb/sda1): Unknown volume
+01-01 20:00:17.855 V/EthernetMonitor(  948): get event eth0:17:
+01-01 20:00:17.855 V/EthernetMonitor(  948): dev: eth0 ev 17
+01-01 20:00:17.855 I/EthernetStateTracker(  948): report new state DISCONNECTED on dev eth0
+01-01 20:00:17.855 V/EthernetStateTracker(  948): update network state tracker
+01-01 20:00:17.855 V/EthernetMonitor(  948): go poll events
+01-01 20:00:17.855 I/EthernetStateTracker(  948): received disconnected events, stack=true CC=true
+01-01 20:00:17.863 V/EthernetMonitor(  948): get event eth0:21:
+01-01 20:00:17.863 V/EthernetMonitor(  948): dev: eth0 ev 21
+01-01 20:00:17.863 V/EthernetStateTracker(  948): report address is removed for eth0
+01-01 20:00:17.999 I/EthernetStateTracker(  948): stop dhcp and interface
+01-01 20:00:18.167 W/EthernetStateTracker(  948): stopInterface --> clearAddresses ret = true
+01-01 20:00:18.167 I/EthernetStateTracker(  948): IntentBroadcast, event=4
+01-01 20:00:18.172 V/EthernetMonitor(  948): go poll events
+01-01 20:00:18.175 I/EthernetStateTracker(  948): received interface address remove event
+01-01 20:00:18.175 V/EthernetStateTracker(  948): configureInterfaceAutoIP skip!
+01-01 20:00:18.175 I/PppoeStateTracker(  948): receive EthernetStateTracker.EVENT_HW_DISCONNECTED
+01-01 20:00:18.191 D/ConnectivityService(  948): ConnectivityChange for WIFI: CONNECTED/CONNECTED
+01-01 20:00:18.204 D/ConnectivityService(  948): handleConnectivityChange: address are the same reset per doReset linkProperty[1]: resetMask=0
+01-01 20:00:18.215 D/ConnectivityService(  948): ConnectivityChange for ETH: DISCONNECTED/DISCONNECTED
+01-01 20:00:18.215 E/MobileDataStateTracker(  948): default: Ignoring feature request because could not acquire PhoneService
+01-01 20:00:18.215 E/MobileDataStateTracker(  948): default: Could not enable APN type "default"
+01-01 20:00:18.215 D/ConnectivityService(  948): Attempting to switch to mobile
+01-01 20:00:18.215 D/ConnectivityService(  948): Attempting to switch to WIFI
+01-01 20:00:18.215 D/ConnectivityService(  948): Attempting to switch to pppoe
+01-01 20:00:18.364 I/ActivityManager(  948): Start proc com.coship.cw880 for broadcast com.coship.cw880/.BootCw880Recive: pid=1595 uid=1000 gids={3003, 1015, 3002, 3001, 3004}
+01-01 20:00:19.060 I/ActivityManager(  948): START {flg=0x10000000 cmp=com.google.android.gsf/.update.SystemUpdateInstallDialog} from pid 1330
+01-01 20:00:19.292 I/ActivityManager(  948): Start proc com.iflytek.vac for broadcast com.iflytek.vaf/com.iflytek.vocmd.Loader: pid=1622 uid=10027 gids={3003, 1015}
+01-01 20:00:19.471 I/ActivityManager(  948): Start proc com.coship.changetheaudiooutput for broadcast com.coship.changetheaudiooutput/.BootCompletedReceiver: pid=1635 uid=10031 gids={3002, 3001, 3004}
+01-01 20:00:19.479 W/InputManagerService(  948): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@415d82e8
+01-01 20:00:19.612 I/ActivityManager(  948): Start proc com.iflytek.vaf.svc.rec for service com.iflytek.vaf/.svc.VAFSvc: pid=1652 uid=10027 gids={3003, 1015}
+01-01 20:00:19.791 I/ActivityManager(  948): Start proc com.coship.Multimedia for broadcast com.coship.Multimedia/.view.BootCompletedReceiver: pid=1666 uid=1000 gids={3003, 1015, 3002, 3001, 3004}
+01-01 20:00:20.103 I/ActivityManager(  948): Start proc com.iflytek.xiri.recorder.svc for service com.iflytek.xiri.recorder.svc/.PCMRecorderSvc: pid=1679 uid=10028 gids={3003, 1015}
+01-01 20:00:20.212 I/ActivityManager(  948): Start proc com.coship.TestApp for broadcast com.coship.TestApp/.BootCompletedReceiver: pid=1694 uid=1000 gids={3003, 1015, 3002, 3001, 3004}
+01-01 20:00:20.279 I/ActivityManager(  948): Start proc com.iflytek.speech for service com.iflytek.speech/.SpeechService: pid=1706 uid=10023 gids={1015, 3003, 1007}
+01-01 20:00:20.455 W/ActivityManager(  948): Permission Denial: receiving Intent { act=android.intent.action.BOOT_COMPLETED } to com.coship.portal requires android.permission.RECEIVE_BOOT_COMPLETED due to sender null (uid 1000)
+01-01 20:00:20.519 I/ActivityManager(  948): Start proc com.coship.startwizard for broadcast com.coship.startwizard/.service.BootBroadcastReceiver: pid=1726 uid=1000 gids={3003, 1015, 3002, 3001, 3004}
+01-01 20:00:21.111 I/ActivityManager(  948): Start proc com.coship.stpservice for broadcast com.coship.stpservice/.StpReceiver: pid=1745 uid=1000 gids={3003, 1015, 3002, 3001, 3004}
+01-01 20:00:21.287 W/ActivityManager(  948): Permission Denial: receiving Intent { act=android.intent.action.BOOT_COMPLETED } to cn.tvbox requires android.permission.RECEIVE_BOOT_COMPLETED due to sender null (uid 1000)
+01-01 20:00:21.327 I/ActivityManager(  948): Start proc com.aidufei.movieonline for broadcast com.aidufei.movieonline/com.aidufei.otoService.BootReceiver: pid=1764 uid=1000 gids={3003, 1015, 3002, 3001, 3004}
+01-01 20:00:21.724 I/ActivityManager(  948): Start proc cn.tvbox for broadcast cn.tvbox/.receiver.NetworkConnectivityReceiver: pid=1782 uid=10034 gids={1015, 3003}
+03-21 17:18:03.188 I/ActivityManager(  948): Start proc com.coship.adjustthevolume for broadcast com.coship.adjustthevolume/.BootCompletedReceiver: pid=1828 uid=1000 gids={3003, 1015, 3002, 3001, 3004}
+03-21 17:18:03.392 V/CheckBackdoors( 1745): add new backdoor. actionName=com.coship.adjustthevolume, backdoor.mBackdoorKey=0x5252525252
+03-21 17:18:03.420 V/CheckBackdoors( 1745): add new backdoor. actionName=com.coship.adjustthevolume.Volup, backdoor.mBackdoorKey=0x18
+03-21 17:18:03.456 V/CheckBackdoors( 1745): add new backdoor. actionName=com.coship.adjustthevolume.VolDown, backdoor.mBackdoorKey=0x19
+03-21 17:18:03.692 I/ActivityManager(  948): Process com.coship.sdp.sce.tvappstore (pid 1272) has died.
+03-21 17:18:03.692 W/ActivityManager(  948): Scheduling restart of crashed service com.coship.sdp.sce.tvappstore/.app.service.AppStoreCoreService in 1250ms
+03-21 17:18:03.724 I/ActivityManager(  948): Start proc com.coship.sdp.sce.tvappstore for restart com.coship.sdp.sce.tvappstore: pid=1855 uid=1000 gids={3003, 1015, 3002, 3001, 3004}
+03-21 17:18:04.028 I/ActivityManager(  948): Start proc com.iflytek.xiri.remotecmd for service com.iflytek.xiri.remotecmd/com.iflytek.xiri.vocmd.MyService: pid=1870 uid=10030 gids={}
+03-21 17:18:04.312 W/MountService(  948): getVolumeState(/mnt/usb/sda1): Unknown volume
+03-21 17:18:04.324 W/MountService(  948): getVolumeState(/mnt/usb/sda1): Unknown volume
+03-21 17:18:04.592 I/ActivityManager(  948): START {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x14200000 pkg=com.coship.dvbsetting cmp=com.coship.dvbsetting/.main} from pid 1300
+--------- beginning of /dev/log/main
+03-21 17:18:04.728 D/dalvikvm(  948): GC_FOR_ALLOC freed 14K, 52% free 4493K/9219K, paused 43ms
+03-21 17:18:04.792 D/ConnectivityService(  948): handleInetConditionHoldEnd: net=1, condition=0, published condition=0
+03-21 17:18:04.812 D/dalvikvm(  948): GC_CONCURRENT freed <1K, 51% free 4574K/9219K, paused 3ms+4ms
+03-21 17:18:04.924 I/ActivityManager(  948): Start proc com.coship.dvbsetting for activity com.coship.dvbsetting/.main: pid=1887 uid=1000 gids={3003, 1015, 3002, 3001, 3004}
+03-21 17:18:05.032 D/dalvikvm(  737): GC_EXPLICIT freed 41K, 44% free 6574K/11651K, paused 4ms+5ms
+03-21 17:18:05.072 D/dalvikvm(  737): GC_EXPLICIT freed <1K, 44% free 6574K/11651K, paused 4ms+2ms
+03-21 17:18:05.112 D/dalvikvm(  737): GC_EXPLICIT freed <1K, 44% free 6574K/11651K, paused 2ms+3ms
+03-21 17:18:05.144 D/MonitorCw880( 1595): currentRemoteHost is null ,continue
+03-21 17:18:05.260 D/dalvikvm( 1887): GC_FOR_ALLOC freed 97K, 43% free 6646K/11651K, paused 45ms
+03-21 17:18:05.548 I/Process (  948): Sending signal. PID: 1887 SIG: 3
+03-21 17:18:05.548 I/dalvikvm( 1887): threadid=3: reacting to signal 3
+03-21 17:18:05.624 I/dalvikvm-heap( 1887): Grow heap (frag case) to 18.000MB for 8294416-byte allocation
+03-21 17:18:05.724 I/dalvikvm( 1887): Wrote stack traces to '/data/anr/traces.txt'
+03-21 17:18:05.800 D/dalvikvm( 1887): GC_CONCURRENT freed 1K, 26% free 14744K/19779K, paused 2ms+6ms
+03-21 17:18:06.044 I/Process (  948): Sending signal. PID: 1887 SIG: 3
+03-21 17:18:06.044 I/dalvikvm( 1887): threadid=3: reacting to signal 3
+03-21 17:18:06.060 I/dalvikvm( 1887): Wrote stack traces to '/data/anr/traces.txt'
+03-21 17:18:06.084 V/TabletStatusBar( 1143): setLightsOn(true)
+03-21 17:18:06.124 W/InputManagerService(  948): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@415d5650 (uid=10033 pid=1300)
+03-21 17:18:06.232 I/ActivityManager(  948): Displayed com.coship.dvbsetting/.main: +1s336ms (total +10s402ms)
+03-21 17:18:08.052 D/HomePlayerLib( 1666): hostaddress count is 1
+03-21 17:18:08.428 D/dalvikvm( 1666): GC_CONCURRENT freed 2053K, 44% free 7375K/13123K, paused 108ms+3ms
+03-21 17:18:08.728 E/BluetoothService.cpp(  948): setBluetoothTetheringNative true
+03-21 17:18:08.796 D/dalvikvm( 1330): GC_CONCURRENT freed 430K, 64% free 2352K/6531K, paused 11ms+3ms
+03-21 17:18:08.852 D/BluetoothEventLoop(  948): Property Changed: UUIDs : 6
+03-21 17:18:08.852 D/BluetoothEventLoop(  948): Property Changed: UUIDs : 7
+03-21 17:18:08.852 D/BluetoothEventLoop(  948): Property Changed: UUIDs : 8
+03-21 17:18:08.856 D/BluetoothEventLoop(  948): Property Changed: UUIDs : 9
+03-21 17:18:08.856 D/BluetoothAdapterStateMachine(  948): WarmUp process message: 51
+03-21 17:18:08.972 D/dalvikvm( 1512): GC_CONCURRENT freed 520K, 63% free 2516K/6787K, paused 2ms+4ms
+03-21 17:18:09.072 I/main_setcenter( 1887): BackDoorIndex:0
+03-21 17:18:09.072 I/main_setcenter( 1887): BackDoorKey[BackDoorIndex]:21
+03-21 17:18:09.072 I/main_setcenter( 1887): KeyCode:66
+03-21 17:18:09.140 D/dalvikvm( 1666): GC_FOR_ALLOC freed 2082K, 46% free 7208K/13123K, paused 52ms
+03-21 17:18:09.184 W/CheckinRequestBuilder( 1330): Unknown phone type: 0 id=null
+03-21 17:18:09.220 I/CheckinTask( 1330): Checkin success: https://android.clients.google.com/checkin (1 requests sent)
+03-21 17:18:09.240 I/ActivityManager(  948): START {cmp=com.coship.dvbsetting/.netsetting.netSet} from pid 1887
+03-21 17:18:09.364 D/dalvikvm( 1887): GC_FOR_ALLOC freed 87K, 24% free 15083K/19779K, paused 29ms
+03-21 17:18:09.708 I/dalvikvm-heap( 1887): Grow heap (frag case) to 26.240MB for 8294416-byte allocation
+03-21 17:18:09.748 D/dalvikvm( 1887): GC_CONCURRENT freed 3K, 17% free 23180K/27907K, paused 3ms+2ms
+03-21 17:18:09.768 I/Process (  948): Sending signal. PID: 1887 SIG: 3
+03-21 17:18:09.768 I/dalvikvm( 1887): threadid=3: reacting to signal 3
+03-21 17:18:09.772 I/dalvikvm( 1887): Wrote stack traces to '/data/anr/traces.txt'
+03-21 17:18:09.976 I/MediaScannerService( 1512): ===========================================
+03-21 17:18:09.976 I/MediaScannerService( 1512): ====== ACTION_MEDIA_SCANNER_FINISHED ======
+03-21 17:18:09.976 I/MediaScannerService( 1512): ===========================================
+03-21 17:18:10.056 I/EthernetManager( 1887): Init Ethernet Manager, service: android.net.ethernet.IEthernetManager$Stub$Proxy@415350f0
+03-21 17:18:10.144 D/MonitorCw880( 1595): currentRemoteHost is null ,continue
+03-21 17:18:10.268 I/Process (  948): Sending signal. PID: 1887 SIG: 3
+03-21 17:18:10.268 I/dalvikvm( 1887): threadid=3: reacting to signal 3
+03-21 17:18:10.436 I/dalvikvm( 1887): Wrote stack traces to '/data/anr/traces.txt'
+03-21 17:18:10.456 I/WifiP2PsetDialog( 1887): SystemPropertiesClass:class android.net.wifi.p2p.WifiP2pManager
+03-21 17:18:10.456 W/WifiP2PsetDialog( 1887): ~~~~~~~~~~~~~~~~~~~~~~method:public java.lang.String android.net.wifi.p2p.WifiP2pManager.getWifip2pConfig(int)
+03-21 17:18:10.456 W/WifiP2PsetDialog( 1887): ~~~~~~~~~~~~~~~~~~~~~~returnvalue:ly
+03-21 17:18:10.528 D/dalvikvm( 1887): GC_FOR_ALLOC freed 98K, 15% free 24544K/28867K, paused 30ms
+03-21 17:18:10.540 W/ResourceType( 1887): getEntry failing because entryIndex 129 is beyond type entryCount 1
+03-21 17:18:10.672 D/dalvikvm( 1887): GC_FOR_ALLOC freed 29K, 15% free 24932K/29251K, paused 30ms
+03-21 17:18:10.700 I/dalvikvm-heap( 1887): Grow heap (frag case) to 29.702MB for 1838524-byte allocation
+03-21 17:18:10.772 I/Process (  948): Sending signal. PID: 1887 SIG: 3
+03-21 17:18:10.772 I/dalvikvm( 1887): threadid=3: reacting to signal 3
+03-21 17:18:10.788 D/dalvikvm( 1887): GC_FOR_ALLOC freed 1K, 15% free 26726K/31107K, paused 31ms
+03-21 17:18:10.800 I/dalvikvm( 1887): Wrote stack traces to '/data/anr/traces.txt'
+03-21 17:18:10.868 D/dalvikvm( 1887): GC_FOR_ALLOC freed 10K, 14% free 26835K/31107K, paused 30ms
+03-21 17:18:10.904 I/dalvikvm-heap( 1887): Grow heap (frag case) to 31.560MB for 1838524-byte allocation
+03-21 17:18:10.992 D/dalvikvm( 1887): GC_FOR_ALLOC freed 1K, 14% free 28629K/32963K, paused 29ms
+03-21 17:18:10.996 I/HighSet_CableNetwork( 1887): mEthernetManager:android.net.ethernet.EthernetManager@4143eae0
+03-21 17:18:11.020 I/PppoeManager( 1887): create PppoeManager
+03-21 17:18:11.064 I/NetworkConnect( 1887): ////@Override////@Override////@Override////@Override////@Override////@Override////@Override////@Override
+03-21 17:18:11.064 I/NetworkConnect( 1887): Execute command :ping -c 1 -w 100 www.baidu.com
+03-21 17:18:11.096 V/TabletStatusBar( 1143): setLightsOn(true)
+03-21 17:18:11.220 I/NetworkConnect( 1887): ////@Override////@Override////@Override////@Override////@Override////@Override////@Override////@Override0
+03-21 17:18:11.220 I/System  ( 1887): Failed to destroy process 1923
+03-21 17:18:11.224 I/System  ( 1887): libcore.io.ErrnoException: kill failed: ESRCH (No such process)
+03-21 17:18:11.224 I/System  ( 1887): 	at libcore.io.Posix.kill(Native Method)
+03-21 17:18:11.224 I/System  ( 1887): 	at libcore.io.ForwardingOs.kill(ForwardingOs.java:77)
+03-21 17:18:11.224 I/System  ( 1887): 	at java.lang.ProcessManager$ProcessImpl.destroy(ProcessManager.java:257)
+03-21 17:18:11.224 I/System  ( 1887): 	at com.coship.dvbsetting.netsetting.quicksetservice.NetworkConnect.execueteCommand(NetworkConnect.java:167)
+03-21 17:18:11.224 I/System  ( 1887): 	at com.coship.dvbsetting.netsetting.quicksetservice.NetworkConnect.CheckNet(NetworkConnect.java:70)
+03-21 17:18:11.224 I/System  ( 1887): 	at com.coship.dvbsetting.netsetting.StateSet$1$1.run(StateSet.java:212)
+03-21 17:18:11.224 I/System  ( 1887): 	at java.lang.Thread.run(Thread.java:856)
+03-21 17:18:11.272 I/Process (  948): Sending signal. PID: 1887 SIG: 3
+03-21 17:18:11.272 I/dalvikvm( 1887): threadid=3: reacting to signal 3
+03-21 17:18:11.312 I/dalvikvm( 1887): Wrote stack traces to '/data/anr/traces.txt'
+03-21 17:18:11.336 I/StateSet( 1887): -----wifi------dhcpinfo.toString()=ipaddr 192.168.1.3 gateway 192.168.1.1 netmask 255.255.255.0 dns1 192.168.1.1 dns2 0.0.0.0 DHCP server 192.168.1.1 lease 86400 seconds
+03-21 17:18:11.348 I/NetworkConnect( 1887): ////@Override////@Override////@Override////@Override////@Override////@Override////@Override////@Override
+03-21 17:18:11.348 I/NetworkConnect( 1887): Execute command :ping -c 1 -w 100 www.baidu.com
+03-21 17:18:11.492 I/ActivityManager(  948): Displayed com.coship.dvbsetting/.netsetting.netSet: +2s226ms
+03-21 17:18:11.528 I/NetworkConnect( 1887): ////@Override////@Override////@Override////@Override////@Override////@Override////@Override////@Override0
+03-21 17:18:11.528 I/System  ( 1887): Failed to destroy process 1925
+03-21 17:18:11.528 I/System  ( 1887): libcore.io.ErrnoException: kill failed: ESRCH (No such process)
+03-21 17:18:11.528 I/System  ( 1887): 	at libcore.io.Posix.kill(Native Method)
+03-21 17:18:11.528 I/System  ( 1887): 	at libcore.io.ForwardingOs.kill(ForwardingOs.java:77)
+03-21 17:18:11.528 I/System  ( 1887): 	at java.lang.ProcessManager$ProcessImpl.destroy(ProcessManager.java:257)
+03-21 17:18:11.528 I/System  ( 1887): 	at com.coship.dvbsetting.netsetting.quicksetservice.NetworkConnect.execueteCommand(NetworkConnect.java:167)
+03-21 17:18:11.528 I/System  ( 1887): 	at com.coship.dvbsetting.netsetting.quicksetservice.NetworkConnect.CheckNet(NetworkConnect.java:70)
+03-21 17:18:11.528 I/System  ( 1887): 	at com.coship.dvbsetting.netsetting.StateSet$2.run(StateSet.java:458)
+03-21 17:18:11.528 I/System  ( 1887): 	at java.lang.Thread.run(Thread.java:856)
+03-21 17:18:11.572 I/StateSet( 1887): -----wifi------dhcpinfo.toString()=ipaddr 192.168.1.3 gateway 192.168.1.1 netmask 255.255.255.0 dns1 192.168.1.1 dns2 0.0.0.0 DHCP server 192.168.1.1 lease 86400 seconds
+03-21 17:18:11.952 I/NetworkConnect( 1887): ////@Override////@Override////@Override////@Override////@Override////@Override////@Override////@Override
+03-21 17:18:11.952 I/NetworkConnect( 1887): Execute command :ping -c 1 -w 100 www.baidu.com
+03-21 17:18:12.140 I/NetworkConnect( 1887): ////@Override////@Override////@Override////@Override////@Override////@Override////@Override////@Override0
+03-21 17:18:12.140 I/System  ( 1887): Failed to destroy process 1928
+03-21 17:18:12.140 I/System  ( 1887): libcore.io.ErrnoException: kill failed: ESRCH (No such process)
+03-21 17:18:12.140 I/System  ( 1887): 	at libcore.io.Posix.kill(Native Method)
+03-21 17:18:12.140 I/System  ( 1887): 	at libcore.io.ForwardingOs.kill(ForwardingOs.java:77)
+03-21 17:18:12.140 I/System  ( 1887): 	at java.lang.ProcessManager$ProcessImpl.destroy(ProcessManager.java:257)
+03-21 17:18:12.140 I/System  ( 1887): 	at com.coship.dvbsetting.netsetting.quicksetservice.NetworkConnect.execueteCommand(NetworkConnect.java:167)
+03-21 17:18:12.140 I/System  ( 1887): 	at com.coship.dvbsetting.netsetting.quicksetservice.NetworkConnect.CheckNet(NetworkConnect.java:70)
+03-21 17:18:12.140 I/System  ( 1887): 	at com.coship.dvbsetting.netsetting.StateSet$2.run(StateSet.java:458)
+03-21 17:18:12.140 I/System  ( 1887): 	at java.lang.Thread.run(Thread.java:856)
+03-21 17:18:12.144 I/StateSet( 1887): -----wifi------dhcpinfo.toString()=ipaddr 192.168.1.3 gateway 192.168.1.1 netmask 255.255.255.0 dns1 192.168.1.1 dns2 0.0.0.0 DHCP server 192.168.1.1 lease 86400 seconds
+03-21 17:18:15.144 D/MonitorCw880( 1595): currentRemoteHost is null ,continue
+03-21 17:18:15.208 I/BluetoothSet( 1887): ---------show-------RegisterBluetoothReceiver()
+03-21 17:18:16.540 I/HighSet_CableNetwork( 1887): [SelectConnectMode] ~~~~~~~~~~~~~~~~~~~~~~~~~ConnectMode:manual
+03-21 17:18:19.176 D/HomePlayerLib( 1666): hostaddress count is 1
+03-21 17:18:19.396 D/dalvikvm( 1666): GC_CONCURRENT freed 1913K, 45% free 7328K/13123K, paused 16ms+3ms
+03-21 17:18:19.936 D/dalvikvm( 1666): GC_CONCURRENT freed 2037K, 45% free 7334K/13123K, paused 2ms+3ms
+03-21 17:18:20.144 D/MonitorCw880( 1595): currentRemoteHost is null ,continue
+03-21 17:18:20.852 I/HighSet_WirlessNetwork( 1887): ------------BroadcastReceiverRegistered---------
+03-21 17:18:20.864 I/HighSet_WirlessNetwork( 1887): -------------------------SSID= apple_route_01 ----------Adress= 20:c9:d0:23:2e:4d
+03-21 17:18:20.864 I/HighSet_WirlessNetwork( 1887): -------------------------SSID= Momokan ----------Adress= 20:c9:d0:23:07:7b
+03-21 17:18:20.864 V/HighSet_WirlessNetwork( 1887): !!!!!!!! remove ssid:SmartBox6
+03-21 17:18:20.868 I/HighSet_WirlessNetwork( 1887): -----------------------wifi����-------------------
+03-21 17:18:21.052 V/HighSet_WirlessNetwork( 1887): !!!!!<BroadcastReceiver>====wifi opened==
+03-21 17:18:21.056 I/HighSet_WirlessNetwork( 1887): -----------------------wifi����-------------------
+03-21 17:18:21.068 I/HighSet_WirlessNetwork( 1887): -------------------------SSID= apple_route_01 ----------Adress= 20:c9:d0:23:2e:4d
+03-21 17:18:21.072 I/HighSet_WirlessNetwork( 1887): -------------------------SSID= Momokan ----------Adress= 20:c9:d0:23:07:7b
+03-21 17:18:21.072 V/HighSet_WirlessNetwork( 1887): !!!!!!!! remove ssid:SmartBox6
+03-21 17:18:21.080 I/HighSet_WirlessNetwork( 1887): -------------------------SSID= apple_route_01 ----------Adress= 20:c9:d0:23:2e:4d
+03-21 17:18:21.080 I/HighSet_WirlessNetwork( 1887): -------------------------SSID= Momokan ----------Adress= 20:c9:d0:23:07:7b
+03-21 17:18:21.080 V/HighSet_WirlessNetwork( 1887): !!!!!!!! remove ssid:SmartBox6
+03-21 17:18:22.292 I/HighSet_CableNetwork( 1887): [SelectConnectMode] ~~~~~~~~~~~~~~~~~~~~~~~~~ConnectMode:manual
+03-21 17:18:24.828 V/TabletStatusBar( 1143): setLightsOn(true)
+03-21 17:18:24.956 D/InputEventConsistencyVerifier( 1887): KeyEvent: ACTION_UP but key was not down.
+03-21 17:18:24.956 D/InputEventConsistencyVerifier( 1887):   in Handler (android.view.ViewRootImpl) {4175ff08}
+03-21 17:18:24.956 D/InputEventConsistencyVerifier( 1887):   0: sent at 56336000000, KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=158, metaState=0, flags=0x8, repeatCount=0, eventTime=56336, downTime=56177, deviceId=2, source=0x101 }
+03-21 17:18:24.956 D/InputEventConsistencyVerifier( 1887):   -- recent events --
+03-21 17:18:24.956 D/InputEventConsistencyVerifier( 1887):   1: sent at 40608000000, KeyEvent { action=ACTION_UP, keyCode=KEYCODE_ENTER, scanCode=28, metaState=0, flags=0x8, repeatCount=0, eventTime=40608, downTime=40443, deviceId=2, source=0x101 }
+03-21 17:18:24.956 D/InputEventConsistencyVerifier( 1887):   2: sent at 40443000000, KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_ENTER, scanCode=28, metaState=0, flags=0x8, repeatCount=0, eventTime=40443, downTime=40443, deviceId=2, source=0x101 }
+03-21 17:18:25.144 D/MonitorCw880( 1595): currentRemoteHost is null ,continue
+03-21 17:18:25.156 I/BluetoothSet( 1887): ---------------UnregisterBluetoothReceiver()------------
+03-21 17:18:25.156 I/HighSet_WirlessNetwork( 1887): --------------unregisterReceiver
+03-21 17:18:25.160 I/WifiDirectSetting( 1887): --------------UnregisterWifidisplayReceiver------------
+03-21 17:18:25.160 I/WifiApSetting( 1887): ---------------UnregisterWifiApReceiver--------------
+03-21 17:18:25.188 E/ActivityThread( 1887): Activity com.coship.dvbsetting.netsetting.netSet has leaked ServiceConnection android.bluetooth.BluetoothHeadset$1@41588ed8 that was originally bound here
+03-21 17:18:25.188 E/ActivityThread( 1887): android.app.ServiceConnectionLeaked: Activity com.coship.dvbsetting.netsetting.netSet has leaked ServiceConnection android.bluetooth.BluetoothHeadset$1@41588ed8 that was originally bound here
+03-21 17:18:25.188 E/ActivityThread( 1887): 	at android.app.LoadedApk$ServiceDispatcher.<init>(LoadedApk.java:936)
+03-21 17:18:25.188 E/ActivityThread( 1887): 	at android.app.LoadedApk.getServiceDispatcher(LoadedApk.java:830)
+03-21 17:18:25.188 E/ActivityThread( 1887): 	at android.app.ContextImpl.bindService(ContextImpl.java:1142)
+03-21 17:18:25.188 E/ActivityThread( 1887): 	at android.content.ContextWrapper.bindService(ContextWrapper.java:370)
+03-21 17:18:25.188 E/ActivityThread( 1887): 	at android.bluetooth.BluetoothHeadset.<init>(BluetoothHeadset.java:231)
+03-21 17:18:25.188 E/ActivityThread( 1887): 	at android.bluetooth.BluetoothAdapter.getProfileProxy(BluetoothAdapter.java:1168)
+03-21 17:18:25.188 E/ActivityThread( 1887): 	at com.coship.dvbsetting.bluetooth.HeadsetProfile.<init>(HeadsetProfile.java:111)
+03-21 17:18:25.188 E/ActivityThread( 1887): 	at com.coship.dvbsetting.netsetting.BluetoothSet.init(BluetoothSet.java:153)
+03-21 17:18:25.188 E/ActivityThread( 1887): 	at com.coship.dvbsetting.netsetting.BluetoothSet.<init>(BluetoothSet.java:124)
+03-21 17:18:25.188 E/ActivityThread( 1887): 	at com.coship.dvbsetting.netsetting.BluetoothSet.getInstance(BluetoothSet.java:103)
+03-21 17:18:25.188 E/ActivityThread( 1887): 	at com.coship.dvbsetting.netsetting.netSet.onCreate(netSet.java:77)
+03-21 17:18:25.188 E/ActivityThread( 1887): 	at android.app.Activity.performCreate(Activity.java:4465)
+03-21 17:18:25.188 E/ActivityThread( 1887): 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1049)
+03-21 17:18:25.188 E/ActivityThread( 1887): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:1920)
+03-21 17:18:25.188 E/ActivityThread( 1887): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:1981)
+03-21 17:18:25.188 E/ActivityThread( 1887): 	at android.app.ActivityThread.access$600(ActivityThread.java:123)
+03-21 17:18:25.188 E/ActivityThread( 1887): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1147)
+03-21 17:18:25.188 E/ActivityThread( 1887): 	at android.os.Handler.dispatchMessage(Handler.java:99)
+03-21 17:18:25.188 E/ActivityThread( 1887): 	at android.os.Looper.loop(Looper.java:137)
+03-21 17:18:25.188 E/ActivityThread( 1887): 	at android.app.ActivityThread.main(ActivityThread.java:4424)
+03-21 17:18:25.188 E/ActivityThread( 1887): 	at java.lang.reflect.Method.invokeNative(Native Method)
+03-21 17:18:25.188 E/ActivityThread( 1887): 	at java.lang.reflect.Method.invoke(Method.java:511)
+03-21 17:18:25.188 E/ActivityThread( 1887): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:848)
+03-21 17:18:25.188 E/ActivityThread( 1887): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:575)
+03-21 17:18:25.188 E/ActivityThread( 1887): 	at dalvik.system.NativeStart.main(Native Method)
+03-21 17:18:25.192 W/ActivityManager(  948): Unbind failed: could not find connection for android.os.BinderProxy@416c34a8
+03-21 17:18:25.516 I/main_setcenter( 1887): BackDoorIndex:0
+03-21 17:18:25.516 I/main_setcenter( 1887): BackDoorKey[BackDoorIndex]:21
+03-21 17:18:25.516 I/main_setcenter( 1887): KeyCode:4
+03-21 17:18:25.596 D/dalvikvm(  948): GC_CONCURRENT freed 1882K, 61% free 3657K/9283K, paused 8ms+4ms
+03-21 17:18:25.604 V/PortalLuanch( 1300): onStart
+03-21 17:18:25.604 V/PortalLuanch( 1300): onResume
+03-21 17:18:25.612 D/PortalLuanch( 1300): find app procname=com.android.inputmethod.pinyin importance=130
+03-21 17:18:25.628 D/PortalLuanch( 1300): find app procname=com.android.systemui importance=200
+03-21 17:18:25.632 D/PortalLuanch( 1300): find app procname=com.coship.HS importance=200
+03-21 17:18:25.632 D/PortalLuanch( 1300): find app procname=com.google.process.gapps importance=400
+03-21 17:18:25.632 W/luancher( 1300): android.content.pm.PackageManager$NameNotFoundException: com.google.process.gapps
+03-21 17:18:25.632 D/PortalLuanch( 1300): find app procname=system importance=100
+03-21 17:18:25.632 D/PortalLuanch( 1300): find app procname=com.coship.dvbsetting importance=200
+03-21 17:18:25.636 D/PortalLuanch( 1300): find app procname=com.coship.sdp.sce.tvappstore importance=100
+03-21 17:18:25.636 D/PortalLuanch( 1300): find app procname=com.iflytek.xiri.remotecmd importance=300
+03-21 17:18:25.636 D/PortalLuanch( 1300): find app procname=com.android.providers.calendar importance=400
+03-21 17:18:25.636 D/PortalLuanch( 1300): find app procname=com.biaoqi.stbwidget.host importance=400
+03-21 17:18:25.636 D/PortalLuanch( 1300): find app procname=com.coship.adjustthevolume importance=300
+03-21 17:18:25.640 D/PortalLuanch( 1300): find app procname=com.aidufei.movieonline importance=300
+03-21 17:18:25.640 D/PortalLuanch( 1300): find app procname=cn.tvbox importance=300
+03-21 17:18:25.640 D/PortalLuanch( 1300): find app procname=com.coship.Multimedia importance=300
+03-21 17:18:25.644 D/PortalLuanch( 1300): find app procname=android.process.media importance=400
+03-21 17:18:25.644 W/luancher( 1300): android.content.pm.PackageManager$NameNotFoundException: android.process.media
+03-21 17:18:25.644 D/PortalLuanch( 1300): find app procname=com.android.phone importance=400
+03-21 17:18:25.644 W/luancher( 1300): android.content.pm.PackageManager$NameNotFoundException: com.android.phone
+03-21 17:18:25.644 D/PortalLuanch( 1300): find app procname=com.iflytek.xiri.recorder.svc importance=400
+03-21 17:18:25.644 D/PortalLuanch( 1300): find app procname=com.iflytek.speech importance=400
+03-21 17:18:25.644 D/PortalLuanch( 1300): find app procname=com.iflytek.vaf.svc.rec importance=400
+03-21 17:18:25.644 W/luancher( 1300): android.content.pm.PackageManager$NameNotFoundException: com.iflytek.vaf.svc.rec
+03-21 17:18:25.644 D/PortalLuanch( 1300): find app procname=com.iflytek.vac importance=300
+03-21 17:18:25.648 W/luancher( 1300): android.content.pm.PackageManager$NameNotFoundException: com.iflytek.vac
+03-21 17:18:25.648 D/PortalLuanch( 1300): find app procname=com.android.settings importance=400
+03-21 17:18:25.648 D/PortalLuanch( 1300): find app procname=com.coship.stpservice importance=300
+03-21 17:18:25.648 D/PortalLuanch( 1300): find app procname=com.coship.startwizard importance=400
+03-21 17:18:25.648 D/PortalLuanch( 1300): find app procname=com.coship.TestApp importance=400
+03-21 17:18:25.652 D/PortalLuanch( 1300): find app procname=com.coship.changetheaudiooutput importance=300
+03-21 17:18:25.652 D/PortalLuanch( 1300): find app procname=android.process.acore importance=400
+03-21 17:18:25.652 W/luancher( 1300): android.content.pm.PackageManager$NameNotFoundException: android.process.acore
+03-21 17:18:25.652 D/PortalLuanch( 1300): find app procname=com.coship.cw880 importance=300
+03-21 17:18:25.652 D/PortalLuanch( 1300): find app procname=com.android.contacts importance=400
+03-21 17:18:25.652 D/PortalLuanch( 1300): find app procname=com.mstar.dbprovider importance=400
+03-21 17:18:25.656 D/PortalLuanch( 1300): find app procname=com.iflytek.vaf.TouchKey importance=100
+03-21 17:18:25.680 I/Min3D   ( 1300): Renderer.onSurfaceCreated()
+03-21 17:18:25.680 V/Min3D   ( 1300): RenderCaps - openGLVersion: 1.1
+03-21 17:18:25.680 V/Min3D   ( 1300): RenderCaps - maxTextureUnits: 8
+03-21 17:18:25.680 V/Min3D   ( 1300): RenderCaps - maxTextureSize: 4096
+03-21 17:18:25.680 V/Min3D   ( 1300): RenderCaps - maxLights: 8
+03-21 17:18:25.680 I/Min3D   ( 1300): Scene.init()
+03-21 17:18:25.680 I/Min3D   ( 1300): ManagedLightList.reset()
+03-21 17:18:25.704 D/dalvikvm( 1300): GC_FOR_ALLOC freed 3737K, 58% free 7480K/17411K, paused 23ms
+03-21 17:18:25.712 I/dalvikvm-heap( 1300): Grow heap (frag case) to 14.421MB for 3686416-byte allocation
+03-21 17:18:25.744 D/dalvikvm( 1300): GC_CONCURRENT freed 1K, 37% free 11078K/17411K, paused 2ms+3ms
+03-21 17:18:25.896 I/System.out( 1300): 1363857505898____________________________
+03-21 17:18:25.924 I/System.out( 1300): 1363857505927++++++++++++++++++++++++++++++++++++++
+03-21 17:18:25.928 V/portal  ( 1300): menubar initialize 2
+03-21 17:18:25.936 I/Min3D   ( 1300): Renderer.onSurfaceChanged()
+03-21 17:18:25.960 I/Min3D   ( 1300): Renderer.onSurfaceChanged()
+03-21 17:18:25.980 V/TabletStatusBar( 1143): setLightsOn(true)
+03-21 17:18:25.996 D/InputEventConsistencyVerifier( 1300): KeyEvent: ACTION_UP but key was not down.
+03-21 17:18:25.996 D/InputEventConsistencyVerifier( 1300):   in Handler (android.view.ViewRootImpl) {41503008}
+03-21 17:18:25.996 D/InputEventConsistencyVerifier( 1300):   0: sent at 57056000000, KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=158, metaState=0, flags=0x8, repeatCount=0, eventTime=57056, downTime=56897, deviceId=2, source=0x101 }
+03-21 17:18:25.996 D/InputEventConsistencyVerifier( 1300):   -- recent events --
+03-21 17:18:25.996 D/InputEventConsistencyVerifier( 1300):   1: sent at 35956000000, KeyEvent { action=ACTION_UP, keyCode=KEYCODE_ENTER, scanCode=28, metaState=0, flags=0x8, repeatCount=0, eventTime=35956, downTime=35787, deviceId=2, source=0x101 }
+03-21 17:18:25.996 D/InputEventConsistencyVerifier( 1300):   2: sent at 35787000000, KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_ENTER, scanCode=28, metaState=0, flags=0x8, repeatCount=0, eventTime=35787, downTime=35787, deviceId=2, source=0x101 }
+03-21 17:18:25.996 D/InputEventConsistencyVerifier( 1300):   3: sent at 35316000000, KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_LEFT, scanCode=105, metaState=0, flags=0x8, repeatCount=0, eventTime=35316, downTime=35155, deviceId=2, source=0x101 }
+03-21 17:18:25.996 D/InputEventConsistencyVerifier( 1300):   4: sent at 35155000000, KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=105, metaState=0, flags=0x8, repeatCount=0, eventTime=35155, downTime=35155, deviceId=2, source=0x101 }
+03-21 17:18:25.996 D/InputEventConsistencyVerifier( 1300):   5: sent at 34400000000, KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_RIGHT, scanCode=106, metaState=0, flags=0x8, repeatCount=0, eventTime=34400, downTime=34080, deviceId=2, source=0x101 }
+03-21 17:18:26.000 W/InputManagerService(  948): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@416485d0 (uid=1000 pid=1887)
+03-21 17:18:26.988 V/EthernetMonitor(  948): get event 
+03-21 17:18:26.988 V/EthernetMonitor(  948): go poll events
+03-21 17:18:26.992 V/EthernetMonitor(  948): get event 
+03-21 17:18:26.992 V/EthernetMonitor(  948): go poll events
+03-21 17:18:28.336 I/ActivityManager(  948): START {cmp=com.coship.portal/.MyApplication} from pid 1300
+03-21 17:18:28.460 D/dalvikvm( 1300): GC_FOR_ALLOC freed 3644K, 57% free 7501K/17411K, paused 17ms
+03-21 17:18:28.464 I/dalvikvm-heap( 1300): Grow heap (frag case) to 14.441MB for 3686416-byte allocation
+03-21 17:18:28.508 D/dalvikvm( 1300): GC_CONCURRENT freed 1K, 37% free 11099K/17411K, paused 2ms+2ms
+03-21 17:18:28.780 I/portal  ( 1300): ~~~~~~~~~~ checkCoshipIsShow ~~~~~~~~~~~~~~:true
+03-21 17:18:28.788 I/portal  ( 1300): ~~~~~~~~~~ ShowCoshipApp ~~~~~~~~~~~~~~
+03-21 17:18:28.788 I/portal  ( 1300): ~~~~~~~~~~ CoshipApp is Show~~~~~~~~~~~~~~
+03-21 17:18:28.820 V/TabletStatusBar( 1143): setLightsOn(true)
+03-21 17:18:28.880 I/ActivityManager(  948): Displayed com.coship.portal/.MyApplication: +459ms
+03-21 17:18:29.852 D/HomePlayerLib( 1666): hostaddress count is 1
+03-21 17:18:30.056 D/dalvikvm( 1666): GC_CONCURRENT freed 2044K, 45% free 7265K/13123K, paused 4ms+3ms
+03-21 17:18:30.144 D/MonitorCw880( 1595): currentRemoteHost is null ,continue
+03-21 17:18:30.288 I/ActivityManager(  948): START {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 pkg=com.aidufei.movieonline cmp=com.aidufei.movieonline/.MainCatalogActivity} from pid 1300
+03-21 17:18:30.344 D/dalvikvm(  948): GC_FOR_ALLOC freed 301K, 62% free 3586K/9283K, paused 40ms
+03-21 17:18:30.448 I/dalvikvm-heap(  948): Grow heap (frag case) to 8.103MB for 1048592-byte allocation
+03-21 17:18:30.492 D/dalvikvm(  948): GC_FOR_ALLOC freed 26K, 51% free 4584K/9283K, paused 40ms
+03-21 17:18:30.552 D/dalvikvm( 1666): GC_CONCURRENT freed 1977K, 45% free 7272K/13123K, paused 5ms+3ms
+03-21 17:18:30.576 D/dalvikvm(  948): GC_CONCURRENT freed 2K, 51% free 4638K/9283K, paused 26ms+5ms
+03-21 17:18:30.836 D/dalvikvm( 1764): GC_FOR_ALLOC freed 1666K, 46% free 6767K/12355K, paused 36ms
+03-21 17:18:30.844 I/dalvikvm-heap( 1764): Grow heap (frag case) to 10.761MB for 578576-byte allocation
+03-21 17:18:30.876 I/HighSet_WirlessNetwork( 1887): -------------------------SSID= apple_route_01 ----------Adress= 20:c9:d0:23:2e:4d
+03-21 17:18:30.876 I/HighSet_WirlessNetwork( 1887): -------------------------SSID= Momokan ----------Adress= 20:c9:d0:23:07:7b
+03-21 17:18:30.876 V/HighSet_WirlessNetwork( 1887): !!!!!!!! remove ssid:SmartBox6
+03-21 17:18:30.880 D/dalvikvm( 1764): GC_FOR_ALLOC freed 11K, 44% free 7321K/12931K, paused 29ms
+03-21 17:18:30.932 I/        ( 1764): jpeg hw mutex s_index = 290
+03-21 17:18:30.964 I/        ( 1764): [MSOS_PRINT][003171]     ~!~mappd sharemem    
+03-21 17:18:30.964 I/        ( 1764): [MSOS_PRINT][000605]     pthread_mutex_init
+03-21 17:18:30.964 I/        ( 1764): [MSOS_PRINT][000607]     CHIP_InitISR
+03-21 17:18:30.964 D/        ( 1764): [skia jpeg]: readbuf addr:0x1a1c2000, size: 0x100000
+03-21 17:18:30.964 D/        ( 1764):  write buff addr:0x0,  size: 0x0
+03-21 17:18:30.964 D/        ( 1764):  internal buff addr:0x1a2c2000,   size: 0x100000
+03-21 17:18:30.964 E/        ( 1764): get vaddr failed:pvaddr_read=0x6054b000,pvaddr_internal=0x6064b000,pvaddr_write=0x0
+03-21 17:18:31.016 E/        ( 1764): get vaddr failed:pvaddr_read=0x6054b000,pvaddr_internal=0x6064b000,pvaddr_write=0x0
+03-21 17:18:31.044 D/dalvikvm( 1764): GC_FOR_ALLOC freed 4K, 42% free 7577K/12931K, paused 28ms
+03-21 17:18:31.072 I/HighSet_WirlessNetwork( 1887): -------------------------SSID= apple_route_01 ----------Adress= 20:c9:d0:23:2e:4d
+03-21 17:18:31.072 I/HighSet_WirlessNetwork( 1887): -------------------------SSID= Momokan ----------Adress= 20:c9:d0:23:07:7b
+03-21 17:18:31.072 V/HighSet_WirlessNetwork( 1887): !!!!!!!! remove ssid:SmartBox6
+03-21 17:18:31.088 I/dalvikvm-heap( 1764): Grow heap (frag case) to 12.304MB for 1367664-byte allocation
+03-21 17:18:31.120 I/Process (  948): Sending signal. PID: 1764 SIG: 3
+03-21 17:18:31.120 I/dalvikvm( 1764): threadid=3: reacting to signal 3
+03-21 17:18:31.128 I/dalvikvm( 1764): Wrote stack traces to '/data/anr/traces.txt'
+03-21 17:18:31.168 D/dalvikvm( 1764): GC_FOR_ALLOC freed 1K, 38% free 8911K/14275K, paused 28ms
+03-21 17:18:31.168 E/        ( 1764): get vaddr failed:pvaddr_read=0x6054b000,pvaddr_internal=0x6064b000,pvaddr_write=0x0
+03-21 17:18:31.180 E/        ( 1764): get vaddr failed:pvaddr_read=0x6054b000,pvaddr_internal=0x6064b000,pvaddr_write=0x0
+03-21 17:18:31.188 E/        ( 1764): get vaddr failed:pvaddr_read=0x6054b000,pvaddr_internal=0x6064b000,pvaddr_write=0x0
+03-21 17:18:31.200 E/        ( 1764): get vaddr failed:pvaddr_read=0x6054b000,pvaddr_internal=0x6064b000,pvaddr_write=0x0
+03-21 17:18:31.232 E/        ( 1764): get vaddr failed:pvaddr_read=0x6054b000,pvaddr_internal=0x6064b000,pvaddr_write=0x0
+03-21 17:18:31.264 D/dalvikvm( 1764): GC_FOR_ALLOC freed 5K, 36% free 9526K/14659K, paused 31ms
+03-21 17:18:31.284 E/        ( 1764): get vaddr failed:pvaddr_read=0x6054b000,pvaddr_internal=0x6064b000,pvaddr_write=0x0
+03-21 17:18:31.316 D/dalvikvm( 1764): GC_FOR_ALLOC freed 2K, 35% free 10003K/15171K, paused 29ms
+03-21 17:18:31.340 E/        ( 1764): get vaddr failed:pvaddr_read=0x6054b000,pvaddr_internal=0x6064b000,pvaddr_write=0x0
+03-21 17:18:31.372 D/dalvikvm( 1764): GC_FOR_ALLOC freed <1K, 34% free 10482K/15683K, paused 32ms
+03-21 17:18:31.392 E/        ( 1764): get vaddr failed:pvaddr_read=0x6054b000,pvaddr_internal=0x6064b000,pvaddr_write=0x0
+03-21 17:18:31.424 D/dalvikvm( 1764): GC_FOR_ALLOC freed <1K, 33% free 10962K/16195K, paused 31ms
+03-21 17:18:31.620 I/Process (  948): Sending signal. PID: 1764 SIG: 3
+03-21 17:18:31.620 I/dalvikvm( 1764): threadid=3: reacting to signal 3
+03-21 17:18:31.636 I/dalvikvm( 1764): Wrote stack traces to '/data/anr/traces.txt'
+03-21 17:18:31.656 W/MountService(  948): getVolumeState(/mnt/usb/sda1): Unknown volume
+03-21 17:18:31.672 D/MainActivity( 1764): strat load all catalogs.
+03-21 17:18:31.676 D/MainActivity( 1764): start load head recommend.
+03-21 17:18:31.700 D/NetTransportUtil( 1764): request Url  :http://wasu.feifeikan.com:8080/msis/getCatalog?version=V001&terminalType=1&resolution=1280*720&catalogType=2&userCode=null&parentId=0&accessSource=5&authKey=b530caf5f09cb471f7e3ad265ea5edd3
+03-21 17:18:31.780 D/libEGL  ( 1764): loaded /system/lib/egl/libGLES_android.so
+03-21 17:18:31.804 D/libEGL  ( 1764): loaded /system/lib/egl/libEGL_mali.so
+03-21 17:18:31.824 D/libEGL  ( 1764): loaded /system/lib/egl/libGLESv1_CM_mali.so
+03-21 17:18:31.828 D/libEGL  ( 1764): loaded /system/lib/egl/libGLESv2_mali.so
+03-21 17:18:31.880 D/OpenGLRenderer( 1764): Enabling debug mode 0
+03-21 17:18:31.892 W/InputManagerService(  948): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@415d5650 (uid=10033 pid=1300)
+03-21 17:18:32.024 I/ActivityManager(  948): Displayed com.aidufei.movieonline/.MainCatalogActivity: +1s406ms
+03-21 17:18:32.064 D/dalvikvm( 1300): GC_EXPLICIT freed 151K, 35% free 11368K/17411K, paused 2ms+4ms
+03-21 17:18:32.252 D/MainActivity( 1764): start load recommend catalogs.
+03-21 17:18:32.268 D/NetTransportUtil( 1764): request Url  :http://wasu.feifeikan.com:8080/msis/getRecommendResource?version=V001&terminalType=1&resolution=1280*720&authKey=514bab50071c3ccfa26570ee0be33580
+03-21 17:18:32.372 D/dalvikvm( 1764): GC_CONCURRENT freed 1381K, 32% free 11528K/16707K, paused 3ms+3ms
+03-21 17:18:32.416 D/MainActivity( 1764): head recommend size:5
+03-21 17:18:32.420 D/NetTransportUtil( 1764): request Url  :http://wasu.feifeikan.com:8080/msis/getCatalog?version=V001&terminalType=1&resolution=1280*720&catalogType=1&userCode=null&parentId=0&accessSource=5&authKey=349f28e7ad6c96d16711a59f8128846a
+03-21 17:18:32.556 D/MainActivity( 1764): recommend catalog size:4
+03-21 17:18:32.560 D/NetTransportUtil( 1764): request Url  :http://wasu.feifeikan.com:8080/msis/getAssetDetail?version=V001&terminalType=1&resolution=1280*720&resourceCode=11500&userCode=&authKey=29ff37534538368b7e8ef2d8d1e71c1a
+03-21 17:18:32.792 D/NetTransportUtil( 1764): request Url  :http://wasu.feifeikan.com:8080/msis/getAssetDetail?version=V001&terminalType=1&resolution=1280*720&resourceCode=10774&userCode=&authKey=ed9cbb3131ce94b36418ce6bb3be9362
+03-21 17:18:32.904 E/        ( 1764): get vaddr failed:pvaddr_read=0x6054b000,pvaddr_internal=0x6064b000,pvaddr_write=0x0
+03-21 17:18:32.992 D/dalvikvm( 1764): GC_CONCURRENT freed 1077K, 29% free 12393K/17219K, paused 3ms+4ms
+03-21 17:18:33.064 D/NetTransportUtil( 1764): request Url  :http://wasu.feifeikan.com:8080/msis/getAssetDetail?version=V001&terminalType=1&resolution=1280*720&resourceCode=10947&userCode=&authKey=7383fe80f1c8b5bf1cd4306353e8c63b
+03-21 17:18:33.244 D/NetTransportUtil( 1764): request Url  :http://wasu.feifeikan.com:8080/msis/getAssetDetail?version=V001&terminalType=1&resolution=1280*720&resourceCode=10043&userCode=&authKey=145aa36a0a9fbbdf1b11be9556efa98e
+03-21 17:18:33.604 E/        ( 1764): get vaddr failed:pvaddr_read=0x6054b000,pvaddr_internal=0x6064b000,pvaddr_write=0x0
+03-21 17:18:33.684 E/        ( 1764): get vaddr failed:pvaddr_read=0x6054b000,pvaddr_internal=0x6064b000,pvaddr_write=0x0
+03-21 17:18:33.804 D/NetTransportUtil( 1764): request Url  :http://wasu.feifeikan.com:8080/msis/getAssetDetail?version=V001&terminalType=1&resolution=1280*720&resourceCode=10033&userCode=&authKey=76b1c882f6d1e71788d698f06e5760a0
+03-21 17:18:33.812 D/dalvikvm( 1764): GC_CONCURRENT freed 1232K, 28% free 13141K/18115K, paused 2ms+6ms
+03-21 17:18:33.932 D/InputEventConsistencyVerifier( 1764): KeyEvent: ACTION_UP but key was not down.
+03-21 17:18:33.932 D/InputEventConsistencyVerifier( 1764):   in com.aidufei.movieonline.view.ScrollLayout@41b609d0
+03-21 17:18:33.932 D/InputEventConsistencyVerifier( 1764):   0: sent at 65316000000, KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_UP, scanCode=103, metaState=0, flags=0x8, repeatCount=0, eventTime=65316, downTime=65154, deviceId=2, source=0x101 }
+03-21 17:18:33.948 D/page    ( 1764): getAssetList:ott_135998533861513
+03-21 17:18:33.948 D/NetTransportUtil( 1764): request Url  :http://wasu.feifeikan.com:8080/msis/getAssetList?version=V001&terminalType=1&resolution=1280*720&pageSize=12&curPage=1&userCode=null&queryType=0&catalogId=ott_135998533861513&isRecommend=&assetType=&originName=&publishDate=&orderTag=&authKey=ba02bfb46c9a8043bd2272fe2813aacb
+03-21 17:18:34.368 E/        ( 1764): get vaddr failed:pvaddr_read=0x6054b000,pvaddr_internal=0x6064b000,pvaddr_write=0x0
+03-21 17:18:34.700 D/dalvikvm( 1764): GC_CONCURRENT freed 1455K, 28% free 13613K/18819K, paused 2ms+4ms
+03-21 17:18:34.704 I/ActivityManager(  948): START {cmp=com.aidufei.movieonline/.ProgramDetailActivity (has extras)} from pid 1764
+03-21 17:18:34.796 D/dalvikvm( 1764): GC_FOR_ALLOC freed 111K, 28% free 13625K/18819K, paused 30ms
+03-21 17:18:34.816 I/dalvikvm-heap( 1764): Grow heap (frag case) to 19.158MB for 2361616-byte allocation
+03-21 17:18:34.876 D/dalvikvm( 1764): GC_FOR_ALLOC freed <1K, 25% free 15930K/21187K, paused 59ms
+03-21 17:18:34.928 D/dalvikvm( 1764): GC_CONCURRENT freed 3K, 25% free 16259K/21571K, paused 2ms+5ms
+03-21 17:18:35.008 D/dalvikvm( 1764): GC_FOR_ALLOC freed 156K, 25% free 16317K/21571K, paused 36ms
+03-21 17:18:35.024 I/dalvikvm-heap( 1764): Grow heap (frag case) to 20.561MB for 1075856-byte allocation
+03-21 17:18:35.064 D/dalvikvm( 1764): GC_FOR_ALLOC freed <1K, 24% free 17367K/22659K, paused 30ms
+03-21 17:18:35.148 D/MonitorCw880( 1595): currentRemoteHost is null ,continue
+03-21 17:18:35.176 D/dalvikvm( 1764): GC_FOR_ALLOC freed 41K, 23% free 17553K/22659K, paused 40ms
+03-21 17:18:35.192 I/dalvikvm-heap( 1764): Grow heap (frag case) to 21.461MB for 754416-byte allocation
+03-21 17:18:35.240 D/dalvikvm( 1764): GC_FOR_ALLOC freed 3K, 22% free 18286K/23427K, paused 32ms
+03-21 17:18:35.240 I/Process (  948): Sending signal. PID: 1764 SIG: 3
+03-21 17:18:35.240 I/dalvikvm( 1764): threadid=3: reacting to signal 3
+03-21 17:18:35.264 I/dalvikvm( 1764): Wrote stack traces to '/data/anr/traces.txt'
+03-21 17:18:35.332 D/ProgramDetailActivity( 1764): start load program details.
+03-21 17:18:35.332 D/NetTransportUtil( 1764): request Url  :http://wasu.feifeikan.com:8080/msis/getAssetDetail?version=V001&terminalType=1&resolution=1280*720&resourceCode=10774&userCode=null&authKey=5af0d25e7dc9dc70b46b9c5332dc31fd
+03-21 17:18:35.340 D/page    ( 1764): size:12
+03-21 17:18:35.556 I/ActivityManager(  948): Displayed com.aidufei.movieonline/.ProgramDetailActivity: +821ms
+03-21 17:18:35.632 I/ProgramDetailActivity( 1764): movie count:1
+03-21 17:18:35.644 D/NetTransportUtil( 1764): request Url  :http://wasu.feifeikan.com:8080/msis/getRelateAsset?version=V001&terminalType=1&resolution=1280*720&userCode=null&resourceCode=10774&authKey=30908753163e59d1be20b91a0288fb74
+03-21 17:18:35.860 E/        ( 1764): get vaddr failed:pvaddr_read=0x6054b000,pvaddr_internal=0x6064b000,pvaddr_write=0x0
+03-21 17:18:35.880 D/VodAction( 1764): getRelateAssetList:{"ret":"0","assetList":[{"resourceCode":11500,"type":"0","assetName":"西游降魔篇","assetENName":null,"mlName":"中文","captionName":"国语","assetTypes":"喜剧片","originName":"内地","issuerName":null,"trackType":"1","chapters":1,"viewLevel":"1","describ":null,"director":"郭子健;周星驰","leadingActor":"舒淇;陈炳强;周秀娜;文章;罗志祥;赵志凌;黄渤;李尚正","screenWriter":null,"prize":null,"keyWord":"西游降魔篇;舒淇;陈炳强;周秀娜;文章;罗志祥;赵志凌;黄渤;李尚正;郭子健;周星驰;喜剧片","status":"1","recommendationLevel":8,"remark":null,"publishDate":"2013-02-10","letter":"xiyoujiangmopian","assetTypeIds":"10009","letterAb":"XYJMP","providerID":"coshipott","stbSuggestedPrice":0.00,"ottSuggestedPrice":0.00,"showType":"Movie","series":null,"contentNibbleLevel_1":0,"contentNibbleLevel_2":0,"stbLicensingWindowStart":null,"stbLicensingWindowEnd":null,"ottLicensingWindowStart":null,"ottLicensingWindowEnd":null,"summaryLong":"大唐年间妖魔横行，一渔村因为饱受鱼妖之害请来道士除妖，驱魔人陈玄奘前来帮忙却被误认为骗子，幸亏职业赏金驱魔人段小姐帮助玄奘制服了鱼妖真身。二人又在高家庄为制服猪妖猪刚鬣再次相遇，这次除妖没有成功，但段小姐却对玄奘二见钟情。玄奘求助师父，得知除妖的办法是找被压在五指山下的孙悟空帮忙，于是他准备前往五指山，途中又遇到段小姐和手下五煞，段小姐连蒙带哄想与玄奘在一起却屡次遭拒。二人决裂后玄奘独自上路，与此同时降魔师、天残脚、空虚公子也一同前往除妖。经过千辛万苦玄奘终于找到孙悟空，段小姐又再次出现并交给玄奘一件重要的东西，猪妖终于被降服，但是更大的危机又出现在了玄奘面前，原来孙悟空与传闻中不一样，玄奘的除魔之路能否继续？","summaryMedium":null,"summaryShort":"以唐僧在结识三个徒弟之前所发生的奇特经历，展开一连串的冒险之旅","propagationPriority":8,"year":null,"cityCode":"100000","gradeCode":"P","playCount":378,"createTime":"2013-03-19 10:57:55","vcr":"FRAB","isRecommend":0,"playTime":0,"videoType":0,"posterInfo":[{"resolution":null,"terminalType":0,"serverLocalPath":"http://photo.feifeikan.com:80/ott-poster/poster_root/movie_poster/TWSX1000000000000898/poster/256x383/20130319105814454_0033.jpg","PosterID":11010,"OwnerCode":"11500","PosterType":1,"FileName":"西游降魔篇.jpg","UploadTime":"2013-03-19 10:58:14","FileSize":43754,"Status":1,"LocalPath":"http://photo.feifeikan.com:80/ott-poster/poster_root/movie_poster/TWSX1000000000000898/poster/256x383/20130319105814454_0033.jpg","Width":256,"Height":383,"Platform":null}],"product":null,"favoriteDate":null,"assetID":"TWSX1000000000000898"},{"resourceCode":10552,"type":"0","assetName":"HELLO树先生","assetENName":null,"mlName":"中文","captionName":"国语","assetTypes":"喜剧片","originName":"内地","issuerName":null,"trackType":"1","chapters":1,"viewLevel":"1","describ":null,"director":"韩杰","leadingActor":"何洁;王宝强;谭卓","screenWriter":null,"prize":null,"keyWord":"HELLO树先生;何洁;王宝强;谭卓;韩杰;喜剧片","status":"1","recommendationLevel":8,"remark":null,"publishDate":"2011-11-04","letter":"HELLOshuxiansheng","assetTypeIds":"10009","letterAb":"HELLOSXS","providerID":"coshipott","stbSuggestedPrice":0.00,"ottSuggestedPrice":0.00,"showType":"Movie","series":null,"contentNibbleLevel_1":0,"contentNibbleLevel_2":0,"stbLicensingWindowStart":null,"stbLicensingWindowEnd":null,"ottLicensingWindowStart":null,"ottLicensingWindowEnd":null,"summaryLong":"树的父亲亲手杀死了树的大哥，后来父亲去世了，但两人影像却时常浮现在他脑海。在汽修铺工作中，他开始眼花，后来出了工伤，住进医院，护士苹苹给他拆线时，厂长将他辞退了。他的家面临拆迁，因为村长儿子在这开矿，他感到十分无助，没事在村里闲逛，与�
+03-21 17:18:35.948 E/        ( 1764): get vaddr failed:pvaddr_read=0x6054b000,pvaddr_internal=0x6064b000,pvaddr_write=0x0
+03-21 17:18:36.004 D/dalvikvm( 1764): GC_FOR_ALLOC freed 1149K, 21% free 18946K/23811K, paused 43ms
+03-21 17:18:36.016 E/        ( 1764): get vaddr failed:pvaddr_read=0x6054b000,pvaddr_internal=0x6064b000,pvaddr_write=0x0
+03-21 17:18:36.092 E/        ( 1764): get vaddr failed:pvaddr_read=0x6054b000,pvaddr_internal=0x6064b000,pvaddr_write=0x0
+03-21 17:18:36.136 D/dalvikvm( 1764): GC_FOR_ALLOC freed 550K, 21% free 19594K/24579K, paused 41ms
+03-21 17:18:36.216 D/ProgramDetailActivity( 1764): initRelateResource:4
+03-21 17:18:36.220 E/        ( 1764): get vaddr failed:pvaddr_read=0x6054b000,pvaddr_internal=0x6064b000,pvaddr_write=0x0
+03-21 17:18:36.464 D/dalvikvm( 1764): GC_FOR_ALLOC freed 549K, 20% free 20221K/25219K, paused 51ms
+03-21 17:18:36.468 E/        ( 1764): get vaddr failed:pvaddr_read=0x6054b000,pvaddr_internal=0x6064b000,pvaddr_write=0x0
+03-21 17:18:36.512 D/dalvikvm( 1764): GC_FOR_ALLOC freed 173K, 21% free 20253K/25411K, paused 46ms
+03-21 17:18:36.572 I/dalvikvm-heap( 1764): Grow heap (frag case) to 26.927MB for 3721232-byte allocation
+03-21 17:18:36.612 D/dalvikvm( 1764): GC_FOR_ALLOC freed 0K, 18% free 23887K/29059K, paused 40ms
+03-21 17:18:36.668 D/dalvikvm( 1764): GC_CONCURRENT freed <1K, 18% free 24065K/29059K, paused 3ms+4ms
+03-21 17:18:36.716 E/        ( 1764): get vaddr failed:pvaddr_read=0x6054b000,pvaddr_internal=0x6064b000,pvaddr_write=0x0
+03-21 17:18:36.784 E/        ( 1764): get vaddr failed:pvaddr_read=0x6054b000,pvaddr_internal=0x6064b000,pvaddr_write=0x0
+03-21 17:18:36.844 E/        ( 1764): get vaddr failed:pvaddr_read=0x6054b000,pvaddr_internal=0x6064b000,pvaddr_write=0x0
+03-21 17:18:36.896 D/dalvikvm( 1764): GC_FOR_ALLOC freed 541K, 18% free 24526K/29827K, paused 40ms
+03-21 17:18:36.960 I/ActivityManager(  948): START {flg=0x78000000 cmp=com.aidufei.movieonline/.player.VideoPlayer (has extras)} from pid 1764
+03-21 17:18:37.020 E/        ( 1764): get vaddr failed:pvaddr_read=0x6054b000,pvaddr_internal=0x6064b000,pvaddr_write=0x0
+03-21 17:18:37.068 D/dalvikvm( 1764): GC_FOR_ALLOC freed 147K, 18% free 24833K/30211K, paused 37ms
+03-21 17:18:37.128 D/dalvikvm( 1764): GC_FOR_ALLOC freed 90K, 18% free 25144K/30595K, paused 32ms
+03-21 17:18:37.128 I/dalvikvm-heap( 1764): Grow heap (frag case) to 28.467MB for 327696-byte allocation
+03-21 17:18:37.180 D/dalvikvm( 1764): GC_FOR_ALLOC freed <1K, 18% free 25463K/30979K, paused 40ms
+03-21 17:18:37.224 D/dalvikvm( 1764): GC_FOR_ALLOC freed 3K, 18% free 25460K/30979K, paused 32ms
+03-21 17:18:37.228 I/dalvikvm-heap( 1764): Grow heap (frag case) to 29.017MB for 580396-byte allocation
+03-21 17:18:37.264 D/dalvikvm( 1764): GC_FOR_ALLOC freed 0K, 18% free 26027K/31555K, paused 35ms
+03-21 17:18:37.372 D/dalvikvm( 1764): GC_FOR_ALLOC freed 328K, 18% free 26083K/31555K, paused 33ms
+03-21 17:18:37.376 I/dalvikvm-heap( 1764): Grow heap (frag case) to 29.453MB for 399376-byte allocation
+03-21 17:18:37.424 D/dalvikvm( 1764): GC_FOR_ALLOC freed 1K, 18% free 26471K/32003K, paused 32ms
+03-21 17:18:37.468 I/Utils   ( 1764): SystemPropertiesClass:class android.os.SystemProperties
+03-21 17:18:37.468 W/Utils   ( 1764): ~~~~~~~~~~~~~~~~~~~~~~method:public static java.lang.String android.os.SystemProperties.get(java.lang.String,java.lang.String)
+03-21 17:18:37.468 W/Utils   ( 1764): ~~~~~~~~~~~~~~~~~~~~~~returnvalue:32
+03-21 17:18:37.472 V/audio_hw_primary(  739): out_get_latency ret 10ms
+03-21 17:18:37.472 I/VideoPlayer( 1764): playSource:2
+03-21 17:18:37.472 I/VideoPlayer( 1764): getLivePlayEvent playEvent:null
+03-21 17:18:37.476 D/VideoPlayer( 1764): subId:---resourceCode:10774---timeCode:0
+03-21 17:18:37.476 D/NetTransportUtil( 1764): request Url  :http://wasu.feifeikan.com:8080/msis/getPlayURL?version=V001&terminalType=2&resolution=1280*720&resourceCode=10774&playType=1&delay=0&shifttime=0&shiftend=0&timecode=0&urlType=3&authKey=e19ab1134327357edbcc6475438a4d25
+03-21 17:18:37.488 D/OpenGLRenderer( 1764): Flushing caches (mode 0)
+03-21 17:18:37.508 I/Process (  948): Sending signal. PID: 1764 SIG: 3
+03-21 17:18:37.508 I/dalvikvm( 1764): threadid=3: reacting to signal 3
+03-21 17:18:37.524 D/OtOService( 1764): TVContentReceiver: ACTION_TV_CONTENT_CHANGED, playType: 1 ,resourceCode: 10774
+03-21 17:18:37.528 I/dalvikvm( 1764): Wrote stack traces to '/data/anr/traces.txt'
+03-21 17:18:37.588 D/MediaControler( 1764): surfaceChanged
+03-21 17:18:37.648 I/ActivityManager(  948): Displayed com.aidufei.movieonline/.player.VideoPlayer: +643ms
+03-21 17:18:37.696 D/VideoPlayer( 1764): play url:http://vod.feifeikan.com/vod/coshipott,TWSX1000000000000254.m3u8?fmt=x264_0k_mpegts&sora=1&timecode=0&sk=4012D91C00660F8122B8BCB27294A3A8&UUID=f3fa8cd6-1011-4bce-ba6b-b636cde17218&userCode=default&userName=default&spCode=484581254562&productCode=1&resourceCode=10774&subId=123&resourceName=&authType=2
+03-21 17:18:37.708 E/MediaPlayer( 1764): stop called in state 1
+03-21 17:18:37.708 E/MediaPlayer( 1764): error (-38, 0)
+03-21 17:18:38.060 E/        ( 1764): get vaddr failed:pvaddr_read=0x6054b000,pvaddr_internal=0x6064b000,pvaddr_write=0x0
+03-21 17:18:38.104 D/dalvikvm( 1764): GC_FOR_ALLOC freed 112K, 18% free 26534K/32003K, paused 45ms
+03-21 17:18:38.108 I/dalvikvm-heap( 1764): Grow heap (frag case) to 29.886MB for 392208-byte allocation
+03-21 17:18:38.160 D/dalvikvm( 1764): GC_FOR_ALLOC freed 5K, 17% free 26912K/32387K, paused 42ms
+03-21 17:18:38.744 D/MediaPlayerService(  739):  Create MstarPlayer
+03-21 17:18:38.764 D/MstarPlayer(  739): Create MstarPlayer:0x44db0,Version:Release Mstar player lib Version:0015,Base CL:690305  Date:2012/11/06
+03-21 17:18:38.764 D/MstarPlayer(  739): TV Local Time :  Thu Mar 21 17:18:38 2013
+03-21 17:18:38.764 D/MstarPlayer(  739):  
+03-21 17:18:38.764 D/MstarPlayer(  739): setInstance: 0x44db0
+03-21 17:18:38.776 D/MstarPlayer(  739): mstar player set listener
+03-21 17:18:38.776 D/MstarPlayer(  739): MstarPlayer::initCheck
+03-21 17:18:38.780 D/MediaPlayerService(  739): [2] setVideoSurfaceTexture(0x44d88)
+03-21 17:18:38.788 D/MstarPlayer(  739): MstarPlayer::setVideoSurfaceTexture 
+03-21 17:18:38.788 D/MstarPlayer(  739): open mHwcFifoFD = 29
+03-21 17:18:38.788 D/MstarPlayer(  739): MstarPlayer::prepareAsync
+03-21 17:18:38.788 D/MstarPlayer(  739): 
+03-21 17:18:38.788 D/MstarPlayer(  739):  MstarPlayer::doSetDataSource
+03-21 17:18:38.788 D/MstarPlayer(  739): MstarPlayer::clearAllSource
+03-21 17:18:38.788 D/MstarPlayer(  739): 
+03-21 17:18:38.788 D/MstarPlayer(  739):  MstarPlayer::doSetDataSource: url=http://vod.feifeikan.com/vod/coshipott,TWSX1000000000000254.m3u8?fmt=x264_0k_mpegts&sora=1&timecode=0&sk=4012D91C00660F8122B8BCB27294A3A8&UUID=f3fa8cd6-1011-4bce-ba6b-b636cde17218&userCode=default&userName=default&spCode=484581254562&productCode=1&resourceCode=10774&subId=123&resourceName=&authType=2
+03-21 17:18:38.812 D/Downloader(  739): Release Mstar Content Source CL:485100  Date:2013/03/12
+03-21 17:18:38.836 D/OpenGLRenderer( 1764): Flushing caches (mode 0)
+03-21 17:18:38.908 D/Downloader(  739): Curl Version:libcurl/7.21.7 OpenSSL/1.0.0e
+03-21 17:18:38.908 D/Downloader(  739): [downloadThread]init a multi curl done.curlm:0x2eb48 pRingBuffer:0x3e178
+03-21 17:18:38.912 D/DataSource_M3U8(  739): bg thread ready to run
+03-21 17:18:38.912 D/DataSource_M3U8(  739): [M3U8]ContentSource_M3U8 contruct done
+03-21 17:18:38.912 D/DataSource_M3U8(  739): bg thread ready to run
+03-21 17:18:38.912 D/DataSource_M3U8(  739): bg thread 292928
+03-21 17:18:38.912 D/DataSource_M3U8(  739): [M3U8] try parseURLs=http://vod.feifeikan.com/vod/coshipott,TWSX1000000000000254.m3u8?fmt=x264_0k_mpegts&sora=1&timecode=0&sk=4012D91C00660F8122B8BCB27294A3A8&UUID=f3fa8cd6-1011-4bce-ba6b-b636cde17218&userCode=default&userName=default&spCode=484581254562&productCode=1&resourceCode=10774&subId=123&resourceName=&authType=2
+03-21 17:18:38.912 D/Downloader(  739): [downloadThread]Downloader::removeTask  
+03-21 17:18:39.488 E/        ( 1764): get vaddr failed:pvaddr_read=0x6054b000,pvaddr_internal=0x6064b000,pvaddr_write=0x0
+03-21 17:18:39.524 D/dalvikvm( 1764): GC_FOR_ALLOC freed 140K, 18% free 26838K/32387K, paused 37ms
+03-21 17:18:39.528 I/dalvikvm-heap( 1764): Grow heap (frag case) to 30.183MB for 392208-byte allocation
+03-21 17:18:39.672 D/dalvikvm( 1764): GC_FOR_ALLOC freed 1K, 17% free 27220K/32771K, paused 127ms
+03-21 17:18:39.688 D/Downloader(  739): Location: http://121.11.151.224/vod.feifeikan.com/vod/coshipott,TWSX1000000000000254.m3u8?fmt=x264_0k_mpegts&sora=1&timecode=0&sk=4012D91C00660F8122B8BCB27294A3A8&UUID=f3fa8cd6-1011-4bce-ba6b-b636cde17218&userCode=default&userName=default&spCode=484581254562&productCode=1&resourceCode=10774&subId=123&resourceName=&authType=2&wsiphost=ipdb
+03-21 17:18:39.688 D/Downloader(  739): 
+03-21 17:18:40.148 D/MonitorCw880( 1595): currentRemoteHost is null ,continue
+03-21 17:18:40.152 D/Downloader(  739): Content-Type: application/vnd.apple.mpegurl
+03-21 17:18:40.152 D/Downloader(  739): 
+03-21 17:18:40.152 D/Downloader(  739): Content-Length: 95
+03-21 17:18:40.152 D/Downloader(  739): 
+03-21 17:18:40.152 D/Downloader(  739): Downloadserver bandWidth:612
+03-21 17:18:40.152 D/Downloader(  739): Downloadserver bandWidth:612
+03-21 17:18:40.152 D/Downloader(  739): Downloadserver bandWidth:612
+03-21 17:18:40.152 D/Downloader(  739): Downloadserver bandWidth:612
+03-21 17:18:40.152 D/DataSource_M3U8(  739): parseURLs : waiting 1230 ms 
+03-21 17:18:40.152 D/DataSource_M3U8(  739):  mDownloadingTask.fileSize:95 
+03-21 17:18:40.152 D/DataSource_M3U8(  739): [M3U8] file: NULL line 
+03-21 17:18:40.152 D/DataSource_M3U8(  739): HLS=====>> Live Stream!!!!
+03-21 17:18:40.152 D/DataSource_M3U8(  739):  bMultAlterBandwidthStream = 1  urlNum=1 
+03-21 17:18:40.156 D/Downloader(  739): [downloadThread]background worker recv DOWNLOADER_COMMAND_REMOVE_TASK
+03-21 17:18:40.156 D/Downloader(  739): [downloadThread]Downloader::removeTask  
+03-21 17:18:40.156 D/Downloader(  739): [downloadThread]DOWNLOADER_COMMAND_REMOVE_TASK done
+03-21 17:18:40.408 D/DataSource_M3U8(  739): [M3U8] try parseURLs=http://121.11.151.224/vod.feifeikan.com/vod/coshipottTWSX1000000000000254_800.m3u8
+03-21 17:18:40.408 D/Downloader(  739): [downloadThread]Downloader::removeTask  
+03-21 17:18:40.504 D/HomePlayerLib( 1666): hostaddress count is 1
+03-21 17:18:40.560 D/Downloader(  739): Content-Type: application/vnd.apple.mpegurl
+03-21 17:18:40.560 D/Downloader(  739): 
+03-21 17:18:40.560 D/Downloader(  739): Content-Length: 112614
+03-21 17:18:40.560 D/Downloader(  739): 
+03-21 17:18:40.612 D/dalvikvm( 1666): GC_CONCURRENT freed 1990K, 45% free 7286K/13123K, paused 4ms+4ms
+03-21 17:18:40.964 D/Downloader(  739): Downloadserver bandWidth:1629135
+03-21 17:18:40.964 D/Downloader(  739): Downloadserver bandWidth:1629135
+03-21 17:18:40.964 D/Downloader(  739): Downloadserver bandWidth:1629135
+03-21 17:18:40.964 D/Downloader(  739): Downloadserver bandWidth:1629135
+03-21 17:18:40.964 D/DataSource_M3U8(  739): parseURLs : waiting 550 ms 
+03-21 17:18:40.964 D/DataSource_M3U8(  739):  mDownloadingTask.fileSize:112614 
+03-21 17:18:40.964 D/DataSource_M3U8(  739): [M3U8]clear mFragements[0]
+03-21 17:18:40.964 D/DataSource_M3U8(  739):   mediaSequence :0 <= iLastMediaSequence:-1  
+03-21 17:18:40.964 D/DataSource_M3U8(  739): [M3U8] try parseURLs=http://121.11.151.224/vod.feifeikan.com/vod/coshipottTWSX1000000000000254_800.m3u8
+03-21 17:18:40.964 D/Downloader(  739): [downloadThread]Downloader::removeTask  
+03-21 17:18:41.092 D/dalvikvm( 1666): GC_CONCURRENT freed 1998K, 45% free 7246K/13123K, paused 3ms+4ms
+03-21 17:18:41.100 D/Downloader(  739): Content-Type: application/vnd.apple.mpegurl
+03-21 17:18:41.100 D/Downloader(  739): 
+03-21 17:18:41.100 D/Downloader(  739): Content-Length: 112614
+03-21 17:18:41.100 D/Downloader(  739): 
+03-21 17:18:42.300 D/Downloader(  739): Downloadserver bandWidth:675346
+03-21 17:18:42.300 D/Downloader(  739): Downloadserver bandWidth:675346
+03-21 17:18:42.300 D/Downloader(  739): Downloadserver bandWidth:675346
+03-21 17:18:42.300 D/Downloader(  739): Downloadserver bandWidth:675346
+03-21 17:18:42.300 D/DataSource_M3U8(  739): parseURLs : waiting 1320 ms 
+03-21 17:18:42.300 D/DataSource_M3U8(  739):  mDownloadingTask.fileSize:112614 
+03-21 17:18:42.300 D/DataSource_M3U8(  739):   mediaSequence :0 <= iLastMediaSequence:-1  
+03-21 17:18:42.300 D/DataSource_M3U8(  739): bSupportAutoChangeServer = 1 
+03-21 17:18:42.300 D/DataSource_M3U8(  739): getHLSPlayListInex  DownloadBandWidth:675346   uInDex=0
+03-21 17:18:42.300 D/MstarPlayer(  739): MstarPlayer::doPrepare
+03-21 17:18:42.300 D/ContentSource(  739): sniffMP3
+03-21 17:18:42.300 D/ContentSource(  739): sniffAAC
+03-21 17:18:42.300 D/ContentSource(  739): sniffWMA
+03-21 17:18:42.300 D/ContentSource(  739): sniffOGG
+03-21 17:18:42.300 D/ContentSource(  739): sniffWAV
+03-21 17:18:42.300 D/ContentSource(  739): sniffPCM
+03-21 17:18:42.300 D/ContentSource(  739): sniffMP4
+03-21 17:18:42.300 D/ContentSource(  739): sniffASF
+03-21 17:18:42.300 D/ContentSource(  739): sniffFLV
+03-21 17:18:42.300 D/ContentSource(  739): sniffMKV
+03-21 17:18:42.300 D/ContentSource(  739): sniffAVI
+03-21 17:18:42.300 D/ContentSource(  739): sniffMOV
+03-21 17:18:42.300 D/ContentSource(  739): sniffTS
+03-21 17:18:42.300 D/ContentSource(  739): sniffMPEG
+03-21 17:18:42.300 D/ContentSource(  739): sniffRM
+03-21 17:18:42.300 D/ContentSource(  739): sniffWMV
+03-21 17:18:42.300 D/ContentSource(  739): sniffJpegAndMPO
+03-21 17:18:42.300 D/ContentSource(  739): fast_avformat = 0
+03-21 17:18:42.300 D/DataSource_M3U8(  739): 
+03-21 17:18:42.300 D/DataSource_M3U8(  739):  seekAt : 0 
+03-21 17:18:45.148 D/MonitorCw880( 1595): currentRemoteHost is null ,continue
+03-21 17:18:46.356 F/libc    (  739): Fatal signal 11 (SIGSEGV) at 0x00000004 (code=1)
+03-21 17:18:46.768 I/DEBUG   (  735): *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+03-21 17:18:46.768 I/DEBUG   (  735): Build fingerprint: 'MStar/full_mstaramber3box/mstaramber3box:4.0.4/IMM76I/V1.0.0.0:eng/test-keys'
+03-21 17:18:46.768 I/DEBUG   (  735): pid: 739, tid: 1985  >>> /system/bin/mediaserver <<<
+03-21 17:18:46.768 I/DEBUG   (  735): signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 00000004
+03-21 17:18:46.768 I/DEBUG   (  735):  r0 4be20426  r1 00000004  r2 000003ff  r3 00000000
+03-21 17:18:46.768 I/DEBUG   (  735):  r4 4be20426  r5 00000000  r6 00000000  r7 ffffff38
+03-21 17:18:46.768 I/DEBUG   (  735):  r8 4be20426  r9 ffffff88  10 413fb014  fp 414e4534
+03-21 17:18:46.768 I/DEBUG   (  735):  ip 414e45e0  sp 4be203e0  lr 414d615c  pc 40065586  cpsr 40000030
+03-21 17:18:46.768 I/DEBUG   (  735):  d0  74416b656573200a  d1  64616f6c6e776f20
+03-21 17:18:46.768 I/DEBUG   (  735):  d2  73742e323431323d  d3  464e495458452320
+03-21 17:18:46.768 I/DEBUG   (  735):  d4  736f630a2c30313a  d5  575474746f706968
+03-21 17:18:46.768 I/DEBUG   (  735):  d6  3030303030315853  d7  3230303030303030
+03-21 17:18:46.768 I/DEBUG   (  735):  d8  0000000000000000  d9  0000000000000000
+03-21 17:18:46.768 I/DEBUG   (  735):  d10 0000000000000000  d11 0000000000000000
+03-21 17:18:46.768 I/DEBUG   (  735):  d12 0000000000000000  d13 0000000000000000
+03-21 17:18:46.768 I/DEBUG   (  735):  d14 0000000000000000  d15 0000000000000000
+03-21 17:18:46.768 I/DEBUG   (  735):  d16 0000000000000000  d17 4001c81b0f44f273
+03-21 17:18:46.768 I/DEBUG   (  735):  d18 4000000000000000  d19 bfcc81b0f44f2732
+03-21 17:18:46.768 I/DEBUG   (  735):  d20 3f11514b124662a5  d21 bebbb50a64601332
+03-21 17:18:46.768 I/DEBUG   (  735):  d22 3ff0000000000000  d23 3fe9cf20cd6b9218
+03-21 17:18:46.768 I/DEBUG   (  735):  d24 3e66376972bea4d0  d25 0000000000000000
+03-21 17:18:46.768 I/DEBUG   (  735):  d26 0000000000000000  d27 0000000000000000
+03-21 17:18:46.768 I/DEBUG   (  735):  d28 0000000000000000  d29 0000000000000000
+03-21 17:18:46.768 I/DEBUG   (  735):  d30 0000000000000000  d31 0000000000000000
+03-21 17:18:46.768 I/DEBUG   (  735):  scr 20000010
+03-21 17:18:46.768 I/DEBUG   (  735): 
+03-21 17:18:47.312 I/locationServeUtil( 1300): SystemPropertiesClass:class android.os.SystemProperties
+03-21 17:18:47.312 W/getProperties( 1300): ~~~~~~~~~~~~~~~~~~~~~~returnvalue:beijing
+03-21 17:18:47.312 I/ChinaWeather( 1300): localCityCode--->101010100
+03-21 17:18:47.324 I/DEBUG   (  735):          #00  pc 00022586  /system/lib/libc.so (strncpy)
+03-21 17:18:47.324 I/DEBUG   (  735):          #01  pc 0001d158  /system/lib/libmmcs.so (_ZN7android18ContentSource_M3U825sendRangeRequest_mutilurlEj)
+03-21 17:18:47.324 I/DEBUG   (  735): 
+03-21 17:18:47.324 I/DEBUG   (  735): code around pc:
+03-21 17:18:47.324 I/DEBUG   (  735): 40065564 3b01d1fb f8035d0d b90d5b01 e0023b01  ...;.]...[...;..
+03-21 17:18:47.324 I/DEBUG   (  735): 40065574 42a23401 2200d1f6 bd30701a b17ab510  .4.B...".p0...z.
+03-21 17:18:47.324 I/DEBUG   (  735): 40065584 f8114604 f8043b01 b9333b01 f804e001  .F...;...;3.....
+03-21 17:18:47.324 I/DEBUG   (  735): 40065594 f1123b01 d1fa32ff f112e002 d1f032ff  .;...2.......2..
+03-21 17:18:47.324 I/DEBUG   (  735): 400655a4 bf00bd10 460cb570 f7f34606 42a0efee  ....p..F.F.....B
+03-21 17:18:47.324 I/DEBUG   (  735): 
+03-21 17:18:47.324 I/DEBUG   (  735): code around lr:
+03-21 17:18:47.324 I/DEBUG   (  735): 414d613c e3a01000 e3a02b01 e1a00008 ebffc0bc  .....+..........
+03-21 17:18:47.324 I/DEBUG   (  735): 414d614c e2861004 e30023ff e1a00008 ebffc12a  .....#......*...
+03-21 17:18:47.324 I/DEBUG   (  735): 414d615c e3a03002 e5940030 e59d1020 e58d3030  .0..0... ...00..
+03-21 17:18:47.324 I/DEBUG   (  735): 414d616c eb000a0c e594002c e3500000 0a000000  ....,.....P.....
+03-21 17:18:47.324 I/DEBUG   (  735): 414d617c ebffc3ba e59f2414 e594503c e08f0002  .....$..<P......
+03-21 17:18:47.324 I/DEBUG   (  735): 
+03-21 17:18:47.324 I/DEBUG   (  735): stack:
+03-21 17:18:47.324 I/DEBUG   (  735):     4be203a0  00000000  
+03-21 17:18:47.324 I/DEBUG   (  735):     4be203a4  00000000  
+03-21 17:18:47.324 I/DEBUG   (  735):     4be203a8  00000000  
+03-21 17:18:47.324 I/DEBUG   (  735):     4be203ac  00000000  
+03-21 17:18:47.324 I/DEBUG   (  735):     4be203b0  00000000  
+03-21 17:18:47.324 I/DEBUG   (  735):     4be203b4  00000000  
+03-21 17:18:47.324 I/DEBUG   (  735):     4be203b8  00000000  
+03-21 17:18:47.324 I/DEBUG   (  735):     4be203bc  00000000  
+03-21 17:18:47.324 I/DEBUG   (  735):     4be203c0  00000000  
+03-21 17:18:47.324 I/DEBUG   (  735):     4be203c4  00000000  
+03-21 17:18:47.324 I/DEBUG   (  735):     4be203c8  00024fc0  [heap]
+03-21 17:18:47.324 I/DEBUG   (  735):     4be203cc  00000000  
+03-21 17:18:47.324 I/DEBUG   (  735):     4be203d0  4be20426  
+03-21 17:18:47.324 I/DEBUG   (  735):     4be203d4  00024fc0  [heap]
+03-21 17:18:47.324 I/DEBUG   (  735):     4be203d8  df0027ad  
+03-21 17:18:47.324 I/DEBUG   (  735):     4be203dc  00000000  
+03-21 17:18:47.324 I/DEBUG   (  735): #00 4be203e0  00024fc0  [heap]
+03-21 17:18:47.324 I/DEBUG   (  735):     4be203e4  414d615c  /system/lib/libmmcs.so
+03-21 17:18:47.324 I/DEBUG   (  735): #01 4be203e8  00000000  
+03-21 17:18:47.324 I/DEBUG   (  735):     4be203ec  00000000  
+03-21 17:18:47.324 I/DEBUG   (  735):     4be203f0  00000000  
+03-21 17:18:47.324 I/DEBUG   (  735):     4be203f4  00000000  
+03-21 17:18:47.324 I/DEBUG   (  735):     4be203f8  00000000  
+03-21 17:18:47.324 I/DEBUG   (  735):     4be203fc  00000000  
+03-21 17:18:47.324 I/DEBUG   (  735):     4be20400  00000000  
+03-21 17:18:47.324 I/DEBUG   (  735):     4be20404  00024fe8  [heap]
+03-21 17:18:47.324 I/DEBUG   (  735):     4be20408  4be20418  
+03-21 17:18:47.324 I/DEBUG   (  735):     4be2040c  4be20420  
+03-21 17:18:47.328 I/DEBUG   (  735):     4be20410  00000000  
+03-21 17:18:47.328 I/DEBUG   (  735):     4be20414  ffffff38  
+03-21 17:18:47.328 I/DEBUG   (  735):     4be20418  00000000  
+03-21 17:18:47.328 I/DEBUG   (  735):     4be2041c  00000000  
+03-21 17:18:47.328 I/DEBUG   (  735):     4be20420  00000000  
+03-21 17:18:47.328 I/DEBUG   (  735):     4be20424  00000000  
+03-21 17:18:47.328 I/DEBUG   (  735):     4be20428  00000000  
+03-21 17:18:47.328 I/DEBUG   (  735):     4be2042c  00000000  
+03-21 17:18:48.800 I/BootReceiver(  948): Copying /data/tombstones/tombstone_00 to DropBox (SYSTEM_TOMBSTONE)
+03-21 17:18:48.804 W/IMediaDeathNotifier(  948): media server died
+03-21 17:18:48.836 W/AudioSystem( 1870): AudioFlinger server died!
+03-21 17:18:48.836 W/IMediaDeathNotifier( 1764): media server died
+03-21 17:18:48.836 E/MediaPlayer( 1764): error (100, 0)
+03-21 17:18:48.836 W/AudioSystem( 1764): AudioFlinger server died!
+03-21 17:18:48.836 W/AudioSystem( 1870): AudioPolicyService server died!
+03-21 17:18:48.844 W/AudioSystem(  948): AudioFlinger server died!
+03-21 17:18:48.844 W/AudioSystem(  948): AudioPolicyService server died!
+03-21 17:18:48.848 W/AudioSystem( 1652): AudioFlinger server died!
+03-21 17:18:48.848 W/AudioSystem( 1652): AudioPolicyService server died!
+03-21 17:18:48.856 E/MediaPlayer.java( 1764): Error (100,0)
+03-21 17:18:48.856 E/MediaControler( 1764): onError:100--0
+03-21 17:18:48.856 D/VideoPlayer( 1764): onPlayCompletion
+03-21 17:18:48.904 D/dalvikvm(  948): GC_FOR_ALLOC freed 1481K, 59% free 3884K/9411K, paused 57ms
+03-21 17:18:48.912 I/ServiceManager(  732): service 'media.audio_flinger' died
+03-21 17:18:48.912 I/ServiceManager(  732): service 'media.player' died
+03-21 17:18:48.912 I/ServiceManager(  732): service 'media.camera' died
+03-21 17:18:48.912 I/ServiceManager(  732): service 'media.audio_policy' died
+03-21 17:18:49.316 I/        ( 1995): ServiceManager: 0xfdc8
+03-21 17:18:49.316 E/audio_hw_btsco( 1995): open btsco device
+03-21 17:18:49.316 E/AudioFlinger( 1995): couldn't open audio hw device in audio.btsco (Success)
+03-21 17:18:49.316 I/AudioFlinger( 1995): Loaded btsco audio interface from Default audio HW HAL (audio)
+03-21 17:18:49.316 I/AudioFlinger( 1995): Using 'Default audio HW HAL' (audio.btsco) as the primary audio interface
+03-21 17:18:49.320 V/audio_hw_primary( 1995): 
+03-21 17:18:49.320 V/audio_hw_primary( 1995): adev_open -------------------- build Mar 18 2013 21:13:25
+03-21 17:18:49.320 E/AudioFlinger( 1995): couldn't open audio hw device in audio.primary (Success)
+03-21 17:18:49.320 I/AudioFlinger( 1995): Loaded primary audio interface from MStar audio HW HAL (audio)
+03-21 17:18:49.320 E/AudioFlinger( 1995): couldn't open audio hw device in audio.a2dp (Success)
+03-21 17:18:49.320 I/AudioFlinger( 1995): Loaded a2dp audio interface from A2DP Audio HW HAL (audio)
+03-21 17:18:49.320 I/CameraService( 1995): CameraService started (pid=1995)
+03-21 17:18:49.328 V/audio_hw_primary( 1995): adev_open_output_stream dev:2 fmt/chn/sr 0 0 0
+03-21 17:18:49.328 V/audio_hw_primary( 1995): adev_open_output_stream: Open PCM_OUT ch/sr/fmt 2/44100/0, ps/pc 1024/4
+03-21 17:18:49.328 I/tinyalsa( 1995): open /dev/snd/pcmC0D0p in Block mode
+03-21 17:18:49.356 V/audio_hw_primary( 1995): out_get_buffer_size:10ms=1024 frame, should 16 align!
+03-21 17:18:49.356 I/AudioFlinger( 1995): AudioFlinger's thread 0x21360 ready to run
+03-21 17:18:49.356 V/audio_hw_primary( 1995): out_get_latency ret 10ms
+03-21 17:18:49.356 V/audio_hw_primary( 1995): out_get_latency ret 10ms
+03-21 17:18:49.356 V/audio_hw_primary( 1995): out_get_latency ret 10ms
+03-21 17:18:49.368 V/audio_hw_primary( 1995): out_set_parameters: routing=2
+03-21 17:18:49.368 I/AudioPolicyService( 1995): Loaded audio policy from LEGACY Audio Policy HAL (audio_policy)
+03-21 17:18:50.148 D/MonitorCw880( 1595): currentRemoteHost is null ,continue
+03-21 17:18:50.348 E/AudioService(  948): Media server died.
+03-21 17:18:50.348 E/AudioService(  948): Media server started.
+03-21 17:18:50.348 V/audio_hw_primary( 1995): adev_set_parameters: restarting=true
+03-21 17:18:50.348 W/AudioPolicyManagerBase( 1995): setPhoneState() setting same state 0
+03-21 17:18:50.352 V/audio_hw_primary( 1995): out_get_latency ret 10ms
+03-21 17:18:50.360 V/audio_hw_primary( 1995): adev_set_parameters: restarting=false
+03-21 17:18:51.160 I/ChinaWeather( 1300): info:{"weatherinfo":{"city":"北京","cityid":"101010100","temp1":"12℃","temp2":"4℃","weather":"多云转晴","img1":"d1.gif","img2":"n0.gif","ptime":"11:00"}}
+03-21 17:18:51.188 I/ChinaWeather( 1300): [handler]  info:4℃ ~ 12℃ 北京 多云转晴
+03-21 17:18:51.188 I/ChinaWeather( 1300): bootNumWhether--->2
+03-21 17:18:51.188 I/System.out( 1300): bootNumWhether--->2
+03-21 17:18:51.364 D/HomePlayerLib( 1666): hostaddress count is 1
+03-21 17:18:51.456 D/dalvikvm( 1666): GC_CONCURRENT freed 1964K, 45% free 7268K/13123K, paused 3ms+4ms
+03-21 17:18:51.884 D/dalvikvm( 1666): GC_CONCURRENT freed 1984K, 45% free 7325K/13123K, paused 2ms+3ms
+03-21 17:18:53.876 D/VideoPlayer( 1764): onPause
+03-21 17:18:53.876 D/MediaControler( 1764): stop
+03-21 17:18:53.876 E/MediaPlayer( 1764): stop called in state 0
+03-21 17:18:53.876 E/MediaPlayer( 1764): error (-38, 0)
+03-21 17:18:53.884 W/AudioFlinger( 1995): session id 5 not found for pid 1764
+03-21 17:18:53.884 D/VideoPlayer( 1764): onPlayStop
+03-21 17:18:53.892 V/audio_hw_primary( 1995): out_get_latency ret 10ms
+03-21 17:18:53.900 W/MediaPlayer.java( 1764): mediaplayer went away with unhandled events
+03-21 17:18:54.032 D/OpenGLRenderer( 1764): Flushing caches (mode 0)
+03-21 17:18:54.544 D/MediaControler( 1764): onDestroy
+03-21 17:18:54.544 D/VideoPlayer( 1764): onPlayStop
+03-21 17:18:54.556 D/OtOService( 1764): TVContentReceiver: ACTION_TV_CONTENT_CHANGED, playType: 0 ,resourceCode: null
+03-21 17:18:55.148 D/MonitorCw880( 1595): currentRemoteHost is null ,continue
+03-21 17:19:00.148 D/MonitorCw880( 1595): currentRemoteHost is null ,continue
+03-21 17:19:01.888 D/HomePlayerLib( 1666): hostaddress count is 1
+03-21 17:19:01.984 D/dalvikvm( 1666): GC_CONCURRENT freed 2029K, 45% free 7329K/13123K, paused 4ms+3ms
+03-21 17:19:02.444 D/dalvikvm( 1666): GC_CONCURRENT freed 2039K, 45% free 7337K/13123K, paused 3ms+7ms
+03-21 17:19:04.136 D/CheckNetWork( 1652): isOk true
+03-21 17:19:04.140 D/CheckNetWork( 1652): ActInfoNetworkInfo: type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), roaming: false, failover: false, isAvailable: true
+03-21 17:19:04.140 D/CheckNetWork( 1652): infoNetworkInfo: type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), roaming: false, failover: false, isAvailable: true
+03-21 17:19:05.148 D/MonitorCw880( 1595): currentRemoteHost is null ,continue
+03-21 17:19:10.148 D/MonitorCw880( 1595): currentRemoteHost is null ,continue
+03-21 17:19:12.524 D/HomePlayerLib( 1666): hostaddress count is 1
+03-21 17:19:12.604 D/dalvikvm( 1666): GC_CONCURRENT freed 2037K, 45% free 7223K/13123K, paused 5ms+5ms
+03-21 17:19:13.008 D/dalvikvm( 1666): GC_CONCURRENT freed 1932K, 44% free 7408K/13123K, paused 3ms+4ms
+03-21 17:19:15.148 D/MonitorCw880( 1595): currentRemoteHost is null ,continue
+03-21 17:19:15.244 W/ThrottleService(  948): unable to find stats for iface rmnet0
+03-21 17:19:20.148 D/MonitorCw880( 1595): currentRemoteHost is null ,continue
+03-21 17:19:23.200 D/HomePlayerLib( 1666): hostaddress count is 1
+03-21 17:19:23.260 D/dalvikvm( 1666): GC_CONCURRENT freed 2146K, 45% free 7293K/13187K, paused 2ms+3ms
+03-21 17:19:23.588 D/dalvikvm( 1666): GC_CONCURRENT freed 2010K, 45% free 7331K/13187K, paused 2ms+3ms
+03-21 17:19:25.148 D/MonitorCw880( 1595): currentRemoteHost is null ,continue
+03-21 17:19:30.148 D/MonitorCw880( 1595): currentRemoteHost is null ,continue
+03-21 17:19:33.800 D/HomePlayerLib( 1666): hostaddress count is 1
+03-21 17:19:33.852 D/dalvikvm( 1666): GC_CONCURRENT freed 2033K, 45% free 7332K/13187K, paused 2ms+3ms
+03-21 17:19:34.184 D/dalvikvm( 1666): GC_CONCURRENT freed 2048K, 46% free 7232K/13187K, paused 3ms+4ms
+03-21 17:19:35.148 D/MonitorCw880( 1595): currentRemoteHost is null ,continue
+03-21 17:19:40.148 D/MonitorCw880( 1595): currentRemoteHost is null ,continue
+03-21 17:19:44.832 D/dalvikvm( 1666): GC_CONCURRENT freed 1947K, 45% free 7333K/13187K, paused 2ms+4ms
+03-21 17:19:44.836 D/HomePlayerLib( 1666): hostaddress count is 1
+03-21 17:19:45.148 D/MonitorCw880( 1595): currentRemoteHost is null ,continue
+03-21 17:19:45.172 D/dalvikvm( 1666): GC_CONCURRENT freed 2044K, 46% free 7213K/13187K, paused 2ms+3ms
+03-21 17:19:45.728 D/dalvikvm( 1666): GC_CONCURRENT freed 1912K, 45% free 7314K/13187K, paused 2ms+3ms
+03-21 17:19:50.148 D/MonitorCw880( 1595): currentRemoteHost is null ,continue
+03-21 17:19:51.192 I/locationServeUtil( 1300): SystemPropertiesClass:class android.os.SystemProperties
+03-21 17:19:51.192 W/getProperties( 1300): ~~~~~~~~~~~~~~~~~~~~~~returnvalue:beijing
+03-21 17:19:51.192 I/ChinaWeather( 1300): localCityCode--->101010100
+03-21 17:19:53.516 I/ChinaWeather( 1300): info:{"weatherinfo":{"city":"北京","cityid":"101010100","temp1":"12℃","temp2":"4℃","weather":"多云转晴","img1":"d1.gif","img2":"n0.gif","ptime":"11:00"}}
+03-21 17:19:53.520 I/ChinaWeather( 1300): [handler]  info:4℃ ~ 12℃ 北京 多云转晴
+03-21 17:19:55.148 D/MonitorCw880( 1595): currentRemoteHost is null ,continue
+03-21 17:19:55.740 D/HomePlayerLib( 1666): hostaddress count is 1
+03-21 17:19:56.032 D/dalvikvm( 1666): GC_CONCURRENT freed 2027K, 45% free 7334K/13187K, paused 2ms+3ms
+03-21 17:19:56.604 D/dalvikvm( 1666): GC_CONCURRENT freed 2040K, 45% free 7340K/13187K, paused 2ms+3ms
+03-21 17:20:00.148 D/MonitorCw880( 1595): currentRemoteHost is null ,continue
+03-21 17:20:04.196 D/CheckNetWork( 1652): isOk true
+03-21 17:20:04.200 D/CheckNetWork( 1652): ActInfoNetworkInfo: type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), roaming: false, failover: false, isAvailable: true
+03-21 17:20:04.200 D/CheckNetWork( 1652): infoNetworkInfo: type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), roaming: false, failover: false, isAvailable: true
+03-21 17:20:05.148 D/MonitorCw880( 1595): currentRemoteHost is null ,continue
+03-21 17:20:06.632 D/HomePlayerLib( 1666): hostaddress count is 1
+03-21 17:20:06.876 D/dalvikvm( 1666): GC_CONCURRENT freed 2056K, 46% free 7238K/13187K, paused 2ms+4ms
+03-21 17:20:07.376 D/dalvikvm( 1666): GC_CONCURRENT freed 1953K, 45% free 7300K/13187K, paused 2ms+17ms
+03-21 17:20:10.148 D/MonitorCw880( 1595): currentRemoteHost is null ,continue
+03-21 17:20:15.148 D/MonitorCw880( 1595): currentRemoteHost is null ,continue
+03-21 17:20:17.464 D/HomePlayerLib( 1666): hostaddress count is 1
+03-21 17:20:17.672 D/dalvikvm( 1666): GC_CONCURRENT freed 2012K, 46% free 7239K/13187K, paused 2ms+3ms
+03-21 17:20:18.220 D/dalvikvm( 1666): GC_CONCURRENT freed 1955K, 46% free 7229K/13187K, paused 2ms+3ms
+03-21 17:20:20.148 D/MonitorCw880( 1595): currentRemoteHost is null ,continue
+03-21 17:20:25.148 D/MonitorCw880( 1595): currentRemoteHost is null ,continue
+03-21 17:20:28.212 D/HomePlayerLib( 1666): hostaddress count is 1
+03-21 17:20:28.304 D/dalvikvm( 1666): GC_CONCURRENT freed 1946K, 46% free 7237K/13187K, paused 3ms+6ms
+03-21 17:20:28.780 D/dalvikvm( 1666): GC_FOR_ALLOC freed 2075K, 46% free 7208K/13187K, paused 33ms
+03-21 17:20:28.832 D/dalvikvm( 1666): GC_CONCURRENT freed 33K, 45% free 7333K/13187K, paused 2ms+3ms
+03-21 17:20:30.152 D/MonitorCw880( 1595): currentRemoteHost is null ,continue
+03-21 17:20:35.152 D/MonitorCw880( 1595): currentRemoteHost is null ,continue
+03-21 17:20:38.708 D/HomePlayerLib( 1666): hostaddress count is 1
+03-21 17:20:38.808 D/dalvikvm( 1666): GC_CONCURRENT freed 2029K, 45% free 7349K/13187K, paused 2ms+3ms
+03-21 17:20:39.400 D/dalvikvm( 1666): GC_CONCURRENT freed 2054K, 46% free 7243K/13187K, paused 3ms+4ms
+03-21 17:20:40.152 D/MonitorCw880( 1595): currentRemoteHost is null ,continue
+03-21 17:20:45.152 D/MonitorCw880( 1595): currentRemoteHost is null ,continue
+03-21 17:20:45.908 D/dalvikvm( 1666): GC_CONCURRENT freed 1950K, 46% free 7249K/13187K, paused 2ms+4ms
+03-21 17:20:49.980 D/HomePlayerLib( 1666): hostaddress count is 1
+03-21 17:20:50.152 D/MonitorCw880( 1595): currentRemoteHost is null ,continue
+03-21 17:20:50.228 D/dalvikvm( 1666): GC_CONCURRENT freed 1967K, 46% free 7237K/13187K, paused 2ms+3ms
+03-21 17:20:50.696 D/dalvikvm( 1666): GC_CONCURRENT freed 1948K, 45% free 7274K/13187K, paused 2ms+3ms
+03-21 17:20:55.152 D/MonitorCw880( 1595): currentRemoteHost is null ,continue
+03-21 17:21:00.152 D/MonitorCw880( 1595): currentRemoteHost is null ,continue
+03-21 17:21:00.712 D/HomePlayerLib( 1666): hostaddress count is 1
+03-21 17:21:00.924 D/dalvikvm( 1666): GC_CONCURRENT freed 1988K, 45% free 7368K/13187K, paused 2ms+3ms
+03-21 17:21:01.448 D/dalvikvm( 1666): GC_CONCURRENT freed 2081K, 45% free 7330K/13187K, paused 2ms+5ms
+03-21 17:21:04.256 D/CheckNetWork( 1652): isOk true
+03-21 17:21:04.260 D/CheckNetWork( 1652): ActInfoNetworkInfo: type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), roaming: false, failover: false, isAvailable: true
+03-21 17:21:04.260 D/CheckNetWork( 1652): infoNetworkInfo: type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), roaming: false, failover: false, isAvailable: true
+03-21 17:21:04.468 D/PushMsgCenter( 1622): mDownUpRun run while (true)
+03-21 17:21:04.468 D/PushMsgCenter( 1622): down  
+03-21 17:21:05.092 D/PushMsgCenter( 1622): down conn.getResponseCode() status = 404
+03-21 17:21:05.152 D/MonitorCw880( 1595): currentRemoteHost is null ,continue
+03-21 17:21:10.152 D/MonitorCw880( 1595): currentRemoteHost is null ,continue
+03-21 17:21:11.616 D/HomePlayerLib( 1666): hostaddress count is 1
+03-21 17:21:11.820 D/dalvikvm( 1666): GC_CONCURRENT freed 2041K, 45% free 7329K/13187K, paused 2ms+3ms
+03-21 17:21:12.348 D/dalvikvm( 1666): GC_CONCURRENT freed 2042K, 45% free 7331K/13187K, paused 2ms+3ms
+03-21 17:21:15.152 D/MonitorCw880( 1595): currentRemoteHost is null ,continue
+03-21 17:21:20.152 D/MonitorCw880( 1595): currentRemoteHost is null ,continue
+03-21 17:21:22.400 D/HomePlayerLib( 1666): hostaddress count is 1
+03-21 17:21:22.492 D/dalvikvm( 1666): GC_CONCURRENT freed 2054K, 46% free 7251K/13187K, paused 2ms+3ms
+03-21 17:21:22.972 D/dalvikvm( 1666): GC_CONCURRENT freed 1964K, 44% free 7412K/13187K, paused 2ms+3ms
+03-21 17:21:25.156 D/MonitorCw880( 1595): currentRemoteHost is null ,continue
+03-21 17:21:30.156 D/MonitorCw880( 1595): currentRemoteHost is null ,continue
+03-21 17:21:33.484 D/HomePlayerLib( 1666): hostaddress count is 1
+03-21 17:21:33.676 D/dalvikvm( 1666): GC_CONCURRENT freed 2131K, 44% free 7427K/13187K, paused 102ms+3ms
+03-21 17:21:34.124 D/dalvikvm( 1666): GC_CONCURRENT freed 2140K, 45% free 7278K/13187K, paused 2ms+3ms
+03-21 17:21:35.156 D/MonitorCw880( 1595): currentRemoteHost is null ,continue
+03-21 17:21:40.156 D/MonitorCw880( 1595): currentRemoteHost is null ,continue
+03-21 17:21:44.488 D/HomePlayerLib( 1666): hostaddress count is 1
+03-21 17:21:44.568 D/dalvikvm( 1666): GC_CONCURRENT freed 1987K, 45% free 7253K/13187K, paused 2ms+3ms
+03-21 17:21:44.996 D/dalvikvm( 1666): GC_CONCURRENT freed 1973K, 45% free 7283K/13187K, paused 2ms+3ms
+03-21 17:21:45.156 D/MonitorCw880( 1595): currentRemoteHost is null ,continue
+03-21 17:21:50.156 D/MonitorCw880( 1595): currentRemoteHost is null ,continue
+03-21 17:21:55.124 D/HomePlayerLib( 1666): hostaddress count is 1
+03-21 17:21:55.156 D/MonitorCw880( 1595): currentRemoteHost is null ,continue
+03-21 17:21:55.176 D/dalvikvm( 1666): GC_CONCURRENT freed 1995K, 46% free 7224K/13187K, paused 2ms+3ms
+03-21 17:21:55.628 D/dalvikvm( 1666): GC_CONCURRENT freed 1932K, 45% free 7256K/13187K, paused 3ms+3ms
+03-21 17:22:00.156 D/MonitorCw880( 1595): currentRemoteHost is null ,continue
+03-21 17:22:04.316 D/CheckNetWork( 1652): isOk true
+03-21 17:22:04.316 D/CheckNetWork( 1652): ActInfoNetworkInfo: type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), roaming: false, failover: false, isAvailable: true
+03-21 17:22:04.320 D/CheckNetWork( 1652): infoNetworkInfo: type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), roaming: false, failover: false, isAvailable: true
+03-21 17:22:05.156 D/MonitorCw880( 1595): currentRemoteHost is null ,continue
+03-21 17:22:06.104 D/HomePlayerLib( 1666): hostaddress count is 1
+03-21 17:22:06.112 D/dalvikvm( 1666): GC_CONCURRENT freed 1966K, 45% free 7369K/13187K, paused 2ms+3ms
+03-21 17:22:06.440 D/dalvikvm( 1666): GC_CONCURRENT freed 2083K, 46% free 7238K/13187K, paused 3ms+3ms
+03-21 17:22:10.156 D/MonitorCw880( 1595): currentRemoteHost is null ,continue
+03-21 17:22:15.156 D/MonitorCw880( 1595): currentRemoteHost is null ,continue
+03-21 17:22:16.880 D/dalvikvm( 1666): GC_CONCURRENT freed 1932K, 45% free 7352K/13187K, paused 4ms+3ms
+03-21 17:22:16.884 D/HomePlayerLib( 1666): hostaddress count is 1
+03-21 17:22:17.216 D/dalvikvm( 1666): GC_CONCURRENT freed 2053K, 45% free 7333K/13187K, paused 2ms+3ms
+03-21 17:22:17.756 D/dalvikvm( 1666): GC_CONCURRENT freed 2048K, 46% free 7206K/13187K, paused 2ms+4ms
+03-21 17:22:20.156 D/MonitorCw880( 1595): currentRemoteHost is null ,continue
+03-21 17:22:25.156 D/MonitorCw880( 1595): currentRemoteHost is null ,continue
+03-21 17:22:27.528 D/HomePlayerLib( 1666): hostaddress count is 1
+03-21 17:22:28.024 D/dalvikvm( 1666): GC_CONCURRENT freed 1919K, 45% free 7253K/13187K, paused 4ms+4ms
+03-21 17:22:28.700 D/dalvikvm( 1666): GC_CONCURRENT freed 1959K, 45% free 7256K/13187K, paused 2ms+3ms
+03-21 17:22:30.156 D/MonitorCw880( 1595): currentRemoteHost is null ,continue
+03-21 17:22:35.156 D/MonitorCw880( 1595): currentRemoteHost is null ,continue
+03-21 17:22:35.556 I/ActivityManager(  948): START {flg=0x78000000 cmp=com.aidufei.movieonline/.player.VideoPlayer (has extras)} from pid 1764
+03-21 17:22:35.628 D/dalvikvm(  948): GC_CONCURRENT freed 949K, 61% free 3712K/9411K, paused 2ms+7ms
+03-21 17:22:35.684 I/Utils   ( 1764): SystemPropertiesClass:class android.os.SystemProperties
+03-21 17:22:35.684 W/Utils   ( 1764): ~~~~~~~~~~~~~~~~~~~~~~method:public static java.lang.String android.os.SystemProperties.get(java.lang.String,java.lang.String)
+03-21 17:22:35.684 W/Utils   ( 1764): ~~~~~~~~~~~~~~~~~~~~~~returnvalue:32
+03-21 17:22:35.684 I/VideoPlayer( 1764): playSource:2
+03-21 17:22:35.684 I/VideoPlayer( 1764): getLivePlayEvent playEvent:null
+03-21 17:22:35.688 D/VideoPlayer( 1764): subId:---resourceCode:10774---timeCode:0
+03-21 17:22:35.692 D/NetTransportUtil( 1764): request Url  :http://wasu.feifeikan.com:8080/msis/getPlayURL?version=V001&terminalType=2&resolution=1280*720&resourceCode=10774&playType=1&delay=0&shifttime=0&shiftend=0&timecode=0&urlType=3&authKey=e19ab1134327357edbcc6475438a4d25
+03-21 17:22:35.720 D/OpenGLRenderer( 1764): Flushing caches (mode 0)
+03-21 17:22:35.736 D/OtOService( 1764): TVContentReceiver: ACTION_TV_CONTENT_CHANGED, playType: 1 ,resourceCode: 10774
+03-21 17:22:35.784 D/MediaControler( 1764): surfaceChanged
+03-21 17:22:35.812 I/ActivityManager(  948): Displayed com.aidufei.movieonline/.player.VideoPlayer: +179ms
+03-21 17:22:35.880 D/OpenGLRenderer( 1764): Flushing caches (mode 0)
+03-21 17:22:35.928 D/VideoPlayer( 1764): play url:http://vod.feifeikan.com/vod/coshipott,TWSX1000000000000254.m3u8?fmt=x264_0k_mpegts&sora=1&timecode=0&sk=F8C9F4A6A3008F71B9C580F3960193B5&UUID=5ae7b9d0-8aa1-4e89-8965-97d9ae1f80b5&userCode=default&userName=default&spCode=484581254562&productCode=1&resourceCode=10774&subId=123&resourceName=&authType=2
+03-21 17:22:35.940 E/MediaPlayer( 1764): stop called in state 1
+03-21 17:22:35.940 E/MediaPlayer( 1764): error (-38, 0)
+03-21 17:22:36.940 D/MediaPlayerService( 1995):  Create MstarPlayer
+03-21 17:22:36.940 D/MstarPlayer( 1995): Create MstarPlayer:0x24198,Version:Release Mstar player lib Version:0015,Base CL:690305  Date:2012/11/06
+03-21 17:22:36.940 D/MstarPlayer( 1995): TV Local Time :  Thu Mar 21 17:22:36 2013
+03-21 17:22:36.940 D/MstarPlayer( 1995):  
+03-21 17:22:36.940 D/MstarPlayer( 1995): setInstance: 0x24198
+03-21 17:22:36.940 D/MstarPlayer( 1995): mstar player set listener
+03-21 17:22:36.940 D/MstarPlayer( 1995): MstarPlayer::initCheck
+03-21 17:22:36.940 D/MediaPlayerService( 1995): [1] setVideoSurfaceTexture(0x24420)
+03-21 17:22:36.940 D/MstarPlayer( 1995): MstarPlayer::setVideoSurfaceTexture 
+03-21 17:22:36.940 D/MstarPlayer( 1995): open mHwcFifoFD = 12
+03-21 17:22:36.940 D/MstarPlayer( 1995): MstarPlayer::prepareAsync
+03-21 17:22:36.944 D/MstarPlayer( 1995): 
+03-21 17:22:36.944 D/MstarPlayer( 1995):  MstarPlayer::doSetDataSource
+03-21 17:22:36.944 D/MstarPlayer( 1995): MstarPlayer::clearAllSource
+03-21 17:22:36.944 D/MstarPlayer( 1995): 
+03-21 17:22:36.944 D/MstarPlayer( 1995):  MstarPlayer::doSetDataSource: url=http://vod.feifeikan.com/vod/coshipott,TWSX1000000000000254.m3u8?fmt=x264_0k_mpegts&sora=1&timecode=0&sk=F8C9F4A6A3008F71B9C580F3960193B5&UUID=5ae7b9d0-8aa1-4e89-8965-97d9ae1f80b5&userCode=default&userName=default&spCode=484581254562&productCode=1&resourceCode=10774&subId=123&resourceName=&authType=2
+03-21 17:22:36.944 D/Downloader( 1995): Release Mstar Content Source CL:485100  Date:2013/03/12
+03-21 17:22:36.960 D/Downloader( 1995): Curl Version:libcurl/7.21.7 OpenSSL/1.0.0e
+03-21 17:22:36.960 D/Downloader( 1995): [downloadThread]init a multi curl done.curlm:0x377c0 pRingBuffer:0x24788
+03-21 17:22:36.960 D/DataSource_M3U8( 1995): [M3U8]ContentSource_M3U8 contruct done
+03-21 17:22:36.960 D/DataSource_M3U8( 1995): [M3U8] try parseURLs=http://vod.feifeikan.com/vod/coshipott,TWSX1000000000000254.m3u8?fmt=x264_0k_mpegts&sora=1&timecode=0&sk=F8C9F4A6A3008F71B9C580F3960193B5&UUID=5ae7b9d0-8aa1-4e89-8965-97d9ae1f80b5&userCode=default&userName=default&spCode=484581254562&productCode=1&resourceCode=10774&subId=123&resourceName=&authType=2
+03-21 17:22:36.960 D/DataSource_M3U8( 1995): bg thread ready to run
+03-21 17:22:36.964 D/DataSource_M3U8( 1995): bg thread 253776
+03-21 17:22:36.964 D/DataSource_M3U8( 1995): bg thread ready to run
+03-21 17:22:36.964 D/Downloader( 1995): [downloadThread]Downloader::removeTask  
+03-21 17:22:38.696 D/HomePlayerLib( 1666): hostaddress count is 1
+03-21 17:22:38.896 D/dalvikvm( 1666): GC_CONCURRENT freed 1966K, 45% free 7356K/13187K, paused 2ms+5ms
+03-21 17:22:39.476 D/dalvikvm( 1666): GC_CONCURRENT freed 2062K, 45% free 7335K/13187K, paused 2ms+3ms
+03-21 17:22:40.156 D/MonitorCw880( 1595): currentRemoteHost is null ,continue
+03-21 17:22:40.204 D/Downloader( 1995): Location: http://121.11.151.224/vod.feifeikan.com/vod/coshipott,TWSX1000000000000254.m3u8?fmt=x264_0k_mpegts&sora=1&timecode=0&sk=F8C9F4A6A3008F71B9C580F3960193B5&UUID=5ae7b9d0-8aa1-4e89-8965-97d9ae1f80b5&userCode=default&userName=default&spCode=484581254562&productCode=1&resourceCode=10774&subId=123&resourceName=&authType=2&wsiphost=ipdb
+03-21 17:22:40.204 D/Downloader( 1995): 
+03-21 17:22:40.304 D/Downloader( 1995): Location: http://121.11.151.222/vod.feifeikan.com/vod/coshipott,TWSX1000000000000254.m3u8?fmt=x264_0k_mpegts&sora=1&timecode=0&sk=F8C9F4A6A3008F71B9C580F3960193B5&UUID=5ae7b9d0-8aa1-4e89-8965-97d9ae1f80b5&userCode=default&userName=default&spCode=484581254562&productCode=1&resourceCode=10774&subId=123&resourceName=&authType=2&wsiphost=local
+03-21 17:22:40.304 D/Downloader( 1995): 
+03-21 17:22:40.632 D/Downloader( 1995): Content-Type: application/vnd.apple.mpegurl
+03-21 17:22:40.632 D/Downloader( 1995): 
+03-21 17:22:40.632 D/Downloader( 1995): Content-Length: 95
+03-21 17:22:40.632 D/Downloader( 1995): 
+03-21 17:22:40.632 D/Downloader( 1995): Downloadserver bandWidth:207
+03-21 17:22:40.632 D/Downloader( 1995): Downloadserver bandWidth:207
+03-21 17:22:40.632 D/Downloader( 1995): Downloadserver bandWidth:207
+03-21 17:22:40.632 D/Downloader( 1995): Downloadserver bandWidth:207
+03-21 17:22:40.636 D/DataSource_M3U8( 1995): parseURLs : waiting 3650 ms 
+03-21 17:22:40.636 D/DataSource_M3U8( 1995):  mDownloadingTask.fileSize:95 
+03-21 17:22:40.636 D/DataSource_M3U8( 1995): [M3U8] file: NULL line 
+03-21 17:22:40.636 D/DataSource_M3U8( 1995): HLS=====>> Live Stream!!!!
+03-21 17:22:40.636 D/DataSource_M3U8( 1995):  bMultAlterBandwidthStream = 1  urlNum=1 
+03-21 17:22:40.636 D/Downloader( 1995): [downloadThread]background worker recv DOWNLOADER_COMMAND_REMOVE_TASK
+03-21 17:22:40.636 D/Downloader( 1995): [downloadThread]Downloader::removeTask  
+03-21 17:22:40.636 D/Downloader( 1995): [downloadThread]DOWNLOADER_COMMAND_REMOVE_TASK done
+03-21 17:22:40.712 D/DataSource_M3U8( 1995): [M3U8] try parseURLs=http://121.11.151.222/vod.feifeikan.com/vod/coshipottTWSX1000000000000254_800.m3u8
+03-21 17:22:40.712 D/Downloader( 1995): [downloadThread]Downloader::removeTask  
+03-21 17:22:40.932 D/Downloader( 1995): Content-Type: application/vnd.apple.mpegurl
+03-21 17:22:40.932 D/Downloader( 1995): 
+03-21 17:22:40.932 D/Downloader( 1995): Content-Length: 112614
+03-21 17:22:40.932 D/Downloader( 1995): 
+03-21 17:22:41.440 D/Downloader( 1995): Downloadserver bandWidth:1240925
+03-21 17:22:41.440 D/Downloader( 1995): Downloadserver bandWidth:1240925
+03-21 17:22:41.440 D/Downloader( 1995): Downloadserver bandWidth:1240925
+03-21 17:22:41.440 D/Downloader( 1995): Downloadserver bandWidth:1240925
+03-21 17:22:41.440 D/DataSource_M3U8( 1995): parseURLs : waiting 720 ms 
+03-21 17:22:41.440 D/DataSource_M3U8( 1995):  mDownloadingTask.fileSize:112614 
+03-21 17:22:41.440 D/DataSource_M3U8( 1995): [M3U8]clear mFragements[0]
+03-21 17:22:41.440 D/DataSource_M3U8( 1995):   mediaSequence :0 <= iLastMediaSequence:-1  
+03-21 17:22:41.440 D/DataSource_M3U8( 1995): [M3U8] try parseURLs=http://121.11.151.222/vod.feifeikan.com/vod/coshipottTWSX1000000000000254_800.m3u8
+03-21 17:22:41.440 D/Downloader( 1995): [downloadThread]Downloader::removeTask  
+03-21 17:22:41.492 D/Downloader( 1995): Content-Type: application/vnd.apple.mpegurl
+03-21 17:22:41.492 D/Downloader( 1995): 
+03-21 17:22:41.492 D/Downloader( 1995): Content-Length: 112614
+03-21 17:22:41.492 D/Downloader( 1995): 
+03-21 17:22:41.892 D/Downloader( 1995): Downloadserver bandWidth:1988768
+03-21 17:22:41.892 D/Downloader( 1995): Downloadserver bandWidth:1988768
+03-21 17:22:41.892 D/Downloader( 1995): Downloadserver bandWidth:1988768
+03-21 17:22:41.892 D/Downloader( 1995): Downloadserver bandWidth:1984387
+03-21 17:22:41.904 D/DataSource_M3U8( 1995): parseURLs : waiting 460 ms 
+03-21 17:22:41.904 D/DataSource_M3U8( 1995):  mDownloadingTask.fileSize:112614 
+03-21 17:22:41.904 D/DataSource_M3U8( 1995):   mediaSequence :0 <= iLastMediaSequence:-1  
+03-21 17:22:41.904 D/DataSource_M3U8( 1995): bSupportAutoChangeServer = 1 
+03-21 17:22:41.904 D/DataSource_M3U8( 1995): getHLSPlayListInex  DownloadBandWidth:1984387   uInDex=0
+03-21 17:22:41.904 D/MstarPlayer( 1995): MstarPlayer::doPrepare
+03-21 17:22:41.904 D/ContentSource( 1995): sniffMP3
+03-21 17:22:41.904 D/ContentSource( 1995): sniffAAC
+03-21 17:22:41.904 D/ContentSource( 1995): sniffWMA
+03-21 17:22:41.904 D/ContentSource( 1995): sniffOGG
+03-21 17:22:41.904 D/ContentSource( 1995): sniffWAV
+03-21 17:22:41.904 D/ContentSource( 1995): sniffPCM
+03-21 17:22:41.904 D/ContentSource( 1995): sniffMP4
+03-21 17:22:41.904 D/ContentSource( 1995): sniffASF
+03-21 17:22:41.904 D/ContentSource( 1995): sniffFLV
+03-21 17:22:41.904 D/ContentSource( 1995): sniffMKV
+03-21 17:22:41.904 D/ContentSource( 1995): sniffAVI
+03-21 17:22:41.904 D/ContentSource( 1995): sniffMOV
+03-21 17:22:41.904 D/ContentSource( 1995): sniffTS
+03-21 17:22:41.904 D/ContentSource( 1995): sniffMPEG
+03-21 17:22:41.904 D/ContentSource( 1995): sniffRM
+03-21 17:22:41.904 D/ContentSource( 1995): sniffWMV
+03-21 17:22:41.904 D/ContentSource( 1995): sniffJpegAndMPO
+03-21 17:22:41.904 D/ContentSource( 1995): fast_avformat = 0
+03-21 17:22:41.904 D/DataSource_M3U8( 1995): 
+03-21 17:22:41.904 D/DataSource_M3U8( 1995):  seekAt : 0 
+03-21 17:22:41.912 F/libc    ( 1995): Fatal signal 11 (SIGSEGV) at 0x00000004 (code=1)
+03-21 17:22:42.416 I/DEBUG   (  735): *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+03-21 17:22:42.416 I/DEBUG   (  735): Build fingerprint: 'MStar/full_mstaramber3box/mstaramber3box:4.0.4/IMM76I/V1.0.0.0:eng/test-keys'
+03-21 17:22:42.416 I/DEBUG   (  735): pid: 1995, tid: 2019  >>> /system/bin/mediaserver <<<
+03-21 17:22:42.416 I/DEBUG   (  735): signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 00000004
+03-21 17:22:42.416 I/DEBUG   (  735):  r0 41c6f426  r1 00000004  r2 000003ff  r3 00000000
+03-21 17:22:42.416 I/DEBUG   (  735):  r4 41c6f426  r5 00000000  r6 00000000  r7 ffffff38
+03-21 17:22:42.416 I/DEBUG   (  735):  r8 41c6f426  r9 ffffff88  10 413fb014  fp 414e4534
+03-21 17:22:42.416 I/DEBUG   (  735):  ip 414e45e0  sp 41c6f3e0  lr 414d615c  pc 40065586  cpsr 40000030
+03-21 17:22:42.416 I/DEBUG   (  735):  d0  74416b656573200a  d1  64616f6c6e776f20
+03-21 17:22:42.416 I/DEBUG   (  735):  d2  73742e323431323d  d3  464e495458452320
+03-21 17:22:42.416 I/DEBUG   (  735):  d4  736f630a2c30313a  d5  575474746f706968
+03-21 17:22:42.416 I/DEBUG   (  735):  d6  3030303030315853  d7  3230303030303030
+03-21 17:22:42.416 I/DEBUG   (  735):  d8  0000000000000000  d9  0000000000000000
+03-21 17:22:42.416 I/DEBUG   (  735):  d10 0000000000000000  d11 0000000000000000
+03-21 17:22:42.416 I/DEBUG   (  735):  d12 0000000000000000  d13 0000000000000000
+03-21 17:22:42.416 I/DEBUG   (  735):  d14 0000000000000000  d15 0000000000000000
+03-21 17:22:42.416 I/DEBUG   (  735):  d16 0000000000000000  d17 3fefae147ae147ae
+03-21 17:22:42.416 I/DEBUG   (  735):  d18 4000000000000000  d19 3fcce748f8ed8687
+03-21 17:22:42.416 I/DEBUG   (  735):  d20 3f11504c209ef562  d21 bebbb370fb6f0b05
+03-21 17:22:42.416 I/DEBUG   (  735):  d22 3ff0000000000000  d23 3ff43d16aee00482
+03-21 17:22:42.416 I/DEBUG   (  735):  d24 3e66376972bea4d0  d25 0000000000000000
+03-21 17:22:42.416 I/DEBUG   (  735):  d26 0000000000000000  d27 0000000000000000
+03-21 17:22:42.416 I/DEBUG   (  735):  d28 0000000000000000  d29 0000000000000000
+03-21 17:22:42.416 I/DEBUG   (  735):  d30 0000000000000000  d31 0000000000000000
+03-21 17:22:42.416 I/DEBUG   (  735):  scr 80000010
+03-21 17:22:42.416 I/DEBUG   (  735): 
+03-21 17:22:42.544 I/DEBUG   (  735):          #00  pc 00022586  /system/lib/libc.so (strncpy)
+03-21 17:22:42.544 I/DEBUG   (  735):          #01  pc 0001d158  /system/lib/libmmcs.so (_ZN7android18ContentSource_M3U825sendRangeRequest_mutilurlEj)
+03-21 17:22:42.544 I/DEBUG   (  735): 
+03-21 17:22:42.544 I/DEBUG   (  735): code around pc:
+03-21 17:22:42.544 I/DEBUG   (  735): 40065564 3b01d1fb f8035d0d b90d5b01 e0023b01  ...;.]...[...;..
+03-21 17:22:42.544 I/DEBUG   (  735): 40065574 42a23401 2200d1f6 bd30701a b17ab510  .4.B...".p0...z.
+03-21 17:22:42.544 I/DEBUG   (  735): 40065584 f8114604 f8043b01 b9333b01 f804e001  .F...;...;3.....
+03-21 17:22:42.544 I/DEBUG   (  735): 40065594 f1123b01 d1fa32ff f112e002 d1f032ff  .;...2.......2..
+03-21 17:22:42.544 I/DEBUG   (  735): 400655a4 bf00bd10 460cb570 f7f34606 42a0efee  ....p..F.F.....B
+03-21 17:22:42.544 I/DEBUG   (  735): 
+03-21 17:22:42.544 I/DEBUG   (  735): code around lr:
+03-21 17:22:42.544 I/DEBUG   (  735): 414d613c e3a01000 e3a02b01 e1a00008 ebffc0bc  .....+..........
+03-21 17:22:42.544 I/DEBUG   (  735): 414d614c e2861004 e30023ff e1a00008 ebffc12a  .....#......*...
+03-21 17:22:42.544 I/DEBUG   (  735): 414d615c e3a03002 e5940030 e59d1020 e58d3030  .0..0... ...00..
+03-21 17:22:42.544 I/DEBUG   (  735): 414d616c eb000a0c e594002c e3500000 0a000000  ....,.....P.....
+03-21 17:22:42.544 I/DEBUG   (  735): 414d617c ebffc3ba e59f2414 e594503c e08f0002  .....$..<P......
+03-21 17:22:42.544 I/DEBUG   (  735): 
+03-21 17:22:42.544 I/DEBUG   (  735): stack:
+03-21 17:22:42.544 I/DEBUG   (  735):     41c6f3a0  00000000  
+03-21 17:22:42.544 I/DEBUG   (  735):     41c6f3a4  00000000  
+03-21 17:22:42.544 I/DEBUG   (  735):     41c6f3a8  00000000  
+03-21 17:22:42.544 I/DEBUG   (  735):     41c6f3ac  00000000  
+03-21 17:22:42.548 I/DEBUG   (  735):     41c6f3b0  00000000  
+03-21 17:22:42.548 I/DEBUG   (  735):     41c6f3b4  00000000  
+03-21 17:22:42.548 I/DEBUG   (  735):     41c6f3b8  00000000  
+03-21 17:22:42.548 I/DEBUG   (  735):     41c6f3bc  00000000  
+03-21 17:22:42.548 I/DEBUG   (  735):     41c6f3c0  00000000  
+03-21 17:22:42.548 I/DEBUG   (  735):     41c6f3c4  00000000  
+03-21 17:22:42.548 I/DEBUG   (  735):     41c6f3c8  000247f8  [heap]
+03-21 17:22:42.548 I/DEBUG   (  735):     41c6f3cc  00000000  
+03-21 17:22:42.548 I/DEBUG   (  735):     41c6f3d0  41c6f426  
+03-21 17:22:42.548 I/DEBUG   (  735):     41c6f3d4  000247f8  [heap]
+03-21 17:22:42.548 I/DEBUG   (  735):     41c6f3d8  df0027ad  
+03-21 17:22:42.548 I/DEBUG   (  735):     41c6f3dc  00000000  
+03-21 17:22:42.548 I/DEBUG   (  735): #00 41c6f3e0  000247f8  [heap]
+03-21 17:22:42.548 I/DEBUG   (  735):     41c6f3e4  414d615c  /system/lib/libmmcs.so
+03-21 17:22:42.548 I/DEBUG   (  735): #01 41c6f3e8  00000000  
+03-21 17:22:42.548 I/DEBUG   (  735):     41c6f3ec  00000000  
+03-21 17:22:42.548 I/DEBUG   (  735):     41c6f3f0  00000000  
+03-21 17:22:42.548 I/DEBUG   (  735):     41c6f3f4  00000000  
+03-21 17:22:42.548 I/DEBUG   (  735):     41c6f3f8  00000000  
+03-21 17:22:42.548 I/DEBUG   (  735):     41c6f3fc  00000000  
+03-21 17:22:42.548 I/DEBUG   (  735):     41c6f400  00000000  
+03-21 17:22:42.552 I/DEBUG   (  735):     41c6f404  00024820  [heap]
+03-21 17:22:42.552 I/DEBUG   (  735):     41c6f408  41c6f418  
+03-21 17:22:42.552 I/DEBUG   (  735):     41c6f40c  41c6f420  
+03-21 17:22:42.552 I/DEBUG   (  735):     41c6f410  00000000  
+03-21 17:22:42.552 I/DEBUG   (  735):     41c6f414  ffffff38  
+03-21 17:22:42.552 I/DEBUG   (  735):     41c6f418  00000000  
+03-21 17:22:42.552 I/DEBUG   (  735):     41c6f41c  00000000  
+03-21 17:22:42.552 I/DEBUG   (  735):     41c6f420  00000000  
+03-21 17:22:42.552 I/DEBUG   (  735):     41c6f424  00000000  
+03-21 17:22:42.552 I/DEBUG   (  735):     41c6f428  00000000  
+03-21 17:22:42.552 I/DEBUG   (  735):     41c6f42c  00000000  
+03-21 17:22:43.896 I/BootReceiver(  948): Copying /data/tombstones/tombstone_01 to DropBox (SYSTEM_TOMBSTONE)
+03-21 17:22:43.916 W/AudioSystem( 1764): AudioFlinger server died!
+03-21 17:22:43.916 W/IMediaDeathNotifier( 1764): media server died
+03-21 17:22:43.916 E/MediaPlayer( 1764): error (100, 0)
+03-21 17:22:43.916 W/AudioSystem(  948): AudioFlinger server died!
+03-21 17:22:43.916 W/AudioSystem(  948): AudioPolicyService server died!
+03-21 17:22:43.916 E/MediaPlayer.java( 1764): Error (100,0)
+03-21 17:22:43.916 E/MediaControler( 1764): onError:100--0
+03-21 17:22:43.916 D/VideoPlayer( 1764): onPlayCompletion
+03-21 17:22:43.935 I/ServiceManager(  732): service 'media.audio_flinger' died
+03-21 17:22:43.935 I/ServiceManager(  732): service 'media.player' died
+03-21 17:22:43.935 I/ServiceManager(  732): service 'media.camera' died
+03-21 17:22:43.935 I/ServiceManager(  732): service 'media.audio_policy' died
+03-21 17:22:44.180 I/dalvikvm(  948): Jit: resizing JitTable from 4096 to 8192
+03-21 17:22:44.292 I/        ( 2024): ServiceManager: 0xfdc8
+03-21 17:22:44.296 E/audio_hw_btsco( 2024): open btsco device
+03-21 17:22:44.296 E/AudioFlinger( 2024): couldn't open audio hw device in audio.btsco (Success)
+03-21 17:22:44.296 I/AudioFlinger( 2024): Loaded btsco audio interface from Default audio HW HAL (audio)
+03-21 17:22:44.296 I/AudioFlinger( 2024): Using 'Default audio HW HAL' (audio.btsco) as the primary audio interface
+03-21 17:22:44.300 V/audio_hw_primary( 2024): 
+03-21 17:22:44.300 V/audio_hw_primary( 2024): adev_open -------------------- build Mar 18 2013 21:13:25
+03-21 17:22:44.300 E/AudioFlinger( 2024): couldn't open audio hw device in audio.primary (Success)
+03-21 17:22:44.300 I/AudioFlinger( 2024): Loaded primary audio interface from MStar audio HW HAL (audio)
+03-21 17:22:44.304 E/AudioFlinger( 2024): couldn't open audio hw device in audio.a2dp (Success)
+03-21 17:22:44.304 I/AudioFlinger( 2024): Loaded a2dp audio interface from A2DP Audio HW HAL (audio)
+03-21 17:22:44.308 I/CameraService( 2024): CameraService started (pid=2024)
+03-21 17:22:44.320 V/audio_hw_primary( 2024): adev_open_output_stream dev:2 fmt/chn/sr 0 0 0
+03-21 17:22:44.320 V/audio_hw_primary( 2024): adev_open_output_stream: Open PCM_OUT ch/sr/fmt 2/44100/0, ps/pc 1024/4
+03-21 17:22:44.320 I/tinyalsa( 2024): open /dev/snd/pcmC0D0p in Block mode
+03-21 17:22:44.348 V/audio_hw_primary( 2024): out_get_buffer_size:10ms=1024 frame, should 16 align!
+03-21 17:22:44.348 V/audio_hw_primary( 2024): out_get_latency ret 10ms
+03-21 17:22:44.348 V/audio_hw_primary( 2024): out_get_latency ret 10ms
+03-21 17:22:44.348 I/AudioFlinger( 2024): AudioFlinger's thread 0x21328 ready to run
+03-21 17:22:44.348 V/audio_hw_primary( 2024): out_get_latency ret 10ms
+03-21 17:22:44.360 V/audio_hw_primary( 2024): out_set_parameters: routing=2
+03-21 17:22:44.364 I/AudioPolicyService( 2024): Loaded audio policy from LEGACY Audio Policy HAL (audio_policy)
+03-21 17:22:45.156 D/MonitorCw880( 1595): currentRemoteHost is null ,continue
+03-21 17:22:45.420 E/AudioService(  948): Media server died.
+03-21 17:22:45.420 E/AudioService(  948): Media server started.
+03-21 17:22:45.420 V/audio_hw_primary( 2024): adev_set_parameters: restarting=true
+03-21 17:22:45.424 W/AudioPolicyManagerBase( 2024): setPhoneState() setting same state 0
+03-21 17:22:45.432 V/audio_hw_primary( 2024): out_get_latency ret 10ms
+03-21 17:22:45.432 V/audio_hw_primary( 2024): adev_set_parameters: restarting=false
+03-21 17:22:47.796 D/dalvikvm(  948): GC_CONCURRENT freed 756K, 62% free 3655K/9411K, paused 7ms+4ms
+03-21 17:22:48.940 D/VideoPlayer( 1764): onPause
+03-21 17:22:48.944 D/MediaControler( 1764): stop
+03-21 17:22:48.944 E/MediaPlayer( 1764): stop called in state 0
+03-21 17:22:48.944 E/MediaPlayer( 1764): error (-38, 0)
+03-21 17:22:48.952 W/AudioFlinger( 2024): session id 2 not found for pid 1764
+03-21 17:22:48.952 D/VideoPlayer( 1764): onPlayStop
+03-21 17:22:48.960 V/audio_hw_primary( 2024): out_get_latency ret 10ms
+03-21 17:22:48.968 W/MediaPlayer.java( 1764): mediaplayer went away with unhandled events
+03-21 17:22:49.068 D/OpenGLRenderer( 1764): Flushing caches (mode 0)
+03-21 17:22:49.484 D/HomePlayerLib( 1666): hostaddress count is 1
+03-21 17:22:49.584 D/MediaControler( 1764): onDestroy
+03-21 17:22:49.584 D/VideoPlayer( 1764): onPlayStop
+03-21 17:22:49.596 D/OtOService( 1764): TVContentReceiver: ACTION_TV_CONTENT_CHANGED, playType: 0 ,resourceCode: null
+03-21 17:22:49.640 D/dalvikvm( 1666): GC_CONCURRENT freed 2044K, 45% free 7339K/13187K, paused 3ms+5ms
